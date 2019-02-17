@@ -1,10 +1,5 @@
-/* eslint-disable require-jsdoc-except/require-jsdoc */
-
 import React from 'react';
 import { render } from 'react-dom';
-
-const App = () => (
-  <div>Hello</div>
-);
+import App from 'COMPONENTS/App';
 
 render(<App />, document.getElementById('root'));

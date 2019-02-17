@@ -1,5 +1,4 @@
 const { resolve } = require('path');
-const repoConf = require('../conf.repo');
 
 const JEST = resolve(__dirname);
 const ROOT = resolve(JEST, '../');

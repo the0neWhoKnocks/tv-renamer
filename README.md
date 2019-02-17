@@ -27,7 +27,7 @@ yarn
 npm i
 
 # Start dev server
-yarn start
+yarn start:dev
 # or
-npm start
+npm run start:dev
 ```

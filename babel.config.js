@@ -1,15 +1,15 @@
-const repoConf = require('./conf.repo');
+const { aliases } = require('./conf.repo');
 
 module.exports = (api) => {
   api.cache(true);
   
   // map alias' so files resolve
-  const aliases = {};
-  Object.keys(repoConf.aliases).forEach((alias) => {
-    aliases[alias] = repoConf.aliases[alias];
+  const _aliases = {};
+  Object.keys(aliases).forEach((alias) => {
+    _aliases[alias] = aliases[alias];
   });
   const moduleResolver = ['module-resolver', {
-    alias: aliases,
+    alias: _aliases,
   }];
   
   // Settings used for building npm distributable module
@@ -27,18 +27,6 @@ module.exports = (api) => {
             targets: {
               node: '8.9.1',
             },
-          }],
-          '@babel/preset-react',
-        ],
-      },
-      esm: {
-        plugins: [
-          moduleResolver,
-          'emotion',
-        ],
-        presets: [
-          ['@babel/preset-env', {
-            modules: false,
           }],
           '@babel/preset-react',
         ],

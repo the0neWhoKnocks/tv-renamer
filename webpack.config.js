@@ -1,18 +1,15 @@
-/* eslint-disable require-jsdoc-except/require-jsdoc */
-
 const { resolve } = require('path');
 const webpack = require('webpack');
 const WebpackAssetsManifest = require('webpack-assets-manifest');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin');
 const TidyPlugin = require('@noxx/webpack-tidy-plugin');
 const {
-  APP_NAME,
-  paths,
+  ENTRY,
+  SYSTEM_DIST_JS,
 } = require('./conf.repo');
 
+const MODE = process.env.MODE;
 const HASH_LENGTH = 5;
-const OUTPUT_DIR = paths.OUTPUT;
 const stats = {
   chunks: false,
   colors: true,
@@ -21,14 +18,15 @@ const stats = {
   modules: false,
 };
 
-const conf = (env, argv) => ({
+const conf = {
   entry: {
-    app: resolve(__dirname, './src/app.js'),
+    app: ENTRY,
   },
   externals: {
     'react': 'React',
     'react-dom': 'ReactDOM',
   },
+  mode: MODE,
   module: {
     rules: [
       {
@@ -51,7 +49,7 @@ const conf = (env, argv) => ({
     },
   },
   output: {
-    path: resolve(__dirname, OUTPUT_DIR),
+    path: SYSTEM_DIST_JS,
     // assigns the hashed name to the file
     filename: `[name]_[chunkhash:${ HASH_LENGTH }].js`,
     // Point sourcemap entries to original disk location (format as URL on Windows)
@@ -67,22 +65,6 @@ const conf = (env, argv) => ({
      */
     new webpack.HashedModuleIdsPlugin({
       hashDigestLength: HASH_LENGTH,
-    }),
-    /**
-     * Wires up the example HTML with generated bundles
-     */
-    new HtmlWebpackPlugin({
-      filename: 'index.html',
-      template: resolve(__dirname, './src/template.js'),
-      templateParameters: {
-        scripts: {
-          head: [
-            `react.${ (argv.mode === 'production') ? 'production.min' : 'development' }.js`,
-            `react-dom.${ (argv.mode === 'production') ? 'production.min' : 'development' }.js`,
-          ],
-        },
-        title: APP_NAME,
-      },
     }),
     /**
      * Generate a manifest file which contains a mapping of all asset filenames
@@ -104,6 +86,6 @@ const conf = (env, argv) => ({
     extensions: ['.js'],
   },
   stats: stats,
-});
+};
 
 module.exports = conf;

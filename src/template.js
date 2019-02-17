@@ -18,7 +18,7 @@ export default ({
     ? bundleScripts.map((script) => `<script type="text/javascript" src="${ script }"></script>`).join('\n')
     : '';
   const headScripts = scripts.head.map(
-    (src) => `<script type="text/javascript" src="./js/${ src }"></script>`
+    (src) => `<script type="text/javascript" src="${ src }"></script>`
   );
   
   return `

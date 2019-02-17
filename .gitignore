@@ -1,0 +1,10 @@
+# directories
+.coverage
+cjs
+dist
+esm
+node_modules
+
+# files
+*.log
+yarn.lock

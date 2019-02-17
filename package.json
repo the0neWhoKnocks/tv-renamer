@@ -1,0 +1,61 @@
+{
+  "name": "@noxx/tv-renamer",
+  "version": "1.0.0",
+  "description": "A local network app that allows for renaming TV shows",
+  "main": "index.js",
+  "scripts": {
+    "build:dist": "node ./bin/prepDist",
+    "lint": "eslint ./src/**/*.js",
+    "prepublishOnly": "npm run transpile && npm run wp:build",
+    "start": "cross-env BABEL_ENV=cjs PORT=9000 concurrently --kill-others -p {name} -n WEBPACK,SERVER -c black.bgCyan,black.bgMagenta \"npm run wp:watch\" \"npm run start:server\"",
+    "start:server": "node ./example/browsersync",
+    "test": "npm run lint && npm run unit",
+    "transpile": "npm run transpile:cjs && npm run transpile:esm",
+    "transpile:cjs": "cross-env BABEL_ENV=cjs babel ./src -d cjs --copy-files",
+    "transpile:esm": "cross-env BABEL_ENV=esm babel ./src -d esm --copy-files",
+    "unit": "cross-env BABEL_ENV=cjs jest --env=jsdom --config ./.jest/conf.jest.js",
+    "unit:watch": "npm run unit -- --watchAll",
+    "wp:build": "BABEL_ENV=cjs webpack --mode production",
+    "wp:watch": "BABEL_ENV=cjs webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the0neWhoKnocks/tv-renamer.git"
+  },
+  "author": "",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-emotion": "^10.0.7",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "concurrently": "^4.1.0",
+    "cross-env": "^5.2.0",
+    "debug": "^4.1.1",
+    "mkdirp": "^0.5.1",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "@emotion/core": "^10.0.7",
+    "@noxx/eslint-config": "^1.0.7",
+    "@noxx/webpack-tidy-plugin": "^2.0.2",
+    "browser-sync": "^2.26.3",
+    "emotion": "^10.0.7",
+    "emotion-server": "^10.0.7",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "eslint-plugin-require-jsdoc-except": "^1.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.1.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "simple-progress-webpack-plugin": "^1.1.2",
+    "webpack": "^4.24.0",
+    "webpack-assets-manifest": "^3.1.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

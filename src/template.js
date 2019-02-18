@@ -31,6 +31,10 @@ export default ({
         *, *::before, *::after {
           box-sizing: border-box;
         }
+        html, body {
+          padding: 0;
+          margin: 0;
+        }
         body {
           font-family: Helvetica, Arial, sans-serif;
           background: #eee;

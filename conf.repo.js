@@ -8,11 +8,13 @@ const DIST_JS = `${ PUBLIC }/js`;
 const API_PREFIX = '/api/v1';
 
 module.exports = {
-  API__CREDENTIALS: `${ API_PREFIX }/credentials`,
+  API__CONFIG: `${ API_PREFIX }/config`,
+  API__CONFIG_SAVE: `${ API_PREFIX }/config/save`,
   API__JWT: `${ API_PREFIX }/jwt`,
   API__SERIES_ID: `${ API_PREFIX }/series`,
   API__SERIES_EPISODES: `${ API_PREFIX }/episodes`,
   APP_NAME: 'TV Renamer',
+  CONFIG_PATH: `${ ROOT }/.config`,
   DIST,
   DIST_JS,
   DIST_SERVER: `${ DIST }/cjs/server`,
@@ -24,6 +26,7 @@ module.exports = {
   aliases: {
     COMPONENTS: `${ SRC }/components`,
     ROOT,
+    SERVER: `${ SRC }/server`,
     SRC,
     UTILS: `${ SRC }/utils`,
   },

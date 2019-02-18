@@ -1,10 +1,32 @@
-export const checkForCredentials = (res) => {
-  // TODO - check for local file containing:
-  // apikey, userkey, & username
-  // 
-  // If it doesn't exist - fail
-  // Else, return creds
-  res.end();
+import { readFile, writeFile } from 'fs';
+import { CONFIG_PATH } from 'ROOT/conf.repo';
+
+export const checkForConfig = ({ res }) => {
+  readFile(CONFIG_PATH, 'utf8', (err, config) => {
+    const data = (err) ? {} : JSON.parse(config);
+    
+    res.setHeader('Content-Type', 'application/json; charset=utf-8');
+    res.end(JSON.stringify(data));
+  });
+};
+
+export const updateConfig = ({ data, res }) => {
+  readFile(CONFIG_PATH, (err, config) => {
+    const _config = (err) ? {} : JSON.parse(config);
+    
+    Object.keys(data).forEach((key) => {
+      const val = data[key];
+      // delete blank values if they previously existed
+      if(!val && _config[key]) delete _config[key];
+      // or update/add the new value
+      else _config[key] = val;
+    });
+    
+    writeFile(CONFIG_PATH, JSON.stringify(_config, null, 2), 'utf8', (err) => {
+      res.setHeader('Content-Type', 'application/json; charset=utf-8');
+      res.end(JSON.stringify(_config));
+    });
+  });
 };
 
 export const getJWT = (res) => {

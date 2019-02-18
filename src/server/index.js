@@ -1,15 +1,17 @@
 import http from 'http';
 import {
-  API__CREDENTIALS,
+  API__CONFIG,
+  API__CONFIG_SAVE,
   API__JWT,
   API__SERIES_ID,
   API__SERIES_EPISODES,
 } from 'ROOT/conf.repo';
 import {
-  checkForCredentials,
+  checkForConfig,
   getJWT,
   getSeriesId,
   getSeriesEpisodes,
+  updateConfig,
 } from './routeHandlers/api/v1';
 import handleError from './routeHandlers/error';
 import handleRootRequest from './routeHandlers/root';
@@ -21,7 +23,8 @@ const port = +process.env.PORT || 3001;
 http
   .createServer(requestHandler([
     ['/', handleRootRequest],
-    [API__CREDENTIALS, checkForCredentials],
+    [API__CONFIG, checkForConfig],
+    [API__CONFIG_SAVE, updateConfig],
     [API__JWT, getJWT],
     [API__SERIES_ID, getSeriesId],
     [API__SERIES_EPISODES, getSeriesEpisodes],

@@ -15,19 +15,20 @@ const mimeTypes = {
   '.ttf': 'aplication/font-sfnt',
 };
 
-export default (res, cleanPath) => {
+export default (opts, cleanPath) => {
+  const { res } = opts;
   const file = join(SYSTEM_PUBLIC, cleanPath);
   
   exists(file, (exist) => {
     if(!exist) {
-      handleError(res, 404, `File ${ file } not found!`);
+      handleError(opts, 404, `File ${ file } not found!`);
       return;
     }
 
     // read file from file system
     readFile(file, (err, data) => {
       if(err){
-        handleError(res, 500, `Error reading file: ${ err }.`);
+        handleError(opts, 500, `Error reading file: ${ err }.`);
       }
       else{
         // based on the URL path, extract the file extention. e.g. .js, .doc, ...

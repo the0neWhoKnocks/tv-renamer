@@ -18,7 +18,7 @@ const prodMode = process.env.MODE === 'production';
 const relativeJS = DIST_JS.replace(PUBLIC, '');
 const relativeVendor = DIST_VENDOR.replace(PUBLIC, '');
 
-export default (res) => {
+export default ({ res }) => {
   const bundleScripts = JSON.parse(readFileSync(
     `${ SYSTEM_DIST_JS }/manifest.json`,
     'utf8'

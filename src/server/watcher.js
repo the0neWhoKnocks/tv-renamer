@@ -3,6 +3,7 @@ import { parse } from 'path';
 import { create } from 'browser-sync';
 import nodemon from 'nodemon';
 import {
+  DIST,
   DIST_JS,
   DIST_SERVER,
 } from 'ROOT/conf.repo';
@@ -45,6 +46,7 @@ nodemon({
     // WP bundled new code
     `./${ DIST_JS }/manifest.json`,
     // The server has updated
+    `./${ DIST }/cjs/template.js`,
     `./${ DIST_SERVER }/**/*.js`,
   ],
 })

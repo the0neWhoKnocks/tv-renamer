@@ -1,25 +1,51 @@
-import React, { Component } from 'react';
-import { func, string } from 'prop-types';
+import React, { Component, Fragment } from 'react';
+import { bool, func, number, oneOfType, shape, string } from 'prop-types';
 import {
   API__CONFIG_SAVE,
 } from 'ROOT/conf.repo';
 import fetch from 'UTILS/fetch';
-import styles from './styles';
+import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
+import styles, {
+  MODIFIER__READ_ONLY,
+  ROOT_CLASS,
+} from './styles';
+
+const formatTime = (timestamp) => new Date(timestamp).toLocaleString();
 
 const Item = ({
+  data,
   label,
   name,
+  readOnly,
   value,
-}) => (
-  <div className="config__item">
-    <label>{label}</label>
-    <input type="text" name={name} defaultValue={value} />
-  </div>
-);
+}) => {
+  const dataAttrs = {};
+  
+  if(data){
+    Object.keys(data).forEach((key) => {
+      dataAttrs[`data-${ key }`] = data[key];
+    });
+  }
+  
+  return (
+    <div 
+      className={`${ ROOT_CLASS }__item ${ (readOnly) ? MODIFIER__READ_ONLY : '' }`}
+      {...dataAttrs}
+    >
+      <label>{label}</label>
+      <input type="text" name={name} defaultValue={value} readOnly={readOnly} />
+    </div>
+  );
+};
 Item.propTypes = {
+  data: shape({}),
   label: string,
   name: string,
-  value: string,
+  readOnly: bool,
+  value: oneOfType([
+    number,
+    string,
+  ]),
 };
 
 class Config extends Component {
@@ -37,7 +63,7 @@ class Config extends Component {
   handleSaveClick() {
     const { onSaveComplete } = this.props;
     const data = {};
-    [...this.configRef.querySelectorAll('.config__item input')]
+    [...this.configRef.querySelectorAll(`.${ ROOT_CLASS }__item input:not(:read-only)`)]
       .forEach(({ name, value }) => {
         data[name] = value;
       });
@@ -57,19 +83,21 @@ class Config extends Component {
   render() {
     const {
       apiKey,
+      jwt,
+      jwtDate,
       userKey,
       userName,
     } = this.props;
     
     return (
       <div
-        className={`config ${ styles }`}
+        className={`${ ROOT_CLASS } ${ styles }`}
         ref={(ref) => { this.configRef = ref; }}
       >
         <section>
           <h2>TVDB</h2>
           {!apiKey && (
-            <div className="config__msg is--error">
+            <div className={`${ ROOT_CLASS }__msg is--error`}>
               No credentials for theTVDB have been found. You&apos;ll need to
               obtain the below info from your TVDB account.
             </div>
@@ -77,8 +105,22 @@ class Config extends Component {
           <Item label="API Key" name="apiKey" value={apiKey} />
           <Item label="User Key" name="userKey" value={userKey} />
           <Item label="User Name" name="userName" value={userName} />
+          {jwt && (
+            <Fragment>
+              <Item label="JWT" name="jwt" value={jwt} readOnly />
+              <Item
+                data={{
+                  'remaining-time': getRemainingJWTTime(jwtDate),
+                }}
+                label="JWT Time"
+                name="jwtDate"
+                value={ formatTime(jwtDate) }
+                readOnly
+              />
+            </Fragment>
+          )}
         </section>
-        <nav className="config__btm-nav">
+        <nav className={`${ ROOT_CLASS }__btm-nav`}>
           <button onClick={this.handleCloseClick}>Close</button>
           <button onClick={this.handleSaveClick}>Save</button>
         </nav>
@@ -90,6 +132,8 @@ Config.propTypes = {
   onClose: func,
   onSaveComplete: func,
   apiKey: string,
+  jwt: string,
+  jwtDate: number,
   userKey: string,
   userName: string,
 };

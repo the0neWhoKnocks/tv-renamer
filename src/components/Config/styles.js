@@ -1,12 +1,15 @@
 import { css } from 'emotion';
 
+export const MODIFIER__READ_ONLY = 'is--read-only';
+export const ROOT_CLASS = 'config';
+
 export default css`
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
 
-  .config {
+  .${ ROOT_CLASS } {
     
     &__item {
       margin: 0.5em 0;
@@ -17,7 +20,30 @@ export default css`
       }
       
       input {
+        width: 14em;
         display: inline-block;
+      }
+      
+      &[data-remaining-time]::after {
+        content: "~ " attr(data-remaining-time) " Hours Remaining on JWT";
+        font-family: monospace;
+        text-align: right;
+        padding: 0.25em;
+        display: block;
+        opacity: 0.5;
+      }
+      
+      &.${ MODIFIER__READ_ONLY } {
+        
+        label {
+          font-style: italic;
+          opacity: 0.5;
+        }
+        
+        input {
+          color: #999;
+          font-style: italic;
+        }
       }
     }
     

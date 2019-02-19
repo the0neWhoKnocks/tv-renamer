@@ -37,6 +37,7 @@
     "debug": "^4.1.1",
     "mkdirp": "^0.5.1",
     "nodemon": "^1.18.10",
+    "request": "^2.88.0",
     "rimraf": "^2.6.3"
   },
   "devDependencies": {

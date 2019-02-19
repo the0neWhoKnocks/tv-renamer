@@ -68,6 +68,11 @@ export default ({
           display: inline-block;
           vertical-align: top;
         }
+        #__bs_notify__ {
+          opacity: 0.25;
+          pointer-events: none;
+          transform: translateY(2em);
+        }
         .loading-msg {
           text-align: center;
           padding: 0.5em 0.75em 0.5em 0.75em;

@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import Config from 'COMPONENTS/Config';
 import {
   API__CONFIG,
+  API__JWT,
 } from 'ROOT/conf.repo';
 import fetch from 'UTILS/fetch';
+import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles from './styles';
 
 class App extends Component {
@@ -35,6 +37,22 @@ class App extends Component {
     this.checkCredentials();
   }
   
+  componentDidUpdate(prevProps, prevState) {
+    if(this.state.config){
+      if(
+        // JWT doesn't exist
+        !this.state.config.jwt
+        // OR - there's a JWT, but it's older than 24 hours (or about to expire)
+        || (
+          this.state.config.jwt
+          && getRemainingJWTTime(this.state.config.jwtTime) <= 1
+        )
+      ) {
+        this.getJWT();
+      }
+    }
+  }
+  
   checkCredentials() {
     const state = { loaded: true };
     
@@ -51,6 +69,22 @@ class App extends Component {
       })
       .catch((err) => {
         console.error(err);
+      });
+  }
+  
+  getJWT() {
+    const { apiKey, userKey, userName } = this.state.config;
+    
+    fetch(API__JWT, {
+      method: 'POST',
+      body: JSON.stringify({
+        apiKey,
+        userKey,
+        userName,
+      }),
+    })
+      .then((config) => {
+        this.setState({ config });
       });
   }
   

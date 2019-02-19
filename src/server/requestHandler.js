@@ -17,6 +17,7 @@ export default (routes) => async (req, res) => {
         resolve();
         break;
         
+      case 'POST':
       case 'PUT': {
         let body = '';
         req.on('data', (chunk) => {
@@ -41,7 +42,7 @@ export default (routes) => async (req, res) => {
       // every handler needs the response
       args = [{
         res,
-        data: reqData,
+        reqData,
       }];
       // some handlers pass custom args
       if(routeArgs) args = [...args, ...routeArgs];

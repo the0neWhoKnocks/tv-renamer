@@ -9,7 +9,8 @@ const SRC = `${ ROOT }/src`;
 const DIST = 'dist';
 const PUBLIC = `${ DIST }/public`;
 const DIST_JS = `${ PUBLIC }/js`;
-const TMP = `${ ROOT }/.tmp`;
+const IGNORE = `${ ROOT }/.ignore`;
+const TMP = `${ IGNORE }/tmp`;
 
 module.exports = {
   API__CONFIG: `${ API_PREFIX }/config`,

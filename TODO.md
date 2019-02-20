@@ -8,6 +8,7 @@
 - [x] TVDB credentials
 - [x] JWT info
 - [ ] Extensions filter `.[avi,mkv,mp4]`
+- [x] Don't allow Save if nothing's changed
 
 ---
 

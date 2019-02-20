@@ -45,7 +45,7 @@ class App extends Component {
         // OR - there's a JWT, but it's older than 24 hours (or about to expire)
         || (
           this.state.config.jwt
-          && getRemainingJWTTime(this.state.config.jwtTime) <= 1
+          && getRemainingJWTTime(this.state.config.jwtDate) <= 1
         )
       ) {
         this.getJWT();

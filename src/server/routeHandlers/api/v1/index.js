@@ -38,7 +38,7 @@ const saveConfig = (data, res, cb) => {
 
 const tvdbRequestProps = ({
   jwt,
-}) => {
+} = {}) => {
   const headers = {
     Accept: TVDB_API__VERSION_HEADER,
     'Accept-Language': 'en',

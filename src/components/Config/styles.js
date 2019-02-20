@@ -4,10 +4,6 @@ export const MODIFIER__READ_ONLY = 'is--read-only';
 export const ROOT_CLASS = 'config';
 
 export default css`
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
 
   .${ ROOT_CLASS } {
     
@@ -21,6 +17,8 @@ export default css`
       
       input {
         width: 14em;
+        padding: 0.2em 0.5em;
+        border: solid 1px;
         display: inline-block;
       }
       

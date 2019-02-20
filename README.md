@@ -31,3 +31,5 @@ yarn start:dev
 # or
 npm run start:dev
 ```
+
+Utilizing the [TVDB's API](https://api.thetvdb.com/swagger)

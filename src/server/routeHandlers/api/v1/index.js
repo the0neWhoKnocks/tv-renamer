@@ -1,6 +1,14 @@
 import { readFile, writeFile } from 'fs';
 import request from 'request';
-import { CONFIG_PATH } from 'ROOT/conf.repo';
+import {
+  CONFIG_PATH,
+  TVDB_API__EPISODES_URL,
+  TVDB_API__LOGIN_URL,
+  TVDB_API__SERIES_URL,
+  TVDB_API__VERSION_HEADER,
+  TVDB__TOKEN__SERIES_ID,
+  TVDB__TOKEN__SERIES_NAME,
+} from 'ROOT/conf.repo';
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'UTILS/jsonResp';
 
@@ -28,6 +36,23 @@ const saveConfig = (data, res, cb) => {
   });
 };
 
+const tvdbRequestProps = ({
+  jwt,
+}) => {
+  const headers = {
+    Accept: TVDB_API__VERSION_HEADER,
+    'Accept-Language': 'en',
+    'Content-Type': 'application/json',
+  };
+  
+  if(jwt) headers.Authorization = `Bearer ${ jwt }`;
+  
+  return {
+    headers,
+    json: true,
+  };  
+};
+
 export const checkForConfig = ({ res }) => {
   loadConfig((config) => {
     jsonResp(res, config);
@@ -44,19 +69,14 @@ export const getJWT = ({ reqData, res }) => {
   const { apiKey, userKey, userName } = reqData;
   
   request.post(
-    'https://api.thetvdb.com/login',
+    TVDB_API__LOGIN_URL,
     {
       body: {
         apikey: apiKey,
         userkey: userKey,
         username: userName,
       },
-      headers: {
-        Accept: 'application/vnd.thetvdb.v2.2.0',
-        'Accept-Language': 'en',
-        'Content-Type': 'application/json',
-      },
-      json: true,
+      ...tvdbRequestProps(),
     },
     (err, resp, data) => {
       if(err) handleError(res, resp.statusCode, err);
@@ -72,11 +92,6 @@ export const getJWT = ({ reqData, res }) => {
       }
     }
   );
-  
-  // TODO - Use credentials to get JWT `token`
-  // Store in credentials with a timestamp. If the token is
-  // older than 24 hours, get a new one.
-  
 };
 
 export const getSeriesId = ({ res }) => {
@@ -84,12 +99,34 @@ export const getSeriesId = ({ res }) => {
   // - Store name and id in DB to make future lookups faster
   // - Returns an Array, so if there's more than one result, prompt the user
   // to choose.
-  res.end();
+  // TODO - the 'series name' needs to be encoded. It may already come through
+  // as such from the request, will need to check.
+  
+  loadConfig(({ jwt }) => {
+    request.get(
+      TVDB_API__SERIES_URL.replace(TVDB__TOKEN__SERIES_NAME, 'encoded seriesName'),
+      {
+        // qs
+        ...tvdbRequestProps({ jwt }),
+      },
+    );
+    // res.end();
+  });
 };
 
 export const getSeriesEpisodes = ({ res }) => {
   // TODO - This returns all episodes for every season, so cache the episode
   // numbers along with their titles.
   // `airedSeason`, `airedEpisodeNumber`, `episodeName`
-  res.end();
+  
+  loadConfig(({ jwt }) => {
+    request.get(
+      TVDB_API__EPISODES_URL.replace(TVDB__TOKEN__SERIES_ID, 'seriesID'),
+      {
+        // qs
+        ...tvdbRequestProps({ jwt }),
+      },
+    );
+    // res.end();
+  });
 };

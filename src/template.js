@@ -68,6 +68,12 @@ export default ({
           display: inline-block;
           vertical-align: top;
         }
+        button {
+          cursor: pointer;
+        }
+        button:disabled {
+          cursor: default;
+        }
         #__bs_notify__ {
           opacity: 0.25;
           pointer-events: none;

@@ -33,3 +33,9 @@ npm run start:dev
 ```
 
 Utilizing the [TVDB's API](https://api.thetvdb.com/swagger)
+
+#### Troubleshooting
+
+**App doesn't start on same port**
+Sometimes a process hangs and a zombie `node` process is locking the expected
+port, so just run `pkill -9 node` to kill all `node` processes.

@@ -64,5 +64,26 @@ export default css`
         margin: 0 0.5em;
       }
     }
+    
+    &__close-btn,
+    &__save-btn {
+      color: #333;
+      font-weight: bold;
+      border: solid 1px;
+      border-radius: 0.25em;
+      background: linear-gradient(#f5f5f5, #d2d2d2);
+      
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+    
+    &__save-btn {
+      
+      &:not(:disabled) {
+        color: #16614f;
+        background: linear-gradient(#f5f5f5, #9cf3db);
+      }
+    }
   }
 `;

@@ -1,5 +1,6 @@
 # directories
 .coverage
+.tmp
 cjs
 dist
 esm

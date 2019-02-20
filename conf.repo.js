@@ -6,6 +6,7 @@ const DIST = 'dist';
 const PUBLIC = `${ DIST }/public`;
 const DIST_JS = `${ PUBLIC }/js`;
 const API_PREFIX = '/api/v1';
+const TMP = `${ ROOT }/.tmp`;
 
 module.exports = {
   API__CONFIG: `${ API_PREFIX }/config`,
@@ -23,6 +24,9 @@ module.exports = {
   PUBLIC,
   SYSTEM_DIST_JS: `${ ROOT }/${ DIST_JS }`,
   SYSTEM_PUBLIC: `${ ROOT }/${ PUBLIC }`,
+  TMP,
+  TMP_OUTPUT: `${ TMP }/output`,
+  TMP_SRC: `${ TMP }/src`,
   aliases: {
     COMPONENTS: `${ SRC }/components`,
     ROOT,

@@ -6,6 +6,7 @@
   "scripts": {
     "build:app": "cross-env BABEL_ENV=cjs MODE=production webpack",
     "build:dist": "node ./bin/prepDist && npm run transpile",
+    "gen:files": "node ./bin/genFiles",
     "lint": "eslint ./src/**/*.js",
     "start": "npm run build:dist && npm run build:app",
     "start:dev": "npm run build:dist && cross-env BABEL_ENV=cjs PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",

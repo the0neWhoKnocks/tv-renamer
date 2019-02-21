@@ -23,16 +23,14 @@ export default css`
   .${ ROOT_CLASS } {
     
     &__indicator {
-      width: 0.5em;
-      height: 0.5em;
-      border-radius: 100%;
-      margin-left: 0.25em;
-      
-      
+      width: 0.4em;
+      height: 0.75em;
+      border-radius: 0.15em;
+      margin-left: 0.15em;
       background: radial-gradient(#fff 15%, #d24d00);
       box-shadow: 0 0 18px 2px #ff5200;
-      
       position: absolute;
+      z-index: 1;
       top: 50%;
       left: 100%;
       transform: translateY(-50%);
@@ -53,6 +51,16 @@ export default css`
   }
   
   &.${ MODIFIER__REQUIRED } {
+    
+    &::after {
+      content: '';
+      width: 0.8em;
+      border-radius: 0 0.25em 0.25em 0;
+      background: #333;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+    }
     
     input:valid ~ .${ ROOT_CLASS }__indicator {
       background: radial-gradient(#fff 15%, #35c597);

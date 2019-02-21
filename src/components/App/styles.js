@@ -22,7 +22,6 @@ export default css`
       bottom: 0;
       visibility: hidden;
       display: flex;
-      align-items: center;
       justify-content: center;
       
       &.is--visible {

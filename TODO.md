@@ -9,6 +9,8 @@
 - [x] JWT info
 - [ ] Extensions filter `.[avi,mkv,mp4]`
 - [x] Don't allow Save if nothing's changed
+- [x] Don't allow Close if required items are blank
+
 
 ---
 

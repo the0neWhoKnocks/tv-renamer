@@ -1,66 +1,25 @@
 import React, { Component, Fragment } from 'react';
-import { bool, func, number, oneOfType, shape, string } from 'prop-types';
+import { func, number, string } from 'prop-types';
+import ConfigItem, {
+  ROOT_CLASS as ITEM_ROOT_CLASS,
+} from './components/ConfigItem';
 import {
   API__CONFIG_SAVE,
 } from 'ROOT/conf.repo';
 import fetch from 'UTILS/fetch';
 import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
-  MODIFIER__READ_ONLY,
   ROOT_CLASS,
 } from './styles';
 
 const formatTime = (timestamp) => new Date(timestamp).toLocaleString();
-
-const Item = ({
-  data,
-  label,
-  name,
-  onChange,
-  readOnly,
-  value,
-}) => {
-  const dataAttrs = {};
-  
-  if(data){
-    Object.keys(data).forEach((key) => {
-      dataAttrs[`data-${ key }`] = data[key];
-    });
-  }
-  
-  return (
-    <div 
-      className={`${ ROOT_CLASS }__item ${ (readOnly) ? MODIFIER__READ_ONLY : '' }`}
-      {...dataAttrs}
-    >
-      <label>{label}</label>
-      <input
-        defaultValue={value}
-        name={name}
-        onChange={onChange}
-        readOnly={readOnly}
-        type="text"
-      />
-    </div>
-  );
-};
-Item.propTypes = {
-  data: shape({}),
-  label: string,
-  name: string,
-  onChange: func,
-  readOnly: bool,
-  value: oneOfType([
-    number,
-    string,
-  ]),
-};
 
 class Config extends Component {
   constructor() {
     super();
     
     this.state = {
+      closeDisabled: false,
       saveDisabled: true,
     };
     
@@ -76,7 +35,7 @@ class Config extends Component {
   handleSaveClick() {
     const { onSaveComplete } = this.props;
     const data = {};
-    [...this.configRef.querySelectorAll(`.${ ROOT_CLASS }__item input:not(:read-only)`)]
+    [...this.configRef.querySelectorAll(`.${ ITEM_ROOT_CLASS } input:not(:read-only)`)]
       .forEach(({ name, value }) => {
         data[name] = value;
       });
@@ -93,28 +52,43 @@ class Config extends Component {
       });
   }
   
-  handleValueChange(ev) {
-    const { saveDisabled } = this.state;
-    const inputs = this.configRef.querySelectorAll(`.${ ROOT_CLASS }__item input:not(:read-only)`);
+  handleValueChange() {
+    const {
+      closeDisabled,
+      saveDisabled,
+    } = this.state;
+    const inputs = this.configRef.querySelectorAll(`.${ ITEM_ROOT_CLASS } input:not(:read-only)`);
+    const state = {};
     let enableSave = false;
+    let missingRequired = false;
     
     // Check all editiable items to see if their values are different than
     // what was passed in.
     for(let i=0; i<inputs.length; i++){
-      const { name, value } = inputs[i];
+      const { name, required, value } = inputs[i];
+      const inputProp = this.props[name];
+      const parsedValue = value.trim();
       
-      if( this.props[name] !== value.trim() ){
-        enableSave = true;
-        break;
-      }
+      // missing required items
+      if( required && parsedValue === '' ) missingRequired = true;
+      // the previously set value has changed
+      if( inputProp && inputProp !== parsedValue ) enableSave = true;
     }
     
-    if(saveDisabled && enableSave){
-      this.setState({ saveDisabled: false });
-    }
-    else if(!saveDisabled && !enableSave){
-      this.setState({ saveDisabled: true });
-    }
+    // disable Save if required items are missing
+    if( missingRequired ) enableSave = false;
+    
+    // turn Save on
+    if( saveDisabled && enableSave ) state.saveDisabled = false;
+    // turn Save off
+    else if( !saveDisabled && !enableSave ) state.saveDisabled = true;
+    
+    // turn Close off
+    if( !closeDisabled && missingRequired ) state.closeDisabled = true;
+    // turn Close on
+    else if( closeDisabled && !missingRequired ) state.closeDisabled = false;
+    
+    if( Object.keys(state).length ) this.setState(state);
   }
   
   render() {
@@ -122,10 +96,13 @@ class Config extends Component {
       apiKey,
       jwt,
       jwtDate,
+      outputFolder,
+      sourceFolder,
       userKey,
       userName,
     } = this.props;
     const {
+      closeDisabled,
       saveDisabled,
     } = this.state;
     
@@ -142,28 +119,31 @@ class Config extends Component {
               obtain the below info from your TVDB account.
             </div>
           )}
-          <Item
+          <ConfigItem
             label="API Key"
             name="apiKey"
             onChange={this.handleValueChange}
+            required
             value={apiKey}
           />
-          <Item
+          <ConfigItem
             label="User Key"
             name="userKey"
             onChange={this.handleValueChange}
+            required
             value={userKey}
           />
-          <Item
+          <ConfigItem
             label="User Name"
             name="userName"
             onChange={this.handleValueChange}
+            required
             value={userName}
           />
           {jwt && (
             <Fragment>
-              <Item label="JWT" name="jwt" value={jwt} readOnly />
-              <Item
+              <ConfigItem label="JWT" name="jwt" value={jwt} readOnly />
+              <ConfigItem
                 data={{
                   'remaining-time': getRemainingJWTTime(jwtDate),
                 }}
@@ -175,10 +155,16 @@ class Config extends Component {
             </Fragment>
           )}
         </section>
+        <section>
+          <h2>Folders</h2>
+          <ConfigItem label="Source" name="sourceFolder" value={sourceFolder} />
+          <ConfigItem label="Output" name="outputFolder" value={outputFolder} />
+        </section>
         <nav className={`${ ROOT_CLASS }__btm-nav`}>
           <button
             className={`${ ROOT_CLASS }__close-btn`}
             onClick={this.handleCloseClick}
+            disabled={closeDisabled}
           >Close</button>
           <button
             className={`${ ROOT_CLASS }__save-btn`}
@@ -193,9 +179,11 @@ class Config extends Component {
 Config.propTypes = {
   onClose: func,
   onSaveComplete: func,
+  outputFolder: string,
   apiKey: string,
   jwt: string,
   jwtDate: number,
+  sourceFolder: string,
   userKey: string,
   userName: string,
 };

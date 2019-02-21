@@ -6,14 +6,14 @@ export default (routes) => async (req, res) => {
   // Avoid https://en.wikipedia.org/wiki/Directory_traversal_attack
   // e.g curl --path-as-is http://localhost:9000/../fileInDanger.txt
   // by limiting the path to current directory only
-  const parsedReq = url.parse(req.url);
+  const parsedReq = url.parse(req.url, true);
   const cleanPath = normalize( parsedReq.pathname ).replace(/^(\.\.[/\\])+/, '');
   let path, handler, args, reqData, dataPromise;
   
   dataPromise = new Promise((resolve, reject) => {
     switch(req.method) {
       case 'GET':
-        reqData = parsedReq.query;
+        reqData = parsedReq.query || {};
         resolve();
         break;
         
@@ -24,7 +24,7 @@ export default (routes) => async (req, res) => {
           body += chunk.toString();
         });
         req.on('end', () => {
-          reqData = JSON.parse(body);
+          reqData = (body) ? JSON.parse(body) : {};
           resolve();
         });
         break;

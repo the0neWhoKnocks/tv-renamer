@@ -36,11 +36,14 @@ class ConfigItem extends Component {
     const {
       value,
     } = this.state;
-    
     const dataAttrs = {};
     let rootModifier = (readOnly) ? MODIFIER__READ_ONLY : '';
+    let pattern;
     
-    if(required) rootModifier += ` ${ MODIFIER__REQUIRED }`;
+    if(required) {
+      rootModifier += ` ${ MODIFIER__REQUIRED }`;
+      pattern = '.*\\S+.*';
+    }
     
     if(data){
       Object.keys(data).forEach((key) => {
@@ -57,6 +60,7 @@ class ConfigItem extends Component {
         <input
           name={name}
           onChange={this.handleChange}
+          pattern={pattern}
           readOnly={readOnly}
           required={required}
           type="text"

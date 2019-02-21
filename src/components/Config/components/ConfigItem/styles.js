@@ -27,8 +27,11 @@ export default css`
       height: 0.5em;
       border-radius: 100%;
       margin-left: 0.25em;
-      background: radial-gradient(#fff 15%, #35c597);
-      box-shadow: 0 0 18px 2px #2ae8ab;
+      
+      
+      background: radial-gradient(#fff 15%, #d24d00);
+      box-shadow: 0 0 18px 2px #ff5200;
+      
       position: absolute;
       top: 50%;
       left: 100%;
@@ -51,9 +54,9 @@ export default css`
   
   &.${ MODIFIER__REQUIRED } {
     
-    input[value=""] ~ .${ ROOT_CLASS }__indicator {
-      background: radial-gradient(#fff 15%, #d24d00);
-      box-shadow: 0 0 18px 2px #ff5200;
+    input:valid ~ .${ ROOT_CLASS }__indicator {
+      background: radial-gradient(#fff 15%, #35c597);
+      box-shadow: 0 0 18px 2px #2ae8ab;
     }
   }
 `;

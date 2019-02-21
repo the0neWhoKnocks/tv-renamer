@@ -28,6 +28,10 @@ class Config extends Component {
     this.handleValueChange = this.handleValueChange.bind(this);
   }
   
+  componentDidMount() {
+    this.handleValueChange();
+  }
+  
   handleCloseClick() {
     this.props.onClose();
   }
@@ -71,8 +75,12 @@ class Config extends Component {
       
       // missing required items
       if( required && parsedValue === '' ) missingRequired = true;
-      // the previously set value has changed
-      if( inputProp && inputProp !== parsedValue ) enableSave = true;
+      if(
+        // the previously set value has changed
+        ( inputProp && inputProp !== parsedValue )
+        // OR - there was no initial value on load, but the user has entered one
+        || ( !inputProp && parsedValue !== '' )
+      ) enableSave = true;
     }
     
     // disable Save if required items are missing

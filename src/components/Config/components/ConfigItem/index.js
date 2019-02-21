@@ -7,16 +7,21 @@ import styles, {
 } from './styles';
 
 class ConfigItem extends Component {
-  static getDerivedStateFromProps(props) {
-    return { value: props.value };
-  }
-  
   constructor({ value }) {
     super();
     
     this.state = { value };
     
     this.handleChange = this.handleChange.bind(this);
+  }
+  
+  componentDidUpdate(prevProps, prevState) {
+    const { value } = this.props;    
+    
+    if(prevProps.value !== value) this.setState({ value });
+    if(prevState.value !== this.state.value) this.setState({
+      value: this.state.value,
+    });
   }
   
   handleChange(ev) {

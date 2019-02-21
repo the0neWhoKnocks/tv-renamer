@@ -3,6 +3,7 @@ import { func, number, string } from 'prop-types';
 import ConfigItem, {
   ROOT_CLASS as ITEM_ROOT_CLASS,
 } from './components/ConfigItem';
+import FolderPicker from './components/FolderPicker';
 import {
   API__CONFIG_SAVE,
 } from 'ROOT/conf.repo';
@@ -165,8 +166,20 @@ class Config extends Component {
         </section>
         <section>
           <h2>Folders</h2>
-          <ConfigItem label="Source" name="sourceFolder" value={sourceFolder} />
-          <ConfigItem label="Output" name="outputFolder" value={outputFolder} />
+          <FolderPicker
+            label="Source"
+            name="sourceFolder"
+            onChange={this.handleValueChange}
+            required
+            value={sourceFolder}
+          />
+          <FolderPicker
+            label="Output"
+            name="outputFolder"
+            onChange={this.handleValueChange}
+            required
+            value={outputFolder}
+          />
         </section>
         <nav className={`${ ROOT_CLASS }__btm-nav`}>
           <button

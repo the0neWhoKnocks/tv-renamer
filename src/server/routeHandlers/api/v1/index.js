@@ -1,4 +1,14 @@
-import { readFile, writeFile } from 'fs';
+import {
+  lstatSync,
+  readdirSync,
+  readFile,
+  writeFile,
+} from 'fs';
+import {
+  join,
+  resolve,
+  sep,
+} from 'path';
 import request from 'request';
 import {
   CONFIG_PATH,
@@ -62,6 +72,26 @@ export const checkForConfig = ({ res }) => {
 export const updateConfig = ({ reqData, res }) => {
   saveConfig(reqData, res, (config) => {
     jsonResp(res, config);
+  });
+};
+
+export const getFolderListing = ({ reqData, res }) => {
+  // if a path isn't specified, start at root of server
+  const currentDirectory = (reqData.path)
+    ? reqData.path
+    : resolve(__dirname, '../../../../');
+  
+  const getDirectories = (source) => {
+    const isDirectory = (name) => lstatSync(join(source, name)).isDirectory();
+    return readdirSync(source)
+      .map(name => name)
+      .filter(isDirectory);
+  };
+  
+  jsonResp(res, {
+    current: currentDirectory,
+    folders: getDirectories(currentDirectory),
+    separator: sep,
   });
 };
 

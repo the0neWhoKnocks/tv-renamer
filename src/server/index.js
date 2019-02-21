@@ -2,12 +2,14 @@ import http from 'http';
 import {
   API__CONFIG,
   API__CONFIG_SAVE,
+  API__FOLDER_LIST,
   API__JWT,
   API__SERIES_ID,
   API__SERIES_EPISODES,
 } from 'ROOT/conf.repo';
 import {
   checkForConfig,
+  getFolderListing,
   getJWT,
   getSeriesId,
   getSeriesEpisodes,
@@ -25,6 +27,7 @@ http
     ['/', handleRootRequest],
     [API__CONFIG, checkForConfig],
     [API__CONFIG_SAVE, updateConfig],
+    [API__FOLDER_LIST, getFolderListing],
     [API__JWT, getJWT],
     [API__SERIES_ID, getSeriesId],
     [API__SERIES_EPISODES, getSeriesEpisodes],

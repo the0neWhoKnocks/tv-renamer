@@ -7,6 +7,10 @@ import styles, {
 } from './styles';
 
 class ConfigItem extends Component {
+  static getDerivedStateFromProps(props) {
+    return { value: props.value };
+  }
+  
   constructor({ value }) {
     super();
     
@@ -37,12 +41,25 @@ class ConfigItem extends Component {
       value,
     } = this.state;
     const dataAttrs = {};
+    const inputProps = {
+      name,
+      readOnly,
+      required,
+      type: 'text',
+    };
     let rootModifier = (readOnly) ? MODIFIER__READ_ONLY : '';
-    let pattern;
+    
+    if(readOnly){
+      inputProps.defaultValue = value;
+    }
+    else{
+      inputProps.onChange = this.handleChange;
+      inputProps.value = value;
+    }
     
     if(required) {
       rootModifier += ` ${ MODIFIER__REQUIRED }`;
-      pattern = '.*\\S+.*';
+      inputProps.pattern = '.*\\S+.*';
     }
     
     if(data){
@@ -57,15 +74,7 @@ class ConfigItem extends Component {
         {...dataAttrs}
       >
         <label>{label}</label>
-        <input
-          name={name}
-          onChange={this.handleChange}
-          pattern={pattern}
-          readOnly={readOnly}
-          required={required}
-          type="text"
-          value={value}
-        />
+        <input {...inputProps} />
         {required && (
           <div className={`${ ROOT_CLASS }__indicator`} />
         )}
@@ -74,6 +83,9 @@ class ConfigItem extends Component {
   }
 }
 
+ConfigItem.defaultProps = {
+  value: '',
+};
 ConfigItem.propTypes = {
   data: shape({}),
   label: string,

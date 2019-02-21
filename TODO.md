@@ -4,7 +4,7 @@
 
 ## Config settings
 - [x] Generate on first run
-- [ ] Pick `source` and `output` folders
+- [x] Pick `source` and `output` folders
 - [x] TVDB credentials
 - [x] JWT info
 - [ ] Extensions filter `.[avi,mkv,mp4]`
@@ -44,5 +44,5 @@
 
 ## Server
 - [ ] Parse URL tokens
-- [ ] Service that can list folders in directory so a user can pick
+- [x] Service that can list folders in directory so a user can pick
       the `output`, and `source` directories.

@@ -95,6 +95,7 @@ export default ({
     <body>
       ${ noscriptMsg }
       <div id="root">${ _rootContent }</div>
+      <div id="portal"></div>
       ${ _bundleScripts }
     </body>
     </html>

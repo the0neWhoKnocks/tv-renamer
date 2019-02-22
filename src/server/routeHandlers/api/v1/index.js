@@ -1,11 +1,8 @@
 import {
-  lstatSync,
-  readdirSync,
   readFile,
   writeFile,
 } from 'fs';
 import {
-  join,
   resolve,
   sep,
 } from 'path';
@@ -20,6 +17,7 @@ import {
   TVDB__TOKEN__SERIES_NAME,
 } from 'ROOT/conf.repo';
 import handleError from 'SERVER/routeHandlers/error';
+import getDirectoryListing from 'SERVER/utils/getDirectoryListing';
 import jsonResp from 'UTILS/jsonResp';
 
 const loadConfig = (cb) => {
@@ -40,7 +38,7 @@ const saveConfig = (data, res, cb) => {
     });
     
     writeFile(CONFIG_PATH, JSON.stringify(config, null, 2), 'utf8', (err) => {
-      if(err) handleError(res, 500, err);
+      if(err) handleError({ res }, 500, err);
       else cb(config);
     });
   });
@@ -81,18 +79,17 @@ export const getFolderListing = ({ reqData, res }) => {
     ? reqData.path
     : resolve(__dirname, '../../../../');
   
-  const getDirectories = (source) => {
-    const isDirectory = (name) => lstatSync(join(source, name)).isDirectory();
-    return readdirSync(source)
-      .map(name => name)
-      .filter(isDirectory);
-  };
-  
-  jsonResp(res, {
-    current: currentDirectory,
-    folders: getDirectories(currentDirectory),
-    separator: sep,
-  });
+  getDirectoryListing(currentDirectory)
+    .then((folders) => {
+      jsonResp(res, {
+        current: currentDirectory,
+        folders,
+        separator: sep,
+      });
+    })
+    .catch((err) => {
+      handleError({ res }, 500, err);
+    });
 };
 
 export const getJWT = ({ reqData, res }) => {
@@ -109,7 +106,7 @@ export const getJWT = ({ reqData, res }) => {
       ...tvdbRequestProps(),
     },
     (err, resp, data) => {
-      if(err) handleError(res, resp.statusCode, err);
+      if(err) handleError({ res }, resp.statusCode, err);
       else{
         const confData = {
           jwt: data.token,

@@ -5,7 +5,11 @@ import {
   API__FOLDER_LIST,
 } from 'ROOT/conf.repo';
 import fetch from 'UTILS/fetch';
-import styles, { ROOT_CLASS } from './styles';
+import styles, {
+  MODIFIER__NOT_READABLE,
+  MODIFIER__NOT_WRITABLE,
+  ROOT_CLASS,
+} from './styles';
 
 class FolderDisplay extends Component {
   constructor({ current }) {
@@ -23,7 +27,7 @@ class FolderDisplay extends Component {
   }
   
   componentDidMount() {
-    this.getFolders();
+    this.getFolders(this.state.current);
   }
   
   getFolders(path) {
@@ -33,7 +37,7 @@ class FolderDisplay extends Component {
         this.setState(resp);
       })
       .catch((err) => {
-        console.error(err);
+        alert(err);
       });
   }
   
@@ -56,7 +60,9 @@ class FolderDisplay extends Component {
       folders,
       separator,
     } = this.state;
-    const pathItems = current.split(separator);
+    const pathItems = (current === separator)
+      ? [''] // when root is `/` it splits to ['', '']
+      : current.split(separator);
     let breadcrumbPath = [];
     
     return createPortal(
@@ -75,30 +81,34 @@ class FolderDisplay extends Component {
                   <button
                     key={`${ folder }_${ ndx }`}
                     className={`${ ROOT_CLASS }__breadcrumb-btn`}
-                    data-path={breadcrumbPath.join(separator)}
+                    data-path={breadcrumbPath.join(separator) || separator}
                     onClick={this.handleFolderClick}
                   >{folder || separator}</button>
                 );
               })}
             </div>
             <div className={`${ ROOT_CLASS }__folders`}>
-              {folders.map((folderPath, ndx) => {
-                const path = `${ current }${ separator }${ folderPath }`;
+              {folders.map(({ name, path, readable, writable }, ndx) => {
+                const btnModifier = (!readable) ? MODIFIER__NOT_READABLE : '';
+                const selectModifier = (!writable) ? MODIFIER__NOT_WRITABLE : '';
+                
                 return (
                   <div
-                    key={folderPath}
+                    key={name}
                     className={`${ ROOT_CLASS }__folder`}
                   >
                     <button
-                      className={`${ ROOT_CLASS }__folder-btn`}
+                      className={`${ ROOT_CLASS }__folder-btn ${ btnModifier }`}
                       data-path={path}
+                      disabled={!readable}
                       onClick={this.handleFolderClick}
-                    >{folderPath}</button>
+                    >{name}</button>
                     <button
-                      className={`${ ROOT_CLASS }__folder-select-btn`}
+                      className={`${ ROOT_CLASS }__folder-select-btn ${ selectModifier }`}
                       data-path={path}
+                      disabled={!writable}
                       onClick={this.handleFolderSelect}
-                    >Ok</button>
+                    >Choose</button>
                   </div>
                 );
               })}

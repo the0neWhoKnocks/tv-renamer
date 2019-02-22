@@ -1,6 +1,8 @@
 import { css } from 'emotion';
 
 export const ROOT_CLASS = 'folder-display';
+export const MODIFIER__NOT_READABLE = 'not--readable';
+export const MODIFIER__NOT_WRITABLE = 'not--writable';
 
 export default css`
   display: flex;
@@ -26,6 +28,7 @@ export default css`
     }
     
     &__body {
+      min-width: 80vw;
       max-width: 80vw;
       padding: 1em;
       border-radius: 0.5em;
@@ -52,8 +55,10 @@ export default css`
     }
     
     &__folders {
-      padding: 1em;
+      height: 100%;
+      margin-top: 1em;
       overflow: auto;
+      background: linear-gradient(#a7a7a7, #ddd);
       display: flex;
       flex-direction: column;
     }
@@ -67,11 +72,29 @@ export default css`
     &__folder-btn,
     &__folder-select-btn {
       padding: 0.5em 0.75em;
+      border: solid 1px #676767;
     }
     
     &__folder-btn {
       text-align: left;
+      border-radius: 0.5em 0 0 0.5em;
+      margin-right: 0.25em;
+      background: linear-gradient(#fff, #ddd);
       flex-grow: 1;
+      
+      &.${ MODIFIER__NOT_READABLE } {
+        opacity: 0.5;
+      }
+    }
+    
+    &__folder-select-btn {
+      border-radius: 0 0.5em 0.5em 0;
+      background: linear-gradient(#f1fdf1, #b8eab8);
+      
+      &.${ MODIFIER__NOT_WRITABLE } {
+        opacity: 0.5;
+        background: linear-gradient(#fff, #ddd);
+      }
     }
   }
 `;

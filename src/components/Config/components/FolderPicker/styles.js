@@ -1,6 +1,8 @@
 import { css } from 'emotion';
+import { ROOT_CLASS as ITEM_ROOT_CLASS } from '../ConfigItem/styles';
 
 export const ROOT_CLASS = 'folder-picker';
+const iconWidth = 2;
 
 export default css`
   position: relative;
@@ -19,7 +21,7 @@ export default css`
       left: 0;
       
       &-icon {
-        width: 2em;
+        width: ${ iconWidth }em;
         color: #ffa500;
         text-shadow: -1px 1px 1px #803b1b;
         border-right: solid 1px #ababab;
@@ -31,6 +33,16 @@ export default css`
         bottom: 0;
         right: 0;
       }
+    }
+  }
+  
+  .${ ITEM_ROOT_CLASS } {
+    
+    input {
+      text-align: left;
+      text-overflow: ellipsis;
+      direction: rtl;
+      padding-right: ${ iconWidth + 0.5 }em;
     }
   }
 `;

@@ -5,6 +5,7 @@
 ## Config settings
 - [x] Generate on first run
 - [x] Pick `source` and `output` folders
+  - [x] Use ellipsis for long paths so a user can see what folder was selected
 - [x] TVDB credentials
 - [x] JWT info
 - [ ] Extensions filter `.[avi,mkv,mp4]`
@@ -22,6 +23,8 @@
           renamed to. Once the preview has executed, have a Rename button
           appear that will rename, set permissions (if needed), and move the
           file.
+    - [ ] Allow for manually renaming a file for files that don't match normal
+          naming patterns.
   - 2nd section, a log of files that were renamed (From) -> (To)
     - [ ] Just load this on demand so that it's not eating up memory on every
           load.

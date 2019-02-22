@@ -56,7 +56,10 @@ class FolderPicker extends Component {
     
     return (
       <Fragment>
-        <div className={`${ ROOT_CLASS } ${ styles }`}>
+        <div
+          className={`${ ROOT_CLASS } ${ styles }`}
+          data-full-path={value}
+        >
           <ConfigItem
             label={label}
             name={name}

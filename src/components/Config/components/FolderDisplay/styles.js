@@ -10,6 +10,7 @@ export default css`
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 10;
   
   .${ ROOT_CLASS } {
     

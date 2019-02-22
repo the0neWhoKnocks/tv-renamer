@@ -58,7 +58,7 @@ class FolderPicker extends Component {
       <Fragment>
         <div
           className={`${ ROOT_CLASS } ${ styles }`}
-          data-full-path={value}
+          title={value}
         >
           <ConfigItem
             label={label}
@@ -75,6 +75,7 @@ class FolderPicker extends Component {
         </div>
         {showFolderDisplay && (
           <FolderDisplay
+            current={value}
             onClose={this.handleDisplayClose}
             onSelect={this.handleFolderSelection}
           />

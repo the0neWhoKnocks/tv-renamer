@@ -7,25 +7,6 @@ const iconWidth = 2;
 export default css`
   position: relative;
   
-  &:hover {
-    
-    &::after {
-      content: attr(data-full-path);
-      font-family: monospace;
-      font-size: 1.2em;
-      white-space: nowrap;
-      padding: 0.25em 0.5em;
-      border-radius: 0.25em;
-      box-shadow: 0 4px 7px 0px rgba(0,0,0,0.5);
-      background: #ffffb9;
-      position: absolute;
-      bottom: 124%;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 1;
-    }
-  }
-  
   .${ ROOT_CLASS } {
     
     &__btn {

@@ -26,9 +26,6 @@
           renamed to. Once the preview has executed, have a Rename button
           appear that will rename, set permissions (if needed), and move the
           file.
-    - [ ] Allow for manually renaming a file for files that don't match normal
-          naming patterns.
-          - [ ] On ENTER key `blur`, don't allow a newline.
   - 2nd section, a log of files that were renamed (From) -> (To)
     - [ ] Just load this on demand so that it's not eating up memory on every
           load.
@@ -47,6 +44,26 @@
 - [ ] Maybe cache the episode names as well so that it just becomes a lookup
       at that point.
 - [ ] Maybe have a Refresh button for a series to get new data.
+
+---
+
+## RenamableItem
+
+- [ ] Label
+  - [ ] Is `contenteditable` in case a file's name doesn't match normal 
+        naming patterns.
+    - [ ] On ENTER key, `blur`, don't allow a newline.
+- [ ] Rename preview. Maybe it overlays the item.
+- [ ] Alias button, opens modal
+  - [ ] Pattern (input) | Alias (input) | Test (button)
+    - [ ] Pattern has a regex toggle
+    - [ ] Pattern will start with the name of the item that was clicked
+    - [ ] Test will run the pattern on the original name, if matched, will
+          substitute match with Alias, and preview results.
+  - [ ] Preview (text)
+  - [ ] Cancel (button) | Save (button)
+- [ ] Delete button
+  - [ ] On  click, display confirmation modal
 
 ---
 

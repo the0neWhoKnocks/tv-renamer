@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Config from 'COMPONENTS/Config';
+import Modal from 'COMPONENTS/Modal';
 import {
   API__CONFIG,
   API__FILES_LIST,
@@ -17,23 +18,13 @@ class App extends Component {
       config: {},
       files: [],
       loaded: false,
-      overlay: null,
       renamedFiles: [],
+      showConfig: false,
     };
     
     this.handleConfigSave = this.handleConfigSave.bind(this);
     this.handleCloseConfig = this.handleCloseConfig.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
-    
-    this.overlays = {
-      config: () => (
-        <Config
-          onClose={this.handleCloseConfig}
-          onSaveComplete={this.handleConfigSave}
-          {...this.state.config}
-        />
-      ),
-    };
   }
   
   componentDidMount() {
@@ -65,7 +56,7 @@ class App extends Component {
           state.config = config;
         }
         else{
-          state.overlay = this.overlays.config();
+          state.showConfig = true;
         }
         
         this.setState(state, () => {
@@ -101,28 +92,27 @@ class App extends Component {
   }
   
   handleCloseConfig() {
-    this.setState({ overlay: null });
+    this.setState({ showConfig: false });
   }
   
   handleConfigSave(config) {
     this.setState({
       config,
-      overlay: null,
+      showConfig: false,
     });
   }
   
   handleOpenConfig() {
-    this.setState({ overlay: this.overlays.config() });
+    this.setState({ showConfig: true });
   }
   
   render() {
     const {
       files,
       loaded,
-      overlay,
       renamedFiles,
+      showConfig,
     } = this.state;
-    const overlayModifier = (overlay) ? 'is--visible' : '';
     
     if(!loaded) return <div>Loading</div>;
     
@@ -144,7 +134,10 @@ class App extends Component {
                     className="app__renamable"
                     data-dir={dir}
                   >
-                    <span contentEditable="true">{name}</span>
+                    <span
+                      contentEditable="true"
+                      suppressContentEditableWarning
+                    >{name}</span>
                     <span>{ext}</span>
                   </div>
                 )
@@ -158,7 +151,15 @@ class App extends Component {
             </div>
           </section>
         </div>
-        <div className={`app__overlay ${ overlayModifier }`}>{overlay}</div>
+        {showConfig && (
+          <Modal>
+            <Config
+              onClose={this.handleCloseConfig}
+              onSaveComplete={this.handleConfigSave}
+              {...this.state.config}
+            />
+          </Modal>
+        )}
       </div>
     );
   }

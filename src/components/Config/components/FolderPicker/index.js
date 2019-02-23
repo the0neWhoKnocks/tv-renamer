@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { bool, func, string } from 'prop-types';
+import Modal, { ModalConsumer } from 'COMPONENTS/Modal';
 import FolderDisplay from '../FolderDisplay';
 import ConfigItem from '../ConfigItem';
 import styles, {
@@ -13,30 +14,30 @@ class FolderPicker extends Component {
     super();
     
     this.state = {
-      showFolderDisplay: false,
+      showModal: false,
       value,
     };
     
     this.handleClick = this.handleClick.bind(this);
-    this.handleDisplayClose = this.handleDisplayClose.bind(this);
+    this.handleModalClose = this.handleModalClose.bind(this);
     this.handleFolderSelection = this.handleFolderSelection.bind(this);
   }
   
   handleClick(ev) {
     this.setState({
-      showFolderDisplay: true,
+      showModal: true,
     });
   }
   
-  handleDisplayClose() {
+  handleModalClose() {
     this.setState({
-      showFolderDisplay: false,
+      showModal: false,
     });
   }
   
   handleFolderSelection(value) {
     this.setState({
-      showFolderDisplay: false,
+      showModal: false,
       value,
     }, () => {
       this.props.onChange();
@@ -50,7 +51,7 @@ class FolderPicker extends Component {
       required,
     } = this.props;
     const {
-      showFolderDisplay,
+      showModal,
       value,
     } = this.state;
     
@@ -73,12 +74,16 @@ class FolderPicker extends Component {
             <div className={`${ ROOT_CLASS }__btn-icon`}>&#x1F5BF;</div>
           </button>
         </div>
-        {showFolderDisplay && (
-          <FolderDisplay
-            current={value}
-            onClose={this.handleDisplayClose}
-            onSelect={this.handleFolderSelection}
-          />
+        {showModal && (
+          <Modal
+            onMaskClick={this.handleModalClose}
+          >
+            <FolderDisplay
+              current={value}
+              onClose={this.handleModalClose}
+              onSelect={this.handleFolderSelection}
+            />
+          </Modal>
         )}
       </Fragment>
     );

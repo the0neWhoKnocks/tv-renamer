@@ -5,8 +5,12 @@ export const MODIFIER__REQUIRED = 'is--required';
 export const ROOT_CLASS = 'config-item';
 
 export default css`
+  white-space: nowrap;
   margin: 0.5em 0;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   
   label {
     min-width: 7em;
@@ -15,6 +19,7 @@ export default css`
   
   input {
     width: 14em;
+    flex-grow: 1;
     padding: 0.2em 0.5em;
     border: solid 1px;
     display: inline-block;
@@ -60,6 +65,7 @@ export default css`
       position: absolute;
       top: 0;
       bottom: 0;
+      left: 100%;
     }
     
     input:valid ~ .${ ROOT_CLASS }__indicator {

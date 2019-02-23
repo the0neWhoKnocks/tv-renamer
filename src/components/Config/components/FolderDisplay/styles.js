@@ -71,6 +71,7 @@ export default css`
     
     &__folder-btn,
     &__folder-select-btn {
+      white-space: nowrap;
       padding: 0.5em 0.75em;
       border: solid 1px #676767;
     }

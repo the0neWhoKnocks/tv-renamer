@@ -6,8 +6,15 @@ export const MODIFIER__REQUIRED = 'is--required';
 export const ROOT_CLASS = 'config';
 
 export default css`
+  overflow: auto;
 
   .${ ROOT_CLASS } {
+    
+    &__body {
+      min-width: 22em;
+      max-width: 26em;
+      padding: 0 1.5em;
+    }
     
     &__msg {
       padding: 1em;
@@ -57,6 +64,7 @@ export default css`
       content: "~ " attr(data-remaining-time) " Hours Remaining on JWT";
       font-family: monospace;
       text-align: right;
+      flex: 0 1 100%;
       padding: 0.25em;
       display: block;
       opacity: 0.5;

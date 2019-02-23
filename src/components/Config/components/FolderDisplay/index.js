@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { createPortal } from 'react-dom';
 import { func, string } from 'prop-types';
 import {
   API__FOLDER_LIST,
@@ -65,58 +64,55 @@ class FolderDisplay extends Component {
       : current.split(separator);
     let breadcrumbPath = [];
     
-    return createPortal(
-      (
-        <div className={`${ ROOT_CLASS } ${ styles }`}>
-          <button
-            className={`${ ROOT_CLASS }__mask`}
-            onClick={this.handleClose}
-          />
-          <div className={`${ ROOT_CLASS }__body`}>
-            <div className={`${ ROOT_CLASS }__breadcrumbs`}>
-              {pathItems.map((folder, ndx) => {
-                breadcrumbPath.push(folder);
-                
-                return (
+    return (
+      <div className={`${ ROOT_CLASS } ${ styles }`}>
+        <button
+          className={`${ ROOT_CLASS }__mask`}
+          onClick={this.handleClose}
+        />
+        <div className={`${ ROOT_CLASS }__body`}>
+          <div className={`${ ROOT_CLASS }__breadcrumbs`}>
+            {pathItems.map((folder, ndx) => {
+              breadcrumbPath.push(folder);
+              
+              return (
+                <button
+                  key={`${ folder }_${ ndx }`}
+                  className={`${ ROOT_CLASS }__breadcrumb-btn`}
+                  data-path={breadcrumbPath.join(separator) || separator}
+                  onClick={this.handleFolderClick}
+                >{folder || separator}</button>
+              );
+            })}
+          </div>
+          <div className={`${ ROOT_CLASS }__folders`}>
+            {folders.map(({ name, path, readable, writable }, ndx) => {
+              const btnModifier = (!readable) ? MODIFIER__NOT_READABLE : '';
+              const selectModifier = (!writable) ? MODIFIER__NOT_WRITABLE : '';
+              
+              return (
+                <div
+                  key={name}
+                  className={`${ ROOT_CLASS }__folder`}
+                >
                   <button
-                    key={`${ folder }_${ ndx }`}
-                    className={`${ ROOT_CLASS }__breadcrumb-btn`}
-                    data-path={breadcrumbPath.join(separator) || separator}
+                    className={`${ ROOT_CLASS }__folder-btn ${ btnModifier }`}
+                    data-path={path}
+                    disabled={!readable}
                     onClick={this.handleFolderClick}
-                  >{folder || separator}</button>
-                );
-              })}
-            </div>
-            <div className={`${ ROOT_CLASS }__folders`}>
-              {folders.map(({ name, path, readable, writable }, ndx) => {
-                const btnModifier = (!readable) ? MODIFIER__NOT_READABLE : '';
-                const selectModifier = (!writable) ? MODIFIER__NOT_WRITABLE : '';
-                
-                return (
-                  <div
-                    key={name}
-                    className={`${ ROOT_CLASS }__folder`}
-                  >
-                    <button
-                      className={`${ ROOT_CLASS }__folder-btn ${ btnModifier }`}
-                      data-path={path}
-                      disabled={!readable}
-                      onClick={this.handleFolderClick}
-                    >{name}</button>
-                    <button
-                      className={`${ ROOT_CLASS }__folder-select-btn ${ selectModifier }`}
-                      data-path={path}
-                      disabled={!writable}
-                      onClick={this.handleFolderSelect}
-                    >Choose</button>
-                  </div>
-                );
-              })}
-            </div>
+                  >{name}</button>
+                  <button
+                    className={`${ ROOT_CLASS }__folder-select-btn ${ selectModifier }`}
+                    data-path={path}
+                    disabled={!writable}
+                    onClick={this.handleFolderSelect}
+                  >Choose</button>
+                </div>
+              );
+            })}
           </div>
         </div>
-      ),
-      document.querySelector('#portal'),
+      </div>
     );
   }
 }

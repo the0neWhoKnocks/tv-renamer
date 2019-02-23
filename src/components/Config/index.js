@@ -120,79 +120,81 @@ class Config extends Component {
         className={`${ ROOT_CLASS } ${ styles }`}
         ref={(ref) => { this.configRef = ref; }}
       >
-        <section>
-          <h2>TVDB</h2>
-          {!apiKey && (
-            <div className={`${ ROOT_CLASS }__msg is--error`}>
-              No credentials for theTVDB have been found. You&apos;ll need to
-              obtain the below info from your TVDB account.
-            </div>
-          )}
-          <ConfigItem
-            label="API Key"
-            name="apiKey"
-            onChange={this.handleValueChange}
-            required
-            value={apiKey}
-          />
-          <ConfigItem
-            label="User Key"
-            name="userKey"
-            onChange={this.handleValueChange}
-            required
-            value={userKey}
-          />
-          <ConfigItem
-            label="User Name"
-            name="userName"
-            onChange={this.handleValueChange}
-            required
-            value={userName}
-          />
-          {jwt && (
-            <Fragment>
-              <ConfigItem label="JWT" name="jwt" value={jwt} readOnly />
-              <ConfigItem
-                data={{
-                  'remaining-time': getRemainingJWTTime(jwtDate),
-                }}
-                label="JWT Time"
-                name="jwtDate"
-                value={ formatTime(jwtDate) }
-                readOnly
-              />
-            </Fragment>
-          )}
-        </section>
-        <section>
-          <h2>Folders</h2>
-          <FolderPicker
-            label="Source"
-            name="sourceFolder"
-            onChange={this.handleValueChange}
-            required
-            value={sourceFolder}
-          />
-          <FolderPicker
-            label="Output"
-            name="outputFolder"
-            onChange={this.handleValueChange}
-            required
-            value={outputFolder}
-          />
-        </section>
-        <nav className={`${ ROOT_CLASS }__btm-nav`}>
-          <button
-            className={`${ ROOT_CLASS }__close-btn`}
-            onClick={this.handleCloseClick}
-            disabled={closeDisabled}
-          >Close</button>
-          <button
-            className={`${ ROOT_CLASS }__save-btn`}
-            onClick={this.handleSaveClick}
-            disabled={saveDisabled}
-          >Save</button>
-        </nav>
+        <div className={`${ ROOT_CLASS }__body`}>
+          <section>
+            <h2>TVDB</h2>
+            {!apiKey && (
+              <div className={`${ ROOT_CLASS }__msg is--error`}>
+                No credentials for theTVDB have been found. You&apos;ll need to
+                obtain the below info from your TVDB account.
+              </div>
+            )}
+            <ConfigItem
+              label="API Key"
+              name="apiKey"
+              onChange={this.handleValueChange}
+              required
+              value={apiKey}
+            />
+            <ConfigItem
+              label="User Key"
+              name="userKey"
+              onChange={this.handleValueChange}
+              required
+              value={userKey}
+            />
+            <ConfigItem
+              label="User Name"
+              name="userName"
+              onChange={this.handleValueChange}
+              required
+              value={userName}
+            />
+            {jwt && (
+              <Fragment>
+                <ConfigItem label="JWT" name="jwt" value={jwt} readOnly />
+                <ConfigItem
+                  data={{
+                    'remaining-time': getRemainingJWTTime(jwtDate),
+                  }}
+                  label="JWT Time"
+                  name="jwtDate"
+                  value={ formatTime(jwtDate) }
+                  readOnly
+                />
+              </Fragment>
+            )}
+          </section>
+          <section>
+            <h2>Folders</h2>
+            <FolderPicker
+              label="Source"
+              name="sourceFolder"
+              onChange={this.handleValueChange}
+              required
+              value={sourceFolder}
+            />
+            <FolderPicker
+              label="Output"
+              name="outputFolder"
+              onChange={this.handleValueChange}
+              required
+              value={outputFolder}
+            />
+          </section>
+          <nav className={`${ ROOT_CLASS }__btm-nav`}>
+            <button
+              className={`${ ROOT_CLASS }__close-btn`}
+              onClick={this.handleCloseClick}
+              disabled={closeDisabled}
+            >Close</button>
+            <button
+              className={`${ ROOT_CLASS }__save-btn`}
+              onClick={this.handleSaveClick}
+              disabled={saveDisabled}
+            >Save</button>
+          </nav>
+        </div>
       </div>
     );
   }

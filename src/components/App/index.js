@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Config from 'COMPONENTS/Config';
 import Modal from 'COMPONENTS/Modal';
+import Renamable from 'COMPONENTS/Renamable';
 import {
   API__CONFIG,
   API__FILES_LIST,
@@ -129,17 +130,12 @@ class App extends Component {
             <div className={`app__section-items ${ (files.length) ? 'has--items' : '' }`}>
               {files.map(
                 ({ dir, ext, name }, ndx) => (
-                  <div
-                    key={ndx}
-                    className="app__renamable"
-                    data-dir={dir}
-                  >
-                    <span
-                      contentEditable="true"
-                      suppressContentEditableWarning
-                    >{name}</span>
-                    <span>{ext}</span>
-                  </div>
+                  <Renamable
+                    key={name}
+                    ext={ext}
+                    name={name}
+                    path={dir}
+                  />
                 )
               )}
             </div>

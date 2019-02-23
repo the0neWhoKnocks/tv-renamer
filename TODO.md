@@ -21,7 +21,7 @@
 ## Layout
 - [ ] 1 column layout, 2 panes
   - 1st section
-    - [ ] There are files that are pending a rename.
+    - [x] There are files that are pending a rename.
     - [ ] Have a Preview button which will show what all the files will be
           renamed to. Once the preview has executed, have a Rename button
           appear that will rename, set permissions (if needed), and move the
@@ -49,12 +49,12 @@
 
 ## RenamableItem
 
-- [ ] Label
-  - [ ] Is `contenteditable` in case a file's name doesn't match normal 
+- Label
+  - [x] Is `contenteditable` in case a file's name doesn't match normal 
         naming patterns.
-    - [ ] On ENTER key, `blur`, don't allow a newline.
+    - [x] On ENTER key, `blur`, don't allow a newline.
 - [ ] Rename preview. Maybe it overlays the item.
-- [ ] Alias button, opens modal
+- Alias button, opens modal
   - [ ] Pattern (input) | Alias (input) | Test (button)
     - [ ] Pattern has a regex toggle
     - [ ] Pattern will start with the name of the item that was clicked
@@ -62,7 +62,7 @@
           substitute match with Alias, and preview results.
   - [ ] Preview (text)
   - [ ] Cancel (button) | Save (button)
-- [ ] Delete button
+- Delete button
   - [ ] On  click, display confirmation modal
 
 ---

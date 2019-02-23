@@ -40,6 +40,7 @@ export default css`
         box-shadow: 0 1px 1rem 0.25rem rgba(0, 0, 0, 0.5);
         position: sticky;
         top: 0;
+        z-index: 1;
       }
       
       &-items {
@@ -47,29 +48,6 @@ export default css`
         &.has--items {
           padding: 1rem;
         }
-      }
-    }
-    
-    &__renamable {
-      padding: 0.5em 0;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      cursor: default;
-      
-      > [contenteditable="true"] {
-        cursor: text;
-        outline: none;
-        
-        &:focus {
-          padding: 0.25em 0.5em;
-          border: inset 1px;
-          background: white;
-        }
-      }
-      
-      @media (max-width: 600px) {
-        font-size: 3.5vw;
       }
     }
   }

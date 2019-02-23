@@ -28,6 +28,7 @@
           file.
     - [ ] Allow for manually renaming a file for files that don't match normal
           naming patterns.
+          - [ ] On ENTER key `blur`, don't allow a newline.
   - 2nd section, a log of files that were renamed (From) -> (To)
     - [ ] Just load this on demand so that it's not eating up memory on every
           load.
@@ -36,6 +37,7 @@
 
 ## Misc
 - [x] Script that generates test files
+- [ ] Script to generate daemon file
 
 ---
 

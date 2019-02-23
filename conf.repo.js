@@ -15,6 +15,7 @@ const TMP = `${ IGNORE }/tmp`;
 module.exports = {
   API__CONFIG: `${ API_PREFIX }/config`,
   API__CONFIG_SAVE: `${ API_PREFIX }/config/save`,
+  API__FILES_LIST: `${ API_PREFIX }/files-list`,
   API__FOLDER_LIST: `${ API_PREFIX }/folder-list`,
   API__JWT: `${ API_PREFIX }/jwt`,
   API__SERIES_ID: `${ API_PREFIX }/series`,

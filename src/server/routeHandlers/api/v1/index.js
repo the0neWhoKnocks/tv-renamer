@@ -18,6 +18,7 @@ import {
 } from 'ROOT/conf.repo';
 import handleError from 'SERVER/routeHandlers/error';
 import getDirectoryListing from 'SERVER/utils/getDirectoryListing';
+import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'UTILS/jsonResp';
 
 const loadConfig = (cb) => {
@@ -73,10 +74,22 @@ export const updateConfig = ({ reqData, res }) => {
   });
 };
 
+export const getFilesList = ({ res }) => {
+  loadConfig((config) => {
+    const extensions = ['avi', 'mkv', 'mp4'];
+    const filter = (file) => new RegExp(`.(?:${ extensions.join('|') })$`).test(file);
+    getFiles(config.sourceFolder, filter)
+      .then((files) => {
+        jsonResp(res, files);
+      });
+  });
+};
+
 export const getFolderListing = ({ reqData, res }) => {
   // if a path isn't specified, start at root of server
   const currentDirectory = (reqData.path)
     ? reqData.path
+    // TODO - maybe have a reverse lookup of a folder name instead
     : resolve(__dirname, '../../../../');
   
   getDirectoryListing(currentDirectory)

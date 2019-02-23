@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Config from 'COMPONENTS/Config';
 import {
   API__CONFIG,
+  API__FILES_LIST,
   API__JWT,
 } from 'ROOT/conf.repo';
 import fetch from 'UTILS/fetch';
@@ -14,8 +15,10 @@ class App extends Component {
     
     this.state = {
       config: {},
+      files: [],
       loaded: false,
       overlay: null,
+      renamedFiles: [],
     };
     
     this.handleConfigSave = this.handleConfigSave.bind(this);
@@ -65,10 +68,19 @@ class App extends Component {
           state.overlay = this.overlays.config();
         }
         
-        this.setState(state);
+        this.setState(state, () => {
+          this.getFilesList();
+        });
       })
       .catch((err) => {
         console.error(err);
+      });
+  }
+  
+  getFilesList() {
+    fetch(API__FILES_LIST)
+      .then((files) => {
+        this.setState({ files });
       });
   }
   
@@ -105,8 +117,10 @@ class App extends Component {
   
   render() {
     const {
+      files,
       loaded,
       overlay,
+      renamedFiles,
     } = this.state;
     const overlayModifier = (overlay) ? 'is--visible' : '';
     
@@ -115,9 +129,35 @@ class App extends Component {
     return (
       <div className={`app ${ styles }`}>
         <nav className="app__nav">
-          <button onClick={this.handleOpenConfig}>Config</button>
+          <button onClick={this.handleOpenConfig}>
+            ☰ Config
+          </button>
         </nav>
-        <div className="app__body"></div>
+        <div className="app__body">
+          <section className="app__section">
+            <h2 className="app__section-title">Awaiting Rename</h2>
+            <div className={`app__section-items ${ (files.length) ? 'has--items' : '' }`}>
+              {files.map(
+                ({ dir, ext, name }, ndx) => (
+                  <div
+                    key={ndx}
+                    className="app__renamable"
+                    data-dir={dir}
+                  >
+                    <span contentEditable="true">{name}</span>
+                    <span>{ext}</span>
+                  </div>
+                )
+              )}
+            </div>
+          </section>
+          <section className="app__section">
+            <h2 className="app__section-title">Renamed</h2>
+            <div className={`app__section-items ${ (renamedFiles.length) ? 'has--items' : '' }`}>
+              {renamedFiles && (<div />)}
+            </div>
+          </section>
+        </div>
         <div className={`app__overlay ${ overlayModifier }`}>{overlay}</div>
       </div>
     );

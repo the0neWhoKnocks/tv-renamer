@@ -8,7 +8,7 @@ import {
   API__PREVIEW_RENAME,
   API__SERIES_ID,
   API__SERIES_EPISODES,
-} from 'ROOT/conf.repo';
+} from 'ROOT/conf.app';
 import {
   checkForConfig,
   getFolderListing,

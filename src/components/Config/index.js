@@ -6,7 +6,7 @@ import ConfigItem, {
 import FolderPicker from './components/FolderPicker';
 import {
   API__CONFIG_SAVE,
-} from 'ROOT/conf.repo';
+} from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
 import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {

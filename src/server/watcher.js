@@ -6,7 +6,7 @@ import {
   DIST,
   DIST_JS,
   DIST_SERVER,
-} from 'ROOT/conf.repo';
+} from 'ROOT/conf.app';
 
 const browserSync = create();
 const port = +process.env.PORT || 8080;

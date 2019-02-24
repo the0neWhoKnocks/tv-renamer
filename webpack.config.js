@@ -6,7 +6,7 @@ const TidyPlugin = require('@noxx/webpack-tidy-plugin');
 const {
   ENTRY,
   SYSTEM_DIST_JS,
-} = require('./conf.repo');
+} = require('./conf.app');
 
 const MODE = process.env.MODE;
 const HASH_LENGTH = 5;

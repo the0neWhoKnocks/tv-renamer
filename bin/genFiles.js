@@ -12,7 +12,7 @@ const {
   TMP,
   TMP_OUTPUT,
   TMP_SRC,
-} = require('../conf.repo');
+} = require('../conf.app');
 
 if( existsSync(TMP) ) {
   // clean existing files (in the case when the directory already existed)

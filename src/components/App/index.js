@@ -9,7 +9,7 @@ import {
   API__FILES_LIST,
   API__JWT,
   API__PREVIEW_RENAME,
-} from 'ROOT/conf.repo';
+} from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
 import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles from './styles';

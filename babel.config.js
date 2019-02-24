@@ -1,4 +1,4 @@
-const { aliases } = require('./conf.repo');
+const { aliases } = require('./conf.app');
 
 module.exports = (api) => {
   api.cache(true);

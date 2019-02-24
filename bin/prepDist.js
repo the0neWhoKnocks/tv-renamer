@@ -11,7 +11,7 @@ const {
   DIST,
   DIST_JS,
   DIST_VENDOR,
-} = require('../conf.repo');
+} = require('../conf.app');
 
 if( existsSync(DIST) ) {
   // clean existing files (in the case when the directory already existed)

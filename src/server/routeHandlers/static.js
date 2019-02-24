@@ -1,6 +1,6 @@
 import { exists, readFile } from 'fs';
 import { join, parse } from 'path';
-import { SYSTEM_PUBLIC } from 'ROOT/conf.repo';
+import { SYSTEM_PUBLIC } from 'ROOT/conf.app';
 import handleError from './error';
 
 const mimeTypes = {

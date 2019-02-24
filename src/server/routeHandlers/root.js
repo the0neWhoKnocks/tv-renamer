@@ -11,7 +11,7 @@ import {
   DIST_VENDOR,
   PUBLIC,
   SYSTEM_DIST_JS,
-} from 'ROOT/conf.repo';
+} from 'ROOT/conf.app';
 import template from 'SRC/template';
 
 const prodMode = process.env.MODE === 'production';

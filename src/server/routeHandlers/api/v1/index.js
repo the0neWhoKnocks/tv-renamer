@@ -15,7 +15,7 @@ import {
   TVDB_API__VERSION_HEADER,
   TVDB__TOKEN__SERIES_ID,
   TVDB__TOKEN__SERIES_NAME,
-} from 'ROOT/conf.repo';
+} from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import getDirectoryListing from 'SERVER/utils/getDirectoryListing';
 import getFiles from 'SERVER/utils/getFiles';

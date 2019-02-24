@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { func, string } from 'prop-types';
 import {
   API__FOLDER_LIST,
-} from 'ROOT/conf.repo';
+} from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
 import styles, {
   MODIFIER__NOT_READABLE,

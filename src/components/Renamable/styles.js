@@ -4,10 +4,8 @@ export const MODIFIER__EDITING_NAME = 'editing--name';
 export const ROOT_CLASS = 'renamable';
 
 export default css`
-  padding: 0.5em 0;
-  overflow-x: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  
+  overflow: hidden;
   cursor: default;
   position: relative;
   
@@ -24,14 +22,17 @@ export default css`
     transform: translateX(-100%);
   }
   
-  &:hover {
+  .${ ROOT_CLASS } {
     
-    &::before {
-      transform: translateX(0%);
+    &__name {
+      padding: 0.5em 0;
+      overflow-x: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
-
-  > [contenteditable="true"] {
+  
+  [contenteditable="true"] {
     cursor: text;
     outline: none;
     
@@ -41,13 +42,26 @@ export default css`
       background: white;
     }
   }
+  
+  &:hover {
+    
+    &::before {
+      transform: translateX(0%);
+    }
+  }
 
   @media (max-width: 600px) {
     font-size: 3.5vw;
   }
   
   &.${ MODIFIER__EDITING_NAME } {
-    overflow-x: auto;
-    text-overflow: unset;
+    
+    .${ ROOT_CLASS } {
+      
+      &__name {
+        overflow-x: auto;
+        text-overflow: unset;
+      }
+    }
   }
 `;

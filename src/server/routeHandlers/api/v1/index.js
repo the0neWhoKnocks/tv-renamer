@@ -62,6 +62,15 @@ const tvdbRequestProps = ({
   };  
 };
 
+const tvdbResponseHandler = (resolve, reject) => (err, resp, data) => {
+  return (err || resp.statusCode > 399)
+    ? reject({
+      err: err || data.Error,
+      resp,
+    })
+    : resolve(data.data);
+};
+
 export const checkForConfig = ({ res }) => {
   loadConfig((config) => {
     jsonResp(res, config);
@@ -134,7 +143,7 @@ export const getJWT = ({ reqData, res }) => {
   );
 };
 
-export const getSeriesId = ({ res }) => {
+export const getSeriesId = ({ reqData, res }) => {
   // TODO - Get series `id`
   // - Store name and id in DB to make future lookups faster
   // - Returns an Array, so if there's more than one result, prompt the user
@@ -142,31 +151,144 @@ export const getSeriesId = ({ res }) => {
   // TODO - the 'series name' needs to be encoded. It may already come through
   // as such from the request, will need to check.
   
-  loadConfig(({ jwt }) => {
+  const { jwt, name } = reqData;
+  
+  const seriesRequest = (jwt) => new Promise((resolve, reject) => {
     request.get(
-      TVDB_API__SERIES_URL.replace(TVDB__TOKEN__SERIES_NAME, 'encoded seriesName'),
-      {
-        // qs
-        ...tvdbRequestProps({ jwt }),
-      },
+      TVDB_API__SERIES_URL.replace(
+        TVDB__TOKEN__SERIES_NAME,
+        encodeURIComponent(name)
+      ),
+      { ...tvdbRequestProps({ jwt }) },
+      tvdbResponseHandler(resolve, reject)
     );
-    // res.end();
   });
+  
+  if(jwt){
+    return seriesRequest(jwt);
+  }
+  else{
+    loadConfig(({ jwt }) => {
+      seriesRequest(jwt)
+        .then((series) => {
+          jsonResp(res, series);
+        })
+        .catch(({ err, resp }) => {
+          handleError({ res }, resp.statusCode, err);
+        });
+    });
+  }
 };
 
-export const getSeriesEpisodes = ({ res }) => {
+export const getSeriesEpisodes = ({ reqData, res }) => {
   // TODO - This returns all episodes for every season, so cache the episode
   // numbers along with their titles.
   // `airedSeason`, `airedEpisodeNumber`, `episodeName`
   
-  loadConfig(({ jwt }) => {
+  const { jwt, seriesID } = reqData;
+  
+  const episodesRequest = (jwt) => new Promise((resolve, reject) => {
     request.get(
-      TVDB_API__EPISODES_URL.replace(TVDB__TOKEN__SERIES_ID, 'seriesID'),
-      {
-        // qs
-        ...tvdbRequestProps({ jwt }),
-      },
+      TVDB_API__EPISODES_URL.replace(TVDB__TOKEN__SERIES_ID, seriesID),
+      { ...tvdbRequestProps({ jwt }) },
+      tvdbResponseHandler(resolve, reject)
     );
-    // res.end();
+  });
+  
+  if(jwt){
+    return episodesRequest(jwt);
+  }
+  else{
+    loadConfig(({ jwt }) => {
+      episodesRequest(jwt)
+        .then((episodes) => {
+          jsonResp(res, episodes);
+        })
+        .catch(({ err, resp }) => {
+          handleError({ res }, resp.statusCode, err);
+        });
+    });
+  }
+};
+
+export const previewRename = ({ reqData, res }) => {
+  const names = reqData.names;
+  
+  // remove duplicates for the series request
+  const uniqueNames = [];
+  for(let i=0; i<names.length; i++){
+    const name = names[i] && names[i].name;
+    if(name && !uniqueNames.includes(name)) uniqueNames.push(name);
+  }
+  
+  // TODO - If series' and eps are already in DB, don't bother loading
+  // config, jump right to renaming.
+  // TODO - Maybe just have a .db folder with individual series .json files.
+  // Should prevent file bloat over time, and speed up read/write times.
+  
+  loadConfig(({ jwt }) => {
+    const seriesName = uniqueNames[1]; // TODO - use item from loop
+    let opts = { reqData: { jwt, name: seriesName } };
+    
+    // TODO - build out cache, skip anything that already exists in the DB
+    // TODO - create loadDB func like loadConfig. It will have to be able to
+    // handle loading multiple series files at once.
+    
+    getSeriesId(opts)
+      .then((seriesMatches) => {
+        // for now, just care about an exact name match
+        let seriesID;
+        
+        for(let i=0; i<seriesMatches.length; i++){
+          const { id, seriesName } = seriesMatches[i];
+          if(seriesName === seriesName){
+            seriesID = id;
+            break;
+          }
+        }
+        
+        if(seriesID){
+          opts = { reqData: { jwt, seriesID } };
+          
+          const db = {
+            [seriesName]: {
+              id: seriesID,
+              season: {},
+            },
+          };
+          
+          getSeriesEpisodes(opts)
+            .then((episodes) => {
+              const currSeries = db[seriesName];
+              
+              for(let i=0; i<episodes.length; i++){
+                const {
+                  airedSeason,
+                  airedEpisodeNumber,
+                  episodeName,
+                } = episodes[i];
+                
+                if(!currSeries.season[airedSeason])
+                  currSeries.season[airedSeason] = { episodes: [] };
+                
+                const currSeasonEps = currSeries.season[airedSeason].episodes;
+                currSeasonEps[airedEpisodeNumber] = episodeName;
+              }
+              
+              console.log(JSON.stringify(db, null, 2));
+              res.end();
+            })
+            .catch(({ err, resp }) => {
+              handleError({ res }, resp.statusCode, err);
+            });
+        }
+        else{
+          // TODO - temp for now so the request completes
+          res.end();
+        }
+      })
+      .catch(({ err, resp }) => {
+        handleError({ res }, resp.statusCode, err);
+      });
   });
 };

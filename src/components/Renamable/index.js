@@ -53,14 +53,16 @@ class Renamable extends Component {
         data-path={path}
         onKeyDown={this.handleKeyDown}
       >
-        <span
-          contentEditable="true"
-          onBlur={this.handleNameBlur}
-          onFocus={this.handleNameFocus}
-          spellCheck="false"
-          suppressContentEditableWarning
-        >{name}</span>
-        <span>{ext}</span>
+        <div className={`${ ROOT_CLASS }__name`}>
+          <span
+            contentEditable="true"
+            onBlur={this.handleNameBlur}
+            onFocus={this.handleNameFocus}
+            spellCheck="false"
+            suppressContentEditableWarning
+          >{name}</span>
+          <span>{ext}</span>
+        </div>
       </div>
     );
   }
@@ -73,3 +75,6 @@ Renamable.propTypes = {
 };
 
 export default Renamable;
+export {
+  ROOT_CLASS,
+};

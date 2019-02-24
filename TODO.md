@@ -19,6 +19,12 @@
 ---
 
 ## Layout
+- [ ] Nav
+  - [ ] Version (button)
+    - [ ] On click, will ping https://cloud.docker.com and get a list of
+          versions.
+  - [x] Config (button)
+    - [x] On click, opens App config page
 - [ ] 1 column layout, 2 panes
   - 1st section
     - [x] There are files that are pending a rename.
@@ -34,7 +40,6 @@
 
 ## Misc
 - [x] Script that generates test files
-- [ ] Script to generate daemon file
 
 ---
 

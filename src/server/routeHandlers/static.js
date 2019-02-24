@@ -1,6 +1,6 @@
 import { exists, readFile } from 'fs';
 import { join, parse } from 'path';
-import { SYSTEM_PUBLIC } from 'ROOT/conf.app';
+import { PUBLIC } from 'ROOT/conf.app';
 import handleError from './error';
 
 const mimeTypes = {
@@ -17,7 +17,7 @@ const mimeTypes = {
 
 export default (opts, cleanPath) => {
   const { res } = opts;
-  const file = join(SYSTEM_PUBLIC, cleanPath);
+  const file = join(PUBLIC, cleanPath);
   
   exists(file, (exist) => {
     if(!exist) {

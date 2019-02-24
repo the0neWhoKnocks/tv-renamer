@@ -8,7 +8,7 @@ import {
 } from 'path';
 import request from 'request';
 import {
-  CONFIG_PATH,
+  PUBLIC_CONFIG,
   TVDB_API__EPISODES_URL,
   TVDB_API__LOGIN_URL,
   TVDB_API__SERIES_URL,
@@ -19,10 +19,10 @@ import {
 import handleError from 'SERVER/routeHandlers/error';
 import getDirectoryListing from 'SERVER/utils/getDirectoryListing';
 import getFiles from 'SERVER/utils/getFiles';
-import jsonResp from 'UTILS/jsonResp';
+import jsonResp from 'SERVER/utils/jsonResp';
 
 const loadConfig = (cb) => {
-  readFile(CONFIG_PATH, 'utf8', (err, config) => {
+  readFile(PUBLIC_CONFIG, 'utf8', (err, config) => {
     const data = (err) ? {} : JSON.parse(config);
     cb(data);
   });
@@ -38,7 +38,7 @@ const saveConfig = (data, res, cb) => {
       else config[key] = val;
     });
     
-    writeFile(CONFIG_PATH, JSON.stringify(config, null, 2), 'utf8', (err) => {
+    writeFile(PUBLIC_CONFIG, JSON.stringify(config, null, 2), 'utf8', (err) => {
       if(err) handleError({ res }, 500, err);
       else cb(config);
     });

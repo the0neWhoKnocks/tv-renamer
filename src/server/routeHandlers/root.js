@@ -1,4 +1,3 @@
-import { readFileSync } from 'fs';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { renderStylesToString } from 'emotion-server';
@@ -7,22 +6,18 @@ import { CacheProvider } from '@emotion/core';
 import App from 'COMPONENTS/App';
 import {
   APP_NAME,
-  DIST_JS,
-  DIST_VENDOR,
   PUBLIC,
-  SYSTEM_DIST_JS,
+  PUBLIC_JS,
+  PUBLIC_VENDOR,
 } from 'ROOT/conf.app';
 import template from 'SRC/template';
 
 const prodMode = process.env.MODE === 'production';
-const relativeJS = DIST_JS.replace(PUBLIC, '');
-const relativeVendor = DIST_VENDOR.replace(PUBLIC, '');
+const relativeJS = PUBLIC_JS.replace(PUBLIC, '');
+const relativeVendor = PUBLIC_VENDOR.replace(PUBLIC, '');
 
 export default ({ res }) => {
-  const bundleScripts = JSON.parse(readFileSync(
-    `${ SYSTEM_DIST_JS }/manifest.json`,
-    'utf8'
-  ));
+  const bundleScripts = require('PUBLIC_MANIFEST');
   
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
   res.end(template({

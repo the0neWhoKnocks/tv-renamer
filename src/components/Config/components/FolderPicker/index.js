@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { bool, func, string } from 'prop-types';
-import Modal, { ModalConsumer } from 'COMPONENTS/Modal';
+import Modal from 'COMPONENTS/Modal';
 import FolderDisplay from '../FolderDisplay';
 import ConfigItem from '../ConfigItem';
 import styles, {
@@ -39,8 +39,6 @@ class FolderPicker extends Component {
     this.setState({
       showModal: false,
       value,
-    }, () => {
-      this.props.onChange();
     });
   }
   
@@ -48,6 +46,7 @@ class FolderPicker extends Component {
     const {
       label,
       name,
+      onChange,
       required,
     } = this.props;
     const {
@@ -64,6 +63,7 @@ class FolderPicker extends Component {
           <ConfigItem
             label={label}
             name={name}
+            onUpdate={onChange}
             required={required}
             value={value}
           />

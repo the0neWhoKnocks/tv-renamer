@@ -40,14 +40,16 @@ const checkServer = () => new Promise((rootResolve, rootReject) => {
   ping();
 });
 
+console.log(`${ DIST_SERVER }/index.js`);
+
 nodemon({
-  script: `./${ DIST_SERVER }/index.js`,
+  script: `${ DIST_SERVER }/index.js`,
   watch: [
     // WP bundled new code
-    `./${ DIST_JS }/manifest.json`,
+    `${ DIST_JS }/manifest.json`,
     // The server has updated
-    `./${ DIST }/cjs/template.js`,
-    `./${ DIST_SERVER }/**/*.js`,
+    `${ DIST }/cjs/template.js`,
+    `${ DIST_SERVER }/**/*.js`,
   ],
 })
   .on('restart', (files) => {

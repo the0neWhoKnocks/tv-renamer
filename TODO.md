@@ -40,6 +40,7 @@
 
 ## Misc
 - [x] Script that generates test files
+- [x] After build, remove files that don't need to be packaged.
 
 ---
 
@@ -59,7 +60,7 @@
         naming patterns.
     - [x] On ENTER key, `blur`, don't allow a newline.
 - [ ] Rename preview. Maybe it overlays the item.
-- Alias button, opens modal
+- Alias (button), opens modal
   - [ ] Pattern (input) | Alias (input) | Test (button)
     - [ ] Pattern has a regex toggle
     - [ ] Pattern will start with the name of the item that was clicked
@@ -67,7 +68,12 @@
           substitute match with Alias, and preview results.
   - [ ] Preview (text)
   - [ ] Cancel (button) | Save (button)
-- Delete button
+- Refresh Cache (button)
+  - [ ] Will display if data loaded from cache
+  - [ ] On click, will tell the server to trash the cache for the series and
+        get fresh data. Useful if the wrong show was cached, or when new
+        season data comes out.
+- Delete (button)
   - [ ] On  click, display confirmation modal
 
 ---

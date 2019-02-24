@@ -6,9 +6,21 @@ const TVDB__TOKEN__SERIES_ID = '{SERIES_ID}';
 const TVDB__TOKEN__SERIES_NAME = '{SERIES_NAME}';
 const ROOT = resolve(__dirname, './');
 const SRC = `${ ROOT }/src`;
-const DIST = 'dist';
-const PUBLIC = `${ DIST }/public`;
-const DIST_JS = `${ PUBLIC }/js`;
+// NOTE - Anything pointing to DIST is top-level, should only be used in
+// development. When the App is packaged up, the context will shift to within
+// the `dist` directory.
+const DIST = `${ ROOT }/dist`;
+const DIST_CJS = `${ DIST }/cjs`;
+const DIST_PUBLIC = `${ DIST }/public`;
+const DIST_JS = `${ DIST_PUBLIC }/js`;
+const DIST_VENDOR = `${ DIST_JS }/vendor`;
+// NOTE - Anything pointing to PUBLIC is assuming the production context where
+// everything is executing from within the `dist` directory.
+const PUBLIC = `${ ROOT }/public`;
+const PUBLIC_CONFIG = `${ ROOT }/.config`;
+const PUBLIC_JS = `${ PUBLIC }/js`;
+const PUBLIC_MANIFEST = `${ PUBLIC_JS }/manifest.json`;
+const PUBLIC_VENDOR = `${ PUBLIC }/js/vendor`;
 const IGNORE = `${ ROOT }/.ignore`;
 const TMP = `${ IGNORE }/tmp`;
 
@@ -22,15 +34,15 @@ module.exports = {
   API__SERIES_ID: `${ API_PREFIX }/series`,
   API__SERIES_EPISODES: `${ API_PREFIX }/episodes`,
   APP_NAME: 'TV Renamer',
-  CONFIG_PATH: `${ ROOT }/.config`,
   DIST,
+  DIST_CJS,
   DIST_JS,
-  DIST_SERVER: `${ DIST }/cjs/server`,
-  DIST_VENDOR: `${ DIST_JS }/vendor`,
-  ENTRY: `${ SRC }/app.js`,
+  DIST_SERVER: `${ DIST_CJS }/server`,
+  DIST_VENDOR,
   PUBLIC,
-  SYSTEM_DIST_JS: `${ ROOT }/${ DIST_JS }`,
-  SYSTEM_PUBLIC: `${ ROOT }/${ PUBLIC }`,
+  PUBLIC_CONFIG,
+  PUBLIC_JS,
+  PUBLIC_VENDOR,
   TMP,
   TMP_OUTPUT: `${ TMP }/output`,
   TMP_SRC: `${ TMP }/src`,
@@ -41,8 +53,11 @@ module.exports = {
   TVDB_API__VERSION_HEADER: 'application/vnd.thetvdb.v2.2.0',
   TVDB__TOKEN__SERIES_ID,
   TVDB__TOKEN__SERIES_NAME,
+  WP__ENTRY: `${ SRC }/app.js`,
+  WP__OUTPUT: DIST_JS,
   aliases: {
     COMPONENTS: `${ SRC }/components`,
+    PUBLIC_MANIFEST,
     ROOT,
     SERVER: `${ SRC }/server`,
     SRC,

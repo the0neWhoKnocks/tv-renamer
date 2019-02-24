@@ -16,9 +16,13 @@ class ConfigItem extends Component {
   }
   
   componentDidUpdate(prevProps, prevState) {
-    const { value } = this.props;    
+    const { onUpdate, value } = this.props;    
     
-    if(prevProps.value !== value) this.setState({ value });
+    if(prevProps.value !== value) {
+      this.setState({ value }, () => {
+        if(onUpdate) onUpdate(value);
+      });
+    }
     if(prevState.value !== this.state.value) this.setState({
       value: this.state.value,
     });
@@ -26,11 +30,10 @@ class ConfigItem extends Component {
   
   handleChange(ev) {
     const { onChange } = this.props;
+    const value = ev.currentTarget.value;
     
-    this.setState({
-      value: ev.currentTarget.value,
-    }, () => {
-      if(onChange) onChange(ev);
+    this.setState({ value }, () => {
+      if(onChange) onChange(value);
     });
   }
   
@@ -96,6 +99,7 @@ ConfigItem.propTypes = {
   label: string,
   name: string,
   onChange: func,
+  onUpdate: func,
   readOnly: bool,
   required: bool,
   value: oneOfType([

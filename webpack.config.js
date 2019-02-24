@@ -4,8 +4,8 @@ const WebpackAssetsManifest = require('webpack-assets-manifest');
 const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin');
 const TidyPlugin = require('@noxx/webpack-tidy-plugin');
 const {
-  ENTRY,
-  SYSTEM_DIST_JS,
+  WP__ENTRY,
+  WP__OUTPUT,
 } = require('./conf.app');
 
 const MODE = process.env.MODE;
@@ -20,7 +20,7 @@ const stats = {
 
 const conf = {
   entry: {
-    app: ENTRY,
+    app: WP__ENTRY,
   },
   externals: {
     'react': 'React',
@@ -49,17 +49,13 @@ const conf = {
     },
   },
   output: {
-    path: SYSTEM_DIST_JS,
+    path: WP__OUTPUT,
     // assigns the hashed name to the file
     filename: `[name]_[chunkhash:${ HASH_LENGTH }].js`,
     // Point sourcemap entries to original disk location (format as URL on Windows)
     devtoolModuleFilenameTemplate: info => resolve(info.absoluteResourcePath).replace(/\\/g, '/'),
   },
   plugins: [
-    new TidyPlugin({
-      cleanOutput: true,
-      hashLength: HASH_LENGTH,
-    }),
     /**
      * Gives more control of how bundles are hashed
      */
@@ -87,5 +83,14 @@ const conf = {
   },
   stats: stats,
 };
+
+if(MODE !== 'production'){
+  conf.plugins.push(
+    new TidyPlugin({
+      cleanOutput: true,
+      hashLength: HASH_LENGTH,
+    }),
+  );
+}
 
 module.exports = conf;

@@ -3,20 +3,24 @@
   "version": "1.0.0",
   "description": "A local network app that allows for renaming TV shows",
   "main": "index.js",
+  "paths": {
+    "babelOutput": "./dist/cjs",
+    "babelSource": "./src"
+  },
   "scripts": {
-    "build:app": "cross-env BABEL_ENV=cjs MODE=production webpack",
-    "build:dist": "node ./bin/prepDist && npm run transpile",
+    "build:app": "cross-env MODE=production webpack",
+    "build:dist": "node ./bin/prepDist && npm run transpile && node ./bin/pruneDist",
     "gen:files": "node ./bin/genFiles",
     "lint": "eslint ./src/**/*.js",
-    "start": "npm run build:dist && npm run build:app",
-    "start:dev": "npm run build:dist && cross-env BABEL_ENV=cjs PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",
-    "start:server": "node ./src/server",
+    "start": "cross-env NODE_ENV=production npm run build:dist && cross-env NODE_ENV=production npm run build:app && cross-env NODE_ENV=production npm run start:server",
+    "start:dev": "npm run build:dist && cross-env PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",
+    "start:server": "node $npm_package_paths_babelOutput/server",
     "test": "npm run lint && npm run unit",
-    "transpile": "cross-env BABEL_ENV=cjs babel ./src -d ./dist/cjs --copy-files",
-    "unit": "cross-env BABEL_ENV=cjs jest --env=jsdom --config ./.jest/conf.jest.js",
-    "watch:app": "cross-env BABEL_ENV=cjs MODE=development webpack --watch",
+    "transpile": "babel $npm_package_paths_babelSource -d $npm_package_paths_babelOutput --verbose",
+    "unit": "jest --env=jsdom --config ./.jest/conf.jest.js",
+    "watch:app": "cross-env MODE=development webpack --watch",
     "watch:server": "babel-node ./src/server/watcher",
-    "watch:transpile": "npm run transpile -- --watch --verbose",
+    "watch:transpile": "npm run transpile -- --watch",
     "watch:unit": "npm run unit -- --watchAll"
   },
   "repository": {

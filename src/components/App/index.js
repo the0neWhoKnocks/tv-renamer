@@ -19,7 +19,7 @@ class App extends Component {
     super();
     
     this.state = {
-      config: {},
+      config: undefined,
       files: [],
       loaded: false,
       renamedFiles: [],
@@ -49,6 +49,16 @@ class App extends Component {
       ) {
         this.getJWT();
       }
+      
+      // user just configured settings, so make initial files list call
+      if(
+        prevState.config
+        && !prevState.config.jwt
+        && this.state.config
+        && this.state.config.jwt
+      ){
+        this.getFilesList();
+      }
     }
   }
   
@@ -65,7 +75,7 @@ class App extends Component {
         }
         
         this.setState(state, () => {
-          this.getFilesList();
+          if(!state.showConfig) this.getFilesList();
         });
       })
       .catch((err) => {
@@ -136,13 +146,24 @@ class App extends Component {
   
   render() {
     const {
+      config,
       files,
       loaded,
       renamedFiles,
       showConfig,
     } = this.state;
+    let configProps = {
+      onClose: this.handleCloseConfig,
+      onSaveComplete: this.handleConfigSave,
+    };
     
     if(!loaded) return <div>Loading</div>;
+    
+    if(config) configProps = { ...configProps, ...config };
+    else if(showConfig) {
+      configProps.hideCloseBtn = true;
+      delete configProps.onClose;
+    }
     
     return (
       <div className={`app ${ styles }`}>
@@ -187,11 +208,7 @@ class App extends Component {
         </div>
         {showConfig && (
           <Modal>
-            <Config
-              onClose={this.handleCloseConfig}
-              onSaveComplete={this.handleConfigSave}
-              {...this.state.config}
-            />
+            <Config {...configProps} />
           </Modal>
         )}
       </div>

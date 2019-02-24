@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { func, number, string } from 'prop-types';
+import { bool, func, number, string } from 'prop-types';
 import ConfigItem, {
   ROOT_CLASS as ITEM_ROOT_CLASS,
 } from './components/ConfigItem';
@@ -103,6 +103,7 @@ class Config extends Component {
   render() {
     const {
       apiKey,
+      hideCloseBtn,
       jwt,
       jwtDate,
       outputFolder,
@@ -183,11 +184,13 @@ class Config extends Component {
             />
           </section>
           <nav className={`${ ROOT_CLASS }__btm-nav`}>
-            <button
-              className={`${ ROOT_CLASS }__close-btn`}
-              onClick={this.handleCloseClick}
-              disabled={closeDisabled}
-            >Close</button>
+            {!hideCloseBtn && (
+              <button
+                className={`${ ROOT_CLASS }__close-btn`}
+                onClick={this.handleCloseClick}
+                disabled={closeDisabled}
+              >Close</button>
+            )}
             <button
               className={`${ ROOT_CLASS }__save-btn`}
               onClick={this.handleSaveClick}
@@ -199,13 +202,15 @@ class Config extends Component {
     );
   }
 }
+
 Config.propTypes = {
+  apiKey: string,
+  hideCloseBtn: bool,
+  jwt: string,
+  jwtDate: number,
   onClose: func,
   onSaveComplete: func,
   outputFolder: string,
-  apiKey: string,
-  jwt: string,
-  jwtDate: number,
   sourceFolder: string,
   userKey: string,
   userName: string,

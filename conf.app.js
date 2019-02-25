@@ -6,10 +6,12 @@ const TVDB__TOKEN__SERIES_ID = '{SERIES_ID}';
 const TVDB__TOKEN__SERIES_NAME = '{SERIES_NAME}';
 const ROOT = resolve(__dirname, './');
 const SRC = `${ ROOT }/src`;
+const CACHE_FOLDER_NAME = '.cache';
 // NOTE - Anything pointing to DIST is top-level, should only be used in
 // development. When the App is packaged up, the context will shift to within
 // the `dist` directory.
 const DIST = `${ ROOT }/dist`;
+const DIST_CACHE = `${ DIST }/${ CACHE_FOLDER_NAME }`;
 const DIST_CJS = `${ DIST }/cjs`;
 const DIST_PUBLIC = `${ DIST }/public`;
 const DIST_JS = `${ DIST_PUBLIC }/js`;
@@ -17,6 +19,7 @@ const DIST_VENDOR = `${ DIST_JS }/vendor`;
 // NOTE - Anything pointing to PUBLIC is assuming the production context where
 // everything is executing from within the `dist` directory.
 const PUBLIC = `${ ROOT }/public`;
+const PUBLIC_CACHE = `${ ROOT }/${ CACHE_FOLDER_NAME }`;
 const PUBLIC_CONFIG = `${ ROOT }/.config`;
 const PUBLIC_JS = `${ PUBLIC }/js`;
 const PUBLIC_MANIFEST = `${ PUBLIC_JS }/manifest.json`;
@@ -31,15 +34,15 @@ module.exports = {
   API__FOLDER_LIST: `${ API_PREFIX }/folder-list`,
   API__JWT: `${ API_PREFIX }/jwt`,
   API__PREVIEW_RENAME: `${ API_PREFIX }/preview`,
-  API__SERIES_ID: `${ API_PREFIX }/series`,
-  API__SERIES_EPISODES: `${ API_PREFIX }/episodes`,
   APP_NAME: 'TV Renamer',
   DIST,
+  DIST_CACHE,
   DIST_CJS,
   DIST_JS,
   DIST_SERVER: `${ DIST_CJS }/server`,
   DIST_VENDOR,
   PUBLIC,
+  PUBLIC_CACHE,
   PUBLIC_CONFIG,
   PUBLIC_JS,
   PUBLIC_MANIFEST,

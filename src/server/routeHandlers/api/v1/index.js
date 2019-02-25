@@ -7,8 +7,10 @@ import {
   sep,
 } from 'path';
 import request from 'request';
+import sanitizeFilename from 'sanitize-filename';
 import {
   PUBLIC_CONFIG,
+  PUBLIC_CACHE,
   TVDB_API__EPISODES_URL,
   TVDB_API__LOGIN_URL,
   TVDB_API__SERIES_URL,
@@ -21,12 +23,52 @@ import getDirectoryListing from 'SERVER/utils/getDirectoryListing';
 import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'SERVER/utils/jsonResp';
 
-const loadConfig = (cb) => {
-  readFile(PUBLIC_CONFIG, 'utf8', (err, config) => {
-    const data = (err) ? {} : JSON.parse(config);
+const loadFile = ({ _default = {}, cb, file }) => {
+  readFile(file, 'utf8', (err, file) => {
+    const data = (err) ? _default : JSON.parse(file);
     cb(data);
   });
 };
+
+const saveFile = ({ cb, data, file, res }) => {
+  writeFile(file, JSON.stringify(data, null, 2), 'utf8', (err) => {
+    if(err) handleError({ res }, 500, err);
+    else cb(data);
+  });
+};
+
+const loadConfig = (cb) => {
+  loadFile({ cb, file: PUBLIC_CONFIG });
+};
+
+const genCacheName = (name) => {
+  const _name = sanitizeFilename(name)
+    .toLowerCase()
+    .replace(/\s/g, '_')
+    .replace(/'/g, '');
+  
+  return `${ PUBLIC_CACHE }/${ _name }.json`;
+};
+
+const loadCacheItem = (name) => new Promise((resolve, reject) => {
+  loadFile({
+    _default: null,
+    cb: (file) => resolve({ file, name }),
+    file: genCacheName(name),
+  });
+});
+
+const cacheData = ({ data, name, res }) => new Promise((resolve, reject) => {
+  saveFile({
+    cb: () => {
+      console.log(`Cached series: "${ name }"`);
+      return resolve(data);
+    },
+    data,
+    file: genCacheName(name),
+    res,
+  });
+});
 
 const saveConfig = (data, res, cb) => {
   loadConfig((config) => {
@@ -38,10 +80,7 @@ const saveConfig = (data, res, cb) => {
       else config[key] = val;
     });
     
-    writeFile(PUBLIC_CONFIG, JSON.stringify(config, null, 2), 'utf8', (err) => {
-      if(err) handleError({ res }, 500, err);
-      else cb(config);
-    });
+    saveFile({ cb, data: config, file: PUBLIC_CONFIG, res });
   });
 };
 
@@ -143,152 +182,121 @@ export const getJWT = ({ reqData, res }) => {
   );
 };
 
-export const getSeriesId = ({ reqData, res }) => {
-  // TODO - Get series `id`
-  // - Store name and id in DB to make future lookups faster
-  // - Returns an Array, so if there's more than one result, prompt the user
-  // to choose.
-  // TODO - the 'series name' needs to be encoded. It may already come through
-  // as such from the request, will need to check.
-  
-  const { jwt, name } = reqData;
-  
-  const seriesRequest = (jwt) => new Promise((resolve, reject) => {
-    request.get(
-      TVDB_API__SERIES_URL.replace(
-        TVDB__TOKEN__SERIES_NAME,
-        encodeURIComponent(name)
-      ),
-      { ...tvdbRequestProps({ jwt }) },
-      tvdbResponseHandler(resolve, reject)
-    );
-  });
-  
-  if(jwt){
-    return seriesRequest(jwt);
-  }
-  else{
-    loadConfig(({ jwt }) => {
-      seriesRequest(jwt)
-        .then((series) => {
-          jsonResp(res, series);
-        })
-        .catch(({ err, resp }) => {
-          handleError({ res }, resp.statusCode, err);
-        });
-    });
-  }
-};
+const getSeriesId = ({ jwt, name }) => new Promise((resolve, reject) => {
+  request.get(
+    TVDB_API__SERIES_URL.replace(
+      TVDB__TOKEN__SERIES_NAME,
+      encodeURIComponent(name)
+    ),
+    { ...tvdbRequestProps({ jwt }) },
+    tvdbResponseHandler(resolve, reject)
+  );
+});
 
-export const getSeriesEpisodes = ({ reqData, res }) => {
-  // TODO - This returns all episodes for every season, so cache the episode
-  // numbers along with their titles.
-  // `airedSeason`, `airedEpisodeNumber`, `episodeName`
-  
-  const { jwt, seriesID } = reqData;
-  
-  const episodesRequest = (jwt) => new Promise((resolve, reject) => {
-    request.get(
-      TVDB_API__EPISODES_URL.replace(TVDB__TOKEN__SERIES_ID, seriesID),
-      { ...tvdbRequestProps({ jwt }) },
-      tvdbResponseHandler(resolve, reject)
-    );
-  });
-  
-  if(jwt){
-    return episodesRequest(jwt);
-  }
-  else{
-    loadConfig(({ jwt }) => {
-      episodesRequest(jwt)
-        .then((episodes) => {
-          jsonResp(res, episodes);
-        })
-        .catch(({ err, resp }) => {
-          handleError({ res }, resp.statusCode, err);
-        });
-    });
-  }
-};
+export const getSeriesEpisodes = ({ jwt, seriesID }) => new Promise((resolve, reject) => {
+  request.get(
+    TVDB_API__EPISODES_URL.replace(TVDB__TOKEN__SERIES_ID, seriesID),
+    { ...tvdbRequestProps({ jwt }) },
+    tvdbResponseHandler(resolve, reject)
+  );
+});
 
 export const previewRename = ({ reqData, res }) => {
   const names = reqData.names;
   
   // remove duplicates for the series request
   const uniqueNames = [];
+  const cachedItems = [];
   for(let i=0; i<names.length; i++){
     const name = names[i] && names[i].name;
-    if(name && !uniqueNames.includes(name)) uniqueNames.push(name);
+    if(name && !uniqueNames.includes(name)) {
+      uniqueNames.push(name);
+      cachedItems.push(loadCacheItem(name));
+    }
   }
   
-  // TODO - If series' and eps are already in DB, don't bother loading
-  // config, jump right to renaming.
-  // TODO - Maybe just have a .db folder with individual series .json files.
-  // Should prevent file bloat over time, and speed up read/write times.
-  
-  loadConfig(({ jwt }) => {
-    const seriesName = uniqueNames[1]; // TODO - use item from loop
-    let opts = { reqData: { jwt, name: seriesName } };
-    
-    // TODO - build out cache, skip anything that already exists in the DB
-    // TODO - create loadDB func like loadConfig. It will have to be able to
-    // handle loading multiple series files at once.
-    
-    getSeriesId(opts)
-      .then((seriesMatches) => {
-        // for now, just care about an exact name match
-        let seriesID;
+  Promise.all(cachedItems)
+    .then((_cachedItems) => {
+      // If all series' are already cached, don't bother loading config, or
+      // doing any series look-ups, jump right to renaming.
+      const cache = {};
+      let allCached = true;
+      
+      for(let i=0; i<_cachedItems.length; i++){
+        const { file, name } = _cachedItems[i];
+        if(!file) allCached = false;
+        cache[name] = file;
+      }
+      
+      if(allCached){
+        console.log('Skipping config load and series look-ups');
+      }
+      else{
+        console.log('Not all items were cached, proceed to look-ups');
         
-        for(let i=0; i<seriesMatches.length; i++){
-          const { id, seriesName } = seriesMatches[i];
-          if(seriesName === seriesName){
-            seriesID = id;
-            break;
+        loadConfig(({ jwt }) => {
+          const seriesName = uniqueNames[1]; // TODO - use item from loop
+          
+          if(cache[seriesName]){
+            console.log(`Skipping series look-up for: "${ seriesName }"`);
+            console.log(cache[seriesName]);
+            res.end();
           }
-        }
-        
-        if(seriesID){
-          opts = { reqData: { jwt, seriesID } };
-          
-          const db = {
-            [seriesName]: {
-              id: seriesID,
-              season: {},
-            },
-          };
-          
-          getSeriesEpisodes(opts)
-            .then((episodes) => {
-              const currSeries = db[seriesName];
-              
-              for(let i=0; i<episodes.length; i++){
-                const {
-                  airedSeason,
-                  airedEpisodeNumber,
-                  episodeName,
-                } = episodes[i];
+          else{
+            console.log(`Looking up series: "${ seriesName }"`);
+            
+            getSeriesId({ jwt, name: seriesName })
+              .then((seriesMatches) => {
+                // for now, just care about an exact name match
+                let seriesID;
                 
-                if(!currSeries.season[airedSeason])
-                  currSeries.season[airedSeason] = { episodes: [] };
+                for(let i=0; i<seriesMatches.length; i++){
+                  const { id, seriesName } = seriesMatches[i];
+                  if(seriesName === seriesName){
+                    seriesID = id;
+                    break;
+                  }
+                }
                 
-                const currSeasonEps = currSeries.season[airedSeason].episodes;
-                currSeasonEps[airedEpisodeNumber] = episodeName;
-              }
-              
-              console.log(JSON.stringify(db, null, 2));
-              res.end();
-            })
-            .catch(({ err, resp }) => {
-              handleError({ res }, resp.statusCode, err);
-            });
-        }
-        else{
-          // TODO - temp for now so the request completes
-          res.end();
-        }
-      })
-      .catch(({ err, resp }) => {
-        handleError({ res }, resp.statusCode, err);
-      });
-  });
+                if(seriesID){
+                  const cache = {
+                    id: seriesID,
+                    season: {},
+                  };
+                  
+                  getSeriesEpisodes({ jwt, seriesID })
+                    .then((episodes) => {
+                      for(let i=0; i<episodes.length; i++){
+                        const {
+                          airedSeason,
+                          airedEpisodeNumber,
+                          episodeName,
+                        } = episodes[i];
+                        
+                        if(!cache.season[airedSeason])
+                          cache.season[airedSeason] = { episodes: [] };
+                        
+                        const currSeasonEps = cache.season[airedSeason].episodes;
+                        currSeasonEps[airedEpisodeNumber] = episodeName;
+                      }
+                      
+                      cacheData({ data: cache, name: seriesName, res })
+                        .then(() => res.end());
+                    })
+                    .catch(({ err, resp }) => {
+                      handleError({ res }, resp.statusCode, err);
+                    });
+                }
+                else{
+                  // TODO - temp for now so the request completes
+                  res.end();
+                }
+              })
+              .catch(({ err, resp }) => {
+                handleError({ res }, resp.statusCode, err);
+              });
+          }
+        });
+      }
+    });
 };

@@ -137,6 +137,9 @@ class App extends Component {
     })
       .then((previewItems) => {
         console.log(previewItems);
+      })
+      .catch((err) => {
+        alert(err);
       });
   }
   

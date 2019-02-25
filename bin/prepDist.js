@@ -9,6 +9,7 @@ const mkdirp = require('mkdirp');
 const rimraf = require('rimraf');
 const {
   DIST,
+  DIST_CACHE,
   DIST_JS,
   DIST_VENDOR,
 } = require('../conf.app');
@@ -19,7 +20,9 @@ if( existsSync(DIST) ) {
   console.log(`\nRemoved pre-existing items in "${ DIST }"`);
 }
 
-// create directory
+// create directories
+mkdirp.sync(DIST_CACHE);
+console.log(`Created cache directory ➜ "${ DIST_CACHE }"`);
 mkdirp.sync(DIST_VENDOR);
 console.log(`Created client vendor directory ➜ "${ DIST_VENDOR }"`);
 // create temp manifest file, otherwise nodemon won't watch for changes

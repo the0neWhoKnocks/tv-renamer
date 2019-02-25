@@ -2,6 +2,7 @@ const { resolve } = require('path');
 
 const API_PREFIX = '/api/v1';
 const TVDB_API = 'https://api.thetvdb.com';
+const TVDB__TOKEN__PAGE_NUM = '{PAGE_NUM}';
 const TVDB__TOKEN__SERIES_ID = '{SERIES_ID}';
 const TVDB__TOKEN__SERIES_NAME = '{SERIES_NAME}';
 const ROOT = resolve(__dirname, './');
@@ -50,11 +51,12 @@ module.exports = {
   TMP,
   TMP_OUTPUT: `${ TMP }/output`,
   TMP_SRC: `${ TMP }/src`,
-  TVDB_API__EPISODES_URL: `${ TVDB_API }/series/${ TVDB__TOKEN__SERIES_ID }/episodes`,
+  TVDB_API__EPISODES_URL: `${ TVDB_API }/series/${ TVDB__TOKEN__SERIES_ID }/episodes?page=${ TVDB__TOKEN__PAGE_NUM }`,
   TVDB_API__LANGUAGES_URL: `${ TVDB_API }/languages`,
   TVDB_API__LOGIN_URL: `${ TVDB_API }/login`,
   TVDB_API__SERIES_URL: `${ TVDB_API }/search/series?name=${ TVDB__TOKEN__SERIES_NAME }`,
   TVDB_API__VERSION_HEADER: 'application/vnd.thetvdb.v2.2.0',
+  TVDB__TOKEN__PAGE_NUM,
   TVDB__TOKEN__SERIES_ID,
   TVDB__TOKEN__SERIES_NAME,
   WP__ENTRY: `${ SRC }/app.js`,

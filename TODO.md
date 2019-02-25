@@ -75,6 +75,8 @@
         season data comes out.
 - Delete (button)
   - [ ] On  click, display confirmation modal
+- [ ] Sometimes a series will be cached, but it's matching the wrong series.
+      Vikings is an example of that right now.
 
 ---
 

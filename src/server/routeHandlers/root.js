@@ -1,3 +1,4 @@
+import { readFile } from 'fs';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { renderStylesToString } from 'emotion-server';
@@ -8,35 +9,46 @@ import {
   APP_NAME,
   PUBLIC,
   PUBLIC_JS,
+  PUBLIC_MANIFEST,
   PUBLIC_VENDOR,
 } from 'ROOT/conf.app';
 import template from 'SRC/template';
+import handleError from './error';
 
 const prodMode = process.env.MODE === 'production';
 const relativeJS = PUBLIC_JS.replace(PUBLIC, '');
 const relativeVendor = PUBLIC_VENDOR.replace(PUBLIC, '');
 
 export default ({ res }) => {
-  const bundleScripts = require('PUBLIC_MANIFEST');
-  
-  res.setHeader('Content-Type', 'text/html; charset=utf-8');
-  res.end(template({
-    bundleScripts: Object.keys(bundleScripts).map(
-      (key) => `${ relativeJS }/${ bundleScripts[key] }`
-    ),
-    rootContent: renderStylesToString(
-      renderToString(
-        <CacheProvider value={cache}>
-          <App />
-        </CacheProvider>
-      )
-    ),
-    scripts: {
-      head: [
-        `${ relativeVendor }/react.${ (prodMode) ? 'production.min' : 'development' }.js`,
-        `${ relativeVendor }/react-dom.${ (prodMode) ? 'production.min' : 'development' }.js`,
-      ],
-    },
-    title: APP_NAME,
-  }));
+  readFile(PUBLIC_MANIFEST, 'utf8', (err, manifest) => {
+    let bundleScripts;
+    
+    if(err || !manifest){
+      return handleError({ res }, 404, err || `Manifest contents are: "${ manifest }"`);
+    }
+    else{
+      bundleScripts = JSON.parse(manifest);
+    }
+    
+    res.setHeader('Content-Type', 'text/html; charset=utf-8');
+    res.end(template({
+      bundleScripts: Object.keys(bundleScripts).map(
+        (key) => `${ relativeJS }/${ bundleScripts[key] }`
+      ),
+      rootContent: renderStylesToString(
+        renderToString(
+          <CacheProvider value={cache}>
+            <App />
+          </CacheProvider>
+        )
+      ),
+      scripts: {
+        head: [
+          `${ relativeVendor }/react.${ (prodMode) ? 'production.min' : 'development' }.js`,
+          `${ relativeVendor }/react-dom.${ (prodMode) ? 'production.min' : 'development' }.js`,
+        ],
+      },
+      title: APP_NAME,
+    }));
+  });
 };

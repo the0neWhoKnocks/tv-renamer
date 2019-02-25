@@ -42,6 +42,7 @@ module.exports = {
   PUBLIC,
   PUBLIC_CONFIG,
   PUBLIC_JS,
+  PUBLIC_MANIFEST,
   PUBLIC_VENDOR,
   TMP,
   TMP_OUTPUT: `${ TMP }/output`,
@@ -57,7 +58,6 @@ module.exports = {
   WP__OUTPUT: DIST_JS,
   aliases: {
     COMPONENTS: `${ SRC }/components`,
-    PUBLIC_MANIFEST,
     ROOT,
     SERVER: `${ SRC }/server`,
     SRC,

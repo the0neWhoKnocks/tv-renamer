@@ -15,10 +15,11 @@ const checkServer = () => new Promise((rootResolve, rootReject) => {
   let count = 0;
   const check = () => new Promise((resolve, reject) => {
     setTimeout(() => {
-      http.get(
-        `http://localhost:${ port }`,
-        (res) => resolve()
-      ).on('error', (err) => reject());
+      const serverAddress = `http://localhost:${ port }`;
+      
+      console.log(`[WATCHER] Pinging ${ serverAddress }`);
+      http.get(serverAddress, (res) => resolve())
+        .on('error', (err) => reject());
     }, 1000);
   });
   const handleError = () => {
@@ -39,8 +40,6 @@ const checkServer = () => new Promise((rootResolve, rootReject) => {
   
   ping();
 });
-
-console.log(`${ DIST_SERVER }/index.js`);
 
 nodemon({
   script: `${ DIST_SERVER }/index.js`,

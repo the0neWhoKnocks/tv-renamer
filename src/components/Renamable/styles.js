@@ -30,6 +30,14 @@ export default css`
       text-overflow: ellipsis;
       white-space: nowrap;
     }
+    
+    &__new-name {
+      color: #0f5833;
+      font-weight: bold;
+      padding: 0.25em;
+      border-left: solid 0.25em;
+      background: #b5efcf;
+    }
   }
   
   [contenteditable="true"] {

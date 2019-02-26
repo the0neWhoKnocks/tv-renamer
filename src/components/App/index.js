@@ -22,6 +22,7 @@ class App extends Component {
       config: undefined,
       files: [],
       loaded: false,
+      previewItems: [],
       renamedFiles: [],
       showConfig: false,
     };
@@ -120,6 +121,7 @@ class App extends Component {
   handlePreviewRename() {
     const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }__name`);
     const names = [...items].map((itemEl) => {
+      
       const matches = itemEl.innerText.match(/^([a-z'.-]+\b(?:\d{3,4})?)\.(s(\d{2})e(\d{2}))?/i);
       
       return (matches)
@@ -128,7 +130,7 @@ class App extends Component {
           name: matches[1] && matches[1].replace(/\./g, ' '),
           season: matches[3] && +matches[3],
         }
-        : null;
+        : {};
     });
     
     fetch(API__PREVIEW_RENAME, {
@@ -136,7 +138,7 @@ class App extends Component {
       body: JSON.stringify({ names }),
     })
       .then((previewItems) => {
-        console.log(previewItems);
+        this.setState({ previewItems });
       })
       .catch((err) => {
         alert(err);
@@ -152,6 +154,7 @@ class App extends Component {
       config,
       files,
       loaded,
+      previewItems,
       renamedFiles,
       showConfig,
     } = this.state;
@@ -189,14 +192,17 @@ class App extends Component {
               ref={(ref) => { this.filesRef = ref; }}
             >
               {files.map(
-                ({ dir, ext, name }, ndx) => (
-                  <Renamable
-                    key={name}
-                    ext={ext}
-                    name={name}
-                    path={dir}
-                  />
-                )
+                ({ dir, ext, name }, ndx) => {
+                  return (
+                    <Renamable
+                      key={name}
+                      ext={ext}
+                      name={name}
+                      newName={previewItems[ndx]}
+                      path={dir}
+                    />
+                  );
+                }
               )}
             </div>
           </section>

@@ -18,21 +18,26 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
   names.forEach((nameObj) => {
     if(nameObj){
       const { episode, name, season } = nameObj;
-      const cacheKey = genCacheName(name).name;
-      const cache = _cacheData[cacheKey];
-  
-      if(
-        season && episode
-        && cache.seasons[season]
-      ){
-        const epNum = (`${ episode }`.length < 2)
-          ? `0${ episode }`
-          : episode;
-          
-        renamed.push(
-          `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`
-        );
+      
+      if(name && season && episode){
+        const cacheKey = genCacheName(name).name;
+        const cache = _cacheData[cacheKey];
+        
+        if(cache.seasons[season]){
+          const epNum = (`${ episode }`.length < 2)
+            ? `0${ episode }`
+            : episode;
+            
+          renamed.push(
+            `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`
+          );
+        }
+        // tvdb couldn't find a matching item
+        else{
+          renamed.push(null);
+        }
       }
+      // `null` value from Client
       else{
         renamed.push(null);
       }

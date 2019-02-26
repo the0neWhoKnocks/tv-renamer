@@ -40,6 +40,7 @@ class Renamable extends Component {
     const {
       ext,
       name,
+      newName,
       path,
     } = this.props;
     const {
@@ -62,6 +63,9 @@ class Renamable extends Component {
             suppressContentEditableWarning
           >{name}</span>
           <span>{ext}</span>
+          {newName && (
+            <div className={`${ ROOT_CLASS }__new-name`}>{newName}{ext}</div>
+          )}
         </div>
       </div>
     );
@@ -71,6 +75,7 @@ class Renamable extends Component {
 Renamable.propTypes = {
   ext: string,
   name: string,
+  newName: string,
   path: string,
 };
 

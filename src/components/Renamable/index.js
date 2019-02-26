@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
-import { string } from 'prop-types';
+import React, { Component, Fragment } from 'react';
+import { bool, oneOfType, shape, string } from 'prop-types';
 import styles, {
   MODIFIER__EDITING_NAME,
+  MODIFIER__PREVIEWING,
+  MODIFIER__WARNING,
   ROOT_CLASS,
 } from './styles';
 
@@ -42,11 +44,46 @@ class Renamable extends Component {
       name,
       newName,
       path,
+      previewing,
     } = this.props;
     const {
       editingName,
     } = this.state;
-    const rootModifier = (editingName) ? MODIFIER__EDITING_NAME : '';
+    let rootModifier = '';
+    let newNameModifier = '';
+    let _newName = (typeof newName === 'string')
+      ? `${ newName }${ ext }`
+      : '';
+    
+    if(editingName) rootModifier = MODIFIER__EDITING_NAME;
+    if(previewing) rootModifier += ` ${ MODIFIER__PREVIEWING }`;
+    
+    if(previewing && typeof newName !== 'string'){
+      _newName = (
+        <Fragment>
+          <span>No Match Found</span>
+          {(typeof newName === 'object' && newName !== null) && (
+            <Fragment>
+              &nbsp;-&nbsp;
+              <span>{newName.error}</span>
+              {newName.searchURL && (
+                <Fragment>
+                  &nbsp;
+                  <a href={newName.searchURL}>Search</a>
+                </Fragment>
+              )}
+              {newName.seriesURL && (
+                <Fragment>
+                  &nbsp;
+                  <a href={newName.seriesURL}>Series</a>
+                </Fragment>
+              )}
+            </Fragment>
+          )}
+        </Fragment>
+      );
+      newNameModifier = MODIFIER__WARNING;
+    }
     
     return (
       <div
@@ -63,10 +100,12 @@ class Renamable extends Component {
             suppressContentEditableWarning
           >{name}</span>
           <span>{ext}</span>
-          {newName && (
-            <div className={`${ ROOT_CLASS }__new-name`}>{newName}{ext}</div>
-          )}
         </div>
+        {previewing && (
+          <div 
+            className={`${ ROOT_CLASS }__new-name ${ newNameModifier }`}
+          >{_newName}</div>
+        )}
       </div>
     );
   }
@@ -75,8 +114,14 @@ class Renamable extends Component {
 Renamable.propTypes = {
   ext: string,
   name: string,
-  newName: string,
+  newName: oneOfType([
+    string,
+    shape({
+      
+    }),
+  ]),
   path: string,
+  previewing: bool,
 };
 
 export default Renamable;

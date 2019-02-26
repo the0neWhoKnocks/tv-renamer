@@ -5,7 +5,7 @@ export default (name) => {
   const _name = sanitizeFilename(name)
     .toLowerCase()
     .replace(/\s/g, '_')
-    .replace(/'/g, '');
+    .replace(/'|\(|\)/g, '');
   
   return {
     filePath: `${ PUBLIC_CACHE }/${ _name }.json`,

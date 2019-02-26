@@ -1,11 +1,13 @@
 import cacheData from './cacheData';
 import getSeriesEpisodes from './getSeriesEpisodes';
 
-export default ({ jwt, seriesID, seriesName }) => new Promise(
+export default ({ jwt, seriesID, seriesName, seriesSlug }) => new Promise(
   (resolve, reject) => {
     const cache = {
       id: seriesID,
+      name: seriesName,
       seasons: {},
+      slug: seriesSlug,
     };
     
     getSeriesEpisodes({ jwt, seriesID })
@@ -24,7 +26,7 @@ export default ({ jwt, seriesID, seriesName }) => new Promise(
           currSeasonEps[airedEpisodeNumber] = episodeName;
         }
         
-        cacheData({ data: cache, name: seriesName })
+        cacheData({ data: cache })
           .then(() => resolve(cache));
       })
       .catch(({ err, resp }) => {

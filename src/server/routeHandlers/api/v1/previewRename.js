@@ -1,6 +1,13 @@
-import genCacheName from './utils/genCacheName';
+import {
+  TVDB_QUERY_URL,
+  TVDB_SERIES_URL,
+  TVDB__TOKEN__SERIES_SLUG,
+  TVDB__TOKEN__SERIES_QUERY,
+} from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
+import convertNameToSlug from './utils/convertNameToSlug';
+import genCacheName from './utils/genCacheName';
 import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
 import lookUpSeries from './utils/lookUpSeries';
@@ -21,9 +28,11 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
       
       if(name && season && episode){
         const cacheKey = genCacheName(name).name;
-        const cache = _cacheData[cacheKey];
+        let cache = _cacheData[cacheKey];
         
-        if(cache.seasons[season]){
+        if(!cache) cache = _cacheData[convertNameToSlug(name)];
+        
+        if(cache && cache.seasons[season]){
           const epNum = (`${ episode }`.length < 2)
             ? `0${ episode }`
             : episode;
@@ -32,15 +41,35 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
             `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`
           );
         }
+        // could be a possible series mis-match
+        else if(cache){
+          renamed.push({
+            error: 'Possible series mis-match',
+            name: cache.name,
+            seriesURL: TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug),
+            searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
+          });
+        }
         // tvdb couldn't find a matching item
         else{
-          renamed.push(null);
+          renamed.push({
+            error: "TVDB couldn't find a match",
+            name,
+            searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
+          });
         }
       }
-      // `null` value from Client
+      // missing data from Client
       else{
-        renamed.push(null);
+        renamed.push({
+          error: 'Not enough data for a search',
+          name: name || undefined,
+        });
       }
+    }
+    else{
+      console.log('[PREVIEW] Dunno what happened', nameObj);
+      renamed.push(null);
     }
   });
   

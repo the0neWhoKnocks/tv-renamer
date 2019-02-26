@@ -41,6 +41,8 @@
 ## Misc
 - [x] Script that generates test files
 - [x] After build, remove files that don't need to be packaged.
+- [ ] See if there's a way to make BrowserSync stop retrying after X amount
+      of time.
 
 ---
 
@@ -61,6 +63,7 @@
     - [x] On ENTER key, `blur`, don't allow a newline.
 - [ ] Rename preview. Maybe it overlays the item.
 - Alias (button), opens modal
+  - [ ] Maybe just allow for inputting the TVDB series ID
   - [ ] Pattern (input) | Alias (input) | Test (button)
     - [ ] Pattern has a regex toggle
     - [ ] Pattern will start with the name of the item that was clicked

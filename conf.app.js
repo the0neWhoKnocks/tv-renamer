@@ -2,9 +2,12 @@ const { resolve } = require('path');
 
 const API_PREFIX = '/api/v1';
 const TVDB_API = 'https://api.thetvdb.com';
+const TVDB_URL = 'https://www.thetvdb.com';
 const TVDB__TOKEN__PAGE_NUM = '{PAGE_NUM}';
 const TVDB__TOKEN__SERIES_ID = '{SERIES_ID}';
 const TVDB__TOKEN__SERIES_NAME = '{SERIES_NAME}';
+const TVDB__TOKEN__SERIES_SLUG = '{SERIES_SLUG}';
+const TVDB__TOKEN__SERIES_QUERY = '{SERIES_QUERY}';
 const ROOT = resolve(__dirname, './');
 const SRC = `${ ROOT }/src`;
 const CACHE_FOLDER_NAME = '.cache';
@@ -51,6 +54,8 @@ module.exports = {
   TMP,
   TMP_OUTPUT: `${ TMP }/output`,
   TMP_SRC: `${ TMP }/src`,
+  TVDB_QUERY_URL: `${ TVDB_URL }/search?q=${ TVDB__TOKEN__SERIES_QUERY }&l=en`,
+  TVDB_SERIES_URL: `${ TVDB_URL }/series/${ TVDB__TOKEN__SERIES_SLUG }`,
   TVDB_API__EPISODES_URL: `${ TVDB_API }/series/${ TVDB__TOKEN__SERIES_ID }/episodes?page=${ TVDB__TOKEN__PAGE_NUM }`,
   TVDB_API__LANGUAGES_URL: `${ TVDB_API }/languages`,
   TVDB_API__LOGIN_URL: `${ TVDB_API }/login`,
@@ -59,6 +64,8 @@ module.exports = {
   TVDB__TOKEN__PAGE_NUM,
   TVDB__TOKEN__SERIES_ID,
   TVDB__TOKEN__SERIES_NAME,
+  TVDB__TOKEN__SERIES_SLUG,
+  TVDB__TOKEN__SERIES_QUERY,
   WP__ENTRY: `${ SRC }/app.js`,
   WP__OUTPUT: DIST_JS,
   aliases: {

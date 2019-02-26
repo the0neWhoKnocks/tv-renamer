@@ -162,6 +162,7 @@ class App extends Component {
       onClose: this.handleCloseConfig,
       onSaveComplete: this.handleConfigSave,
     };
+    let previewing = false;
     
     if(!loaded) return <div>Loading</div>;
     
@@ -170,6 +171,8 @@ class App extends Component {
       configProps.hideCloseBtn = true;
       delete configProps.onClose;
     }
+    
+    if(previewItems.length) previewing = true;
     
     return (
       <div className={`app ${ styles }`}>
@@ -200,6 +203,7 @@ class App extends Component {
                       name={name}
                       newName={previewItems[ndx]}
                       path={dir}
+                      previewing={previewing}
                     />
                   );
                 }

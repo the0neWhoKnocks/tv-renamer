@@ -1,5 +1,4 @@
 import http from 'http';
-import { parse } from 'path';
 import { create } from 'browser-sync';
 import nodemon from 'nodemon';
 import {
@@ -10,6 +9,7 @@ import {
 
 const browserSync = create();
 const port = +process.env.PORT || 8080;
+const LOGGER_PREFIX = '[WATCHER]';
 
 const checkServer = () => new Promise((rootResolve, rootReject) => {
   let count = 0;
@@ -17,7 +17,7 @@ const checkServer = () => new Promise((rootResolve, rootReject) => {
     setTimeout(() => {
       const serverAddress = `http://localhost:${ port }`;
       
-      console.log(`[WATCHER] Pinging ${ serverAddress }`);
+      console.log(`${ LOGGER_PREFIX } Pinging ${ serverAddress }`);
       http.get(serverAddress, (res) => resolve())
         .on('error', (err) => reject());
     }, 1000);
@@ -42,6 +42,7 @@ const checkServer = () => new Promise((rootResolve, rootReject) => {
 });
 
 nodemon({
+  delay: 500,
   script: `${ DIST_SERVER }/index.js`,
   watch: [
     // WP bundled new code
@@ -51,12 +52,8 @@ nodemon({
     `${ DIST_SERVER }/**/*.js`,
   ],
 })
-  .on('restart', (files) => {
-    const msg = (files.length > 1) ? 'these files' : 'this file';
-    console.log(
-      `Nodemon restarted because ${ msg } changed:\n`,
-      files.map((filePath) => ` • "${ parse(filePath).base }"`).join('\n')
-    );
+  .on('restart', () => {
+    console.log(`${ LOGGER_PREFIX } Server restarting because file(s) changed`);
     
     checkServer()
       .then(() => {

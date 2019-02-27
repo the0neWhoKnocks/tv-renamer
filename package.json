@@ -20,7 +20,7 @@
     "unit": "jest --env=jsdom --config ./.jest/conf.jest.js",
     "watch:app": "cross-env MODE=development webpack --watch",
     "watch:server": "babel-node ./src/server/watcher",
-    "watch:transpile": "npm run transpile -- --watch",
+    "watch:transpile": "npm run transpile -- --skip-initial-build --watch",
     "watch:unit": "npm run unit -- --watchAll"
   },
   "repository": {

@@ -9,7 +9,7 @@ import {
 
 const browserSync = create();
 const port = +process.env.PORT || 8080;
-const LOGGER_PREFIX = '[WATCHER]';
+const LOG_PREFIX = '[WATCHER]';
 
 const checkServer = () => new Promise((rootResolve, rootReject) => {
   let count = 0;
@@ -17,7 +17,7 @@ const checkServer = () => new Promise((rootResolve, rootReject) => {
     setTimeout(() => {
       const serverAddress = `http://localhost:${ port }`;
       
-      console.log(`${ LOGGER_PREFIX } Pinging ${ serverAddress }`);
+      console.log(`${ LOG_PREFIX } Pinging ${ serverAddress }`);
       http.get(serverAddress, (res) => resolve())
         .on('error', (err) => reject());
     }, 1000);
@@ -53,7 +53,7 @@ nodemon({
   ],
 })
   .on('restart', () => {
-    console.log(`${ LOGGER_PREFIX } Server restarting because file(s) changed`);
+    console.log(`${ LOG_PREFIX } Server restarting because file(s) changed`);
     
     checkServer()
       .then(() => {
@@ -82,3 +82,13 @@ browserSync.init({
     port: port + 2,
   },
 });
+
+function killWatcher(evType) {
+  console.log(`${ LOG_PREFIX } Killing watcher (${ evType })`);
+  nodemon.emit('quit');
+  process.exit(0);
+}
+
+process.on('SIGINT', killWatcher.bind(null, 'SIGINT'));
+process.on('SIGTERM', killWatcher.bind(null, 'SIGTERM'));
+process.on('SIGUSR2', killWatcher.bind(null, 'SIGUSR2'));

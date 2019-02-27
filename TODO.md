@@ -47,11 +47,10 @@
 ---
 
 ## Performance
-- [ ] If a show is an exact match, cache the show's id so there's one less
+- [x] If a show is an exact match, cache the show's id so there's one less
       request to make.
-- [ ] Maybe cache the episode names as well so that it just becomes a lookup
+- [x] Maybe cache the episode names as well so that it just becomes a lookup
       at that point.
-- [ ] Maybe have a Refresh button for a series to get new data.
 
 ---
 
@@ -78,8 +77,10 @@
         season data comes out.
 - Delete (button)
   - [ ] On  click, display confirmation modal
-- [ ] Sometimes a series will be cached, but it's matching the wrong series.
-      Vikings is an example of that right now.
+- [ ] Keep track of the indexes of items that are being processed. For example
+  when Preview is hit, all indexes will be recorded. In the case where you want
+  to change the id of just one item, record that index X was requested, then
+  when the Array of results is returned you know that item X needs to be updated.
 
 ---
 

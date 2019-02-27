@@ -1,11 +1,14 @@
 import { css } from 'emotion';
 
+export const MODIFIER__PREVIEWING = 'is--previewing';
+export const ROOT_CLASS = 'app';
+
 export default css`
   height: 100%;
   display: flex;
   flex-direction: column;
   
-  .app {
+  .${ ROOT_CLASS } {
     
     &__nav {
       text-align: right;
@@ -23,6 +26,38 @@ export default css`
     &__body {
       display: flex;
       flex-direction: column;
+    }
+    
+    &__items-nav {
+      text-align: right;
+      overflow: hidden;
+      background: #666;
+      
+      &-btns-wrapper {
+        transition: transform 200ms;
+        transform: translateX(6em);
+      }
+      
+      button {
+        color: #ddd;
+        padding: 0.5em 1em;
+        border: none;
+        border-left: solid 1px #888;
+        background: transparent;
+        outline: none;
+        
+        &:hover {
+          color: #fff;
+        }
+        
+        &:focus {
+          box-shadow: inset 0px -4px 0px -1px #484848;
+        }
+        
+        &:disabled {
+          opacity: 0.5;
+        }
+      }
     }
     
     &__section {
@@ -44,19 +79,6 @@ export default css`
           padding: 0.5rem 1rem;
           margin: 0;
         }
-        
-        nav {
-          text-align: right;
-          background: #666;
-          
-          button {
-            color: #ddd;
-            padding: 0.5em 1em;
-            border: none;
-            border-left: solid 1px #888;
-            background: transparent;
-          }
-        }
       }
       
       &-items {
@@ -64,6 +86,16 @@ export default css`
         &.has--items {
           padding: 1rem;
         }
+      }
+    }
+  }
+  
+  &.${ MODIFIER__PREVIEWING } {
+    
+    .${ ROOT_CLASS } {
+      
+      &__items-nav-btns-wrapper {
+        transform: translateX(0em);
       }
     }
   }

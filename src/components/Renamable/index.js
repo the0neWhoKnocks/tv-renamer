@@ -1,8 +1,10 @@
 import React, { Component, Fragment } from 'react';
 import { bool, oneOfType, shape, string } from 'prop-types';
+import Toggle from 'COMPONENTS/Toggle';
 import styles, {
   MODIFIER__EDITING_NAME,
   MODIFIER__PREVIEWING,
+  MODIFIER__SELECTED,
   MODIFIER__WARNING,
   ROOT_CLASS,
 } from './styles';
@@ -13,11 +15,13 @@ class Renamable extends Component {
     
     this.state = {
       editingName: false,
+      selected: true,
     };
     
     this.handleKeyDown = this.handleKeyDown.bind(this);
     this.handleNameBlur = this.handleNameBlur.bind(this);
     this.handleNameFocus = this.handleNameFocus.bind(this);
+    this.handleToggle = this.handleToggle.bind(this);
   }
   
   handleKeyDown(ev) {
@@ -38,6 +42,10 @@ class Renamable extends Component {
     this.setState({ editingName: true });
   }
   
+  handleToggle() {
+    this.setState({ selected: !this.state.selected });
+  }
+  
   render() {
     const {
       ext,
@@ -48,7 +56,9 @@ class Renamable extends Component {
     } = this.props;
     const {
       editingName,
+      selected,
     } = this.state;
+    const slug = name.toLowerCase().replace(/[.'\s]/gi, '');
     let rootModifier = '';
     let newNameModifier = '';
     let _newName = (typeof newName === 'string')
@@ -57,26 +67,33 @@ class Renamable extends Component {
     
     if(editingName) rootModifier = MODIFIER__EDITING_NAME;
     if(previewing) rootModifier += ` ${ MODIFIER__PREVIEWING }`;
+    if(selected) rootModifier += ` ${ MODIFIER__SELECTED }`;
     
     if(previewing && typeof newName !== 'string'){
       _newName = (
         <Fragment>
-          <span>No Match Found</span>
+          <span>No Exact Match Found</span>
           {(typeof newName === 'object' && newName !== null) && (
             <Fragment>
               &nbsp;-&nbsp;
-              <span>{newName.error}</span>
-              {newName.searchURL && (
-                <Fragment>
-                  &nbsp;
-                  <a href={newName.searchURL}>Search</a>
-                </Fragment>
-              )}
-              {newName.seriesURL && (
-                <Fragment>
-                  &nbsp;
-                  <a href={newName.seriesURL}>Series</a>
-                </Fragment>
+              <span>{newName.error}.</span>
+              {(newName.searchURL || newName.seriesURL) && (
+                <div>
+                  {newName.searchURL && (
+                    <a
+                      href={newName.searchURL}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >View Search</a>
+                  )}
+                  {newName.seriesURL && (
+                    <a
+                      href={newName.seriesURL}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >View Series</a>
+                  )}
+                </div>
               )}
             </Fragment>
           )}
@@ -91,9 +108,10 @@ class Renamable extends Component {
         data-path={path}
         onKeyDown={this.handleKeyDown}
       >
+        <Toggle id={slug} onToggle={this.handleToggle} toggled={selected} />
         <div className={`${ ROOT_CLASS }__name`}>
           <span
-            contentEditable="true"
+            contentEditable={selected}
             onBlur={this.handleNameBlur}
             onFocus={this.handleNameFocus}
             spellCheck="false"

@@ -2,6 +2,7 @@ import { css } from 'emotion';
 
 export const MODIFIER__EDITING_NAME = 'editing--name';
 export const MODIFIER__PREVIEWING = 'is--previewing';
+export const MODIFIER__SELECTED = 'is--selected';
 export const MODIFIER__WARNING = 'has--warning';
 export const ROOT_CLASS = 'renamable';
 const itemBorderColor = '#aaa';
@@ -13,12 +14,7 @@ export default css`
   cursor: default;
   position: relative;
   display: flex;
-  
-  &:hover {
-    border-radius: 0.5em;
-    box-shadow: 0 0 0px 0.25em #666;
-    z-index: 1;
-  }
+  opacity: 0.5;
   
   .${ ROOT_CLASS } {
     
@@ -42,6 +38,15 @@ export default css`
       &.${ MODIFIER__WARNING } {
         color: #734b00;
         background: #fff1ab;
+        
+        a {
+          color: currentColor;
+          text-decoration: none;
+          padding: 0.25em 0 0.1em;
+          border-bottom: solid 1px;
+          margin: 0 0.5em 0 0;
+          display: inline-block;
+        }
       }
     }
   }
@@ -87,6 +92,16 @@ export default css`
       &__name {
         border-right: solid 1px ${ itemBorderColor };
       }
+    }
+  }
+  
+  &.${ MODIFIER__SELECTED } {
+    opacity: 1;
+    
+    &:hover {
+      border-radius: 0.5em;
+      box-shadow: 0 0 0px 0.25em #666;
+      z-index: 1;
     }
   }
   

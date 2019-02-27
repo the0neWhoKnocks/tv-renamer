@@ -12,13 +12,17 @@ import {
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
 import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
-import styles from './styles';
+import styles, {
+  MODIFIER__PREVIEWING,
+  ROOT_CLASS,
+} from './styles';
 
 class App extends Component {
   constructor() {
     super();
     
     this.state = {
+      allItemsSelected: true,
       config: undefined,
       files: [],
       loaded: false,
@@ -151,6 +155,7 @@ class App extends Component {
   
   render() {
     const {
+      allItemsSelected,
       config,
       files,
       loaded,
@@ -158,11 +163,13 @@ class App extends Component {
       renamedFiles,
       showConfig,
     } = this.state;
+    const btnPronoun = (allItemsSelected) ? 'All' : 'Selected';
     let configProps = {
       onClose: this.handleCloseConfig,
       onSaveComplete: this.handleConfigSave,
     };
     let previewing = false;
+    let rootModifier = '';
     
     if(!loaded) return <div>Loading</div>;
     
@@ -174,24 +181,28 @@ class App extends Component {
     
     if(previewItems.length) previewing = true;
     
+    if(previewing) rootModifier += ` ${ MODIFIER__PREVIEWING }`;
+    
     return (
-      <div className={`app ${ styles }`}>
-        <nav className="app__nav">
+      <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>
+        <nav className={`${ ROOT_CLASS }__nav`}>
           <button onClick={this.handleOpenConfig}>
             ☰ Config
           </button>
         </nav>
-        <div className="app__body">
-          <section className="app__section">
-            <div className="app__section-title">
+        <div className={`${ ROOT_CLASS }__body`}>
+          <section className={`${ ROOT_CLASS }__section`}>
+            <div className={`${ ROOT_CLASS }__section-title`}>
               <h2>Awaiting Rename</h2>
-              <nav>
-                <button onClick={this.handlePreviewRename}>Preview</button>
-                <button>Rename</button>
+              <nav className={`${ ROOT_CLASS }__items-nav`}>
+                <div className={`${ ROOT_CLASS }__items-nav-btns-wrapper`}>
+                  <button onClick={this.handlePreviewRename}>Preview</button>
+                  <button disabled={!previewing}>Rename {btnPronoun}</button>
+                </div>
               </nav>
             </div>
             <div
-              className={`app__section-items ${ (files.length) ? 'has--items' : '' }`}
+              className={`${ ROOT_CLASS }__section-items ${ (files.length) ? 'has--items' : '' }`}
               ref={(ref) => { this.filesRef = ref; }}
             >
               {files.map(
@@ -210,14 +221,16 @@ class App extends Component {
               )}
             </div>
           </section>
-          <section className="app__section">
-            <div className="app__section-title">
-              <h2 className="app__section-title">Renamed</h2>
-            </div>
-            <div className={`app__section-items ${ (renamedFiles.length) ? 'has--items' : '' }`}>
-              {renamedFiles && (<div />)}
-            </div>
-          </section>
+          {!!renamedFiles.length && (
+            <section className={`${ ROOT_CLASS }__section`}>
+              <div className={`${ ROOT_CLASS }__section-title`}>
+                <h2>Renamed</h2>
+              </div>
+              <div className={`${ ROOT_CLASS }__section-items ${ (renamedFiles.length) ? 'has--items' : '' }`}>
+                {renamedFiles && (<div />)}
+              </div>
+            </section>
+          )}
         </div>
         {showConfig && (
           <Modal>

@@ -38,7 +38,6 @@ export default ({
         body {
           font-family: Helvetica, Arial, sans-serif;
           background: #eee;
-          overflow-y: scroll;
         }
         body > noscript {
           font-size: 1.2em;

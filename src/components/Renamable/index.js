@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { bool, oneOfType, shape, string } from 'prop-types';
+import { bool, number, oneOfType, shape, string } from 'prop-types';
 import Toggle from 'COMPONENTS/Toggle';
 import styles, {
   MODIFIER__EDITING_NAME,
@@ -10,18 +10,30 @@ import styles, {
 } from './styles';
 
 class Renamable extends Component {
-  constructor() {
+  constructor({
+    selected,
+  }) {
     super();
     
     this.state = {
       editingName: false,
-      selected: true,
+      selected,
     };
     
     this.handleKeyDown = this.handleKeyDown.bind(this);
     this.handleNameBlur = this.handleNameBlur.bind(this);
     this.handleNameFocus = this.handleNameFocus.bind(this);
     this.handleToggle = this.handleToggle.bind(this);
+  }
+  
+  componentDidUpdate(prevProps, prevState) {
+    const { selected } = this.props;
+    
+    // ensure `selected` passed from parent takes priority
+    if(selected !== prevProps.selected){
+      // console.log(prevProps.selected, selected);
+      this.setState({ selected });
+    }
   }
   
   handleKeyDown(ev) {
@@ -49,6 +61,7 @@ class Renamable extends Component {
   render() {
     const {
       ext,
+      itemIndex,
       name,
       newName,
       path,
@@ -109,7 +122,10 @@ class Renamable extends Component {
         onKeyDown={this.handleKeyDown}
       >
         <Toggle id={slug} onToggle={this.handleToggle} toggled={selected} />
-        <div className={`${ ROOT_CLASS }__name`}>
+        <div
+          className={`${ ROOT_CLASS }__name`}
+          data-index={itemIndex}
+        >
           <span
             contentEditable={selected}
             onBlur={this.handleNameBlur}
@@ -131,6 +147,7 @@ class Renamable extends Component {
 
 Renamable.propTypes = {
   ext: string,
+  itemIndex: number,
   name: string,
   newName: oneOfType([
     string,
@@ -140,6 +157,7 @@ Renamable.propTypes = {
   ]),
   path: string,
   previewing: bool,
+  selected: bool,
 };
 
 export default Renamable;

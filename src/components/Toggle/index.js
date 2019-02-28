@@ -1,9 +1,6 @@
 import React from 'react';
 import { bool, func, node, shape, string } from 'prop-types';
-import styles, {
-  MODIFIER__CURRENT,
-  ROOT_CLASS,
-} from './styles';
+import styles, { ROOT_CLASS } from './styles';
 
 const Toggle = ({
   children,
@@ -19,9 +16,6 @@ const Toggle = ({
   const dynamicProps = {
     onChange: onToggle,
   };
-  let btnModifier = '';
-  
-  if(toggled) btnModifier += ` ${ MODIFIER__CURRENT }`;
   
   if(!onToggle) dynamicProps.defaultChecked = toggled;
   else dynamicProps.checked = toggled;
@@ -36,7 +30,7 @@ const Toggle = ({
         {...data}
       />
       <label
-        className={`${ ROOT_CLASS }__btn ${ btnModifier }`}
+        className={`${ ROOT_CLASS }__btn`}
         htmlFor={id}
         style={childStyle}
         title={title}

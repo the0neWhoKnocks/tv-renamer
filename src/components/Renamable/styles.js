@@ -1,4 +1,5 @@
 import { css } from 'emotion';
+import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
 export const MODIFIER__EDITING_NAME = 'editing--name';
 export const MODIFIER__PREVIEWING = 'is--previewing';
@@ -15,6 +16,20 @@ export default css`
   position: relative;
   display: flex;
   opacity: 0.5;
+  
+  &:hover {
+    border-radius: 0.5em;
+    box-shadow: 0 0 0px 0.25em #666;
+    z-index: 1;
+    
+    .${ TOGGLE_ROOT_CLASS } {
+      border-radius: 6px 0px 0px 6px;
+      
+      &__input:checked + .${ TOGGLE_ROOT_CLASS }__btn {
+        border-radius: 4px 0px 0px 4px;
+      }
+    }
+  }
   
   .${ ROOT_CLASS } {
     
@@ -69,6 +84,26 @@ export default css`
     }
   }
   
+  .${ TOGGLE_ROOT_CLASS } {
+    width: 1em;
+    color: #333;
+    border: solid 2px;
+    margin: 2px;
+    position: relative;
+    
+    &__btn {
+      padding: 0;
+      border: none;
+      border-radius: unset;
+      display: block;
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      bottom: 1px;
+      right: 1px;
+    }
+  }
+  
   &.${ MODIFIER__EDITING_NAME } {
     
     .${ ROOT_CLASS } {
@@ -97,12 +132,6 @@ export default css`
   
   &.${ MODIFIER__SELECTED } {
     opacity: 1;
-    
-    &:hover {
-      border-radius: 0.5em;
-      box-shadow: 0 0 0px 0.25em #666;
-      z-index: 1;
-    }
   }
   
   @media (max-width: 600px) {

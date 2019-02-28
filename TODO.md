@@ -28,10 +28,12 @@
 - [ ] 1 column layout, 2 panes
   - 1st section
     - [x] There are files that are pending a rename.
-    - [ ] Have a Preview button which will show what all the files will be
-          renamed to. Once the preview has executed, have a Rename button
-          appear that will rename, set permissions (if needed), and move the
-          file.
+    - [x] Have a Preview button which will show what all the files will be
+          renamed to.
+      - [x] Once the preview has executed, have a Rename button
+            appear that will rename, set permissions (if needed), and move the
+            file.
+      - [ ] Disable rename if no items are checked (after a preview)
   - 2nd section, a log of files that were renamed (From) -> (To)
     - [ ] Just load this on demand so that it's not eating up memory on every
           load.
@@ -62,14 +64,9 @@
     - [x] On ENTER key, `blur`, don't allow a newline.
 - [ ] Rename preview. Maybe it overlays the item.
 - Alias (button), opens modal
-  - [ ] Maybe just allow for inputting the TVDB series ID
-  - [ ] Pattern (input) | Alias (input) | Test (button)
-    - [ ] Pattern has a regex toggle
-    - [ ] Pattern will start with the name of the item that was clicked
-    - [ ] Test will run the pattern on the original name, if matched, will
-          substitute match with Alias, and preview results.
-  - [ ] Preview (text)
-  - [ ] Cancel (button) | Save (button)
+  - [ ] Allow for inputting the TVDB series ID
+  - [ ] If an alias is in use, the button will be green, otherwise some default
+        gray or something.
 - Refresh Cache (button)
   - [ ] Will display if data loaded from cache
   - [ ] On click, will tell the server to trash the cache for the series and

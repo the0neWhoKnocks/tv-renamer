@@ -4,6 +4,7 @@ import Modal from 'COMPONENTS/Modal';
 import Renamable, {
   ROOT_CLASS as RENAMABLE_ROOT_CLASS,
 } from 'COMPONENTS/Renamable';
+import Toggle from 'COMPONENTS/Toggle';
 import {
   API__CONFIG,
   API__FILES_LIST,
@@ -13,6 +14,7 @@ import {
 import fetch from 'UTILS/fetch';
 import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
+  MODIFIER__HAS_ITEMS,
   MODIFIER__PREVIEWING,
   ROOT_CLASS,
 } from './styles';
@@ -22,19 +24,20 @@ class App extends Component {
     super();
     
     this.state = {
-      allItemsSelected: true,
       config: undefined,
       files: [],
       loaded: false,
       previewItems: [],
       renamedFiles: [],
+      selectAll: true,
       showConfig: false,
     };
     
     this.handleConfigSave = this.handleConfigSave.bind(this);
     this.handleCloseConfig = this.handleCloseConfig.bind(this);
-    this.handlePreviewRename = this.handlePreviewRename.bind(this);
+    this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
+    this.handlePreviewRename = this.handlePreviewRename.bind(this);
   }
   
   componentDidMount() {
@@ -122,19 +125,28 @@ class App extends Component {
     });
   }
   
+  handleGlobalToggle() {
+    this.setState({ selectAll: !this.state.selectAll });
+  }
+  
   handlePreviewRename() {
-    const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }__name`);
+    const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__name`);
     const names = [...items].map((itemEl) => {
-      
-      const matches = itemEl.innerText.match(/^([a-z'.-]+\b(?:\d{3,4})?)\.(s(\d{2})e(\d{2}))?/i);
+      const name = itemEl.innerText;
+      const matches = name.match(/^([a-z'.-]+\b(?:\d{3,4})?)\.(s(\d{2})e(\d{2}))?/i);
+      const nameData = {
+        index: itemEl.dataset.index,
+        name,
+      };
       
       return (matches)
         ? {
+          ...nameData,
           episode: matches[4] && +matches[4],
           name: matches[1] && matches[1].replace(/\./g, ' '),
           season: matches[3] && +matches[3],
         }
-        : {};
+        : nameData;
     });
     
     fetch(API__PREVIEW_RENAME, {
@@ -155,15 +167,16 @@ class App extends Component {
   
   render() {
     const {
-      allItemsSelected,
       config,
       files,
       loaded,
       previewItems,
       renamedFiles,
+      selectAll,
       showConfig,
     } = this.state;
-    const btnPronoun = (allItemsSelected) ? 'All' : 'Selected';
+    const btnPronoun = (selectAll) ? 'All' : 'Selected';
+    const globalTogglePronoun = (selectAll) ? 'None' : 'All';
     let configProps = {
       onClose: this.handleCloseConfig,
       onSaveComplete: this.handleConfigSave,
@@ -194,15 +207,21 @@ class App extends Component {
           <section className={`${ ROOT_CLASS }__section`}>
             <div className={`${ ROOT_CLASS }__section-title`}>
               <h2>Awaiting Rename</h2>
-              <nav className={`${ ROOT_CLASS }__items-nav`}>
-                <div className={`${ ROOT_CLASS }__items-nav-btns-wrapper`}>
-                  <button onClick={this.handlePreviewRename}>Preview</button>
-                  <button disabled={!previewing}>Rename {btnPronoun}</button>
-                </div>
-              </nav>
             </div>
+            <nav className={`${ ROOT_CLASS }__items-nav`}>
+              <Toggle
+                className={`${ ROOT_CLASS }__global-toggle`}
+                id="itemSelectToggle"
+                onToggle={this.handleGlobalToggle}
+                toggled={selectAll}
+              >Select {globalTogglePronoun}</Toggle>
+              <div className={`${ ROOT_CLASS }__items-nav-btns-wrapper`}>
+                <button onClick={this.handlePreviewRename}>Preview</button>
+                <button disabled={!previewing}>Rename {btnPronoun}</button>
+              </div>
+            </nav>
             <div
-              className={`${ ROOT_CLASS }__section-items ${ (files.length) ? 'has--items' : '' }`}
+              className={`${ ROOT_CLASS }__section-items ${ (files.length) ? MODIFIER__HAS_ITEMS : '' }`}
               ref={(ref) => { this.filesRef = ref; }}
             >
               {files.map(
@@ -211,10 +230,12 @@ class App extends Component {
                     <Renamable
                       key={name}
                       ext={ext}
+                      itemIndex={ndx}
                       name={name}
                       newName={previewItems[ndx]}
                       path={dir}
                       previewing={previewing}
+                      selected={selectAll}
                     />
                   );
                 }

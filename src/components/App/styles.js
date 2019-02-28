@@ -1,6 +1,8 @@
 import { css } from 'emotion';
+import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
 export const MODIFIER__PREVIEWING = 'is--previewing';
+export const MODIFIER__HAS_ITEMS = 'has--items';
 export const ROOT_CLASS = 'app';
 
 export default css`
@@ -28,23 +30,48 @@ export default css`
       flex-direction: column;
     }
     
+    &__global-toggle {
+      display: inline-block;
+      
+      .${ TOGGLE_ROOT_CLASS }__btn {
+        min-width: 6.5em;
+        text-align: center;
+        text-transform: none;
+        padding: 0.25em;
+        border-radius: 0.25em;
+      }
+    }
+    
     &__items-nav {
-      text-align: right;
+      height: 9.5em;
+      padding: 0.25em;
+      margin: 1rem 1rem 0;
       overflow: hidden;
       background: #666;
+      position: relative;
       
       &-btns-wrapper {
+        white-space: nowrap;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
         transition: transform 200ms;
-        transform: translateX(6em);
+        transform: translateX(8.75em);
       }
       
       button {
+        height: 100%;
         color: #ddd;
         padding: 0.5em 1em;
         border: none;
         border-left: solid 1px #888;
         background: transparent;
         outline: none;
+        
+        &:nth-of-type(2) {
+          min-width: 10.5em;
+        }
         
         &:hover {
           color: #fff;
@@ -61,7 +88,9 @@ export default css`
     }
     
     &__section {
-      overflow-y: auto;
+      min-height: 50%;
+      display: flex;
+      flex-direction: column;
       
       &:nth-of-type(2) {
         max-height: 25%;
@@ -69,10 +98,6 @@ export default css`
       }
       
       &-title {
-        box-shadow: 0 1px 1rem 0.25rem rgba(0, 0, 0, 0.5);
-        position: sticky;
-        top: 0;
-        z-index: 2;
         
         h2 {
           background: linear-gradient(#eee, #d4d4d4);
@@ -82,10 +107,9 @@ export default css`
       }
       
       &-items {
-        
-        &.has--items {
-          padding: 1rem;
-        }
+        padding: 0.25rem 0.25rem 1rem;
+        margin: 0 1rem 1rem 0.75rem;
+        overflow-y: auto;
       }
     }
   }

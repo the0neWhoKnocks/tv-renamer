@@ -43,12 +43,12 @@ export default css`
     }
     
     &__items-nav {
-      height: 9.5em;
       padding: 0.25em;
       margin: 1rem 1rem 0;
       overflow: hidden;
       background: #666;
       position: relative;
+      flex-shrink: 0;
       
       &-btns-wrapper {
         white-space: nowrap;

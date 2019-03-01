@@ -62,7 +62,7 @@
   - [x] Is `contenteditable` in case a file's name doesn't match normal 
         naming patterns.
     - [x] On ENTER key, `blur`, don't allow a newline.
-- [ ] Rename preview. Maybe it overlays the item.
+- [x] Rename preview. Maybe it overlays the item.
 - Alias (button), opens modal
   - [ ] Allow for inputting the TVDB series ID
   - [ ] If an alias is in use, the button will be green, otherwise some default
@@ -78,6 +78,7 @@
   when Preview is hit, all indexes will be recorded. In the case where you want
   to change the id of just one item, record that index X was requested, then
   when the Array of results is returned you know that item X needs to be updated.
+- [ ] Deselect items that don't have matches
 
 ---
 

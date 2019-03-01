@@ -20,6 +20,10 @@ import styles, {
 } from './styles';
 
 class App extends Component {
+  static getPreviewItem(index, items) {
+    return items.find((item) => +item.index === index);
+  }
+  
   constructor() {
     super();
     
@@ -226,13 +230,20 @@ class App extends Component {
             >
               {files.map(
                 ({ dir, ext, name }, ndx) => {
+                  const previewItem = App.getPreviewItem(ndx, previewItems);
+                  let newName;
+                  
+                  if(previewItem){
+                    newName = (previewItem.error) ? previewItem : previewItem.name;
+                  }
+                  
                   return (
                     <Renamable
                       key={name}
                       ext={ext}
                       itemIndex={ndx}
                       name={name}
-                      newName={previewItems[ndx]}
+                      newName={newName}
                       path={dir}
                       previewing={previewing}
                       selected={selectAll}

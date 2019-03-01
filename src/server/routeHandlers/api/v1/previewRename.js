@@ -24,7 +24,7 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
   // get all the episode names
   names.forEach((nameObj) => {
     if(nameObj){
-      const { episode, name, season } = nameObj;
+      const { episode, index, name, season } = nameObj;
       
       if(name && season && episode){
         const cacheKey = genCacheName(name).name;
@@ -37,14 +37,16 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
             ? `0${ episode }`
             : episode;
             
-          renamed.push(
-            `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`
-          );
+          renamed.push({
+            index,
+            name: `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`,
+          });
         }
         // could be a possible series mis-match
         else if(cache){
           renamed.push({
             error: 'Possible series mis-match',
+            index,
             name: cache.name,
             seriesURL: TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug),
             searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
@@ -54,6 +56,7 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
         else{
           renamed.push({
             error: "TVDB couldn't find a match",
+            index,
             name,
             searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
           });
@@ -63,6 +66,7 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
       else{
         renamed.push({
           error: 'Not enough data for a search',
+          index,
           name: name || undefined,
         });
       }

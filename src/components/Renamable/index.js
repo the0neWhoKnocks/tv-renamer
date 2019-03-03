@@ -30,8 +30,10 @@ class Renamable extends Component {
     const { selected } = this.props;
     
     // ensure `selected` passed from parent takes priority
-    if(selected !== prevProps.selected){
-      // console.log(prevProps.selected, selected);
+    if(
+      selected !== prevProps.selected
+      && this.state.selected !== selected
+    ){
       this.setState({ selected });
     }
   }

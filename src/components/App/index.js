@@ -35,6 +35,7 @@ class App extends Component {
       renamedFiles: [],
       selectAll: true,
       showConfig: false,
+      useGlobalToggle: true,
     };
     
     this.handleConfigSave = this.handleConfigSave.bind(this);
@@ -130,7 +131,10 @@ class App extends Component {
   }
   
   handleGlobalToggle() {
-    this.setState({ selectAll: !this.state.selectAll });
+    this.setState({
+      selectAll: !this.state.selectAll,
+      useGlobalToggle: true,
+    });
   }
   
   handlePreviewRename() {
@@ -158,7 +162,10 @@ class App extends Component {
       body: JSON.stringify({ names }),
     })
       .then((previewItems) => {
-        this.setState({ previewItems });
+        this.setState({
+          previewItems,
+          useGlobalToggle: false,
+        });
       })
       .catch((err) => {
         alert(err);
@@ -178,6 +185,7 @@ class App extends Component {
       renamedFiles,
       selectAll,
       showConfig,
+      useGlobalToggle,
     } = this.state;
     const btnPronoun = (selectAll) ? 'All' : 'Selected';
     const globalTogglePronoun = (selectAll) ? 'None' : 'All';
@@ -231,10 +239,21 @@ class App extends Component {
               {files.map(
                 ({ dir, ext, name }, ndx) => {
                   const previewItem = App.getPreviewItem(ndx, previewItems);
+                  let selected = selectAll;
                   let newName;
                   
                   if(previewItem){
                     newName = (previewItem.error) ? previewItem : previewItem.name;
+                  }
+                  
+                  if(
+                    // if an item is in error state, deselect it
+                    previewing && typeof newName !== 'string'
+                    // but only after a preview has come through, otherwise
+                    // allow for the global toggle to control it
+                    && !useGlobalToggle
+                  ){
+                    selected = false;
                   }
                   
                   return (
@@ -246,7 +265,7 @@ class App extends Component {
                       newName={newName}
                       path={dir}
                       previewing={previewing}
-                      selected={selectAll}
+                      selected={selected}
                     />
                   );
                 }

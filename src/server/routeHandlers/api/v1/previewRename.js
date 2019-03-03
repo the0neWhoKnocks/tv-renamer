@@ -108,9 +108,14 @@ export default ({ reqData, res }) => {
       }
       
       if(allCached){
-        console.log('Skipping config load and series look-ups');
-        // TODO - return cached data
-        res.end();
+        console.log('Skipping config load and series look-ups, all items cached');
+        jsonResp(
+          res,
+          getEpNamesFromCache({
+            cacheData: _cachedItems.map((item) => item.file),
+            names,
+          })
+        );
       }
       else{
         console.log('Not all items were cached, proceed to look-ups');

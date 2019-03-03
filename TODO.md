@@ -63,10 +63,24 @@
         naming patterns.
     - [x] On ENTER key, `blur`, don't allow a newline.
 - [x] Rename preview. Maybe it overlays the item.
+  - [ ] Allow for editing preview text, like editing file text
 - Alias (button), opens modal
   - [ ] Allow for inputting the TVDB series ID
   - [ ] If an alias is in use, the button will be green, otherwise some default
         gray or something.
+- ID (button)
+  - [ ] If the item has a TVDB match, the button will display the TVDB id
+  - [ ] Clicking on the button will allow a user to change the id to another
+    one in the case of a mis-match.
+    - [ ] On change of an id, a search will be sent out, with the `name`, and
+      an `id`. A manifest of cache files may have to be created so that a quick
+      lookup could occur for the file.
+      ```json
+      {
+        "tvdbid01": "cache_name.json",
+        "tvdbid02": "cache_name.json",
+      }
+      ```
 - Refresh Cache (button)
   - [ ] Will display if data loaded from cache
   - [ ] On click, will tell the server to trash the cache for the series and
@@ -78,7 +92,7 @@
   when Preview is hit, all indexes will be recorded. In the case where you want
   to change the id of just one item, record that index X was requested, then
   when the Array of results is returned you know that item X needs to be updated.
-- [ ] Deselect items that don't have matches
+- [x] Deselect items that don't have matches
 
 ---
 

@@ -1,5 +1,13 @@
 const { parse, relative } = require('path');
+const {
+  repository: { url: gitURL },
+  version,
+} = require('./package.json');
 const { aliases } = require('./conf.app');
+
+const repoData = gitURL.match(/.*github\.com\/(.*)\/(.*)\.git/);
+const REPO_OWNER = repoData[1];
+const REPO_NAME = repoData[2];
 
 module.exports = (api) => {
   api.cache(true);
@@ -46,6 +54,11 @@ module.exports = (api) => {
   return {
     plugins: [
       moduleResolver,
+      ['transform-define', {
+        'global.REPO_NAME': REPO_NAME,
+        'global.REPO_OWNER': REPO_OWNER,
+        'global.appVersion': `v${ version }`,
+      }],
       'emotion',
     ],
     presets: [

@@ -1,6 +1,7 @@
 const { resolve } = require('path');
 
 const API_PREFIX = '/api/v1';
+const GIT_API = 'https://api.github.com';
 const TVDB_API = 'https://api.thetvdb.com';
 const TVDB_URL = 'https://www.thetvdb.com';
 const TVDB__TOKEN__PAGE_NUM = '{PAGE_NUM}';
@@ -45,6 +46,7 @@ module.exports = {
   DIST_JS,
   DIST_SERVER: `${ DIST_CJS }/server`,
   DIST_VENDOR,
+  GIT_API__RELEASES: `${ GIT_API }/repos/${ global.REPO_OWNER }/${ global.REPO_NAME }/releases`,
   PUBLIC,
   PUBLIC_CACHE,
   PUBLIC_CONFIG,

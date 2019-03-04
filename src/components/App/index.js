@@ -5,6 +5,7 @@ import Renamable, {
   ROOT_CLASS as RENAMABLE_ROOT_CLASS,
 } from 'COMPONENTS/Renamable';
 import Toggle from 'COMPONENTS/Toggle';
+import Version from 'COMPONENTS/Version';
 import {
   API__CONFIG,
   API__FILES_LIST,
@@ -35,14 +36,17 @@ class App extends Component {
       renamedFiles: [],
       selectAll: true,
       showConfig: false,
+      showVersion: false,
       useGlobalToggle: true,
     };
     
     this.handleConfigSave = this.handleConfigSave.bind(this);
     this.handleCloseConfig = this.handleCloseConfig.bind(this);
+    this.handleCloseVersion = this.handleCloseVersion.bind(this);
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
     this.handlePreviewRename = this.handlePreviewRename.bind(this);
+    this.handleVersionClick = this.handleVersionClick.bind(this);
   }
   
   componentDidMount() {
@@ -123,6 +127,10 @@ class App extends Component {
     this.setState({ showConfig: false });
   }
   
+  handleCloseVersion() {
+    this.setState({ showVersion: false });
+  }
+  
   handleConfigSave(config) {
     this.setState({
       config,
@@ -176,6 +184,10 @@ class App extends Component {
     this.setState({ showConfig: true });
   }
   
+  handleVersionClick() {
+    this.setState({ showVersion: true });
+  }
+  
   render() {
     const {
       config,
@@ -185,10 +197,14 @@ class App extends Component {
       renamedFiles,
       selectAll,
       showConfig,
+      showVersion,
       useGlobalToggle,
     } = this.state;
     const btnPronoun = (selectAll) ? 'All' : 'Selected';
     const globalTogglePronoun = (selectAll) ? 'None' : 'All';
+    const versionProps = {
+      onClose: this.handleCloseVersion,
+    };
     let configProps = {
       onClose: this.handleCloseConfig,
       onSaveComplete: this.handleConfigSave,
@@ -211,6 +227,9 @@ class App extends Component {
     return (
       <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>
         <nav className={`${ ROOT_CLASS }__nav`}>
+          <button onClick={this.handleVersionClick}>
+            {global.appVersion}
+          </button>
           <button onClick={this.handleOpenConfig}>
             ☰ Config
           </button>
@@ -286,6 +305,11 @@ class App extends Component {
         {showConfig && (
           <Modal>
             <Config {...configProps} />
+          </Modal>
+        )}
+        {showVersion && (
+          <Modal onMaskClick={this.handleCloseVersion}>
+            <Version {...versionProps} />
           </Modal>
         )}
       </div>

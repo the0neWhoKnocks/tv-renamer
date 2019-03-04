@@ -1,5 +1,6 @@
 import { css } from 'emotion';
 
+export const MODIFIER__DISABLED = 'is--disabled';
 export const ROOT_CLASS = 'toggle';
 const BTN_COLOR = '#eee';
 const BTN_TOGGLED_COLOR = '#333';
@@ -39,5 +40,9 @@ export default css`
     &__content-wrapper {
       pointer-events: none;
     }
+  }
+  
+  &.${ MODIFIER__DISABLED } {
+    opacity: 0.5;
   }
 `;

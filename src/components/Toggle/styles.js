@@ -44,5 +44,7 @@ export default css`
   
   &.${ MODIFIER__DISABLED } {
     opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
   }
 `;

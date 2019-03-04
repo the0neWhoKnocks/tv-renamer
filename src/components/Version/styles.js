@@ -22,6 +22,7 @@ export default css`
         transition: height 200ms;
         
         .${ TOGGLE_ROOT_CLASS } {
+          margin: 0.25em 0;
           
           &__btn {
             width: 100%;
@@ -50,7 +51,7 @@ export default css`
       
       &__releases-list {
         height: 9em;
-        padding: 0.25em;
+        padding: 0 0.25em;
         border: ${ borderStyle };
       }
     }

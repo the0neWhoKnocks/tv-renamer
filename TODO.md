@@ -15,7 +15,6 @@
 - [x] Don't allow Save if nothing's changed
 - [x] Don't allow Close if required items are blank
 
-
 ---
 
 ## Layout
@@ -34,6 +33,9 @@
             appear that will rename, set permissions (if needed), and move the
             file.
       - [ ] Disable rename if no items are checked (after a preview)
+    - [ ] Bug: If there are no matches after a Preview, all items are unchecked
+      but the global toggle still reads "Select None". Also, the Rename button
+      is enabled and reads "Rename Selected".
   - 2nd section, a log of files that were renamed (From) -> (To)
     - [ ] Just load this on demand so that it's not eating up memory on every
           load.
@@ -49,10 +51,18 @@
 ---
 
 ## Performance
+
 - [x] If a show is an exact match, cache the show's id so there's one less
       request to make.
 - [x] Maybe cache the episode names as well so that it just becomes a lookup
       at that point.
+
+---
+
+## Release
+
+- [ ] Use `npm version` to bump versions and create release tags. https://docs.npmjs.com/cli/version.html
+  Use `--no-git-tag-version` while testing.
 
 ---
 

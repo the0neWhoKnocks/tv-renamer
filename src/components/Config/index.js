@@ -13,7 +13,8 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-const formatTime = (timestamp) => new Date(timestamp).toLocaleString();
+const formatTime = (timestamp) => new Date(timestamp)
+  .toLocaleString('en-US', { timeZone: 'America/Los_Angeles' });
 
 class Config extends Component {
   constructor() {

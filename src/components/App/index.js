@@ -11,6 +11,7 @@ import {
   API__FILES_LIST,
   API__JWT,
   API__PREVIEW_RENAME,
+  API__RENAME,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
 import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
@@ -23,6 +24,47 @@ import styles, {
 class App extends Component {
   static getPreviewItem(index, items) {
     return items.find((item) => +item.index === index);
+  }
+  
+  static transformItemData({
+    files,
+    previewItems,
+    previewing,
+    selectAll,
+    useGlobalToggle,
+  }) {
+    const transformed = {
+      files: [],
+      allSelected: selectAll,
+    };
+    
+    files.forEach(({ dir, ext, name }, ndx) => {
+      const data = {
+        dir, ext, name,
+        newName: undefined,
+        selected: selectAll,
+      };
+      const previewItem = App.getPreviewItem(ndx, previewItems);
+      
+      if(previewItem){
+        data.newName = (previewItem.error) ? previewItem : previewItem.name;
+      }
+      
+      if(
+        // if an item is in error state, deselect it
+        previewing && typeof data.newName !== 'string'
+        // but only after a preview has come through, otherwise
+        // allow for the global toggle to control it
+        && !useGlobalToggle
+      ){
+        data.selected = false;
+        transformed.allSelected = false;
+      }
+      
+      transformed.files.push(data);
+    });
+    
+    return transformed;
   }
   
   constructor() {
@@ -46,6 +88,7 @@ class App extends Component {
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
     this.handlePreviewRename = this.handlePreviewRename.bind(this);
+    this.handleRename = this.handleRename.bind(this);
     this.handleVersionClick = this.handleVersionClick.bind(this);
   }
   
@@ -184,6 +227,57 @@ class App extends Component {
     this.setState({ showConfig: true });
   }
   
+  handleRename() {
+    const { files, previewItems } = this.state;
+    const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__new-name`);
+    const names = [...items].map((itemEl) => {
+      const itemData = itemEl.dataset;
+      
+      return {
+        index: itemData.index,
+        newName: itemEl.innerText,
+        oldPath: itemData.oldPath,
+      };
+    });
+    
+    fetch(API__RENAME, {
+      method: 'POST',
+      body: JSON.stringify({ names }),
+    })
+      .then((logs) => {
+        // remove renamed items from lists
+        const updatedFiles = [];
+        const updatedPreviewItems = [];
+        
+        for(let i=0; i<files.length; i++){
+          const log = logs[i];
+        
+          if(!log || log && log.error){
+            updatedFiles.push({
+              ...files[i],
+              index: updatedFiles.length,
+            });
+            updatedPreviewItems.push({
+              ...previewItems[i],
+              index: updatedPreviewItems.length,
+            });
+            if(log && log.error) console.error(log.error);
+          }
+          else{
+            // TODO - maybe add successful logs to Renamed section
+          }
+        }
+        
+        this.setState({
+          files: updatedFiles,
+          previewItems: updatedPreviewItems,
+        });
+      })
+      .catch((err) => {
+        alert(err);
+      });
+  }
+  
   handleVersionClick() {
     this.setState({ showVersion: true });
   }
@@ -200,7 +294,15 @@ class App extends Component {
       showVersion,
       useGlobalToggle,
     } = this.state;
-    const btnPronoun = (selectAll) ? 'All' : 'Selected';
+    const previewing = !!previewItems.length;
+    const transformedItems = App.transformItemData({
+      files,
+      previewItems,
+      previewing,
+      selectAll,
+      useGlobalToggle,
+    });
+    const btnPronoun = (transformedItems.allSelected) ? 'All' : 'Selected';
     const globalTogglePronoun = (selectAll) ? 'None' : 'All';
     const versionProps = {
       onClose: this.handleCloseVersion,
@@ -209,7 +311,6 @@ class App extends Component {
       onClose: this.handleCloseConfig,
       onSaveComplete: this.handleConfigSave,
     };
-    let previewing = false;
     let rootModifier = '';
     
     if(!loaded) return <div>Loading</div>;
@@ -219,8 +320,6 @@ class App extends Component {
       configProps.hideCloseBtn = true;
       delete configProps.onClose;
     }
-    
-    if(previewItems.length) previewing = true;
     
     if(previewing) rootModifier += ` ${ MODIFIER__PREVIEWING }`;
     
@@ -247,47 +346,32 @@ class App extends Component {
                 toggled={selectAll}
               >Select {globalTogglePronoun}</Toggle>
               <div className={`${ ROOT_CLASS }__items-nav-btns-wrapper`}>
-                <button onClick={this.handlePreviewRename}>Preview</button>
-                <button disabled={!previewing}>Rename {btnPronoun}</button>
+                <button
+                  onClick={this.handlePreviewRename}
+                >Preview</button>
+                <button
+                  disabled={!previewing}
+                  onClick={this.handleRename}
+                >Rename {btnPronoun}</button>
               </div>
             </nav>
             <div
               className={`${ ROOT_CLASS }__section-items ${ (files.length) ? MODIFIER__HAS_ITEMS : '' }`}
               ref={(ref) => { this.filesRef = ref; }}
             >
-              {files.map(
-                ({ dir, ext, name }, ndx) => {
-                  const previewItem = App.getPreviewItem(ndx, previewItems);
-                  let selected = selectAll;
-                  let newName;
-                  
-                  if(previewItem){
-                    newName = (previewItem.error) ? previewItem : previewItem.name;
-                  }
-                  
-                  if(
-                    // if an item is in error state, deselect it
-                    previewing && typeof newName !== 'string'
-                    // but only after a preview has come through, otherwise
-                    // allow for the global toggle to control it
-                    && !useGlobalToggle
-                  ){
-                    selected = false;
-                  }
-                  
-                  return (
-                    <Renamable
-                      key={name}
-                      ext={ext}
-                      itemIndex={ndx}
-                      name={name}
-                      newName={newName}
-                      path={dir}
-                      previewing={previewing}
-                      selected={selected}
-                    />
-                  );
-                }
+              {transformedItems.files.map(
+                ({ dir, ext, name, newName, selected }, ndx) => (
+                  <Renamable
+                    key={name}
+                    ext={ext}
+                    itemIndex={ndx}
+                    name={name}
+                    newName={newName}
+                    path={dir}
+                    previewing={previewing}
+                    selected={selected}
+                  />
+                )
               )}
             </div>
           </section>

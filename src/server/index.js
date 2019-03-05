@@ -6,6 +6,7 @@ import {
   API__FOLDER_LIST,
   API__JWT,
   API__PREVIEW_RENAME,
+  API__RENAME,
 } from 'ROOT/conf.app';
 import {
   checkForConfig,
@@ -13,6 +14,7 @@ import {
   getFilesList,
   getJWT,
   previewRename,
+  renameFiles,
   updateConfig,
 } from './routeHandlers/api/v1';
 import handleError from './routeHandlers/error';
@@ -31,6 +33,7 @@ http
     [API__FOLDER_LIST, getFolderListing],
     [API__JWT, getJWT],
     [API__PREVIEW_RENAME, previewRename],
+    [API__RENAME, renameFiles],
     [/\.[a-z]{2,4}/, handleStaticFile],
     ['*', handleError, [404, 'Page Not Found']],
   ]))

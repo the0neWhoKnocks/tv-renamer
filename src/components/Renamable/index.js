@@ -120,7 +120,6 @@ class Renamable extends Component {
     return (
       <div
         className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}
-        data-path={path}
         onKeyDown={this.handleKeyDown}
       >
         <Toggle id={slug} onToggle={this.handleToggle} toggled={selected} />
@@ -140,6 +139,8 @@ class Renamable extends Component {
         {previewing && (
           <div 
             className={`${ ROOT_CLASS }__new-name ${ newNameModifier }`}
+            data-index={itemIndex}
+            data-old-path={`${ path }/${ name }${ ext }`}
           >{_newName}</div>
         )}
       </div>
@@ -154,7 +155,9 @@ Renamable.propTypes = {
   newName: oneOfType([
     string,
     shape({
-      
+      error: string,
+      searchURL: string,
+      seriesURL: string,
     }),
   ]),
   path: string,

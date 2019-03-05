@@ -108,7 +108,7 @@ export default css`
       
       &-items {
         padding: 0.25rem 0.25rem 1rem;
-        margin: 0 1rem 1rem 0.75rem;
+        margin: 0 0.75rem 1rem 0.75rem;
         overflow-y: auto;
       }
     }

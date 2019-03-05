@@ -12,6 +12,12 @@ import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
 import lookUpSeries from './utils/lookUpSeries';
 
+const sanitizeShowName = (name) => {
+  return name
+    .replace(/:/g, '-')
+    .replace(/\?/g, '');
+};
+
 const getEpNamesFromCache = ({ cacheData, names }) => {
   const renamed = [];
   const _cacheData = {};
@@ -36,10 +42,11 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
           const epNum = (`${ episode }`.length < 2)
             ? `0${ episode }`
             : episode;
+          const newName = `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`;
             
           renamed.push({
             index,
-            name: `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`,
+            name: sanitizeShowName(newName),
           });
         }
         // could be a possible series mis-match

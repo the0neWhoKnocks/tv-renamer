@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Config from 'COMPONENTS/Config';
+import LogItem from 'COMPONENTS/LogItem';
 import Modal from 'COMPONENTS/Modal';
 import Renamable, {
   ROOT_CLASS as RENAMABLE_ROOT_CLASS,
@@ -10,6 +11,7 @@ import {
   API__CONFIG,
   API__FILES_LIST,
   API__JWT,
+  API__LOGS,
   API__PREVIEW_RENAME,
   API__RENAME,
 } from 'ROOT/conf.app';
@@ -34,8 +36,8 @@ class App extends Component {
     useGlobalToggle,
   }) {
     const transformed = {
-      files: [],
       allSelected: selectAll,
+      files: [],
     };
     
     files.forEach(({ dir, ext, name }, ndx) => {
@@ -74,13 +76,15 @@ class App extends Component {
       config: undefined,
       files: [],
       loaded: false,
+      logs: [],
       previewItems: [],
-      renamedFiles: [],
       selectAll: true,
       showConfig: false,
       showVersion: false,
       useGlobalToggle: true,
     };
+    
+    this.logEndRef = React.createRef();
     
     this.handleConfigSave = this.handleConfigSave.bind(this);
     this.handleCloseConfig = this.handleCloseConfig.bind(this);
@@ -94,6 +98,7 @@ class App extends Component {
   
   componentDidMount() {
     this.checkCredentials();
+    this.checkLogs();
   }
   
   componentDidUpdate(prevProps, prevState) {
@@ -120,6 +125,13 @@ class App extends Component {
         this.getFilesList();
       }
     }
+    
+    if(this.logEndRef.current && prevState.logs.length !== this.state.logs.length){
+      // TODO - if scroll is zero (first load), set to end of pane. else, scroll smoothly
+      setTimeout(() => {
+        this.logEndRef.current.scrollIntoView({ behavior: 'smooth' });
+      }, 300);
+    }
   }
   
   checkCredentials() {
@@ -137,6 +149,16 @@ class App extends Component {
         this.setState(state, () => {
           if(!state.showConfig) this.getFilesList();
         });
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  }
+  
+  checkLogs() {
+    fetch(API__LOGS)
+      .then((logs) => {
+        this.setState({ logs });
       })
       .catch((err) => {
         console.error(err);
@@ -270,6 +292,11 @@ class App extends Component {
         
         this.setState({
           files: updatedFiles,
+          // TODO - maybe limit the number of logs here, like what's happening on the server
+          logs: [
+            ...this.state.logs,
+            ...Object.keys(logs).map((key) => logs[key]),
+          ],
           previewItems: updatedPreviewItems,
         });
       })
@@ -287,8 +314,8 @@ class App extends Component {
       config,
       files,
       loaded,
+      logs,
       previewItems,
-      renamedFiles,
       selectAll,
       showConfig,
       showVersion,
@@ -375,13 +402,17 @@ class App extends Component {
               )}
             </div>
           </section>
-          {!!renamedFiles.length && (
+          {!!logs.length && (
             <section className={`${ ROOT_CLASS }__section`}>
               <div className={`${ ROOT_CLASS }__section-title`}>
                 <h2>Renamed</h2>
               </div>
-              <div className={`${ ROOT_CLASS }__section-items ${ (renamedFiles.length) ? 'has--items' : '' }`}>
-                {renamedFiles && (<div />)}
+              <div className={`${ ROOT_CLASS }__section-items ${ (logs.length) ? 'has--items' : '' }`}>
+                {logs.map((log, ndx) => <LogItem key={ndx} {...log} />)}
+                <div
+                  className={`${ ROOT_CLASS }__logs-btm`}
+                  ref={this.logEndRef}
+                />
               </div>
             </section>
           )}

@@ -5,6 +5,7 @@ import {
   API__FILES_LIST,
   API__FOLDER_LIST,
   API__JWT,
+  API__LOGS,
   API__PREVIEW_RENAME,
   API__RENAME,
 } from 'ROOT/conf.app';
@@ -13,6 +14,7 @@ import {
   getFolderListing,
   getFilesList,
   getJWT,
+  getLogs,
   previewRename,
   renameFiles,
   updateConfig,
@@ -32,6 +34,7 @@ http
     [API__FILES_LIST, getFilesList],
     [API__FOLDER_LIST, getFolderListing],
     [API__JWT, getJWT],
+    [API__LOGS, getLogs],
     [API__PREVIEW_RENAME, previewRename],
     [API__RENAME, renameFiles],
     [/\.[a-z]{2,4}/, handleStaticFile],

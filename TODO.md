@@ -110,3 +110,5 @@
 - [ ] Parse URL tokens
 - [x] Service that can list folders in directory so a user can pick
       the `output`, and `source` directories.
+- [ ] After an item is renamed, if it's source directory doesn't match the
+  `sourceFolder` path, then the file was in a nested directory - delete it.

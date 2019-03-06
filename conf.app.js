@@ -41,6 +41,7 @@ module.exports = {
   API__FILES_LIST: `${ API_PREFIX }/files-list`,
   API__FOLDER_LIST: `${ API_PREFIX }/folder-list`,
   API__JWT: `${ API_PREFIX }/jwt`,
+  API__LOGS: `${ API_PREFIX }/logs`,
   API__PREVIEW_RENAME: `${ API_PREFIX }/preview`,
   API__RENAME: `${ API_PREFIX }/rename`,
   APP_NAME: 'TV Renamer',

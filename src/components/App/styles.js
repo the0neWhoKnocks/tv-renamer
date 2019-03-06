@@ -1,4 +1,5 @@
 import { css } from 'emotion';
+import { ROOT_CLASS as LOG_ROOT_CLASS } from 'COMPONENTS/LogItem/styles';
 import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
 export const MODIFIER__PREVIEWING = 'is--previewing';
@@ -7,6 +8,7 @@ export const ROOT_CLASS = 'app';
 
 export default css`
   height: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   
@@ -88,13 +90,28 @@ export default css`
     }
     
     &__section {
-      min-height: 50%;
+      height: 50%;
       display: flex;
       flex-direction: column;
       
       &:nth-of-type(2) {
-        max-height: 25%;
         flex-shrink: 0;
+        
+        .${ ROOT_CLASS } {
+          
+          &__section {
+            
+            &-title {
+              box-shadow: 0 -0.25em 1em 0 rgba(0, 0, 0, 0.25);
+            }
+            
+            &-items {
+              padding: 0;
+              margin-top: 1rem;
+              background: #333;
+            }
+          }
+        }
       }
       
       &-title {
@@ -107,10 +124,19 @@ export default css`
       }
       
       &-items {
+        height: 100%;
         padding: 0.25rem 0.25rem 1rem;
         margin: 0 0.75rem 1rem 0.75rem;
         overflow-y: auto;
       }
+    }
+  }
+  
+  .${ LOG_ROOT_CLASS } {
+    border-top: dashed 1px rgba(255, 255, 255, 0.3);
+    
+    &:first-of-type {
+      border-top: none;
     }
   }
   

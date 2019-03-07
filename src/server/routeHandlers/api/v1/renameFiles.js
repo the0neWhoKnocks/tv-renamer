@@ -1,3 +1,5 @@
+import { parse } from 'path';
+import rimraf from 'rimraf';
 import { PUBLIC_RENAME_LOG } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
@@ -11,7 +13,7 @@ const MAX_LOG_ENTRIES = 200;
 export default ({ reqData, res }) => {
   const names = reqData.names;
   
-  loadConfig(({ outputFolder }) => {
+  loadConfig(({ outputFolder, sourceFolder }) => {
     loadRenameLog((logs) => {
       const newLogs = [];
       const pendingMoves = [];
@@ -25,11 +27,23 @@ export default ({ reqData, res }) => {
           };
           const cb = (d, err) => {
             const log = { ...d, time: Date.now() };
-            if(err) log.error = err.message;
-            newLogs.push(log);
-            mappedLogs[index] = log;
+            const rootDir = parse(oldPath).dir;
             
-            resolve();
+            const allDone = () => {
+              if(err) log.error = err.message;
+              newLogs.push(log);
+              mappedLogs[index] = log;
+              
+              resolve();
+            };
+            
+            if(rootDir !== sourceFolder){
+              rimraf(rootDir, { glob: false }, () => {
+                log.deleted = `Deleted folder: "${ rootDir }"`;
+                allDone();
+              });
+            }
+            else{ allDone(); }
           };
           
           moveFile({

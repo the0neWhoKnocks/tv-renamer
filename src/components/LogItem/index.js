@@ -3,8 +3,8 @@ import { number, string } from 'prop-types';
 import styles, { ROOT_CLASS } from './styles';
 
 const LogItem = ({
+  deleted,
   error,
-  from,
   time,
   to,
 }) => (
@@ -15,7 +15,12 @@ const LogItem = ({
     <div className={`${ ROOT_CLASS }__body`}>
       {!error && (
         <Fragment>
-          <div className={`${ ROOT_CLASS }__from`}>{from}</div>
+          {deleted && (
+            <div className={`${ ROOT_CLASS }__deleted`}>
+              <span className={`${ ROOT_CLASS }__deleted-icon`}>&times;</span>
+              {deleted}
+            </div>
+          )}
           <div className={`${ ROOT_CLASS }__to`}>{to}</div>
         </Fragment>
       )}
@@ -27,8 +32,8 @@ const LogItem = ({
 );
 
 LogItem.propTypes = {
+  deleted: string,
   error: string,
-  from: string,
   time: number,
   to: string,
 };

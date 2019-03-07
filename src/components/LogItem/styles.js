@@ -5,9 +5,16 @@ export const ROOT_CLASS = 'log-item';
 export default css`
   color: #8e9a98;
   font-family: monospace;
-  padding: 0.75em;
+  padding: 2.25em 0.75em 0.75em;
+  position: relative;
   
   .${ ROOT_CLASS } {
+    
+    &__time {
+      position: absolute;
+      right: 0.5rem;
+      top: 0.25rem;
+    }
     
     &__body {
       * {

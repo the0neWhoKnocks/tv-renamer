@@ -2,8 +2,9 @@ import { css } from 'emotion';
 import { ROOT_CLASS as LOG_ROOT_CLASS } from 'COMPONENTS/LogItem/styles';
 import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
-export const MODIFIER__PREVIEWING = 'is--previewing';
 export const MODIFIER__HAS_ITEMS = 'has--items';
+export const MODIFIER__LOGS = 'has--logs';
+export const MODIFIER__PREVIEWING = 'is--previewing';
 export const ROOT_CLASS = 'app';
 
 export default css`
@@ -90,7 +91,7 @@ export default css`
     }
     
     &__section {
-      height: 50%;
+      height: 100%;
       display: flex;
       flex-direction: column;
       
@@ -103,6 +104,7 @@ export default css`
             
             &-title {
               box-shadow: 0 -0.25em 1em 0 rgba(0, 0, 0, 0.25);
+              position: relative;
             }
             
             &-items {
@@ -130,6 +132,37 @@ export default css`
         overflow-y: auto;
       }
     }
+    
+    &__stats {
+      position: absolute;
+      top: 50%;
+      right: 0.75em;
+      transform: translateY(-50%);
+      
+      &-count {
+        color: #666;
+        font-family: monospace;
+        font-weight: bold;
+        line-height: 2em;
+        padding: 0 0.5em;
+        display: inline-block;
+        
+        &.is--good {
+          
+          span {
+            color: #1f9475;
+          }
+        }
+        
+        &.is--bad {
+          border-left: solid 1px #909090;
+          
+          span {
+            color: #d04500;
+          }
+        }
+      }
+    }
   }
   
   .${ LOG_ROOT_CLASS } {
@@ -146,6 +179,16 @@ export default css`
       
       &__items-nav-btns-wrapper {
         transform: translateX(0em);
+      }
+    }
+  }
+  
+  &.${ MODIFIER__LOGS } {
+    
+    .${ ROOT_CLASS } {
+      
+      &__section {
+        height: 50%;
       }
     }
   }

@@ -19,6 +19,7 @@ import fetch from 'UTILS/fetch';
 import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
   MODIFIER__HAS_ITEMS,
+  MODIFIER__LOGS,
   MODIFIER__PREVIEWING,
   ROOT_CLASS,
 } from './styles';
@@ -78,6 +79,8 @@ class App extends Component {
       loaded: false,
       logs: [],
       previewItems: [],
+      renameCount: 0,
+      renameErrorCount: 0,
       selectAll: true,
       showConfig: false,
       showVersion: false,
@@ -98,7 +101,10 @@ class App extends Component {
   
   componentDidMount() {
     this.checkCredentials();
-    this.checkLogs();
+    
+    // TODO - maybe re-enable this. For now, just displaying the logs from the
+    // current renaming operation.
+    // this.checkLogs();
   }
   
   componentDidUpdate(prevProps, prevState) {
@@ -127,10 +133,16 @@ class App extends Component {
     }
     
     if(this.logEndRef.current && prevState.logs.length !== this.state.logs.length){
-      // TODO - if scroll is zero (first load), set to end of pane. else, scroll smoothly
-      setTimeout(() => {
-        this.logEndRef.current.scrollIntoView({ behavior: 'smooth' });
-      }, 300);
+      const el = this.logEndRef.current;
+      const elParent = el.parentNode;
+      // If scroll is zero (first load), set to end of pane. else, scroll smoothly
+      if(elParent.scrollTop === 0) {
+        // TODO - maybe have it scroll to the first error (if there is one)
+        elParent.scrollTo(0, elParent.scrollHeight);
+      }
+      else{
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   }
   
@@ -270,6 +282,8 @@ class App extends Component {
         // remove renamed items from lists
         const updatedFiles = [];
         const updatedPreviewItems = [];
+        let errors = 0;
+        let successful = 0;
         
         for(let i=0; i<files.length; i++){
           const log = logs[i];
@@ -283,21 +297,24 @@ class App extends Component {
               ...previewItems[i],
               index: updatedPreviewItems.length,
             });
-            if(log && log.error) console.error(log.error);
+            
+            if(log && log.error){
+              console.error(log.error);
+              errors++;
+            }  
           }
-          else{
-            // TODO - maybe add successful logs to Renamed section
-          }
+          else{ successful++; }
         }
         
         this.setState({
           files: updatedFiles,
-          // TODO - maybe limit the number of logs here, like what's happening on the server
           logs: [
-            ...this.state.logs,
+            // ...this.state.logs, // TODO - mabye uncomment to append to all logs
             ...Object.keys(logs).map((key) => logs[key]),
           ],
           previewItems: updatedPreviewItems,
+          renameCount: successful,
+          renameErrorCount: errors,
         });
       })
       .catch((err) => {
@@ -316,6 +333,8 @@ class App extends Component {
       loaded,
       logs,
       previewItems,
+      renameCount,
+      renameErrorCount,
       selectAll,
       showConfig,
       showVersion,
@@ -349,6 +368,7 @@ class App extends Component {
     }
     
     if(previewing) rootModifier += ` ${ MODIFIER__PREVIEWING }`;
+    if(logs.length) rootModifier += ` ${ MODIFIER__LOGS }`;
     
     return (
       <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>
@@ -406,6 +426,18 @@ class App extends Component {
             <section className={`${ ROOT_CLASS }__section`}>
               <div className={`${ ROOT_CLASS }__section-title`}>
                 <h2>Renamed</h2>
+                <div className={`${ ROOT_CLASS }__stats`}>
+                  {!!renameCount && (
+                    <div className={`${ ROOT_CLASS }__stats-count is--good`}>
+                      <span>{renameCount}</span>/{logs.length}
+                    </div>
+                  )}
+                  {!!renameErrorCount && (
+                    <div className={`${ ROOT_CLASS }__stats-count is--bad`}>
+                      <span>{renameErrorCount}</span>/{logs.length}
+                    </div>
+                  )}
+                </div>
               </div>
               <div className={`${ ROOT_CLASS }__section-items ${ (logs.length) ? 'has--items' : '' }`}>
                 {logs.map((log, ndx) => <LogItem key={ndx} {...log} />)}

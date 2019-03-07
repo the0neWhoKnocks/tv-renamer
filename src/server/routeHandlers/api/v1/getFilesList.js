@@ -5,7 +5,11 @@ import loadConfig from './utils/loadConfig';
 export default ({ res }) => {
   loadConfig((config) => {
     const extensions = ['avi', 'mkv', 'mp4'];
-    const filter = (file) => new RegExp(`.(?:${ extensions.join('|') })$`).test(file);
+    const filter = (file) => {
+      const fileTypeOk = new RegExp(`\\.(?:${ extensions.join('|') })$`).test(file);
+      const isSample = new RegExp(`\\.sample\\.(?:${ extensions.join('|') })$`).test(file);
+      return fileTypeOk && !isSample;
+    };
     getFiles(config.sourceFolder, filter)
       .then((files) => {
         jsonResp(res, files);

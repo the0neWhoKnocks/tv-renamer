@@ -44,8 +44,8 @@ export default ({ reqData, res }) => {
         .then(() => {
           return new Promise((resolve, reject) => {
             // trim the logs down before saving the new ones.
-            const combinedLogs = [...logs, ...newLogs]
-              .slice(newLogs.length - MAX_LOG_ENTRIES, newLogs.length);
+            let combinedLogs = [...logs, ...newLogs];
+            combinedLogs = combinedLogs.slice(combinedLogs.length - MAX_LOG_ENTRIES, combinedLogs.length);
             
             saveFile({
               cb: (l, err) => (err) ? reject(err) : resolve(mappedLogs),

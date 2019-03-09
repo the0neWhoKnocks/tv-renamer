@@ -66,10 +66,6 @@ class FolderDisplay extends Component {
     
     return (
       <div className={`${ ROOT_CLASS } ${ styles }`}>
-        <button
-          className={`${ ROOT_CLASS }__mask`}
-          onClick={this.handleClose}
-        />
         <div className={`${ ROOT_CLASS }__body`}>
           <div className={`${ ROOT_CLASS }__breadcrumbs`}>
             {pathItems.map((folder, ndx) => {

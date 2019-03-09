@@ -5,35 +5,13 @@ export const MODIFIER__NOT_READABLE = 'not--readable';
 export const MODIFIER__NOT_WRITABLE = 'not--writable';
 
 export default css`
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 10;
   
   .${ ROOT_CLASS } {
     
-    &__mask {
-      width: 100%;
-      height: 100%;
-      border: none;
-      outline: none;
-      background: rgba(0, 0, 0, 0.5);
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    
     &__body {
-      min-width: 80vw;
+      min-width: calc(80vw - 4em); // 4em is the padding & margin of the modal
       max-width: 80vw;
-      padding: 1em;
-      border-radius: 0.5em;
-      margin: 1em;
-      background: #eee;
+      max-height: 80vh;
       display: flex;
       flex-direction: column;
       position: relative;

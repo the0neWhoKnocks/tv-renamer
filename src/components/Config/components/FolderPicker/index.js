@@ -74,17 +74,16 @@ class FolderPicker extends Component {
             <div className={`${ ROOT_CLASS }__btn-icon`}>&#x1F5BF;</div>
           </button>
         </div>
-        {showModal && (
-          <Modal
-            onMaskClick={this.handleModalClose}
-          >
-            <FolderDisplay
-              current={value}
-              onClose={this.handleModalClose}
-              onSelect={this.handleFolderSelection}
-            />
-          </Modal>
-        )}
+        <Modal
+          onMaskClick={this.handleModalClose}
+          visible={showModal}
+        >
+          <FolderDisplay
+            current={value}
+            onClose={this.handleModalClose}
+            onSelect={this.handleFolderSelection}
+          />
+        </Modal>
       </Fragment>
     );
   }

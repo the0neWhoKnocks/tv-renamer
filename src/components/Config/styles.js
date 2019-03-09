@@ -6,14 +6,19 @@ export const MODIFIER__REQUIRED = 'is--required';
 export const ROOT_CLASS = 'config';
 
 export default css`
-  overflow: auto;
 
-  .${ ROOT_CLASS } {
+  h2 {
+    padding-bottom: 0.25em;
+    border-bottom: solid 1px #aaa;
+    margin: 0 0 0.5em;
+  }
+
+  .${ ROOT_CLASS } {  
     
     &__body {
       min-width: 22em;
       max-width: 26em;
-      padding: 0 1.5em;
+      padding: 1em;
     }
     
     &__msg {

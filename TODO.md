@@ -103,6 +103,7 @@
   to change the id of just one item, record that index X was requested, then
   when the Array of results is returned you know that item X needs to be updated.
 - [x] Deselect items that don't have matches
+- [ ] Checkbox to `Don't Move`, so it just renames in the current directory.
 
 ---
 

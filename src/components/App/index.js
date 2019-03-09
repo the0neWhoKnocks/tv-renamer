@@ -3,6 +3,7 @@ import AssignId from 'COMPONENTS/AssignId';
 import Config from 'COMPONENTS/Config';
 import LogItem from 'COMPONENTS/LogItem';
 import Modal from 'COMPONENTS/Modal';
+import OverlayScreen from 'COMPONENTS/OverlayScreen';
 import Renamable, {
   ROOT_CLASS as RENAMABLE_ROOT_CLASS,
 } from 'COMPONENTS/Renamable';
@@ -106,11 +107,9 @@ class App extends Component {
     this.logEndRef = React.createRef();
     
     this.handleConfigSave = this.handleConfigSave.bind(this);
-    this.handleCloseAssign = this.handleCloseAssign.bind(this);
-    this.handleCloseConfig = this.handleCloseConfig.bind(this);
-    this.handleCloseVersion = this.handleCloseVersion.bind(this);
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
     this.handleIdOverrideClick = this.handleIdOverrideClick.bind(this);
+    this.handleModalClose = this.handleModalClose.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
     this.handlePreviewRename = this.handlePreviewRename.bind(this);
     this.handleRename = this.handleRename.bind(this);
@@ -232,18 +231,6 @@ class App extends Component {
       });
   }
   
-  handleCloseAssign() {
-    this.setState({ showAssignId: false });
-  }
-  
-  handleCloseConfig() {
-    this.setState({ showConfig: false });
-  }
-  
-  handleCloseVersion() {
-    this.setState({ showVersion: false });
-  }
-  
   handleConfigSave(config) {
     this.setState({
       config,
@@ -273,6 +260,12 @@ class App extends Component {
       currentSeriesURL: seriesURL,
       showAssignId: true,
     });
+  }
+  
+  handleModalClose(stateProp) {
+    return () => {
+      this.setState({ [stateProp]: false });
+    };
   }
   
   handlePreviewRename() {
@@ -425,10 +418,10 @@ class App extends Component {
       seriesURL: currentSeriesURL,
     };
     const versionProps = {
-      onClose: this.handleCloseVersion,
+      onClose: this.handleModalClose('showVersion'),
     };
     let configProps = {
-      onClose: this.handleCloseConfig,
+      onClose: this.handleModalClose('showConfig'),
       onSaveComplete: this.handleConfigSave,
     };
     let rootModifier = '';
@@ -519,21 +512,24 @@ class App extends Component {
             </section>
           )}
         </div>
-        {showAssignId && (
-          <Modal onMaskClick={this.handleCloseAssign}>
-            <AssignId {...assignProps} />
-          </Modal>
-        )}
-        {showConfig && (
-          <Modal>
-            <Config {...configProps} />
-          </Modal>
-        )}
-        {showVersion && (
-          <Modal onMaskClick={this.handleCloseVersion}>
-            <Version {...versionProps} />
-          </Modal>
-        )}
+        
+        <Modal
+          onMaskClick={this.handleModalClose('showAssignId')}
+          visible={showAssignId}
+        >
+          <AssignId {...assignProps} />
+        </Modal>
+        
+        <OverlayScreen visible={showConfig}>
+          <Config {...configProps} />
+        </OverlayScreen>
+        
+        <Modal
+          onMaskClick={versionProps.onClose}
+          visible={showVersion}
+        >
+          <Version {...versionProps} />
+        </Modal>
       </div>
     );
   }

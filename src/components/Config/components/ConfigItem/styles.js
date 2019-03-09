@@ -3,6 +3,7 @@ import { css } from 'emotion';
 export const MODIFIER__READ_ONLY = 'is--read-only';
 export const MODIFIER__REQUIRED = 'is--required';
 export const ROOT_CLASS = 'config-item';
+export const REQUIRED_WIDTH = '0.8em';
 
 export default css`
   white-space: nowrap;
@@ -31,13 +32,13 @@ export default css`
       width: 0.4em;
       height: 0.75em;
       border-radius: 0.15em;
-      margin-left: 0.15em;
+      margin-right: 0.2em;
       background: radial-gradient(#fff 15%, #d24d00);
       box-shadow: 0 0 18px 2px #ff5200;
       position: absolute;
       z-index: 1;
       top: 50%;
-      left: 100%;
+      right: 0;
       transform: translateY(-50%);
     }
   }
@@ -59,13 +60,17 @@ export default css`
     
     &::after {
       content: '';
-      width: 0.8em;
+      width: ${ REQUIRED_WIDTH };
       border-radius: 0 0.25em 0.25em 0;
       background: #333;
       position: absolute;
       top: 0;
       bottom: 0;
-      left: 100%;
+      right: 0;
+    }
+    
+    input {
+      margin-right: ${ REQUIRED_WIDTH };
     }
     
     input:valid ~ .${ ROOT_CLASS }__indicator {

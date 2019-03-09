@@ -15,7 +15,6 @@ export default css`
   cursor: default;
   position: relative;
   display: flex;
-  opacity: 0.5;
   
   &:hover {
     border-radius: 0.5em;
@@ -43,6 +42,7 @@ export default css`
       overflow-x: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      opacity: 0.5;
     }
     
     &__new-name {
@@ -53,15 +53,35 @@ export default css`
       &.${ MODIFIER__WARNING } {
         color: #734b00;
         background: #fff1ab;
+      }
+    }
+    
+    &__tvdb-nav {
+      font-size: 1.1em;
+      margin-top: 0.5em;
+      background: #333;
+      
+      > img,
+      &-item {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      
+      > img {
+        height: 1em;
+        padding: 0 0.25em;
         
-        a {
-          color: currentColor;
-          text-decoration: none;
-          padding: 0.25em 0 0.1em;
-          border-bottom: solid 1px;
-          margin: 0 0.5em 0 0;
-          display: inline-block;
-        }
+      }
+      
+      &-item {
+        color: #eee;
+        font-family: monospace;
+        font-size: 1em;
+        font-weight: normal;
+        padding: 0.25em 0.5em;
+        border: none;
+        border-left: solid 1px;
+        background: transparent;
       }
     }
   }
@@ -131,7 +151,13 @@ export default css`
   }
   
   &.${ MODIFIER__SELECTED } {
-    opacity: 1;
+    
+    .${ ROOT_CLASS } {
+      
+      &__name {
+        opacity: 1;
+      }
+    }
   }
   
   @media (max-width: 600px) {

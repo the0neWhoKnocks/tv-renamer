@@ -45,6 +45,7 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
           const newName = `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`;
             
           renamed.push({
+            id: cache.id,
             index,
             name: sanitizeShowName(newName),
           });
@@ -53,6 +54,7 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
         else if(cache){
           renamed.push({
             error: 'Possible series mis-match',
+            id: cache.id,
             index,
             name: cache.name,
             seriesURL: TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug),

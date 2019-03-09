@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AssignId from 'COMPONENTS/AssignId';
 import Config from 'COMPONENTS/Config';
 import LogItem from 'COMPONENTS/LogItem';
 import Modal from 'COMPONENTS/Modal';
@@ -20,7 +21,7 @@ import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
   MODIFIER__HAS_ITEMS,
   MODIFIER__LOGS,
-  MODIFIER__PREVIEWING,
+  MODIFIER__RENAME,
   ROOT_CLASS,
 } from './styles';
 
@@ -39,6 +40,7 @@ class App extends Component {
     const transformed = {
       allSelected: selectAll,
       files: [],
+      selectionCount: 0, 
     };
     
     files.forEach(({ dir, ext, name }, ndx) => {
@@ -50,12 +52,20 @@ class App extends Component {
       const previewItem = App.getPreviewItem(ndx, previewItems);
       
       if(previewItem){
-        data.newName = (previewItem.error) ? previewItem : previewItem.name;
+        data.error = previewItem.error;
+        data.id = previewItem.id;
+        data.newName = previewItem.name;
+        data.searchURL = previewItem.searchURL;
+        data.seriesURL = previewItem.seriesURL;
       }
       
       if(
-        // if an item is in error state, deselect it
-        previewing && typeof data.newName !== 'string'
+        previewing && (
+          // IF an item is in error state, deselect it
+          data.error
+          // OR nothing was sent to preview (assume it's already deselected)
+          || !previewItem
+        )
         // but only after a preview has come through, otherwise
         // allow for the global toggle to control it
         && !useGlobalToggle
@@ -63,6 +73,8 @@ class App extends Component {
         data.selected = false;
         transformed.allSelected = false;
       }
+      
+      if(data.selected) transformed.selectionCount++;
       
       transformed.files.push(data);
     });
@@ -74,14 +86,18 @@ class App extends Component {
     super();
     
     this.state = {
+      allSelected: true,
       config: undefined,
       files: [],
       loaded: false,
       logs: [],
       previewItems: [],
+      previewing: false,
       renameCount: 0,
       renameErrorCount: 0,
       selectAll: true,
+      selectionCount: 0,
+      showAssignId: false,
       showConfig: false,
       showVersion: false,
       useGlobalToggle: true,
@@ -90,9 +106,11 @@ class App extends Component {
     this.logEndRef = React.createRef();
     
     this.handleConfigSave = this.handleConfigSave.bind(this);
+    this.handleCloseAssign = this.handleCloseAssign.bind(this);
     this.handleCloseConfig = this.handleCloseConfig.bind(this);
     this.handleCloseVersion = this.handleCloseVersion.bind(this);
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
+    this.handleIdOverrideClick = this.handleIdOverrideClick.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
     this.handlePreviewRename = this.handlePreviewRename.bind(this);
     this.handleRename = this.handleRename.bind(this);
@@ -180,7 +198,21 @@ class App extends Component {
   getFilesList() {
     fetch(API__FILES_LIST)
       .then((files) => {
-        this.setState({ files });
+        const {
+          previewItems,
+          previewing,
+          selectAll,
+          useGlobalToggle,
+        } = this.state;
+        const transformedItems = App.transformItemData({
+          files,
+          previewItems,
+          previewing,
+          selectAll,
+          useGlobalToggle,
+        });
+        
+        this.setState({ files: transformedItems.files });
       });
   }
   
@@ -200,6 +232,10 @@ class App extends Component {
       });
   }
   
+  handleCloseAssign() {
+    this.setState({ showAssignId: false });
+  }
+  
   handleCloseConfig() {
     this.setState({ showConfig: false });
   }
@@ -216,9 +252,26 @@ class App extends Component {
   }
   
   handleGlobalToggle() {
+    const selectAll = !this.state.selectAll;
+    const files = this.state.files.map((file) => ({
+      ...file,
+      selected: selectAll,
+    }));
+    
     this.setState({
-      selectAll: !this.state.selectAll,
+      files,
+      selectAll,
       useGlobalToggle: true,
+    });
+  }
+  
+  handleIdOverrideClick({ id, newName, searchURL, seriesURL }) {
+    this.setState({
+      currentId: id,
+      currentName: newName,
+      currentSearchURL: searchURL,
+      currentSeriesURL: seriesURL,
+      showAssignId: true,
     });
   }
   
@@ -247,9 +300,25 @@ class App extends Component {
       body: JSON.stringify({ names }),
     })
       .then((previewItems) => {
-        this.setState({
+        const { files, selectAll } = this.state;
+        const previewing = !!previewItems.length;
+        const useGlobalToggle = false;
+        const transformedItems = App.transformItemData({
+          files,
           previewItems,
-          useGlobalToggle: false,
+          previewing,
+          selectAll,
+          useGlobalToggle,
+        });
+        
+        this.setState({
+          allSelected: transformedItems.allSelected,
+          files: transformedItems.files,
+          previewing,
+          previewItems,
+          selectAll: !!transformedItems.selectionCount,
+          selectionCount: transformedItems.selectionCount,
+          useGlobalToggle,
         });
       })
       .catch((err) => {
@@ -264,12 +333,13 @@ class App extends Component {
   handleRename() {
     const { files, previewItems } = this.state;
     const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__new-name`);
+    // TODO - filter out preview items that currently have an error
     const names = [...items].map((itemEl) => {
       const itemData = itemEl.dataset;
       
       return {
         index: itemData.index,
-        newName: itemEl.innerText,
+        newName: itemData.newName,
         oldPath: itemData.oldPath,
       };
     });
@@ -328,28 +398,32 @@ class App extends Component {
   
   render() {
     const {
+      allSelected,
       config,
+      currentId,
+      currentName,
+      currentSearchURL,
+      currentSeriesURL,
       files,
       loaded,
       logs,
-      previewItems,
+      previewing,
       renameCount,
       renameErrorCount,
       selectAll,
+      selectionCount,
+      showAssignId,
       showConfig,
       showVersion,
-      useGlobalToggle,
     } = this.state;
-    const previewing = !!previewItems.length;
-    const transformedItems = App.transformItemData({
-      files,
-      previewItems,
-      previewing,
-      selectAll,
-      useGlobalToggle,
-    });
-    const btnPronoun = (transformedItems.allSelected) ? 'All' : 'Selected';
+    const btnPronoun = (allSelected) ? 'All' : 'Selected';
     const globalTogglePronoun = (selectAll) ? 'None' : 'All';
+    const assignProps = {
+      id: currentId,
+      name: currentName,
+      searchURL: currentSearchURL,
+      seriesURL: currentSeriesURL,
+    };
     const versionProps = {
       onClose: this.handleCloseVersion,
     };
@@ -367,7 +441,7 @@ class App extends Component {
       delete configProps.onClose;
     }
     
-    if(previewing) rootModifier += ` ${ MODIFIER__PREVIEWING }`;
+    if(previewing && selectionCount) rootModifier += ` ${ MODIFIER__RENAME }`;
     if(logs.length) rootModifier += ` ${ MODIFIER__LOGS }`;
     
     return (
@@ -406,20 +480,16 @@ class App extends Component {
               className={`${ ROOT_CLASS }__section-items ${ (files.length) ? MODIFIER__HAS_ITEMS : '' }`}
               ref={(ref) => { this.filesRef = ref; }}
             >
-              {transformedItems.files.map(
-                ({ dir, ext, name, newName, selected }, ndx) => (
-                  <Renamable
-                    key={name}
-                    ext={ext}
-                    itemIndex={ndx}
-                    name={name}
-                    newName={newName}
-                    path={dir}
-                    previewing={previewing}
-                    selected={selected}
-                  />
-                )
-              )}
+              {files.map((fileData, ndx) => (
+                <Renamable
+                  key={fileData.name}
+                  {...fileData}
+                  itemIndex={ndx}
+                  onIdClick={this.handleIdOverrideClick}
+                  path={fileData.dir}
+                  previewing={previewing}
+                />
+              ))}
             </div>
           </section>
           {!!logs.length && (
@@ -449,6 +519,11 @@ class App extends Component {
             </section>
           )}
         </div>
+        {showAssignId && (
+          <Modal onMaskClick={this.handleCloseAssign}>
+            <AssignId {...assignProps} />
+          </Modal>
+        )}
         {showConfig && (
           <Modal>
             <Config {...configProps} />

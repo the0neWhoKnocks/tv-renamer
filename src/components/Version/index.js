@@ -27,10 +27,6 @@ class Version extends Component {
     this.handleVersionSelect = this.handleVersionSelect.bind(this);
   }
   
-  componentDidMount() {
-    
-  }
-  
   handleCloseClick() {
     this.props.onClose();
   }

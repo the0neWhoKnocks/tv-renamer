@@ -4,7 +4,7 @@ import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
 export const MODIFIER__HAS_ITEMS = 'has--items';
 export const MODIFIER__LOGS = 'has--logs';
-export const MODIFIER__PREVIEWING = 'is--previewing';
+export const MODIFIER__RENAME = 'enable--rename';
 export const ROOT_CLASS = 'app';
 
 export default css`
@@ -173,7 +173,7 @@ export default css`
     }
   }
   
-  &.${ MODIFIER__PREVIEWING } {
+  &.${ MODIFIER__RENAME } {
     
     .${ ROOT_CLASS } {
       

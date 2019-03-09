@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { bool, number, oneOfType, shape, string } from 'prop-types';
+import { bool, func, number, string } from 'prop-types';
 import Toggle from 'COMPONENTS/Toggle';
 import styles, {
   MODIFIER__EDITING_NAME,
@@ -20,6 +20,7 @@ class Renamable extends Component {
       selected,
     };
     
+    this.handleIdClick = this.handleIdClick.bind(this);
     this.handleKeyDown = this.handleKeyDown.bind(this);
     this.handleNameBlur = this.handleNameBlur.bind(this);
     this.handleNameFocus = this.handleNameFocus.bind(this);
@@ -36,6 +37,22 @@ class Renamable extends Component {
     ){
       this.setState({ selected });
     }
+  }
+  
+  handleIdClick(ev) {
+    const {
+      newName,
+      onIdClick,
+      searchURL,
+      seriesURL,
+    } = this.props;
+    
+    onIdClick({
+      id: +ev.currentTarget.value,
+      newName,
+      searchURL,
+      seriesURL,
+    });
   }
   
   handleKeyDown(ev) {
@@ -62,12 +79,16 @@ class Renamable extends Component {
   
   render() {
     const {
+      error,
       ext,
+      id,
       itemIndex,
       name,
       newName,
       path,
       previewing,
+      searchURL,
+      seriesURL,
     } = this.props;
     const {
       editingName,
@@ -76,42 +97,18 @@ class Renamable extends Component {
     const slug = name.toLowerCase().replace(/[.'\s]/gi, '');
     let rootModifier = '';
     let newNameModifier = '';
-    let _newName = (typeof newName === 'string')
-      ? `${ newName }${ ext }`
-      : '';
+    let _newName = `${ newName }${ ext }`;
     
     if(editingName) rootModifier = MODIFIER__EDITING_NAME;
     if(previewing) rootModifier += ` ${ MODIFIER__PREVIEWING }`;
     if(selected) rootModifier += ` ${ MODIFIER__SELECTED }`;
     
-    if(previewing && typeof newName !== 'string'){
+    if(error){
       _newName = (
         <Fragment>
           <span>No Exact Match Found</span>
-          {(typeof newName === 'object' && newName !== null) && (
-            <Fragment>
-              &nbsp;-&nbsp;
-              <span>{newName.error}.</span>
-              {(newName.searchURL || newName.seriesURL) && (
-                <div>
-                  {newName.searchURL && (
-                    <a
-                      href={newName.searchURL}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >View Search</a>
-                  )}
-                  {newName.seriesURL && (
-                    <a
-                      href={newName.seriesURL}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >View Series</a>
-                  )}
-                </div>
-              )}
-            </Fragment>
-          )}
+          &nbsp;-&nbsp;
+          <span>{error}.</span>
         </Fragment>
       );
       newNameModifier = MODIFIER__WARNING;
@@ -137,11 +134,42 @@ class Renamable extends Component {
           <span>{ext}</span>
         </div>
         {previewing && (
-          <div 
-            className={`${ ROOT_CLASS }__new-name ${ newNameModifier }`}
-            data-index={itemIndex}
-            data-old-path={`${ path }/${ name }${ ext }`}
-          >{_newName}</div>
+          <Fragment>
+            <div 
+              className={`${ ROOT_CLASS }__new-name ${ newNameModifier }`}
+              data-index={itemIndex}
+              data-new-name={`${ newName }${ ext }`}
+              data-old-path={`${ path }/${ name }${ ext }`}
+            >
+              {_newName}
+              {id && (
+                <nav className={`${ ROOT_CLASS }__tvdb-nav`}>
+                  <img src="/imgs/logo-tvdb.png" />
+                  <button
+                    className={`${ ROOT_CLASS }__tvdb-nav-item`}
+                    onClick={this.handleIdClick}
+                    value={id}
+                  >{id}</button>
+                  {searchURL && (
+                    <a
+                      className={`${ ROOT_CLASS }__tvdb-nav-item`}
+                      href={searchURL}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >View Search</a>
+                  )}
+                  {seriesURL && (
+                    <a
+                      className={`${ ROOT_CLASS }__tvdb-nav-item`}
+                      href={seriesURL}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >View Series</a>
+                  )}
+                </nav>
+              )}
+            </div>
+          </Fragment>
         )}
       </div>
     );
@@ -149,20 +177,18 @@ class Renamable extends Component {
 }
 
 Renamable.propTypes = {
+  error: string,
   ext: string,
+  id: number,
   itemIndex: number,
   name: string,
-  newName: oneOfType([
-    string,
-    shape({
-      error: string,
-      searchURL: string,
-      seriesURL: string,
-    }),
-  ]),
+  newName: string,
+  onIdClick: func,
   path: string,
   previewing: bool,
+  searchURL: string,
   selected: bool,
+  seriesURL: string,
 };
 
 export default Renamable;

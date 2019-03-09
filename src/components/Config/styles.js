@@ -1,4 +1,8 @@
 import { css } from 'emotion';
+import {
+  DEFAULT_CTA,
+  VALID_CTA,
+} from 'COMPONENTS/globalStyles';
 import { ROOT_CLASS as ITEM_ROOT_CLASS } from './components/ConfigItem/styles';
 
 export const MODIFIER__READ_ONLY = 'is--read-only';
@@ -43,22 +47,13 @@ export default css`
     
     &__close-btn,
     &__save-btn {
-      color: #333;
-      font-weight: bold;
-      border: solid 1px;
-      border-radius: 0.25em;
-      background: linear-gradient(#f5f5f5, #d2d2d2);
-      
-      &:disabled {
-        opacity: 0.5;
-      }
+      ${ DEFAULT_CTA }
     }
     
     &__save-btn {
       
       &:not(:disabled) {
-        color: #16614f;
-        background: linear-gradient(#f5f5f5, #9cf3db);
+        ${ VALID_CTA }
       }
     }
   }

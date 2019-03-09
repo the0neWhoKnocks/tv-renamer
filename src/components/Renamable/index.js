@@ -44,14 +44,12 @@ class Renamable extends Component {
       newName,
       onIdClick,
       searchURL,
-      seriesURL,
     } = this.props;
     
     onIdClick({
       id: +ev.currentTarget.value,
       newName,
       searchURL,
-      seriesURL,
     });
   }
   
@@ -87,7 +85,6 @@ class Renamable extends Component {
       newName,
       path,
       previewing,
-      searchURL,
       seriesURL,
     } = this.props;
     const {
@@ -150,14 +147,6 @@ class Renamable extends Component {
                     onClick={this.handleIdClick}
                     value={id}
                   >{id}</button>
-                  {searchURL && (
-                    <a
-                      className={`${ ROOT_CLASS }__tvdb-nav-item`}
-                      href={searchURL}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >View Search</a>
-                  )}
                   {seriesURL && (
                     <a
                       className={`${ ROOT_CLASS }__tvdb-nav-item`}

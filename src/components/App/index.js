@@ -252,12 +252,11 @@ class App extends Component {
     });
   }
   
-  handleIdOverrideClick({ id, newName, searchURL, seriesURL }) {
+  handleIdOverrideClick({ id, newName, searchURL }) {
     this.setState({
       currentId: id,
       currentName: newName,
       currentSearchURL: searchURL,
-      currentSeriesURL: seriesURL,
       showAssignId: true,
     });
   }
@@ -396,7 +395,6 @@ class App extends Component {
       currentId,
       currentName,
       currentSearchURL,
-      currentSeriesURL,
       files,
       loaded,
       logs,
@@ -415,7 +413,6 @@ class App extends Component {
       id: currentId,
       name: currentName,
       searchURL: currentSearchURL,
-      seriesURL: currentSeriesURL,
     };
     const versionProps = {
       onClose: this.handleModalClose('showVersion'),

@@ -33,11 +33,14 @@ export default (routes) => async (req, res) => {
   });
   
   dataPromise.then(() => {
+    let emitLog;
+    
     for(let i=0; i<routes.length; i++){
       const route = routes[i];
       path = route[0];
       handler = route[1];
       const routeArgs = route[2];
+      emitLog = route[3] === undefined || route[3];
       
       // every handler needs the response
       args = [{
@@ -53,7 +56,7 @@ export default (routes) => async (req, res) => {
       else if( cleanPath === path ) break;
     }
     
-    console.log(`Route matched "${ path }" for ${ cleanPath }`);
+    if(emitLog) console.log(`Route matched "${ path }" for ${ cleanPath }`);
     handler(...args);
   });
 };

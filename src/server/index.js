@@ -11,6 +11,7 @@ import {
   API__PREVIEW_RENAME,
   API__RENAME,
 } from 'ROOT/conf.app';
+import jsonResp from 'SERVER/utils/jsonResp';
 import {
   assignId,
   checkForConfig,
@@ -30,8 +31,27 @@ import requestHandler from './requestHandler';
 
 const port = +process.env.PORT || 3001;
 
+const inspectMiddleware = [];
+if( process.env.DEBUG ){
+  const inspector = require('inspector');
+  inspectMiddleware.push(
+    ['/json', ({ reqData, res }) => {
+      // open, close, url, Session
+      inspector.open();
+      res.end();
+    }, null, false],
+    ['/json/version', ({ res }) => {
+      jsonResp(res, {
+        Browser: `node.js/${ process.version }`,
+        'Protocol-Version': '1.1',
+      });
+    }, null, false],
+  );
+}
+
 http
   .createServer(requestHandler([
+    ...inspectMiddleware,
     ['/', handleRootRequest],
     [API__ASSIGN_ID, assignId],
     [API__CONFIG, checkForConfig],

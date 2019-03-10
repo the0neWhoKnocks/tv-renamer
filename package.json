@@ -13,7 +13,7 @@
     "gen:files": "node ./bin/genFiles",
     "lint": "eslint ./src/**/*.js",
     "start": "cross-env NODE_ENV=production npm run build:dist && cross-env NODE_ENV=production npm run build:app && cross-env NODE_ENV=production npm run start:server",
-    "start:dev": "npm run build:dist && cross-env PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",
+    "start:dev": "npm run build:dist && cross-env DEBUG=true PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",
     "start:server": "node $npm_package_paths_babelOutput/server",
     "test": "npm run lint && npm run unit",
     "transpile": "babel $npm_package_paths_babelSource -d $npm_package_paths_babelOutput --verbose",

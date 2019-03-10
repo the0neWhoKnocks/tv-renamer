@@ -74,7 +74,12 @@ class Renamable extends Component {
   }
   
   handleToggle() {
-    this.setState({ selected: !this.state.selected });
+    const { itemIndex, onSelectChange } = this.props;
+    
+    onSelectChange({
+      index: itemIndex,
+      selected: !this.state.selected,
+    });
   }
   
   render() {
@@ -179,6 +184,7 @@ Renamable.propTypes = {
   name: string,
   newName: string,
   onIdClick: func,
+  onSelectChange: func,
   path: string,
   previewing: bool,
   searchURL: string,

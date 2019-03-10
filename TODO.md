@@ -2,6 +2,18 @@
 
 ---
 
+## Bugs
+
+- [x] Clicking Preview after a Preview has just occurred (even with something)
+  selected, causes unchecked items to return `undefined` (and highlight green),
+  and the checked item to have no match found even though it just had a
+  successful preview.
+- [x] If there are no matches after a Preview, all items are unchecked
+  but the global toggle still reads "Select None". Also, the Rename button
+  is enabled and reads "Rename Selected".
+    
+---
+
 ## Config settings
 - [x] Generate on first run
 - [x] Pick `source` and `output` folders
@@ -19,12 +31,12 @@
 
 ## Layout
 - [ ] Nav
-  - [ ] Version (button)
+  - [x] Version (button)
     - [ ] On click, will ping https://cloud.docker.com and get a list of
           versions.
   - [x] Config (button)
     - [x] On click, opens App config page
-- [ ] 1 column layout, 2 panes
+- [x] 1 column layout, 2 panes
   - 1st section
     - [x] There are files that are pending a rename.
     - [x] Have a Preview button which will show what all the files will be
@@ -32,12 +44,9 @@
       - [x] Once the preview has executed, have a Rename button
             appear that will rename, set permissions (if needed), and move the
             file.
-      - [ ] Disable rename if no items are checked (after a preview)
-    - [ ] Bug: If there are no matches after a Preview, all items are unchecked
-      but the global toggle still reads "Select None". Also, the Rename button
-      is enabled and reads "Rename Selected".
+      - [x] Disable rename if no items are checked (after a preview)
   - 2nd section, a log of files that were renamed (From) -> (To)
-    - [ ] Just load this on demand so that it's not eating up memory on every
+    - [x] Just load this on demand so that it's not eating up memory on every
           load.
     - [x] Add toggle button to open or close this section.
 
@@ -73,17 +82,19 @@
   - [x] Is `contenteditable` in case a file's name doesn't match normal 
         naming patterns.
     - [x] On ENTER key, `blur`, don't allow a newline.
+  - [ ] On click (while the item is unselected), trigger a selection toggle
+    and focus the editable element. Should save a click.
 - [x] Rename preview. Maybe it overlays the item.
   - [ ] Allow for editing preview text, like editing file text
 - Alias (button), opens modal
-  - [ ] Allow for inputting the TVDB series ID
+  - [x] Allow for inputting the TVDB series ID
   - [ ] If an alias is in use, the button will be green, otherwise some default
         gray or something.
 - ID (button)
-  - [ ] If the item has a TVDB match, the button will display the TVDB id
-  - [ ] Clicking on the button will allow a user to change the id to another
+  - [x] If the item has a TVDB match, the button will display the TVDB id
+  - [x] Clicking on the button will allow a user to change the id to another
     one in the case of a mis-match.
-    - [ ] On change of an id, a search will be sent out, with the `name`, and
+    - [x] On change of an id, a search will be sent out, with the `name`, and
       an `id`. A manifest of cache files may have to be created so that a quick
       lookup could occur for the file.
       ```json
@@ -99,7 +110,7 @@
         season data comes out.
 - Delete (button)
   - [ ] On  click, display confirmation modal
-- [ ] Keep track of the indexes of items that are being processed. For example
+- [x] Keep track of the indexes of items that are being processed. For example
   when Preview is hit, all indexes will be recorded. In the case where you want
   to change the id of just one item, record that index X was requested, then
   when the Array of results is returned you know that item X needs to be updated.

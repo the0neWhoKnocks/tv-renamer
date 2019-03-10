@@ -93,6 +93,8 @@ class App extends Component {
         data.newName = previewItem.name;
         data.searchURL = previewItem.searchURL;
         data.seriesURL = previewItem.seriesURL;
+        
+        if(!useGlobalToggle && !data.error) data.selected = true;
       }
       
       if(
@@ -145,6 +147,7 @@ class App extends Component {
     
     this.handleAssignIdSuccess = this.handleAssignIdSuccess.bind(this);
     this.handleConfigSave = this.handleConfigSave.bind(this);
+    this.handleFileSelectChange = this.handleFileSelectChange.bind(this);
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
     this.handleIdOverrideClick = this.handleIdOverrideClick.bind(this);
     this.handleLogsToggle = this.handleLogsToggle.bind(this);
@@ -256,7 +259,10 @@ class App extends Component {
           useGlobalToggle,
         });
         
-        this.setState({ files: transformedItems.files });
+        this.setState({
+          files: transformedItems.files,
+          selectionCount: transformedItems.files.length,
+        });
       });
   }
   
@@ -319,9 +325,33 @@ class App extends Component {
     }));
     
     this.setState({
+      allSelected: true,
       files,
       selectAll,
+      selectionCount: (selectAll) ? files.length : 0,
       useGlobalToggle: true,
+    });
+  }
+  
+  handleFileSelectChange({ index, selected }) {
+    let allSelected = true;
+    let selectionCount = 0;
+    const files = this.state.files.map((file, ndx) => {
+      const _file = { ...file };
+      
+      if(ndx === index) _file.selected = selected;
+      if(!_file.selected) allSelected = false;
+      else selectionCount++;
+      
+      return _file;
+    });
+    
+    this.setState({
+      allSelected,
+      files,
+      selectAll: allSelected,
+      selectionCount,
+      useGlobalToggle: false,
     });
   }
   
@@ -377,13 +407,33 @@ class App extends Component {
       body: JSON.stringify({ names }),
     })
       .then((previewItems) => {
-        const { files, idMappings, selectAll } = this.state;
+        const {
+          files,
+          idMappings,
+          previewItems: previousItems,
+          selectAll,
+        } = this.state;
         const previewing = !!previewItems.length;
         const useGlobalToggle = false;
+        
+        // if there current preview items, but they weren't submitted with the
+        // current Preview session, maintain the old results.
+        let _previewItems = [];
+        previewItems.forEach((item) => {
+          _previewItems[+item.index] = item;
+        });
+        
+        if(previousItems){
+          previousItems.forEach((item) => {
+            const ndx = +item.index;
+            if(!_previewItems[ndx]) _previewItems[ndx] = item;
+          });
+        }
+        
         const transformedItems = App.transformItemData({
           files,
           idMappings,
-          previewItems,
+          previewItems: _previewItems,
           previewing,
           selectAll,
           useGlobalToggle,
@@ -393,7 +443,7 @@ class App extends Component {
           allSelected: transformedItems.allSelected,
           files: transformedItems.files,
           previewing,
-          previewItems,
+          previewItems: _previewItems,
           selectAll: !!transformedItems.selectionCount,
           selectionCount: transformedItems.selectionCount,
           useGlobalToggle,
@@ -432,19 +482,26 @@ class App extends Component {
         const updatedPreviewItems = [];
         let errors = 0;
         let successful = 0;
+        let allSelected = true;
+        let selectionCount = 0;
         
         for(let i=0; i<files.length; i++){
           const log = logs[i];
         
           if(!log || log && log.error){
+            const currFile = files[i];
+            
             updatedFiles.push({
-              ...files[i],
+              ...currFile,
               index: updatedFiles.length,
             });
             updatedPreviewItems.push({
               ...previewItems[i],
               index: updatedPreviewItems.length,
             });
+            
+            if(currFile.selected) selectionCount++;
+            if(!currFile.selected) allSelected = false;
             
             if(log && log.error){
               console.error(log.error);
@@ -455,6 +512,7 @@ class App extends Component {
         }
         
         this.setState({
+          allSelected,
           files: updatedFiles,
           logs: [
             // ...this.state.logs, // TODO - mabye uncomment to append to all logs
@@ -464,6 +522,8 @@ class App extends Component {
           previewItems: updatedPreviewItems,
           renameCount: successful,
           renameErrorCount: errors,
+          selectAll: !!selectionCount,
+          selectionCount,
         });
       })
       .catch((err) => {
@@ -488,6 +548,7 @@ class App extends Component {
       logs,
       logsOpen,
       previewing,
+      previewItems,
       renameCount,
       renameErrorCount,
       selectAll,
@@ -522,7 +583,13 @@ class App extends Component {
       delete configProps.onClose;
     }
     
-    if(previewing && selectionCount) rootModifier += ` ${ MODIFIER__RENAME }`;
+    if(
+      // previewing at least one item is selected
+      previewing && selectionCount
+      // and none of the selected items have errors
+      && !previewItems.filter(({ error, index }) => files[index].selected && error).length
+    ) rootModifier += ` ${ MODIFIER__RENAME }`;
+    
     if(logs.length){
       rootModifier += ` ${ MODIFIER__LOGS }`;
       
@@ -553,6 +620,7 @@ class App extends Component {
               >Select {globalTogglePronoun}</Toggle>
               <div className={`${ ROOT_CLASS }__items-nav-btns-wrapper`}>
                 <button
+                  disabled={selectionCount === 0}
                   onClick={this.handlePreviewRename}
                 >Preview</button>
                 <button
@@ -571,6 +639,7 @@ class App extends Component {
                   {...fileData}
                   itemIndex={ndx}
                   onIdClick={this.handleIdOverrideClick}
+                  onSelectChange={this.handleFileSelectChange}
                   path={fileData.dir}
                   previewing={previewing}
                 />

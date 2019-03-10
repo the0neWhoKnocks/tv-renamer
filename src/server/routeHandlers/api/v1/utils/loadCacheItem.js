@@ -1,7 +1,7 @@
 import genCacheName from './genCacheName';
 import loadFile from './loadFile';
 
-export default ({ cacheKey, name }) => new Promise((resolve, reject) => {
+export default ({ cacheKey, index, name }) => new Promise((resolve, reject) => {
   const cacheName = genCacheName(cacheKey || name);
   
   loadFile({
@@ -9,6 +9,7 @@ export default ({ cacheKey, name }) => new Promise((resolve, reject) => {
     cb: (file) => resolve({
       cacheKey: cacheName.name,
       file,
+      index,
       name,
     }),
     file: cacheName.filePath,

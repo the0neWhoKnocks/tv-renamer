@@ -146,7 +146,7 @@ export default ({ reqData, res }) => {
       
       if(name && !uniqueNames.includes(name)) {
         uniqueNames.push({ id: tvdbId, index, name });
-        cachedItems.push(loadCacheItem({ cacheKey: idMap[tvdbId], name }));
+        cachedItems.push(loadCacheItem({ cacheKey: idMap[tvdbId], index, name }));
       }
     }
     
@@ -168,7 +168,10 @@ export default ({ reqData, res }) => {
           jsonResp(
             res,
             getEpNamesFromCache({
-              cacheData: _cachedItems.map((item) => item.file),
+              cacheData: _cachedItems.map(({ file, index }) => ({
+                cache: file,
+                index,
+              })),
               idMap,
               names,
             })

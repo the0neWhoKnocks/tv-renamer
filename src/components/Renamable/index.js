@@ -41,14 +41,16 @@ class Renamable extends Component {
   
   handleIdClick(ev) {
     const {
-      newName,
+      itemIndex,
+      lookupName,
       onIdClick,
       searchURL,
     } = this.props;
     
     onIdClick({
       id: +ev.currentTarget.value,
-      newName,
+      index: itemIndex,
+      lookupName,
       searchURL,
     });
   }
@@ -80,6 +82,7 @@ class Renamable extends Component {
       error,
       ext,
       id,
+      idOverride,
       itemIndex,
       name,
       newName,
@@ -120,6 +123,7 @@ class Renamable extends Component {
         <div
           className={`${ ROOT_CLASS }__name`}
           data-index={itemIndex}
+          data-id={idOverride}
         >
           <span
             contentEditable={selected}
@@ -169,7 +173,9 @@ Renamable.propTypes = {
   error: string,
   ext: string,
   id: number,
+  idOverride: number,
   itemIndex: number,
+  lookupName: string,
   name: string,
   newName: string,
   onIdClick: func,

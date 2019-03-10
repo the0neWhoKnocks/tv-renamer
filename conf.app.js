@@ -13,6 +13,8 @@ const ROOT = resolve(__dirname, './');
 const SRC = `${ ROOT }/src`;
 const CACHE_FOLDER_NAME = '.cache';
 const RENAME_LOG = 'rename.log';
+const SERIES_ID_MAP = 'series-ids.json';
+const SERIES_ID_CACHE_MAP = '.idsCacheMap';
 // NOTE - Anything pointing to DIST is top-level, should only be used in
 // development. When the App is packaged up, the context will shift to within
 // the `dist` directory.
@@ -36,10 +38,12 @@ const IGNORE = `${ ROOT }/.ignore`;
 const TMP = `${ IGNORE }/tmp`;
 
 module.exports = {
+  API__ASSIGN_ID: `${ API_PREFIX }/assign-id`,
   API__CONFIG: `${ API_PREFIX }/config`,
   API__CONFIG_SAVE: `${ API_PREFIX }/config/save`,
   API__FILES_LIST: `${ API_PREFIX }/files-list`,
   API__FOLDER_LIST: `${ API_PREFIX }/folder-list`,
+  API__IDS: `${ API_PREFIX }/ids`,
   API__JWT: `${ API_PREFIX }/jwt`,
   API__LOGS: `${ API_PREFIX }/logs`,
   API__PREVIEW_RENAME: `${ API_PREFIX }/preview`,
@@ -52,6 +56,8 @@ module.exports = {
   DIST_PUBLIC,
   DIST_SERVER: `${ DIST_CJS }/server`,
   DIST_RENAME_LOG,
+  DIST_SERIES_ID_MAP: `${ DIST }/${ SERIES_ID_MAP }`,
+  DIST_SERIES_ID_CACHE_MAP: `${ DIST }/${ SERIES_ID_CACHE_MAP }`,
   DIST_VENDOR,
   GIT_API__RELEASES: `${ GIT_API }/repos/${ global.REPO_OWNER }/${ global.REPO_NAME }/releases`,
   PUBLIC,
@@ -60,6 +66,8 @@ module.exports = {
   PUBLIC_JS,
   PUBLIC_MANIFEST,
   PUBLIC_RENAME_LOG,
+  PUBLIC_SERIES_ID_MAP: `${ ROOT }/${ SERIES_ID_MAP }`,
+  PUBLIC_SERIES_ID_CACHE_MAP: `${ ROOT }/${ SERIES_ID_CACHE_MAP }`,
   PUBLIC_VENDOR,
   SRC_STATIC: `${ SRC }/static`,
   TMP,
@@ -70,7 +78,8 @@ module.exports = {
   TVDB_API__EPISODES_URL: `${ TVDB_API }/series/${ TVDB__TOKEN__SERIES_ID }/episodes?page=${ TVDB__TOKEN__PAGE_NUM }`,
   TVDB_API__LANGUAGES_URL: `${ TVDB_API }/languages`,
   TVDB_API__LOGIN_URL: `${ TVDB_API }/login`,
-  TVDB_API__SERIES_URL: `${ TVDB_API }/search/series?name=${ TVDB__TOKEN__SERIES_NAME }`,
+  TVDB_API__SERIES: `${ TVDB_API }/series/${ TVDB__TOKEN__SERIES_ID }`,
+  TVDB_API__SERIES_SEARCH: `${ TVDB_API }/search/series?name=${ TVDB__TOKEN__SERIES_NAME }`,
   TVDB_API__VERSION_HEADER: 'application/vnd.thetvdb.v2.2.0',
   TVDB__TOKEN__PAGE_NUM,
   TVDB__TOKEN__SERIES_ID,

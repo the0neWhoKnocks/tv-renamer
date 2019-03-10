@@ -11,5 +11,6 @@ export const DEFAULT_CTA = `
 `;
 export const VALID_CTA = `
   color: #16614f;
+  border-color: currentColor;
   background: linear-gradient(#f5f5f5,#9cf3db);
 `;

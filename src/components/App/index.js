@@ -12,6 +12,7 @@ import Version from 'COMPONENTS/Version';
 import {
   API__CONFIG,
   API__FILES_LIST,
+  API__IDS,
   API__JWT,
   API__LOGS,
   API__PREVIEW_RENAME,
@@ -26,13 +27,36 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
+export const NAME_REGEX = /^([a-z'.-]+\b(?:\d{3,4})?)\.(s(\d{2})e(\d{2}))?/i;
+
 class App extends Component {
   static getPreviewItem(index, items) {
     return items.find((item) => +item.index === index);
   }
   
+  static parseLookupName(name) {
+    return name.toLowerCase().replace(/\./g, ' ');
+  }
+  
+  static transformIdMappings(idMappings) {
+    const map = {};
+    const warnings = [];
+    
+    Object.keys(idMappings).forEach((id) => {
+      idMappings[id].forEach((name) => {
+        if(map[name]) warnings.push(name);
+        map[name] = id;
+      });
+    });
+    
+    if(warnings.length) alert(`Warning: Duplicate ID mappings found for: ${ warnings.join('\n') }`);
+    
+    return map;
+  }
+  
   static transformItemData({
     files,
+    idMappings,
     previewItems,
     previewing,
     selectAll,
@@ -51,6 +75,15 @@ class App extends Component {
         selected: selectAll,
       };
       const previewItem = App.getPreviewItem(ndx, previewItems);
+      const nameMatch = name.match(NAME_REGEX) || [];
+      
+      if(nameMatch[1]){
+        data.lookupName = App.parseLookupName(nameMatch[1]);
+        
+        if(idMappings[data.lookupName]){
+          data.idOverride = +idMappings[data.lookupName];
+        }
+      }
       
       if(previewItem){
         data.error = previewItem.error;
@@ -90,6 +123,7 @@ class App extends Component {
       allSelected: true,
       config: undefined,
       files: [],
+      idMappings: {},
       loaded: false,
       logs: [],
       previewItems: [],
@@ -106,6 +140,7 @@ class App extends Component {
     
     this.logEndRef = React.createRef();
     
+    this.handleAssignIdSuccess = this.handleAssignIdSuccess.bind(this);
     this.handleConfigSave = this.handleConfigSave.bind(this);
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
     this.handleIdOverrideClick = this.handleIdOverrideClick.bind(this);
@@ -176,7 +211,11 @@ class App extends Component {
         }
         
         this.setState(state, () => {
-          if(!state.showConfig) this.getFilesList();
+          if(!state.showConfig){
+            this.getIDs().then(() => {
+              this.getFilesList();
+            });
+          }
         });
       })
       .catch((err) => {
@@ -198,6 +237,7 @@ class App extends Component {
     fetch(API__FILES_LIST)
       .then((files) => {
         const {
+          idMappings,
           previewItems,
           previewing,
           selectAll,
@@ -205,6 +245,7 @@ class App extends Component {
         } = this.state;
         const transformedItems = App.transformItemData({
           files,
+          idMappings,
           previewItems,
           previewing,
           selectAll,
@@ -213,6 +254,22 @@ class App extends Component {
         
         this.setState({ files: transformedItems.files });
       });
+  }
+  
+  getIDs() {
+    return new Promise((resolve, reject) => {
+      fetch(API__IDS)
+        .then((idMappings) => {
+          this.setState(
+            { idMappings: App.transformIdMappings(idMappings) },
+            () => resolve()
+          );
+        })
+        .catch((err) => {
+          reject(err);
+          alert(err);
+        });
+    });
   }
   
   getJWT() {
@@ -229,6 +286,18 @@ class App extends Component {
       .then((config) => {
         this.setState({ config });
       });
+  }
+  
+  handleAssignIdSuccess({ id, idMappings, index }) {
+    const files = [...this.state.files];
+    files[index].id = id;
+    files[index].selected = true;
+    
+    this.setState({
+      files,
+      idMappings: App.transformIdMappings(idMappings),
+      showAssignId: false,
+    });
   }
   
   handleConfigSave(config) {
@@ -252,10 +321,11 @@ class App extends Component {
     });
   }
   
-  handleIdOverrideClick({ id, newName, searchURL }) {
+  handleIdOverrideClick({ id, index, lookupName, searchURL }) {
     this.setState({
       currentId: id,
-      currentName: newName,
+      currentIndex: index,
+      currentName: lookupName,
       currentSearchURL: searchURL,
       showAssignId: true,
     });
@@ -271,17 +341,21 @@ class App extends Component {
     const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__name`);
     const names = [...items].map((itemEl) => {
       const name = itemEl.innerText;
-      const matches = name.match(/^([a-z'.-]+\b(?:\d{3,4})?)\.(s(\d{2})e(\d{2}))?/i);
+      const itemData = itemEl.dataset;
+      const matches = name.match(NAME_REGEX);
       const nameData = {
-        index: itemEl.dataset.index,
+        id: +itemData.id,
+        index: itemData.index,
         name,
       };
+      
+      if(isNaN(nameData.id)) delete nameData.id;
       
       return (matches)
         ? {
           ...nameData,
           episode: matches[4] && +matches[4],
-          name: matches[1] && matches[1].replace(/\./g, ' '),
+          name: matches[1] && App.parseLookupName(matches[1]),
           season: matches[3] && +matches[3],
         }
         : nameData;
@@ -292,11 +366,12 @@ class App extends Component {
       body: JSON.stringify({ names }),
     })
       .then((previewItems) => {
-        const { files, selectAll } = this.state;
+        const { files, idMappings, selectAll } = this.state;
         const previewing = !!previewItems.length;
         const useGlobalToggle = false;
         const transformedItems = App.transformItemData({
           files,
+          idMappings,
           previewItems,
           previewing,
           selectAll,
@@ -393,6 +468,7 @@ class App extends Component {
       allSelected,
       config,
       currentId,
+      currentIndex,
       currentName,
       currentSearchURL,
       files,
@@ -411,7 +487,9 @@ class App extends Component {
     const globalTogglePronoun = (selectAll) ? 'None' : 'All';
     const assignProps = {
       id: currentId,
+      index: currentIndex,
       name: currentName,
+      onAssignSuccess: this.handleAssignIdSuccess,
       searchURL: currentSearchURL,
     };
     const versionProps = {

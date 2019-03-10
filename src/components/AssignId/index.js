@@ -1,5 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import { number, string } from 'prop-types';
+import { func, number, string } from 'prop-types';
+import {
+  API__ASSIGN_ID,
+} from 'ROOT/conf.app';
+import fetch from 'UTILS/fetch';
 import styles, {
   MODIFIER__PROCCESSING,
   ROOT_CLASS,
@@ -16,14 +20,27 @@ class AssignId extends Component {
       proccessing: false,
     };
     
-    this.handleAssignClick = this.handleAssignClick.bind(this);
+    this.handleChoiceClick = this.handleChoiceClick.bind(this);
     this.handleIdChange = this.handleIdChange.bind(this);
     this.handleIdFocus = this.handleIdFocus.bind(this);
   }
   
-  handleAssignClick(ev) {
+  handleChoiceClick() {
+    const { index, onAssignSuccess } = this.props;
+    
     this.setState({ proccessing: true }, () => {
+      const { id, normalizedName } = this.state;
       
+      fetch(API__ASSIGN_ID, {
+        method: 'PUT',
+        body: JSON.stringify({ id, name: normalizedName }),
+      })
+        .then((idMappings) => {
+          onAssignSuccess({ id, idMappings, index });
+        })
+        .catch((err) => {
+          alert(err);
+        });
     });
   }
   
@@ -95,19 +112,24 @@ class AssignId extends Component {
           {!idChanged && (
             <Fragment>
               Any matches for <code>{normalizedName}</code> are using the TVDB
-              id <code>{id}</code>. If this isn&apos;t correct, change the id
-              and click Assign.
+              id <code>{id}</code>. If this is correct, click Confirm. If this
+              isn&apos;t correct, change the id and click Assign.
             </Fragment>
           )}
         </div>
-        <button
-          className={`${ ROOT_CLASS }__apply-btn`}
-          onClick={this.handleAssignClick}
-          disabled={assignDisabled}
-        >
-          Assign
-          <div className={`${ ROOT_CLASS }__apply-btn-indicator`}><div /></div>
-        </button>
+        <nav className={`${ ROOT_CLASS }__nav`}>
+          <button
+            className={`${ ROOT_CLASS }__confirm-btn`}
+            onClick={this.handleChoiceClick}
+            disabled={proccessing}
+          >Confirm</button>
+          <button
+            className={`${ ROOT_CLASS }__assign-btn`}
+            onClick={this.handleChoiceClick}
+            disabled={assignDisabled}
+          >Assign</button>
+          <div className={`${ ROOT_CLASS }__proccessing-indicator`}><div /></div>
+        </nav>
       </div>
     );
   }
@@ -115,7 +137,9 @@ class AssignId extends Component {
 
 AssignId.propTypes = {
   id: number,
+  index: number,
   name: string,
+  onAssignSuccess: func,
   searchURL: string,
 };
 

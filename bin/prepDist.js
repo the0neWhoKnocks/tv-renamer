@@ -14,6 +14,8 @@ const {
   DIST_CACHE,
   DIST_PUBLIC,
   DIST_RENAME_LOG,
+  DIST_SERIES_ID_MAP,
+  DIST_SERIES_ID_CACHE_MAP,
   DIST_VENDOR,
   SRC_STATIC,
 } = require('../conf.app');
@@ -33,6 +35,14 @@ console.log(`Created client vendor directory ➜ "${ DIST_VENDOR }"`);
 try {
   writeFileSync(DIST_RENAME_LOG, '[]', { encoding: 'utf8', flag: 'wx' });
   console.log(`Created log file ➜ "${ DIST_RENAME_LOG }"`);
+}catch(err){ /* errors mean the files already exist, which doesn't matter */ }
+try {
+  writeFileSync(DIST_SERIES_ID_CACHE_MAP, '{}', { encoding: 'utf8', flag: 'wx' });
+  console.log(`Created id cache map file ➜ "${ DIST_SERIES_ID_CACHE_MAP }"`);
+}catch(err){ /* errors mean the files already exist, which doesn't matter */ }
+try {
+  writeFileSync(DIST_SERIES_ID_MAP, '{}', { encoding: 'utf8', flag: 'wx' });
+  console.log(`Created id map file ➜ "${ DIST_SERIES_ID_MAP }"`);
 }catch(err){ /* errors mean the files already exist, which doesn't matter */ }
 // copy over files
 copyFileSync('./conf.app.js', `${ DIST }/conf.app.js`);

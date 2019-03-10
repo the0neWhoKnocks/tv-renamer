@@ -1,7 +1,7 @@
 import cacheData from './cacheData';
 import getSeriesEpisodes from './getSeriesEpisodes';
 
-export default ({ jwt, seriesID, seriesName, seriesSlug }) => new Promise(
+export default ({ index, jwt, seriesID, seriesName, seriesSlug }) => new Promise(
   (resolve, reject) => {
     const cache = {
       id: seriesID,
@@ -27,7 +27,7 @@ export default ({ jwt, seriesID, seriesName, seriesSlug }) => new Promise(
         }
         
         cacheData({ data: cache })
-          .then(() => resolve(cache));
+          .then(() => resolve({ cache, index }));
       })
       .catch(({ err, resp }) => {
         resolve({

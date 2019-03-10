@@ -1,4 +1,5 @@
 import {
+  PUBLIC_SERIES_ID_CACHE_MAP,
   TVDB_QUERY_URL,
   TVDB_SERIES_URL,
   TVDB__TOKEN__SERIES_SLUG,
@@ -6,11 +7,11 @@ import {
 } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
-import convertNameToSlug from './utils/convertNameToSlug';
-import genCacheName from './utils/genCacheName';
 import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
+import loadFile from './utils/loadFile';
 import lookUpSeries from './utils/lookUpSeries';
+import saveFile from './utils/saveFile';
 
 const sanitizeShowName = (name) => {
   return name
@@ -18,58 +19,68 @@ const sanitizeShowName = (name) => {
     .replace(/\?/g, '');
 };
 
-const getEpNamesFromCache = ({ cacheData, names }) => {
+const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
   const renamed = [];
   const _cacheData = {};
   
   // build out a look-up table that's easier to reference
   cacheData.forEach((cacheItem) => {
-    _cacheData[cacheItem.cacheKey] = cacheItem;
+    if(cacheItem.error && cacheItem.matches){
+      const item = cacheItem.matches[0];
+      _cacheData[cacheItem.index] = item;
+    }
+    else if(cacheItem.index){
+      _cacheData[cacheItem.index] = cacheItem.cache;
+    }
   });
   
   // get all the episode names
   names.forEach((nameObj) => {
     if(nameObj){
       const { episode, index, name, season } = nameObj;
+      const cache = _cacheData[index];
       
-      if(name && season && episode){
-        const cacheKey = genCacheName(name).name;
-        let cache = _cacheData[cacheKey];
+      if(
+        name && season && episode
+        && cache && cache.seasons && cache.seasons[season]
+      ){
+        const epNum = (`${ episode }`.length < 2)
+          ? `0${ episode }`
+          : episode;
+        const newName = `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`;
+          
+        renamed.push({
+          id: cache.id,
+          index,
+          name: sanitizeShowName(newName),
+        });
+      }
+      // could be a possible series mis-match
+      else if(cache && season && episode){
+        renamed.push({
+          error: 'Possible series mis-match',
+          id: cache.id,
+          index,
+          name: cache.name,
+          seriesURL: TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug),
+          searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
+        });
+      }
+      // could be a possible series mis-match
+      else if(cache){
+        let msg = '';
         
-        if(!cache) cache = _cacheData[convertNameToSlug(name)];
+        if(!season) msg += 'season';
+        if(!episode) msg += (msg.length) ? ' & episode' : 'episode';
         
-        if(cache && cache.seasons[season]){
-          const epNum = (`${ episode }`.length < 2)
-            ? `0${ episode }`
-            : episode;
-          const newName = `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`;
-            
-          renamed.push({
-            id: cache.id,
-            index,
-            name: sanitizeShowName(newName),
-          });
-        }
-        // could be a possible series mis-match
-        else if(cache){
-          renamed.push({
-            error: 'Possible series mis-match',
-            id: cache.id,
-            index,
-            name: cache.name,
-            seriesURL: TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug),
-            searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
-          });
-        }
-        // tvdb couldn't find a matching item
-        else{
-          renamed.push({
-            error: "TVDB couldn't find a match",
-            index,
-            name,
-            searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
-          });
-        }
+        renamed.push({
+          error: `Missing ${ msg }`,
+          id: cache.id,
+          index,
+          name: cache.name,
+          seriesURL: TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug),
+          searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
+        });
       }
       // missing data from Client
       else{
@@ -92,59 +103,88 @@ const getEpNamesFromCache = ({ cacheData, names }) => {
 export default ({ reqData, res }) => {
   const names = reqData.names;
   
-  // remove duplicates for the series request
-  const uniqueNames = [];
-  const cachedItems = [];
-  for(let i=0; i<names.length; i++){
-    const name = names[i] && names[i].name;
-    if(name && !uniqueNames.includes(name)) {
-      uniqueNames.push(name);
-      cachedItems.push(loadCacheItem(name));
+  const startPreview = (idMap) => {
+    // remove duplicates for the series request
+    const uniqueNames = [];
+    const cachedItems = [];
+    for(let i=0; i<names.length; i++){
+      const nameData = names[i] || {};
+      const index = nameData.index;
+      const name = nameData.name;
+      const tvdbId = nameData.id;
+      
+      if(name && !uniqueNames.includes(name)) {
+        uniqueNames.push({ id: tvdbId, index, name });
+        cachedItems.push(loadCacheItem({ cacheKey: idMap[tvdbId], name }));
+      }
     }
-  }
-  
-  Promise.all(cachedItems)
-    .then((_cachedItems) => {
-      // If all series' are already cached, don't bother loading config, or
-      // doing any series look-ups, jump right to renaming.
-      const cache = {};
-      let allCached = true;
-      
-      for(let i=0; i<_cachedItems.length; i++){
-        const { file, name } = _cachedItems[i];
-        if(!file) allCached = false;
-        cache[name] = file;
-      }
-      
-      if(allCached){
-        console.log('Skipping config load and series look-ups, all items cached');
-        jsonResp(
-          res,
-          getEpNamesFromCache({
-            cacheData: _cachedItems.map((item) => item.file),
-            names,
-          })
-        );
-      }
-      else{
-        console.log('Not all items were cached, proceed to look-ups');
+    
+    Promise.all(cachedItems)
+      .then((_cachedItems) => {
+        // If all series' are already cached, don't bother loading config, or
+        // doing any series look-ups, jump right to renaming.
+        const cache = {};
+        let allCached = true;
         
-        loadConfig(({ jwt }) => {
-          const pendingSeriesData = uniqueNames.map(
-            (name) => lookUpSeries({ cache, jwt, res, seriesName: name })
-          );
-          
-          Promise.all(pendingSeriesData)
-            .then((cacheData) => {
-              jsonResp(
-                res,
-                getEpNamesFromCache({ cacheData, names })
-              );
+        for(let i=0; i<_cachedItems.length; i++){
+          const { cacheKey, file } = _cachedItems[i];
+          if(!file) allCached = false;
+          cache[cacheKey] = file;
+        }
+        
+        if(allCached){
+          console.log('Skipping config load and series look-ups, all items cached');
+          jsonResp(
+            res,
+            getEpNamesFromCache({
+              cacheData: _cachedItems.map((item) => item.file),
+              idMap,
+              names,
             })
-            .catch((err) => {
-              handleError({ res }, 500, err);
-            });
-        });
-      }
-    });
+          );
+        }
+        else{
+          console.log('Not all items were cached, proceed to look-ups');
+          
+          loadConfig(({ jwt }) => {
+            const pendingSeriesData = uniqueNames.map(
+              ({ id, index, name }, ndx) => lookUpSeries({
+                cache, cacheKey: _cachedItems[ndx].cacheKey, id, index, jwt, res, seriesName: name,
+              })
+            );
+            
+            Promise.all(pendingSeriesData)
+              .then((cacheData) => {
+                const _idMap = { ...idMap };
+                
+                cacheData.forEach((cacheItem) => {
+                  if(cacheItem.cache) _idMap[cacheItem.cache.id] = cacheItem.cache.cacheKey;
+                });
+                
+                saveFile({
+                  data: _idMap,
+                  file: PUBLIC_SERIES_ID_CACHE_MAP,
+                  res,
+                  cb: () => {
+                    jsonResp(
+                      res,
+                      getEpNamesFromCache({ cacheData, idMap, names })
+                    );
+                  },
+                });
+              })
+              .catch((err) => {
+                handleError({ res }, 500, err);
+              });
+          });
+        }
+      });
+  };
+  
+  loadFile({
+    file: PUBLIC_SERIES_ID_CACHE_MAP,
+    cb: (idMap) => {
+      startPreview(idMap);
+    },
+  });
 };

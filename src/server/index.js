@@ -1,18 +1,22 @@
 import http from 'http';
 import {
+  API__ASSIGN_ID,
   API__CONFIG,
   API__CONFIG_SAVE,
   API__FILES_LIST,
   API__FOLDER_LIST,
+  API__IDS,
   API__JWT,
   API__LOGS,
   API__PREVIEW_RENAME,
   API__RENAME,
 } from 'ROOT/conf.app';
 import {
+  assignId,
   checkForConfig,
   getFolderListing,
   getFilesList,
+  getIDs,
   getJWT,
   getLogs,
   previewRename,
@@ -29,10 +33,12 @@ const port = +process.env.PORT || 3001;
 http
   .createServer(requestHandler([
     ['/', handleRootRequest],
+    [API__ASSIGN_ID, assignId],
     [API__CONFIG, checkForConfig],
     [API__CONFIG_SAVE, updateConfig],
     [API__FILES_LIST, getFilesList],
     [API__FOLDER_LIST, getFolderListing],
+    [API__IDS, getIDs],
     [API__JWT, getJWT],
     [API__LOGS, getLogs],
     [API__PREVIEW_RENAME, previewRename],

@@ -19,6 +19,40 @@ const sanitizeShowName = (name) => {
     .replace(/\?/g, '');
 };
 
+const parseEpNum = (episode) => {
+  return (`${ episode }`.length < 2)
+    ? `0${ episode }`
+    : episode;
+};
+
+const buildEpNums = (episodes) => {
+  return episodes.map((ep) => `x${ parseEpNum(ep) }`).join('');
+};
+
+const buildEpTitle = (seasons, season, episodes) => {
+  const epNames = [];
+  
+  episodes.forEach((ep) => {
+    const epName = seasons[season].episodes[ep];
+    
+    if(episodes.length > 1){
+      const parsedName = epName
+        // Multi-part episodes can end with `(1), Part 1, etc`. Those items need
+        // to be removed so a comparison can be made to see if the titles are
+        // equal.
+        .replace(/\s(?:\(\d+\)|Part \d+)$/i, '');
+      
+      // Only add the name if it doesn't already exist.
+      if(epNames.indexOf(parsedName) < 0) epNames.push(parsedName);
+    }
+    else{
+      epNames.push(epName);
+    }
+  });
+  
+  return epNames.join(' & ');
+};
+
 const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
   const renamed = [];
   const _cacheData = {};
@@ -37,17 +71,14 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
   // get all the episode names
   names.forEach((nameObj) => {
     if(nameObj){
-      const { episode, index, name, season } = nameObj;
+      const { episode, episodes, index, name, season } = nameObj;
       const cache = _cacheData[index];
       
       if(
         name && season && episode
         && cache && cache.seasons && cache.seasons[season]
       ){
-        const epNum = (`${ episode }`.length < 2)
-          ? `0${ episode }`
-          : episode;
-        const newName = `${ cache.name } - ${ season }x${ epNum } - ${ cache.seasons[season].episodes[episode] }`;
+        const newName = `${ cache.name } - ${ season }${ buildEpNums(episodes) } - ${ buildEpTitle(cache.seasons, season, episodes) }`;
           
         renamed.push({
           id: cache.id,

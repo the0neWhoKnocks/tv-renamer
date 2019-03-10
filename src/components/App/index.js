@@ -27,7 +27,8 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^([a-z'.-]+\b(?:\d{3,4})?)\.(s(\d{2})e(\d{2}))?/i;
+export const NAME_REGEX = /^([a-z1-9'.-]+\b(?:\d{3,4})?)\.(s(\d{2})e(\d{2}))?/i;
+const MULTI_EPS_REGEX = /(?:e(\d{2}))/gi;
 
 class App extends Component {
   static getPreviewItem(index, items) {
@@ -343,6 +344,8 @@ class App extends Component {
       const name = itemEl.innerText;
       const itemData = itemEl.dataset;
       const matches = name.match(NAME_REGEX);
+      const epMatches = name.match(MULTI_EPS_REGEX) || [];
+      const episodes = epMatches.map((ep) => +ep.toLowerCase().replace('e', ''));
       const nameData = {
         id: +itemData.id,
         index: itemData.index,
@@ -355,6 +358,7 @@ class App extends Component {
         ? {
           ...nameData,
           episode: matches[4] && +matches[4],
+          episodes: episodes,
           name: matches[1] && App.parseLookupName(matches[1]),
           season: matches[3] && +matches[3],
         }

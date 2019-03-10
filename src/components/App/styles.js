@@ -4,6 +4,7 @@ import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
 export const MODIFIER__HAS_ITEMS = 'has--items';
 export const MODIFIER__LOGS = 'has--logs';
+export const MODIFIER__LOGS_OPEN = 'logs--open';
 export const MODIFIER__RENAME = 'enable--rename';
 export const ROOT_CLASS = 'app';
 
@@ -133,11 +134,29 @@ export default css`
       }
     }
     
-    &__stats {
+    &__logs-nav {
       position: absolute;
       top: 50%;
       right: 0.75em;
       transform: translateY(-50%);
+      
+      > * {
+        display: inline-block;
+      }
+      
+      .${ TOGGLE_ROOT_CLASS } {
+        
+        &__btn {
+          color: #333 !important;
+          line-height: 1em;
+          padding: 0.5em;
+          border: none;
+          background: none !important;
+        }
+      }
+    }
+    
+    &__stats {
       
       &-count {
         color: #666;
@@ -187,8 +206,18 @@ export default css`
     
     .${ ROOT_CLASS } {
       
-      &__section {
-        height: 50%;
+      &__section:nth-of-type(2) {
+        height: 3em;
+      }
+    }
+    
+    &.${ MODIFIER__LOGS_OPEN } {
+      
+      .${ ROOT_CLASS } {
+        
+        &__section {
+          height: 50%;
+        }
       }
     }
   }

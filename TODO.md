@@ -7,7 +7,7 @@
 - [x] Pick `source` and `output` folders
   - [x] Use ellipsis for long paths so a user can see what folder was selected
   - [x] On hover, show full path
-  - [x] Load previously selected folder in FolderDisplay instead of default.
+  - [x] Load previously selected folder in `FolderDisplay` instead of default.
   - [x] Make it more clear what folders are readable/writable.
 - [x] TVDB credentials
 - [x] JWT info
@@ -39,6 +39,7 @@
   - 2nd section, a log of files that were renamed (From) -> (To)
     - [ ] Just load this on demand so that it's not eating up memory on every
           load.
+    - [x] Add toggle button to open or close this section.
 
 ---
 

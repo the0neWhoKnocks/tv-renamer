@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import AssignId from 'COMPONENTS/AssignId';
 import Config from 'COMPONENTS/Config';
 import LogItem from 'COMPONENTS/LogItem';
@@ -23,6 +23,7 @@ import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
   MODIFIER__HAS_ITEMS,
   MODIFIER__LOGS,
+  MODIFIER__LOGS_OPEN,
   MODIFIER__RENAME,
   ROOT_CLASS,
 } from './styles';
@@ -127,6 +128,7 @@ class App extends Component {
       idMappings: {},
       loaded: false,
       logs: [],
+      logsOpen: false,
       previewItems: [],
       previewing: false,
       renameCount: 0,
@@ -145,6 +147,7 @@ class App extends Component {
     this.handleConfigSave = this.handleConfigSave.bind(this);
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
     this.handleIdOverrideClick = this.handleIdOverrideClick.bind(this);
+    this.handleLogsToggle = this.handleLogsToggle.bind(this);
     this.handleModalClose = this.handleModalClose.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
     this.handlePreviewRename = this.handlePreviewRename.bind(this);
@@ -332,6 +335,10 @@ class App extends Component {
     });
   }
   
+  handleLogsToggle() {
+    this.setState({ logsOpen: !this.state.logsOpen });
+  }
+  
   handleModalClose(stateProp) {
     return () => {
       this.setState({ [stateProp]: false });
@@ -453,6 +460,7 @@ class App extends Component {
             // ...this.state.logs, // TODO - mabye uncomment to append to all logs
             ...Object.keys(logs).map((key) => logs[key]),
           ],
+          logsOpen: true,
           previewItems: updatedPreviewItems,
           renameCount: successful,
           renameErrorCount: errors,
@@ -478,6 +486,7 @@ class App extends Component {
       files,
       loaded,
       logs,
+      logsOpen,
       previewing,
       renameCount,
       renameErrorCount,
@@ -514,7 +523,11 @@ class App extends Component {
     }
     
     if(previewing && selectionCount) rootModifier += ` ${ MODIFIER__RENAME }`;
-    if(logs.length) rootModifier += ` ${ MODIFIER__LOGS }`;
+    if(logs.length){
+      rootModifier += ` ${ MODIFIER__LOGS }`;
+      
+      if(logsOpen) rootModifier += ` ${ MODIFIER__LOGS_OPEN }`;
+    }
     
     return (
       <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>
@@ -567,27 +580,39 @@ class App extends Component {
           {!!logs.length && (
             <section className={`${ ROOT_CLASS }__section`}>
               <div className={`${ ROOT_CLASS }__section-title`}>
-                <h2>Renamed</h2>
-                <div className={`${ ROOT_CLASS }__stats`}>
-                  {!!renameCount && (
-                    <div className={`${ ROOT_CLASS }__stats-count is--good`}>
-                      <span>{renameCount}</span>/{logs.length}
-                    </div>
-                  )}
-                  {!!renameErrorCount && (
-                    <div className={`${ ROOT_CLASS }__stats-count is--bad`}>
-                      <span>{renameErrorCount}</span>/{logs.length}
-                    </div>
-                  )}
+                <h2>Logs</h2>
+                <nav className={`${ ROOT_CLASS }__logs-nav`}>
+                  <div className={`${ ROOT_CLASS }__stats`}>
+                    {!!renameCount && (
+                      <div className={`${ ROOT_CLASS }__stats-count is--good`}>
+                        <span>{renameCount}</span>/{logs.length}
+                      </div>
+                    )}
+                    {!!renameErrorCount && (
+                      <div className={`${ ROOT_CLASS }__stats-count is--bad`}>
+                        <span>{renameErrorCount}</span>/{logs.length}
+                      </div>
+                    )}
+                  </div>
+                  <Toggle
+                    id="logsToggle"
+                    onToggle={this.handleLogsToggle}
+                    toggled={logsOpen}
+                  >
+                    {logsOpen && <Fragment>&#x23F7;</Fragment>}
+                    {!logsOpen && <Fragment>&#x23F6;</Fragment>}
+                  </Toggle>
+                </nav>
+              </div>
+              {logsOpen && (
+                <div className={`${ ROOT_CLASS }__section-items ${ (logs.length) ? 'has--items' : '' }`}>
+                  {logs.map((log, ndx) => <LogItem key={ndx} {...log} />)}
+                  <div
+                    className={`${ ROOT_CLASS }__logs-btm`}
+                    ref={this.logEndRef}
+                  />
                 </div>
-              </div>
-              <div className={`${ ROOT_CLASS }__section-items ${ (logs.length) ? 'has--items' : '' }`}>
-                {logs.map((log, ndx) => <LogItem key={ndx} {...log} />)}
-                <div
-                  className={`${ ROOT_CLASS }__logs-btm`}
-                  ref={this.logEndRef}
-                />
-              </div>
+              )}
             </section>
           )}
         </div>

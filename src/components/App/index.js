@@ -56,6 +56,21 @@ class App extends Component {
     return map;
   }
   
+  static buildLookupName(idMappings, name) {
+    const data = {};
+    const nameMatch = name.match(NAME_REGEX) || [];
+    
+    if(nameMatch[1]){
+      data.lookupName = App.parseLookupName(nameMatch[1]);
+      
+      if(idMappings[data.lookupName]){
+        data.idOverride = +idMappings[data.lookupName];
+      }
+    }
+    
+    return data;
+  }
+  
   static transformItemData({
     files,
     idMappings,
@@ -75,17 +90,9 @@ class App extends Component {
         dir, ext, name,
         newName: undefined,
         selected: selectAll,
+        ...App.buildLookupName(idMappings, name),
       };
       const previewItem = App.getPreviewItem(ndx, previewItems);
-      const nameMatch = name.match(NAME_REGEX) || [];
-      
-      if(nameMatch[1]){
-        data.lookupName = App.parseLookupName(nameMatch[1]);
-        
-        if(idMappings[data.lookupName]){
-          data.idOverride = +idMappings[data.lookupName];
-        }
-      }
       
       if(previewItem){
         data.error = previewItem.error;
@@ -151,6 +158,7 @@ class App extends Component {
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
     this.handleIdOverrideClick = this.handleIdOverrideClick.bind(this);
     this.handleLogsToggle = this.handleLogsToggle.bind(this);
+    this.handleLookupNameChange = this.handleLookupNameChange.bind(this);
     this.handleModalClose = this.handleModalClose.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
     this.handlePreviewRename = this.handlePreviewRename.bind(this);
@@ -395,6 +403,17 @@ class App extends Component {
   
   handleLogsToggle() {
     this.setState({ logsOpen: !this.state.logsOpen });
+  }
+  
+  handleLookupNameChange({ index, name }) {
+    const files = [...this.state.files];
+    const file = {
+      ...files[index],
+      ...App.buildLookupName(this.state.idMappings, name),
+    };
+    files[index] = file;
+    
+    this.setState({ files });
   }
   
   handleModalClose(stateProp) {
@@ -650,6 +669,7 @@ class App extends Component {
                   {...fileData}
                   itemIndex={ndx}
                   onIdClick={this.handleIdOverrideClick}
+                  onLookupNameChange={this.handleLookupNameChange}
                   onSelectChange={this.handleFileSelectChange}
                   path={fileData.dir}
                   previewing={previewing}

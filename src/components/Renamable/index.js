@@ -23,6 +23,7 @@ class Renamable extends Component {
     this.handleIdClick = this.handleIdClick.bind(this);
     this.handleKeyDown = this.handleKeyDown.bind(this);
     this.handleNameBlur = this.handleNameBlur.bind(this);
+    this.handleNameClick = this.handleNameClick.bind(this);
     this.handleNameFocus = this.handleNameFocus.bind(this);
     this.handleToggle = this.handleToggle.bind(this);
   }
@@ -36,6 +37,23 @@ class Renamable extends Component {
       && this.state.selected !== selected
     ){
       this.setState({ selected });
+    }
+  }
+  
+  handleNameClick(ev) {
+    // Trigger an item selection, if unselected, and a user clicked in the
+    // editable area. Theoretically they're updating the name to do another
+    // search, so this should save a click.
+    if(!this.state.selected){
+      this.handleToggle();
+      
+      this.waitTimer = window.setInterval(() => {
+        if(this.state.selected){
+          clearInterval(this.waitTimer);
+          this.handleNameFocus();
+          this.editableRef.focus();
+        }
+      }, 20);
     }
   }
   
@@ -65,8 +83,16 @@ class Renamable extends Component {
     }
   }
   
-  handleNameBlur() {
-    this.setState({ editingName: false });
+  handleNameBlur(ev) {
+    const { itemIndex, onLookupNameChange } = this.props;
+    const name = ev.currentTarget.innerText;
+    
+    this.setState({ editingName: false }, () => {
+      onLookupNameChange({
+        index: itemIndex,
+        name,
+      });
+    });
   }
   
   handleNameFocus() {
@@ -133,7 +159,9 @@ class Renamable extends Component {
           <span
             contentEditable={selected}
             onBlur={this.handleNameBlur}
+            onClick={this.handleNameClick}
             onFocus={this.handleNameFocus}
+            ref={(ref) => { this.editableRef = ref; }}
             spellCheck="false"
             suppressContentEditableWarning
           >{name}</span>
@@ -184,6 +212,7 @@ Renamable.propTypes = {
   name: string,
   newName: string,
   onIdClick: func,
+  onLookupNameChange: func,
   onSelectChange: func,
   path: string,
   previewing: bool,

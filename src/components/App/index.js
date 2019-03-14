@@ -205,6 +205,31 @@ class App extends Component {
     }
   }
   
+  buildPreviewData(itemEl) {
+    const name = itemEl.innerText;
+    const itemData = itemEl.dataset;
+    const matches = name.match(NAME_REGEX);
+    const epMatches = name.match(MULTI_EPS_REGEX) || [];
+    const episodes = epMatches.map((ep) => +ep.toLowerCase().replace('e', ''));
+    const nameData = {
+      id: +itemData.id,
+      index: itemData.index,
+      name,
+    };
+    
+    if(isNaN(nameData.id)) delete nameData.id;
+    
+    return (matches)
+      ? {
+        ...nameData,
+        episode: matches[4] && +matches[4],
+        episodes: episodes,
+        name: matches[1] && App.parseLookupName(matches[1]),
+        season: matches[3] && +matches[3],
+      }
+      : nameData;
+  }
+  
   checkCredentials() {
     const state = { loaded: true };
     
@@ -299,14 +324,17 @@ class App extends Component {
   }
   
   handleAssignIdSuccess({ id, idMappings, index }) {
-    const files = [...this.state.files];
-    files[index].id = id;
-    files[index].selected = true;
+    const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name[data-index="${ index }"]`);
+    const itemData = this.buildPreviewData(el);
+    itemData.id = id;
     
-    this.setState({
-      files,
-      idMappings: App.transformIdMappings(idMappings),
-      showAssignId: false,
+    // Request new preview for just this item since the user chose a specific
+    // TVDB id.
+    this.previewRename([itemData], (_previewItems) => {
+      this.setState({
+        idMappings: App.transformIdMappings(idMappings),
+        showAssignId: false,
+      });
     });
   }
   
@@ -377,81 +405,9 @@ class App extends Component {
   
   handlePreviewRename() {
     const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__name`);
-    const names = [...items].map((itemEl) => {
-      const name = itemEl.innerText;
-      const itemData = itemEl.dataset;
-      const matches = name.match(NAME_REGEX);
-      const epMatches = name.match(MULTI_EPS_REGEX) || [];
-      const episodes = epMatches.map((ep) => +ep.toLowerCase().replace('e', ''));
-      const nameData = {
-        id: +itemData.id,
-        index: itemData.index,
-        name,
-      };
-      
-      if(isNaN(nameData.id)) delete nameData.id;
-      
-      return (matches)
-        ? {
-          ...nameData,
-          episode: matches[4] && +matches[4],
-          episodes: episodes,
-          name: matches[1] && App.parseLookupName(matches[1]),
-          season: matches[3] && +matches[3],
-        }
-        : nameData;
-    });
+    const names = [...items].map(this.buildPreviewData);
     
-    fetch(API__PREVIEW_RENAME, {
-      method: 'POST',
-      body: JSON.stringify({ names }),
-    })
-      .then((previewItems) => {
-        const {
-          files,
-          idMappings,
-          previewItems: previousItems,
-          selectAll,
-        } = this.state;
-        const previewing = !!previewItems.length;
-        const useGlobalToggle = false;
-        
-        // if there current preview items, but they weren't submitted with the
-        // current Preview session, maintain the old results.
-        let _previewItems = [];
-        previewItems.forEach((item) => {
-          _previewItems[+item.index] = item;
-        });
-        
-        if(previousItems){
-          previousItems.forEach((item) => {
-            const ndx = +item.index;
-            if(!_previewItems[ndx]) _previewItems[ndx] = item;
-          });
-        }
-        
-        const transformedItems = App.transformItemData({
-          files,
-          idMappings,
-          previewItems: _previewItems,
-          previewing,
-          selectAll,
-          useGlobalToggle,
-        });
-        
-        this.setState({
-          allSelected: transformedItems.allSelected,
-          files: transformedItems.files,
-          previewing,
-          previewItems: _previewItems,
-          selectAll: !!transformedItems.selectionCount,
-          selectionCount: transformedItems.selectionCount,
-          useGlobalToggle,
-        });
-      })
-      .catch((err) => {
-        alert(err);
-      });
+    this.previewRename(names);
   }
   
   handleOpenConfig() {
@@ -533,6 +489,61 @@ class App extends Component {
   
   handleVersionClick() {
     this.setState({ showVersion: true });
+  }
+  
+  previewRename(names, cb) {
+    fetch(API__PREVIEW_RENAME, {
+      method: 'POST',
+      body: JSON.stringify({ names }),
+    })
+      .then((previewItems) => {
+        const {
+          files,
+          idMappings,
+          previewItems: previousItems,
+          selectAll,
+        } = this.state;
+        const previewing = !!previewItems.length;
+        const useGlobalToggle = false;
+        
+        // if there are current preview items, but they weren't submitted with
+        // the current Preview session, maintain the old results.
+        let _previewItems = [];
+        previewItems.forEach((item) => {
+          _previewItems[+item.index] = item;
+        });
+        
+        if(previousItems){
+          previousItems.forEach((item) => {
+            const ndx = +item.index;
+            if(!_previewItems[ndx]) _previewItems[ndx] = item;
+          });
+        }
+        
+        const transformedItems = App.transformItemData({
+          files,
+          idMappings,
+          previewItems: _previewItems,
+          previewing,
+          selectAll,
+          useGlobalToggle,
+        });
+        
+        this.setState({
+          allSelected: transformedItems.allSelected,
+          files: transformedItems.files,
+          previewing,
+          previewItems: _previewItems,
+          selectAll: !!transformedItems.selectionCount,
+          selectionCount: transformedItems.selectionCount,
+          useGlobalToggle,
+        }, () => {
+          if(cb) cb(_previewItems);
+        });
+      })
+      .catch((err) => {
+        alert(err);
+      });
   }
   
   render() {

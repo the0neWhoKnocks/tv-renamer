@@ -6,10 +6,10 @@ export const MODIFIER__PREVIEWING = 'is--previewing';
 export const MODIFIER__SELECTED = 'is--selected';
 export const MODIFIER__WARNING = 'has--warning';
 export const ROOT_CLASS = 'renamable';
-const itemBorderColor = '#aaa';
+const sepBorder = 'solid 1px #aaa';
 
 export default css`
-  border: solid 1px ${ itemBorderColor };
+  border: ${ sepBorder };
   margin-bottom: -1px;
   overflow: hidden;
   cursor: default;
@@ -31,6 +31,11 @@ export default css`
   }
   
   .${ ROOT_CLASS } {
+    
+    &__names {
+      width: 100%;
+      display: flex;
+    }
     
     &__name,
     &__new-name {
@@ -145,7 +150,7 @@ export default css`
       }
       
       &__name {
-        border-right: solid 1px ${ itemBorderColor };
+        border-right: ${ sepBorder };
       }
     }
   }
@@ -162,9 +167,20 @@ export default css`
   
   @media (max-width: 600px) {
     font-size: 3.5vw;
-    flex-wrap: wrap;
     border-bottom-width: 0.2em;
     margin-bottom: 0.5em;
+    
+    .${ TOGGLE_ROOT_CLASS } {
+      width: 5%;
+    }
+    
+    .${ ROOT_CLASS } {
+      
+      &__names {
+        width: 95%;
+        display: block;
+      }
+    }
     
     &.${ MODIFIER__PREVIEWING } {
       
@@ -173,10 +189,13 @@ export default css`
         &__name,
         &__new-name {
           width: 100%;
+          border-left: ${ sepBorder };
+          margin-left: 0.1em;
         }
         
         &__name {
           border-right: none;
+          border-bottom: ${ sepBorder };
         }
       }
     }

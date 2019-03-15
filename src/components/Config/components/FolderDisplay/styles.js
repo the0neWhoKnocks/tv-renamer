@@ -56,6 +56,8 @@ export default css`
     
     &__folder-btn {
       text-align: left;
+      text-overflow: ellipsis;
+      overflow: hidden;
       border-radius: 0.5em 0 0 0.5em;
       margin-right: 0.25em;
       background: linear-gradient(#fff, #ddd);

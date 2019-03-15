@@ -151,52 +151,54 @@ class Renamable extends Component {
         onKeyDown={this.handleKeyDown}
       >
         <Toggle id={slug} onToggle={this.handleToggle} toggled={selected} />
-        <div
-          className={`${ ROOT_CLASS }__name`}
-          data-index={itemIndex}
-          data-id={idOverride}
-        >
-          <span
-            contentEditable={selected}
-            onBlur={this.handleNameBlur}
-            onClick={this.handleNameClick}
-            onFocus={this.handleNameFocus}
-            ref={(ref) => { this.editableRef = ref; }}
-            spellCheck="false"
-            suppressContentEditableWarning
-          >{name}</span>
-          <span>{ext}</span>
-        </div>
-        {previewing && (
-          <Fragment>
-            <div 
-              className={`${ ROOT_CLASS }__new-name ${ newNameModifier }`}
-              data-index={itemIndex}
-              data-new-name={`${ newName }${ ext }`}
-              data-old-path={`${ path }/${ name }${ ext }`}
-            >
-              {_newName}
-              {id && (
-                <nav className={`${ ROOT_CLASS }__tvdb-nav`}>
-                  <img src="/imgs/logo-tvdb.png" />
-                  <button
-                    className={`${ ROOT_CLASS }__tvdb-nav-item`}
-                    onClick={this.handleIdClick}
-                    value={id}
-                  >{id}</button>
-                  {seriesURL && (
-                    <a
+        <div className={`${ ROOT_CLASS }__names`}>
+          <div
+            className={`${ ROOT_CLASS }__name`}
+            data-index={itemIndex}
+            data-id={idOverride}
+          >
+            <span
+              contentEditable={selected}
+              onBlur={this.handleNameBlur}
+              onClick={this.handleNameClick}
+              onFocus={this.handleNameFocus}
+              ref={(ref) => { this.editableRef = ref; }}
+              spellCheck="false"
+              suppressContentEditableWarning
+            >{name}</span>
+            <span>{ext}</span>
+          </div>
+          {previewing && (
+            <Fragment>
+              <div 
+                className={`${ ROOT_CLASS }__new-name ${ newNameModifier }`}
+                data-index={itemIndex}
+                data-new-name={`${ newName }${ ext }`}
+                data-old-path={`${ path }/${ name }${ ext }`}
+              >
+                {_newName}
+                {id && (
+                  <nav className={`${ ROOT_CLASS }__tvdb-nav`}>
+                    <img src="/imgs/logo-tvdb.png" />
+                    <button
                       className={`${ ROOT_CLASS }__tvdb-nav-item`}
-                      href={seriesURL}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >View Series</a>
-                  )}
-                </nav>
-              )}
-            </div>
-          </Fragment>
-        )}
+                      onClick={this.handleIdClick}
+                      value={id}
+                    >{id}</button>
+                    {seriesURL && (
+                      <a
+                        className={`${ ROOT_CLASS }__tvdb-nav-item`}
+                        href={seriesURL}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >View Series</a>
+                    )}
+                  </nav>
+                )}
+              </div>
+            </Fragment>
+          )}
+        </div>
       </div>
     );
   }

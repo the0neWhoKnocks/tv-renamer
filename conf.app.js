@@ -11,28 +11,25 @@ const TVDB__TOKEN__SERIES_SLUG = '{SERIES_SLUG}';
 const TVDB__TOKEN__SERIES_QUERY = '{SERIES_QUERY}';
 const ROOT = resolve(__dirname, './');
 const SRC = `${ ROOT }/src`;
-const CACHE_FOLDER_NAME = '.cache';
+const DATA_FOLDER_NAME = '.data';
+const CACHE_FOLDER_NAME = 'cache';
+const CONFIG_NAME = 'config.json';
 const RENAME_LOG = 'rename.log';
 const SERIES_ID_MAP = 'series-ids.json';
-const SERIES_ID_CACHE_MAP = '.idsCacheMap';
+const SERIES_ID_CACHE_MAP = 'ids-cache-map.json';
 // NOTE - Anything pointing to DIST is top-level, should only be used in
 // development. When the App is packaged up, the context will shift to within
 // the `dist` directory.
 const DIST = `${ ROOT }/dist`;
-const DIST_CACHE = `${ DIST }/${ CACHE_FOLDER_NAME }`;
 const DIST_CJS = `${ DIST }/cjs`;
 const DIST_PUBLIC = `${ DIST }/public`;
 const DIST_JS = `${ DIST_PUBLIC }/js`;
-const DIST_RENAME_LOG = `${ DIST }/${ RENAME_LOG }`;
 const DIST_VENDOR = `${ DIST_JS }/vendor`;
 // NOTE - Anything pointing to PUBLIC is assuming the production context where
 // everything is executing from within the `dist` directory.
 const PUBLIC = `${ ROOT }/public`;
-const PUBLIC_CACHE = `${ ROOT }/${ CACHE_FOLDER_NAME }`;
-const PUBLIC_CONFIG = `${ ROOT }/.config`;
 const PUBLIC_JS = `${ PUBLIC }/js`;
 const PUBLIC_MANIFEST = `${ PUBLIC_JS }/manifest.json`;
-const PUBLIC_RENAME_LOG = `${ ROOT }/${ RENAME_LOG }`;
 const PUBLIC_VENDOR = `${ PUBLIC }/js/vendor`;
 const IGNORE = `${ ROOT }/.ignore`;
 const TMP = `${ IGNORE }/tmp`;
@@ -50,24 +47,20 @@ module.exports = {
   API__RENAME: `${ API_PREFIX }/rename`,
   APP_NAME: 'TV Renamer',
   DIST,
-  DIST_CACHE,
   DIST_CJS,
   DIST_JS,
   DIST_PUBLIC,
   DIST_SERVER: `${ DIST_CJS }/server`,
-  DIST_RENAME_LOG,
-  DIST_SERIES_ID_MAP: `${ DIST }/${ SERIES_ID_MAP }`,
-  DIST_SERIES_ID_CACHE_MAP: `${ DIST }/${ SERIES_ID_CACHE_MAP }`,
   DIST_VENDOR,
   GIT_API__RELEASES: `${ GIT_API }/repos/${ global.REPO_OWNER }/${ global.REPO_NAME }/releases`,
   PUBLIC,
-  PUBLIC_CACHE,
-  PUBLIC_CONFIG,
+  PUBLIC_CACHE: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CACHE_FOLDER_NAME }`,
+  PUBLIC_CONFIG: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CONFIG_NAME }`,
   PUBLIC_JS,
   PUBLIC_MANIFEST,
-  PUBLIC_RENAME_LOG,
-  PUBLIC_SERIES_ID_MAP: `${ ROOT }/${ SERIES_ID_MAP }`,
-  PUBLIC_SERIES_ID_CACHE_MAP: `${ ROOT }/${ SERIES_ID_CACHE_MAP }`,
+  PUBLIC_RENAME_LOG: `${ ROOT }/${ DATA_FOLDER_NAME }/${ RENAME_LOG }`,
+  PUBLIC_SERIES_ID_MAP: `${ ROOT }/${ DATA_FOLDER_NAME }/${ SERIES_ID_MAP }`,
+  PUBLIC_SERIES_ID_CACHE_MAP: `${ ROOT }/${ DATA_FOLDER_NAME }/${ SERIES_ID_CACHE_MAP }`,
   PUBLIC_VENDOR,
   SRC_STATIC: `${ SRC }/static`,
   TMP,

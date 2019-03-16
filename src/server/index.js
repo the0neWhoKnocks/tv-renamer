@@ -12,6 +12,7 @@ import {
   API__RENAME,
 } from 'ROOT/conf.app';
 import jsonResp from 'SERVER/utils/jsonResp';
+import prepData from './prepData';
 import {
   assignId,
   checkForConfig,
@@ -48,6 +49,8 @@ if( process.env.DEBUG ){
     }, null, false],
   );
 }
+
+prepData();
 
 http
   .createServer(requestHandler([

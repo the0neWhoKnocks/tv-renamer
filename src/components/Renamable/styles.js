@@ -35,6 +35,7 @@ export default css`
     &__names {
       width: 100%;
       display: flex;
+      overflow: hidden;
     }
     
     &__name,
@@ -115,6 +116,7 @@ export default css`
     border: solid 2px;
     margin: 2px;
     position: relative;
+    flex-shrink: 0;
     
     &__btn {
       padding: 0;

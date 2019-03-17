@@ -85,9 +85,9 @@ class App extends Component {
       selectionCount: 0, 
     };
     
-    files.forEach(({ dir, ext, name }, ndx) => {
+    files.forEach(({ dir, ext, idOverride, lookupName, name }, ndx) => {
       const data = {
-        dir, ext, name,
+        dir, ext, idOverride, lookupName, name,
         newName: undefined,
         selected: selectAll,
         ...App.buildLookupName(idMappings, name),

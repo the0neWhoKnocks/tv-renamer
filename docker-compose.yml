@@ -1,0 +1,26 @@
+version: "3.4"
+
+services:
+  "tv-renamer":
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: tv-renamer
+    image: theonewhoknocks/tv-renamer
+    environment:
+      NODE_ENV: production
+    ports:
+      # The local port of 9000 will map to the containers exposed port 3001
+      - "9000:3001"
+    volumes:
+      # Creating/using a volume of `renamer-data` which points to the
+      # `/home/node/app/.data` folder on the container.
+      - "renamer-data:/home/node/app/.data"
+      # For testing purposes, using a bind-mount which is pointing to the
+      # current repo's `.ignore/tmp` directory and mapping it to
+      # `/home/node/app/_temp_`.
+      - "${PWD}/.ignore/tmp:/home/node/app/_temp_"
+
+volumes:
+  renamer-data:
+    name: renamer-data

@@ -82,7 +82,7 @@
   - [x] Is `contenteditable` in case a file's name doesn't match normal 
         naming patterns.
     - [x] On ENTER key, `blur`, don't allow a newline.
-  - [ ] On click (while the item is unselected), trigger a selection toggle
+  - [x] On click (while the item is unselected), trigger a selection toggle
     and focus the editable element. Should save a click.
 - [x] Rename preview. Maybe it overlays the item.
   - [ ] Allow for editing preview text, like editing file text

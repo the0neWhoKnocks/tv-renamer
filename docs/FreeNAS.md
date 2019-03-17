@@ -12,6 +12,24 @@ AKA the hypervisor **BHyve**.
   `name` of the pool where the VM will be installed.
 1. Get the **name of the Interface** by going to `Network > Network Summary`
   and there should be a name like `em0` with an IP next to it.
+1. Set up the `rancher` user by going to `Account > Users > Add User`
+  ```sh
+  User ID: 1100
+  Username: rancher
+  Create a new primary group for the user: (checked)
+  Full Name: rancher
+  Disable password login: (checked)
+  ```
+1. Go to `Sharing > UNIX (NFS)`
+  - Click the `Add Unix (NFS) Share` button
+  - Click the `Advanced Mode` button
+  - Find the `path` you want to share. Luckily my `source` & `output` were in the
+    same directory, so I just chose the parent directory.
+  - `Authorized IP addresses or hosts: 192.168.1.80`, the IP should match the IP
+    that you'll use for RancherOS.
+1. Go to `Services NFS` (not sure if these steps are required)
+  - `Bind IP Addresses` - I have the IP of my FreeNAS box checked
+  - Check `Enable NFSv4`
 
 ---
 
@@ -177,6 +195,9 @@ iohyve list
       - It'll ask to reboot, say Yes. It'll start to do something, then stop.
         Seemingly that's ok, so close terminal 1 and go back to the other
         FreeNAS terminal.
+    - After the reboot, if you need to edit the config you'll either use
+      `ros config`, or you can edit the file in
+      `/var/lib/rancher/conf/cloud-config.yml`.
 6. Create a Grub config so you don't have to deal with it on start
 
 ```sh
@@ -244,11 +265,64 @@ initially tried loading the page and nothing happened then it eventually woke up
 
 ---
 
+## Adding the Container
+
+For now I just ran this while SSH'd into Rancher. Need to figure out how to
+make it permanent in the yml
+```sh
+# make the dir first
+mkdir /media/_unwatched
+# then mounted the share
+sudo mount -t nfs4 192.168.1.11:/mnt/vol1/Library/Video/_unwatched /media/_unwatched
+```
+
+First we'll want to finalize wiring up the nfs share that was created in the
+above FreeNAS steps. While SSH'd into Rancher, run this:
+```sh
+# create the folder for the mount to bind to
+mkdir /media/<RANCHER_FOLDER>
+# add the nfs mount to the config so it gets mounted when Rancher starts
+sudo ros config set mounts '[["192.168.1.11:/mnt/vol1/<FREENAS_NFS_PATH>", "/media/<RANCHER_FOLDER>", "nfs4", "nolock,proto=tcp,addr=192.168.1.11"]]'
+# reboot so the changes take effect
+sudo reboot
+```
+After Rancher is rebooted, SSH in, and run `ls -la /media/<RANCHER_FOLDER>` and
+you should see the contents of your nfs share. If you're not seeing it, you
+can try to manually mount the share with
+```sh
+sudo mount -t nfs4 192.168.1.11:/mnt/vol1/<FREENAS_NFS_PATH> /media/<RANCHER_FOLDER>
+```
+If there's still no luck, you can SSH into FreeNAS and try to ping the IP of
+Rancher to see if it recognizes it. If it does, then ping FreeNAS from Rancher.
+If they both recognize either other, I dunno what to tell you. If they don't,
+verify that the share in FreeNAS is allowing connections from Ranchers IP.
+
+- The first time I started Portainer I didn't have many options in the left nav.
+  All I had to do was click on the `local` Container at the bottom of the Home
+  page.
+- Go to `Containers`.
+  - Click `Add Container`
+    - Name: `tv-renamer`
+    - Image: `theonewhoknocks/tv-renamer:v1.0.0`
+    - Port Mapping: (click "map additional port") button
+      `[9001] -> [3001]`
+    - `Advanced container settings`
+      - Volumes (click "map additional volume") button
+        - Container: `/media/<RANCHER_FOLDER>` (select Bind)
+        - Volume: `/media/<CONTAINER_FOLDER>` (writable)
+    - Click `Deploy the container`
+
+The Renamer should now be available on `http://<IP>:9001/`
+
+---
+
 ## Misc. Rancher OS Notes
 
 - Configuration locations
 ```sh
-# Folder of all configs
+# Location of OS config
+/var/lib/rancher/conf/cloud-config.yml
+# Folder of all other configs
 /var/lib/rancher/conf/cloud-config.d/
 # The config that controls the system (seems to be a copy of what's run during install)
 /var/lib/rancher/conf/cloud-config.d/user_config.yml
@@ -256,5 +330,5 @@ initially tried loading the page and nothing happened then it eventually woke up
 - You can `sudo su` to switch to `root` so you don't have to prefix all `ros`
   commands with `sudo`.
 - If I needed to update config options in the OS I found it was easiest to
-  run `sudo vi /var/lib/rancher/conf/cloud-config.d/user_config.yml`, make my
-  changes, and restart the VM via `iohyve`;
+  run `sudo vi /var/lib/rancher/conf/cloud-config.yml`, make my changes, and
+  restart the VM via `sudo reboot`;

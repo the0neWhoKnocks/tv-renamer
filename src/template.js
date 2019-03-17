@@ -26,7 +26,20 @@ export default ({
     <head>
       <title>${ title }</title>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+      <link rel="apple-touch-icon" sizes="180x180" href="/imgs/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/imgs/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/imgs/favicon-16x16.png">
+      <link rel="manifest" href="/imgs/site.webmanifest">
+      <link rel="mask-icon" href="/imgs/safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="shortcut icon" href="/imgs/favicon.ico">
+      <meta name="apple-mobile-web-app-title" content="TV Renamer">
+      <meta name="application-name" content="TV Renamer">
+      <meta name="msapplication-TileColor" content="#00aba9">
+      <meta name="msapplication-config" content="/imgs/browserconfig.xml">
+      <meta name="theme-color" content="#a3c3e4">
+      
       <style>
         *, *::before, *::after {
           box-sizing: border-box;

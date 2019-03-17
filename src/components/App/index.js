@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import AssignId from 'COMPONENTS/AssignId';
 import Config from 'COMPONENTS/Config';
 import LogItem from 'COMPONENTS/LogItem';
@@ -699,8 +699,7 @@ class App extends Component {
                     onToggle={this.handleLogsToggle}
                     toggled={logsOpen}
                   >
-                    {logsOpen && <Fragment>&#x23F7;</Fragment>}
-                    {!logsOpen && <Fragment>&#x23F6;</Fragment>}
+                    <div className={`${ ROOT_CLASS }__logs-arrow ${ (logsOpen) ? 'is--down' : 'is--up' }`} />
                   </Toggle>
                 </nav>
               </div>

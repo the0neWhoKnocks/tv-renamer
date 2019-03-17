@@ -156,6 +156,24 @@ export default css`
       }
     }
     
+    &__logs-arrow {
+      width: 1em;
+      height: 0.5em;
+      
+      &::after {
+        content: '';
+        width: 0;
+        height: 0;
+        border: solid 0.5em transparent;
+        border-top: solid 0.5em currentColor;
+        display: block;
+      }
+      
+      &.is--up {
+        transform: scale(-1);
+      }
+    }
+    
     &__stats {
       
       &-count {

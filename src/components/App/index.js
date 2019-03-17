@@ -28,7 +28,7 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^([a-z1-9'.-]+\b(?:\d{3,4})?)\.(s(\d{2})e(\d{2}))?/i;
+export const NAME_REGEX = /^([a-z1-9'.-]+\b(?:\d{3,4})?)\.s(\d{2})e(\d{2})/i;
 const MULTI_EPS_REGEX = /(?:e(\d{2}))/gi;
 
 class App extends Component {
@@ -230,10 +230,10 @@ class App extends Component {
     return (matches)
       ? {
         ...nameData,
-        episode: matches[4] && +matches[4],
+        episode: matches[3] && +matches[3],
         episodes: episodes,
         name: matches[1] && App.parseLookupName(matches[1]),
-        season: matches[3] && +matches[3],
+        season: matches[2] && +matches[2],
       }
       : nameData;
   }

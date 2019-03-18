@@ -6,13 +6,17 @@ export const MODIFIER__HAS_ITEMS = 'has--items';
 export const MODIFIER__LOGS = 'has--logs';
 export const MODIFIER__LOGS_OPEN = 'logs--open';
 export const MODIFIER__RENAME = 'enable--rename';
+export const MODIFIER__VISIBLE = 'is--visible';
 export const ROOT_CLASS = 'app';
 
 export default css`
   height: 100%;
   overflow: hidden;
+  background: #eee;
   display: flex;
   flex-direction: column;
+  position: relative;
+  opacity: 0;
   
   .${ ROOT_CLASS } {
     
@@ -208,6 +212,11 @@ export default css`
     &:first-of-type {
       border-top: none;
     }
+  }
+  
+  &.${ MODIFIER__VISIBLE } {
+    transition: opacity 500ms;
+    opacity: 1;
   }
   
   &.${ MODIFIER__RENAME } {

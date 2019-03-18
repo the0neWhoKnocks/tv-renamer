@@ -24,6 +24,7 @@ import styles, {
   MODIFIER__HAS_ITEMS,
   MODIFIER__LOGS,
   MODIFIER__LOGS_OPEN,
+  MODIFIER__VISIBLE,
   MODIFIER__RENAME,
   ROOT_CLASS,
 } from './styles';
@@ -157,6 +158,7 @@ class App extends Component {
       showConfig: false,
       showVersion: false,
       useGlobalToggle: true,
+      visible: false,
     };
     
     this.logEndRef = React.createRef();
@@ -177,6 +179,10 @@ class App extends Component {
   
   componentDidMount() {
     this.checkCredentials();
+    
+    setTimeout(() => {
+      this.setState({ visible: true });
+    }, 300);
     
     // TODO - maybe re-enable this. For now, just displaying the logs from the
     // current renaming operation.
@@ -595,6 +601,7 @@ class App extends Component {
       showAssignId,
       showConfig,
       showVersion,
+      visible,
     } = this.state;
     const btnPronoun = (allSelected) ? 'All' : 'Selected';
     const globalTogglePronoun = (selectAll) ? 'None' : 'All';
@@ -614,7 +621,7 @@ class App extends Component {
     };
     let rootModifier = '';
     
-    if(!loaded) return <div>Loading</div>;
+    if(!loaded) return null;
     
     if(config) configProps = { ...configProps, ...config };
     else if(showConfig) {
@@ -635,10 +642,14 @@ class App extends Component {
       if(logsOpen) rootModifier += ` ${ MODIFIER__LOGS_OPEN }`;
     }
     
+    if(visible){
+      rootModifier += ` ${ MODIFIER__VISIBLE }`;
+    }
+    
     return (
       <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>
         <nav className={`${ ROOT_CLASS }__nav`}>
-          <button onClick={this.handleVersionClick}>
+          <button onClick={this.handleVersionClick} disabled>
             {global.appVersion}
           </button>
           <button onClick={this.handleOpenConfig}>

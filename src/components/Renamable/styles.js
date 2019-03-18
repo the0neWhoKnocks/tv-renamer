@@ -4,6 +4,7 @@ import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 export const MODIFIER__EDITING_NAME = 'editing--name';
 export const MODIFIER__PREVIEWING = 'is--previewing';
 export const MODIFIER__SELECTED = 'is--selected';
+export const MODIFIER__SKIPPED = 'was--skipped';
 export const MODIFIER__WARNING = 'has--warning';
 export const ROOT_CLASS = 'renamable';
 const sepBorder = 'solid 1px #aaa';
@@ -59,6 +60,11 @@ export default css`
       &.${ MODIFIER__WARNING } {
         color: #734b00;
         background: #fff1ab;
+      }
+      
+      &.${ MODIFIER__SKIPPED } {
+        color: #676767;
+        background: #dadada;
       }
     }
     

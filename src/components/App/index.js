@@ -33,7 +33,9 @@ const MULTI_EPS_REGEX = /(?:e(\d{2}))/gi;
 
 class App extends Component {
   static getPreviewItem(index, items) {
-    return items.find((item) => +item.index === index);
+    // `items` will sometimes have `empty` items, so ensure an item exists
+    // before any checks occur.
+    return items.find((item) => item && +item.index === index);
   }
   
   static parseLookupName(name) {
@@ -117,6 +119,13 @@ class App extends Component {
       ){
         data.selected = false;
         transformed.allSelected = false;
+        
+        // if there's no previewItem and no error, the user most likely skipped
+        // an item before any previews have occurred (since there's no previously
+        // saved error state for the item).
+        if(!data.error){
+          data.skipped = true;
+        }
       }
       
       if(data.selected) transformed.selectionCount++;

@@ -5,6 +5,7 @@ import styles, {
   MODIFIER__EDITING_NAME,
   MODIFIER__PREVIEWING,
   MODIFIER__SELECTED,
+  MODIFIER__SKIPPED,
   MODIFIER__WARNING,
   ROOT_CLASS,
 } from './styles';
@@ -120,6 +121,7 @@ class Renamable extends Component {
       path,
       previewing,
       seriesURL,
+      skipped,
     } = this.props;
     const {
       editingName,
@@ -143,6 +145,11 @@ class Renamable extends Component {
         </Fragment>
       );
       newNameModifier = MODIFIER__WARNING;
+    }
+    
+    if(skipped){
+      _newName = <span>Skipped</span>;
+      newNameModifier = MODIFIER__SKIPPED;
     }
     
     return (
@@ -221,6 +228,7 @@ Renamable.propTypes = {
   searchURL: string,
   selected: bool,
   seriesURL: string,
+  skipped: bool,
 };
 
 export default Renamable;

@@ -55,3 +55,16 @@ docker ps -a
 # Stops the image and cleans things up
 docker-compose down
 ```
+
+If all is good, tag and push the new image up.
+
+```sh
+# log in (so the image can be pushed)
+docker login -u=<USER> -p=<PASSWORD>
+# get the id of the latest build
+docker images
+# tag the image
+docker tag <CONTAINER_ID> theonewhoknocks/tv-renamer:v<SEM_VER>
+# push up the image
+docker push theonewhoknocks/tv-renamer:v<SEM_VER>
+```

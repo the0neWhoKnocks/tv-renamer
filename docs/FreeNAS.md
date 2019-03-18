@@ -300,6 +300,11 @@ verify that the share in FreeNAS is allowing connections from Ranchers IP.
 - The first time I started Portainer I didn't have many options in the left nav.
   All I had to do was click on the `local` Container at the bottom of the Home
   page.
+- Go to `Volumes`
+  - Click `Add Volume`
+    - Name: `renamer-data`
+    - Driver: `local`
+    - Click `Create the volume`
 - Go to `Containers`.
   - Click `Add Container`
     - Name: `tv-renamer`
@@ -307,9 +312,11 @@ verify that the share in FreeNAS is allowing connections from Ranchers IP.
     - Port Mapping: (click "map additional port") button
       `[9001] -> [3001]`
     - `Advanced container settings`
-      - Volumes (click "map additional volume") button
+      - Volumes (click "map additional volume") button (twice)
         - Container: `/media/<RANCHER_FOLDER>` (select Bind)
-        - Volume: `/media/<CONTAINER_FOLDER>` (writable)
+        - Host: `/media/<CONTAINER_FOLDER>` (writable)
+        - Container: `/home/node/app/.data` (select Volume)
+        - Volume: `renamer-data` (writable)
     - Click `Deploy the container`
 
 The Renamer should now be available on `http://<IP>:9001/`

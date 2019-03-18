@@ -1,10 +1,4 @@
 import { readFile } from 'fs';
-import React from 'react';
-import { renderToString } from 'react-dom/server';
-import { renderStylesToString } from 'emotion-server';
-import { cache } from 'emotion';
-import { CacheProvider } from '@emotion/core';
-import App from 'COMPONENTS/App';
 import {
   APP_NAME,
   PUBLIC,
@@ -35,13 +29,7 @@ export default ({ res }) => {
       bundleScripts: Object.keys(bundleScripts).map(
         (key) => `${ relativeJS }/${ bundleScripts[key] }`
       ),
-      rootContent: renderStylesToString(
-        renderToString(
-          <CacheProvider value={cache}>
-            <App />
-          </CacheProvider>
-        )
-      ),
+      // rootContent: '', // uncomment if content needs to be rendered on server
       scripts: {
         head: [
           `${ relativeVendor }/react.${ (prodMode) ? 'production.min' : 'development' }.js`,

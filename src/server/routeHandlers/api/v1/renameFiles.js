@@ -2,11 +2,14 @@ import { parse } from 'path';
 import rimraf from 'rimraf';
 import { PUBLIC_RENAME_LOG } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
+import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'SERVER/utils/jsonResp';
+import filesFilter from './utils/filesFilter';
 import loadConfig from './utils/loadConfig';
 import loadRenameLog from './utils/loadRenameLog';
 import moveFile from './utils/moveFile';
 import saveFile from './utils/saveFile';
+
 
 const MAX_LOG_ENTRIES = 200;
 
@@ -38,10 +41,19 @@ export default ({ reqData, res }) => {
             };
             
             if(rootDir !== sourceFolder){
-              rimraf(rootDir, { glob: false }, () => {
-                log.deleted = `Deleted folder: "${ rootDir }"`;
-                allDone();
-              });
+              // only delete if there aren't other files that can be renamed
+              getFiles(rootDir, filesFilter)
+                .then((files) => {
+                  if(!files.length){
+                    rimraf(rootDir, { glob: false }, () => {
+                      log.deleted = `Deleted folder: "${ rootDir }"`;
+                      allDone();
+                    });
+                  }
+                  else{
+                    allDone();
+                  }
+                });
             }
             else{ allDone(); }
           };

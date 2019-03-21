@@ -43,6 +43,12 @@ class App extends Component {
     return name.toLowerCase().replace(/\./g, ' ');
   }
   
+  static renamableFilter(files) {
+    return ({ error, index, skipped }) => {
+      return files[index].selected && (error || files[index].skipped);
+    };
+  }
+  
   static transformIdMappings(idMappings) {
     const map = {};
     const warnings = [];
@@ -632,8 +638,8 @@ class App extends Component {
     if(
       // previewing at least one item is selected
       previewing && selectionCount
-      // and none of the selected items have errors
-      && !previewItems.filter(({ error, index }) => files[index].selected && error).length
+      // and none of the selected items have errors or were skipped
+      && !previewItems.filter(App.renamableFilter(files)).length
     ) rootModifier += ` ${ MODIFIER__RENAME }`;
     
     if(logs.length){

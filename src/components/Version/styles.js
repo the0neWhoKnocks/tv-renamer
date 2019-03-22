@@ -4,6 +4,7 @@ export const MODIFIER__CURRENT = 'is--current';
 export const MODIFIER__DATE = 'is--date';
 export const MODIFIER__LIST = 'show--list';
 export const MODIFIER__SCROLL_LIST = 'scroll--list';
+export const MODIFIER__STICKY = 'is--sticky';
 export const ROOT_CLASS = 'version';
 const borderStyle = 'solid 1px #aaa';
 const currColor = '#a4e4f3';
@@ -45,13 +46,6 @@ export default css`
           }
         }
         
-        th {
-          color: #eee;
-          text-align: left;
-          padding: 0.25em 0.5em;
-          background: #333;
-        }
-        
         td {
           padding: 0.25em 0.5em;
         }
@@ -60,6 +54,18 @@ export default css`
           width: 40%;
           white-space: nowrap;
         }
+      }
+    }
+    
+    &__column-title {
+      color: #eee;
+      text-align: left;
+      padding: 0.25em 0.5em;
+      background: #333;
+      
+      &.${ MODIFIER__STICKY } {
+        position: sticky;
+        top: 0;
       }
     }
     

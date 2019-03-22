@@ -9,6 +9,7 @@ import styles, {
   MODIFIER__DATE,
   MODIFIER__LIST,
   MODIFIER__SCROLL_LIST,
+  MODIFIER__STICKY,
   ROOT_CLASS,
 } from './styles';
 
@@ -76,12 +77,14 @@ class Version extends Component {
           </section>
           <section className={`${ ROOT_CLASS }__releases`}>
             <table className={`${ ROOT_CLASS }__releases-list`}>
-              <tbody>
+              <thead>
                 <tr>
-                  <th>Tag</th>
-                  <th>Size</th>
-                  <th className={MODIFIER__DATE}>Date</th>
+                  <th className={`${ ROOT_CLASS }__column-title ${ MODIFIER__STICKY }`}>Tag</th>
+                  <th className={`${ ROOT_CLASS }__column-title ${ MODIFIER__STICKY }`}>Size</th>
+                  <th className={`${ ROOT_CLASS }__column-title ${ MODIFIER__STICKY } ${ MODIFIER__DATE }`}>Date</th>
                 </tr>
+              </thead>
+              <tbody>
                 {releases.map(({ date, name, size }) => (
                   <tr key={name} className={(name === global.appVersion) ? MODIFIER__CURRENT : ''}>
                     <td>{name}</td>

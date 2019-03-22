@@ -72,21 +72,26 @@ if [[ "$bump" != "" ]]; then
     changes=$(git log "$latestTag"..HEAD --oneline)
     formattedChanges=""
     while read -r line; do
+      escapedLine=$(echo "$line" | sed "s/\x27/_SQ_/")
+      
       if [[ "$formattedChanges" != "" ]]; then
-        formattedChanges="$formattedChanges,'$line'"
+        formattedChanges="$formattedChanges,'$escapedLine'"
       else
-        formattedChanges="'$line'"
+        formattedChanges="'$escapedLine'"
       fi
     done < <(echo -e "$changes")
     formattedChanges="[$formattedChanges]"
-
+    
     newContent=$(node -pe "
       let changes = $formattedChanges;
       for(let i=0; i<changes.length; i++){
-        changes[i] = changes[i].replace(/^([a-z0-9]+)\s/i, \"- [\$1]($REPO_URL/commit/\$1) \");
+        changes[i] = changes[i]
+          .replace(/^([a-z0-9]+)\s/i, \"- [\$1]($REPO_URL/commit/\$1) \")
+          .replace('_SQ_', \"'\");
       }
       changes.join('\n');
     ")
+    handleError $? "Couldn't parse commit messages"
 
     # add changes to top of logs
     originalLog=$(cat "$filename")

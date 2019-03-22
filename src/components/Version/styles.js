@@ -1,37 +1,64 @@
 import { css } from 'emotion';
-import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
+export const MODIFIER__CURRENT = 'is--current';
+export const MODIFIER__DATE = 'is--date';
 export const MODIFIER__LIST = 'show--list';
 export const MODIFIER__SCROLL_LIST = 'scroll--list';
 export const ROOT_CLASS = 'version';
 const borderStyle = 'solid 1px #aaa';
+const currColor = '#a4e4f3';
 
 export default css`
   overflow: auto;
 
   .${ ROOT_CLASS } {
     
+    &__app-version {
+      border-radius: 0.25em;
+      padding: 0.1em 0.5em;
+      margin-left: 0.25em;
+      background: ${ currColor };
+      display: inline-block;
+    }
+    
     &__releases {
       width: 25rem;
+      height: 1px;
+      border-top: ${ borderStyle };
       margin: 1em 0;
+      overflow: hidden;
+      transition: height 200ms;
       
       &-list {
-        height: 1px;
-        border-top: ${ borderStyle };
-        overflow: hidden;
-        transition: height 200ms;
+        width: 100%;
+        font-family: monospace;
+        table-layout: fixed;
+        border-collapse: collapse;
         
-        .${ TOGGLE_ROOT_CLASS } {
-          margin: 0.25em 0;
-          
-          &__btn {
-            width: 100%;
-            padding: 0.25em 0.5em;
-            border-radius: 0;
-            text-transform: none;
-            border: none;
-            background: rgba(0,0,0,0.1);
+        tr {
+          &:nth-of-type(even) {
+            background: #d4d4d4;
           }
+          
+          &.${ MODIFIER__CURRENT } {
+            background: ${ currColor };
+          }
+        }
+        
+        th {
+          color: #eee;
+          text-align: left;
+          padding: 0.25em 0.5em;
+          background: #333;
+        }
+        
+        td {
+          padding: 0.25em 0.5em;
+        }
+        
+        .${ MODIFIER__DATE } {
+          width: 40%;
+          white-space: nowrap;
         }
       }
     }
@@ -49,9 +76,8 @@ export default css`
     
     .${ ROOT_CLASS } {
       
-      &__releases-list {
+      &__releases {
         height: 9em;
-        padding: 0 0.25em;
         border: ${ borderStyle };
       }
     }
@@ -61,7 +87,7 @@ export default css`
     
     .${ ROOT_CLASS } {
       
-      &__releases-list {
+      &__releases {
         overflow-y: auto;
       }
     }

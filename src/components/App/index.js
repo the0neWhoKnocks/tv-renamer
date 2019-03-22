@@ -655,7 +655,7 @@ class App extends Component {
     return (
       <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>
         <nav className={`${ ROOT_CLASS }__nav`}>
-          <button onClick={this.handleVersionClick} disabled>
+          <button onClick={this.handleVersionClick}>
             {global.appVersion}
           </button>
           <button onClick={this.handleOpenConfig}>

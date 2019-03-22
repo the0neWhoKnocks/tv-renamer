@@ -73,6 +73,11 @@
 
 - [ ] Use `npm version` to bump versions and create release tags. https://docs.npmjs.com/cli/version.html
   Use `--no-git-tag-version` while testing.
+- [x] look up docker versions for version modal
+  - https://forums.docker.com/t/how-can-i-list-tags-for-a-repository/32577/3
+  - https://stackoverflow.com/a/39485542
+  - https://stackoverflow.com/a/39454426
+  - https://docs.docker.com/registry/spec/api/#listing-image-tags
 
 ---
 

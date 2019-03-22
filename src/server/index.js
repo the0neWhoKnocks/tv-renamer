@@ -10,6 +10,7 @@ import {
   API__LOGS,
   API__PREVIEW_RENAME,
   API__RENAME,
+  API__RELEASES,
 } from 'ROOT/conf.app';
 import jsonResp from 'SERVER/utils/jsonResp';
 import prepData from './prepData';
@@ -21,6 +22,7 @@ import {
   getIDs,
   getJWT,
   getLogs,
+  getReleases,
   previewRename,
   renameFiles,
   updateConfig,
@@ -66,6 +68,7 @@ http
     [API__LOGS, getLogs],
     [API__PREVIEW_RENAME, previewRename],
     [API__RENAME, renameFiles],
+    [API__RELEASES, getReleases],
     [/\.[a-z]{2,4}/, handleStaticFile],
     ['*', handleError, [404, 'Page Not Found']],
   ]))

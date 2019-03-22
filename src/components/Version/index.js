@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { func } from 'prop-types';
-import Toggle from 'COMPONENTS/Toggle';
 import {
-  GIT_API__RELEASES,
+  API__RELEASES,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
 import styles, {
+  MODIFIER__CURRENT,
+  MODIFIER__DATE,
   MODIFIER__LIST,
   MODIFIER__SCROLL_LIST,
   ROOT_CLASS,
@@ -22,7 +23,6 @@ class Version extends Component {
     };
     
     this.handleCloseClick = this.handleCloseClick.bind(this);
-    this.handleUpdateClick = this.handleUpdateClick.bind(this);
     this.handleUpdateCheckClick = this.handleUpdateCheckClick.bind(this);
     this.handleVersionSelect = this.handleVersionSelect.bind(this);
   }
@@ -31,17 +31,11 @@ class Version extends Component {
     this.props.onClose();
   }
   
-  handleUpdateClick() {
-    alert(`Update to ${ this.state.selectedRelease }`);
-  }
-  
   handleUpdateCheckClick() {
     this.setState({ showList: true }, () => {
-      fetch(GIT_API__RELEASES)
-        .then((resp) => {
-          this.setState({
-            releases: resp.map((rel) => rel.name),
-          });
+      fetch(API__RELEASES)
+        .then((releases) => {
+          this.setState({ releases });
         })
         .catch((err) => {
           console.error(err);
@@ -62,44 +56,41 @@ class Version extends Component {
   render() {
     const {
       releases,
-      selectedRelease,
       showList,
     } = this.state;
-    let updateBtnText = 'Check for Updates';
+    let updateBtnText = 'Check Releases';
     let updateBtnHandler = this.handleUpdateCheckClick;
     let rootModifier = '';
     
     if(showList) rootModifier += MODIFIER__LIST;
     if(releases.length) rootModifier += ` ${ MODIFIER__SCROLL_LIST }`;
     
-    if(selectedRelease) {
-      updateBtnText = 'Update';
-      updateBtnHandler = this.handleUpdateClick;
-    }
-    
     return (
       <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>
         <div className={`${ ROOT_CLASS }__body`}>
           <section>
             <div>
-              Current version: {global.appVersion}
+              Current version:
+              <div className={`${ ROOT_CLASS }__app-version`}>{global.appVersion}</div>
             </div>
           </section>
           <section className={`${ ROOT_CLASS }__releases`}>
-            <div className={`${ ROOT_CLASS }__releases-list`}>
-              {releases.map((release) => (
-                <Toggle
-                  key={release}
-                  data={{
-                    'data-release': release,
-                  }}
-                  disabled={release === global.appVersion}
-                  id={`release_${ release.replace(/\./g, '') }`}
-                  onToggle={this.handleVersionSelect}
-                  toggled={release === selectedRelease}
-                >{release}</Toggle>
-              ))}
-            </div>
+            <table className={`${ ROOT_CLASS }__releases-list`}>
+              <tbody>
+                <tr>
+                  <th>Tag</th>
+                  <th>Size</th>
+                  <th className={MODIFIER__DATE}>Date</th>
+                </tr>
+                {releases.map(({ date, name, size }) => (
+                  <tr key={name} className={(name === global.appVersion) ? MODIFIER__CURRENT : ''}>
+                    <td>{name}</td>
+                    <td>{size}</td> 
+                    <td className={MODIFIER__DATE}>{date}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </section>
           <nav className={`${ ROOT_CLASS }__btm-nav`}>
             <button

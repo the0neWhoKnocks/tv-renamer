@@ -1,7 +1,6 @@
 const { resolve } = require('path');
 
 const API_PREFIX = '/api/v1';
-const GIT_API = 'https://api.github.com';
 const TVDB_API = 'https://api.thetvdb.com';
 const TVDB_URL = 'https://www.thetvdb.com';
 const TVDB__TOKEN__PAGE_NUM = '{PAGE_NUM}';
@@ -45,6 +44,7 @@ module.exports = {
   API__LOGS: `${ API_PREFIX }/logs`,
   API__PREVIEW_RENAME: `${ API_PREFIX }/preview`,
   API__RENAME: `${ API_PREFIX }/rename`,
+  API__RELEASES: `${ API_PREFIX }/releases`,
   APP_NAME: 'TV Renamer',
   DIST,
   DIST_CJS,
@@ -52,7 +52,7 @@ module.exports = {
   DIST_PUBLIC,
   DIST_SERVER: `${ DIST_CJS }/server`,
   DIST_VENDOR,
-  GIT_API__RELEASES: `${ GIT_API }/repos/${ global.REPO_OWNER }/${ global.REPO_NAME }/releases`,
+  DOCKER_API__RELEASES: 'https://hub.docker.com/v2/repositories/theonewhoknocks/tv-renamer/tags/',
   PUBLIC,
   PUBLIC_CACHE: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CACHE_FOLDER_NAME }`,
   PUBLIC_CONFIG: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CONFIG_NAME }`,

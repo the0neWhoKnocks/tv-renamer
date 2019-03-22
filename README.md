@@ -56,7 +56,17 @@ docker ps -a
 docker-compose down
 ```
 
-If all is good, tag and push the new image up.
+---
+
+## Releasing
+
+You can simply run `./bin/release` and follow the steps. Or go through
+everything manually below. To skip having to enter a Docker password every time,
+create a `.dockercreds` file at the root of the repo and put your password in
+there.
+
+If you choose to go through the manual steps below, you **need** to also go
+through the above steps to ensure the image is built correctly.
 
 ```sh
 # log in (so the image can be pushed)

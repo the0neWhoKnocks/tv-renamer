@@ -71,8 +71,18 @@
 
 ## Release
 
-- [ ] Use `npm version` to bump versions and create release tags. https://docs.npmjs.com/cli/version.html
-  Use `--no-git-tag-version` while testing.
+
+- [x] Create release shell script that
+  - prompts for docker creds and if the login is successful, will save a creds
+    file that it'll use in the future.
+  - prompts for the semver
+  - updates the package.json
+  - builds out the assets
+  - builds out the docker image
+  - starts it up
+  - waits for the user to say it's ok
+  - tags the docker image
+  - pushes it.
 - [x] look up docker versions for version modal
   - https://forums.docker.com/t/how-can-i-list-tags-for-a-repository/32577/3
   - https://stackoverflow.com/a/39485542

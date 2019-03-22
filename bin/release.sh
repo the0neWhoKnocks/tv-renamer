@@ -159,27 +159,27 @@ if [[ "$bump" != "" ]]; then
   docker-compose down
   
   if [[ "$continueRelease" != "" ]]; then
-    DOCKER_USER = "theonewhoknocks"
-    DOCKER_PASS = $(cat .dockercreds 2> /dev/null)
-    APP_NAME = "tv-renamer"
-    LATEST_ID = $(docker images | grep -E "$APP_NAME.*latest" | awk -e '{print $3}')
+    DOCKER_USER="theonewhoknocks"
+    DOCKER_PASS=$(cat .dockercreds 2> /dev/null)
+    APP_NAME="tv-renamer"
+    LATEST_ID=$(docker images | grep -E "$APP_NAME.*latest" | awk -e '{print $3}')
     
     # log in (so the image can be pushed)
-    docker login -u=$DOCKER_USER -p=$DOCKER_PASS
+    docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
     handleError $? "Couldn't log in to Docker"
     # add and commit relevant changes
     git add CHANGELOG.md package.json package-lock.json
     git commit -m "Bump to v$newVersion"
     # tag all the things
     git tag -a "v$newVersion" -m "v$newVersion"$'\n\n'"$changes"
-    docker tag $LATEST_ID "$DOCKER_USER/$APP_NAME:v$newVersion"
+    docker tag "$LATEST_ID" "$DOCKER_USER/$APP_NAME:v$newVersion"
     # push up the tags
     git push --follow-tags
-    docker push $DOCKER_USER/$APP_NAME:v$newVersion
+    docker push "$DOCKER_USER/$APP_NAME:v$newVersion"
   else
     # reset changelog
     echo "$originalLog" > "$filename"
     # reset version bump
-    npm version --no-git-tag-version $VERSION
+    npm version --no-git-tag-version "$VERSION"
   fi
 fi

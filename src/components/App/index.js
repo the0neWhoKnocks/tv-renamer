@@ -43,10 +43,8 @@ class App extends Component {
     return name.toLowerCase().replace(/\./g, ' ');
   }
   
-  static renamableFilter(files) {
-    return ({ error, index, skipped }) => {
-      return files[index].selected && (error || files[index].skipped);
-    };
+  static renamableFilter({ error, index, selected, skipped }) {
+    return selected && (error || skipped);
   }
   
   static transformIdMappings(idMappings) {
@@ -610,7 +608,6 @@ class App extends Component {
       logs,
       logsOpen,
       previewing,
-      previewItems,
       renameCount,
       renameErrorCount,
       selectAll,
@@ -647,10 +644,10 @@ class App extends Component {
     }
     
     if(
-      // previewing at least one item is selected
+      // previewing at least one item that is selected
       previewing && selectionCount
       // and none of the selected items have errors or were skipped
-      && !previewItems.filter(App.renamableFilter(files)).length
+      && !files.filter(App.renamableFilter).length
     ) rootModifier += ` ${ MODIFIER__RENAME }`;
     
     if(logs.length){

@@ -27,6 +27,7 @@ class Renamable extends Component {
     this.handleNameClick = this.handleNameClick.bind(this);
     this.handleNameFocus = this.handleNameFocus.bind(this);
     this.handleToggle = this.handleToggle.bind(this);
+    this.handleUpdateClick = this.handleUpdateClick.bind(this);
   }
   
   componentDidUpdate(prevProps, prevState) {
@@ -106,6 +107,20 @@ class Renamable extends Component {
     onSelectChange({
       index: itemIndex,
       selected: !this.state.selected,
+    });
+  }
+  
+  handleUpdateClick(ev) {
+    const {
+      itemIndex,
+      lookupName,
+      onUpdateClick,
+    } = this.props;
+    
+    onUpdateClick({
+      id: +ev.currentTarget.value,
+      index: itemIndex,
+      lookupName,
     });
   }
   
@@ -200,6 +215,11 @@ class Renamable extends Component {
                         target="_blank"
                       >View Series</a>
                     )}
+                    <button
+                      className={`${ ROOT_CLASS }__tvdb-nav-item`}
+                      onClick={this.handleUpdateClick}
+                      value={id}
+                    >&#x27f3; Cache</button>
                   </nav>
                 )}
               </div>
@@ -223,6 +243,7 @@ Renamable.propTypes = {
   onIdClick: func,
   onLookupNameChange: func,
   onSelectChange: func,
+  onUpdateClick: func,
   path: string,
   previewing: bool,
   searchURL: string,

@@ -77,6 +77,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
       if(
         name && season && episode
         && cache && cache.seasons && cache.seasons[season]
+        && cache.seasons[season].episodes[episode]
       ){
         const newName = `${ cache.name } - ${ season }${ buildEpNums(episodes) } - ${ buildEpTitle(cache.seasons, season, episodes) }`;
           
@@ -86,10 +87,21 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           name: sanitizeShowName(newName),
         });
       }
-      // could be a possible series mis-match
+      // could be a possible series mis-match or missing cache data
       else if(cache && season && episode){
+        let errMsg = 'Possible series mis-match';
+        
+        if(cache.seasons){
+          if(!cache.seasons[season]){
+            errMsg = `Missing season "${ season }" data in cache`;
+          }
+          else if(!cache.seasons[season].episodes[episode]){
+            errMsg = `Missing episode "${ episode }" data in cache`;
+          }
+        }
+        
         renamed.push({
-          error: 'Possible series mis-match',
+          error: errMsg,
           id: cache.id,
           index,
           name: cache.name,
@@ -138,15 +150,22 @@ export default ({ reqData, res }) => {
     // remove duplicates for the series request
     const uniqueNames = [];
     const cachedItems = [];
+    let updatingCache = false;
     for(let i=0; i<names.length; i++){
       const nameData = names[i] || {};
       const index = nameData.index;
       const name = nameData.name;
       const tvdbId = nameData.id;
+      const updateCache = nameData.updateCache;
+      
+      if(updateCache) updatingCache = true;
       
       if(name && !uniqueNames.includes(name)) {
         uniqueNames.push({ id: tvdbId, index, name });
-        cachedItems.push(loadCacheItem({ cacheKey: idMap[tvdbId], index, name }));
+        
+        if(!updateCache){
+          cachedItems.push(loadCacheItem({ cacheKey: idMap[tvdbId], index, name }));
+        }
       }
     }
     
@@ -155,7 +174,7 @@ export default ({ reqData, res }) => {
         // If all series' are already cached, don't bother loading config, or
         // doing any series look-ups, jump right to renaming.
         const cache = {};
-        let allCached = true;
+        let allCached = !!_cachedItems.length;
         
         for(let i=0; i<_cachedItems.length; i++){
           const { cacheKey, file } = _cachedItems[i];
@@ -178,12 +197,18 @@ export default ({ reqData, res }) => {
           );
         }
         else{
-          console.log('Not all items were cached, proceed to look-ups');
+          console.log((updatingCache)
+            ? 'Cache update requested, proceed to look-ups'
+            : 'Not all items were cached, proceed to look-ups'
+          );
           
           loadConfig(({ jwt }) => {
             const pendingSeriesData = uniqueNames.map(
               ({ id, index, name }, ndx) => lookUpSeries({
-                cache, cacheKey: _cachedItems[ndx].cacheKey, id, index, jwt, res, seriesName: name,
+                cache, 
+                cacheKey: (_cachedItems[ndx]) ? _cachedItems[ndx].cacheKey : undefined, 
+                id, index, jwt, res,
+                seriesName: name,
               })
             );
             

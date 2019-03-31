@@ -170,6 +170,7 @@ class App extends Component {
     this.logEndRef = React.createRef();
     
     this.handleAssignIdSuccess = this.handleAssignIdSuccess.bind(this);
+    this.handleCacheUpdateClick = this.handleCacheUpdateClick.bind(this);
     this.handleConfigSave = this.handleConfigSave.bind(this);
     this.handleFileSelectChange = this.handleFileSelectChange.bind(this);
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
@@ -365,6 +366,16 @@ class App extends Component {
         showAssignId: false,
       });
     });
+  }
+  
+  handleCacheUpdateClick({ id, index, lookupName }) {
+    const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name[data-index="${ index }"]`);
+    const itemData = this.buildPreviewData(el);
+    itemData.id = id;
+    itemData.updateCache = true;
+    
+    // Request new updated preview for just this item.
+    this.previewRename([itemData]);
   }
   
   handleConfigSave(config) {
@@ -697,6 +708,7 @@ class App extends Component {
                   onIdClick={this.handleIdOverrideClick}
                   onLookupNameChange={this.handleLookupNameChange}
                   onSelectChange={this.handleFileSelectChange}
+                  onUpdateClick={this.handleCacheUpdateClick}
                   path={fileData.dir}
                   previewing={previewing}
                 />

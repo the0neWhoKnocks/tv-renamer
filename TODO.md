@@ -57,6 +57,8 @@
 - [x] After build, remove files that don't need to be packaged.
 - [ ] See if there's a way to make BrowserSync stop retrying after X amount
       of time.
+- [ ] Maybe during a rename, move the file to a folder with the same name
+      of the show.
 
 ---
 
@@ -70,7 +72,6 @@
 ---
 
 ## Release
-
 
 - [x] Create release shell script that
   - prompts for docker creds and if the login is successful, will save a creds
@@ -88,6 +89,7 @@
   - https://stackoverflow.com/a/39485542
   - https://stackoverflow.com/a/39454426
   - https://docs.docker.com/registry/spec/api/#listing-image-tags
+- [ ] maybe use docker-compose in portainer?
 
 ---
 
@@ -119,8 +121,8 @@
       }
       ```
 - Refresh Cache (button)
-  - [ ] Will display if data loaded from cache
-  - [ ] On click, will tell the server to trash the cache for the series and
+  - [x] Will display if data loaded from cache
+  - [x] On click, will tell the server to trash the cache for the series and
         get fresh data. Useful if the wrong show was cached, or when new
         season data comes out.
 - Delete (button)

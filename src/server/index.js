@@ -36,6 +36,7 @@ const port = +process.env.PORT || 3001;
 
 const inspectMiddleware = [];
 if( process.env.DEBUG ){
+  // https://nodejs.org/api/inspector.html
   const inspector = require('inspector');
   inspectMiddleware.push(
     ['/json', ({ reqData, res }) => {

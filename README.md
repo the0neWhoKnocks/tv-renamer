@@ -20,6 +20,23 @@ npm i
 npm run start:dev
 ```
 
+Debugging the server:
+- When `start:dev` is used, you'll see a message like
+```sh
+Debugger listening on ws://127.0.0.1:9229<HASH>
+```
+in the terminal. By default, you should be able to go to chrome://inspect/#devices
+in Chrome, and see a **Remote Target** connected. I had an issue where my
+**network targets** got misconfigured. If you're not seeing a Remote Target
+connected, you'll want to click on **Configure** next to **Discover network
+targets**, and make sure that there are entries for:
+```sh
+localhost:9229
+localhost:9000
+```
+Simply put, there has to be an entry listening to the WebSocket port listed by
+the servers output `9229` (the inspector port), and `9000` (the server's port).
+
 Utilizes these API's
 - [GitHub](https://developer.github.com/v3/repos)
 - [TVDB](https://api.thetvdb.com/swagger)

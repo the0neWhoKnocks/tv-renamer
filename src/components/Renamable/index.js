@@ -179,15 +179,25 @@ class Renamable extends Component {
             data-index={itemIndex}
             data-id={idOverride}
           >
-            <span
-              contentEditable={selected}
-              onBlur={this.handleNameBlur}
-              onClick={this.handleNameClick}
-              onFocus={this.handleNameFocus}
-              ref={(ref) => { this.editableRef = ref; }}
-              spellCheck="false"
-              suppressContentEditableWarning
-            >{name}</span>
+            {/*
+              NOTE - Reasoning behind this layout https://stackoverflow.com/a/34445203/5156659.
+              Basically I'm creating an "editable" mask, so that when webkit
+              browsers detect an editable child, they select an empty invisible
+              element. This layout is required to maintain the overlow ellipsis
+              formatting for long names.
+            */}
+            <div className={`${ ROOT_CLASS }__ce-fix`}>
+              <span
+                contentEditable={selected}
+                onBlur={this.handleNameBlur}
+                onClick={this.handleNameClick}
+                onFocus={this.handleNameFocus}
+                ref={(ref) => { this.editableRef = ref; }}
+                spellCheck="false"
+                suppressContentEditableWarning
+              >{name}</span>
+              <span className={`${ ROOT_CLASS }__ce-fix-mask`} contentEditable suppressContentEditableWarning></span>
+            </div>
             <span>{ext}</span>
           </div>
           {previewing && (

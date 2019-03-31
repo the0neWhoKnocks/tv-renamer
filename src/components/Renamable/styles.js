@@ -52,6 +52,20 @@ export default css`
       opacity: 0.5;
     }
     
+    &__ce-fix {
+      display: inline-block;
+      position: relative;
+      
+      &-mask {
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+    }
+    
     &__new-name {
       color: #0f5833;
       font-weight: bold;

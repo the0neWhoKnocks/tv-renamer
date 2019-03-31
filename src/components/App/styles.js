@@ -34,6 +34,7 @@ export default css`
     }
     
     &__body {
+      overflow: hidden;
       display: flex;
       flex-direction: column;
     }
@@ -99,6 +100,7 @@ export default css`
       height: 100%;
       display: flex;
       flex-direction: column;
+      overflow: hidden;
       
       &:nth-of-type(2) {
         flex-shrink: 0;

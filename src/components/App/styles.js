@@ -34,6 +34,7 @@ export default css`
     }
     
     &__body {
+      height: 100%;
       overflow: hidden;
       display: flex;
       flex-direction: column;

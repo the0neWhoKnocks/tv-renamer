@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source $( dirname $0 )/releaseConfig.sh
+
 function handleError {
   if [ $1 -ne 0 ]; then
     echo;
@@ -72,7 +74,7 @@ if [[ "$bump" != "" ]]; then
     changes=$(git log "$latestTag"..HEAD --oneline)
     formattedChanges=""
     while read -r line; do
-      escapedLine=$(echo "$line" | sed "s/\x27/_SQ_/")
+      escapedLine=$(echo "$line" | sed "s/\x27/_SQ_/g")
       
       if [[ "$formattedChanges" != "" ]]; then
         formattedChanges="$formattedChanges,'$escapedLine'"
@@ -87,7 +89,7 @@ if [[ "$bump" != "" ]]; then
       for(let i=0; i<changes.length; i++){
         changes[i] = changes[i]
           .replace(/^([a-z0-9]+)\s/i, \"- [\$1]($REPO_URL/commit/\$1) \")
-          .replace('_SQ_', \"'\");
+          .replace(/_SQ_/g, \"'\");
       }
       changes.join('\n');
     ")
@@ -122,25 +124,25 @@ if [[ "$bump" != "" ]]; then
   echo;
   echo "[ COMPILE ] code ========================="
   echo;
-  npm run build:appForDocker
+  $COMPILE_CMD
   handleError $? "Couldn't compile with new version."
   
   echo;
   echo "[ BUILD ] Docker Image ========================="
   echo;
-  docker-compose build
+  $BUILD_CMD
   handleError $? "Couldn't build Docker image"
   
   echo;
   echo "[ START ] Docker Image ========================="
   echo;
   # Run the new image
-  docker-compose up -d
+  $START_CMD
   handleError $? "Couldn't start Docker image"
   
   exec < /dev/tty
   echo;
-  echo " Verify things are running properly at http://localhost:9000"
+  echo " Verify things are running properly at $APP_URL"
   echo;
   echo " (1) Continue"
   echo " (2) Abort"
@@ -159,10 +161,7 @@ if [[ "$bump" != "" ]]; then
   docker-compose down
   
   if [[ "$continueRelease" != "" ]]; then
-    DOCKER_USER="theonewhoknocks"
-    DOCKER_PASS=$(cat .dockercreds 2> /dev/null)
-    APP_NAME="tv-renamer"
-    LATEST_ID=$(docker images | grep -E "$APP_NAME.*latest" | awk -e '{print $3}')
+    LATEST_ID=$(docker images | grep -E "$DOCKER_USER/$APP_NAME.*latest" | awk -e '{print $3}')
     
     # log in (so the image can be pushed)
     docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
@@ -173,9 +172,11 @@ if [[ "$bump" != "" ]]; then
     # tag all the things
     git tag -a "v$newVersion" -m "v$newVersion"$'\n\n'"$changes"
     docker tag "$LATEST_ID" "$DOCKER_USER/$APP_NAME:v$newVersion"
+    handleError $? "Couldn't tag Docker image"
     # push up the tags
     git push --follow-tags
     docker push "$DOCKER_USER/$APP_NAME:v$newVersion"
+    docker push "$DOCKER_USER/$APP_NAME:latest"
   else
     # reset changelog
     echo "$originalLog" > "$filename"

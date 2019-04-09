@@ -11,7 +11,9 @@
 - [x] If there are no matches after a Preview, all items are unchecked
   but the global toggle still reads "Select None". Also, the Rename button
   is enabled and reads "Rename Selected".
-    
+- [x] Skip items, preview an item, rename that item, select an item and preview it.
+  Previously skipped items will be reselected.
+
 ---
 
 ## Config settings
@@ -90,6 +92,8 @@
   - https://stackoverflow.com/a/39454426
   - https://docs.docker.com/registry/spec/api/#listing-image-tags
 - [ ] maybe use docker-compose in portainer?
+- [ ] Set up a Credential Helper instead of using `.dockercreds` to get rid of
+  `CLI is insecure` warning https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 
 ---
 

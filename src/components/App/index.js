@@ -117,6 +117,8 @@ class App extends Component {
           data.error
           // OR nothing was sent to preview (assume it's already deselected)
           || !previewItem
+          // OR an item came back (to preserve index order) but most likely skipped (no name passed)
+          || previewItem && !previewItem.name
         )
         // but only after a preview has come through, otherwise
         // allow for the global toggle to control it

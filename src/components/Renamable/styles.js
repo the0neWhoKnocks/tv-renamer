@@ -3,8 +3,10 @@ import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
 export const MODIFIER__EDITING_NAME = 'editing--name';
 export const MODIFIER__PREVIEWING = 'is--previewing';
+export const MODIFIER__REFRESH = 'is--refresh';
 export const MODIFIER__SELECTED = 'is--selected';
 export const MODIFIER__SKIPPED = 'was--skipped';
+export const MODIFIER__TOGGLE = 'is--toggle';
 export const MODIFIER__WARNING = 'has--warning';
 export const ROOT_CLASS = 'renamable';
 const sepBorder = 'solid 1px #aaa';
@@ -22,11 +24,14 @@ export default css`
     box-shadow: 0 0 0px 0.25em #666;
     z-index: 1;
     
-    .${ TOGGLE_ROOT_CLASS } {
+    .${ ROOT_CLASS }__item-toggle {
       border-radius: 6px 0px 0px 6px;
-      
-      &__input:checked + .${ TOGGLE_ROOT_CLASS }__btn {
-        border-radius: 4px 0px 0px 4px;
+        
+      .${ TOGGLE_ROOT_CLASS } {
+        
+        &__input:checked + .${ TOGGLE_ROOT_CLASS }__btn {
+          border-radius: 4px 0px 0px 4px;
+        }
       }
     }
   }
@@ -82,7 +87,7 @@ export default css`
       }
     }
     
-    &__tvdb-nav {
+    &__nav {
       font-size: 1.1em;
       margin-top: 0.5em;
       background: #333;
@@ -101,6 +106,7 @@ export default css`
       
       &-item {
         color: #eee;
+        line-height: 1em;
         font-family: monospace;
         font-size: 1em;
         font-weight: normal;
@@ -108,6 +114,56 @@ export default css`
         border: none;
         border-left: solid 1px;
         background: transparent;
+        
+        &.${ MODIFIER__TOGGLE } {
+          
+          .${ TOGGLE_ROOT_CLASS } {
+            
+            &__btn {
+              padding: 0 0.25em;
+              border: none;
+              background: transparent;
+            }
+            
+            &__input:not(:checked) + .${ TOGGLE_ROOT_CLASS }__btn {
+              
+              .${ ROOT_CLASS }__btn-icon {
+                --folder-color: #808080;
+              }
+            }
+          }
+        }
+        
+        &.${ MODIFIER__REFRESH } {
+          
+          .${ ROOT_CLASS }__btn-icon {
+            margin-right: 0.25em;
+          }
+        }
+      }
+    }
+    
+    &__item-toggle {
+      width: 1em;
+      color: #333;
+      border: solid 2px;
+      margin: 2px;
+      position: relative;
+      flex-shrink: 0;
+      
+      .${ TOGGLE_ROOT_CLASS } {
+        
+        &__btn {
+          padding: 0;
+          border: none;
+          border-radius: unset;
+          display: block;
+          position: absolute;
+          top: 1px;
+          left: 1px;
+          bottom: 1px;
+          right: 1px;
+        }
       }
     }
   }
@@ -127,27 +183,6 @@ export default css`
     
     &::before {
       transform: translateX(0%);
-    }
-  }
-  
-  .${ TOGGLE_ROOT_CLASS } {
-    width: 1em;
-    color: #333;
-    border: solid 2px;
-    margin: 2px;
-    position: relative;
-    flex-shrink: 0;
-    
-    &__btn {
-      padding: 0;
-      border: none;
-      border-radius: unset;
-      display: block;
-      position: absolute;
-      top: 1px;
-      left: 1px;
-      bottom: 1px;
-      right: 1px;
     }
   }
   

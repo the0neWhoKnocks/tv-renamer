@@ -85,6 +85,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           id: cache.id,
           index,
           name: sanitizeShowName(newName),
+          seriesName: cache.name,
         });
       }
       // could be a possible series mis-match or missing cache data

@@ -34,7 +34,7 @@ export default css`
       border-radius: 0.15em;
       margin-right: 0.2em;
       background: radial-gradient(#fff 15%, #d24d00);
-      box-shadow: 0 0 18px 2px #ff5200;
+      box-shadow: 0 0 5px 2px #ff5200;
       position: absolute;
       z-index: 1;
       top: 50%;
@@ -75,7 +75,7 @@ export default css`
     
     input:valid ~ .${ ROOT_CLASS }__indicator {
       background: radial-gradient(#fff 15%, #35c597);
-      box-shadow: 0 0 18px 2px #2ae8ab;
+      box-shadow: 0 0 5px 2px #2ae8ab;
     }
   }
 `;

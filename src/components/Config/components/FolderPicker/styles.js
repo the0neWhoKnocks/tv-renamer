@@ -26,12 +26,8 @@ export default css`
       
       &-icon {
         width: ${ iconWidth }em;
-        color: #ffa500;
-        text-shadow: -1px 1px 1px #803b1b;
-        border-right: solid 1px #ababab;
+        height: calc(100% - 2px);
         margin: 1px 0;
-        background: linear-gradient(#eee, #ccc);
-        transform: scale(-1, 1);
         position: absolute;
         top: 0;
         bottom: 0;
@@ -52,7 +48,7 @@ export default css`
     &.${ MODIFIER__REQUIRED } + .${ ROOT_CLASS }__btn {
       
       .${ ROOT_CLASS }__btn-icon {
-        margin: 1px 3px;
+        margin: 1px 5px;
         right: ${ REQUIRED_WIDTH };
       }
     }

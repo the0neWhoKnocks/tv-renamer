@@ -172,6 +172,7 @@ class App extends Component {
     this.handleAssignIdSuccess = this.handleAssignIdSuccess.bind(this);
     this.handleCacheUpdateClick = this.handleCacheUpdateClick.bind(this);
     this.handleConfigSave = this.handleConfigSave.bind(this);
+    this.handleFileFolderToggle = this.handleFileFolderToggle.bind(this);
     this.handleFileSelectChange = this.handleFileSelectChange.bind(this);
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
     this.handleIdOverrideClick = this.handleIdOverrideClick.bind(this);
@@ -401,13 +402,23 @@ class App extends Component {
     });
   }
   
+  handleFileFolderToggle({ folderSelected, index }) {
+    const files = this.state.files.map((file, ndx) => {
+      let _file = file;
+      if(ndx === index) _file = { ...file, folderSelected };
+      return _file;
+    });
+    
+    this.setState({ files });
+  }
+  
   handleFileSelectChange({ index, selected }) {
     let allSelected = true;
     let selectionCount = 0;
     const files = this.state.files.map((file, ndx) => {
-      const _file = { ...file };
+      let _file = file;
       
-      if(ndx === index) _file.selected = selected;
+      if(ndx === index) _file = { ...file, selected };
       if(!_file.selected) allSelected = false;
       else selectionCount++;
       
@@ -468,12 +479,15 @@ class App extends Component {
   handleRename() {
     const { files, previewItems } = this.state;
     const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__new-name`);
-    // TODO - filter out preview items that currently have an error
     const names = [...items].map((itemEl) => {
       const itemData = itemEl.dataset;
+      const index = itemData.index;
       
       return {
-        index: itemData.index,
+        index,
+        moveToFolder: (files[index].folderSelected)
+          ? previewItems[index].seriesName
+          : undefined,
         newName: itemData.newName,
         oldPath: itemData.oldPath,
       };
@@ -704,6 +718,7 @@ class App extends Component {
                   key={fileData.name}
                   {...fileData}
                   itemIndex={ndx}
+                  onFolderSelectChange={this.handleFileFolderToggle}
                   onIdClick={this.handleIdOverrideClick}
                   onLookupNameChange={this.handleLookupNameChange}
                   onSelectChange={this.handleFileSelectChange}

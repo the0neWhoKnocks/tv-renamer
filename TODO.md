@@ -59,8 +59,9 @@
 - [x] After build, remove files that don't need to be packaged.
 - [ ] See if there's a way to make BrowserSync stop retrying after X amount
       of time.
-- [ ] Maybe during a rename, move the file to a folder with the same name
+- [x] Maybe during a rename, move the file to a folder with the same name
       of the show.
+  - [x] Have a button that's just a folder icon
 
 ---
 

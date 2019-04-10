@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { bool, func, string } from 'prop-types';
 import Modal from 'COMPONENTS/Modal';
+import SVG, { ICON__FOLDER } from 'COMPONENTS/SVG';
 import FolderDisplay from '../FolderDisplay';
 import ConfigItem from '../ConfigItem';
 import styles, {
@@ -71,7 +72,7 @@ class FolderPicker extends Component {
             className={`${ ROOT_CLASS }__btn`}
             onClick={this.handleClick}
           >
-            <div className={`${ ROOT_CLASS }__btn-icon`}>&#x1F5BF;</div>
+            <SVG className={`${ ROOT_CLASS }__btn-icon`} icon={ICON__FOLDER} />
           </button>
         </div>
         <Modal

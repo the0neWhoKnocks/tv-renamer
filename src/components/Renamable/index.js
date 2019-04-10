@@ -1,26 +1,35 @@
 import React, { Component, Fragment } from 'react';
 import { bool, func, number, string } from 'prop-types';
+import SVG, {
+  ICON__FOLDER,
+  ICON__REFRESH,
+} from 'COMPONENTS/SVG';
 import Toggle from 'COMPONENTS/Toggle';
 import styles, {
   MODIFIER__EDITING_NAME,
   MODIFIER__PREVIEWING,
+  MODIFIER__REFRESH,
   MODIFIER__SELECTED,
   MODIFIER__SKIPPED,
+  MODIFIER__TOGGLE,
   MODIFIER__WARNING,
   ROOT_CLASS,
 } from './styles';
 
 class Renamable extends Component {
   constructor({
+    folderSelected,
     selected,
   }) {
     super();
     
     this.state = {
       editingName: false,
+      folderSelected,
       selected,
     };
     
+    this.handleFolderToggle = this.handleFolderToggle.bind(this);
     this.handleIdClick = this.handleIdClick.bind(this);
     this.handleKeyDown = this.handleKeyDown.bind(this);
     this.handleNameBlur = this.handleNameBlur.bind(this);
@@ -31,7 +40,7 @@ class Renamable extends Component {
   }
   
   componentDidUpdate(prevProps, prevState) {
-    const { selected } = this.props;
+    const { folderSelected, selected } = this.props;
     
     // ensure `selected` passed from parent takes priority
     if(
@@ -40,6 +49,21 @@ class Renamable extends Component {
     ){
       this.setState({ selected });
     }
+    if(
+      folderSelected !== prevProps.folderSelected
+      && this.state.folderSelected !== folderSelected
+    ){
+      this.setState({ folderSelected });
+    }
+  }
+  
+  handleFolderToggle() {
+    const { itemIndex, onFolderSelectChange } = this.props;
+    
+    onFolderSelectChange({
+      folderSelected: !this.state.folderSelected,
+      index: itemIndex,
+    });
   }
   
   handleNameClick(ev) {
@@ -140,6 +164,7 @@ class Renamable extends Component {
     } = this.props;
     const {
       editingName,
+      folderSelected,
       selected,
     } = this.state;
     const slug = name.toLowerCase().replace(/[.'\s]/gi, '');
@@ -172,7 +197,12 @@ class Renamable extends Component {
         className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}
         onKeyDown={this.handleKeyDown}
       >
-        <Toggle id={slug} onToggle={this.handleToggle} toggled={selected} />
+        <Toggle 
+          id={slug}
+          className={`${ ROOT_CLASS }__item-toggle`}
+          onToggle={this.handleToggle} 
+          toggled={selected}
+        />
         <div className={`${ ROOT_CLASS }__names`}>
           <div
             className={`${ ROOT_CLASS }__name`}
@@ -210,26 +240,37 @@ class Renamable extends Component {
               >
                 {_newName}
                 {id && (
-                  <nav className={`${ ROOT_CLASS }__tvdb-nav`}>
+                  <nav className={`${ ROOT_CLASS }__nav`}>
                     <img src="/imgs/logo-tvdb.png" />
                     <button
-                      className={`${ ROOT_CLASS }__tvdb-nav-item`}
+                      className={`${ ROOT_CLASS }__nav-item`}
                       onClick={this.handleIdClick}
                       value={id}
                     >{id}</button>
                     {seriesURL && (
                       <a
-                        className={`${ ROOT_CLASS }__tvdb-nav-item`}
+                        className={`${ ROOT_CLASS }__nav-item`}
                         href={seriesURL}
                         rel="noopener noreferrer"
                         target="_blank"
                       >View Series</a>
                     )}
                     <button
-                      className={`${ ROOT_CLASS }__tvdb-nav-item`}
+                      className={`${ ROOT_CLASS }__nav-item ${ MODIFIER__REFRESH }`}
                       onClick={this.handleUpdateClick}
                       value={id}
-                    >&#x27f3; Cache</button>
+                    >
+                      <SVG className={`${ ROOT_CLASS }__btn-icon`} icon={ICON__REFRESH} />
+                      Cache
+                    </button>
+                    <Toggle
+                      id={`${ slug }_toggle`}
+                      className={`${ ROOT_CLASS }__nav-item ${ MODIFIER__TOGGLE }`}
+                      onToggle={this.handleFolderToggle}
+                      toggled={folderSelected}
+                    >  
+                      <SVG className={`${ ROOT_CLASS }__btn-icon`} icon={ICON__FOLDER} />
+                    </Toggle>
                   </nav>
                 )}
               </div>
@@ -244,6 +285,7 @@ class Renamable extends Component {
 Renamable.propTypes = {
   error: string,
   ext: string,
+  folderSelected: bool,
   id: number,
   idOverride: number,
   itemIndex: number,
@@ -251,6 +293,7 @@ Renamable.propTypes = {
   name: string,
   newName: string,
   onIdClick: func,
+  onFolderSelectChange: func,
   onLookupNameChange: func,
   onSelectChange: func,
   onUpdateClick: func,

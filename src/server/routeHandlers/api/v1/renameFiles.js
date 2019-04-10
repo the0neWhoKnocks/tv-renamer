@@ -1,4 +1,5 @@
 import { parse } from 'path';
+import mkdirp from 'mkdirp';
 import rimraf from 'rimraf';
 import { PUBLIC_RENAME_LOG } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
@@ -22,11 +23,18 @@ export default ({ reqData, res }) => {
       const pendingMoves = [];
       const mappedLogs = {};
       
-      names.forEach(({ index, newName, oldPath }) => {
+      names.forEach(({ index, moveToFolder, newName, oldPath }) => {
+        let _outputFolder = outputFolder;
+        
+        if(moveToFolder){
+          _outputFolder = `${ outputFolder }/${ moveToFolder }`;
+          mkdirp.sync(_outputFolder);
+        }
+        
         pendingMoves.push(new Promise((resolve, reject) => {
           const data = {
             from: oldPath,
-            to: `${ outputFolder }/${ newName }`,
+            to: `${ _outputFolder }/${ newName }`,
           };
           const cb = (d, err) => {
             const log = { ...d, time: Date.now() };

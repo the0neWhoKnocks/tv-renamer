@@ -3,6 +3,7 @@ import {
   API__ASSIGN_ID,
   API__CONFIG,
   API__CONFIG_SAVE,
+  API__DELETE_FILE,
   API__FILES_LIST,
   API__FOLDER_LIST,
   API__IDS,
@@ -17,6 +18,7 @@ import prepData from './prepData';
 import {
   assignId,
   checkForConfig,
+  deleteFile,
   getFolderListing,
   getFilesList,
   getIDs,
@@ -62,6 +64,7 @@ http
     [API__ASSIGN_ID, assignId],
     [API__CONFIG, checkForConfig],
     [API__CONFIG_SAVE, updateConfig],
+    [API__DELETE_FILE, deleteFile],
     [API__FILES_LIST, getFilesList],
     [API__FOLDER_LIST, getFolderListing],
     [API__IDS, getIDs],

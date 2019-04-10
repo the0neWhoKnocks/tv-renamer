@@ -47,14 +47,26 @@ export default css`
     &__name,
     &__new-name {
       width: 100%;
-      padding: 0.5em 0.75em;
     }
     
     &__name {
       overflow-x: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      padding: 0.5em 2.75em 0.5em 0.75em;
       opacity: 0.5;
+      position: relative;
+    }
+    
+    &__delete-btn {
+      fill: #7b3434;
+      font-size: 1.5em;
+      padding: 0 0.25em;
+      border: none;
+      background: #eee;
+      position: absolute;
+      right: 1px;
+      top: 0.2em;
     }
     
     &__ce-fix {
@@ -74,6 +86,7 @@ export default css`
     &__new-name {
       color: #0f5833;
       font-weight: bold;
+      padding: 0.5em 0.75em;
       background: #b5efcf;
       
       &.${ MODIFIER__WARNING } {

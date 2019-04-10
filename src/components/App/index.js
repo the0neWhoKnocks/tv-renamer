@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AssignId from 'COMPONENTS/AssignId';
 import Config from 'COMPONENTS/Config';
+import DeleteConfirmation from 'COMPONENTS/DeleteConfirmation';
 import LogItem from 'COMPONENTS/LogItem';
 import Modal from 'COMPONENTS/Modal';
 import OverlayScreen from 'COMPONENTS/OverlayScreen';
@@ -149,6 +150,8 @@ class App extends Component {
     this.state = {
       allSelected: true,
       config: undefined,
+      deletionIndex: undefined,
+      deletionPath: undefined,
       files: [],
       idMappings: {},
       loaded: false,
@@ -162,6 +165,7 @@ class App extends Component {
       selectionCount: 0,
       showAssignId: false,
       showConfig: false,
+      showDeleteConfirmation: false,
       showVersion: false,
       useGlobalToggle: true,
       visible: false,
@@ -172,6 +176,8 @@ class App extends Component {
     this.handleAssignIdSuccess = this.handleAssignIdSuccess.bind(this);
     this.handleCacheUpdateClick = this.handleCacheUpdateClick.bind(this);
     this.handleConfigSave = this.handleConfigSave.bind(this);
+    this.handleFileDeleteClick = this.handleFileDeleteClick.bind(this);
+    this.handleFileDeletion = this.handleFileDeletion.bind(this);
     this.handleFileFolderToggle = this.handleFileFolderToggle.bind(this);
     this.handleFileSelectChange = this.handleFileSelectChange.bind(this);
     this.handleGlobalToggle = this.handleGlobalToggle.bind(this);
@@ -402,6 +408,52 @@ class App extends Component {
     });
   }
   
+  handleFileDeleteClick({ filePath, index }) {
+    const { sourceFolder } = this.state.config;
+    
+    this.setState({
+      // Make file relative to source
+      deletionIndex: index,
+      deletionPath: filePath.replace(`${ sourceFolder }/`, ''),
+      showDeleteConfirmation: true,
+    });
+  }
+  
+  handleFileDeletion({ filePath, index }) {
+    // remove deleted item from lists
+    const { files, previewItems, selectionCount } = this.state;
+    const _files = [...files];
+    const _previewItems = [...previewItems];
+    const updatedFiles = [];
+    const updatedPreviewItems = [];
+    
+    _files.splice(index, 1);
+    if(_previewItems.length) _previewItems.splice(index, 1);
+    
+    for(let i=0; i<_files.length; i++){
+      const currFile = _files[i];
+      
+      updatedFiles.push({
+        ...currFile,
+        index: updatedFiles.length,
+      });
+      
+      if(_previewItems.length){
+        updatedPreviewItems.push({
+          ..._previewItems[i],
+          index: updatedPreviewItems.length,
+        });
+      }
+    }
+    
+    this.setState({
+      files: updatedFiles,
+      previewItems: updatedPreviewItems,
+      selectionCount: (selectionCount) ? selectionCount - 1 : selectionCount,
+      showDeleteConfirmation: false,
+    });
+  }
+  
   handleFileFolderToggle({ folderSelected, index }) {
     const files = this.state.files.map((file, ndx) => {
       let _file = file;
@@ -619,6 +671,8 @@ class App extends Component {
       currentIndex,
       currentName,
       currentSearchURL,
+      deletionIndex,
+      deletionPath,
       files,
       loaded,
       logs,
@@ -630,6 +684,7 @@ class App extends Component {
       selectionCount,
       showAssignId,
       showConfig,
+      showDeleteConfirmation,
       showVersion,
       visible,
     } = this.state;
@@ -641,6 +696,12 @@ class App extends Component {
       name: currentName,
       onAssignSuccess: this.handleAssignIdSuccess,
       searchURL: currentSearchURL,
+    };
+    const deleteProps = {
+      filePath: deletionPath,
+      index: deletionIndex,
+      onClose: this.handleModalClose('showDeleteConfirmation'),
+      onDeleteSuccess: this.handleFileDeletion,
     };
     const versionProps = {
       onClose: this.handleModalClose('showVersion'),
@@ -718,6 +779,7 @@ class App extends Component {
                   key={fileData.name}
                   {...fileData}
                   itemIndex={ndx}
+                  onDeleteClick={this.handleFileDeleteClick}
                   onFolderSelectChange={this.handleFileFolderToggle}
                   onIdClick={this.handleIdOverrideClick}
                   onLookupNameChange={this.handleLookupNameChange}
@@ -773,6 +835,13 @@ class App extends Component {
           visible={showAssignId}
         >
           <AssignId {...assignProps} />
+        </Modal>
+        
+        <Modal
+          onMaskClick={deleteProps.onClose}
+          visible={showDeleteConfirmation}
+        >
+          <DeleteConfirmation {...deleteProps} />
         </Modal>
         
         <OverlayScreen visible={showConfig}>

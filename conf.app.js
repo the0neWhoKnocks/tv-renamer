@@ -37,6 +37,7 @@ module.exports = {
   API__ASSIGN_ID: `${ API_PREFIX }/assign-id`,
   API__CONFIG: `${ API_PREFIX }/config`,
   API__CONFIG_SAVE: `${ API_PREFIX }/config/save`,
+  API__DELETE_FILE: `${ API_PREFIX }/delete-file`,
   API__FILES_LIST: `${ API_PREFIX }/files-list`,
   API__FOLDER_LIST: `${ API_PREFIX }/folder-list`,
   API__IDS: `${ API_PREFIX }/ids`,

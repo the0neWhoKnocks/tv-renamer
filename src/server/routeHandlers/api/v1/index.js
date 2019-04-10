@@ -1,5 +1,6 @@
 export { default as assignId } from './assignId';
 export { default as checkForConfig } from './checkForConfig';
+export { default as deleteFile } from './deleteFile';
 export { default as getFilesList } from './getFilesList';
 export { default as getFolderListing } from './getFolderListing';
 export { default as getIDs } from './getIDs';

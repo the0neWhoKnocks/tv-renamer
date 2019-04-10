@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { bool, func, number, string } from 'prop-types';
 import SVG, {
+  ICON__DELETE,
   ICON__FOLDER,
   ICON__REFRESH,
 } from 'COMPONENTS/SVG';
@@ -29,6 +30,7 @@ class Renamable extends Component {
       selected,
     };
     
+    this.handleDeleteClick = this.handleDeleteClick.bind(this);
     this.handleFolderToggle = this.handleFolderToggle.bind(this);
     this.handleIdClick = this.handleIdClick.bind(this);
     this.handleKeyDown = this.handleKeyDown.bind(this);
@@ -55,6 +57,15 @@ class Renamable extends Component {
     ){
       this.setState({ folderSelected });
     }
+  }
+  
+  handleDeleteClick(ev) {
+    const { itemIndex, onDeleteClick } = this.props;
+    
+    onDeleteClick({
+      filePath: ev.currentTarget.value,
+      index: itemIndex,
+    });
   }
   
   handleFolderToggle() {
@@ -229,6 +240,14 @@ class Renamable extends Component {
               <span className={`${ ROOT_CLASS }__ce-fix-mask`} contentEditable suppressContentEditableWarning></span>
             </div>
             <span>{ext}</span>
+            
+            <button
+              className={`${ ROOT_CLASS }__delete-btn`}
+              onClick={this.handleDeleteClick}
+              value={`${ path }/${ name }${ ext }`}
+            >
+              <SVG className={`${ ROOT_CLASS }__btn-icon`} icon={ICON__DELETE} />
+            </button>
           </div>
           {previewing && (
             <Fragment>
@@ -293,6 +312,7 @@ Renamable.propTypes = {
   name: string,
   newName: string,
   onIdClick: func,
+  onDeleteClick: func,
   onFolderSelectChange: func,
   onLookupNameChange: func,
   onSelectChange: func,

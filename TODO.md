@@ -130,8 +130,10 @@
   - [x] On click, will tell the server to trash the cache for the series and
         get fresh data. Useful if the wrong show was cached, or when new
         season data comes out.
-- Delete (button)
-  - [ ] On  click, display confirmation modal
+- Delete (button) (X icon)
+  - [x] On click, display confirmation modal
+   - [x] Modal will have the full path of the file (relative to source) so the
+   user can see the file in context of a containing folder if there is one.
 - [x] Keep track of the indexes of items that are being processed. For example
   when Preview is hit, all indexes will be recorded. In the case where you want
   to change the id of just one item, record that index X was requested, then

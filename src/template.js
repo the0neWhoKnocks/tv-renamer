@@ -129,6 +129,9 @@ export default ({
         <symbol id="ui-icon_refresh" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
           <path fill="currentColor" d="M9 13.5c-2.49 0-4.5-2.01-4.5-4.5S6.51 4.5 9 4.5c1.24 0 2.36.52 3.17 1.33L10 8h5V3l-1.76 1.76C12.15 3.68 10.66 3 9 3 5.69 3 3.01 5.69 3.01 9S5.69 15 9 15c2.97 0 5.43-2.16 5.9-5h-1.52c-.46 2-2.24 3.5-4.38 3.5z"/>								
         </symbol>
+        <symbol id="ui-icon_delete" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"/>
+        </symbol>
       </svg>
       
       ${ noscriptMsg }

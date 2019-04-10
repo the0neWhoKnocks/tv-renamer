@@ -1,6 +1,15 @@
 # Changelog
 ---
 
+## v1.3.0
+
+- [d7b684f](https://github.com/the0neWhoKnocks/tv-renamer/commit/d7b684f) Rename & move to series folder
+- [a5023d5](https://github.com/the0neWhoKnocks/tv-renamer/commit/a5023d5) Bug - Skipped items being selected after rename
+- [56b47f1](https://github.com/the0neWhoKnocks/tv-renamer/commit/56b47f1) Fixed FF row layout
+- [b9e2f88](https://github.com/the0neWhoKnocks/tv-renamer/commit/b9e2f88) Updated release script
+
+---
+
 ## v1.2.4
 
 - [5468ab6](https://github.com/the0neWhoKnocks/tv-renamer/commit/5468ab6) Inexplicable selection of last editable Renamable

@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v1.4.0
+
+- [488fd43](https://github.com/the0neWhoKnocks/tv-renamer/commit/488fd43) Add ability to delete files and folders via GUI
+
+---
+
 ## v1.3.0
 
 - [d7b684f](https://github.com/the0neWhoKnocks/tv-renamer/commit/d7b684f) Rename & move to series folder

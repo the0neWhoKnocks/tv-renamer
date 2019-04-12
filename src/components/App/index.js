@@ -289,6 +289,7 @@ class App extends Component {
       })
       .catch((err) => {
         console.error(err);
+        alert(err);
       });
   }
   
@@ -299,6 +300,7 @@ class App extends Component {
       })
       .catch((err) => {
         console.error(err);
+        alert(err);
       });
   }
   
@@ -325,6 +327,10 @@ class App extends Component {
           files: transformedItems.files,
           selectionCount: transformedItems.files.length,
         });
+      })
+      .catch((err) => {
+        console.error(err);
+        alert(err);
       });
   }
   

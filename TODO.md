@@ -14,6 +14,19 @@
 - [x] Skip items, preview an item, rename that item, select an item and preview it.
   Previously skipped items will be reselected.
 - [x] Remove formatting when pasting into content-editable Renamable item.
+- [x] Uncaught error while loading a file, kills the server
+  - log snippet
+  ```
+  Route matched "/api/v1/files-list" for /api/v1/files-list,
+  undefined:1,
+  ,
+  ,
+  ,
+  SyntaxError: Unexpected end of JSON input,
+      at JSON.parse (<anonymous>),
+      at /home/node/app/cjs/server/routeHandlers/api/v1/utils/loadFile.js:18:40,
+      at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3),
+  ```
 
 ---
 

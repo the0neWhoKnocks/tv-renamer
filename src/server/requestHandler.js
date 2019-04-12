@@ -56,7 +56,7 @@ export default (routes) => async (req, res) => {
       else if( cleanPath === path ) break;
     }
     
-    if(emitLog) console.log(`Route matched "${ path }" for ${ cleanPath }`);
+    if(emitLog) console.log(`Route matched (${ req.method }) "${ path }" for ${ cleanPath }`);
     handler(...args);
   });
 };

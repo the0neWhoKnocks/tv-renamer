@@ -21,12 +21,14 @@ export default ({ reqData, res }) => {
     (err, resp, data) => {
       if(err) handleError({ res }, resp.statusCode, err);
       else{
+        const jwtDate = Date.now();
         const confData = {
           jwt: data.token,
-          jwtDate: Date.now(),
+          jwtDate,
         };
         
         saveConfig(confData, res, (config) => {
+          console.log(`[JWT] updated on ${ jwtDate }`);
           jsonResp(res, config);
         });
       }

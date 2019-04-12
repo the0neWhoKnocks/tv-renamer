@@ -37,6 +37,7 @@ class Renamable extends Component {
     this.handleNameBlur = this.handleNameBlur.bind(this);
     this.handleNameClick = this.handleNameClick.bind(this);
     this.handleNameFocus = this.handleNameFocus.bind(this);
+    this.handlePaste = this.handlePaste.bind(this);
     this.handleToggle = this.handleToggle.bind(this);
     this.handleUpdateClick = this.handleUpdateClick.bind(this);
   }
@@ -136,6 +137,12 @@ class Renamable extends Component {
     this.setState({ editingName: true });
   }
   
+  handlePaste(ev) {
+    ev.preventDefault();
+    const text = ev.clipboardData.getData('text/plain');
+    document.execCommand('insertHTML', false, text);
+  }
+  
   handleToggle() {
     const { itemIndex, onSelectChange } = this.props;
     
@@ -233,6 +240,7 @@ class Renamable extends Component {
                 onBlur={this.handleNameBlur}
                 onClick={this.handleNameClick}
                 onFocus={this.handleNameFocus}
+                onPaste={this.handlePaste}
                 ref={(ref) => { this.editableRef = ref; }}
                 spellCheck="false"
                 suppressContentEditableWarning

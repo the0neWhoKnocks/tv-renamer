@@ -13,6 +13,7 @@
   is enabled and reads "Rename Selected".
 - [x] Skip items, preview an item, rename that item, select an item and preview it.
   Previously skipped items will be reselected.
+- [x] Remove formatting when pasting into content-editable Renamable item.
 
 ---
 

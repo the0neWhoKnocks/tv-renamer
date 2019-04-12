@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v1.4.1
+
+- [ee91c21](https://github.com/the0neWhoKnocks/tv-renamer/commit/ee91c21) Patched file load edge-case error
+- [d18473f](https://github.com/the0neWhoKnocks/tv-renamer/commit/d18473f) Remove Paste formatting for content-editable item
+
+---
+
 ## v1.4.0
 
 - [488fd43](https://github.com/the0neWhoKnocks/tv-renamer/commit/488fd43) Add ability to delete files and folders via GUI

@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v1.4.2
+
+- [2dbc41f](https://github.com/the0neWhoKnocks/tv-renamer/commit/2dbc41f) Fixed JWT race condition
+
+---
+
 ## v1.4.1
 
 - [ee91c21](https://github.com/the0neWhoKnocks/tv-renamer/commit/ee91c21) Patched file load edge-case error

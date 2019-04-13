@@ -22,11 +22,11 @@ import {
   getFolderListing,
   getFilesList,
   getIDs,
-  getJWT,
   getLogs,
   getReleases,
   previewRename,
   renameFiles,
+  setJWT,
   updateConfig,
 } from './routeHandlers/api/v1';
 import handleError from './routeHandlers/error';
@@ -68,7 +68,7 @@ http
     [API__FILES_LIST, getFilesList],
     [API__FOLDER_LIST, getFolderListing],
     [API__IDS, getIDs],
-    [API__JWT, getJWT],
+    [API__JWT, setJWT],
     [API__LOGS, getLogs],
     [API__PREVIEW_RENAME, previewRename],
     [API__RENAME, renameFiles],

@@ -28,7 +28,8 @@ export default ({ reqData, res }) => {
         };
         
         saveConfig(confData, res, (config) => {
-          console.log(`[JWT] updated on ${ jwtDate }`);
+          const updateTime = new Date(jwtDate).toLocaleString('en-US', { timeZone: 'America/Los_Angeles' });
+          console.log(`[JWT] updated on "${ updateTime }"`);
           jsonResp(res, config);
         });
       }

@@ -205,18 +205,6 @@ class App extends Component {
   
   componentDidUpdate(prevProps, prevState) {
     if(this.state.config){
-      if(
-        // JWT doesn't exist
-        !this.state.config.jwt
-        // OR - there's a JWT, but it's older than 24 hours (or about to expire)
-        || (
-          this.state.config.jwt
-          && getRemainingJWTTime(this.state.config.jwtDate) <= 1
-        )
-      ) {
-        this.getJWT();
-      }
-      
       // user just configured settings, so make initial files list call
       if(
         prevState.config
@@ -281,9 +269,9 @@ class App extends Component {
         
         this.setState(state, () => {
           if(!state.showConfig){
-            this.getIDs().then(() => {
-              this.getFilesList();
-            });
+            this.checkJWT()
+              .then(() => { this.getIDs(); })
+              .then(() => { this.getFilesList(); });
           }
         });
       })
@@ -291,6 +279,27 @@ class App extends Component {
         console.error(err);
         alert(err);
       });
+  }
+  
+  checkJWT() {
+    return new Promise((resolve, reject) => {
+      if(
+        // JWT doesn't exist
+        !this.state.config.jwt
+        // OR - there's a JWT, but it's older than 24 hours (or about to expire)
+        || (
+          this.state.config.jwt
+          && getRemainingJWTTime(this.state.config.jwtDate) <= 1
+        )
+      ) {
+        this.setJWT()
+          .then(() => { resolve(); })
+          .catch((err) => { reject(err); });
+      }
+      else{
+        resolve();
+      }
+    });
   }
   
   checkLogs() {
@@ -305,7 +314,7 @@ class App extends Component {
   }
   
   getFilesList() {
-    fetch(API__FILES_LIST)
+    return fetch(API__FILES_LIST)
       .then((files) => {
         const {
           idMappings,
@@ -350,10 +359,10 @@ class App extends Component {
     });
   }
   
-  getJWT() {
+  setJWT() {
     const { apiKey, userKey, userName } = this.state.config;
     
-    fetch(API__JWT, {
+    return fetch(API__JWT, {
       method: 'POST',
       body: JSON.stringify({
         apiKey,

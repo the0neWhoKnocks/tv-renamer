@@ -1,5 +1,5 @@
+import saveFile from 'SERVER/utils/saveFile';
 import genCacheName from './genCacheName';
-import saveFile from './saveFile';
 
 export default ({ data, name, res }) => new Promise((resolve, reject) => {
   const cacheName = genCacheName(data.name);

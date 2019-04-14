@@ -4,7 +4,7 @@ export const ERROR_TYPE__LOAD_FAILURE = 'loadFailure';
 export const ERROR_TYPE__PARSE_FAILURE = 'parseFailure';
 
 export default ({ _default = {}, cb, file }) => {
-  console.log(`  [LOAD] "${ file }"`);
+  console.debug(`  [LOAD] "${ file }"`);
   
   readFile(file, 'utf8', (err, fileContents) => {
     if(err) console.debug(`  [FAILED] to load file: "${ err.message }"`);

@@ -1,5 +1,5 @@
+import loadFile from 'SERVER/utils/loadFile';
 import genCacheName from './genCacheName';
-import loadFile from './loadFile';
 
 export default ({ cacheKey, index, name }) => new Promise((resolve, reject) => {
   const cacheName = genCacheName(cacheKey || name);

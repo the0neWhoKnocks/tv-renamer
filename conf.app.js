@@ -13,6 +13,7 @@ const SRC = `${ ROOT }/src`;
 const DATA_FOLDER_NAME = '.data';
 const CACHE_FOLDER_NAME = 'cache';
 const CONFIG_NAME = 'config.json';
+const FILE_CACHE_NAME = 'file-cache.json';
 const RENAME_LOG = 'rename.log';
 const SERIES_ID_MAP = 'series-ids.json';
 const SERIES_ID_CACHE_MAP = 'ids-cache-map.json';
@@ -57,6 +58,7 @@ module.exports = {
   PUBLIC,
   PUBLIC_CACHE: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CACHE_FOLDER_NAME }`,
   PUBLIC_CONFIG: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CONFIG_NAME }`,
+  PUBLIC_FILE_CACHE: `${ ROOT }/${ DATA_FOLDER_NAME }/${ FILE_CACHE_NAME }`,
   PUBLIC_JS,
   PUBLIC_MANIFEST,
   PUBLIC_RENAME_LOG: `${ ROOT }/${ DATA_FOLDER_NAME }/${ RENAME_LOG }`,

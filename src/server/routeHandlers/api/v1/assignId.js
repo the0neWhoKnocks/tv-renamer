@@ -1,7 +1,7 @@
 import { PUBLIC_SERIES_ID_MAP } from 'ROOT/conf.app';
 import jsonResp from 'SERVER/utils/jsonResp';
+import saveFile from 'SERVER/utils/saveFile';
 import loadSeriesIds from './utils/loadSeriesIds';
-import saveFile from './utils/saveFile';
 
 export default ({ reqData, res }) => {
   loadSeriesIds((ids) => {

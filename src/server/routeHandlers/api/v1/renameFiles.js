@@ -5,11 +5,11 @@ import { PUBLIC_RENAME_LOG } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'SERVER/utils/jsonResp';
+import saveFile from 'SERVER/utils/saveFile';
 import filesFilter from './utils/filesFilter';
 import loadConfig from './utils/loadConfig';
 import loadRenameLog from './utils/loadRenameLog';
 import moveFile from './utils/moveFile';
-import saveFile from './utils/saveFile';
 
 
 const MAX_LOG_ENTRIES = 200;

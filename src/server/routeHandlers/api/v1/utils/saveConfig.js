@@ -1,6 +1,6 @@
 import { PUBLIC_CONFIG } from 'ROOT/conf.app';
+import saveFile from 'SERVER/utils/saveFile';
 import loadConfig from './loadConfig';
-import saveFile from './saveFile';
 
 export default (data, res, cb) => {
   loadConfig((config) => {

@@ -45,6 +45,7 @@ export default (routes) => async (req, res) => {
       // every handler needs the response
       args = [{
         res,
+        req,
         reqData,
       }];
       // some handlers pass custom args

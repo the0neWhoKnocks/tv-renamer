@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AssignId from 'COMPONENTS/AssignId';
 import Config from 'COMPONENTS/Config';
 import DeleteConfirmation from 'COMPONENTS/DeleteConfirmation';
+import Indicator from 'COMPONENTS/Indicator';
 import LogItem from 'COMPONENTS/LogItem';
 import Modal from 'COMPONENTS/Modal';
 import OverlayScreen from 'COMPONENTS/OverlayScreen';
@@ -23,6 +24,7 @@ import fetch from 'UTILS/fetch';
 import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
   MODIFIER__HAS_ITEMS,
+  MODIFIER__INDICATOR,
   MODIFIER__LOGS,
   MODIFIER__LOGS_OPEN,
   MODIFIER__VISIBLE,
@@ -159,6 +161,7 @@ class App extends Component {
       logsOpen: false,
       previewItems: [],
       previewing: false,
+      previewRequested: false,
       renameCount: 0,
       renameErrorCount: 0,
       selectAll: true,
@@ -624,11 +627,20 @@ class App extends Component {
   }
   
   previewRename(names, cb) {
+    // show indicator if request is taking too long
+    this.previewRequestTimer = setTimeout(() => {
+      delete this.previewRequestTimer;
+      console.log('apply');
+      this.setState({ previewRequested: true });
+    }, 300);
+    
     fetch(API__PREVIEW_RENAME, {
       method: 'POST',
       body: JSON.stringify({ names }),
     })
       .then((previewItems) => {
+        clearTimeout(this.previewRequestTimer);
+        
         const {
           files,
           idMappings,
@@ -666,6 +678,7 @@ class App extends Component {
           files: transformedItems.files,
           previewing,
           previewItems: _previewItems,
+          previewRequested: false,
           selectAll: !!transformedItems.selectionCount,
           selectionCount: transformedItems.selectionCount,
           useGlobalToggle,
@@ -675,6 +688,7 @@ class App extends Component {
       })
       .catch((err) => {
         alert(err);
+        this.setState({ previewRequested: false });
       });
   }
   
@@ -693,6 +707,7 @@ class App extends Component {
       logs,
       logsOpen,
       previewing,
+      previewRequested,
       renameCount,
       renameErrorCount,
       selectAll,
@@ -776,9 +791,13 @@ class App extends Component {
               >Select {globalTogglePronoun}</Toggle>
               <div className={`${ ROOT_CLASS }__items-nav-btns-wrapper`}>
                 <button
+                  className={`${ (previewRequested) ? MODIFIER__INDICATOR : '' }`}
                   disabled={selectionCount === 0}
                   onClick={this.handlePreviewRename}
-                >Preview</button>
+                >
+                  Preview
+                  <Indicator visible={previewRequested} />
+                </button>
                 <button
                   disabled={!previewing}
                   onClick={this.handleRename}

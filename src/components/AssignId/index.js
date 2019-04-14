@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { func, number, string } from 'prop-types';
+import Indicator from 'COMPONENTS/Indicator';
 import {
   API__ASSIGN_ID,
 } from 'ROOT/conf.app';
@@ -128,7 +129,7 @@ class AssignId extends Component {
             onClick={this.handleChoiceClick}
             disabled={assignDisabled}
           >Assign</button>
-          <div className={`${ ROOT_CLASS }__proccessing-indicator`}><div /></div>
+          <Indicator visible={proccessing} />
         </nav>
       </div>
     );

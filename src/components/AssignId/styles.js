@@ -1,4 +1,4 @@
-import { css, keyframes } from 'emotion';
+import { css } from 'emotion';
 import {
   DEFAULT_CTA,
   VALID_CTA,
@@ -6,40 +6,6 @@ import {
 
 export const MODIFIER__PROCCESSING = 'is--proccessing';
 export const ROOT_CLASS = 'assign-id';
-
-const hop1 = keyframes`
-  0% {
-    transform: translate(-150%, 0%);
-  }
-  25% {
-    transform: translate(-75%, -100%);
-  }
-  50% {
-    transform: translate(0%, 0%);
-  }
-  75% {
-    transform: translate(75%, -100%);
-  }
-  100% {
-    transform: translate(150%, 0%);
-  }
-`;
-const hop2 = keyframes`
-  0% {
-    transform: translate(0%, 0%);
-  }
-  50%, 100% {
-    transform: translate(-150%, 0%);
-  }
-`;
-const hop3 = keyframes`
-  0%, 50% {
-    transform: translate(150%, 0%);
-  }
-  100% {
-    transform: translate(0%, 0%);
-  }
-`;
 
 export default css`
   max-width: 30em;
@@ -109,35 +75,14 @@ export default css`
         ${ VALID_CTA }
       }
     }
-    
-    &__proccessing-indicator {
-      width: 0.5em;
-      height: 0.5em;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      transition: opacity 200ms;
-      opacity: 0;
-      
-      &::before,
-      &::after {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-      
-      > div,
-      &::before,
-      &::after {
-        width: 100%;
-        height: 100%;
-        border-radius: 100%;
-        background: #666;
-      }
-    }
+  }
+  
+  .indicator__wrapper {
+    color: #666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   &.${ MODIFIER__PROCCESSING } {
@@ -146,22 +91,6 @@ export default css`
       
       &__apply-btn {
         color: transparent;
-      }
-      
-      &__proccessing-indicator {
-        opacity: 1;
-        
-        &::before {
-          animation: ${ hop1 } 500ms infinite;
-        }
-        
-        > div {
-          animation: ${ hop2 } 500ms infinite;
-        }
-        
-        &::after {
-          animation: ${ hop3 } 500ms infinite;
-        }
       }
     }
   }

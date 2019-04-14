@@ -3,6 +3,7 @@ import { ROOT_CLASS as LOG_ROOT_CLASS } from 'COMPONENTS/LogItem/styles';
 import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
 export const MODIFIER__HAS_ITEMS = 'has--items';
+export const MODIFIER__INDICATOR = 'has--indicator';
 export const MODIFIER__LOGS = 'has--logs';
 export const MODIFIER__LOGS_OPEN = 'logs--open';
 export const MODIFIER__RENAME = 'enable--rename';
@@ -78,6 +79,7 @@ export default css`
         border-left: solid 1px #888;
         background: transparent;
         outline: none;
+        position: relative;
         
         &:nth-of-type(2) {
           min-width: 10.5em;
@@ -94,6 +96,19 @@ export default css`
         &:disabled {
           opacity: 0.5;
         }
+        
+        &.${ MODIFIER__INDICATOR } {
+          color: transparent;
+        }
+      }
+      
+      .indicator__wrapper {
+        color: #fff;
+        background: transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
     }
     

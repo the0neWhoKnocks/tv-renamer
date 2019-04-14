@@ -164,6 +164,7 @@ class App extends Component {
       previewRequested: false,
       renameCount: 0,
       renameErrorCount: 0,
+      renameRequested: false,
       selectAll: true,
       selectionCount: 0,
       showAssignId: false,
@@ -563,11 +564,19 @@ class App extends Component {
       };
     });
     
+    // show indicator if request is taking too long
+    this.renameRequestTimer = setTimeout(() => {
+      delete this.renameRequestTimer;
+      this.setState({ renameRequested: true });
+    }, 300);
+    
     fetch(API__RENAME, {
       method: 'POST',
       body: JSON.stringify({ names }),
     })
       .then((logs) => {
+        clearTimeout(this.renameRequestTimer);
+        
         // remove renamed items from lists
         const updatedFiles = [];
         const updatedPreviewItems = [];
@@ -613,12 +622,14 @@ class App extends Component {
           previewItems: updatedPreviewItems,
           renameCount: successful,
           renameErrorCount: errors,
+          renameRequested: false,
           selectAll: !!selectionCount,
           selectionCount,
         });
       })
       .catch((err) => {
         alert(err);
+        this.setState({ renameRequested: false });
       });
   }
   
@@ -630,7 +641,6 @@ class App extends Component {
     // show indicator if request is taking too long
     this.previewRequestTimer = setTimeout(() => {
       delete this.previewRequestTimer;
-      console.log('apply');
       this.setState({ previewRequested: true });
     }, 300);
     
@@ -710,6 +720,7 @@ class App extends Component {
       previewRequested,
       renameCount,
       renameErrorCount,
+      renameRequested,
       selectAll,
       selectionCount,
       showAssignId,
@@ -799,9 +810,13 @@ class App extends Component {
                   <Indicator visible={previewRequested} />
                 </button>
                 <button
+                  className={`${ (renameRequested) ? MODIFIER__INDICATOR : '' }`}
                   disabled={!previewing}
                   onClick={this.handleRename}
-                >Rename {btnPronoun}</button>
+                >
+                  Rename {btnPronoun}
+                  <Indicator visible={renameRequested} />
+                </button>
               </div>
             </nav>
             <div

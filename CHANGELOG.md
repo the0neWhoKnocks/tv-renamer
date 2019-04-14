@@ -1,6 +1,15 @@
 # Changelog
 ---
 
+## v1.5.0
+
+- [7b5b955](https://github.com/the0neWhoKnocks/tv-renamer/commit/7b5b955) Added Etag caching
+- [ffe576d](https://github.com/the0neWhoKnocks/tv-renamer/commit/ffe576d) Moved files in prep for caching work
+- [da12e6e](https://github.com/the0neWhoKnocks/tv-renamer/commit/da12e6e) Rename indicator for long requests
+- [85fd74e](https://github.com/the0neWhoKnocks/tv-renamer/commit/85fd74e) Preview indicator for long requests
+
+---
+
 ## v1.4.2
 
 - [2dbc41f](https://github.com/the0neWhoKnocks/tv-renamer/commit/2dbc41f) Fixed JWT race condition

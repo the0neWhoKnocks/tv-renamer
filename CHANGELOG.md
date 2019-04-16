@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v1.5.1
+
+- [c35a418](https://github.com/the0neWhoKnocks/tv-renamer/commit/c35a418) Sanitize Season name for folder during rename
+
+---
+
 ## v1.5.0
 
 - [7b5b955](https://github.com/the0neWhoKnocks/tv-renamer/commit/7b5b955) Added Etag caching

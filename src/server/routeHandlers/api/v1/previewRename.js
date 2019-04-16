@@ -12,12 +12,7 @@ import saveFile from 'SERVER/utils/saveFile';
 import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
 import lookUpSeries from './utils/lookUpSeries';
-
-const sanitizeShowName = (name) => {
-  return name
-    .replace(/:/g, '-')
-    .replace(/\?/g, '');
-};
+import sanitizeName from './utils/sanitizeName';
 
 const parseEpNum = (episode) => {
   return (`${ episode }`.length < 2)
@@ -84,7 +79,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
         renamed.push({
           id: cache.id,
           index,
-          name: sanitizeShowName(newName),
+          name: sanitizeName(newName),
           seriesName: cache.name,
         });
       }

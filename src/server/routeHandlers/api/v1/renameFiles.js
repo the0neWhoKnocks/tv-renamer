@@ -10,7 +10,7 @@ import filesFilter from './utils/filesFilter';
 import loadConfig from './utils/loadConfig';
 import loadRenameLog from './utils/loadRenameLog';
 import moveFile from './utils/moveFile';
-
+import sanitizeName from './utils/sanitizeName';
 
 const MAX_LOG_ENTRIES = 200;
 
@@ -26,8 +26,9 @@ export default ({ reqData, res }) => {
       names.forEach(({ index, moveToFolder, newName, oldPath }) => {
         let _outputFolder = outputFolder;
         
+        // Move to a series folder (if specified)
         if(moveToFolder){
-          _outputFolder = `${ outputFolder }/${ moveToFolder }`;
+          _outputFolder = `${ outputFolder }/${ sanitizeName(moveToFolder) }`;
           mkdirp.sync(_outputFolder);
         }
         

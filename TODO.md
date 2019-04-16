@@ -27,7 +27,9 @@
       at /home/node/app/cjs/server/routeHandlers/api/v1/utils/loadFile.js:18:40,
       at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3),
   ```
-
+- [x] Sanitize Season name when creating a folder during a rename. Currently if
+  a name has a colon, if F's up the folder.
+  
 ---
 
 ## Config settings

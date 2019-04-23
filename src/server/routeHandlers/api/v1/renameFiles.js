@@ -1,3 +1,5 @@
+import { lstatSync, statSync } from 'fs';
+import { execSync } from 'child_process';
 import { parse } from 'path';
 import mkdirp from 'mkdirp';
 import rimraf from 'rimraf';
@@ -29,7 +31,28 @@ export default ({ reqData, res }) => {
         // Move to a series folder (if specified)
         if(moveToFolder){
           _outputFolder = `${ outputFolder }/${ sanitizeName(moveToFolder) }`;
-          mkdirp.sync(_outputFolder);
+          
+          // if folder exists don't do anything
+          try { lstatSync(_outputFolder); }
+          catch(err) { // if folder doesn't exist, there'll be an error
+            try {
+              const { gid, mode, uid } = statSync(oldPath);
+              const perms = '0' + (mode & parseInt('777', 8)).toString(8);
+              
+              mkdirp.sync(_outputFolder, perms);
+              
+              try {
+                execSync(`chown ${ uid }:${ gid } "${ _outputFolder }"`);
+              }
+              catch(err){
+                throw new Error(`Error chown'ing "${ _outputFolder }" | ${ err }`);
+              }
+            }
+            catch(err){
+              // there should never be an error here
+              throw new Error(`Error stat'ing "${ oldPath }" | ${ err }`);
+            }
+          }
         }
         
         pendingMoves.push(new Promise((resolve, reject) => {

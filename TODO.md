@@ -29,7 +29,12 @@
   ```
 - [x] Sanitize Season name when creating a folder during a rename. Currently if
   a name has a colon, if F's up the folder.
-  
+- [ ] `AssignId` doesn't display Search link after first assign
+- [x] ‎Ensure new folder permissions match the file's permissions.
+- [ ] Preview may not be handling spaces and ampersands in file names.
+  - `Carol and Tuesday s01e01`
+  - `Carol & Tuesday s01e01` 
+
 ---
 
 ## Config settings
@@ -156,6 +161,9 @@
   when the Array of results is returned you know that item X needs to be updated.
 - [x] Deselect items that don't have matches
 - [ ] Checkbox to `Don't Move`, so it just renames in the current directory.
+- ‎[ ] Allow for DVD order preview
+  - ‎If DVD order is present, create a separate DVD node with that order in the 
+  series cache
 
 ---
 

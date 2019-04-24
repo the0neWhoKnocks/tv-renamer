@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v1.6.2
+
+- [e84fbdf](https://github.com/the0neWhoKnocks/tv-renamer/commit/e84fbdf) chown doesn't work with Docker and Node
+
+---
+
 ## v1.6.1
 
 - [ff347a8](https://github.com/the0neWhoKnocks/tv-renamer/commit/ff347a8) Patching folder perms

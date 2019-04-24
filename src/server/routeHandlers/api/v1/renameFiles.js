@@ -27,6 +27,7 @@ export default ({ reqData, res }) => {
       
       names.forEach(({ index, moveToFolder, newName, oldPath }) => {
         let _outputFolder = outputFolder;
+        let folderErr;
         
         // Move to a series folder (if specified)
         if(moveToFolder){
@@ -36,65 +37,69 @@ export default ({ reqData, res }) => {
           try { lstatSync(_outputFolder); }
           catch(err) { // if folder doesn't exist, there'll be an error
             try {
-              const { gid, mode, uid } = statSync(oldPath);
+              const { mode, uid } = statSync(oldPath);
               const perms = '0' + (mode & parseInt('777', 8)).toString(8);
               
               mkdirp.sync(_outputFolder, perms);
               
-              try {
-                execSync(`chown ${ uid }:${ gid } "${ _outputFolder }"`);
-              }
-              catch(err){
-                throw new Error(`Error chown'ing "${ _outputFolder }" | ${ err }`);
-              }
+              try { execSync(`chmod ${ perms } "${ _outputFolder }"`); }
+              catch(err){ folderErr = `Error chmod'ing "${ _outputFolder }" | ${ err }`; }
+              
+              try { execSync(`chown ${ uid } "${ _outputFolder }"`); }
+              catch(err){ folderErr = `Error chown'ing "${ _outputFolder }" | ${ err }`; }
             }
             catch(err){
               // there should never be an error here
-              throw new Error(`Error stat'ing "${ oldPath }" | ${ err }`);
+              folderErr = `Error stat'ing "${ oldPath }" | ${ err }`;
             }
           }
         }
         
         pendingMoves.push(new Promise((resolve, reject) => {
-          const data = {
-            from: oldPath,
-            to: `${ _outputFolder }/${ newName }`,
-          };
-          const cb = (d, err) => {
-            const log = { ...d, time: Date.now() };
-            const rootDir = parse(oldPath).dir;
-            
-            const allDone = () => {
-              if(err) log.error = err.message;
-              newLogs.push(log);
-              mappedLogs[index] = log;
+          if(folderErr){
+            reject(folderErr);
+          }
+          else{
+            const data = {
+              from: oldPath,
+              to: `${ _outputFolder }/${ newName }`,
+            };
+            const cb = (d, err) => {
+              const log = { ...d, time: Date.now() };
+              const rootDir = parse(oldPath).dir;
               
-              resolve();
+              const allDone = () => {
+                if(err) log.error = err.message;
+                newLogs.push(log);
+                mappedLogs[index] = log;
+                
+                resolve();
+              };
+              
+              if(rootDir !== sourceFolder){
+                // only delete if there aren't other files that can be renamed
+                getFiles(rootDir, filesFilter)
+                  .then((files) => {
+                    if(!files.length){
+                      rimraf(rootDir, { glob: false }, () => {
+                        log.deleted = `Deleted folder: "${ rootDir }"`;
+                        allDone();
+                      });
+                    }
+                    else{
+                      allDone();
+                    }
+                  });
+              }
+              else{ allDone(); }
             };
             
-            if(rootDir !== sourceFolder){
-              // only delete if there aren't other files that can be renamed
-              getFiles(rootDir, filesFilter)
-                .then((files) => {
-                  if(!files.length){
-                    rimraf(rootDir, { glob: false }, () => {
-                      log.deleted = `Deleted folder: "${ rootDir }"`;
-                      allDone();
-                    });
-                  }
-                  else{
-                    allDone();
-                  }
-                });
-            }
-            else{ allDone(); }
-          };
-          
-          moveFile({
-            cb, data,
-            newPath: data.to,
-            oldPath: data.from,
-          });
+            moveFile({
+              cb, data,
+              newPath: data.to,
+              oldPath: data.from,
+            });
+          }
         }));
       });
       

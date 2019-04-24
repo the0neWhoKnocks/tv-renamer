@@ -29,7 +29,7 @@
   ```
 - [x] Sanitize Season name when creating a folder during a rename. Currently if
   a name has a colon, if F's up the folder.
-- [ ] `AssignId` doesn't display Search link after first assign
+- [x] `AssignId` doesn't display Search link if exact match found.
 - [x] ‎Ensure new folder permissions match the file's permissions.
 - [ ] Preview may not be handling spaces and ampersands in file names.
   - `Carol and Tuesday s01e01`

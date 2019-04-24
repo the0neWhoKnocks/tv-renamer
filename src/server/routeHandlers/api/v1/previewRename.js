@@ -68,6 +68,12 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
     if(nameObj){
       const { episode, episodes, index, name, season } = nameObj;
       const cache = _cacheData[index];
+      let seriesURL, searchURL;
+      
+      if(name && cache && cache.slug){
+        seriesURL = TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug);
+        searchURL = TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name));
+      }
       
       if(
         name && season && episode
@@ -81,6 +87,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           index,
           name: sanitizeName(newName),
           seriesName: cache.name,
+          searchURL,
         });
       }
       // could be a possible series mis-match or missing cache data
@@ -101,8 +108,8 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           id: cache.id,
           index,
           name: cache.name,
-          seriesURL: TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug),
-          searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
+          seriesURL,
+          searchURL,
         });
       }
       // could be a possible series mis-match
@@ -117,8 +124,8 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           id: cache.id,
           index,
           name: cache.name,
-          seriesURL: TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug),
-          searchURL: TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name)),
+          seriesURL,
+          searchURL,
         });
       }
       // missing data from Client

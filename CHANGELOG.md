@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v1.6.1
+
+- [ff347a8](https://github.com/the0neWhoKnocks/tv-renamer/commit/ff347a8) Patching folder perms
+
+---
+
 ## v1.6.0
 
 - [378a5a8](https://github.com/the0neWhoKnocks/tv-renamer/commit/378a5a8) Handle file names with spaces and ampersands

@@ -1,4 +1,4 @@
-import { lstatSync, statSync } from 'fs';
+import { lstatSync } from 'fs';
 import { execSync } from 'child_process';
 import { parse } from 'path';
 import mkdirp from 'mkdirp';
@@ -37,16 +37,10 @@ export default ({ reqData, res }) => {
           try { lstatSync(_outputFolder); }
           catch(err) { // if folder doesn't exist, there'll be an error
             try {
-              const { mode, uid } = statSync(oldPath);
-              const perms = '0' + (mode & parseInt('777', 8)).toString(8);
+              mkdirp.sync(_outputFolder);
               
-              mkdirp.sync(_outputFolder, perms);
-              
-              try { execSync(`chmod ${ perms } "${ _outputFolder }"`); }
+              try { execSync(`chmod 0777 "${ _outputFolder }"`); }
               catch(err){ folderErr = `Error chmod'ing "${ _outputFolder }" | ${ err }`; }
-              
-              try { execSync(`chown ${ uid } "${ _outputFolder }"`); }
-              catch(err){ folderErr = `Error chown'ing "${ _outputFolder }" | ${ err }`; }
             }
             catch(err){
               // there should never be an error here

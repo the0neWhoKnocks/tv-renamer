@@ -31,9 +31,9 @@
   a name has a colon, if F's up the folder.
 - [x] `AssignId` doesn't display Search link if exact match found.
 - [x] ‎Ensure new folder permissions match the file's permissions.
-- [ ] Preview may not be handling spaces and ampersands in file names.
-  - `Carol and Tuesday s01e01`
-  - `Carol & Tuesday s01e01` 
+- [x] Preview may not be handling spaces and ampersands in file names.
+  - `Carole and Tuesday s01e01`
+  - `Carole & Tuesday s01e01` 
 
 ---
 

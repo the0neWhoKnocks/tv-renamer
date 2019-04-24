@@ -32,7 +32,7 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^([a-z1-9'.-]+\b(?:\d{3,4})?)\.s(\d{2})e(\d{2})/i;
+export const NAME_REGEX = /^([a-z1-9'.\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?s(\d{2})e(\d{2})/i;
 const MULTI_EPS_REGEX = /(?:e(\d{2}))/gi;
 
 class App extends Component {
@@ -43,7 +43,7 @@ class App extends Component {
   }
   
   static parseLookupName(name) {
-    return name.toLowerCase().replace(/\./g, ' ');
+    return name.toLowerCase().replace(/\./g, ' ').trim();
   }
   
   static renamableFilter({ error, index, selected, skipped }) {

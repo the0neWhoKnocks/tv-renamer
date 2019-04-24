@@ -1,6 +1,14 @@
 # Changelog
 ---
 
+## v1.6.0
+
+- [378a5a8](https://github.com/the0neWhoKnocks/tv-renamer/commit/378a5a8) Handle file names with spaces and ampersands
+- [7646c98](https://github.com/the0neWhoKnocks/tv-renamer/commit/7646c98) Display Search link even if exact match found
+- [f28f8b2](https://github.com/the0neWhoKnocks/tv-renamer/commit/f28f8b2) Use the same perms for a folder as the file being renamed
+
+---
+
 ## v1.5.1
 
 - [c35a418](https://github.com/the0neWhoKnocks/tv-renamer/commit/c35a418) Sanitize Season name for folder during rename

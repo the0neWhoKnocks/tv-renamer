@@ -34,7 +34,13 @@
 - [x] Preview may not be handling spaces and ampersands in file names.
   - `Carole and Tuesday s01e01`
   - `Carole & Tuesday s01e01` 
-
+- [x] It's not deleting parent folder `Veep S01-S06 (1080p x265 10bit BugsFunny) [UTR]`
+  after all files were moved successfully. Structure is
+  ```
+  Veep S01-S06 (1080p x265 10bit BugsFunny) [UTR]/S02/<files>
+  ```
+  So it seems it's not traversing to the root of source, just parent folder.
+  
 ---
 
 ## Config settings

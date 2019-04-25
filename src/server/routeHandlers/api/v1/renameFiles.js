@@ -71,14 +71,21 @@ export default ({ reqData, res }) => {
               };
               
               if(rootDir !== sourceFolder){
+                // in case files are nested within multiple folders, find the top-most folder in source
+                const nestedRoot = `${ sourceFolder }/${ rootDir.replace(sourceFolder, '').split('/')[1] }`;
+                
                 // only delete if there aren't other files that can be renamed
-                getFiles(rootDir, filesFilter)
+                getFiles(nestedRoot, filesFilter)
                   .then((files) => {
                     if(!files.length){
-                      rimraf(rootDir, { glob: false }, () => {
-                        log.deleted = `Deleted folder: "${ rootDir }"`;
-                        allDone();
-                      });
+                      try {
+                        lstatSync(nestedRoot);
+                        rimraf.sync(nestedRoot, { glob: false });
+                        log.deleted = `Deleted folder: "${ nestedRoot }"`;
+                      }
+                      catch(err) { /* no folder, don't care */ }
+                      
+                      allDone();
                     }
                     else{
                       allDone();

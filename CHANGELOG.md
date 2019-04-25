@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v1.6.3
+
+- [0712c54](https://github.com/the0neWhoKnocks/tv-renamer/commit/0712c54) Delete parent folder when nested
+
+---
+
 ## v1.6.2
 
 - [e84fbdf](https://github.com/the0neWhoKnocks/tv-renamer/commit/e84fbdf) chown doesn't work with Docker and Node

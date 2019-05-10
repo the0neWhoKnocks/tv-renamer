@@ -41,6 +41,7 @@
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
+    "@noxx/babel-plugin-a2rp": "^1.0.1",
     "@noxx/eslint-config": "^1.0.7",
     "@noxx/webpack-tidy-plugin": "^2.0.2",
     "babel-loader": "^8.0.5",

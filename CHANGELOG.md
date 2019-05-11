@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v1.6.4
+
+- [e60217b](https://github.com/the0neWhoKnocks/tv-renamer/commit/e60217b) Patched episode parsing
+- [bcb1941](https://github.com/the0neWhoKnocks/tv-renamer/commit/bcb1941) Brought in a2rp Babel plugin
+
+---
+
 ## v1.6.3
 
 - [0712c54](https://github.com/the0neWhoKnocks/tv-renamer/commit/0712c54) Delete parent folder when nested

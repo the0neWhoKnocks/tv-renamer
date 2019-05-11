@@ -33,7 +33,7 @@ import styles, {
 } from './styles';
 
 export const NAME_REGEX = /^([a-z1-9'.\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?s(\d{2})e(\d{2})/i;
-const MULTI_EPS_REGEX = /(?:e(\d{2}))/gi;
+const MULTI_EPS_REGEX = /(?:s\d{2}|-)(?:e(\d{2}))/gi;
 
 class App extends Component {
   static getPreviewItem(index, items) {
@@ -239,12 +239,17 @@ class App extends Component {
     const itemData = itemEl.dataset;
     const matches = name.match(NAME_REGEX);
     const epMatches = name.match(MULTI_EPS_REGEX) || [];
-    const episodes = epMatches.map((ep) => +ep.toLowerCase().replace('e', ''));
+    const episodes = [];
     const nameData = {
       id: +itemData.id,
       index: itemData.index,
       name,
     };
+    
+    epMatches.forEach((ep) => {
+      const _ep = ep.match(new RegExp(MULTI_EPS_REGEX.source, 'i'));
+      if(_ep) episodes.push(+_ep[1]);
+    });
     
     if(isNaN(nameData.id)) delete nameData.id;
     

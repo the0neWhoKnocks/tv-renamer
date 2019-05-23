@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v1.6.5
+
+- [6e66433](https://github.com/the0neWhoKnocks/tv-renamer/commit/6e66433) Sort file list alphabetically
+- [d1dd3f5](https://github.com/the0neWhoKnocks/tv-renamer/commit/d1dd3f5) Patched file names
+
+---
+
 ## v1.6.4
 
 - [e60217b](https://github.com/the0neWhoKnocks/tv-renamer/commit/e60217b) Patched episode parsing

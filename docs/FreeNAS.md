@@ -271,16 +271,16 @@ For now I just ran this while SSH'd into Rancher. Need to figure out how to
 make it permanent in the yml
 ```sh
 # make the dir first
-mkdir /media/_unwatched
+sudo mkdir /media/nfs_lib
 # then mounted the share
-sudo mount -t nfs4 192.168.1.11:/mnt/vol1/Library/Video/_unwatched /media/_unwatched
+sudo mount -t nfs4 192.168.1.11:/mnt/vol1/Library /media/nfs_lib
 ```
 
 First we'll want to finalize wiring up the nfs share that was created in the
 above FreeNAS steps. While SSH'd into Rancher, run this:
 ```sh
 # create the folder for the mount to bind to
-mkdir /media/<RANCHER_FOLDER>
+sudo mkdir /media/<RANCHER_FOLDER>
 # add the nfs mount to the config so it gets mounted when Rancher starts
 sudo ros config set mounts '[["192.168.1.11:/mnt/vol1/<FREENAS_NFS_PATH>", "/media/<RANCHER_FOLDER>", "nfs4", "nolock,proto=tcp,addr=192.168.1.11"]]'
 # reboot so the changes take effect
@@ -303,15 +303,15 @@ verify that the share in FreeNAS is allowing connections from Ranchers IP.
 - Go to `Containers`.
   - Click `Add Container`
     - Name: `tv-renamer`
-    - Image: `theonewhoknocks/tv-renamer:v1.0.0`
+    - Image: `theonewhoknocks/tv-renamer`
     - Port Mapping: (click "map additional port") button
       `[9001] -> [3001]`
     - `Advanced container settings`
       - Volumes (click "map additional volume") button (twice)
-        - Container: `/media/<RANCHER_FOLDER>` (select Bind)
-        - Host: `/media/<CONTAINER_FOLDER>` (writable)
+        - Container: `/media/<CONTAINER_FOLDER>` (select Bind)
+        - Host: `/media/<HOST_FOLDER>` (writable)
         - Container: `/home/node/app/.data` (select Bind)
-        - Volume: `/media/<CONTAINER_FOLDER>/_app_data/tv-renamer` (writable)
+        - Volume: `/media/<HOST_FOLDER>/Video/_unwatched/_app_data/tv-renamer` (writable)
     - Click `Deploy the container`
 
 The Renamer should now be available on `http://<IP>:9001/`

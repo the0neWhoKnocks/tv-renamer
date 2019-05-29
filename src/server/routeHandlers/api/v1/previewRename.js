@@ -78,7 +78,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
       }
       
       if(
-        name && season && episode
+        name && (season || season === 0) && episode
         && cache && cache.seasons && cache.seasons[season]
         && cache.seasons[season].episodes[episode]
       ){

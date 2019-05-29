@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v1.6.6
+
+- [24b99d4](https://github.com/the0neWhoKnocks/tv-renamer/commit/24b99d4) Account for Special season number being zero
+
+---
+
 ## v1.6.5
 
 - [6e66433](https://github.com/the0neWhoKnocks/tv-renamer/commit/6e66433) Sort file list alphabetically

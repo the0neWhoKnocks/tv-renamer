@@ -1,6 +1,16 @@
 # Changelog
 ---
 
+## v1.6.7
+
+- [0107c5a](https://github.com/the0neWhoKnocks/tv-renamer/commit/0107c5a) Patched release script
+- [52838ad](https://github.com/the0neWhoKnocks/tv-renamer/commit/52838ad) Updated Docker Compose to work more like it does in Prod
+- [12d9067](https://github.com/the0neWhoKnocks/tv-renamer/commit/12d9067) Updated doc
+- [6565a1c](https://github.com/the0neWhoKnocks/tv-renamer/commit/6565a1c) Bug - Extra whitespace for file names with colons
+- [f3401ca](https://github.com/the0neWhoKnocks/tv-renamer/commit/f3401ca) Upgrading Node caused a lock change
+
+---
+
 ## v1.6.6
 
 - [24b99d4](https://github.com/the0neWhoKnocks/tv-renamer/commit/24b99d4) Account for Special season number being zero

@@ -13,14 +13,13 @@ services:
       # The local port of 9000 will map to the containers exposed port 3001
       - "9000:3001"
     volumes:
-      # Creating/using a volume of `renamer-data` which points to the
-      # `/home/node/app/.data` folder on the container.
-      - "renamer-data:/home/node/app/.data"
+      # NOTE - To ensure data doesn't get wiped during a `purge`, using a
+      # bind-mount. While in Dev, Node maps to `dist/.data`, but when testing in
+      # Docker you'll have to copy that `.data` folder into `.ignore/` and then
+      # update `sourceFolder` & `outputFolder` in `.ignore/.data/config.json`
+      # to point to `/home/node/app/_temp_`.
+      - "${PWD}/.ignore/.data:/home/node/app/.data"
       # For testing purposes, using a bind-mount which is pointing to the
       # current repo's `.ignore/tmp` directory and mapping it to
       # `/home/node/app/_temp_`.
       - "${PWD}/.ignore/tmp:/home/node/app/_temp_"
-
-volumes:
-  renamer-data:
-    name: renamer-data

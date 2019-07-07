@@ -40,7 +40,8 @@
   Veep S01-S06 (1080p x265 10bit BugsFunny) [UTR]/S02/<files>
   ```
   So it seems it's not traversing to the root of source, just parent folder.
-  
+- [x] Extra space being added to file names that contain a colon.
+
 ---
 
 ## Config settings

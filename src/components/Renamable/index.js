@@ -265,7 +265,9 @@ class Renamable extends Component {
                 data-new-name={`${ newName }${ ext }`}
                 data-old-path={`${ path }/${ name }${ ext }`}
               >
-                {_newName}
+                <div className={`${ ROOT_CLASS }__new-name-text ${ newNameModifier }`}>
+                  {_newName}
+                </div>
                 {id && (
                   <nav className={`${ ROOT_CLASS }__nav`}>
                     <img src="/imgs/logo-tvdb.png" />

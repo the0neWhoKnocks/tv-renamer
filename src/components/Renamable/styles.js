@@ -89,6 +89,10 @@ export default css`
       padding: 0.5em 0.75em;
       background: #b5efcf;
       
+      &-text {
+        white-space: pre-wrap;
+      }
+      
       &.${ MODIFIER__WARNING } {
         color: #734b00;
         background: #fff1ab;

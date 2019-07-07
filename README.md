@@ -82,16 +82,22 @@ everything manually below. To skip having to enter a Docker password every time,
 create a `.dockercreds` file at the root of the repo and put your password in
 there.
 
-If you choose to go through the manual steps below, you **need** to also go
-through the above steps to ensure the image is built correctly.
-
+If something happens during the final stage of the release, you'll have to
+manually reset some things.
 ```sh
-# log in (so the image can be pushed)
-docker login -u=<USER> -p=<PASSWORD>
-# get the id of the latest build
-docker images
-# tag the image
-docker tag <CONTAINER_ID> theonewhoknocks/tv-renamer:v<SEM_VER>
-# push up the image
-docker push theonewhoknocks/tv-renamer:v<SEM_VER>
+# Reset the last commit
+git reset --soft HEAD~1
+# Verify that just release files will be reset. You should just see:
+# - `CHANGELOG.md`
+# - `package-lock.json`
+# - `package.json`
+git status
+# If the above is good, unstage those changes
+git reset
+# Reset changed files
+git checkout -- CHANGELOG.md package.json package-lock.json
+# Check if a git tag was created
+git tag | cat
+# If so, remove it
+git tag -d <TAG_NAME>
 ```

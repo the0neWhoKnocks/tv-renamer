@@ -161,7 +161,8 @@ if [[ "$bump" != "" ]]; then
   docker-compose down
   
   if [[ "$continueRelease" != "" ]]; then
-    LATEST_ID=$(docker images | grep -E "$DOCKER_USER/$APP_NAME.*latest" | awk -e '{print $3}')
+    LATEST_ID=$(docker images | grep -E "$DOCKER_USER/$APP_NAME.*latest" | awk '{print $3}')
+    handleError $? "Couldn't get latest image id"
     
     # log in (so the image can be pushed)
     docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"

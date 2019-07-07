@@ -77,7 +77,7 @@ docker-compose down
 
 ## Releasing
 
-You can simply run `./bin/release` and follow the steps. Or go through
+You can simply run `./bin/release.sh` and follow the steps. Or go through
 everything manually below. To skip having to enter a Docker password every time,
 create a `.dockercreds` file at the root of the repo and put your password in
 there.

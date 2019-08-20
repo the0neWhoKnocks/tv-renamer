@@ -126,7 +126,7 @@ class AssignId extends Component {
           <button
             className={`${ ROOT_CLASS }__confirm-btn`}
             onClick={this.handleChoiceClick}
-            disabled={(proccessing || !id)}
+            disabled={(proccessing || !id || idChanged)}
           >Confirm</button>
           <button
             className={`${ ROOT_CLASS }__assign-btn`}

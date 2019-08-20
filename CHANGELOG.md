@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v1.7.1
+
+- [665fa35](https://github.com/the0neWhoKnocks/tv-renamer/commit/665fa35) Don't allow Confirm & Assign buttons at the same time
+
+---
+
 ## v1.7.0
 
 - [20e2da9](https://github.com/the0neWhoKnocks/tv-renamer/commit/20e2da9) Ability to Assign TVDB id to Not Found items

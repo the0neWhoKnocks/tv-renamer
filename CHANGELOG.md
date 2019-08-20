@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v1.7.0
+
+- [20e2da9](https://github.com/the0neWhoKnocks/tv-renamer/commit/20e2da9) Ability to Assign TVDB id to Not Found items
+- [8a1c92c](https://github.com/the0neWhoKnocks/tv-renamer/commit/8a1c92c) Allow for generating files based off of filter argument
+
+---
+
 ## v1.6.7
 
 - [0107c5a](https://github.com/the0neWhoKnocks/tv-renamer/commit/0107c5a) Patched release script

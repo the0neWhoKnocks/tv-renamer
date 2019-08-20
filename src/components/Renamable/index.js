@@ -210,6 +210,50 @@ class Renamable extends Component {
       newNameModifier = MODIFIER__SKIPPED;
     }
     
+    const RenamableNav = () => {
+      const tvdbID = id || '';
+      const idBtnLabel = tvdbID || 'Assign';
+      
+      return (
+        <nav className={`${ ROOT_CLASS }__nav`}>
+          <img src="/imgs/logo-tvdb.png" />
+          <button
+            className={`${ ROOT_CLASS }__nav-item`}
+            onClick={this.handleIdClick}
+            value={tvdbID}
+          >{idBtnLabel}</button>
+          {seriesURL && (
+            <a
+              className={`${ ROOT_CLASS }__nav-item`}
+              href={seriesURL}
+              rel="noopener noreferrer"
+              target="_blank"
+            >View Series</a>
+          )}
+          {!!id && (
+            <Fragment>
+              <button
+                className={`${ ROOT_CLASS }__nav-item ${ MODIFIER__REFRESH }`}
+                onClick={this.handleUpdateClick}
+                value={tvdbID}
+              >
+                <SVG className={`${ ROOT_CLASS }__btn-icon`} icon={ICON__REFRESH} />
+                Cache
+              </button>
+              <Toggle
+                id={`${ slug }_toggle`}
+                className={`${ ROOT_CLASS }__nav-item ${ MODIFIER__TOGGLE }`}
+                onToggle={this.handleFolderToggle}
+                toggled={folderSelected}
+              >  
+                <SVG className={`${ ROOT_CLASS }__btn-icon`} icon={ICON__FOLDER} />
+              </Toggle>
+            </Fragment>
+          )}
+        </nav>
+      );
+    };
+    
     return (
       <div
         className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}
@@ -268,40 +312,7 @@ class Renamable extends Component {
                 <div className={`${ ROOT_CLASS }__new-name-text ${ newNameModifier }`}>
                   {_newName}
                 </div>
-                {id && (
-                  <nav className={`${ ROOT_CLASS }__nav`}>
-                    <img src="/imgs/logo-tvdb.png" />
-                    <button
-                      className={`${ ROOT_CLASS }__nav-item`}
-                      onClick={this.handleIdClick}
-                      value={id}
-                    >{id}</button>
-                    {seriesURL && (
-                      <a
-                        className={`${ ROOT_CLASS }__nav-item`}
-                        href={seriesURL}
-                        rel="noopener noreferrer"
-                        target="_blank"
-                      >View Series</a>
-                    )}
-                    <button
-                      className={`${ ROOT_CLASS }__nav-item ${ MODIFIER__REFRESH }`}
-                      onClick={this.handleUpdateClick}
-                      value={id}
-                    >
-                      <SVG className={`${ ROOT_CLASS }__btn-icon`} icon={ICON__REFRESH} />
-                      Cache
-                    </button>
-                    <Toggle
-                      id={`${ slug }_toggle`}
-                      className={`${ ROOT_CLASS }__nav-item ${ MODIFIER__TOGGLE }`}
-                      onToggle={this.handleFolderToggle}
-                      toggled={folderSelected}
-                    >  
-                      <SVG className={`${ ROOT_CLASS }__btn-icon`} icon={ICON__FOLDER} />
-                    </Toggle>
-                  </nav>
-                )}
+                <RenamableNav />
               </div>
             </Fragment>
           )}

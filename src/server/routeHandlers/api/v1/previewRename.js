@@ -72,8 +72,11 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
       const cache = _cacheData[index];
       let seriesURL, searchURL;
       
-      if(name && cache && cache.slug){
+      if(cache && cache.slug){
         seriesURL = TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug);
+      }
+      
+      if(name){
         searchURL = TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name));
       }
       
@@ -136,6 +139,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           error: 'Not enough data for a search',
           index,
           name: name || undefined,
+          searchURL,
         });
       }
     }

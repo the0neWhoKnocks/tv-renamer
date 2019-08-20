@@ -11,11 +11,15 @@ import styles, {
 } from './styles';
 
 class AssignId extends Component {
+  static normalizeId(id) {
+    return (id === 0) ? '' : ''+id;
+  }
+  
   constructor({ id, name }) {
     super();
     
     this.state = {
-      id,
+      id: AssignId.normalizeId(id),
       idChanged: false,
       normalizedName: name.toLowerCase(),
       proccessing: false,
@@ -46,8 +50,8 @@ class AssignId extends Component {
   }
   
   handleIdChange(ev) {
-    const id = +ev.currentTarget.value;
-    const idChanged = id !== this.props.id;
+    const id = AssignId.normalizeId(ev.currentTarget.value);
+    const idChanged = id !== AssignId.normalizeId(this.props.id);
     const state = {};
     
     if(id !== this.state.id) state.id = id;
@@ -122,7 +126,7 @@ class AssignId extends Component {
           <button
             className={`${ ROOT_CLASS }__confirm-btn`}
             onClick={this.handleChoiceClick}
-            disabled={proccessing}
+            disabled={(proccessing || !id)}
           >Confirm</button>
           <button
             className={`${ ROOT_CLASS }__assign-btn`}

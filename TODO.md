@@ -173,6 +173,7 @@
 - ‎[ ] Allow for DVD order preview
   - ‎If DVD order is present, create a separate DVD node with that order in the 
   series cache
+- [x] Ability to assign tvdb id to items with "no exact match found" - Kanata no astra
 
 ---
 

@@ -84,6 +84,8 @@
 
 ## Misc
 - [x] Script that generates test files
+  - [x] Allow for a `$1` filter, so during file generation it will only generate
+  a file if it matches that pattern.
 - [x] After build, remove files that don't need to be packaged.
 - [ ] See if there's a way to make BrowserSync stop retrying after X amount
       of time.

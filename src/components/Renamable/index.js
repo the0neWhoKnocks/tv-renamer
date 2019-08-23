@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { bool, func, number, string } from 'prop-types';
+import { bool, func, number, oneOfType, string } from 'prop-types';
 import SVG, {
   ICON__DELETE,
   ICON__FOLDER,
@@ -100,14 +100,12 @@ class Renamable extends Component {
       itemIndex,
       lookupName,
       onIdClick,
-      searchURL,
     } = this.props;
     
     onIdClick({
       id: +ev.currentTarget.value,
       index: itemIndex,
       lookupName,
-      searchURL,
     });
   }
   
@@ -173,6 +171,7 @@ class Renamable extends Component {
       id,
       idOverride,
       itemIndex,
+      lookupName,
       name,
       newName,
       path,
@@ -213,6 +212,8 @@ class Renamable extends Component {
     const RenamableNav = () => {
       const tvdbID = id || '';
       const idBtnLabel = tvdbID || 'Assign';
+      
+      if(!lookupName) return null;
       
       return (
         <nav className={`${ ROOT_CLASS }__nav`}>
@@ -326,7 +327,10 @@ Renamable.propTypes = {
   error: string,
   ext: string,
   folderSelected: bool,
-  id: number,
+  id: oneOfType([
+    number,
+    string,
+  ]),
   idOverride: number,
   itemIndex: number,
   lookupName: string,
@@ -340,7 +344,6 @@ Renamable.propTypes = {
   onUpdateClick: func,
   path: string,
   previewing: bool,
-  searchURL: string,
   selected: bool,
   seriesURL: string,
   skipped: bool,

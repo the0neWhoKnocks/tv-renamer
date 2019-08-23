@@ -41,6 +41,9 @@
   ```
   So it seems it's not traversing to the root of source, just parent folder.
 - [x] Extra space being added to file names that contain a colon.
+- [x] No Results 'Assign' crashes App if no name was passed to the Assign modal.
+No name was passed due to regex not matching pattern, in that case just use the
+file name...
 
 ---
 

@@ -3,6 +3,8 @@ import { func, number, string } from 'prop-types';
 import Indicator from 'COMPONENTS/Indicator';
 import {
   API__ASSIGN_ID,
+  TVDB_QUERY_URL,
+  TVDB__TOKEN__SERIES_QUERY,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
 import styles, {
@@ -15,6 +17,10 @@ class AssignId extends Component {
     return (id === 0) ? '' : ''+id;
   }
   
+  static genSearchURL(name) {
+    return TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name));
+  }
+  
   constructor({ id, name }) {
     super();
     
@@ -23,6 +29,7 @@ class AssignId extends Component {
       idChanged: false,
       normalizedName: name.toLowerCase(),
       proccessing: false,
+      searchURL: AssignId.genSearchURL(name),
     };
     
     this.handleChoiceClick = this.handleChoiceClick.bind(this);
@@ -41,7 +48,7 @@ class AssignId extends Component {
         body: JSON.stringify({ id, name: normalizedName }),
       })
         .then((idMappings) => {
-          onAssignSuccess({ id, idMappings, index });
+          onAssignSuccess({ id: +id, idMappings, index });
         })
         .catch((err) => {
           alert(err);
@@ -66,14 +73,13 @@ class AssignId extends Component {
   
   render() {
     const {
-      searchURL,
-    } = this.props;
-    const {
       id,
       idChanged,
       normalizedName,
       proccessing,
+      searchURL,
     } = this.state;
+    const textID = id || '_';
     let rootModifier = '';
     let assignDisabled = !idChanged;
     
@@ -111,13 +117,13 @@ class AssignId extends Component {
           {idChanged && (
             <Fragment>
               Any matches for <code>{normalizedName}</code> will use the TVDB
-              id <code>{id}</code> after you click Assign.
+              id <code>{textID}</code> after you click Assign.
             </Fragment>
           )}
           {!idChanged && (
             <Fragment>
               Any matches for <code>{normalizedName}</code> are using the TVDB
-              id <code>{id}</code>. If this is correct, click Confirm. If this
+              id <code>{textID}</code>. If this is correct, click Confirm. If this
               isn&apos;t correct, change the id and click Assign.
             </Fragment>
           )}
@@ -145,7 +151,6 @@ AssignId.propTypes = {
   index: number,
   name: string,
   onAssignSuccess: func,
-  searchURL: string,
 };
 
 export default AssignId;

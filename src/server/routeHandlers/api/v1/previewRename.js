@@ -1,9 +1,7 @@
 import {
   PUBLIC_SERIES_ID_CACHE_MAP,
-  TVDB_QUERY_URL,
   TVDB_SERIES_URL,
   TVDB__TOKEN__SERIES_SLUG,
-  TVDB__TOKEN__SERIES_QUERY,
 } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
@@ -70,14 +68,10 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
     if(nameObj){
       const { episode, episodes, index, name, season } = nameObj;
       const cache = _cacheData[index];
-      let seriesURL, searchURL;
+      let seriesURL;
       
       if(cache && cache.slug){
         seriesURL = TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug);
-      }
-      
-      if(name){
-        searchURL = TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name));
       }
       
       if(
@@ -92,7 +86,6 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           index,
           name: sanitizeName(newName),
           seriesName: cache.name,
-          searchURL,
         });
       }
       // could be a possible series mis-match or missing cache data
@@ -114,7 +107,6 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           index,
           name: cache.name,
           seriesURL,
-          searchURL,
         });
       }
       // could be a possible series mis-match
@@ -130,7 +122,6 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           index,
           name: cache.name,
           seriesURL,
-          searchURL,
         });
       }
       // missing data from Client
@@ -139,7 +130,6 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           error: 'Not enough data for a search',
           index,
           name: name || undefined,
-          searchURL,
         });
       }
     }

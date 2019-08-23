@@ -108,7 +108,6 @@ class App extends Component {
         data.error = previewItem.error;
         data.id = previewItem.id;
         data.newName = previewItem.name;
-        data.searchURL = previewItem.searchURL;
         data.seriesURL = previewItem.seriesURL;
         
         if(!useGlobalToggle && !data.error) data.selected = true;
@@ -235,7 +234,7 @@ class App extends Component {
   }
   
   buildPreviewData(itemEl) {
-    const name = itemEl.innerText;
+    const name = itemEl.innerText.replace(/\n/g, '');
     const itemData = itemEl.dataset;
     const matches = name.match(NAME_REGEX);
     const epMatches = name.match(MULTI_EPS_REGEX) || [];
@@ -510,12 +509,11 @@ class App extends Component {
     });
   }
   
-  handleIdOverrideClick({ id, index, lookupName, searchURL }) {
+  handleIdOverrideClick({ id, index, lookupName }) {
     this.setState({
       currentId: id,
       currentIndex: index,
       currentName: lookupName,
-      currentSearchURL: searchURL,
       showAssignId: true,
     });
   }
@@ -714,7 +712,6 @@ class App extends Component {
       currentId,
       currentIndex,
       currentName,
-      currentSearchURL,
       deletionIndex,
       deletionPath,
       files,
@@ -741,7 +738,6 @@ class App extends Component {
       index: currentIndex,
       name: currentName,
       onAssignSuccess: this.handleAssignIdSuccess,
-      searchURL: currentSearchURL,
     };
     const deleteProps = {
       filePath: deletionPath,

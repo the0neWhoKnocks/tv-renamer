@@ -1,6 +1,14 @@
 # Changelog
 ---
 
+## v1.8.0
+
+- [83f1522](https://github.com/the0neWhoKnocks/tv-renamer/commit/83f1522) Button to toggle all 'use folder' options in Renamable items
+- [7c54e12](https://github.com/the0neWhoKnocks/tv-renamer/commit/7c54e12) Better handling of 'No Results' id assignment
+- [d8cb31b](https://github.com/the0neWhoKnocks/tv-renamer/commit/d8cb31b) Patched error with getSeriesEpisodes request
+
+---
+
 ## v1.7.1
 
 - [665fa35](https://github.com/the0neWhoKnocks/tv-renamer/commit/665fa35) Don't allow Confirm & Assign buttons at the same time

@@ -9,6 +9,7 @@ import OverlayScreen from 'COMPONENTS/OverlayScreen';
 import Renamable, {
   ROOT_CLASS as RENAMABLE_ROOT_CLASS,
 } from 'COMPONENTS/Renamable';
+import SVG, { ICON__FOLDER } from 'COMPONENTS/SVG';
 import Toggle from 'COMPONENTS/Toggle';
 import Version from 'COMPONENTS/Version';
 import {
@@ -176,6 +177,7 @@ class App extends Component {
     
     this.logEndRef = React.createRef();
     
+    this.handleAllFoldersClick = this.handleAllFoldersClick.bind(this);
     this.handleAssignIdSuccess = this.handleAssignIdSuccess.bind(this);
     this.handleCacheUpdateClick = this.handleCacheUpdateClick.bind(this);
     this.handleConfigSave = this.handleConfigSave.bind(this);
@@ -381,6 +383,14 @@ class App extends Component {
       .then((config) => {
         this.setState({ config });
       });
+  }
+  
+  handleAllFoldersClick(ev) {
+    const files = this.state.files.map((file, ndx) => {
+      return { ...file, folderSelected: true };
+    });
+    
+    this.setState({ files });
   }
   
   handleAssignIdSuccess({ id, idMappings, index }) {
@@ -803,9 +813,17 @@ class App extends Component {
               >Select {globalTogglePronoun}</Toggle>
               <div className={`${ ROOT_CLASS }__items-nav-btns-wrapper`}>
                 <button
+                  disabled={!previewing}
+                  onClick={this.handleAllFoldersClick}
+                  htmlFor="folders"
+                >
+                  <SVG icon={ICON__FOLDER} />
+                </button>
+                <button
                   className={`${ (previewRequested) ? MODIFIER__INDICATOR : '' }`}
                   disabled={selectionCount === 0}
                   onClick={this.handlePreviewRename}
+                  htmlFor="preview"
                 >
                   Preview
                   <Indicator visible={previewRequested} />
@@ -814,6 +832,7 @@ class App extends Component {
                   className={`${ (renameRequested) ? MODIFIER__INDICATOR : '' }`}
                   disabled={!previewing}
                   onClick={this.handleRename}
+                  htmlFor="rename"
                 >
                   Rename {btnPronoun}
                   <Indicator visible={renameRequested} />

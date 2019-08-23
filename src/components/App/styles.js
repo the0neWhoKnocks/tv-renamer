@@ -80,10 +80,7 @@ export default css`
         background: transparent;
         outline: none;
         position: relative;
-        
-        &:nth-of-type(2) {
-          min-width: 10.5em;
-        }
+        vertical-align: top;
         
         &:hover {
           color: #fff;
@@ -95,6 +92,16 @@ export default css`
         
         &:disabled {
           opacity: 0.5;
+        }
+        
+        &[for="folders"] {
+          padding: 0 2em;
+          pointer-events: none;
+          opacity: 0;
+        }
+        
+        &[for="rename"] {
+          min-width: 10.5em;
         }
         
         &.${ MODIFIER__INDICATOR } {
@@ -151,7 +158,7 @@ export default css`
       &-items {
         height: 100%;
         padding: 0.25rem 0.25rem 1rem;
-        margin: 0 0.75rem 1rem 0.75rem;
+        margin: 0.25rem 0.75rem 1rem 0.75rem;
         overflow-y: auto;
       }
     }
@@ -243,6 +250,11 @@ export default css`
       
       &__items-nav-btns-wrapper {
         transform: translateX(0em);
+        
+        button[for="folders"] {
+          pointer-events: all;
+          opacity: 1;
+        }
       }
     }
   }

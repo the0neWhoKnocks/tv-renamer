@@ -82,6 +82,7 @@ file name...
     - [x] Just load this on demand so that it's not eating up memory on every
           load.
     - [x] Add toggle button to open or close this section.
+  - [x] Check all 'put in folder' buttons for all checked items.
 
 ---
 

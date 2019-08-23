@@ -39,5 +39,6 @@ export default ({ jwt, seriesID }) => new Promise((resolve, reject) => {
           
           resolve(episodes);
         });
-    });
+    })
+    .catch((tvdbErr) => { reject(tvdbErr); });
 });

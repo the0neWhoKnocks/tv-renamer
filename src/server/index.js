@@ -36,6 +36,10 @@ import requestHandler from './requestHandler';
 
 const port = +process.env.PORT || 3001;
 
+process.on('unhandledRejection', (err) => {
+  console.log('Unhandled Rejection at:', err.stack || err);
+});
+
 const inspectMiddleware = [];
 if( process.env.DEBUG ){
   // https://nodejs.org/api/inspector.html

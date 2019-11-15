@@ -382,6 +382,10 @@ class App extends Component {
     })
       .then((config) => {
         this.setState({ config });
+      })
+      .catch((err) => {
+        alert(err);
+        console.error(err);
       });
   }
   

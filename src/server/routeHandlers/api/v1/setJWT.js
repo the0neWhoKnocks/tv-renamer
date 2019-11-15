@@ -20,6 +20,17 @@ export default ({ reqData, res }) => {
     },
     (err, resp, data) => {
       if(err) handleError({ res }, resp.statusCode, err);
+      else if(data.Error){
+        let msg = `\n\ntheTVDB API says: "${ data.Error }"`;
+        
+        if(data.Error.includes('User Account')){
+          msg += '\n\nYou may want to head over to the TVDB dashboard and verify your info.';
+          msg += '\nUser Key: https://thetvdb.com/dashboard/account/editinfo';
+          msg += '\nAPI Key: https://thetvdb.com/dashboard/account/apikeys';
+        }
+        // https://thetvdb.com/dashboard/account/editinfo
+        handleError({ res }, resp.statusCode, `Could not set JWT ${ msg }`);
+      }
       else{
         const jwtDate = Date.now();
         const confData = {

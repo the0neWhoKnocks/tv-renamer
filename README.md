@@ -58,6 +58,8 @@ npm run build:appForDocker
 # Generates test folders/files to validate against. Folder will be mapped via
 # a `volume` during `docker-compose`.
 npm run gen:files
+# Generate specific files
+npm run gen:files "<TEXT_FROM_FILE_NAME>" "<TEXT_FROM_ANOTHER_FILE_NAME>"
 
 # Builds the image
 docker-compose build

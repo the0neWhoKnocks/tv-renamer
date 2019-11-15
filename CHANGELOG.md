@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v1.8.1
+
+- [fe3d403](https://github.com/the0neWhoKnocks/tv-renamer/commit/fe3d403) Patched Config error in Firefox
+- [cdffa28](https://github.com/the0neWhoKnocks/tv-renamer/commit/cdffa28) Error handling for missing JWT
+
+---
+
 ## v1.8.0
 
 - [83f1522](https://github.com/the0neWhoKnocks/tv-renamer/commit/83f1522) Button to toggle all 'use folder' options in Renamable items

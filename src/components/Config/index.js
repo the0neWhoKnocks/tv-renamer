@@ -16,6 +16,9 @@ import styles, {
 const formatTime = (timestamp) => new Date(timestamp)
   .toLocaleString('en-US', { timeZone: 'America/Los_Angeles' });
 
+const IS_FIREFOX = window.navigator.userAgent.includes('Firefox/');
+const READ_ONLY = (IS_FIREFOX) ? '-moz-read-only' : 'read-only';
+
 class Config extends Component {
   constructor() {
     super();
@@ -41,7 +44,7 @@ class Config extends Component {
   handleSaveClick() {
     const { onSaveComplete } = this.props;
     const data = {};
-    [...this.configRef.querySelectorAll(`.${ ITEM_ROOT_CLASS } input:not(:read-only)`)]
+    [...this.configRef.querySelectorAll(`.${ ITEM_ROOT_CLASS } input:not(:${ READ_ONLY })`)]
       .forEach(({ name, value }) => {
         data[name] = value;
       });
@@ -63,7 +66,7 @@ class Config extends Component {
       closeDisabled,
       saveDisabled,
     } = this.state;
-    const inputs = this.configRef.querySelectorAll(`.${ ITEM_ROOT_CLASS } input:not(:read-only)`);
+    const inputs = this.configRef.querySelectorAll(`.${ ITEM_ROOT_CLASS } input:not(:${ READ_ONLY })`);
     const state = {};
     let enableSave = false;
     let missingRequired = false;

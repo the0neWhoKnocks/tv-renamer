@@ -1,6 +1,14 @@
 # Changelog
 ---
 
+## v1.8.2
+
+- [21a5cd2](https://github.com/the0neWhoKnocks/tv-renamer/commit/21a5cd2) Added error log for series lookup
+- [f302116](https://github.com/the0neWhoKnocks/tv-renamer/commit/f302116) Removed error handler
+- [7387995](https://github.com/the0neWhoKnocks/tv-renamer/commit/7387995) Updated search URL to account for TVDB site updates
+
+---
+
 ## v1.8.1
 
 - [fe3d403](https://github.com/the0neWhoKnocks/tv-renamer/commit/fe3d403) Patched Config error in Firefox

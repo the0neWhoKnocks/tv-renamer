@@ -69,7 +69,7 @@ module.exports = {
   TMP,
   TMP_OUTPUT: `${ TMP }/output`,
   TMP_SRC: `${ TMP }/src`,
-  TVDB_QUERY_URL: `${ TVDB_URL }/search?q=${ TVDB__TOKEN__SERIES_QUERY }&l=en`,
+  TVDB_QUERY_URL: `${ TVDB_URL }/search?query=${ TVDB__TOKEN__SERIES_QUERY }`,
   TVDB_SERIES_URL: `${ TVDB_URL }/series/${ TVDB__TOKEN__SERIES_SLUG }`,
   TVDB_API__EPISODES_URL: `${ TVDB_API }/series/${ TVDB__TOKEN__SERIES_ID }/episodes?page=${ TVDB__TOKEN__PAGE_NUM }`,
   TVDB_API__LANGUAGES_URL: `${ TVDB_API }/languages`,

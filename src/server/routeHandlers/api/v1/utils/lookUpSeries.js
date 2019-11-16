@@ -82,7 +82,10 @@ export default ({ cache, cacheKey, id, index, jwt, seriesName: userSeriesName })
         .then((cache) => resolve(cache))
         .catch(({ err, possibleMatches, resp } = {}) => {
           let error = `Couldn't find exact match for series: "${ userSeriesName }"`;
-          if(resp) error += ` | ${ resp.statusCode } - ${ err }`;
+          if(resp){
+            error += ` | ${ resp.statusCode } - ${ err }`;
+            console.error('  [ERROR]', error);
+          }
           
           let payload = { error, index, name: userSeriesName };
           if(possibleMatches) payload.matches = possibleMatches;

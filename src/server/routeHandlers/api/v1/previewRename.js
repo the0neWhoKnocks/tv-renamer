@@ -217,10 +217,6 @@ export default ({ reqData, res }) => {
             
             Promise.all(pendingSeriesData)
               .then((cacheData) => {
-                if(cacheData && cacheData[0] && cacheData[0].error){
-                  throw new Error(cacheData[0].error);
-                }
-                
                 const _idMap = { ...idMap };
                 
                 cacheData.forEach((cacheItem) => {

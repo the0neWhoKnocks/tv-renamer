@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v1.8.3
+
+- [24775b8](https://github.com/the0neWhoKnocks/tv-renamer/commit/24775b8) Fixed overlapping trashcan icon
+
+---
+
 ## v1.8.2
 
 - [21a5cd2](https://github.com/the0neWhoKnocks/tv-renamer/commit/21a5cd2) Added error log for series lookup

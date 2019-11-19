@@ -123,6 +123,9 @@ class Renamable extends Component {
     const { itemIndex, onLookupNameChange } = this.props;
     const name = ev.currentTarget.innerText;
     
+    // reset scroll position, or else you may be left with a bunch of white space
+    ev.currentTarget.parentNode.scrollLeft = 0;
+    
     this.setState({ editingName: false }, () => {
       onLookupNameChange({
         index: itemIndex,
@@ -272,6 +275,7 @@ class Renamable extends Component {
             data-index={itemIndex}
             data-id={idOverride}
           >
+            
             {/*
               NOTE - Reasoning behind this layout https://stackoverflow.com/a/34445203/5156659.
               Basically I'm creating an "editable" mask, so that when webkit
@@ -292,7 +296,8 @@ class Renamable extends Component {
               >{name}</span>
               <span className={`${ ROOT_CLASS }__ce-fix-mask`} contentEditable suppressContentEditableWarning></span>
             </div>
-            <span>{ext}</span>
+          
+            <span className={`${ ROOT_CLASS }__name-ext`}>{ext}</span>
             
             <button
               className={`${ ROOT_CLASS }__delete-btn`}

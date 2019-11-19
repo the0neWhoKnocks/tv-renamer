@@ -50,12 +50,14 @@ export default css`
     }
     
     &__name {
-      overflow-x: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      padding: 0.5em 2.75em 0.5em 0.75em;
+      padding: 0.5em 0.75em;
       opacity: 0.5;
       position: relative;
+      display: flex;
+      
+      &-ext {
+        padding-right: 1.75em;
+      }
     }
     
     &__delete-btn {
@@ -70,6 +72,9 @@ export default css`
     }
     
     &__ce-fix {
+      overflow-x: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
       display: inline-block;
       position: relative;
       
@@ -207,8 +212,9 @@ export default css`
     
     .${ ROOT_CLASS } {
       
-      &__name {
+      &__ce-fix {
         overflow-x: auto;
+        overflow-y: hidden;
         text-overflow: unset;
       }
     }

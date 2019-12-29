@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v2.0.0
+
+- [c02bcaa](https://github.com/the0neWhoKnocks/tv-renamer/commit/c02bcaa) Account for series year and ignore Anime prefixes
+- [315af0c](https://github.com/the0neWhoKnocks/tv-renamer/commit/315af0c) Point TVDB API calls to v3.0.0
+
+---
+
 ## v1.8.3
 
 - [24775b8](https://github.com/the0neWhoKnocks/tv-renamer/commit/24775b8) Fixed overlapping trashcan icon

@@ -33,7 +33,7 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^([a-z1-9'.\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?s(\d{2})e(\d{2})/i;
+export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9'.\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\s-\s)?s(\d{2})e(\d{2})/i;
 const MULTI_EPS_REGEX = /(?:s\d{2}|-)(?:e(\d{2}))/gi;
 
 class App extends Component {
@@ -43,8 +43,14 @@ class App extends Component {
     return items.find((item) => item && +item.index === index);
   }
   
-  static parseLookupName(name) {
-    return name.toLowerCase().replace(/\./g, ' ').trim();
+  static parseLookupName(name, year) {
+    const parsedName = name.toLowerCase()
+      .replace(/\./g, ' ')
+      .replace(/ -/g, '')
+      .trim();
+    const seriesYear = (year && +year) ? ` ${ year }` : '';
+    
+    return `${ parsedName }${ seriesYear }`;
   }
   
   static renamableFilter({ error, index, selected, skipped }) {
@@ -72,7 +78,7 @@ class App extends Component {
     const nameMatch = name.match(NAME_REGEX) || [];
     
     if(nameMatch[1]){
-      data.lookupName = App.parseLookupName(nameMatch[1]);
+      data.lookupName = App.parseLookupName(nameMatch[1], nameMatch[2]);
       
       if(idMappings[data.lookupName]){
         data.idOverride = +idMappings[data.lookupName];
@@ -257,10 +263,10 @@ class App extends Component {
     return (matches)
       ? {
         ...nameData,
-        episode: matches[3] && +matches[3],
+        episode: matches[4] && +matches[4],
         episodes: episodes,
-        name: matches[1] && App.parseLookupName(matches[1]),
-        season: matches[2] && +matches[2],
+        name: matches[1] && App.parseLookupName(matches[1], matches[2]),
+        season: matches[3] && +matches[3],
       }
       : nameData;
   }

@@ -76,7 +76,7 @@ module.exports = {
   TVDB_API__LOGIN_URL: `${ TVDB_API }/login`,
   TVDB_API__SERIES: `${ TVDB_API }/series/${ TVDB__TOKEN__SERIES_ID }`,
   TVDB_API__SERIES_SEARCH: `${ TVDB_API }/search/series?name=${ TVDB__TOKEN__SERIES_NAME }`,
-  TVDB_API__VERSION_HEADER: 'application/vnd.thetvdb.v2.2.0',
+  TVDB_API__VERSION_HEADER: 'application/vnd.thetvdb.v3.0.0',
   TVDB__TOKEN__PAGE_NUM,
   TVDB__TOKEN__SERIES_ID,
   TVDB__TOKEN__SERIES_NAME,

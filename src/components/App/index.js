@@ -33,8 +33,8 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9'.\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\s-\s)?s(\d{2})e(\d{2})/i;
-const MULTI_EPS_REGEX = /(?:s\d{2}|-)(?:e(\d{2}))/gi;
+export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9'.\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
+const MULTI_EPS_REGEX = /(?:s\d{2}|-)(?:e(\d{2,3}))/gi;
 
 class App extends Component {
   static getPreviewItem(index, items) {

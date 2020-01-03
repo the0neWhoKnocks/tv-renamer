@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v2.1.0
+
+- [f9c5467](https://github.com/the0neWhoKnocks/tv-renamer/commit/f9c5467) Handle episode numbers in the hundreds
+
+---
+
 ## v2.0.0
 
 - [c02bcaa](https://github.com/the0neWhoKnocks/tv-renamer/commit/c02bcaa) Account for series year and ignore Anime prefixes

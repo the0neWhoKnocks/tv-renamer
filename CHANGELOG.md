@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v2.2.0
+
+- [ea95ef7](https://github.com/the0neWhoKnocks/tv-renamer/commit/ea95ef7) Added timeouts to account for flakey TVDB API calls
+- [c55074e](https://github.com/the0neWhoKnocks/tv-renamer/commit/c55074e) Ensure look-ups don't occur if JWT couldn't be found
+
+---
+
 ## v2.1.0
 
 - [f9c5467](https://github.com/the0neWhoKnocks/tv-renamer/commit/f9c5467) Handle episode numbers in the hundreds

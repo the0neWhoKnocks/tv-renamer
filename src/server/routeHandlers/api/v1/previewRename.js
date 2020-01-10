@@ -205,39 +205,40 @@ export default ({ reqData, res }) => {
             if(!jwt){
               handleError({ res }, 500, 'No `jwt` found. Unable to make requests to TVDB');
             }
-            
-            const pendingSeriesData = uniqueNames.map(
-              ({ id, index, name }, ndx) => lookUpSeries({
-                cache, 
-                cacheKey: (_cachedItems[ndx]) ? _cachedItems[ndx].cacheKey : undefined, 
-                id, index, jwt, res,
-                seriesName: name,
-              })
-            );
-            
-            Promise.all(pendingSeriesData)
-              .then((cacheData) => {
-                const _idMap = { ...idMap };
-                
-                cacheData.forEach((cacheItem) => {
-                  if(cacheItem.cache) _idMap[cacheItem.cache.id] = cacheItem.cache.cacheKey;
+            else{
+              const pendingSeriesData = uniqueNames.map(
+                ({ id, index, name }, ndx) => lookUpSeries({
+                  cache, 
+                  cacheKey: (_cachedItems[ndx]) ? _cachedItems[ndx].cacheKey : undefined, 
+                  id, index, jwt, res,
+                  seriesName: name,
+                })
+              );
+              
+              Promise.all(pendingSeriesData)
+                .then((cacheData) => {
+                  const _idMap = { ...idMap };
+                  
+                  cacheData.forEach((cacheItem) => {
+                    if(cacheItem.cache) _idMap[cacheItem.cache.id] = cacheItem.cache.cacheKey;
+                  });
+                  
+                  saveFile({
+                    data: _idMap,
+                    file: PUBLIC_SERIES_ID_CACHE_MAP,
+                    res,
+                    cb: () => {
+                      jsonResp(
+                        res,
+                        getEpNamesFromCache({ cacheData, idMap, names })
+                      );
+                    },
+                  });
+                })
+                .catch((err) => {
+                  handleError({ res }, 500, err);
                 });
-                
-                saveFile({
-                  data: _idMap,
-                  file: PUBLIC_SERIES_ID_CACHE_MAP,
-                  res,
-                  cb: () => {
-                    jsonResp(
-                      res,
-                      getEpNamesFromCache({ cacheData, idMap, names })
-                    );
-                  },
-                });
-              })
-              .catch((err) => {
-                handleError({ res }, 500, err);
-              });
+            }
           });
         }
       });

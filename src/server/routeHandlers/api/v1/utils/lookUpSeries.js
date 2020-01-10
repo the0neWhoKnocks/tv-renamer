@@ -2,6 +2,7 @@ import convertNameToSlug from './convertNameToSlug';
 import getSeries from './getSeries';
 import getSeriesId from './getSeriesId';
 import lookUpEpisodes from './lookUpEpisodes';
+import timeoutCodeCheck from './timeoutCodeCheck';
 
 export default ({ cache, cacheKey, id, index, jwt, seriesName: userSeriesName }) => new Promise(
   (resolve, reject) => {
@@ -81,7 +82,9 @@ export default ({ cache, cacheKey, id, index, jwt, seriesName: userSeriesName })
         .then((opts) => lookUpEpisodes(opts))
         .then((cache) => resolve(cache))
         .catch(({ err, possibleMatches, resp } = {}) => {
-          let error = `Couldn't find exact match for series: "${ userSeriesName }"`;
+          let error = timeoutCodeCheck(err)
+            ? `Request timed out for series look-up: "${ userSeriesName }"`
+            : `Couldn't find exact match for series: "${ userSeriesName }"`;
           if(resp){
             error += ` | ${ resp.statusCode } - ${ err }`;
             console.error('  [ERROR]', error);

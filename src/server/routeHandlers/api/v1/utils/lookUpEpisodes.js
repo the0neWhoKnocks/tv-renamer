@@ -1,5 +1,6 @@
 import cacheData from './cacheData';
 import getSeriesEpisodes from './getSeriesEpisodes';
+import timeoutCodeCheck from './timeoutCodeCheck';
 
 export default ({ index, jwt, seriesID, seriesName, seriesSlug }) => new Promise(
   (resolve, reject) => {
@@ -31,7 +32,9 @@ export default ({ index, jwt, seriesID, seriesName, seriesSlug }) => new Promise
       })
       .catch(({ err, resp }) => {
         resolve({
-          error: `Couldn't get episodes for: "${ seriesName }" | ${ resp.statusCode } - ${ err }`,
+          error: timeoutCodeCheck(err)
+            ? `Episode lookup-up timed out for: "${ seriesName }"`
+            : `Couldn't get episodes for: "${ seriesName }" | ${ resp.statusCode } - ${ err }`,
           name: seriesName,
         });
       });

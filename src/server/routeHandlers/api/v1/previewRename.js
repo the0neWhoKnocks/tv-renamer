@@ -51,12 +51,16 @@ const buildEpTitle = (seasons, season, episodes) => {
 const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
   const renamed = [];
   const _cacheData = {};
+  const _errors = {};
   
   // build out a look-up table that's easier to reference
   cacheData.forEach((cacheItem) => {
     if(cacheItem.error && cacheItem.matches){
       const item = cacheItem.matches[0];
       _cacheData[cacheItem.index] = item;
+    }
+    else if(cacheItem.error && cacheItem.index){
+      _errors[cacheItem.index] = cacheItem.error;
     }
     else if(cacheItem.index){
       _cacheData[cacheItem.index] = cacheItem.cache;
@@ -68,13 +72,21 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
     if(nameObj){
       const { episode, episodes, index, name, season } = nameObj;
       const cache = _cacheData[index];
+      const error = _errors[index];
       let seriesURL;
       
       if(cache && cache.slug){
         seriesURL = TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug);
       }
       
-      if(
+      if(error){
+        renamed.push({
+          error,
+          index,
+          name: name || undefined,
+        });
+      }
+      else if(
         name && (season || season === 0) && episode
         && cache && cache.seasons && cache.seasons[season]
         && cache.seasons[season].episodes[episode]

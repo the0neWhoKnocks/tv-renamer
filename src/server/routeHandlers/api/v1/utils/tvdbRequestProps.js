@@ -12,5 +12,6 @@ export default ({ jwt } = {}) => {
   return {
     headers,
     json: true,
+    timeout: 3000, // 3 seconds
   };  
 };

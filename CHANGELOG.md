@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v2.2.1
+
+- [d421344](https://github.com/the0neWhoKnocks/tv-renamer/commit/d421344) Handle timeout for JWT request
+
+---
+
 ## v2.2.0
 
 - [ea95ef7](https://github.com/the0neWhoKnocks/tv-renamer/commit/ea95ef7) Added timeouts to account for flakey TVDB API calls

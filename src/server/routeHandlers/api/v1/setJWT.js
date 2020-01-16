@@ -3,6 +3,7 @@ import { TVDB_API__LOGIN_URL } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
 import saveConfig from './utils/saveConfig';
+import timeoutCodeCheck from './utils/timeoutCodeCheck';
 import tvdbRequestProps from './utils/tvdbRequestProps';
 
 export default ({ reqData, res }) => {
@@ -19,7 +20,13 @@ export default ({ reqData, res }) => {
       ...tvdbRequestProps(),
     },
     (err, resp, data) => {
-      if(err) handleError({ res }, resp.statusCode, err);
+      if(err){
+        handleError(
+          { res },
+          timeoutCodeCheck(err) ? 408 : resp.statusCode,
+          err
+        );
+      }
       else if(data.Error){
         let msg = `\n\ntheTVDB API says: "${ data.Error }"`;
         

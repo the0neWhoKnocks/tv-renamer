@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v2.3.0
+
+- [8461c55](https://github.com/the0neWhoKnocks/tv-renamer/commit/8461c55) Added 'DVD order' option for episode names
+
+---
+
 ## v2.2.1
 
 - [d421344](https://github.com/the0neWhoKnocks/tv-renamer/commit/d421344) Handle timeout for JWT request

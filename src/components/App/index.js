@@ -160,6 +160,7 @@ class App extends Component {
       config: undefined,
       deletionIndex: undefined,
       deletionPath: undefined,
+      dvdPreviewRequested: false,
       files: [],
       idMappings: {},
       loaded: false,
@@ -559,11 +560,18 @@ class App extends Component {
     };
   }
   
-  handlePreviewRename() {
+  handlePreviewRename(ev) {
     const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__name`);
     const names = [...items].map(this.buildPreviewData);
+    const useDVDOrder = ev.currentTarget.getAttribute('for').includes('dvd');
     
-    this.previewRename(names);
+    if(useDVDOrder){
+      names.forEach((data, ndx) => {
+        names[ndx].useDVDOrder = true;
+      });
+    }
+    
+    this.previewRename(names, undefined, useDVDOrder);
   }
   
   handleOpenConfig() {
@@ -660,11 +668,14 @@ class App extends Component {
     this.setState({ showVersion: true });
   }
   
-  previewRename(names, cb) {
+  previewRename(names, cb, useDVDOrder) {
     // show indicator if request is taking too long
     this.previewRequestTimer = setTimeout(() => {
       delete this.previewRequestTimer;
-      this.setState({ previewRequested: true });
+      this.setState({
+        dvdPreviewRequested: useDVDOrder,
+        previewRequested: !useDVDOrder,
+      });
     }, 300);
     
     fetch(API__PREVIEW_RENAME, {
@@ -708,6 +719,7 @@ class App extends Component {
         
         this.setState({
           allSelected: transformedItems.allSelected,
+          dvdPreviewRequested: false,
           files: transformedItems.files,
           previewing,
           previewItems: _previewItems,
@@ -721,7 +733,10 @@ class App extends Component {
       })
       .catch((err) => {
         alert(err);
-        this.setState({ previewRequested: false });
+        this.setState({
+          dvdPreviewRequested: false,
+          previewRequested: false,
+        });
       });
   }
   
@@ -734,6 +749,7 @@ class App extends Component {
       currentName,
       deletionIndex,
       deletionPath,
+      dvdPreviewRequested,
       files,
       loaded,
       logs,
@@ -828,6 +844,15 @@ class App extends Component {
                   htmlFor="folders"
                 >
                   <SVG icon={ICON__FOLDER} />
+                </button>
+                <button
+                  className={`${ (dvdPreviewRequested) ? MODIFIER__INDICATOR : '' }`}
+                  disabled={selectionCount === 0}
+                  onClick={this.handlePreviewRename}
+                  htmlFor="dvdPreview"
+                >
+                  DVD Preview
+                  <Indicator visible={dvdPreviewRequested} />
                 </button>
                 <button
                   className={`${ (previewRequested) ? MODIFIER__INDICATOR : '' }`}

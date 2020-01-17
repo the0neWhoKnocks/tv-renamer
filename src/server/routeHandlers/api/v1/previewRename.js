@@ -70,14 +70,17 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
   // get all the episode names
   names.forEach((nameObj) => {
     if(nameObj){
-      const { episode, episodes, index, name, season } = nameObj;
+      const { episode, episodes, index, name, season, useDVDOrder } = nameObj;
       const cache = _cacheData[index];
       const error = _errors[index];
       let seriesURL;
+      let cachedSeasons;
       
       if(cache && cache.slug){
         seriesURL = TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug);
       }
+      
+      if(cache) cachedSeasons = useDVDOrder ? cache.dvdSeasons : cache.seasons;
       
       if(error){
         renamed.push({
@@ -88,10 +91,10 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
       }
       else if(
         name && (season || season === 0) && episode
-        && cache && cache.seasons && cache.seasons[season]
-        && cache.seasons[season].episodes[episode]
+        && cachedSeasons && cachedSeasons[season]
+        && cachedSeasons[season].episodes[episode]
       ){
-        const newName = `${ cache.name } - ${ season }${ buildEpNums(episodes) } - ${ buildEpTitle(cache.seasons, season, episodes) }`;
+        const newName = `${ cache.name } - ${ season }${ buildEpNums(episodes) } - ${ buildEpTitle(cachedSeasons, season, episodes) }`;
           
         renamed.push({
           id: cache.id,
@@ -104,11 +107,11 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
       else if(cache && season && episode){
         let errMsg = 'Possible series mis-match';
         
-        if(cache.seasons){
-          if(!cache.seasons[season]){
+        if(cachedSeasons){
+          if(!cachedSeasons[season]){
             errMsg = `Missing season "${ season }" data in cache`;
           }
-          else if(!cache.seasons[season].episodes[episode]){
+          else if(!cachedSeasons[season].episodes[episode]){
             errMsg = `Missing episode "${ episode }" data in cache`;
           }
         }

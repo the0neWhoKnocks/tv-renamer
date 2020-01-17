@@ -5,6 +5,7 @@ import timeoutCodeCheck from './timeoutCodeCheck';
 export default ({ index, jwt, seriesID, seriesName, seriesSlug }) => new Promise(
   (resolve, reject) => {
     const cache = {
+      dvdSeasons: {},
       id: seriesID,
       name: seriesName,
       seasons: {},
@@ -17,6 +18,8 @@ export default ({ index, jwt, seriesID, seriesName, seriesSlug }) => new Promise
           const {
             airedSeason,
             airedEpisodeNumber,
+            dvdEpisodeNumber,
+            dvdSeason,
             episodeName,
           } = episodes[i];
           
@@ -25,6 +28,14 @@ export default ({ index, jwt, seriesID, seriesName, seriesSlug }) => new Promise
           
           const currSeasonEps = cache.seasons[airedSeason].episodes;
           currSeasonEps[airedEpisodeNumber] = episodeName;
+          
+          if(dvdSeason !== null && !cache.dvdSeasons[dvdSeason])
+            cache.dvdSeasons[dvdSeason] = { episodes: [] };
+          
+          if(dvdSeason !== null){
+            const currDvdSeasonEps = cache.dvdSeasons[dvdSeason].episodes;
+            currDvdSeasonEps[dvdEpisodeNumber] = episodeName;
+          }
         }
         
         cacheData({ data: cache })

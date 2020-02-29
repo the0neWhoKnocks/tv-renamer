@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v2.4.0
+
+- [f4bfed8](https://github.com/the0neWhoKnocks/tv-renamer/commit/f4bfed8) Expanded Multi-Episode Parsing
+
+---
+
 ## v2.3.0
 
 - [8461c55](https://github.com/the0neWhoKnocks/tv-renamer/commit/8461c55) Added 'DVD order' option for episode names

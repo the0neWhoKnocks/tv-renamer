@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v2.5.0
+
+- [1560481](https://github.com/the0neWhoKnocks/tv-renamer/commit/1560481) Added Timeout Logging to Server
+
+---
+
 ## v2.4.0
 
 - [f4bfed8](https://github.com/the0neWhoKnocks/tv-renamer/commit/f4bfed8) Expanded Multi-Episode Parsing

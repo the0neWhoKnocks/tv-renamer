@@ -7,12 +7,14 @@ import tvdbRequestProps from './tvdbRequestProps';
 import tvdbResponseHandler from './tvdbResponseHandler';
 
 export default ({ jwt, name }) => new Promise((resolve, reject) => {
+  const reqURL = TVDB_API__SERIES_SEARCH.replace(
+    TVDB__TOKEN__SERIES_NAME,
+    encodeURIComponent(name)
+  );
+  const reqOpts = { ...tvdbRequestProps({ jwt }) };
+  
   request.get(
-    TVDB_API__SERIES_SEARCH.replace(
-      TVDB__TOKEN__SERIES_NAME,
-      encodeURIComponent(name)
-    ),
-    { ...tvdbRequestProps({ jwt }) },
-    tvdbResponseHandler(resolve, reject)
+    reqURL, reqOpts,
+    tvdbResponseHandler(resolve, reject, { reqOpts, reqURL })
   );
 });

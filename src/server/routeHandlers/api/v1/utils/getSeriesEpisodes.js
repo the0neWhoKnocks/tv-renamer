@@ -9,12 +9,14 @@ import tvdbResponseHandler from './tvdbResponseHandler';
 
 const requestPageOfEpisodes = ({ jwt, pageNum = 1, seriesID }) => new Promise(
   (resolve, reject) => {
+    const reqURL = TVDB_API__EPISODES_URL
+      .replace(TVDB__TOKEN__SERIES_ID, seriesID)
+      .replace(TVDB__TOKEN__PAGE_NUM, pageNum);
+    const reqOpts = { ...tvdbRequestProps({ jwt }) };
+    
     request.get(
-      TVDB_API__EPISODES_URL
-        .replace(TVDB__TOKEN__SERIES_ID, seriesID)
-        .replace(TVDB__TOKEN__PAGE_NUM, pageNum),
-      { ...tvdbRequestProps({ jwt }) },
-      tvdbResponseHandler(resolve, reject)
+      reqURL, reqOpts,
+      tvdbResponseHandler(resolve, reject, { reqOpts, reqURL })
     );
   }
 );

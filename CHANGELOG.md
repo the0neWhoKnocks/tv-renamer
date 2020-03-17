@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v2.6.0
+
+- [0486e9f](https://github.com/the0neWhoKnocks/tv-renamer/commit/0486e9f) Remove duplicate ids when a user assigns an id
+
+---
+
 ## v2.5.0
 
 - [1560481](https://github.com/the0neWhoKnocks/tv-renamer/commit/1560481) Added Timeout Logging to Server

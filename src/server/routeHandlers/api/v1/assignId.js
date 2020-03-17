@@ -7,14 +7,22 @@ export default ({ reqData, res }) => {
   loadSeriesIds((ids) => {
     const { id, name } = reqData;
     
+    // iterate existing ids and delete a duplicate if it exists
+    const parsedIds = Object.keys(ids).reduce((_ids, id) => {
+      const names = ids[id].filter(n => n !== name);
+      // only add the id if the parsed value still has names
+      if(names.length) _ids[id] = names;
+      return _ids;
+    }, {});
+    
     // IF the id already exists, add to Array
-    if(ids[id] && ids[id].indexOf(name) < 0) ids[id].push(name);
+    if(parsedIds[id] && parsedIds[id].indexOf(name) < 0) parsedIds[id].push(name);
     // ELSE create new item
-    else if(!ids[id]) ids[id] = [name];
+    else if(!parsedIds[id]) parsedIds[id] = [name];
     
     saveFile({
-      cb: () => jsonResp(res, ids),
-      data: ids,
+      cb: () => jsonResp(res, parsedIds),
+      data: parsedIds,
       file: PUBLIC_SERIES_ID_MAP,
       res,
     });

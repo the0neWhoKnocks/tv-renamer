@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v2.6.1
+
+- [f1d5a2c](https://github.com/the0neWhoKnocks/tv-renamer/commit/f1d5a2c) Ensure new folders don't end in a dot
+
+---
+
 ## v2.6.0
 
 - [0486e9f](https://github.com/the0neWhoKnocks/tv-renamer/commit/0486e9f) Remove duplicate ids when a user assigns an id

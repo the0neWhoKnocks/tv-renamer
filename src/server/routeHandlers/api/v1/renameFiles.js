@@ -31,7 +31,7 @@ export default ({ reqData, res }) => {
         
         // Move to a series folder (if specified)
         if(moveToFolder){
-          _outputFolder = `${ outputFolder }/${ sanitizeName(moveToFolder) }`;
+          _outputFolder = `${ outputFolder }/${ sanitizeName(moveToFolder, true) }`;
           
           // if folder exists don't do anything
           try { lstatSync(_outputFolder); }

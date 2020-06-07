@@ -1,6 +1,14 @@
 # Changelog
 ---
 
+## v2.7.0
+
+- [053d52f](https://github.com/the0neWhoKnocks/tv-renamer/commit/053d52f) feat: Updated styling of 'Deleted folder' log to be more intuitive
+- [44fa38f](https://github.com/the0neWhoKnocks/tv-renamer/commit/44fa38f) fix: Unhandled rejection after renames in nested directories
+- [fcd8805](https://github.com/the0neWhoKnocks/tv-renamer/commit/fcd8805) Added debug logging for possible timeout scenario
+
+---
+
 ## v2.6.1
 
 - [f1d5a2c](https://github.com/the0neWhoKnocks/tv-renamer/commit/f1d5a2c) Ensure new folders don't end in a dot

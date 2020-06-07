@@ -15,13 +15,13 @@ const LogItem = ({
     <div className={`${ ROOT_CLASS }__body`}>
       {!error && (
         <Fragment>
+          <div className={`${ ROOT_CLASS }__to`}>{to}</div>
           {deleted && (
             <div className={`${ ROOT_CLASS }__deleted`}>
-              <span className={`${ ROOT_CLASS }__deleted-icon`}>&times;</span>
+              <span className={`${ ROOT_CLASS }__deleted-icon`}>&#x2713;</span>
               {deleted}
             </div>
           )}
-          <div className={`${ ROOT_CLASS }__to`}>{to}</div>
         </Fragment>
       )}
       {error && (

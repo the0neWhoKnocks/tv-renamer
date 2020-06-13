@@ -5,8 +5,10 @@ import mkdirp from 'mkdirp';
 import rimraf from 'rimraf';
 import { PUBLIC_RENAME_LOG } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
+import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'SERVER/utils/jsonResp';
 import saveFile from 'SERVER/utils/saveFile';
+import filesFilter from './utils/filesFilter';
 import loadConfig from './utils/loadConfig';
 import loadRenameLog from './utils/loadRenameLog';
 import moveFile from './utils/moveFile';
@@ -59,14 +61,15 @@ export default ({ reqData, res }) => {
               from: oldPath,
               to: `${ _outputFolder }/${ newName }`,
             };
-            const cb = (d, err) => {
+            const cb = async (d, moveErr) => {
               const log = { ...d, time: Date.now() };
               const rootDir = parse(oldPath).dir;
               
-              if(!err) pendingNames.splice(pendingNames.indexOf(d.from), 1);
+              if(!moveErr) pendingNames.splice(pendingNames.indexOf(d.from), 1);
               
-              const allDone = () => {
-                if(err) log.error = err.message;
+              const allDone = (err) => {
+                if(moveErr) log.error = moveErr.message;
+                else if(err) log.error = err.message;
                 newLogs.push(log);
                 mappedLogs[index] = log;
                 
@@ -77,18 +80,27 @@ export default ({ reqData, res }) => {
                 // in case files are nested within multiple folders, find the top-most folder in source
                 const nestedRoot = `${ sourceFolder }/${ rootDir.replace(sourceFolder, '').split('/')[1] }`;
                 
-                // only delete if there are no pending renames
-                if(!pendingNames.length){
-                  try {
-                    lstatSync(nestedRoot);
-                    rimraf.sync(nestedRoot, { glob: false });
-                    log.deleted = `Deleted folder: "${ nestedRoot }"`;
+                try {
+                  // only delete the parent folder IF there are no pending renames
+                  if(!pendingNames.length){
+                    const files = await getFiles(nestedRoot, filesFilter);
+                    
+                    // only delete the parent folder IF there are no remaining
+                    // files (which may happen if a User chose to only rename
+                    // one file in folder)
+                    if(!files.length) {
+                      try {
+                        lstatSync(nestedRoot);
+                        rimraf.sync(nestedRoot, { glob: false });
+                        log.deleted = `Deleted folder: "${ nestedRoot }"`;
+                      }
+                      catch(err) { /* no folder, don't care about the error */ }
+                    }
                   }
-                  catch(err) { /* no folder, don't care */ }
-                  
+
                   allDone();
                 }
-                else allDone();
+                catch(err) { allDone(err); }
               }
               else allDone();
             };

@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v2.7.1
+
+- [4b0191f](https://github.com/the0neWhoKnocks/tv-renamer/commit/4b0191f) fix: Nested files deleted after one file is renamed
+
+---
+
 ## v2.7.0
 
 - [053d52f](https://github.com/the0neWhoKnocks/tv-renamer/commit/053d52f) feat: Updated styling of 'Deleted folder' log to be more intuitive

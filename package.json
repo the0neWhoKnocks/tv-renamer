@@ -16,13 +16,11 @@
     "start": "npm run build:appForDocker && cross-env NODE_ENV=production npm run start:server",
     "start:dev": "npm run build:dist && cross-env DEBUG=true PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",
     "start:server": "node $npm_package_paths_babelOutput/server",
-    "test": "npm run lint && npm run unit",
+    "test": "npm run lint",
     "transpile": "babel $npm_package_paths_babelSource -d $npm_package_paths_babelOutput --verbose",
-    "unit": "jest --env=jsdom --config ./.jest/conf.jest.js",
     "watch:app": "cross-env MODE=development webpack --watch",
     "watch:server": "babel-node ./src/server/watcher",
-    "watch:transpile": "npm run transpile -- --skip-initial-build --watch",
-    "watch:unit": "npm run unit -- --watchAll"
+    "watch:transpile": "npm run transpile -- --skip-initial-build --watch"
   },
   "repository": {
     "type": "git",
@@ -56,7 +54,6 @@
     "enzyme-adapter-react-16": "^1.7.0",
     "eslint-plugin-require-jsdoc-except": "^1.3.0",
     "fs-extra": "^7.0.1",
-    "jest": "^24.1.0",
     "nodemon": "^1.18.10",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",

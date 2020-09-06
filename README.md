@@ -62,10 +62,10 @@ npm run gen:files
 npm run gen:files "<TEXT_FROM_FILE_NAME>" "<TEXT_FROM_ANOTHER_FILE_NAME>"
 
 # Builds the image
-docker-compose build
+docker-compose build tv-renamer
 
 # Run the new image
-docker-compose up -d
+docker-compose up -d tv-renamer
 
 # Verify the image is up and running. If it's not, you'll see "Exited" in the
 # "Status" column.
@@ -73,6 +73,36 @@ docker ps -a
 
 # Stops the image and cleans things up
 docker-compose down
+```
+
+---
+
+## Testing
+
+In order to ensure Cypress runs consistently on all OS's for CI and the GUI mode
+I've opted for the Docker image. One downside to this is the size (over 2gb,
+yeesh). I tried the non-Docker route, and the setup would be different for all
+OS's and there was no guarantee it'd even work.
+
+If you don't care about the GUI mode, just run `npm run test`.
+
+To get the GUI to work, follow the instructions for your OS.
+
+**Windows/WSL**
+- Install `choco install vcxsrv`
+
+**OSX**
+- Install `brew install xquartz`
+- Start XQuartz `open -a xquartz`.
+   - Go to Preferences > Security.
+      - Make sure `Allow connections from network clients` is checked
+- Once the settings have been updated you can close XQuartz
+
+**Once an XServer is set up on your OS**, run:
+```sh
+npm run e2e:watch
+# if you already have the Containers and App built
+npm run e2e:watch -- --skip-build
 ```
 
 ---

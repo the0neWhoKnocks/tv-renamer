@@ -1,14 +1,28 @@
 version: "3.4"
 
 services:
-  "tv-renamer":
+  e2e-cypress:
+    container_name: e2e-tr
+    depends_on:
+      - tv-renamer
+    environment:
+      CYPRESS_baseUrl: http://host.docker.internal:9000
+    image: cypress/included:4.12.1
+    ports:
+      - "9001:3000"
+    working_dir: /e2e
+    volumes:
+      - "${PWD}/e2e:/e2e"
+      - "${PWD}/bin/files.txt:/mockData/files.txt"
+  
+  tv-renamer:
     build:
       context: ./
       dockerfile: Dockerfile
     container_name: tv-renamer
-    image: theonewhoknocks/tv-renamer
     environment:
       NODE_ENV: production
+    image: theonewhoknocks/tv-renamer
     ports:
       # The local port of 9000 will map to the containers exposed port 3001
       - "9000:3001"

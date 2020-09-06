@@ -5,6 +5,9 @@ cjs
 dist
 esm
 node_modules
+**/cypress/fixtures
+**/cypress/screenshots
+**/cypress/video
 
 # files
 *.log

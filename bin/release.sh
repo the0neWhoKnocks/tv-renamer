@@ -13,7 +13,7 @@ function handleError {
 # give options for skipping bump, or 3 bump options
 echo "[ BUMP ] versions ========================"
 # get current version number
-VERSION=$(node -pe "require('./package.json').version")
+VERSION=$(node -p "require('./package.json').version")
 REPO_URL=$(git config --get remote.origin.url)
 REPO_URL=$(node -p "'$REPO_URL'.replace(/^git@/,'https://').replace('.com:','.com/').replace(/\.git$/,'')")
 
@@ -63,6 +63,12 @@ if [[ "$bump" != "" ]]; then
     latestTag=$(git tag -l | tail -n1)
     #echo "Latest tag: $latestTag"
   fi
+  
+  # run tests if they exist
+  TESTS_SCRIPT=$(node -p "require('./package.json').scripts.test")
+  if [[ "$TESTS_SCRIPT" != "undefined" ]]; then
+    npm run test
+  fi
 
   # get a list of changes between tags
   if [[ "$latestTag" != "" ]]; then
@@ -85,13 +91,37 @@ if [[ "$bump" != "" ]]; then
     formattedChanges="[$formattedChanges]"
     
     newContent=$(node -pe "
-      let changes = $formattedChanges;
-      for(let i=0; i<changes.length; i++){
-        changes[i] = changes[i]
-          .replace(/^([a-z0-9]+)\s/i, \"- [\$1]($REPO_URL/commit/\$1) \")
-          .replace(/_SQ_/g, \"'\");
-      }
-      changes.join('\n');
+      const categories = {
+        'Bugfixes': [],
+        'Dev-Ops': [],
+        'Features': [],
+        'Misc. Tasks': [],
+        'Uncategorized': [],
+      };
+      
+      $formattedChanges
+        .map(change => {
+          return change
+            .replace(/^([a-z0-9]+)\s/i, \"- [\$1]($REPO_URL/commit/\$1) \")
+            .replace(/_SQ_/g, \"'\");
+        })
+        .forEach(change => {
+          if (change.includes(' fix: ')) categories['Bugfixes'].push(change.replace(' fix:', ' -'));
+          else if (change.includes(' ops: ')) categories['Dev-Ops'].push(change.replace(' ops:', ' -'));
+          else if (change.includes(' feat: ')) categories['Features'].push(change.replace(' feat:', ' -'));
+          else if (change.includes(' chore: ')) categories['Misc. Tasks'].push(change.replace(' chore:', ' -'));
+          else categories['Uncategorized'].push(change);
+        });
+        
+        Object.keys(categories)
+          .map(category => {
+            const categoryItems = categories[category];
+            return (categoryItems.length)
+              ? \`**\${category}**\n\${categoryItems.join('\n')}\`
+              : null;
+          })
+          .filter(category => !!category)
+          .join('\n\n');
     ")
     handleError $? "Couldn't parse commit messages"
 
@@ -121,11 +151,13 @@ if [[ "$bump" != "" ]]; then
   npm version --no-git-tag-version $bump
   handleError $? "Couldn't bump version number."
   
-  echo;
-  echo "[ COMPILE ] code ========================="
-  echo;
-  $COMPILE_CMD
-  handleError $? "Couldn't compile with new version."
+  if [[ "$COMPILE_CMD" != "" ]]; then
+    echo;
+    echo "[ COMPILE ] code ========================="
+    echo;
+    $COMPILE_CMD
+    handleError $? "Couldn't compile with new version."
+  fi
   
   echo;
   echo "[ BUILD ] Docker Image ========================="
@@ -164,20 +196,63 @@ if [[ "$bump" != "" ]]; then
     LATEST_ID=$(docker images | grep -E "$DOCKER_USER/$APP_NAME.*latest" | awk '{print $3}')
     handleError $? "Couldn't get latest image id"
     
+    versionString="v$newVersion"
+    
     # log in (so the image can be pushed)
     docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
     handleError $? "Couldn't log in to Docker"
     # add and commit relevant changes
     git add CHANGELOG.md package.json package-lock.json
-    git commit -m "Bump to v$newVersion"
+    git commit -m "Bump to $versionString"
     # tag all the things
-    git tag -a "v$newVersion" -m "v$newVersion"$'\n\n'"$changes"
-    docker tag "$LATEST_ID" "$DOCKER_USER/$APP_NAME:v$newVersion"
+    gitChangeLogMsg="## $versionString"$'\n\n'"$newContent"
+    sanitizedGitChangeLogMsg=$(echo "$gitChangeLogMsg" | sed 's/"/\\"/g')
+    git tag -a "$versionString" -m "$gitChangeLogMsg"
+    docker tag "$LATEST_ID" "$DOCKER_USER/$APP_NAME:$versionString"
     handleError $? "Couldn't tag Docker image"
     # push up the tags
     git push --follow-tags
-    docker push "$DOCKER_USER/$APP_NAME:v$newVersion"
+    docker push "$DOCKER_USER/$APP_NAME:$versionString"
     docker push "$DOCKER_USER/$APP_NAME:latest"
+    # create an actual release
+    ghToken=$(git config --global github.token)
+    if [[ "$ghToken" != "" ]]; then
+      echo;
+      echo "[ CREATE ] GitHub Release ========================="
+      echo;
+      
+      branch=$(git rev-parse --abbrev-ref HEAD)
+      
+      remoteOriginURL=$(git config --get remote.origin.url)
+      regEx="^(https|git)(:\/\/|@)([^\/:]+)[\/:]([^\/:]+)\/(.+).git$"
+      if [[ "$remoteOriginURL" =~ $regEx ]]; then
+        user=${BASH_REMATCH[4]}
+        repo=${BASH_REMATCH[5]}
+      fi
+      
+      jsonPayload="{ \"tag_name\": \"$versionString\", \"target_commitish\": \"$branch\", \"name\": \"$versionString\", \"body\": \"$sanitizedGitChangeLogMsg\", \"draft\": false, \"prerelease\": false }"
+      # encode newlines for JSON
+      jsonPayload=$(echo "$jsonPayload" | sed -z 's/\n/\\n/g')
+      # remove trailing newline
+      jsonPayload=${jsonPayload%$'\\n'}
+      
+      releaseApiURL="https://api.github.com/repos/$user/$repo/releases"
+      
+      echo "  Payload: $jsonPayload"
+      echo "  URL: \"$releaseApiURL\""
+      
+      # https://developer.github.com/v3/repos/releases/#create-a-release
+      curl \
+        -H "Content-Type: application/json" \
+        -H "Authorization: token $ghToken" \
+        -X POST \
+        -d "$jsonPayload" \
+        --silent --output /dev/null --show-error --fail \
+        "$releaseApiURL"
+      handleError $? "Couldn't promote tag to a release"
+    else
+      echo "[WARN] Skipping GH release creation: No GH token found";
+    fi
   else
     # reset changelog
     echo "$originalLog" > "$filename"

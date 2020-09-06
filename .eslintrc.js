@@ -8,4 +8,9 @@ module.exports = {
     'react/no-unused-prop-types': 1,
     'require-jsdoc': 'off',
 	},
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 };

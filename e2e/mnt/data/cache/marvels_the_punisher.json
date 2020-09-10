@@ -1,0 +1,44 @@
+{
+  "id": 331980,
+  "name": "Marvel's The Punisher",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "3AM",
+        "Two Dead Men",
+        "Kandahar",
+        "Resupply",
+        "Gunner",
+        "The Judas Goat",
+        "Crosshairs",
+        "Cold Steel",
+        "Front Toward Enemy",
+        "Virtue of the Vicious",
+        "Danger Close",
+        "Home",
+        "Memento Mori"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Roadhouse Blues",
+        "Fight or Flight",
+        "Trouble the Water",
+        "Scar Tissue",
+        "One-Eyed Jacks",
+        "Nakazat",
+        "One Bad Day",
+        "My Brother's Keeper",
+        "Flustercluck",
+        "The Dark Hearts of Men",
+        "The Abyss",
+        "Collision Course",
+        "The Whirlwind"
+      ]
+    }
+  },
+  "slug": "marvels-the-punisher",
+  "cacheKey": "marvels_the_punisher"
+}

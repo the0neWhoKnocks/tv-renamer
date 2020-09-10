@@ -13,7 +13,7 @@
     "build:appForDocker": "cross-env NODE_ENV=production npm run build:dist && cross-env NODE_ENV=production npm run build:app",
     "e2e": "./e2e/bin/test-runner.sh",
     "e2e:watch": "npm run e2e -- watch",
-    "gen:files": "node ./bin/genFiles",
+    "gen:files": "node ./e2e/bin/genFiles",
     "lint": "eslint ./src/**/*.js",
     "start": "npm run build:appForDocker && cross-env NODE_ENV=production npm run start:server",
     "start:dev": "npm run build:dist && cross-env DEBUG=true PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",

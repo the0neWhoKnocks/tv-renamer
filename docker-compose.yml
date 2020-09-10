@@ -7,13 +7,14 @@ services:
       - tv-renamer
     environment:
       CYPRESS_baseUrl: http://host.docker.internal:9000
-    image: cypress/included:4.12.1
+    image: cypress/included:5.1.0
+    ipc: host # https://github.com/cypress-io/cypress/issues/350#issuecomment-267704772
     ports:
       - "9001:3000"
     working_dir: /e2e
     volumes:
       - "${PWD}/e2e:/e2e"
-      - "${PWD}/bin/files.txt:/mockData/files.txt"
+      - "${PWD}/e2e/bin/files.txt:/mockData/files.txt"
   
   tv-renamer:
     build:
@@ -28,12 +29,7 @@ services:
       - "9000:3001"
     volumes:
       # NOTE - To ensure data doesn't get wiped during a `purge`, using a
-      # bind-mount. While in Dev, Node maps to `dist/.data`, but when testing in
-      # Docker you'll have to copy that `.data` folder into `.ignore/` and then
-      # update `sourceFolder` & `outputFolder` in `.ignore/.data/config.json`
-      # to point to `/home/node/app/_temp_`.
-      - "${PWD}/.ignore/.data:/home/node/app/.data"
-      # For testing purposes, using a bind-mount which is pointing to the
-      # current repo's `.ignore/tmp` directory and mapping it to
-      # `/home/node/app/_temp_`.
-      - "${PWD}/.ignore/tmp:/home/node/app/_temp_"
+      # bind-mount.
+      - "${PWD}/e2e/mnt/data:/home/node/app/.data"
+      # The config points to `_temp_` for source and output folders
+      - "${PWD}/e2e/mnt/mockFiles:/home/node/app/_temp_"

@@ -1,0 +1,64 @@
+{
+  "id": 159591,
+  "name": "Luther",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Extended Inside Look - S1 Ep 1",
+        "Extended Inside Look - S1 Ep 2",
+        "Extended Inside Look - S1 Ep 3",
+        "Extended Inside Look - S1 Ep 4",
+        "Extended Inside Look - S1 Ep 5",
+        "Luther - The Journey So Far"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "Episode 1",
+        "Episode 2"
+      ]
+    },
+    "5": {
+      "episodes": [
+        null,
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4"
+      ]
+    }
+  },
+  "slug": "luther",
+  "cacheKey": "luther"
+}

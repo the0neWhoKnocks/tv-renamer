@@ -1,0 +1,20 @@
+{
+  "id": 355622,
+  "name": "Doom Patrol",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Pilot",
+        "Donkey Patrol",
+        "Puppet Patrol",
+        "Cult Patrol",
+        "Paw Patrol",
+        "Doom Patrol Patrol",
+        null
+      ]
+    }
+  },
+  "slug": "doom-patrol",
+  "cacheKey": "doom_patrol"
+}

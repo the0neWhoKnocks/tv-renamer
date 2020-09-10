@@ -1,0 +1,54 @@
+{
+  "id": 307375,
+  "name": "Mob Psycho 100",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Mob Psycho Mini 8-bit Shorts 1",
+        "Mob Psycho Mini 8-bit Shorts 2",
+        "Mob Psycho Mini 8-bit Shorts 3",
+        "Mob Psycho Mini 8-bit Shorts 4",
+        "Mob Psycho Mini 8-bit Shorts 5",
+        "Mob Psycho Mini 8-bit Shorts 6",
+        "Reigen - The Miracle Psychic that Nobody Knows"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Self-Proclaimed Psychic: Reigen Arataka ~And Mob~",
+        "Doubts about Youth ~The Telepathy Club Appears~",
+        "An Invitation to a Meeting ~Simply Put, I Just Want to be Popular~",
+        "Idiots Only Event ~Kin~",
+        "OCHIMUSHA ~Psychic Powers and Me~",
+        "Discord ~To Become One~",
+        "Exaltation ~I've Obtained Loss~",
+        "The Older Brother Bows ~Destructive Intent~",
+        "Claw ~7th Division~",
+        "The Heinous Aura ~Mastermind~",
+        "Master ~Leader~",
+        "Mob and Reigen ~A Giant Tsuchinoko Appears~"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Ripped Apart ~Someone Is Watching~",
+        "Urban Legends ~Encountering Rumors~",
+        "One Danger After Another ~Degeneration~",
+        "Inside ~Evil Spirit~",
+        "Discord ~Choices~",
+        "Poor, Lonely, Whitey",
+        "Cornered ~True Identity~",
+        "Even Then ~Continue Forward~",
+        "Show Me What You've Got ~Band Together~ ",
+        "Collision ~Power Type~",
+        "Guidance ~Psychic Sensor~",
+        "Episode 12"
+      ]
+    }
+  },
+  "slug": "mob-psycho-100",
+  "cacheKey": "mob_psycho_100"
+}

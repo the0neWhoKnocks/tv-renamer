@@ -1,0 +1,31 @@
+{
+  "id": 353717,
+  "name": "Deadly Class",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Deadly Class Motion Comic #1",
+        "Deadly Class Motion Comic #2",
+        "Deadly Class Motion Comic #3"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Reagan Youth",
+        "Noise, Noise, Noise",
+        "Snake Pit",
+        "Mirror People",
+        "Saudade",
+        "Stigmata Martyr",
+        "Rise Above",
+        "The Clampdown",
+        "Kids of the Black Hole",
+        "Sink With California"
+      ]
+    }
+  },
+  "slug": "deadly-class",
+  "cacheKey": "deadly_class"
+}

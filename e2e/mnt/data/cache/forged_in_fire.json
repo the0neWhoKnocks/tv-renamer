@@ -1,0 +1,152 @@
+{
+  "id": 296830,
+  "name": "Forged in Fire",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Bladesgiving Special",
+        "The Rhomphaia"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Japanese Katana",
+        "Chakram",
+        "Viking Battle Axe",
+        "Katar",
+        "Crusader Sword",
+        "The Elizabethan Rapier",
+        "The Roman Gladius",
+        "The Moro Kris"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "The War Hammer",
+        "Khopesh",
+        "The Scottish Claymore",
+        "Spiked Shield",
+        "Viking Sword",
+        "Nepalese Kukri",
+        "The Shotel",
+        "The Cutlass",
+        "Khanda",
+        "Tabar"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Champion Edition / Scottish Claymore",
+        "Fan Favorites / Hook Sword",
+        "Butterfly Swords",
+        "The Falcata",
+        "Kora Sword",
+        "Hunga Munga",
+        "The Boar Spear",
+        "Xiphos Sword",
+        "The Pandat",
+        "Zulu Iklwa",
+        "Champions Edition / The Pata",
+        "The Zweihander",
+        "Cavalry Saber",
+        "The Naginata",
+        "The Haladie",
+        "Redemption / Viking Sword"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "Judges Pick",
+        "Deer Horn Knives",
+        "The Katzbalger",
+        "Makraka",
+        "Fans' Choice",
+        "Akrafena",
+        "Talwar",
+        "The Cinquedea",
+        "The Charay",
+        "Sword Breaker Redemption",
+        "Master & Apprentice",
+        "Ngombe Ngulu",
+        "The Shamshir",
+        "The Kachin Dao",
+        "The Gladiators' Scissor",
+        "The Kampilan",
+        "The Kpinga",
+        "The Yatagan",
+        "International Championship / The Spadroon",
+        "Tabar-Shishpar",
+        "Ultimate Champions Edition",
+        "Knights Templar",
+        "Viking Edition",
+        "The Rhomphaia",
+        "The Rookies Edition",
+        "The Schiavona"
+      ]
+    },
+    "5": {
+      "episodes": [
+        null,
+        "Rookies Edition (The War Golok)",
+        "The Schiavona",
+        "The Sica",
+        "Jūmonji Yari",
+        "The Kabyle Flyssa",
+        "Ultimate Team Challenge",
+        "The Karabela",
+        "The Zande Spear",
+        "The Navaja",
+        "The German Halberd",
+        "The Two Handed Sword",
+        "The Naval Cutlass",
+        "The Horseman's Axe",
+        "The Lion Spear",
+        "The Kelewang",
+        "Bagh Nakh Blades",
+        "The Glaive Guisarme",
+        "Pioneer Sword",
+        "Wind and Fire Wheels",
+        "The Smallsword",
+        "The Anthropomorphic Sword",
+        "The Kilij",
+        "The Sawback Hunting Sword",
+        "The Arming Sword",
+        "The Sengese",
+        "The Qinglong Ji",
+        "Hollywood Edition",
+        "The Steel Crossbow",
+        "The Landsknecht Sword",
+        "Tournament Round 1",
+        "Tournament Round 2",
+        "Tournament Round 3",
+        "Tournament Round 4",
+        "Tournament Finals",
+        "The Grim Reaper's Scythe",
+        "The Steel Takedown Bow",
+        "The Bardiche",
+        "The Pipe Tomahawks",
+        "Ring Hilted Sword"
+      ]
+    },
+    "6": {
+      "episodes": [
+        null,
+        "Long Road to Redemption Part 1",
+        "Long Road to Redemption Part 2",
+        "Washington's Colichemarde",
+        "The O-katana",
+        "The Hussar Saber",
+        "Barbarian Sword",
+        "Episode 7",
+        "Episode 8"
+      ]
+    }
+  },
+  "slug": "forged-in-fire",
+  "cacheKey": "forged_in_fire"
+}

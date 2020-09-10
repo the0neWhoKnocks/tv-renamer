@@ -8,23 +8,22 @@ const { parse, resolve } = require('path');
 const readline = require('readline');
 const mkdirp = require('mkdirp');
 const rimraf = require('rimraf');
-const {
-  TMP,
-  TMP_OUTPUT,
-  TMP_SRC,
-} = require('../conf.app');
 
-if( existsSync(TMP) ) {
-  // clean existing files (in the case when the directory already existed)
-  rimraf.sync(`${ TMP }/*`);
-  console.log(`\nRemoved pre-existing items in "${ TMP }"`);
+const MOCK_FILES = `${ resolve(__dirname, '../') }/mnt/mockFiles`;
+const OUTPUT = `${ MOCK_FILES }/output`;
+const SRC = `${ MOCK_FILES }/src`;
+
+if( existsSync(MOCK_FILES) ) {
+  // clean existing files (in the case where the directory already existed)
+  rimraf.sync(`${ MOCK_FILES }/*`);
+  console.log(`\nRemoved pre-existing items in "${ MOCK_FILES }"`);
 }
 
 // create directories
-mkdirp.sync(TMP_OUTPUT);
-console.log(`Created output directory ➜ "${ TMP_OUTPUT }"`);
-mkdirp.sync(TMP_SRC);
-console.log(`Created source directory ➜ "${ TMP_SRC }"`);
+mkdirp.sync(OUTPUT);
+console.log(`Created output directory ➜ "${ OUTPUT }"`);
+mkdirp.sync(SRC);
+console.log(`Created source directory ➜ "${ SRC }"`);
 
 const args = process.argv.slice(2, process.argv.length);
 
@@ -34,7 +33,7 @@ readline.createInterface({
   terminal: false,
 }).on('line', (fileName) => {
   const file = parse(fileName);
-  let filePath = TMP_SRC;
+  let filePath = SRC;
   let generate = true;
   
   if(args && args.length){
@@ -50,7 +49,7 @@ readline.createInterface({
   
   if(generate){
     if(file.dir){
-      const folder = `${ TMP_SRC }/${ file.dir }`;
+      const folder = `${ SRC }/${ file.dir }`;
       mkdirp.sync(folder);
       console.log(`Created file directory ➜ "${ folder }"`);
     

@@ -1,0 +1,19 @@
+{
+  "id": 349997,
+  "name": "I Am the Night",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Pilot",
+        "Phenomenon of Interference  ",
+        "Dark Flower",
+        "Matador",
+        "Aloha",
+        "Queen's Gambit, Accepted"
+      ]
+    }
+  },
+  "slug": "i-am-the-night",
+  "cacheKey": "i_am_the_night"
+}

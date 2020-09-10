@@ -1,0 +1,54 @@
+{
+  "id": 328711,
+  "name": "Star Trek: Discovery",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "“Will You Take My Hand?” Bonus Scene",
+        "Short Treks: Runaway",
+        "Short Treks: Calypso",
+        "Short Treks: The Brightest Star",
+        "Short Treks: The Escape Artist"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "The Vulcan Hello",
+        "Battle at the Binary Stars",
+        "Context Is for Kings",
+        "The Butcher's Knife Cares Not for the Lamb's Cry",
+        "Choose Your Pain",
+        "Lethe",
+        "Magic to Make the Sanest Man Go Mad",
+        "Si Vis Pacem, Para Bellum",
+        "Into the Forest I Go",
+        "Despite Yourself",
+        "The Wolf Inside",
+        "Vaulting Ambition",
+        "What's Past is Prologue",
+        "The War Without, the War Within",
+        "Will You Take My Hand?"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Brother",
+        "New Eden",
+        "Point of Light",
+        "An Obol for Charon",
+        "Saints of Imperfection",
+        "The Sound of Thunder",
+        "Light and Shadows",
+        "If Memory Serves",
+        "Project Daedalus",
+        "The Red Angel",
+        "Perpetual Infinity"
+      ]
+    }
+  },
+  "slug": "star-trek-discovery",
+  "cacheKey": "star_trek_discovery"
+}

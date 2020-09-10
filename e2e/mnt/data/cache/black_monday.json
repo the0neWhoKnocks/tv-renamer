@@ -1,0 +1,23 @@
+{
+  "id": 349338,
+  "name": "Black Monday",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "365",
+        "364",
+        "339",
+        "295",
+        "243",
+        "122",
+        "65",
+        "7042",
+        "2",
+        "0 (zero)"
+      ]
+    }
+  },
+  "slug": "black-monday",
+  "cacheKey": "black_monday"
+}

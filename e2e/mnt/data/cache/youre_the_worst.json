@@ -1,0 +1,95 @@
+{
+  "id": 281776,
+  "name": "You're the Worst",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Pilot",
+        "Insouciance",
+        "Keys Open Doors",
+        "What Normal People Do",
+        "Sunday Funday",
+        "PTSD",
+        "Equally Dead Inside",
+        "Finish Your Milk",
+        "Constant Horror And Bone-Deep Dissatisfaction",
+        "Fists and Feet and Stuff"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "The Sweater People",
+        "Crevasses",
+        "Born Dead",
+        "All About That Paper",
+        "We Can Do Better Than This",
+        "Side Bitch",
+        "There Is Not Currently a Problem",
+        "Spooky Sunday Funday",
+        "LCD Soundsystem",
+        "A Right Proper Story",
+        "A Rapidly Mutating Virus",
+        "Other Things You Could Be Doing",
+        "The Heart Is a Dumb Dumb"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Try Real Hard",
+        "Fix Me, Dummy",
+        "Bad News: Dude's Dead",
+        "Men Get Strong",
+        "Twenty-Two",
+        "The Last Sunday Funday",
+        "The Only Thing That Helps",
+        "Genetically Inferior Beta Males",
+        "The Seventh Layer",
+        "Talking to Me, Talking to Me",
+        "The Inherent, Unsullied Qualitative Value of Anything",
+        "You Knew It Was a Snake",
+        "No Longer Just Us"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "It's Been (1)",
+        "It's Been (2)",
+        "Odysseus",
+        "This Is Just Marketing",
+        "Fog of War, Bro",
+        "There's Always a Back Door",
+        "Not a Great Bet",
+        "A Bunch of Hornballs",
+        "Worldstar!",
+        "Dad-Not-Dad",
+        "From the Beginning, I Was Screwed",
+        "Like People",
+        "It's Always Been This Way"
+      ]
+    },
+    "5": {
+      "episodes": [
+        null,
+        "The Intransigence of Love",
+        "The Pin in My Grenade ",
+        "The One Thing We Don't Talk About",
+        "What Money?",
+        "A Very Good Boy",
+        "This Brief Fermata",
+        "Zero Eggplants",
+        "The Pillars of Creation",
+        "Bachelor/Bachelorette Party Sunday Funday",
+        "Magical Thinking",
+        "Four Goddamn More Days",
+        "We Were Having Such a Nice Day",
+        "Pancakes"
+      ]
+    }
+  },
+  "slug": "youre-the-worst",
+  "cacheKey": "youre_the_worst"
+}

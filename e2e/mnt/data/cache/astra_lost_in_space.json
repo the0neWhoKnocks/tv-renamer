@@ -1,0 +1,25 @@
+{
+  "id": 361456,
+  "name": "Astra Lost in Space",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Planet Camp",
+        "Wilderness",
+        "Meteor",
+        "Star of Hope",
+        "Paradise",
+        "Secret",
+        "Past",
+        "Episode 8",
+        "Episode 9",
+        "Episode 10",
+        "Episode 11",
+        "Episode 12"
+      ]
+    }
+  },
+  "slug": "astra-lost-in-space",
+  "cacheKey": "astra_lost_in_space"
+}

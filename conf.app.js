@@ -31,8 +31,6 @@ const PUBLIC = `${ ROOT }/public`;
 const PUBLIC_JS = `${ PUBLIC }/js`;
 const PUBLIC_MANIFEST = `${ PUBLIC_JS }/manifest.json`;
 const PUBLIC_VENDOR = `${ PUBLIC }/js/vendor`;
-const IGNORE = `${ ROOT }/.ignore`;
-const TMP = `${ IGNORE }/tmp`;
 
 module.exports = {
   API__ASSIGN_ID: `${ API_PREFIX }/assign-id`,
@@ -66,9 +64,6 @@ module.exports = {
   PUBLIC_SERIES_ID_CACHE_MAP: `${ ROOT }/${ DATA_FOLDER_NAME }/${ SERIES_ID_CACHE_MAP }`,
   PUBLIC_VENDOR,
   SRC_STATIC: `${ SRC }/static`,
-  TMP,
-  TMP_OUTPUT: `${ TMP }/output`,
-  TMP_SRC: `${ TMP }/src`,
   TVDB_QUERY_URL: `${ TVDB_URL }/search?query=${ TVDB__TOKEN__SERIES_QUERY }`,
   TVDB_SERIES_URL: `${ TVDB_URL }/series/${ TVDB__TOKEN__SERIES_SLUG }`,
   TVDB_API__EPISODES_URL: `${ TVDB_API }/series/${ TVDB__TOKEN__SERIES_ID }/episodes?page=${ TVDB__TOKEN__PAGE_NUM }`,

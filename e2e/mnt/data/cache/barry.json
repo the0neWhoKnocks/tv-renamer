@@ -1,0 +1,34 @@
+{
+  "id": 333072,
+  "name": "Barry",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Chapter One: Make Your Mark",
+        "Chapter Two: Use It",
+        "Chapter Three: Make the Unsafe Choice",
+        "Chapter Four: Commit to... YOU",
+        "Chapter Five: Do Your Job",
+        "Chapter Six: Listen with Your Ears, React with Your Face",
+        "Chapter Seven: Loud, Fast and Keep Going",
+        "Chapter Eight: Know Your Truth"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "The Show Must Go On, Probably?",
+        "The Power of No",
+        "Past = Present x Future Over Yesterday",
+        "What?!",
+        "ronny/lily",
+        "The Truth Has a Ring to It",
+        "The Audition",
+        "berkman > block"
+      ]
+    }
+  },
+  "slug": "barry",
+  "cacheKey": "barry"
+}

@@ -5,6 +5,7 @@ cjs
 dist
 esm
 node_modules
+e2e/mnt/mockFiles
 **/cypress/fixtures
 **/cypress/screenshots
 **/cypress/video
@@ -13,3 +14,5 @@ node_modules
 *.log
 .dockercreds
 yarn.lock
+e2e/mnt/data/config.json
+e2e/mnt/data/file-cache.json

@@ -1,0 +1,54 @@
+{
+  "id": 328634,
+  "name": "The Good Doctor",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Burnt Food",
+        "Mount Rushmore",
+        "Oliver",
+        "Pipes",
+        "Point Three Percent",
+        "Not Fake",
+        "22 Steps",
+        "Apple",
+        "Intangibles",
+        "Sacrifice",
+        "Islands: Part One",
+        "Islands: Part Two",
+        "Seven Reasons",
+        "She",
+        "Heartfelt",
+        "Pain",
+        "Smile",
+        "More"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Hello",
+        "Middle Ground",
+        "36 Hours",
+        "Tough Titmouse",
+        "Carrots",
+        "Two-Ply (or Not Two-Ply)",
+        "Hubert",
+        "Stories",
+        "Empathy",
+        "Quarantine",
+        "Quarantine Part Two",
+        "Aftermath",
+        "Xin",
+        "Faces",
+        "Risk and Reward",
+        "Believe",
+        "Breakdown",
+        "Trampoline"
+      ]
+    }
+  },
+  "slug": "the-good-doctor",
+  "cacheKey": "the_good_doctor"
+}

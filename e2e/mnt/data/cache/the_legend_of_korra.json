@@ -1,0 +1,209 @@
+{
+  "dvdSeasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Welcome to Republic City",
+        "A Leaf in the Wind",
+        "The Revelation",
+        "The Voice in the Night",
+        "The Spirit of Competition",
+        "And the Winner Is...",
+        "The Aftermath",
+        "When Extremes Meet",
+        "Out of the Past",
+        "Turning the Tides",
+        "Skeletons in the Closet",
+        "Endgame"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Rebel Spirit",
+        "The Southern Lights",
+        "Civil Wars (1)",
+        "Civil Wars (2)",
+        "Peacekeepers",
+        "The Sting",
+        "Beginnings (1)",
+        "Beginnings (2)",
+        "The Guide",
+        "A New Spiritual Age",
+        "Night of a Thousand Stars",
+        "Harmonic Convergence",
+        "Darkness Falls",
+        "Light in the Dark"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "A Breath of Fresh Air",
+        "Rebirth",
+        "The Earth Queen",
+        "In Harm's Way",
+        "The Metal Clan",
+        "Old Wounds",
+        "Original Airbenders",
+        "The Terror Within",
+        "The Stakeout",
+        "Long Live the Queen",
+        "The Ultimatum",
+        "Enter the Void",
+        "Venom of the Red Lotus"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "After All These Years",
+        "Korra Alone",
+        "The Coronation",
+        "The Calling",
+        "Enemy at the Gates",
+        "The Battle of Zaofu",
+        "Reunion",
+        "Remembrances",
+        "Beyond the Wilds",
+        "Operation Beifong",
+        "Kuvira's Gambit",
+        "Day of the Colossus",
+        "The Last Stand"
+      ]
+    }
+  },
+  "id": 251085,
+  "name": "The Legend of Korra",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Republic City Hustle, Part 1",
+        "Republic City Hustle, Part 2",
+        "Republic City Hustle, Part 3",
+        "The Re-Telling of Korra's Journey",
+        "Scene Bending - A New Spiritual Age",
+        "Scene Bending - Beginnings (1)",
+        "Scene Bending - Beginnings (2)",
+        "Scene Bending - Civil Wars (1)",
+        "Scene Bending - Civil Wars (2)",
+        "Scene Bending - Darkness Falls",
+        "Scene Bending - Harmonic Convergence",
+        "Scene Bending - Light In The Dark",
+        "Scene Bending - Night Of A Thousand Stars",
+        "Scene Bending - Peacekeepers (1)",
+        "Scene Bending - Peacekeepers (2)",
+        "Scene Bending - Rebel Spirit (1)",
+        "Scene Bending - Rebel Spirit (2)",
+        "Scene Bending - The Guide",
+        "Scene Bending - The Southern Lights (1)",
+        "Scene Bending - The Southern Lights (2)",
+        null,
+        "The Spirit Of - A Breath of Fresh Air",
+        "The Spirit Of - Rebirth",
+        "The Spirit Of - The Earth Queen",
+        "The Spirit Of - In Harm's Way",
+        "The Spirit Of - The Metal Clan",
+        "The Spirit Of - Old Wounds",
+        "The Spirit Of - Original Airbenders",
+        "The Spirit Of - The Terror Within",
+        "The Spirit Of - The Stakeout",
+        "The Spirit Of - Long Live the Queen",
+        "The Spirit Of - The Ultimatum",
+        "The Spirit Of - Enter the Void",
+        "The Spirit Of - Venom of the Red Lotus",
+        "Inside the Book of Spirits",
+        "Feuding Spirits: Korra's Family",
+        "Kindred Spirits: Tenzin's Family",
+        "The Legend of Korra: NYCC 2014",
+        "Kuvira vs. Prince Wu",
+        "The Legend of Puppetbender: The Untold Story, Part 1 - Casting the Legend",
+        "The Legend of Puppetbender: The Untold Story, Part 2 - Into the Spirit World",
+        "Animatics - Welcome to Republic City",
+        "Animatics - The Revelation",
+        "Animatics - The Voice in the Night",
+        "Animatics - The Spirit of Competition",
+        "Animatics - And the Winner Is...",
+        "Animatics - When Extremes Meet",
+        "Animatics - Turning the Tides",
+        "Animatics - Endgame",
+        "Scene Bending - The Sting"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Welcome to Republic City",
+        "A Leaf in the Wind",
+        "The Revelation",
+        "The Voice in the Night",
+        "The Spirit of Competition",
+        "And the Winner Is...",
+        "The Aftermath",
+        "When Extremes Meet",
+        "Out of the Past",
+        "Turning the Tides",
+        "Skeletons in the Closet",
+        "Endgame"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Rebel Spirit",
+        "The Southern Lights",
+        "Civil Wars (1)",
+        "Civil Wars (2)",
+        "Peacekeepers",
+        "The Sting",
+        "Beginnings (1)",
+        "Beginnings (2)",
+        "The Guide",
+        "A New Spiritual Age",
+        "Night of a Thousand Stars",
+        "Harmonic Convergence",
+        "Darkness Falls",
+        "Light in the Dark"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "A Breath of Fresh Air",
+        "Rebirth",
+        "The Earth Queen",
+        "In Harm's Way",
+        "The Metal Clan",
+        "Old Wounds",
+        "Original Airbenders",
+        "The Terror Within",
+        "The Stakeout",
+        "Long Live the Queen",
+        "The Ultimatum",
+        "Enter the Void",
+        "Venom of the Red Lotus"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "After All These Years",
+        "Korra Alone",
+        "The Coronation",
+        "The Calling",
+        "Enemy at the Gates",
+        "The Battle of Zaofu",
+        "Reunion",
+        "Remembrances",
+        "Beyond the Wilds",
+        "Operation Beifong",
+        "Kuvira's Gambit",
+        "Day of the Colossus",
+        "The Last Stand"
+      ]
+    }
+  },
+  "slug": "the-legend-of-korra",
+  "cacheKey": "the_legend_of_korra"
+}

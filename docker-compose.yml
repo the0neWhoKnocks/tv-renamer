@@ -2,18 +2,22 @@ version: "3.4"
 
 services:
   e2e-cypress:
+    build:
+      context: ./e2e/
+      dockerfile: Dockerfile
     container_name: e2e-tr
     depends_on:
       - tv-renamer
     environment:
       CYPRESS_baseUrl: http://host.docker.internal:9000
-    image: cypress/included:5.1.0
+      MOCK_FILES_PATH: /e2e/mnt/mockFiles
     ipc: host # https://github.com/cypress-io/cypress/issues/350#issuecomment-267704772
     ports:
       - "9001:3000"
     working_dir: /e2e
     volumes:
       - "${PWD}/e2e:/e2e"
+      - "${PWD}/e2e/bin/genFiles.js:/mockData/genFiles.js"
       - "${PWD}/e2e/bin/files.txt:/mockData/files.txt"
   
   tv-renamer:

@@ -39,7 +39,7 @@ xlaunchPath="${SCRIPT_DIR}/XServer.xlaunch"
 # Dev can use the GUI for an easy test writing experience.
 if $WATCH_MODE; then
   if $isWSL; then
-    display="$(hostname):0.0"
+    display="host.docker.internal:0"
     xlaunchBinary="/c/Program Files/VcXsrv/xlaunch.exe"
     xlaunchPath=$(wslpath -w "${SCRIPT_DIR}/XServer.xlaunch")
     xlaunchKillCmd="/c/Windows/System32/taskkill.exe /IM \"vcxsrv.exe\" /F"
@@ -59,7 +59,7 @@ if $WATCH_MODE; then
   fi
 
   if [[ "$display" != "" ]]; then
-    cypressCmd="docker-compose run -e DISPLAY=$display --entrypoint cypress ${E2E_SERVICE} open --project ."
+    cypressCmd="docker-compose run -e DISPLAY=$display --rm --entrypoint cypress ${E2E_SERVICE} open --project ."
     
     if [[ "$xlaunchBinary" != "" ]] && [ -f "$xlaunchBinary" ]; then
       echo;
@@ -86,22 +86,22 @@ if $BUILD; then
   echo;
   echo "[BUILD] App"
   npm run build:appForDocker
+  
+  echo;
+  echo "[BUILD] Containers"
+  docker-compose build
 fi
-
-echo;
-echo "[CREATE] Mock files and folders"
-npm run gen:files
 
 echo;
 echo "[START] Tests"
 echo;
-$BUILD && BUILD_FLAG="--build" || BUILD_FLAG=""
-DOCKER_COMPOSE_UP_CMD="docker-compose up ${BUILD_FLAG} --abort-on-container-exit"
 if [[ "$cypressCmd" != "" ]]; then
-  npx concurrently --kill-others -p "[ {name} ]" -n APP,TESTS -c black.bgGreen,black.bgCyan "${DOCKER_COMPOSE_UP_CMD} tv-renamer" "${cypressCmd}"
+  ${cypressCmd}
 else
-  ${DOCKER_COMPOSE_UP_CMD}
+  docker-compose up --abort-on-container-exit
 fi
+
+docker-compose down
 
 if [[ "$xlaunchKillCmd" != "" ]]; then
   echo;

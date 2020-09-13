@@ -1,0 +1,50 @@
+{
+  "dvdSeasons": {},
+  "id": 327417,
+  "name": "Money Heist",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Do as Planned",
+        "Lethal Negligence",
+        "Misfire",
+        "Trojan Horse",
+        "Groundhog Day",
+        "The Hot Cold War",
+        "Cool Instability",
+        "You Asked for It",
+        "Whoever Keeps Trying It, Gets It",
+        "Masked No Longer",
+        "The Head of the Plan",
+        "A Matter of Efficiency",
+        "What Have We Done?",
+        "Against the Clock",
+        "Bye Beautiful"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "We're Back",
+        "Aikido",
+        "48 Meters Underground",
+        "It's Dolphin Time",
+        "Boom, Boom, Ciao",
+        "Everything Seemed Insignificant",
+        "A Quick Vacation",
+        "Astray",
+        "Game Over",
+        "Berlin's Wedding",
+        "Anatomy Lesson",
+        "Pasodoble",
+        "5 Minutes Earlier",
+        "TKO",
+        "Strike the Tent",
+        "The Paris Plan"
+      ]
+    }
+  },
+  "slug": "la-casa-de-papel",
+  "cacheKey": "money_heist"
+}

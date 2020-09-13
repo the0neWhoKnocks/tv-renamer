@@ -18,3 +18,15 @@ import './commands';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+
+function abortEarly() {
+  if(
+    this.currentTest.state === 'failed'
+    && this.currentTest.currentRetry() === this.currentTest.retries()
+  ){
+    Cypress.runner.stop();
+  }
+}
+beforeEach(abortEarly);
+afterEach(abortEarly);

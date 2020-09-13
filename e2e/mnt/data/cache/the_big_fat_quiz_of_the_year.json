@@ -1,0 +1,51 @@
+{
+  "dvdSeasons": {},
+  "id": 81068,
+  "name": "The Big Fat Quiz of the Year",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "The Big Fat Anniversary Quiz",
+        "The Big Fat Quiz of the 80s",
+        "The Big Fat Quiz of the 90s",
+        "The Big Fat Quiz of the 00s",
+        "The Big Fat Quiz of the 80s (2)",
+        "The Big Fat Quiz of the 90s (2)",
+        "The Big Fat Anniversary Quiz - 10 Years",
+        "The Big Fat Quiz of Everything - 2016 Special",
+        "The Big Fat Quiz of Everything - 2016 Series (1)",
+        "The Big Fat Quiz of Everything - 2016 Series (2)",
+        "The Big Fat Quiz of Everything - 2016 Series (3)",
+        "The Big Fat Quiz of Everything - 2017 Special",
+        "The Big Fat Quiz of Everything - 2018 Special",
+        "The Big Fat Quiz of Everything - 2019 Special ",
+        "Big Fat Quiz of the Decade",
+        null
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "The Big Fat Quiz of the Year 2004",
+        "The Big Fat Quiz of the Year 2005",
+        "The Big Fat Quiz of the Year 2006",
+        "The Big Fat Quiz of the Year 2007",
+        "The Big Fat Quiz of the Year 2008",
+        "The Big Fat Quiz of the Year 2009",
+        "The Big Fat Quiz of the Year 2010",
+        "The Big Fat Quiz of the Year 2011",
+        "The Big Fat Quiz of the Year 2012",
+        "The Big Fat Quiz of the Year 2013",
+        "The Big Fat Quiz of the Year 2014",
+        "The Big Fat Quiz of the Year 2015",
+        "The Big Fat Quiz of the Year 2016",
+        "The Big Fat Quiz of the Year 2017",
+        "The Big Fat Quiz of the Year 2018",
+        "The Big Fat Quiz of the Year 2019"
+      ]
+    }
+  },
+  "slug": "the-big-fat-quiz-of-the-year",
+  "cacheKey": "the_big_fat_quiz_of_the_year"
+}

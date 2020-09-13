@@ -9,7 +9,9 @@ const readline = require('readline');
 const mkdirp = require('mkdirp');
 const rimraf = require('rimraf');
 
-const MOCK_FILES = `${ resolve(__dirname, '../') }/mnt/mockFiles`;
+const MOCK_FILES = (process.env.MOCK_FILES_PATH)
+  ? process.env.MOCK_FILES_PATH
+  : `${ resolve(__dirname, '../') }/mnt/mockFiles`;
 const OUTPUT = `${ MOCK_FILES }/output`;
 const SRC = `${ MOCK_FILES }/src`;
 

@@ -1,4 +1,5 @@
 {
+  "dvdSeasons": {},
   "id": 361456,
   "name": "Astra Lost in Space",
   "seasons": {
@@ -12,11 +13,11 @@
         "Paradise",
         "Secret",
         "Past",
-        "Episode 8",
-        "Episode 9",
-        "Episode 10",
-        "Episode 11",
-        "Episode 12"
+        "Lost and Found",
+        "Revelation",
+        "Culprit",
+        "Confession",
+        "Friend-ship"
       ]
     }
   },

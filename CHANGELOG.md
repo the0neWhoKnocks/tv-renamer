@@ -1,6 +1,28 @@
 # Changelog
 ---
 
+## v2.8.0
+
+**Bugfixes**
+- [912a953](https://github.com/the0neWhoKnocks/tv-renamer/commit/912a953) - Errors weren't being returned
+- [94188ed](https://github.com/the0neWhoKnocks/tv-renamer/commit/94188ed) - Upgraded vulnerable npm packages
+
+**Dev-Ops**
+- [28e3f8b](https://github.com/the0neWhoKnocks/tv-renamer/commit/28e3f8b) - Refactored to allow for mock e2e data
+- [3299a4b](https://github.com/the0neWhoKnocks/tv-renamer/commit/3299a4b) - Added in Cypress for E2E tests
+- [4c7b7a1](https://github.com/the0neWhoKnocks/tv-renamer/commit/4c7b7a1) - Tweak npm audit settings
+- [9f6594d](https://github.com/the0neWhoKnocks/tv-renamer/commit/9f6594d) - Updated release script
+
+**Misc. Tasks**
+- [57f4e5c](https://github.com/the0neWhoKnocks/tv-renamer/commit/57f4e5c) - Removed Jest
+- [a85bf65](https://github.com/the0neWhoKnocks/tv-renamer/commit/a85bf65) - Fixed ESLint config for React
+
+**Uncategorized**
+- [4b964ad](https://github.com/the0neWhoKnocks/tv-renamer/commit/4b964ad) test: Wrote more e2e tests
+- [db89aee](https://github.com/the0neWhoKnocks/tv-renamer/commit/db89aee) test: Wrote more e2e tests
+
+---
+
 ## v2.7.1
 
 - [4b0191f](https://github.com/the0neWhoKnocks/tv-renamer/commit/4b0191f) fix: Nested files deleted after one file is renamed

@@ -414,7 +414,7 @@ class App extends Component {
   }
   
   handleAssignIdSuccess({ id, idMappings, index }) {
-    const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name[data-index="${ index }"]`);
+    const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name .${ RENAMABLE_ROOT_CLASS }__ce-fix[data-index="${ index }"]`);
     const itemData = this.buildPreviewData(el);
     itemData.id = id;
     
@@ -429,7 +429,7 @@ class App extends Component {
   }
   
   handleCacheUpdateClick({ id, index, lookupName }) {
-    const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name[data-index="${ index }"]`);
+    const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name .${ RENAMABLE_ROOT_CLASS }__ce-fix[data-index="${ index }"]`);
     const itemData = this.buildPreviewData(el);
     itemData.id = id;
     itemData.updateCache = true;

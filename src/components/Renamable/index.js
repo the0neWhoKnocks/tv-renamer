@@ -270,12 +270,7 @@ class Renamable extends Component {
           toggled={selected}
         />
         <div className={`${ ROOT_CLASS }__names`}>
-          <div
-            className={`${ ROOT_CLASS }__name`}
-            data-index={itemIndex}
-            data-id={idOverride}
-          >
-            
+          <div className={`${ ROOT_CLASS }__name`}>
             {/*
               NOTE - Reasoning behind this layout https://stackoverflow.com/a/34445203/5156659.
               Basically I'm creating an "editable" mask, so that when webkit
@@ -283,7 +278,11 @@ class Renamable extends Component {
               element. This layout is required to maintain the overlow ellipsis
               formatting for long names.
             */}
-            <div className={`${ ROOT_CLASS }__ce-fix`}>
+            <div
+              className={`${ ROOT_CLASS }__ce-fix`}
+              data-index={itemIndex}
+              data-id={idOverride}
+            >
               <span
                 contentEditable={selected}
                 onBlur={this.handleNameBlur}

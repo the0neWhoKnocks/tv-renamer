@@ -570,7 +570,7 @@ class App extends Component {
   }
   
   handlePreviewRename(ev) {
-    const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__name`);
+    const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__name .${ RENAMABLE_ROOT_CLASS }__ce-fix`);
     const names = [...items].map(this.buildPreviewData);
     const useDVDOrder = ev.currentTarget.getAttribute('for').includes('dvd');
     

@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v2.8.1
+
+**Bugfixes**
+- [3446514](https://github.com/the0neWhoKnocks/tv-renamer/commit/3446514) - Cache update not working
+
+---
+
 ## v2.8.0
 
 **Bugfixes**

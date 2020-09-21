@@ -12,6 +12,7 @@ module.exports = (api) => {
       ['transform-define', {
         'global.appVersion': `v${ version }`,
       }],
+      '@babel/plugin-syntax-dynamic-import',
       'emotion',
     ],
     presets: [

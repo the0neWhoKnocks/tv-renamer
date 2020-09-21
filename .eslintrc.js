@@ -7,7 +7,8 @@ module.exports = {
     '/bin/release.js',
   ],
   parserOptions: {
-    ecmaVersion: 9,
+    allowImportExportEverywhere: true,
+    ecmaVersion: 11,
     sourceType: 'module',
   },
   plugins: [

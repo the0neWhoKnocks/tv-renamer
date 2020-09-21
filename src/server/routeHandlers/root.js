@@ -2,7 +2,6 @@ import { readFile } from 'fs';
 import {
   APP_NAME,
   PUBLIC,
-  PUBLIC_JS,
   PUBLIC_MANIFEST,
   PUBLIC_VENDOR,
 } from 'ROOT/conf.app';
@@ -10,7 +9,6 @@ import template from 'SRC/template';
 import handleError from './error';
 
 const prodMode = process.env.MODE === 'production';
-const relativeJS = PUBLIC_JS.replace(PUBLIC, '');
 const relativeVendor = PUBLIC_VENDOR.replace(PUBLIC, '');
 
 export default ({ res }) => {
@@ -27,7 +25,7 @@ export default ({ res }) => {
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.end(template({
       bundleScripts: Object.keys(bundleScripts).map(
-        (key) => `${ relativeJS }/${ bundleScripts[key] }`
+        (key) => bundleScripts[key]
       ),
       // rootContent: '', // uncomment if content needs to be rendered on server
       scripts: {

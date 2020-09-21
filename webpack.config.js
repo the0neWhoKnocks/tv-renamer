@@ -1,9 +1,11 @@
 const { resolve } = require('path');
 const webpack = require('webpack');
-const WebpackAssetsManifest = require('webpack-assets-manifest');
 const SimpleProgressWebpackPlugin = require('simple-progress-webpack-plugin');
-const TidyPlugin = require('@noxx/webpack-tidy-plugin');
+const ManifestPlugin = require('webpack-manifest-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const {
+  PUBLIC,
+  PUBLIC_JS,
   WP__ENTRY,
   WP__OUTPUT,
 } = require('./conf.app');
@@ -41,19 +43,20 @@ const conf = {
       cacheGroups: {
         vendor: {
           chunks: 'initial',
-          test: resolve(__dirname, 'node_modules'),
-          name: 'vendor',
           enforce: true,
+          name: 'vendor',
+          test: /[\\/]node_modules[\\/]/,
         },
       },
     },
   },
   output: {
-    path: WP__OUTPUT,
-    // assigns the hashed name to the file
-    filename: `[name]_[chunkhash:${ HASH_LENGTH }].js`,
     // Point sourcemap entries to original disk location (format as URL on Windows)
     devtoolModuleFilenameTemplate: info => resolve(info.absoluteResourcePath).replace(/\\/g, '/'),
+    // assigns the hashed name to the file
+    filename: `[name]_[chunkhash:${ HASH_LENGTH }].js`,
+    path: WP__OUTPUT,
+    publicPath: `${ PUBLIC_JS.replace(PUBLIC, '') }/`,
   },
   plugins: [
     /**
@@ -67,9 +70,11 @@ const conf = {
      * to their corresponding output file so that tools can load them without
      * having to know the hashed name.
      */
-    new WebpackAssetsManifest({
-      sortManifest: false,
-      writeToDisk: true,
+    new ManifestPlugin({
+      filter: ({ isChunk, isInitial }) => {
+        return isChunk && isInitial;
+      },
+      writeToFileEmit: true,
     }),
     /**
      * Provides build progress in the CLI
@@ -86,9 +91,13 @@ const conf = {
 
 if(MODE !== 'production'){
   conf.plugins.push(
-    new TidyPlugin({
-      cleanOutput: true,
-      hashLength: HASH_LENGTH,
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: [
+        '**/*',
+        '!manifest.json', // the watcher won't pick up on changes if this is deleted
+        '!vendor',
+        '!vendor/**/*',
+      ],
     }),
   );
 }

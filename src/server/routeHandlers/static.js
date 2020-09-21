@@ -49,37 +49,39 @@ export default (opts, cleanPath) => {
     else{
       exists(file, (exist) => {
         if(!exist) {
+          pendingRequest = '';
           handleError(opts, 404, `File ${ file } not found!`);
-          return;
         }
-        
-        // read file from file system
-        readFile(file, (err, data) => {
-          if(err){
-            handleError(opts, 500, `Error reading file: ${ err }.`);
-          }
-          else{
-            // use/generate eTag for caching
-            const eTag = cache[file] || crypto.createHash('md5').update(data).digest('hex');
-            // based on the URL path, extract the file extention. e.g. .js, .doc, ...
-            const ext = parse(file).ext;
-            // if the file is found, set Content-type and send data
-            res.setHeader('Content-type', mimeTypes[ext] || 'text/plain');
-            res.setHeader('ETag', eTag);
-            
-            // ensure the cached file is recorded for faster future look-ups
-            cache[file] = eTag;
-            saveFile({
-              cb: () => {
-                pendingRequest = '';
-                res.end(data);
-              },
-              data: cache,
-              file: PUBLIC_FILE_CACHE,
-              sync: true,
-            });
-          }
-        });
+        else{
+          // read file from file system
+          readFile(file, (err, data) => {
+            if(err){
+              pendingRequest = '';
+              handleError(opts, 500, `Error reading file: ${ err }.`);
+            }
+            else{
+              // use/generate eTag for caching
+              const eTag = cache[file] || crypto.createHash('md5').update(data).digest('hex');
+              // based on the URL path, extract the file extention. e.g. .js, .doc, ...
+              const ext = parse(file).ext;
+              // if the file is found, set Content-type and send data
+              res.setHeader('Content-type', mimeTypes[ext] || 'text/plain');
+              res.setHeader('ETag', eTag);
+              
+              // ensure the cached file is recorded for faster future look-ups
+              cache[file] = eTag;
+              saveFile({
+                cb: () => {
+                  pendingRequest = '';
+                  res.end(data);
+                },
+                data: cache,
+                file: PUBLIC_FILE_CACHE,
+                sync: true,
+              });
+            }
+          });
+        }
       });
     }
   };

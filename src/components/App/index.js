@@ -177,15 +177,19 @@ class App extends Component {
       renameCount: 0,
       renameErrorCount: 0,
       renameRequested: false,
+      searchAndReplaceFiles: [],
       selectAll: true,
       selectionCount: 0,
       showAssignId: false,
       showConfig: false,
       showDeleteConfirmation: false,
+      showReplace: false,
       showVersion: false,
       useGlobalToggle: true,
       visible: false,
     };
+    
+    this.comps = {};
     
     this.logEndRef = React.createRef();
     
@@ -205,6 +209,7 @@ class App extends Component {
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
     this.handlePreviewRename = this.handlePreviewRename.bind(this);
     this.handleRename = this.handleRename.bind(this);
+    this.handleReplaceClick = this.handleReplaceClick.bind(this);
     this.handleVersionClick = this.handleVersionClick.bind(this);
   }
   
@@ -673,6 +678,27 @@ class App extends Component {
       });
   }
   
+  handleReplaceClick() {
+    const { files } = this.state;
+    const newState = {
+      searchAndReplaceFiles: [...files],
+      showReplace: true,
+    };
+    
+    if(this.comps.Replace) this.setState(newState);
+    else{
+      import(
+        /* webpackChunkName: "Replace" */
+        'COMPONENTS/Replace'
+      )
+        .then(({ default: Replace }) => {
+          this.comps.Replace = Replace;
+          this.setState(newState);
+        })
+        .catch(error => 'An error occurred while loading the component');
+    }
+  }
+  
   handleVersionClick() {
     this.setState({ showVersion: true });
   }
@@ -768,11 +794,13 @@ class App extends Component {
       renameCount,
       renameErrorCount,
       renameRequested,
+      searchAndReplaceFiles,
       selectAll,
       selectionCount,
       showAssignId,
       showConfig,
       showDeleteConfirmation,
+      showReplace,
       showVersion,
       visible,
     } = this.state;
@@ -792,6 +820,10 @@ class App extends Component {
     };
     const versionProps = {
       onClose: this.handleModalClose('showVersion'),
+    };
+    const replaceProps = {
+      files: searchAndReplaceFiles,
+      onCancel: this.handleModalClose('showReplace'),
     };
     let configProps = {
       onClose: this.handleModalClose('showConfig'),
@@ -853,6 +885,13 @@ class App extends Component {
                   htmlFor="folders"
                 >
                   <SVG icon={ICON__FOLDER} />
+                </button>
+                <button
+                  disabled={selectionCount === 0}
+                  onClick={this.handleReplaceClick}
+                  htmlFor="replace"
+                >
+                  Replace
                 </button>
                 <button
                   className={`${ (dvdPreviewRequested) ? MODIFIER__INDICATOR : '' }`}
@@ -967,6 +1006,15 @@ class App extends Component {
         >
           <Version {...versionProps} />
         </Modal>
+        
+        {!!this.comps.Replace && (
+          <Modal
+            onMaskClick={replaceProps.onCancel}
+            visible={showReplace}
+          >
+            <this.comps.Replace {...replaceProps} />
+          </Modal>
+        )}
       </div>
     );
   }

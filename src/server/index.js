@@ -10,25 +10,25 @@ import {
   API__JWT,
   API__LOGS,
   API__PREVIEW_RENAME,
-  API__RENAME,
   API__RELEASES,
+  API__RENAME,
+  API__REPLACE,
 } from 'ROOT/conf.app';
 import jsonResp from 'SERVER/utils/jsonResp';
 import prepData from './prepData';
-import {
-  assignId,
-  checkForConfig,
-  deleteFile,
-  getFolderListing,
-  getFilesList,
-  getIDs,
-  getLogs,
-  getReleases,
-  previewRename,
-  renameFiles,
-  setJWT,
-  updateConfig,
-} from './routeHandlers/api/v1';
+import assignId from './routeHandlers/api/v1/assignId';
+import changeFileNames from './routeHandlers/api/v1/changeFileNames';
+import checkForConfig from './routeHandlers/api/v1/checkForConfig';
+import deleteFile from './routeHandlers/api/v1/deleteFile';
+import getFolderListing from './routeHandlers/api/v1/getFolderListing';
+import getFilesList from './routeHandlers/api/v1/getFilesList';
+import getIDs from './routeHandlers/api/v1/getIDs';
+import getLogs from './routeHandlers/api/v1/getLogs';
+import getReleases from './routeHandlers/api/v1/getReleases';
+import previewRename from './routeHandlers/api/v1/previewRename';
+import renameFiles from './routeHandlers/api/v1/renameFiles';
+import setJWT from './routeHandlers/api/v1/setJWT';
+import updateConfig from './routeHandlers/api/v1/updateConfig';
 import handleError from './routeHandlers/error';
 import handleRootRequest from './routeHandlers/root';
 import handleStaticFile from './routeHandlers/static';
@@ -75,8 +75,9 @@ http
     [API__JWT, setJWT],
     [API__LOGS, getLogs],
     [API__PREVIEW_RENAME, previewRename],
-    [API__RENAME, renameFiles],
     [API__RELEASES, getReleases],
+    [API__RENAME, renameFiles],
+    [API__REPLACE, changeFileNames],
     [/\.[a-z]{2,4}/, handleStaticFile],
     ['*', handleError, [404, 'Page Not Found']],
   ]))

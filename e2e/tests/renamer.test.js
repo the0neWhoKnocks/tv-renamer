@@ -45,7 +45,7 @@ context('Renamer', () => {
   });
   
   it('should have loaded files to rename', () => {
-    expect(fileNames.length).to.eq(76);
+    expect(fileNames.length).to.eq(79);
     
     cy.get('.renamable__ce-fix [contenteditable="true"][spellcheck="false"]')
       .each(($el, ndx, $list) => {
@@ -213,10 +213,96 @@ context('Renamer', () => {
     
     cy.get('[for="folders"]').click();
     
-    cy.get('.app__items-nav').contains(/^Rename All/).click();
+    cy.get('.app__items-nav').contains(/^Rename Selected/).click();
     
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el).to.have.text(`${ appConfig.output }/Futurama/${ newName }`);
+    });
+  });
+  
+  it('should allow for Search & Replace of file names on the file system', () => {
+    cy.get('button[for="replace"]')
+      .contains('Replace')
+      .should('be.disabled');
+    
+    cy.get('.app__global-toggle .toggle__btn').click();
+    
+    cy.get('button[for="replace"]')
+      .should('not.be.disabled')
+      .click();
+    
+    let rowData = [
+      ['1x01.mkv', '1x01.mkv'],
+      ['1x02.mkv', '1x02.mkv'],
+      ['2x01.mkv', '2x01.mkv'],
+    ];
+    cy.get('.replace__table tbody tr').each(($tr, rowNdx) => {
+      cy.wrap($tr).within(() => {
+        cy.get('td').each(($td, tdNdx) => {
+          expect($td).to.have.text(rowData[rowNdx][tdNdx]);
+        });
+      });
+    });
+    
+    const INPUT_DEBOUNCE = 400;
+    const inputsPromise = new Cypress.Promise((resolve) => {
+      const values = ['(\\d)x(\\d+)', 'My.Name.is.Earl.s0$1e$2'];
+      cy.get('.replace__labeled-input input').each(($el, ndx) => {
+        setTimeout(function fn() {
+          const setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
+          
+          setter.call($el[0], values[ndx]);
+          $el[0].dispatchEvent(new Event('input', { bubbles: true }));
+          
+          if(ndx === values.length - 1) {
+            setTimeout(() => { resolve(); }, INPUT_DEBOUNCE);
+          }
+        }, INPUT_DEBOUNCE * ndx);
+      });
+    });
+    
+    inputsPromise.then(() => {
+      rowData = [
+        ['1x01.mkv', 'My.Name.is.Earl.s01e01.mkv'],
+        ['1x02.mkv', 'My.Name.is.Earl.s01e02.mkv'],
+        ['2x01.mkv', 'My.Name.is.Earl.s02e01.mkv'],
+      ];
+      cy.get('.replace__table tbody tr').each(($tr, rowNdx) => {
+        cy.wrap($tr).within(() => {
+          cy.get('td').each(($td, tdNdx) => {
+            expect($td).to.have.text(rowData[rowNdx][tdNdx]);
+          });
+        });
+      });
+      
+      cy.get('.replace__btm-nav button')
+        .contains('Rename')
+        .click();
+      
+      cy.get('.app__items-nav').contains(/^Preview$/).click();
+      
+      cy.get('.app__items-nav').contains(/^Rename All/).click();
+      
+      const folderDeleteMsg = 'Deleted folder: "/home/node/app/_temp_/src/My Name is Earl S01-S04 Season 1-4"';
+      const logs = [
+        '/home/node/app/_temp_/output/My Name Is Earl - 1x01 - Pilot.mkv',
+        '/home/node/app/_temp_/output/My Name Is Earl - 1x02 - Quit Smoking.mkv',
+        '/home/node/app/_temp_/output/My Name Is Earl - 2x01 - Very Bad Things.mkv',
+      ];
+      cy.get('.log-item__body').each(($log, logNdx) => {
+        const logMsg = logs[logNdx];
+        
+        cy.wrap($log).within(() => {
+          const $logMsg = $log.find('.log-item__to');
+          const $folderDeletionMsg = $log.find('.log-item__deleted');
+          
+          cy.wrap($logMsg).contains(logMsg);
+          
+          if($folderDeletionMsg.length){
+            cy.wrap($folderDeletionMsg).contains(folderDeleteMsg);
+          }
+        });
+      });
     });
   });
 });

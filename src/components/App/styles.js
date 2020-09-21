@@ -82,7 +82,7 @@ export default css`
         position: relative;
         vertical-align: top;
         
-        &:hover {
+        &:not(:disabled):hover {
           color: #fff;
         }
         

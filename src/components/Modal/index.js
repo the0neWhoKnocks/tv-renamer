@@ -3,7 +3,9 @@ import { createPortal } from 'react-dom';
 import { bool, func, node, string } from 'prop-types';
 import styles, {
   MODIFIER__CLICKABLE,
+  MODIFIER__CLOSING,
   ROOT_CLASS,
+  TRANSITION_DURATION,
 } from './styles';
 
 export default class Modal extends Component {
@@ -11,6 +13,7 @@ export default class Modal extends Component {
     super();
     
     this.state = {
+      closing: false,
       visible,
     };
     
@@ -18,7 +21,7 @@ export default class Modal extends Component {
   }
   
   componentDidUpdate(prevProps, prevState) {
-    const state = {};
+    let state = {};
     
     // `visible` state changed from parent
     if(
@@ -26,7 +29,22 @@ export default class Modal extends Component {
       && this.props.visible !== this.state.visible
     ) state.visible = this.props.visible;
     
-    if(Object.keys(state).length) this.setState(state);
+    if(
+      !this.props.noMask
+      && (prevState.visible && !this.state.visible)
+    ){
+      state.closing = true;
+    }
+    
+    if(Object.keys(state).length) {
+      this.setState(state, () => {
+        if(state.closing){
+          setTimeout(() => {
+            this.setState({ closing: false, visible: false });
+          }, TRANSITION_DURATION);
+        }
+      });
+    }
   }
   
   handleMaskClick() {
@@ -44,18 +62,24 @@ export default class Modal extends Component {
       onMaskClick,
       rootClassOverride,
       stylesOverride,
-      visible,
     } = this.props;
+    const {
+      closing,
+      visible,
+    } = this.state;
     const _rootClass = rootClassOverride || ROOT_CLASS;
     const _styles = stylesOverride || styles;
+    let modifiers = '';
     
-    if(!visible) return null;
+    if(!visible && !closing) return null;
     
     const maskModifier = (onMaskClick) ? MODIFIER__CLICKABLE : '';
     
+    if(closing) modifiers += MODIFIER__CLOSING;
+    
     return createPortal(
       (
-        <div className={`${ _rootClass } ${ _styles }`}>
+        <div className={`${ _rootClass } ${ _styles } ${ modifiers }`}>
           {!noMask && (
             <button
               className={`${ _rootClass }__mask ${ maskModifier }`}

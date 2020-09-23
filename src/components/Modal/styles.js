@@ -1,7 +1,39 @@
-import { css } from 'emotion';
+import { css, keyframes } from 'emotion';
 
 export const MODIFIER__CLICKABLE = 'is--clickable';
+export const MODIFIER__CLOSING = 'is--closing';
 export const ROOT_CLASS = 'modal';
+export const TRANSITION_DURATION = 200;
+
+const showMask = keyframes`
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+`;
+const hideMask = keyframes`
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+`;
+
+const showModal = keyframes`
+  0% {
+    opacity: 0;
+    transform: translateY(-3em);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0em);
+  }
+`;
+const hideModal = keyframes`
+  0% {
+    opacity: 1;
+    transform: translateY(0em);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(3em);
+  }
+`;
 
 export default css`
   display: flex;
@@ -25,6 +57,7 @@ export default css`
       top: 0;
       left: 0;
       cursor: default;
+      animation: ${ showMask } ${ TRANSITION_DURATION }ms;
       
       &.${ MODIFIER__CLICKABLE } {
         cursor: pointer;
@@ -42,6 +75,23 @@ export default css`
       display: flex;
       flex-direction: column;
       position: relative;
+      animation: ${ showModal } ${ TRANSITION_DURATION }ms;
+    }
+  }
+  
+  &.${ MODIFIER__CLOSING } {
+    
+    .${ ROOT_CLASS } {
+      
+      &__mask {
+        animation: ${ hideMask } ${ TRANSITION_DURATION }ms;
+        animation-fill-mode: forwards;
+      }
+      
+      &__body {
+        animation: ${ hideModal } ${ TRANSITION_DURATION }ms;
+        animation-fill-mode: forwards;
+      }
     }
   }
 `;

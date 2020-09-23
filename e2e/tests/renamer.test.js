@@ -45,7 +45,7 @@ context('Renamer', () => {
   });
   
   it('should have loaded files to rename', () => {
-    expect(fileNames.length).to.eq(79);
+    expect(fileNames.length).to.eq(80);
     
     cy.get('.renamable__ce-fix [contenteditable="true"][spellcheck="false"]')
       .each(($el, ndx, $list) => {
@@ -59,6 +59,7 @@ context('Renamer', () => {
     // generate list with `[...document.querySelectorAll('.renamable.is--previewing.is--selected .renamable__new-name-text')].map(el => { const t = el.textContent; const q = t.includes("'") ? '"' : "'"; return `${q}${t}${q},`}).join('\n');`
     const newNames = [
       'My Hero Academia - 4x11 - Lemillion.mkv',
+      'Appare-Ranman! - 1x10 - The Bridge to Hell.mkv',
       'Astra Lost in Space - 1x01 - Planet Camp.mkv',
       'Barry - 2x08 - berkman (greater-than) block.mkv',
       'Black Monday - 1x01 - 365.mkv',

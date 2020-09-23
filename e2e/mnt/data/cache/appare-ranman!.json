@@ -1,0 +1,33 @@
+{
+  "dvdSeasons": {},
+  "id": 371000,
+  "name": "Appare-Ranman!",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        null
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Sunny [Appare], With Occasional Showers [Kosame]",
+        "In the Dark",
+        "Duel",
+        "Let It Go",
+        "The Eve, and...",
+        "I am GIL!",
+        "FAKE",
+        "HEAVY RAIN",
+        "short break",
+        "The Bridge to Hell",
+        "Rain in the Dark Night",
+        "WE WILL STOP YOU!!",
+        "OVER THE MOON"
+      ]
+    }
+  },
+  "slug": "appare-ranman",
+  "cacheKey": "appare-ranman!"
+}

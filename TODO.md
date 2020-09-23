@@ -8,7 +8,7 @@
     - try to just intercept the response and delete an episode's data
   - [ ] write test to ensure assign ID works
   - [ ] strip out un-needed data from cache files.
-- [ ] strip exclamation marks from search, `[Judas] Appare-Ranman! - S01E10.mkv`
+- [x] strip exclamation marks from search, `[Rel] Appare-Ranman! - S01E10.mkv`
 - [x] add Search/Replace for files
   - `My Name is Earl S01-S04 Season 1-4/My Name Is Earl S01 Season 1/S01E01.mkv`
   - show preview of rename, and confirmation 'Rename' button

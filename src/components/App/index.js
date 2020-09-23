@@ -253,7 +253,9 @@ class App extends Component {
   }
   
   buildPreviewData(itemEl) {
-    const name = itemEl.innerText.replace(/\n/g, '');
+    const name = itemEl.innerText
+      // remove misc. characters that cause mismatches
+      .replace(/\n|!/g, '');
     const itemData = itemEl.dataset;
     const matches = name.match(NAME_REGEX);
     const epMatches = name

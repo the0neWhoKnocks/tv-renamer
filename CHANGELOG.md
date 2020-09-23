@@ -1,6 +1,28 @@
 # Changelog
 ---
 
+## v2.9.0
+
+**Bugfixes**
+- [60360a3](https://github.com/the0neWhoKnocks/tv-renamer/commit/60360a3):  Exclamation mark returns bad results
+- [d07184f](https://github.com/the0neWhoKnocks/tv-renamer/commit/d07184f):  Dates in release Modal misaligned
+- [e5856bd](https://github.com/the0neWhoKnocks/tv-renamer/commit/e5856bd):  Hover triggered when button disabled
+- [45d34a6](https://github.com/the0neWhoKnocks/tv-renamer/commit/45d34a6):  Server freezes when file is missing
+
+**Dev-Ops**
+- [ff52133](https://github.com/the0neWhoKnocks/tv-renamer/commit/ff52133):  Upgraded Cypress
+- [43fe264](https://github.com/the0neWhoKnocks/tv-renamer/commit/43fe264):  Wired up WP dynamic imports
+- [3d1cbd6](https://github.com/the0neWhoKnocks/tv-renamer/commit/3d1cbd6):  Upgraded ESLint
+- [cef6232](https://github.com/the0neWhoKnocks/tv-renamer/commit/cef6232):  Added new release script
+
+**Features**
+- [89ff028](https://github.com/the0neWhoKnocks/tv-renamer/commit/89ff028):  Smoother transition for Modals
+- [75bfdac](https://github.com/the0neWhoKnocks/tv-renamer/commit/75bfdac):  Ability to Search/Replace text in file names
+
+**Uncategorized**
+- [f675dee](https://github.com/the0neWhoKnocks/tv-renamer/commit/f675dee) doc: Added TODO items
+
+---
 ## v2.8.1
 
 **Bugfixes**

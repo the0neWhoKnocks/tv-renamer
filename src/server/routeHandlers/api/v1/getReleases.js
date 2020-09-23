@@ -26,9 +26,12 @@ export default ({ res }) => {
         const releases = data.results.map(({ full_size, last_updated, name }) => {
           const date = new Date(last_updated);
           const dateOpts = ['en-US', {
+            day: '2-digit',
             hour: '2-digit',
             minute: '2-digit',
+            month: '2-digit',
             timeZone: 'America/Los_Angeles',
+            year: 'numeric',
           }];
           
           return {

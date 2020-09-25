@@ -6,11 +6,14 @@ import {
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
 import loadFile from 'SERVER/utils/loadFile';
+import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
 import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
 import lookUpSeries from './utils/lookUpSeries';
 import sanitizeName from './utils/sanitizeName';
+
+const log = logger('server:previewRename');
 
 const parseEpNum = (episode) => {
   return (`${ episode }`.length < 2)
@@ -149,7 +152,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
       }
     }
     else{
-      console.log('[PREVIEW] Dunno what happened', nameObj);
+      log('[PREVIEW] Dunno what happened', nameObj);
       renamed.push(null);
     }
   });
@@ -197,7 +200,7 @@ export default ({ reqData, res }) => {
         }
         
         if(allCached){
-          console.log('Skipping config load and series look-ups, all items cached');
+          log('Skipping config load and series look-ups, all items cached');
           jsonResp(
             res,
             getEpNamesFromCache({
@@ -211,7 +214,7 @@ export default ({ reqData, res }) => {
           );
         }
         else{
-          console.log((updatingCache)
+          log((updatingCache)
             ? 'Cache update requested, proceed to look-ups'
             : 'Not all items were cached, proceed to look-ups'
           );

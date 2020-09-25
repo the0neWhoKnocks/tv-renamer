@@ -1,3 +1,7 @@
+import logger from 'SERVER/utils/logger';
+
+const log = logger('server:tvdbResponseHandler');
+
 export default ({ res }, code, msg) => {
   let transformedError = `${ msg }`;
   
@@ -6,11 +10,11 @@ export default ({ res }, code, msg) => {
     
     if(transformedError.includes('TIMEDOUT')){
       // TODO - print out the URL that timed out
-      console.log(Object.keys(res));
+      log(Object.keys(res));
     }
   }
   
-  console.error('[ERROR]', transformedError);
+  log('[ERROR]', transformedError);
   
   res.statusCode = code;
   res.end(transformedError);

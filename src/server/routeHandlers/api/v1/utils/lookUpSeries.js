@@ -1,20 +1,23 @@
+import logger from 'SERVER/utils/logger';
 import convertNameToSlug from './convertNameToSlug';
 import getSeries from './getSeries';
 import getSeriesId from './getSeriesId';
 import lookUpEpisodes from './lookUpEpisodes';
 import timeoutCodeCheck from './timeoutCodeCheck';
 
+const log = logger('server:lookUpSeries');
+
 export default ({ cache, cacheKey, id, index, jwt, seriesName: userSeriesName }) => new Promise(
   (resolve, reject) => {
     if(cache[cacheKey]){
       const cachedItem = cache[cacheKey];
-      console.log(`Skipping series look-up for: "${ cachedItem.name }"`);
+      log(`Skipping series look-up for: "${ cachedItem.name }"`);
       resolve({ cache: cachedItem, index });
     }
     else{
       new Promise((resolveSeries, rejectSeries) => {
         if(id){
-          console.log(`Looking up series with TVDB id: "${ id }"`);
+          log(`Looking up series with TVDB id: "${ id }"`);
           
           getSeries({ jwt, id })
             .then(({ data: series }) => {
@@ -33,7 +36,7 @@ export default ({ cache, cacheKey, id, index, jwt, seriesName: userSeriesName })
             });
         }
         else{
-          console.log(`Looking up series id for: "${ userSeriesName }"`);
+          log(`Looking up series id for: "${ userSeriesName }"`);
           
           getSeriesId({ jwt, name: userSeriesName })
             .then(({ data: seriesMatches }) => {
@@ -87,7 +90,7 @@ export default ({ cache, cacheKey, id, index, jwt, seriesName: userSeriesName })
             : `Couldn't find exact match for series: "${ userSeriesName }"`;
           if(resp){
             error += ` | ${ resp.statusCode } - ${ err }`;
-            console.error('  [ERROR]', error);
+            log('  [ERROR]', error);
           }
           
           let payload = { error, index, name: userSeriesName };

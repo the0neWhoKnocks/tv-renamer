@@ -6,8 +6,11 @@ import {
   PUBLIC_FILE_CACHE,
 } from 'ROOT/conf.app';
 import loadFile from 'SERVER/utils/loadFile';
+import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
 import handleError from './error';
+
+const log = logger('server:static');
 
 const mimeTypes = {
   '.css': 'text/css',
@@ -25,7 +28,7 @@ const mimeTypes = {
 // valid against possibly new files.
 saveFile({
   cb: () => {
-    console.log(`[CREATED] ${ PUBLIC_FILE_CACHE }`);
+    log(`[CREATED] ${ PUBLIC_FILE_CACHE }`);
   },
   data: {},
   file: PUBLIC_FILE_CACHE,

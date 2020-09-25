@@ -1,4 +1,7 @@
+import logger from 'SERVER/utils/logger';
 import timeoutCodeCheck from './timeoutCodeCheck';
+
+const log = logger('server:tvdbResponseHandler');
 
 export default (
   resolve,
@@ -9,7 +12,7 @@ export default (
     const timedOut = timeoutCodeCheck(err) || timeoutCodeCheck(resp.statusCode);
     
     if(timedOut){
-      console.error(`  [TIMEOUT] For "${ reqURL }" with opts:\n    ${ JSON.stringify(reqOpts, null, 2) }`);
+      log(`  [TIMEOUT] For "${ reqURL }" with opts:\n    ${ JSON.stringify(reqOpts, null, 2) }`);
     }
   }
   

@@ -4,8 +4,11 @@ import rimraf from 'rimraf';
 import handleError from 'SERVER/routeHandlers/error';
 import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'SERVER/utils/jsonResp';
+import logger from 'SERVER/utils/logger';
 import filesFilter from './utils/filesFilter';
 import loadConfig from './utils/loadConfig';
+
+const log = logger('server:deleteFile');
 
 export default ({ reqData, res }) => {
   loadConfig(({ sourceFolder }) => {
@@ -16,7 +19,7 @@ export default ({ reqData, res }) => {
       let message = `Deleted file '${ file }'`;
       
       const allDone = () => {
-        console.log(message);
+        log(message);
         jsonResp(res, {
           message,
           file: filePath,

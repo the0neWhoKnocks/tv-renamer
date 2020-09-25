@@ -1,5 +1,8 @@
+import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
 import genCacheName from './genCacheName';
+
+const log = logger('server:cacheData');
 
 export default ({ data, name, res }) => new Promise((resolve, reject) => {
   const cacheName = genCacheName(data.name);
@@ -7,7 +10,7 @@ export default ({ data, name, res }) => new Promise((resolve, reject) => {
   
   saveFile({
     cb: () => {
-      console.log(`Cached series: "${ data.name }"`);
+      log(`Cached series: "${ data.name }"`);
       return resolve(data);
     },
     data,

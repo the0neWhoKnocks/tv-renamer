@@ -26,6 +26,7 @@ services:
       dockerfile: Dockerfile
     container_name: tv-renamer
     environment:
+      DISABLE_LOGS: 'true'
       NODE_ENV: production
     image: theonewhoknocks/tv-renamer
     ports:

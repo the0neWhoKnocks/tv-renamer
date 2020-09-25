@@ -1,5 +1,8 @@
 import { normalize } from 'path';
 import url from 'url';
+import logger from 'SERVER/utils/logger';
+
+const log = logger('server:prepData');
 
 export default (routes) => async (req, res) => {
   // extract URL path
@@ -57,7 +60,7 @@ export default (routes) => async (req, res) => {
       else if( cleanPath === path ) break;
     }
     
-    if(emitLog) console.log(`Route matched (${ req.method }) "${ path }" for ${ cleanPath }`);
+    if(emitLog) log(`Route matched (${ req.method }) "${ path }" for ${ cleanPath }`);
     handler(...args);
   });
 };

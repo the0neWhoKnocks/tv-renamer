@@ -3,7 +3,7 @@
 ---
 
 - Add Cypress tests
-  - [ ] silence server logs while testing
+  - [x] silence server logs while testing
   - [ ] write test to ensure cache update works.
     - try to just intercept the response and delete an episode's data
   - [ ] write test to ensure assign ID works

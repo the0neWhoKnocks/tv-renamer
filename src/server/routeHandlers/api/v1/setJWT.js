@@ -2,9 +2,12 @@ import request from 'request';
 import { TVDB_API__LOGIN_URL } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
+import logger from 'SERVER/utils/logger';
 import saveConfig from './utils/saveConfig';
 import timeoutCodeCheck from './utils/timeoutCodeCheck';
 import tvdbRequestProps from './utils/tvdbRequestProps';
+
+const log = logger('server:setJWT');
 
 export default ({ reqData, res }) => {
   const { apiKey, userKey, userName } = reqData;
@@ -47,7 +50,7 @@ export default ({ reqData, res }) => {
         
         saveConfig(confData, res, (config) => {
           const updateTime = new Date(jwtDate).toLocaleString('en-US', { timeZone: 'America/Los_Angeles' });
-          console.log(`[JWT] updated on "${ updateTime }"`);
+          log(`[JWT] updated on "${ updateTime }"`);
           jsonResp(res, config);
         });
       }

@@ -17,6 +17,7 @@
     "lint": "eslint ./src/**/*.js",
     "release": "./bin/release.js",
     "release:dryrun": "./bin/release.js -dr",
+    "release:update": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/the0neWhoKnocks/release-script/master/js/tools/install.sh) --update --install-dir \\\"bin\\\"\"",
     "start": "npm run build:appForDocker && cross-env NODE_ENV=production npm run start:server",
     "start:dev": "npm run build:dist && cross-env DEBUG=true PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",
     "start:server": "node $npm_package_paths_babelOutput/server",

@@ -279,6 +279,11 @@ class CLISelect {
         flag: ['--dry-run', '-dr'],
         desc: "Prints out everything that'll happen. Won't actually deploy any code.",
       },
+      {
+        prop: 'showCreds',
+        flag: ['--show-credentials', '-sc'],
+        desc: "Prints credentials, despite being run with --dry-run.",
+      },
     ],
   });
   let newChanges;
@@ -333,11 +338,15 @@ class CLISelect {
   await cmd('git fetch --tags', { silent: false });
   
   // Get previous tag info so that the changelog can be updated.
-  let latestTag;
+  let latestTagOrSHA;
+  renderHeader('GET', 'latest tag or SHA');
   if (await cmd('git tag -l')) {
-    renderHeader('GET', 'latest tag');
-    latestTag = await cmd('git tag -l | tail -n1');
-    console.log(`\n Latest tag: ${color.blue.bold(latestTag)}`);
+    latestTagOrSHA = await cmd('git describe --abbrev=0');
+    console.log(`\n Latest tag: ${color.blue.bold(latestTagOrSHA)}`);
+  }
+  else {
+    latestTagOrSHA = await cmd('git rev-parse --short $(git rev-list --max-parents=0 HEAD)');
+    console.log(`\n No tags found, using first SHA: ${color.blue.bold(latestTagOrSHA)}`);
   }
 
   // Run tests if they exist
@@ -350,7 +359,7 @@ class CLISelect {
       : await cmd(testCmd, { silent: false });
   }
   
-  if (latestTag) {
+  if (latestTagOrSHA) {
     renderHeader('ADD', 'new CHANGELOG items');
     
     const CHANGELOG_PATH = `${PATH__REPO_ROOT}/CHANGELOG.md`;
@@ -361,7 +370,7 @@ class CLISelect {
     }
 
     // const commits = await cmd('git log "v3.1.0".."v4.0.0" --oneline');
-    const commits = await cmd(`git log "${latestTag}"..HEAD --oneline`);
+    const commits = await cmd(`git log "${latestTagOrSHA}"..HEAD --oneline`);
     const categories = {
       'Bugfixes': [],
       'Dev-Ops': [],
@@ -397,13 +406,15 @@ class CLISelect {
     // Add changes to top of logs
     const originalLog = readFileSync(CHANGELOG_PATH, 'utf8');
     if (newChanges) {
+      const newLog = `\n## ${VERSION_STR}\n\n${newChanges}\n\n---\n`;
       const changelog = originalLog.replace(
         new RegExp(`(${DEFAULT_CHANGELOG_CONTENT})`),
-        `$1\n## ${VERSION_STR}\n\n${newChanges}\n\n---`
+        `$1${newLog}`
       );
       
       if (args.dryRun) {
-        dryRunCmd(`writeFileSync(\n  '${CHANGELOG_PATH}',\n${changelog}\n)`);
+        const trimmedLog = changelog.slice(0, `${DEFAULT_CHANGELOG_CONTENT}${newLog}`.length);
+        dryRunCmd(`writeFileSync(\n  '${CHANGELOG_PATH}',\n${trimmedLog}\n[...rest of file]\n\n)`);
       }
       else {
         writeFileSync(CHANGELOG_PATH, changelog);
@@ -481,7 +492,7 @@ class CLISelect {
 
   if (continueRelease) {
     renderHeader('ADD', 'updated files');
-    const ADD_CMD = 'git add CHANGELOG.md package*.json';
+    const ADD_CMD = 'git add -f CHANGELOG.md package*.json';
     if (args.dryRun) dryRunCmd(ADD_CMD);
     else {
       await cmd(ADD_CMD, {
@@ -517,12 +528,17 @@ class CLISelect {
       rollbacks.push({ label: 'Git tag', cmd: `git tag -d "${VERSION_STR}"` });
     }
     
-    let DOCKER_USER, DOCKER_PASS, DOCKER_LOGIN_CMD, DOCKER_TAG;
+    let DOCKER_USER, DOCKER_PASS, DOCKER_TAG;
     if (PATH__CREDS__DOCKER) {
       [DOCKER_USER, DOCKER_PASS] = readFileSync(PATH__CREDS__DOCKER, 'utf8').split('\n');
       const LATEST_REGEX = new RegExp(`^${DOCKER__IMG_NAME}.*latest`);
       const LATEST_ID = (await cmd('docker images')).split('\n').filter(line => LATEST_REGEX.test(line)).map(line => line.split(/\s+/)[2])[0];
-      DOCKER_LOGIN_CMD = `docker login -u="${DOCKER_USER}" -p="${DOCKER_PASS}"`;
+      
+      if (args.dryRun && !args.showCreds) {
+        DOCKER_USER = '******';
+        DOCKER_PASS = '******';
+      }
+      
       DOCKER_TAG = `${DOCKER__IMG_NAME}:${VERSION_STR}`;
       
       renderHeader('DOCKER_TAG', 'the release');
@@ -538,75 +554,92 @@ class CLISelect {
       }
     }
     
-    renderHeader('PUSH', 'Git commit and tag');
-    const GIT_PUSH_CMD = 'git push --follow-tags';
-    if (args.dryRun) dryRunCmd(GIT_PUSH_CMD);
-    else {
-      await cmd(GIT_PUSH_CMD, {
-        cwd: PATH__REPO_ROOT,
-        onError: rollbackRelease,
-        silent: false,
-      });
-    }
+    const finalizeRelease = await new CLISelect({
+      label: color.yellow.bold('Finalize release by deploying all data?'),
+      options: [
+        [color.green.bold('Yes, finalize'), true],
+        [color.red.bold('No, abort!'), false],
+      ],
+      selectedMsg: null,
+    });
     
-    renderHeader('PUSH', 'Docker tags');
-    const DOCKER_PUSH_CMD = `${DOCKER_LOGIN_CMD}`
-      +` && docker push "${DOCKER_TAG}"`
-      +` && docker push "${DOCKER__IMG_NAME}:latest"`;
-    if (args.dryRun) dryRunCmd(DOCKER_PUSH_CMD);
-    else {
-      await cmd(DOCKER_PUSH_CMD, {
-        cwd: PATH__REPO_ROOT,
-        silent: false,
-      });
-    }
-    
-    const GITHUB_TOKEN = await cmd('git config --global github.token');
-    if (GITHUB_TOKEN) {
-      const REMOTE_ORIGIN_URL = await cmd('git config --get remote.origin.url');
-      const urlMatches = REMOTE_ORIGIN_URL.match(/^(https|git)(:\/\/|@)([^/:]+)[/:]([^/:]+)\/(.+).git$/);
-      
-      renderHeader('CREATE', 'GitHub release');
-      
-      if (urlMatches) {
-        const BRANCH = await cmd('git rev-parse --abbrev-ref HEAD');
-        const JSON_PAYLOAD = JSON.stringify({
-          body: GIT_CHANGELOG_MSG,
-          draft: false,
-          name: VERSION_STR,
-          prerelease: false,
-          tag_name: VERSION_STR,
-          target_commitish: BRANCH,
+    if (finalizeRelease) {
+      renderHeader('PUSH', 'Git commit and tag');
+      const GIT_PUSH_CMD = 'git push --follow-tags';
+      if (args.dryRun) dryRunCmd(GIT_PUSH_CMD);
+      else {
+        await cmd(GIT_PUSH_CMD, {
+          cwd: PATH__REPO_ROOT,
+          onError: rollbackRelease,
+          silent: false,
         });
-        const GH_USER = urlMatches[4];
-        const GH_REPO = urlMatches[5];
-        const GH_API__RELEASE_URL = `https://api.github.com/repos/${GH_USER}/${GH_REPO}/releases`;
-        // https://developer.github.com/v3/repos/releases/#create-a-release
-        const CURL_CMD = [
-          'curl',
-          '-H "Content-Type: application/json"',
-          `-H "Authorization: token ${GITHUB_TOKEN}"`,
-          '-X POST',
-          `-d '${JSON_PAYLOAD.replace(/'/g, "\\'")}'`,
-          '--silent --output /dev/null --show-error --fail',
-          GH_API__RELEASE_URL,
-        ].join(' ');
+      }
+      
+      renderHeader('PUSH', 'Docker tags');
+      const DOCKER_PUSH_CMD =
+          `docker login -u="${DOCKER_USER}" -p="${DOCKER_PASS}"`
+        +` && docker push "${DOCKER_TAG}"`
+        +` && docker push "${DOCKER__IMG_NAME}:latest"`;
+      if (args.dryRun) dryRunCmd(DOCKER_PUSH_CMD);
+      else {
+        await cmd(DOCKER_PUSH_CMD, {
+          cwd: PATH__REPO_ROOT,
+          silent: false,
+        });
+      }
+      
+      let GITHUB_TOKEN = await cmd('git config --global github.token');
+      if (GITHUB_TOKEN) {
+        if (args.dryRun && !args.showCreds) GITHUB_TOKEN = '******';
         
-        if (args.dryRun) {
-          console.log(
-               `  ${color.green('Payload')}: ${JSON.stringify(JSON.parse(JSON_PAYLOAD), null, 2)}`
-            +`\n  ${color.green('URL')}: ${color.blue.bold.underline(GH_API__RELEASE_URL)}`
-          );
-          dryRunCmd(CURL_CMD);
+        const REMOTE_ORIGIN_URL = await cmd('git config --get remote.origin.url');
+        const urlMatches = REMOTE_ORIGIN_URL.match(/^(https|git)(:\/\/|@)([^/:]+)[/:]([^/:]+)\/(.+).git$/);
+        
+        renderHeader('CREATE', 'GitHub release');
+        
+        if (urlMatches) {
+          const BRANCH = await cmd('git rev-parse --abbrev-ref HEAD');
+          const JSON_PAYLOAD = JSON.stringify({
+            body: GIT_CHANGELOG_MSG,
+            draft: false,
+            name: VERSION_STR,
+            prerelease: false,
+            tag_name: VERSION_STR,
+            target_commitish: BRANCH,
+          });
+          const GH_USER = urlMatches[4];
+          const GH_REPO = urlMatches[5];
+          const GH_API__RELEASE_URL = `https://api.github.com/repos/${GH_USER}/${GH_REPO}/releases`;
+          // https://developer.github.com/v3/repos/releases/#create-a-release
+          const CURL_CMD = [
+            'curl',
+            '-H "Content-Type: application/json"',
+            `-H "Authorization: token ${GITHUB_TOKEN}"`,
+            '-X POST',
+            `-d '${JSON_PAYLOAD.replace(/'/g, "\\'")}'`,
+            '--silent --output /dev/null --show-error --fail',
+            GH_API__RELEASE_URL,
+          ].join(' ');
+          
+          if (args.dryRun) {
+            console.log(
+                 `  ${color.green('Payload')}: ${JSON.stringify(JSON.parse(JSON_PAYLOAD), null, 2)}`
+              +`\n  ${color.green('URL')}: ${color.blue.bold.underline(GH_API__RELEASE_URL)}`
+            );
+            dryRunCmd(CURL_CMD);
+          }
+          else await cmd(CURL_CMD, { silent: false });
         }
-        else await cmd(CURL_CMD, { silent: false });
+        else {
+          console.log(`\n ${color.black.bgYellow(' WARN ')} ${color.yellow("Couldn't parse the origin URL for GH release creation")}`);
+        }
       }
       else {
-        console.log(`\n ${color.black.bgYellow(' WARN ')} ${color.yellow("Couldn't parse the origin URL for GH release creation")}`);
+        console.log(`\n ${color.black.bgYellow(' WARN ')} ${color.yellow('Skipping GH release creation: No GH token found')}`);
       }
     }
     else {
-      console.log(`\n ${color.black.bgYellow(' WARN ')} ${color.yellow('Skipping GH release creation: No GH token found')}`);
+      await rollbackRelease();
     }
   }
   else {

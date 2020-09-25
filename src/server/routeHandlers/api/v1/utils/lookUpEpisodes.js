@@ -44,8 +44,9 @@ export default ({ index, jwt, seriesID, seriesName, seriesSlug }) => new Promise
       .catch(({ err, resp }) => {
         resolve({
           error: timeoutCodeCheck(err)
-            ? `Episode lookup-up timed out for: "${ seriesName }"`
+            ? `Episodes look-up timed out for: "${ seriesName }"`
             : `Couldn't get episodes for: "${ seriesName }" | ${ resp.statusCode } - ${ err }`,
+          index,
           name: seriesName,
         });
       });

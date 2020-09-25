@@ -1,6 +1,12 @@
 # Changelog
 ---
 
+## v2.9.1
+
+**Bugfixes**
+- [8a7adfd](https://github.com/the0neWhoKnocks/tv-renamer/commit/8a7adfd):  Episodes look-up timout message not shown
+
+---
 ## v2.9.0
 
 **Bugfixes**

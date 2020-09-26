@@ -231,6 +231,23 @@ export default css`
     }
   }
   
+  @media (max-width: 600px) {
+    
+    .${ ROOT_CLASS } {
+    
+      &__items-nav {
+        padding-top: 2.75em;
+        padding-left: 0;
+        margin-bottom: 0.5rem;
+        background: linear-gradient(0deg, #eee 50%, #666 50%);
+        
+        &-btns-wrapper {
+          bottom: 50%;
+        }
+      }
+    }
+  }
+  
   .${ LOG_ROOT_CLASS } {
     border-top: dashed 1px rgba(255, 255, 255, 0.3);
     

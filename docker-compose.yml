@@ -5,11 +5,14 @@ services:
     build:
       context: ./e2e/
       dockerfile: Dockerfile
+    # command: 'cypress run --browser chrome'
     container_name: e2e-tr
     depends_on:
       - tv-renamer
     environment:
       CYPRESS_baseUrl: http://host.docker.internal:9000
+      # ELECTRON_ENABLE_LOGGING: 1 # view console logs from Browser (headless)
+      # DEBUG: cypress:server:browsers:electron # view Electron internal logging
       MOCK_FILES_PATH: /e2e/mnt/mockFiles
     ipc: host # https://github.com/cypress-io/cypress/issues/350#issuecomment-267704772
     ports:

@@ -1,5 +1,6 @@
 {
   "integrationFolder": "tests",
   "numTestsKeptInMemory": 1,
+  "reporter": "spec",
   "video": false
 }

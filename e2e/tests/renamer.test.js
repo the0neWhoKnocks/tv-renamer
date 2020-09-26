@@ -140,8 +140,11 @@ context('Renamer', () => {
       'Young Justice - 3x02 - Royal We.mkv',
       'Young Sheldon - 2x12 - A Tummy Ache and a Whale of a Metaphor.mkv',
     ];
-    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
-      expect($el).to.have.text(newNames[ndx]);
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected').each(($previewEl, ndx) => {
+      cy.wrap($previewEl).within(() => {
+        cy.get('.renamable__new-name-text').contains(newNames[ndx]);
+        cy.get('.renamable__nav').children().should('have.length', 4);
+      });
     });
     
     screenshot('.app', 'previewing new names');
@@ -149,7 +152,7 @@ context('Renamer', () => {
     cy.get('[for="rename"]').contains(/^Rename Selected/).click();
     
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
-      expect($el).to.have.text(`${ appConfig.output }/${ newNames[ndx] }`);
+      cy.wrap($el).contains(`${ appConfig.output }/${ newNames[ndx] }`);
     });
     
     screenshot('.app', 'files renamed');

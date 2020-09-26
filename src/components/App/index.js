@@ -33,7 +33,7 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9'.\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
+export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9'.!\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
 // name.s01e01-s01e02.ext
 // name.s01e01e02.ext
 // name.s01e01-episode1.title-s01e02-episode2.title.ext
@@ -253,9 +253,7 @@ class App extends Component {
   }
   
   buildPreviewData(itemEl) {
-    const name = itemEl.innerText
-      // remove misc. characters that cause mismatches
-      .replace(/\n|!/g, '');
+    const name = itemEl.innerText.replace(/\n/g, '');
     const itemData = itemEl.dataset;
     const matches = name.match(NAME_REGEX);
     const epMatches = name

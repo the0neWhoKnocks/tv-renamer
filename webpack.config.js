@@ -59,6 +59,14 @@ const conf = {
     publicPath: `${ PUBLIC_JS.replace(PUBLIC, '') }/`,
   },
   plugins: [
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: [
+        '**/*',
+        '!manifest.json', // the watcher won't pick up on changes if this is deleted
+        '!vendor',
+        '!vendor/**/*',
+      ],
+    }),
     /**
      * Gives more control of how bundles are hashed
      */
@@ -88,18 +96,5 @@ const conf = {
   },
   stats: stats,
 };
-
-if(MODE !== 'production'){
-  conf.plugins.push(
-    new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: [
-        '**/*',
-        '!manifest.json', // the watcher won't pick up on changes if this is deleted
-        '!vendor',
-        '!vendor/**/*',
-      ],
-    }),
-  );
-}
 
 module.exports = conf;

@@ -12,7 +12,7 @@
     "build:dist": "node ./bin/prepDist && npm run transpile && node ./bin/pruneDist",
     "build:appForDocker": "cross-env NODE_ENV=production npm run build:dist && cross-env NODE_ENV=production npm run build:app",
     "e2e": "./e2e/bin/test-runner.sh",
-    "e2e:watch": "npm run e2e -- watch",
+    "e2e:watch": "npm run e2e -- --watch",
     "gen:files": "node ./e2e/bin/genFiles",
     "lint": "eslint ./src/**/*.js",
     "release": "./bin/release.js",

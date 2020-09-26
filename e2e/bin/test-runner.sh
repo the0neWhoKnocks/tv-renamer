@@ -1,11 +1,23 @@
 #!/bin/bash
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" > /dev/null 2>&1; pwd -P)"
-[[ "$1" == "watch" ]] && WATCH_MODE=true || WATCH_MODE=false
-[[ "$2" == "--skip-build" ]] && BUILD=false || BUILD=true
-
+BUILD=true
+WATCH_MODE=false
 isWSL=false
 isOSX=false
+
+# Parse arguments
+while [ $# -gt 0 ]; do
+  case $1 in
+    --skip-build)
+      BUILD=false
+      ;;
+    --watch)
+      WATCH_MODE=true
+      ;;
+  esac
+  shift
+done
 
 # Linux env
 if [ -f "/proc/version" ]; then

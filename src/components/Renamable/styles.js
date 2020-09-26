@@ -114,16 +114,16 @@ export default css`
       margin-top: 0.5em;
       background: #333;
       
-      > img,
+      .${ ROOT_CLASS }__tvdb-icon,
       &-item {
         display: inline-block;
         vertical-align: middle;
       }
       
-      > img {
-        height: 1em;
+      .${ ROOT_CLASS }__tvdb-icon {
+        width: 40px;
+        height: 18px;
         padding: 0 0.25em;
-        
       }
       
       &-item {

@@ -4,6 +4,7 @@ import SVG, {
   ICON__DELETE,
   ICON__FOLDER,
   ICON__REFRESH,
+  ICON__TVDB,
 } from 'COMPONENTS/SVG';
 import Toggle from 'COMPONENTS/Toggle';
 import styles, {
@@ -220,7 +221,7 @@ class Renamable extends Component {
       
       return (
         <nav className={`${ ROOT_CLASS }__nav`}>
-          <img src="/imgs/logo-tvdb.png" />
+          <SVG className={`${ ROOT_CLASS }__tvdb-icon`} icon={ICON__TVDB} />
           <button
             className={`${ ROOT_CLASS }__nav-item`}
             onClick={this.handleIdClick}

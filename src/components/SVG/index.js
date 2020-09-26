@@ -6,6 +6,7 @@ export const ICON__DELETE = 'ui-icon_delete';
 export const ICON__FOLDER = 'ui-icon_folder';
 export const ICON__LOGO = 'ui-icon_logo';
 export const ICON__REFRESH = 'ui-icon_refresh';
+export const ICON__TVDB = 'ui-icon_tvdb';
 
 const SVG = ({ className, icon }) => {
   return (

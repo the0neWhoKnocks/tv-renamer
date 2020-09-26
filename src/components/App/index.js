@@ -33,7 +33,7 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9'.!\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
+export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9,'.!\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
 // name.s01e01-s01e02.ext
 // name.s01e01e02.ext
 // name.s01e01-episode1.title-s01e02-episode2.title.ext

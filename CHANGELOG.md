@@ -1,6 +1,26 @@
 # Changelog
 ---
 
+## v2.10.0
+
+**Bugfixes**
+- [e0aadd8](https://github.com/the0neWhoKnocks/tv-renamer/commit/e0aadd8):  Not enough room for top nav on Tablet
+- [b2bcef7](https://github.com/the0neWhoKnocks/tv-renamer/commit/b2bcef7):  Names with commas not showing Assign option
+- [e649eb8](https://github.com/the0neWhoKnocks/tv-renamer/commit/e649eb8):  Name with exclamation mark Preview has no nav
+- [b091b1b](https://github.com/the0neWhoKnocks/tv-renamer/commit/b091b1b):  dist folder not being cleaned out
+
+**Dev-Ops**
+- [63b8016](https://github.com/the0neWhoKnocks/tv-renamer/commit/63b8016):  Added/refactored tests
+- [f551cc8](https://github.com/the0neWhoKnocks/tv-renamer/commit/f551cc8):  Refactored e2e tests
+- [e2e48ba](https://github.com/the0neWhoKnocks/tv-renamer/commit/e2e48ba):  Can now skip build step in headless e2e
+- [27a8677](https://github.com/the0neWhoKnocks/tv-renamer/commit/27a8677):  Updated release script
+- [b5ccabc](https://github.com/the0neWhoKnocks/tv-renamer/commit/b5ccabc):  Granular logging
+
+**Features**
+- [b6b5e61](https://github.com/the0neWhoKnocks/tv-renamer/commit/b6b5e61):  Use an SVG for the TVDB icon
+
+---
+
 ## v2.9.1
 
 **Bugfixes**

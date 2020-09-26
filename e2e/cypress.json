@@ -1,4 +1,5 @@
 {
+  "experimentalFetchPolyfill": true,
   "integrationFolder": "tests",
   "numTestsKeptInMemory": 1,
   "reporter": "spec",

@@ -32,6 +32,14 @@ context('Renamer', () => {
     cy.visit('/');
   }
   
+  function toggleItem(name) {
+    cy.get('.renamable__ce-fix [spellcheck="false"]')
+      .contains(name)
+      .closest('.renamable')
+      .find('> .toggle')
+      .click();
+  }
+  
   const nameSort = (a, b) => {
     const subCheck = (b.name.toLowerCase() > a.name.toLowerCase()) ? -1 : 0;
     return (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : subCheck;
@@ -47,24 +55,33 @@ context('Renamer', () => {
     screenshot('.app', 'config opened');
     cy.get('.config__close-btn').click();
   });
+  
+  beforeEach(() => {
+    cy.get('.app__items-nav button[for="folders"]').as('ITEMS_NAV__FOLDERS_BTN');
+    cy.get('.app__items-nav button[for="preview"]').as('ITEMS_NAV__PREVIEW_BTN');
+    cy.get('.app__items-nav button[for="rename"]').as('ITEMS_NAV__RENAME_BTN');
+  });
 
   it('should have the correct title', () => {
     cy.get('title').contains('TV Renamer');
   });
   
   it('should have loaded files to rename', () => {
-    expect(fileNames.length).to.eq(80);
+    expect(fileNames.length).to.eq(81);
     
     cy.get('.renamable__ce-fix [contenteditable="true"][spellcheck="false"]')
-      .each(($el, ndx, $list) => {
-        cy.wrap($el).contains(fileNames[ndx].name);
+      .each(($el, ndx) => {
+        expect($el.text()).to.equal(fileNames[ndx].name);
       });
     
     screenshot('.app', 'files loaded');
   });
   
   it('should preview and rename files with exact matches', () => {
-    cy.get('.app__items-nav').contains(/^Preview$/).click();
+    // disable anything I don't want to preview
+    toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
+    
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     
     // generate list with `[...document.querySelectorAll('.renamable.is--previewing.is--selected .renamable__new-name-text')].map(el => { const t = el.textContent; const q = t.includes("'") ? '"' : "'"; return `${q}${t}${q},`}).join('\n');`
     const newNames = [
@@ -141,18 +158,16 @@ context('Renamer', () => {
       'Young Sheldon - 2x12 - A Tummy Ache and a Whale of a Metaphor.mkv',
     ];
     cy.get('.app.enable--rename .renamable.is--previewing.is--selected').each(($previewEl, ndx) => {
-      cy.wrap($previewEl).within(() => {
-        cy.get('.renamable__new-name-text').contains(newNames[ndx]);
-        cy.get('.renamable__nav').children().should('have.length', 4);
-      });
+      expect($previewEl.find('.renamable__new-name-text').text()).to.equal(newNames[ndx]);
+      expect($previewEl.find('.renamable__nav').children().length).to.equal(4);
     });
     
     screenshot('.app', 'previewing new names');
     
-    cy.get('[for="rename"]').contains(/^Rename Selected/).click();
+    cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
-      cy.wrap($el).contains(`${ appConfig.output }/${ newNames[ndx] }`);
+      expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx] }`);
     });
     
     screenshot('.app', 'files renamed');
@@ -193,7 +208,7 @@ context('Renamer', () => {
       }
     });
     
-    cy.get('.app__items-nav').contains(/^Preview$/).click();
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     
     const newNames = [
       'The Big Fat Quiz of the Year - 1x15 - The Big Fat Quiz of the Year 2018.mkv',
@@ -203,7 +218,7 @@ context('Renamer', () => {
       'The Legend of Korra - 1x01 - Welcome to Republic City.mkv',
     ];
     cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
-      cy.wrap($el).contains(newNames[ndx]);
+      expect($el.text()).to.equal(newNames[ndx]);
     });
     
     screenshot('.app', 'previewing manually adjusted names');
@@ -211,7 +226,7 @@ context('Renamer', () => {
     cy.get('.app__items-nav').contains(/^Rename Selected/).click();
     
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
-      cy.wrap($el).contains(`${ appConfig.output }/${ newNames[ndx] }`);
+      expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx] }`);
     });
     
     screenshot('.app', 'files renamed');
@@ -220,40 +235,86 @@ context('Renamer', () => {
   });
   
   it('should get name by DVD order, and put file in a series folder', () => {
-    cy.get('.renamable__ce-fix [spellcheck="false"]')
-      .contains('Futurama S01E12 When Aliens Attack')
-      .closest('.renamable')
-      .find('> .toggle')
-      .click();
+    toggleItem('Futurama S01E12 When Aliens Attack');
     
     cy.get('.app__items-nav').contains(/^DVD Preview$/).click();
     
     const newName = 'Futurama - 1x12 - When Aliens Attack.mkv';
-    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
-      cy.wrap($el).contains(newName);
-    });
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text')
+      .contains(newName);
     
-    cy.get('[for="folders"]').click();
+    cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
     
     screenshot('.app', 'previewing names by DVD order');
+    
+    cy.get('.app__items-nav').contains(/^Rename Selected/).click();
+    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
+      expect($el.text()).to.equal(`${ appConfig.output }/Futurama/${ newName }`);
+    });
+    
+    screenshot('.app', 'file renamed');
+    
+    cy.get('.app__logs-nav .toggle__btn').click();
+  });
+  
+  it('should allow a User to search for and assign an ID for a series', () => {
+    const SERIES_ID = 380654;
+    
+    toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
+    
+    cy.server();
+    cy.route({
+      method: 'POST',
+      url: '/api/v1/preview',
+      response: [{
+        error: 'Possible series mis-match',
+        id: SERIES_ID,
+        index: '3',
+        name: 'Rent-a-Girlfriend',
+        seriesURL: 'https://www.thetvdb.com/series/rental-girlfriend',
+      }],
+    }).as('RESPONSE__POSSIBLE_MISMATCH');
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+    cy.wait('@RESPONSE__POSSIBLE_MISMATCH');
+    cy.server({ enable: false });
+    
+    cy.get('.renamable__nav').contains(SERIES_ID).click();
+    
+    screenshot('.app', 'viewing assign modal');
+    
+    cy.get('.assign-id__search-link').then(($el) => {
+      cy.wrap($el)
+        .should('have.attr', 'href', 'https://www.thetvdb.com/search?query=kanojo%2C%20okarishimasu')
+        .should('have.attr', 'rel', 'noopener noreferrer')
+        .should('have.attr', 'target', '_blank');
+    });
+    
+    cy.get('.assign-id__confirm-btn').click();
+    
+    const newName = 'Rent-a-Girlfriend - 1x12 - Confession and Girlfriend.mkv';
+    cy.get('#modals').should('be.empty');
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text')
+      .contains(newName);
+    
+    screenshot('.app', 'previewing assigned series name');
     
     cy.get('.app__items-nav').contains(/^Rename Selected/).click();
     
     screenshot('.app', 'file renamed');
     
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
-      cy.wrap($el).contains(`${ appConfig.output }/Futurama/${ newName }`);
+      expect($el.text()).to.equal(`${ appConfig.output }/${ newName }`);
     });
   });
   
   it('should allow for Search & Replace of file names on the file system', () => {
     cy.get('button[for="replace"]')
-      .contains('Replace')
-      .should('be.disabled');
+      .should('be.disabled')
+      .as('REPLACE_BTN');
     
     cy.get('.app__global-toggle .toggle__btn').click();
     
-    cy.get('button[for="replace"]')
+    cy.get('@REPLACE_BTN')
       .should('not.be.disabled')
       .click();
       
@@ -268,7 +329,7 @@ context('Renamer', () => {
       
       cy.wrap($tr).within(() => {
         cy.get('td').each(($td, tdNdx) => {
-          cy.wrap($td).contains(rowData[rowNdx][tdNdx]);
+          expect($td.text()).to.equal(rowData[rowNdx][tdNdx]);
         });
       });
     });
@@ -289,7 +350,7 @@ context('Renamer', () => {
       
       cy.wrap($tr).within(() => {
         cy.get('td mark').each(($mark, tdNdx) => {
-          cy.wrap($mark).contains(rowData[rowNdx][tdNdx]);
+          expect($mark.text()).to.equal(rowData[rowNdx][tdNdx]);
         });
       });
     });
@@ -302,31 +363,28 @@ context('Renamer', () => {
       
     cy.get('.app.is--visible');
     
-    cy.get('.app__items-nav').contains(/^Preview$/).click();
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     
     screenshot('.app', 'previewing files with replaced names');
     
     cy.get('.app__items-nav').contains(/^Rename All/).click();
     
     cy.get('.log-item__body').each(($log, logNdx) => {
-      const folderDeleteMsg = 'Deleted folder: "/home/node/app/_temp_/src/My Name is Earl S01-S04 Season 1-4"';
+      const folderDeleteMsg = '✓Deleted folder: "/home/node/app/_temp_/src/My Name is Earl S01-S04 Season 1-4"';
       const logs = [
         '/home/node/app/_temp_/output/My Name Is Earl - 1x01 - Pilot.mkv',
         '/home/node/app/_temp_/output/My Name Is Earl - 1x02 - Quit Smoking.mkv',
         '/home/node/app/_temp_/output/My Name Is Earl - 2x01 - Very Bad Things.mkv',
       ];
       const logMsg = logs[logNdx];
+      const $logMsg = $log.find('.log-item__to');
+      const $folderDeletionMsg = $log.find('.log-item__deleted');
       
-      cy.wrap($log).within(() => {
-        const $logMsg = $log.find('.log-item__to');
-        const $folderDeletionMsg = $log.find('.log-item__deleted');
-        
-        cy.wrap($logMsg).contains(logMsg);
-        
-        if($folderDeletionMsg.length){
-          cy.wrap($folderDeletionMsg).contains(folderDeleteMsg);
-        }
-      });
+      expect($logMsg.text()).to.equal(logMsg);
+      
+      if($folderDeletionMsg.length){
+        expect($folderDeletionMsg.text()).to.equal(folderDeleteMsg);
+      }
     });
     
     screenshot('.app', 'files renamed');

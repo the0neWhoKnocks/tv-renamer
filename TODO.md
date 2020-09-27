@@ -6,7 +6,7 @@
   - [x] silence server logs while testing
   - [ ] write test to ensure cache update works.
     - try to just intercept the response and delete an episode's data
-  - [ ] write test to ensure assign ID works
+  - [x] write test to ensure assign ID works
   - [ ] strip out un-needed data from cache files.
 - [x] strip exclamation marks from search, `[Rel] Appare-Ranman! - S01E10.mkv`
 - [x] add Search/Replace for files

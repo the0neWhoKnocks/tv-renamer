@@ -24,8 +24,10 @@ class AssignId extends Component {
   constructor({ id, name }) {
     super();
     
+    this.originalId = AssignId.normalizeId(id);
+    
     this.state = {
-      id: AssignId.normalizeId(id),
+      id: this.originalId,
       idChanged: false,
       normalizedName: name.toLowerCase(),
       proccessing: false,
@@ -48,7 +50,12 @@ class AssignId extends Component {
         body: JSON.stringify({ id, name: normalizedName }),
       })
         .then((idMappings) => {
-          onAssignSuccess({ id: +id, idMappings, index });
+          onAssignSuccess({
+            id: +id,
+            idMappings,
+            index,
+            originalId: +this.originalId,
+          });
         })
         .catch((err) => {
           alert(err);

@@ -1,0 +1,63 @@
+{
+  "dvdSeasons": {},
+  "id": 271971,
+  "name": "High Maintenance",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Dinah"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Stevie",
+        "Heidi",
+        "Jamie"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Olivia",
+        "Helen",
+        "Trixie"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Jonathan",
+        "Elijah",
+        "Brad Pitts"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "Qasim",
+        "Matilda",
+        "Rachel"
+      ]
+    },
+    "5": {
+      "episodes": [
+        null,
+        "Ruth",
+        "Geiger",
+        "Genghis"
+      ]
+    },
+    "6": {
+      "episodes": [
+        null,
+        "Sufjan",
+        "Esme",
+        "Sabrina"
+      ]
+    }
+  },
+  "slug": "high-maintenance",
+  "cacheKey": "high_maintenance"
+}

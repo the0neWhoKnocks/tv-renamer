@@ -33,11 +33,10 @@ context('Renamer', () => {
   }
   
   function toggleItem(name) {
-    cy.get('.renamable__ce-fix [spellcheck="false"]')
-      .contains(name)
-      .closest('.renamable')
-      .find('> .toggle')
-      .click();
+    cy.get(`.renamable__ce-fix [spellcheck="false"]:contains(${ name })`)
+      .each(($el) => {
+        cy.wrap($el).closest('.renamable').find('> .toggle').click();
+      });
   }
   
   const nameSort = (a, b) => {
@@ -67,7 +66,7 @@ context('Renamer', () => {
   });
   
   it('should have loaded files to rename', () => {
-    expect(fileNames.length).to.eq(81);
+    expect(fileNames.length).to.eq(82);
     
     cy.get('.renamable__ce-fix [contenteditable="true"][spellcheck="false"]')
       .each(($el, ndx) => {
@@ -80,6 +79,7 @@ context('Renamer', () => {
   it('should preview and rename files with exact matches', () => {
     // disable anything I don't want to preview
     toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
+    toggleItem('High.Maintenance');
     
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     
@@ -109,8 +109,6 @@ context('Renamer', () => {
       'Future Man - 2x05 - J1- Judgment Day.mkv',
       'Game of Thrones - 0x41 - The Last Watch.mkv',
       'gen-LOCK - 1x01 - The Pilot.mkv',
-      'High Maintenance (2016) - 3x02 - Craig.mkv',
-      'High Maintenance (2016) - 3x01 - M.A.S.H..mkv',
       'Hyperdrive (2019) - 1x01 - Qualifier 1- Ready to Launch.mkv',
       'Hyperdrive - 1x01 - A Gift from the Glish.mkv',
       'I Am the Night - 1x01 - Pilot.mkv',
@@ -257,7 +255,7 @@ context('Renamer', () => {
     cy.get('.app__logs-nav .toggle__btn').click();
   });
   
-  it('should allow a User to search for and assign an ID for a series', () => {
+  it('should allow a User to confirm an ID for a series', () => {
     const SERIES_ID = 380654;
     
     toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
@@ -299,12 +297,81 @@ context('Renamer', () => {
     screenshot('.app', 'previewing assigned series name');
     
     cy.get('.app__items-nav').contains(/^Rename Selected/).click();
-    
-    screenshot('.app', 'file renamed');
-    
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newName }`);
     });
+    
+    screenshot('.app', 'file renamed');
+    
+    cy.get('.app__logs-nav .toggle__btn').click();
+  });
+  
+  it('should allow a User to assign an ID for a series', () => {
+    const BAD_SERIES_ID = 376666;
+    
+    toggleItem('High.Maintenance');
+    
+    cy.server();
+    cy.route({
+      method: 'POST',
+      url: '/api/v1/preview',
+      response: [
+        {
+          id: 314324,
+          index: '3',
+          name: 'High Maintenance (2016) - 3x02 - Craig',
+          seriesName: 'High Maintenance (2016)',
+        },
+        {
+          error: 'Possible series mis-match',
+          id: BAD_SERIES_ID,
+          index: '4',
+          name: 'High Maintenance (2020)',
+          seriesURL: 'https://www.thetvdb.com/series/high-maintenance-2020',
+        },
+        {
+          error: 'Possible series mis-match',
+          id: BAD_SERIES_ID,
+          index: '5',
+          name: 'High Maintenance (2020)',
+          seriesURL: 'https://www.thetvdb.com/series/high-maintenance-2020',
+        },
+      ],
+    }).as('RESPONSE__POSSIBLE_MISMATCH');
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+    cy.wait('@RESPONSE__POSSIBLE_MISMATCH');
+    cy.server({ enable: false });
+    
+    cy.get(`.renamable__nav :contains(${ BAD_SERIES_ID })`).first().click();
+    
+    screenshot('.app', 'viewing assign modal');
+    
+    const CORRECT_ID = 271971;
+    cy.get('.assign-id__id-input').type(`{selectall}${ CORRECT_ID }`);
+    screenshot('.app', 'entered new series id');
+    cy.get('.assign-id__assign-btn').click();
+    
+    const newNames = [
+      ['High Maintenance (2016)', 'High Maintenance (2016) - 3x02 - Craig.mkv'],
+      ['High Maintenance', 'High Maintenance - 3x01 - Jonathan.mkv'],
+      ['High Maintenance', 'High Maintenance - 3x02 - Elijah.mkv'],
+    ];
+    cy.get('#modals').should('be.empty');
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
+      expect($el.text()).to.equal(newNames[ndx][1]);
+    });
+    
+    screenshot('.app', 'previewing assigned series names');
+    
+    cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
+    cy.get('.app__items-nav').contains(/^Rename Selected/).click();
+    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
+      expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx][0] }/${ newNames[ndx][1] }`);
+    });
+    
+    screenshot('.app', 'files renamed');
+    
+    cy.get('.app__logs-nav .toggle__btn').click();
   });
   
   it('should allow for Search & Replace of file names on the file system', () => {

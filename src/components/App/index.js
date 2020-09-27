@@ -418,14 +418,32 @@ class App extends Component {
     this.setState({ files });
   }
   
-  handleAssignIdSuccess({ id, idMappings, index }) {
-    const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name .${ RENAMABLE_ROOT_CLASS }__ce-fix[data-index="${ index }"]`);
-    const itemData = this.buildPreviewData(el);
-    itemData.id = id;
+  handleAssignIdSuccess({ id, idMappings, index, originalId }) {
+    const { lookupName } = this.state.files[index];
+    const newlyAssigned = this.state.files
+      .reduce((arr, { id: _id, lookupName: _lookupName }, ndx) => {
+        if(
+          _lookupName === lookupName
+          && (
+            // A best-guess id is assigned on Preview, so that can be used if a User
+            // confirmed the id. If a new id was assigned, map against the old 
+            // best-guess id and the newly assigned one.
+            (id === originalId && _id === id)
+            || _id === originalId
+          )
+        ) {
+          const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name .${ RENAMABLE_ROOT_CLASS }__ce-fix[data-index="${ ndx }"]`);
+          const itemData = this.buildPreviewData(el);
+          itemData.id = id;
+          
+          arr.push(itemData);
+        }
+        
+        return arr;
+      }, []);
     
-    // Request new preview for just this item since the user chose a specific
-    // TVDB id.
-    this.previewRename([itemData], (_previewItems) => {
+    // Request new preview for files with matching id
+    this.previewRename(newlyAssigned, (_previewItems) => {
       this.setState({
         idMappings: App.transformIdMappings(idMappings),
         showAssignId: false,

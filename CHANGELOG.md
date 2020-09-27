@@ -1,6 +1,20 @@
 # Changelog
 ---
 
+## v2.11.0
+
+**Bugfixes**
+- [ea33e20](https://github.com/the0neWhoKnocks/tv-renamer/commit/ea33e20):  Misc. styling issues
+- [ab3618a](https://github.com/the0neWhoKnocks/tv-renamer/commit/ab3618a):  Replace unusable with lots of items
+
+**Dev-Ops**
+- [0f94967](https://github.com/the0neWhoKnocks/tv-renamer/commit/0f94967):  Update release config to only build and run the App
+
+**Features**
+- [7dc9ca6](https://github.com/the0neWhoKnocks/tv-renamer/commit/7dc9ca6):  On assignment of new id, preview all that match
+
+---
+
 ## v2.10.0
 
 **Bugfixes**

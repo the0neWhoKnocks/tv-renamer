@@ -320,7 +320,7 @@ context('Renamer', () => {
       
     screenshot('.app', 'replace modal opened');
     
-    cy.get('.replace__table tbody tr').each(($tr, rowNdx) => {
+    cy.get('.replace__table-body .replace__table-row').each(($tr, rowNdx) => {
       const rowData = [
         ['1x01.mkv', '1x01.mkv'],
         ['1x02.mkv', '1x02.mkv'],
@@ -328,7 +328,7 @@ context('Renamer', () => {
       ];
       
       cy.wrap($tr).within(() => {
-        cy.get('td').each(($td, tdNdx) => {
+        cy.get('.replace__table-data').each(($td, tdNdx) => {
           expect($td.text()).to.equal(rowData[rowNdx][tdNdx]);
         });
       });
@@ -338,10 +338,10 @@ context('Renamer', () => {
       const values = ['(\\d)x(\\d+)', 'My.Name.is.Earl.s0$1e$2'];
       cy.wrap($el).type(values[ndx]);
       // wait for the debounce logic to kick in
-      cy.get(`.replace__table tbody tr:nth-child(1) td:nth-child(${ ndx + 1 }) mark`);
+      cy.get(`.replace__table-body .replace__table-row:nth-child(1) .replace__table-data:nth-child(${ ndx + 1 }) mark`);
     });
     
-    cy.get('.replace__table tbody tr').each(($tr, rowNdx) => {
+    cy.get('.replace__table-body .replace__table-row').each(($tr, rowNdx) => {
       const rowData = [
         ['1x01', 'My.Name.is.Earl.s01e01'],
         ['1x02', 'My.Name.is.Earl.s01e02'],
@@ -349,7 +349,7 @@ context('Renamer', () => {
       ];
       
       cy.wrap($tr).within(() => {
-        cy.get('td mark').each(($mark, tdNdx) => {
+        cy.get('.replace__table-data mark').each(($mark, tdNdx) => {
           expect($mark.text()).to.equal(rowData[rowNdx][tdNdx]);
         });
       });

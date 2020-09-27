@@ -1,6 +1,7 @@
 import { css } from 'emotion';
 
 export const ROOT_CLASS = 'replace';
+const COLOR__TABLE_BORDER = '#555';
 
 export default css`
   width: calc(80vw - 2em); /* values from Modal */
@@ -29,34 +30,74 @@ export default css`
     }
     
     &__table {
-      border: solid 2px;
-      border-collapse: collapse;
+      max-height: 70vh;
+      border: solid 2px ${ COLOR__TABLE_BORDER };
+      border-radius: 0.25em;
       margin-top: 1em;
       background: #fff;
+      display: flex;
+      flex-direction: column;
       
-      td {
+      &-body {
+        max-height: 70vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      
+      &-row {
+        display: flex;
+      }
+      
+      &-data {
+        width: 50%;
+        word-break: break-all;
         padding: 0.5em;
-        border: solid 1px #aaa;
+        border: solid 1px ${ COLOR__TABLE_BORDER };
       }
       
-      thead td {
-        font-weight: bold;
-        border-color: #000;
-        border-bottom-width: 2px;
+      &-head {
+        
+        .${ ROOT_CLASS } {
+          
+          &__table-row {
+            background: ${ COLOR__TABLE_BORDER };
+          }
+          
+          &__table-data {
+            color: #eee;
+            border-bottom-width: 2px;
+          }
+          &__table-data:nth-of-type(1) {
+            border-right-color: #888;
+          }
+          &__table-data:nth-of-type(2) {
+            border-left-color: #888;
+          }
+        }
       }
       
-      tbody tr {
-        color: #aaa;
-      }
-      
-      tbody td mark {
-        font-weight: bold;
-      }
-      tbody td:nth-of-type(1) mark {
-        background: #d3f7ff;
-      }
-      tbody td:nth-of-type(2) mark {
-        background: transparent;
+      &-body {
+        
+        .${ ROOT_CLASS } {
+          
+          &__table-row {
+            background: #fff;
+          }
+          
+          &__table-data {
+            color: #aaa;
+            
+            mark {
+              font-weight: bold;
+            }
+            &:nth-of-type(1) mark {
+              background: #d3f7ff;
+            }
+            &:nth-of-type(2) mark {
+              background: transparent;
+            }
+          }
+        }
       }
     }
     

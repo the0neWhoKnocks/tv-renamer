@@ -75,14 +75,14 @@ class Replace extends Component {
       <div className={`${ ROOT_CLASS } ${ styles }`}>
         <Replace.LabeledInput label="Match:" onInput={this.handleMatchInput} />
         <Replace.LabeledInput label="Replace:" onInput={this.handleReplaceInput} />
-        <table className={`${ ROOT_CLASS }__table`}>
-          <thead>
-            <tr>
-              <td>Filename</td>
-              <td>Renamed</td>
-            </tr>
-          </thead>
-          <tbody>
+        <div className={`${ ROOT_CLASS }__table`}>
+          <div className={`${ ROOT_CLASS }__table-head`}>
+            <div className={`${ ROOT_CLASS }__table-row`}>
+              <div className={`${ ROOT_CLASS }__table-data`}>Filename</div>
+              <div className={`${ ROOT_CLASS }__table-data`}>Renamed</div>
+            </div>
+          </div>
+          <div className={`${ ROOT_CLASS }__table-body`}>
             {files.map(({ dir, ext, name }, fileNdx) => {
               const origFilename = `${ name }${ ext }`;
               let currentName = origFilename;
@@ -107,14 +107,20 @@ class Replace extends Component {
               }
               
               return (
-                <tr key={fileNdx}>
-                  <td dangerouslySetInnerHTML={{ __html: currentName }} />
-                  <td dangerouslySetInnerHTML={{ __html: newName }} />
-                </tr>
+                <div className={`${ ROOT_CLASS }__table-row`} key={fileNdx}>
+                  <div
+                    className={`${ ROOT_CLASS }__table-data`}
+                    dangerouslySetInnerHTML={{ __html: currentName }}
+                  />
+                  <div
+                    className={`${ ROOT_CLASS }__table-data`}
+                    dangerouslySetInnerHTML={{ __html: newName }}
+                  />
+                </div>
               );
             })}
-          </tbody>
-        </table>
+          </div>
+        </div>
         <nav className={`${ ROOT_CLASS }__btm-nav`}>
           <button onClick={onCancel}>Cancel</button>
           <button onClick={this.handleRenameClick}>Rename</button>

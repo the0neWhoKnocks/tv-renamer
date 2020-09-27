@@ -65,10 +65,13 @@ export default css`
       font-size: 1.5em;
       padding: 0 0.25em;
       border: none;
-      background: #eee;
       position: absolute;
       right: 1px;
       top: 0.2em;
+    }
+    &__delete-btn,
+    &__delete-btn:hover {
+      background: transparent;
     }
     
     &__ce-fix {
@@ -116,6 +119,7 @@ export default css`
       
       .${ ROOT_CLASS }__tvdb-icon,
       &-item {
+        border-radius: 0;
         display: inline-block;
         vertical-align: middle;
       }

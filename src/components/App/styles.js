@@ -24,12 +24,15 @@ export default css`
     &__nav {
       text-align: right;
       background: #333;
+      display: flex;
+      justify-content: flex-end;
       
       button {
         color: #ddd;
         padding: 0.5rem 1rem;
         border: none;
         border-left: solid 1px #666;
+        border-radius: 0;
         background: transparent;
       }
     }
@@ -68,7 +71,7 @@ export default css`
         right: 0;
         bottom: 0;
         transition: transform 200ms;
-        transform: translateX(8.75em);
+        transform: translateX(10.5em);
       }
       
       button {
@@ -77,14 +80,10 @@ export default css`
         padding: 0.5em 1em;
         border: none;
         border-left: solid 1px #888;
-        background: transparent;
+        border-radius: 0;
         outline: none;
         position: relative;
         vertical-align: top;
-        
-        &:not(:disabled):hover {
-          color: #fff;
-        }
         
         &:focus {
           box-shadow: inset 0px -4px 0px -1px #484848;
@@ -95,7 +94,7 @@ export default css`
         }
         
         &[for="folders"] {
-          padding: 0 2em;
+          padding: 0 1em;
           pointer-events: none;
           opacity: 0;
         }

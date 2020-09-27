@@ -76,10 +76,19 @@ export default ({
           vertical-align: top;
         }
         button {
+          font-size: 1em;
           cursor: pointer;
+          padding: 0.5em 1em;
+          border: solid 1px #333;
+          border-radius: 0.25em;
+          background: transparent;
         }
         button:disabled {
           cursor: default;
+        }
+        button:not(:disabled):hover {
+          color: #fff;
+          background: #333;
         }
         #__bs_notify__ {
           opacity: 0.25;

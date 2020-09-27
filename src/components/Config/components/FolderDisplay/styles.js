@@ -24,11 +24,20 @@ export default css`
     }
     
     &__breadcrumb-btn {
+      border-radius: 0;
       padding: 0.25em 0.75em;
       margin-left: -2px;
+      background: #eee;
       
       &:first-of-type {
         margin-left: 0;
+      }
+      
+      &:focus {
+        color: #eee;
+        border-radius: 0;
+        background: #333;
+        outline: none;
       }
     }
     

@@ -18,7 +18,6 @@ export default css`
       height: 100%;
       padding: 0;
       border: 0;
-      background: transparent;
       outline: none;
       position: absolute;
       top: 0;
@@ -34,6 +33,10 @@ export default css`
         right: 0;
       }
     }
+    &__btn,
+    &__btn:hover {
+      background: transparent;
+    }
   }
   
   .${ ITEM_ROOT_CLASS } {
@@ -48,7 +51,6 @@ export default css`
     &.${ MODIFIER__REQUIRED } + .${ ROOT_CLASS }__btn {
       
       .${ ROOT_CLASS }__btn-icon {
-        margin: 1px 5px;
         right: ${ REQUIRED_WIDTH };
       }
     }

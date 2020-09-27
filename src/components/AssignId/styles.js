@@ -60,7 +60,6 @@ export default css`
     &__assign-btn {
       ${ DEFAULT_CTA }
       width: 50%;
-      padding: 1em;
     }
     
     &__confirm-btn {

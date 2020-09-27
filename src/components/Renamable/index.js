@@ -301,6 +301,7 @@ class Renamable extends Component {
             
             <button
               className={`${ ROOT_CLASS }__delete-btn`}
+              title="Delete file"
               onClick={this.handleDeleteClick}
               value={`${ path }/${ name }${ ext }`}
             >

@@ -71,9 +71,10 @@ export default css`
     
     &__btm-nav {
       display: flex;
+      justify-content: space-between;
       
       button {
-        width: 50%;
+        width: 49%;
       }
     }
   }

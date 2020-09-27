@@ -52,7 +52,6 @@ export default css`
       height: 100%;
       border: none;
       outline: none;
-      background: linear-gradient(#666, #888);
       position: absolute;
       top: 0;
       left: 0;
@@ -62,6 +61,10 @@ export default css`
       &.${ MODIFIER__CLICKABLE } {
         cursor: pointer;
       }
+    }
+    &__mask,
+    &__mask:hover {
+      background: linear-gradient(#555, #888);
     }
     
     &__body {

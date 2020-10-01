@@ -1,4 +1,5 @@
 import { css } from 'emotion';
+import { MQ__MOBILE } from 'COMPONENTS/globalStyles';
 import { ROOT_CLASS as LOG_ROOT_CLASS } from 'COMPONENTS/LogItem/styles';
 import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
@@ -230,7 +231,7 @@ export default css`
     }
   }
   
-  @media (max-width: 600px) {
+  ${ MQ__MOBILE } {
     
     .${ ROOT_CLASS } {
     

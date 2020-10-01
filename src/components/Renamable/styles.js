@@ -1,4 +1,5 @@
 import { css } from 'emotion';
+import { MQ__MOBILE } from 'COMPONENTS/globalStyles';
 import { ROOT_CLASS as TOGGLE_ROOT_CLASS } from 'COMPONENTS/Toggle/styles';
 
 export const MODIFIER__EDITING_NAME = 'editing--name';
@@ -253,7 +254,7 @@ export default css`
     }
   }
   
-  @media (max-width: 600px) {
+  ${ MQ__MOBILE } {
     font-size: 3.5vw;
     border-bottom-width: 0.2em;
     margin-bottom: 0.5em;

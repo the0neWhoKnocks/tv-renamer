@@ -35,9 +35,9 @@
   "dependencies": {
     "debug": "^4.2.0",
     "mkdirp": "^0.5.1",
-    "request": "^2.88.0",
     "rimraf": "^2.6.3",
-    "sanitize-filename": "^1.6.1"
+    "sanitize-filename": "^1.6.1",
+    "teeny-request": "^7.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

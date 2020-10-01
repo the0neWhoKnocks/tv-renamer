@@ -1,8 +1,7 @@
-import request from 'request';
+import { teenyRequest as request } from 'teeny-request';
 import {
   TMDB__API__SEASON_EPISODES,
   TMDB__API__SEASON_EPISODE_GROUP,
-  TMDB__TOKEN__API_KEY,
   TMDB__TOKEN__EPISODE_GROUP_ID,
   TMDB__TOKEN__SEASON_NUMBER,
   TMDB__TOKEN__SERIES_ID,
@@ -14,28 +13,27 @@ import tmdbResponseHandler from './tmdbResponseHandler';
 
 const requestEpisodesBySeason = ({ apiKey, seasonNum, seriesID }) => new Promise(
   (resolve, reject) => {
-    const reqURL = transformAPIURL(TMDB__API__SEASON_EPISODES, [
-      [TMDB__TOKEN__API_KEY, apiKey],
+    const { params, reqURL } = transformAPIURL(TMDB__API__SEASON_EPISODES, [
       [TMDB__TOKEN__SEASON_NUMBER, seasonNum],
       [TMDB__TOKEN__SERIES_ID, seriesID],
     ]);
-    const reqOpts = { ...tmdbRequestProps({ apiKey }) };
+    const reqOpts = { ...tmdbRequestProps({ apiKey, params }) };
     
-    request.get(
-      reqURL, reqOpts,
+    request(
+      { uri: reqURL, ...reqOpts },
       tmdbResponseHandler(resolve, reject, { reqOpts, reqURL })
     );
   }
 );
 
 const requestEpisodesByGroup = ({ apiKey, groupID }) => new Promise((resolve, reject) => {
-  const reqURL = TMDB__API__SEASON_EPISODE_GROUP
-    .replace(TMDB__TOKEN__API_KEY, apiKey)
-    .replace(TMDB__TOKEN__EPISODE_GROUP_ID, groupID);
-  const reqOpts = { ...tmdbRequestProps({ apiKey }) };
+  const { params, reqURL } = transformAPIURL(TMDB__API__SEASON_EPISODE_GROUP, [
+    [TMDB__TOKEN__EPISODE_GROUP_ID, groupID],
+  ]);
+  const reqOpts = { ...tmdbRequestProps({ apiKey, params }) };
   
-  request.get(
-    reqURL, reqOpts,
+  request(
+    { uri: reqURL, ...reqOpts },
     tmdbResponseHandler(resolve, reject, { reqOpts, reqURL })
   );
 });

@@ -13,7 +13,6 @@ const SERIES_ID_CACHE_MAP = 'tmdb__ids-cache-map.json';
 const TMDB__API__VERSION = '3';
 const TMDB__URL__API = `https://api.themoviedb.org/${ TMDB__API__VERSION }`;
 const TMDB__URL__DOMAIN = 'https://www.themoviedb.org';
-const TMDB__TOKEN__API_KEY = '{API_KEY}';
 const TMDB__TOKEN__EPISODE_GROUP_ID = '{EPISODE_GROUP_ID}';
 const TMDB__TOKEN__SEASON_NUMBER = '{SEASON_NUMBER}';
 const TMDB__TOKEN__SERIES_ID = '{SERIES_ID}';
@@ -65,11 +64,10 @@ module.exports = {
   PUBLIC_SERIES_ID_CACHE_MAP: `${ ROOT }/${ DATA_FOLDER_NAME }/${ SERIES_ID_CACHE_MAP }`,
   PUBLIC_VENDOR,
   SRC_STATIC: `${ SRC }/static`,
-  TMDB__API__SEASON_EPISODES: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }/season/${ TMDB__TOKEN__SEASON_NUMBER }?api_key=${ TMDB__TOKEN__API_KEY }&language=en-US`,
-  TMDB__API__SEASON_EPISODE_GROUP: `${ TMDB__URL__API }/tv/episode_group/${ TMDB__TOKEN__EPISODE_GROUP_ID }?api_key=${ TMDB__TOKEN__API_KEY }&language=en-US`,
-  TMDB__API__SERIES_DETAILS: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }?api_key=${ TMDB__TOKEN__API_KEY }&language=en-US&append_to_response=episode_groups`,
-  TMDB__API__SERIES_SEARCH: `${ TMDB__URL__API }/search/tv?api_key=${ TMDB__TOKEN__API_KEY }&language=en-US&page=1&query=${ TMDB__TOKEN__SERIES_QUERY }&include_adult=false`,
-  TMDB__TOKEN__API_KEY,
+  TMDB__API__SEASON_EPISODES: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }/season/${ TMDB__TOKEN__SEASON_NUMBER }`,
+  TMDB__API__SEASON_EPISODE_GROUP: `${ TMDB__URL__API }/tv/episode_group/${ TMDB__TOKEN__EPISODE_GROUP_ID }`,
+  TMDB__API__SERIES_DETAILS: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }?append_to_response=episode_groups`,
+  TMDB__API__SERIES_SEARCH: `${ TMDB__URL__API }/search/tv?page=1&query=${ TMDB__TOKEN__SERIES_QUERY }&include_adult=false`,
   TMDB__TOKEN__EPISODE_GROUP_ID,
   TMDB__TOKEN__SEASON_NUMBER,
   TMDB__TOKEN__SERIES_ID,

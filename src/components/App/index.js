@@ -16,13 +16,11 @@ import {
   API__CONFIG,
   API__FILES_LIST,
   API__IDS,
-  API__JWT,
   API__LOGS,
   API__PREVIEW_RENAME,
   API__RENAME,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
-import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
   MODIFIER__HAS_ITEMS,
   MODIFIER__INDICATOR,
@@ -230,9 +228,9 @@ class App extends Component {
       // user just configured settings, so make initial files list call
       if(
         prevState.config
-        && !prevState.config.jwt
+        && !prevState.config.apiKey
         && this.state.config
-        && this.state.config.jwt
+        && this.state.config.apiKey
       ){
         this.getFilesList();
       }
@@ -300,9 +298,8 @@ class App extends Component {
         
         this.setState(state, () => {
           if(!state.showConfig){
-            this.checkJWT()
-              .then(() => { this.getIDs(); })
-              .then(() => { this.getFilesList(); });
+            this.getIDs(); 
+            this.getFilesList();
           }
         });
       })
@@ -310,27 +307,6 @@ class App extends Component {
         console.error(err);
         alert(err);
       });
-  }
-  
-  checkJWT() {
-    return new Promise((resolve, reject) => {
-      if(
-        // JWT doesn't exist
-        !this.state.config.jwt
-        // OR - there's a JWT, but it's older than 24 hours (or about to expire)
-        || (
-          this.state.config.jwt
-          && getRemainingJWTTime(this.state.config.jwtDate) <= 1
-        )
-      ) {
-        this.setJWT()
-          .then(() => { resolve(); })
-          .catch((err) => { reject(err); });
-      }
-      else{
-        resolve();
-      }
-    });
   }
   
   checkLogs() {
@@ -388,26 +364,6 @@ class App extends Component {
           alert(err);
         });
     });
-  }
-  
-  setJWT() {
-    const { apiKey, userKey, userName } = this.state.config;
-    
-    return fetch(API__JWT, {
-      method: 'POST',
-      body: JSON.stringify({
-        apiKey,
-        userKey,
-        userName,
-      }),
-    })
-      .then((config) => {
-        this.setState({ config });
-      })
-      .catch((err) => {
-        alert(err);
-        console.error(err);
-      });
   }
   
   handleAllFoldersClick(ev) {

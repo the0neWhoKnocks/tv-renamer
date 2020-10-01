@@ -39,7 +39,7 @@ the servers output `9229` (the inspector port), and `9000` (the server's port).
 
 Utilizes these API's
 - [GitHub](https://developer.github.com/v3/repos)
-- [TVDB](https://api.thetvdb.com/swagger)
+- [TMDB](https://developers.themoviedb.org/3/getting-started/introduction)
 
 ---
 

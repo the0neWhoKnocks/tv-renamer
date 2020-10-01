@@ -3,8 +3,8 @@ import { func, number, string } from 'prop-types';
 import Indicator from 'COMPONENTS/Indicator';
 import {
   API__ASSIGN_ID,
-  TVDB_QUERY_URL,
-  TVDB__TOKEN__SERIES_QUERY,
+  TMDB__URL__QUERY,
+  TMDB__TOKEN__SERIES_QUERY,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
 import styles, {
@@ -18,7 +18,7 @@ class AssignId extends Component {
   }
   
   static genSearchURL(name) {
-    return TVDB_QUERY_URL.replace(TVDB__TOKEN__SERIES_QUERY, encodeURIComponent(name));
+    return TMDB__URL__QUERY.replace(TMDB__TOKEN__SERIES_QUERY, encodeURIComponent(name));
   }
   
   constructor({ id, name }) {
@@ -123,13 +123,13 @@ class AssignId extends Component {
         <div>
           {idChanged && (
             <Fragment>
-              Any matches for <code>{normalizedName}</code> will use the TVDB
+              Any matches for <code>{normalizedName}</code> will use TMDB
               id <code>{textID}</code> after you click Assign.
             </Fragment>
           )}
           {!idChanged && (
             <Fragment>
-              Any matches for <code>{normalizedName}</code> are using the TVDB
+              Any matches for <code>{normalizedName}</code> are using TMDB
               id <code>{textID}</code>. If this is correct, click Confirm. If this
               isn&apos;t correct, change the id and click Assign.
             </Fragment>

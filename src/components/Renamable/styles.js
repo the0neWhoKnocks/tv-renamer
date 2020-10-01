@@ -117,14 +117,14 @@ export default css`
       margin-top: 0.5em;
       background: #333;
       
-      .${ ROOT_CLASS }__tvdb-icon,
+      .${ ROOT_CLASS }__tmdb-icon,
       &-item {
         border-radius: 0;
         display: inline-block;
         vertical-align: middle;
       }
       
-      .${ ROOT_CLASS }__tvdb-icon {
+      .${ ROOT_CLASS }__tmdb-icon {
         width: 40px;
         height: 18px;
         padding: 0 0.25em;
@@ -140,6 +140,10 @@ export default css`
         border: none;
         border-left: solid 1px;
         background: transparent;
+        
+        &.for--series-id {
+          min-width: 4em;
+        }
         
         &.${ MODIFIER__TOGGLE } {
           

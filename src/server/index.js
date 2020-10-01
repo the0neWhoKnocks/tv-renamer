@@ -7,7 +7,6 @@ import {
   API__FILES_LIST,
   API__FOLDER_LIST,
   API__IDS,
-  API__JWT,
   API__LOGS,
   API__PREVIEW_RENAME,
   API__RELEASES,
@@ -27,7 +26,6 @@ import getLogs from './routeHandlers/api/v1/getLogs';
 import getReleases from './routeHandlers/api/v1/getReleases';
 import previewRename from './routeHandlers/api/v1/previewRename';
 import renameFiles from './routeHandlers/api/v1/renameFiles';
-import setJWT from './routeHandlers/api/v1/setJWT';
 import updateConfig from './routeHandlers/api/v1/updateConfig';
 import handleError from './routeHandlers/error';
 import handleRootRequest from './routeHandlers/root';
@@ -72,7 +70,6 @@ http
     [API__FILES_LIST, getFilesList],
     [API__FOLDER_LIST, getFolderListing],
     [API__IDS, getIDs],
-    [API__JWT, setJWT],
     [API__LOGS, getLogs],
     [API__PREVIEW_RENAME, previewRename],
     [API__RELEASES, getReleases],

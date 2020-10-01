@@ -1,6 +1,6 @@
 import logger from 'SERVER/utils/logger';
 
-const log = logger('server:tvdbResponseHandler');
+const log = logger('server:error');
 
 export default ({ res }, code, msg) => {
   let transformedError = `${ msg }`;

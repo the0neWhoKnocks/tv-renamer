@@ -1,7 +1,7 @@
 import logger from 'SERVER/utils/logger';
-import timeoutCodeCheck from './timeoutCodeCheck';
+import timeoutCodeCheck from '../timeoutCodeCheck';
 
-const log = logger('server:tvdbResponseHandler');
+const log = logger('server:tmdbResponseHandler');
 
 export default (
   resolve,

@@ -8,7 +8,6 @@ import {
   API__CONFIG_SAVE,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
-import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
   ROOT_CLASS,
 } from './styles';
@@ -108,8 +107,6 @@ class Config extends Component {
     const {
       apiKey,
       hideCloseBtn,
-      jwt,
-      jwtDate,
       outputFolder,
       sourceFolder,
       userKey,
@@ -127,11 +124,11 @@ class Config extends Component {
       >
         <div className={`${ ROOT_CLASS }__body`}>
           <section>
-            <h2>TVDB</h2>
+            <h2>TMDB</h2>
             {!apiKey && (
               <div className={`${ ROOT_CLASS }__msg is--error`}>
-                No credentials for theTVDB have been found. You&apos;ll need to
-                obtain the below info from your TVDB account.
+                No credentials for TMDB have been found. You&apos;ll need to
+                obtain the below info from your TMDB account.
               </div>
             )}
             <ConfigItem
@@ -141,34 +138,6 @@ class Config extends Component {
               required
               value={apiKey}
             />
-            <ConfigItem
-              label="User Key"
-              name="userKey"
-              onChange={this.handleValueChange}
-              required
-              value={userKey}
-            />
-            <ConfigItem
-              label="User Name"
-              name="userName"
-              onChange={this.handleValueChange}
-              required
-              value={userName}
-            />
-            {jwt && (
-              <Fragment>
-                <ConfigItem label="JWT" name="jwt" value={jwt} readOnly />
-                <ConfigItem
-                  data={{
-                    'remaining-time': getRemainingJWTTime(jwtDate),
-                  }}
-                  label="JWT Time"
-                  name="jwtDate"
-                  value={ formatTime(jwtDate) }
-                  readOnly
-                />
-              </Fragment>
-            )}
           </section>
           <section>
             <h2>Folders</h2>
@@ -210,8 +179,6 @@ class Config extends Component {
 Config.propTypes = {
   apiKey: string,
   hideCloseBtn: bool,
-  jwt: string,
-  jwtDate: number,
   onClose: func,
   onSaveComplete: func,
   outputFolder: string,

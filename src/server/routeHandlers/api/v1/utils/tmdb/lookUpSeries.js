@@ -93,19 +93,26 @@ export default ({
         )
         .then(opts => lookUpEpisodes({ ...opts, apiKey, index, recentlyCached }))
         .then(cache => resolve(cache))
-        .catch(({ err, possibleMatches, resp } = {}) => {
-          let error = timeoutCodeCheck(err)
-            ? `Request timed out for series look-up: "${ userSeriesName }"`
-            : `Couldn't find exact match for series: "${ userSeriesName }"`;
-          if(resp){
-            error += ` | ${ resp.statusCode } - ${ err }`;
-            log('  [ERROR]', error);
+        .catch((_err) => {
+          if(_err instanceof Error){
+            reject(_err.stack);
           }
-          
-          let payload = { error, index, name: userSeriesName };
-          if(possibleMatches) payload.matches = possibleMatches;
-          
-          resolve(payload);
+          else{
+            const { err, possibleMatches, resp } = _err | {};
+            
+            let error = timeoutCodeCheck(err)
+              ? `Request timed out for series look-up: "${ userSeriesName }"`
+              : `Couldn't find exact match for series: "${ userSeriesName }"`;
+            
+            if(resp){
+              error += ` | ${ resp.statusCode } - ${ err }`;
+              log('  [ERROR]', error);
+            }
+            
+            const payload = { error, index, name: userSeriesName };
+            if(possibleMatches) payload.matches = possibleMatches;
+            resolve(payload);
+          }
         });
     }
   }

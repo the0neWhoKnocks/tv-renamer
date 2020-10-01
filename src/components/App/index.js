@@ -381,11 +381,18 @@ class App extends Component {
         if(
           _lookupName === lookupName
           && (
-            // A best-guess id is assigned on Preview, so that can be used if a User
-            // confirmed the id. If a new id was assigned, map against the old 
-            // best-guess id and the newly assigned one.
-            (id === originalId && _id === id)
-            || _id === originalId
+            (
+              // A best-guess id is assigned on Preview, so that can be used if a User
+              // confirmed the id. If a new id was assigned, map against the old 
+              // best-guess id and the newly assigned one.
+              (id === originalId && _id === id)
+              || _id === originalId
+            )
+            || (
+              // In scenarios where nothing could be determined, but a User has assigned an ID
+              id !== undefined
+              && originalId === 0
+            )
           )
         ) {
           const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name .${ RENAMABLE_ROOT_CLASS }__ce-fix[data-index="${ ndx }"]`);

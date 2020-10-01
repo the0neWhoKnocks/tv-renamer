@@ -24,7 +24,7 @@ export default ({
     }
     else{
       new Promise((resolveSeries, rejectSeries) => {
-        // When cached files have been detected
+        // When cached files have been detected, or user assigns an ID
         if(id){
           log(`Using TMDB id: "${ id }" for look-up`);
           resolveSeries({ seriesID: id });

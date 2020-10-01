@@ -42,11 +42,14 @@ const inspectMiddleware = [];
 if( process.env.DEBUG ){
   // https://nodejs.org/api/inspector.html
   const inspector = require('inspector');
+  inspector.open();
+  
   inspectMiddleware.push(
     ['/json', ({ reqData, res }) => {
-      // open, close, url, Session
-      inspector.open();
       res.end();
+    }, null, false],
+    ['/json/list', ({ reqData, res }) => {
+      jsonResp(res, { data: inspector.url() });
     }, null, false],
     ['/json/version', ({ res }) => {
       jsonResp(res, {

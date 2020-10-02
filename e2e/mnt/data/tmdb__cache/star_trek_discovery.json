@@ -1,0 +1,92 @@
+{
+  "dvdSeasons": {},
+  "id": 67198,
+  "name": "Star Trek: Discovery",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "'Will You Take My Hand' Bonus Scene",
+        "Short Treks- Runaway",
+        "Short Treks- Calypso",
+        "Short Treks- The Brightest Star",
+        "Short Treks- The Escape Artist",
+        "Short Treks- Q & A",
+        "Discovering Discovery- The Concepts and Casting of Star Trek- Discovery",
+        "Standing In The Shadow of Giants- Creating The Sound of Discovery",
+        "Creature Comforts",
+        "Short Treks- The Trouble with Edward",
+        "Short Treks- Ask Not",
+        "Short Treks- Ephraim and Dot",
+        "Short Treks- The Girl Who Made the Stars",
+        "Short Treks- Children of Mars",
+        "Star Trek Discovery- The Voyage of Season One",
+        "Dress for Success",
+        "A Woman's Journey",
+        "Feeding Frenzy",
+        "Prop Me Up",
+        "Creating Space",
+        "Designing Discovery",
+        "Designing Discovery (Season  Two)",
+        "Prop Me Up (Season Two)",
+        "Discovering Discovery- The Concepts and Casting of Star Trek- Discovery"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "The Vulcan Hello",
+        "Battle at the Binary Stars",
+        "Context Is for Kings",
+        "The Butcher's Knife Cares Not for the Lamb's Cry",
+        "Choose Your Pain",
+        "Lethe",
+        "Magic to Make the Sanest Man Go Mad",
+        "Si Vis Pacem, Para Bellum",
+        "Into the Forest I Go",
+        "Despite Yourself",
+        "The Wolf Inside",
+        "Vaulting Ambition",
+        "What's Past Is Prologue",
+        "The War Without The War Within",
+        "Will You Take My Hand"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Brother",
+        "New Eden",
+        "Point of Light",
+        "An Obol for Charon",
+        "Saints of Imperfection",
+        "The Sounds of Thunder",
+        "Light and Shadows",
+        "If Memory Serves",
+        "Project Daedalus",
+        "The Red Angel",
+        "Perpetual Infinity",
+        "Through the Valley of Shadows",
+        "Such Sweet Sorrow, Part 1",
+        "Such Sweet Sorrow, Part 2"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6",
+        "Episode 7",
+        "Episode 8",
+        "Episode 9",
+        "Episode 10",
+        "Episode 11"
+      ]
+    }
+  },
+  "cacheKey": "star_trek_discovery"
+}

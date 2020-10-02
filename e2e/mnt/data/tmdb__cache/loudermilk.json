@@ -1,0 +1,38 @@
+{
+  "dvdSeasons": {},
+  "id": 73200,
+  "name": "Loudermilk",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "A Girl in Trouble Is a Temporary Thing",
+        "Shark Week",
+        "You're Only as Sick as Your Secrets",
+        "It's All About the Beans",
+        "There's a New Kid in Town",
+        "Lay, Lady, Lay",
+        "Father of the Year",
+        "Invitation Only",
+        "Highway 10 Revisited",
+        "Bourbon Street"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Everybody's Got Something to Hide Except me and my Monkey",
+        "Cruel to be Kind",
+        "All Apologies",
+        "White Rabbit",
+        "I Fought The Law",
+        "Our Lips Are Sealed",
+        "He Ain't Heavy",
+        "Iron Man",
+        "Saturday Night's Alright for Fighting",
+        "Don't Go Away Mad"
+      ]
+    }
+  },
+  "cacheKey": "loudermilk"
+}

@@ -1,0 +1,25 @@
+{
+  "dvdSeasons": {},
+  "id": 88041,
+  "name": "Astra Lost in Space",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Planet Camp",
+        "Wilderness",
+        "Meteor",
+        "Star of Hope",
+        "Paradise",
+        "Secret",
+        "Past",
+        "Lost and Found",
+        "Revelation",
+        "Culprit",
+        "Confession",
+        "Friend-ship"
+      ]
+    }
+  },
+  "cacheKey": "astra_lost_in_space"
+}

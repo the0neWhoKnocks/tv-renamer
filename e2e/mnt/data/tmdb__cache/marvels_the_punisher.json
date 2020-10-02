@@ -1,0 +1,44 @@
+{
+  "dvdSeasons": {},
+  "id": 67178,
+  "name": "Marvel's The Punisher",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "3 AM",
+        "Two Dead Men",
+        "Kandahar",
+        "Resupply",
+        "Gunner",
+        "The Judas Goat",
+        "Crosshairs",
+        "Cold Steel",
+        "Front Toward Enemy",
+        "Virtue of the Vicious",
+        "Danger Close",
+        "Home",
+        "Memento Mori"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Roadhouse Blues",
+        "Fight or Flight",
+        "Trouble the Water",
+        "Scar Tissue",
+        "One-Eyed Jacks",
+        "Nakazat",
+        "One Bad Day",
+        "My Brother's Keeper",
+        "Flustercluck",
+        "The Dark Hearts of Men",
+        "The Abyss",
+        "Collision Course",
+        "The Whirlwind"
+      ]
+    }
+  },
+  "cacheKey": "marvels_the_punisher"
+}

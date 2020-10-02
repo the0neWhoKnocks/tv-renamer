@@ -1,0 +1,38 @@
+{
+  "dvdSeasons": {},
+  "id": 80230,
+  "name": "Black Monday",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "365",
+        "364",
+        "339",
+        "295",
+        "243",
+        "122",
+        "65",
+        "7042",
+        "2",
+        "0"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Mixie-Dixie",
+        "So Antoine",
+        "Idiot Inside",
+        "Fore!",
+        "Violent Crooks and Cooks of Books",
+        "Arthur Ponzarelli",
+        "Who Are You Supposed To Be?",
+        "Lucky Shoes",
+        "At That Time",
+        "I Don't Like Mondays"
+      ]
+    }
+  },
+  "cacheKey": "black_monday"
+}

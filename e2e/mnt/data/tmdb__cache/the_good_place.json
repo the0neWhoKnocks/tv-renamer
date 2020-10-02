@@ -1,0 +1,90 @@
+{
+  "dvdSeasons": {},
+  "id": 66573,
+  "name": "The Good Place",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "The Selection, Part 1: The Mission",
+        "The Selection, Part 2: The Candidates",
+        "The Selection, Part 3: The Takeout Order",
+        "The Selection, Part 4: The Storm Out",
+        "The Selection, Part 5: The Talk",
+        "The Selection, Part 6: The Solution",
+        "Series Finale Aftershow"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Everything Is Fine",
+        "Flying",
+        "Tahani Al-Jamil",
+        "Jason Mendoza",
+        "Category 55 Emergency Doomsday Crisis",
+        "What We Owe to Each Other",
+        "The Eternal Shriek",
+        "Most Improved Player",
+        "...Someone Like Me as a Member",
+        "Chidi's Choice",
+        "What's My Motivation",
+        "Mindy St. Claire",
+        "Michael's Gambit"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Everything Is Great!",
+        "Dance Dance Resolution",
+        "Team Cockroach",
+        "Existential Crisis",
+        "The Trolley Problem",
+        "Janet and Michael",
+        "Derek",
+        "Leap to Faith",
+        "Best Self",
+        "Rhonda, Diana, Jake, and Trent",
+        "The Burrito",
+        "Somewhere Else"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Everything Is Bonzer!",
+        "The Brainy Bunch",
+        "The Snowplow",
+        "Jeremy Bearimy",
+        "The Ballad of Donkey Doug",
+        "A Fractured Inheritance",
+        "The Worst Possible Use of Free Will",
+        "Don't Let The Good Life Pass You By",
+        "Janet(s)",
+        "The Book of Dougs",
+        "Chidi Sees the Time-Knife",
+        "Pandemonium"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "A Girl from Arizona",
+        "A Girl from Arizona Part 2",
+        "Chillaxing",
+        "Tinker, Tailor, Demon, Spy",
+        "Employee of the Bearimy",
+        "A Chip Driver Mystery",
+        "Help Is Other People",
+        "The Funeral to End All Funerals",
+        "The Answer",
+        "You've Changed, Man",
+        "Mondays, Am I Right?",
+        "Patty",
+        "Whenever You're Ready"
+      ]
+    }
+  },
+  "cacheKey": "the_good_place"
+}

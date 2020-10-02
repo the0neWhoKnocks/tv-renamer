@@ -1,0 +1,75 @@
+{
+  "dvdSeasons": {},
+  "id": 71738,
+  "name": "The Orville",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "The Orville Panel at PaleyFest 2018",
+        "The First Six Missions",
+        "The Orville Inside Look",
+        "The Science of The Orville - Alien Life",
+        "The Science of The Orville - Quantum Drive",
+        "Crafting Aliens",
+        "Directed By...",
+        "The Orville Takes Flight",
+        "A Better Tomorrow",
+        "Designing the Future"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Old Wounds",
+        "Command Performance",
+        "About a Girl",
+        "If the Stars Should Appear",
+        "Pria",
+        "Krill",
+        "Majority Rule",
+        "Into the Fold",
+        "Cupid's Dagger",
+        "Firestorm",
+        "New Dimensions",
+        "Mad Idolatry"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Ja'loja",
+        "Primal Urges",
+        "Home",
+        "Nothing Left on Earth Excepting Fishes",
+        "All the World is Birthday Cake",
+        "A Happy Refrain",
+        "Deflectors",
+        "Identity, Pt. 1 (1)",
+        "Identity, Pt. 2 (2)",
+        "Blood of Patriots",
+        "Lasting Impressions",
+        "Sanctuary",
+        "Tomorrow, and Tomorrow, and Tomorrow",
+        "The Road Not Taken"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6",
+        "Episode 7",
+        "Episode 8",
+        "Episode 9",
+        "Episode 10",
+        "Episode 11"
+      ]
+    }
+  },
+  "cacheKey": "the_orville"
+}

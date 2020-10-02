@@ -1,0 +1,51 @@
+{
+  "dvdSeasons": {},
+  "id": 83962,
+  "name": "Carole & Tuesday",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Carole & Tuesday Recap (Episode 12.5)",
+        "Mini Series: Gus & Roddy",
+        "Mini Series: Ertegun & Roddy",
+        "Mini Series: Angela & Tao",
+        "Mini Series: Tuesday & Roddy",
+        "Mini Series: Ertegun & Ertegun",
+        "Mini Series: Ertegun & Tao",
+        "Mini Series: Carole & Gus",
+        "Mini Series: Carole & Tuesday"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "True Colors",
+        "Born to Run",
+        "Fire and Rain",
+        "Video Killed the Radio Star",
+        "Every Breath You Take",
+        "Life is A Carnival",
+        "Show Me the Way",
+        "All The Young Dudes",
+        "Dancing Queen",
+        "River Deep, Mountain High",
+        "With or Without You",
+        "We've Only Just Begun",
+        "Walk This Way",
+        "The Kids are Alright",
+        "God Only Knows",
+        "A Natural Woman",
+        "Head Over Heels",
+        "Only Love Can Break Your Heart",
+        "People Get Ready",
+        "Immigrant Song",
+        "It's Too Late",
+        "Just Like Heaven",
+        "Don't Stop Believin'",
+        "A Change is Gonna Come"
+      ]
+    }
+  },
+  "cacheKey": "carole_&_tuesday"
+}

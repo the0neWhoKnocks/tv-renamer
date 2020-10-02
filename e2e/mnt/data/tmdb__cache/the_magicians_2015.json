@@ -1,0 +1,98 @@
+{
+  "dvdSeasons": {},
+  "id": 64432,
+  "name": "The Magicians (2015)",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Unauthorized Magic",
+        "The Source of Magic",
+        "Consequences of Advanced Spellcasting",
+        "The World in the Walls",
+        "Mendings, Major and Minor",
+        "Impractical Applications",
+        "The Mayakovsky Circumstance",
+        "The Strangled Heart",
+        "The Writing Room",
+        "Homecoming",
+        "Remedial Battle Magic",
+        "Thirty-Nine Graves",
+        "Have You Brought Me Little Cakes"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Knight of Crowns",
+        "Hotel Spa Potions",
+        "Divine Elimination",
+        "The Flying Forest",
+        "Cheat Day",
+        "The Cock Barrens",
+        "Plan B",
+        "Word As Bond",
+        "Lesser Evils",
+        "The Girl Who Told Time",
+        "The Rattening",
+        "Ramifications",
+        "We Have Brought You Little Cakes"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "The Tale of the Seven Keys",
+        "Heroes and Morons",
+        "The Losses of Magic",
+        "Be the Penny",
+        "A Life in the Day",
+        "Do You Like Teeth",
+        "Poached Eggs",
+        "Six Short Stories About Magic",
+        "All That Josh",
+        "The Art of the Deal",
+        "Twenty-Three",
+        "The Fillorian Candidate",
+        "Will You Play with Me"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "A Flock of Lost Birds",
+        "Lost, Found, Fucked",
+        "The Bad News Bear",
+        "Marry, F..., Kill",
+        "Escape from the Happy Place",
+        "A Timeline and Place",
+        "The Side Effect",
+        "Home Improvement",
+        "The Serpent",
+        "All That Hard, Glossy Armor",
+        "The 4-1-1",
+        "The Secret Sea",
+        "No Better to Be Safe Than Sorry"
+      ]
+    },
+    "5": {
+      "episodes": [
+        null,
+        "Do Something Crazy",
+        "The Wrath of the Time Bees",
+        "The Mountain of Ghosts",
+        "Magicians Anonymous",
+        "Apocalypse Now!",
+        "Oops!...I Did It Again",
+        "Acting Dean",
+        "Garden Variety Homicide",
+        "Cello Squirrel Daffodil",
+        "Purgatory",
+        "Be The Hyman",
+        "The Balls",
+        "Fillory and Further"
+      ]
+    }
+  },
+  "cacheKey": "the_magicians_2015"
+}

@@ -1,0 +1,21 @@
+{
+  "dvdSeasons": {},
+  "id": 84977,
+  "name": "Russian Doll",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Nothing in This World Is Easy",
+        "The Great Escape",
+        "A Warm Body",
+        "Alan's Routine",
+        "Superiority Complex",
+        "Reflection",
+        "The Way Out",
+        "Ariadne"
+      ]
+    }
+  },
+  "cacheKey": "russian_doll"
+}

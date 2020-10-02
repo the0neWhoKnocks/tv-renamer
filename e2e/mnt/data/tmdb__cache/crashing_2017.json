@@ -1,0 +1,47 @@
+{
+  "dvdSeasons": {},
+  "id": 68898,
+  "name": "Crashing (2017)",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Artie Lange",
+        "The Road",
+        "Yard Sale",
+        "Barking",
+        "Parents",
+        "Warm-Up",
+        "Julie",
+        "The Baptism"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "The Atheist",
+        "Pete and Leif",
+        "Bill Burr",
+        "Porter Got HBO",
+        "Too Good",
+        "Artie",
+        "Naca",
+        "Roast Battle"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Jaboukie",
+        "The Temple Gig",
+        "The Secret",
+        "MC, Middle, Headliner",
+        "Mom and Kat",
+        "The Viewing Party",
+        "The Christian Tour",
+        "Mulaney"
+      ]
+    }
+  },
+  "cacheKey": "crashing_2017"
+}

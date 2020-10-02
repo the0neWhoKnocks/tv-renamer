@@ -39,6 +39,12 @@ context('Renamer', () => {
       });
   }
   
+  function setUpAliases() {
+    cy.get('.app__items-nav button[for="folders"]').as('ITEMS_NAV__FOLDERS_BTN');
+    cy.get('.app__items-nav button[for="preview"]').as('ITEMS_NAV__PREVIEW_BTN');
+    cy.get('.app__items-nav button[for="rename"]').as('ITEMS_NAV__RENAME_BTN');
+  }
+  
   const nameSort = (a, b) => {
     const subCheck = (b.name.toLowerCase() > a.name.toLowerCase()) ? -1 : 0;
     return (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : subCheck;
@@ -56,9 +62,7 @@ context('Renamer', () => {
   });
   
   beforeEach(() => {
-    cy.get('.app__items-nav button[for="folders"]').as('ITEMS_NAV__FOLDERS_BTN');
-    cy.get('.app__items-nav button[for="preview"]').as('ITEMS_NAV__PREVIEW_BTN');
-    cy.get('.app__items-nav button[for="rename"]').as('ITEMS_NAV__RENAME_BTN');
+    setUpAliases();
   });
 
   it('should have the correct title', () => {
@@ -79,7 +83,12 @@ context('Renamer', () => {
   it('should preview and rename files with exact matches', () => {
     // disable anything I don't want to preview
     toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
+    toggleItem('Doctor.Who.2005');
     toggleItem('High.Maintenance');
+    toggleItem('The Legend of Korra');
+    toggleItem('Shameless');
+    toggleItem('Sword.Art.Online.Alicization');
+    toggleItem('Tell.Me.a.Story.US');
     
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     
@@ -93,7 +102,7 @@ context('Renamer', () => {
       'Black Monday - 1x02 - 364.mkv',
       'Blue Bloods - 9x11 - Disrupted.mkv',
       "Bob's Burgers - 9x11 - Lorenzo's Oil No, Linda's.mkv",
-      'Bravest Warriors - 4x05x06 - From the Inside Room & All I Wish is to Be Alone.mp4',
+      'Bravest Warriors - 4x05x06 - From The Inside Room & All I Wish Is To Be Alone.mp4',
       'Brooklyn Nine-Nine - 6x01 - Honeymoon.mkv',
       'Carole & Tuesday - 1x02 - Born to Run.mkv',
       'Carole & Tuesday - 1x01 - True Colors.mkv',
@@ -102,12 +111,11 @@ context('Renamer', () => {
       'Deadly Class - 1x02 - Noise, Noise, Noise.mkv',
       'Dirty John - 1x01 - Approachable Dreams.mkv',
       'Dirty John - 1x02 - Red Flags and Parades.mkv',
-      'Doctor Who (2005) - 0x156 - Resolution.mkv',
       'Doom Patrol - 1x01 - Pilot.mkv',
-      'Forged in Fire - 6x01x02 - Long Road to Redemption.mkv',
+      'Forged in Fire - 6x01x02 - Long Road to Redemption & Road to Redemption.mkv',
       'Futurama - 1x01 - Space Pilot 3000.mkv',
       'Future Man - 2x05 - J1- Judgment Day.mkv',
-      'Game of Thrones - 0x41 - The Last Watch.mkv',
+      'Game of Thrones - 0x55 - The Last Watch.mkv',
       'gen-LOCK - 1x01 - The Pilot.mkv',
       'Hyperdrive (2019) - 1x01 - Qualifier 1- Ready to Launch.mkv',
       'Hyperdrive - 1x01 - A Gift from the Glish.mkv',
@@ -115,8 +123,8 @@ context('Renamer', () => {
       'I Am the Night - 1x03 - Dark Flower.mkv',
       'Astra Lost in Space - 1x06 - Secret.mkv',
       'Demon Slayer- Kimetsu no Yaiba - 1x02 - Trainer Sakonji Urokodaki.mkv',
-      'Money Heist - 1x02 - Lethal Negligence.mkv',
-      'Loudermilk - 2x03 - All Apologies .mp4',
+      'Money Heist - 1x02 - Episode 2.mkv',
+      'Loudermilk - 2x03 - All Apologies.mp4',
       'Luther - 5x03 - Episode 3.mkv',
       "Marvel's The Punisher - 2x01 - Roadhouse Blues.mkv",
       'Project Blue Book - 1x01 - The Fuller Dogfight.mkv',
@@ -125,39 +133,45 @@ context('Renamer', () => {
       'Psych - 3x01 - Ghosts.mkv',
       'Ray Donovan - 6x11 - Never Gonna Give You Up.mkv',
       'Russian Doll - 1x01 - Nothing in This World Is Easy.mkv',
-      'SEAL Team - 3x11x12 - Siege Protocol.mkv',
+      'SEAL Team - 3x11x12 - Siege Protocol & Fog of War.mkv',
       'Sex Education - 1x02 - House Party.mkv',
-      'Shameless (US) - 9x11 - The Hobo Games.mkv',
       "SMILF - 2x02 - Sorry Mary, I'm Losing Faith.mkv",
-      "Speechless - 3x09 - J-A-- JAVIER'S P-A-- PANTS.mkv",
+      "Speechless - 3x09 - J-A- JAVIER'S P-A- PANTS.mkv",
       'Star Trek- Discovery - 2x01 - Brother.mkv',
       'Stargate SG-1 - 1x01x02 - Children of the Gods.mkv',
       'Suits - 8x12 - Whale Hunt.mkv',
       'Supernatural - 14x10 - Nihilism.mkv',
       'Supernatural - 14x15 - Peace of Mind.mkv',
-      'Tell Me a Story (US) - 1x10 - Chapter 10- Forgiveness.mkv',
       'The Blacklist - 6x02 - The Corsican.mkv',
       'The Dragon Prince - 2x03 - Smoke and Mirrors.mkv',
-      'The Good Doctor - 2x11 - Quarantine Part Two.mkv',
+      'The Good Doctor - 2x11 - Quarantine (2).mkv',
       'The Good Place - 3x10 - The Book of Dougs.mkv',
       'The Last O.G. - 3x04 - They Reminisce Over You.mkv',
       'The Magicians (2015) - 4x01 - A Flock of Lost Birds.mkv',
       'The Orville - 2x03 - Home.mkv',
       'The Rookie - 1x09 - Standoff.mkv',
-      'The Umbrella Academy - 1x02 - Run Boy Run .mkv',
+      'The Umbrella Academy - 1x02 - Run Boy Run.mkv',
       'True Detective - 3x01 - The Great War and Modern Memory.mkv',
       'Veep - 1x01 - Fundraiser.mkv',
       'Veep - 2x08 - First Response.mkv',
       'Veep - 2x09 - Running.mkv',
       'Vikings - 5x17 - The Most Terrible Thing.mkv',
-      'Wayne - 1x03 - The Goddamned Beacon of Truth.mkv',
+      "Wayne - 1x03 - CHAPTER THREE- 'THE GODDAMNED BEACON OF TRUTH'.mkv",
       "You're the Worst - 5x01 - The Intransigence of Love.mkv",
       'Young Justice - 3x02 - Royal We.mkv',
       'Young Sheldon - 2x12 - A Tummy Ache and a Whale of a Metaphor.mkv',
     ];
     cy.get('.app.enable--rename .renamable.is--previewing.is--selected').each(($previewEl, ndx) => {
-      expect($previewEl.find('.renamable__new-name-text').text()).to.equal(newNames[ndx]);
-      expect($previewEl.find('.renamable__nav').children().length).to.equal(4);
+      const text = $previewEl.find('.renamable__new-name-text').text();
+      console.log(text, newNames[ndx]);
+      expect(text).to.equal(newNames[ndx]);
+      
+      const navItems = $previewEl.find('.renamable__nav').children();
+      expect(navItems[0].innerHTML.includes('xlink:href="#ui-icon_tmdb"')).to.be.true;
+      expect(+navItems[1].textContent).to.be.a('number');
+      expect(navItems[2].textContent).to.equal('View Series');
+      expect(navItems[3].textContent).to.equal('Cache');
+      expect(navItems[4].innerHTML.includes('xlink:href="#ui-icon_folder"')).to.be.true;
     });
     
     screenshot('.app', 'previewing new names');
@@ -184,12 +198,24 @@ context('Renamer', () => {
         'the.big.fat.quiz.of.everything.s00e03',
       ],
       [
+        'Doctor.Who.2005.S00E156.Resolution.New.Year.Special.720p.WEBRip.2CH.x265.HEVC',
+        'Doctor.Who.(2005).S00E156',
+      ],
+      [
         'Mob.Psycho.100.II.07.1080p.WEBRip.x265.HEVC.10bit.AAC.2.0',
         'Mob.Psycho.100.s02e07',
       ],
       [
+        'Shameless.US.S09E11.The.Hobo.Games.720p.WEBRip.2CH.x265.HEVC',
+        'Shameless.(2011).S09E11',
+      ],
+      [
         'Sword.Art.Online.Alicization.19.1080p.WEBRip.x265.HEVC.10bit.AAC.2.0',
         'Sword.Art.Online.s03e19',
+      ],
+      [
+        'Tell.Me.a.Story.US.S01E10.Chapter.10.Forgiveness.720p.WEBRip.2CH.x265.HEVC',
+        'Tell.Me.a.Story.(2018).S01E10',
       ],
       [
         'The Legend of Korra (2012) S01E01 Welcome to Republic City',
@@ -211,8 +237,11 @@ context('Renamer', () => {
     const newNames = [
       'The Big Fat Quiz of the Year - 1x15 - The Big Fat Quiz of the Year 2018.mkv',
       'The Big Fat Quiz of Everything - 0x03 - 2018 Special.mp4',
+      'Doctor Who (2005) - 0x156 - Resolution.mkv',
       'Mob Psycho 100 - 2x07 - Cornered ~True Identity~.mkv',
+      'Shameless (2011) - 9x11 - The Hobo Games.mkv',
       'Sword Art Online - 3x19 - The Seal of the Right Eye.mkv',
+      'Tell Me a Story (2018) - 1x10 - Chapter 10- Forgiveness.mkv',
       'The Legend of Korra - 1x01 - Welcome to Republic City.mkv',
     ];
     cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
@@ -256,7 +285,7 @@ context('Renamer', () => {
   });
   
   it('should allow a User to confirm an ID for a series', () => {
-    const SERIES_ID = 380654;
+    const SERIES_ID = 96316;
     
     toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
     
@@ -269,7 +298,7 @@ context('Renamer', () => {
         id: SERIES_ID,
         index: '3',
         name: 'Rent-a-Girlfriend',
-        seriesURL: 'https://www.thetvdb.com/series/rental-girlfriend',
+        seriesURL: `https://www.themoviedb.org/tv/${ SERIES_ID }`,
       }],
     }).as('RESPONSE__POSSIBLE_MISMATCH');
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
@@ -282,7 +311,7 @@ context('Renamer', () => {
     
     cy.get('.assign-id__search-link').then(($el) => {
       cy.wrap($el)
-        .should('have.attr', 'href', 'https://www.thetvdb.com/search?query=kanojo%2C%20okarishimasu')
+        .should('have.attr', 'href', 'https://www.themoviedb.org/search/tv?query=kanojo%2C%20okarishimasu')
         .should('have.attr', 'rel', 'noopener noreferrer')
         .should('have.attr', 'target', '_blank');
     });
@@ -317,7 +346,7 @@ context('Renamer', () => {
       url: '/api/v1/preview',
       response: [
         {
-          id: 314324,
+          id: 67243,
           index: '3',
           name: 'High Maintenance (2016) - 3x02 - Craig',
           seriesName: 'High Maintenance (2016)',
@@ -327,14 +356,14 @@ context('Renamer', () => {
           id: BAD_SERIES_ID,
           index: '4',
           name: 'High Maintenance (2020)',
-          seriesURL: 'https://www.thetvdb.com/series/high-maintenance-2020',
+          seriesURL: `https://www.themoviedb.org/tv/${ BAD_SERIES_ID }`,
         },
         {
           error: 'Possible series mis-match',
           id: BAD_SERIES_ID,
           index: '5',
           name: 'High Maintenance (2020)',
-          seriesURL: 'https://www.thetvdb.com/series/high-maintenance-2020',
+          seriesURL: `https://www.themoviedb.org/tv/${ BAD_SERIES_ID }`,
         },
       ],
     }).as('RESPONSE__POSSIBLE_MISMATCH');
@@ -346,15 +375,15 @@ context('Renamer', () => {
     
     screenshot('.app', 'viewing assign modal');
     
-    const CORRECT_ID = 271971;
+    const CORRECT_ID = 106014;
     cy.get('.assign-id__id-input').type(`{selectall}${ CORRECT_ID }`);
     screenshot('.app', 'entered new series id');
     cy.get('.assign-id__assign-btn').click();
     
     const newNames = [
       ['High Maintenance (2016)', 'High Maintenance (2016) - 3x02 - Craig.mkv'],
-      ['High Maintenance', 'High Maintenance - 3x01 - Jonathan.mkv'],
-      ['High Maintenance', 'High Maintenance - 3x02 - Elijah.mkv'],
+      ['High Maintenance', 'High Maintenance - 1x08 - Jonathan.mkv'],
+      ['High Maintenance', 'High Maintenance - 1x09 - Elijah.mkv'],
     ];
     cy.get('#modals').should('be.empty');
     cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
@@ -389,9 +418,9 @@ context('Renamer', () => {
     
     cy.get('.replace__table-body .replace__table-row').each(($tr, rowNdx) => {
       const rowData = [
-        ['1x01.mkv', '1x01.mkv'],
-        ['1x02.mkv', '1x02.mkv'],
-        ['2x01.mkv', '2x01.mkv'],
+        ['1x01.pilot.mkv', '1x01.pilot.mkv'],
+        ['1x02.quit.smoking.mkv', '1x02.quit.smoking.mkv'],
+        ['2x01.very.bad.things.mkv', '2x01.very.bad.things.mkv'],
       ];
       
       cy.wrap($tr).within(() => {
@@ -427,8 +456,10 @@ context('Renamer', () => {
     cy.get('.replace__btm-nav button')
       .contains('Rename')
       .click();
-      
+    
+    cy.get('#modals').should('be.empty');
     cy.get('.app.is--visible');
+    setUpAliases();
     
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     

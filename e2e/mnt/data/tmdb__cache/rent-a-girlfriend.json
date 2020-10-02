@@ -1,0 +1,25 @@
+{
+  "dvdSeasons": {},
+  "id": 96316,
+  "name": "Rent-a-Girlfriend",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Rent-a-Girlfriend",
+        "Ex-Girlfriend and Girlfriend",
+        "Beach and Girlfriend",
+        "Friend and Girlfriend",
+        "Hot Springs and Girlfriend",
+        "Girlfriend and Girlfriend",
+        "Provisional Girlfriend and Girlfriend",
+        "Christmas and Girlfriend",
+        "Lies and Girlfriend",
+        "Friend's Girlfriend",
+        "Truth and Girlfriend",
+        "Confession and Girlfriend"
+      ]
+    }
+  },
+  "cacheKey": "rent-a-girlfriend"
+}

@@ -1,8 +1,8 @@
 import logger from 'SERVER/utils/logger';
 import camelCase from '../camelCase';
 import timeoutCodeCheck from '../timeoutCodeCheck';
+import getSeriesByName from './getSeriesByName';
 import getSeriesDetails from './getSeriesDetails';
-import getSeriesId from './getSeriesId';
 import lookUpEpisodes from './lookUpEpisodes';
 
 const log = logger('server:tmdb:lookUpSeries');
@@ -15,8 +15,11 @@ export default ({
   index, 
   recentlyCached,
   seriesName: userSeriesName,
+  seriesYear,
 }) => new Promise(
   (resolve, reject) => {
+    let _seriesYear = seriesYear;
+    
     if(cache[cacheKey]){
       const cachedItem = cache[cacheKey];
       log(`Skipping series look-up for: "${ cachedItem.name }"`);
@@ -27,25 +30,53 @@ export default ({
         // When cached files have been detected, or user assigns an ID
         if(id){
           log(`Using TMDB id: "${ id }" for look-up`);
-          resolveSeries({ seriesID: id });
+          
+          const data = { seriesID: id };
+          
+          // in some cases there can be multiple series with the same name, so 
+          // do an extra check to verify the year
+          if(!_seriesYear){
+            getSeriesByName({ apiKey, name: userSeriesName, year: seriesYear })
+              .then(({ results: seriesMatches }) => {
+                if(seriesMatches.length > 1){
+                  seriesMatches
+                    .filter(({ name }) => name.toLowerCase() === userSeriesName.toLowerCase())
+                    .sort(({ first_air_date: currDate }, { first_air_date: nextDate }) => {
+                      return +currDate.split('-')[0] - +nextDate.split('-')[0];
+                    })
+                    .forEach(({ first_air_date, id: _id }, ndx) => {
+                      if(ndx > 0 && _id === id) _seriesYear = first_air_date.split('-')[0];
+                    });
+                }
+                
+                resolveSeries(data);
+              });
+          }
+          else{
+            resolveSeries(data);
+          }
         }
         // For initial series scrape
         else{
           log(`Looking up series id for: "${ userSeriesName }"`);
           
-          getSeriesId({ apiKey, name: userSeriesName })
+          getSeriesByName({ apiKey, name: userSeriesName, year: seriesYear })
             .then(({ results: seriesMatches }) => {
               const unmatched = [];
               let opts, matchErr;
               
               for(let i=0; i<seriesMatches.length; i++){
                 const { id, name: seriesName } = seriesMatches[i];
-              
+                
+                // NOTE - Can only key off of exact matches. Tried also keying
+                // off whether there was only one match in the Array, but then
+                // every request for that series wouldn't match anything in the
+                // cache because the User didn't assign an ID.
                 if(
-                  // first try an exact name match
-                  userSeriesName === seriesName
-                  // OR, use the only option that was returned
-                  || (seriesMatches.length === 1) 
+                  // Unless a year is provided with every name, I can't assume
+                  // the correct series will be chosen when there are multiple results
+                  seriesMatches.length === 1
+                  && userSeriesName.toLowerCase() === seriesName.toLowerCase()
                 ){
                   opts = { seriesID: id };
                   break;
@@ -91,7 +122,13 @@ export default ({
             };
           })
         )
-        .then(opts => lookUpEpisodes({ ...opts, apiKey, index, recentlyCached }))
+        .then(opts => lookUpEpisodes({
+          ...opts,
+          apiKey,
+          index,
+          recentlyCached,
+          seriesYear: _seriesYear,
+        }))
         .then(cache => resolve(cache))
         .catch((_err) => {
           if(_err instanceof Error){

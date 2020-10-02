@@ -171,15 +171,15 @@ export default ({ reqData, res }) => {
     let updatingCache = false;
     
     for(let i=0; i<names.length; i++){
-      const { id: seriesID, name, updateCache } = names[i] || {};
+      const { id: seriesID, nameWithYear, updateCache } = names[i] || {};
       
       if(updateCache) updatingCache = true;
       
-      if(name && !uniqueNames.includes(name)) {
-        uniqueNames.push(name);
+      if(nameWithYear && !uniqueNames.includes(nameWithYear)) {
+        uniqueNames.push(nameWithYear);
         
         if(!updateCache){
-          pendingCacheLookups.push(loadCacheItem({ cacheKey: idMap[seriesID], name }));
+          pendingCacheLookups.push(loadCacheItem({ cacheKey: idMap[seriesID], name: nameWithYear }));
         }
       }
     }
@@ -194,9 +194,9 @@ export default ({ reqData, res }) => {
         const requestedNames = [];
         
         for(let i=0; i<names.length; i++){
-          const { id: seriesID, index, name, updateCache } = names[i] || {};
-          requestedNames.push({ id: seriesID, index, name });
-          if(!updateCache) _cachedItems.push({ ...cacheMap[name], index });
+          const { id: seriesID, index, name, nameWithYear, updateCache, year } = names[i] || {};
+          requestedNames.push({ id: seriesID, index, name, year });
+          if(!updateCache) _cachedItems.push({ ...cacheMap[nameWithYear], index });
         }
         
         return {
@@ -243,7 +243,7 @@ export default ({ reqData, res }) => {
             else{
               const recentlyCached = [];
               const pendingSeriesData = requestedNames.map(
-                ({ id, index, name }, ndx) => lookUpSeries({
+                ({ id, index, name, year }, ndx) => lookUpSeries({
                   apiKey,
                   cache, 
                   cacheKey: (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined, 
@@ -252,6 +252,7 @@ export default ({ reqData, res }) => {
                   recentlyCached,
                   res,
                   seriesName: name,
+                  seriesYear: year,
                 })
               );
               

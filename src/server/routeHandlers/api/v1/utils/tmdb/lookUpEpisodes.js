@@ -1,4 +1,5 @@
 import cacheData from '../cacheData';
+import sanitizeName from '../sanitizeName';
 import timeoutCodeCheck from '../timeoutCodeCheck';
 import getSeriesEpisodes from './getSeriesEpisodes';
 
@@ -10,12 +11,13 @@ export default ({
   seasonNumbers, 
   seriesID,
   seriesName,
+  seriesYear,
 } = {}) => new Promise(
   (resolve, reject) => {
     const cache = {
       dvdSeasons: {},
       id: seriesID,
-      name: seriesName,
+      name: `${ seriesName }${ seriesYear ? ` (${ seriesYear })` : '' }`,
       seasons: {},
     };
     
@@ -31,7 +33,7 @@ export default ({
           if(!cache.seasons[airedSeason]) cache.seasons[airedSeason] = { episodes: [] };
           
           const currSeasonEps = cache.seasons[airedSeason].episodes;
-          currSeasonEps[airedEpisodeNumber] = episodeName;
+          currSeasonEps[airedEpisodeNumber] = sanitizeName(episodeName);
         }
         
         if(groups && groups.dvdOrder){
@@ -48,7 +50,7 @@ export default ({
               
               if(dvdSeason !== null){
                 const currDvdSeasonEps = cache.dvdSeasons[dvdSeason].episodes;
-                currDvdSeasonEps[dvdEpisodeNumber] = episodeName;
+                currDvdSeasonEps[dvdEpisodeNumber] = sanitizeName(episodeName);
               }
             }
           }

@@ -17,6 +17,7 @@ const TMDB__TOKEN__EPISODE_GROUP_ID = '{EPISODE_GROUP_ID}';
 const TMDB__TOKEN__SEASON_NUMBER = '{SEASON_NUMBER}';
 const TMDB__TOKEN__SERIES_ID = '{SERIES_ID}';
 const TMDB__TOKEN__SERIES_QUERY = '{SERIES_QUERY}';
+const TMDB__TOKEN__SERIES_YEAR = '{SERIES_YEAR}';
 // NOTE - Anything pointing to DIST is top-level, should only be used in
 // development. When the App is packaged up, the context will shift to within
 // the `dist` directory.
@@ -67,12 +68,13 @@ module.exports = {
   TMDB__API__SEASON_EPISODES: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }/season/${ TMDB__TOKEN__SEASON_NUMBER }`,
   TMDB__API__SEASON_EPISODE_GROUP: `${ TMDB__URL__API }/tv/episode_group/${ TMDB__TOKEN__EPISODE_GROUP_ID }`,
   TMDB__API__SERIES_DETAILS: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }?append_to_response=episode_groups`,
-  TMDB__API__SERIES_SEARCH: `${ TMDB__URL__API }/search/tv?page=1&query=${ TMDB__TOKEN__SERIES_QUERY }&include_adult=false`,
+  TMDB__API__SERIES_SEARCH: `${ TMDB__URL__API }/search/tv?page=1&query=${ TMDB__TOKEN__SERIES_QUERY }&include_adult=false&first_air_date_year=${ TMDB__TOKEN__SERIES_YEAR }`,
   TMDB__TOKEN__EPISODE_GROUP_ID,
   TMDB__TOKEN__SEASON_NUMBER,
   TMDB__TOKEN__SERIES_ID,
   TMDB__TOKEN__SERIES_QUERY,
-  TMDB__URL__QUERY: `${ TMDB__URL__DOMAIN }/search?query=${ TMDB__TOKEN__SERIES_QUERY }`,
+  TMDB__TOKEN__SERIES_YEAR,
+  TMDB__URL__QUERY: `${ TMDB__URL__DOMAIN }/search/tv?query=${ TMDB__TOKEN__SERIES_QUERY }`,
   TMDB__URL__SERIES: `${ TMDB__URL__DOMAIN }/tv/${ TMDB__TOKEN__SERIES_ID }`,
   WP__ENTRY: `${ SRC }/app.js`,
   WP__OUTPUT: DIST_JS,

@@ -31,7 +31,7 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9,'.!\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
+export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9,'.!\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\.|\s)?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
 // name.s01e01-s01e02.ext
 // name.s01e01e02.ext
 // name.s01e01-episode1.title-s01e02-episode2.title.ext
@@ -53,7 +53,10 @@ class App extends Component {
       .trim();
     const seriesYear = (year && +year) ? ` ${ year }` : '';
     
-    return `${ parsedName }${ seriesYear }`;
+    return {
+      name: parsedName,
+      nameWithYear: `${ parsedName }${ seriesYear }`,
+    };
   }
   
   static renamableFilter({ error, index, selected, skipped }) {
@@ -81,7 +84,7 @@ class App extends Component {
     const nameMatch = name.match(NAME_REGEX) || [];
     
     if(nameMatch[1]){
-      data.lookupName = App.parseLookupName(nameMatch[1], nameMatch[2]);
+      data.lookupName = App.parseLookupName(nameMatch[1], nameMatch[2]).nameWithYear;
       
       if(idMappings[data.lookupName]){
         data.idOverride = +idMappings[data.lookupName];
@@ -273,15 +276,20 @@ class App extends Component {
     
     if(isNaN(nameData.id)) delete nameData.id;
     
-    return (matches)
-      ? {
+    if(matches){
+      const lookupName = matches[1] && App.parseLookupName(matches[1], matches[2]);
+      
+      return {
         ...nameData,
+        ...lookupName,
         episode: matches[4] && +matches[4],
         episodes: episodes,
-        name: matches[1] && App.parseLookupName(matches[1], matches[2]),
         season: matches[3] && +matches[3],
-      }
-      : nameData;
+        year: matches[2],
+      };
+    }
+    
+    return nameData;
   }
   
   checkCredentials() {
@@ -406,10 +414,11 @@ class App extends Component {
       }, []);
     
     // Request new preview for files with matching id
-    this.previewRename(newlyAssigned, (_previewItems) => {
-      this.setState({
-        idMappings: App.transformIdMappings(idMappings),
-        showAssignId: false,
+    this.setState({
+      idMappings: App.transformIdMappings(idMappings),
+    }, () => {
+      this.previewRename(newlyAssigned, (_previewItems) => {
+        this.setState({ showAssignId: false });
       });
     });
   }

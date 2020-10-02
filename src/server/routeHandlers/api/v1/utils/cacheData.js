@@ -4,7 +4,7 @@ import genCacheName from './genCacheName';
 
 const log = logger('server:cacheData');
 
-export default ({ data, name, res }) => new Promise((resolve, reject) => {
+export default ({ data }) => new Promise((resolve, reject) => {
   const cacheName = genCacheName(data.name);
   data.cacheKey = cacheName.name;
   
@@ -15,6 +15,5 @@ export default ({ data, name, res }) => new Promise((resolve, reject) => {
     },
     data,
     file: cacheName.filePath,
-    res,
   });
 });

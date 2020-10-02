@@ -11,9 +11,9 @@ context('Renamer', () => {
   }
   
   function loadPage() {
-    cy.exec('node /mockData/genFiles.js');
+    cy.exec('node /e2e/bin/genFiles.js');
     
-    cy.readFile('/mockData/files.txt', 'utf8').then((names) => {
+    cy.readFile('/e2e/bin/files.txt', 'utf8').then((names) => {
       fileNames = names
         .split('\n')
         .filter(n =>
@@ -46,8 +46,10 @@ context('Renamer', () => {
   }
   
   const nameSort = (a, b) => {
-    const subCheck = (b.name.toLowerCase() > a.name.toLowerCase()) ? -1 : 0;
-    return (a.name.toLowerCase() > b.name.toLowerCase()) ? 1 : subCheck;
+    const _a = a.name.toLowerCase();
+    const _b = b.name.toLowerCase();
+    const subCheck = (_b > _a) ? -1 : 0;
+    return (_a > _b) ? 1 : subCheck;
   };
   
   before(() => {
@@ -59,6 +61,16 @@ context('Renamer', () => {
     cy.get('input[name="outputFolder"]').then(el => { appConfig.output = el.val(); });
     screenshot('.app', 'config opened');
     cy.get('.config__close-btn').click();
+    
+    // disable anything I don't want to preview
+    toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
+    toggleItem('Doctor.Who.2005');
+    toggleItem('Futurama');
+    toggleItem('High.Maintenance');
+    toggleItem('The Legend of Korra');
+    toggleItem('Shameless');
+    toggleItem('Sword.Art.Online.Alicization');
+    toggleItem('Tell.Me.a.Story.US');
   });
   
   beforeEach(() => {
@@ -72,7 +84,7 @@ context('Renamer', () => {
   it('should have loaded files to rename', () => {
     expect(fileNames.length).to.eq(82);
     
-    cy.get('.renamable__ce-fix [contenteditable="true"][spellcheck="false"]')
+    cy.get('.renamable__ce-fix [spellcheck="false"]')
       .each(($el, ndx) => {
         expect($el.text()).to.equal(fileNames[ndx].name);
       });
@@ -81,15 +93,6 @@ context('Renamer', () => {
   });
   
   it('should preview and rename files with exact matches', () => {
-    // disable anything I don't want to preview
-    toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
-    toggleItem('Doctor.Who.2005');
-    toggleItem('High.Maintenance');
-    toggleItem('The Legend of Korra');
-    toggleItem('Shameless');
-    toggleItem('Sword.Art.Online.Alicization');
-    toggleItem('Tell.Me.a.Story.US');
-    
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     
     // generate list with `[...document.querySelectorAll('.renamable.is--previewing.is--selected .renamable__new-name-text')].map(el => { const t = el.textContent; const q = t.includes("'") ? '"' : "'"; return `${q}${t}${q},`}).join('\n');`
@@ -113,7 +116,6 @@ context('Renamer', () => {
       'Dirty John - 1x02 - Red Flags and Parades.mkv',
       'Doom Patrol - 1x01 - Pilot.mkv',
       'Forged in Fire - 6x01x02 - Long Road to Redemption & Road to Redemption.mkv',
-      'Futurama - 1x01 - Space Pilot 3000.mkv',
       'Future Man - 2x05 - J1- Judgment Day.mkv',
       'Game of Thrones - 0x55 - The Last Watch.mkv',
       'gen-LOCK - 1x01 - The Pilot.mkv',
@@ -250,13 +252,67 @@ context('Renamer', () => {
     
     screenshot('.app', 'previewing manually adjusted names');
     
-    cy.get('.app__items-nav').contains(/^Rename Selected/).click();
+    cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx] }`);
     });
     
     screenshot('.app', 'files renamed');
+    
+    cy.get('.app__logs-nav .toggle__btn').click();
+  });
+  
+  it('should request and cache actual data from the external API', () => {
+    // NOTE - Using Futurama because:
+    // - It has multiple seasons
+    // - It has DVD ordering
+    // - It has a Special season
+    // - The series is over, so downloading the data shouldn't result in changes
+    // to the checked-in file.
+    cy.exec('rm /e2e/mnt/data/tmdb__cache/futurama.json');
+    
+    toggleItem('Futurama S01E01');
+    
+    // preview item
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+    
+    // wait for preview to appear, verify preview text
+    const newName = 'Futurama - 1x01 - Space Pilot 3000.mkv';
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el) => {
+      expect($el.text()).to.equal(newName);
+    });
+    
+    screenshot('.app', 'new data scraped');
+    
+    // delete e01 item in newly created JSON
+    cy.readFile('/e2e/mnt/data/tmdb__cache/futurama.json', 'utf8').then((data) => {
+      data.seasons[1].episodes[1] = null;
+      cy.writeFile('/e2e/mnt/data/tmdb__cache/futurama.json', JSON.stringify(data, null, 2), 'utf8');
+    });
+    
+    // preview item again to get Cache button
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+    
+    screenshot('.app', 'cache update required');
+    
+    // click Cache button
+    cy.get('.renamable__new-name-text').contains('No Exact Match Found - Missing episode "1" data in cache.');
+    cy.get('.is--refresh').contains('Cache').click();
+    
+    // wait for preview to appear
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el) => {
+      expect($el.text()).to.equal(newName);
+    });
+    
+    screenshot('.app', 'series episode found after cache update');
+    
+    cy.get('@ITEMS_NAV__RENAME_BTN').click();
+    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
+      expect($el.text()).to.equal(`${ appConfig.output }/${ newName }`);
+    });
+    
+    screenshot('.app', 'file renamed');
     
     cy.get('.app__logs-nav .toggle__btn').click();
   });
@@ -274,7 +330,7 @@ context('Renamer', () => {
     
     screenshot('.app', 'previewing names by DVD order');
     
-    cy.get('.app__items-nav').contains(/^Rename Selected/).click();
+    cy.get('@ITEMS_NAV__RENAME_BTN').click();
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/Futurama/${ newName }`);
     });
@@ -325,7 +381,7 @@ context('Renamer', () => {
     
     screenshot('.app', 'previewing assigned series name');
     
-    cy.get('.app__items-nav').contains(/^Rename Selected/).click();
+    cy.get('@ITEMS_NAV__RENAME_BTN').click();
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newName }`);
     });
@@ -393,7 +449,7 @@ context('Renamer', () => {
     screenshot('.app', 'previewing assigned series names');
     
     cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
-    cy.get('.app__items-nav').contains(/^Rename Selected/).click();
+    cy.get('@ITEMS_NAV__RENAME_BTN').click();
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx][0] }/${ newNames[ndx][1] }`);
     });
@@ -465,7 +521,7 @@ context('Renamer', () => {
     
     screenshot('.app', 'previewing files with replaced names');
     
-    cy.get('.app__items-nav').contains(/^Rename All/).click();
+    cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
     cy.get('.log-item__body').each(($log, logNdx) => {
       const folderDeleteMsg = '✓Deleted folder: "/home/node/app/_temp_/src/My Name is Earl S01-S04 Season 1-4"';

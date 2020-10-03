@@ -362,6 +362,7 @@ context('Renamer', () => {
     cy.server({ enable: false });
     
     cy.get('.renamable__nav').contains(SERIES_ID).click();
+    cy.get('.assign-id__matches');
     
     screenshot('.app', 'viewing assign modal');
     
@@ -392,7 +393,7 @@ context('Renamer', () => {
   });
   
   it('should allow a User to assign an ID for a series', () => {
-    const BAD_SERIES_ID = 376666;
+    const SERIES_ID = 67243;
     
     toggleItem('High.Maintenance');
     
@@ -402,24 +403,21 @@ context('Renamer', () => {
       url: '/api/v1/preview',
       response: [
         {
-          id: 67243,
+          id: SERIES_ID,
           index: '3',
           name: 'High Maintenance (2016) - 3x02 - Craig',
           seriesName: 'High Maintenance (2016)',
+          seriesURL: `https://www.themoviedb.org/tv/${ SERIES_ID }`,
         },
         {
-          error: 'Possible series mis-match',
-          id: BAD_SERIES_ID,
+          error: 'Couldn\'t find exact match for series: "high maintenance" | 404 - No exact match found',
           index: '4',
-          name: 'High Maintenance (2020)',
-          seriesURL: `https://www.themoviedb.org/tv/${ BAD_SERIES_ID }`,
+          name: 'high maintenance',
         },
         {
-          error: 'Possible series mis-match',
-          id: BAD_SERIES_ID,
+          error: 'Couldn\'t find exact match for series: "high maintenance" | 404 - No exact match found',
           index: '5',
-          name: 'High Maintenance (2020)',
-          seriesURL: `https://www.themoviedb.org/tv/${ BAD_SERIES_ID }`,
+          name: 'high maintenance',
         },
       ],
     }).as('RESPONSE__POSSIBLE_MISMATCH');
@@ -427,12 +425,16 @@ context('Renamer', () => {
     cy.wait('@RESPONSE__POSSIBLE_MISMATCH');
     cy.server({ enable: false });
     
-    cy.get(`.renamable__nav :contains(${ BAD_SERIES_ID })`).first().click();
+    // TEMP - keeping around in case I want to mock this stuff out later.
+    // http://localhost:9001/api/v1/series-matches?seriesName=high%2520maintenance
+    // [{"id":106300,"name":"High Maintenance","overview":"Each episode will feature amazing engineering facts about unique structures and systems including the Sir Adam Beck Hydroelectric Generating Stations at Niagara Falls, the Montreal Metro - one of North America's largest urban rapid transit schemes, and the Palm Springs Aerial Tramway in California, the largest rotating aerial tramway in the world. The series will introduce viewers to some remarkable characters who shoulder huge responsibility maintaining them on a daily basis to keep the general public safe.","thumbnail":"https://image.tmdb.org/t/p/w154/4CWKTL2Tqhp4fWqMqkkGvUTSodZ.jpg","year":2020},{"id":67243,"name":"High Maintenance","overview":"Jump into the daily routines of a diverse group of New Yorkers and how they light things up. “The Guy” is a nameless pot deliveryman whose client base includes an eccentric group of characters with neuroses as diverse as the city.","thumbnail":"https://image.tmdb.org/t/p/w154/qmYqwOW0QTkJy1UGUsM2t0Kowpu.jpg","year":2016},{"id":106014,"name":"High Maintenance","overview":"A nameless cannabis delivery guy delivers his much-needed medication to stressed-out New Yorkers.","thumbnail":"https://image.tmdb.org/t/p/w154/yCcozhFKIecvP3JxzRk70CGEg6s.jpg","year":2012},{"id":11362,"name":"High Maintenance 90210","overview":"High Maintenance 90210 is an American reality series that premiered on the E!: Entertainment Television network on January 1, 2007.","thumbnail":null,"year":2007}]
+    
+    cy.get('.renamable__nav :contains(Assign)').first().click();
     
     screenshot('.app', 'viewing assign modal');
     
     const CORRECT_ID = 106014;
-    cy.get('.assign-id__id-input').type(`{selectall}${ CORRECT_ID }`);
+    cy.get(`.assign-id__match[data-id="${ CORRECT_ID }"]`).click();
     screenshot('.app', 'entered new series id');
     cy.get('.assign-id__assign-btn').click();
     

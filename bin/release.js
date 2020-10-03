@@ -616,7 +616,7 @@ class CLISelect {
             '-H "Content-Type: application/json"',
             `-H "Authorization: token ${GITHUB_TOKEN}"`,
             '-X POST',
-            `-d '${JSON_PAYLOAD.replace(/'/g, "\\'")}'`,
+            `-d '${JSON_PAYLOAD.replace(/'/g, '\\u0027')}'`,
             '--silent --output /dev/null --show-error --fail',
             GH_API__RELEASE_URL,
           ].join(' ');

@@ -20,28 +20,32 @@ export default class Modal extends Component {
     this.handleMaskClick = this.handleMaskClick.bind(this);
   }
   
+  waitForCloseAnimation() {
+    setTimeout(() => {
+      this.setState({ closing: false, visible: false });
+    }, TRANSITION_DURATION);
+  }
+  
   componentDidUpdate(prevProps, prevState) {
     let state = {};
-    
+  
     // `visible` state changed from parent
     if(
       prevProps.visible !== this.props.visible
       && this.props.visible !== this.state.visible
     ) state.visible = this.props.visible;
-    
+  
     if(
       !this.props.noMask
       && (prevState.visible && !this.state.visible)
     ){
       state.closing = true;
     }
-    
+  
     if(Object.keys(state).length) {
       this.setState(state, () => {
         if(state.closing){
-          setTimeout(() => {
-            this.setState({ closing: false, visible: false });
-          }, TRANSITION_DURATION);
+          this.waitForCloseAnimation();
         }
       });
     }
@@ -50,8 +54,9 @@ export default class Modal extends Component {
   handleMaskClick() {
     const { onMaskClick } = this.props;
     
-    this.setState({ visible: false }, () => {
+    this.setState({ visible: false, closing: true }, () => {
       if(onMaskClick) onMaskClick();
+      this.waitForCloseAnimation();
     });
   }
   

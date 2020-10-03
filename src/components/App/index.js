@@ -191,9 +191,11 @@ class App extends Component {
     };
     
     this.comps = {};
+    this.modalCloseFuncs = {};
     
     this.logEndRef = React.createRef();
     
+    this.createModalCloseHandler = this.createModalCloseHandler.bind(this);
     this.handleAllFoldersClick = this.handleAllFoldersClick.bind(this);
     this.handleAssignIdSuccess = this.handleAssignIdSuccess.bind(this);
     this.handleCacheUpdateClick = this.handleCacheUpdateClick.bind(this);
@@ -206,7 +208,6 @@ class App extends Component {
     this.handleIdOverrideClick = this.handleIdOverrideClick.bind(this);
     this.handleLogsToggle = this.handleLogsToggle.bind(this);
     this.handleLookupNameChange = this.handleLookupNameChange.bind(this);
-    this.handleModalClose = this.handleModalClose.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
     this.handlePreviewRename = this.handlePreviewRename.bind(this);
     this.handleRename = this.handleRename.bind(this);
@@ -216,6 +217,12 @@ class App extends Component {
   
   componentDidMount() {
     this.checkCredentials();
+    
+    this.createModalCloseHandler('showAssignId');
+    this.createModalCloseHandler('showConfig');
+    this.createModalCloseHandler('showDeleteConfirmation');
+    this.createModalCloseHandler('showVersion');
+    this.createModalCloseHandler('showReplace');
     
     setTimeout(() => {
       this.setState({ visible: true });
@@ -558,8 +565,8 @@ class App extends Component {
     this.setState({ files });
   }
   
-  handleModalClose(stateProp) {
-    return () => {
+  createModalCloseHandler(stateProp) {
+    if(!this.modalCloseFuncs[stateProp]) this.modalCloseFuncs[stateProp] = () => {
       this.setState({ [stateProp]: false });
     };
   }
@@ -805,18 +812,18 @@ class App extends Component {
     const deleteProps = {
       filePath: deletionPath,
       index: deletionIndex,
-      onClose: this.handleModalClose('showDeleteConfirmation'),
+      onClose: this.modalCloseFuncs.showDeleteConfirmation,
       onDeleteSuccess: this.handleFileDeletion,
     };
     const versionProps = {
-      onClose: this.handleModalClose('showVersion'),
+      onClose: this.modalCloseFuncs.showVersion,
     };
     const replaceProps = {
       files: searchAndReplaceFiles,
-      onCancel: this.handleModalClose('showReplace'),
+      onCancel: this.modalCloseFuncs.showReplace,
     };
     let configProps = {
-      onClose: this.handleModalClose('showConfig'),
+      onClose: this.modalCloseFuncs.showConfig,
       onSaveComplete: this.handleConfigSave,
     };
     let rootModifier = '';
@@ -973,7 +980,7 @@ class App extends Component {
         </div>
         
         <Modal
-          onMaskClick={this.handleModalClose('showAssignId')}
+          onMaskClick={this.modalCloseFuncs.showAssignId}
           visible={showAssignId}
         >
           <AssignId {...assignProps} />

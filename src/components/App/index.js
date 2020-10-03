@@ -672,8 +672,8 @@ class App extends Component {
         });
       })
       .catch((err) => {
+        this.resetIndicatorOnError();
         alert(err);
-        this.setState({ renameRequested: false });
       });
   }
   
@@ -700,6 +700,17 @@ class App extends Component {
   
   handleVersionClick() {
     this.setState({ showVersion: true });
+  }
+  
+  resetIndicatorOnError() {
+    window.clearTimeout(this.previewRequestTimer);
+    const newState = {};
+    
+    if(this.state.dvdPreviewRequested) newState.dvdPreviewRequested = false;
+    else if(this.state.previewRequested) newState.previewRequested = false;
+    else if(this.state.renameRequested) newState.renameRequested = false;
+    
+    if(Object.keys(newState).length) this.setState(newState);
   }
   
   previewRename(names, cb, useDVDOrder) {
@@ -766,11 +777,8 @@ class App extends Component {
         });
       })
       .catch((err) => {
+        this.resetIndicatorOnError();
         alert(err);
-        this.setState({
-          dvdPreviewRequested: false,
-          previewRequested: false,
-        });
       });
   }
   

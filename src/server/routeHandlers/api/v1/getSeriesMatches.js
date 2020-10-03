@@ -20,9 +20,8 @@ export default function getSeriesMatches({ reqData, res }) {
             id,
             name: seriesName,
             overview,
-            // NOTE - `poster_path` comes with a leading slash
-            thumbnail: poster_path && `${ TMDB__URL__THUMBNAILS }${ poster_path }`,
-            year: +first_air_date.split('-')[0],
+            thumbnail: poster_path && `${ TMDB__URL__THUMBNAILS }${ poster_path }`, // comes with a leading slash
+            year: first_air_date ? +first_air_date.split('-')[0] : '', // can come through as undefined or empty
           });
         }
         

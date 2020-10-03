@@ -1,0 +1,46 @@
+{
+  "dvdSeasons": {},
+  "id": 85937,
+  "name": "Demon Slayer: Kimetsu no Yaiba",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Movie- Bonds of Siblings",
+        "Movie- Infinity Train"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Cruelty",
+        "Trainer Sakonji Urokodaki",
+        "Sabito and Makomo",
+        "Final Selection",
+        "My Own Steel",
+        "Swordsman Accompanying a Demon",
+        "Muzan Kibutsuji",
+        "The Smell of Enchanting Blood",
+        "Temari Demon and Arrow Demon",
+        "Together Forever",
+        "Tsuzumi Mansion",
+        "The Boar Bares Its Fangs, Zenitsu Sleeps",
+        "Something More Important Than Life",
+        "The House with the Wisteria Family Crest",
+        "Mount Natagumo",
+        "Letting Someone Else Go First",
+        "You Must Master a Single Thing",
+        "A Forged Bond",
+        "Hinokami",
+        "Pretend Family",
+        "Against Corps Rules",
+        "Master of the Mansion",
+        "Hashira Meeting",
+        "Rehabilitation Training",
+        "Tsuguko, Kanao Tsuyuri",
+        "New Mission"
+      ]
+    }
+  },
+  "cacheKey": "demon_slayer_kimetsu_no_yaiba"
+}

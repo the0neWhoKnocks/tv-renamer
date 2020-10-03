@@ -1,0 +1,62 @@
+{
+  "dvdSeasons": {},
+  "id": 67243,
+  "name": "High Maintenance (2016)",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Meth(od)",
+        "Museebat",
+        "Grandpa",
+        "Tick",
+        "Selfie",
+        "Ex"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Globo",
+        "Fagin",
+        "Namaste",
+        "Derech",
+        "Scromple",
+        "Googie",
+        "HBD",
+        "Ghost",
+        "#goalz",
+        "Steve"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "M.A.S.H.",
+        "Craig",
+        "Blondie",
+        "Breathwork",
+        "Payday",
+        "Fingerbutt",
+        "Dongle",
+        "Proxy",
+        "Cruise"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "Cycles",
+        "Trick",
+        "Voir Dire",
+        "Backflash",
+        "Screen",
+        "Adelante",
+        "Hand",
+        "Solo",
+        "Soup"
+      ]
+    }
+  },
+  "cacheKey": "high_maintenance_2016"
+}

@@ -1,0 +1,47 @@
+{
+  "dvdSeasons": {},
+  "id": 46648,
+  "name": "True Detective",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "The Long Bright Dark",
+        "Seeing Things",
+        "The Locked Room",
+        "Who Goes There?",
+        "The Secret Fate of All Life",
+        "Haunted Houses",
+        "After You've Gone",
+        "Form and Void"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "The Western Book of the Dead",
+        "Night Finds You",
+        "Maybe Tomorrow",
+        "Down Will Come",
+        "Other Lives",
+        "Church in Ruins",
+        "Black Maps and Motel Rooms",
+        "Omega Station"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "The Great War and Modern Memory",
+        "Kiss Tomorrow Goodbye",
+        "The Big Never",
+        "The Hour and the Day",
+        "If You Have Ghosts",
+        "Hunters in the Dark",
+        "The Final Country",
+        "Now Am Found"
+      ]
+    }
+  },
+  "cacheKey": "true_detective"
+}

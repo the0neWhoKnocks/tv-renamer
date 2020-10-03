@@ -1,0 +1,34 @@
+{
+  "dvdSeasons": {},
+  "id": 81356,
+  "name": "Sex Education",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Encouragement",
+        "House Party",
+        "Liftoff",
+        "Crush",
+        "Mean Girl",
+        "Issues",
+        "Big Dance",
+        "Violated"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Episode 1",
+        "Episode 2",
+        "Episode 3",
+        "Episode 4",
+        "Episode 5",
+        "Episode 6",
+        "Episode 7",
+        "Episode 8"
+      ]
+    }
+  },
+  "cacheKey": "sex_education"
+}

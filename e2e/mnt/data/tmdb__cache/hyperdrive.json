@@ -1,0 +1,42 @@
+{
+  "dvdSeasons": {},
+  "id": 2538,
+  "name": "Hyperdrive",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Unaired Pilot",
+        "The Story of Hyperdrive",
+        "Creating the World of Hyperdrive",
+        "Video Diary",
+        "Miranda Hart's Tour of the Set",
+        "Behinds the Scenes with Nick Frost",
+        "Deleted Scenes"
+      ]
+    },
+    "1": {
+      "episodes": [
+        "Unaired Pilot",
+        "A Gift from the Glish",
+        "Hello, Queppu",
+        "Weekend Off",
+        "Asteroid",
+        "Clare",
+        "Assessment"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Green Javelins",
+        "Artefact",
+        "Admiral's Daughter",
+        "Harvest",
+        "Dreamgate",
+        "Convoy"
+      ]
+    }
+  },
+  "cacheKey": "hyperdrive"
+}

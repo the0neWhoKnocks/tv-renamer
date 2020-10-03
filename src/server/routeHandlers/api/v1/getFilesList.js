@@ -5,8 +5,8 @@ import filesFilter from './utils/filesFilter';
 import loadConfig from './utils/loadConfig';
 
 export default ({ res }) => {
-  loadConfig((config) => {
-    getFiles(config.sourceFolder, filesFilter)
+  loadConfig(({ sourceFolder }) => {
+    getFiles(sourceFolder, filesFilter)
       .then((files) => {
         // sort by `name` since folder lookups show up first sometimes
         // const sortedFiles = [];

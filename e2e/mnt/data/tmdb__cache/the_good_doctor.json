@@ -1,0 +1,85 @@
+{
+  "dvdSeasons": {},
+  "id": 71712,
+  "name": "The Good Doctor",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Burnt Food",
+        "Mount Rushmore",
+        "Oliver",
+        "Pipes",
+        "Point Three Percent",
+        "Not Fake",
+        "22 Steps",
+        "Apple",
+        "Intangibles",
+        "Sacrifice",
+        "Islands (1)",
+        "Islands (2)",
+        "Seven Reasons",
+        "She",
+        "Heartfelt",
+        "Pain",
+        "Smile",
+        "More"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Hello",
+        "Middle Ground",
+        "36 Hours",
+        "Tough Titmouse",
+        "Carrots",
+        "Two-Ply (or Not Two-Ply)",
+        "Hubert",
+        "Stories",
+        "Empathy",
+        "Quarantine (1)",
+        "Quarantine (2)",
+        "Aftermath",
+        "Xin",
+        "Faces",
+        "Risk and Reward",
+        "Believe",
+        "Breakdown",
+        "Trampoline"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Disaster",
+        "Debts",
+        "Claire",
+        "Take My Hand",
+        "First Case, Second Base",
+        "45-Degree Angle",
+        "SFAD",
+        "Moonshot",
+        "Incomplete",
+        "Friends and Family",
+        "Fractured",
+        "Mutations",
+        "Sex and Death",
+        "Influence",
+        "Unsaid",
+        "Autopsy",
+        "Fixation",
+        "Heartbreak",
+        "Hurt (1)",
+        "I Love You (2)"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "Episode 1"
+      ]
+    }
+  },
+  "cacheKey": "the_good_doctor"
+}

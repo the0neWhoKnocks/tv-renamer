@@ -1,0 +1,50 @@
+{
+  "dvdSeasons": {},
+  "id": 81046,
+  "name": "The Dragon Prince",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Echoes of Thunder",
+        "What is Done",
+        "Moonrise",
+        "Bloodthirsty",
+        "An Empty Throne",
+        "Through the Ice",
+        "The Dagger and the Wolf",
+        "Cursed Caldera",
+        "Wonderstorm"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "A Secret and a Spark",
+        "Half Moon Lies",
+        "Smoke and Mirrors",
+        "Voyage of the Ruthless",
+        "Breaking the Seal",
+        "Heart of a Titan",
+        "Fire and Fury",
+        "The Book of Destiny",
+        "Breathe"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Sol Regem",
+        "The Crown",
+        "Ghost",
+        "The Midnight Desert",
+        "Heroes and Masterminds",
+        "Thunderfall",
+        "Hearts of Cinder",
+        "Dragonguard",
+        "The Final Battle"
+      ]
+    }
+  },
+  "cacheKey": "the_dragon_prince"
+}

@@ -1,0 +1,42 @@
+{
+  "dvdSeasons": {},
+  "id": 79501,
+  "name": "Doom Patrol",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Pilot",
+        "Donkey Patrol",
+        "Puppet Patrol",
+        "Cult Patrol",
+        "Paw Patrol",
+        "Doom Patrol Patrol",
+        "Therapy Patrol",
+        "Danny Patrol",
+        "Jane Patrol",
+        "Hair Patrol",
+        "Frances Patrol",
+        "Cyborg Patrol",
+        "Flex Patrol",
+        "Penultimate Patrol",
+        "Ezekiel Patrol"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Fun Size Patrol",
+        "Tyme Patrol",
+        "Pain Patrol",
+        "Sex Patrol",
+        "Finger Patrol",
+        "Space Patrol",
+        "Dumb Patrol",
+        "Dad Patrol",
+        "Wax Patrol"
+      ]
+    }
+  },
+  "cacheKey": "doom_patrol"
+}

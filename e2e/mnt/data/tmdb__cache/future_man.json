@@ -1,0 +1,57 @@
+{
+  "dvdSeasons": {},
+  "id": 73157,
+  "name": "Future Man",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Pilot",
+        "Herpe: Fully Loaded",
+        "A Riphole in Time",
+        "A Fuel's Errand",
+        "Justice Desserts",
+        "A Blowjob Before Dying",
+        "Pandora's Mailbox",
+        "Girth, Wind & Fire",
+        "Operation: Fatal Attraction",
+        "Operation: Natal Attraction",
+        "Beyond the TruffleDome",
+        "Prelude to an Apocalypse",
+        "A Date With Destiny"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Countdown to a Prologue",
+        "The i of the Tiger",
+        "A Wolf in the Torque House",
+        "Guess Who's Coming to Lunch",
+        "J1: Judgment Day",
+        "The Binx Ultimatum",
+        "Homicide: Life in the Mons",
+        "The Last Horchata",
+        "The Ballad of PUP-E Q. Barkington",
+        "Exes and OS",
+        "Dia De Los Robots",
+        "The Brain Job",
+        "Ultra-Max"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "The Precipice of Yesterday",
+        "There Will Be Borscht",
+        "Trapper's Delight",
+        "The Outlaw Wild Sam Bladden",
+        "Haven Is for Real",
+        "The Land After Time",
+        "Time Rogues III: Escape From Forever",
+        "Return of the Present"
+      ]
+    }
+  },
+  "cacheKey": "future_man"
+}

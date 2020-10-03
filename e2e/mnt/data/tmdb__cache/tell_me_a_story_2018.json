@@ -1,0 +1,38 @@
+{
+  "dvdSeasons": {},
+  "id": 81747,
+  "name": "Tell Me a Story (2018)",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Chapter 1- Hope",
+        "Chapter 2- Loss",
+        "Chapter 3- Greed",
+        "Chapter 4- Rage",
+        "Chapter 5- Madness",
+        "Chapter 6- Guilt",
+        "Chapter 7- Betrayal",
+        "Chapter 8- Truth",
+        "Chapter 9- Deception",
+        "Chapter 10- Forgiveness"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "The Curse",
+        "Writer's Block",
+        "Family Business",
+        "Number One Fan",
+        "New Pages",
+        "Lost and Found",
+        "Thorns and All",
+        "Sweet Dreams",
+        "Favorite Son",
+        "Ever After"
+      ]
+    }
+  },
+  "cacheKey": "tell_me_a_story_2018"
+}

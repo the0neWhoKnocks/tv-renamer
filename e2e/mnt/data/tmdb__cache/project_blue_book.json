@@ -1,0 +1,38 @@
+{
+  "dvdSeasons": {},
+  "id": 79649,
+  "name": "Project Blue Book",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "The Fuller Dogfight",
+        "The Flatwoods Monster",
+        "The Lubbock Lights",
+        "Operation Paperclip",
+        "Foo Fighters",
+        "The Green Fireballs",
+        "The Scoutmaster",
+        "War Games",
+        "Abduction",
+        "The Washington Merry-Go Round"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "The Roswell Incident - Part I",
+        "The Roswell Incident - Part II",
+        "Area 51",
+        "Hopkinsville",
+        "The Men in Black",
+        "Close Encounters",
+        "Curse of the Skinwalker",
+        "What Lies Beneath",
+        "Broken Arrow",
+        "Operation Mainbrace"
+      ]
+    }
+  },
+  "cacheKey": "project_blue_book"
+}

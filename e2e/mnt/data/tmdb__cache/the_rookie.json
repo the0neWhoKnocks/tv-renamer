@@ -1,0 +1,58 @@
+{
+  "dvdSeasons": {},
+  "id": 79744,
+  "name": "The Rookie",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Pilot",
+        "Crash Course",
+        "The Good, the Bad and the Ugly",
+        "The Switch",
+        "The Roundup",
+        "The Hawke",
+        "The Ride Along",
+        "Time of Death",
+        "Standoff",
+        "Flesh and Blood",
+        "Redwood",
+        "Heartbreak",
+        "Caught Stealing",
+        "Plain Clothes Day",
+        "Manhunt",
+        "Greenlight",
+        "The Shake Up",
+        "Homefront",
+        "The Checklist",
+        "Free Fall"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Impact",
+        "The Night General",
+        "The Bet",
+        "Warriors and Guardians",
+        "Tough Love",
+        "Fallout",
+        "Safety",
+        "Clean Cut",
+        "Breaking Point",
+        "The Dark Side",
+        "Day of Death",
+        "Now and Then",
+        "Follow-Up Day",
+        "Casualties",
+        "Hand-Off",
+        "The Overnight",
+        "Control",
+        "Under the Gun",
+        "The Q Word (1)",
+        "The Hunt (2)"
+      ]
+    }
+  },
+  "cacheKey": "the_rookie"
+}

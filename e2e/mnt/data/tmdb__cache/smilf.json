@@ -1,0 +1,36 @@
+{
+  "dvdSeasons": {},
+  "id": 71733,
+  "name": "SMILF",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "A Box of Dunkies and Two Squirts of Maple Syrup",
+        "1,800 Filet-O-Fishes & One Small Diet Coke",
+        "Half a Sheet Cake & a Blue-Raspberry Slushie",
+        "Deep-Dish Pizza & a Shot of Holy Water",
+        "Run, Bridgette, Run or Forty-Eight Burnt Cupcakes & Graveyard Rum",
+        "Chocolate Pudding & a Cooler of Gatorade",
+        "Family-Sized Popcorn & a Can of Wine",
+        "Mark's Lunch & Two Cups of Coffee"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Sh*t Man, I've Literally Failed",
+        "Sorry Mary, I'm Losing Faith",
+        "Single Mothers Inspire Loving Families",
+        "So Maybe I Look Feminine",
+        "Single Mom In Love Forever",
+        "Should Mothers Incur Loss Financially?",
+        "Smile More If Lying Fails",
+        "Sex Makes It Less Formal",
+        "Single Mom Is Losing Faith",
+        "Single Mom Is Looking (for) Family"
+      ]
+    }
+  },
+  "cacheKey": "smilf"
+}

@@ -2,7 +2,7 @@ import { normalize } from 'path';
 import url from 'url';
 import logger from 'SERVER/utils/logger';
 
-const log = logger('server:prepData');
+const log = logger('server:requestHandler');
 
 export default (routes) => async (req, res) => {
   // extract URL path

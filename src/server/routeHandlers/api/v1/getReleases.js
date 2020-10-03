@@ -1,4 +1,4 @@
-import request from 'request';
+import { teenyRequest as request } from 'teeny-request';
 import {
   DOCKER_API__RELEASES,
 } from 'ROOT/conf.app';
@@ -17,32 +17,28 @@ function formatBytes(a, b){
 }
 
 export default ({ res }) => {
-  request.get(
-    DOCKER_API__RELEASES,
-    { json: true },
-    (err, resp, data) => {
-      if(err) handleError({ res }, resp.statusCode, err);
-      else{
-        const releases = data.results.map(({ full_size, last_updated, name }) => {
-          const date = new Date(last_updated);
-          const dateOpts = ['en-US', {
-            day: '2-digit',
-            hour: '2-digit',
-            minute: '2-digit',
-            month: '2-digit',
-            timeZone: 'America/Los_Angeles',
-            year: 'numeric',
-          }];
-          
-          return {
-            date: date.toLocaleDateString(...dateOpts),
-            name,
-            size: formatBytes(full_size),
-          };
-        });
+  request({ uri: DOCKER_API__RELEASES }, (err, resp, data) => {
+    if(err) handleError({ res }, resp.statusCode, err);
+    else{
+      const releases = data.results.map(({ full_size, last_updated, name }) => {
+        const date = new Date(last_updated);
+        const dateOpts = ['en-US', {
+          day: '2-digit',
+          hour: '2-digit',
+          minute: '2-digit',
+          month: '2-digit',
+          timeZone: 'America/Los_Angeles',
+          year: 'numeric',
+        }];
         
-        jsonResp(res, releases);
-      }
+        return {
+          date: date.toLocaleDateString(...dateOpts),
+          name,
+          size: formatBytes(full_size),
+        };
+      });
+      
+      jsonResp(res, releases);
     }
-  );
+  });
 };

@@ -3,7 +3,6 @@ import {
   DEFAULT_CTA,
   VALID_CTA,
 } from 'COMPONENTS/globalStyles';
-import { ROOT_CLASS as ITEM_ROOT_CLASS } from './components/ConfigItem/styles';
 
 export const MODIFIER__READ_ONLY = 'is--read-only';
 export const MODIFIER__REQUIRED = 'is--required';
@@ -55,19 +54,6 @@ export default css`
       &:not(:disabled) {
         ${ VALID_CTA }
       }
-    }
-  }
-  
-  .${ ITEM_ROOT_CLASS } {
-    
-    &[data-remaining-time]::after {
-      content: "~ " attr(data-remaining-time) " Hours Remaining on JWT";
-      font-family: monospace;
-      text-align: right;
-      flex: 0 1 100%;
-      padding: 0.25em;
-      display: block;
-      opacity: 0.5;
     }
   }
 `;

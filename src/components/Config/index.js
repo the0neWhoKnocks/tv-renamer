@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { bool, func, number, string } from 'prop-types';
+import React, { Component } from 'react';
+import { bool, func, string } from 'prop-types';
 import ConfigItem, {
   ROOT_CLASS as ITEM_ROOT_CLASS,
 } from './components/ConfigItem';
@@ -8,13 +8,9 @@ import {
   API__CONFIG_SAVE,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
-import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
   ROOT_CLASS,
 } from './styles';
-
-const formatTime = (timestamp) => new Date(timestamp)
-  .toLocaleString('en-US', { timeZone: 'America/Los_Angeles' });
 
 const IS_FIREFOX = window.navigator.userAgent.includes('Firefox/');
 const READ_ONLY = (IS_FIREFOX) ? '-moz-read-only' : 'read-only';
@@ -106,14 +102,10 @@ class Config extends Component {
   
   render() {
     const {
-      apiKey,
+      tmdbAPIKey,
       hideCloseBtn,
-      jwt,
-      jwtDate,
       outputFolder,
       sourceFolder,
-      userKey,
-      userName,
     } = this.props;
     const {
       closeDisabled,
@@ -127,48 +119,20 @@ class Config extends Component {
       >
         <div className={`${ ROOT_CLASS }__body`}>
           <section>
-            <h2>TVDB</h2>
-            {!apiKey && (
+            <h2>TMDB</h2>
+            {!tmdbAPIKey && (
               <div className={`${ ROOT_CLASS }__msg is--error`}>
-                No credentials for theTVDB have been found. You&apos;ll need to
-                obtain the below info from your TVDB account.
+                No credentials for TMDB have been found. You&apos;ll need to
+                obtain the below info from your TMDB account.
               </div>
             )}
             <ConfigItem
               label="API Key"
-              name="apiKey"
+              name="tmdbAPIKey"
               onChange={this.handleValueChange}
               required
-              value={apiKey}
+              value={tmdbAPIKey}
             />
-            <ConfigItem
-              label="User Key"
-              name="userKey"
-              onChange={this.handleValueChange}
-              required
-              value={userKey}
-            />
-            <ConfigItem
-              label="User Name"
-              name="userName"
-              onChange={this.handleValueChange}
-              required
-              value={userName}
-            />
-            {jwt && (
-              <Fragment>
-                <ConfigItem label="JWT" name="jwt" value={jwt} readOnly />
-                <ConfigItem
-                  data={{
-                    'remaining-time': getRemainingJWTTime(jwtDate),
-                  }}
-                  label="JWT Time"
-                  name="jwtDate"
-                  value={ formatTime(jwtDate) }
-                  readOnly
-                />
-              </Fragment>
-            )}
           </section>
           <section>
             <h2>Folders</h2>
@@ -208,16 +172,12 @@ class Config extends Component {
 }
 
 Config.propTypes = {
-  apiKey: string,
   hideCloseBtn: bool,
-  jwt: string,
-  jwtDate: number,
   onClose: func,
   onSaveComplete: func,
   outputFolder: string,
   sourceFolder: string,
-  userKey: string,
-  userName: string,
+  tmdbAPIKey: string,
 };
 
 export default Config;

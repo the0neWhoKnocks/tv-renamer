@@ -1,0 +1,19 @@
+{
+  "dvdSeasons": {},
+  "id": 81239,
+  "name": "I Am the Night",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Pilot",
+        "Phenomenon of Interference",
+        "Dark Flower",
+        "Matador",
+        "Aloha",
+        "Queen's Gambit, Accepted"
+      ]
+    }
+  },
+  "cacheKey": "i_am_the_night"
+}

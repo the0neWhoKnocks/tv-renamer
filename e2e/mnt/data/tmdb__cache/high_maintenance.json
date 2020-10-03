@@ -1,0 +1,37 @@
+{
+  "dvdSeasons": {},
+  "id": 106014,
+  "name": "High Maintenance",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Stevie",
+        "Heidi",
+        "Jamie",
+        "Trixie",
+        "Olivia",
+        "Helen",
+        "Dinah",
+        "Jonathan",
+        "Elijah",
+        "Brad Pitts",
+        "Qasim",
+        "Matilda",
+        "Rachel"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Ruth",
+        "Geiger",
+        "Genghis",
+        "Sufjan",
+        "Esme",
+        "Sabrina"
+      ]
+    }
+  },
+  "cacheKey": "high_maintenance"
+}

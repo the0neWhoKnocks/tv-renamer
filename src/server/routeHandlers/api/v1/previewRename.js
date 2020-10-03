@@ -1,7 +1,7 @@
 import {
   PUBLIC_SERIES_ID_CACHE_MAP,
-  TVDB_SERIES_URL,
-  TVDB__TOKEN__SERIES_SLUG,
+  TMDB__TOKEN__SERIES_ID,
+  TMDB__URL__SERIES,
 } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
@@ -10,8 +10,8 @@ import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
 import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
-import lookUpSeries from './utils/lookUpSeries';
 import sanitizeName from './utils/sanitizeName';
+import lookUpSeries from './utils/tmdb/lookUpSeries';
 
 const log = logger('server:previewRename');
 
@@ -58,11 +58,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
   
   // build out a look-up table that's easier to reference
   cacheData.forEach((cacheItem) => {
-    if(cacheItem.error && cacheItem.matches){
-      const item = cacheItem.matches[0];
-      _cacheData[cacheItem.index] = item;
-    }
-    else if(cacheItem.error && cacheItem.index){
+    if(cacheItem.error && cacheItem.index){
       _errors[cacheItem.index] = cacheItem.error;
     }
     else if(cacheItem.index){
@@ -79,8 +75,8 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
       let seriesURL;
       let cachedSeasons;
       
-      if(cache && cache.slug){
-        seriesURL = TVDB_SERIES_URL.replace(TVDB__TOKEN__SERIES_SLUG, cache.slug);
+      if(cache && cache.id){
+        seriesURL = TMDB__URL__SERIES.replace(TMDB__TOKEN__SERIES_ID, cache.id);
       }
       
       if(cache) cachedSeasons = useDVDOrder ? cache.dvdSeasons : cache.seasons;
@@ -104,6 +100,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           index,
           name: sanitizeName(newName),
           seriesName: cache.name,
+          seriesURL,
         });
       }
       // could be a possible series mis-match or missing cache data
@@ -166,35 +163,51 @@ export default ({ reqData, res }) => {
   const startPreview = (idMap) => {
     // remove duplicates for the series request
     const uniqueNames = [];
-    const cachedItems = [];
+    const pendingCacheLookups = [];
     let updatingCache = false;
+    
     for(let i=0; i<names.length; i++){
-      const nameData = names[i] || {};
-      const index = nameData.index;
-      const name = nameData.name;
-      const tvdbId = nameData.id;
-      const updateCache = nameData.updateCache;
+      const { id: seriesID, nameWithYear, updateCache } = names[i] || {};
       
       if(updateCache) updatingCache = true;
       
-      if(name && !uniqueNames.includes(name)) {
-        uniqueNames.push({ id: tvdbId, index, name });
+      if(nameWithYear && !uniqueNames.includes(nameWithYear)) {
+        uniqueNames.push(nameWithYear);
         
         if(!updateCache){
-          cachedItems.push(loadCacheItem({ cacheKey: idMap[tvdbId], index, name }));
+          pendingCacheLookups.push(loadCacheItem({ cacheKey: idMap[seriesID], name: nameWithYear }));
         }
       }
     }
     
-    Promise.all(cachedItems)
-      .then((_cachedItems) => {
+    Promise.all(pendingCacheLookups)
+      .then((cachedItems) => {
+        const cacheMap = cachedItems.reduce((obj, { name, ...cacheItem }) => {
+          obj[name] = cacheItem;
+          return obj;
+        }, {});
+        const _cachedItems = [];
+        const requestedNames = [];
+        
+        for(let i=0; i<names.length; i++){
+          const { id: seriesID, index, name, nameWithYear, updateCache, year } = names[i] || {};
+          requestedNames.push({ id: seriesID, index, name, year });
+          if(!updateCache) _cachedItems.push({ ...cacheMap[nameWithYear], index });
+        }
+        
+        return {
+          cachedItems: _cachedItems,
+          requestedNames,
+        };
+      })
+      .then(({ cachedItems, requestedNames }) => {
         // If all series' are already cached, don't bother loading config, or
         // doing any series look-ups, jump right to renaming.
         const cache = {};
-        let allCached = !!_cachedItems.length;
+        let allCached = !!cachedItems.length;
         
-        for(let i=0; i<_cachedItems.length; i++){
-          const { cacheKey, file } = _cachedItems[i];
+        for(let i=0; i<cachedItems.length; i++){
+          const { cacheKey, file } = cachedItems[i];
           if(!file) allCached = false;
           cache[cacheKey] = file;
         }
@@ -204,7 +217,7 @@ export default ({ reqData, res }) => {
           jsonResp(
             res,
             getEpNamesFromCache({
-              cacheData: _cachedItems.map(({ file, index }) => ({
+              cacheData: cachedItems.map(({ file, index }) => ({
                 cache: file,
                 index,
               })),
@@ -219,17 +232,23 @@ export default ({ reqData, res }) => {
             : 'Not all items were cached, proceed to look-ups'
           );
           
-          loadConfig(({ jwt }) => {
-            if(!jwt){
-              handleError({ res }, 500, 'No `jwt` found. Unable to make requests to TVDB');
+          loadConfig(({ tmdbAPIKey: apiKey }) => {
+            if(!apiKey){
+              handleError({ res }, 500, 'No API key found. Unable to make requests to TMDB.\nGo to the Config menu and verify the required credentials are present.');
             }
             else{
-              const pendingSeriesData = uniqueNames.map(
-                ({ id, index, name }, ndx) => lookUpSeries({
+              const recentlyCached = [];
+              const pendingSeriesData = requestedNames.map(
+                ({ id, index, name, year }, ndx) => lookUpSeries({
+                  apiKey,
                   cache, 
-                  cacheKey: (_cachedItems[ndx]) ? _cachedItems[ndx].cacheKey : undefined, 
-                  id, index, jwt, res,
+                  cacheKey: (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined, 
+                  id,
+                  index,
+                  recentlyCached,
+                  res,
                   seriesName: name,
+                  seriesYear: year,
                 })
               );
               

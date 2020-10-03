@@ -1,0 +1,23 @@
+{
+  "dvdSeasons": {},
+  "id": 75663,
+  "name": "Deadly Class",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Pilot",
+        "Noise, Noise, Noise",
+        "Snake Pit",
+        "Mirror People",
+        "Saudade",
+        "Stigmata Martyr",
+        "Rise Above",
+        "The Clampdown",
+        "Kids of the Black Hole",
+        "Sink With California"
+      ]
+    }
+  },
+  "cacheKey": "deadly_class"
+}

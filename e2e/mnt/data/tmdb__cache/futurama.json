@@ -1,0 +1,353 @@
+{
+  "dvdSeasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Space Pilot 3000",
+        "The Series Has Landed",
+        "I, Roommate",
+        "Love's Labours Lost in Space",
+        "Fear of a Bot Planet",
+        "A Fishful of Dollars",
+        "My Three Suns",
+        "A Big Piece of Garbage",
+        "Hell Is Other Robots",
+        "A Flight to Remember",
+        "Mars University",
+        "When Aliens Attack",
+        "Fry & the Slurm Factory"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "I Second That Emotion",
+        "Brannigan, Begin Again",
+        "A Head in the Polls",
+        "Xmas Story",
+        "Why Must I Be a Crustacean in Love",
+        "Lesser of Two Evils",
+        "Put Your Head on My Shoulders",
+        "Raging Bender",
+        "A Bicyclops Built For Two",
+        "A Clone of My Own",
+        "How Hermes Requisitioned His Groove Back",
+        "The Deep South",
+        "Bender Gets Made",
+        "Mother's Day",
+        "The Problem with Popplers",
+        "Anthology of Interest I",
+        "War Is the H-Word",
+        "The Honking",
+        "The Cryonic Woman"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "Amazon Women in the Mood",
+        "Parasites Lost",
+        "A Tale of Two Santas",
+        "The Luck of the Fryrish",
+        "The Birdbot of Ice-Catraz",
+        "Bendless Love",
+        "The Day the Earth Stood Stupid",
+        "That's Lobstertainment!",
+        "The Cyber House Rules",
+        "Where the Buggalo Roam",
+        "Insane in the Mainframe",
+        "The Route of All Evil",
+        "Bendin' in the Wind",
+        "Time Keeps On Slippin'",
+        "I Dated a Robot",
+        "A Leela of Her Own",
+        "A Pharaoh to Remember",
+        "Anthology of Interest II",
+        "Roswell That Ends Well",
+        "Godfellas",
+        "Future Stock",
+        "30% Iron Chef"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "Kif Gets Knocked Up A Notch",
+        "Leela's Homeworld",
+        "Love and Rocket",
+        "Less Than Hero",
+        "A Taste of Freedom",
+        "Bender Should Not Be Allowed On TV",
+        "Jurassic Bark",
+        "Crimes of the Hot",
+        "Teenage Mutant Leela's Hurdles",
+        "The Why of Fry",
+        "Where No Fan Has Gone Before",
+        "The Sting",
+        "Bend Her",
+        "Obsoletely Fabulous",
+        "The Farnsworth Parabox",
+        "Three Hundred Big Boys",
+        "Spanish Fry",
+        "The Devil's Hands Are Idle Playthings"
+      ]
+    },
+    "5": {
+      "episodes": [
+        null,
+        "Rebirth",
+        "In-A-Gadda-Da-Leela",
+        "Attack of the Killer App",
+        "Proposition Infinity",
+        "The Duh-Vinci Code",
+        "Lethal Inspection",
+        "The Late Philip J. Fry",
+        "That Darn Katz!",
+        "A Clockwork Origin",
+        "The Prisoner of Benda",
+        "Lrrreconcilable Ndndifferences",
+        "The Mutants Are Revolting",
+        "The Futurama Holiday Spectacular"
+      ]
+    },
+    "6": {
+      "episodes": [
+        null,
+        "The Silence of the Clamps",
+        "Mobius Dick",
+        "Law and Oracle",
+        "Benderama",
+        "The Tip of the Zoidberg",
+        "Ghost in the Machines",
+        "Neutopia",
+        "Yo Leela Leela",
+        "Fry Am the Egg Man",
+        "All the Presidents' Heads",
+        "Cold Warriors",
+        "Overclockwise",
+        "Reincarnation"
+      ]
+    },
+    "7": {
+      "episodes": [
+        null,
+        "The Bots and the Bees",
+        "A Farewell to Arms",
+        "Decision 3012",
+        "The Thief of Baghead",
+        "Zapp Dingbat",
+        "The Butterjunk Effect",
+        "The Six Million Dollar Mon",
+        "Fun on a Bun",
+        "Free Will Hunting",
+        "Near-Death Wish",
+        "Viva Mars Vegas",
+        "31st Century Fox",
+        "Naturama"
+      ]
+    },
+    "8": {
+      "episodes": [
+        null,
+        "Forty Percent Leadbelly",
+        "2-D Blacktop",
+        "T.- The Terrestrial",
+        "Fry and Leela's Big Fling",
+        "The Inhuman Torch",
+        "Saturday Morning Fun Pit",
+        "Calculon 2.0",
+        "Assie Come Home",
+        "Leela and the Genestalk",
+        "Game of Tones",
+        "Murder on the Planet Express",
+        "Stench and Stenchibility",
+        "Meanwhile"
+      ]
+    },
+    "9": {
+      "episodes": [
+        null,
+        "Bender's Big Score",
+        "The Beast with a Billion Backs",
+        "The Lost Adventure",
+        "Bender's Game",
+        "Into the Wild Green Yonder"
+      ]
+    }
+  },
+  "id": 615,
+  "name": "Futurama",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Bender's Big Score",
+        "The Beast with a Billion Backs",
+        "The Lost Adventure",
+        "Everybody Loves Hypnotoad",
+        "Bender's Game",
+        "Into the Wild Green Yonder"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Space Pilot 3000",
+        "The Series Has Landed",
+        "I, Roommate",
+        "Love's Labours Lost in Space",
+        "Fear of a Bot Planet",
+        "A Fishful of Dollars",
+        "My Three Suns",
+        "A Big Piece of Garbage",
+        "Hell Is Other Robots"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "A Flight to Remember",
+        "Mars University",
+        "When Aliens Attack",
+        "Fry & the Slurm Factory",
+        "I Second That Emotion",
+        "Brannigan, Begin Again",
+        "A Head in the Polls",
+        "Xmas Story",
+        "Why Must I Be a Crustacean in Love",
+        "Put Your Head on My Shoulders",
+        "Lesser of Two Evils",
+        "Raging Bender",
+        "A Bicyclops Built For Two",
+        "How Hermes Requisitioned His Groove Back",
+        "A Clone of My Own",
+        "The Deep South",
+        "Bender Gets Made",
+        "The Problem with Popplers",
+        "Mother's Day",
+        "Anthology of Interest I"
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        "The Honking",
+        "War Is the H-Word",
+        "The Cryonic Woman",
+        "Parasites Lost",
+        "Amazon Women in the Mood",
+        "Bendless Love",
+        "The Day the Earth Stood Stupid",
+        "That's Lobstertainment!",
+        "The Birdbot of Ice-Catraz",
+        "The Luck of the Fryrish",
+        "The Cyber House Rules",
+        "Insane in the Mainframe",
+        "Bendin' in the Wind",
+        "Time Keeps On Slippin'",
+        "I Dated a Robot"
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        "Roswell That Ends Well",
+        "A Tale of Two Santas",
+        "Anthology of Interest II",
+        "Love and Rocket",
+        "Leela's Homeworld",
+        "Where the Buggalo Roam",
+        "A Pharaoh to Remember",
+        "Godfellas",
+        "Future Stock",
+        "A Leela of Her Own",
+        "30% Iron Chef",
+        "Where No Fan Has Gone Before"
+      ]
+    },
+    "5": {
+      "episodes": [
+        null,
+        "Crimes of the Hot",
+        "Jurassic Bark",
+        "The Route of All Evil",
+        "A Taste of Freedom",
+        "Kif Gets Knocked Up A Notch",
+        "Less Than Hero",
+        "Teenage Mutant Leela's Hurdles",
+        "The Why of Fry",
+        "The Sting",
+        "The Farnsworth Parabox",
+        "Three Hundred Big Boys",
+        "Spanish Fry",
+        "Bend Her",
+        "Obsoletely Fabulous",
+        "Bender Should Not Be Allowed On TV",
+        "The Devil's Hands Are Idle Playthings"
+      ]
+    },
+    "6": {
+      "episodes": [
+        null,
+        "Rebirth",
+        "In-A-Gadda-Da-Leela",
+        "Attack of the Killer App",
+        "Proposition Infinity",
+        "The Duh-Vinci Code",
+        "Lethal Inspection",
+        "The Late Philip J. Fry",
+        "That Darn Katz!",
+        "A Clockwork Origin",
+        "The Prisoner of Benda",
+        "Lrrreconcilable Ndndifferences",
+        "The Mutants Are Revolting",
+        "The Futurama Holiday Spectacular",
+        "Neutopia",
+        "Benderama",
+        "Ghost in the Machines",
+        "Law and Oracle",
+        "The Silence of the Clamps",
+        "Yo Leela Leela",
+        "All the Presidents' Heads",
+        "Mobius Dick",
+        "Fry Am the Egg Man",
+        "The Tip of the Zoidberg",
+        "Cold Warriors",
+        "Overclockwise",
+        "Reincarnation"
+      ]
+    },
+    "7": {
+      "episodes": [
+        null,
+        "The Bots and the Bees",
+        "A Farewell to Arms",
+        "Decision 3012",
+        "The Thief of Baghead",
+        "Zapp Dingbat",
+        "The Butterjunk Effect",
+        "The Six Million Dollar Mon",
+        "Fun on a Bun",
+        "Free Will Hunting",
+        "Near-Death Wish",
+        "Viva Mars Vegas",
+        "31st Century Fox",
+        "Naturama",
+        "2-D Blacktop",
+        "Fry and Leela's Big Fling",
+        "T.- The Terrestrial",
+        "Forty Percent Leadbelly",
+        "The Inhuman Torch",
+        "Saturday Morning Fun Pit",
+        "Calculon 2.0",
+        "Assie Come Home",
+        "Leela and the Genestalk",
+        "Game of Tones",
+        "Murder on the Planet Express",
+        "Stench and Stenchibility",
+        "Meanwhile"
+      ]
+    }
+  },
+  "cacheKey": "futurama"
+}

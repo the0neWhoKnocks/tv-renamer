@@ -1,0 +1,23 @@
+{
+  "dvdSeasons": {},
+  "id": 84231,
+  "name": "Wayne",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "CHAPTER ONE- 'GET SOME THEN'",
+        "CHAPTER TWO- 'NO PRIESTS'",
+        "CHAPTER THREE- 'THE GODDAMNED BEACON OF TRUTH'",
+        "CHAPTER FOUR- 'FIND SOMETHING BLACK TO WEAR'",
+        "CHAPTER FIVE- 'DEL'",
+        "CHAPTER SIX- 'WHO EVEN ARE WE NOW'",
+        "CHAPTER SEVEN- 'IT'LL LAST FOREVER'",
+        "CHAPTER EIGHT- 'MUSTA BURNED LIKE HELL'",
+        "CHAPTER NINE- 'THOUGHT WE WAS FRIENDS'",
+        "CHAPTER TEN- 'BUCKLE THE FK UP'"
+      ]
+    }
+  },
+  "cacheKey": "wayne"
+}

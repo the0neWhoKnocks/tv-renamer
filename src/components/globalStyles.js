@@ -14,3 +14,4 @@ export const VALID_CTA = `
   border-color: currentColor;
   background: linear-gradient(#f5f5f5,#9cf3db);
 `;
+export const MQ__MOBILE = '@media (max-width: 730px)';

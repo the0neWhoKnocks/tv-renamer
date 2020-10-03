@@ -1,0 +1,34 @@
+{
+  "dvdSeasons": {},
+  "id": 83251,
+  "name": "Dirty John",
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        "Approachable Dreams",
+        "Red Flags and Parades",
+        "Remember It Was Me",
+        "Shrapnel",
+        "Lord High Executioner",
+        "One Shoe",
+        "Chivalry",
+        "This Young Woman Fought Like Hell"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "No Fault",
+        "The Turtle and the Alligator",
+        "Marriage Encounter",
+        "More to It Than Fun",
+        "Scream Therapy",
+        "The Twelfth of Never",
+        "The Shillelagh",
+        "Perception is Reality"
+      ]
+    }
+  },
+  "cacheKey": "dirty_john"
+}

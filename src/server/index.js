@@ -7,12 +7,12 @@ import {
   API__FILES_LIST,
   API__FOLDER_LIST,
   API__IDS,
-  API__JWT,
   API__LOGS,
   API__PREVIEW_RENAME,
   API__RELEASES,
   API__RENAME,
   API__REPLACE,
+  API__SERIES_MATCHES,
 } from 'ROOT/conf.app';
 import jsonResp from 'SERVER/utils/jsonResp';
 import prepData from './prepData';
@@ -25,9 +25,9 @@ import getFilesList from './routeHandlers/api/v1/getFilesList';
 import getIDs from './routeHandlers/api/v1/getIDs';
 import getLogs from './routeHandlers/api/v1/getLogs';
 import getReleases from './routeHandlers/api/v1/getReleases';
+import getSeriesMatches from './routeHandlers/api/v1/getSeriesMatches';
 import previewRename from './routeHandlers/api/v1/previewRename';
 import renameFiles from './routeHandlers/api/v1/renameFiles';
-import setJWT from './routeHandlers/api/v1/setJWT';
 import updateConfig from './routeHandlers/api/v1/updateConfig';
 import handleError from './routeHandlers/error';
 import handleRootRequest from './routeHandlers/root';
@@ -44,11 +44,14 @@ const inspectMiddleware = [];
 if( process.env.DEBUG ){
   // https://nodejs.org/api/inspector.html
   const inspector = require('inspector');
+  inspector.open();
+  
   inspectMiddleware.push(
     ['/json', ({ reqData, res }) => {
-      // open, close, url, Session
-      inspector.open();
       res.end();
+    }, null, false],
+    ['/json/list', ({ reqData, res }) => {
+      jsonResp(res, { data: inspector.url() });
     }, null, false],
     ['/json/version', ({ res }) => {
       jsonResp(res, {
@@ -72,12 +75,12 @@ http
     [API__FILES_LIST, getFilesList],
     [API__FOLDER_LIST, getFolderListing],
     [API__IDS, getIDs],
-    [API__JWT, setJWT],
     [API__LOGS, getLogs],
     [API__PREVIEW_RENAME, previewRename],
     [API__RELEASES, getReleases],
     [API__RENAME, renameFiles],
     [API__REPLACE, changeFileNames],
+    [API__SERIES_MATCHES, getSeriesMatches],
     [/\.[a-z]{2,4}/, handleStaticFile],
     ['*', handleError, [404, 'Page Not Found']],
   ]))

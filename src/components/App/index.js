@@ -16,13 +16,11 @@ import {
   API__CONFIG,
   API__FILES_LIST,
   API__IDS,
-  API__JWT,
   API__LOGS,
   API__PREVIEW_RENAME,
   API__RENAME,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
-import getRemainingJWTTime from 'UTILS/getRemainingJWTTime';
 import styles, {
   MODIFIER__HAS_ITEMS,
   MODIFIER__INDICATOR,
@@ -33,7 +31,7 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9,'.!\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
+export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9,'.!\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\.|\s)?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
 // name.s01e01-s01e02.ext
 // name.s01e01e02.ext
 // name.s01e01-episode1.title-s01e02-episode2.title.ext
@@ -55,7 +53,10 @@ class App extends Component {
       .trim();
     const seriesYear = (year && +year) ? ` ${ year }` : '';
     
-    return `${ parsedName }${ seriesYear }`;
+    return {
+      name: parsedName,
+      nameWithYear: `${ parsedName }${ seriesYear }`,
+    };
   }
   
   static renamableFilter({ error, index, selected, skipped }) {
@@ -83,7 +84,9 @@ class App extends Component {
     const nameMatch = name.match(NAME_REGEX) || [];
     
     if(nameMatch[1]){
-      data.lookupName = App.parseLookupName(nameMatch[1], nameMatch[2]);
+      const lookupNames = App.parseLookupName(nameMatch[1], nameMatch[2]);
+      data.lookupName = lookupNames.nameWithYear;
+      data.lookupNameWithoutYear = lookupNames.name;
       
       if(idMappings[data.lookupName]){
         data.idOverride = +idMappings[data.lookupName];
@@ -190,9 +193,11 @@ class App extends Component {
     };
     
     this.comps = {};
+    this.modalCloseFuncs = {};
     
     this.logEndRef = React.createRef();
     
+    this.createModalCloseHandler = this.createModalCloseHandler.bind(this);
     this.handleAllFoldersClick = this.handleAllFoldersClick.bind(this);
     this.handleAssignIdSuccess = this.handleAssignIdSuccess.bind(this);
     this.handleCacheUpdateClick = this.handleCacheUpdateClick.bind(this);
@@ -205,7 +210,6 @@ class App extends Component {
     this.handleIdOverrideClick = this.handleIdOverrideClick.bind(this);
     this.handleLogsToggle = this.handleLogsToggle.bind(this);
     this.handleLookupNameChange = this.handleLookupNameChange.bind(this);
-    this.handleModalClose = this.handleModalClose.bind(this);
     this.handleOpenConfig = this.handleOpenConfig.bind(this);
     this.handlePreviewRename = this.handlePreviewRename.bind(this);
     this.handleRename = this.handleRename.bind(this);
@@ -215,6 +219,12 @@ class App extends Component {
   
   componentDidMount() {
     this.checkCredentials();
+    
+    this.createModalCloseHandler('showAssignId');
+    this.createModalCloseHandler('showConfig');
+    this.createModalCloseHandler('showDeleteConfirmation');
+    this.createModalCloseHandler('showVersion');
+    this.createModalCloseHandler('showReplace');
     
     setTimeout(() => {
       this.setState({ visible: true });
@@ -230,9 +240,9 @@ class App extends Component {
       // user just configured settings, so make initial files list call
       if(
         prevState.config
-        && !prevState.config.jwt
+        && !prevState.config.tmdbAPIKey
         && this.state.config
-        && this.state.config.jwt
+        && this.state.config.tmdbAPIKey
       ){
         this.getFilesList();
       }
@@ -275,15 +285,20 @@ class App extends Component {
     
     if(isNaN(nameData.id)) delete nameData.id;
     
-    return (matches)
-      ? {
+    if(matches){
+      const lookupName = matches[1] && App.parseLookupName(matches[1], matches[2]);
+      
+      return {
         ...nameData,
+        ...lookupName,
         episode: matches[4] && +matches[4],
         episodes: episodes,
-        name: matches[1] && App.parseLookupName(matches[1], matches[2]),
         season: matches[3] && +matches[3],
-      }
-      : nameData;
+        year: matches[2],
+      };
+    }
+    
+    return nameData;
   }
   
   checkCredentials() {
@@ -300,9 +315,8 @@ class App extends Component {
         
         this.setState(state, () => {
           if(!state.showConfig){
-            this.checkJWT()
-              .then(() => { this.getIDs(); })
-              .then(() => { this.getFilesList(); });
+            this.getIDs(); 
+            this.getFilesList();
           }
         });
       })
@@ -310,27 +324,6 @@ class App extends Component {
         console.error(err);
         alert(err);
       });
-  }
-  
-  checkJWT() {
-    return new Promise((resolve, reject) => {
-      if(
-        // JWT doesn't exist
-        !this.state.config.jwt
-        // OR - there's a JWT, but it's older than 24 hours (or about to expire)
-        || (
-          this.state.config.jwt
-          && getRemainingJWTTime(this.state.config.jwtDate) <= 1
-        )
-      ) {
-        this.setJWT()
-          .then(() => { resolve(); })
-          .catch((err) => { reject(err); });
-      }
-      else{
-        resolve();
-      }
-    });
   }
   
   checkLogs() {
@@ -390,26 +383,6 @@ class App extends Component {
     });
   }
   
-  setJWT() {
-    const { apiKey, userKey, userName } = this.state.config;
-    
-    return fetch(API__JWT, {
-      method: 'POST',
-      body: JSON.stringify({
-        apiKey,
-        userKey,
-        userName,
-      }),
-    })
-      .then((config) => {
-        this.setState({ config });
-      })
-      .catch((err) => {
-        alert(err);
-        console.error(err);
-      });
-  }
-  
   handleAllFoldersClick(ev) {
     const files = this.state.files.map((file, ndx) => {
       return { ...file, folderSelected: true };
@@ -425,11 +398,18 @@ class App extends Component {
         if(
           _lookupName === lookupName
           && (
-            // A best-guess id is assigned on Preview, so that can be used if a User
-            // confirmed the id. If a new id was assigned, map against the old 
-            // best-guess id and the newly assigned one.
-            (id === originalId && _id === id)
-            || _id === originalId
+            (
+              // A best-guess id is assigned on Preview, so that can be used if a User
+              // confirmed the id. If a new id was assigned, map against the old 
+              // best-guess id and the newly assigned one.
+              (id === originalId && _id === id)
+              || _id === originalId
+            )
+            || (
+              // In scenarios where nothing could be determined, but a User has assigned an ID
+              id !== undefined
+              && originalId === 0
+            )
           )
         ) {
           const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name .${ RENAMABLE_ROOT_CLASS }__ce-fix[data-index="${ ndx }"]`);
@@ -443,10 +423,11 @@ class App extends Component {
       }, []);
     
     // Request new preview for files with matching id
-    this.previewRename(newlyAssigned, (_previewItems) => {
-      this.setState({
-        idMappings: App.transformIdMappings(idMappings),
-        showAssignId: false,
+    this.setState({
+      idMappings: App.transformIdMappings(idMappings),
+    }, () => {
+      this.previewRename(newlyAssigned, (_previewItems) => {
+        this.setState({ showAssignId: false });
       });
     });
   }
@@ -586,8 +567,8 @@ class App extends Component {
     this.setState({ files });
   }
   
-  handleModalClose(stateProp) {
-    return () => {
+  createModalCloseHandler(stateProp) {
+    if(!this.modalCloseFuncs[stateProp]) this.modalCloseFuncs[stateProp] = () => {
       this.setState({ [stateProp]: false });
     };
   }
@@ -691,8 +672,8 @@ class App extends Component {
         });
       })
       .catch((err) => {
+        this.resetIndicatorOnError();
         alert(err);
-        this.setState({ renameRequested: false });
       });
   }
   
@@ -719,6 +700,17 @@ class App extends Component {
   
   handleVersionClick() {
     this.setState({ showVersion: true });
+  }
+  
+  resetIndicatorOnError() {
+    window.clearTimeout(this.previewRequestTimer);
+    const newState = {};
+    
+    if(this.state.dvdPreviewRequested) newState.dvdPreviewRequested = false;
+    else if(this.state.previewRequested) newState.previewRequested = false;
+    else if(this.state.renameRequested) newState.renameRequested = false;
+    
+    if(Object.keys(newState).length) this.setState(newState);
   }
   
   previewRename(names, cb, useDVDOrder) {
@@ -785,11 +777,8 @@ class App extends Component {
         });
       })
       .catch((err) => {
+        this.resetIndicatorOnError();
         alert(err);
-        this.setState({
-          dvdPreviewRequested: false,
-          previewRequested: false,
-        });
       });
   }
   
@@ -833,18 +822,18 @@ class App extends Component {
     const deleteProps = {
       filePath: deletionPath,
       index: deletionIndex,
-      onClose: this.handleModalClose('showDeleteConfirmation'),
+      onClose: this.modalCloseFuncs.showDeleteConfirmation,
       onDeleteSuccess: this.handleFileDeletion,
     };
     const versionProps = {
-      onClose: this.handleModalClose('showVersion'),
+      onClose: this.modalCloseFuncs.showVersion,
     };
     const replaceProps = {
       files: searchAndReplaceFiles,
-      onCancel: this.handleModalClose('showReplace'),
+      onCancel: this.modalCloseFuncs.showReplace,
     };
     let configProps = {
-      onClose: this.handleModalClose('showConfig'),
+      onClose: this.modalCloseFuncs.showConfig,
       onSaveComplete: this.handleConfigSave,
     };
     let rootModifier = '';
@@ -1001,7 +990,7 @@ class App extends Component {
         </div>
         
         <Modal
-          onMaskClick={this.handleModalClose('showAssignId')}
+          onMaskClick={this.modalCloseFuncs.showAssignId}
           visible={showAssignId}
         >
           <AssignId {...assignProps} />

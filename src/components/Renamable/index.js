@@ -4,7 +4,7 @@ import SVG, {
   ICON__DELETE,
   ICON__FOLDER,
   ICON__REFRESH,
-  ICON__TVDB,
+  ICON__TMDB,
 } from 'COMPONENTS/SVG';
 import Toggle from 'COMPONENTS/Toggle';
 import styles, {
@@ -99,14 +99,14 @@ class Renamable extends Component {
   handleIdClick(ev) {
     const {
       itemIndex,
-      lookupName,
+      lookupNameWithoutYear,
       onIdClick,
     } = this.props;
     
     onIdClick({
       id: +ev.currentTarget.value,
       index: itemIndex,
-      lookupName,
+      lookupName: lookupNameWithoutYear,
     });
   }
   
@@ -214,18 +214,18 @@ class Renamable extends Component {
     }
     
     const RenamableNav = () => {
-      const tvdbID = id || '';
-      const idBtnLabel = tvdbID || 'Assign';
+      const seriesID = id || '';
+      const idBtnLabel = seriesID || 'Assign';
       
       if(!lookupName) return null;
       
       return (
         <nav className={`${ ROOT_CLASS }__nav`}>
-          <SVG className={`${ ROOT_CLASS }__tvdb-icon`} icon={ICON__TVDB} />
+          <SVG className={`${ ROOT_CLASS }__tmdb-icon`} icon={ICON__TMDB} />
           <button
-            className={`${ ROOT_CLASS }__nav-item`}
+            className={`${ ROOT_CLASS }__nav-item for--series-id`}
             onClick={this.handleIdClick}
-            value={tvdbID}
+            value={seriesID}
           >{idBtnLabel}</button>
           {seriesURL && (
             <a
@@ -240,7 +240,7 @@ class Renamable extends Component {
               <button
                 className={`${ ROOT_CLASS }__nav-item ${ MODIFIER__REFRESH }`}
                 onClick={this.handleUpdateClick}
-                value={tvdbID}
+                value={seriesID}
               >
                 <SVG className={`${ ROOT_CLASS }__btn-icon`} icon={ICON__REFRESH} />
                 Cache
@@ -340,6 +340,7 @@ Renamable.propTypes = {
   idOverride: number,
   itemIndex: number,
   lookupName: string,
+  lookupNameWithoutYear: string,
   name: string,
   newName: string,
   onIdClick: func,

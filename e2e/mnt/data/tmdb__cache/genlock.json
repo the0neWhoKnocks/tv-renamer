@@ -1,0 +1,39 @@
+{
+  "dvdSeasons": {},
+  "id": 86233,
+  "name": "gen:LOCK",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Character Reveal Teaser #2",
+        "Character Reveal Teaser #3",
+        "A First Look",
+        "Character Reveal Teaser #1",
+        "Character Reveal Teaser #4",
+        "Episode One Preview - Buying Time",
+        "Offical Trailer",
+        "Michael B. Jordan on his character Julian Chase",
+        "Exclusive Episode One",
+        "Michael B. Jordan on Anime",
+        "Season 1 Intro",
+        "Michael B. Jordan Answers",
+        "Behind the Scenes"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "The Pilot",
+        "There's Always Tomorrow",
+        "Second Birthday",
+        "Training Daze",
+        "The Best Defense",
+        "The Only Me I Know",
+        "It Never Rains...",
+        "Identity Crisis"
+      ]
+    }
+  },
+  "cacheKey": "genlock"
+}

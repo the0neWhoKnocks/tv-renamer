@@ -1,0 +1,62 @@
+{
+  "dvdSeasons": {},
+  "id": 67075,
+  "name": "Mob Psycho 100",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Mob Psycho Mini 8-bit Shorts 1",
+        "Mob Psycho Mini 8-bit Shorts 2",
+        "Mob Psycho Mini 8-bit Shorts 3",
+        "Mob Psycho Mini 8-bit Shorts 4",
+        "Mob Psycho Mini 8-bit Shorts 5",
+        "Mob Psycho Mini 8-bit Shorts 6",
+        "Mob Psycho 100 Reigen- The Miraculous Unknown Psychic",
+        "Mob Psycho 100 II- The First Spirits and Such Company Trip - A Journey that Mends the Heart and Heals the Soul",
+        "Episode 9",
+        "Episode 10",
+        "Episode 11",
+        "Episode 12",
+        "Episode 13",
+        "Episode 14"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Self-Proclaimed Psychic- Reigen Arataka ~And Mob~",
+        "Doubts About Youth ~The Telepathy Club Appears~",
+        "An Invite to a Meeting ~Simply Put, I Just Want to Be Popular~",
+        "Idiots Only Event ~Kin~",
+        "OCHIMUSHA ~Psychic Powers and Me~",
+        "Discord ~To Become One~",
+        "Exaltation ~I've Obtained Loss~",
+        "The Older Brother Bows ~Destructive Intent~",
+        "Claw ~7th Division~",
+        "The Heinous Aura ~Mastermind~",
+        "Master ~Leader~",
+        "Mob and Reigen ~A Giant Tsuchinoko Appears~"
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        "Ripped Apart ~Someone Is Watching~",
+        "Urban Legends ~Encountering Rumors~",
+        "One Danger After Another ~ Degeneration~",
+        "Inside ~Evil Spirit~",
+        "Discord ~Choices~",
+        "Poor, Lonely, Whitey",
+        "Cornered ~True Identity~",
+        "Even Then ~Continue Forward~",
+        "Show Me What You've Got ~Band Together~",
+        "Collision ~Power Type~",
+        "Guidance ~Psychic Sensor~",
+        "Battle for Social Rehabilitation ~Friendship~",
+        "Boss Fight ~The Final Light~"
+      ]
+    }
+  },
+  "cacheKey": "mob_psycho_100"
+}

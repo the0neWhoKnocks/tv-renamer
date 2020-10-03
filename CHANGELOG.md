@@ -1,6 +1,35 @@
 # Changelog
 ---
 
+## v3.0.0
+
+**Bugfixes**
+- [17be94e](https://github.com/the0neWhoKnocks/tv-renamer/commit/17be94e):  Not all folders are deleted
+- [dfaa6d8](https://github.com/the0neWhoKnocks/tv-renamer/commit/dfaa6d8):  Indicator still visible after error
+- [37c2ad1](https://github.com/the0neWhoKnocks/tv-renamer/commit/37c2ad1):  Multiple re-renders and re-mounts of Modals
+- [384898b](https://github.com/the0neWhoKnocks/tv-renamer/commit/384898b):  Misc. fixes due to TMDB change
+- [9f10517](https://github.com/the0neWhoKnocks/tv-renamer/commit/9f10517):  camelCase throws when malformed Strings are passed
+- [b382e84](https://github.com/the0neWhoKnocks/tv-renamer/commit/b382e84):  JS errors not surfaced in lookUpSeries
+- [70c2eee](https://github.com/the0neWhoKnocks/tv-renamer/commit/70c2eee):  Assigning ID doesn't preview anymore
+
+**Dev-Ops**
+- [43c184a](https://github.com/the0neWhoKnocks/tv-renamer/commit/43c184a):  Have 'inspect' start on Server start
+
+**Features**
+- [823dbd2](https://github.com/the0neWhoKnocks/tv-renamer/commit/823dbd2):  Account for Config changes
+- [df69ba6](https://github.com/the0neWhoKnocks/tv-renamer/commit/df69ba6):  Mini-Series-Search in the Assign ID Modal
+- [a34e890](https://github.com/the0neWhoKnocks/tv-renamer/commit/a34e890):  Replace TVDB API with TMDB
+
+**Misc. Tasks**
+- [1020414](https://github.com/the0neWhoKnocks/tv-renamer/commit/1020414):  Added tests to verify folders are deleted
+- [5b2917c](https://github.com/the0neWhoKnocks/tv-renamer/commit/5b2917c):  Added test for Assign-ID match item click
+- [f2a5b0d](https://github.com/the0neWhoKnocks/tv-renamer/commit/f2a5b0d):  Added test to verify actual API functionality
+- [98637cd](https://github.com/the0neWhoKnocks/tv-renamer/commit/98637cd):  Updated tests to account for TMDB
+- [b358f7b](https://github.com/the0neWhoKnocks/tv-renamer/commit/b358f7b):  Move from 'request' to 'teeny-request'
+- [c44b2f6](https://github.com/the0neWhoKnocks/tv-renamer/commit/c44b2f6):  Share Mobile media query
+
+---
+
 ## v2.11.0
 
 **Bugfixes**

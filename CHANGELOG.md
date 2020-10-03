@@ -1,6 +1,19 @@
 # Changelog
 ---
 
+## v3.0.1
+
+**Bugfixes**
+- [32a8d6e](https://github.com/the0neWhoKnocks/tv-renamer/commit/32a8d6e):  Assign ID Modal errors when Air Date not set
+
+**Dev-Ops**
+- [8897fac](https://github.com/the0neWhoKnocks/tv-renamer/commit/8897fac):  Updated release script
+
+**Uncategorized**
+- [0980893](https://github.com/the0neWhoKnocks/tv-renamer/commit/0980893) Merge pull request #7 from the0neWhoKnocks/feat/tmdb
+
+---
+
 ## v3.0.0
 
 **Bugfixes**

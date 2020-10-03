@@ -240,9 +240,9 @@ class App extends Component {
       // user just configured settings, so make initial files list call
       if(
         prevState.config
-        && !prevState.config.apiKey
+        && !prevState.config.tmdbAPIKey
         && this.state.config
-        && this.state.config.apiKey
+        && this.state.config.tmdbAPIKey
       ){
         this.getFilesList();
       }

@@ -8,7 +8,7 @@ export default function getSeriesMatches({ reqData, res }) {
   const { seriesName: _name } = reqData;
   const name = decodeURIComponent(_name);
   
-  loadConfig(({ apiKey }) => {
+  loadConfig(({ tmdbAPIKey: apiKey }) => {
     getSeriesByName({ apiKey, name })
       .then(({ results: seriesMatches }) => {
         const matches = [];

@@ -232,9 +232,9 @@ export default ({ reqData, res }) => {
             : 'Not all items were cached, proceed to look-ups'
           );
           
-          loadConfig(({ apiKey }) => {
+          loadConfig(({ tmdbAPIKey: apiKey }) => {
             if(!apiKey){
-              handleError({ res }, 500, 'No `apiKey` found. Unable to make requests to TMDB');
+              handleError({ res }, 500, 'No API key found. Unable to make requests to TMDB.\nGo to the Config menu and verify the required credentials are present.');
             }
             else{
               const recentlyCached = [];

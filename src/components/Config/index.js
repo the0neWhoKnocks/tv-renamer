@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import { bool, func, number, string } from 'prop-types';
+import React, { Component } from 'react';
+import { bool, func, string } from 'prop-types';
 import ConfigItem, {
   ROOT_CLASS as ITEM_ROOT_CLASS,
 } from './components/ConfigItem';
@@ -11,9 +11,6 @@ import fetch from 'UTILS/fetch';
 import styles, {
   ROOT_CLASS,
 } from './styles';
-
-const formatTime = (timestamp) => new Date(timestamp)
-  .toLocaleString('en-US', { timeZone: 'America/Los_Angeles' });
 
 const IS_FIREFOX = window.navigator.userAgent.includes('Firefox/');
 const READ_ONLY = (IS_FIREFOX) ? '-moz-read-only' : 'read-only';
@@ -105,12 +102,10 @@ class Config extends Component {
   
   render() {
     const {
-      apiKey,
+      tmdbAPIKey,
       hideCloseBtn,
       outputFolder,
       sourceFolder,
-      userKey,
-      userName,
     } = this.props;
     const {
       closeDisabled,
@@ -125,7 +120,7 @@ class Config extends Component {
         <div className={`${ ROOT_CLASS }__body`}>
           <section>
             <h2>TMDB</h2>
-            {!apiKey && (
+            {!tmdbAPIKey && (
               <div className={`${ ROOT_CLASS }__msg is--error`}>
                 No credentials for TMDB have been found. You&apos;ll need to
                 obtain the below info from your TMDB account.
@@ -133,10 +128,10 @@ class Config extends Component {
             )}
             <ConfigItem
               label="API Key"
-              name="apiKey"
+              name="tmdbAPIKey"
               onChange={this.handleValueChange}
               required
-              value={apiKey}
+              value={tmdbAPIKey}
             />
           </section>
           <section>
@@ -177,14 +172,12 @@ class Config extends Component {
 }
 
 Config.propTypes = {
-  apiKey: string,
   hideCloseBtn: bool,
   onClose: func,
   onSaveComplete: func,
   outputFolder: string,
   sourceFolder: string,
-  userKey: string,
-  userName: string,
+  tmdbAPIKey: string,
 };
 
 export default Config;

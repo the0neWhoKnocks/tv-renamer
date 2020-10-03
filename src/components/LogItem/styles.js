@@ -34,7 +34,6 @@ export default css`
     
     &__deleted {
       line-height: 1.5em;
-      padding-left: 0.5em;
       
       &-icon {
         color: ${ COLOR__SUCCESS };
@@ -42,6 +41,10 @@ export default css`
         padding-right: 0.5em;
         display: inline-block;
         vertical-align: top;
+      }
+      
+      &-path {
+        color: #c3c3c3;
       }
     }
   }

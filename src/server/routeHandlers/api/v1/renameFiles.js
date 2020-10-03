@@ -16,6 +16,8 @@ import sanitizeName from './utils/sanitizeName';
 
 const MAX_LOG_ENTRIES = 200;
 
+const createLog = (data = {}) => ({ ...data, time: Date.now() });
+
 export default ({ reqData, res }) => {
   const names = reqData.names;
   
@@ -25,6 +27,7 @@ export default ({ reqData, res }) => {
       const pendingMoves = [];
       const pendingNames = [];
       const mappedLogs = {};
+      const nestedRoots = new Map();
       
       names.forEach(({ index, moveToFolder, newName, oldPath }) => {
         let _outputFolder = outputFolder;
@@ -62,47 +65,23 @@ export default ({ reqData, res }) => {
               to: `${ _outputFolder }/${ newName }`,
             };
             const cb = async (d, moveErr) => {
-              const log = { ...d, time: Date.now() };
               const rootDir = parse(oldPath).dir;
+              const log = createLog(d);
               
               if(!moveErr) pendingNames.splice(pendingNames.indexOf(d.from), 1);
-              
-              const allDone = (err) => {
-                if(moveErr) log.error = moveErr.message;
-                else if(err) log.error = err.message;
-                newLogs.push(log);
-                mappedLogs[index] = log;
-                
-                resolve();
-              };
               
               if(rootDir !== sourceFolder){
                 // in case files are nested within multiple folders, find the top-most folder in source
                 const nestedRoot = `${ sourceFolder }/${ rootDir.replace(sourceFolder, '').split('/')[1] }`;
-                
-                try {
-                  // only delete the parent folder IF there are no pending renames
-                  if(!pendingNames.length){
-                    const files = await getFiles(nestedRoot, filesFilter);
-                    
-                    // only delete the parent folder IF there are no remaining
-                    // files (which may happen if a User chose to only rename
-                    // one file in folder)
-                    if(!files.length) {
-                      try {
-                        lstatSync(nestedRoot);
-                        rimraf.sync(nestedRoot, { glob: false });
-                        log.deleted = `Deleted folder: "${ nestedRoot }"`;
-                      }
-                      catch(err) { /* no folder, don't care about the error */ }
-                    }
-                  }
-
-                  allDone();
-                }
-                catch(err) { allDone(err); }
+                if(!nestedRoots.has(nestedRoot)) nestedRoots.set(nestedRoot, { path: nestedRoot });
               }
-              else allDone();
+              
+              if(moveErr) log.error = moveErr.message;
+              
+              newLogs.push(log);
+              mappedLogs[index] = log;
+              
+              resolve();
             };
             
             moveFile({
@@ -115,7 +94,33 @@ export default ({ reqData, res }) => {
       });
       
       Promise.all(pendingMoves)
-        .then(() => {
+        .then(async () => {
+          const deletedFolders = [];
+          
+          for(const [, val] of nestedRoots){
+            const { path } = val;
+            const files = await getFiles(path, filesFilter);
+            
+            // only delete the parent folder IF there are no remaining
+            // files (which may happen if a User chose to only rename
+            // one file in folder)
+            if(!files.length) {
+              try {
+                lstatSync(path);
+                rimraf.sync(path, { glob: false });
+                deletedFolders.push(path);
+              }
+              catch(err) { /* no folder, don't care about the error */ }
+            }
+          }
+          
+          if(deletedFolders.length){
+            const lastLog = createLog({ deleted: deletedFolders.sort() });
+            const lastNdx = Object.keys(mappedLogs).reduce((prevNum, currNum) => (+currNum > prevNum) ? +currNum : prevNum, 0) + 1;
+            newLogs.push(lastLog);
+            mappedLogs[lastNdx] = lastLog;
+          }
+          
           return new Promise((resolve, reject) => {
             // trim the logs down before saving the new ones.
             let combinedLogs = [...logs, ...newLogs];

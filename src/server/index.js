@@ -12,6 +12,7 @@ import {
   API__RELEASES,
   API__RENAME,
   API__REPLACE,
+  API__SERIES_MATCHES,
 } from 'ROOT/conf.app';
 import jsonResp from 'SERVER/utils/jsonResp';
 import prepData from './prepData';
@@ -24,6 +25,7 @@ import getFilesList from './routeHandlers/api/v1/getFilesList';
 import getIDs from './routeHandlers/api/v1/getIDs';
 import getLogs from './routeHandlers/api/v1/getLogs';
 import getReleases from './routeHandlers/api/v1/getReleases';
+import getSeriesMatches from './routeHandlers/api/v1/getSeriesMatches';
 import previewRename from './routeHandlers/api/v1/previewRename';
 import renameFiles from './routeHandlers/api/v1/renameFiles';
 import updateConfig from './routeHandlers/api/v1/updateConfig';
@@ -78,6 +80,7 @@ http
     [API__RELEASES, getReleases],
     [API__RENAME, renameFiles],
     [API__REPLACE, changeFileNames],
+    [API__SERIES_MATCHES, getSeriesMatches],
     [/\.[a-z]{2,4}/, handleStaticFile],
     ['*', handleError, [404, 'Page Not Found']],
   ]))

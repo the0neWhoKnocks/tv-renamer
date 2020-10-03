@@ -8,7 +8,7 @@ import transformAPIURL from '../transformAPIURL';
 import tmdbRequestProps from './tmdbRequestProps';
 import tmdbResponseHandler from './tmdbResponseHandler';
 
-export default ({ apiKey, name, year }) => new Promise((resolve, reject) => {
+export default ({ apiKey, name, year = '' } = {}) => new Promise((resolve, reject) => {
   const { params, reqURL } = transformAPIURL(TMDB__API__SERIES_SEARCH, [
     [TMDB__TOKEN__SERIES_QUERY, name],
     [TMDB__TOKEN__SERIES_YEAR, year],

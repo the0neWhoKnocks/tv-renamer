@@ -84,7 +84,9 @@ class App extends Component {
     const nameMatch = name.match(NAME_REGEX) || [];
     
     if(nameMatch[1]){
-      data.lookupName = App.parseLookupName(nameMatch[1], nameMatch[2]).nameWithYear;
+      const lookupNames = App.parseLookupName(nameMatch[1], nameMatch[2]);
+      data.lookupName = lookupNames.nameWithYear;
+      data.lookupNameWithoutYear = lookupNames.name;
       
       if(idMappings[data.lookupName]){
         data.idOverride = +idMappings[data.lookupName];

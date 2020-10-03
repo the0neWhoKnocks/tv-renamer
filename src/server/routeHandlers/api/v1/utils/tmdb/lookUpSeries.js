@@ -87,8 +87,7 @@ export default ({
               }
               
               if(!opts) matchErr = {
-                err: `No exact matches from: ${ JSON.stringify(unmatched) }`,
-                possibleMatches: unmatched,
+                err: 'No exact match found',
                 resp: { statusCode: 404 },
               };
               
@@ -135,7 +134,7 @@ export default ({
             reject(_err.stack);
           }
           else{
-            const { err, possibleMatches, resp } = _err | {};
+            const { err, resp } = _err || {};
             
             let error = timeoutCodeCheck(err)
               ? `Request timed out for series look-up: "${ userSeriesName }"`
@@ -147,7 +146,6 @@ export default ({
             }
             
             const payload = { error, index, name: userSeriesName };
-            if(possibleMatches) payload.matches = possibleMatches;
             resolve(payload);
           }
         });

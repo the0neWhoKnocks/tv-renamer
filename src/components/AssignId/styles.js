@@ -50,6 +50,63 @@ export default css`
       display: block;
     }
     
+    &__matches {
+      max-height: 50vh;
+      overflow-y: auto;
+      background: #333;
+    }
+    
+    &__match {
+      padding: 0.25em;
+      border-radius: 0.25em;
+      margin: 0.5em;
+      background: #fff;
+      display: flex;
+      cursor: pointer;
+      
+      * {
+        pointer-events: none;
+        user-select: none;
+      }
+      
+      &-img {
+        width: 100px;
+        height: 150px;
+        background: #aaa;
+        display: block;
+        flex-shrink: 0;
+      }
+      
+      &-copy {
+        padding-left: 0.5em;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      &-title {
+        font-weight: bold;
+      }
+      
+      &-desc {
+        height: 100%;
+        max-height: 8.6em;
+        font-size: 0.9em;
+        overflow: hidden;
+        margin-top: 0.5em;
+        position: relative;
+        
+        &::after {
+          content: '';
+          height: 2em;
+          background: linear-gradient(transparent, #fff);
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+      }
+    }
+    
     &__nav {
       margin-bottom: 0;
       display: flex;

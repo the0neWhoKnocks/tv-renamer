@@ -58,11 +58,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
   
   // build out a look-up table that's easier to reference
   cacheData.forEach((cacheItem) => {
-    if(cacheItem.error && cacheItem.matches){
-      const item = cacheItem.matches[0];
-      _cacheData[cacheItem.index] = item;
-    }
-    else if(cacheItem.error && cacheItem.index){
+    if(cacheItem.error && cacheItem.index){
       _errors[cacheItem.index] = cacheItem.error;
     }
     else if(cacheItem.index){

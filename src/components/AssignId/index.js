@@ -3,6 +3,7 @@ import { func, number, string } from 'prop-types';
 import Indicator from 'COMPONENTS/Indicator';
 import {
   API__ASSIGN_ID,
+  API__SERIES_MATCHES,
   TMDB__URL__QUERY,
   TMDB__TOKEN__SERIES_QUERY,
 } from 'ROOT/conf.app';
@@ -11,6 +12,8 @@ import styles, {
   MODIFIER__PROCCESSING,
   ROOT_CLASS,
 } from './styles';
+
+const matchCache = {};
 
 class AssignId extends Component {
   static normalizeId(id) {
@@ -29,6 +32,7 @@ class AssignId extends Component {
     this.state = {
       id: this.originalId,
       idChanged: false,
+      matches: [],
       normalizedName: name.toLowerCase(),
       proccessing: false,
       searchURL: AssignId.genSearchURL(name),
@@ -37,6 +41,29 @@ class AssignId extends Component {
     this.handleChoiceClick = this.handleChoiceClick.bind(this);
     this.handleIdChange = this.handleIdChange.bind(this);
     this.handleIdFocus = this.handleIdFocus.bind(this);
+    this.handleMatchClick = this.handleMatchClick.bind(this);
+  }
+  
+  componentDidMount() {
+    this.getMatchingSeries();
+  }
+  
+  getMatchingSeries() {
+    const seriesName = this.props.name;
+    
+    if(matchCache[seriesName]){
+      this.setState({ matches: matchCache[seriesName] });
+    }
+    else{
+      fetch(API__SERIES_MATCHES, { params: { seriesName } })
+        .then((matches) => {
+          matchCache[seriesName] = matches;
+          this.setState({ matches });
+        })
+        .catch((err) => {
+          alert(err);
+        });
+    }
   }
   
   handleChoiceClick() {
@@ -63,25 +90,34 @@ class AssignId extends Component {
     });
   }
   
-  handleIdChange(ev) {
-    const id = AssignId.normalizeId(ev.currentTarget.value);
-    const idChanged = id !== AssignId.normalizeId(this.props.id);
+  updateID(id) {
+    const _id = AssignId.normalizeId(id);
+    const idChanged = _id !== AssignId.normalizeId(this.props.id);
     const state = {};
     
-    if(id !== this.state.id) state.id = id;
+    if(_id !== this.state.id) state.id = _id;
     if(idChanged !== this.state.idChanged) state.idChanged = idChanged;
     
     if(Object.keys(state).length) this.setState(state);
+  }
+  
+  handleIdChange(ev) {
+    this.updateID(ev.currentTarget.value);
   }
   
   handleIdFocus(ev) {
     ev.target.select();
   }
   
+  handleMatchClick(ev) {
+    this.updateID(ev.currentTarget.dataset.id);
+  }
+  
   render() {
     const {
       id,
       idChanged,
+      matches,
       normalizedName,
       proccessing,
       searchURL,
@@ -135,6 +171,31 @@ class AssignId extends Component {
             </Fragment>
           )}
         </div>
+        {!!matches.length && (
+          <div className={`${ ROOT_CLASS }__matches`}>
+            {matches.map(({ id, name, overview, thumbnail, year }) => {
+              const nameAndYear = `${ name } (${ year })`;
+              return (
+                <div
+                  key={id}
+                  className={`${ ROOT_CLASS }__match`}
+                  data-id={id}
+                  title={`Select series ID ${ id }`}
+                  onClick={this.handleMatchClick}
+                >
+                  {thumbnail
+                    ? <img className={`${ ROOT_CLASS }__match-img`} src={thumbnail} alt={nameAndYear} />
+                    : <div className={`${ ROOT_CLASS }__match-img`}></div>
+                  }
+                  <div className={`${ ROOT_CLASS }__match-copy`}>
+                    <div className={`${ ROOT_CLASS }__match-title`}>{nameAndYear}</div>
+                    <div className={`${ ROOT_CLASS }__match-desc`}>{overview}</div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
         <nav className={`${ ROOT_CLASS }__nav`}>
           <button
             className={`${ ROOT_CLASS }__confirm-btn`}

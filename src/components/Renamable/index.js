@@ -99,14 +99,14 @@ class Renamable extends Component {
   handleIdClick(ev) {
     const {
       itemIndex,
-      lookupName,
+      lookupNameWithoutYear,
       onIdClick,
     } = this.props;
     
     onIdClick({
       id: +ev.currentTarget.value,
       index: itemIndex,
-      lookupName,
+      lookupName: lookupNameWithoutYear,
     });
   }
   
@@ -340,6 +340,7 @@ Renamable.propTypes = {
   idOverride: number,
   itemIndex: number,
   lookupName: string,
+  lookupNameWithoutYear: string,
   name: string,
   newName: string,
   onIdClick: func,

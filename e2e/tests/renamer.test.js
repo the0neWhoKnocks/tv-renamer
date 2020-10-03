@@ -184,6 +184,17 @@ context('Renamer', () => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx] }`);
     });
     
+    const deletedFolders = [
+      '✓Deleted folder: "/home/node/app/_temp_/src/Dirty.John.S01E01.720p.HDTV.x265"',
+      '✓Deleted folder: "/home/node/app/_temp_/src/Dirty.John.S01E02.720p.HDTV.x265"',
+      '✓Deleted folder: "/home/node/app/_temp_/src/MONEY HEIST SEASON (1-4)"',
+      '✓Deleted folder: "/home/node/app/_temp_/src/Psych.Season.1-8.720p.x265.HEVC-LION[UTR]"',
+      '✓Deleted folder: "/home/node/app/_temp_/src/Veep S01-S06 (1080p x265 10bit)"',
+    ];
+    cy.get('.app__section:nth-child(2) .log-item__deleted').each(($el, ndx) => {
+      expect($el.text()).to.equal(deletedFolders[ndx]);
+    });
+    
     screenshot('.app', 'files renamed');
     
     cy.get('.app__logs-nav .toggle__btn').click();
@@ -256,6 +267,14 @@ context('Renamer', () => {
     
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx] }`);
+    });
+    
+    const deletedFolders = [
+      '✓Deleted folder: "/home/node/app/_temp_/src/Big.Fat.Quiz.Of.Everything.2018.HDTV.x264"',
+      '✓Deleted folder: "/home/node/app/_temp_/src/Sword.Art.Online.Alicization.19.1080p.WEBRip.x265.HEVC.10bit.AAC.2.0"',
+    ];
+    cy.get('.app__section:nth-child(2) .log-item__deleted').each(($el, ndx) => {
+      expect($el.text()).to.equal(deletedFolders[ndx]);
     });
     
     screenshot('.app', 'files renamed');
@@ -525,22 +544,15 @@ context('Renamer', () => {
     
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
+    const logs = [
+      '/home/node/app/_temp_/output/My Name Is Earl - 1x01 - Pilot.mkv',
+      '/home/node/app/_temp_/output/My Name Is Earl - 1x02 - Quit Smoking.mkv',
+      '/home/node/app/_temp_/output/My Name Is Earl - 2x01 - Very Bad Things.mkv',
+      '✓Deleted folder: "/home/node/app/_temp_/src/My Name is Earl S01-S04 Season 1-4"',
+    ];
     cy.get('.log-item__body').each(($log, logNdx) => {
-      const folderDeleteMsg = '✓Deleted folder: "/home/node/app/_temp_/src/My Name is Earl S01-S04 Season 1-4"';
-      const logs = [
-        '/home/node/app/_temp_/output/My Name Is Earl - 1x01 - Pilot.mkv',
-        '/home/node/app/_temp_/output/My Name Is Earl - 1x02 - Quit Smoking.mkv',
-        '/home/node/app/_temp_/output/My Name Is Earl - 2x01 - Very Bad Things.mkv',
-      ];
       const logMsg = logs[logNdx];
-      const $logMsg = $log.find('.log-item__to');
-      const $folderDeletionMsg = $log.find('.log-item__deleted');
-      
-      expect($logMsg.text()).to.equal(logMsg);
-      
-      if($folderDeletionMsg.length){
-        expect($folderDeletionMsg.text()).to.equal(folderDeleteMsg);
-      }
+      expect($log.text()).to.equal(logMsg);
     });
     
     screenshot('.app', 'files renamed');

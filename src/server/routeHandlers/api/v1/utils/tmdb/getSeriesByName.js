@@ -4,6 +4,7 @@ import {
   TMDB__TOKEN__SERIES_PAGE,
   TMDB__TOKEN__SERIES_QUERY,
   TMDB__TOKEN__SERIES_YEAR,
+  TMDB__URL__THUMBNAILS,
 } from 'ROOT/conf.app';
 import transformAPIURL from '../transformAPIURL';
 import tmdbRequestProps from './tmdbRequestProps';
@@ -24,15 +25,30 @@ const reqPageOfMatches = ({ apiKey, name, page, year }) => new Promise((resolve,
 });
 
 const filterSeriesByExactMatch = (name, pages) => {
-  const results = pages.reduce((arr, { results }) => {
-    for(let i=0; i<results.length; i++){
-      const result = results[i];
-      if(result.name.toLowerCase() === name) arr.push(result);
-    }
-    return arr;
-  }, []);
+  const matches = pages
+    .reduce((arr, { results }) => {
+      for(let i=0; i<results.length; i++){
+        const result = results[i];
+        if(result.name.toLowerCase() === name) arr.push(result);
+      }
+      return arr;
+    }, [])
+    .map(({ first_air_date, id, name: seriesName, overview, poster_path }) => ({
+      id,
+      name: seriesName,
+      overview,
+      thumbnail: poster_path && `${ TMDB__URL__THUMBNAILS }${ poster_path }`, // comes with a leading slash
+      year: first_air_date ? +first_air_date.split('-')[0] : '', // can come through as undefined or empty if the series hasn't aired yet
+    }))
+    .filter(({ year }) => !!year)
+    .sort(({ year: y1 }, { year: y2 }) => y2 - y1)
+    .map((data, ndx, arr) => {
+      if(ndx < arr.length - 1) data.name = `${ data.name } (${ data.year })`;
+      delete data.year;
+      return data;
+    });
   
-  return { results };
+  return matches;
 };
 
 export default ({ apiKey, name, year = '' } = {}) => new Promise((resolve, reject) => {

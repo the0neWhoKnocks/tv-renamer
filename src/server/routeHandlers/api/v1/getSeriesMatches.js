@@ -1,4 +1,3 @@
-import { TMDB__URL__THUMBNAILS } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
 import loadConfig from './utils/loadConfig';
@@ -10,22 +9,7 @@ export default function getSeriesMatches({ reqData, res }) {
   
   loadConfig(({ tmdbAPIKey: apiKey }) => {
     getSeriesByName({ apiKey, name })
-      .then(({ results: seriesMatches }) => {
-        const matches = seriesMatches
-          .map(({ first_air_date, id, name: seriesName, overview, poster_path }) => ({
-            id,
-            name: seriesName,
-            overview,
-            thumbnail: poster_path && `${ TMDB__URL__THUMBNAILS }${ poster_path }`, // comes with a leading slash
-            year: first_air_date ? +first_air_date.split('-')[0] : '', // can come through as undefined or empty
-          }))
-          .sort(({ year: y1 }, { year: y2 }) => y2 - y1)
-          .map((data, ndx, arr) => {
-            if(ndx < arr.length - 1) data.name = `${ data.name } (${ data.year })`;
-            delete data.year;
-            return data;
-          });
-        
+      .then((matches) => {
         jsonResp(res, matches);
       })
       .catch((err) => {

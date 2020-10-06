@@ -39,7 +39,7 @@ export default ({
           // do an extra check to verify the year
           if(!_seriesYear){
             getSeriesByName({ apiKey, name: userSeriesName, year: seriesYear })
-              .then(({ results: seriesMatches }) => {
+              .then((seriesMatches) => {
                 if(seriesMatches.length > 1){
                   seriesMatches
                     .filter(({ name }) => name.toLowerCase() === userSeriesName.toLowerCase())
@@ -63,7 +63,7 @@ export default ({
           log(`Looking up series id for: "${ userSeriesName }"`);
           
           getSeriesByName({ apiKey, name: userSeriesName, year: seriesYear })
-            .then(({ results: seriesMatches }) => {
+            .then((seriesMatches) => {
               const unmatched = [];
               let opts, matchErr;
               

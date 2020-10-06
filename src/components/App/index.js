@@ -694,7 +694,7 @@ class App extends Component {
   handleReplaceClick() {
     const { files } = this.state;
     const newState = {
-      searchAndReplaceFiles: [...files],
+      searchAndReplaceFiles: files.filter(({ selected }) => selected),
       showReplace: true,
     };
     

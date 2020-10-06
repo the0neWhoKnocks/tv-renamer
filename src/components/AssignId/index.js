@@ -9,6 +9,7 @@ import {
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
 import styles, {
+  MODIFIER__INACTIVE,
   MODIFIER__PROCCESSING,
   ROOT_CLASS,
 } from './styles';
@@ -27,14 +28,18 @@ class AssignId extends Component {
   constructor({ id, name }) {
     super();
     
+    const normalizedName = name.toLowerCase();
+    this.searchInputRef = React.createRef();
     this.originalId = AssignId.normalizeId(id);
     
     this.state = {
       id: this.originalId,
       idChanged: false,
       matches: [],
-      normalizedName: name.toLowerCase(),
+      normalizedName,
       proccessing: false,
+      query: normalizedName,
+      searching: false,
       searchURL: AssignId.genSearchURL(name),
     };
     
@@ -42,6 +47,7 @@ class AssignId extends Component {
     this.handleIdChange = this.handleIdChange.bind(this);
     this.handleIdFocus = this.handleIdFocus.bind(this);
     this.handleMatchClick = this.handleMatchClick.bind(this);
+    this.handleSearchClick = this.handleSearchClick.bind(this);
   }
   
   componentDidMount() {
@@ -49,20 +55,22 @@ class AssignId extends Component {
   }
   
   getMatchingSeries() {
-    const seriesName = this.props.name;
+    const { query: seriesName = '' } = this.state;
     
     if(matchCache[seriesName]){
       this.setState({ matches: matchCache[seriesName] });
     }
     else{
-      fetch(API__SERIES_MATCHES, { params: { seriesName } })
-        .then((matches) => {
-          matchCache[seriesName] = matches;
-          this.setState({ matches });
-        })
-        .catch((err) => {
-          alert(err);
-        });
+      this.setState({ searching: true }, () => {
+        fetch(API__SERIES_MATCHES, { params: { seriesName } })
+          .then((matches) => {
+            matchCache[seriesName] = matches;
+            this.setState({ matches, searching: false });
+          })
+          .catch((err) => {
+            alert(err);
+          });
+      });
     }
   }
   
@@ -78,6 +86,7 @@ class AssignId extends Component {
       })
         .then((idMappings) => {
           onAssignSuccess({
+            assignedName: this.assignedName,
             id: +id,
             idMappings,
             index,
@@ -110,7 +119,19 @@ class AssignId extends Component {
   }
   
   handleMatchClick(ev) {
-    this.updateID(ev.currentTarget.dataset.id);
+    const { id, name } = ev.currentTarget.dataset;
+    this.updateID(id);
+    this.assignedName = name;
+  }
+  
+  handleSearchClick(ev) {
+    ev.preventDefault();
+    
+    const newQuery = this.searchInputRef.current.value;
+    
+    if(newQuery && newQuery !== this.state.query){
+      this.setState({ query: newQuery }, this.getMatchingSeries);
+    }
   }
   
   render() {
@@ -120,6 +141,7 @@ class AssignId extends Component {
       matches,
       normalizedName,
       proccessing,
+      searching,
       searchURL,
     } = this.state;
     const textID = id || '_';
@@ -146,6 +168,51 @@ class AssignId extends Component {
             disabled={proccessing}
           />
         </div>
+        <div className={`${ ROOT_CLASS }__search`}>
+          <form className={`${ ROOT_CLASS }__search-bar`} onSubmit={this.handleSearchClick}>
+            <input type="text" defaultValue={normalizedName} ref={this.searchInputRef} />
+            <button onClick={this.handleSearchClick}>Search</button>
+          </form>
+          {!matches.length && (
+            <div className={`${ ROOT_CLASS }__no-results`}>
+              {searching && (
+                <Fragment>
+                  Searching for &quot;<span>{this.searchInputRef.current.value}</span>&quot;
+                </Fragment>
+              )}
+              {!searching && (
+                <Fragment>
+                  No matches for &quot;<span>{this.searchInputRef.current && this.searchInputRef.current.value}</span>&quot;
+                </Fragment>
+              )}
+            </div>
+          )}
+          {!!matches.length && (
+            <div className={`${ ROOT_CLASS }__matches`}>
+              {matches.map(({ id, name, overview, thumbnail }) => {
+                return (
+                  <div
+                    key={id}
+                    className={`${ ROOT_CLASS }__match`}
+                    data-id={id}
+                    data-name={name}
+                    title={`Select series ID ${ id }`}
+                    onClick={this.handleMatchClick}
+                  >
+                    {thumbnail
+                      ? <img className={`${ ROOT_CLASS }__match-img`} src={thumbnail} alt={name} />
+                      : <div className={`${ ROOT_CLASS }__match-img`}></div>
+                    }
+                    <div className={`${ ROOT_CLASS }__match-copy`}>
+                      <div className={`${ ROOT_CLASS }__match-title`}>{name}</div>
+                      <div className={`${ ROOT_CLASS }__match-desc`}>{overview}</div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
         <div>
           {searchURL && (
             <a
@@ -153,10 +220,10 @@ class AssignId extends Component {
               href={searchURL}
               rel="noopener noreferrer"
               target="_blank"
-            >Search</a>
+            >Click to Manually Search on TMDB</a>
           )}
         </div>
-        <div>
+        <div className={(!id) ? MODIFIER__INACTIVE : '' }>
           {idChanged && (
             <Fragment>
               Any matches for <code>{normalizedName}</code> will use TMDB
@@ -171,31 +238,6 @@ class AssignId extends Component {
             </Fragment>
           )}
         </div>
-        {!!matches.length && (
-          <div className={`${ ROOT_CLASS }__matches`}>
-            {matches.map(({ id, name, overview, thumbnail, year }) => {
-              const nameAndYear = `${ name } (${ year })`;
-              return (
-                <div
-                  key={id}
-                  className={`${ ROOT_CLASS }__match`}
-                  data-id={id}
-                  title={`Select series ID ${ id }`}
-                  onClick={this.handleMatchClick}
-                >
-                  {thumbnail
-                    ? <img className={`${ ROOT_CLASS }__match-img`} src={thumbnail} alt={nameAndYear} />
-                    : <div className={`${ ROOT_CLASS }__match-img`}></div>
-                  }
-                  <div className={`${ ROOT_CLASS }__match-copy`}>
-                    <div className={`${ ROOT_CLASS }__match-title`}>{nameAndYear}</div>
-                    <div className={`${ ROOT_CLASS }__match-desc`}>{overview}</div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        )}
         <nav className={`${ ROOT_CLASS }__nav`}>
           <button
             className={`${ ROOT_CLASS }__confirm-btn`}

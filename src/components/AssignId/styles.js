@@ -4,6 +4,7 @@ import {
   VALID_CTA,
 } from 'COMPONENTS/globalStyles';
 
+export const MODIFIER__INACTIVE = 'is--inactive';
 export const MODIFIER__PROCCESSING = 'is--proccessing';
 export const ROOT_CLASS = 'assign-id';
 
@@ -16,8 +17,8 @@ export default css`
   }
   
   > {
-    * {
-      margin: 0.75em 0;
+    :not(:last-child) {
+      margin-bottom: 0.75em;
     }
   }
   
@@ -26,7 +27,6 @@ export default css`
     &__id-row {
       font-size: 1.5em;
       line-height: 1.5em;
-      margin-top: 0;
       display: flex;
       align-items: center;
     }
@@ -50,10 +50,54 @@ export default css`
       display: block;
     }
     
+    &__search-bar {
+      font-size: 1.4rem;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      
+      * {
+        font-family: monospace;
+      }
+      
+      input {
+        width: 100%;
+        height: 2em;
+        font-size: 1em;
+        text-align: center;
+        padding: 0 0.5em;
+        border: solid 1px;
+        border-radius: 0.25em 0 0 0;
+      }
+      
+      button {
+        width: 10.9em;
+        height: 2em;
+        padding: 0 1em;
+        border-left: none;
+        border-radius: 0 0.25em 0 0;
+      }
+    }
+    
+    &__no-results,
+    &__matches {
+      border-radius: 0 0 0.25em 0.25em;
+      background: linear-gradient(0deg, #333, #000);
+    }
+    
+    &__no-results {
+      color: #ccc;
+      text-align: center;
+      padding: 1em;
+      
+      span {
+        color: #8cd8ef;
+      }
+    }
+    
     &__matches {
       max-height: 50vh;
       overflow-y: auto;
-      background: #333;
     }
     
     &__match {
@@ -63,6 +107,10 @@ export default css`
       background: #fff;
       display: flex;
       cursor: pointer;
+      
+      &:hover {
+        box-shadow: 0 0 0 4px inset #38b9de;
+      }
       
       * {
         pointer-events: none;
@@ -149,5 +197,10 @@ export default css`
         color: transparent;
       }
     }
+  }
+  
+  .${ MODIFIER__INACTIVE } {
+    opacity: 0.25;
+    user-select: none;
   }
 `;

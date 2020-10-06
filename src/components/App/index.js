@@ -31,7 +31,9 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-export const NAME_REGEX = /^(?:\[.*\] )?([a-z1-9,'.!\-&\s]+\b(?:\d{3,4})?)(?:\.|\s)?(?:\((\d{4})\))?(?:\.|\s)?(?:\s-\s)?s(\d{2})e(\d{2,3})/i;
+const SERIES_PATTERN = "(?:\\[.*\\] )?([a-z1-9,'.!\\-&\\s]+\\b(?:\\d{3,4})?)(?:\\.|\\s)?(?:\\((\\d{4})\\))?";
+const SERIES_NAME_REGEX = new RegExp(`^${ SERIES_PATTERN }`, 'i');
+export const NAME_REGEX = new RegExp(`^${ SERIES_PATTERN }(?:\\.|\\s)?(?:\\s-\\s)?s(\\d{2})e(\\d{2,3})`, 'i');
 // name.s01e01-s01e02.ext
 // name.s01e01e02.ext
 // name.s01e01-episode1.title-s01e02-episode2.title.ext
@@ -262,7 +264,7 @@ class App extends Component {
     }
   }
   
-  buildPreviewData(itemEl) {
+  buildPreviewData(itemEl, { nameOverride } = {}) {
     const name = itemEl.innerText.replace(/\n/g, '');
     const itemData = itemEl.dataset;
     const matches = name.match(NAME_REGEX);
@@ -286,6 +288,12 @@ class App extends Component {
     if(isNaN(nameData.id)) delete nameData.id;
     
     if(matches){
+      if(nameOverride){
+        const overrideMatches = nameOverride.match(SERIES_NAME_REGEX);
+        matches[1] = overrideMatches[1] || matches[1];
+        matches[2] = overrideMatches[2] || matches[2];
+      }
+      
       const lookupName = matches[1] && App.parseLookupName(matches[1], matches[2]);
       
       return {
@@ -391,7 +399,7 @@ class App extends Component {
     this.setState({ files });
   }
   
-  handleAssignIdSuccess({ id, idMappings, index, originalId }) {
+  handleAssignIdSuccess({ assignedName, id, idMappings, index, originalId }) {
     const { lookupName } = this.state.files[index];
     const newlyAssigned = this.state.files
       .reduce((arr, { id: _id, lookupName: _lookupName }, ndx) => {
@@ -413,7 +421,13 @@ class App extends Component {
           )
         ) {
           const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name .${ RENAMABLE_ROOT_CLASS }__ce-fix[data-index="${ ndx }"]`);
-          const itemData = this.buildPreviewData(el);
+          const overrides = {};
+          
+          if(assignedName){
+            overrides.nameOverride = assignedName;
+          }
+          
+          const itemData = this.buildPreviewData(el, overrides);
           itemData.id = id;
           
           arr.push(itemData);
@@ -426,7 +440,7 @@ class App extends Component {
     this.setState({
       idMappings: App.transformIdMappings(idMappings),
     }, () => {
-      this.previewRename(newlyAssigned, (_previewItems) => {
+      this.previewRename(newlyAssigned, () => {
         this.setState({ showAssignId: false });
       });
     });

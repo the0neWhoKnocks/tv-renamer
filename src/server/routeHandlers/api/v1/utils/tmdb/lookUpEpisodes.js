@@ -25,18 +25,32 @@ export default ({
     };
     
     getSeriesEpisodes({ apiKey, episodeGroups, seasonNumbers, seriesID })
-      .then(({ episodes, groups }) => {
-        for(let i=0; i<episodes.length; i++){
-          const {
-            name: episodeName,
-            episode_number: airedEpisodeNumber,
-            season_number: airedSeason,
-          } = episodes[i];
+      .then(({ groups, seasons }) => {
+        for(let s=0; s<seasons.length; s++){
+          const episodes = seasons[s];
           
-          if(!cache.seasons[airedSeason]) cache.seasons[airedSeason] = { episodes: [] };
-          
-          const currSeasonEps = cache.seasons[airedSeason].episodes;
-          currSeasonEps[airedEpisodeNumber] = sanitizeName(episodeName);
+          for(let i=0; i<episodes.length; i++){
+            const {
+              episode_number: listedEpisodeNumber,
+              name: episodeName,
+              season_number: airedSeason,
+            } = episodes[i];
+            const airedEpisodeNumber = i + 1;
+            
+            if(!cache.seasons[airedSeason]) cache.seasons[airedSeason] = { episodes: [] };
+            
+            const currSeasonEps = cache.seasons[airedSeason].episodes;
+            // Some series (like Anime), list episode numbers by the total episodes
+            // in the series. So if a series has 2 seasons, each 12 episodes long,
+            // the last episode of Season 2 would be 24, not 12. To account for
+            // such cases, prepend the additional episode info to the episode
+            // name (not the episode) to not potentially break any media manager
+            // parsing.
+            const additionalEpNum = (airedEpisodeNumber !== listedEpisodeNumber)
+              ? `(${ listedEpisodeNumber }) `
+              : '';
+            currSeasonEps[airedEpisodeNumber] = `${ additionalEpNum }${ sanitizeName(episodeName) }`;
+          }
         }
         
         if(groups && groups[TMDB__EPISODE_GROUP_TYPE__DVD]){

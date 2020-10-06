@@ -48,10 +48,10 @@ export default ({ apiKey, episodeGroups, seasonNumbers, seriesID }) => new Promi
   
   Promise.all(promises)
     .then(resolvedPromises => {
-      resolve(resolvedPromises.reduce((obj, { episodes, groups, name }) => {
+      resolve(resolvedPromises.reduce((obj, { episodes, groups, type }) => {
         if(episodes){
-          if(!obj.episodes) obj.episodes = [];
-          obj.episodes = [...obj.episodes, ...episodes];
+          if(!obj.seasons) obj.seasons = [];
+          obj.seasons.push(episodes);
         }
         
         if(groups){

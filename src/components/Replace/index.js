@@ -107,7 +107,11 @@ class Replace extends Component {
               }
               
               return (
-                <div className={`${ ROOT_CLASS }__table-row`} key={fileNdx}>
+                <div
+                  key={fileNdx}
+                  className={`${ ROOT_CLASS }__table-row`}
+                  data-dir={dir}
+                >
                   <div
                     className={`${ ROOT_CLASS }__table-data`}
                     dangerouslySetInnerHTML={{ __html: currentName }}

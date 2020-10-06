@@ -24,7 +24,8 @@ export default css`
       
       input {
         width: 100%;
-        font-size: 1em;
+        font-size: 1.2em;
+        font-family: monospace;
         padding: 0.25em;
       }
     }
@@ -65,6 +66,8 @@ export default css`
           
           &__table-data {
             color: #eee;
+            font-size: 1.5em;
+            font-family: monospace;
             border-bottom-width: 2px;
           }
           &__table-data:nth-of-type(1) {
@@ -81,11 +84,32 @@ export default css`
         .${ ROOT_CLASS } {
           
           &__table-row {
+            padding-top: 22px;
             background: #fff;
+            position: relative;
+            
+            &::before {
+              content: attr(data-dir);
+              color: #868686;
+              font-family: monospace;
+              padding: 0.25em 0.5em;
+              border: solid 1px ${ COLOR__TABLE_BORDER };
+              white-space: nowrap;
+              justify-content: flex-end;
+              overflow: hidden;
+              background: #111;
+              display: flex;
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+            }
           }
           
           &__table-data {
             color: #aaa;
+            font-size: 16px;
+            font-family: monospace;
             
             mark {
               font-weight: bold;

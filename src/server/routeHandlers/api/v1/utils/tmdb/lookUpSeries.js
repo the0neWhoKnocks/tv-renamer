@@ -1,5 +1,7 @@
+import {
+  TMDB__EPISODE_GROUPS,
+} from 'ROOT/conf.app';
 import logger from 'SERVER/utils/logger';
-import camelCase from '../camelCase';
 import timeoutCodeCheck from '../timeoutCodeCheck';
 import getSeriesByName from './getSeriesByName';
 import getSeriesDetails from './getSeriesDetails';
@@ -105,10 +107,9 @@ export default ({
             let episodeGroups;
             
             if(episode_groups && episode_groups.results){
-              // https://developers.themoviedb.org/3/tv-episode-groups/get-tv-episode-group-details
-              // Original air date, Absolute, DVD, Digital, Story arc, Production, TV
-              episodeGroups = episode_groups.results.reduce((obj, { id, name }) => {
-                obj[camelCase(name)] = id;
+              episodeGroups = episode_groups.results.reduce((obj, { id, type }) => {
+                const epGrpType = TMDB__EPISODE_GROUPS.get(type);
+                if(epGrpType) obj[epGrpType] = id;
                 return obj;
               }, {});
             }

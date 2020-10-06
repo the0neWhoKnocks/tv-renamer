@@ -2,11 +2,12 @@ import { teenyRequest as request } from 'teeny-request';
 import {
   TMDB__API__SEASON_EPISODES,
   TMDB__API__SEASON_EPISODE_GROUP,
+  TMDB__EPISODE_GROUP_TYPE__DVD,
+  TMDB__EPISODE_GROUPS,
   TMDB__TOKEN__EPISODE_GROUP_ID,
   TMDB__TOKEN__SEASON_NUMBER,
   TMDB__TOKEN__SERIES_ID,
 } from 'ROOT/conf.app';
-import camelCase from '../camelCase';
 import transformAPIURL from '../transformAPIURL';
 import tmdbRequestProps from './tmdbRequestProps';
 import tmdbResponseHandler from './tmdbResponseHandler';
@@ -41,8 +42,8 @@ const requestEpisodesByGroup = ({ apiKey, groupID }) => new Promise((resolve, re
 export default ({ apiKey, episodeGroups, seasonNumbers, seriesID }) => new Promise((resolve, reject) => {
   const promises = seasonNumbers.map((seasonNum) => requestEpisodesBySeason({ apiKey, seasonNum, seriesID }));
   
-  if(episodeGroups && episodeGroups.dvdOrder){
-    promises.push(requestEpisodesByGroup({ apiKey, groupID: episodeGroups.dvdOrder }));
+  if(episodeGroups && episodeGroups[TMDB__EPISODE_GROUP_TYPE__DVD]){
+    promises.push(requestEpisodesByGroup({ apiKey, groupID: episodeGroups[TMDB__EPISODE_GROUP_TYPE__DVD] }));
   }
   
   Promise.all(promises)
@@ -55,7 +56,7 @@ export default ({ apiKey, episodeGroups, seasonNumbers, seriesID }) => new Promi
         
         if(groups){
           if(!obj.groups) obj.groups = {};
-          obj.groups[camelCase(name)] = groups;
+          obj.groups[TMDB__EPISODE_GROUPS.get(type)] = groups;
         }
         
         return obj;

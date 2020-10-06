@@ -1,3 +1,6 @@
+import {
+  TMDB__EPISODE_GROUP_TYPE__DVD,
+} from 'ROOT/conf.app';
 import cacheData from '../cacheData';
 import sanitizeName from '../sanitizeName';
 import timeoutCodeCheck from '../timeoutCodeCheck';
@@ -36,14 +39,17 @@ export default ({
           currSeasonEps[airedEpisodeNumber] = sanitizeName(episodeName);
         }
         
-        if(groups && groups.dvdOrder){
-          for(let i=0; i<groups.dvdOrder.length; i++){
-            const { episodes: dvdEps } = groups.dvdOrder[i];
+        if(groups && groups[TMDB__EPISODE_GROUP_TYPE__DVD]){
+          for(let i=0; i<groups[TMDB__EPISODE_GROUP_TYPE__DVD].length; i++){
+            const { episodes: dvdEps } = groups[TMDB__EPISODE_GROUP_TYPE__DVD][i];
             const dvdSeason = i + 1;
             
             for(let j=0; j<dvdEps.length; j++){
-              const { name: episodeName } = dvdEps[j];
-              const dvdEpisodeNumber = j + 1;
+              const {
+                name: episodeName,
+                order,
+              } = dvdEps[j];
+              const dvdEpisodeNumber = order + 1;
               
               if(dvdSeason !== null && !cache.dvdSeasons[dvdSeason])
                 cache.dvdSeasons[dvdSeason] = { episodes: [] };

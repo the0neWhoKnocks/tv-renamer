@@ -1,6 +1,24 @@
 # Changelog
 ---
 
+## v3.1.0
+
+**Bugfixes**
+- [17cb76b](https://github.com/the0neWhoKnocks/tv-renamer/commit/17cb76b):  Non-selected items show up in Replace Modal
+- [8840d82](https://github.com/the0neWhoKnocks/tv-renamer/commit/8840d82):  Anime episodes not found
+- [3ea9bf7](https://github.com/the0neWhoKnocks/tv-renamer/commit/3ea9bf7):  Series not matched the same
+
+**Features**
+- [386c289](https://github.com/the0neWhoKnocks/tv-renamer/commit/386c289):  Remove spellcheck from Replace inputs
+- [94c312e](https://github.com/the0neWhoKnocks/tv-renamer/commit/94c312e):  File paths in Replace Modal
+- [0a33d42](https://github.com/the0neWhoKnocks/tv-renamer/commit/0a33d42):  Refined Search list in Assign ID Modal
+
+**Misc. Tasks**
+- [8b4ed6d](https://github.com/the0neWhoKnocks/tv-renamer/commit/8b4ed6d):  Tests for Anime numbering and Replace paths
+- [9919c5f](https://github.com/the0neWhoKnocks/tv-renamer/commit/9919c5f):  Refined how the episode groups are handled
+
+---
+
 ## v3.0.1
 
 **Bugfixes**

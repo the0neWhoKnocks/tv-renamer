@@ -9,7 +9,7 @@ class Replace extends Component {
     return (
       <div className={`${ ROOT_CLASS }__labeled-input`}>
         <label>{label}</label>
-        <input type="text" onInput={onInput} />
+        <input type="text" onInput={onInput} spellCheck="false" />
       </div>
     );
   }

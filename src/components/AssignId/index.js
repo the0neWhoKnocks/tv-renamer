@@ -223,7 +223,7 @@ class AssignId extends Component {
             >Click to Manually Search on TMDB</a>
           )}
         </div>
-        <div className={(!id) ? MODIFIER__INACTIVE : '' }>
+        <div className={`${ ROOT_CLASS }__help-text ${ (!id) ? MODIFIER__INACTIVE : '' }`}>
           {idChanged && (
             <Fragment>
               Any matches for <code>{normalizedName}</code> will use TMDB

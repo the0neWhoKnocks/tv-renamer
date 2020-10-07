@@ -1,4 +1,5 @@
 context('Renamer', () => {
+  const SERIES_ID__HUNTER_X = 46298;
   const acceptedExts = ['avi', 'mkv', 'mp4'];
   const appConfig = {};
   let fileNames;
@@ -12,6 +13,17 @@ context('Renamer', () => {
   
   function loadPage() {
     cy.exec('node /e2e/bin/genFiles.js');
+    
+    cy.exec('rm -f /e2e/mnt/data/tmdb__cache/futurama.json');
+    cy.exec('rm -f /e2e/mnt/data/tmdb__cache/hunter_x_hunter_2011.json');
+    cy.readFile('/e2e/mnt/data/tmdb__ids-cache-map.json', 'utf8').then((cacheMap) => {
+      delete cacheMap[SERIES_ID__HUNTER_X];
+      cy.writeFile('/e2e/mnt/data/tmdb__ids-cache-map.json', cacheMap, 'utf8');
+    });
+    cy.readFile('/e2e/mnt/data/tmdb__series-ids.json', 'utf8').then((ids) => {
+      delete ids[SERIES_ID__HUNTER_X];
+      cy.writeFile('/e2e/mnt/data/tmdb__series-ids.json', ids, 'utf8');
+    });
     
     cy.readFile('/e2e/bin/files.txt', 'utf8').then((names) => {
       fileNames = names
@@ -57,16 +69,16 @@ context('Renamer', () => {
     cy.get('.app.is--visible');
     
     cy.get('.app__nav').contains(/Config$/).click();
-    cy.get('input[name="sourceFolder"]').then(el => { appConfig.source = el.val(); });
-    cy.get('input[name="outputFolder"]').then(el => { appConfig.output = el.val(); });
+    cy.get('input[name="sourceFolder"]').then($el => { appConfig.source = $el.val(); });
+    cy.get('input[name="outputFolder"]').then($el => { appConfig.output = $el.val(); });
     screenshot('.app', 'config opened');
     cy.get('.config__close-btn').click();
     
     // disable anything I don't want to preview
-    toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
     toggleItem('Doctor.Who.2005');
     toggleItem('Futurama');
     toggleItem('High.Maintenance');
+    toggleItem('Hunter.X');
     toggleItem('The Legend of Korra');
     toggleItem('Shameless');
     toggleItem('Sword.Art.Online.Alicization');
@@ -97,8 +109,8 @@ context('Renamer', () => {
     
     // generate list with `[...document.querySelectorAll('.renamable.is--previewing.is--selected .renamable__new-name-text')].map(el => { const t = el.textContent; const q = t.includes("'") ? '"' : "'"; return `${q}${t}${q},`}).join('\n');`
     const newNames = [
-      'My Hero Academia - 4x11 - Lemillion.mkv',
       'Appare-Ranman! - 1x10 - The Bridge to Hell.mkv',
+      'My Hero Academia - 4x11 - Lemillion.mkv',
       'Astra Lost in Space - 1x01 - Planet Camp.mkv',
       'Barry - 2x08 - berkman (greater-than) block.mkv',
       'Black Monday - 1x01 - 365.mkv',
@@ -289,8 +301,6 @@ context('Renamer', () => {
     // - It has a Special season
     // - The series is over, so downloading the data shouldn't result in changes
     // to the checked-in file.
-    cy.exec('rm /e2e/mnt/data/tmdb__cache/futurama.json');
-    
     toggleItem('Futurama S01E01');
     
     // preview item
@@ -352,58 +362,6 @@ context('Renamer', () => {
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/Futurama/${ newName }`);
-    });
-    
-    screenshot('.app', 'file renamed');
-    
-    cy.get('.app__logs-nav .toggle__btn').click();
-  });
-  
-  it('should allow a User to confirm an ID for a series', () => {
-    const SERIES_ID = 96316;
-    
-    toggleItem('[REL] Kanojo, Okarishimasu - S01E12');
-    
-    cy.server();
-    cy.route({
-      method: 'POST',
-      url: '/api/v1/preview',
-      response: [{
-        error: 'Possible series mis-match',
-        id: SERIES_ID,
-        index: '3',
-        name: 'Rent-a-Girlfriend',
-        seriesURL: `https://www.themoviedb.org/tv/${ SERIES_ID }`,
-      }],
-    }).as('RESPONSE__POSSIBLE_MISMATCH');
-    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
-    cy.wait('@RESPONSE__POSSIBLE_MISMATCH');
-    cy.server({ enable: false });
-    
-    cy.get('.renamable__nav').contains(SERIES_ID).click();
-    cy.get('.assign-id__matches');
-    
-    screenshot('.app', 'viewing assign modal');
-    
-    cy.get('.assign-id__search-link').then(($el) => {
-      cy.wrap($el)
-        .should('have.attr', 'href', 'https://www.themoviedb.org/search/tv?query=kanojo%2C%20okarishimasu')
-        .should('have.attr', 'rel', 'noopener noreferrer')
-        .should('have.attr', 'target', '_blank');
-    });
-    
-    cy.get('.assign-id__confirm-btn').click();
-    
-    const newName = 'Rent-a-Girlfriend - 1x12 - Confession and Girlfriend.mkv';
-    cy.get('#modals').should('be.empty');
-    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text')
-      .contains(newName);
-    
-    screenshot('.app', 'previewing assigned series name');
-    
-    cy.get('@ITEMS_NAV__RENAME_BTN').click();
-    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
-      expect($el.text()).to.equal(`${ appConfig.output }/${ newName }`);
     });
     
     screenshot('.app', 'file renamed');
@@ -480,6 +438,49 @@ context('Renamer', () => {
     cy.get('.app__logs-nav .toggle__btn').click();
   });
   
+  it('should allow a User to Search for a series, and account for Anime numbering', () => {
+    // NOTE - Using Hunter X Hunter because:
+    // - It has episode numbering based on the total episodes in the series.
+    // - It has multiple seasons.
+    // - It has multiple series listings.
+    // - The series is over, so downloading the data shouldn't result in changes
+    // to the checked-in file.
+    toggleItem('Hunter.X');
+    
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+    cy.get('.renamable__nav :contains(Assign)').click();
+    cy.get('.assign-id__no-results').contains('No matches for "hunter x"');
+    
+    screenshot('.app', 'viewing assign modal');
+    
+    cy.get('.assign-id__search-bar input').type('{selectall}hunter x hunter');
+    cy.get('.assign-id__search-bar button').click();
+    cy.get('.assign-id__match[data-name="Hunter x Hunter (2011)"]').click();
+    cy.get('.assign-id__id-input').should('have.value', SERIES_ID__HUNTER_X);
+    cy.get('.assign-id__help-text').contains(`Any matches for hunter x will use TMDB id ${ SERIES_ID__HUNTER_X } after you click Assign.`);
+    
+    screenshot('.app', 'series id picked');
+    
+    cy.get('.assign-id__assign-btn:not(:disabled)').click();
+    cy.get('#modals').should('be.empty');
+    
+    const newName = 'Hunter x Hunter (2011) - 2x02 - (64) Strengthen x And x Threaten.mkv';
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').then(($el) => {
+      expect($el.text()).to.equal(newName);
+    });
+    
+    screenshot('.app', 'previewing Anime name with extra ep. data');
+    
+    cy.get('@ITEMS_NAV__RENAME_BTN').click();
+    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
+      expect($el.text()).to.equal(`${ appConfig.output }/${ newName }`);
+    });
+    
+    screenshot('.app', 'file renamed');
+    
+    cy.get('.app__logs-nav .toggle__btn').click();
+  });
+  
   it('should allow for Search & Replace of file names on the file system', () => {
     cy.get('button[for="replace"]')
       .should('be.disabled')
@@ -493,14 +494,16 @@ context('Renamer', () => {
       
     screenshot('.app', 'replace modal opened');
     
+    const rowData = [
+      ['1x01.pilot.mkv', '1x01.pilot.mkv', `${ appConfig.source }/My Name is Earl S01-S04 Season 1-4/My Name Is Earl S01 Season 1`],
+      ['1x02.quit.smoking.mkv', '1x02.quit.smoking.mkv', `${ appConfig.source }/My Name is Earl S01-S04 Season 1-4/My Name Is Earl S01 Season 1`],
+      ['2x01.very.bad.things.mkv', '2x01.very.bad.things.mkv', `${ appConfig.source }/My Name is Earl S01-S04 Season 1-4/My Name Is Earl S02 Season 2`],
+    ];
     cy.get('.replace__table-body .replace__table-row').each(($tr, rowNdx) => {
-      const rowData = [
-        ['1x01.pilot.mkv', '1x01.pilot.mkv'],
-        ['1x02.quit.smoking.mkv', '1x02.quit.smoking.mkv'],
-        ['2x01.very.bad.things.mkv', '2x01.very.bad.things.mkv'],
-      ];
+      cy.wrap($tr).as('tr');
       
-      cy.wrap($tr).within(() => {
+      cy.get('@tr').should('have.attr', 'data-dir', rowData[rowNdx][2]);
+      cy.get('@tr').within(() => {
         cy.get('.replace__table-data').each(($td, tdNdx) => {
           expect($td.text()).to.equal(rowData[rowNdx][tdNdx]);
         });
@@ -545,10 +548,10 @@ context('Renamer', () => {
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
     const logs = [
-      '/home/node/app/_temp_/output/My Name Is Earl - 1x01 - Pilot.mkv',
-      '/home/node/app/_temp_/output/My Name Is Earl - 1x02 - Quit Smoking.mkv',
-      '/home/node/app/_temp_/output/My Name Is Earl - 2x01 - Very Bad Things.mkv',
-      '✓Deleted folder: "/home/node/app/_temp_/src/My Name is Earl S01-S04 Season 1-4"',
+      `${ appConfig.output }/My Name Is Earl - 1x01 - Pilot.mkv`,
+      `${ appConfig.output }/My Name Is Earl - 1x02 - Quit Smoking.mkv`,
+      `${ appConfig.output }/My Name Is Earl - 2x01 - Very Bad Things.mkv`,
+      `✓Deleted folder: "${ appConfig.source }/My Name is Earl S01-S04 Season 1-4"`,
     ];
     cy.get('.log-item__body').each(($log, logNdx) => {
       const logMsg = logs[logNdx];

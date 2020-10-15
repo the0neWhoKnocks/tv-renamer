@@ -112,6 +112,7 @@ if [[ "$cypressCmd" != "" ]]; then
 else
   docker-compose up --abort-on-container-exit
 fi
+exitCode=$(echo $?)
 
 docker-compose down
 
@@ -124,3 +125,5 @@ elif [[ "$xquartzKillCmd" != "" ]]; then
   echo "[KILL] XServer"
   eval "$xquartzKillCmd"
 fi
+
+exit $exitCode

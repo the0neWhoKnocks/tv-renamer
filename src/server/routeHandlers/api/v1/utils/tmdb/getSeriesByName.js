@@ -24,13 +24,18 @@ const reqPageOfMatches = ({ apiKey, name, page, year }) => new Promise((resolve,
   );
 });
 
+const normalizeName = (name) => name.replace(/[-]/g, ' ').replace(/[.,!?:]/g, '').toLowerCase();
+
 const filterSeriesByExactMatch = (name, pages) => {
   const matches = pages
     .reduce((arr, { results }) => {
+      const normalizedName = normalizeName(name);
+      
       for(let i=0; i<results.length; i++){
         const result = results[i];
-        if(result.name.toLowerCase() === name) arr.push(result);
+        if(normalizeName(result.name) === normalizedName) arr.push(result);
       }
+      
       return arr;
     }, [])
     .map(({ first_air_date, id, name: seriesName, overview, poster_path }) => ({

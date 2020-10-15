@@ -516,7 +516,10 @@ class CLISelect {
     }
     
     renderHeader('GIT_TAG', 'the release');
-    const GIT_CHANGELOG_MSG = `## ${VERSION_STR}\n\n${newChanges}`.replace(/"/g, '\\"');
+    const escapedNewChanges = newChanges
+      .replace(/"/g, '\\"')
+      .replace(/`/g, '\\`');
+    const GIT_CHANGELOG_MSG = `## ${VERSION_STR}\n\n${escapedNewChanges}`;
     const GIT_TAG_CMD = `git tag -a "${VERSION_STR}" -m "${GIT_CHANGELOG_MSG}"`;
     if (args.dryRun) dryRunCmd(GIT_TAG_CMD);
     else {

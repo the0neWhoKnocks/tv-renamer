@@ -19,7 +19,7 @@
     "release:dryrun": "./bin/release.js -dr",
     "release:update": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/the0neWhoKnocks/release-script/master/js/tools/install.sh) --update --install-dir \\\"bin\\\"\"",
     "start": "npm run build:appForDocker && cross-env NODE_ENV=production npm run start:server",
-    "start:dev": "npm run build:dist && cross-env DEBUG=true PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",
+    "start:dev": "npm run build:dist && cross-env DEBUG=true DEBUG_COLORS=true PORT=9000 concurrently --kill-others -p {name} -n BABEL,WEBPACK,SERVER -c black.bgGreen,black.bgCyan,black.bgMagenta \"npm run watch:transpile\" \"npm run watch:app\" \"npm run watch:server\"",
     "start:server": "node $npm_package_paths_babelOutput/server",
     "test": "npm run lint && npm run e2e",
     "transpile": "babel $npm_package_paths_babelSource -d $npm_package_paths_babelOutput --verbose",
@@ -37,6 +37,7 @@
     "mkdirp": "^0.5.1",
     "rimraf": "^2.6.3",
     "sanitize-filename": "^1.6.1",
+    "supports-color": "^7.2.0",
     "teeny-request": "^7.0.1"
   },
   "devDependencies": {

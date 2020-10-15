@@ -84,7 +84,7 @@ export default ({
           resolve({ cache, index });
         }
       })
-      .catch(({ err, resp }) => {
+      .catch(({ err, resp = {} }) => {
         resolve({
           error: timeoutCodeCheck(err)
             ? `Episodes look-up timed out for: "${ seriesName }"`

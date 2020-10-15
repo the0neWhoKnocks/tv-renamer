@@ -8,6 +8,7 @@ import jsonResp from 'SERVER/utils/jsonResp';
 import loadFile from 'SERVER/utils/loadFile';
 import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
+import genCacheName from './utils/genCacheName';
 import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
 import sanitizeName from './utils/sanitizeName';
@@ -191,7 +192,7 @@ export default ({ reqData, res }) => {
         
         for(let i=0; i<names.length; i++){
           const { id: seriesID, index, name, nameWithYear, updateCache, year } = names[i] || {};
-          requestedNames.push({ id: seriesID, index, name, year });
+          requestedNames.push({ id: seriesID, index, name, nameWithYear, year });
           if(!updateCache) _cachedItems.push({ ...cacheMap[nameWithYear], index });
         }
         
@@ -238,21 +239,79 @@ export default ({ reqData, res }) => {
             }
             else{
               const recentlyCached = [];
-              const pendingSeriesData = requestedNames.map(
-                ({ id, index, name, year }, ndx) => lookUpSeries({
-                  apiKey,
-                  cache, 
-                  cacheKey: (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined, 
-                  id,
-                  index,
-                  recentlyCached,
-                  res,
-                  seriesName: name,
-                  seriesYear: year,
+              
+              // If there's more than one requested name with the same series name,
+              // make an initial request so the series gets cached, then finish
+              // up the remaining items.
+              const seriesRequestsInProgress = [];
+              const seriesDataPromise = ({ id, index, name, year }, ndx) => lookUpSeries({
+                apiKey,
+                cache, 
+                cacheKey: (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined, 
+                id,
+                index,
+                recentlyCached,
+                res,
+                seriesName: name,
+                seriesYear: year,
+              });
+              const pendingSeriesData = requestedNames
+                .filter((lookup) => {
+                  const { name } = lookup;
+                  if(seriesRequestsInProgress.includes(name)) return false;
+                  
+                  seriesRequestsInProgress.push(name);
+                  return true;
                 })
-              );
+                .map(seriesDataPromise);
               
               Promise.all(pendingSeriesData)
+                .then((seriesData) => {
+                  // Iterate the newly scraped items, and update the `cache` values
+                  // so any further lookups don't hit up the external API.
+                  seriesData.forEach((data) => {
+                    if(data.cache) cache[data.cache.cacheKey] = data.cache;
+                    else if(data.error) {
+                      const { name: cacheKey } = genCacheName(data.name);
+                      cache[cacheKey] = data;
+                    }
+                  });
+                  
+                  let pending;
+                  
+                  if(requestedNames.length === 1){
+                    // If only one rename was requested, no need for extra churn.
+                    pending = [Promise.resolve(seriesData[0])];
+                  }
+                  else{
+                    pending = requestedNames.map((lookup, ndx) => {
+                      const { name: cacheKey } = genCacheName(lookup.nameWithYear);
+                      const seriesCache = cache[cacheKey];
+                      
+                      // The `cacheKey` may not always match up because a User
+                      // had assigned an ID to another name. In which case the
+                      // data's already scraped, so the below doesn't matter.
+                      if(seriesCache && seriesCache.error){
+                        // If there was an error scraping the series, just return
+                        // the same error for the remaining lookups, otherwise
+                        // they're all going to keep trying to scrape the data and
+                        // most likely get the same error.
+                        return Promise.resolve({
+                          ...seriesCache,
+                          index: lookup.index,
+                        });
+                      }
+                      else{
+                        // Map the newly scraped data to the partially set up
+                        // items so any further lookups are read from memory.
+                        if(seriesCache) cachedItems[ndx].file = cache[cacheKey];
+                        return seriesDataPromise(lookup, ndx);
+                      }
+                    });  
+                  }
+                  
+                  return Promise.all(pending);
+                })
                 .then((cacheData) => {
                   const _idMap = { ...idMap };
                   

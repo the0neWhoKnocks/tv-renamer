@@ -278,6 +278,7 @@ class App extends Component {
       id: +itemData.id,
       index: itemData.index,
       name,
+      nameWithYear: name,
     };
     
     epMatches.forEach((ep) => {

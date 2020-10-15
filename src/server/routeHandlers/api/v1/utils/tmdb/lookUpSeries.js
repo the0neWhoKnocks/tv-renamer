@@ -24,7 +24,7 @@ export default ({
     
     if(cache[cacheKey]){
       const cachedItem = cache[cacheKey];
-      log(`Skipping series look-up for: "${ cachedItem.name }"`);
+      log(`Using cache for series: "${ cachedItem.name }"`);
       resolve({ cache: cachedItem, index });
     }
     else{

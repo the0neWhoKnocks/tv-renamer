@@ -1,6 +1,22 @@
 # Changelog
 ---
 
+## v3.2.0
+
+**Bugfixes**
+- [26cf285](https://github.com/the0neWhoKnocks/tv-renamer/commit/26cf285):  Assign errors after name update in GUI
+- [0a934be](https://github.com/the0neWhoKnocks/tv-renamer/commit/0a934be):  statusCode error and inefficient series lookups
+
+**Dev-Ops**
+- [9f81cc6](https://github.com/the0neWhoKnocks/tv-renamer/commit/9f81cc6):  Tests weren't exiting with an error code
+- [2c10b48](https://github.com/the0neWhoKnocks/tv-renamer/commit/2c10b48):  Allow for overriding the `debug` prefix in Containers
+- [4c41692](https://github.com/the0neWhoKnocks/tv-renamer/commit/4c41692):  Got `debug` colors to work in Dev
+
+**Features**
+- [bd21601](https://github.com/the0neWhoKnocks/tv-renamer/commit/bd21601):  Normalize exact series name checks
+
+---
+
 ## v3.1.0
 
 **Bugfixes**

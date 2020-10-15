@@ -113,11 +113,24 @@ class App extends Component {
     };
     
     files.forEach(({ dir, ext, idOverride, lookupName, name }, ndx) => {
+      const lookupNameData = App.buildLookupName(idMappings, name);
+      
+      // There's a case where a User could have renamed a file in the GUI, which
+      // then sets the `lookupName`, but then the lookup names try to get rebuilt
+      // before a Preview, and base that info on the original file name, not the
+      // updated one. This ensures that if a lookup name was generated due to
+      // User input, and no data was generated just now, use the fallback.
+      if(!lookupNameData.lookupName && lookupName) {
+        lookupNameData.lookupName = lookupName;
+        
+        if(!lookupNameData.lookupNameWithoutYear) lookupNameData.lookupNameWithoutYear = lookupName;
+      }
+      
       const data = {
         dir, ext, idOverride, lookupName, name,
         newName: undefined,
         selected: selectAll,
-        ...App.buildLookupName(idMappings, name),
+        ...lookupNameData,
       };
       const previewItem = App.getPreviewItem(ndx, previewItems);
       

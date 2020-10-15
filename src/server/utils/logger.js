@@ -9,6 +9,6 @@ const logger = (namespace = '') => (namespace)
   : rootLogger;
 
 if(process.env.DISABLE_LOGS) debug.disable();
-else debug.enable(`${ ROOT_NAMESPACE }:server:*`);
+else debug.enable(`${ process.env.DEBUG_NAMESPACE || ROOT_NAMESPACE }:*`);
 
 export default logger;

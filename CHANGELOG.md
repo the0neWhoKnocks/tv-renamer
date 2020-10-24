@@ -1,6 +1,16 @@
 # Changelog
 ---
 
+## v3.3.0
+
+**Dev-Ops**
+- [a138c66](https://github.com/the0neWhoKnocks/tv-renamer/commit/a138c66):  Updated release script
+
+**Features**
+- [065e109](https://github.com/the0neWhoKnocks/tv-renamer/commit/065e109):  Place all files in a Series folder by default
+
+---
+
 ## v3.2.0
 
 **Bugfixes**

@@ -112,7 +112,7 @@ class App extends Component {
       selectionCount: 0, 
     };
     
-    files.forEach(({ dir, ext, idOverride, lookupName, name }, ndx) => {
+    files.forEach(({ dir, ext, folderSelected, idOverride, lookupName, name }, ndx) => {
       const lookupNameData = App.buildLookupName(idMappings, name);
       
       // There's a case where a User could have renamed a file in the GUI, which
@@ -127,7 +127,7 @@ class App extends Component {
       }
       
       const data = {
-        dir, ext, idOverride, lookupName, name,
+        dir, ext, folderSelected, idOverride, lookupName, name,
         newName: undefined,
         selected: selectAll,
         ...lookupNameData,
@@ -168,6 +168,8 @@ class App extends Component {
       }
       
       if(data.selected) transformed.selectionCount++;
+      
+      if(folderSelected === undefined) data.folderSelected = true;
       
       transformed.files.push(data);
     });
@@ -406,8 +408,18 @@ class App extends Component {
   }
   
   handleAllFoldersClick(ev) {
-    const files = this.state.files.map((file, ndx) => {
-      return { ...file, folderSelected: true };
+    const { files: _files } = this.state;
+    let allFoldersSelected = true;
+    
+    for(let i=0; i<_files.length; i++){
+      if(!_files[i].folderSelected){
+        allFoldersSelected = false;
+        break;
+      }
+    }
+    
+    const files = _files.map((file, ndx) => {
+      return { ...file, folderSelected: !allFoldersSelected };
     });
     
     this.setState({ files });

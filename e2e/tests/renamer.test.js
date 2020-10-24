@@ -190,6 +190,7 @@ context('Renamer', () => {
     
     screenshot('.app', 'previewing new names');
     
+    cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
@@ -427,7 +428,6 @@ context('Renamer', () => {
     
     screenshot('.app', 'previewing assigned series names');
     
-    cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx][0] }/${ newNames[ndx][1] }`);
@@ -471,6 +471,7 @@ context('Renamer', () => {
     
     screenshot('.app', 'previewing Anime name with extra ep. data');
     
+    cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newName }`);
@@ -548,9 +549,9 @@ context('Renamer', () => {
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
     const logs = [
-      `${ appConfig.output }/My Name Is Earl - 1x01 - Pilot.mkv`,
-      `${ appConfig.output }/My Name Is Earl - 1x02 - Quit Smoking.mkv`,
-      `${ appConfig.output }/My Name Is Earl - 2x01 - Very Bad Things.mkv`,
+      `${ appConfig.output }/My Name Is Earl/My Name Is Earl - 1x01 - Pilot.mkv`,
+      `${ appConfig.output }/My Name Is Earl/My Name Is Earl - 1x02 - Quit Smoking.mkv`,
+      `${ appConfig.output }/My Name Is Earl/My Name Is Earl - 2x01 - Very Bad Things.mkv`,
       `✓Deleted folder: "${ appConfig.source }/My Name is Earl S01-S04 Season 1-4"`,
     ];
     cy.get('.log-item__body').each(($log, logNdx) => {

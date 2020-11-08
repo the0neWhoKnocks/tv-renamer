@@ -470,11 +470,29 @@ context('Renamer', () => {
     });
     
     screenshot('.app', 'previewing Anime name with extra ep. data');
+  });
+  
+  it('should maintain the series year on cache update', () => {
+    const jsonPath = '/e2e/mnt/data/tmdb__cache/hunter_x_hunter_2011.json';
+    cy.readFile(jsonPath, 'utf8').then((json) => {
+      json.seasons['2'].episodes[2] = undefined;
+      cy.writeFile(jsonPath, json, 'utf8');
+    });
+    
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+    screenshot('.app', 'cache needs to update');
+    
+    cy.get('.is--refresh').contains('Cache').click();
+    const epName = 'Hunter x Hunter (2011) - 2x02 - (64) Strengthen x And x Threaten.mkv';
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').then(($el) => {
+      expect($el.text()).to.equal(epName);
+    });
+    screenshot('.app', 'series year remains');
     
     cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
-      expect($el.text()).to.equal(`${ appConfig.output }/${ newName }`);
+      expect($el.text()).to.equal(`${ appConfig.output }/${ epName }`);
     });
     
     screenshot('.app', 'file renamed');

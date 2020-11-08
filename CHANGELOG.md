@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v3.3.1
+
+**Bugfixes**
+- [26deaf6](https://github.com/the0neWhoKnocks/tv-renamer/commit/26deaf6):  Assigned item removing year after cache update
+
+---
+
 ## v3.3.0
 
 **Dev-Ops**

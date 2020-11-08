@@ -18,11 +18,12 @@ export default ({
   recentlyCached,
   seriesName: userSeriesName,
   seriesYear,
+  update,
 }) => new Promise(
   (resolve, reject) => {
     let _seriesYear = seriesYear;
     
-    if(cache[cacheKey]){
+    if(!update && cache[cacheKey]){
       const cachedItem = cache[cacheKey];
       log(`Using cache for series: "${ cachedItem.name }"`);
       resolve({ cache: cachedItem, index });

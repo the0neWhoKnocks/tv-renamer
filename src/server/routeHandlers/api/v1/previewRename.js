@@ -174,10 +174,7 @@ export default ({ reqData, res }) => {
       
       if(nameWithYear && !uniqueNames.includes(nameWithYear)) {
         uniqueNames.push(nameWithYear);
-        
-        if(!updateCache){
-          pendingCacheLookups.push(loadCacheItem({ cacheKey: idMap[seriesID], name: nameWithYear }));
-        }
+        pendingCacheLookups.push(loadCacheItem({ cacheKey: idMap[seriesID], name: nameWithYear }));
       }
     }
     
@@ -193,7 +190,7 @@ export default ({ reqData, res }) => {
         for(let i=0; i<names.length; i++){
           const { id: seriesID, index, name, nameWithYear, updateCache, year } = names[i] || {};
           requestedNames.push({ id: seriesID, index, name, nameWithYear, year });
-          if(!updateCache) _cachedItems.push({ ...cacheMap[nameWithYear], index });
+          _cachedItems.push({ ...cacheMap[nameWithYear], index, update: updateCache });
         }
         
         return {
@@ -208,8 +205,8 @@ export default ({ reqData, res }) => {
         let allCached = !!cachedItems.length;
         
         for(let i=0; i<cachedItems.length; i++){
-          const { cacheKey, file } = cachedItems[i];
-          if(!file) allCached = false;
+          const { cacheKey, file, update } = cachedItems[i];
+          if(!file || update) allCached = false;
           cache[cacheKey] = file;
         }
         
@@ -244,7 +241,7 @@ export default ({ reqData, res }) => {
               // make an initial request so the series gets cached, then finish
               // up the remaining items.
               const seriesRequestsInProgress = [];
-              const seriesDataPromise = ({ id, index, name, year }, ndx) => lookUpSeries({
+              const seriesDataPromise = ({ id, index, name, update, year }, ndx) => lookUpSeries({
                 apiKey,
                 cache, 
                 cacheKey: (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined, 
@@ -254,6 +251,7 @@ export default ({ reqData, res }) => {
                 res,
                 seriesName: name,
                 seriesYear: year,
+                update,
               });
               const pendingSeriesData = requestedNames
                 .filter((lookup) => {
@@ -279,7 +277,7 @@ export default ({ reqData, res }) => {
                   
                   let pending;
                   
-                  if(requestedNames.length === 1){
+                  if(requestedNames.length === 1 && !updatingCache){
                     // If only one rename was requested, no need for extra churn.
                     pending = [Promise.resolve(seriesData[0])];
                   }
@@ -305,6 +303,14 @@ export default ({ reqData, res }) => {
                         // Map the newly scraped data to the partially set up
                         // items so any further lookups are read from memory.
                         if(seriesCache) cachedItems[ndx].file = cache[cacheKey];
+                        if(updatingCache) {
+                          const item = cachedItems[ndx];
+                          const [, year] = item.file.name.match(/\((\d{4})\)$/) || [];
+                          
+                          lookup.nameWithYear = item.cacheKey.replace(/_/g, ' ');
+                          lookup.update = true;
+                          if(year) lookup.year = year;
+                        }
                         return seriesDataPromise(lookup, ndx);
                       }
                     });  

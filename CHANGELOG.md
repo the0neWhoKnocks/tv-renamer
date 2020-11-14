@@ -1,6 +1,16 @@
 # Changelog
 ---
 
+## v3.3.2
+
+**Bugfixes**
+- [ba5c21b](https://github.com/the0neWhoKnocks/tv-renamer/commit/ba5c21b):  Error during cache update
+
+**Dev-Ops**
+- [8080137](https://github.com/the0neWhoKnocks/tv-renamer/commit/8080137):  Added test to ensure assigned series year remains
+
+---
+
 ## v3.3.1
 
 **Bugfixes**

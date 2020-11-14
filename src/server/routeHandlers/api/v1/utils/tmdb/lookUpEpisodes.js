@@ -49,7 +49,9 @@ export default ({
             const additionalEpNum = (airedEpisodeNumber !== listedEpisodeNumber)
               ? `(${ listedEpisodeNumber }) `
               : '';
-            currSeasonEps[airedEpisodeNumber] = `${ additionalEpNum }${ sanitizeName(episodeName) }`;
+            currSeasonEps[airedEpisodeNumber] = (episodeName)
+              ? `${ additionalEpNum }${ sanitizeName(episodeName) }`
+              : null;
           }
         }
         
@@ -84,14 +86,20 @@ export default ({
           resolve({ cache, index });
         }
       })
-      .catch(({ err, resp = {} }) => {
-        resolve({
-          error: timeoutCodeCheck(err)
+      .catch((_err) => {
+        let error;
+        
+        if(_err instanceof Error){
+          error = _err.stack;
+        }
+        else{
+          const { err, resp = {} } = _err;
+          error = timeoutCodeCheck(err)
             ? `Episodes look-up timed out for: "${ seriesName }"`
-            : `Couldn't get episodes for: "${ seriesName }" | ${ resp.statusCode } - ${ err }`,
-          index,
-          name: seriesName,
-        });
+            : `Couldn't get episodes for: "${ seriesName }" | ${ resp.statusCode } - ${ err }`;
+        }
+        
+        resolve({ error, index, name: seriesName });
       });
   }
 );

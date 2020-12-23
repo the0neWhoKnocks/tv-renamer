@@ -1,0 +1,42 @@
+{
+  "dvdSeasons": {},
+  "id": 78102,
+  "name": "Steins;Gate 0",
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        "Valentine's of Crystal Polymorphism -Bittersweet Intermedio-"
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        "Missing Link of the Annihilator -Absolute Zero-",
+        "Epigraph of the Closed Curve -Closed Epigraph-",
+        "Protocol of the Two-sided Gospel -X-day Protocol-",
+        "Solitude of the Mournful Flow -A Stray Sheep-",
+        "Solitude of the Astigmatism -Entangled Sheep-",
+        "Eclipse of Orbital Ordering -The Orbital Eclipse-",
+        "Eclipse of Vibronic Transition- Vibronic Transition",
+        "Dual of Antinomy- Antinomic Dual",
+        "Pandora of Eternal Return- Pandora's Box",
+        "Pandora of Provable Existence- Forbidden Cubicle",
+        "Pandora of Forgotten Existence- Sealed Reliquary",
+        "Mother Goose of Mutual Recursion- Recursive Mother Goose",
+        "Mother Goose of Distractive Recitativo- Distraction Mother Goose",
+        "Recognition of the Elastic Limit -Presage or Recognize-",
+        "Recognition of the Asymptotic Line -Recognize Asymptote-",
+        "Altair of the Point at Infinity -Vega and Altair-",
+        "Altair of the Hyperbolic Plane -Beltrami Pseudosphere-",
+        "Altair of Translational Symmetry -Translational Symmetry-",
+        "Altair of the Cyclic Coordinate -Time-leap Machine-",
+        "Rinascimento of the Unwavering Promise -Promised Rinascimento-",
+        "Rinascimento of Image Formation -Return of Phoenix-",
+        "Rinascimento of Projection -Project Amadeus-",
+        "Arclight of the Point at Infinity- Arclight of the Sky"
+      ]
+    }
+  },
+  "cacheKey": "steinsgate_0"
+}

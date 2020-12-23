@@ -94,7 +94,7 @@ context('Renamer', () => {
   });
   
   it('should have loaded files to rename', () => {
-    expect(fileNames.length).to.eq(82);
+    expect(fileNames.length).to.eq(83);
     
     cy.get('.renamable__ce-fix [spellcheck="false"]')
       .each(($el, ndx) => {
@@ -153,13 +153,14 @@ context('Renamer', () => {
       "Speechless - 3x09 - J-A- JAVIER'S P-A- PANTS.mkv",
       'Star Trek- Discovery - 2x01 - Brother.mkv',
       'Stargate SG-1 - 1x01x02 - Children of the Gods.mkv',
+      'Steins;Gate 0 - 1x02 - Epigraph of the Closed Curve -Closed Epigraph-.mkv',
       'Suits - 8x12 - Whale Hunt.mkv',
       'Supernatural - 14x10 - Nihilism.mkv',
       'Supernatural - 14x15 - Peace of Mind.mkv',
       'The Blacklist - 6x02 - The Corsican.mkv',
       'The Dragon Prince - 2x03 - Smoke and Mirrors.mkv',
       'The Good Doctor - 2x11 - Quarantine (2).mkv',
-      'The Good Place - 3x10 - The Book of Dougs.mkv',
+      'The Good Place - 3x10 - The Book Of Dougs.mkv',
       'The Last O.G. - 3x04 - They Reminisce Over You.mkv',
       'The Magicians (2015) - 4x01 - A Flock of Lost Birds.mkv',
       'The Orville - 2x03 - Home.mkv',

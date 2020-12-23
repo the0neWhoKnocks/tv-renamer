@@ -8,17 +8,23 @@ import {
   TMDB__TOKEN__SEASON_NUMBER,
   TMDB__TOKEN__SERIES_ID,
 } from 'ROOT/conf.app';
+import logger from 'SERVER/utils/logger';
 import transformAPIURL from '../transformAPIURL';
+import formatURL from './formatURL';
 import tmdbRequestProps from './tmdbRequestProps';
 import tmdbResponseHandler from './tmdbResponseHandler';
 
+const log = logger('server:getSeriesEpisodes');
+
 const requestEpisodesBySeason = ({ apiKey, seasonNum, seriesID }) => new Promise(
   (resolve, reject) => {
-    const { params, reqURL } = transformAPIURL(TMDB__API__SEASON_EPISODES, [
+    const { params, rawURL, reqURL } = transformAPIURL(TMDB__API__SEASON_EPISODES, [
       [TMDB__TOKEN__SEASON_NUMBER, seasonNum],
       [TMDB__TOKEN__SERIES_ID, seriesID],
     ]);
     const reqOpts = { ...tmdbRequestProps({ apiKey, params }) };
+    
+    log(`Get episodes by season from "${ formatURL(rawURL, reqOpts) }"`);
     
     request(
       { uri: reqURL, ...reqOpts },
@@ -28,10 +34,12 @@ const requestEpisodesBySeason = ({ apiKey, seasonNum, seriesID }) => new Promise
 );
 
 const requestEpisodesByGroup = ({ apiKey, groupID }) => new Promise((resolve, reject) => {
-  const { params, reqURL } = transformAPIURL(TMDB__API__SEASON_EPISODE_GROUP, [
+  const { params, rawURL, reqURL } = transformAPIURL(TMDB__API__SEASON_EPISODE_GROUP, [
     [TMDB__TOKEN__EPISODE_GROUP_ID, groupID],
   ]);
   const reqOpts = { ...tmdbRequestProps({ apiKey, params }) };
+  
+  log(`Get episodes by group from "${ formatURL(rawURL, reqOpts) }"`);
   
   request(
     { uri: reqURL, ...reqOpts },

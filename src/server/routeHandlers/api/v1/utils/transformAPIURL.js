@@ -11,7 +11,7 @@ const transformAPIURL = (url, tokens) => {
   
   const params = parse(_url, true).query || {};
   
-  return { params, reqURL: _url.split('?')[0] };
+  return { params, rawURL: _url, reqURL: _url.split('?')[0] };
 };
 
 export default transformAPIURL;

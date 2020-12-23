@@ -177,7 +177,6 @@ context('Renamer', () => {
     ];
     cy.get('.app.enable--rename .renamable.is--previewing.is--selected').each(($previewEl, ndx) => {
       const text = $previewEl.find('.renamable__new-name-text').text();
-      console.log(text, newNames[ndx]);
       expect(text).to.equal(newNames[ndx]);
       
       const navItems = $previewEl.find('.renamable__nav').children();

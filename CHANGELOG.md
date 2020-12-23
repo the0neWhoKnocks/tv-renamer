@@ -1,6 +1,17 @@
 # Changelog
 ---
 
+## v3.4.0
+
+**Bugfixes**
+- [34b194c](https://github.com/the0neWhoKnocks/tv-renamer/commit/34b194c):  Steins Gate Zero not found
+
+**Dev-Ops**
+- [15a4a52](https://github.com/the0neWhoKnocks/tv-renamer/commit/15a4a52):  Added retry logic for tests
+- [cd10d6b](https://github.com/the0neWhoKnocks/tv-renamer/commit/cd10d6b):  Added more logging for episode scraping
+
+---
+
 ## v3.3.2
 
 **Bugfixes**

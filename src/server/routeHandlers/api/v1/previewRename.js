@@ -1,5 +1,6 @@
 import {
   PUBLIC_SERIES_ID_CACHE_MAP,
+  VERSION__CACHE_SCHEMA,
   TMDB__TOKEN__SERIES_ID,
   TMDB__URL__SERIES,
 } from 'ROOT/conf.app';
@@ -186,11 +187,26 @@ export default ({ reqData, res }) => {
         }, {});
         const _cachedItems = [];
         const requestedNames = [];
+        const forcedUpdates = [];
         
         for(let i=0; i<names.length; i++){
           const { id: seriesID, index, name, nameWithYear, updateCache, year } = names[i] || {};
-          requestedNames.push({ id: seriesID, index, name, nameWithYear, year });
-          _cachedItems.push({ ...cacheMap[nameWithYear], index, update: updateCache });
+          const currCache = cacheMap[nameWithYear];
+          let _updateCache = updateCache;
+          
+          if(
+            !_updateCache
+            && (currCache && currCache.file)
+            && (!currCache.file.schema || currCache.file.schema < VERSION__CACHE_SCHEMA)
+            && !forcedUpdates.includes(currCache.file.name)
+          ) {
+            log(`Old schema detected, forcing an update for: "${ currCache.file.name }"`);
+            _updateCache = true;
+            forcedUpdates.push(currCache.file.name);
+          }
+          
+          requestedNames.push({ id: seriesID, index, name, nameWithYear, update: _updateCache, year });
+          _cachedItems.push({ ...currCache, index, update: _updateCache });
         }
         
         return {

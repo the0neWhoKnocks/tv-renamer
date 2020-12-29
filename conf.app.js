@@ -108,6 +108,7 @@ module.exports = {
   TMDB__URL__SERIES: `${ TMDB__URL__DOMAIN }/tv/${ TMDB__TOKEN__SERIES_ID }`,
   // NOTE - domain and images sizes are found here https://developers.themoviedb.org/3/configuration/get-api-configuration
   TMDB__URL__THUMBNAILS: `${ TMDB__URL__IMG_DOMAIN }/t/p/w154`,
+  VERSION__CACHE_SCHEMA: 3,
   WP__ENTRY: `${ SRC }/app.js`,
   WP__OUTPUT: DIST_JS,
   aliases: {

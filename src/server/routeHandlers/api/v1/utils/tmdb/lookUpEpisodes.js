@@ -1,4 +1,5 @@
 import {
+  VERSION__CACHE_SCHEMA,
   TMDB__EPISODE_GROUP_TYPE__DVD,
 } from 'ROOT/conf.app';
 import cacheData from '../cacheData';
@@ -20,6 +21,7 @@ export default ({
   (resolve, reject) => {
     // https://kodi.wiki/view/NFO_files/TV_shows#nfo_Tags
     const cache = {
+      schema: VERSION__CACHE_SCHEMA,
       genres: seriesData.genres,
       id: seriesID, // maps to `uniqueid`
       images: seriesData.images,

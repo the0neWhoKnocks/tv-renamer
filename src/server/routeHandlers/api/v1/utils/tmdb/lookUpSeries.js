@@ -104,8 +104,24 @@ export default ({
         }
       })
         .then(opts => getSeriesDetails({ ...opts, apiKey })
-          .then(({ episode_groups, name: seriesName, seasons }) => {
+          .then(({
+            aggregate_credits,
+            backdrop_path,
+            content_ratings,
+            first_air_date: premiered,
+            episode_groups,
+            genres,
+            name: seriesName,
+            networks,
+            overview,
+            poster_path,
+            seasons,
+            status,
+          }) => {
             let episodeGroups;
+            let actors = [];
+            let mpaa = '';
+            let studios = [];
             
             if(episode_groups && episode_groups.results){
               episodeGroups = episode_groups.results.reduce((obj, { id, type }) => {
@@ -115,9 +131,33 @@ export default ({
               }, {});
             }
             
+            if(aggregate_credits && aggregate_credits.cast){
+              actors = aggregate_credits.cast.map(({ name, order, profile_path: thumb, roles }) => {
+                const role = (roles && roles.length && roles[0].character) || '';
+                return { name, order, role, thumb };
+              });
+            }
+            
+            if(content_ratings && content_ratings.results){
+              const r = content_ratings.results.find(({ iso_3166_1 }) => iso_3166_1 === 'US');
+              if(r) mpaa = r.rating;
+            }
+            
+            if(networks) studios = networks.map(({ name }) => name);
+            
             return {
               episodeGroups,
               seasonNumbers: seasons.map(({ season_number }) => season_number),
+              seriesData: {
+                actors,
+                genres: genres.map(({ name }) => name),
+                images: { backdrop: backdrop_path, poster: poster_path },
+                mpaa,
+                studios,
+                overview,
+                premiered,
+                status,
+              },
               seriesID: opts.seriesID,
               seriesName,
             };

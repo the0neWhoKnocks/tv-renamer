@@ -88,7 +88,7 @@ module.exports = {
   SRC_STATIC: `${ SRC }/static`,
   TMDB__API__SEASON_EPISODES: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }/season/${ TMDB__TOKEN__SEASON_NUMBER }`,
   TMDB__API__SEASON_EPISODE_GROUP: `${ TMDB__URL__API }/tv/episode_group/${ TMDB__TOKEN__EPISODE_GROUP_ID }`,
-  TMDB__API__SERIES_DETAILS: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }?append_to_response=episode_groups`,
+  TMDB__API__SERIES_DETAILS: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }?append_to_response=episode_groups,content_ratings,aggregate_credits`,
   TMDB__API__SERIES_SEARCH: `${ TMDB__URL__API }/search/tv?page=${ TMDB__TOKEN__SERIES_PAGE }&query=${ TMDB__TOKEN__SERIES_QUERY }&include_adult=false&first_air_date_year=${ TMDB__TOKEN__SERIES_YEAR }`,
   TMDB__EPISODE_GROUP_TYPE__AIR_DATE,
   TMDB__EPISODE_GROUP_TYPE__ABSOLUTE,

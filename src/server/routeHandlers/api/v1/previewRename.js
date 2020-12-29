@@ -319,14 +319,19 @@ export default ({ reqData, res }) => {
                         // Map the newly scraped data to the partially set up
                         // items so any further lookups are read from memory.
                         if(seriesCache) cachedItems[ndx].file = cache[cacheKey];
+                        
                         if(updatingCache) {
                           const item = cachedItems[ndx];
                           const [, year] = item.file.name.match(/\((\d{4})\)$/) || [];
                           
                           lookup.nameWithYear = item.cacheKey.replace(/_/g, ' ');
-                          lookup.update = true;
                           if(year) lookup.year = year;
                         }
+                        
+                        // The initial series lookup should've already handled
+                        // any updates, so ignore any other updates.
+                        if(lookup.update) lookup.update = false;
+                        
                         return seriesDataPromise(lookup, ndx);
                       }
                     });  

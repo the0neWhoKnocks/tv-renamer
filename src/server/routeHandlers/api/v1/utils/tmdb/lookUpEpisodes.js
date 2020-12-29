@@ -11,16 +11,27 @@ export default ({
   episodeGroups,
   index,
   recentlyCached,
-  seasonNumbers, 
+  seasonNumbers,
+  seriesData,
   seriesID,
   seriesName,
   seriesYear,
 } = {}) => new Promise(
   (resolve, reject) => {
+    // https://kodi.wiki/view/NFO_files/TV_shows#nfo_Tags
     const cache = {
+      genres: seriesData.genres,
+      id: seriesID, // maps to `uniqueid`
+      images: seriesData.images,
+      mpaa: seriesData.mpaa,
+      name: `${ seriesName }${ seriesYear ? ` (${ seriesYear })` : '' }`, // maps to `title`
+      plot: seriesData.plot,
+      premiered: seriesData.premiered, // Release date of TV Show. Comes from Aired Date of the first episode.
+      status: seriesData.status, // `Continuing` or `Ended` show
+      studios: seriesData.studios,
+      // NOTE - there are some nodes that have a ton of data, and are placed at the end for readability
+      actors: seriesData.actors,
       dvdSeasons: {},
-      id: seriesID,
-      name: `${ seriesName }${ seriesYear ? ` (${ seriesYear })` : '' }`,
       seasons: {},
     };
     

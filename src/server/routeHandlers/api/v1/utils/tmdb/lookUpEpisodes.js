@@ -42,39 +42,62 @@ export default ({
         for(let s=0; s<seasons.length; s++){
           const episodes = seasons[s];
           
+          // Sometimes a season will have missing data for an episode (GoT 
+          // specials ep41 for example), and TMDB doesn't seem to have defaults
+          // for missing episodes. Normally wouldn't be an issue, but when it
+          // comes to determining the extra numbering for Anime, it becomes 
+          // problematic. So, do an initial pass on the episode numbers, and
+          // see if anything's missing, if there is, fill it in with a `null` value.
           for(let i=0; i<episodes.length; i++){
-            const {
-              air_date: aired,
-              episode_number: listedEpisodeNumber,
-              name: episodeName,
-              overview: plot,
-              season_number: airedSeason,
-              still_path: thumbnail,
-            } = episodes[i];
-            const airedEpisodeNumber = i + 1;
+            const { episode_number: curr } = episodes[i] || {};
+            const { episode_number: next } = episodes[i+1] || {};
             
-            if(!cache.seasons[airedSeason]) cache.seasons[airedSeason] = { episodes: [] };
+            if(
+              (curr && next)
+              && curr + 1 !== next
+              && i+1 !== episodes.length
+            ){
+              episodes.splice(i+1, 0, null);
+            }
+          }
+          
+          for(let i=0; i<episodes.length; i++){
+            const currEp = episodes[i];
             
-            const currSeasonEps = cache.seasons[airedSeason].episodes;
-            // Some series (like Anime), list episode numbers by the total episodes
-            // in the series. So if a series has 2 seasons, each 12 episodes long,
-            // the last episode of Season 2 would be 24, not 12. To account for
-            // such cases, prepend the additional episode info to the episode
-            // name (not the episode) to not potentially break any media manager
-            // parsing.
-            const additionalEpNum = (airedEpisodeNumber !== listedEpisodeNumber)
-              ? `(${ listedEpisodeNumber }) `
-              : '';
-            const formattedName = (episodeName)
-              ? `${ additionalEpNum }${ sanitizeName(episodeName) }`
-              : null;
-            
-            currSeasonEps[airedEpisodeNumber] = {
-              aired,
-              plot,
-              thumbnail,
-              title: formattedName,
-            };
+            if(currEp){ // can be `null` sometimes
+              const {
+                air_date: aired,
+                episode_number: listedEpisodeNumber,
+                name: episodeName,
+                overview: plot,
+                season_number: airedSeason,
+                still_path: thumbnail,
+              } = currEp;
+              const airedEpisodeNumber = i + 1;
+              
+              if(!cache.seasons[airedSeason]) cache.seasons[airedSeason] = { episodes: [] };
+              
+              const currSeasonEps = cache.seasons[airedSeason].episodes;
+              // Some series (like Anime), list episode numbers by the total episodes
+              // in the series. So if a series has 2 seasons, each 12 episodes long,
+              // the last episode of Season 2 would be 24, not 12. To account for
+              // such cases, prepend the additional episode info to the episode
+              // name (not the episode) to not potentially break any media manager
+              // parsing.
+              const additionalEpNum = (airedEpisodeNumber !== listedEpisodeNumber)
+                ? `(${ listedEpisodeNumber }) `
+                : '';
+              const formattedName = (episodeName)
+                ? `${ additionalEpNum }${ sanitizeName(episodeName) }`
+                : null;
+              
+              currSeasonEps[airedEpisodeNumber] = {
+                aired,
+                plot,
+                thumbnail,
+                title: formattedName,
+              };
+            }
           }
         }
         

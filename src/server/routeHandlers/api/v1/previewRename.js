@@ -24,14 +24,14 @@ const parseEpNum = (episode) => {
 };
 
 const buildEpNums = (episodes) => {
-  return episodes.map((ep) => `x${ parseEpNum(ep) }`).join('');
+  return episodes.map((ndx) => `x${ parseEpNum(ndx) }`).join('');
 };
 
 const buildEpTitle = (seasons, season, episodes) => {
   const epNames = [];
   
-  episodes.forEach((ep) => {
-    const epName = seasons[season].episodes[ep];
+  episodes.forEach((ndx) => {
+    const epName = seasons[season].episodes[ndx].title;
     
     if(epName){
       if(episodes.length > 1){

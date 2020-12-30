@@ -44,9 +44,12 @@ export default ({
           
           for(let i=0; i<episodes.length; i++){
             const {
+              air_date: aired,
               episode_number: listedEpisodeNumber,
               name: episodeName,
+              overview: plot,
               season_number: airedSeason,
+              still_path: thumbnail,
             } = episodes[i];
             const airedEpisodeNumber = i + 1;
             
@@ -62,9 +65,16 @@ export default ({
             const additionalEpNum = (airedEpisodeNumber !== listedEpisodeNumber)
               ? `(${ listedEpisodeNumber }) `
               : '';
-            currSeasonEps[airedEpisodeNumber] = (episodeName)
+            const formattedName = (episodeName)
               ? `${ additionalEpNum }${ sanitizeName(episodeName) }`
               : null;
+            
+            currSeasonEps[airedEpisodeNumber] = {
+              aired,
+              plot,
+              thumbnail,
+              title: formattedName,
+            };
           }
         }
         
@@ -75,8 +85,11 @@ export default ({
             
             for(let j=0; j<dvdEps.length; j++){
               const {
+                air_date: aired,
                 name: episodeName,
                 order,
+                overview: plot,
+                still_path: thumbnail,
               } = dvdEps[j];
               const dvdEpisodeNumber = order + 1;
               
@@ -85,7 +98,12 @@ export default ({
               
               if(dvdSeason !== null){
                 const currDvdSeasonEps = cache.dvdSeasons[dvdSeason].episodes;
-                currDvdSeasonEps[dvdEpisodeNumber] = sanitizeName(episodeName);
+                currDvdSeasonEps[dvdEpisodeNumber] = {
+                  aired,
+                  plot,
+                  thumbnail,
+                  title: sanitizeName(episodeName),
+                };
               }
             }
           }

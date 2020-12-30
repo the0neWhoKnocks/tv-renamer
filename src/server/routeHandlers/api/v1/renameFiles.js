@@ -7,6 +7,7 @@ import { PUBLIC_RENAME_LOG } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'SERVER/utils/jsonResp';
+import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
 import filesFilter from './utils/filesFilter';
 import loadConfig from './utils/loadConfig';
@@ -14,9 +15,13 @@ import loadRenameLog from './utils/loadRenameLog';
 import moveFile from './utils/moveFile';
 import sanitizeName from './utils/sanitizeName';
 
+const log = logger('server:renameFiles');
+
 const MAX_LOG_ENTRIES = 200;
 
 const createLog = (data = {}) => ({ ...data, time: Date.now() });
+
+const pad = (num, token='00') => token.substring(0, token.length-`${ num }`.length) + num;
 
 export default ({ reqData, res }) => {
   const names = reqData.names;
@@ -28,6 +33,7 @@ export default ({ reqData, res }) => {
       const pendingNames = [];
       const mappedLogs = {};
       const nestedRoots = new Map();
+      const createdFolders = [];
       
       names.forEach(({ index, moveToFolder, newName, oldPath }) => {
         let _outputFolder = outputFolder;
@@ -35,23 +41,44 @@ export default ({ reqData, res }) => {
         
         pendingNames.push(oldPath);
         
-        // Move to a series folder (if specified)
+        // Create folder structure
         if(moveToFolder){
-          _outputFolder = `${ outputFolder }/${ sanitizeName(moveToFolder, true) }`;
+          const { season } = ((newName.match(/- (?<season>\d{1,2})x\d{2} -/) || {}).groups || {});
           
-          // if folder exists don't do anything
-          try { lstatSync(_outputFolder); }
-          catch(err) { // if folder doesn't exist, there'll be an error
-            try {
-              mkdirp.sync(_outputFolder);
-              
-              try { execSync(`chmod 0777 "${ _outputFolder }"`); }
-              catch(err){ folderErr = `Error chmod'ing "${ _outputFolder }" | ${ err }`; }
+          if(season){
+            const folderName = (season > 0) ? `Season ${ pad(season) }` : 'Specials';
+            _outputFolder = `${ outputFolder }/${ sanitizeName(moveToFolder, true) }/${ folderName }`;
+            
+            // only try to create folders if they haven't already been created
+            // during this run
+            if(!createdFolders.includes(_outputFolder)){
+              // if folder exists don't do anything
+              try { lstatSync(_outputFolder); }
+              catch(err) { // if folder doesn't exist, there'll be an error
+                try {
+                  mkdirp.sync(_outputFolder);
+                  createdFolders.push(_outputFolder);
+                  log(`Created "${ _outputFolder }"`);
+                }
+                catch(err){
+                  const error = `Error creating "${ _outputFolder }" | ${ err }`;
+                  log(`[ERROR] ${ error }`);
+                  folderErr = error;
+                }
+                
+                try { execSync(`chmod 0777 "${ _outputFolder }"`); }
+                catch(err){
+                  const error = `Error chmod'ing "${ _outputFolder }" | ${ err }`;
+                  log(`[ERROR] ${ error }`);
+                  folderErr = error;
+                }
+              }
             }
-            catch(err){
-              // there should never be an error here
-              folderErr = `Error stat'ing "${ oldPath }" | ${ err }`;
-            }
+          }
+          else{
+            const err = `Could not determine folder name from "${ newName }"`;
+            log(`[ERROR] ${ err }`);
+            folderErr = err;
           }
         }
         

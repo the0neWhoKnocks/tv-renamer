@@ -9,7 +9,9 @@ import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'SERVER/utils/jsonResp';
 import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
+import { writeXML } from 'SERVER/utils/xml';
 import filesFilter from './utils/filesFilter';
+import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
 import loadRenameLog from './utils/loadRenameLog';
 import moveFile from './utils/moveFile';
@@ -27,15 +29,17 @@ export default ({ reqData, res }) => {
   const names = reqData.names;
   
   loadConfig(({ outputFolder, sourceFolder }) => {
-    loadRenameLog((logs) => {
+    loadRenameLog(async (logs) => {
       const newLogs = [];
       const pendingMoves = [];
       const pendingNames = [];
       const mappedLogs = {};
       const nestedRoots = new Map();
       const createdFolders = [];
+      const loadedCache = {};
       
-      names.forEach(({ index, moveToFolder, newName, oldPath }) => {
+      for(let i=0; i<names.length; i++){
+        const { cacheKey, episodeNdx, index, moveToFolder, newName, oldPath, seasonNumber } = names[i];
         let _outputFolder = outputFolder;
         let folderErr;
         
@@ -43,11 +47,13 @@ export default ({ reqData, res }) => {
         
         // Create folder structure
         if(moveToFolder){
+          const SERIES_FOLDER = `${ outputFolder }/${ sanitizeName(moveToFolder, true) }`;
+          const NFO_PATH = `${ SERIES_FOLDER }/tvshow.nfo`;
           const { season } = ((newName.match(/- (?<season>\d{1,2})x\d{2} -/) || {}).groups || {});
           
           if(season){
             const folderName = (season > 0) ? `Season ${ pad(season) }` : 'Specials';
-            _outputFolder = `${ outputFolder }/${ sanitizeName(moveToFolder, true) }/${ folderName }`;
+            _outputFolder = `${ SERIES_FOLDER }/${ folderName }`;
             
             // only try to create folders if they haven't already been created
             // during this run
@@ -80,6 +86,34 @@ export default ({ reqData, res }) => {
             log(`[ERROR] ${ err }`);
             folderErr = err;
           }
+          
+          // Create nfo only if it doesn't already exist. Saves on cache loads
+          // and XML creation.
+          try { lstatSync(NFO_PATH); }
+          catch(err) {
+            let cache;
+            // load, or use already loaded cache
+            if(loadedCache[cacheKey]) cache = loadedCache[cacheKey];
+            else{
+              cache = (await loadCacheItem({ cacheKey })).file;
+              loadedCache[cacheKey] = cache; // eslint-disable-line require-atomic-updates
+            }
+            
+            const data = {
+              tvshow: {
+                title: cache.name,
+                plot: cache.plot,
+                mpaa: cache.mpaa,
+                uniqueid: { '@type': 'tmdb', '@default': true },
+                genre: cache.genres.map(g => g),
+                premiered: cache.premiered,
+                status: cache.status,
+                studio: cache.studios.map(s => s),
+                actor: cache.actors.map(a => a),
+              },
+            };
+            writeXML(data, NFO_PATH);
+          }
         }
         
         pendingMoves.push(new Promise((resolve, reject) => {
@@ -104,6 +138,35 @@ export default ({ reqData, res }) => {
               }
               
               if(moveErr) log.error = moveErr.message;
+              else{
+                // TODO - de-dupe from above
+                let cache;
+                // load, or use already loaded cache
+                if(loadedCache[cacheKey]) cache = loadedCache[cacheKey];
+                else{
+                  cache = (await loadCacheItem({ cacheKey })).file;
+                  loadedCache[cacheKey] = cache; // eslint-disable-line require-atomic-updates
+                }
+                
+                const { aired, plot, /* thumbnail,*/ title } = cache.seasons[seasonNumber].episodes[episodeNdx];
+                writeXML({
+                  episodedetails: {
+                    title,
+                    showtitle: cache.name,
+                    plot,
+                    uniqueid: { '@type': 'tmdb', '@default': true },
+                    aired,
+                    watched: false,
+                    // TODO - read metadata
+                    // fileinfo: {
+                    //   streamdetails: {
+                    //     video: {},
+                    //     audio: [],
+                    //   },
+                    // },
+                  },
+                }, data.to.replace(/\.[\w]{3}$/, '.nfo'));
+              }
               
               newLogs.push(log);
               mappedLogs[index] = log;
@@ -118,7 +181,7 @@ export default ({ reqData, res }) => {
             });
           }
         }));
-      });
+      }
       
       Promise.all(pendingMoves)
         .then(async () => {

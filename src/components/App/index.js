@@ -135,9 +135,12 @@ class App extends Component {
       const previewItem = App.getPreviewItem(ndx, previewItems);
       
       if(previewItem){
+        data.cacheKey = previewItem.cacheKey;
+        data.episodeNdx = previewItem.episodeNdx;
         data.error = previewItem.error;
         data.id = previewItem.id;
         data.newName = previewItem.name;
+        data.seasonNumber = previewItem.seasonNumber;
         data.seriesURL = previewItem.seriesURL;
         
         if(!useGlobalToggle && !data.error) data.selected = true;
@@ -639,12 +642,15 @@ class App extends Component {
       const index = itemData.index;
       
       return {
+        cacheKey: itemData.cacheKey,
+        episodeNdx: itemData.episodeNdx,
         index,
         moveToFolder: (files[index].folderSelected)
           ? previewItems[index].seriesName
           : undefined,
         newName: itemData.newName,
         oldPath: itemData.oldPath,
+        seasonNumber: itemData.seasonNumber,
       };
     });
     

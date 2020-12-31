@@ -170,6 +170,8 @@ class Renamable extends Component {
   
   render() {
     const {
+      cacheKey,
+      episodeNdx,
       error,
       ext,
       id,
@@ -180,6 +182,7 @@ class Renamable extends Component {
       newName,
       path,
       previewing,
+      seasonNumber,
       seriesURL,
       skipped,
     } = this.props;
@@ -312,9 +315,12 @@ class Renamable extends Component {
             <Fragment>
               <div 
                 className={`${ ROOT_CLASS }__new-name ${ newNameModifier }`}
+                data-cache-key={cacheKey}
+                data-episode-ndx={episodeNdx}
                 data-index={itemIndex}
                 data-new-name={`${ newName }${ ext }`}
                 data-old-path={`${ path }/${ name }${ ext }`}
+                data-season-number={seasonNumber}
               >
                 <div className={`${ ROOT_CLASS }__new-name-text ${ newNameModifier }`}>
                   {_newName}
@@ -330,6 +336,8 @@ class Renamable extends Component {
 }
 
 Renamable.propTypes = {
+  cacheKey: string,
+  episodeNdx: number,
   error: string,
   ext: string,
   folderSelected: bool,
@@ -351,6 +359,7 @@ Renamable.propTypes = {
   onUpdateClick: func,
   path: string,
   previewing: bool,
+  seasonNumber: number,
   selected: bool,
   seriesURL: string,
   skipped: bool,

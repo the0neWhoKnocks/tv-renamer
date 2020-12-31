@@ -13,6 +13,7 @@ NFO Scraping
       - poster
   - [ ] Create <episode-name>.nfo file for episode. Would have to use a lot of
   the same media scraping logic from movie-list (ffmpeg).
+  - [ ] Sanitize XML data, replace things like `’` with `'` (GoT plot)
     - [ ] scrape <episode-name>-thumb.jpg for episode
       - allow user to pick season image
   

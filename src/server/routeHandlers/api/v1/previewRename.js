@@ -98,9 +98,12 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
         const newName = `${ cache.name } - ${ season }${ buildEpNums(episodes) } - ${ buildEpTitle(cachedSeasons, season, episodes) }`;
           
         renamed.push({
+          cacheKey: cache.cacheKey,
+          episodeNdx: episode,
           id: cache.id,
           index,
           name: sanitizeName(newName),
+          seasonNumber: season,
           seriesName: cache.name,
           seriesURL,
         });

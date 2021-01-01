@@ -7,6 +7,7 @@ const LogItem = ({
   error,
   time,
   to,
+  warnings,
 }) => (
   <div className={`${ ROOT_CLASS } ${ styles }`}>
     <div className={`${ ROOT_CLASS }__time`}>
@@ -16,16 +17,24 @@ const LogItem = ({
       {(!error && to) && (
         <div className={`${ ROOT_CLASS }__to`}>{to}</div>
       )}
-      {(!error && deleted) && (
-        deleted.map((deletedPath, ndx) => (
-          <div key={`${ time }_${ ndx }`} className={`${ ROOT_CLASS }__deleted`}>
-            <span className={`${ ROOT_CLASS }__deleted-icon`}>&#x2713;</span>
-            Deleted folder: <span className={`${ ROOT_CLASS }__deleted-path`}>&quot;{deletedPath}&quot;</span>
+      {error && (
+        <div className={`${ ROOT_CLASS }__error`}>{error}</div>
+      )}
+      {warnings && (
+        warnings.map((warning, ndx) => (
+          <div key={`${ time }_${ ndx }`} className={`${ ROOT_CLASS }__warning`}>
+            <span className={`${ ROOT_CLASS }__warning-icon`}>&#x26A0;</span>
+            {warning}
           </div>
         ))
       )}
-      {error && (
-        <div className={`${ ROOT_CLASS }__error`}>{error}</div>
+      {(!error && deleted) && (
+        deleted.map((deletedPath, ndx) => (
+          <div key={`${ time }_${ ndx }`} className={`${ ROOT_CLASS }__deleted`}>
+            <span className={`${ ROOT_CLASS }__deleted-icon`}>&#x2714;</span>
+            Deleted folder: <span className={`${ ROOT_CLASS }__deleted-path`}>&quot;{deletedPath}&quot;</span>
+          </div>
+        ))
       )}
     </div>
   </div>
@@ -36,6 +45,7 @@ LogItem.propTypes = {
   error: string,
   time: number,
   to: string,
+  warnings: arrayOf(string),
 };
 
 export default LogItem;

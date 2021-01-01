@@ -29,7 +29,16 @@ export default css`
     }
     
     &__error {
-      color: #d25700;
+      color: #ff4040;
+    }
+    
+    &__warning {
+      color: #ff6a00;
+      
+      &-icon {
+        color: #efff00;
+        padding-right: 0.5em;
+      }
     }
     
     &__deleted {

@@ -13,7 +13,7 @@ const SERIES_ID_CACHE_MAP = 'tmdb__ids-cache-map.json';
 const TMDB__API__VERSION = '3';
 const TMDB__URL__API = `https://api.themoviedb.org/${ TMDB__API__VERSION }`;
 const TMDB__URL__DOMAIN = 'https://www.themoviedb.org';
-const TMDB__URL__IMG_DOMAIN = 'https://image.tmdb.org';
+const TMDB__URL__IMG_BASE = 'https://image.tmdb.org/t/p';
 const TMDB__TOKEN__EPISODE_GROUP_ID = '{EPISODE_GROUP_ID}';
 const TMDB__TOKEN__SEASON_NUMBER = '{SEASON_NUMBER}';
 const TMDB__TOKEN__SERIES_ID = '{SERIES_ID}';
@@ -107,7 +107,8 @@ module.exports = {
   TMDB__URL__QUERY: `${ TMDB__URL__DOMAIN }/search/tv?query=${ TMDB__TOKEN__SERIES_QUERY }`,
   TMDB__URL__SERIES: `${ TMDB__URL__DOMAIN }/tv/${ TMDB__TOKEN__SERIES_ID }`,
   // NOTE - domain and images sizes are found here https://developers.themoviedb.org/3/configuration/get-api-configuration
-  TMDB__URL__THUMBNAILS: `${ TMDB__URL__IMG_DOMAIN }/t/p/w154`,
+  TMDB__URL__THUMBNAILS: `${ TMDB__URL__IMG_BASE }/w154`,
+  TMDB__URL__EPISODE_STILLS: `${ TMDB__URL__IMG_BASE }/w400`, // custom size not listed in API, but still works
   VERSION__CACHE_SCHEMA: 3,
   WP__ENTRY: `${ SRC }/app.js`,
   WP__OUTPUT: DIST_JS,

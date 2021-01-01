@@ -5,6 +5,7 @@ import mkdirp from 'mkdirp';
 import rimraf from 'rimraf';
 import { PUBLIC_RENAME_LOG } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
+import downloadFile from 'SERVER/utils/downloadFile';
 import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'SERVER/utils/jsonResp';
 import logger from 'SERVER/utils/logger';
@@ -54,6 +55,7 @@ export default ({ reqData, res }) => {
         const { cacheKey, episodeNdx, index, moveToFolder, newName, oldPath, seasonNumber } = names[i];
         let _outputFolder = outputFolder;
         let folderErr;
+        let tvshowNfoErr;
         
         pendingNames.push(oldPath);
         
@@ -124,14 +126,13 @@ export default ({ reqData, res }) => {
                 actor: cache.actors.map(a => a),
               },
             };
-            writeXML(data, NFO_PATH);
+            try { await writeXML(data, NFO_PATH); }
+            catch(err) { tvshowNfoErr = err; }
           }
         }
         
         pendingMoves.push(new Promise((resolve, reject) => {
-          if(folderErr){
-            reject(folderErr);
-          }
+          if(folderErr) reject(folderErr);
           else{
             const data = {
               from: oldPath,
@@ -140,6 +141,7 @@ export default ({ reqData, res }) => {
             const cb = async (d, moveErr) => {
               const rootDir = parse(oldPath).dir;
               const log = createLog(d);
+              const warnings = [];
               
               if(!moveErr) pendingNames.splice(pendingNames.indexOf(d.from), 1);
               
@@ -160,26 +162,44 @@ export default ({ reqData, res }) => {
                   loadedCache[cacheKey] = cache; // eslint-disable-line require-atomic-updates
                 }
                 
-                const { aired, plot, /* thumbnail,*/ title } = cache.seasons[seasonNumber].episodes[episodeNdx];
-                writeXML({
-                  episodedetails: {
-                    title: sanitizeText(title),
-                    showtitle: sanitizeText(cache.name),
-                    plot: sanitizeText(plot),
-                    uniqueid: { '@type': 'tmdb', '@default': true },
-                    aired,
-                    watched: false,
-                    // TODO - read metadata
-                    // runtime: '', // just minutes
-                    // fileinfo: {
-                    //   streamdetails: {
-                    //     video: {},
-                    //     audio: [],
-                    //   },
-                    // },
-                  },
-                }, data.to.replace(/\.[\w]{3}$/, '.nfo'));
+                const { aired, plot, thumbnail, title } = cache.seasons[seasonNumber].episodes[episodeNdx];
+                const EP_FILENAME_NO_EXT = data.to.replace(/\.[\w]{3}$/, '');
+                
+                if(tvshowNfoErr){
+                  warnings.push(`Error creating tvshow.nfo: "${ tvshowNfoErr.message }"`);
+                }
+                
+                try {
+                  await writeXML({
+                    episodedetails: {
+                      title: sanitizeText(title),
+                      showtitle: sanitizeText(cache.name),
+                      plot: sanitizeText(plot),
+                      uniqueid: { '@type': 'tmdb', '@default': true },
+                      aired,
+                      watched: false,
+                      // TODO - read metadata
+                      // runtime: '', // just minutes
+                      // fileinfo: {
+                      //   streamdetails: {
+                      //     video: {},
+                      //     audio: [],
+                      //   },
+                      // },
+                    },
+                  }, `${ EP_FILENAME_NO_EXT }.nfo`);
+                  
+                  try { await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`); }
+                  catch(err) {
+                    warnings.push(`Error downloading episode still for "${ newName }": "${ err.message }"\n  URL: "${ thumbnail }"`);
+                  }
+                }
+                catch(err) {
+                  warnings.push(`Error creating episode nfo: "${ err.message }"`);
+                }
               }
+              
+              if(warnings.length) log.warnings = warnings;
               
               newLogs.push(log);
               mappedLogs[index] = log;

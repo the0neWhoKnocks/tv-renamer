@@ -1,6 +1,7 @@
 import {
   VERSION__CACHE_SCHEMA,
   TMDB__EPISODE_GROUP_TYPE__DVD,
+  TMDB__URL__EPISODE_STILLS,
 } from 'ROOT/conf.app';
 import cacheData from '../cacheData';
 import sanitizeName from '../sanitizeName';
@@ -94,7 +95,7 @@ export default ({
               currSeasonEps[airedEpisodeNumber] = {
                 aired,
                 plot,
-                thumbnail,
+                thumbnail: `${ TMDB__URL__EPISODE_STILLS }${ thumbnail }`,
                 title: formattedName,
               };
             }

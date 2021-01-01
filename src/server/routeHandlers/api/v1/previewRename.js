@@ -249,9 +249,15 @@ export default ({ reqData, res }) => {
             : 'Not all items were cached, proceed to look-ups'
           );
           
-          loadConfig(({ tmdbAPIKey: apiKey }) => {
+          loadConfig(({
+            fanarttvAPIKey,
+            tmdbAPIKey: apiKey,
+          }) => {
             if(!apiKey){
-              handleError({ res }, 500, 'No API key found. Unable to make requests to TMDB.\nGo to the Config menu and verify the required credentials are present.');
+              handleError({ res }, 500, 'API key missing for theMovieDB. \nGo to the Config menu and verify the required credentials are present.');
+            }
+            else if(!fanarttvAPIKey){
+              handleError({ res }, 500, 'API key missing for fanart.tv. \nGo to the Config menu and verify the required credentials are present.');
             }
             else{
               const recentlyCached = [];
@@ -263,7 +269,8 @@ export default ({ reqData, res }) => {
               const seriesDataPromise = ({ id, index, name, update, year }, ndx) => lookUpSeries({
                 apiKey,
                 cache, 
-                cacheKey: (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined, 
+                cacheKey: (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined,
+                fanarttvAPIKey, 
                 id,
                 index,
                 recentlyCached,

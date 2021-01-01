@@ -51,6 +51,19 @@ export default ({ reqData, res }) => {
       const createdFolders = [];
       const loadedCache = {};
       
+      async function getCache(cacheKey) {
+        let cache;
+        
+        // load, or use already loaded cache
+        if(loadedCache[cacheKey]) cache = loadedCache[cacheKey];
+        else{
+          cache = (await loadCacheItem({ cacheKey })).file;
+          loadedCache[cacheKey] = cache; // eslint-disable-line require-atomic-updates
+        }
+        
+        return cache;
+      }
+      
       for(let i=0; i<names.length; i++){
         const { cacheKey, episodeNdx, index, moveToFolder, newName, oldPath, seasonNumber } = names[i];
         let _outputFolder = outputFolder;
@@ -92,6 +105,27 @@ export default ({ reqData, res }) => {
                   log(`[ERROR] ${ error }`);
                   folderErr = error;
                 }
+                
+                const { images } = await getCache(cacheKey);
+                if(images && images.fanarttv){
+                  const { fanarttv } = images;
+                  const prefix = (season > 0) ? `season${ pad(season) }` : 'season-specials';
+                  
+                  try {
+                    const pendingImgs = [
+                      { prop: 'seasonPoster', name: `${ prefix }-poster.jpg` },
+                      { prop: 'seasonThumb', name: `${ prefix }-thumb.jpg` },
+                    ].reduce((arr, { prop, name }) => {
+                      if(fanarttv[prop]) arr.push(downloadFile(fanarttv[prop][season][0], `${ SERIES_FOLDER }/${ name }`));
+                      return arr;
+                    }, []);
+                    
+                    await Promise.all(pendingImgs);
+                  }
+                  catch(err) {
+                    log(`[ERROR] Downloading season image: "${ err.stack }"`);
+                  }
+                }
               }
             }
           }
@@ -105,14 +139,7 @@ export default ({ reqData, res }) => {
           // and XML creation.
           try { lstatSync(NFO_PATH); }
           catch(err) {
-            let cache;
-            // load, or use already loaded cache
-            if(loadedCache[cacheKey]) cache = loadedCache[cacheKey];
-            else{
-              cache = (await loadCacheItem({ cacheKey })).file;
-              loadedCache[cacheKey] = cache; // eslint-disable-line require-atomic-updates
-            }
-            
+            const cache = await getCache(cacheKey);
             const data = {
               tvshow: {
                 title: sanitizeText(cache.name),
@@ -128,6 +155,44 @@ export default ({ reqData, res }) => {
             };
             try { await writeXML(data, NFO_PATH); }
             catch(err) { tvshowNfoErr = err; }
+            
+            if(cache.images){
+              const { fanarttv, tmdb } = cache.images;
+              
+              try {
+                let pendingImgs;
+                
+                // download all the things
+                if(fanarttv){
+                  pendingImgs = [
+                    { prop: 'clearArt', name: 'clearart.png' },
+                    { prop: 'clearLogo', name: 'clearlogo.png' },
+                    { prop: 'seriesBackground', name: 'fanart.jpg' },
+                    { prop: 'seriesBanner', name: 'banner.jpg' },
+                    { prop: 'seriesPoster', name: 'poster.jpg' },
+                    { prop: 'seriesThumb', name: 'thumb.jpg' },
+                  ].reduce((arr, { prop, name }) => {
+                    if(fanarttv[prop]) arr.push(downloadFile(fanarttv[prop][0], `${ SERIES_FOLDER }/${ name }`));
+                    return arr;
+                  }, []);
+                }
+                // fallback to a limited set of images
+                else if(tmdb){
+                  pendingImgs = [
+                    { prop: 'background', name: 'fanart.jpg' },
+                    { prop: 'poster', name: 'poster.jpg' },
+                  ].reduce((arr, { prop, name }) => {
+                    if(tmdb[prop]) arr.push(downloadFile(tmdb[prop], `${ SERIES_FOLDER }/${ name }`));
+                    return arr;
+                  }, []);
+                }
+                
+                if(pendingImgs) await Promise.all(pendingImgs);
+              }
+              catch(err) {
+                log(`[ERROR] Downloading series image: "${ err.stack }"`);
+              }
+            }
           }
         }
         
@@ -153,15 +218,7 @@ export default ({ reqData, res }) => {
               
               if(moveErr) log.error = moveErr.message;
               else{
-                // TODO - de-dupe from above
-                let cache;
-                // load, or use already loaded cache
-                if(loadedCache[cacheKey]) cache = loadedCache[cacheKey];
-                else{
-                  cache = (await loadCacheItem({ cacheKey })).file;
-                  loadedCache[cacheKey] = cache; // eslint-disable-line require-atomic-updates
-                }
-                
+                const cache = await getCache(cacheKey);
                 const { aired, plot, thumbnail, title } = cache.seasons[seasonNumber].episodes[episodeNdx];
                 const EP_FILENAME_NO_EXT = data.to.replace(/\.[\w]{3}$/, '');
                 

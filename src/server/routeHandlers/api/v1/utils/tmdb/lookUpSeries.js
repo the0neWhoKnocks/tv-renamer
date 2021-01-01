@@ -1,5 +1,9 @@
+import fetch from 'node-fetch';
 import {
+  FANART_API__IMAGES,
   TMDB__EPISODE_GROUPS,
+  TMDB__URL__BACKGROUND,
+  TMDB__URL__POSTER,
 } from 'ROOT/conf.app';
 import logger from 'SERVER/utils/logger';
 import timeoutCodeCheck from '../timeoutCodeCheck';
@@ -13,6 +17,7 @@ export default ({
   apiKey, 
   cache, 
   cacheKey,
+  fanarttvAPIKey,
   id, 
   index, 
   recentlyCached,
@@ -104,10 +109,11 @@ export default ({
         }
       })
         .then(opts => getSeriesDetails({ ...opts, apiKey })
-          .then(({
+          .then(async ({
             aggregate_credits,
             backdrop_path,
             content_ratings,
+            external_ids,
             first_air_date: premiered,
             episode_groups,
             genres,
@@ -119,10 +125,6 @@ export default ({
             status,
           }) => {
             let episodeGroups;
-            let actors = [];
-            let mpaa = '';
-            let studios = [];
-            
             if(episode_groups && episode_groups.results){
               episodeGroups = episode_groups.results.reduce((obj, { id, type }) => {
                 const epGrpType = TMDB__EPISODE_GROUPS.get(type);
@@ -131,6 +133,7 @@ export default ({
               }, {});
             }
             
+            let actors = [];
             if(aggregate_credits && aggregate_credits.cast){
               actors = aggregate_credits.cast.map(({ name, order, profile_path: thumb, roles }) => {
                 const role = (roles && roles.length && roles[0].character) || '';
@@ -138,12 +141,48 @@ export default ({
               });
             }
             
+            let mpaa = '';
             if(content_ratings && content_ratings.results){
               const r = content_ratings.results.find(({ iso_3166_1 }) => iso_3166_1 === 'US');
               if(r) mpaa = r.rating;
             }
             
+            let studios = [];
             if(networks) studios = networks.map(({ name }) => name);
+            
+            let fanarttvImgs;
+            if(external_ids && external_ids.tvdb_id){
+              const API_URL = `${ FANART_API__IMAGES }/${ external_ids.tvdb_id }?api_key=${ fanarttvAPIKey }`;
+              const {
+                clearart = [],
+                clearlogo = [],
+                seasonposter = [],
+                seasonthumb = [],
+                showbackground = [],
+                tvbanner = [],
+                tvposter = [],
+                tvthumb = [],
+              } = await fetch(API_URL).then(resp => resp.json());
+              
+              fanarttvImgs = {
+                clearArt: clearart.map(({ url }) => url),
+                clearLogo: clearlogo.map(({ url }) => url),
+                seasonPoster: seasonposter.reduce((obj, { season, url }) => {
+                  if(!obj[season]) obj[season] = [];
+                  obj[season].push(url);
+                  return obj;
+                }, {}),
+                seasonThumb: seasonthumb.reduce((obj, { season, url }) => {
+                  if(!obj[season]) obj[season] = [];
+                  obj[season].push(url);
+                  return obj;
+                }, {}),
+                seriesBackground: showbackground.map(({ url }) => url),
+                seriesBanner: tvbanner.map(({ url }) => url),
+                seriesPoster: tvposter.map(({ url }) => url),
+                seriesThumb: tvthumb.map(({ url }) => url),
+              };
+            }
             
             return {
               episodeGroups,
@@ -151,7 +190,13 @@ export default ({
               seriesData: {
                 actors,
                 genres: genres.map(({ name }) => name),
-                images: { backdrop: backdrop_path, poster: poster_path },
+                images: {
+                  fanarttv: fanarttvImgs,
+                  tmdb: {
+                    background: `${ TMDB__URL__BACKGROUND }${ backdrop_path }`,
+                    poster: `${ TMDB__URL__POSTER }${ poster_path }`,
+                  },
+                },
                 mpaa,
                 studios,
                 overview,

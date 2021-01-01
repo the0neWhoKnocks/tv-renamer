@@ -17,13 +17,25 @@ import loadRenameLog from './utils/loadRenameLog';
 import moveFile from './utils/moveFile';
 import sanitizeName from './utils/sanitizeName';
 
-const log = logger('server:renameFiles');
-
 const MAX_LOG_ENTRIES = 200;
+
+const log = logger('server:renameFiles');
 
 const createLog = (data = {}) => ({ ...data, time: Date.now() });
 
 const pad = (num, token='00') => token.substring(0, token.length-`${ num }`.length) + num;
+
+const sanitizeText = (text = '') => {
+  // The below should handle replacing 
+  // - UTF-8 characters: https://codepoints.net/general_punctuation - go to each charaters page to view their UTF-8 representation
+  // - Windows-1252 ANSI characters: https://www.w3schools.com/charsets/ref_html_ansi.asp
+  return text
+    .replace(/(?:‘|’)/g, "'") // (smart) single quotes
+    .replace(/(?:“|”)/g, '"') // (smart) double quotes
+    .replace(/–/g, '-') // en dash
+    .replace(/—/g, '--') // em dash
+    .replace(/…/g, '...'); // horizontal ellipsis
+};
 
 export default ({ reqData, res }) => {
   const names = reqData.names;
@@ -101,8 +113,8 @@ export default ({ reqData, res }) => {
             
             const data = {
               tvshow: {
-                title: cache.name,
-                plot: cache.plot,
+                title: sanitizeText(cache.name),
+                plot: sanitizeText(cache.plot),
                 mpaa: cache.mpaa,
                 uniqueid: { '@type': 'tmdb', '@default': true },
                 genre: cache.genres.map(g => g),
@@ -151,13 +163,14 @@ export default ({ reqData, res }) => {
                 const { aired, plot, /* thumbnail,*/ title } = cache.seasons[seasonNumber].episodes[episodeNdx];
                 writeXML({
                   episodedetails: {
-                    title,
-                    showtitle: cache.name,
-                    plot,
+                    title: sanitizeText(title),
+                    showtitle: sanitizeText(cache.name),
+                    plot: sanitizeText(plot),
                     uniqueid: { '@type': 'tmdb', '@default': true },
                     aired,
                     watched: false,
                     // TODO - read metadata
+                    // runtime: '', // just minutes
                     // fileinfo: {
                     //   streamdetails: {
                     //     video: {},

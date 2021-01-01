@@ -102,10 +102,11 @@ class Config extends Component {
   
   render() {
     const {
-      tmdbAPIKey,
+      fanarttvAPIKey,
       hideCloseBtn,
       outputFolder,
       sourceFolder,
+      tmdbAPIKey,
     } = this.props;
     const {
       closeDisabled,
@@ -119,7 +120,7 @@ class Config extends Component {
       >
         <div className={`${ ROOT_CLASS }__body`}>
           <section>
-            <h2>TMDB</h2>
+            <h2>theMovieDB</h2>
             {!tmdbAPIKey && (
               <div className={`${ ROOT_CLASS }__msg is--error`}>
                 No credentials for TMDB have been found. You&apos;ll need to
@@ -132,6 +133,22 @@ class Config extends Component {
               onChange={this.handleValueChange}
               required
               value={tmdbAPIKey}
+            />
+          </section>
+          <section>
+            <h2>fanart.tv</h2>
+            {!fanarttvAPIKey && (
+              <div className={`${ ROOT_CLASS }__msg is--error`}>
+                No credentials for fannart.tv have been found. You&apos;ll need to
+                obtain the below info from your fannart.tv account.
+              </div>
+            )}
+            <ConfigItem
+              label="API Key"
+              name="fanarttvAPIKey"
+              onChange={this.handleValueChange}
+              required
+              value={fanarttvAPIKey}
             />
           </section>
           <section>
@@ -172,6 +189,7 @@ class Config extends Component {
 }
 
 Config.propTypes = {
+  fanarttvAPIKey: string,
   hideCloseBtn: bool,
   onClose: func,
   onSaveComplete: func,

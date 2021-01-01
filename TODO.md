@@ -16,6 +16,7 @@ NFO Scraping
   - [x] Sanitize XML data, replace things like `’` with `'` (GoT plot)
     - [ ] scrape <episode-name>-thumb.jpg for episode
       - allow user to pick season image
+  - [ ] Notify User when scraping images since it can take a bit sometimes.
   
 - Requirements for nfo files
   - for show https://kodi.wiki/view/NFO_files/TV_shows#nfo_Tags

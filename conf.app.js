@@ -20,6 +20,7 @@ const TMDB__TOKEN__SERIES_ID = '{SERIES_ID}';
 const TMDB__TOKEN__SERIES_PAGE = '{SERIES_PAGE}';
 const TMDB__TOKEN__SERIES_QUERY = '{SERIES_QUERY}';
 const TMDB__TOKEN__SERIES_YEAR = '{SERIES_YEAR}';
+const FANART_API__IMAGES = 'http://webservice.fanart.tv/v3/tv';
 
 // https://developers.themoviedb.org/3/tv-episode-groups/get-tv-episode-group-details
 const TMDB__EPISODE_GROUP_TYPE__AIR_DATE = 'Original air date';
@@ -75,6 +76,7 @@ module.exports = {
   DIST_SERVER: `${ DIST_CJS }/server`,
   DIST_VENDOR,
   DOCKER_API__RELEASES: 'https://hub.docker.com/v2/repositories/theonewhoknocks/tv-renamer/tags/',
+  FANART_API__IMAGES,
   PUBLIC,
   PUBLIC_CACHE: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CACHE_FOLDER_NAME }`,
   PUBLIC_CONFIG: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CONFIG_NAME }`,
@@ -88,7 +90,7 @@ module.exports = {
   SRC_STATIC: `${ SRC }/static`,
   TMDB__API__SEASON_EPISODES: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }/season/${ TMDB__TOKEN__SEASON_NUMBER }`,
   TMDB__API__SEASON_EPISODE_GROUP: `${ TMDB__URL__API }/tv/episode_group/${ TMDB__TOKEN__EPISODE_GROUP_ID }`,
-  TMDB__API__SERIES_DETAILS: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }?append_to_response=episode_groups,content_ratings,aggregate_credits`,
+  TMDB__API__SERIES_DETAILS: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }?append_to_response=episode_groups,content_ratings,aggregate_credits,external_ids`,
   TMDB__API__SERIES_SEARCH: `${ TMDB__URL__API }/search/tv?page=${ TMDB__TOKEN__SERIES_PAGE }&query=${ TMDB__TOKEN__SERIES_QUERY }&include_adult=false&first_air_date_year=${ TMDB__TOKEN__SERIES_YEAR }`,
   TMDB__EPISODE_GROUP_TYPE__AIR_DATE,
   TMDB__EPISODE_GROUP_TYPE__ABSOLUTE,
@@ -107,8 +109,10 @@ module.exports = {
   TMDB__URL__QUERY: `${ TMDB__URL__DOMAIN }/search/tv?query=${ TMDB__TOKEN__SERIES_QUERY }`,
   TMDB__URL__SERIES: `${ TMDB__URL__DOMAIN }/tv/${ TMDB__TOKEN__SERIES_ID }`,
   // NOTE - domain and images sizes are found here https://developers.themoviedb.org/3/configuration/get-api-configuration
-  TMDB__URL__THUMBNAILS: `${ TMDB__URL__IMG_BASE }/w154`,
+  TMDB__URL__BACKGROUND: `${ TMDB__URL__IMG_BASE }/original`,
   TMDB__URL__EPISODE_STILLS: `${ TMDB__URL__IMG_BASE }/w400`, // custom size not listed in API, but still works
+  TMDB__URL__POSTER: `${ TMDB__URL__IMG_BASE }/original`,
+  TMDB__URL__THUMBNAILS: `${ TMDB__URL__IMG_BASE }/w154`,
   VERSION__CACHE_SCHEMA: 3,
   WP__ENTRY: `${ SRC }/app.js`,
   WP__OUTPUT: DIST_JS,

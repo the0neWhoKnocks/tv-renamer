@@ -1,16 +1,7 @@
-# Ignore everything
-**
+/dist/.gitignore
 
-# Allow files and directories
-!/bin/**
-!/dist/**
-!/src/**
-!/babel.config.js
-!/conf.app.js
-!/package.json
-!/package-lock.json
-!/webpack.config.js
-
-# Ignore unnecessary files inside allowed directories.
-# This should go after the allowed directories.
-**/.data
+# Allow these git-ignored files
+!/.ignore/.zsh_history
+!/dist/cjs
+!/dist/public
+!/dist/conf.app.js

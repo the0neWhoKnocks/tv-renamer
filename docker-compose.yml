@@ -1,4 +1,4 @@
-version: "3.4"
+version: "2" # using 2 because 3 doesn't support extending
 
 services:
   e2e-cypress:
@@ -27,15 +27,45 @@ services:
       dockerfile: Dockerfile
     container_name: tv-renamer
     environment:
-      DISABLE_LOGS: 'true'
       NODE_ENV: production
+      TZ: America/Los_Angeles
     image: theonewhoknocks/tv-renamer
     ports:
-      # The local port of 9000 will map to the containers exposed port 3001
-      - "9000:3001"
+      # map Local port to the containers exposed port
+      - "3000:3000"
+    volumes:
+      # Map shell files over, so they're maintained between sessions
+      - "${PWD}/.docker/.zshrc:/root/.zshrc"
+      - "${PWD}/.ignore/.zsh_history:/root/.zsh_history"
+      # Map media sources
+      - "${PWD}/e2e/mnt/mockFiles/output:/media/output"
+      - "${PWD}/e2e/mnt/mockFiles/src:/media/source"
+  
+  tvrenamer_prod:
+    container_name: tvrenamer_prod
+    environment:
+      DATA_PATH: ./data
+      DISABLE_LOGS: 'true'
+    extends: tv-renamer # allows for just changing key pieces of data for development
     volumes:
       # NOTE - To ensure data doesn't get wiped during a `purge`, using a
       # bind-mount.
-      - "${PWD}/e2e/mnt/data:/home/node/app/.data"
-      # The config points to `_temp_` for source and output folders
-      - "${PWD}/e2e/mnt/mockFiles:/home/node/app/_temp_"
+      - "${PWD}/e2e/mnt/data:/home/node/app/data"
+  
+  tvrenamer_dev:
+    command: tail -F /dev/null # starts the container, and keeps it running
+    container_name: tvrenamer_dev
+    environment:
+      DATA_PATH: ../e2e/mnt/data
+      NODE_ENV: development
+    extends: tv-renamer # allows for just changing key pieces of data for development
+    ports:
+      # browserSync
+      - "3001:3001" 
+      - "3002:3002"
+      - "3003:3003"
+      # inspector
+      - "9229:9229"
+    volumes:
+      # Map the current directory over so I can Dev in an env that has ffmpeg
+      - "${PWD}:/home/node/app"

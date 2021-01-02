@@ -2,8 +2,10 @@ const { resolve } = require('path');
 
 const API__PREFIX = '/api/v1';
 const ROOT = resolve(__dirname, './');
+const ABS_DATA_PATH = (process.env.DATA_PATH.startsWith('.'))
+  ? resolve(ROOT, process.env.DATA_PATH)
+  : process.env.DATA_PATH;
 const SRC = `${ ROOT }/src`;
-const DATA_FOLDER_NAME = '.data';
 const CACHE_FOLDER_NAME = 'tmdb__cache';
 const CONFIG_NAME = 'config.json';
 const FILE_CACHE_NAME = 'file-cache.json';
@@ -78,14 +80,14 @@ module.exports = {
   DOCKER_API__RELEASES: 'https://hub.docker.com/v2/repositories/theonewhoknocks/tv-renamer/tags/',
   FANART_API__IMAGES,
   PUBLIC,
-  PUBLIC_CACHE: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CACHE_FOLDER_NAME }`,
-  PUBLIC_CONFIG: `${ ROOT }/${ DATA_FOLDER_NAME }/${ CONFIG_NAME }`,
-  PUBLIC_FILE_CACHE: `${ ROOT }/${ DATA_FOLDER_NAME }/${ FILE_CACHE_NAME }`,
+  PUBLIC_CACHE: `${ ABS_DATA_PATH }/${ CACHE_FOLDER_NAME }`,
+  PUBLIC_CONFIG: `${ ABS_DATA_PATH }/${ CONFIG_NAME }`,
+  PUBLIC_FILE_CACHE: `${ ABS_DATA_PATH }/${ FILE_CACHE_NAME }`,
   PUBLIC_JS,
   PUBLIC_MANIFEST,
-  PUBLIC_RENAME_LOG: `${ ROOT }/${ DATA_FOLDER_NAME }/${ RENAME_LOG }`,
-  PUBLIC_SERIES_ID_MAP: `${ ROOT }/${ DATA_FOLDER_NAME }/${ SERIES_ID_MAP }`,
-  PUBLIC_SERIES_ID_CACHE_MAP: `${ ROOT }/${ DATA_FOLDER_NAME }/${ SERIES_ID_CACHE_MAP }`,
+  PUBLIC_RENAME_LOG: `${ ABS_DATA_PATH }/${ RENAME_LOG }`,
+  PUBLIC_SERIES_ID_MAP: `${ ABS_DATA_PATH }/${ SERIES_ID_MAP }`,
+  PUBLIC_SERIES_ID_CACHE_MAP: `${ ABS_DATA_PATH }/${ SERIES_ID_CACHE_MAP }`,
   PUBLIC_VENDOR,
   SRC_STATIC: `${ SRC }/static`,
   TMDB__API__SEASON_EPISODES: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }/season/${ TMDB__TOKEN__SEASON_NUMBER }`,

@@ -5,6 +5,7 @@ import mkdirp from 'mkdirp';
 import rimraf from 'rimraf';
 import { PUBLIC_RENAME_LOG } from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
+import cmd from 'SERVER/utils/cmd';
 import downloadFile from 'SERVER/utils/downloadFile';
 import getFiles from 'SERVER/utils/getFiles';
 import jsonResp from 'SERVER/utils/jsonResp';
@@ -36,6 +37,12 @@ const sanitizeText = (text = '') => {
     .replace(/–/g, '-') // en dash
     .replace(/—/g, '--') // em dash
     .replace(/…/g, '...'); // horizontal ellipsis
+};
+
+const roundDecimal = (num, dec) => {
+  const _num = +num;
+  const numSign = _num >= 0 ? 1 : -1;
+  return parseFloat((Math.round((_num * Math.pow(10, dec)) + (numSign * 0.0001)) / Math.pow(10, dec)).toFixed(dec));
 };
 
 export default ({ reqData, res }) => {
@@ -221,9 +228,72 @@ export default ({ reqData, res }) => {
                 const cache = await getCache(cacheKey);
                 const { aired, plot, thumbnail, title } = cache.seasons[seasonNumber].episodes[episodeNdx];
                 const EP_FILENAME_NO_EXT = data.to.replace(/\.[\w]{3}$/, '');
+                const streamDetails = {};
+                let runtime = '';
                 
                 if(tvshowNfoErr){
                   warnings.push(`Error creating tvshow.nfo: "${ tvshowNfoErr.message }"`);
+                }
+                
+                try {
+                  const { streams: rawStreams } = JSON.parse(await cmd(`ffprobe -v quiet -print_format json -show_streams "${ data.to }"`));
+                  if(rawStreams.length) {
+                    // map audio and video streams to grouped Arrays
+                    const { audio, video } = rawStreams.reduce((obj, { codec_type, ...stream }) => {
+                      if(!obj[codec_type]) obj[codec_type] = [];
+                      obj[codec_type].push(stream);
+                      return obj;
+                    }, {});
+                    
+                    if(video){
+                      video.forEach(({
+                        coded_height,
+                        codec_name,
+                        coded_width,
+                        display_aspect_ratio,
+                        disposition: { attached_pic },
+                        duration,
+                        pix_fmt,
+                      }) => {
+                        // Only add actual video streams, not cover/poster attachments
+                        if(
+                          (
+                            display_aspect_ratio
+                            || (coded_width && coded_height)
+                          )
+                          && !attached_pic
+                        ) {
+                          const width = coded_width;
+                          const height = coded_height;
+                          
+                          streamDetails.video = {
+                            codec: codec_name.toUpperCase(),
+                            aspect: roundDecimal(width / height, 2),
+                            width,
+                            height,
+                          };
+                          
+                          // only add it if it's equal to or over a minute
+                          const _runtime = +duration/60;
+                          if(_runtime >= 1) runtime = `${ _runtime } min`;
+                        }
+                      });
+                    }
+                    
+                    if(audio){
+                      streamDetails.audio = [];
+                      
+                      audio.forEach(({ channels, codec_name }) => {
+                        streamDetails.audio.push({
+                          codec: codec_name.toUpperCase(),
+                          channels,
+                        });
+                      });
+                    }
+                  }
+                }
+                catch(err) {
+                  warnings.push(`Error reading metadata: "${ err.message }"`);
                 }
                 
                 try {
@@ -235,14 +305,10 @@ export default ({ reqData, res }) => {
                       uniqueid: { '@type': 'tmdb', '@default': true },
                       aired,
                       watched: false,
-                      // TODO - read metadata
-                      // runtime: '', // just minutes
-                      // fileinfo: {
-                      //   streamdetails: {
-                      //     video: {},
-                      //     audio: [],
-                      //   },
-                      // },
+                      runtime,
+                      fileinfo: {
+                        streamdetails: streamDetails,
+                      },
                     },
                   }, `${ EP_FILENAME_NO_EXT }.nfo`);
                   

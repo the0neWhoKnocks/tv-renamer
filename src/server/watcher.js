@@ -43,6 +43,8 @@ const checkServer = () => new Promise((rootResolve, rootReject) => {
 
 nodemon({
   delay: 500,
+  exec: 'node --inspect=0.0.0.0',
+  ext: 'js json',
   script: `${ DIST_SERVER }/index.js`,
   watch: [
     // WP bundled new code
@@ -71,7 +73,10 @@ browserSync.init({
   // logLevel: 'debug',
   open: false,
   port: port + 1,
-  proxy: `localhost:${ port }`,
+  proxy: {
+    target: `localhost:${ port }`,
+    ws: true,
+  },
   snippetOptions: {
     rule: {
       match: /<\/body>/i,

@@ -38,8 +38,7 @@ services:
       - "${PWD}/.docker/.zshrc:/root/.zshrc"
       - "${PWD}/.ignore/.zsh_history:/root/.zsh_history"
       # Map media sources
-      - "${PWD}/e2e/mnt/mockFiles/output:/media/output"
-      - "${PWD}/e2e/mnt/mockFiles/src:/media/source"
+      - "${PWD}/e2e/mnt/mockFiles:/media/files"
   
   tvrenamer_prod:
     container_name: tvrenamer_prod

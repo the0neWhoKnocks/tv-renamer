@@ -37,6 +37,8 @@ source files. So, let's create them.
    npm i
    # compile the files
    nr build:appForDocker
+   # generate some files to rename (only needs to be run in the container if the mock video file hasn't already been generated)
+   nr gen:files "veep" "game.of.thrones"
    # leave the container
    exit
    # build again to copy over assets
@@ -44,8 +46,6 @@ source files. So, let's create them.
    ```
 1. Now you can run the Prod image
    ```sh
-   # generate some files to rename (note this doesn't have to be run in Docker)
-   nr gen:files "veep" "game.of.thrones"
    # start the App
    dc up tvrenamer_prod
    ```

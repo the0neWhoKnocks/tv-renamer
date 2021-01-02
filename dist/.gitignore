@@ -1,0 +1,7 @@
+# NOTE - this only exists so that Docker doesn't complain during the initial
+# COPY command, when this directory is empty.
+
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore

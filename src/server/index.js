@@ -34,7 +34,7 @@ import handleRootRequest from './routeHandlers/root';
 import handleStaticFile from './routeHandlers/static';
 import requestHandler from './requestHandler';
 
-const port = +process.env.PORT || 3001;
+const port = +process.env.PORT || 3000;
 
 process.on('unhandledRejection', (err) => {
   console.log('Unhandled Rejection at:', err.stack || err);

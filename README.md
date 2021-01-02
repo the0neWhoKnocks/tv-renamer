@@ -10,8 +10,73 @@ A local network app that allows for renaming TV shows
 
 ---
 
+## Build & Run Docker Image
+
+**NOTE** - I've created these shell aliases to speed up terminal workflow:
+| Alias | Command          |
+| ----- | ---------------- |
+| `dc`  | `docker-compose` |
+| `d`   | `docker`         |
+| `nr`  | `npm run`        |
+
+**Prerequisites**
+- If running on Windows you may need to go into `Docker > Settings > Shared Drives` and enable the drive you want to use a bind-mount with.
+
+In order to have a consistent Prod/Dev experience, the first build of the image
+takes a few manual steps.
+1. Create the base image (with no dist files copied over since they haven't been compiled yet).
+   ```sh
+   dc build tv-renamer
+   ```
+1. If you ran `dc up tvrenamer_prod` now you'd get an error because there's no
+source files. So, let's create them.
+   ```sh
+   # first go into the Dev container
+   dc up -d tvrenamer_dev & sleep 2 && d exec -it tvrenamer_dev zsh && dc down
+   # install deps (installed from the image so that Linux modules are installed)
+   npm i
+   # compile the files
+   nr build:appForDocker
+   # leave the container
+   exit
+   # build again to copy over assets
+   dc build tv-renamer
+   ```
+1. Now you can run the Prod image
+   ```sh
+   # generate some files to rename (note this doesn't have to be run in Docker)
+   nr gen:files "veep" "game.of.thrones"
+   # start the App
+   dc up tvrenamer_prod
+   ```
+
+---
+
 ## Development
 
+This is an atypical setup. To allow for the same flexibility you'd normally have
+while developing, but also ensuring things will work the same in Prod, some
+commands have to be run within the Docker Container to ensure things work.
+```sh
+# Starts the Service in the background
+dc up -d tvrenamer_dev
+
+# Enter the running Container and run all other commands as usual.
+# Notice the use of `dc down` after the first command. This ensures that a Dev
+# doesn't accidentally keep the background Service running.
+d exec -it tvrenamer_dev zsh && dc down
+
+# Or a one liner. Note that if the Container wasn't previously built, the
+# command will fail because the Container won't be available within 2 seconds.
+dc up -d tvrenamer_dev & sleep 2 && d exec -it tvrenamer_dev zsh && dc down
+```
+
+To run scripts in another Shell while the Dev shell is running
+```sh
+dc exec tvrenamer_dev zsh
+```
+
+Once you're within the Docker Container, you can run all commands as normal.
 ```sh
 # Install all deps
 npm i
@@ -29,51 +94,12 @@ in the terminal. By default, you should be able to go to chrome://inspect/#devic
 in Chrome, and see a **Remote Target** connected. I had an issue where my
 **network targets** got misconfigured. If you're not seeing a Remote Target
 connected, you'll want to click on **Configure** next to **Discover network
-targets**, and make sure that there are entries for:
+targets**, and make sure that there's an entry for:
 ```sh
 localhost:9229
-localhost:9000
 ```
 Simply put, there has to be an entry listening to the WebSocket port listed by
 the servers output `9229` (the inspector port), and `9000` (the server's port).
-
-Utilizes these API's
-- [GitHub](https://developer.github.com/v3/repos)
-- [TMDB](https://developers.themoviedb.org/3/getting-started/introduction)
-
----
-
-## Build & Run Docker Image
-
-**Prerequisites**
-- If running on Windows you may need to go into `Docker > Settings > Shared Drives`
-  and enable the drive you want to use a bind-mount with.
-
-```sh
-# Run the below only if you haven't been developing in the repo. Otherwise you 
-# should already have the necessary modules installed.
-npm i
-# Compiles the production ready code
-npm run build:appForDocker
-# Generates test folders/files to validate against. Folder will be mapped via
-# a `volume` during `docker-compose`.
-npm run gen:files
-# Generate specific files
-npm run gen:files "<TEXT_FROM_FILE_NAME>" "<TEXT_FROM_ANOTHER_FILE_NAME>"
-
-# Builds the image
-docker-compose build tv-renamer
-
-# Run the new image
-docker-compose up -d tv-renamer
-
-# Verify the image is up and running. If it's not, you'll see "Exited" in the
-# "Status" column.
-docker ps -a
-
-# Stops the image and cleans things up
-docker-compose down
-```
 
 ---
 
@@ -133,3 +159,13 @@ git tag | cat
 # If so, remove it
 git tag -d <TAG_NAME>
 ```
+
+---
+
+## Misc.
+
+Utilizes these API's
+- [GitHub](https://developer.github.com/v3/repos)
+- [theMovieDB](https://developers.themoviedb.org/3/getting-started/introduction)
+- [fanart.tv](https://fanarttv.docs.apiary.io/#reference/tv/get-show/get-images-for-show)
+   - https://fanart.tv/tutorials/how-fanart-tv-works/

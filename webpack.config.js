@@ -67,6 +67,9 @@ const conf = {
         '!vendor/**/*',
       ],
     }),
+    new webpack.DefinePlugin({
+      'process.env.DATA_PATH': JSON.stringify(process.env.DATA_PATH),
+    }),
     /**
      * Gives more control of how bundles are hashed
      */

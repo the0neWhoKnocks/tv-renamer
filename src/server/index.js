@@ -33,6 +33,7 @@ import handleError from './routeHandlers/error';
 import handleRootRequest from './routeHandlers/root';
 import handleStaticFile from './routeHandlers/static';
 import requestHandler from './requestHandler';
+import socket from './socket';
 
 const port = +process.env.PORT || 3000;
 
@@ -64,7 +65,7 @@ if( process.env.DEBUG ){
 
 prepData();
 
-http
+const server = http
   .createServer(requestHandler([
     ...inspectMiddleware,
     ['/', handleRootRequest],
@@ -88,3 +89,5 @@ http
     if(err) throw err;
     console.log(`Server running at http://localhost:${ port }/`);
   });
+
+socket(server);

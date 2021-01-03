@@ -19,8 +19,10 @@ import {
   API__LOGS,
   API__PREVIEW_RENAME,
   API__RENAME,
+  WS__MSG_TYPE__RENAME_STATUS,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
+import pad from 'UTILS/pad';
 import styles, {
   MODIFIER__HAS_ITEMS,
   MODIFIER__INDICATOR,
@@ -200,6 +202,7 @@ class App extends Component {
       renameCount: 0,
       renameErrorCount: 0,
       renameRequested: false,
+      renameStatusLogs: [],
       searchAndReplaceFiles: [],
       selectAll: true,
       selectionCount: 0,
@@ -253,6 +256,63 @@ class App extends Component {
     // TODO - maybe re-enable this. For now, just displaying the logs from the
     // current renaming operation.
     // this.checkLogs();
+  }
+  
+  connectToSocket() {
+    return new Promise((resolve, reject) => {
+      const WS_URL = location.origin.replace(/^http(s)?/, 'ws$1');
+      const socket = new WebSocket(WS_URL);
+      const socketAPI = {
+        connected: false,
+        disconnect() {
+          socket.close();
+        },
+        emit(type, data = {}) {
+          socket.send(JSON.stringify({ data, type }));
+        },
+        listeners: {},
+        off(type, cb) {
+          for(let i = socketAPI.listeners[type].length - 1; i >= 0; i--) {
+            const handler = socketAPI.listeners[type][i];
+            if(handler === cb) {
+              socketAPI.listeners[type].splice(i, 1);
+            }
+          }
+        },
+        on(type, cb) {
+          if(!socketAPI.listeners[type]) socketAPI.listeners[type] = [];
+          socketAPI.listeners[type].push(cb);
+        },
+      };
+
+      socket.onopen = function onWSOpen() {
+        socket.onmessage = function onWSMsg({ data: msgData }) {
+          const { data, type } = JSON.parse(msgData);
+          
+          // console.log(`Message from Server: "${ type }"`, data);
+          
+          if(socketAPI.listeners[type]) {
+            socketAPI.listeners[type].forEach(cb => { cb(data); });
+          }
+        };
+        
+        console.log('Client Socket connected to Server');
+
+        socketAPI.connected = true;
+        resolve(socketAPI);
+      };
+
+      socket.onerror = function onWSError(ev) {
+        let err = 'An unknown error has occurred with your WebSocket';
+
+        if(
+          !socketAPI.connected
+          && ev.currentTarget.readyState === WebSocket.CLOSED
+        ) err = `WebSocket error, could not connect to ${ WS_URL }`;
+        
+        reject(err);
+      };
+    });
   }
   
   componentDidUpdate(prevProps, prevState) {
@@ -634,7 +694,7 @@ class App extends Component {
     this.setState({ showConfig: true });
   }
   
-  handleRename() {
+  async handleRename() {
     const { files, previewItems } = this.state;
     const items = document.querySelectorAll(`.${ RENAMABLE_ROOT_CLASS }.is--selected .${ RENAMABLE_ROOT_CLASS }__new-name`);
     const names = [...items].map((itemEl) => {
@@ -654,18 +714,26 @@ class App extends Component {
       };
     });
     
-    // show indicator if request is taking too long
-    this.renameRequestTimer = setTimeout(() => {
-      delete this.renameRequestTimer;
-      this.setState({ renameRequested: true });
-    }, 300);
+    // show indicator
+    this.setState({ renameRequested: true });
+    
+    let socketAPI;
+    try {
+      let logNdx = 1;
+      socketAPI = await this.connectToSocket();
+      socketAPI.on(WS__MSG_TYPE__RENAME_STATUS, (data) => {
+        this.setState({ renameStatusLogs: [`[${ pad(logNdx, '000') }] ${ data.log }`, ...this.state.renameStatusLogs] });
+        logNdx++;
+      });
+    }
+    catch(err) { console.log(err); }
     
     fetch(API__RENAME, {
       method: 'POST',
       body: JSON.stringify({ names }),
     })
-      .then((logs) => {
-        clearTimeout(this.renameRequestTimer);
+      .then((logs) => {  
+        if(socketAPI) socketAPI.disconnect();
         
         // remove renamed items from lists
         const updatedFiles = [];
@@ -705,7 +773,7 @@ class App extends Component {
           allSelected,
           files: updatedFiles,
           logs: [
-            // ...this.state.logs, // TODO - mabye uncomment to append to all logs
+            // ...this.state.logs, // TODO - maybe uncomment to append to all logs
             ...Object.keys(logs).map((key) => logs[key]),
           ],
           logsOpen: true,
@@ -713,6 +781,7 @@ class App extends Component {
           renameCount: successful,
           renameErrorCount: errors,
           renameRequested: false,
+          renameStatusLogs: [],
           selectAll: !!selectionCount,
           selectionCount,
         });
@@ -847,6 +916,7 @@ class App extends Component {
       renameCount,
       renameErrorCount,
       renameRequested,
+      renameStatusLogs,
       searchAndReplaceFiles,
       selectAll,
       selectionCount,
@@ -975,6 +1045,11 @@ class App extends Component {
                 </button>
               </div>
             </nav>
+            {!!renameStatusLogs.length && (
+              <div className={`${ ROOT_CLASS }__rename-status-logs`}>
+                {renameStatusLogs.join('\n')}
+              </div>
+            )}
             <div
               className={`${ ROOT_CLASS }__section-items ${ (files.length) ? MODIFIER__HAS_ITEMS : '' }`}
               ref={(ref) => { this.filesRef = ref; }}

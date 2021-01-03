@@ -183,6 +183,7 @@ class Renamable extends Component {
       path,
       previewing,
       seasonNumber,
+      seasonOrder,
       seriesURL,
       skipped,
     } = this.props;
@@ -321,6 +322,7 @@ class Renamable extends Component {
                 data-new-name={`${ newName }${ ext }`}
                 data-old-path={`${ path }/${ name }${ ext }`}
                 data-season-number={seasonNumber}
+                data-season-order={seasonOrder}
               >
                 <div className={`${ ROOT_CLASS }__new-name-text ${ newNameModifier }`}>
                   {_newName}
@@ -360,6 +362,7 @@ Renamable.propTypes = {
   path: string,
   previewing: bool,
   seasonNumber: number,
+  seasonOrder: string,
   selected: bool,
   seriesURL: string,
   skipped: bool,

@@ -143,6 +143,7 @@ class App extends Component {
         data.id = previewItem.id;
         data.newName = previewItem.name;
         data.seasonNumber = previewItem.seasonNumber;
+        data.seasonOrder = previewItem.seasonOrder;
         data.seriesURL = previewItem.seriesURL;
         
         if(!useGlobalToggle && !data.error) data.selected = true;
@@ -711,6 +712,7 @@ class App extends Component {
         newName: itemData.newName,
         oldPath: itemData.oldPath,
         seasonNumber: itemData.seasonNumber,
+        seasonOrder: itemData.seasonOrder,
       };
     });
     

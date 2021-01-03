@@ -103,8 +103,9 @@ const getEpNamesFromCache = ({ cacheData, idMap, names }) => {
           id: cache.id,
           index,
           name: sanitizeName(newName),
-          seasonNumber: season,
           seriesName: cache.name,
+          seasonNumber: season,
+          seasonOrder: useDVDOrder ? 'dvd' : 'broadcast',
           seriesURL,
         });
       }

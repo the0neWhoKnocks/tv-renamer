@@ -75,7 +75,7 @@ export default ({ req, reqData, res }) => {
       }
       
       for(let i=0; i<names.length; i++){
-        const { cacheKey, episodeNdx, index, moveToFolder, newName, oldPath, seasonNumber } = names[i];
+        const { cacheKey, episodeNdx, index, moveToFolder, newName, oldPath, seasonNumber, seasonOrder } = names[i];
         let _outputFolder = outputFolder;
         let folderErr;
         let tvshowNfoErr;
@@ -239,7 +239,8 @@ export default ({ req, reqData, res }) => {
               if(moveErr) log.error = moveErr.message;
               else{
                 const cache = await getCache(cacheKey);
-                const { aired, plot, thumbnail, title } = cache.seasons[seasonNumber].episodes[episodeNdx];
+                const seasons = seasonOrder === 'dvd' ? cache.dvdSeasons : cache.seasons;
+                const { aired, plot, thumbnail, title } = seasons[seasonNumber].episodes[episodeNdx];
                 const EP_FILENAME_NO_EXT = data.to.replace(/\.[\w]{3}$/, '');
                 const streamDetails = {};
                 let runtime = '';

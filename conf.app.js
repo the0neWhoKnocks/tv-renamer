@@ -118,6 +118,7 @@ module.exports = {
   VERSION__CACHE_SCHEMA: 3,
   WP__ENTRY: `${ SRC }/app.js`,
   WP__OUTPUT: DIST_JS,
+  WS__MSG_TYPE__RENAME_STATUS: 'rename status',
   aliases: {
     COMPONENTS: `${ SRC }/components`,
     ROOT,

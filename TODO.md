@@ -3,20 +3,20 @@
 ---
 
 NFO Scraping
-- [ ] move renamed file to season folder
-  - [ ] Create season folder if not exists
-  - [ ] Create series tvshow.nfo if not exists
+- [x] move renamed file to season folder
+  - [x] Create season folder if not exists
+  - [x] Create series tvshow.nfo if not exists
     - [ ] allow user to pick
       - banner
       - clearlogo, logo
       - fanart
       - poster
-  - [ ] Create <episode-name>.nfo file for episode. Would have to use a lot of
+  - [x] Create <episode-name>.nfo file for episode. Would have to use a lot of
   the same media scraping logic from movie-list (ffmpeg).
   - [x] Sanitize XML data, replace things like `’` with `'` (GoT plot)
     - [ ] scrape <episode-name>-thumb.jpg for episode
       - allow user to pick season image
-  - [ ] Notify User when scraping images since it can take a bit sometimes.
+  - [x] Notify User when scraping images since it can take a bit sometimes.
   
 - Requirements for nfo files
   - for show https://kodi.wiki/view/NFO_files/TV_shows#nfo_Tags
@@ -89,3 +89,4 @@ NFO Scraping
 - [ ] Instead of two Preview buttons, have a drop-down to choose different episode groupings.
 - Cypress tests
   - [ ] strip out un-needed data from cache files.
+- [ ] Fix "replace" dialog overflow when there's a bunch of items.

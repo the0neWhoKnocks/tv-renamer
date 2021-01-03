@@ -124,6 +124,7 @@ export default css`
       display: flex;
       flex-direction: column;
       overflow: hidden;
+      position: relative;
       
       &:nth-of-type(2) {
         flex-shrink: 0;
@@ -160,6 +161,27 @@ export default css`
         padding: 0.25rem 0.25rem 1rem;
         margin: 0.25rem 0.75rem 1rem 0.75rem;
         overflow-y: auto;
+      }
+    }
+    
+    &__rename-status-logs {
+      height: 10em;
+      color: #eee;
+      white-space: pre;
+      overflow: hidden;
+      padding: 0.5em;
+      margin: 0rem 1rem 0;
+      background: #333;
+      position: relative;
+      
+      &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(transparent, #333);
+        position: absolute;
+        top: 0;
+        left: 0;
       }
     }
     

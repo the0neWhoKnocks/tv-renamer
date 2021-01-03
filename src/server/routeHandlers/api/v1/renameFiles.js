@@ -3,7 +3,10 @@ import { execSync } from 'child_process';
 import { parse } from 'path';
 import mkdirp from 'mkdirp';
 import rimraf from 'rimraf';
-import { PUBLIC_RENAME_LOG } from 'ROOT/conf.app';
+import {
+  PUBLIC_RENAME_LOG,
+  WS__MSG_TYPE__RENAME_STATUS,
+} from 'ROOT/conf.app';
 import handleError from 'SERVER/routeHandlers/error';
 import cmd from 'SERVER/utils/cmd';
 import downloadFile from 'SERVER/utils/downloadFile';
@@ -12,6 +15,7 @@ import jsonResp from 'SERVER/utils/jsonResp';
 import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
 import { writeXML } from 'SERVER/utils/xml';
+import pad from 'UTILS/pad';
 import filesFilter from './utils/filesFilter';
 import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
@@ -24,8 +28,6 @@ const MAX_LOG_ENTRIES = 200;
 const log = logger('server:renameFiles');
 
 const createLog = (data = {}) => ({ ...data, time: Date.now() });
-
-const pad = (num, token='00') => token.substring(0, token.length-`${ num }`.length) + num;
 
 const sanitizeText = (text = '') => {
   // The below should handle replacing 
@@ -45,8 +47,9 @@ const roundDecimal = (num, dec) => {
   return parseFloat((Math.round((_num * Math.pow(10, dec)) + (numSign * 0.0001)) / Math.pow(10, dec)).toFixed(dec));
 };
 
-export default ({ reqData, res }) => {
+export default ({ req, reqData, res }) => {
   const names = reqData.names;
+  const { clientSocket } = req.socket.server;
   
   loadConfig(({ outputFolder, sourceFolder }) => {
     loadRenameLog(async (logs) => {
@@ -113,10 +116,15 @@ export default ({ reqData, res }) => {
                   folderErr = error;
                 }
                 
-                const { images } = await getCache(cacheKey);
+                const { images, name } = await getCache(cacheKey);
                 if(images && images.fanarttv){
                   const { fanarttv } = images;
                   const prefix = (season > 0) ? `season${ pad(season) }` : 'season-specials';
+                  
+                  clientSocket.send(JSON.stringify({
+                    data: { log: `Downloading images for "${ prefix }" of "${ name }"` },
+                    type: WS__MSG_TYPE__RENAME_STATUS,
+                  }));
                   
                   try {
                     const pendingImgs = [
@@ -165,6 +173,11 @@ export default ({ reqData, res }) => {
             
             if(cache.images){
               const { fanarttv, tmdb } = cache.images;
+              
+              clientSocket.send(JSON.stringify({
+                data: { log: `Downloading series images for "${ cache.name }"` },
+                type: WS__MSG_TYPE__RENAME_STATUS,
+              }));
               
               try {
                 let pendingImgs;
@@ -236,6 +249,11 @@ export default ({ reqData, res }) => {
                 }
                 
                 try {
+                  clientSocket.send(JSON.stringify({
+                    data: { log: `Reading streams metadata for "${ newName }"` },
+                    type: WS__MSG_TYPE__RENAME_STATUS,
+                  }));
+                  
                   const { streams: rawStreams } = JSON.parse(await cmd(`ffprobe -v quiet -print_format json -show_streams "${ data.to }"`));
                   if(rawStreams.length) {
                     // map audio and video streams to grouped Arrays
@@ -312,7 +330,14 @@ export default ({ reqData, res }) => {
                     },
                   }, `${ EP_FILENAME_NO_EXT }.nfo`);
                   
-                  try { await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`); }
+                  try {
+                    clientSocket.send(JSON.stringify({
+                      data: { log: `Downloading thumbnail for "${ newName }"` },
+                      type: WS__MSG_TYPE__RENAME_STATUS,
+                    }));
+                    
+                    await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`);
+                  }
                   catch(err) {
                     warnings.push(`Error downloading episode still for "${ newName }": "${ err.message }"\n  URL: "${ thumbnail }"`);
                   }

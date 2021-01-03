@@ -211,6 +211,7 @@ export default ({
         .then(opts => lookUpEpisodes({
           ...opts,
           apiKey,
+          cacheKey,
           index,
           recentlyCached,
           seriesYear: _seriesYear,

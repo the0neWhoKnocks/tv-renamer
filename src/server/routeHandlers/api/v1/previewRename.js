@@ -267,19 +267,29 @@ export default ({ reqData, res }) => {
               // make an initial request so the series gets cached, then finish
               // up the remaining items.
               const seriesRequestsInProgress = [];
-              const seriesDataPromise = ({ id, index, name, update, year }, ndx) => lookUpSeries({
-                apiKey,
-                cache, 
-                cacheKey: (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined,
-                fanarttvAPIKey, 
-                id,
-                index,
-                recentlyCached,
-                res,
-                seriesName: name,
-                seriesYear: year,
-                update,
-              });
+              const seriesDataPromise = ({ id, index, name, update, year }, ndx) => {
+                const cacheKey = (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined;
+                let seriesYear = year; 
+                
+                if(update && !year && cacheKey){
+                  const _year = ((cachedItems[ndx].file.name.match(/\((?<year>\d{4})\)$/) || {}).groups || {}).year;
+                  if(_year) seriesYear = _year; 
+                }
+                
+                return lookUpSeries({
+                  apiKey,
+                  cache, 
+                  cacheKey,
+                  fanarttvAPIKey, 
+                  id,
+                  index,
+                  recentlyCached,
+                  res,
+                  seriesName: name,
+                  seriesYear,
+                  update,
+                });
+              };
               const pendingSeriesData = requestedNames
                 .filter((lookup) => {
                   const { name } = lookup;

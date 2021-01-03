@@ -10,6 +10,7 @@ import getSeriesEpisodes from './getSeriesEpisodes';
 
 export default ({
   apiKey,
+  cacheKey,
   episodeGroups,
   index,
   recentlyCached,
@@ -134,7 +135,7 @@ export default ({
         }
         
         if(!recentlyCached.includes(cache.name)){
-          cacheData({ data: cache }).then(() => resolve({ cache, index }));
+          cacheData({ cacheKey, data: cache }).then(() => resolve({ cache, index }));
           recentlyCached.push(cache.name);
         }
         else{

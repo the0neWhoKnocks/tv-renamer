@@ -96,7 +96,7 @@ export default ({
               currSeasonEps[airedEpisodeNumber] = {
                 aired,
                 plot,
-                thumbnail: `${ TMDB__URL__EPISODE_STILLS }${ thumbnail }`,
+                thumbnail: thumbnail ? `${ TMDB__URL__EPISODE_STILLS }${ thumbnail }` : '',
                 title: formattedName,
               };
             }
@@ -126,7 +126,7 @@ export default ({
                 currDvdSeasonEps[dvdEpisodeNumber] = {
                   aired,
                   plot,
-                  thumbnail,
+                  thumbnail: thumbnail ? `${ TMDB__URL__EPISODE_STILLS }${ thumbnail }` : '',
                   title: sanitizeName(episodeName),
                 };
               }

@@ -76,6 +76,7 @@ export default ({ req, reqData, res }) => {
       
       for(let i=0; i<names.length; i++){
         const { cacheKey, episodeNdx, index, moveToFolder, newName, oldPath, seasonNumber, seasonOrder } = names[i];
+        const imgWarnings = [];
         let _outputFolder = outputFolder;
         let folderErr;
         let tvshowNfoErr;
@@ -121,21 +122,26 @@ export default ({ req, reqData, res }) => {
                   const { fanarttv } = images;
                   const prefix = (season > 0) ? `season${ pad(season) }` : 'season-specials';
                   
-                  clientSocket.send(JSON.stringify({
-                    data: { log: `Downloading images for "${ prefix }" of "${ name }"` },
-                    type: WS__MSG_TYPE__RENAME_STATUS,
-                  }));
-                  
                   try {
+                    clientSocket.send(JSON.stringify({
+                      data: { log: `Downloading images for "${ prefix }" of "${ name }"` },
+                      type: WS__MSG_TYPE__RENAME_STATUS,
+                    }));
+                    
                     const pendingImgs = [
                       { prop: 'seasonPoster', name: `${ prefix }-poster.jpg` },
                       { prop: 'seasonThumb', name: `${ prefix }-thumb.jpg` },
                     ].reduce((arr, { prop, name }) => {
-                      if(fanarttv[prop]) arr.push(downloadFile(fanarttv[prop][season][0], `${ SERIES_FOLDER }/${ name }`));
+                      if(
+                        fanarttv[prop]
+                        && fanarttv[prop][season]
+                        && fanarttv[prop][season][0]
+                      ) arr.push(downloadFile(fanarttv[prop][season][0], `${ SERIES_FOLDER }/${ name }`));
+                      else imgWarnings.push(`No "${ name }" available`);
                       return arr;
                     }, []);
                     
-                    await Promise.all(pendingImgs);
+                    if(pendingImgs.length) await Promise.all(pendingImgs);
                   }
                   catch(err) {
                     log(`[ERROR] Downloading season image: "${ err.stack }"`);
@@ -174,12 +180,12 @@ export default ({ req, reqData, res }) => {
             if(cache.images){
               const { fanarttv, tmdb } = cache.images;
               
-              clientSocket.send(JSON.stringify({
-                data: { log: `Downloading series images for "${ cache.name }"` },
-                type: WS__MSG_TYPE__RENAME_STATUS,
-              }));
-              
               try {
+                clientSocket.send(JSON.stringify({
+                  data: { log: `Downloading series images for "${ cache.name }"` },
+                  type: WS__MSG_TYPE__RENAME_STATUS,
+                }));
+                
                 let pendingImgs;
                 
                 // download all the things
@@ -192,7 +198,11 @@ export default ({ req, reqData, res }) => {
                     { prop: 'seriesPoster', name: 'poster.jpg' },
                     { prop: 'seriesThumb', name: 'thumb.jpg' },
                   ].reduce((arr, { prop, name }) => {
-                    if(fanarttv[prop]) arr.push(downloadFile(fanarttv[prop][0], `${ SERIES_FOLDER }/${ name }`));
+                    if(
+                      fanarttv[prop]
+                      && fanarttv[prop][0]
+                    ) arr.push(downloadFile(fanarttv[prop][0], `${ SERIES_FOLDER }/${ name }`));
+                    else imgWarnings.push(`No "${ name }" available`);
                     return arr;
                   }, []);
                 }
@@ -203,6 +213,7 @@ export default ({ req, reqData, res }) => {
                     { prop: 'poster', name: 'poster.jpg' },
                   ].reduce((arr, { prop, name }) => {
                     if(tmdb[prop]) arr.push(downloadFile(tmdb[prop], `${ SERIES_FOLDER }/${ name }`));
+                    else imgWarnings.push(`No "${ name }" available`);
                     return arr;
                   }, []);
                 }
@@ -223,10 +234,10 @@ export default ({ req, reqData, res }) => {
               from: oldPath,
               to: `${ _outputFolder }/${ newName }`,
             };
+            const warnings = [...imgWarnings];
             const cb = async (d, moveErr) => {
               const rootDir = parse(oldPath).dir;
               const log = createLog(d);
-              const warnings = [];
               
               if(!moveErr) pendingNames.splice(pendingNames.indexOf(d.from), 1);
               
@@ -331,16 +342,21 @@ export default ({ req, reqData, res }) => {
                     },
                   }, `${ EP_FILENAME_NO_EXT }.nfo`);
                   
-                  try {
-                    clientSocket.send(JSON.stringify({
-                      data: { log: `Downloading thumbnail for "${ newName }"` },
-                      type: WS__MSG_TYPE__RENAME_STATUS,
-                    }));
-                    
-                    await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`);
+                  if(thumbnail){
+                    try {
+                      clientSocket.send(JSON.stringify({
+                        data: { log: `Downloading thumbnail for "${ newName }"` },
+                        type: WS__MSG_TYPE__RENAME_STATUS,
+                      }));
+                      
+                      await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`);
+                    }
+                    catch(err) {
+                      warnings.push(`Error downloading episode still for "${ newName }": "${ err.message }"\n  URL: "${ thumbnail }"`);
+                    }
                   }
-                  catch(err) {
-                    warnings.push(`Error downloading episode still for "${ newName }": "${ err.message }"\n  URL: "${ thumbnail }"`);
+                  else{
+                    warnings.push('No thumbnail available');
                   }
                 }
                 catch(err) {

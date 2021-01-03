@@ -31,7 +31,7 @@ export default css`
     }
     
     &__table {
-      max-height: 70vh;
+      max-height: 50vh; /* anything above 50 won't account for Mobile keyboard */
       border: solid 2px ${ COLOR__TABLE_BORDER };
       border-radius: 0.25em;
       margin-top: 1em;

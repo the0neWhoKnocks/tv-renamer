@@ -89,4 +89,4 @@ NFO Scraping
 - [ ] Instead of two Preview buttons, have a drop-down to choose different episode groupings.
 - Cypress tests
   - [ ] strip out un-needed data from cache files.
-- [ ] Fix "replace" dialog overflow when there's a bunch of items.
+- [x] Fix "replace" dialog overflow when there's a bunch of items.

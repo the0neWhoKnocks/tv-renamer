@@ -12,12 +12,19 @@ A local network app that allows for renaming TV shows
 
 ## Build & Run Docker Image
 
-**NOTE** - I've created these shell aliases to speed up terminal workflow:
+**NOTE** - I've created these global shell aliases to speed up terminal workflow:
 | Alias | Command          |
 | ----- | ---------------- |
 | `dc`  | `docker-compose` |
 | `d`   | `docker`         |
 | `nr`  | `npm run`        |
+
+**NOTE** - You can add a `source /<REPO_PATH>/bin/aliases.sh` to your shell
+`rc` file to use slightly easier to remember Docker commands 
+| Alias | Command  |
+| ----- | -------- |
+| `starttvrenamer` | `docker-compose up -d tvrenamer_dev & sleep 2 && docker exec -it tvrenamer_dev zsh && docker-compose down` |
+| `entertvrenamer` | `docker-compose exec tvrenamer_dev zsh` |
 
 **Prerequisites**
 - If running on Windows you may need to go into `Docker > Settings > Shared Drives` and enable the drive you want to use a bind-mount with.

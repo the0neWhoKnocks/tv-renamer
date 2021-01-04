@@ -1,6 +1,40 @@
 # Changelog
 ---
 
+## v4.0.0
+
+**Bugfixes**
+- [de9fbc3](https://github.com/the0neWhoKnocks/tv-renamer/commit/de9fbc3):  janky cacheKey logic
+- [9028807](https://github.com/the0neWhoKnocks/tv-renamer/commit/9028807):  Image downloads and caching
+- [e9cee0e](https://github.com/the0neWhoKnocks/tv-renamer/commit/e9cee0e):  Year not being maintained in name again
+- [d2fe887](https://github.com/the0neWhoKnocks/tv-renamer/commit/d2fe887):  Error during rename based on DVD order
+- [177ffe5](https://github.com/the0neWhoKnocks/tv-renamer/commit/177ffe5):  Can't see top of Replace dialog with Mobile keyboard
+- [fead955](https://github.com/the0neWhoKnocks/tv-renamer/commit/fead955):  GoT episode numbering is wrong
+- [8063841](https://github.com/the0neWhoKnocks/tv-renamer/commit/8063841):  Extra season episodes API call being made
+
+**Dev-Ops**
+- [b4dc8fe](https://github.com/the0neWhoKnocks/tv-renamer/commit/b4dc8fe):  Updated release script
+- [2500551](https://github.com/the0neWhoKnocks/tv-renamer/commit/2500551):  Updated tests and data
+
+**Features**
+- [de34e20](https://github.com/the0neWhoKnocks/tv-renamer/commit/de34e20):  Added aliases
+- [a8a9bca](https://github.com/the0neWhoKnocks/tv-renamer/commit/a8a9bca):  Rename status logs
+- [b3e30c6](https://github.com/the0neWhoKnocks/tv-renamer/commit/b3e30c6):  Scrape file metadata for nfo
+- [f460197](https://github.com/the0neWhoKnocks/tv-renamer/commit/f460197):  Set up Docker image with ffmpeg support
+- [0f37b66](https://github.com/the0neWhoKnocks/tv-renamer/commit/0f37b66):  Series and season imagery are scraped
+- [d5e0e6b](https://github.com/the0neWhoKnocks/tv-renamer/commit/d5e0e6b):  Episode stills are scraped
+- [99b24f8](https://github.com/the0neWhoKnocks/tv-renamer/commit/99b24f8):  Account for misc. encoded characters
+- [d3f0eb0](https://github.com/the0neWhoKnocks/tv-renamer/commit/d3f0eb0):  Create nfo files for series and episodes
+- [e61cfa9](https://github.com/the0neWhoKnocks/tv-renamer/commit/e61cfa9):  Create Season or Specials folders for files
+- [3b3492f](https://github.com/the0neWhoKnocks/tv-renamer/commit/3b3492f):  Data for episode.nfo added to cache
+- [2c969da](https://github.com/the0neWhoKnocks/tv-renamer/commit/2c969da):  Auto-update cache if schema is different
+- [061e16f](https://github.com/the0neWhoKnocks/tv-renamer/commit/061e16f):  Data for tvshow.nfo added to cache
+
+**Uncategorized**
+- [3e7e876](https://github.com/the0neWhoKnocks/tv-renamer/commit/3e7e876) doc: Added TODOs for scraping
+
+---
+
 ## v3.4.0
 
 **Bugfixes**

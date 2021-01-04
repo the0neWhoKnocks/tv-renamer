@@ -7,7 +7,9 @@ const {
 const { parse, resolve } = require('path');
 const mkdirp = require('mkdirp');
 const rimraf = require('rimraf');
-const cmd = require('../../dist/cjs/server/utils/cmd').default;
+
+const DIST_PATH = (process.env.DIST_FILES_PATH) ? process.env.DIST_FILES_PATH : '../../dist';
+const cmd = require(`${ DIST_PATH }/cjs/server/utils/cmd`).default;
 
 const MOCK_FILES = (process.env.MOCK_FILES_PATH)
   ? process.env.MOCK_FILES_PATH

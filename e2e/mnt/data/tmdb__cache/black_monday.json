@@ -1,36 +1,931 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Crime"
+  ],
   "id": 80230,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/349338/seasonposter/black-monday-5ec90d06d2ad9.jpg",
+          "https://assets.fanart.tv/fanart/tv/349338/seasonposter/black-monday-5c2fbf185883c.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/349338/seasonposter/black-monday-5ec90d18deb7b.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/349338/seasonthumb/black-monday-5f22154cf3310.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/349338/seasonthumb/black-monday-5f22155f9d858.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/349338/showbackground/black-monday-5efc57c958af9.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/349338/tvbanner/black-monday-5efc5736e752e.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5efc59170053e.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5efc592d001ed.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5c2f260856cad.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5c2fbd754204d.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-5f1316ba402da.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-5efc57eec27d8.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/8rPUS4uG3Z2kT7wi0oIi9iCzaYO.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/dq9ECRolZJiLWQwKcaoxufCvaG8.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Black Monday",
+  "plot": "Taking viewers back to October 19, 1987 – aka Black Monday, the worst stock market crash in Wall Street history – this is the story of how a group of outsiders took on the blue-blood, old-boys club of Wall Street and ended up crashing the world’s largest financial system, a Lamborghini limousine, Don Henley’s birthday party and the glass ceiling.",
+  "premiered": "2019-01-20",
+  "status": "Returning Series",
+  "studios": [
+    "Showtime"
+  ],
+  "actors": [
+    {
+      "name": "Don Cheadle",
+      "order": 0,
+      "role": "Maurice \"Mo\" Monroe",
+      "thumb": "/b1EVJWdFn7a75qVYJgwO87W2TJU.jpg"
+    },
+    {
+      "name": "Andrew Rannells",
+      "order": 1,
+      "role": "Blair Pfaff",
+      "thumb": "/wOXFZssfq3wymBwuiMNVNBpPENB.jpg"
+    },
+    {
+      "name": "Paul Scheer",
+      "order": 2,
+      "role": "Keith Shankar",
+      "thumb": "/yGOxrFSrmIZQ4hVnB3HHJm2NCPN.jpg"
+    },
+    {
+      "name": "Regina Hall",
+      "order": 3,
+      "role": "Dawn Darcy",
+      "thumb": "/zquutVALb9iqQmGvRaaCbEhDgCQ.jpg"
+    },
+    {
+      "name": "Yassir Lester",
+      "order": 122,
+      "role": "Yassir X",
+      "thumb": null
+    },
+    {
+      "name": "Casey Wilson",
+      "order": 122,
+      "role": "Tiff Georgina",
+      "thumb": "/otuslEZ8j4oCgATIRuV3mKu8Fzw.jpg"
+    },
+    {
+      "name": "Horatio Sanz",
+      "order": 124,
+      "role": "Wayne Lapotka",
+      "thumb": "/kRoPbW1wPePFnA2THXxNhj4wsvA.jpg"
+    },
+    {
+      "name": "Ken Marino",
+      "order": 120,
+      "role": "Lenny Leighman",
+      "thumb": "/7MeXvFGhzBwDm6c7lvdalA3GJYM.jpg"
+    },
+    {
+      "name": "Kadeem Hardison",
+      "order": 55,
+      "role": "Spencer",
+      "thumb": "/swexf3AEacs9Ep2oDcaUyE5XBdj.jpg"
+    },
+    {
+      "name": "Tuc Watkins",
+      "order": 118,
+      "role": "Congressman Roger Harris",
+      "thumb": "/oZ1cxcZ1rKNzV7wZyITiaEgN8Kg.jpg"
+    },
+    {
+      "name": "Xosha Roquemore",
+      "order": 122,
+      "role": "Connie",
+      "thumb": "/g0CEVYlW5IPqBmouiIOJD7OdC1Y.jpg"
+    },
+    {
+      "name": "Danielle Schneider",
+      "order": 64,
+      "role": "Agent Deb Fox",
+      "thumb": "/rICSlXHSJSKGYBrY7AtRJZm5ahY.jpg"
+    },
+    {
+      "name": "Dannah Feinglass Phirman",
+      "order": 64,
+      "role": "Agent Missy Mills",
+      "thumb": "/t2SnmEYrHloRBcuCTJ9fsqN447Z.jpg"
+    },
+    {
+      "name": "Julie Hagerty",
+      "order": 80,
+      "role": "Jackie Georgina",
+      "thumb": "/bQZ0bcFNyE4a3GDNfYMmfO7eWMl.jpg"
+    },
+    {
+      "name": "Phil Reeves",
+      "order": 80,
+      "role": "Henri Georgina",
+      "thumb": "/uyMQCLuxS3LbTfEVNJG7FIqpgM.jpg"
+    },
+    {
+      "name": "Dulé Hill",
+      "order": 124,
+      "role": "Marcus Duane Wainwright III",
+      "thumb": "/fPJ8lIx6WwBgO2AhnHQSeiZiAUy.jpg"
+    },
+    {
+      "name": "Mike Kalinowski",
+      "order": 129,
+      "role": "Leighman Brothers Double",
+      "thumb": null
+    },
+    {
+      "name": "Jason Michael Snow",
+      "order": 64,
+      "role": "Mike",
+      "thumb": "/tiqkXNvPWKPpO5tdkkC7RvhyuMR.jpg"
+    },
+    {
+      "name": "Neil Casey",
+      "order": 122,
+      "role": "Alvin Rudnick",
+      "thumb": "/xuoT9GT77FZCmvNxKZTlEYIkkuz.jpg"
+    },
+    {
+      "name": "Michael Hitchcock",
+      "order": 122,
+      "role": "Pastor Newell",
+      "thumb": "/sLKiaWJtExmjORZCVYHB0cTgmMn.jpg"
+    },
+    {
+      "name": "Janelle James",
+      "order": 124,
+      "role": "Joyce",
+      "thumb": null
+    },
+    {
+      "name": "Kurt Braunohler",
+      "order": 64,
+      "role": "Ty Daverman",
+      "thumb": "/5l0bFRt6d7JQ2d3iNZmJvXNAji3.jpg"
+    },
+    {
+      "name": "Melissa Stephens",
+      "order": 64,
+      "role": "Tosh B'Gosh",
+      "thumb": null
+    },
+    {
+      "name": "Jen Zaborowski",
+      "order": 64,
+      "role": "Bunny Bartles",
+      "thumb": "/bnEp1DcGb27zYTatZrC8JRUBJ6k.jpg"
+    },
+    {
+      "name": "Kim Cooper",
+      "order": 64,
+      "role": "Kayla James",
+      "thumb": null
+    },
+    {
+      "name": "Blair Beeken",
+      "order": 67,
+      "role": "Karen",
+      "thumb": null
+    },
+    {
+      "name": "Mel Fair",
+      "order": 91,
+      "role": "Newscaster",
+      "thumb": "/9Q9sIiikHS5HvDO89KscfnruZrb.jpg"
+    },
+    {
+      "name": "Deanna Raphael",
+      "order": 100,
+      "role": "Pamela",
+      "thumb": null
+    },
+    {
+      "name": "Patrick Fabian",
+      "order": 104,
+      "role": "Governor Putnam",
+      "thumb": "/ziTKeEraEksMQBg02adD22JJXb0.jpg"
+    },
+    {
+      "name": "June Diane Raphael",
+      "order": 118,
+      "role": "Corkie Harris",
+      "thumb": "/lAwKmADejWaxNCwraNJO6tbfItb.jpg"
+    },
+    {
+      "name": "Jackie Torres",
+      "order": 30,
+      "role": "Yolli",
+      "thumb": null
+    },
+    {
+      "name": "Greg Bryan",
+      "order": 36,
+      "role": "Cop #1",
+      "thumb": "/qNDR5r887sy5CQKo2z7pvkxMB9a.jpg"
+    },
+    {
+      "name": "Melissa Rauch",
+      "order": 50,
+      "role": "Shira",
+      "thumb": "/pYcQdUodRdZLpDM2FA0LhW5KhkF.jpg"
+    },
+    {
+      "name": "Jayden Maddux",
+      "order": 54,
+      "role": "Brad",
+      "thumb": null
+    },
+    {
+      "name": "Bruce Dern",
+      "order": 64,
+      "role": "Rod \"The Jammer\" Jaminski",
+      "thumb": "/j9AaHmBiik2GcsMfm8XyKdVNL6p.jpg"
+    },
+    {
+      "name": "Bob Rumnock",
+      "order": 70,
+      "role": "Reenactment Jammer",
+      "thumb": "/vrl0PJupGydqJuoq4gEGk3trsgr.jpg"
+    },
+    {
+      "name": "Derek Cecil",
+      "order": 70,
+      "role": "Private Investigator",
+      "thumb": "/zFePdUzvVaKFy8jIHJKjoC5WUfj.jpg"
+    },
+    {
+      "name": "Jake Szczepaniak",
+      "order": 88,
+      "role": "Cabana Boy Andrusha",
+      "thumb": null
+    },
+    {
+      "name": "Jack Guzman",
+      "order": 107,
+      "role": "Numero Dos",
+      "thumb": "/y9slFhZT5ZHEwUUrtOH6AjUEyqR.jpg"
+    },
+    {
+      "name": "Vanessa Bell Calloway",
+      "order": 110,
+      "role": "Ruth",
+      "thumb": "/6gJua6IKvhGrCTU1UzgRhOM9oyl.jpg"
+    },
+    {
+      "name": "Burl Moseley",
+      "order": 124,
+      "role": "Waylon",
+      "thumb": "/fJjyLqM7PPgaKHRxvS46EhDvVNP.jpg"
+    },
+    {
+      "name": "Mark JP Hood",
+      "order": 125,
+      "role": "Herbie",
+      "thumb": null
+    },
+    {
+      "name": "Andrew Carrillo",
+      "order": 129,
+      "role": "Butler",
+      "thumb": null
+    },
+    {
+      "name": "Chasty Ballesteros",
+      "order": 10,
+      "role": "Beautiful Woman",
+      "thumb": "/qSg1EagcmG6UYotMATqHkCI7SNt.jpg"
+    },
+    {
+      "name": "Corey Allen Kotler",
+      "order": 11,
+      "role": "Obnoxious Guy #1",
+      "thumb": "/Ag1yHHglaxo9kX91e7FKjodnjEs.jpg"
+    },
+    {
+      "name": "Jason Andre Smith",
+      "order": 12,
+      "role": "Obnoxious Guy #2",
+      "thumb": null
+    },
+    {
+      "name": "Dan Warner",
+      "order": 13,
+      "role": "Sobbing Stock Broker",
+      "thumb": null
+    },
+    {
+      "name": "Dennis Delsing",
+      "order": 14,
+      "role": "Old Trader",
+      "thumb": null
+    },
+    {
+      "name": "Hugh Dane",
+      "order": 15,
+      "role": "Calvin",
+      "thumb": "/ivF6bizuNxYp50icc6TeWezThML.jpg"
+    },
+    {
+      "name": "Joey Napoli",
+      "order": 16,
+      "role": "Random Trader #1",
+      "thumb": null
+    },
+    {
+      "name": "Daniel Strauss",
+      "order": 17,
+      "role": "Random Trader #2",
+      "thumb": "/wIaapoYsDyrP554nmNspKXwVYXu.jpg"
+    },
+    {
+      "name": "Harry Zinn",
+      "order": 18,
+      "role": "Random Trader #3",
+      "thumb": "/d69UqbGRVejxrC2rKXjQ030cyhk.jpg"
+    },
+    {
+      "name": "Paul Rust",
+      "order": 21,
+      "role": "Brandt",
+      "thumb": "/fTcHwLTs4bYHXdsVGf7fdNS89HS.jpg"
+    },
+    {
+      "name": "Bob Turton",
+      "order": 22,
+      "role": "Kurt Covington",
+      "thumb": null
+    },
+    {
+      "name": "Teresa Ganzel",
+      "order": 24,
+      "role": "Trisha",
+      "thumb": "/6zQnzghZNTuaPFF3zTjfuzhmRfL.jpg"
+    },
+    {
+      "name": "Christine Sclafani",
+      "order": 25,
+      "role": "Linda",
+      "thumb": "/tcQk9l8qimJPAP0iL42VVJ84qSr.jpg"
+    },
+    {
+      "name": "Tim Russ",
+      "order": 29,
+      "role": "Walter",
+      "thumb": "/pwCVxvFbkUnBr46pPFJLabNMHww.jpg"
+    },
+    {
+      "name": "Johnny Williams",
+      "order": 31,
+      "role": "Chip",
+      "thumb": "/qMCDaAo82ju7S18TxdBH5LpkxXV.jpg"
+    },
+    {
+      "name": "T.J. Hoban",
+      "order": 33,
+      "role": "Jackson Polack",
+      "thumb": "/wWzdSWNOzCBGhrZzbpcoFCfgIck.jpg"
+    },
+    {
+      "name": "John Koyama",
+      "order": 36,
+      "role": "Yakuza Member",
+      "thumb": "/AwtHbt8qO7D3EFonG5lqml8xgwb.jpg"
+    },
+    {
+      "name": "Jason Boggs",
+      "order": 37,
+      "role": "Fat Fred",
+      "thumb": null
+    },
+    {
+      "name": "Iyad Hajjaj",
+      "order": 38,
+      "role": "Mujahideen Leader",
+      "thumb": "/dDMZ5H1aDXJPxb1SkLeTNnWpTqK.jpg"
+    },
+    {
+      "name": "J Ferguson",
+      "order": 39,
+      "role": "Bartender",
+      "thumb": null
+    },
+    {
+      "name": "Tim Heidecker",
+      "order": 40,
+      "role": "Not Milken #1",
+      "thumb": "/W8BuzuASN9mfIY4dTZKXMRi6AE.jpg"
+    },
+    {
+      "name": "Fred Melamed",
+      "order": 43,
+      "role": "Not Milken #2",
+      "thumb": "/cb5HSNuu6n4OVuxxQCDd5CfEocb.jpg"
+    },
+    {
+      "name": "Fay DeWitt",
+      "order": 46,
+      "role": "Rosemarie",
+      "thumb": null
+    },
+    {
+      "name": "Chip Sickler",
+      "order": 47,
+      "role": "Delivery Man",
+      "thumb": null
+    },
+    {
+      "name": "Marcy Goldman",
+      "order": 48,
+      "role": "Nurse",
+      "thumb": "/4GdOJykQX4kqQPgVT98PvobQ6C9.jpg"
+    },
+    {
+      "name": "Jacob Melton",
+      "order": 49,
+      "role": "Not Milken #3",
+      "thumb": "/5A3gMIwELAmUuPKUjfbBMxeTzqa.jpg"
+    },
+    {
+      "name": "Elia Cantu",
+      "order": 54,
+      "role": "Suki",
+      "thumb": "/aAVevUInofZFIhdqFffF4HNAec7.jpg"
+    },
+    {
+      "name": "Adam Zastrow",
+      "order": 55,
+      "role": "Thug #1",
+      "thumb": null
+    },
+    {
+      "name": "Michael Delgado",
+      "order": 56,
+      "role": "Thug #2",
+      "thumb": "/biAj5hY3q8i1dbu5UW9i66HS9aF.jpg"
+    },
+    {
+      "name": "Derek Graf",
+      "order": 57,
+      "role": "Cop #1",
+      "thumb": "/wwa2VZwRjXYrXv5kdhj9dIgQn8I.jpg"
+    },
+    {
+      "name": "Sergio Garcia",
+      "order": 58,
+      "role": "Cop #2",
+      "thumb": null
+    },
+    {
+      "name": "Bruce Beatty",
+      "order": 61,
+      "role": "Cecil",
+      "thumb": "/yN8sxg5nPPXrfcim3mNkAoPEdUs.jpg"
+    },
+    {
+      "name": "A.J. Tannen",
+      "order": 64,
+      "role": "Agent Durney",
+      "thumb": "/k58kqy45lXkeT3btuZEYHpZXpgV.jpg"
+    },
+    {
+      "name": "Steve Bethers",
+      "order": 65,
+      "role": "Homeless Man",
+      "thumb": "/nT2Udmdaz4e29qANqwg5xpqRQu2.jpg"
+    },
+    {
+      "name": "Blaine Gray",
+      "order": 67,
+      "role": "Leighman Brothers Photo Double",
+      "thumb": "/n6Qsn1wLwgMzuyvkJoK2GRRnSBQ.jpg"
+    },
+    {
+      "name": "Jim Meskimen",
+      "order": 70,
+      "role": "Host of \"America's Most Unsolved Crimes\"",
+      "thumb": "/913aYSudoetrtOIA8tZPjOj9dTo.jpg"
+    },
+    {
+      "name": "Kavan Reece",
+      "order": 72,
+      "role": "Reenactment Blair",
+      "thumb": null
+    },
+    {
+      "name": "Jennifer K. Lee",
+      "order": 73,
+      "role": "Reenactment Dawn",
+      "thumb": null
+    },
+    {
+      "name": "Tim McKernan",
+      "order": 74,
+      "role": "Reenactment Keith",
+      "thumb": null
+    },
+    {
+      "name": "Mary-Beth Manning",
+      "order": 77,
+      "role": "Roxanne",
+      "thumb": null
+    },
+    {
+      "name": "Artemis Pebdani",
+      "order": 80,
+      "role": "Realtor Anna",
+      "thumb": "/ctwVQYbcOuTIQJ866fi3AhzqKBM.jpg"
+    },
+    {
+      "name": "Monica Garcia",
+      "order": 82,
+      "role": "Maid",
+      "thumb": null
+    },
+    {
+      "name": "Jonathan Stoddard",
+      "order": 83,
+      "role": "Cabana Boy Dave",
+      "thumb": null
+    },
+    {
+      "name": "Mark Proksch",
+      "order": 84,
+      "role": "Lou \"Jewdini\" Dinowitz",
+      "thumb": "/7hxunQakkjd7D8Ld461ImT9EGLP.jpg"
+    },
+    {
+      "name": "Bridgid Coulter",
+      "order": 85,
+      "role": "Sharon",
+      "thumb": "/7eicTaWNJbMG1qTrxjprWt7pupS.jpg"
+    },
+    {
+      "name": "Jay Santiago",
+      "order": 88,
+      "role": "El Sastre",
+      "thumb": null
+    },
+    {
+      "name": "Freddy Bouciegues",
+      "order": 89,
+      "role": "Numero Uno",
+      "thumb": null
+    },
+    {
+      "name": "Kevin Gardner",
+      "order": 90,
+      "role": "Uncle Hugh",
+      "thumb": "/3re396uNnWjbEtH072U8lWMttL1.jpg"
+    },
+    {
+      "name": "Annie Korzen",
+      "order": 91,
+      "role": "Mona",
+      "thumb": "/l6wbeiOQwoq2gFnQ7XzT58m5LXd.jpg"
+    },
+    {
+      "name": "Jazlynn Belle",
+      "order": 92,
+      "role": "Little Girl",
+      "thumb": null
+    },
+    {
+      "name": "Joachim Powell",
+      "order": 93,
+      "role": "Huey",
+      "thumb": "/iizCI6qclDOnW5cpdWYIMu2WcpA.jpg"
+    },
+    {
+      "name": "Shannon McKain",
+      "order": 94,
+      "role": "Shady Guy",
+      "thumb": null
+    },
+    {
+      "name": "Mónica López",
+      "order": 95,
+      "role": "Gun-Toting Mom",
+      "thumb": "/4TZp3UapzlaHjuwCfLbNQ56XHTC.jpg"
+    },
+    {
+      "name": "Jason Chu",
+      "order": 96,
+      "role": "Seary Gordon",
+      "thumb": "/4iebHRBowfIOMsfYhHswfYXRrzF.jpg"
+    },
+    {
+      "name": "Kiralee Hayashi",
+      "order": 97,
+      "role": "Big Hair Teller",
+      "thumb": null
+    },
+    {
+      "name": "Arielle Gottesman",
+      "order": 98,
+      "role": "High School Girl 1",
+      "thumb": null
+    },
+    {
+      "name": "Jamar Malachi Neighbors",
+      "order": 100,
+      "role": "Server",
+      "thumb": null
+    },
+    {
+      "name": "Chelsea Devantez",
+      "order": 102,
+      "role": "Linda (Big Fan)",
+      "thumb": null
+    },
+    {
+      "name": "Meredith Thomas",
+      "order": 103,
+      "role": "White Lady",
+      "thumb": "/8uplyhfZx1vT6Lzw79dDnO5rWQb.jpg"
+    },
+    {
+      "name": "Dana Gould",
+      "order": 105,
+      "role": "Dennis",
+      "thumb": null
+    },
+    {
+      "name": "Jimmy Smagula",
+      "order": 106,
+      "role": "C.O. Dandleton",
+      "thumb": null
+    },
+    {
+      "name": "Bridger Winegar",
+      "order": 107,
+      "role": "Concierge",
+      "thumb": null
+    },
+    {
+      "name": "Michael James Bell",
+      "order": 108,
+      "role": "Tailor",
+      "thumb": null
+    },
+    {
+      "name": "Jay Jackson",
+      "order": 109,
+      "role": "Barber",
+      "thumb": "/emur6RNO75YoAFWlXUmwPAf4vEy.jpg"
+    },
+    {
+      "name": "Mia Moore",
+      "order": 111,
+      "role": "Shontiqua",
+      "thumb": null
+    },
+    {
+      "name": "Helen Wilson",
+      "order": 112,
+      "role": "Homeless Lady",
+      "thumb": "/pIoBYllZK5AYaBkyyy3aozT2Irf.jpg"
+    },
+    {
+      "name": "Marco Khan",
+      "order": 113,
+      "role": "Jimmy",
+      "thumb": "/mZhRtwJinLGh7a6R0qcwK7sBeEs.jpg"
+    },
+    {
+      "name": "Annie Ellis",
+      "order": 114,
+      "role": "Stunt Old Lady",
+      "thumb": "/xCh9L6dOj9U2ydQybaVtDEN3WH.jpg"
+    },
+    {
+      "name": "Arielle Reitsma",
+      "order": 116,
+      "role": "Beautiful Woman",
+      "thumb": null
+    },
+    {
+      "name": "Anna Maganini",
+      "order": 118,
+      "role": "Nanny",
+      "thumb": null
+    },
+    {
+      "name": "Toby Grey",
+      "order": 119,
+      "role": "Boy",
+      "thumb": null
+    },
+    {
+      "name": "Irene Roseen",
+      "order": 120,
+      "role": "Marina",
+      "thumb": "/7jkkMP6Mxw9pIbUsgAqI139DqYh.jpg"
+    },
+    {
+      "name": "Josh Shibata",
+      "order": 121,
+      "role": "Waiter",
+      "thumb": "/mTwc7ViIAiVLWDkjWu6HoldoH1D.jpg"
+    },
+    {
+      "name": "Rory Scovel",
+      "order": 122,
+      "role": "Agent Crandall",
+      "thumb": "/5YjzkFvHUjEyDTg8JitAHgfYY1J.jpg"
+    },
+    {
+      "name": "Todd Sherry",
+      "order": 123,
+      "role": "Dr. Gabe Egon",
+      "thumb": "/2e1GEOVdqVyZClcPjXrkgavK3UO.jpg"
+    },
+    {
+      "name": "George Ketsios",
+      "order": 124,
+      "role": "Agent Bergin",
+      "thumb": "/iU40VAycPnPiHEc2vIcpscraid6.jpg"
+    },
+    {
+      "name": "Alfred Rubin Thompson",
+      "order": 125,
+      "role": "Sam",
+      "thumb": "/qhyDts6pX5U2Q4LHRowpd6UFZn9.jpg"
+    },
+    {
+      "name": "Jeffrey Markle",
+      "order": 126,
+      "role": "Judge Martin",
+      "thumb": null
+    },
+    {
+      "name": "Stephanie Nash",
+      "order": 127,
+      "role": "Emma",
+      "thumb": "/AlgCqFik3mKthrN0BLU8SVjRd9A.jpg"
+    },
+    {
+      "name": "Kirk Fox",
+      "order": 128,
+      "role": "Blair's Dad",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "365",
-        "364",
-        "339",
-        "295",
-        "243",
-        "122",
-        "65",
-        "7042",
-        "2",
-        "0"
+        {
+          "aired": "2019-01-20",
+          "plot": "Wide-eyed Blair is thrust into the insane world of ’80s Wall Street. Mo enacts his master plan to take over the Georgina Jeans Company.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ekLm8jcEnvwUvEybGTxLDrIY0ri.jpg",
+          "title": "365"
+        },
+        {
+          "aired": "2019-01-27",
+          "plot": "A Hollywood screenwriter shadows Mo at the office as Mo and Dawn fight over her desire to be made a partner. Keith plays a prank on Blair.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n1Q5WMHioNzITcLV8vhM1d42pxy.jpg",
+          "title": "364"
+        },
+        {
+          "aired": "2019-02-10",
+          "plot": "Mo attempts to create a father/son bond with Blair. Dawn and Spencer have a lively dinner with Dawn's parents. Keith finds his secret increasingly difficult to hide.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ipai6tdHGxoiUopAbFwHENAZzvy.jpg",
+          "title": "339"
+        },
+        {
+          "aired": "2019-02-17",
+          "plot": "Mo and Dawn attempt to reunite Blair and Tiff in order to keep the Georgina play afloat. Mo's debts come back to haunt him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a3LaiTMPhZ3yZqAbFsvfyeNDChV.jpg",
+          "title": "295"
+        },
+        {
+          "aired": "2019-02-24",
+          "plot": "Mo takes Dawn to the Predator's Ball in an effort to raise the capital The Jammer Group needs to pay off their debts. Blair is saddled with a weekend work assignment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8dGu2hn7oBGOJZqLuEqiKIiqzk7.jpg",
+          "title": "243"
+        },
+        {
+          "aired": "2019-03-03",
+          "plot": "At Blair and Tiff's engagement party, Mo's feelings for Dawn begin to cloud his judgment. Wayne and Yassir get into serious trouble, while Keith takes a big step.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/82aODgU8UrMUzW3Jgnqkla3huqJ.jpg",
+          "title": "122"
+        },
+        {
+          "aired": "2019-03-10",
+          "plot": "Mo takes Blair on his bachelor party, while Dawn realizes she’s a very important guest at Tiff’s bachelorette party. Keith faces a loaded decision.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rDksGFCUHjWeJfoAy4pyC5DVCQU.jpg",
+          "title": "65"
+        },
+        {
+          "aired": "2019-03-17",
+          "plot": "We get a glimpse into Mo’s past, while Blair and Dawn pursue some necessary detective work.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4Ux2NZGj02vRgmHsxiHS7hMGnuB.jpg",
+          "title": "7042"
+        },
+        {
+          "aired": "2019-03-24",
+          "plot": "Mo is determined to make Blair and Tiff’s marriage happen, for better or worse. Keith tries to impede the SEC’s sting operation by any means possible.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8az1bAEOSNhZBVgFtG7VthsuuJM.jpg",
+          "title": "2"
+        },
+        {
+          "aired": "2019-03-31",
+          "plot": "Everything comes crashing down.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lisyvje580VSUDCJTlq8q7YJMpE.jpg",
+          "title": "0"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Mixie-Dixie",
-        "So Antoine",
-        "Idiot Inside",
-        "Fore!",
-        "Violent Crooks and Cooks of Books",
-        "Arthur Ponzarelli",
-        "Who Are You Supposed To Be?",
-        "Lucky Shoes",
-        "At That Time",
-        "I Don't Like Mondays"
+        {
+          "aired": "2020-03-15",
+          "plot": "After the fallout from Black Monday, Dawn and Blair pursue a new deal from different directions while Mo runs from his past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4MR33kb1Nn7a5ga8FIEZC05LEdm.jpg",
+          "title": "Mixie-Dixie"
+        },
+        {
+          "aired": "2020-03-15",
+          "plot": "Mo has an unexpected guest. Blair and Tiff go looking for a new home.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o3zrlKixAakURtKJzaNxidMqmxX.jpg",
+          "title": "So Antoine"
+        },
+        {
+          "aired": "2020-03-22",
+          "plot": "Mo tries to extricate Keith from a difficult situation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AhpkHJcsRF1DcHNZEVmN02UBhrO.jpg",
+          "title": "Idiot Inside"
+        },
+        {
+          "aired": "2020-03-29",
+          "plot": "Blair's new political connection puts Dawn in a compromising position. Yassir and Wayne attempt to solve an office mystery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/laSpnYlGDvuRVx0HQ8iAEbUzHfY.jpg",
+          "title": "Fore!"
+        },
+        {
+          "aired": "2020-04-05",
+          "plot": "Blair and Dawn take to the skies to pursue a new investor. Mo and Keith struggle with relocation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rOHUVV9846GqEhXJDwdy5ryKYpo.jpg",
+          "title": "Violent Crooks and Cooks of Books"
+        },
+        {
+          "aired": "2020-04-12",
+          "plot": "A new client presents a moral quandary for Dawn. Mo, Blair, and Keith chase down leads while Tiff has an identity crisis.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/syvyAukkn8h0D9ji5QWPqHtkmYW.jpg",
+          "title": "Arthur Ponzarelli"
+        },
+        {
+          "aired": "2020-06-28",
+          "plot": "At TBDs Halloween party, Blair tries to make the trade of a lifetime, Mo and Dawn argue over an opportunity, Tiff and Corkie loosen up, and Keith phones a friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m6scOqnk80MXeSjr2UZs30gsvNq.jpg",
+          "title": "Who Are You Supposed To Be"
+        },
+        {
+          "aired": "2020-07-05",
+          "plot": "On election night, Blair makes a risky proposition while Mo and Dawn go on a double date. Keith makes a startling discovery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3EU5ewKpkRVXSWQNAAbQoZj6rf4.jpg",
+          "title": "Lucky Shoes"
+        },
+        {
+          "aired": "2020-07-12",
+          "plot": "Blair is forced to revisit his past while Mo, Keith and Dawn try to make amends.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x1ygkNBieBwgXSzAtxLAl80pPAr.jpg",
+          "title": "At That Time"
+        },
+        {
+          "aired": "2020-07-19",
+          "plot": "A plan comes together. Season finale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9CuYVsYc6XCwLsxK7tto8u7emEx.jpg",
+          "title": "I Don't Like Mondays"
+        }
       ]
     }
   },

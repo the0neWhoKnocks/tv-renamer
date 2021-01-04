@@ -1,37 +1,247 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Animation",
+    "Action & Adventure",
+    "Sci-Fi & Fantasy"
+  ],
   "id": 86233,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/i80M4ZN9SvomDLKgNjR58wOrRBh.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/urrhyGuIZByylEi2OkaO07RVgGg.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "gen:LOCK",
+  "plot": "Fifty years in the future, an oppressive authoritarian force threatens to conquer the world. A daring team is recruited to pilot a new form of weaponized neuroscience that powers devastating mecha, but they must be willing to sacrifice everything to save the world.",
+  "premiered": "2019-01-26",
+  "status": "Returning Series",
+  "studios": [
+    "YouTube",
+    "Rooster Teeth",
+    "VRV"
+  ],
+  "actors": [
+    {
+      "name": "Gray Haddock",
+      "order": 500,
+      "role": "Leon (voice)",
+      "thumb": "/8lvigcDDRnrptQFrxACp7O2jbxj.jpg"
+    },
+    {
+      "name": "Dakota Fanning",
+      "order": 500,
+      "role": "Miranda Worth (voice)",
+      "thumb": "/6bNiiHnZZfA7YYIxO5FszvNFBlI.jpg"
+    },
+    {
+      "name": "David Tennant",
+      "order": 500,
+      "role": "Dr. Weller (voice)",
+      "thumb": "/9PJteC0a8POnPhqgxvdtWNKHPsD.jpg"
+    },
+    {
+      "name": "Maisie Williams",
+      "order": 500,
+      "role": "Cammie MacCloud (voice)",
+      "thumb": "/zLTq39cdRjS43dEzb78c1p1QcbT.jpg"
+    },
+    {
+      "name": "Michael B. Jordan",
+      "order": 500,
+      "role": "Julian Chase (voice)",
+      "thumb": "/kfcn0yyEdN2aJfVaxW0NIoKVF4J.jpg"
+    },
+    {
+      "name": "Blaine Gibson",
+      "order": 500,
+      "role": "Sinclair (voice)",
+      "thumb": "/vxyFzWKsbh8rGfKtDJjxr2OKkxD.jpg"
+    },
+    {
+      "name": "Kouichi Yamadera",
+      "order": 500,
+      "role": "Kazu Iida (voice)",
+      "thumb": "/hhEyY7pc5JTjtMy1wj7PXFrSOEA.jpg"
+    },
+    {
+      "name": "Miles Luna",
+      "order": 500,
+      "role": "Miguel “Migas” Garza (voice)",
+      "thumb": "/aegax5n5tncm9koFAeh2xC7ptVb.jpg"
+    },
+    {
+      "name": "Chad James",
+      "order": 500,
+      "role": "Jodie (voice)",
+      "thumb": "/waEPmcydIrlVd0wBUgS0CMSsoZJ.jpg"
+    },
+    {
+      "name": "Lindsay Jones",
+      "order": 500,
+      "role": "Razzle (voice)",
+      "thumb": "/yZ1IZIHrgSNKEtDVAAynwYW5aTh.jpg"
+    },
+    {
+      "name": "Anisha Nagarajan",
+      "order": 1,
+      "role": "Dr. Fatima Jha (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Matt Hullum",
+      "order": 2,
+      "role": "Marc Holcroft (voice)",
+      "thumb": "/x729T6lTmPLMZ19fxpC7vo8sTiY.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Character Reveal Teaser #2",
-        "Character Reveal Teaser #3",
-        "A First Look",
-        "Character Reveal Teaser #1",
-        "Character Reveal Teaser #4",
-        "Episode One Preview - Buying Time",
-        "Offical Trailer",
-        "Michael B. Jordan on his character Julian Chase",
-        "Exclusive Episode One",
-        "Michael B. Jordan on Anime",
-        "Season 1 Intro",
-        "Michael B. Jordan Answers",
-        "Behind the Scenes"
+        {
+          "aired": "2018-08-03",
+          "plot": "Dr. Weller (David Tennant) has a new recruit to join the Vanguard’s war efforts...but will his wild ideas have the impact he hopes? gen:LOCK - coming January 2019, only on RoosterTeeth.com and mobile apps!",
+          "thumbnail": "",
+          "title": "Character Reveal Teaser #2"
+        },
+        {
+          "aired": "2018-09-15",
+          "plot": "Meet Dr. Weller's newest recruits for the Vanguard's war efforts. gen:LOCK - coming January 2019, only on RoosterTeeth.com and mobile apps!",
+          "thumbnail": "",
+          "title": "Character Reveal Teaser #3"
+        },
+        {
+          "aired": "2018-10-11",
+          "plot": "The newest gen:LOCK recruits have arrived at the Vanguard military base “the Anvil,” and are ready to settle in! That is until Doctor Weller explains there's a few more tests to endure before they're fully accepted into the program… See what's in store for the team when gen:LOCK premieres January 26, 2019 only on Rooster Teeth!",
+          "thumbnail": "",
+          "title": "A First Look"
+        },
+        {
+          "aired": "2018-11-23",
+          "plot": "Dr. Weller (David Tennant) discusses with Colonel Marin (Monica Rial) the first recruit to join his gen:LOCK program to help the Vanguard's war effort.",
+          "thumbnail": "",
+          "title": "Character Reveal Teaser #1"
+        },
+        {
+          "aired": "2018-11-26",
+          "plot": "As the Union closes in, Dr. Weller (David Tennant) negotiates with Colonel Marin (Monica Rial) to approve all of his gen:LOCK candidates.",
+          "thumbnail": "",
+          "title": "Character Reveal Teaser #4"
+        },
+        {
+          "aired": "2019-01-09",
+          "plot": "Julian Chase (Michael B. Jordan) didn’t become one of the best fighter pilots in the Vanguard without taking risks. But if he goes too far, he may not make it through the war against the Union in one piece.",
+          "thumbnail": "",
+          "title": "Episode One Preview - Buying Time"
+        },
+        {
+          "aired": "2019-01-17",
+          "plot": "Fifty years in the future, an oppressive authoritarian force threatens to conquer the world. A daring team is recruited to pilot a new form of weaponized neuroscience that powers devastating mecha, but they must be willing to sacrifice everything to save the world.",
+          "thumbnail": "",
+          "title": "Offical Trailer"
+        },
+        {
+          "aired": "2019-01-21",
+          "plot": "You know Michael B. Jordan loves anime - now get an exclusive look at his experience voicing Julian Chase in Rooster Teeth's newest animated show gen:LOCK.",
+          "thumbnail": "",
+          "title": "Michael B. Jordan on his character Julian Chase"
+        },
+        {
+          "aired": "2019-01-23",
+          "plot": "Preview - Miranda Meets the New Mechs\n\nA couple of uninvited guests arrive to help Miranda and the Vanguard hold the line against the Union. Michael B. Jordan, Maisie Williams, Dakota Fanning, and David Tennant star in gen:LOCK, premiering Saturday, January 26, exclusively on RoosterTeeth.com",
+          "thumbnail": "",
+          "title": "Exclusive Episode One"
+        },
+        {
+          "aired": "2019-01-24",
+          "plot": "As a long-time anime fan, Michael B. Jordan has a lot to say about the genre. Find out how he got into giant robots, who his favorite villain is, and even settle the greatest anime debate of all time.",
+          "thumbnail": "",
+          "title": "Michael B. Jordan on Anime"
+        },
+        {
+          "aired": "2019-01-26",
+          "plot": "Looks like we've got ourselves a team. Watch gen:LOCK now, only on Rooster Teeth.",
+          "thumbnail": "",
+          "title": "Season 1 Intro"
+        },
+        {
+          "aired": "2019-01-30",
+          "plot": "Classic Rooster Teeth Questions\n\nIs a hotdog a sandwich? Is water wet? Michael B. Jordan weighs in on the hard-hitting questions Rooster Teeth has been debating for years.",
+          "thumbnail": "",
+          "title": "Michael B. Jordan Answers"
+        },
+        {
+          "aired": "2019-01-31",
+          "plot": "What goes into the making of a new animated show? Hear from some of the creators behind gen:LOCK as they share their experiences and inspiration for Rooster Teeth's newest series.",
+          "thumbnail": "",
+          "title": "Behind the Scenes"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "The Pilot",
-        "There's Always Tomorrow",
-        "Second Birthday",
-        "Training Daze",
-        "The Best Defense",
-        "The Only Me I Know",
-        "It Never Rains...",
-        "Identity Crisis"
+        {
+          "aired": "2019-01-26",
+          "plot": "Earth, 2068. City by city, free society is being forcibly absorbed into a vast autocracy. One military force holds the line. One pilot could turn the tide.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AIkAJn2G5OF49Z6gHTUcHy5IqA.jpg",
+          "title": "The Pilot"
+        },
+        {
+          "aired": "2019-01-26",
+          "plot": "Earth, 2072. Chase tries reconnecting with Miranda and the Vanguard. Doc’s new recruits arrive with more than a few questions and one perilous secret.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r7UbQD61yKHnaYNX69aSsF4Qirz.jpg",
+          "title": "There's Always Tomorrow"
+        },
+        {
+          "aired": "2019-02-02",
+          "plot": "The Colonel raises concerns about Doc’s residency. Chase feels the impact of absence. The new recruits are introduced to the potential of using gen:LOCK mecha for combat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6nbH8dRWCC46Sibr9fDrgVrkxRR.jpg",
+          "title": "Second Birthday"
+        },
+        {
+          "aired": "2019-02-09",
+          "plot": "The gen:LOCK team begins rigorous training to master their mecha. The recruits get better acquainted during a rare moment of downtime. While on the gen:LOCK team’s first field mission, a new threat emerges from the shadows.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ijgS04JeL5O9HJmomU237ZIIEQ5.jpg",
+          "title": "Training Daze"
+        },
+        {
+          "aired": "2019-02-16",
+          "plot": "A recruit’s talent for tinkering raises concerns. Chase receives an overdue upgrade. The Vanguard goes on the offensive and engages a frighteningly familiar foe.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gyFbUAPtzYiw886CVjYzOG8TkSj.jpg",
+          "title": "The Best Defense"
+        },
+        {
+          "aired": "2019-02-23",
+          "plot": "Doc reflects on past events before deciding his future. The gen:LOCK team is tested like never before when the battle arrives at the Vanguard’s front door.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pZl8BnAqC83QYBI3AajqUk66MG3.jpg",
+          "title": "The Only Me I Know"
+        },
+        {
+          "aired": "2019-03-02",
+          "plot": "On the run, the team learns more about the origins of gen:LOCK and one another. New potential allies are revealed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5wdjWgDTjZJAUdgH7XwdCEKJTSt.jpg",
+          "title": "It Never Rains..."
+        },
+        {
+          "aired": "2019-03-09",
+          "plot": "The team must evolve further if they hope to make a stand against the Union’s deadliest weapon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AeJqjvYyBviRJfyfllNVRC1lchi.jpg",
+          "title": "Identity Crisis"
+        }
       ]
     }
   },

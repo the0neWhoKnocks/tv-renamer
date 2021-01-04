@@ -1,90 +1,1457 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Sci-Fi & Fantasy",
+    "Action & Adventure"
+  ],
   "id": 67198,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5bb3a11bdc8b4.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5bb3a12a54b39.jpg",
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c14c5f93660e.jpg",
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c41b18c162fa.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5bf6120c9063f.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5bf61220e1988.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5fd2691a08b2e.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5f8603c33642e.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5cb302cfa8280.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5979864dc4ede.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-59d0eafd74fc9.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-59541ee615599.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/328711/tvbanner/star-trek-discovery-5b0db4d349720.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvbanner/star-trek-discovery-5b0db6d9173d4.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvbanner/star-trek-discovery-59d0eb075ca29.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5f860742bb9ef.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5978fca0d2fe5.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5c8a92ae73884.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5ca0920f6bcfd.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-591dd9d0c8d7b.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-59798b84f3a97.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-597f4503d2165.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-59c4be5c9163c.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-59c4c0c4b629c.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5c41b1753ca47.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-59541dab33126.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-59541d998cb64.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-59cb16a16155a.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-5bbea545609eb.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/p3McpsDNTNmpbkNBKdNxOFZJeKX.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/98RYSYsRNKWgrAAFBn0WfploUG7.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Star Trek: Discovery",
+  "plot": "Follow the voyages of Starfleet on their missions to discover new worlds and new life forms, and one Starfleet officer who must learn that to truly understand all things alien, you must first understand yourself.",
+  "premiered": "2017-09-24",
+  "status": "Returning Series",
+  "studios": [
+    "CBS All Access"
+  ],
+  "actors": [
+    {
+      "name": "Sonequa Martin-Green",
+      "order": 0,
+      "role": "Michael Burnham",
+      "thumb": "/xhxKESzX3R47VXLIN3lCHYHHaY7.jpg"
+    },
+    {
+      "name": "Doug Jones",
+      "order": 1,
+      "role": "Saru",
+      "thumb": "/tKjCnbbXb3o7upPxh4XLSdTcYDB.jpg"
+    },
+    {
+      "name": "Mary Wiseman",
+      "order": 2,
+      "role": "Sylvia Tilly",
+      "thumb": "/7uXGf201jsNAouDbaDqk7rCIR1.jpg"
+    },
+    {
+      "name": "Anthony Rapp",
+      "order": 4,
+      "role": "Paul Stamets",
+      "thumb": "/d828snXpYqBLSAs4MdVoHexYp15.jpg"
+    },
+    {
+      "name": "Michelle Yeoh",
+      "order": 130,
+      "role": "Emperor Philippa Georgiou",
+      "thumb": "/wPI2wn6WJEtJr1oAMTLBLh92Ryc.jpg"
+    },
+    {
+      "name": "Shazad Latif",
+      "order": 5,
+      "role": "Ash Tyler",
+      "thumb": "/nwOYOs5yIBrM1zVN1nyUxbjcrEY.jpg"
+    },
+    {
+      "name": "Patrick Kwok-Choon",
+      "order": 146,
+      "role": "Lt. Gen Rhys",
+      "thumb": "/9q410Pu0a3s4oJWQjKylTkXoVpv.jpg"
+    },
+    {
+      "name": "Oyin Oladejo",
+      "order": 166,
+      "role": "Joann Owosekun",
+      "thumb": "/98nKSc2N8EGUK43JKdVLEpxleTu.jpg"
+    },
+    {
+      "name": "Wilson Cruz",
+      "order": 185,
+      "role": "Dr. Hugh Culber",
+      "thumb": "/lVvWWl3C01L8p7DimH4BERiTiN5.jpg"
+    },
+    {
+      "name": "Sara Mitich",
+      "order": 158,
+      "role": "Airiam",
+      "thumb": "/kwFIjhQYGTh9iqmCe0vhPhxlbOe.jpg"
+    },
+    {
+      "name": "Ronnie Rowe",
+      "order": 126,
+      "role": "Bryce",
+      "thumb": "/hejNuC2QGsGwQNzhSE7Sb2PKBSF.jpg"
+    },
+    {
+      "name": "Jason Isaacs",
+      "order": 3,
+      "role": "Gabriel Lorca",
+      "thumb": "/nlim5RpNgpNcN0BWhhOCWmaMEHI.jpg"
+    },
+    {
+      "name": "Anson Mount",
+      "order": 3,
+      "role": "Christopher Pike",
+      "thumb": "/rLvdjBHWcB0YKEWff53sn5Nfu2r.jpg"
+    },
+    {
+      "name": "Mary Chieffo",
+      "order": 114,
+      "role": "L'Rell",
+      "thumb": "/yroOzadVhyU5FyWfUfGZYsHHaKC.jpg"
+    },
+    {
+      "name": "Julianne Grossman",
+      "order": 163,
+      "role": "Discovery Computer (voice)",
+      "thumb": "/hcbVY1CQpujAbfvCieXqe2VGwhx.jpg"
+    },
+    {
+      "name": "David Ajala",
+      "order": 500,
+      "role": "Cleveland \"Book\" Booker",
+      "thumb": "/iD0ztIXTm4fGKf5IJ2PlngSbt0G.jpg"
+    },
+    {
+      "name": "Jayne Brook",
+      "order": 114,
+      "role": "Admiral Cornwell",
+      "thumb": "/wb0qGQoXwraTTnnsi1Lv4TcYFrT.jpg"
+    },
+    {
+      "name": "Emily Coutts",
+      "order": 186,
+      "role": "Lt. Keyla Detmer",
+      "thumb": "/hxZf2ZzEFToeUDlfe4rxu9yEc42.jpg"
+    },
+    {
+      "name": "Rachael Ancheril",
+      "order": 160,
+      "role": "Cmdr. Nhan",
+      "thumb": "/vO9eXQ218Dt9Dk3eKr0U3fXv6AU.jpg"
+    },
+    {
+      "name": "Ethan Peck",
+      "order": 126,
+      "role": "Spock",
+      "thumb": "/9KaxSgpbx9Zj827xXLML3bWknNV.jpg"
+    },
+    {
+      "name": "Tig Notaro",
+      "order": 160,
+      "role": "Cmdr. Jett Reno",
+      "thumb": "/tdZ6XLzIaK0HWWPSM2B5OrOqUC0.jpg"
+    },
+    {
+      "name": "Kenneth Mitchell",
+      "order": 80,
+      "role": "Kol-Sha",
+      "thumb": "/8p9WeJZk3acU6QEBgJHgMKrr5kQ.jpg"
+    },
+    {
+      "name": "Alan van Sprang",
+      "order": 126,
+      "role": "Leland",
+      "thumb": "/i8w2PSCPHVOLmaT0MQyEFqwAHis.jpg"
+    },
+    {
+      "name": "Mia Kirshner",
+      "order": 126,
+      "role": "Amanda Grayson",
+      "thumb": "/sCeZnMgqNNLG4mDeGUotGQzFSR0.jpg"
+    },
+    {
+      "name": "David Benjamin Tomlinson",
+      "order": 142,
+      "role": "Klingon",
+      "thumb": "/lFVOI5UoOBuYwuwIv8Wy1gye5uw.jpg"
+    },
+    {
+      "name": "Blu del Barrio",
+      "order": 173,
+      "role": "Adira",
+      "thumb": "/g1EYG2rUSqeg2Z6VeUIlc2dRsyI.jpg"
+    },
+    {
+      "name": "Oded Fehr",
+      "order": 185,
+      "role": "Admiral Charles Vance",
+      "thumb": "/gcYVN3vx8tHedEz2RbVNSKs44Wm.jpg"
+    },
+    {
+      "name": "Raven Dauda",
+      "order": 187,
+      "role": "Dr. Tracy Pollard",
+      "thumb": "/g7pj8LHrUTpmGMm3wCrUNqAE5fq.jpg"
+    },
+    {
+      "name": "Nicole Dickinson",
+      "order": 108,
+      "role": "Yeoman Colt",
+      "thumb": "/A90UYZONOlxZnnuq0GD8z9SkcFo.jpg"
+    },
+    {
+      "name": "Tasia Valenza",
+      "order": 107,
+      "role": "Shenzhou Computer (voice)",
+      "thumb": "/aRk9P1NqqCf86KDxpuMSeTXbWRN.jpg"
+    },
+    {
+      "name": "Rebecca Romijn",
+      "order": 126,
+      "role": "Number One",
+      "thumb": "/cyZLc4sPd5CsfGUQ7hbpihqqxU9.jpg"
+    },
+    {
+      "name": "Rekha Sharma",
+      "order": 185,
+      "role": "Commander Landry",
+      "thumb": "/3qLo8UbKs26n7g1oyKHckNH1IvU.jpg"
+    },
+    {
+      "name": "Fabio Tassone",
+      "order": 194,
+      "role": "Book's Ship Computer (voice)",
+      "thumb": "/jg9l1z1FuNkbYS85G4a0Upxtkd8.jpg"
+    },
+    {
+      "name": "Javid Iqbal",
+      "order": 12,
+      "role": "Voq",
+      "thumb": "/uhMM7aLEgo7LvneVXtxBxNAXI76.jpg"
+    },
+    {
+      "name": "Conrad Coates",
+      "order": 100,
+      "role": "Admiral Terral",
+      "thumb": "/synctEI6SoicViRJxHupyQgs6zv.jpg"
+    },
+    {
+      "name": "Riley Gilchrist",
+      "order": 107,
+      "role": "Admiral Shukar",
+      "thumb": "/Ap5C4QWs1Ti5QnszpwIrODWLorO.jpg"
+    },
+    {
+      "name": "Sonja Sohn",
+      "order": 168,
+      "role": "Dr. Gabrielle Burnham",
+      "thumb": "/d0ZWYNTGscHKFbjkA5Lrg4AOjnX.jpg"
+    },
+    {
+      "name": "Avaah Blackwell",
+      "order": 184,
+      "role": "Osnullus Trader",
+      "thumb": null
+    },
+    {
+      "name": "Christopher Russell",
+      "order": 79,
+      "role": "Milton Richter",
+      "thumb": "/6lqQsR2Ot7nYthCGxfKBzmPzyV3.jpg"
+    },
+    {
+      "name": "Rainn Wilson",
+      "order": 83,
+      "role": "Harry Mudd",
+      "thumb": "/lmy5NQsrTlbsyTrQw30gsKCZbWm.jpg"
+    },
+    {
+      "name": "Clare McConnell",
+      "order": 92,
+      "role": "Dennas",
+      "thumb": "/h46ZPO59QudLsKmdjRe4sZwsof0.jpg"
+    },
+    {
+      "name": "Damon Runyan",
+      "order": 92,
+      "role": "Ujilli",
+      "thumb": "/74HBlulH9QcYN0CFQrGPv7oS2Gm.jpg"
+    },
+    {
+      "name": "Sam Vartholomeos",
+      "order": 99,
+      "role": "Danby Connor",
+      "thumb": "/pKecJqkzd4yeFwkAhk8eNzpWX9V.jpg"
+    },
+    {
+      "name": "Ali Momen",
+      "order": 99,
+      "role": "Kamran Gant",
+      "thumb": "/zw6Stj2u8vc47BVMvr0mf88Xv7r.jpg"
+    },
+    {
+      "name": "Michael Ayres",
+      "order": 101,
+      "role": "Transporter Officer",
+      "thumb": "/5DgTTGxfrRpoS7DxhzDjEZUeZzR.jpg"
+    },
+    {
+      "name": "Yadira Guevara-Prip",
+      "order": 126,
+      "role": "Me Hani Ika Hali Ka Po",
+      "thumb": "/z7LMdFKpUELprcCvxA8TKpLM4hm.jpg"
+    },
+    {
+      "name": "Samora Smallwood",
+      "order": 126,
+      "role": "Lt. Amin",
+      "thumb": "/zuHF6M9w80PLl3gitJACvsbKRg4.jpg"
+    },
+    {
+      "name": "Hannah Spear",
+      "order": 152,
+      "role": "Siranna",
+      "thumb": "/xBsaXZXGLs2UoSONNvVm7VrVNtQ.jpg"
+    },
+    {
+      "name": "Hannah Cheesman",
+      "order": 183,
+      "role": "Lt. Cmdr. Airiam",
+      "thumb": "/s8S3hcNXhxL0e6GyStRpewy8QPm.jpg"
+    },
+    {
+      "name": "Ian Alexander",
+      "order": 185,
+      "role": "Gray",
+      "thumb": "/k1EaK6ZuTwhGfNzP8OiU3Nyt3HV.jpg"
+    },
+    {
+      "name": "Vanessa Jackson",
+      "order": 197,
+      "role": "Lt. Audrey Willa",
+      "thumb": "/gnUc3PNKTJe5sgB2kxfekpz605b.jpg"
+    },
+    {
+      "name": "Jimmy Chimarios",
+      "order": 2,
+      "role": "Polygon",
+      "thumb": "/oFiBZDBfbzdiBd2gfpRKsSvBqr6.jpg"
+    },
+    {
+      "name": "Bahia Watson",
+      "order": 45,
+      "role": "May",
+      "thumb": "/yY0XNzjm9ymWDmdzTQXAOUDFRwd.jpg"
+    },
+    {
+      "name": "Terry Serpico",
+      "order": 56,
+      "role": "Brett Anderson",
+      "thumb": "/nxku2blYCPYtEmAkKlUFJ4YUWsa.jpg"
+    },
+    {
+      "name": "Christopher Obi",
+      "order": 56,
+      "role": "T'Kuvma",
+      "thumb": "/6YwSgr2INMxegP5Y78lNDFIZO4y.jpg"
+    },
+    {
+      "name": "Devon MacDonald",
+      "order": 84,
+      "role": "Engineering Officer",
+      "thumb": "/1iRs7HE4ZZZ2rcOo0pEA5lsp4Ir.jpg"
+    },
+    {
+      "name": "Anthony Grant",
+      "order": 87,
+      "role": "Klingon Communications Officer",
+      "thumb": "/nxIlWp6b8bBow0OzAx57FRN1Bhg.jpg"
+    },
+    {
+      "name": "Tyler Evan Webb",
+      "order": 88,
+      "role": "Klingon",
+      "thumb": "/9lYFC3D84nLvBMiFChGQizkjpgh.jpg"
+    },
+    {
+      "name": "Jeremy Crittenden",
+      "order": 104,
+      "role": "Lord Eling",
+      "thumb": "/orsR2zGjur7ognYqVPS8QDCR7Dk.jpg"
+    },
+    {
+      "name": "Dwain Murphy",
+      "order": 104,
+      "role": "Captain Maddox",
+      "thumb": "/8tQI3AXInj4EP5kqZ4GOvEb4V8j.jpg"
+    },
+    {
+      "name": "Hanneke Talbot",
+      "order": 126,
+      "role": "Lt. Mann",
+      "thumb": "/cPvaCSaPbFCqc86FHLFGscjRLuz.jpg"
+    },
+    {
+      "name": "Chai Valladares",
+      "order": 126,
+      "role": "Lt. Nicola",
+      "thumb": "/sjaK9AgywMhSgSW5bfVG93NOAUH.jpg"
+    },
+    {
+      "name": "Adil Hussain",
+      "order": 135,
+      "role": "Aditya Sahil",
+      "thumb": "/eCWVa1pH7mmz0i9Q0l4VEKs7g6m.jpg"
+    },
+    {
+      "name": "Annabelle Wallis",
+      "order": 144,
+      "role": "Zora (voice)",
+      "thumb": "/JNxO1Dl1ofiAa95EygRHi479TL.jpg"
+    },
+    {
+      "name": "Kenneth Welsh",
+      "order": 144,
+      "role": "Senna Tal",
+      "thumb": "/AvYhww5a8TPmMEHqFsvZpyztV5Y.jpg"
+    },
+    {
+      "name": "Ian Lake",
+      "order": 168,
+      "role": "Talor",
+      "thumb": "/f8FK8fiDSq7qUtITo2wdMjbB8c5.jpg"
+    },
+    {
+      "name": "Brendan Beiser",
+      "order": 173,
+      "role": "Eli the E.M.H",
+      "thumb": "/ynb8oRYud4N15KQXxXTe3sOxwgK.jpg"
+    },
+    {
+      "name": "Noah Averbach-Katz",
+      "order": 173,
+      "role": "Ryn",
+      "thumb": "/2otSY3KRiHSUtmy3S67JKghk4Ap.jpg"
+    },
+    {
+      "name": "David Cronenberg",
+      "order": 180,
+      "role": "Kovich",
+      "thumb": "/kLHnBnUomcH96PdLRBnuZUzRoY1.jpg"
+    },
+    {
+      "name": "Paul Guilfoyle",
+      "order": 183,
+      "role": "Carl",
+      "thumb": "/oQsmHIRAqNvnjW80c7nYbVWvgb0.jpg"
+    },
+    {
+      "name": "Janet Kidder",
+      "order": 186,
+      "role": "Osyraa",
+      "thumb": "/vQaIlXJkAa2H5TOL3MZtAqD6Yks.jpg"
+    },
+    {
+      "name": "Clint Howard",
+      "order": 22,
+      "role": "Creepy Orion",
+      "thumb": "/4i6JcDZYPxQfwOOTLkzrQBZvwGz.jpg"
+    },
+    {
+      "name": "Kat Barrell",
+      "order": 24,
+      "role": "Stella Grimes",
+      "thumb": "/76suis44bLTpCmoK6Y4YdeP3KEO.jpg"
+    },
+    {
+      "name": "Peter MacNeill",
+      "order": 25,
+      "role": "Baron Grimes",
+      "thumb": "/iAsm9OtWorwMybLopEZ8iix6bxa.jpg"
+    },
+    {
+      "name": "Matthew Binkley",
+      "order": 26,
+      "role": "Shavo",
+      "thumb": "/lga1LMhl3P2PMQNf98aW9RY7UoE.jpg"
+    },
+    {
+      "name": "Andrew Moodie",
+      "order": 35,
+      "role": "Jacob",
+      "thumb": "/mvMIQ1WyB6q5Qf3fj1cGO1izxh2.jpg"
+    },
+    {
+      "name": "Sheila McCarthy",
+      "order": 36,
+      "role": "Mother",
+      "thumb": "/dc68JQ2D9mIOxHAgJxjLGv0nJbq.jpg"
+    },
+    {
+      "name": "Sean Connolly Affleck",
+      "order": 40,
+      "role": "Lt Connolly",
+      "thumb": "/tvkW0jC3VUzkD2svprdlUjrqSe5.jpg"
+    },
+    {
+      "name": "Melissa George",
+      "order": 46,
+      "role": "Vina",
+      "thumb": "/eHO99JSB9I5vuqYm5LpduNQuWQY.jpg"
+    },
+    {
+      "name": "Chris Violette",
+      "order": 59,
+      "role": "Britch Weeton",
+      "thumb": "/hOwO3CH7YTwDzOLgXHhfTqnwNaz.jpg"
+    },
+    {
+      "name": "Romaine Waite",
+      "order": 60,
+      "role": "Troy Januzzi",
+      "thumb": "/AeNfCB8MchOHFGHelnX3kbIGpCy.jpg"
+    },
+    {
+      "name": "Arista Arhin",
+      "order": 61,
+      "role": "Young Michael Burnham",
+      "thumb": "/cqd8xORPGiVQ8HVs2uca1hdo77Z.jpg"
+    },
+    {
+      "name": "Thamela Mpumlwana",
+      "order": 62,
+      "role": "Young T'Kuvma",
+      "thumb": "/1Q6ERRtTvpL5f28eAHAK1EU7oLl.jpg"
+    },
+    {
+      "name": "Jeffrey Hunter",
+      "order": 63,
+      "role": "Captain Christopher Pike (archive footage)",
+      "thumb": "/enQuu8yfrL0VX7BL3FqsM7DGcqF.jpg"
+    },
+    {
+      "name": "Susan Oliver",
+      "order": 64,
+      "role": "Vina (archive footage)",
+      "thumb": "/piJPluZpgBCw3AsvcMHQAY7mtFw.jpg"
+    },
+    {
+      "name": "Leonard Nimoy",
+      "order": 65,
+      "role": "Spock (archive footage)",
+      "thumb": "/9KaiO5eNzJtB4zB2inmNWR0GTRI.jpg"
+    },
+    {
+      "name": "Grace Lynn Kung",
+      "order": 66,
+      "role": "Psycho",
+      "thumb": "/dkRIV4sgD5UDtH38UvV9aO8uNrQ.jpg"
+    },
+    {
+      "name": "Conrad Pla",
+      "order": 67,
+      "role": "Stone",
+      "thumb": "/p09lsBpONGWdapNgbOvjsQokgXU.jpg"
+    },
+    {
+      "name": "Saad Siddiqui",
+      "order": 69,
+      "role": "Straal",
+      "thumb": "/xUsZ9SqGgn6cLeQUF0s0JgJhSw3.jpg"
+    },
+    {
+      "name": "Elias Toufexis",
+      "order": 70,
+      "role": "Cold",
+      "thumb": "/uzrqFHCXKkcbZYiPtYdVwY4zYkJ.jpg"
+    },
+    {
+      "name": "Dennis Andres",
+      "order": 74,
+      "role": "Engineer Rance",
+      "thumb": "/jpmN8lrTfeyLW9KlgzvnkTAlnoO.jpg"
+    },
+    {
+      "name": "Jordana Blake",
+      "order": 75,
+      "role": "Betarian Girl",
+      "thumb": "/qqVWP6mq0rGcHeQsDBAlsYB76J3.jpg"
+    },
+    {
+      "name": "Simon Northwood",
+      "order": 78,
+      "role": "Shuttle Pilot",
+      "thumb": "/zaBu1bUHJAZZt11TbdPRjfYLpMw.jpg"
+    },
+    {
+      "name": "Kirk Salesman",
+      "order": 79,
+      "role": "Klingon",
+      "thumb": null
+    },
+    {
+      "name": "Luke Humphrey",
+      "order": 81,
+      "role": "V'Latak",
+      "thumb": "/kv60nJEqyqqvjZtYDuECLIj8u7W.jpg"
+    },
+    {
+      "name": "Jonathan Whittaker",
+      "order": 82,
+      "role": "Vulcan Director",
+      "thumb": "/6OPjAhgCQvkQ2gLUqDp3frPHHAy.jpg"
+    },
+    {
+      "name": "Izaak Smith",
+      "order": 84,
+      "role": "Jogger",
+      "thumb": "/7yb8H0bJDZNF5Maq2ygBXtPomWw.jpg"
+    },
+    {
+      "name": "Michael Boisvert",
+      "order": 85,
+      "role": "Kovil",
+      "thumb": "/8PWH7M3fUf5TbFuhtFjkB6FUMHM.jpg"
+    },
+    {
+      "name": "Harry Judge",
+      "order": 90,
+      "role": "Admiral Gorch",
+      "thumb": "/pHOo5Af0R7jefwtV1eh6zVlP8ZX.jpg"
+    },
+    {
+      "name": "Morgan Kohan",
+      "order": 91,
+      "role": "Weapons Trader",
+      "thumb": "/5vBfFzt6q65x3rGb10ZUztSHeRV.jpg"
+    },
+    {
+      "name": "Bree Wasylenko",
+      "order": 92,
+      "role": "Shava",
+      "thumb": "/dFG8GXAgFv4WeffgyPNK0jEeIwt.jpg"
+    },
+    {
+      "name": "Crystal Leger",
+      "order": 93,
+      "role": "Klingon",
+      "thumb": "/2uS57LEjmEUXxQm58ju9d0XDGFK.jpg"
+    },
+    {
+      "name": "Sam Asante",
+      "order": 100,
+      "role": "Senior Guard",
+      "thumb": "/qIqpNl8VSUddW5Kolr9D8DyB5Af.jpg"
+    },
+    {
+      "name": "Billy MacLellan",
+      "order": 103,
+      "role": "Barlow",
+      "thumb": "/9ObnhjbbeVEhk8g941FrLq4W0r7.jpg"
+    },
+    {
+      "name": "Loretta Shenosky",
+      "order": 106,
+      "role": "Cabot Computer",
+      "thumb": null
+    },
+    {
+      "name": "Brandon McGibbon",
+      "order": 110,
+      "role": "Ithyk the Andorian",
+      "thumb": null
+    },
+    {
+      "name": "Jake Michaels",
+      "order": 111,
+      "role": "Ithor the Orion",
+      "thumb": "/hS2erm9Tb4ZEKmJv4nk3dTfOOpV.jpg"
+    },
+    {
+      "name": "Zarrin Darnell-Martin",
+      "order": 120,
+      "role": "Nurse",
+      "thumb": "/g4Zb9id1iSgFxbWxKfqdvmRUrAI.jpg"
+    },
+    {
+      "name": "Glenn Hetrick",
+      "order": 121,
+      "role": "K'Vort",
+      "thumb": "/tZny3uvEnvvQrTte68PH9xf7WCr.jpg"
+    },
+    {
+      "name": "Thom Marriott",
+      "order": 122,
+      "role": "Council Member",
+      "thumb": null
+    },
+    {
+      "name": "Kyana Teresa",
+      "order": 124,
+      "role": "Doctor",
+      "thumb": "/nNS3Cuqqd9lPiKp9I3XPe3gX1i4.jpg"
+    },
+    {
+      "name": "Jake Weber",
+      "order": 128,
+      "role": "Zareh",
+      "thumb": "/aCmqALe3eZ4kr0TVihIrwf6yJXE.jpg"
+    },
+    {
+      "name": "Wole Daramola",
+      "order": 129,
+      "role": "Red Eyes (Heavy)",
+      "thumb": null
+    },
+    {
+      "name": "Kevan Kase",
+      "order": 130,
+      "role": "Lookout",
+      "thumb": "/2yc647m15KNQfQJn2QON029Q7hK.jpg"
+    },
+    {
+      "name": "Jonathan Koensgen",
+      "order": 131,
+      "role": "Kal",
+      "thumb": "/9dlOCwupDLeeQkVcjxgPMKXBasf.jpg"
+    },
+    {
+      "name": "Lindsay Owen Pierre",
+      "order": 132,
+      "role": "Os'ir the Bartender",
+      "thumb": "/h9GvJWEGq7vZR0x1bOObk0WkuTU.jpg"
+    },
+    {
+      "name": "Adrian Pavone",
+      "order": 133,
+      "role": "Ensign Hazmat",
+      "thumb": "/akQhXSsyOeHaSL31n0n3yelxtEO.jpg"
+    },
+    {
+      "name": "Christopher Heyerdahl",
+      "order": 134,
+      "role": "Wen",
+      "thumb": "/pTPZa3TFIkxRbqM5adXYE51a99s.jpg"
+    },
+    {
+      "name": "Phumzile Sitole",
+      "order": 135,
+      "role": "Captain Ndoye",
+      "thumb": "/l1s9oknuAwR8osuvVcoiN9ieKCz.jpg"
+    },
+    {
+      "name": "Fodé Bangoura",
+      "order": 137,
+      "role": "Alien Merchant",
+      "thumb": null
+    },
+    {
+      "name": "Shawn Campbell",
+      "order": 138,
+      "role": "Supervising Inspector",
+      "thumb": "/8Ig2HrGgaDIGGICjgZ7vwcYUH0H.jpg"
+    },
+    {
+      "name": "Xavier Lopez",
+      "order": 139,
+      "role": "Passing Crew Member",
+      "thumb": null
+    },
+    {
+      "name": "Andreas Apergis",
+      "order": 141,
+      "role": "Guardian Xi",
+      "thumb": "/yK6qWJ9KgEeJsGGK3Fu6ldR3HkD.jpg"
+    },
+    {
+      "name": "Karen Robinson",
+      "order": 142,
+      "role": "Leader Pav",
+      "thumb": "/995Jzga6OLGjijMd1znZpOdPkWx.jpg"
+    },
+    {
+      "name": "Andrew Shaver",
+      "order": 143,
+      "role": "Commissioner Vos",
+      "thumb": "/4ZIutStCbx69eEXwQmf5T1CF0jn.jpg"
+    },
+    {
+      "name": "Elana Dunkelman",
+      "order": 143,
+      "role": "Disco Engineer #1",
+      "thumb": "/7tSkQBw2gz38V4IXOaNHSM3I8Om.jpg"
+    },
+    {
+      "name": "Christine Nguyen",
+      "order": 144,
+      "role": "Disco Engineer #2",
+      "thumb": "/e2ZtHvhSVBkR0LKlV7UdX67rnDF.jpg"
+    },
+    {
+      "name": "Jake Epstein",
+      "order": 148,
+      "role": "Dr. Attis",
+      "thumb": "/rxsnhNXPkFwxBePrSV53kVS52Sj.jpg"
+    },
+    {
+      "name": "Ana Sani",
+      "order": 150,
+      "role": "Mom",
+      "thumb": "/yrwfD0G1acsaJLKJn6ctTlXqlvO.jpg"
+    },
+    {
+      "name": "Ava MacKinnon",
+      "order": 151,
+      "role": "Daughter #1",
+      "thumb": "/1aTd24jF4cJrtcPnJa601do2KUs.jpg"
+    },
+    {
+      "name": "Shazdeh Kapadia",
+      "order": 152,
+      "role": "Daughter #2",
+      "thumb": "/y5V4J3ThnZQvkvkVbQDewAhXRCO.jpg"
+    },
+    {
+      "name": "R.J. Parrish",
+      "order": 153,
+      "role": "Holo Security Officer #1",
+      "thumb": "/1z5aA88qWhGJ1Yr6RX1rLKUvUTl.jpg"
+    },
+    {
+      "name": "Vanessa Burns",
+      "order": 154,
+      "role": "Holo Security Officer #2",
+      "thumb": "/34oLLphFUr8Zjjq8YhmLmFEbknS.jpg"
+    },
+    {
+      "name": "Chris Zamat",
+      "order": 155,
+      "role": "Holo Officer #1",
+      "thumb": "/xJnHpvs1F5p190f9OMfv5uDgIHI.jpg"
+    },
+    {
+      "name": "Jajube Mandiela",
+      "order": 156,
+      "role": "Holo Officer #2",
+      "thumb": "/m57l8iE1XaM2ZqcLk928y0MqaKP.jpg"
+    },
+    {
+      "name": "Daniel Woodrow",
+      "order": 157,
+      "role": "Holo Officer #3",
+      "thumb": "/aXVQ0EnUE9A6pjcZjFgqGHH4z4.jpg"
+    },
+    {
+      "name": "Shannon Lahaie",
+      "order": 158,
+      "role": "Tactical Officer",
+      "thumb": null
+    },
+    {
+      "name": "Rosie Simon",
+      "order": 159,
+      "role": "Starfleet Ensign",
+      "thumb": "/h1qOa6oGwH7PhHB9HveOWClFrO9.jpg"
+    },
+    {
+      "name": "Daniel Jun",
+      "order": 163,
+      "role": "Lai",
+      "thumb": null
+    },
+    {
+      "name": "Danijel Mandic",
+      "order": 164,
+      "role": "Salvage Regulator",
+      "thumb": "/wu9PM1vRfFiY0QTlc6wzGViKWUx.jpg"
+    },
+    {
+      "name": "Antonio Ortega",
+      "order": 165,
+      "role": "Engineer",
+      "thumb": null
+    },
+    {
+      "name": "Linford Mark Robinson",
+      "order": 166,
+      "role": "Captain L'Teis Kardashev",
+      "thumb": null
+    },
+    {
+      "name": "Katherine Trowell",
+      "order": 167,
+      "role": "Captain Bandra",
+      "thumb": null
+    },
+    {
+      "name": "Oliver Becker",
+      "order": 168,
+      "role": "N'Raj",
+      "thumb": "/thHAldvASqV6VNGjn5zWymYpC3B.jpg"
+    },
+    {
+      "name": "Stephanie Belding",
+      "order": 169,
+      "role": "Shira",
+      "thumb": "/7xrPhCzMefHYUIY6c1IWjixngSb.jpg"
+    },
+    {
+      "name": "Emmanuel Kabongo",
+      "order": 170,
+      "role": "V'Kir",
+      "thumb": "/6zxYdbUr0nu2ibA3C0iGabNoEBP.jpg"
+    },
+    {
+      "name": "Tara Rosling",
+      "order": 171,
+      "role": "President T'Rina",
+      "thumb": null
+    },
+    {
+      "name": "Ache Hernandez",
+      "order": 174,
+      "role": "Kyheem",
+      "thumb": null
+    },
+    {
+      "name": "Ross Carter",
+      "order": 177,
+      "role": "Lt. Haj",
+      "thumb": null
+    },
+    {
+      "name": "Luca Doulgeris",
+      "order": 178,
+      "role": "Leto",
+      "thumb": null
+    },
+    {
+      "name": "Jhaleil Swaby",
+      "order": 179,
+      "role": "San",
+      "thumb": "/5mgVhVMYtfTkvyK38OQ98n0Xs34.jpg"
+    },
+    {
+      "name": "Daniel Kash",
+      "order": 183,
+      "role": "Duggan",
+      "thumb": "/v8xa3aFbdk0t7RXpXiLlXI7QepH.jpg"
+    },
+    {
+      "name": "Bill Irwin",
+      "order": 185,
+      "role": "Su'Kal",
+      "thumb": "/7FBGPliqZwpTrnjwA5wJiXXaUpu.jpg"
+    },
+    {
+      "name": "Nelu Handa",
+      "order": 187,
+      "role": "Smiling Starfleet Lieutenant Holo",
+      "thumb": "/hYWYpgdQCMa28slPxZftBXs6ff.jpg"
+    },
+    {
+      "name": "Andrew Hinkson",
+      "order": 188,
+      "role": "Regulator",
+      "thumb": "/hEM4yD4hPSSvBDBbp3HT3vEwtuO.jpg"
+    },
+    {
+      "name": "Jinny Jacinto",
+      "order": 189,
+      "role": "The Monster",
+      "thumb": null
+    },
+    {
+      "name": "Robert Verlaque",
+      "order": 190,
+      "role": "Kelpien Elder Holo",
+      "thumb": "/8FPUr0COtLHjeOa6xjGiTILtcqs.jpg"
+    },
+    {
+      "name": "Danny Waugh",
+      "order": 191,
+      "role": "Vulcan Holo",
+      "thumb": "/iUaBx40fLwb2jADrTRDc7a7zTft.jpg"
+    },
+    {
+      "name": "Roy Samuelson",
+      "order": 193,
+      "role": "Emerald Chain Computer",
+      "thumb": null
+    },
+    {
+      "name": "Alexander Mandra",
+      "order": 194,
+      "role": "Avryz",
+      "thumb": "/5UWspbUiLC9ZeeDBDsxZhGnl7OL.jpg"
+    },
+    {
+      "name": "Dorren Lee",
+      "order": 195,
+      "role": "Lt. Teemo",
+      "thumb": "/ge9mgrsnqAahwbsHJMX5lTuKtOU.jpg"
+    },
+    {
+      "name": "Lamont James",
+      "order": 196,
+      "role": "Regulator Guard #1",
+      "thumb": null
+    },
+    {
+      "name": "Lisa Berry",
+      "order": 198,
+      "role": "Kanak",
+      "thumb": "/tTvV9ZWKieJtWX8JK1kIzIUFWJR.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "'Will You Take My Hand' Bonus Scene",
-        "Short Treks- Runaway",
-        "Short Treks- Calypso",
-        "Short Treks- The Brightest Star",
-        "Short Treks- The Escape Artist",
-        "Short Treks- Q & A",
-        "Discovering Discovery- The Concepts and Casting of Star Trek- Discovery",
-        "Standing In The Shadow of Giants- Creating The Sound of Discovery",
-        "Creature Comforts",
-        "Short Treks- The Trouble with Edward",
-        "Short Treks- Ask Not",
-        "Short Treks- Ephraim and Dot",
-        "Short Treks- The Girl Who Made the Stars",
-        "Short Treks- Children of Mars",
-        "Star Trek Discovery- The Voyage of Season One",
-        "Dress for Success",
-        "A Woman's Journey",
-        "Feeding Frenzy",
-        "Prop Me Up",
-        "Creating Space",
-        "Designing Discovery",
-        "Designing Discovery (Season  Two)",
-        "Prop Me Up (Season Two)",
-        "Discovering Discovery- The Concepts and Casting of Star Trek- Discovery"
+        {
+          "aired": "2018-03-25",
+          "plot": "Mirror Georgiou receives a surprise invitation from Leland to join a mysterious organization.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/31hF84gLxCbmkkkdoHkr4ANXYk9.jpg",
+          "title": "'Will You Take My Hand' Bonus Scene"
+        },
+        {
+          "aired": "2018-10-04",
+          "plot": "Onboard the U.S.S. Discovery, Ensign Tilly encounters an unexpected visitor in need of help. However, this unlikely pair may have more in common than meets the eye.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r9YN95mngJFqbASySoh5h1nu81g.jpg",
+          "title": "Short Treks- Runaway"
+        },
+        {
+          "aired": "2018-11-08",
+          "plot": "After waking up in an unfamiliar sickbay, Craft finds himself on board a deserted ship, and his only companion and hope for survival is an A.I. computer interface",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pJvVBo3ncFEzNYTGNJvlZrqDldB.jpg",
+          "title": "Short Treks- Calypso"
+        },
+        {
+          "aired": "2018-12-06",
+          "plot": "Before he was the first Kelpien to join Starfleet, Saru lived a simple life on his home planet of Kaminar with his father and sister. Young Saru, full of ingenuity and a level of curiosity uncommon among his people, yearns to find out what lies beyond his village, leading him on an unexpected path.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kXI44McU6esQqwrvDxSwW2MAshr.jpg",
+          "title": "Short Treks- The Brightest Star"
+        },
+        {
+          "aired": "2019-01-03",
+          "plot": "Harry Mudd, back to his old tricks of stealing and double-dealing, finds himself in a precarious position aboard a hostile ship – just in time to try out his latest con.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qLPLQSK1HrsQjbLFAOirP9EB2P8.jpg",
+          "title": "Short Treks- The Escape Artist"
+        },
+        {
+          "aired": "2019-10-05",
+          "plot": "On his first day aboard the USS Enterprise, Ensign Spock and his new superior officer Number One get trapped in a turbolift.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zmaTJSuXhyJ2qeGzTv2H7fx7Whf.jpg",
+          "title": "Short Treks- Q & A"
+        },
+        {
+          "aired": "2018-11-13",
+          "plot": "Interviews with producers, writers and stars of Star Trek: Discovery about casting of the debut season.",
+          "thumbnail": "",
+          "title": "Discovering Discovery- The Concepts and Casting of Star Trek- Discovery"
+        },
+        {
+          "aired": "2018-11-15",
+          "plot": "A discussion with executive producer Alex Kurtzman and composer Jeff Russo about creating the Discovery theme and score for the show.",
+          "thumbnail": "",
+          "title": "Standing In The Shadow of Giants- Creating The Sound of Discovery"
+        },
+        {
+          "aired": "2018-11-18",
+          "plot": "A behind-the-scenes look at the makeup and prosthetics department on Star Trek: Discovery, as they both modernize well-known Star Trek species like the Klingons, Vulcans and the Andorians, and bring to life a new species, the Kelpiens.",
+          "thumbnail": "",
+          "title": "Creature Comforts"
+        },
+        {
+          "aired": "2019-10-10",
+          "plot": "Newly minted Captain Lynne Lucero is excited to take command of the U.S.S. Cabot, until she meets Edward Larkin, an ornery scientist who believes he has found a revolutionary new use for tribbles.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wreLt2LlNyxLglf8aHNaEpHUSLd.jpg",
+          "title": "Short Treks- The Trouble with Edward"
+        },
+        {
+          "aired": "2019-11-14",
+          "plot": "When an attack on Starbase 28 leaves a surprise prisoner under Cadet Thira Sidhu's watch, she is faced with making a decision that may threaten her standing in Starfleet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x3MRaFBc1R9TfQaI4BYYx372oJ8.jpg",
+          "title": "Short Treks- Ask Not"
+        },
+        {
+          "aired": "2019-12-11",
+          "plot": "Ephraim, a humble tardigrade, is flying through the mycelial network when an unexpected encounter takes her on a bewildering adventure through space.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iNk4oBpyyqzSLZiKKoWwaPajDYe.jpg",
+          "title": "Short Treks- Ephraim and Dot"
+        },
+        {
+          "aired": "2019-12-11",
+          "plot": "When a lightning storm in space scares a young Michael Burnham, her father aims to ease her fears with a mythical story about a brave little girl who faced her own fears head on.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2t80orjcHM0YdeYGiVKqxbTW0fv.jpg",
+          "title": "Short Treks- The Girl Who Made the Stars"
+        },
+        {
+          "aired": "2020-01-09",
+          "plot": "12 year-old classmates Kima and Lil find themselves at odds with each other on a day that will change their lives forever.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9gq0lItYktpd3TV6S9fo8vItE9N.jpg",
+          "title": "Short Treks- Children of Mars"
+        },
+        {
+          "aired": "2020-01-11",
+          "plot": "The cast, writers and producers comment on the overall Klingon War arc and many individual episodes.",
+          "thumbnail": "",
+          "title": "Star Trek Discovery- The Voyage of Season 1"
+        },
+        {
+          "aired": "2020-01-11",
+          "plot": "Gersha Phillips talks about creating the uniform for the show. The cast and other member of the costume department comment on the costumes (including the Klingon costumes).",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wg7GIaaN5EHtDAiRfIJMmQxvB2h.jpg",
+          "title": "Dress for Success"
+        },
+        {
+          "aired": "2020-01-11",
+          "plot": "The producers and cast speak to the characterization of the show being about the life journey of Michael Burnham, a woman.",
+          "thumbnail": "",
+          "title": "A Woman's Journey"
+        },
+        {
+          "aired": "2020-01-11",
+          "plot": "The crew talk about the work to make food that can be use for the various scenes where the cast is eating.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yyyx4BYA07j6PwGXirSXNQKcp3Z.jpg",
+          "title": "Feeding Frenzy"
+        },
+        {
+          "aired": "2020-01-11",
+          "plot": "All about creating the phaser, the tricorder and the communicator. There is also discussion about the weapons used by the Klingons and all the props used in the Mirror Universe.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7dDTTNoqNVpwBT5HbA51RDvPIZj.jpg",
+          "title": "Prop Me Up"
+        },
+        {
+          "aired": "2020-01-11",
+          "plot": "Creating the CG characters and scenes for the show. Many different shots showing designers, animatics and the final product. Alex Kurtzman comments on how this work has to match the best seen in contemporary  movies. Many shots about green screen work done on Stage 16 at Paramount Studios for the pilot episode.",
+          "thumbnail": "",
+          "title": "Creating Space"
+        },
+        {
+          "aired": "2020-01-11",
+          "plot": "Todd Cherniawsky discusses the challenge of keeping canon, yet doing something new and fresh in creating the ships for use in the show. He says that the designs were influenced by large navel vessels (e.g. submarines and surface ships). Taking over for Todd  Cherniawsky, Tamara Deverell did production design for the second half of season one and talks about designing the Orion Embassy/Encampment on the Klingon home world.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sOmn4uk6s6kEXZjebDJKOdu4SHy.jpg",
+          "title": "Designing Discovery"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "The Vulcan Hello",
-        "Battle at the Binary Stars",
-        "Context Is for Kings",
-        "The Butcher's Knife Cares Not for the Lamb's Cry",
-        "Choose Your Pain",
-        "Lethe",
-        "Magic to Make the Sanest Man Go Mad",
-        "Si Vis Pacem, Para Bellum",
-        "Into the Forest I Go",
-        "Despite Yourself",
-        "The Wolf Inside",
-        "Vaulting Ambition",
-        "What's Past Is Prologue",
-        "The War Without The War Within",
-        "Will You Take My Hand"
+        {
+          "aired": "2017-09-24",
+          "plot": "While patrolling Federation space, the U.S.S. Shenzhou encounters an object of unknown origin, putting First Officer Michael Burnham to her greatest test yet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kdE6I9aLZgPJMdFkCuQ0YzemP14.jpg",
+          "title": "The Vulcan Hello"
+        },
+        {
+          "aired": "2017-09-24",
+          "plot": "Face to face with Klingon vessels, the U.S.S. Shenzhou prepares for the possibility of war if negotiations fail. Amidst the turmoil, Burnham looks back to her Vulcan upbringing for guidance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sg0tltyFlESVGISvxHlsWnW2pVC.jpg",
+          "title": "Battle at the Binary Stars"
+        },
+        {
+          "aired": "2017-10-01",
+          "plot": "Burnham finds herself aboard the U.S.S. Discovery where she quickly realizes things are not as they seem, including the mysterious Captain Gabriel Lorca.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AamOrCV7i2COmHPmbfsw0MKnOUm.jpg",
+          "title": "Context Is for Kings"
+        },
+        {
+          "aired": "2017-10-08",
+          "plot": "With tensions and stakes high as Starfleet continues in their efforts to end the war with Klingons, Burnham begins to settle in to her new position aboard the U.S.S. Discovery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1Ic1cFpOw1E79PZlZGrp8gHo6z7.jpg",
+          "title": "The Butcher's Knife Cares Not for the Lamb's Cry"
+        },
+        {
+          "aired": "2017-10-15",
+          "plot": "Lorca unexpectedly finds himself in the company of a prisoner of war, Starfleet Lieutenant Ash Tyler, and a notorious intergalactic criminal, Harry Mudd. Meanwhile, Burnham voices her concerns about the repercussions of the spore drive jumps on “Ripper.”",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3DFM8C3dJDVg7wX161vq7FaLP8M.jpg",
+          "title": "Choose Your Pain"
+        },
+        {
+          "aired": "2017-10-22",
+          "plot": "The U.S.S. Discovery crew is intrigued by new addition, Lt. Ash Tyler. Sarek seeks Burnham's help, rekindling memories from her past. Admiral Cornwell questions Lorca's tactics.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ijKL65XIokHKi8DQJfWEIwbPFlk.jpg",
+          "title": "Lethe"
+        },
+        {
+          "aired": "2017-10-29",
+          "plot": "As the U.S.S. Discovery crew attempts to let loose at a party, an unwelcome visitor comes aboard bringing about a problematic and twisted sequence of events.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j6gpzxVAW3ewd2MGqPTz0CKsKRv.jpg",
+          "title": "Magic to Make the Sanest Man Go Mad"
+        },
+        {
+          "aired": "2017-11-05",
+          "plot": "The U.S.S. Discovery is tasked with a high priority mission to planet Pahvo and learn the science behind the Klingon's cloaking technology.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mETRqM74dY79tBJlwSKVIoXM7gR.jpg",
+          "title": "Si Vis Pacem, Para Bellum"
+        },
+        {
+          "aired": "2017-11-12",
+          "plot": "Bypassing Starfleet's orders, Lorca uses the U.S.S. Discovery crew's ultimate asset, the ship itself, in an effort to end the war with the Klingons once and for all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8sisA21eGQqrTViVITSbHHowUFl.jpg",
+          "title": "Into the Forest I Go"
+        },
+        {
+          "aired": "2018-01-07",
+          "plot": "While in unfamiliar territory, the U.S.S. Discovery crew is forced to get creative in their next efforts to survive opposing and unprecedented forces and return home.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i3s3R4XjO1DmaffdSOZf0XTiUfT.jpg",
+          "title": "Despite Yourself"
+        },
+        {
+          "aired": "2018-01-14",
+          "plot": "The crew continues their guise, and Burnham is ordered on a merciless mission to end the resistance in hopes of returning home. Meanwhile, Tilly works on restoring Stamets’ neurofunction.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aX43537EoHEq0eFVrWNofm0yewF.jpg",
+          "title": "The Wolf Inside"
+        },
+        {
+          "aired": "2018-01-21",
+          "plot": "Burnham heads to the ISS Charon with a special \"gift\" for the Emperor. With the help of an unexpected source, Stamets gains clarity while trapped inside the mycelial network. Saru asks for L'Rell's help.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8JZsBmPBXgVaLk9z5Kt188KSaFc.jpg",
+          "title": "Vaulting Ambition"
+        },
+        {
+          "aired": "2018-01-28",
+          "plot": "Lorca plans to move forward with a coup against the Emperor, propelling Burnham to make a quick decision to save not only herself, but the U.S.S. Discovery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zUrMldisIBxHjbHzAIPmZBwwYZO.jpg",
+          "title": "What's Past Is Prologue"
+        },
+        {
+          "aired": "2018-02-04",
+          "plot": "Burnham and the U.S.S. Discovery crew are faced with the harsh reality of the war during their absence. In order to move forward, Starfleet must use unconventional tactics and sources to take their next action against the Klingons.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4IQLqwohAzzdhCFPn2h7tYaqUmz.jpg",
+          "title": "The War Without The War Within"
+        },
+        {
+          "aired": "2018-02-11",
+          "plot": "With Georgiou at the helm of the plan to end the Klingon war once and for all, the U.S.S. Discovery crew struggles to fathom and tolerate her hostile tactics. Memories of past hardships are rekindled within Burnham.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vfuT4QAhqT2yB1UXGp6guwVXAHv.jpg",
+          "title": "Will You Take My Hand"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Brother",
-        "New Eden",
-        "Point of Light",
-        "An Obol for Charon",
-        "Saints of Imperfection",
-        "The Sounds of Thunder",
-        "Light and Shadows",
-        "If Memory Serves",
-        "Project Daedalus",
-        "The Red Angel",
-        "Perpetual Infinity",
-        "Through the Valley of Shadows",
-        "Such Sweet Sorrow, Part 1",
-        "Such Sweet Sorrow, Part 2"
+        {
+          "aired": "2019-01-17",
+          "plot": "After answering a distress signal from the U.S.S. Enterprise, the U.S.S. Discovery welcomes aboard Captain Christopher Pike and begins a new mission to investigate the meaning behind seven mysterious red signals. Michael Burnham grapples with her past growing up on Vulcan with her foster parents and brother Spock.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jT0JIyQvtXw5BDAqPFSuT4meLAd.jpg",
+          "title": "Brother"
+        },
+        {
+          "aired": "2019-01-24",
+          "plot": "A new signal appears, prompting Stamets' emotional return to the mycelial network and leading Burnham, Pike and Owosekun to a pre-warp planet, where they face a complex ethical dilemma. Tilly's overeagerness lands her in trouble but when the planet - and Discovery's landing party - are threatened, her curiosity may be the one thing that can save them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/h9ZYhEnqvJSwuv6cKIxVSR2gN1o.jpg",
+          "title": "New Eden"
+        },
+        {
+          "aired": "2019-01-31",
+          "plot": "A surprise visitor to the U.S.S. Discovery brings shocking news about Spock and dredges up past regrets for Burnham. Following the asteroid incident, Tilly struggles to keep a grip on her reality. L'Rell's authority on Qo'noS is threatened.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8bIaq84ymAVLOX3fw5CmxyvX2oi.jpg",
+          "title": "Point of Light"
+        },
+        {
+          "aired": "2019-02-07",
+          "plot": "A mysterious sphere threatens the U.S.S. Discovery even as May, in her original form, implements a plan that puts Tilly's life in danger. Saru and Burnham's bond grows when Saru is forced to acknowledge a deeply unsettling Kelpien truth. Pike receives new intel on Spock from a loyal friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5QgW74tBHmJfOKLX0TfoxB8xbtn.jpg",
+          "title": "An Obol for Charon"
+        },
+        {
+          "aired": "2019-02-14",
+          "plot": "Burnham and the crew navigate a dangerous alien landscape in a race against time to save Tilly's life, but Stamets is not at all prepared for what they find in the process. Section 31 is assigned to help track down Spock, much to Pike's dismay.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hNvtDxwd9S0BV5bmFKeCOUzyRXy.jpg",
+          "title": "Saints of Imperfection"
+        },
+        {
+          "aired": "2019-02-21",
+          "plot": "When a new signal appears over Saru's home planet, Burnham, Saru and the crew embark on a perilous mission that puts Saru in danger and raises questions about the Red Angel's intentions. Hugh struggles to come to terms with his new reality.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p7LJCMh8HSHBTdNZpDOecjQYZcL.jpg",
+          "title": "The Sound of Thunder"
+        },
+        {
+          "aired": "2019-02-28",
+          "plot": "Burnham goes to Vulcan in search of Spock, where she unearths surprising family secrets. In researching what is left of the Red Angel's signal over Kaminar, Pike and Tyler end up in battle with time itself. Georgiou has a few tricks up her sleeve for Leland and Section 31.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7r3lfBzO8qzrx5hn8NIolNQMGlO.jpg",
+          "title": "Light and Shadows"
+        },
+        {
+          "aired": "2019-03-07",
+          "plot": "Spock and Burnham head to Talos IV, where the process of healing Spock forces the siblings to confront their troubled past. Stamets desperately tries to reconnect with Hugh, while Tyler struggles to shed the crew's suspicions of him due to his past as Voq.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lIENcSDSG0O663pPRgwQ3VvqJxT.jpg",
+          "title": "If Memory Serves"
+        },
+        {
+          "aired": "2019-03-14",
+          "plot": "When the Discovery crew infiltrates Section 31's headquarters, suspicions arise that the crew may have a traitor in their midst. Burnham tries to help Spock but her efforts don't go as planned.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xUkQYXYUk0EZyVIsyh48kWAHylX.jpg",
+          "title": "Project Daedalus"
+        },
+        {
+          "aired": "2019-03-21",
+          "plot": "Burnham is stunned when she learns her ties to Section 31 run deeper than she ever fathomed. Armed with the identity of the Red Angel, the U.S.S. Discovery goes to work on its most critical mission to date.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/v4qsjzl7EMsVKBxa87oImMu0dGz.jpg",
+          "title": "The Red Angel"
+        },
+        {
+          "aired": "2019-03-28",
+          "plot": "Burnham receives the reunion she's been longing for, but it doesn't go quite as she imagined. Georgiou and Tyler sense a disturbing change in Leland.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t7VeyVHVOe3qRIcXxPmQtqrcQCk.jpg",
+          "title": "Perpetual Infinity"
+        },
+        {
+          "aired": "2019-04-04",
+          "plot": "A fourth signal leads the U.S.S. Discovery to a world where Pike is forced to make a life-changing choice. Burnham and Spock investigate a Section 31 ship gone rogue, leading to a discovery with catastrophic consequences.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dSt1LPNujIxf46q44oeMxqcZxs6.jpg",
+          "title": "Through the Valley of Shadows"
+        },
+        {
+          "aired": "2019-04-11",
+          "plot": "When the U.S.S. Discovery's crucial mission does not go according to plan, Burnham realizes what must ultimately be done. The crew prepares for the battle of a lifetime as Leland's Control ships get closer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pZ3OHIftkO3tUfjhuEuIcibvLcv.jpg",
+          "title": "Such Sweet Sorrow, Part 1"
+        },
+        {
+          "aired": "2019-04-18",
+          "plot": "The U.S.S. Discovery battles against Control in a fight not only for their lives but for the future, with a little help from some unexpected friends. Spock and Burnham discern vital new connections between the red signals while Burnham faces one of life’s harshest truths: the right decisions are often the hardest to make.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t7ixATvA11S1EiE1bxalC7aiiR9.jpg",
+          "title": "Such Sweet Sorrow, Part 2"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Episode 1",
-        "Episode 2",
-        "Episode 3",
-        "Episode 4",
-        "Episode 5",
-        "Episode 6",
-        "Episode 7",
-        "Episode 8",
-        "Episode 9",
-        "Episode 10",
-        "Episode 11"
+        {
+          "aired": "2020-10-16",
+          "plot": "Arriving 930 years in the future, Burnham navigates a galaxy she no longer recognizes while searching for the rest of the U.S.S. Discovery crew.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d1zubUsMskWBYuj45PjyMZdTHSU.jpg",
+          "title": "That Hope Is You, Part 1"
+        },
+        {
+          "aired": "2020-10-22",
+          "plot": "The crew of the Discovery races to repair their ship after a they crash. Tilly & Saru make a first contact looking for Burnham.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8gyrr9c57cSrIv8xwtMz2pvZstr.jpg",
+          "title": "Far From Home"
+        },
+        {
+          "aired": "2020-10-29",
+          "plot": "Reunited with Burnham, Discovery heads to Earth to find out what has happened to the Federation in the last thousand years.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qXtjIfQVfBFZNSraNvrZF6WX6Fq.jpg",
+          "title": "People of Earth"
+        },
+        {
+          "aired": "2020-11-05",
+          "plot": "Burnham and Adira visit the Trill homeworld while Saru's efforts on the Discovery to help the crew reconnect yield surprises.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2xdn4gmzN7iFRrR6YsTpXdBNwNx.jpg",
+          "title": "Forget Me Not"
+        },
+        {
+          "aired": "2020-11-12",
+          "plot": "After reuniting with what remains of Starfleet and the Federation, the U.S.S. Discovery and its crew must prove that a 930 year old crew and starship are exactly what this new future needs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pZYeTnk127ThdYYDaek8c4OrSPC.jpg",
+          "title": "Die Trying"
+        },
+        {
+          "aired": "2020-11-19",
+          "plot": "After receiving a message from Book, Burnham and Georgiou embark on a rogue mission to find him, leaving Saru to pick up the pieces with Admiral Vance. Meanwhile, Stamets forms an unexpected bond with Adira.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n5arWcgMnw7pINNwKnsldvGQxo8.jpg",
+          "title": "Scavengers"
+        },
+        {
+          "aired": "2020-11-26",
+          "plot": "While grappling with the fallout of her recent actions, and what her future might hold, Burnham agrees to represent the Federation in an intense debate about the release of politically sensitive - but highly valuable - Burn data.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yaYC9EYUdBM1CJLj1u5pWHrAxVT.jpg",
+          "title": "Unification III"
+        },
+        {
+          "aired": "2020-12-03",
+          "plot": "Osyraa attacks Book's home planet and the Discovery travels there to help. Stamets and Adira investigate The Burn.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6T1VGVzhBBDSCbMaZDN52qlRNRh.jpg",
+          "title": "The Sanctuary"
+        },
+        {
+          "aired": "2020-12-10",
+          "plot": "The U.S.S. Discovery crew journey to a mysterious planet in hopes of finding a cure for Georgiou's deteriorating condition. Stamets and Adira make a stunning breakthrough with the newly acquired Burn data.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e4UoaZwASHoITSS667wP8nw5n1J.jpg",
+          "title": "Terra Firma, Part 1"
+        },
+        {
+          "aired": "2020-12-17",
+          "plot": "Georgiou uncovers the true depths of the plot against her, leading her to a revelation about how deeply her time on the U.S.S. Discovery truly changed her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mOtR0Mp1nlic7VNk0tQi4x8tzTy.jpg",
+          "title": "Terra Firma, Part 2"
+        },
+        {
+          "aired": "2020-12-24",
+          "plot": "Discovery ventures to the Verubin Nebula, where Burnham, Saru, and Culber make a shocking realization about the origin of the Burn. The rest of the crew faces an unexpected threat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a1qZuCmWBaHVOKgG6Ewqg1KYXvQ.jpg",
+          "title": "Su'Kal"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "After capturing the U.S.S. Discovery, Osyraa seeks a meeting with Admiral Vance while Burnham and the crew must overcome unimaginable odds as they attempt to regain command of their ship.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9YbzeEQkjIkEXeRoazPScvaJ4GD.jpg",
+          "title": "There is a Tide…"
+        },
+        {
+          "aired": "2021-01-07",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Outside"
+        }
       ]
     }
   },

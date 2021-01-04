@@ -1,40 +1,510 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy"
+  ],
   "id": 3811,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/81068/clearart/the-big-fat-quiz-of-the-year-4dc5b58fc2b16.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/81068/clearlogo/bigfatquizoftheyear-81068.png",
+        "https://assets.fanart.tv/fanart/tv/81068/clearlogo/the-big-fat-quiz-of-the-year-4dc5b6396d8af.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/81068/tvposter/the-big-fat-quiz-of-the-year-5ca1d423ebe13.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/81068/tvthumb/the-big-fat-quiz-of-the-year-50422bbe53423.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/zkmYJFaU8hiO2jE6rWvoGWCB0XL.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/AoscbFCK12Nhfhf6DXCkFRbL2Vd.jpg"
+    }
+  },
+  "mpaa": "",
   "name": "The Big Fat Quiz of the Year",
+  "plot": "Presenter Jimmy Carr oversees a panel of top-name celebrities in this year end quiz show where they compete to see who can answer the most questions correctly.",
+  "premiered": "2004-12-27",
+  "status": "Returning Series",
+  "studios": [
+    "Channel 4"
+  ],
+  "actors": [
+    {
+      "name": "Jimmy Carr",
+      "order": 23,
+      "role": "Self - Presenter",
+      "thumb": "/xfEer8eO6rUrpuctvMrJtseYJcR.jpg"
+    },
+    {
+      "name": "Jonathan Ross",
+      "order": 64,
+      "role": "Self - Contestant",
+      "thumb": "/lHQNwKd8S96W1A4oUq3C2M9amZP.jpg"
+    },
+    {
+      "name": "David Mitchell",
+      "order": 66,
+      "role": "Self - Contestant",
+      "thumb": "/mHN2NWjBsXseWqq7Zg8K31NS91n.jpg"
+    },
+    {
+      "name": "Richard Ayoade",
+      "order": 66,
+      "role": "Self - Contestant",
+      "thumb": "/qHKoy9kP4bsv4G9EkvU4FMUmYkS.jpg"
+    },
+    {
+      "name": "Noel Fielding",
+      "order": 76,
+      "role": "Self - Contestant",
+      "thumb": "/1s5hoRdVVQJOX1OAetGfYvfZZrZ.jpg"
+    },
+    {
+      "name": "Claudia Winkleman",
+      "order": 65,
+      "role": "Self - Contestant",
+      "thumb": "/mZx3EyhpfAeHkzMF18qK4RprNbI.jpg"
+    },
+    {
+      "name": "Rob Brydon",
+      "order": 76,
+      "role": "Self - Contestant",
+      "thumb": "/xoKLZVwzaUgTUEvPX4vymXpC1fU.jpg"
+    },
+    {
+      "name": "Alan Carr",
+      "order": 62,
+      "role": "Self - Contestant",
+      "thumb": "/v2bFTjWXEdlt2RbNhXQkPfUQwkY.jpg"
+    },
+    {
+      "name": "Russell Brand",
+      "order": 56,
+      "role": "Self - Contestant",
+      "thumb": "/7POhMFAcAriFEtOU3lhOUtDAWFC.jpg"
+    },
+    {
+      "name": "Jack Whitehall",
+      "order": 76,
+      "role": "Self - Contestant",
+      "thumb": "/8xRKz1tiVyjLxIMuD0ckOmF3xMY.jpg"
+    },
+    {
+      "name": "Dara Ó Briain",
+      "order": 77,
+      "role": "Self - Contestant",
+      "thumb": "/mKu8KTyWejSZCtc92bkfRKdrvfS.jpg"
+    },
+    {
+      "name": "David Walliams",
+      "order": 62,
+      "role": "Self - Contestant",
+      "thumb": "/jC139tWQdQPXJ0PJ7pnXF8Mw2M8.jpg"
+    },
+    {
+      "name": "Sarah Millican",
+      "order": 79,
+      "role": "Self - Contestant",
+      "thumb": "/g3CbMlFePexOiffZEiuZ2A7xCEa.jpg"
+    },
+    {
+      "name": "Michael McIntyre",
+      "order": 59,
+      "role": "Self - Contestant",
+      "thumb": "/gDK7l0UvlQzYh7D8Mjw15hgee7q.jpg"
+    },
+    {
+      "name": "Micky Flanagan",
+      "order": 63,
+      "role": "Self - Contestant",
+      "thumb": "/penlJ1yX8WJt1VdSKj6ycufIXG7.jpg"
+    },
+    {
+      "name": "Maya Jama",
+      "order": 66,
+      "role": "Self - Contestant",
+      "thumb": "/6hOVhG04xIYKXxdHJPCkIQeRuts.jpg"
+    },
+    {
+      "name": "Joe Lycett",
+      "order": 66,
+      "role": "Self - Contestant",
+      "thumb": "/yqTJQEpJwyLx5NreK6X8hXIZ3dy.jpg"
+    },
+    {
+      "name": "Stacey Solomon",
+      "order": 66,
+      "role": "Self - Contestant",
+      "thumb": "/VlV14TQ6ZDuwMV3TYthnzTqYRL.jpg"
+    },
+    {
+      "name": "Kevin Bridges",
+      "order": 67,
+      "role": "Self - Contestant",
+      "thumb": "/l3Ui9nrJ4dqmVaLLg1N8y2LnSVD.jpg"
+    },
+    {
+      "name": "Denise Van Outen",
+      "order": 67,
+      "role": "Self - Contestant",
+      "thumb": "/mW58OolSCjFqhTBhuimca4NIKio.jpg"
+    },
+    {
+      "name": "James Corden",
+      "order": 67,
+      "role": "Self - Contestant",
+      "thumb": "/xGB0gfZ48M27gQjjL7inJIh1Pqj.jpg"
+    },
+    {
+      "name": "Roisin Conaty",
+      "order": 76,
+      "role": "Self - Contestant",
+      "thumb": "/xWNKOCqrkOTQlGrXReq4liFGKXW.jpg"
+    },
+    {
+      "name": "Jo Brand",
+      "order": 76,
+      "role": "Self - Contestant",
+      "thumb": "/2iM97jO52enXCk9HWrvrCZjn0ek.jpg"
+    },
+    {
+      "name": "Simon Pegg",
+      "order": 0,
+      "role": "Self - Contestant",
+      "thumb": "/nOWKXxgADG98RjKyfQ7oSDfns6J.jpg"
+    },
+    {
+      "name": "Liza Tarbuck",
+      "order": 1,
+      "role": "Self - Contestant",
+      "thumb": "/krOSBZnFf5EBpPUaf6APpSWMJ1Q.jpg"
+    },
+    {
+      "name": "Gordon Ramsay",
+      "order": 3,
+      "role": "Self - Contestant",
+      "thumb": "/72LCF6OLi95odUlqtDi8vAcW3zw.jpg"
+    },
+    {
+      "name": "June Sarpong",
+      "order": 4,
+      "role": "Self - Contestant",
+      "thumb": "/mFuywEFtFz3lQtYXtxhb6RaYbdR.jpg"
+    },
+    {
+      "name": "Cat Deeley",
+      "order": 5,
+      "role": "Self - Contestant",
+      "thumb": "/vEzuTCVkqtBVsmYuIyM5zfW8h9A.jpg"
+    },
+    {
+      "name": "Mel B",
+      "order": 41,
+      "role": "Self - Contestant",
+      "thumb": "/y3C5u4enbi5n3GInsf1EN5tO9xy.jpg"
+    },
+    {
+      "name": "Lily Allen",
+      "order": 50,
+      "role": "Self - Contestant",
+      "thumb": "/oDyPfPTD0jsPBTT9jrkceepPXiK.jpg"
+    },
+    {
+      "name": "Sean Lock",
+      "order": 52,
+      "role": "Self - Contestant",
+      "thumb": "/6bHhAX9tEwxQfECvG9nDy7JR2ez.jpg"
+    },
+    {
+      "name": "Sharon Osbourne",
+      "order": 52,
+      "role": "Self - Contestant",
+      "thumb": "/xVDX3uc1TzlsmkBkWobXtU2NNQg.jpg"
+    },
+    {
+      "name": "Davina McCall",
+      "order": 53,
+      "role": "Self - Contestant",
+      "thumb": "/bHW7MFrvqDBfBZmXRU90rFXPfLs.jpg"
+    },
+    {
+      "name": "Charlie Brooker",
+      "order": 56,
+      "role": "Self - Contestant",
+      "thumb": "/dmdLd5I4cnpCZzoITm26NOwu6Rn.jpg"
+    },
+    {
+      "name": "Ruth Jones",
+      "order": 58,
+      "role": "Self - Contestant",
+      "thumb": null
+    },
+    {
+      "name": "Miranda Hart",
+      "order": 59,
+      "role": "Self - Contestant",
+      "thumb": "/lLqIihBICaGVkzB8yqCvydZ9qc3.jpg"
+    },
+    {
+      "name": "Eddie Izzard",
+      "order": 60,
+      "role": "Self - Contestant",
+      "thumb": "/jPsZdu9DzGudytybdzjXAm77Q0r.jpg"
+    },
+    {
+      "name": "Jamie Oliver",
+      "order": 61,
+      "role": "Self - Contestant",
+      "thumb": "/uSBJkYWQfJRZHXcdQ0ExIpbCsZz.jpg"
+    },
+    {
+      "name": "James Acaster",
+      "order": 65,
+      "role": "Self - Contestant",
+      "thumb": "/qzZy2yCkFsEzIagDcCwOY5oMZWD.jpg"
+    },
+    {
+      "name": "Russell Howard",
+      "order": 67,
+      "role": "Self - Contestant",
+      "thumb": "/6DAnM1JwuBw43uzAz9qh5dpp0Kp.jpg"
+    },
+    {
+      "name": "Gabby Logan",
+      "order": 68,
+      "role": "Self - Contestant",
+      "thumb": "/1YTu1KVG9iN4tp9NvEVF9ATw0Ii.jpg"
+    },
+    {
+      "name": "Asim Chaudhry",
+      "order": 75,
+      "role": "Self - Contestant",
+      "thumb": "/1F0DwOpxUAEpw5iovMHZ5Y1C8n6.jpg"
+    },
+    {
+      "name": "Kristen Schaal",
+      "order": 75,
+      "role": "Self - Contestant",
+      "thumb": "/s3LSHVTx8gxHP2twYsXEGa8JbLl.jpg"
+    },
+    {
+      "name": "Greg Davies",
+      "order": 76,
+      "role": "Self - Contestant",
+      "thumb": "/11GkWjaYoW2tfok8gHoCPZgVriY.jpg"
+    },
+    {
+      "name": "Rob Delaney",
+      "order": 77,
+      "role": "Self - Contestant",
+      "thumb": "/jTzMa3UCLpuyIlHvFfZo2gJsmg2.jpg"
+    },
+    {
+      "name": "Mel Giedroyc",
+      "order": 78,
+      "role": "Self - Contestant",
+      "thumb": "/tyEurzH1ZBRBtY2YPfNOv2FKFXN.jpg"
+    },
+    {
+      "name": "Romesh Ranganathan",
+      "order": 79,
+      "role": "Self - Contestant",
+      "thumb": "/kZ4g2kvgx8MHKLEQ7DAQ07ta2Lz.jpg"
+    },
+    {
+      "name": "Big Narstie",
+      "order": 81,
+      "role": "Self - Contestant",
+      "thumb": "/y7j4pE9kByQHbgiRMclIbAGLqeL.jpg"
+    },
+    {
+      "name": "Katherine Ryan",
+      "order": 82,
+      "role": "Self - Contestant",
+      "thumb": "/uhm8Ipw7wzp7eGBd5BJLF3bQDmj.jpg"
+    },
+    {
+      "name": "Mo Gilligan",
+      "order": 82,
+      "role": "Self - Contestant",
+      "thumb": "/i6heWKdRr6QJYO9VZ3ag2kFsE9H.jpg"
+    },
+    {
+      "name": "Michelle Wolf",
+      "order": 83,
+      "role": "Self - Contestant",
+      "thumb": "/awJKwkheRtjahSbH36hWd84BTHb.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "The Big Fat Anniversary Quiz",
-        "The Big Fat Quiz of the 80s",
-        "The Big Fat Quiz of the 90s",
-        "The Big Fat Quiz of the 00s",
-        "The Big Fat Quiz of the 80s (2)",
-        "The Big Fat Quiz of the 90s (2)",
-        "The Big Fat Anniversary Quiz - 10 Years",
-        "Big Fat Quiz of the Decade"
+        {
+          "aired": "2007-11-02",
+          "plot": "A special edition of the show, aired to celebrate the 25th anniversary of Channel 4. The host, Jimmy Carr, read out questions relating to Channel 4 to three teams of celebrities: Alan Carr & Jack Dee, Carol Vorderman & Frank Skinner, and Richard Ayoade & David Mitchell.\n\nVic Reeves and Joanna Fisher, who was a member of 1980s Channel 4 programme Minipops both came into the studio to ask bonus questions. Jon Snow, Quentin Tarantino, Anna Friel, Ram John Holder, Derren Brown, Jo Frost, Jools Holland and others appeared on pre-recorded filmed questions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/msKSKtPgmRDHGFbB4sD9KDZiXai.jpg",
+          "title": "The Big Fat Anniversary Quiz"
+        },
+        {
+          "aired": "2012-09-16",
+          "plot": "Jimmy presents a special edition of the Big Fat Quiz series, with an irreverent look back at the almost unrecognisable decade of the 1980s.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ziIl6KpelLfGlaJa25YDElvBXAO.jpg",
+          "title": "The Big Fat Quiz of the 80s"
+        },
+        {
+          "aired": "2012-09-23",
+          "plot": "Jimmy Carr hosts the second of three special editions of the Big Fat Quiz series, and if the 90s taught us anything it was how to delete our internet history! But why did we stop eating burgers? How did Magic Eye work? And who were Papa and Nicole?\n\nJoin Phill Jupitus, Jack Whitehall, Alan Davies, Claudia Winkleman and Denise Van Outen, with guest appearances by Wolf from Gladiators, Michael Buerk, Chesney Hawkes, and Vic Reeves and Bob Mortimer as they celebrate the 1990s.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/z8ub1yYzK6yGzBFWcX9YFcUgMI9.jpg",
+          "title": "The Big Fat Quiz of the 90s"
+        },
+        {
+          "aired": "2012-09-30",
+          "plot": "Jimmy Carr hosts the third and final of the special editions series. And as we fondly look back at this period we may well think, 'blimey, could we really not come up with a better name than the noughties'? Embarrassing, if anything.\n\nSo why did the US briefly rename French Fries? How did the Crazy Frog cause controversy? And what on earth was Touch the Truck? If you haven't got a clue about any of the above questions then it's probably time you were in bed!\n\nIf you do, then join guests Alan Carr, Kevin Bridges, David Mitchell, Sarah Millican, Richard Ayoade and Noel Fielding with special guest appearances from Duncan Bannatyne, Greg Wallace, McFly and Peter Andre as they give the noughties the Big Fat Quiz treatment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m5NrKO4dui2MBUvnFSmY5QlaONE.jpg",
+          "title": "The Big Fat Quiz of the 00s"
+        },
+        {
+          "aired": "2013-09-22",
+          "plot": "Jimmy Carr is joined by three teams of top celebrities for another fiendishly difficult pub quiz about news, music, telly and fashions of the 1980s.\n\nPlaying the quiz are David Mitchell, Phill Jupitus, Alan Carr, Sarah Greene, Jack Dee and Jason Donovan. And, as ever, Jimmy is helped by a host of famous question-setters, including Jim Bowen, Kim Wilde, Tony Robinson and Toyah Willcox.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ikfuK3vwUuEApaTMpl2NLiy4SKp.jpg",
+          "title": "The Big Fat Quiz of the 80s (2)"
+        },
+        {
+          "aired": "2013-09-29",
+          "plot": "The Big Fat Quiz is back with an all-new look back at the 1990s.\n\nHost Jimmy Carr is joined by Jonathan Ross, Jo Brand, Sue Perkins, Lee Mack, Bob Mortimer and Richard Ayoade to play the comedy quiz that goes retro, along with guest question-setters, including Hanson, Melinda Messenger, Andi Peters, Mr Motivator and Goldie.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4e3hIytDLu61MYbkFPvMcUoz0ED.jpg",
+          "title": "The Big Fat Quiz of the 90s (2)"
+        },
+        {
+          "aired": "2015-01-02",
+          "plot": "Test your knowledge as Jimmy Carr hosts this 10-year anniversary special with guests Russell Brand, Noel Fielding, Jonathan Ross, Jack Whitehall, Warwick Davis and Claudia Winkleman.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3kTGWtujRCuT0wCdKwTKm7t8455.jpg",
+          "title": "The Big Fat Anniversary Quiz - 10 Years"
+        },
+        {
+          "aired": "2020-01-02",
+          "plot": "Jimmy Carr presents this super-sized edition of the annual quiz, looking back over the past 10 years.\n\nClaudia Winkleman, Nish Kumar, Joe Lycett, Alan Carr, Stacey Solomon and Jonathan Ross battle it out to prove who can remember the most about the decade, with questions including why was lasagna big news in 2013? Who squeezed through a hole in the wall in 2015? And what are Pikachu's friends called? Big Fat regulars Jon Snow and Charles Dance help set the questions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pYQzD8rCDL77qQazAjFzkO7aq8r.jpg",
+          "title": "Big Fat Quiz of the Decade"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "The Big Fat Quiz of the Year 2004",
-        "The Big Fat Quiz of the Year 2005",
-        "The Big Fat Quiz of the Year 2006",
-        "The Big Fat Quiz of the Year 2007",
-        "The Big Fat Quiz of the Year 2008",
-        "The Big Fat Quiz of the Year 2009",
-        "The Big Fat Quiz of the Year 2010",
-        "The Big Fat Quiz of the Year 2011",
-        "The Big Fat Quiz of the Year 2012",
-        "The Big Fat Quiz of the Year 2013",
-        "The Big Fat Quiz of the Year 2014",
-        "Big Fat Quiz of the Year 2015",
-        "The Big Fat Quiz of the Year 2016",
-        "The Big Fat Quiz of the Year 2017",
-        "The Big Fat Quiz of the Year 2018",
-        "The Big Fat Quiz of the Year 2019"
+        {
+          "aired": "2004-12-27",
+          "plot": "The host, Jimmy Carr, read out questions relating to events of 2004 to three teams of celebrities: Simon Pegg & Liza Tarbuck, David Walliams & Rob Brydon, June Sarpong & Jonathan Ross.\n\nLouis Walsh, Nadia Almada and Kelly Holmes all made live appearances to read out the questions for the months of April, June, and August respectively. Recorded questions from Bono and The Bear from Bo' Selecta were shown too along with films of Richard and Judy discussing events.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rclk3EhT7L0u0RhHAD4EN28v5oY.jpg",
+          "title": "The Big Fat Quiz of the Year 2004"
+        },
+        {
+          "aired": "2005-12-26",
+          "plot": "The host, Jimmy Carr, read out questions relating to events of 2005 to three teams of celebrities: Sharon Osbourne & Jonathan Ross, Denise van Outen & David Mitchell, and Gordon Ramsay & Rob Brydon.\n\nGuest questioners in the studio included Jordan & Peter Andre and David Tennant and there were also recorded questions by several celebrities including Richard and Judy, Cameron Diaz, Toni Collette and Kevin Pietersen.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3qTQVn1d0qwZTV7IBnKIeUGCEBd.jpg",
+          "title": "The Big Fat Quiz of the Year 2005"
+        },
+        {
+          "aired": "2006-12-27",
+          "plot": "The host, Jimmy Carr, read out questions relating to events of 2006 to three teams of celebrities: Russell Brand & Noel Fielding, Rob Brydon & David Walliams, and Jonathan Ross & Cat Deeley.\n\nGuest questioners in the studio included Boy George, Myleene Klass and Matt Willis and Guy Goma (famous for incorrectly appearing as a guest on BBC News 24). Pre-recorded questions were asked by Sir Ian McKellen, Lily Allen, Carol Vorderman, Courtney Love, Girls Aloud, and Sacha Baron Cohen in his guise as Borat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yDDDrQBKtmmShZrTjROxkz0GzEX.jpg",
+          "title": "The Big Fat Quiz of the Year 2006"
+        },
+        {
+          "aired": "2007-12-30",
+          "plot": "The host, Jimmy Carr, read out questions relating to events of 2007 to three teams of celebrities: Russell Brand & Noel Fielding, Rob Brydon & David Mitchell, and Jonathan Ross & Lily Allen.\n\nGuest questioners in the studio were Christopher Biggins and Cerys Matthews. Pre-recorded questions were asked by Take That, Gordon Ramsay, Thom Yorke and Jon Snow. John Hurt read out extracts of the year's best selling autobiographies.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3UL5JNTlP0PhImoxIYWVKLi5KPm.jpg",
+          "title": "The Big Fat Quiz of the Year 2007"
+        },
+        {
+          "aired": "2008-12-28",
+          "plot": "The host, Jimmy Carr, read out questions relating to events of 2008 to three teams of celebrities: Dara Ó Briain & Davina McCall, Rob Sean Lock & James Corden, and Michael McIntyre & Claudia Winkleman.\n\nGuest appearances included Alan Carr, Katy Perry, the Fonejacker, Sarah Silverman, John Hurt and Sir Alan Sugar along with regulars Jon Snow and the children from Mitchell Brook Primary School, with another selection of topical school plays.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sgrZjC4NAsej1vGX7nBgiqNym5N.jpg",
+          "title": "The Big Fat Quiz of the Year 2008"
+        },
+        {
+          "aired": "2010-01-01",
+          "plot": "Why was Christian Bale so angry in January? What made NASA so happy in December? And which scandal prompted President Obama to call Kanye West a \"jackass\" in September?\n\nThe biggest, fattest and funniest quiz of the year returns with a stellar line-up including David Mitchell, Charlie Brooker, Claudia Winkleman, Rob Brydon, Russell Brand and Jonathan Ross.\n\nJimmy Carr does the quizzing, Peter Andre drops in for a surprise visit and as usual there's a glittering host of A-listers popping up to ask questions about the year's events.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7vTsdeOyNlfnokkcB2arLNuGp9j.jpg",
+          "title": "The Big Fat Quiz of the Year 2009"
+        },
+        {
+          "aired": "2011-01-03",
+          "plot": "Jimmy Carr puts a panel of celebrities including Jonathan Ross, Ruth Jones, Alan Carr, Noel Fielding, Michael McIntyre and Richard Ayoade to the test as they battle it out to see who remembers most about the events of 2010.\n\nCan you remember the name of instrument that was the scourge of the South African World Cup? Which unsuspecting character did Gordon Brown brand as 'ignorant' during the general election? What did 50-year-old spinster Mary Bale throw away to become Britain's most hated woman?\n\nIf you know the answer to all, some, or even none, of the above then join Jimmy as he challenges a host of famous faces to win the coveted Big Fat Quiz crown.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4ajivcWMwN8mttCxfxPOlaOdwMR.jpg",
+          "title": "The Big Fat Quiz of the Year 2010"
+        },
+        {
+          "aired": "2011-12-27",
+          "plot": "Jimmy Carr puts a panel of celebrities to the test including Miranda Hart, Eddie Izzard and Jamie Oliver alongside veteran quizzers Jonathan Ross, David Walliams and David Mitchell.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/58Y5RcknQnO1Mgl2CAj8qqii0RL.jpg",
+          "title": "The Big Fat Quiz of the Year 2011"
+        },
+        {
+          "aired": "2012-12-30",
+          "plot": "Jimmy Carr puts another panel of celebrities to the test as they battle it out to see who remembers most about 2012. What did Prince Harry get up to in Vegas? Why were we all talking about pasties and sausage rolls? And how did Usain Bolt celebrate his amazing 200m win at the Olympics?\n\nIf you know the answer to all, some or even none of the above, then join us as a host of big names, including Jonathan Ross, Russell Howard, Jack Whitehall and James Corden, vie for the coveted Big Fat Quiz crown.\n\nAs usual, Jimmy will be calling on some seriously A-list question-setters, with Seth Rogen, Jack Black, Ricky Gervais, Will Ferrell, Quentin Tarantino and Sacha Baron Cohen all turning up to lend a helping hand in previous years.\n\nPlay along at home or just sit back and let the celebs do all the hard work, but don't miss The Big Fat Quiz of the Year and Jimmy Carr's annoying laugh throughout the entire show which attracted numerous complaints to Channel 4.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3z11aOvGISXzKTA8M0k4eBTcxcn.jpg",
+          "title": "The Big Fat Quiz of the Year 2012"
+        },
+        {
+          "aired": "2013-12-26",
+          "plot": "Jimmy Carr puts a panel of A-List celebrity teams to the test.\n\nThis year's teams are Jack Whitehall with Jonathan Ross, Dara O Briain with Kristen Schaal, and Noel Fielding with Richard Ayoade.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o823aegWkUIkm2RTa8uDjlQ1TJY.jpg",
+          "title": "The Big Fat Quiz of the Year 2013"
+        },
+        {
+          "aired": "2014-12-26",
+          "plot": "Jimmy Carr tests the memories of celebrity contestants Richard Ayoade, David Mitchell, Mel B, Micky Flanagan, Sarah Millican and Kevin Bridges.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lYxwApkhXWn7YSUpArCWE7GcOYq.jpg",
+          "title": "The Big Fat Quiz of the Year 2014"
+        },
+        {
+          "aired": "2015-12-26",
+          "plot": "Jimmy Carr challenges Rob Brydon, Richard Ayoade, David Mitchell, Claudia Winkleman, Greg Davies and Jo Brand to battle for the coveted Big Fat Quiz crown, and an array of celebs join in the fun.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ve8ZaIB5kTWPBhgdeDLhOcxe3Gm.jpg",
+          "title": "The Big Fat Quiz of the Year 2015"
+        },
+        {
+          "aired": "2016-12-26",
+          "plot": "Quizmaster Jimmy Carr tests Richard Ayoade, Rob Delaney, Mel Giedroyc, Sarah Millican, David Mitchell and Romesh Ranganathan in weird and wonderful ways all about 2016.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/k0RU3F0DlueL5gamgUVBHjEMArf.jpg",
+          "title": "The Big Fat Quiz of the Year 2016"
+        },
+        {
+          "aired": "2017-12-26",
+          "plot": "Jimmy Carr tests Richard Ayoade, Noel Fielding, David Mitchell, Big Narstie, Katherine Ryan and Roisin Conaty to see how closely they've been paying attention to the last year.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4APnIQPqQhKhpJexV1J9uixC821.jpg",
+          "title": "The Big Fat Quiz of the Year 2017"
+        },
+        {
+          "aired": "2018-12-26",
+          "plot": "Jimmy Carr is joined by Richard Ayoade, Noel Fielding, Mo Gilligan, David Mitchell, Claudia Winkleman and Michelle Wolf to battle it out to see who can remember most about the past year.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bQCx3cNPAu4oRHbWogXCzz6uokx.jpg",
+          "title": "The Big Fat Quiz of the Year 2018"
+        },
+        {
+          "aired": "2019-12-26",
+          "plot": "Jimmy Carr hosts, as Dara O'Briain, Maya Jama, Asim Chaudhry, Roisin Conaty, Richard Ayoade and Noel Fielding compete to see who can remember the most about the last 12 months.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jLyK9GfbNdyJQxYirXMBw9xzp2V.jpg",
+          "title": "The Big Fat Quiz of the Year 2019"
+        },
+        {
+          "aired": "2020-12-26",
+          "plot": "Jimmy Carr quizzes James Acaster, Stacey Solomon, David Mitchell, Maya Jama, Richard Ayoade and Joe Lycett on the hot topics of the past 12 months, from Harry and Meghan to Kim and Kanye.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qiU8z8dBprjYCjqGhrMdDDX5nGr.jpg",
+          "title": "The Big Fat Quiz of the Year 2020"
+        }
       ]
     }
   },

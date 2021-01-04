@@ -1,40 +1,1644 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Sci-Fi & Fantasy",
+    "Action & Adventure",
+    "Comedy"
+  ],
   "id": 79501,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5cf4eececa9a9.jpg",
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5c72f9087d861.jpg",
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5c73003f364d7.jpg",
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5c73643d5ee99.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5ef104c0ab771.jpg",
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5ef1054077af6.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/355622/seasonthumb/doom-patrol-5ef0fdd85cdd1.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5ef0fa9848907.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5ef0faca02504.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c62a7c42fe3f.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed34098.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed2752f.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed3df33.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7de238cb009.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1dedc532.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1df04db1.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1deb75db.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5ef0f92ce1da9.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5ef0ff68f056d.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c7100591685b.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c710066c3e53.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c710af830dac.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c71003f448ea.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5cb78e827e7a6.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5cb78f1789077.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5ef104a83c4c2.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5ef0f8e235b8b.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72a055386b8.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5d2f935805403.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5e4681aa79a7a.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72d921f1b3f.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c623d01b7700.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c70ffcdd83e7.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c71000ae8298.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72d45ee217c.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c7090b31ea0d.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a18353.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a23ea7.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c624212e652c.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5ef0fdb9d4776.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a1023e.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5ebd1a9396cdb.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/rqHL4HsLCix9H6vhCwAuSOge0NS.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/drlfSCIlMKrEeMPhi8pqY4xGxj.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Doom Patrol",
+  "plot": "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.",
+  "premiered": "2019-02-15",
+  "status": "Returning Series",
+  "studios": [
+    "DC Universe",
+    "HBO Max"
+  ],
+  "actors": [
+    {
+      "name": "Diane Guerrero",
+      "order": 0,
+      "role": "Crazy Jane",
+      "thumb": "/c6RNRB1GT2bAZVoGY3WsMbwOPnR.jpg"
+    },
+    {
+      "name": "April Bowlby",
+      "order": 1,
+      "role": "Rita Farr / Elasti-Woman",
+      "thumb": "/c5Yk2tqApmbmKXHoPbYQauXssED.jpg"
+    },
+    {
+      "name": "Joivan Wade",
+      "order": 2,
+      "role": "Victor Stone / Cyborg",
+      "thumb": "/7tPro9hPR54m3zbLIfypsDDUDCI.jpg"
+    },
+    {
+      "name": "Matt Bomer",
+      "order": 3,
+      "role": "Larry Trainor / Negative Man (voice)",
+      "thumb": "/jvYzsP08M9H76eHu0k1ALdmNnoM.jpg"
+    },
+    {
+      "name": "Brendan Fraser",
+      "order": 4,
+      "role": "Cliff Steele / Robotman (voice)",
+      "thumb": "/tFj5PaWWQbb8rHBBhu1EHklznph.jpg"
+    },
+    {
+      "name": "Timothy Dalton",
+      "order": 5,
+      "role": "Dr. Niles Caulder / The Chief",
+      "thumb": "/iF4C63jae3N33pCQmCXEJHKTN0t.jpg"
+    },
+    {
+      "name": "Riley Shanahan",
+      "order": 6,
+      "role": "Cliff Steele / Robotman",
+      "thumb": "/h0OKM3m39647nwwh9Hr2hXsRg8m.jpg"
+    },
+    {
+      "name": "Matthew Zuk",
+      "order": 7,
+      "role": "Larry Trainor / Negative Man",
+      "thumb": "/jifQz74EU8qsigSgNZR2u2SDhek.jpg"
+    },
+    {
+      "name": "Alan Tudyk",
+      "order": 6,
+      "role": "Mr. Nobody",
+      "thumb": "/91LuROVPKcEJvT0FwSOZZj62bZ8.jpg"
+    },
+    {
+      "name": "Phil Morris",
+      "order": 226,
+      "role": "Doctor Cowboy",
+      "thumb": "/iZADKc1QdCFpTvu0KnU3BZBwtrE.jpg"
+    },
+    {
+      "name": "Jackie Goldston",
+      "order": 225,
+      "role": "The Secretary",
+      "thumb": null
+    },
+    {
+      "name": "Abigail Shapiro",
+      "order": 224,
+      "role": "Dorothy Spinner",
+      "thumb": "/5op5x79x4vjiYcNno7tUZzQwFyO.jpg"
+    },
+    {
+      "name": "Hannah Alline",
+      "order": 225,
+      "role": "Pretty Polly",
+      "thumb": "/zybkaP37WoL2XfyYHcZNErTQOCv.jpg"
+    },
+    {
+      "name": "Stephanie Czajkowski",
+      "order": 224,
+      "role": "Hammerhead",
+      "thumb": "/yRGMT0AW7ukUDjj5U6ldVdIlPyZ.jpg"
+    },
+    {
+      "name": "Skye Roberts",
+      "order": 226,
+      "role": "Kay Challis",
+      "thumb": "/7sSiLdxA4berqw9n8RxthlqAGwA.jpg"
+    },
+    {
+      "name": "Lex Lang",
+      "order": 226,
+      "role": "Candlemaker (voice)",
+      "thumb": "/hrgjiwtrnI6meAg2Q1eTGpyTrDX.jpg"
+    },
+    {
+      "name": "Julie McNiven",
+      "order": 158,
+      "role": "Sheryl Trainor",
+      "thumb": "/i4rZ5i9S9emYFqsJrAtT0n1WYXo.jpg"
+    },
+    {
+      "name": "Karen Obilom",
+      "order": 216,
+      "role": "Roni Evers",
+      "thumb": "/zXxTzktLPpV5rD4qGnzImuYydlN.jpg"
+    },
+    {
+      "name": "Bethany Anne Lind",
+      "order": 216,
+      "role": "Clara Steele",
+      "thumb": "/d0FjeKbWYhbTzFSimCnC9K1Maza.jpg"
+    },
+    {
+      "name": "Mark Sheppard",
+      "order": 223,
+      "role": "Willoughby Kipling",
+      "thumb": "/aTlqvlKgfyUAZT48AvEytqkMBC6.jpg"
+    },
+    {
+      "name": "Shay Mack",
+      "order": 225,
+      "role": "Driller Bill",
+      "thumb": null
+    },
+    {
+      "name": "Kyle Clements",
+      "order": 126,
+      "role": "John Bowers",
+      "thumb": "/dTDuIJsl3cXcDGAmDZBVL06347w.jpg"
+    },
+    {
+      "name": "Sarah Borne",
+      "order": 216,
+      "role": "Baby Doll",
+      "thumb": "/1fzlUQgVnCwf9ms6fDWeskWJA57.jpg"
+    },
+    {
+      "name": "Dave MacDonald",
+      "order": 225,
+      "role": "Daddy",
+      "thumb": "/xqLpO30JWCyKkCQfuIBxIVSslpp.jpg"
+    },
+    {
+      "name": "Ethan McDowell",
+      "order": 122,
+      "role": "Forsythe",
+      "thumb": "/oSl1Ek1T8Xr8PJIryDf2YGDcvFD.jpg"
+    },
+    {
+      "name": "Jon Briddell",
+      "order": 144,
+      "role": "Darren Jones",
+      "thumb": "/dKNwlzYbpu7HbCBwWo5HAMyAzEA.jpg"
+    },
+    {
+      "name": "Sydney Kowalske",
+      "order": 186,
+      "role": "Young Clara",
+      "thumb": "/fvRKlMRoSxZ1Gy1WNOajcAj5PXU.jpg"
+    },
+    {
+      "name": "Devan Long",
+      "order": 187,
+      "role": "Flex Mentallo",
+      "thumb": "/usANPLcAHaxIWg7h3c4av2OHdlY.jpg"
+    },
+    {
+      "name": "Tommy Snider",
+      "order": 201,
+      "role": "Ernest Franklin / The Beard Hunter",
+      "thumb": "/cN8SBWVx8NGTlAYFkusR2MzBW1m.jpg"
+    },
+    {
+      "name": "Brian T. Stevenson",
+      "order": 226,
+      "role": "Herschel (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Alan Heckner",
+      "order": 90,
+      "role": "Bump Weathers",
+      "thumb": null
+    },
+    {
+      "name": "Alec Mapa",
+      "order": 143,
+      "role": "Steve Larson / Animal-Vegetable-Mineral Man",
+      "thumb": "/jPBbVgCmVTMzEPwFiLdWr3VTWST.jpg"
+    },
+    {
+      "name": "Greyson Chadwick",
+      "order": 146,
+      "role": "Rita's Mom",
+      "thumb": "/mnNEcX4Ijm0XfWeO5F6zA8q4Kjx.jpg"
+    },
+    {
+      "name": "Charmin Lee",
+      "order": 155,
+      "role": "Elinore Stone",
+      "thumb": null
+    },
+    {
+      "name": "Curtis Armstrong",
+      "order": 181,
+      "role": "Ezekiel the Cockroach (voice)",
+      "thumb": "/psCxFYdotzPkLEVxSfLReQ6jql6.jpg"
+    },
+    {
+      "name": "Vanessa Cater",
+      "order": 182,
+      "role": "Darling Come Home",
+      "thumb": "/ybri5mdJeBFIPQQ5ZLiTQGloGyX.jpg"
+    },
+    {
+      "name": "Irene Ziegler",
+      "order": 201,
+      "role": "Mickey Harris",
+      "thumb": "/3elvOYjL0XzIy6ZS9IN5a1XReFz.jpg"
+    },
+    {
+      "name": "Leela Owen",
+      "order": 202,
+      "role": "Young Miranda",
+      "thumb": null
+    },
+    {
+      "name": "Samantha Marie Ware",
+      "order": 223,
+      "role": "Miranda",
+      "thumb": "/phamDrECZF6iOBPmIn4x7EIXCMq.jpg"
+    },
+    {
+      "name": "Pisay Pao",
+      "order": 224,
+      "role": "Slava",
+      "thumb": "/ffVYNKs1jAA4B4eK7bK21howoZU.jpg"
+    },
+    {
+      "name": "Julian Richings",
+      "order": 36,
+      "role": "Heinrich Von Fuchs",
+      "thumb": "/ia2Xo99pxLX3sxZ0jVcj7eai56l.jpg"
+    },
+    {
+      "name": "Michael Scialabba",
+      "order": 59,
+      "role": "Todd / Father Archon",
+      "thumb": null
+    },
+    {
+      "name": "Lilli Birdsell",
+      "order": 68,
+      "role": "Mother Archon",
+      "thumb": "/u9c5Xq8uKVRmuIJ2eWsnC2B08Uu.jpg"
+    },
+    {
+      "name": "Ted Sutherland",
+      "order": 68,
+      "role": "Elliot Patterson",
+      "thumb": "/qZf9pxIFC60S2b8IGAHCRtTA4ZO.jpg"
+    },
+    {
+      "name": "Orelon Sidney",
+      "order": 70,
+      "role": "News Reporter",
+      "thumb": "/oDeNwr3C3V4qrrZas9hjuzNlmvm.jpg"
+    },
+    {
+      "name": "Chantelle Barry",
+      "order": 77,
+      "role": "Baphomet (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Todd Allen Durkin",
+      "order": 83,
+      "role": "First Assistant Director",
+      "thumb": "/xFlN4fhMnOp17nniC9f58PVHY1O.jpg"
+    },
+    {
+      "name": "Melissa Kennemore",
+      "order": 104,
+      "role": "Punk Rock Chic (uncredited)",
+      "thumb": "/vrbuLZNVLKxnGYRZd02y6OvGMbA.jpg"
+    },
+    {
+      "name": "Gary Peebles",
+      "order": 112,
+      "role": "African Warrior",
+      "thumb": "/mSjrV4nWtAWxmFG61zJIsHtbMld.jpg"
+    },
+    {
+      "name": "Tyler Buckingham",
+      "order": 119,
+      "role": "Frank",
+      "thumb": null
+    },
+    {
+      "name": "Mac Wells",
+      "order": 135,
+      "role": "Agent Dirk Ellis",
+      "thumb": "/br9rk3zemRudXWw31YXFVvZiOGU.jpg"
+    },
+    {
+      "name": "Susan Williams",
+      "order": 145,
+      "role": "Dolores",
+      "thumb": null
+    },
+    {
+      "name": "Cynthia Barrett",
+      "order": 147,
+      "role": "Gwen",
+      "thumb": null
+    },
+    {
+      "name": "Jonathan Baron",
+      "order": 152,
+      "role": "Dr. Heart",
+      "thumb": "/yTRWHqggA1A2lnfpb2YF5YC4pNg.jpg"
+    },
+    {
+      "name": "Ashley Dougherty",
+      "order": 153,
+      "role": "Giselle",
+      "thumb": null
+    },
+    {
+      "name": "Swift Rice",
+      "order": 154,
+      "role": "Ferdinand",
+      "thumb": "/uaUNKMxbDh5U6HBb8QWF7QNLbDZ.jpg"
+    },
+    {
+      "name": "Alimi Ballard",
+      "order": 155,
+      "role": "Joshua Clay",
+      "thumb": "/njuPTyVWPTevFnPeQ8Oaf55erYQ.jpg"
+    },
+    {
+      "name": "Anna Lore",
+      "order": 155,
+      "role": "Penny Farthing",
+      "thumb": null
+    },
+    {
+      "name": "Katie Gunderson",
+      "order": 159,
+      "role": "Kate Steele",
+      "thumb": null
+    },
+    {
+      "name": "Mark Ashworth",
+      "order": 159,
+      "role": "Ringmaster",
+      "thumb": "/nfhUTghFe0izP9NguZsDVqmVgEk.jpg"
+    },
+    {
+      "name": "Eleonore Dendy",
+      "order": 172,
+      "role": "Rosie",
+      "thumb": null
+    },
+    {
+      "name": "Sammy Al Moukadem",
+      "order": 173,
+      "role": "Smalls",
+      "thumb": null
+    },
+    {
+      "name": "David Goodwin",
+      "order": 177,
+      "role": "Tall Man",
+      "thumb": null
+    },
+    {
+      "name": "Tomi Lavinder",
+      "order": 180,
+      "role": "Heckler #2",
+      "thumb": "/iq6O3JT5Bmsqyyu2LLx1KqAE9qM.jpg"
+    },
+    {
+      "name": "Mike Kaye",
+      "order": 180,
+      "role": "Heckler #1",
+      "thumb": null
+    },
+    {
+      "name": "Kathryn Cressida",
+      "order": 182,
+      "role": "Darling Come Home (voice)",
+      "thumb": "/mjDMZHcql1s2fnh6JLh3gfYh3cZ.jpg"
+    },
+    {
+      "name": "Adam James Breazeale",
+      "order": 182,
+      "role": "Teenager #1",
+      "thumb": null
+    },
+    {
+      "name": "David Shae",
+      "order": 182,
+      "role": "Dex Trainor",
+      "thumb": "/tBfDhXA1KlmdgVtuAgKX6C8QJWz.jpg"
+    },
+    {
+      "name": "Alan Mingo Jr.",
+      "order": 187,
+      "role": "Morris Wilson / Maura Lee Karupt",
+      "thumb": null
+    },
+    {
+      "name": "Lana Jean Turner",
+      "order": 189,
+      "role": "Young Rita",
+      "thumb": null
+    },
+    {
+      "name": "John Getz",
+      "order": 193,
+      "role": "Paul Trainor",
+      "thumb": "/9Ikx6ZzScbmDi2SNyaa0db4MMqL.jpg"
+    },
+    {
+      "name": "Tara Lee",
+      "order": 196,
+      "role": "Lucy Fugue",
+      "thumb": "/wbT8mAO2AKwf5DeXdoTQO1IRvZg.jpg"
+    },
+    {
+      "name": "Chelsea Rivera",
+      "order": 208,
+      "role": "Silver Tongue",
+      "thumb": null
+    },
+    {
+      "name": "Monique Yvette Grant",
+      "order": 11,
+      "role": "Waitress",
+      "thumb": "/dshzvbNrCYW82sjefJp1SYyqfF6.jpg"
+    },
+    {
+      "name": "Peter Leake",
+      "order": 14,
+      "role": "Director",
+      "thumb": null
+    },
+    {
+      "name": "Daniel Baldock",
+      "order": 15,
+      "role": "Bartender",
+      "thumb": null
+    },
+    {
+      "name": "Quinten Johnson",
+      "order": 16,
+      "role": "Cop",
+      "thumb": null
+    },
+    {
+      "name": "James J. Fuertes",
+      "order": 18,
+      "role": "TV Tom",
+      "thumb": null
+    },
+    {
+      "name": "Jwaundace Candece",
+      "order": 19,
+      "role": "School Bus Driver",
+      "thumb": null
+    },
+    {
+      "name": "Thomas Williams",
+      "order": 22,
+      "role": "School Bus Kid #3",
+      "thumb": null
+    },
+    {
+      "name": "Vailana Antonucci",
+      "order": 23,
+      "role": "School Bus Kid #4",
+      "thumb": null
+    },
+    {
+      "name": "Brian Patrick Murphy",
+      "order": 24,
+      "role": "Edward",
+      "thumb": null
+    },
+    {
+      "name": "Amanda Martins",
+      "order": 25,
+      "role": "Wardrobe Gal",
+      "thumb": "/o9WE0xpzQDjtmA5IHgETZ1KFSA0.jpg"
+    },
+    {
+      "name": "Durrell Lyon",
+      "order": 26,
+      "role": "Focus Puller",
+      "thumb": null
+    },
+    {
+      "name": "Justin James Boykin",
+      "order": 27,
+      "role": "Bus Boy",
+      "thumb": "/uKduJ7UggxShJSu9nsIxd4gxbC8.jpg"
+    },
+    {
+      "name": "Gabrielle Byndloss",
+      "order": 29,
+      "role": "Patty",
+      "thumb": "/zU1ssBNbl40Qa6P9Dn7X3S28zD8.jpg"
+    },
+    {
+      "name": "Drew Starkey",
+      "order": 30,
+      "role": "Tim",
+      "thumb": "/zh1WAlju5bn0K8fUiKutnzRFv95.jpg"
+    },
+    {
+      "name": "Karen Wheeling Reynolds",
+      "order": 31,
+      "role": "Bus Station Cashier",
+      "thumb": "/lj2YaVUehg351k3ghkflQPBP9O2.jpg"
+    },
+    {
+      "name": "Ricque  Hardin",
+      "order": 32,
+      "role": "Kind Woman",
+      "thumb": null
+    },
+    {
+      "name": "Sofia Salas",
+      "order": 33,
+      "role": "Cute Kid",
+      "thumb": null
+    },
+    {
+      "name": "Andrea Andrade",
+      "order": 34,
+      "role": "Hair Stylist",
+      "thumb": "/dfupMHDZAt1JuZXMDyBbPHFTObX.jpg"
+    },
+    {
+      "name": "Amber Neukum",
+      "order": 35,
+      "role": "Makeup Artist",
+      "thumb": null
+    },
+    {
+      "name": "Pierce Lackey",
+      "order": 36,
+      "role": "Director",
+      "thumb": null
+    },
+    {
+      "name": "Emily Dunlop",
+      "order": 40,
+      "role": "Greta",
+      "thumb": "/ec0zKDAD8ypUwHIRueBwL3EwdpV.jpg"
+    },
+    {
+      "name": "Lauren Revard",
+      "order": 41,
+      "role": "Franka",
+      "thumb": null
+    },
+    {
+      "name": "Rachel Appelbaum",
+      "order": 46,
+      "role": "Puppeteer",
+      "thumb": "/rCUCKOCzFh3V1Sib12Xw6m11JhM.jpg"
+    },
+    {
+      "name": "Cedwan Hook",
+      "order": 48,
+      "role": "Puppeteer",
+      "thumb": null
+    },
+    {
+      "name": "Russ Vick",
+      "order": 49,
+      "role": "Puppeteer",
+      "thumb": null
+    },
+    {
+      "name": "Thom Williams",
+      "order": 50,
+      "role": "Angry Townie (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Beau Hart",
+      "order": 50,
+      "role": "Elliot Patterson (7 years old)",
+      "thumb": null
+    },
+    {
+      "name": "Marco Schittone",
+      "order": 51,
+      "role": "Elliot Patterson (12 years old)",
+      "thumb": "/mVSA1YjdcBNgEzi9vMYWRJjhar3.jpg"
+    },
+    {
+      "name": "Seth Michaels",
+      "order": 52,
+      "role": "Father Cuervo",
+      "thumb": null
+    },
+    {
+      "name": "Yeselie Denise",
+      "order": 53,
+      "role": "Young Mother",
+      "thumb": null
+    },
+    {
+      "name": "Brandon Perea",
+      "order": 60,
+      "role": "Dr. Jonathan Tyme",
+      "thumb": "/c4wPQ4WuO0Em3Z8LL4VWFpMyfAW.jpg"
+    },
+    {
+      "name": "Jim Dougherty",
+      "order": 64,
+      "role": "Doctor",
+      "thumb": "/3cqNn259X7z26FjWFqM0a7oZ5e.jpg"
+    },
+    {
+      "name": "Roger Floyd",
+      "order": 65,
+      "role": "Red Jack",
+      "thumb": null
+    },
+    {
+      "name": "Jason Kirkpatrick",
+      "order": 65,
+      "role": "Ring-Ding",
+      "thumb": "/vketB9Udug89v6aEV9fV40BhU5v.jpg"
+    },
+    {
+      "name": "Trevor Goble",
+      "order": 66,
+      "role": "Fuchtopian #1",
+      "thumb": null
+    },
+    {
+      "name": "James Tabeek",
+      "order": 67,
+      "role": "Fuchtopian #2",
+      "thumb": null
+    },
+    {
+      "name": "Jeanette O'Connor",
+      "order": 68,
+      "role": "Older Marilyn",
+      "thumb": "/1pOfw4NbSM8EgN5MF4Wydnb6GiB.jpg"
+    },
+    {
+      "name": "Alex Nedvidek",
+      "order": 68,
+      "role": "Fuchtopian #3",
+      "thumb": null
+    },
+    {
+      "name": "Gleb Kaminer",
+      "order": 69,
+      "role": "Fuchtopian Bellows Operator",
+      "thumb": null
+    },
+    {
+      "name": "Ezra Buzzington",
+      "order": 69,
+      "role": "Dr. Bertrand",
+      "thumb": "/j3kJRKgQdHAMXvJUtPHXJsGGW5X.jpg"
+    },
+    {
+      "name": "Cate Jones",
+      "order": 73,
+      "role": "Young Marilyn",
+      "thumb": "/ys2n4ZuMemPwFVXv6WPly3tVGDm.jpg"
+    },
+    {
+      "name": "Thiree Pinnock",
+      "order": 74,
+      "role": "Cheesesteak",
+      "thumb": null
+    },
+    {
+      "name": "Guilherme Apollonio",
+      "order": 75,
+      "role": "Billy",
+      "thumb": null
+    },
+    {
+      "name": "Lauren Richards",
+      "order": 76,
+      "role": "Nina",
+      "thumb": "/byOHRkJOzVao18ZugZyB6jZmkTo.jpg"
+    },
+    {
+      "name": "Casey Hendershot",
+      "order": 77,
+      "role": "Skinhead #1",
+      "thumb": "/otE8MRI67DrDCkTFQpPhteNSKb.jpg"
+    },
+    {
+      "name": "Josh Diogo",
+      "order": 78,
+      "role": "Skinhead #2",
+      "thumb": "/xarE1HBD2dsK3hwUSGW4W2Vom1m.jpg"
+    },
+    {
+      "name": "Will Kemp",
+      "order": 80,
+      "role": "Steve Dayton / Mento",
+      "thumb": "/x1pO6ca7UpkzuLj68Z7a1LPpuFO.jpg"
+    },
+    {
+      "name": "Jasmine Kaur",
+      "order": 81,
+      "role": "Arani Desai / Celsius",
+      "thumb": "/6vnzRgBWfMYnqmOZwWfc4A9orFp.jpg"
+    },
+    {
+      "name": "Madhur Jaffrey",
+      "order": 82,
+      "role": "Old Arani",
+      "thumb": null
+    },
+    {
+      "name": "Dennis Cockrum",
+      "order": 83,
+      "role": "Sydney Bloom",
+      "thumb": "/A3Or26SK7GFf9nv9OVd2X5DpLuO.jpg"
+    },
+    {
+      "name": "Lucia Scarano",
+      "order": 85,
+      "role": "Secretary",
+      "thumb": null
+    },
+    {
+      "name": "Lesa Wilson",
+      "order": 86,
+      "role": "Rhea",
+      "thumb": "/lh8aKdPGaDAZehc5GQiNE9mbZKU.jpg"
+    },
+    {
+      "name": "Elizabeth Mears",
+      "order": 87,
+      "role": "Marybeth",
+      "thumb": "/5YxHSO2HWyDRoTnhbP3V76jzWOT.jpg"
+    },
+    {
+      "name": "Bryan McClure",
+      "order": 91,
+      "role": "Frankie",
+      "thumb": "/rb9jyLqs94yPRpVvhhiJrQXppA4.jpg"
+    },
+    {
+      "name": "Mike Lutz",
+      "order": 92,
+      "role": "Vance",
+      "thumb": "/bgFYBFips9NX3gyZqAUksv3b4jM.jpg"
+    },
+    {
+      "name": "Candi Brooks",
+      "order": 93,
+      "role": "Ethel Singer",
+      "thumb": "/z3Gg3PBAJx7S55le64rPKrHxInB.jpg"
+    },
+    {
+      "name": "Braxton Alexander",
+      "order": 94,
+      "role": "Young Larry",
+      "thumb": "/2WRzBpzlHeyjiv0HJD1F0vFpcnH.jpg"
+    },
+    {
+      "name": "JoAnn Willette",
+      "order": 95,
+      "role": "Debbie Trainor",
+      "thumb": "/aAnFHrzAM9vR5jOxDZshrnfhomF.jpg"
+    },
+    {
+      "name": "A. Smith Harrison",
+      "order": 96,
+      "role": "Gerald Trainor",
+      "thumb": "/z6DJ4TfWQBvLUfUz1Z5oIHrBP8N.jpg"
+    },
+    {
+      "name": "Jay DeVon Johnson",
+      "order": 97,
+      "role": "Dr. Jones",
+      "thumb": "/k21WcVCo5TAhKPEAMXSO5g9HC21.jpg"
+    },
+    {
+      "name": "Sailor Larocque",
+      "order": 98,
+      "role": "Mel",
+      "thumb": "/s56oKnVQ7ssrAof1SfVqBIrXM6r.jpg"
+    },
+    {
+      "name": "Matthew Blumm",
+      "order": 99,
+      "role": "Cliff's Dad",
+      "thumb": "/bfhzOs0pDxTZrI5rdMOnFFkeb6D.jpg"
+    },
+    {
+      "name": "Brent Bailey",
+      "order": 101,
+      "role": "Doug",
+      "thumb": "/d73byeAoZC6EEjLuyv87KLhJZcB.jpg"
+    },
+    {
+      "name": "Nasim Bowlus",
+      "order": 104,
+      "role": "Woman",
+      "thumb": "/AhPphSUt9hjcPogyHGPA81RKxt7.jpg"
+    },
+    {
+      "name": "Edward Michael Scott",
+      "order": 105,
+      "role": "Government Agent",
+      "thumb": null
+    },
+    {
+      "name": "Judy Kain",
+      "order": 106,
+      "role": "Geri",
+      "thumb": "/jilKv0EF7pzapvIyJGxxr9qDNK4.jpg"
+    },
+    {
+      "name": "Tyner Rushing",
+      "order": 107,
+      "role": "Michaela",
+      "thumb": "/ieovRA9s1yhMi4rkKpInCbUajUd.jpg"
+    },
+    {
+      "name": "Lindsay Ayliffe",
+      "order": 108,
+      "role": "Joe",
+      "thumb": "/120TWsaDHqHbUty8HCgEMSW7Yl3.jpg"
+    },
+    {
+      "name": "Robert Larriviere",
+      "order": 109,
+      "role": "Bouncer",
+      "thumb": "/9tJzMqhjDOHr3w6nSh4SFOudh4O.jpg"
+    },
+    {
+      "name": "Talbott Lin",
+      "order": 110,
+      "role": "Cocktail Waitress",
+      "thumb": "/8X3EOpdaFxIsUNPoEClCs7Np5X8.jpg"
+    },
+    {
+      "name": "Choppy Guillotte",
+      "order": 111,
+      "role": "Asa Diamonds",
+      "thumb": null
+    },
+    {
+      "name": "Monica Louwerens",
+      "order": 117,
+      "role": "Three Sisters",
+      "thumb": null
+    },
+    {
+      "name": "Helen Abell",
+      "order": 118,
+      "role": "Black Annis",
+      "thumb": "/mNy6ibVs7yHk4mwsL3daHL3nRL8.jpg"
+    },
+    {
+      "name": "Max Martini",
+      "order": 119,
+      "role": "Alistair",
+      "thumb": "/gAnzTiy0rQ0CGLXXOreJJQZK03O.jpg"
+    },
+    {
+      "name": "April Billingsley",
+      "order": 122,
+      "role": "Checkout Lady",
+      "thumb": "/l1mjOVk43USZ3pBrLtUX0WWEFAQ.jpg"
+    },
+    {
+      "name": "Joan Van Ark",
+      "order": 123,
+      "role": "Mrs. Franklin",
+      "thumb": "/kaFX2j8kclLUYHkNBoBIJySTMqT.jpg"
+    },
+    {
+      "name": "Tom Fitzpatrick",
+      "order": 124,
+      "role": "Elder John Bowers",
+      "thumb": null
+    },
+    {
+      "name": "Gary Basaraba",
+      "order": 125,
+      "role": "Big D",
+      "thumb": "/dH6zocqD5heDerhCANUtfy00gHm.jpg"
+    },
+    {
+      "name": "Cj Sykes",
+      "order": 126,
+      "role": "Flirty Man",
+      "thumb": null
+    },
+    {
+      "name": "Chris Mayers",
+      "order": 127,
+      "role": "Guy #1",
+      "thumb": null
+    },
+    {
+      "name": "David Abed",
+      "order": 128,
+      "role": "Guy #2",
+      "thumb": null
+    },
+    {
+      "name": "Marc Farley",
+      "order": 129,
+      "role": "Salty #1",
+      "thumb": "/ybk9ymGDogzoPPfSgHrejtTXXmR.jpg"
+    },
+    {
+      "name": "J. Thomas Bailey",
+      "order": 130,
+      "role": "Salty #2",
+      "thumb": null
+    },
+    {
+      "name": "Chelsea Bruland",
+      "order": 132,
+      "role": "Small Woman",
+      "thumb": null
+    },
+    {
+      "name": "Ritchie Crownfield",
+      "order": 135,
+      "role": "General Wampus",
+      "thumb": null
+    },
+    {
+      "name": "Keith Flippen",
+      "order": 136,
+      "role": "GS-9 Patterson",
+      "thumb": "/cs9aNyWHNRYlnizulq0oST4EUJO.jpg"
+    },
+    {
+      "name": "Darla Delgado",
+      "order": 137,
+      "role": "Major Arbuckle",
+      "thumb": "/5BZyQGMxVQ0DIwjsZuvB6YWCQdh.jpg"
+    },
+    {
+      "name": "Benjamin Davis",
+      "order": 138,
+      "role": "Lab Tech #1",
+      "thumb": null
+    },
+    {
+      "name": "Ted Ferguson",
+      "order": 139,
+      "role": "Old Forsythe",
+      "thumb": "/9dCoanLJ5Xr9sM6fo9P58aUz6oa.jpg"
+    },
+    {
+      "name": "Kate Adair",
+      "order": 140,
+      "role": "Jeanette",
+      "thumb": "/vfiNI5MZxGLd3SKMLgt94OWqyIb.jpg"
+    },
+    {
+      "name": "Haley Strode",
+      "order": 143,
+      "role": "Young Dolores Mentallo",
+      "thumb": "/bHs94LJAilFDhez4gQzVkiLf2aq.jpg"
+    },
+    {
+      "name": "Edward Asner",
+      "order": 144,
+      "role": "Hospital Patient",
+      "thumb": "/i9Akq9tqNwgcAc63QaSaiTYZtUB.jpg"
+    },
+    {
+      "name": "Boston Pierce",
+      "order": 145,
+      "role": "Young Boy",
+      "thumb": null
+    },
+    {
+      "name": "Nicolette Noble",
+      "order": 146,
+      "role": "Mommy",
+      "thumb": null
+    },
+    {
+      "name": "Brandon Morris",
+      "order": 147,
+      "role": "Chief Kinkaid",
+      "thumb": "/eRQkcibCXrTeTxU6d2cvhW7BXSl.jpg"
+    },
+    {
+      "name": "Yvonne Angulo",
+      "order": 148,
+      "role": "Dr. Talia Winslow",
+      "thumb": "/uYP3LMPbRpoQ76kw8ZVt6DtZYs6.jpg"
+    },
+    {
+      "name": "Giavani Cairo",
+      "order": 149,
+      "role": "Lab Tech",
+      "thumb": null
+    },
+    {
+      "name": "Greg Sproles",
+      "order": 150,
+      "role": "Agent on TV",
+      "thumb": "/6rDyGkHkhmOedbhBeVo5zZCYEoL.jpg"
+    },
+    {
+      "name": "Portia Cue",
+      "order": 151,
+      "role": "Soap Opera Mom",
+      "thumb": null
+    },
+    {
+      "name": "Victoria Blade",
+      "order": 152,
+      "role": "Millie",
+      "thumb": "/m0r3iCd2ClWDjYMzAZDaUJe1Oop.jpg"
+    },
+    {
+      "name": "Andrew Nicolas Starr",
+      "order": 156,
+      "role": "Jagger",
+      "thumb": null
+    },
+    {
+      "name": "Leon Lamar",
+      "order": 157,
+      "role": "Mr. Arnold",
+      "thumb": null
+    },
+    {
+      "name": "Michael Harney",
+      "order": 158,
+      "role": "RJ Steele",
+      "thumb": "/j64sglNnGc5fAHPEkJ1TmKOITQP.jpg"
+    },
+    {
+      "name": "Zele Avradopoulos",
+      "order": 160,
+      "role": "Bearded Lady",
+      "thumb": "/kLNxsFxEtVU5xC1GHhmmIizQ1jT.jpg"
+    },
+    {
+      "name": "John Schmedes",
+      "order": 162,
+      "role": "Gary Trainor",
+      "thumb": "/9K9SekfYQZYNGhTYQqzZ9nyRO0m.jpg"
+    },
+    {
+      "name": "Roberta Setzu",
+      "order": 165,
+      "role": "Elena Challis",
+      "thumb": null
+    },
+    {
+      "name": "Roxzane T. Mims",
+      "order": 166,
+      "role": "Facilitator",
+      "thumb": "/iPtTY8hpCm5FLcMFi062HHj59OO.jpg"
+    },
+    {
+      "name": "Tom Key",
+      "order": 167,
+      "role": "Preacher",
+      "thumb": null
+    },
+    {
+      "name": "Quinn Bozza",
+      "order": 168,
+      "role": "DJ",
+      "thumb": null
+    },
+    {
+      "name": "Patrick Chundah Chu",
+      "order": 169,
+      "role": "Samurai",
+      "thumb": null
+    },
+    {
+      "name": "Dan Martin",
+      "order": 178,
+      "role": "Dr. Tyme (voice)",
+      "thumb": "/brRz4upQrDPULNuoBUG6LFVK6NO.jpg"
+    },
+    {
+      "name": "Catherine Carlen",
+      "order": 181,
+      "role": "Dr. Harrison",
+      "thumb": "/1DYAATDaUZkqrnlCdEeLy4GhoUG.jpg"
+    },
+    {
+      "name": "Craig Trow",
+      "order": 182,
+      "role": "Bobby",
+      "thumb": null
+    },
+    {
+      "name": "Faith Dillon",
+      "order": 184,
+      "role": "Cop #1",
+      "thumb": "/ycEPh2zF9j3jbX66YTQW6Fj10Tk.jpg"
+    },
+    {
+      "name": "Michael Tourek",
+      "order": 184,
+      "role": "Kiss",
+      "thumb": null
+    },
+    {
+      "name": "Anna Borchert",
+      "order": 185,
+      "role": "Bloody Woman",
+      "thumb": "/zcfdMTdkAOaOgXLwPbxqrEPSQAK.jpg"
+    },
+    {
+      "name": "Michael Shenefelt",
+      "order": 185,
+      "role": "Cuddles",
+      "thumb": "/j5NeuQG1yOq7I4IR4li2NZTDvNk.jpg"
+    },
+    {
+      "name": "Tracey Bonner",
+      "order": 186,
+      "role": "Torture",
+      "thumb": null
+    },
+    {
+      "name": "Matt Philliben",
+      "order": 186,
+      "role": "Palace Servant",
+      "thumb": null
+    },
+    {
+      "name": "Brad Brinkley",
+      "order": 187,
+      "role": "Shadowy Mr. Evans",
+      "thumb": null
+    },
+    {
+      "name": "Rodman Randolph",
+      "order": 190,
+      "role": "Hottie Dannyzen",
+      "thumb": null
+    },
+    {
+      "name": "Melanie J. Newby",
+      "order": 191,
+      "role": "Lady Dannyzen",
+      "thumb": null
+    },
+    {
+      "name": "Andres Erickson",
+      "order": 192,
+      "role": "Dannyzen #1",
+      "thumb": "/bs7Vi0A2Dw5id6ZVNGzdWJ8NFvn.jpg"
+    },
+    {
+      "name": "Jonathan D Bergman",
+      "order": 195,
+      "role": "Toby Trainor",
+      "thumb": null
+    },
+    {
+      "name": "Derek Evans",
+      "order": 196,
+      "role": "Zip Callahan",
+      "thumb": "/dGDPW2UCSrsSBUHZQX2i6FaN4jB.jpg"
+    },
+    {
+      "name": "Jason Burkey",
+      "order": 197,
+      "role": "Specs",
+      "thumb": "/wdiwFFH5xSx8AquNFRSwL5lUH0J.jpg"
+    },
+    {
+      "name": "Mariana Klaveno",
+      "order": 198,
+      "role": "Valentina \"Moscow\" Vostok",
+      "thumb": null
+    },
+    {
+      "name": "Charity Cervantes",
+      "order": 199,
+      "role": "Isabel Feathers",
+      "thumb": null
+    },
+    {
+      "name": "Avis-Marie Barnes",
+      "order": 201,
+      "role": "Beekeeper",
+      "thumb": "/fhlBsenWqADTTVOAlyo0FnKHzWE.jpg"
+    },
+    {
+      "name": "Jhemma Ziegler",
+      "order": 202,
+      "role": "Scant Queen",
+      "thumb": "/a1wQ7PBytlOijz2p0bjtbcpeLzJ.jpg"
+    },
+    {
+      "name": "Kellen Boyle",
+      "order": 203,
+      "role": "Douche Guy",
+      "thumb": "/bR53ypX16z5dvf1186Q7p5mKft2.jpg"
+    },
+    {
+      "name": "Casey Nelson",
+      "order": 204,
+      "role": "Bureau Agent",
+      "thumb": "/Ag4pbVCQN4vAkv7czP741syDwjW.jpg"
+    },
+    {
+      "name": "Lauren Halperin",
+      "order": 206,
+      "role": "Attending Nurse",
+      "thumb": null
+    },
+    {
+      "name": "Jenin Gonzalez",
+      "order": 207,
+      "role": "Scant Servant #4",
+      "thumb": "/4GQPEUpfKdb5gY47KcVbflHmNjb.jpg"
+    },
+    {
+      "name": "Kayli Joy Cooper",
+      "order": 208,
+      "role": "Rhiannon",
+      "thumb": null
+    },
+    {
+      "name": "Christopher Ammanuel",
+      "order": 209,
+      "role": "College Student",
+      "thumb": null
+    },
+    {
+      "name": "Bria Brimmer",
+      "order": 210,
+      "role": "Nurse",
+      "thumb": null
+    },
+    {
+      "name": "Josh Inocalla",
+      "order": 211,
+      "role": "Scant Servant #1",
+      "thumb": null
+    },
+    {
+      "name": "Ravon Miles",
+      "order": 212,
+      "role": "Scant Servant #2",
+      "thumb": null
+    },
+    {
+      "name": "Jeremy Barthelemy",
+      "order": 213,
+      "role": "Scant Servant #3",
+      "thumb": null
+    },
+    {
+      "name": "Suzie Haines",
+      "order": 216,
+      "role": "Cop #1",
+      "thumb": null
+    },
+    {
+      "name": "Leslie Black",
+      "order": 218,
+      "role": "Agent #2",
+      "thumb": null
+    },
+    {
+      "name": "LaKeta Renée Booker",
+      "order": 219,
+      "role": "Mom",
+      "thumb": null
+    },
+    {
+      "name": "Ava Metallo",
+      "order": 220,
+      "role": "Young Girl",
+      "thumb": null
+    },
+    {
+      "name": "Lynne Ashe",
+      "order": 221,
+      "role": "Carol",
+      "thumb": "/cUfEMdv3aQz2L17rnnSSmRpyhXC.jpg"
+    },
+    {
+      "name": "Fletcher Hammond",
+      "order": 222,
+      "role": "Young Paul Trainor",
+      "thumb": null
+    },
+    {
+      "name": "Carter Jenkins",
+      "order": 223,
+      "role": "John",
+      "thumb": "/fGVndWC3hgwK1uVrhiyzTUyIaxW.jpg"
+    },
+    {
+      "name": "Todd Truley",
+      "order": 223,
+      "role": "Agent #1",
+      "thumb": null
+    },
+    {
+      "name": "Troy Hogan",
+      "order": 223,
+      "role": "Carney",
+      "thumb": "/9ixPlEa6RzuMi1SdKVXWchvGVVB.jpg"
+    },
+    {
+      "name": "Joshua Mikel",
+      "order": 224,
+      "role": "Imaginary Jesus",
+      "thumb": "/aySpZ2uYz65C8CrHgEdrTy8jt70.jpg"
+    },
+    {
+      "name": "Tim Peek",
+      "order": 224,
+      "role": "Knight Templar #1",
+      "thumb": null
+    },
+    {
+      "name": "Cory Scott Allen",
+      "order": 225,
+      "role": "Bob",
+      "thumb": "/h5mG1ZkXzPHJ08iNf2SqhRwpTkD.jpg"
+    },
+    {
+      "name": "Donna Jay Fulks",
+      "order": 226,
+      "role": "Roxy (voice)",
+      "thumb": "/zgtOsmX1vnsIaVYw93X7XbR9jum.jpg"
+    },
+    {
+      "name": "KevinGlen",
+      "order": 227,
+      "role": "Threesome Man",
+      "thumb": null
+    },
+    {
+      "name": "Nicolette Goetz",
+      "order": 228,
+      "role": "Threesome Woman #1",
+      "thumb": null
+    },
+    {
+      "name": "Dina Najjar",
+      "order": 229,
+      "role": "Threesome Woman #2",
+      "thumb": "/2sTR1yckdc7wjbzzSF8YmCdtbEV.jpg"
+    },
+    {
+      "name": "Alton Williams",
+      "order": 231,
+      "role": "School Bus Kid #2",
+      "thumb": null
+    },
+    {
+      "name": "Caleb Williams",
+      "order": 232,
+      "role": "School Bus Kid #1",
+      "thumb": null
+    },
+    {
+      "name": "Juan Hernandez",
+      "order": 233,
+      "role": "Valet",
+      "thumb": null
+    },
+    {
+      "name": "B.J. Guyer",
+      "order": 234,
+      "role": "Puppeteer",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Pilot",
-        "Donkey Patrol",
-        "Puppet Patrol",
-        "Cult Patrol",
-        "Paw Patrol",
-        "Doom Patrol Patrol",
-        "Therapy Patrol",
-        "Danny Patrol",
-        "Jane Patrol",
-        "Hair Patrol",
-        "Frances Patrol",
-        "Cyborg Patrol",
-        "Flex Patrol",
-        "Penultimate Patrol",
-        "Ezekiel Patrol"
+        {
+          "aired": "2019-02-15",
+          "plot": "The reluctant heroes of the Doom Patrol – Robotman, Negative Man, Elasti-Woman and Crazy Jane face the threat of Mr. Nobody, who’s after The Chief.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eKXvqi9SqWSchcP018AMDGbjS0D.jpg",
+          "title": "Pilot"
+        },
+        {
+          "aired": "2019-02-22",
+          "plot": "Following Mr. Nobody’s capture of The Chief, the Doom Patrol investigate the mysterious albino donkey and discover it’s a door to another universe, where Mr. Nobody is in control.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A8Jx9GJZw8XdJ25inXq26gOqcuU.jpg",
+          "title": "Donkey Patrol"
+        },
+        {
+          "aired": "2019-03-01",
+          "plot": "The Doom Patrol set out for Paraguay where they discover the Nazi doctor who created Mr. Nobody and the connection between The Chief and the two villains.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pvVMyFMiH0wFf2LSMYFFRpQB2Yr.jpg",
+          "title": "Puppet Patrol"
+        },
+        {
+          "aired": "2019-03-08",
+          "plot": "Willoughby Kipling conscripts the Doom Patrol into helping him avert the end of the world by stopping a nihilistic cult.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qxVZtQ9gl4nSVfUuoYYBuABzgjN.jpg",
+          "title": "Cult Patrol"
+        },
+        {
+          "aired": "2019-03-15",
+          "plot": "With the Apocalypse in full swing, the Doom Patrol must work with an unlikely ally – and a very special pug – to stop the end of the world.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sNMm3kHo5mlxpPLbHuZuFmwQI30.jpg",
+          "title": "Paw Patrol"
+        },
+        {
+          "aired": "2019-03-22",
+          "plot": "Jane, Larry and Rita visit a school where the original Doom Patrol has retired. Meanwhile, Cliff & Vic bond over their mutual “father issues.”",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cNqPf7z3KEpIgrCmaxKCIbX4mMQ.jpg",
+          "title": "Doom Patrol Patrol"
+        },
+        {
+          "aired": "2019-03-29",
+          "plot": "After a violent outburst from Cliff, the team engages in some self-led group therapy – leading to some growth within the group as they are knit closer together.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f4Lez43muPVF6oJ9KcoezKUqdOL.jpg",
+          "title": "Therapy Patrol"
+        },
+        {
+          "aired": "2019-04-05",
+          "plot": "A sentient, gender-queer, teleporting street named Danny who’s being hunted by the secret Bureau of Normalcy needs help from Niles – but gets Vic and Larry instead.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dp2RlOqVqh65RUyHVnILU71hzt.jpg",
+          "title": "Danny Patrol"
+        },
+        {
+          "aired": "2019-04-12",
+          "plot": "Jane retreats into The Underground, a treacherous place deep within her own mindspace, where she encounters her many personas and dark traumas of her past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mi8HtvI5p3pXytPfCp7w4FNMpFr.jpg",
+          "title": "Jane Patrol"
+        },
+        {
+          "aired": "2019-04-19",
+          "plot": "Vic and Rita face a dangerous man called The Beard Hunter, who’s been activated by the Bureau of Normalcy to find Niles Caulder.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ygTalj2HRZ5qCs6llMi8SeMJqzc.jpg",
+          "title": "Hair Patrol"
+        },
+        {
+          "aired": "2019-04-26",
+          "plot": "While Larry pays a visit to his long-lost love, Cliff and Rita travel to Gator Country to reconnect with his daughter. Vic worries about his operating system.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5J2JSSiMlc5kgAwOLQqUHkXEbLP.jpg",
+          "title": "Frances Patrol"
+        },
+        {
+          "aired": "2019-05-03",
+          "plot": "With Vic captured and held at the Ant Farm, his father hatches a plan with the rest of the Doom Patrol to break him out. Naturally, things go awry.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/90N1NKa8vxW4yzcRL1url74i0O.jpg",
+          "title": "Cyborg Patrol"
+        },
+        {
+          "aired": "2019-05-10",
+          "plot": "The Doom Patrol tries to restore the memories and abilities of Flex Mentallo, while Rita confronts her self-doubt and Larry realizes how tied he is to the Negative Spirit.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4U0yLXI4AQtBubpcoVnh9JQu5MM.jpg",
+          "title": "Flex Patrol"
+        },
+        {
+          "aired": "2019-05-17",
+          "plot": "The Doom Patrol enter the Nobodyverse to save the Chief.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jEpaPirHqH7eDMjhk8vm9uDPRV1.jpg",
+          "title": "Penultimate Patrol"
+        },
+        {
+          "aired": "2019-05-24",
+          "plot": "The Doom Patrol go their separate ways in the season finale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nzVyWQpNWym7wi5ILALCIWgobFA.jpg",
+          "title": "Ezekiel Patrol"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Fun Size Patrol",
-        "Tyme Patrol",
-        "Pain Patrol",
-        "Sex Patrol",
-        "Finger Patrol",
-        "Space Patrol",
-        "Dumb Patrol",
-        "Dad Patrol",
-        "Wax Patrol"
+        {
+          "aired": "2020-06-25",
+          "plot": "The Doom Patrol (along with Niles & his daughter) are still mini-sized after their last adventure. Ultimately, Niles will have to sacrifice something precious to save the team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4E1YcapLlF0gKM0e3dSCPquFGw2.jpg",
+          "title": "Fun Size Patrol"
+        },
+        {
+          "aired": "2020-06-25",
+          "plot": "Cliff, Jane, and Rita pursue a time-altering doctor in their reluctant quest to help Niles and Dorothy. Meanwhile, Vic meets a military vet who challenges his beliefs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/arDjDqLfMCxtYSol0MoeusnYa3J.jpg",
+          "title": "Tyme Patrol"
+        },
+        {
+          "aired": "2020-06-25",
+          "plot": "Niles, Rita, and Larry end up in the interdimensional clutches of Red Jack, an infamous villain who feeds on pain, while Cliff visits his daughter with Jane.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7eEoQjJeOPKcBkNa2QOOaqWwcH8.jpg",
+          "title": "Pain Patrol"
+        },
+        {
+          "aired": "2020-07-02",
+          "plot": "When the Dannyzens throw a massive party at Doom Manor to resuscitate Danny the Brick, Dorothy longs to join the festivities and experience life as a grown-up. As the party rages on, Rita asks Flex Mentallo to help unleash her full potential -- which has some dangerously racy consequences.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pLmS4K2Ci3fOqu70K18jtmfKxO8.jpg",
+          "title": "Sex Patrol"
+        },
+        {
+          "aired": "2020-07-09",
+          "plot": "Dorothy finds a friend in Baby Doll, while Vic looks to win Roni back. With Rita’s help, Larry finally tries to break the ice with his family.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4ib6DSxiApmwhECE8BImuoZzs6o.jpg",
+          "title": "Finger Patrol"
+        },
+        {
+          "aired": "2020-07-16",
+          "plot": "As Niles and Cliff set out to find a missing Dorothy, Larry is tasked with handling Niles’ old research team when the ageless aeronauts return from space.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/c93l1Q7CEzIn0w6zFYjXDQQL00a.jpg",
+          "title": "Space Patrol"
+        },
+        {
+          "aired": "2020-07-23",
+          "plot": "While Niles heads north to find Dorothy’s mother, the Doom Patrol embraces their inner morons after receiving a mysterious package.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lnMcJ7KQ3rbfceKxAeSP3rIsBgw.jpg",
+          "title": "Dumb Patrol"
+        },
+        {
+          "aired": "2020-07-30",
+          "plot": "While Jane sets out to prove her worth in The Underground, Cliff goes into “dad” mode and Niles devotes a day to Dorothy, who’s finally growing up.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/haGXVysgMev060Rp7QJKAN7oagJ.jpg",
+          "title": "Dad Patrol"
+        },
+        {
+          "aired": "2020-08-06",
+          "plot": "Before the Doom Patrol can answer a call to save the world from The Candlemaker in the season finale, they must first battle long-forgotten imaginary friends.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nlI6o5l04ovzy7W3YNWTokwMuwN.jpg",
+          "title": "Wax Patrol"
+        }
       ]
     }
   },

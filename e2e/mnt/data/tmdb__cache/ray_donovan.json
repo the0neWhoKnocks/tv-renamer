@@ -1,123 +1,1444 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Drama"
+  ],
   "id": 1423,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/259866/clearlogo/ray-donovan-515358556471e.png"
+      ],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ea2ca21165a0.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-533f32867f7af.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-58092507d81df.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ece06a0319af.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ea2ca324ec2a.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-53c4f22d62e73.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5809251ef3278.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ece06b129930.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ea2ca99e7362.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5603b7b4ac270.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5809253328922.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ece06c4b2550.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ea2cac4a1e37.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-576b8d5cab27c.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ca8f948b1f22.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ece06d7cf358.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ea2cb0a807ea.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-597d9e819fe98.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ca8f7b2ad427.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ece06ed57f8e.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ea2cb1e6c4ca.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ca8f6f4a306c.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5bd371d09b6c0.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ece0700751a6.jpg"
+        ],
+        "7": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ea2cb492cae8.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5ece07c74bf0d.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonposter/ray-donovan-5de6454510f41.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-52e59b36b6e82.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5ece07e1a15ca.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5efebdb69304a.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-52e59b442a16c.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5ece07f50d9cc.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5efebdd0ae19f.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-52e59b5067e4f.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5ece0808cb774.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5efebdec66bd2.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-52e59b5fa69ba.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5ece081de61f1.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5efebe02571ff.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5ece08331c3d5.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5efebe15177c0.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5ece084689c5a.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5efebe29e569d.jpg"
+        ],
+        "7": [
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5ece089311b8e.jpg",
+          "https://assets.fanart.tv/fanart/tv/259866/seasonthumb/ray-donovan-5efebe3e997c9.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-56afb8eb8888d.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-559b87cd5ce83.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-56afb8a32d0c9.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-56afb8bd10ab5.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-52cbfbbca8150.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-57475dd68a8a8.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-58b26f51b9e6a.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-559b88340bd5c.jpeg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-59a63485b563b.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-56afb8d7a8cee.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/showbackground/ray-donovan-51d8f11fa7cf4.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/259866/tvbanner/ray-donovan-54bbabc95f252.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvbanner/ray-donovan-54bbd52e9738c.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvbanner/ray-donovan-54bbac277d4e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvbanner/ray-donovan-54bbd480530ce.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvbanner/ray-donovan-54bbd4c9288ac.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvbanner/ray-donovan-55a072d4414db.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvbanner/ray-donovan-52cbfa1b4b777.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-59a47c77f349c.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-5a23e8b0a1c99.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-55fbf52ac42a1.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-558170b0201dd.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-58092611d96c9.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-5bd080bdc2e03.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-52cbf8dcd0c2a.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-52cbf8ffb10d5.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-52cbf9196536c.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-57475d7457f8c.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-5c9f99416b54c.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-575a37ca6d92c.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-52cbfaf06b00e.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvposter/ray-donovan-57475d90848b6.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-5dcbee6bd42fb.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-51d8f0e08f9fa.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-51ecf472446e1.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-51ecf5ddcf581.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-598d4f5be88ab.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-598d4f718c9e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-598d4f9c7f8ff.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-51ecf45f46e0d.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-51ecf47244d0e.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-51ecf5ddd08f1.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-5818a3242466c.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-556d89d5b19c8.jpg",
+        "https://assets.fanart.tv/fanart/tv/259866/tvthumb/ray-donovan-5c9f996c72d3d.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/ijX8tWeMBMPwEPKNpSavyd9334r.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/zxftW7ZGVrOCqH2ifuruieCTb5X.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Ray Donovan",
+  "plot": "Set in the sprawling mecca of the rich and famous, Ray Donovan does the dirty work for LA's top power players, and makes their problems disappear. His father's unexpected release from prison sets off a chain of events that shakes the Donovan family to its core.",
+  "premiered": "2013-06-30",
+  "status": "Canceled",
+  "studios": [
+    "Showtime"
+  ],
+  "actors": [
+    {
+      "name": "Liev Schreiber",
+      "order": 0,
+      "role": "Ray Donovan",
+      "thumb": "/miHBraMiP8d76eT81LErC6kAx3D.jpg"
+    },
+    {
+      "name": "Eddie Marsan",
+      "order": 1,
+      "role": "Terry Donovan",
+      "thumb": "/uOBYS7vXORH6dRFR4bvF35cSu6B.jpg"
+    },
+    {
+      "name": "Dash Mihok",
+      "order": 2,
+      "role": "Bunchy Donovan",
+      "thumb": "/2mvXAusQr265VW5N7eo07uXqyII.jpg"
+    },
+    {
+      "name": "Pooch Hall",
+      "order": 3,
+      "role": "Daryll",
+      "thumb": "/vIngB4socSHQFjHQFJDaKfYn2hn.jpg"
+    },
+    {
+      "name": "Jon Voight",
+      "order": 4,
+      "role": "Mickey Donovan",
+      "thumb": "/h5jKQHLRQqqgvsfCXgxxtywx7UQ.jpg"
+    },
+    {
+      "name": "Kerris Dorsey",
+      "order": 5,
+      "role": "Bridget Donovan",
+      "thumb": "/xCp5jjjzh25iBrXtVV0rzolZGR5.jpg"
+    },
+    {
+      "name": "Katherine Moennig",
+      "order": 6,
+      "role": "Lena",
+      "thumb": "/xiSiwDEBLvvwvfzPasSvUHlB8H2.jpg"
+    },
+    {
+      "name": "Paula Malcomson",
+      "order": 1,
+      "role": "Abby Donovan",
+      "thumb": "/9lJy6ze86ZfVcBcyBK9UZq8FJiC.jpg"
+    },
+    {
+      "name": "Steven Bauer",
+      "order": 5,
+      "role": "Avi",
+      "thumb": "/wWIgfXMRyGFKBWhV9yc8CObNqfh.jpg"
+    },
+    {
+      "name": "Devon Bagby",
+      "order": 9,
+      "role": "Conor Donovan",
+      "thumb": null
+    },
+    {
+      "name": "Graham Rogers",
+      "order": 7,
+      "role": "Jacob \"Smitty\" Smith",
+      "thumb": "/9PCeawHW7gcEflX3dnmmLXodGQ8.jpg"
+    },
+    {
+      "name": "Brooke Smith",
+      "order": 84,
+      "role": "Frances Simpson",
+      "thumb": "/bBWxi3qVAC15mzYFE4YgpOjWB5Z.jpg"
+    },
+    {
+      "name": "Susan Sarandon",
+      "order": 500,
+      "role": "Samantha Winslow",
+      "thumb": "/oHYYL8bNakAREaLUBtMul5uMG0A.jpg"
+    },
+    {
+      "name": "Alan Alda",
+      "order": 6,
+      "role": "Dr. Amiot",
+      "thumb": "/a5tOOHdsrKSabKwdzDOYqeTp446.jpg"
+    },
+    {
+      "name": "Aaron Staton",
+      "order": 26,
+      "role": "Mr. Donellen",
+      "thumb": "/arYrQ4vj598Rtdgl5miYZOg4RT4.jpg"
+    },
+    {
+      "name": "William Stanford Davis",
+      "order": 94,
+      "role": "Potato Pie",
+      "thumb": "/ppwuQDLMpkLK3iXTE2ckRjH7euL.jpg"
+    },
+    {
+      "name": "Elliott Gould",
+      "order": 97,
+      "role": "Ezra Goldman",
+      "thumb": "/ismZMvs8QxRR33OAVp9AKr3TokP.jpg"
+    },
+    {
+      "name": "Ambyr Childers",
+      "order": 29,
+      "role": "Ashley Ruckers",
+      "thumb": "/boFipGlGLBVQ9xTW69wXzWW6OAD.jpg"
+    },
+    {
+      "name": "Denise Crosby",
+      "order": 76,
+      "role": "Deb Goldman",
+      "thumb": "/1Eoo8o3xRGflJ9kHxg1eFVwAwQa.jpg"
+    },
+    {
+      "name": "Frank Whaley",
+      "order": 91,
+      "role": "Van Miller",
+      "thumb": "/fYcqfn6nQy8qO40DMBdDzWQuloq.jpg"
+    },
+    {
+      "name": "Michael McGrady",
+      "order": 93,
+      "role": "Frank Barnes",
+      "thumb": "/nLYC2BMns7lhF3zr5WDlI8a02Yd.jpg"
+    },
+    {
+      "name": "Octavius J. Johnson",
+      "order": 96,
+      "role": "Marvin Gaye Washington",
+      "thumb": null
+    },
+    {
+      "name": "Rosanna Arquette",
+      "order": 55,
+      "role": "Linda",
+      "thumb": "/n6OBhzo8qs9ZZfbLyqvPJYYTHgq.jpg"
+    },
+    {
+      "name": "Johnathon Schaech",
+      "order": 91,
+      "role": "Sean Walker",
+      "thumb": "/rjbGWz7htjlrhm9VsjkQVlw0f0f.jpg"
+    },
+    {
+      "name": "James Woods",
+      "order": 93,
+      "role": "Patrick \"Sully\" Sullivan",
+      "thumb": "/tOArxRwI5AQ3I9WJRiQpHs9gCl3.jpg"
+    },
+    {
+      "name": "Josh Pais",
+      "order": 113,
+      "role": "Stu Feldman",
+      "thumb": "/uH90fGfLLzYCX02yOW3kH4LMO7n.jpg"
+    },
+    {
+      "name": "Sheryl Lee Ralph",
+      "order": 117,
+      "role": "Claudette",
+      "thumb": "/eq7FeNDJFUVtdHAtvzNkOIapzX.jpg"
+    },
+    {
+      "name": "Michael Esper",
+      "order": 117,
+      "role": "Adam Rain",
+      "thumb": "/ri6OmRuEnbF3pcirudq3Gvc0oI5.jpg"
+    },
+    {
+      "name": "Quincy Tyler Bernstine",
+      "order": 117,
+      "role": "Detective Perry",
+      "thumb": "/yaLaEHdxnhDqIMxyvzzx1pMKBVP.jpg"
+    },
+    {
+      "name": "Kacey Montoya",
+      "order": 63,
+      "role": "Sandy Gagic",
+      "thumb": "/tg1pqOwr9AfgwFiDszp4WBtezRQ.jpg"
+    },
+    {
+      "name": "Peter Jacobson",
+      "order": 80,
+      "role": "Lee Drexler",
+      "thumb": "/pGi9CnzEG4cLa2viUP89yvlPCyR.jpg"
+    },
+    {
+      "name": "Mary Mara",
+      "order": 90,
+      "role": "Mrs. Sullivan",
+      "thumb": "/92imYsDHRebUN7Aut53yQPekl3L.jpg"
+    },
+    {
+      "name": "Josh Hamilton",
+      "order": 117,
+      "role": "Kevin Sullivan",
+      "thumb": "/1TdB6DTRkFJgurWeXtJIOHtMOw7.jpg"
+    },
+    {
+      "name": "Zach Grenier",
+      "order": 117,
+      "role": "Ed Feratti",
+      "thumb": "/fSyQKZO39sUsqY283GXiScOg3Hi.jpg"
+    },
+    {
+      "name": "Louisa Krause",
+      "order": 117,
+      "role": "Liberty",
+      "thumb": "/xkIx3PWJUumeUjOa2b3GPdMHp46.jpg"
+    },
+    {
+      "name": "Sandy Martin",
+      "order": 117,
+      "role": "Sandy Patrick",
+      "thumb": "/wMR75F1tIAVA6tTnlq0A0xP30tE.jpg"
+    },
+    {
+      "name": "Katie Holmes",
+      "order": 2,
+      "role": "Paige Finney",
+      "thumb": "/dSvQMmznCsoXQBSOtU5IBA399R4.jpg"
+    },
+    {
+      "name": "Ian McShane",
+      "order": 3,
+      "role": "Malcolm Finney",
+      "thumb": "/q9qKbux5Jo76Sj8g3luxBt6rYtz.jpg"
+    },
+    {
+      "name": "Fairuza Balk",
+      "order": 9,
+      "role": "Ginger",
+      "thumb": "/z5KnPiNLkWxBfYu4GRy1iz37bPX.jpg"
+    },
+    {
+      "name": "Shree Crooks",
+      "order": 11,
+      "role": "Audrey",
+      "thumb": "/ipntpl03KxmLI4GWYV9HqXcVU9d.jpg"
+    },
+    {
+      "name": "Alyssa Diaz",
+      "order": 30,
+      "role": "Teresa",
+      "thumb": "/ihLNjM4E1Fjx5h4l8EL6r3iDRTa.jpg"
+    },
+    {
+      "name": "Michael Hyatt",
+      "order": 31,
+      "role": "Detective Sheila Muncie",
+      "thumb": "/zXJ1mV2NlZuWYgTj8eTuUFhCgp5.jpg"
+    },
+    {
+      "name": "Chris Coppola",
+      "order": 34,
+      "role": "Larry",
+      "thumb": "/3AaBXvOwuAArLsanddChymJKhSl.jpg"
+    },
+    {
+      "name": "Ted Levine",
+      "order": 35,
+      "role": "Bill Primm",
+      "thumb": "/gFm6W1AM3LWKzAI3IypbgLLRyD4.jpg"
+    },
+    {
+      "name": "Ismael Cruz Córdova",
+      "order": 36,
+      "role": "Hector Campos",
+      "thumb": "/gx59ZkpGgGLEH79ciDgyWpUG8nt.jpg"
+    },
+    {
+      "name": "Paula Jai Parker",
+      "order": 38,
+      "role": "Silvie Starr",
+      "thumb": "/2SQATlR65aymoq7I3tV8aCXSyOu.jpg"
+    },
+    {
+      "name": "Dominique Columbus",
+      "order": 45,
+      "role": "Damon",
+      "thumb": null
+    },
+    {
+      "name": "J. LaRose",
+      "order": 46,
+      "role": "Ed",
+      "thumb": "/eZHglMF2O4KtXZAQtlQ4Vf2taTW.jpg"
+    },
+    {
+      "name": "Austin Nichols",
+      "order": 90,
+      "role": "Tommy Wheeler",
+      "thumb": "/nhH6CVwgCQOKkz2QLVH4V7Am6zv.jpg"
+    },
+    {
+      "name": "Michael Cristofer",
+      "order": 91,
+      "role": "Priest",
+      "thumb": "/yWZr1U6A4UAatvgqvX1zmOgB92S.jpg"
+    },
+    {
+      "name": "Mo McRae",
+      "order": 94,
+      "role": "Deonte Frasier",
+      "thumb": "/yU3VD12vMbG94xEvSBASWsFsL1B.jpg"
+    },
+    {
+      "name": "Alexa Demie",
+      "order": 99,
+      "role": "Shairee",
+      "thumb": "/n9OZ7J9UCIauXg8q5SZ6cfcQTl9.jpg"
+    },
+    {
+      "name": "Robert Funaro",
+      "order": 117,
+      "role": "Lt. Bricker",
+      "thumb": "/bfL66eK46g3QmiHUFKSoqinPEx9.jpg"
+    },
+    {
+      "name": "Diany Rodriguez",
+      "order": 117,
+      "role": "Valentina Santiago",
+      "thumb": "/dGl8pV25xyKaJ1HzQrResfha5jf.jpg"
+    },
+    {
+      "name": "Jason Butler Harner",
+      "order": 5,
+      "role": "Varick Strauss",
+      "thumb": "/pSwgbLeEG0MAbCud6RQXmGMAkun.jpg"
+    },
+    {
+      "name": "Skipp Sudduth",
+      "order": 7,
+      "role": "Governor Verona",
+      "thumb": "/bomljeI0vv2Uz50SosJIElwUxcJ.jpg"
+    },
+    {
+      "name": "Rahad Coulter-Stevenson",
+      "order": 24,
+      "role": "Huey Lewis",
+      "thumb": null
+    },
+    {
+      "name": "Embeth Davidtz",
+      "order": 27,
+      "role": "Sonia Kovitzky",
+      "thumb": "/3Z8Kx4AVXteLdUJ5IGXbJlPLTyW.jpg"
+    },
+    {
+      "name": "Gabriel Mann",
+      "order": 29,
+      "role": "Jacob Walker",
+      "thumb": "/mrqiMfwoQnLBGGP3zvfHrwPKHJW.jpg"
+    },
+    {
+      "name": "Pasha D. Lychnikoff",
+      "order": 33,
+      "role": "Ivan Belikov",
+      "thumb": "/xftO8wDW9j4RBO91g9wWzDAAHbz.jpg"
+    },
+    {
+      "name": "Lisa Bonet",
+      "order": 35,
+      "role": "Marisol",
+      "thumb": "/fqkHGL6zrTG66CJ46wfKLZqW8DV.jpg"
+    },
+    {
+      "name": "Travis Hammer",
+      "order": 47,
+      "role": "Pinkie-Toe Josephine Melcher III",
+      "thumb": "/oiYzy7turdp3GICqprkIBOwaNg.jpg"
+    },
+    {
+      "name": "Jonathan Joss",
+      "order": 49,
+      "role": "Lou",
+      "thumb": "/zmJhvjjt8ujOLCysbgaRKnNGSDW.jpg"
+    },
+    {
+      "name": "Emma Vicera",
+      "order": 51,
+      "role": "Algoma",
+      "thumb": null
+    },
+    {
+      "name": "Nicholas Massouh",
+      "order": 53,
+      "role": "Alan Freedman",
+      "thumb": "/5qI77BqIP33iJcLajamAZMMwQoz.jpg"
+    },
+    {
+      "name": "Alex Saxon",
+      "order": 65,
+      "role": "Chloe",
+      "thumb": "/kgNEx6qgVgC3nsYZkeqbKGC4f1e.jpg"
+    },
+    {
+      "name": "Michelle Kim",
+      "order": 66,
+      "role": "Emily Chu",
+      "thumb": "/xPVe0oijft9W3b4iYZNaHLSoazH.jpg"
+    },
+    {
+      "name": "Kwame Patterson",
+      "order": 87,
+      "role": "Re-Kon",
+      "thumb": null
+    },
+    {
+      "name": "Lois Smith",
+      "order": 112,
+      "role": "Dolores",
+      "thumb": "/hYZx3vQ1KICO3Db5Cm89yT3pxZo.jpg"
+    },
+    {
+      "name": "Tiler Peck",
+      "order": 114,
+      "role": "Britney Muller",
+      "thumb": "/vVTzd1lvEGG0BCiblE1zoOsqE9M.jpg"
+    },
+    {
+      "name": "Clay Hollander",
+      "order": 115,
+      "role": "Jonathan Walker Hansen",
+      "thumb": null
+    },
+    {
+      "name": "Kate Arrington",
+      "order": 117,
+      "role": "Amber McGrath",
+      "thumb": "/nXg0UQsYjGCSV25hZ8GuY08Q2BD.jpg"
+    },
+    {
+      "name": "Finn Robbins",
+      "order": 117,
+      "role": "Jimmy McGrath",
+      "thumb": null
+    },
+    {
+      "name": "Lana McLellan",
+      "order": 119,
+      "role": "Pride Party Girl (uncredited)",
+      "thumb": "/tsgUu6HCtbajxKghmmgwTILZNRi.jpg"
+    },
+    {
+      "name": "Wendell Pierce",
+      "order": 6,
+      "role": "Ronald Keith",
+      "thumb": "/uOsldo9Pkl0E79UbIXX5tZZmC8F.jpg"
+    },
+    {
+      "name": "Tom Bower",
+      "order": 10,
+      "role": "Judge Roger Wettick",
+      "thumb": "/q26z6T3QZfpirZV3Ex885zUgUR4.jpg"
+    },
+    {
+      "name": "Mark Rowe",
+      "order": 12,
+      "role": "Kevin",
+      "thumb": "/4G3LvCPuTFzLuFdLvly1xSGjhEI.jpg"
+    },
+    {
+      "name": "Ray Abruzzo",
+      "order": 13,
+      "role": "Goldberg",
+      "thumb": "/x0Qf3LP7q6CAvfQk2TRH6dILrKb.jpg"
+    },
+    {
+      "name": "Kasim Saul",
+      "order": 14,
+      "role": "Guard",
+      "thumb": null
+    },
+    {
+      "name": "Skyler Shaye",
+      "order": 15,
+      "role": "Cindy",
+      "thumb": null
+    },
+    {
+      "name": "Sushana Watkis",
+      "order": 16,
+      "role": "Alex",
+      "thumb": null
+    },
+    {
+      "name": "Christy Williams",
+      "order": 17,
+      "role": "Michelle",
+      "thumb": null
+    },
+    {
+      "name": "Char Sidney",
+      "order": 18,
+      "role": "Mercedes",
+      "thumb": null
+    },
+    {
+      "name": "Aubrey Manning",
+      "order": 19,
+      "role": "Lorraine Windsor",
+      "thumb": null
+    },
+    {
+      "name": "Dakota Payne",
+      "order": 20,
+      "role": "Shouting Kid",
+      "thumb": null
+    },
+    {
+      "name": "Eric Frentzel",
+      "order": 21,
+      "role": "Parolee",
+      "thumb": "/cXXPx5NNCYrUWXzSSEknqJpGmap.jpg"
+    },
+    {
+      "name": "J. Marvin Campbell",
+      "order": 22,
+      "role": "Dr. Cooper",
+      "thumb": null
+    },
+    {
+      "name": "Jim Palmer",
+      "order": 23,
+      "role": "Aryan Inmate",
+      "thumb": null
+    },
+    {
+      "name": "Glenn Keogh",
+      "order": 25,
+      "role": "Malcolm Dowd",
+      "thumb": "/amv7HimTqvhmVqko9oKNYeHINvx.jpg"
+    },
+    {
+      "name": "Leland Orser",
+      "order": 37,
+      "role": "Father Romero",
+      "thumb": "/vvVcWhActW8k2gQz95UatVP4Duf.jpg"
+    },
+    {
+      "name": "Patrick St. Esprit",
+      "order": 38,
+      "role": "Hector's Manager",
+      "thumb": "/lgHbDLjzl6GHXlE1QqV6LwXojuD.jpg"
+    },
+    {
+      "name": "Victor Ortiz",
+      "order": 39,
+      "role": "Whittaker",
+      "thumb": "/6qu2FvBsywwz81p5FLAnB6VKc5v.jpg"
+    },
+    {
+      "name": "Tom Wright",
+      "order": 40,
+      "role": "Hector's Manager",
+      "thumb": "/3Jmwf493R4e9cis5689Nn0DLgqt.jpg"
+    },
+    {
+      "name": "Tara Buck",
+      "order": 41,
+      "role": "Maureen Dougherty",
+      "thumb": "/inryUixQNcZsR6erJTAKAP1QozS.jpg"
+    },
+    {
+      "name": "Apesanahkwat",
+      "order": 50,
+      "role": "Wovoka",
+      "thumb": null
+    },
+    {
+      "name": "Talia Toms",
+      "order": 52,
+      "role": "Bakery Lady",
+      "thumb": null
+    },
+    {
+      "name": "Kabby Borders",
+      "order": 54,
+      "role": "Girl #1",
+      "thumb": "/41p6uxtIwWKRmVNV1AbTc7Y04Qe.jpg"
+    },
+    {
+      "name": "Rya Kihlstedt",
+      "order": 56,
+      "role": "Jeannie",
+      "thumb": "/i0KDFXvd2s5nNGJ4U0ogwpNbhYi.jpg"
+    },
+    {
+      "name": "Richard Brake",
+      "order": 57,
+      "role": "",
+      "thumb": "/JwsiErANShzPSdYsNoiNYdrSg1.jpg"
+    },
+    {
+      "name": "Daniel V. Graulau",
+      "order": 58,
+      "role": "Jorge",
+      "thumb": null
+    },
+    {
+      "name": "Aaron Fernando",
+      "order": 60,
+      "role": "Clifford",
+      "thumb": null
+    },
+    {
+      "name": "Tanisha Lynn",
+      "order": 62,
+      "role": "Suger",
+      "thumb": "/3MyoeQOx2SjqmViTZv9uNIsDpfw.jpg"
+    },
+    {
+      "name": "Alison Ball",
+      "order": 64,
+      "role": "Florist",
+      "thumb": "/rryO08fIIBRohWwXKgXQS230wmH.jpg"
+    },
+    {
+      "name": "Mike Wurst",
+      "order": 67,
+      "role": "Mr. Wayne",
+      "thumb": "/ziHh0hHSe3aD1sL3BvNSAZ8RIJw.jpg"
+    },
+    {
+      "name": "Eric Balfour",
+      "order": 68,
+      "role": "Nick Lowell",
+      "thumb": "/cdJF0WLFUwl9unbPjnpFZ7dUNP2.jpg"
+    },
+    {
+      "name": "Paul Michael Glaser",
+      "order": 80,
+      "role": "Alan",
+      "thumb": "/lDgHZ7vLoUshFzOcgxqSJBiLUUo.jpg"
+    },
+    {
+      "name": "Diego Serrano",
+      "order": 82,
+      "role": "Teddy",
+      "thumb": "/r5SsplJr3VCSznsKypBt1lRRbKM.jpg"
+    },
+    {
+      "name": "Drew Powell",
+      "order": 86,
+      "role": "Gary O'Malley",
+      "thumb": "/v3iLHQYKDdd7AI8GOqMwqxhzeMH.jpg"
+    },
+    {
+      "name": "Alexander Chaplin",
+      "order": 89,
+      "role": "Father Flannery",
+      "thumb": null
+    },
+    {
+      "name": "Jay Thomas",
+      "order": 90,
+      "role": "Marty Grossman",
+      "thumb": "/daWSrAYJtCi2qiwq6BYZfiUWVIY.jpg"
+    },
+    {
+      "name": "Jay R. Ferguson",
+      "order": 91,
+      "role": "Thomas Volcheck",
+      "thumb": null
+    },
+    {
+      "name": "Craig Ricci Shaynak",
+      "order": 92,
+      "role": "Tiny",
+      "thumb": null
+    },
+    {
+      "name": "Brent Spiner",
+      "order": 93,
+      "role": "Therapist",
+      "thumb": "/wHaOTfxOEKOPssDYaSSB5zenml4.jpg"
+    },
+    {
+      "name": "Alexandra Shipp",
+      "order": 94,
+      "role": "Tiffany",
+      "thumb": "/6i9eya2lz8ylJBE9OGpPi7Dy2b2.jpg"
+    },
+    {
+      "name": "Sherilyn Fenn",
+      "order": 95,
+      "role": "Donna Cochran",
+      "thumb": "/wHWnkSh3vQhjNKRHsOsDA4NE5XJ.jpg"
+    },
+    {
+      "name": "Hank Azaria",
+      "order": 96,
+      "role": "Ed Cochran",
+      "thumb": "/uON3TWSySIy8wbDhkSzmFTDM6XO.jpg"
+    },
+    {
+      "name": "John Brandon",
+      "order": 97,
+      "role": "Alex DeCuna",
+      "thumb": null
+    },
+    {
+      "name": "Salome Azizi",
+      "order": 99,
+      "role": "Tamar",
+      "thumb": "/nCbtbSnAl7KHaKLnEok3lIiZnvx.jpg"
+    },
+    {
+      "name": "Kevin Corrigan",
+      "order": 108,
+      "role": "Declan Sullivan",
+      "thumb": "/qu2P3gjPneAOTZpSjH6m6hSOxrD.jpg"
+    },
+    {
+      "name": "Mike Starr",
+      "order": 109,
+      "role": "O'Malley",
+      "thumb": "/uDI4VmMjJjnS1GI9FHhpTGUsi91.jpg"
+    },
+    {
+      "name": "Rami Margron",
+      "order": 117,
+      "role": "frankie lee",
+      "thumb": "/vnhORThqft1DwQc7mRaA82bjAqD.jpg"
+    },
+    {
+      "name": "Candace M. Smith",
+      "order": 118,
+      "role": "Jay's Girl",
+      "thumb": "/vJFeoYU9eiuG0k67ihBYFqWBnTk.jpg"
+    },
+    {
+      "name": "Kyler Pettis",
+      "order": 121,
+      "role": "Dylan",
+      "thumb": "/pLUqTcANpafx1wWxXLuEjensOYn.jpg"
+    },
+    {
+      "name": "Heather McComb",
+      "order": 122,
+      "role": "Patty",
+      "thumb": "/8NtMNMGFgRULC3lBGomARinOxiw.jpg"
+    },
+    {
+      "name": "Heiko Effenberger",
+      "order": 123,
+      "role": "",
+      "thumb": "/oSoBl40gUO7PyBkgsgeqaBwTt7V.jpg"
+    },
+    {
+      "name": "Zander David Hodgson",
+      "order": 124,
+      "role": "Hustler / BDSM Angel (as Zander Hodgson)",
+      "thumb": "/fgQ6V5C5SnRjXjoOhztSQoQgxyy.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "The Bag or the Bat",
-        "A Mouth Is a Mouth",
-        "Twerk",
-        "Black Cadillac",
-        "The Golem",
-        "Housewarming",
-        "New Birthday",
-        "Bridget",
-        "Road Trip",
-        "Fite Nite",
-        "Bucky Fuckin' Dent",
-        "Same Exactly"
+        {
+          "aired": "2013-06-30",
+          "plot": "Ray Donovan is the man called in to solve the most difficult problems for LA's rich and powerful. The only problems he can't fix are those involving his damaged South Boston family. Ray's life is thrown into turmoil when his father Mickey unexpectedly gets out of prison five years early and arrives in LA, vowing to take revenge on Ray for framing him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7FavuFI66x05yryQKx09DVgzSmn.jpg",
+          "title": "The Bag or the Bat"
+        },
+        {
+          "aired": "2013-07-07",
+          "plot": "Ray activates a plan to send Mickey back to prison. Meanwhile, Abby defies Ray and spends the day with Mickey and the kids. Ray handles two crises involving movie star clients: A-list actor Sean Walker receives a threatening message at home and action hero Tommy Wheeler is blackmailed with a sex video.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w3ZB3sAzBXwvK7x4PID2k1fOrb3.jpg",
+          "title": "A Mouth Is a Mouth"
+        },
+        {
+          "aired": "2013-07-14",
+          "plot": "Mickey spends time with Bunchy and Terry. Ray \"buys\" a talented hip-hop artist for his rapper neighbor. Ray's mentor, Ezra Goldman, holds a fundraiser in honor of his late wife, but he's haunted by the sins of his past. Meanwhile, Mickey is approached by an FBI agent.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ycWWDbdMwjS6N6TIza3Rb1Qo3PM.jpg",
+          "title": "Twerk"
+        },
+        {
+          "aired": "2013-07-21",
+          "plot": "Ray, Abby and the kids visit Bel Air Academy, hoping Bridget will get into the prestigious school, but the day is interrupted when Ray has to take care of a case at a Beverly Hills hotel. Mickey, Bunchy and Daryll drive out to Palm Springs to visit Mickey's ex-girlfriend, Claudette.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6Trs4oYogajxrOuUpP06Zfvr0cB.jpg",
+          "title": "Black Cadillac"
+        },
+        {
+          "aired": "2013-07-28",
+          "plot": "Ezra has an accident. Terry and Frances grow closer. Bunchy receives his settlement check. Mickey visits Ezra to talk about the past. Ray and Avi learn some very unsettling news.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cYAHvcnjz4ZsgohMuS20WWJmAiE.jpg",
+          "title": "The Golem"
+        },
+        {
+          "aired": "2013-08-04",
+          "plot": "Ray tries to shut down Van Miller's investigation by creating an incriminating video. Ezra is prepped for surgery, but he wanders off. Bunchy moves into his new house, but the housewarming party gets out of control. Ray finds out that Mickey put his kids in danger and goes after him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qK5smzP7mF2Cf2xgKERuy73LYVf.jpg",
+          "title": "Housewarming"
+        },
+        {
+          "aired": "2013-08-11",
+          "plot": "Ray forbids Bridget from seeing Marvin, but she visits him anyway. Meanwhile, Ray flies to Boston to search for Sully; Abby and Deb commiserate over drinks and get themselves into trouble; and Mickey manipulates Sean into working with him on a movie project.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yjK1AzPpVfWPUTVCJZT8IbePp8O.jpg",
+          "title": "New Birthday"
+        },
+        {
+          "aired": "2013-08-18",
+          "plot": "Ray, Terry and Bunchy toast the anniversary of their sister Bridget's death. Frances shows up with a black eye and Terry goes after her husband. Ray and Avi get Bunchy's money back. Mickey meets a former starlet at a spa. Lena has an altercation with her girlfriend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2sHXxjHs8NfLrnWmDwWB3Kw7KzB.jpg",
+          "title": "Bridget"
+        },
+        {
+          "aired": "2013-08-25",
+          "plot": "Avi drives Sully from Boston to Los Angeles. Conor wants to go to an awards show with Tommy Wheeler. Mickey works with Van to get incriminating evidence against Sean Walker.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/880nNlKU7qUa2NDAsDAx6BJTN8n.jpg",
+          "title": "Road Trip"
+        },
+        {
+          "aired": "2013-09-08",
+          "plot": "Ray and the family attend fight night at Terry's club. Meanwhile, Ray's plan with Sully is put into action. Mickey has a rendezvous. Bunchy encounters someone from his past, sending him into a tailspin.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2gsaWOhweSt4ivFVgEgfBI3QBKo.jpg",
+          "title": "Fite Nite"
+        },
+        {
+          "aired": "2013-09-15",
+          "plot": "Bunchy has a violent encounter. Ray is called to handle a crisis at Terry's club. Ray meets with Ezra. The police question Mickey about a recent murder. Ray sends Avi to protect Abby and the kids from Sully.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rrGS8OCQ3BsgBKMPYhhTcxhoHpu.jpg",
+          "title": "Bucky Fuckin' Dent"
+        },
+        {
+          "aired": "2013-09-22",
+          "plot": "Ray and Avi track down Eddie. Bunchy kicks Mickey out of his apartment. Ray leaks Sully's whereabouts to the press. Abby and the kids hide out at a swank Malibu resort.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9rQkD4dWsUTaqmMd0exSlqLfFyt.jpg",
+          "title": "Same Exactly"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Yo Soy Capítan",
-        "Uber Ray",
-        "Gem and Loan",
-        "S U C K",
-        "Irish Spring",
-        "Viagra",
-        "Walk this Way",
-        "Sunny",
-        "Snowflake",
-        "Volcheck",
-        "Rodef",
-        "The Captain"
+        {
+          "aired": "2014-07-13",
+          "plot": "Just as Ray's life begins to return to normal, the FBI demands that he bring Mickey back from Mexico, where he is setting up a fight for Daryll. Abby, concerned that he won't face his abuse, forces Ray into therapy with her. Meanwhile Bunchy gets nervous about a job interview, Terry obsesses over his ex-girlfriend and Conor lands in hot water after assaulting a classmate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/48ppciqBoGydYQkrfQ4WMFyK45k.jpg",
+          "title": "Yo Soy Capítan"
+        },
+        {
+          "aired": "2014-07-20",
+          "plot": "Ray forces Mickey to return to LA. A reporter investigates Sully's death.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5UDhf4GjATFatxr0dC1vW4IeChS.jpg",
+          "title": "Uber Ray"
+        },
+        {
+          "aired": "2014-07-27",
+          "plot": "Ray and Abby face a hurdle to getting Bridget into her dream school.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pKW5EGE851IrbImj4HjaOuxv7vP.jpg",
+          "title": "Gem and Loan"
+        },
+        {
+          "aired": "2014-08-03",
+          "plot": "Kate's investigation zeroes in on Mickey. Meanwhile, Tiny, a former member of Sully's gang, jeopardizes Cochran's career, and Ray tries to get Tiny safely out of the country. Mickey begins working at a Mexican restaurant; Abby meets a new friend at a gun range; and Bunchy encounters a potential new love interest.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/medYjgFXNzUKKSff72O1QMfp2Lu.jpg",
+          "title": "S U C K"
+        },
+        {
+          "aired": "2014-08-10",
+          "plot": "Ray gets compromising information on Cochran, who is interrogating Mickey. Meanwhile, Abby tries to have fun with her prospective Trousdale neighbors and gets closer to Jim, her cop friend; Marvin gives Bridget an earring and takes her to a party; and Ray brings Conor to apologize to Alex.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/csUtRIsxCxSXm9iNjDJ2n99Z8cb.jpg",
+          "title": "Irish Spring"
+        },
+        {
+          "aired": "2014-08-17",
+          "plot": "Ray seeks help in taking down Cochran. Mickey hopes for a big payday.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oZ5dBwOrwrnbzubFkJesdUwKVGb.jpg",
+          "title": "Viagra"
+        },
+        {
+          "aired": "2014-08-24",
+          "plot": "Conor demands a birthday party with Terry, Bunchy and Mickey in attendance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p81JBNOu7Mi6PtOYY8mtaqyBQUU.jpg",
+          "title": "Walk this Way"
+        },
+        {
+          "aired": "2014-08-31",
+          "plot": "Lee reneges on Ray's deal with Cookie. Kate reopens her investigation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cSRVQiFENd4VqA1ZtDKssi5KbxQ.jpg",
+          "title": "Sunny"
+        },
+        {
+          "aired": "2014-09-07",
+          "plot": "Bridget finds herself in a difficult position when both Ray and Abby give her conflicting advice. Marvin and Rekon's music rights cause issues for the fixer. Bunchy is left in a compromising position with Patty's son.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rxNfLcpF8N8hrTHn9LUZw37ZChh.jpg",
+          "title": "Snowflake"
+        },
+        {
+          "aired": "2014-09-14",
+          "plot": "Ashley's stalker, Bob Lepecka, shows up and causes trouble for Steve Knight. Cochran becomes officially nominated for the FBI directorship.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2zkL29gClClARGjd2bFCnxVngnM.jpg",
+          "title": "Volcheck"
+        },
+        {
+          "aired": "2014-09-21",
+          "plot": "Ray prepares in case he's arrested. Mickey's heist doesn't go as planned.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2KzPswbnJ8qus17VtExGc1JkU4u.jpg",
+          "title": "Rodef"
+        },
+        {
+          "aired": "2014-09-28",
+          "plot": "Mickey hatches a new plan. Abby is torn between Ray and Jim.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ziqCVg4zjOTKHGii9RJPiz87wi0.jpg",
+          "title": "The Captain"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "The Kalamazoo",
-        "Ding",
-        "Come and Knock on Our Door",
-        "Breakfast of Champions",
-        "Handshake Deal",
-        "Swing Vote",
-        "All Must Be Loved",
-        "Tulip",
-        "The Octopus",
-        "One Night in Yerevan",
-        "Poker",
-        "Exsuscito"
+        {
+          "aired": "2015-07-12",
+          "plot": "Ray is enlisted by a wealthy family to free their son.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7eR8Hvn8lKyRpLwvODNcqkD8ThA.jpg",
+          "title": "The Kalamazoo"
+        },
+        {
+          "aired": "2015-07-19",
+          "plot": "Paige Finney calls Ray to protect a quarterback. Lena considers quitting.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n0egSaIHGIGKhyOX6A0V8bRxjWy.jpg",
+          "title": "Ding"
+        },
+        {
+          "aired": "2015-07-26",
+          "plot": "Ray and Mickey make a desperate attempt to get Terry released from prison.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iLQvGuEY9bXjlrBltFm4zqIMzP9.jpg",
+          "title": "Come and Knock on Our Door"
+        },
+        {
+          "aired": "2015-08-02",
+          "plot": "Ray puts out fires as Paige tries to broker a deal. Abby goes to Boston.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/skYhUgjg6P4746lale0W7eZTclw.jpg",
+          "title": "Breakfast of Champions"
+        },
+        {
+          "aired": "2015-08-09",
+          "plot": "Ray's new mission drives a wedge between Finney and Paige.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mF3uQn2xF7iD9EEkkWCInF5LX6p.jpg",
+          "title": "Handshake Deal"
+        },
+        {
+          "aired": "2015-08-16",
+          "plot": "Ray must ensure Verona's Election Day victory to protect his NFL interests.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xeNK0QkERXPBnQvrOBFSYKmDKha.jpg",
+          "title": "Swing Vote"
+        },
+        {
+          "aired": "2015-08-23",
+          "plot": "Ray is contacted by Romero. Bunchy joins Mickey against the Minassians.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j1e8qzvyEQnvSZWLhUkeL7oWBjN.jpg",
+          "title": "All Must Be Loved"
+        },
+        {
+          "aired": "2015-08-30",
+          "plot": "Romero appears at the Fite Club, challenging Ray to repent for his sins.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uRJoG1oJd0cyvTnWeuYGMiWbPuI.jpg",
+          "title": "Tulip"
+        },
+        {
+          "aired": "2015-09-06",
+          "plot": "An attempt to draw Mickey out of hiding jeopardizes Bunchy's wedding.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xkt1FwqccduqOXzI3CnOI7QCufH.jpg",
+          "title": "The Octopus"
+        },
+        {
+          "aired": "2015-09-13",
+          "plot": "Ray comes up with a fix to help Mickey. Bridget gets into a fight.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3ZI3zLcvYkGbxvirDoeNJ1jNLtv.jpg",
+          "title": "One Night in Yerevan"
+        },
+        {
+          "aired": "2015-09-20",
+          "plot": "Mickey pushes his luck by throwing himself a goodbye party.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gd6gnZL0737hx9z4PzuZCqFRcWa.jpg",
+          "title": "Poker"
+        },
+        {
+          "aired": "2015-09-27",
+          "plot": "Abby and Terry finally tell Ray the truth about Bridget. Season finale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aT3wnCjRzdVZMU0UYLjtNjwCoZw.jpg",
+          "title": "Exsuscito"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "Girl With Guitar",
-        "Marisol",
-        "Little Bill Primm's Big Green Horseshoe",
-        "Federal Boobie Inspector",
-        "Get Even Before Leavin'",
-        "Fish and Bird",
-        "Norman Saves the World",
-        "The Texan",
-        "Goodbye Beautiful",
-        "Lake Hollywood",
-        "Chinese Algebra",
-        "Rattus Rattus"
+        {
+          "aired": "2016-06-26",
+          "plot": "Ray is in recovery mode in the aftermath of the shootout. Meanwhile, Bunchy and Teresa face impending parenthood as Abby receives a diagnosis that threatens to upend her family. In hiding, Mickey plots a heist.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lpMoRfQVWEq7VI3c3nkWrzL5ggH.jpg",
+          "title": "Girl With Guitar"
+        },
+        {
+          "aired": "2016-07-03",
+          "plot": "Ray helps Hector handle a person from his past who risks unearthing a secret that could ruin his career. As Bunchy attempts to please a very pregnant Teresa, Abby offers him a lesson in marital compromise. Meanwhile, an act of petty larceny leads to a renewed sense of purpose for Terry - and Detective Muncie uses evidence against the Donovans to force Ray's hand.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6pAcefmssPv1cO7EXgArDgots8S.jpg",
+          "title": "Marisol"
+        },
+        {
+          "aired": "2016-07-10",
+          "plot": "An intruder breaks into the Donovan household, forcing the family closer together as Bridget struggles to maintain her independence. In Primm, Mickey schemes to rob a casino with the help of a lounge singer and a man named Ed. Meanwhile, with a baby due at any minute, Bunchy and Teresa navigate their marital woes under lockdown, and Ray visits Belikov in prison to strike a deal.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2rraY9kd5XOQKdnTDRu2sCHW9R1.jpg",
+          "title": "Little Bill Primm's Big Green Horseshoe"
+        },
+        {
+          "aired": "2016-07-17",
+          "plot": "Ray pays a visit to a Hollywood power-player and unearths a secret Ezra shared in the past. Lena and an ex-girlfriend take Abby for a night on the town to help her confront her fears over a recent health diagnosis. Mickey offers his boys a job prospect while trying to assimilate back into the family.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tBWvXSs1UdrgfjP4WgeH7Rmyhnd.jpg",
+          "title": "Federal Boobie Inspector"
+        },
+        {
+          "aired": "2016-07-24",
+          "plot": "With the Russian mob threatening his family, Ray finds himself on a road trip with Mickey to Primm, in hopes of recovering money stolen from a local casino owner. Bunchy and Bridget take turns looking after baby Maria when Teresa withdraws to her family's house. And Terry gains confidence as a trainer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q2nxDna4XGCM22UNiyUKiBAC6UA.jpg",
+          "title": "Get Even Before Leavin'"
+        },
+        {
+          "aired": "2016-07-31",
+          "plot": "Ray finds himself in a holding pattern, waiting to see if Belikov will be released from prison. An art dealer invites Ray to a breast cancer benefit where he encounters some former clients. Teresa spirals into postpartum depression. Meanwhile, Mickey goes to great lengths to convince the DA that he was the one behind the Minassian massacre.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q1S3Z1Akt1aKl9tXXXFD87tgKBD.jpg",
+          "title": "Fish and Bird"
+        },
+        {
+          "aired": "2016-08-07",
+          "plot": "Searching for a way to get Mickey out of prison, Ray turns to an old opponent to secure a bartering chip in the form of a less-than-wholesome family comedy star. A long-buried scandal leads Ray to an unexpected confrontation with a slick Hollywood agent and a former fixer of Ezra's. Meanwhile, without the protection of the Russians, Ray must help Mickey secure his own safety and gain admittance to the secure K6G prison wing.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p6SWRKHTHOFKFXaXXylGSStmJeO.jpg",
+          "title": "Norman Saves the World"
+        },
+        {
+          "aired": "2016-08-14",
+          "plot": "Ray enlists Lena and Daryll to ensure the rematch with Whittaker proceeds.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aKTVO5gLNDCYoVaWveIKLr4VPT4.jpg",
+          "title": "The Texan"
+        },
+        {
+          "aired": "2016-08-21",
+          "plot": "Avi and Lena question Ray's loyalty to Sonia. Mickey returns to Primm.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iuCFR4YLHmVkk3pFymngnGgA4k5.jpg",
+          "title": "Goodbye Beautiful"
+        },
+        {
+          "aired": "2016-08-28",
+          "plot": "Confronted with a crisis, Ray strategizes. Hector reaches a breaking point.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/59G7GdEkHsVenWKtzrxV7xooxom.jpg",
+          "title": "Lake Hollywood"
+        },
+        {
+          "aired": "2016-09-11",
+          "plot": "As Ray devises an attempt to save Avi, Agent Barnes makes him an offer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zmiGttNqBcZ5MSwFx655ViVCmnP.jpg",
+          "title": "Chinese Algebra"
+        },
+        {
+          "aired": "2016-09-18",
+          "plot": "Ray attempts to play his adversaries against each other. Season finale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1TfiTpZEKoTB1nqGlq7l7nhrbC1.jpg",
+          "title": "Rattus Rattus"
+        }
       ]
     },
     "5": {
       "episodes": [
         null,
-        "Abby",
-        "Las Vegas",
-        "Dogwalker",
-        "Sold",
-        "Shabbos Goy",
-        "Shelley Duvall",
-        "If I Should Fall from Grace with God",
-        "Horses",
-        "Mister Lucky",
-        "Bob the Builder",
-        "Michael",
-        "Time Takes a Cigarette"
+        {
+          "aired": "2017-08-06",
+          "plot": "Ray begins court-ordered anger management after a family tragedy sparks a bar fight. Mickey, Bunchy and Daryll prepare for Terry and Maureen's wedding. Bridget looks up a mysterious acquaintance in New York. Conor, away from home for the first time, grows accustomed to military school. Meanwhile, Sam Winslow, a powerful new employer, comes into Ray's life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jHVVOBOEWN2HdfGhPTllBoA3s5b.jpg",
+          "title": "Abby"
+        },
+        {
+          "aired": "2017-08-13",
+          "plot": "A flashback to Ray and Abby's 21st anniversary when they went to Las Vegas to see Damon's first televised fight. In the present, movie star Natalie James hires Ray to protect her from an abusive husband/manager, which draws him deeper into Sam Winslow's web. Hopes for a beautiful day are dashed at Terry and Maureen's wedding as tensions flare between the Donovans and the Dohertys.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wqUAj06VtTJlp3zGZPP9LvsmLVh.jpg",
+          "title": "Las Vegas"
+        },
+        {
+          "aired": "2017-08-20",
+          "plot": "Ray cleans up Natalie's mess. At home, however, he struggles to reconnect with his family and complete anger management. Unable to reach Maureen, Terry visits Conor at military school. A surprise visit from Frank Barnes threatens to sink Mickey back into a life of violence. Bunchy happens upon the business opportunity of a lifetime to provide for Teresa and Maria.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/z1qcZbRTlsJNljut6WIkoj0As3F.jpg",
+          "title": "Dogwalker"
+        },
+        {
+          "aired": "2017-08-27",
+          "plot": "Mickey's screenwriting dreams stall out - until he's pulled into a gruesome fix for Daryll's movie star client. Abby starts construction on the new bar while Ray searches for a solution to their problem. Terry tries to win back Maureen one last time; Bunchy's quest for financial independence gets derailed; and Bridget tells her boyfriend who her father really is.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3mTEGhd6LMYDHJm1LfwgqggCtvo.jpg",
+          "title": "Sold"
+        },
+        {
+          "aired": "2017-09-10",
+          "plot": "Ray's therapy is at odds with the high-stakes power struggle between Sam and her opponents. Mickey - at Frank's behest - seeks out an old friend of the Donovan's. Meanwhile, Terry takes Damon to New York to train for a fight; Bunchy is confronted by sins from the Donovan past; and Bridget tries to reconcile with Smitty - until a major crisis forces them together.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/drSvyfLpxkxdDzQRJidnnmqymJm.jpg",
+          "title": "Shabbos Goy"
+        },
+        {
+          "aired": "2017-09-17",
+          "plot": "Abby makes a shocking decision that reverberates throughout the family. Ray runs interference for Natalie, while Sam shows him the lengths she'll go to protect her empire. In his attempt to free Bunchy, Mickey finds himself caught in the middle of someone else's war. Terry visits with Bridget and discovers a truth that shakes him to his core.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eakrSRVz1ggdJvePtKIYhLu6S6l.jpg",
+          "title": "Shelley Duvall"
+        },
+        {
+          "aired": "2017-09-24",
+          "plot": "For Bunchy's sake, Ray is forced to step in and save Mickey from himself. Terry returns to LA with a devastating confession. Daryll and Mickey butt heads over the direction of their movie. Bunchy helps out a fellow inmate - on the condition that he'll help retrieve the settlement money. And one Donovan goes to extreme measures to protect the family.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lEOPuf6hbdlN3c41agsShrmIiE8.jpg",
+          "title": "If I Should Fall from Grace with God"
+        },
+        {
+          "aired": "2017-10-01",
+          "plot": "A last-ditch medical trial sends Ray on a dark mission in New York. Alone in LA, Abby turns to Terry and Bridget to help her make the toughest decision of her life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jS6swu2biAGiDXTdl0Dh4qQROvU.jpg",
+          "title": "Horses"
+        },
+        {
+          "aired": "2017-10-08",
+          "plot": "Natalie's fame puts Ray's career in jeopardy when, for the first time ever, he becomes the story. Mickey and Daryll celebrate getting the greenlight on their movie. Terry prepares to leave the Fite Club behind for good. Bunchy gets in over his head; Bridget takes Smitty's problem into her own hands; and Ray hunts down the source of Sam's problems.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gYnVEtykUgsZkpsq17DX4KCQp3T.jpg",
+          "title": "Mister Lucky"
+        },
+        {
+          "aired": "2017-10-15",
+          "plot": "Ray and Terry put their differences aside to try and fix Bunchy's problem once and for all. Meanwhile, Jay asks for a secret meeting with Daryll to decide the future of the movie and their relationship; Bridget's last-ditch effort to save Smitty lands her in an unexpected place; and in the wake of a tragedy, Ray turns on Sam - consequences be damned.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jnog9g5cPGgLK5NGSB97TAWwJ3v.jpg",
+          "title": "Bob the Builder"
+        },
+        {
+          "aired": "2017-10-22",
+          "plot": "Ray searches for Frank Barnes in an attempt to get Bridget out of jail. Meanwhile in New York, Terry deals with the return of Damon's father and then takes care of Smitty at Bridget's request. Back in LA, Bunchy is hit with a heartbreaking confession from Teresa.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rhsAwz2PeveyLzggteLBTWoQ3ZM.jpg",
+          "title": "Michael"
+        },
+        {
+          "aired": "2017-10-29",
+          "plot": "Ray goes to New York to arrange an illicit surgery that will hopefully save Smitty. Sam agrees to help - but only on the condition that Ray commit a brutal act. Meanwhile, Daryll struggles with his loyalties as Mickey tries to get himself out of jail by turning the tables on Ray. Season finale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9NZDEUKsXINBOkDfmRqjsCaCkOf.jpg",
+          "title": "Time Takes a Cigarette"
+        }
       ]
     },
     "6": {
       "episodes": [
         null,
-        "Staten Island (1)",
-        "Staten Island (2)",
-        "He Be Tight. He Be Mean.",
-        "Pudge",
-        "Ellis Island",
-        "A Girl Named Maria",
-        "The 1-3-2",
-        "Who Once Was Dead",
-        "Dream On",
-        "Baby",
-        "Never Gonna Give You Up",
-        "The Dead"
+        {
+          "aired": "2018-10-28",
+          "plot": "Ray is pulled from the East River by Police Officer Sean “Mac” McGrath. Taken over the bridge to Staten Island, Ray finds a chance at a new life, but it is interrupted when Sam Winslow comes calling. With the ghosts of his past returning, and his father Mickey plotting something in prison, Ray may not have a choice but to return to his roots. Season premiere.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xZKgsCTxCd2Uij1lvoHNME7DxKW.jpg",
+          "title": "Staten Island (1)"
+        },
+        {
+          "aired": "2018-11-04",
+          "plot": "No matter how much he wants it to go away, Ray isn’t done cleaning up the fallout from his jump. People are asking questions, and there’s a witness willing to give answers that could rock Mac and Ray’s worlds. Across the country, Mickey’s heart attack behind bars forces the family to wrestle with what could be their father’s final days.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zWLU0XXokNCd5AZ4NmBBTnf5UHZ.jpg",
+          "title": "Staten Island (2)"
+        },
+        {
+          "aired": "2018-11-11",
+          "plot": "Ray is officially back working for Sam, and with Anita behind in the polls, they have to make a splash at the first mayoral debate. Darryl struggles with his leading man on the set of Mr. Lucky. Terry discovers a brutal new gym hidden in a warehouse in Brooklyn. And three generations of Donovans make their way from California to New York. Mickey’s coming, and no one knows what he has planned for his sons who betrayed him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/buhT5bPx293Nmc8Nqzv5dD186HM.jpg",
+          "title": "He Be Tight. He Be Mean."
+        },
+        {
+          "aired": "2018-11-18",
+          "plot": "Mickey kidnaps movie star Jay White, and Ray has to get 3 million dollars from Sam Winslow to get Jay back in one piece. Mickey and Bunchy plot a future for themselves. Mac finds himself backed into a corner as Internal Affairs comes after him. Terry steps into the ring for the first time in twenty years. Smitty has to confront the secrets of his past and ends up calling on his future father-in-law for help.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gS7FQyrJFYqJxXLM6piRjiFmR89.jpg",
+          "title": "Pudge"
+        },
+        {
+          "aired": "2018-11-25",
+          "plot": "Hoping to make up for lost time, Ray plans a day with Conor in New York before he ships out overseas with the Marines. Sam and Ray put together a fix to give Anita a bump in popularity. Sam tries to strike a deal with Mayor Ferrati. Mickey devises a radical plan to recoup his losses. Bunchy asks Terry for a favor.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s2UpzaUcma6WaaqZPqJda6Ihv9V.jpg",
+          "title": "Ellis Island"
+        },
+        {
+          "aired": "2018-12-02",
+          "plot": "A masked intruder with ties to the mayor makes a threat on Sam’s life. In looking for answers, Ray uncovers more than he bargained for. Now he’s got a target on his back and a friend whom he doesn’t know if he can trust. Searching for their ticket out of the country, Mickey and Bunchy board the Hampton Jitney. Bridget babysits her baby cousin, as Terry can’t stay away from his chance to fight again.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3dX9sG9bAW6y6mXXtM5pVlVAtpK.jpg",
+          "title": "A Girl Named Maria"
+        },
+        {
+          "aired": "2018-12-07",
+          "plot": "With Ray’s work on Anita’s campaign getting in his way, Mac lays all of his cards on the table. Knowing what his friend is facing, Ray must choose where his loyalty lies. Terry and Darryl bring Bunchy home to Boston to get in touch with their roots. Mickey considers the great white north.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mI5yaRBMuNDv0TzEHU654XvP3xt.jpg",
+          "title": "The 1-3-2"
+        },
+        {
+          "aired": "2018-12-16",
+          "plot": "Ray works to make things right with Sam, but she has her own ideas about controlling damage. Bunchy comes back to New York with some missing goods. Terry spends the night with someone from his past. Bridget pays the price for her father’s actions.",
+          "thumbnail": "",
+          "title": "Who Once Was Dead"
+        },
+        {
+          "aired": "2018-12-23",
+          "plot": "Ray struggles to get the help he so desperately needs, causing Bridget to learn some hard truths about her father. Ray makes a move to save both Novak’s campaign and Mac’s life. Mickey sees an opportunity to recoup some of his losses. Darryl and Sandy find common ground.",
+          "thumbnail": "",
+          "title": "Dream On"
+        },
+        {
+          "aired": "2018-12-30",
+          "plot": "With Ray on the run, Radulovic and the Staten Island cops take a drastic measure: a move that sends Ray on a warpath. Mickey confronts his son. Sam makes her final move to win the election.",
+          "thumbnail": "",
+          "title": "Baby"
+        },
+        {
+          "aired": "2019-01-06",
+          "plot": "It’s all-out war between cops and family, as the Donovans band together to save one of their own. Running out of options, Mac faces a difficult decision.",
+          "thumbnail": "",
+          "title": "Never Gonna Give You Up"
+        },
+        {
+          "aired": "2019-01-13",
+          "plot": "Ray settles his final scores and revisits the past with his father. The Donovans clean up their mess. Smitty gets a crash course in what it means to be a part of the family. Season finale",
+          "thumbnail": "",
+          "title": "The Dead"
+        }
       ]
     },
     "7": {
       "episodes": [
         null,
-        "Faith. Hope. Love. Luck.",
-        "A Good Man is Hard to Find",
-        "Phantom",
-        "Hispes",
-        "An Irish Lullaby",
-        "Inside Guy",
-        "The Transfer Agent",
-        "Passport and a Gun",
-        "Bugs",
-        "You'll Never Walk Alone"
+        {
+          "aired": "2019-11-17",
+          "plot": "Ray brings Mickey to the FBI to turn himself in. Four months later, when one of the police officers’ heads turns up and Ray and his family are implicated in the murder, Ray finds his work with his therapist threatening to unravel. Meanwhile, Mayor Feratti is back to his corrupt ways with increasingly unsavoury jobs for Ray, including blackmailing a powerful family from the Donovans’ Boston past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nF8YPrAzimGVVrDd2UyznbO5yd3.jpg",
+          "title": "Faith. Hope. Love. Luck."
+        },
+        {
+          "aired": "2019-11-24",
+          "plot": "Ray must find a new way to get Detective Perry off his trail while reckoning with a personal loss. When Bunchy’s pharmacy is under attack, he takes matters into his own hands and is catapulted into the public spotlight. Daryll’s isolation mounts as he struggles to find his place in the Donovan family.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rhy8kTBLZFF1L5ktXd0ZvyJYgVC.jpg",
+          "title": "A Good Man is Hard to Find"
+        },
+        {
+          "aired": "2019-12-01",
+          "plot": "Ray gets closer with Molly Sullivan when he realizes their family connection. Claudette comes to New York and discovers that Daryll is on Detective Perry’s radar. Bunchy tries to leverage his heroism for a pay raise. Bridget gets closer with her music producer boss, and Terry goes on a trip with his new spiritual guide.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/59XwIvhTDS8jkQ9PTjm0Olu6QVU.jpg",
+          "title": "Phantom"
+        },
+        {
+          "aired": "2019-12-08",
+          "plot": "Mayor Feratti ups the ante in his negotiations with the Sullivans, and Ray must step in to finish the deal. Bridget and Smitty are called in to fix Jonathan Walker Hanson’s unsavory publicity scandal. Claudette offers Daryll an opportunity to leave the Donovans once and for all, while Bunchy grapples with the consequences of his drugstore violence, and Terry struggles with the realities of his illness.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ixag4568CIaDChS2rzJU8fSZ7Hr.jpg",
+          "title": "Hispes"
+        },
+        {
+          "aired": "2019-12-15",
+          "plot": "After Feratti’s display of force, Ray and Terry travel to Coney Island to track down Ray’s missing car. Mickey, Daryll, and Sandy continue their quest for the truth about the 1977 heist. Bunchy uses a few tricks he learned at the pharmacy to make some quick cash, and Smitty seeks revenge on Adam Rain.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rbIkid6hjgF43lTahOcIwinkxzD.jpg",
+          "title": "An Irish Lullaby"
+        },
+        {
+          "aired": "2019-12-22",
+          "plot": "Things heat up between Molly and Ray, but their families get in the way when Bridget, Bunchy, and Jim Sullivan all need Ray to fix their problems. Terry and Smitty help Ray with some detective work and Ray struggles to stay on Mickey’s trail, while at the same time keeping Detective Perry off of his own.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1DzDpr1elBb4E0AELwojpUCAbxF.jpg",
+          "title": "Inside Guy"
+        },
+        {
+          "aired": "2019-12-29",
+          "plot": "Mickey finally learns the truth about the botched heist, and he’s out to get his fair share of the money. Ray reflects on his early memories of Jim Sullivan while he and Molly track down Sandy and Mickey by any means necessary. Smitty is questioned by the police and confronted with the consequences of his actions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fCrlxWbL91j93RRQ9MhLZjytKR1.jpg",
+          "title": "The Transfer Agent"
+        },
+        {
+          "aired": "2020-01-05",
+          "plot": "Ray and Smitty must cover for their own actions. Daryll calls Jasmine with an opportunity that lands them face-to-face with Declan Sullivan. Terry and Bunchy head back upstate to settle some unfinished business with the Shaman.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kQQNIQIod5WZCMgmjuDremQr4Nx.jpg",
+          "title": "Passport and a Gun"
+        },
+        {
+          "aired": "2020-01-12",
+          "plot": "With his back against the wall, Ray turns to Judge Scholl to clear his name with Det. Perry. Daryll is pushed to the edge by the Sullivans while Mickey continues to chase Jim's money. Terry makes an unexpected friend at physical therapy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lXkyT81XxzuApYq4tuz0Ch5vCXh.jpg",
+          "title": "Bugs"
+        },
+        {
+          "aired": "2020-01-19",
+          "plot": "Ray finally learns the truth about his sister Bridget's death; Terry reckons with the death of a friend and his own mortality; Mickey's quest for the money he's owed leads to a deadly face-off between the Sullivans and the Donovans.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dgsSJRFefDlAHyFjRbw430uN1LH.jpg",
+          "title": "You'll Never Walk Alone"
+        }
       ]
     }
   },

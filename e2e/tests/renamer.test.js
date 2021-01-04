@@ -1,5 +1,6 @@
 context('Renamer', () => {
   const SERIES_ID__HUNTER_X = 46298;
+  const IMG_SCRAPE_TIMEOUT = 5 * (60 * 1000); // 5 minutes
   const acceptedExts = ['avi', 'mkv', 'mp4'];
   const appConfig = {};
   let fileNames;
@@ -155,8 +156,8 @@ context('Renamer', () => {
       'Stargate SG-1 - 1x01x02 - Children of the Gods.mkv',
       'Steins;Gate 0 - 1x02 - Epigraph of the Closed Curve -Closed Epigraph-.mkv',
       'Suits - 8x12 - Whale Hunt.mkv',
-      'Supernatural - 14x10 - Nihilism.mkv',
-      'Supernatural - 14x15 - Peace of Mind.mkv',
+      'Supernatural (2005) - 14x10 - Nihilism.mkv',
+      'Supernatural (2005) - 14x15 - Peace of Mind.mkv',
       'The Blacklist - 6x02 - The Corsican.mkv',
       'The Dragon Prince - 2x03 - Smoke and Mirrors.mkv',
       'The Good Doctor - 2x11 - Quarantine (2).mkv',
@@ -164,13 +165,13 @@ context('Renamer', () => {
       'The Last O.G. - 3x04 - They Reminisce Over You.mkv',
       'The Magicians (2015) - 4x01 - A Flock of Lost Birds.mkv',
       'The Orville - 2x03 - Home.mkv',
-      'The Rookie - 1x09 - Standoff.mkv',
+      'The Rookie (2018) - 1x09 - Standoff.mkv',
       'The Umbrella Academy - 1x02 - Run Boy Run.mkv',
       'True Detective - 3x01 - The Great War and Modern Memory.mkv',
       'Veep - 1x01 - Fundraiser.mkv',
       'Veep - 2x08 - First Response.mkv',
       'Veep - 2x09 - Running.mkv',
-      'Vikings - 5x17 - The Most Terrible Thing.mkv',
+      'Vikings (2013) - 5x17 - The Most Terrible Thing.mkv',
       "Wayne - 1x03 - CHAPTER THREE- 'THE GODDAMNED BEACON OF TRUTH'.mkv",
       "You're the Worst - 5x01 - The Intransigence of Love.mkv",
       'Young Justice - 3x02 - Royal We.mkv',
@@ -193,16 +194,16 @@ context('Renamer', () => {
     cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
-    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
+    cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT }).each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx] }`);
     });
     
     const deletedFolders = [
-      '✓Deleted folder: "/home/node/app/_temp_/src/Dirty.John.S01E01.720p.HDTV.x265"',
-      '✓Deleted folder: "/home/node/app/_temp_/src/Dirty.John.S01E02.720p.HDTV.x265"',
-      '✓Deleted folder: "/home/node/app/_temp_/src/MONEY HEIST SEASON (1-4)"',
-      '✓Deleted folder: "/home/node/app/_temp_/src/Psych.Season.1-8.720p.x265.HEVC-LION[UTR]"',
-      '✓Deleted folder: "/home/node/app/_temp_/src/Veep S01-S06 (1080p x265 10bit)"',
+      '✔Deleted folder: "/media/files/src/Dirty.John.S01E01.720p.HDTV.x265"',
+      '✔Deleted folder: "/media/files/src/Dirty.John.S01E02.720p.HDTV.x265"',
+      '✔Deleted folder: "/media/files/src/MONEY HEIST SEASON (1-4)"',
+      '✔Deleted folder: "/media/files/src/Psych.Season.1-8.720p.x265.HEVC-LION[UTR]"',
+      '✔Deleted folder: "/media/files/src/Veep S01-S06 (1080p x265 10bit)"',
     ];
     cy.get('.app__section:nth-child(2) .log-item__deleted').each(($el, ndx) => {
       expect($el.text()).to.equal(deletedFolders[ndx]);
@@ -267,7 +268,7 @@ context('Renamer', () => {
       'Mob Psycho 100 - 2x07 - Cornered ~True Identity~.mkv',
       'Shameless (2011) - 9x11 - The Hobo Games.mkv',
       'Sword Art Online - 3x19 - The Seal of the Right Eye.mkv',
-      'Tell Me a Story (2018) - 1x10 - Chapter 10- Forgiveness.mkv',
+      'Tell Me a Story - 1x10 - Chapter 10- Forgiveness.mkv',
       'The Legend of Korra - 1x01 - Welcome to Republic City.mkv',
     ];
     cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
@@ -278,13 +279,13 @@ context('Renamer', () => {
     
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
-    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
+    cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT }).each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx] }`);
     });
     
     const deletedFolders = [
-      '✓Deleted folder: "/home/node/app/_temp_/src/Big.Fat.Quiz.Of.Everything.2018.HDTV.x264"',
-      '✓Deleted folder: "/home/node/app/_temp_/src/Sword.Art.Online.Alicization.19.1080p.WEBRip.x265.HEVC.10bit.AAC.2.0"',
+      '✔Deleted folder: "/media/files/src/Big.Fat.Quiz.Of.Everything.2018.HDTV.x264"',
+      '✔Deleted folder: "/media/files/src/Sword.Art.Online.Alicization.19.1080p.WEBRip.x265.HEVC.10bit.AAC.2.0"',
     ];
     cy.get('.app__section:nth-child(2) .log-item__deleted').each(($el, ndx) => {
       expect($el.text()).to.equal(deletedFolders[ndx]);
@@ -338,7 +339,7 @@ context('Renamer', () => {
     screenshot('.app', 'series episode found after cache update');
     
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
-    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
+    cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT }).each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newName }`);
     });
     
@@ -361,8 +362,8 @@ context('Renamer', () => {
     screenshot('.app', 'previewing names by DVD order');
     
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
-    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
-      expect($el.text()).to.equal(`${ appConfig.output }/Futurama/${ newName }`);
+    cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT }).each(($el, ndx) => {
+      expect($el.text()).to.equal(`${ appConfig.output }/Futurama/Season 01/${ newName }`);
     });
     
     screenshot('.app', 'file renamed');
@@ -381,9 +382,13 @@ context('Renamer', () => {
       url: '/api/v1/preview',
       response: [
         {
+          cacheKey: 'high_maintenance_2016',
+          episodeNdx: 2,
           id: SERIES_ID,
           index: '3',
           name: 'High Maintenance (2016) - 3x02 - Craig',
+          seasonNumber: 3,
+          seasonOrder: 'broadcast',
           seriesName: 'High Maintenance (2016)',
           seriesURL: `https://www.themoviedb.org/tv/${ SERIES_ID }`,
         },
@@ -417,9 +422,9 @@ context('Renamer', () => {
     cy.get('.assign-id__assign-btn').click();
     
     const newNames = [
-      ['High Maintenance (2016)', 'High Maintenance (2016) - 3x02 - Craig.mkv'],
-      ['High Maintenance', 'High Maintenance - 1x08 - Jonathan.mkv'],
-      ['High Maintenance', 'High Maintenance - 1x09 - Elijah.mkv'],
+      ['High Maintenance (2016)/Season 03', 'High Maintenance (2016) - 3x02 - Craig.mkv'],
+      ['High Maintenance/Season 01', 'High Maintenance - 1x08 - Jonathan.mkv'],
+      ['High Maintenance/Season 01', 'High Maintenance - 1x09 - Elijah.mkv'],
     ];
     cy.get('#modals').should('be.empty');
     cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
@@ -429,7 +434,7 @@ context('Renamer', () => {
     screenshot('.app', 'previewing assigned series names');
     
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
-    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
+    cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT }).each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ newNames[ndx][0] }/${ newNames[ndx][1] }`);
     });
     
@@ -491,7 +496,7 @@ context('Renamer', () => {
     
     cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
-    cy.get('.app__section:nth-child(2) .log-item__to').each(($el, ndx) => {
+    cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT }).each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ epName }`);
     });
     
@@ -567,12 +572,12 @@ context('Renamer', () => {
     cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
     const logs = [
-      `${ appConfig.output }/My Name Is Earl/My Name Is Earl - 1x01 - Pilot.mkv`,
-      `${ appConfig.output }/My Name Is Earl/My Name Is Earl - 1x02 - Quit Smoking.mkv`,
-      `${ appConfig.output }/My Name Is Earl/My Name Is Earl - 2x01 - Very Bad Things.mkv`,
-      `✓Deleted folder: "${ appConfig.source }/My Name is Earl S01-S04 Season 1-4"`,
+      `${ appConfig.output }/My Name Is Earl/Season 01/My Name Is Earl - 1x01 - Pilot.mkv`,
+      `${ appConfig.output }/My Name Is Earl/Season 01/My Name Is Earl - 1x02 - Quit Smoking.mkv`,
+      `${ appConfig.output }/My Name Is Earl/Season 02/My Name Is Earl - 2x01 - Very Bad Things.mkv`,
+      `✔Deleted folder: "${ appConfig.source }/My Name is Earl S01-S04 Season 1-4"`,
     ];
-    cy.get('.log-item__body').each(($log, logNdx) => {
+    cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT }).each(($log, logNdx) => {
       const logMsg = logs[logNdx];
       expect($log.text()).to.equal(logMsg);
     });

@@ -1,35 +1,163 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [],
   "id": 106014,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/originalnull",
+      "poster": "https://image.tmdb.org/t/p/original/yCcozhFKIecvP3JxzRk70CGEg6s.jpg"
+    }
+  },
+  "mpaa": "",
   "name": "High Maintenance",
+  "plot": "A nameless cannabis delivery guy delivers his much-needed medication to stressed-out New Yorkers.",
+  "premiered": "2012-11-09",
+  "status": "Ended",
+  "studios": [
+    "Vimeo"
+  ],
+  "actors": [
+    {
+      "name": "Ben Sinclair",
+      "order": 500,
+      "role": "The Guy",
+      "thumb": "/h5TSpNlyBIFWMii6RZHgBr0MNtn.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Stevie",
-        "Heidi",
-        "Jamie",
-        "Trixie",
-        "Olivia",
-        "Helen",
-        "Dinah",
-        "Jonathan",
-        "Elijah",
-        "Brad Pitts",
-        "Qasim",
-        "Matilda",
-        "Rachel"
+        {
+          "aired": "2012-11-09",
+          "plot": "The guy delivers to a cute chick stressed out by her psychotic boss.",
+          "thumbnail": "",
+          "title": "Stevie"
+        },
+        {
+          "aired": "2012-11-09",
+          "plot": "A guy meets a clingy girl after a recent breakup. He calls the guy and finally sees the light.",
+          "thumbnail": "",
+          "title": "Heidi"
+        },
+        {
+          "aired": "2012-11-09",
+          "plot": "The guy delivers to a lesbian couple and helps them with a rodent problem.",
+          "thumbnail": "",
+          "title": "Jamie"
+        },
+        {
+          "aired": "2013-01-07",
+          "plot": "The guy delivers to a couple who are renting a room to inconsiderate guests on Airbnb.",
+          "thumbnail": "",
+          "title": "Trixie"
+        },
+        {
+          "aired": "2013-01-07",
+          "plot": "The guy delivers to a sick woman and her isolated son and shares an uncomfortable moment with him.",
+          "thumbnail": "",
+          "title": "Olivia"
+        },
+        {
+          "aired": "2013-01-07",
+          "plot": "The Guy delivers to an agoraphobic man who has lives with his mother and is obsessed with Helen.",
+          "thumbnail": "",
+          "title": "Helen"
+        },
+        {
+          "aired": "2013-02-19",
+          "plot": "A couple's relationship is tested by a house guest.",
+          "thumbnail": "",
+          "title": "Dinah"
+        },
+        {
+          "aired": "2013-04-20",
+          "plot": "The guy tries to cheer up Hannibal Buress.",
+          "thumbnail": "",
+          "title": "Jonathan"
+        },
+        {
+          "aired": "2013-04-20",
+          "plot": "A private chef is hired to prepare a Passover dinner.",
+          "thumbnail": "",
+          "title": "Elijah"
+        },
+        {
+          "aired": "2013-04-20",
+          "plot": "An uptight woman discusses Brad Pitts with her birdwatching friend who she discovers is very ill. She suggests that they smoke marijuana together to help with her friend's low appetite. Meanwhile, the guy gets high with two professional stoners.",
+          "thumbnail": "",
+          "title": "Brad Pitts"
+        },
+        {
+          "aired": "2013-11-29",
+          "plot": "Scott, a young adult workout addict with a regimented lifestyle, meets Kitty, a cute girl from spin class, and they go on a date. When Kitty discovers the motivation behind Scott's odd sleep schedule, she is less than thrilled.",
+          "thumbnail": "",
+          "title": "Qasim"
+        },
+        {
+          "aired": "2014-02-04",
+          "plot": "The Guy struggles to entertain his teenage niece.",
+          "thumbnail": "",
+          "title": "Matilda"
+        },
+        {
+          "aired": "2014-03-26",
+          "plot": "One in the series of critically acclaimed High Maintenance shorts, Rachel focuses on Colin (Dan Stevens of Downton Abbey), a husband, stay-at-home father and writer. When he starts to fixate on his insecurities about past success and his secret tendencies to dress up in his wife's designer clothing, writer's block sets in. Procrastination, pot and fashion fill his days until he gets some needed encouragement from an unlikely source. This witty short is a beautiful portrait of acceptance from outside and in.",
+          "thumbnail": "",
+          "title": "Rachel"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Ruth",
-        "Geiger",
-        "Genghis",
-        "Sufjan",
-        "Esme",
-        "Sabrina"
+        {
+          "aired": "2014-11-11",
+          "plot": "The guy plays matchmaker, sending two middle-aged marijuana enthusiasts on a first date.",
+          "thumbnail": "",
+          "title": "Ruth"
+        },
+        {
+          "aired": "2014-11-11",
+          "plot": "A woman struggles with her fiancé's increasing paranoia and survival tendencies.",
+          "thumbnail": "",
+          "title": "Geiger"
+        },
+        {
+          "aired": "2014-11-11",
+          "plot": "A frustrated cubicle-working idealist tries to make a difference in the world by becoming a teacher. His attempts fall flat and the experience challenges his optimism.",
+          "thumbnail": "",
+          "title": "Genghis"
+        },
+        {
+          "aired": "2015-02-05",
+          "plot": "Reagan and Ezra get priced out of Williamsburg and head to a more affordable neighborhood where they learn you can't have it all when it comes to New York real estate.",
+          "thumbnail": "",
+          "title": "Sufjan"
+        },
+        {
+          "aired": "2015-02-05",
+          "plot": "A hapless weed delivery girl fumbles her way through various misguided pursuits and steals some of the Guy's customers along the way.",
+          "thumbnail": "",
+          "title": "Esme"
+        },
+        {
+          "aired": "2015-02-05",
+          "plot": "Six friends escape the city and head upstate for a weekend, but they spend more time worrying about their careers than enjoying themselves.",
+          "thumbnail": "",
+          "title": "Sabrina"
+        }
       ]
     }
   },

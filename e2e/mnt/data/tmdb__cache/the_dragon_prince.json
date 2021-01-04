@@ -1,48 +1,323 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Action & Adventure",
+    "Sci-Fi & Fantasy",
+    "Animation",
+    "Family"
+  ],
   "id": 81046,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/350123/seasonposter/the-dragon-prince-5c57f668c86fe.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/350123/seasonposter/the-dragon-prince-5c66ad05bb9b1.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/350123/seasonposter/the-dragon-prince-5ddc25488f76d.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/350123/showbackground/the-dragon-prince-5c57ee01471c6.jpg",
+        "https://assets.fanart.tv/fanart/tv/350123/showbackground/the-dragon-prince-5c57ee0151002.jpg",
+        "https://assets.fanart.tv/fanart/tv/350123/showbackground/the-dragon-prince-5c57ee0158415.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/350123/tvbanner/the-dragon-prince-5c57ee096e03d.jpg",
+        "https://assets.fanart.tv/fanart/tv/350123/tvbanner/the-dragon-prince-5c57ee0977e6f.jpg",
+        "https://assets.fanart.tv/fanart/tv/350123/tvbanner/the-dragon-prince-5c57ee0980327.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/350123/tvposter/the-dragon-prince-5c57ede9d280b.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/350123/tvthumb/the-dragon-prince-5c57edf7459c1.jpg",
+        "https://assets.fanart.tv/fanart/tv/350123/tvthumb/the-dragon-prince-5c57edf74eccf.jpg",
+        "https://assets.fanart.tv/fanart/tv/350123/tvthumb/the-dragon-prince-5c669e2702b3b.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/aIBNxPCyo4yZcK3waGDYvDyXiiV.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/d7PIRa6ez7ZEl9D4JUrnSsmcnVD.jpg"
+    }
+  },
+  "mpaa": "TV-Y7",
   "name": "The Dragon Prince",
+  "plot": "An extraordinary discovery inspires two human princes and an elven assassin to team up on an epic quest to bring peace to their warring lands.",
+  "premiered": "2018-09-14",
+  "status": "Returning Series",
+  "studios": [
+    "Netflix"
+  ],
+  "actors": [
+    {
+      "name": "Jack DeSena",
+      "order": 0,
+      "role": "Callum (voice)",
+      "thumb": "/4TXVF9XHtqJ69AzyzUMZTFK7xyi.jpg"
+    },
+    {
+      "name": "Paula Burrows",
+      "order": 1,
+      "role": "Rayla (voice)",
+      "thumb": "/ptn5uGezXeKIuyPqymsIZeLuDrM.jpg"
+    },
+    {
+      "name": "Sasha Rojen",
+      "order": 2,
+      "role": "Ezran (voice)",
+      "thumb": "/jTlk3AHIt3p9brFaE7JZlgcJN7d.jpg"
+    },
+    {
+      "name": "Erik Dellums",
+      "order": 500,
+      "role": "Aaravos",
+      "thumb": "/bCBsQZBcfBUcne3u7J5iFER8Qug.jpg"
+    },
+    {
+      "name": "Ellie King",
+      "order": 500,
+      "role": "Lujanne (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Jesse Inocalla",
+      "order": 500,
+      "role": "Soren (voice)",
+      "thumb": "/fr5iWfU1qjgUt83UtY3F0wEC4fq.jpg"
+    },
+    {
+      "name": "Racquel Belmonte",
+      "order": 500,
+      "role": "Claudia (voice)",
+      "thumb": "/tc3nFIRbtn6fcSHMHq9xTfrOKwD.jpg"
+    },
+    {
+      "name": "Omari Newton",
+      "order": 500,
+      "role": "Corvus (voice)",
+      "thumb": "/sm5maXokSm3X3ctZzb7htowLXNU.jpg"
+    },
+    {
+      "name": "Jason Simpson",
+      "order": 500,
+      "role": "Viren (voice)",
+      "thumb": "/nicxmXmjjQUMiiuwrnGwkBYobcZ.jpg"
+    },
+    {
+      "name": "Jonathan Holmes",
+      "order": 500,
+      "role": "Runaan (voice)",
+      "thumb": "/jlJax3JfsMfRgolrqhRxLOZurRz.jpg"
+    },
+    {
+      "name": "Luc Roderique",
+      "order": 500,
+      "role": "Harrow (voice)",
+      "thumb": "/jeAxcgvhKGTsiGyNnNTfG2qpK1S.jpg"
+    },
+    {
+      "name": "Adrian Petriw",
+      "order": 500,
+      "role": "Gren (voice)",
+      "thumb": "/3jbR14GEKoUCbrs3NVmQw8eWRvu.jpg"
+    },
+    {
+      "name": "Nahanni Mitchell",
+      "order": 500,
+      "role": "Ellis (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Rhona Rees",
+      "order": 2,
+      "role": "Nyx (voice)",
+      "thumb": "/6TBwRGBvWySSAWGHYQRzpQX4emI.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Echoes of Thunder",
-        "What is Done",
-        "Moonrise",
-        "Bloodthirsty",
-        "An Empty Throne",
-        "Through the Ice",
-        "The Dagger and the Wolf",
-        "Cursed Caldera",
-        "Wonderstorm"
+        {
+          "aired": "2018-09-14",
+          "plot": "As the human kingdom of Katolis braces for an attack by Moonshadow elves, King Harrow makes plans to send sons Callum and Ezran away to a safe place.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7edKFWqUIRbK6AtaHKIkwIuWhtL.jpg",
+          "title": "Echoes of Thunder"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "Determined to make up for her mistake, Rayla sneaks into the castle and corners Callum. Lord Viren offers the king a way to survive the attack.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9lhqWx6cNoOcdbpjLxbVkEcgLhx.jpg",
+          "title": "What is Done"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "With night falling, Rayla and the princes race to share what they've found and stop the attack. But first they'll have to get past Claudia.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uBvvjFKNvESJsiVnJPSxEgpHMvr.jpg",
+          "title": "Moonrise"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "Excited about his newfound powers, Callum convinces the others to travel to the Banther Lodge for a magic cube. Katolis prepares to crown a new king.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bQgfV0aGcTmHLBW0bXJ0vuOT0sI.jpg",
+          "title": "Bloodthirsty"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "Callum struggles to control his magic, General Amaya clashes with Lord Viren, and a trip down the river takes a hair-raising turn.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bfNBduxL6WpQR5YhiiaNLogMNAC.jpg",
+          "title": "An Empty Throne"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "After a run-in with a soldier, Rayla leads the princes to high ground. Viren gives Soren and Claudia secret orders as they set out on their mission.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gQLFhtafB9hLvFtC8ieeOngRBpT.jpg",
+          "title": "Through the Ice"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "In a nearby village, Callum and Ezran seek help for the egg while Rayla hunts down a magic blade. Claudia collects ingredients for a tracking spell.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kSxDkn8k3O2wfbRZr40Al44cxu8.jpg",
+          "title": "The Dagger and the Wolf"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "Ellis leads the friends to the Cursed Caldera but warns it's crawling with nasty monsters. Viren tries to force Runaan to talk.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bWKMLLBNewR7khgLjwsxx9UWKRB.jpg",
+          "title": "Cursed Caldera"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "Ezran, Callum and Rayla each put their special talents to use as they make their way up the mountain in a desperate bid to save the egg.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f3CVwjdMCXgumXaHLEUw6jZNxCl.jpg",
+          "title": "Wonderstorm"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "A Secret and a Spark",
-        "Half Moon Lies",
-        "Smoke and Mirrors",
-        "Voyage of the Ruthless",
-        "Breaking the Seal",
-        "Heart of a Titan",
-        "Fire and Fury",
-        "The Book of Destiny",
-        "Breathe"
+        {
+          "aired": "2019-02-15",
+          "plot": "Before marching on toward Xadia, Callum begs Lujanne for a magic lesson, and Ezran tries to teach the dragon prince to fly. But danger is closing in.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ftaefq44Fe7OtdSRyJMmkZlaWR2.jpg",
+          "title": "A Secret and a Spark"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "After a fierce showdown with Rayla, Soren and Claudia argue about the best way to deal with the princes. Rayla worries she's kept a secret too long.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bKRJvBNhDVDSxChYQiuMpiB477H.jpg",
+          "title": "Half Moon Lies"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "Callum searches for a way to tell Ezran the sad news, and Rayla sets a trap for Claudia and Soren. Viren watches a mysterious figure in the mirror.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xTq18kf9nVi6iQe3k7GvHGtdRpH.jpg",
+          "title": "Smoke and Mirrors"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "After saying goodbye to Phoe-Phoe, the gang teams up with a pirate to cross a bay, where Callum tries to forge a connection with the sky arcanum.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/utDF1tj1DqTOBZl42DOtHpQtA27.jpg",
+          "title": "Voyage of the Ruthless"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "At the summit of the five kingdoms, Viren fights to win the support of a young queen. Flashbacks reveal a key moment from King Harrow's reign.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gVfjTyFExVaFdaSCk0Cad0XfQRW.jpg",
+          "title": "Breaking the Seal"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "The attack on the Magma Titan has devastating consequences for two kingdoms. In his letter, Harrow shares a lie, a secret and a wish for the princes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jvMUY29iqKQhQ8j8UqRbtNBuJF6.jpg",
+          "title": "Heart of a Titan"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "When Soren picks a fight with a dragon, chaos breaks out -- and Rayla faces a difficult decision. A defeated Viren returns to the figure in the mirror.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9V49xuGluMDLk50jSKuHmBFXb9H.jpg",
+          "title": "Fire and Fury"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "Callum pays a price for dabbling in dark magic. Claudia searches desperately for a way to help Soren, and Ezran makes a heartbreaking discovery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dXWAfA5kKlsBGt5jWH2MtmunCbs.jpg",
+          "title": "The Book of Destiny"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "After using his gift to help Claudia, Ezran makes an important decision about the quest. Callum wakes up with a new understanding of primal magic.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t8Bk7zIGzr4xYJQHMQRdkoKD7SY.jpg",
+          "title": "Breathe"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Sol Regem",
-        "The Crown",
-        "Ghost",
-        "The Midnight Desert",
-        "Heroes and Masterminds",
-        "Thunderfall",
-        "Hearts of Cinder",
-        "Dragonguard",
-        "The Final Battle"
+        {
+          "aired": "2019-11-22",
+          "plot": "To cross into Xadia, Rayla and Callum must find a way past a fearsome dragon who was blinded in a battle with a human.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3wayXERiMxhH892pu3LcnpmCTb9.jpg",
+          "title": "Sol Regem"
+        },
+        {
+          "aired": "2019-11-22",
+          "plot": "At his first High Council meeting, King Ezran faces a flurry of difficult decisions. Rayla guides Callum through a wonderland of magical creatures.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fs69goq4y0JED63wOMpe5rn9BAl.jpg",
+          "title": "The Crown"
+        },
+        {
+          "aired": "2019-11-22",
+          "plot": "Rayla returns home to an alarming discovery, the Sunfire elves decide Amaya's fate, and Claudia confronts her father.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oHRveG628NjMKY5j3ehtEznA2Rm.jpg",
+          "title": "Ghost"
+        },
+        {
+          "aired": "2019-11-22",
+          "plot": "A mysterious stranger offers Rayla, Callum and Zym a ride across the Midnight Desert. With Katolis in danger, Ezran makes a startling announcement.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/csPJIvRAk7WJBAsSz5nDoqk46c7.jpg",
+          "title": "The Midnight Desert"
+        },
+        {
+          "aired": "2019-11-22",
+          "plot": "Rayla and Callum race across the desert to find Nyx. As Katolis prepares for war, Ezran gets help from an unlikely source.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/skv5CsULYQ2RS3U9VGR80MJYMQU.jpg",
+          "title": "Heroes and Masterminds"
+        },
+        {
+          "aired": "2019-11-22",
+          "plot": "On the march to Xadia, Viren reveals how Avizandum, the Dragon King, met his end. Phoe-Phoe takes Ezran on an epic journey.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vaDWycxdrAaIbx8HX40vxJya72A.jpg",
+          "title": "Thunderfall"
+        },
+        {
+          "aired": "2019-11-22",
+          "plot": "As Team Zym begins the steep climb up to the Dragon Queen's lair, Viren and Aaravos play a nasty trick on the Sunfire elves.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sne7Dlyk0ndFnfWdKMpeXCJkj5L.jpg",
+          "title": "Hearts of Cinder"
+        },
+        {
+          "aired": "2019-11-22",
+          "plot": "With Viren's glowing army closing in on the Storm Spire, Rayla, Callum and friends must decide whether to flee to safety or stay and fight.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wRYhcdOqJE7LWTtO8f256T6aRCK.jpg",
+          "title": "Dragonguard"
+        },
+        {
+          "aired": "2019-11-22",
+          "plot": "Determined to save the Dragon Prince at any cost, the friends brace for a fiery showdown with Viren -- who still has a few surprises up his sleeve.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ezRx4bmFntnebNrAuiFflYCRApM.jpg",
+          "title": "The Final Battle"
+        }
       ]
     }
   },

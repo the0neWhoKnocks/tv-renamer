@@ -1,266 +1,1928 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Animation",
+    "Comedy"
+  ],
   "id": 32726,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/194031/clearart/BobsBurgers-194031.png",
+        "https://assets.fanart.tv/fanart/tv/194031/clearart/BobsBurgers-194031-2.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/194031/clearlogo/BobsBurgers-194031.png"
+      ],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-551eddc2dfb26.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-55e3447e2f33d.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-55e677ced16d9.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-55e344d2089d7.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-58484694e065f.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-5ddd62b6bef09.jpg"
+        ],
+        "7": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-5ddd62ff2eb2f.jpg"
+        ],
+        "8": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-5ddd632b1b6f7.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2953adce.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2af13acf.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2b981f8c.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2c6835d9.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2d1dcfcb.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da192f46d96.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da191f902eb.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da1951d2306.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da195f3f0f0.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da199149b93.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-55a6cef2db8f5.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/194031/tvbanner/bobs-burgers-55a6cf028407d.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-521fdf91f28e1.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43d58c600b.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43d8f69e74.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43ec1dd7a4.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43edb8b27b.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-5d8f3a5fd9ec0.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-5de202d93dd06.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-53d97418bae6e.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-4f5b95474a6eb.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-58a8e4d4d6391.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-5fcb12efc8d83.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/cIXaqUB2pOIEiQsgO85r9RMKzpe.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/s3p1itdt2lxYguLigF8Grwqqu8b.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "Bob's Burgers",
+  "plot": "Bob's Burgers follows a third-generation restaurateur, Bob, as he runs Bob's Burgers with the help of his wife and their three kids. Bob and his quirky family have big ideas about burgers, but fall short on service and sophistication. Despite the greasy counters, lousy location and a dearth of customers, Bob and his family are determined to make Bob's Burgers \"grand re-re-re-opening\" a success.",
+  "premiered": "2011-01-09",
+  "status": "Returning Series",
+  "studios": [
+    "FOX"
+  ],
+  "actors": [
+    {
+      "name": "H. Jon Benjamin",
+      "order": 0,
+      "role": "Bob Belcher (voice)",
+      "thumb": "/yZgBHrH8D9Jjo15fuQKnWV3U2OC.jpg"
+    },
+    {
+      "name": "Kristen Schaal",
+      "order": 1,
+      "role": "Louise Belcher (voice)",
+      "thumb": "/s3LSHVTx8gxHP2twYsXEGa8JbLl.jpg"
+    },
+    {
+      "name": "Eugene Mirman",
+      "order": 2,
+      "role": "Gene Belcher (voice)",
+      "thumb": "/7ua1lNOWxMOK8m7amVsvIatQ6G2.jpg"
+    },
+    {
+      "name": "John Roberts",
+      "order": 6,
+      "role": "Linda Belcher (voice)",
+      "thumb": "/s2cF0TVUTPWUaGKfM2ADZQdkypc.jpg"
+    },
+    {
+      "name": "Dan Mintz",
+      "order": 11,
+      "role": "Tina Belcher (voice)",
+      "thumb": "/avD0UskvT79HJNOjaZBRTPu5uoP.jpg"
+    },
+    {
+      "name": "David Herman",
+      "order": 77,
+      "role": "Mr. Frond",
+      "thumb": "/rMY168K2qAk5eBg368WK3y2yOEI.jpg"
+    },
+    {
+      "name": "Sarah Silverman",
+      "order": 59,
+      "role": "Ms. Schnur",
+      "thumb": "/g5G711XyVokJm2RoItpkaHa8mkQ.jpg"
+    },
+    {
+      "name": "Larry Murphy",
+      "order": 43,
+      "role": "Teddy/Griffin/Chicago Cop",
+      "thumb": "/bcKH9bGuVuoXdfhM7k0iE7kBiPQ.jpg"
+    },
+    {
+      "name": "Andy Kindler",
+      "order": 43,
+      "role": "Mort (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Sam Seder",
+      "order": 45,
+      "role": "Al",
+      "thumb": "/oz7Ri0iN6EvtlqBLlejhVR9V8px.jpg"
+    },
+    {
+      "name": "Jay Johnston",
+      "order": 122,
+      "role": "Jimmy Pesto",
+      "thumb": "/yvWh2TLed7myXCFRp2mmTM1Nq9E.jpg"
+    },
+    {
+      "name": "Bobby Tisdale",
+      "order": 128,
+      "role": "Zeke",
+      "thumb": "/igSMEpTJWtjzirHUsN3nb1CR5f3.jpg"
+    },
+    {
+      "name": "Brian Huskey",
+      "order": 106,
+      "role": "Rudy",
+      "thumb": "/3VIUkvDGLbCYxs4cl52ugEMMZiE.jpg"
+    },
+    {
+      "name": "Melissa Bardin Galsky",
+      "order": 74,
+      "role": "Director",
+      "thumb": null
+    },
+    {
+      "name": "Brooke Dillman",
+      "order": 97,
+      "role": "Dot",
+      "thumb": "/tmZM7jwbz8xMVGvp89T0TAhH1lL.jpg"
+    },
+    {
+      "name": "Kevin Kline",
+      "order": 108,
+      "role": "Mr. Fischoeder",
+      "thumb": "/pq1DXX3K0EZZrMn99MbxXcCXkFk.jpg"
+    },
+    {
+      "name": "Jenny Slate",
+      "order": 112,
+      "role": "Tammy/8th Grade Girl",
+      "thumb": "/8YgcvpcNPjfIvnqXGJ31dzIWl17.jpg"
+    },
+    {
+      "name": "Laura Silverman",
+      "order": 122,
+      "role": "Andy",
+      "thumb": "/exkzWCT64UnKYf7adAZ5ixWlBgE.jpg"
+    },
+    {
+      "name": "Paul F. Tompkins",
+      "order": 54,
+      "role": "Herman (voice)",
+      "thumb": "/nWAfT0mY4uTzQpZnPcMxRHnICCy.jpg"
+    },
+    {
+      "name": "Ron Lynch",
+      "order": 89,
+      "role": "Funtime Exec",
+      "thumb": null
+    },
+    {
+      "name": "Sarah Baker",
+      "order": 38,
+      "role": "Ms. Selbo (voice)",
+      "thumb": "/5MxJEPPcHSIr8IUH0vm8WMZ9CYJ.jpg"
+    },
+    {
+      "name": "Jerry Minor",
+      "order": 58,
+      "role": "Officer Julia",
+      "thumb": "/bUql01yhsXYj9PCQWbehru08Ek5.jpg"
+    },
+    {
+      "name": "John Michael Higgins",
+      "order": 106,
+      "role": "Doung",
+      "thumb": "/1McAEXIhRW2Q3LJsX3os90UXcJz.jpg"
+    },
+    {
+      "name": "Tim Heidecker",
+      "order": 110,
+      "role": "Dakota / Laser Tag Owner",
+      "thumb": "/W8BuzuASN9mfIY4dTZKXMRi6AE.jpg"
+    },
+    {
+      "name": "David Wain",
+      "order": 118,
+      "role": "Grover",
+      "thumb": "/kdgFfZq8virxDE8FB9l54yoWptr.jpg"
+    },
+    {
+      "name": "Aziz Ansari",
+      "order": 134,
+      "role": "Daryl",
+      "thumb": "/ssfy6hc9HZecwyuwJQrbB7A4Vrp.jpg"
+    },
+    {
+      "name": "Nathan Fielder",
+      "order": 15,
+      "role": "Jordan (voice)",
+      "thumb": "/eHJEoEck6eFEVaumhCMWpIHtIIr.jpg"
+    },
+    {
+      "name": "Jack McBrayer",
+      "order": 39,
+      "role": "Trip",
+      "thumb": "/cbr26xDPEiOuYQxggtCPbu5xhDU.jpg"
+    },
+    {
+      "name": "Pamela Adlon",
+      "order": 53,
+      "role": "Olsen Benner",
+      "thumb": "/e541ePtwZuHYP3zT0ANmpqUDFlw.jpg"
+    },
+    {
+      "name": "Todd Barry",
+      "order": 60,
+      "role": "Moo-Lissa",
+      "thumb": "/ijou8PynLr4z8uKK5vdJQwFU6AN.jpg"
+    },
+    {
+      "name": "Megan Mullally",
+      "order": 71,
+      "role": "Gayle / Jill",
+      "thumb": "/Aryh1osN66sCLAgsDugY7n4w0az.jpg"
+    },
+    {
+      "name": "Kerri Kenney-Silver",
+      "order": 96,
+      "role": "Esther / Paramedic #2",
+      "thumb": "/8BIBidgv08VXLttLeCN0trPFXNf.jpg"
+    },
+    {
+      "name": "Rob Huebel",
+      "order": 97,
+      "role": "Vance",
+      "thumb": "/uHz2fiBMRz2E6GmAH5sRJNvKHWI.jpg"
+    },
+    {
+      "name": "Thomas Middleditch",
+      "order": 125,
+      "role": "Alex",
+      "thumb": "/e6rjipqOp5iPjMMdU9YgGy8ueI.jpg"
+    },
+    {
+      "name": "Dana Powell",
+      "order": 4,
+      "role": "Karen (voice)",
+      "thumb": "/iEJB5IFSe84kRiAoKaM0NH0uVw0.jpg"
+    },
+    {
+      "name": "Jeffrey Tambor",
+      "order": 7,
+      "role": "Captain Flarty (voice)",
+      "thumb": "/e4IkxsEo5O4oUWrIpXlEhWa6lqB.jpg"
+    },
+    {
+      "name": "Renée Taylor",
+      "order": 11,
+      "role": "Gloria",
+      "thumb": "/XSPvLgklOxoTQZNso2sEsawQdU.jpg"
+    },
+    {
+      "name": "Brendon Small",
+      "order": 14,
+      "role": "Animal Control Guy",
+      "thumb": "/eO2Xzw1Nb2U40NyrzDN84pFqKFx.jpg"
+    },
+    {
+      "name": "Max Greenfield",
+      "order": 17,
+      "role": "Boo Boo",
+      "thumb": "/xVKWN0pEsZVbbP6nMjm0F7W7Hgq.jpg"
+    },
+    {
+      "name": "Josh Gad",
+      "order": 19,
+      "role": "Damon",
+      "thumb": "/17iKlfWZBDTAucqjkhRKHr9xjIz.jpg"
+    },
+    {
+      "name": "Rory O'Malley",
+      "order": 21,
+      "role": "Chad",
+      "thumb": "/1qgbNAWp4PQCqIQmQ4QPeNZtqfM.jpg"
+    },
+    {
+      "name": "Andrew Rannells",
+      "order": 22,
+      "role": "Hayden",
+      "thumb": "/wOXFZssfq3wymBwuiMNVNBpPENB.jpg"
+    },
+    {
+      "name": "Daveed Diggs",
+      "order": 24,
+      "role": "Jesse",
+      "thumb": "/1LLtCpfMOsumo42iIzr1djkesGM.jpg"
+    },
+    {
+      "name": "Robert Smigel",
+      "order": 32,
+      "role": "Yuli",
+      "thumb": "/cVmQokJLfjAnQPXTQ21K31hQjpY.jpg"
+    },
+    {
+      "name": "Thomas Lennon",
+      "order": 38,
+      "role": "Customer",
+      "thumb": "/s8pw7BfuMxN7P0p5XJ9POfod7zW.jpg"
+    },
+    {
+      "name": "Jon Glaser",
+      "order": 39,
+      "role": "Jario",
+      "thumb": "/wJW4JrjHUo8SAptqlsfK3yZkBrx.jpg"
+    },
+    {
+      "name": "Wendy Molyneux",
+      "order": 42,
+      "role": "Barbara's Friend",
+      "thumb": null
+    },
+    {
+      "name": "Holly Schlesinger",
+      "order": 43,
+      "role": "Barbara",
+      "thumb": null
+    },
+    {
+      "name": "Steve Agee",
+      "order": 45,
+      "role": "Glitter",
+      "thumb": "/uKVbxQJ60nksFoBKQfuGw6wOqrP.jpg"
+    },
+    {
+      "name": "Toby Huss",
+      "order": 46,
+      "role": "Robber",
+      "thumb": "/5G5qW92hB4Uu15R2PlTN45WD4Bj.jpg"
+    },
+    {
+      "name": "Oscar Nunez",
+      "order": 49,
+      "role": "Cha-Cha",
+      "thumb": "/UBILHiRphJdlshvsyH920QSAhk.jpg"
+    },
+    {
+      "name": "Amy Sedaris",
+      "order": 55,
+      "role": "Samantha",
+      "thumb": "/2HI7CSudw9oN7AvprxEDR2AaEo2.jpg"
+    },
+    {
+      "name": "Ben Garant",
+      "order": 60,
+      "role": "Torpedo",
+      "thumb": "/s9rT8CYCv9ID77GPTKQnNfksIFT.jpg"
+    },
+    {
+      "name": "Eric Wareheim",
+      "order": 62,
+      "role": "Phil Finnegan",
+      "thumb": "/x9STTsfrnC7SnuHuRczPFbGi6xp.jpg"
+    },
+    {
+      "name": "Will Forte",
+      "order": 64,
+      "role": "Kurt",
+      "thumb": "/kphnirb7YggSVEhGI47kACxaIJQ.jpg"
+    },
+    {
+      "name": "Ken Jeong",
+      "order": 67,
+      "role": "Dr. Yap",
+      "thumb": "/qyQjrabai21fueat4oPVylRbBwC.jpg"
+    },
+    {
+      "name": "James Adomian",
+      "order": 68,
+      "role": "Glenn",
+      "thumb": "/uVefQ6KShDhgTeUKEDS4vDsLhq.jpg"
+    },
+    {
+      "name": "Lennon Parham",
+      "order": 71,
+      "role": "Marsha",
+      "thumb": "/4j72PiVYOusmHCYRa5KDNgDlb8T.jpg"
+    },
+    {
+      "name": "Andrew Daly",
+      "order": 74,
+      "role": "Blake",
+      "thumb": "/mBbtTnfcxkFXH3RPomSO4VCyxYS.jpg"
+    },
+    {
+      "name": "Gary Cole",
+      "order": 76,
+      "role": "Sergeant Bosco",
+      "thumb": "/uWsqIlfHbyxkmBJLmq2mR93musF.jpg"
+    },
+    {
+      "name": "Jim Gaffigan",
+      "order": 82,
+      "role": "Henry Haber",
+      "thumb": "/vjsNoFWoTCXaBZ59qq6A03BeQs8.jpg"
+    },
+    {
+      "name": "Tim Meadows",
+      "order": 83,
+      "role": "Mike the Mailman",
+      "thumb": "/c7NvUYdkUDRnPDpmQgyXIG4HrcN.jpg"
+    },
+    {
+      "name": "Aparna Nancherla",
+      "order": 85,
+      "role": "Susmita",
+      "thumb": "/vwpktqJnQCAGEfq2EKUjB8ZdnhI.jpg"
+    },
+    {
+      "name": "Kurt Braunohler",
+      "order": 88,
+      "role": "Logan",
+      "thumb": "/5l0bFRt6d7JQ2d3iNZmJvXNAji3.jpg"
+    },
+    {
+      "name": "Jillian Bell",
+      "order": 90,
+      "role": "Mandy",
+      "thumb": "/v3oJlWGjdV3aHNXtGjWea3X1Tov.jpg"
+    },
+    {
+      "name": "Stephanie Allynne",
+      "order": 93,
+      "role": "Susan",
+      "thumb": "/orxxs8G1QdKt1tECyJu3qiWCV8M.jpg"
+    },
+    {
+      "name": "Eddie Pepitone",
+      "order": 94,
+      "role": "Reggie",
+      "thumb": "/wP39nqElulcTc1Er62SC7ILGXdN.jpg"
+    },
+    {
+      "name": "Lindsey Stoddart",
+      "order": 95,
+      "role": "Angie",
+      "thumb": "/qpLfiCItcwoOcPyEsWmMz1Xjob4.jpg"
+    },
+    {
+      "name": "Kaitlin Olson",
+      "order": 96,
+      "role": "Helen",
+      "thumb": "/t8I6YPdmPTBgdY5ymqygCxciMYf.jpg"
+    },
+    {
+      "name": "Sharon Horgan",
+      "order": 97,
+      "role": "Kathleen",
+      "thumb": "/63eQLRrcxPUaLdPoOx70gtPqrq4.jpg"
+    },
+    {
+      "name": "Lucy Davis",
+      "order": 98,
+      "role": "Princess Paula McCartney",
+      "thumb": "/A1ymILbxQA5w5TduCNaU0xD9C5a.jpg"
+    },
+    {
+      "name": "Peter Serafinowicz",
+      "order": 99,
+      "role": "Scottjon Dansteve",
+      "thumb": "/2tDC9kEQ8QKANUKSF0v5LTujGdG.jpg"
+    },
+    {
+      "name": "Joe Lo Truglio",
+      "order": 105,
+      "role": "Don",
+      "thumb": "/6un98WmgjAllrzMwjjZF2Bn8XZc.jpg"
+    },
+    {
+      "name": "Tiffany Haddish",
+      "order": 107,
+      "role": "Patricia",
+      "thumb": "/ivLhcXp38OlPybsFe8gSCklcYxP.jpg"
+    },
+    {
+      "name": "Steve Berg",
+      "order": 109,
+      "role": "Steve",
+      "thumb": "/rXYD0Zqx4lqz7c3XWwA6TG75AzB.jpg"
+    },
+    {
+      "name": "Wendi McLendon-Covey",
+      "order": 110,
+      "role": "Mudflap",
+      "thumb": "/gBVheNdkfDMPtC7S3XGhz2YTrms.jpg"
+    },
+    {
+      "name": "Rhys Darby",
+      "order": 114,
+      "role": "Duncan",
+      "thumb": "/q6Grd42OgTUbRcTarZhR9piA6a5.jpg"
+    },
+    {
+      "name": "Tom Kenny",
+      "order": 117,
+      "role": "Guy / Box Puppet / Paramedic #1",
+      "thumb": "/o6sC2IsjL7KncT4pZBOx4T0WKhM.jpg"
+    },
+    {
+      "name": "Nick Offerman",
+      "order": 122,
+      "role": "Clem",
+      "thumb": "/7gnfjpIKhBCjfnZJEieIvjwzXLD.jpg"
+    },
+    {
+      "name": "Ron Funches",
+      "order": 124,
+      "role": "Patrick",
+      "thumb": "/f0DJiBdDZ7UD8rcZeig0Yv6Dkhj.jpg"
+    },
+    {
+      "name": "Damon Wayans Jr.",
+      "order": 129,
+      "role": "Arnold Adams",
+      "thumb": "/8Fl3Livgg2t8m7W5SvYxmAnLAfn.jpg"
+    },
+    {
+      "name": "Jessica St. Clair",
+      "order": 130,
+      "role": "Joanne",
+      "thumb": "/lKIgq19oEx5ashQFF3QRYwMx0wz.jpg"
+    },
+    {
+      "name": "Keisuke Hoashi",
+      "order": 132,
+      "role": "Mr. Kim/ Danny",
+      "thumb": "/3TX7J1O36t7XWBFVeDeLTaiPSuM.jpg"
+    },
+    {
+      "name": "Jamie Moyer",
+      "order": 133,
+      "role": "Colleen",
+      "thumb": null
+    },
+    {
+      "name": "George Wallace",
+      "order": 133,
+      "role": "Mr. Huggins (voice)",
+      "thumb": "/ggukkf32UYeAZchFCAY7X6Z9szI.jpg"
+    },
+    {
+      "name": "Dave Allen",
+      "order": 134,
+      "role": "Bill (voice)",
+      "thumb": "/voFl4dudgMmfBKsF0HJAOJGXXEx.jpg"
+    },
+    {
+      "name": "Mark Proksch",
+      "order": 136,
+      "role": "Mr. Dinkler",
+      "thumb": "/7hxunQakkjd7D8Ld461ImT9EGLP.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Demo for Fox (Pilot)",
-        "Louise's Chalkboard"
+        {
+          "aired": "2012-04-17",
+          "plot": "The original pilot of Bob's Burgers features a rather different vision that the final product.  The episode was shorter, the animation was much more limited, and eldest daughter Tina was actually Daniel.  The plot of the pilot is near identical to that of the first aired episode of the show, \"Human Flesh\", where Bob is accused of selling burgers made out of the bodies from Mort's funeral home next door.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qEcleCT3IXFqXb0wOnvGqBg1nb3.jpg",
+          "title": "Demo for Fox (Pilot)"
+        },
+        {
+          "aired": "2012-04-17",
+          "plot": "Louise secretly helps Bob name the burger of the day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jGaj59OhgUNTiPNARbaVuWyBW1B.jpg",
+          "title": "Louise's Chalkboard"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Human Flesh",
-        "Crawl Space",
-        "Sacred Cow",
-        "Sexy Dance Fighting",
-        "Hamburger Dinner Theater",
-        "Sheesh! Cab, Bob?",
-        "Bed & Breakfast",
-        "Art Crawl",
-        "Spaghetti Western and Meatballs",
-        "Burger War",
-        "Weekend at Mort's",
-        "Lobsterfest",
-        "Torpedo"
+        {
+          "aired": "2011-01-09",
+          "plot": "A health inspector's visit coincides with Bob's efforts to bring in customers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3DeAa3L77itYEIimE5B89vQ6MQt.jpg",
+          "title": "Human Flesh"
+        },
+        {
+          "aired": "2011-01-16",
+          "plot": "A leaky roof causes Bob to get trapped in a wall while Linda's mother visits.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sLBdzc5vhkpzaC2zbliCDfhy4sC.jpg",
+          "title": "Crawl Space"
+        },
+        {
+          "aired": "2011-01-23",
+          "plot": "Bob takes to a film maker's cow.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sjga1n3XWs4pyyMFhO7MFpFJtce.jpg",
+          "title": "Sacred Cow"
+        },
+        {
+          "aired": "2011-02-13",
+          "plot": "Tina develops a crush on her martial arts instructor.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zUgLtUGSC4i0kHKZ64nKn2UIE5R.jpg",
+          "title": "Sexy Dance Fighting"
+        },
+        {
+          "aired": "2011-02-20",
+          "plot": "Linda and the kids stage a murder mystery that doesn't go as planned.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ujbIFLc0OUd7ksHHUfeXIH6qUX8.jpg",
+          "title": "Hamburger Dinner Theater"
+        },
+        {
+          "aired": "2011-03-06",
+          "plot": "Tina is desperate to get her first kiss at her 13th birthday party. But after Louise breaks the deep fryer, Bob takes a second job as a late-night cab driver to pay for Tina’s party.\n\nThings keep getting worse for Bob when the parents of Tina’s crush refuse to let their son attend the party, and Bob has to do everything in his power to save his daughter’s big day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/puCe5pkmexktefy94dIHDokrTna.jpg",
+          "title": "Sheesh! Cab, Bob"
+        },
+        {
+          "aired": "2011-03-13",
+          "plot": "Linda hosts a bed and breakfast, but her guests aren't as grateful as she would like.  Things take a turn for the worse when Louise's room is rented to Teddy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o2MfRrFld8DPPpmlX5MFpCfpPd.jpg",
+          "title": "Bed & Breakfast"
+        },
+        {
+          "aired": "2011-03-20",
+          "plot": "It's Bob vs. the city art council when Linda's sister displays her work at Bob's Burgers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pOyIPupKtnOcQyCoQQokju10a29.jpg",
+          "title": "Art Crawl"
+        },
+        {
+          "aired": "2011-03-27",
+          "plot": "Bob and Gene bond over spaghetti western movies, which makes Louise jealous.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tBtty7fSOcio7H1rEoASGXCuFJ4.jpg",
+          "title": "Spaghetti Western and Meatballs"
+        },
+        {
+          "aired": "2011-04-10",
+          "plot": "When Bob's eccentric landlord, Mr. Fischoeder, pays the family a visit, he informs Bob that his rival across the street, Jimmy Pesto of Jimmy Pesto's Pizzeria, wants to take over Bob's lease so that he can expand his gift shop. With little time and not enough money, the Belcher family must cook up some business or luck to save the restaurant.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5MAzihyDHe9bo1ac4gQiwZKstNn.jpg",
+          "title": "Burger War"
+        },
+        {
+          "aired": "2011-05-08",
+          "plot": "Bob and his family are forced to spend the weekend at Mort the Mortician's while the restaurant is being de-molded. Linda and Bob double date with Mort and a female mortician he meets online while Tina babysits Gene and Louise in Mort’s crematorium.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5lHC32qlp43zlhlU65YSq3AzIft.jpg",
+          "title": "Weekend at Mort's"
+        },
+        {
+          "aired": "2011-05-15",
+          "plot": "After the town's annual Lobsterfest is cancelled by a storm, Bob defiantly opens his doors for a festive celebration. When he wakes the next morning, Bob finds the restaurant in disarray and that the town has spurned him, but Bob won't let that deter him from further involvement in the celebratory weekend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wKjG69AF28TlLsrCVcx2x00MIEP.jpg",
+          "title": "Lobsterfest"
+        },
+        {
+          "aired": "2011-05-22",
+          "plot": "Bob's hero, a washed-up baseball player named Torpedo Jones, starts pitching for the local minor league team. Torpedo befriends Bob, but the dark underbelly of minor league baseball threatens to corrupt the Belchers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jd61dITSP4Njqyl9lSsMl3NssDD.jpg",
+          "title": "Torpedo"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "The Belchies",
-        "Bob Day Afternoon",
-        "Synchronized Swimming",
-        "Burgerboss",
-        "Food Truckin'",
-        "Dr. Yap",
-        "Moody Foodie",
-        "Bad Tina",
-        "Beefsquatch"
+        {
+          "aired": "2012-03-11",
+          "plot": "The kids hunt for treasure in an abandoned taffy factory and Bob and Linda must find them before the factory’s scheduled demolition",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6atQgUUrkqX8cwiiTSDLXHkWg65.jpg",
+          "title": "The Belchies"
+        },
+        {
+          "aired": "2012-03-18",
+          "plot": "A bank robber holds up a bank across the street from Bob’s Burgers. When the robbery goes awry, Bob finds himself at the center of a hostage crisis.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zzqhpgbYGdl5dhSTHPSYDVvVUax.jpg",
+          "title": "Bob Day Afternoon"
+        },
+        {
+          "aired": "2012-03-25",
+          "plot": "The kids con their way out of gym class with a bogus synchronized swimming independent study. Meanwhile, Bob welcomes a new soft serve ice cream machine to the restaurant.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mXLvoE6RCGZYsTYUWDOUiDKwH4w.jpg",
+          "title": "Synchronized Swimming"
+        },
+        {
+          "aired": "2012-04-01",
+          "plot": "Bob becomes obsessed with an old-school burger-flipping video game after Jimmy Pesto gets the high score and writes \"BOB SUX\" on the leader board.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cuh3T7lDKjWyMF1TziAIrbL9QDC.jpg",
+          "title": "Burgerboss"
+        },
+        {
+          "aired": "2012-04-15",
+          "plot": "The Belchers beg Bob to buy a food truck to compete against the ones that are stealing his customers. When the \"Lolla-Pa-Foods-A-Festival\" comes up, the Belchers bring the truck and the kids decide to cause mischief. Unfortunately, this causes a riot to rise from the other food truckers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tj2LQODimA88RVo3V83YUeKhWSH.jpg",
+          "title": "Food Truckin'"
+        },
+        {
+          "aired": "2012-04-29",
+          "plot": "While Bob is medicated, he mistakes Linda's sister, Gayle, for his wife and kisses her. After she falls for him, Bob seeks help from Dr. Yap.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x0u2SLNcxarB7sK4AY3nG6AtxtC.jpg",
+          "title": "Dr. Yap"
+        },
+        {
+          "aired": "2012-05-06",
+          "plot": "The restaurant receives a negative review from a vicious food critic.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d5c8d4Kf0vd8wU6v7TARNcujDTT.jpg",
+          "title": "Moody Foodie"
+        },
+        {
+          "aired": "2012-05-13",
+          "plot": "Tina befriends a bad girl in a bid to get closer to Jimmy Junior.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3yyRsYss4UzdiK766fohS0GuWwJ.jpg",
+          "title": "Bad Tina"
+        },
+        {
+          "aired": "2012-05-20",
+          "plot": "Bob appears in a cooking segment on a local news morning program, but Gene steals the show when he crashes the set with a sasquatch mask.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xlqxwhDPsOvjl8LxkLnkY9hldGJ.jpg",
+          "title": "Beefsquatch"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Ear-sy Rider",
-        "Full Bars",
-        "Bob Fires the Kids",
-        "Mutiny on the Windbreaker",
-        "An Indecent Thanksgiving Proposal",
-        "The Deepening",
-        "Tinarannosaurus Wrecks",
-        "The Unbearable Like-Likeness of Gene",
-        "Bob Rest Ye Merry Gentle-Mannequins",
-        "Mother Daughter Laser Razor",
-        "Nude Beach",
-        "Broadcast Wagstaff School News",
-        "My Fuzzy Valentine",
-        "Lindapendent Woman",
-        "O.T.: The Outside Toilet",
-        "Topsy",
-        "Two for Tina",
-        "It Snakes a Village",
-        "Family Fracas",
-        "The Kids Run the Restaurant",
-        "Boyz 4 Now",
-        "Carpe Museum",
-        "The Unnatural"
+        {
+          "aired": "2012-09-30",
+          "plot": "A biker gang sets up shop in the restaurant, where they lament the loss of their beloved leader.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aztF57FN6ZUa3hOYAogtE855w20.jpg",
+          "title": "Ear-sy Rider"
+        },
+        {
+          "aired": "2012-10-07",
+          "plot": "The Belcher kids break with a long standing Halloween tradition, veering away from their usual trick or treat trek in favor of a posh neighborhood that's known for its oversize goodies.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wUtxz5wRp3hERIA6vbOGEvKnwQ1.jpg",
+          "title": "Full Bars"
+        },
+        {
+          "aired": "2012-11-04",
+          "plot": "Worried that his kids are not enjoying summer vacation because he's making them work in the restaurant, Bob fires them. But they soon become bored and take jobs as \"weed pickers\" for a pair of hippie farmers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t8lY5OJXJvLQ6cig9V6QAzIWH3h.jpg",
+          "title": "Bob Fires the Kids"
+        },
+        {
+          "aired": "2012-11-11",
+          "plot": "Bob does a tour of duty as a private chef on a docked cruise ship and brings along the family to witness his true culinary skills, but the special occasion is scuttled when the kooky captain shanghais the whole family.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dZehNlwsXV5BcLyLzkG99ttmoKi.jpg",
+          "title": "Mutiny on the Windbreaker"
+        },
+        {
+          "aired": "2012-11-18",
+          "plot": "Bob's plans for his favorite holiday, Thanksgiving, change when Mr. Fischoeder (voice of Kevin Kline) hires him as a chef, and Linda and the kids to play his family, as he tries to stage a perfect holiday dinner in order to make a former flame jealous.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/g1xBb3VPtGJcTBdWVRpvpHhkouk.jpg",
+          "title": "An Indecent Thanksgiving Proposal"
+        },
+        {
+          "aired": "2012-11-25",
+          "plot": "Mr. Fischoeder's new pier attraction, a mechanical shark, goes haywire and terrorizes the town, and it falls to Bob and the family to catch it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AeqD3w2IKiOEL3GgJq4OfQYWLdb.jpg",
+          "title": "The Deepening"
+        },
+        {
+          "aired": "2012-12-02",
+          "plot": "After Tina accidentally wrecks the car, and gets the whole family involved with a slimy insurance agent, she worries that she’s a “jinx”.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oA4SehjDRBhVmRSOPOkdNqyOT70.jpg",
+          "title": "Tinarannosaurus Wrecks"
+        },
+        {
+          "aired": "2012-12-09",
+          "plot": "Gene gets his first girlfriend, but it doesn't take long for the family to realize that she is incredibly annoying and they pressure him to break up with her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dG8poW0yWXEgUYzOdLjey01bfih.jpg",
+          "title": "The Unbearable Like-Likeness of Gene"
+        },
+        {
+          "aired": "2012-12-16",
+          "plot": "When Bob inherits a storage unit around Christmas, visions of riches dance in the heads of the family, but what they find inside is a squatter who claims he once worked as a mannequin.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xhH8ecNFgvhVoX143AWzvaMNtyP.jpg",
+          "title": "Bob Rest Ye Merry Gentle-Mannequins"
+        },
+        {
+          "aired": "2013-01-06",
+          "plot": "Linda worries that her relationship with Louise isn't as good as it should be, so, much to Louise's chagrin, she forces the young lady to participate in a mother-daughter seminar. With mom away, Tina turns to Bob for a lesson in shaving her legs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3JENwHvrM5yMyiwGNB9cfNqx2Ak.jpg",
+          "title": "Mother Daughter Laser Razor"
+        },
+        {
+          "aired": "2013-01-13",
+          "plot": "The new health inspector proves to be a decent fellow, until he blackmails Bob into being allowed to perform his atrocious music at the restaurant, which drives away the customers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tuLN8ALXMyJufJjPY1swLAYEMVv.jpg",
+          "title": "Nude Beach"
+        },
+        {
+          "aired": "2013-01-27",
+          "plot": "There is a “Mad Pooper” running wild at the Belcher children's middle school and Tina finds herself on a mission to get to the “bottom” of the situation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dxpPfl8SXkgrNEUgbgB9d6p0guO.jpg",
+          "title": "Broadcast Wagstaff School News"
+        },
+        {
+          "aired": "2013-02-10",
+          "plot": "When a heart-shaped pancake simply doesn't cut it, the kids convince Bob to let them skip school in order to help him find a Valentine's Day gift that will \"wow\" Linda. Meanwhile, in the spirit of the romantic holiday, Linda sets up a speed-dating event at the restaurant that doesn't go exactly as planned.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/whN2qA9LdZ6Mnd2Ys4QD5yM2w7i.jpg",
+          "title": "My Fuzzy Valentine"
+        },
+        {
+          "aired": "2013-02-17",
+          "plot": "Linda thinks Bob doesn't appreciate her and quits the restaurant to work at a grocery store. In her absence, Bob tries - and fails - to run the place on his own and the kids are stuck in the middle of the marital mayhem. Meanwhile, things get romantic for Tina when she meets her potential soul mate while restocking the milk fridge.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cLMSip2CzMPv1UpYZhwS2Higmae.jpg",
+          "title": "Lindapendent Woman"
+        },
+        {
+          "aired": "2013-03-03",
+          "plot": "When Gene finds an expensive talking toilet out in the woods, he and his friends decide to protect it as much as they can while an evil toilet hunter is looking for the toilet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/liUcjx5DyMI4f1Srl2UN4MDQYcP.jpg",
+          "title": "O.T.- The Outside Toilet"
+        },
+        {
+          "aired": "2013-03-10",
+          "plot": "Louise expects to get a charge out of taking down her Thomas Edison-obsessed science teacher when she re-creates one of the famous inventor's experiments that involved electrocuting an elephant. ",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oUxH2cBJdyO8z2NCwqReNqRGdzA.jpg",
+          "title": "Topsy"
+        },
+        {
+          "aired": "2013-03-17",
+          "plot": "Jimmy Jr. is threatened when Tina starts dating a ballet dancer named Josh and the two boys get into an epic dance-off for her heart",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kj4S1ULn01e3JuiVQpsCiXIA67N.jpg",
+          "title": "Two for Tina"
+        },
+        {
+          "aired": "2013-03-24",
+          "plot": "The Belcher family road-trips down to Florida to visit Linda's parents who live in a senior home that - to Linda's complete horror - is full of senior swingers! Plus, to keep themselves entertained, Tina, Gene and Louise go on a hunt for a mysterious python that allegedly ate one of the residents' dogs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/plBjobLhwHqbqfHfOppmxo1I7GA.jpg",
+          "title": "It Snakes a Village"
+        },
+        {
+          "aired": "2013-04-14",
+          "plot": "After the family car breaks down and ruins their plans for a movie night out, the Belchers find themselves competing on the TV game show \"Family Fracas!\" To the dismay of the program's host, they keep winning and coming back each night...that is until their lucky streak comes to a suspicious end.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gB28iDTwM29W72rtzw32YRbfq5E.jpg",
+          "title": "Family Fracas"
+        },
+        {
+          "aired": "2013-04-21",
+          "plot": "After Bob cuts his finger and faints at the sight of his own blood, Linda brings him to the hospital and leaves the kids home alone. Not ones to waste a golden opportunity, Tina, Gene and Louise transform the basement of the restaurant into a makeshift casino. But they get more than they gamble for when landlord Mr. Fischoeder stops by and catches them in action.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oENWjy88VxZ0CWa3KBxi8yNcEpc.jpg",
+          "title": "The Kids Run the Restaurant"
+        },
+        {
+          "aired": "2013-04-28",
+          "plot": "While accompanying Tina to a \"Boyz 4 Now\" concert, Louise develops a crush on one of the lead singers, Boo Boo - and is in disbelief that she actually likes a boy! Meanwhile, Gene gets creative - and slightly offensive - in a table-setting competition.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yTrCpg0PujOxRQXK4J5ZeGVvXKA.jpg",
+          "title": "Boyz 4 Now"
+        },
+        {
+          "aired": "2013-05-05",
+          "plot": "Bob chaperones a school trip to the museum and experiences some father-daughter bonding with Louise, while Gene and his gang are on the lookout for exhibits with busts, and not the kind that are sculpted out of stone. Later, on the museum steps, Linda offers her distinctive chanting talents to striking workers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dPaRg6A3pec1tM7k4qDRzUhvqk2.jpg",
+          "title": "Carpe Museum"
+        },
+        {
+          "aired": "2013-05-12",
+          "plot": "After Gene loses his confidence at his baseball game, Linda decides to sign him up for baseball camp. The only problem? She needs money to pay for it! Meanwhile, Tina discovers her love for espresso and becomes a caffeine addict.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zwHT8OLXu4xzzlhrjizwIXrXm18.jpg",
+          "title": "The Unnatural"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "A River Runs Through Bob",
-        "Fort Night",
-        "Seaplane!",
-        "My Big Fat Greek Bob",
-        "Turkey in a Can",
-        "Purple Rain-Union",
-        "Bob and Deliver",
-        "Christmas in the Car",
-        "Slumber Party",
-        "Presto Tina-o",
-        "Easy Commercial, Easy Gommercial",
-        "The Frond Files",
-        "Mazel-Tina",
-        "Uncle Teddy",
-        "The Kids Rob a Train",
-        "I Get Psychic Out of You",
-        "The Equestranauts",
-        "Ambergris",
-        "The Kids Run Away",
-        "Gene It On!",
-        "Wharf Horse (or How Bob Saves/Destroys the Town - Part I)",
-        "World Wharf II: The Wharfening (or How Bob Saves/Destroys the Town - Part II)"
+        {
+          "aired": "2013-09-29",
+          "plot": "Bob, Linda and the kids go on a camping adventure and face the perils of nature...and Bob's intestines. Braving wild river rapids, eager squirrels and parent/child separation, the Belchers prove they are worth their mettle.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1QY2hF4Rs9vG5GjSCvLkOXpatdD.jpg",
+          "title": "A River Runs Through Bob"
+        },
+        {
+          "aired": "2013-10-06",
+          "plot": "Tina, Gene and Louise are filled with the Halloween spirit and head out with their friends for a candy-fueled adventure. However, things take a turn for the worse, when the kids build their own fort and find themselves held hostage by Louise's wacko friend, Millie.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/R3Gy31HNKvrQJPzEfzfBViG6KH.jpg",
+          "title": "Fort Night"
+        },
+        {
+          "aired": "2013-11-03",
+          "plot": "Linda is bored by Bob's tired attempts at Date Night and decides to sign up for flying lessons. When Bob won't join her, she becomes the target of \"Upskirt Kurt\" the most charming pilot in the air.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hd3rToxGtZA2e28JKXP08VsjSCg.jpg",
+          "title": "Seaplane!"
+        },
+        {
+          "aired": "2013-11-10",
+          "plot": "Bob scores a temporary gig as a cook at an \"underdog\" frat house and discovers that he fits right in! Hijinks ensue as Bob and the rest of the fraternity brothers find themselves in the middle of a collegiate prank war that involves the house's most famous alumnus, Dr. Yap. Meanwhile, the kids are on a mission to invade the frat house and get in on the action.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/skxj9daSdDhCAE8eY0VAkfcs3Iu.jpg",
+          "title": "My Big Fat Greek Bob"
+        },
+        {
+          "aired": "2013-11-24",
+          "plot": "Determined to have a perfect Thanksgiving, Bob meticulously prepares the family turkey. Then, to his horror, he finds that someone then dumps the turkey in the toilet in an act of Thanksgiving sabotage.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6bLgidbs86NH8D1wMgbcq3rF66s.jpg",
+          "title": "Turkey in a Can"
+        },
+        {
+          "aired": "2013-12-01",
+          "plot": "Haunted by a poor talent-show performance from her high-school days, Linda gets back together with her former bandmates to rock their class reunion. Meanwhile, at the same soiree, Bob becomes bothered by the attention being paid him by a former classmate who had a crush on him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nEhODtL077ecVm8b8vS7pLUABto.jpg",
+          "title": "Purple Rain-Union"
+        },
+        {
+          "aired": "2013-12-08",
+          "plot": "Tina is delighted when Bob fills in as substitute home-economics teacher at school and creates a fully operational restaurant in the classroom. Unfortunately, some father-daughter friction develops. Meanwhile, the other Belcher kids take jobs at the school restaurant, leaving Linda to run the burger joint by herself.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ilrilmTQUUXhvayAGXQl91I1A2F.jpg",
+          "title": "Bob and Deliver"
+        },
+        {
+          "aired": "2013-12-15",
+          "plot": "After Linda accidentally kills the family tree, the Belchers must go out on Christmas day to find a new one. But when Bob cuts off a giant candy cane truck, they are forced to outrun the madman driver and spend the entire holiday together in the car. Back at the Belcher home, Bob’s friend, Teddy, accidentally gets stuck in the kids’ Santa trap.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/osMe4l65SNW0eYxffvBZfYrVIzS.jpg",
+          "title": "Christmas in the Car"
+        },
+        {
+          "aired": "2014-01-05",
+          "plot": "In an effort to help socialize Louise, Linda invites four of her classmates over for a surprise slumber party. Meanwhile, Bob cooks a burger to catch a renegade raccoon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p5zmi1jI22BzYaN3RPasFuNfIc3.jpg",
+          "title": "Slumber Party"
+        },
+        {
+          "aired": "2014-01-12",
+          "plot": "Tina becomes a magician's assistant in order to get closer to Jimmy Jr., while Bob becomes the victim of a magician's \"curse\".",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f82avPzl31tvgTKDEybgfP2RYKG.jpg",
+          "title": "Presto Tina-o"
+        },
+        {
+          "aired": "2014-01-26",
+          "plot": "To compete with fellow “restaurateur,” Jimmy Pesto, and his blowout Super Bowl event, Bob is determined to create a Bob’s Burgers commercial to air during the “big game.” In an effort to outshine Pesto, the Belchers recruit Randy, a documentarian, to assist with the filmmaking and hire on former pro football star Connie Frye to be the celebrity endorser.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xbUMxlh4m466DX9jAlikJ9nond4.jpg",
+          "title": "Easy Commercial, Easy Gommercial"
+        },
+        {
+          "aired": "2014-03-09",
+          "plot": "Bob and Linda visit school and learn that their kids' essays about their fantasy version of Wagstaff are “too creative” and “offensive.” Eugene transforms the school into a “Fart School for the Gifted” (watch out for Keyboard Jail); Tina, to her delight, depicts a world where she is romanced by countless zombie teenage boys; and Louise creates a school where she takes down a robotic Mr. Frond from the future (“We need more creamed corn!”).",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/UQgHiGiGVnz6GUC0lhYeb7qc3t.jpg",
+          "title": "The Frond Files"
+        },
+        {
+          "aired": "2014-03-16",
+          "plot": "Tina isn't invited to her classmate Tammy's Bat Mitzvah, but ends up at the party anyway, because Bob and the family were hired to cater. A total \"Bat-zilla,\" Tammy's theme is, well, \"Tammy,\" and despite the invite snub, Tina is excited to scope out the BFOS (boys from other schools). Things go awry and Louise and Tammy end up missing, so, to her total delight, Tina is left center stage.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7wNH9fFiV3fQAcojYflxh8hFEkQ.jpg",
+          "title": "Mazel-Tina"
+        },
+        {
+          "aired": "2014-03-23",
+          "plot": "When Bob and Linda leave town for a romantic getaway (at a Burger Convention), they ask Teddy to babysit Tina, Gene and Louise. While the 'rents are away, Teddy is eager to earn the coveted title of \"Uncle Teddy\" and does so by putting Tina's crush in his rightful place after discovering that he was just using her for – gasp – free burgers! Hijinks ensue.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lvRKrtGFZGfZVRQwHZdfVTJRnXs.jpg",
+          "title": "Uncle Teddy"
+        },
+        {
+          "aired": "2014-03-30",
+          "plot": "The Belchers take a trip on a train and, to their dismay, Louise, Gene and Tina are seated in a separate train car. Never one to follow the rules, Louise ropes the children into helping her on her mission to steal the vast chocolate supply from the restaurant car! Meanwhile, Bob and Linda indulge in some wine tasting and have a “taste-off” with a snobby couple.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/guNBLiyA7RN3ABTVa3BACtGRGp1.jpg",
+          "title": "The Kids Rob a Train"
+        },
+        {
+          "aired": "2014-04-06",
+          "plot": "After predicting that a telemarketer is calling the restaurant when the phone rings, Linda and the kids believe that she is a psychic. Needless to say her “predictions” irk Bob and spell out hilarious happenings.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/daxskBBq3xmtEWSwvluu38R7SNj.jpg",
+          "title": "I Get Psychic Out of You"
+        },
+        {
+          "aired": "2014-04-13",
+          "plot": "In an homage to the “Bronies” subculture, Tina attends her first Equestra-con, a convention based on her favorite animated pony show, “The Equestranauts.” To her surprise, she finds that the show’s fans are middle-aged men (called “Equesticles”). When a powerful super-fan tricks Tina out of her rare toy pony, it’s up to Bob to go undercover to get it back.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oC7EF0lGUEWm8zLfIJsvsIkG02j.jpg",
+          "title": "The Equestranauts"
+        },
+        {
+          "aired": "2014-04-20",
+          "plot": "Gene, Louise, and Tina discover a seaweed-covered object at the beach that turns out to be a large hunk of Ambergris - an extremely valuable, but illegal, by-product of whale poop that is used in high-end perfumes. But Louise tries to cheat Gene and Tina out of the profit she hopes to make by selling the treasure on the black market. Meanwhile, Bob and Linda deal with their psychologically unstable landlord who is building them a new bathroom.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vaTPvv873cXrhn8lxeLb4FsK3g2.jpg",
+          "title": "Ambergris"
+        },
+        {
+          "aired": "2014-04-27",
+          "plot": "Upon learning that she has a cavity and needs a filling, Louise runs away from the dentist's office and seeks refuge at Aunt Gail's. When Louise refuses to go home, Linda sends Tina and Gene to join her and bets her that she won't last the weekend with Aunt Gail's \"craziness\".",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/c4RRSHENAk079NRljLjBZR8xCdh.jpg",
+          "title": "The Kids Run Away"
+        },
+        {
+          "aired": "2014-05-04",
+          "plot": "Tina decides to try out for the cheerleading squad, but it’s actually Gene who gets noticed in the crowd for his spirit and cheering ability. Meanwhile, during her cheer audition, Tina falls and bites her tongue, leaving her unable to speak – and a mischievous Louise steps up to be her translator.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xyN9uWcYln8dslKHCwFS2scfB8.jpg",
+          "title": "Gene It On!"
+        },
+        {
+          "aired": "2014-05-11",
+          "plot": "Motivated by the promise of a new beachside burger joint, Bob conspires with Felix to convince Mr. Fischoeder to sell Wonder Wharf. Meanwhile, Tina protests the destruction of the wharf's carousel by chaining herself to it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/616shs6XZZWNg7coTfUD6BPvPgn.jpg",
+          "title": "Wharf Horse (or How Bob Saves-Destroys the Town - Part I)"
+        },
+        {
+          "aired": "2014-05-18",
+          "plot": "It’s Linda and the kids to the rescue when Felix takes desperate measures, and puts Bob and Mr. Fischoeder in danger.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3zErFLmhC42jOb2DEiYrVJn2hO8.jpg",
+          "title": "World Wharf II- The Wharfening (or How Bob Saves-Destroys the Town - Part II)"
+        }
       ]
     },
     "5": {
       "episodes": [
         null,
-        "Work Hard or Die Trying, Girl",
-        "Tina and the Real Ghost",
-        "Friends with Burger-fits",
-        "Dawn of the Peck",
-        "Best Burger",
-        "Father of the Bob",
-        "Tina Tailor Soldier Spy",
-        "Midday Run",
-        "Speakeasy Rider",
-        "Late Afternoon in the Garden of Bob and Louise",
-        "Can't Buy Me Math",
-        "The Millie-churian Candidate",
-        "The Gayle Tales",
-        "L'il Hard Dad",
-        "Adventures in Chinchilla-sitting",
-        "The Runway Club",
-        "Itty Bitty Ditty Committee",
-        "Eat, Spray, Linda",
-        "Housetrap",
-        "Hawk & Chick",
-        "The Oeder Games"
+        {
+          "aired": "2014-10-05",
+          "plot": "Gene tries to make one of his dreams a reality when he gets the opportunity to make a musical version of Die Hard at the Wagstaff Fall Festival.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ywYhVtZZcutDHFhX17TWhTOlSyT.jpg",
+          "title": "Work Hard or Die Trying, Girl"
+        },
+        {
+          "aired": "2014-11-02",
+          "plot": "Tina begins an out-of-this-world romance with a ghost that is believed to be living in the Belcher's basement.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ofFSZLH5vHo5hsU9MBCccrnDZDB.jpg",
+          "title": "Tina and the Real Ghost"
+        },
+        {
+          "aired": "2014-11-16",
+          "plot": "Teddy's health is a cause for concern. So he and Bob attend a bootcamp. The kids come up with a new sport to play in the walk-in refrigerator.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iXK2iHNL66T7zPzFFSJSp9m4CFJ.jpg",
+          "title": "Friends with Burger-fits"
+        },
+        {
+          "aired": "2014-11-23",
+          "plot": "While Bob is boycotting the holiday, Linda and the kids spend Thanksgiving at the First Annual Fischoeder Turk-tacular Turkey Town Festival. However, a wild bird attack leads to total mayhem.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j9A9GsSTuDG4vncl8ZO7O8p3pqd.jpg",
+          "title": "Dawn of the Peck"
+        },
+        {
+          "aired": "2014-11-30",
+          "plot": "Bob enters a burger-tasting contest, only to discover that his distinguishing ingredient is missing! To help out their dad, the kids go on a mission to find the ever-so-important black garlic.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kMWrzSnVDCx6VkSfRqdc4DEJtwW.jpg",
+          "title": "Best Burger"
+        },
+        {
+          "aired": "2014-12-07",
+          "plot": "Bob and his dad, \"Big Bob\", try to outdo each other in the kitchen when they rehash an old argument at Big Bob's Christmas party. Meanwhile, the kids compete to get the best present for Bob.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vPkTE7VcL5g3k8sERjToASDQj9j.jpg",
+          "title": "Father of the Bob"
+        },
+        {
+          "aired": "2014-12-14",
+          "plot": "Tina goes undercover in her old Thundergirls troop to find the mole who is giving away their cookie secrets. Meanwhile, Linda dyes her hair blonde.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dfd67UBeBAYCHZAlxPImPdKj1L4.jpg",
+          "title": "Tina Tailor Soldier Spy"
+        },
+        {
+          "aired": "2015-01-04",
+          "plot": "Who runs the halls? Tina! When Tina is up for a hall monitor promotion, she's determined to do whatever it takes to nab the powerful job.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/45qsL1I5pmXe960qLHMgLSDQRCh.jpg",
+          "title": "Midday Run"
+        },
+        {
+          "aired": "2015-01-11",
+          "plot": "Tina, Gene and Louise are ready to put the pedal to the metal when they join a go-kart league. Meanwhile, back at the restaurant Bob and Teddy partner up to serve Teddy's home-brewed beer on the sly.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qH4K8BgRhIshk5XZT0fUBmD52M5.jpg",
+          "title": "Speakeasy Rider"
+        },
+        {
+          "aired": "2015-01-25",
+          "plot": "Bob agrees to give Logan a job at the restaurant in exchange for a plot at the local community garden.\n\n",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1gouSZt9W040gPm4aoG7MkfTqHf.jpg",
+          "title": "Late Afternoon in the Garden of Bob and Louise"
+        },
+        {
+          "aired": "2015-02-08",
+          "plot": "Tina teams up with Darryl to win the Cupid's Couple contest at the school dance. Meanwhile, Linda plans a full week of ambitious Valentine's Day activities for her and Bob.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8cPNozbw8PNujM37D1FJGmn3Omh.jpg",
+          "title": "Can't Buy Me Math"
+        },
+        {
+          "aired": "2015-02-15",
+          "plot": "Tina and Louise volunteer to run Jimmy Junior's class president campaign in order to keep Millie from winning, and ruining the school. Meanwhile, Bob becomes obsessed with a knife after talking himself into buying it for $300.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/16d9brP4qaNqePFzXXTTeCGvuDc.jpg",
+          "title": "The Millie-churian Candidate"
+        },
+        {
+          "aired": "2015-03-01",
+          "plot": "Gayle arrives at Bob's Burgers in tears because her date for the evening was cancelled and she had theater tickets. Desperate to get out of the house after being grounded, the kids compete to be Aunt Gayle's \"date\" for the evening via an essay contest.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vwuv38pWIFX34pvkEQjWAfBzY0L.jpg",
+          "title": "The Gayle Tales"
+        },
+        {
+          "aired": "2015-03-08",
+          "plot": "Bob becomes obsessed with his new automatic helicopter. When it falls apart for no reason, he enters into a battle with the manufacturer in order to receive a refund. Gene assists Bob in his quest, but things quickly get out of hand and end in a crazy helicopter battle. Meanwhile, Louise and Linda help Tina prepare for her oral book report.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qewuK1U9TRanlhmLcIRPW64FQrK.jpg",
+          "title": "L'il Hard Dad"
+        },
+        {
+          "aired": "2015-03-15",
+          "plot": "Bob and Linda head out on the town for a date - but to Linda's dismay, Bob's idea of romance proves \"trivial.\" Meanwhile, a wild chinchilla chase ensues after the school pet that Louise was charged with watching escapes out the front door.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1f7bKRcwZFPzOmZfEREMhMBSqxF.jpg",
+          "title": "Adventures in Chinchilla-sitting"
+        },
+        {
+          "aired": "2015-03-22",
+          "plot": "The kids are sentenced to Saturday detention and will do anything it takes to leave early, so they can attend the Cotton Candy Festival. Meanwhile, Bob and Linda believe they are being scammed by a young girl at the restaurant.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yYITcbObCuh82ftrGvjpCXd8Pgj.jpg",
+          "title": "The Runway Club"
+        },
+        {
+          "aired": "2015-04-26",
+          "plot": "Gene starts a band with Tina, Louise, Rudy, Peter and Daryl, only to be kicked out and left on his own. After declaring that he will never play his Casio again, Tina and Louise join forces to help Gene rediscover his love of music. Meanwhile, Linda deals with a horrible armpit rash that has everyone disgusted!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1VG4fg2KlvhxdqSaSJRu4eVefpO.jpg",
+          "title": "Itty Bitty Ditty Committee"
+        },
+        {
+          "aired": "2015-05-03",
+          "plot": "It's Linda's birthday and Bob needs more time to plan her birthday surprise. But when he sends her out of the house as a distraction, she goes missing! Mayhem ensues as the Belchers must work together to find Linda.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qHAtnyxXYnmDabLiGX5mBiP06DF.jpg",
+          "title": "Eat, Spray, Linda"
+        },
+        {
+          "aired": "2015-05-10",
+          "plot": "In true Belcher fashion, the family gets stuck in a terrible storm while vacationing at a beach house in Craggy Neck. The storm is the least of their worries, however, when they are forced to take shelter with the mysterious owner of the home.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yVvXjXXO6zfrezu9fPH7q9JgyDf.jpg",
+          "title": "Housetrap"
+        },
+        {
+          "aired": "2015-05-17",
+          "plot": "Bob and Linda are thrilled when they meet Hawk, the star of their favorite martial arts series, and are quick to offer help upon learning about his family troubles.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fN3dzfU2vFeVCJFuxyuZkvVgjbY.jpg",
+          "title": "Hawk & Chick"
+        },
+        {
+          "aired": "2015-05-17",
+          "plot": "With the threat of a rent increase on Ocean Avenue, Bob and the other tenants rebel! After approaching Fischoeder, the tenants find out that they will have to compete in order to convince him to keep their rents reasonable.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qV3tstK14CF8jOVysZLsdlwVs1K.jpg",
+          "title": "The Oeder Games"
+        }
       ]
     },
     "6": {
       "episodes": [
         null,
-        "Sliding Bobs",
-        "The Land Ship",
-        "Hauntening",
-        "Gayle Makin' Bob Sled",
-        "Nice-Capades",
-        "The Cook, the Steve, the Gayle, & Her Lover",
-        "The Gene and Courtney Show",
-        "Sexy Dance Healing",
-        "Sacred Couch",
-        "Lice Things Are Lice",
-        "House of 1000 Bounces",
-        "Stand By Gene",
-        "Wag the Hog",
-        "The Hormone-iums",
-        "Pro Tiki/Con Tiki",
-        "Bye Bye Boo Boo",
-        "The Horse Rider-er",
-        "Secret Admiral-irer",
-        "Glued, Where's My Bob?"
+        {
+          "aired": "2015-09-27",
+          "plot": "Bob notices that he has started to lose his hair. In a wave of nostalgia, Linda reminisces about Bob’s mustache and how it made her fall for him years ago. Meanwhile, the kids tell their own versions of the story of how their parents met.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1JEse8M0xzP0aP0JSDu9x0Q71Wu.jpg",
+          "title": "Sliding Bobs"
+        },
+        {
+          "aired": "2015-10-11",
+          "plot": "The upcoming Land Ship parade could mean increased business for Bob, until he learns that two port-o-potties will be placed in front the restaurant. Meanwhile, Tina learns from her friends that she’s boring, so she joins up with Jordan who has been vandalizing the school with graffiti. But when Jordan wants to spray graffiti on the Land Ship, Tina must decide between ruining the parade or disappointing her new crush.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6X1HCTn8ZlfyHQXUTbfvFMIqDOh.jpg",
+          "title": "The Land Ship"
+        },
+        {
+          "aired": "2015-10-18",
+          "plot": "The Belchers are ready for an amazing Halloween! Louise reveals that she has never been scared before and the family sets out to visit a spooky haunted house. When trouble ensues following their visit, the Belchers find themselves in a zany situation more frightening than they bargained for!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4wIphvt3DXZkLYHiaIUKsCYWosh.jpg",
+          "title": "Hauntening"
+        },
+        {
+          "aired": "2015-11-08",
+          "plot": "When Gayle is injured, Linda sends Bob off to pick her up, so that she doesn't miss out on Thanksgiving festivities. But an unexpected snowstorm derails his trip home, and his epic plan to prepare the turkey is foiled. Bob then must put the fate of the turkey and the Belcher Thanksgiving in Linda's hands and spend time bonding with his sister-in-law.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oYTRcK45yp2OKUW7VrX0NgxbK4b.jpg",
+          "title": "Gayle Makin' Bob Sled"
+        },
+        {
+          "aired": "2015-11-15",
+          "plot": "When a grumpy mall Santa threatens the kids with the dreaded Naughty List, Gene, Tina and Louise decide to put on a musical performance spectacular to earn their spot on the Nice List. Can they change Santa’s mind in time to save their Christmas?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7GdXcCMx9h2zVbEdl20jQLk4ktR.jpg",
+          "title": "Nice-Capades"
+        },
+        {
+          "aired": "2016-01-17",
+          "plot": "When Bob throws a dinner party to bond with his new friend, Gayle uses the opportunity to introduce the family to her new love interest. Little does she know, Louise has a long-standing feud with Gayle’s boyfriend and her niece will stop at nothing to break them apart. Calamity ensues as Bob attempts to impress his new buddy and the kids take action.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sNSlqhduY37ZKItpeOaGPRXKKO5.jpg",
+          "title": "The Cook, the Steve, the Gayle, & Her Lover"
+        },
+        {
+          "aired": "2016-02-14",
+          "plot": "Gene and Courtney get their big break when they are asked to be the new hosts of the morning announcements, but their romantic history threatens to get in the way. Meanwhile, Tina’s attempt to play Cupid goes tragically awry when she volunteers to spear-head the Valentine’s Day carnation fundraiser.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tYiImgPaMW2a9uA7O8ZAsMAaryW.jpg",
+          "title": "The Gene and Courtney Show"
+        },
+        {
+          "aired": "2016-02-21",
+          "plot": "After Bob slips on the sidewalk, he is forced to take legal action in order to pay for surgery. In a turn of events, Bob finds himself under the care of Jairo, who promises to help him heal without a doctor. Meanwhile, the kids create a fake law firm to settle their personal discrepancies.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hCINEq40fDG8XNMvDUb2mTkz82o.jpg",
+          "title": "Sexy Dance Healing"
+        },
+        {
+          "aired": "2016-03-06",
+          "plot": "After a family vote rules against buying a new couch during TV Night, Louise takes matters into her own hands. The Belchers take sides as they are forced to decide whether memories are enough to keep their family sofa. Will they take the Sofa Queen’s advice and learn to love a new couch?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eGXOewiV1166Xj1c8hdxLKFzg55.jpg",
+          "title": "Sacred Couch"
+        },
+        {
+          "aired": "2016-03-13",
+          "plot": "When Tina volunteers alongside Nurse Liz, she finds herself involved in the biggest scandal to hit Wagstaff: a lice infestation. Meanwhile, Bob makes improvements to the restaurant that end up driving customers away. Can the Belchers juggle both a crisis at the restaurant and lice?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wCx18b6tzIP0xnP1uEvciBLn0kr.jpg",
+          "title": "Lice Things Are Lice"
+        },
+        {
+          "aired": "2016-04-03",
+          "plot": "When there is a bounce house crisis at Regular Sized Rudy’s birthday party, the Belcher kids devise a scheme to save the day. Meanwhile, Bob deals with an unexpected guest at the restaurant and is forced to come to terms with a longstanding fear.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xHvZIWFFXHUKkLGHxJbPJoreBfd.jpg",
+          "title": "House of 1000 Bounces"
+        },
+        {
+          "aired": "2016-04-03",
+          "plot": "When Gene overhears talk about a mystical creature that lives nearby, he leads the Belcher kids and their friends on a journey to find it. Meanwhile, Linda’s competitive nature takes over during downtime at the restaurant.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ryOhsNzeGmSNKTVxQ304XEGnCZ8.jpg",
+          "title": "Stand By Gene"
+        },
+        {
+          "aired": "2016-04-10",
+          "plot": "When Bob’s longtime friend, Critter, finds himself in jail for unpaid parking tickets, the Belchers decide to do what they can to help him out. Meanwhile, Linda takes on a babysitting job that becomes more work than she signed up for.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/293lWsIsyHix8HXfybKhRnwO30r.jpg",
+          "title": "Wag the Hog"
+        },
+        {
+          "aired": "2016-04-17",
+          "plot": "When Dottie Minerva comes down with a bad case of mono, Tina gets her shot as soloist of the Hormone-iums. But as she rehearses for the big assembly, Tina realizes that her role in the play could ruin her social status. Meanwhile, Linda strikes gold with a business plan that she thinks could make the Belchers rich.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/v9IzvhRE2x6Edy03TCstgSbnTFW.jpg",
+          "title": "The Hormone-iums"
+        },
+        {
+          "aired": "2016-04-24",
+          "plot": "When Bob’s friend, Warren, comes to town, he makes an offer to invest in the restaurant. Bob is thrilled that it finally could get a much-needed makeover, until he learns that Warren has some strong interior design choices in mind. Meanwhile, Warren’s visit means one of the kids must give up their bedroom.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1tyygql8FrW0FmM5wodFXxbY93o.jpg",
+          "title": "Pro Tiki-Con Tiki"
+        },
+        {
+          "aired": "2016-05-08",
+          "plot": "When Louise hears that Boo Boo is leaving Boyz 4 Now, she enters a contest that could give Tina the chance to meet him. Meanwhile, Bob and Linda learn an interesting piece of history regarding the restaurant, which leads to tension between Bob and Jimmy Pesto.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wfMuvpzS7geUiu4pL1ZeKD1ESpy.jpg",
+          "title": "Bye Bye Boo Boo"
+        },
+        {
+          "aired": "2016-05-15",
+          "plot": "After finally convincing Bob and Linda to send her to horse camp, Tina realizes she has to part ways with Jericho, her imaginary horse. Meanwhile, Linda decides to create a restaurant camp in an attempt to make things fair for Gene and Louise.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uSiEixr5C4z4ZS5p7BLKDYZJ3Ip.jpg",
+          "title": "The Horse Rider-er"
+        },
+        {
+          "aired": "2016-05-22",
+          "plot": "Tina's ideas of love and romance are tested and Bob makes new friends.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9phCs4T2RDpe27uTCpR9dK18GAy.jpg",
+          "title": "Secret Admiral-irer"
+        },
+        {
+          "aired": "2016-05-22",
+          "plot": "Bob gets glued to the toilet in the restaurant as a result of a prank gone wrong by the kids.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n58OyA9QOJWqhs5rq3jDdba747s.jpg",
+          "title": "Glued, Where's My Bob"
+        }
       ]
     },
     "7": {
       "episodes": [
         null,
-        "Flu-ouise",
-        "Sea Me Now",
-        "Teen-a-Witch",
-        "They Serve Horses, Don't They?",
-        "Larger Brother, Where Fart Thou?",
-        "The Quirk-ducers",
-        "The Last Gingerbread House on the Left",
-        "Ex Mach Tina",
-        "Bob Actually",
-        "There's No Business Like Mr. Business Business",
-        "A Few 'Gurt Men",
-        "Like Gene for Chocolate",
-        "The Grand Mama-Pest Hotel",
-        "Aquaticism",
-        "Ain't Miss Debatin'",
-        "Eggs for Days",
-        "Zero Larp Thirty",
-        "The Laser-inth",
-        "Thelma & Louise Except Thelma Is Linda",
-        "Mom, Lies and Videotapes",
-        "Paraders of the Lost Float",
-        "Into the Mild"
+        {
+          "aired": "2016-09-25",
+          "plot": "When the youngest Belcher comes down with an epic case of the flu, Linda has a mishap as she tries to deliver Louise's favorite toy to her daughter's bedside. After Louise vows that she will never forgive her family for their mistake, she falls into a wild fever dream filled with familiar faces, zany musical numbers and a crazy adventure.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uMFbhRuipZvERWG8q6iLPJLXSck.jpg",
+          "title": "Flu-ouise"
+        },
+        {
+          "aired": "2016-10-09",
+          "plot": "Teddy tries to impress his ex-wife by organizing a day trip on his newly refurbished boat; Tina attempts to prove she's responsible enough to have a cellphone by taking care Bob's prized eraser.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iTN6F8YGjxTMDAAPoUq9RyJXuHz.jpg",
+          "title": "Sea Me Now"
+        },
+        {
+          "aired": "2016-10-23",
+          "plot": "With Halloween quickly approaching, Tina reveals her brilliant idea that will finally win her first place in the annual costume contest. When Tammy steals her idea, Tina is forced to seek the help of Mr. Ambrose, who leads her to alternate and other-worldly methods of winning. Meanwhile, Bob is on a mission to figure out who is stealing his perfectly crafted pumpkins.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4yzXKPymLUUin94lDmnPOxxRe7W.jpg",
+          "title": "Teen-a-Witch"
+        },
+        {
+          "aired": "2016-11-06",
+          "plot": "The Belchers find themselves involved in a full-blown investigation after Bob secures a new meat provider.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wTZQp7xr5KVlle1jUfClNgtHJT6.jpg",
+          "title": "They Serve Horses, Don't They"
+        },
+        {
+          "aired": "2016-11-20",
+          "plot": "When Tina has a mishap that lands her in detention, Bob and Linda don't have a babysitter for their other kids, forcing them to let Gene and Louise stay at home alone. With the house to themselves, the younger Belchers find themselves in a sticky situation, while Bob and Linda get into surprising trouble with their accountant.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7JTDTFWqRvPXDkxVYnUHDBhktPh.jpg",
+          "title": "Larger Brother, Where Fart Thou"
+        },
+        {
+          "aired": "2016-11-21",
+          "plot": "When Mr. Frond’s annual play threatens to ruin the half day before Thanksgiving, Gene and Louise decide they need to sabotage it in order to save their long weekend. Unknowingly, Tina provides her holiday fan fiction as the subject matter and the kids get to work on their own version of the play. Meanwhile, Linda finds a potato with a striking resemblance to her late grandfather.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vB6gk4LDnWRz1DMJpfy5QomhFTs.jpg",
+          "title": "The Quirk-ducers"
+        },
+        {
+          "aired": "2016-11-27",
+          "plot": "As the Belchers prepare for Christmas, Bob gets an unexpected call from Mr. Fischoeder asking him to bring food to a party at his home. When Bob arrives, he discovers that he has gotten involved in an intense gingerbread house building competition with Mr. Fischoeder's rowdy group of friends. Meanwhile, Linda and Teddy try to inspire some Christmas cheer in the neighbors as they take the kids caroling.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yA5AnTni87w7573sm1fIGWN0L3g.jpg",
+          "title": "The Last Gingerbread House on the Left"
+        },
+        {
+          "aired": "2017-01-08",
+          "plot": "After hurting her ankle, Tina enrolls in a program that enables her send a robot of herself to school and the robot gives her an unexpected breakthrough with Jimmy Jr.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uKFC4C3VznqCVTutKWW9VVmZQxB.jpg",
+          "title": "Ex Mach Tina"
+        },
+        {
+          "aired": "2017-02-12",
+          "plot": "With Valentine’s Day approaching, Tina, Gene and Louise each find themselves wrapped up in love-caused chaos. Meanwhile, Bob decides on a romantic gesture in order to impress Linda.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pgL6PMrefuJnCoPgUkQOdEjOQLK.jpg",
+          "title": "Bob Actually"
+        },
+        {
+          "aired": "2017-02-19",
+          "plot": "When Gayle's cat, Mr. Business, secures pet agent Ian Amberson, Bob finds out that Linda may have been helping to fund the cat's career. Ever the skeptic, Bob is prepared to shut it down, but learns that Mr. Business could be on the verge of his big break.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rdWz79bHgyQCUo3ADMJZgpKa4yI.jpg",
+          "title": "There's No Business Like Mr. Business Business"
+        },
+        {
+          "aired": "2017-03-05",
+          "plot": "Louise is put in a sticky situation when she must defend one of her biggest foes at Wagstaff during a mock-trial. Meanwhile, Bob works with Jimmy Pesto to out a regular food-scammer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/97PWDhFy2eMNhk0j4IeuMCLhAqD.jpg",
+          "title": "A Few 'Gurt Men"
+        },
+        {
+          "aired": "2017-03-12",
+          "plot": "When Gene learns that the formula for his favorite chocolate has changed, he works with the head of the company in an attempt to remedy the situation. Meanwhile, Bob gets wrapped up in one of Teddy's less-than-perfect plans.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/txFuygzWDtAJlKQP3cUHalzWfnF.jpg",
+          "title": "Like Gene for Chocolate"
+        },
+        {
+          "aired": "2017-03-19",
+          "plot": "Linda jumps at the chance to chaperone Tina's weekend away at a heroine conference, but Tina's new friend could put Linda's perfect weekend in jeopardy. Meanwhile, the younger Belchers have plans for their weekend alone with Bob. What could possibly go wrong?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bdX8k6eI1cXkDIs3MCeFdJn5ISm.jpg",
+          "title": "The Grand Mama-Pest Hotel"
+        },
+        {
+          "aired": "2017-03-26",
+          "plot": "When Tina learns that the aquarium is in danger of closing, the Belcher children devise a scheme to keep it running. Meanwhile, Bob realizes that he could learn a thing or two from Linda's customer service skills.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x06iBIChUAdUHPrb5hX0kLqMR4B.jpg",
+          "title": "Aquaticism"
+        },
+        {
+          "aired": "2017-03-26",
+          "plot": "When Tina is recruited by the debate team, she finds unexpected success and an even more unexpected relationship. Meanwhile, Louise and Gene convince their parents to help fund a stop-motion movie focusing on a surprising subject matter.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9NgNl2PhrgFgSfgN90GL5yUShIy.jpg",
+          "title": "Ain't Miss Debatin'"
+        },
+        {
+          "aired": "2017-04-02",
+          "plot": "The annual Easter egg hunt always brings out the competitive sides of Bob and Linda, but this time, the game goes awry. After the Belcher parents have a little too much fun hiding the eggs, the entire family is enlisted in finding the lone egg that is quickly rotting in its hiding place. Don't miss the calamity that ensues",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6yjEuucIbpuKaCIcQSmRXIotWHH.jpg",
+          "title": "Eggs for Days"
+        },
+        {
+          "aired": "2017-04-23",
+          "plot": "When Linda wins a contest to spend a dream weekend at the home where her favorite television show is filmed, things don't go quite as planned. Back at home, Teddy's back problems leave him stuck on the floor, while he babysits the kids.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/z2BpA1tw3Pow5649poLe5WLCDn7.jpg",
+          "title": "Zero Larp Thirty"
+        },
+        {
+          "aired": "2017-04-23",
+          "plot": "Gene accompanies Bob on the last-ever rock-and-roll laser show at the planetarium, but the night takes an unexpected turn. Meanwhile, Linda takes the girls out for dinner and Louise has a surprise revelation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kvVfEWWZyDfshFfiLrMdbnB7YfE.jpg",
+          "title": "The Laser-inth"
+        },
+        {
+          "aired": "2017-05-07",
+          "plot": "Linda comes down with a nasty cold just in time for the Mother's Day show at Wagstaff. When Bob's outdated camcorder malfunctions, the kids perform a reimagined version of the pageant for Linda back at home. Will the kids' creative liberties be enough to make Linda feel the Mother's Day love?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3181yrnfLkmmF32f2U16plqOieZ.jpg",
+          "title": "Thelma & Louise Except Thelma Is Linda"
+        },
+        {
+          "aired": "2017-05-07",
+          "plot": "Linda comes down with a nasty cold just in time for the Mother’s Day show at Wagstaff.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/31AOE2r5ZKIY0ElWUuUHvn5n5jJ.jpg",
+          "title": "Mom, Lies and Videotapes"
+        },
+        {
+          "aired": "2017-05-21",
+          "plot": "Teddy tries to persuade Bob to participate in the float contest for a supposedly easy victory.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fqPA65wbOhrGlfm34tr1sE7O2w5.jpg",
+          "title": "Paraders of the Lost Float"
+        },
+        {
+          "aired": "2017-06-11",
+          "plot": "When Bob discovers that an outdoor specialty store is going out of business, he tries to live his dream of being an outdoorsman.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qP20AiGMz4R34gJaYQ60Hzj2Wki.jpg",
+          "title": "Into the Mild"
+        }
       ]
     },
     "8": {
       "episodes": [
         null,
-        "Brunchsquatch",
-        "The Silence of the Louise",
-        "The Wolf of Wharf Street",
-        "Sit Me Baby One More Time",
-        "Thanks-hoarding",
-        "The Bleakening Part 1",
-        "The Bleakening Part 2",
-        "V for Valentine-detta",
-        "Y Tu Ga-Ga Tambien",
-        "The Secret Ceramics Room of Secrets",
-        "Sleeping with the Frenemy",
-        "The Hurt Soccer",
-        "Cheer Up Sleepy Gene",
-        "The Trouble with Doubles",
-        "Go Tina on the Mountain",
-        "Are You There Bob? It's Me, Birthday",
-        "Boywatch",
-        "As I Walk Through the Alley of the Shadow of Ramps",
-        "Mo Mommy Mo Problems",
-        "Mission Impos-slug-ble",
-        "Something Old, Something New, Something Bob Caters for You"
+        {
+          "aired": "2017-10-01",
+          "plot": "To compete with Jimmy Pesto, Bob's Burgers begins serving brunch, but it quickly turns to chaos. Meanwhile, Tina, Gene and Louise decide to help Mr. Fischoeder's brother hide from him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2MyE9btQ891evDQGvAtPlZpDinU.jpg",
+          "title": "Brunchsquatch"
+        },
+        {
+          "aired": "2017-10-15",
+          "plot": "When Mr. Frond's therapy dolls are mysteriously attacked, Louise teams up with Millie to help solve the case. Meanwhile, Teddy decides to get into the inspirational poster business, but ends up with mixed results.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qZkDYWn0QfdAsjcoI6WUcVFZZX2.jpg",
+          "title": "The Silence of the Louise"
+        },
+        {
+          "aired": "2017-10-22",
+          "plot": "On Halloween night, Linda tries to impress the kids by taking them to look for a wolf that has been terrorizing the town. Meanwhile, an injured and medicated Bob believes that Teddy has turned into a werewolf.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ljdhEBXp9Wh6mzHYqTcRaEOWhvC.jpg",
+          "title": "The Wolf of Wharf Street"
+        },
+        {
+          "aired": "2017-11-05",
+          "plot": "When Tina launches a babysitting enterprise, it is quickly derailed after her business nemesis, Tammy, is hired to work alongside her. Meanwhile, Bob and Linda check out their competition at a restaurant that’s known for its burgers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9wcTrA6rwViFIgXnABsUNqtb16m.jpg",
+          "title": "Sit Me Baby One More Time"
+        },
+        {
+          "aired": "2017-11-19",
+          "plot": "The Belchers reluctantly agree to help Teddy when his family unexpectedly tells him that they will be coming to see him on Thanksgiving.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xeSH96fMg3vxhtBMxNe0DEif8VQ.jpg",
+          "title": "Thanks-hoarding"
+        },
+        {
+          "aired": "2017-12-10",
+          "plot": "Linda hopes to add some extra cheer around the neighborhood by hosting a party at the restaurant.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2Fd78gzLdhmE3ffHXJkJW0uQ93v.jpg",
+          "title": "The Bleakening Part 1"
+        },
+        {
+          "aired": "2017-12-10",
+          "plot": "Linda is determined to host a party at the restaurant, in an effort to spread a little extra cheer around the neighborhood. But when she realizes that her prized ornaments have been stolen, she quickly begins questioning all guests, including Marshmallow's friend Art the Artist.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gylhka1RYYT1iaZrE6rYnIJNsiI.jpg",
+          "title": "The Bleakening Part 2"
+        },
+        {
+          "aired": "2018-01-14",
+          "plot": "After a rough break up on Valentine's Day, the Belcher women have a limo girls' night out to make Tina feel better. Meanwhile, Bob and Gene have a trapeze experience that brings them closer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hDJaOyks1fbiYnNkHUo3fVauOyF.jpg",
+          "title": "V for Valentine-detta"
+        },
+        {
+          "aired": "2018-03-11",
+          "plot": "When a new playground game is introduced, the school's social hierarchy is turned upside-down and Gene disapproves. Meanwhile, Linda fills in for the local library storyteller and pulls out all the stops to perfect her storyteller persona.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mfVjmetgRToEciR9OdLhuhTftR3.jpg",
+          "title": "Y Tu Ga-Ga Tambien"
+        },
+        {
+          "aired": "2018-03-18",
+          "plot": "When the kids are given the task of making homemade gifts for their grandma's birthday, they set out to find a secret room filled with homemade ceramics which, according to urban legend, has been boarded up for years at their school. Meanwhile, Teddy starts a phone repair service and the adults become determined to improve his online rating.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lJyVJugl8rgrV9U5p0AnzweouT6.jpg",
+          "title": "The Secret Ceramics Room of Secrets"
+        },
+        {
+          "aired": "2018-03-25",
+          "plot": "Tina allows Tammy to spend Spring Break with the Belchers - and even plays Cupid, setting up Tammy with Brett, a boy from out of town. Then, Gene and Bob enlist the help of Dr. Yap in finding a replacement baby tooth to complete Linda's collection, after Gene loses his own.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/14FneLwJIt9XEyxXfzrnp7UiP8X.jpg",
+          "title": "Sleeping with the Frenemy"
+        },
+        {
+          "aired": "2018-04-01",
+          "plot": "After forgetting that they signed up Louise for a soccer league, the Belchers must help her prepare to play in the season's last game. With Bob coaching the soccer game, Linda and Gene seize the opportunity to turn the restaurant into a piano bar.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wo57ioIryQUexWqvOPiqwymFcW9.jpg",
+          "title": "The Hurt Soccer"
+        },
+        {
+          "aired": "2018-04-08",
+          "plot": "Gene gets invited to his first sleepover and is nervous about it, and when things don't go as planned, he realizes he had a right to be. Meanwhile, Bob and Linda record themselves while sleeping to prove who snores more.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mgJcGHtysuQquSqpnoh652HnufY.jpg",
+          "title": "Cheer Up Sleepy Gene"
+        },
+        {
+          "aired": "2018-04-15",
+          "plot": "Bob and Linda's double-date plans take a disastrous turn when the couples find themselves trapped inside an Escape Room. Meanwhile, with the parents out of the house, Louise hosts a zombie-movie night, but when the zombies turn out to be too scary, Tina must take charge.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4U1Aq1xQGgX0ZqZTh0QHGiYnJk9.jpg",
+          "title": "The Trouble with Doubles"
+        },
+        {
+          "aired": "2018-04-22",
+          "plot": "The Belcher kids go to Outdoor Education only to have it rain, but Tina doesn't let the inclement weather get in the way of her having a nature-piphany, with the help of a hermit living in the woods. Meanwhile, Bob and Linda experience what it's like to be empty-nesters.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mYPfvJtR8S6spepBFZ38oSV49oi.jpg",
+          "title": "Go Tina on the Mountain"
+        },
+        {
+          "aired": "2018-04-29",
+          "plot": "After forgetting Bob's birthday, Linda and the kids attempt to plan a last-minute surprise party. In order to plan the party though, Linda asks Hugo if Bob can go with him while he's doing restaurant health inspections.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/waxMR038DhUr8tR2Vn4U5rUHXJn.jpg",
+          "title": "Are You There Bob It's Me, Birthday"
+        },
+        {
+          "aired": "2018-05-06",
+          "plot": "Tina decides to join the Junior Lifeguards, but when she struggles with the training, one of her fellow junior guards, Parker, tries to convince her to quit. Meanwhile, business booms when Bob and Linda offer free wi-fi at the restaurant, but it is soon threatened by a cyber-attack.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ka5PwNhTgEZlHFlccgM8zYWRueW.jpg",
+          "title": "Boywatch"
+        },
+        {
+          "aired": "2018-05-13",
+          "plot": "When a malicious juice truck owner tries to set up shop in the Belcher's alley, Louise devises a plan to win back their turf. Meanwhile, Linda learns that she can't always run to her sister's defense.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lmqkAhqsU6a1sUN8WTOVzZ6HNzu.jpg",
+          "title": "As I Walk Through the Alley of the Shadow of Ramps"
+        },
+        {
+          "aired": "2018-05-13",
+          "plot": "The Belchers attend open houses for the free food, per Linda's \"momnipotent\" Mother's Day request. When Linda meets a charming real estate agent and agrees to a private showing, the kids stumble upon an unexpected surprise and the family ends up at the helm of a real estate scheme.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6PWdRrXqfhjbUBQ5bDW7Ff7Y8Rb.jpg",
+          "title": "Mo Mommy Mo Problems"
+        },
+        {
+          "aired": "2018-05-20",
+          "plot": "When Louise's extensive Burobu card collection gets confiscated at school, she devises a tricky plan to get them back. Meanwhile, Bob must give a eulogy for an old acquaintance, despite an unfortunate incident that happened years ago.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2AkeKw0eCNWEunQsBdgYC02l4EP.jpg",
+          "title": "Mission Impos-slug-ble"
+        },
+        {
+          "aired": "2018-05-20",
+          "plot": "Just as Bob wonders if working in the restaurant business is worth it, a couple who fell in love at the restaurant asks the Belchers to cater their wedding. When things don't go as planned, Linda tries to save the day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8LEn6npUi9GuGWfdoyWglC4GcSv.jpg",
+          "title": "Something Old, Something New, Something Bob Caters for You"
+        }
       ]
     },
     "9": {
       "episodes": [
         null,
-        "Just One of the Boyz 4 Now for Now",
-        "The Taking of Funtime One Two Three",
-        "Tweentrepreneurs",
-        "Nightmare on Ocean Avenue Street",
-        "Live and Let Fly",
-        "Bobby Driver",
-        "I Bob Your Pardon",
-        "Roller? I Hardly Know Her!",
-        "UFO No You Didn't",
-        "Better Off Sled",
-        "Lorenzo's Oil? No, Linda's",
-        "The Helen Hunt",
-        "Bed, Bob & Beyond",
-        "Every Which Way but Goose",
-        "The Fresh Princ-ipal",
-        "Roamin' Bob-iday",
-        "What About Blob?",
-        "If You Love It So Much, Why Don't You Marionette?",
-        "Long Time Listener, First Time Bob",
-        "The Gene Mile",
-        "P.T.A. It Ain't So",
-        "Yes Without My Zeke"
+        {
+          "aired": "2018-09-30",
+          "plot": "Convinced she's met the love of her life, Tina decides to disguise herself as a boy and sneak into the Boyz 4 Now auditions to find him. Back at the restaurant, Teddy asks the rest of the Belcher gang to nurse his baby rat back to health.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xdxyYMIYHzn9G66Z6LSbEjYO0OJ.jpg",
+          "title": "Just One of the Boyz 4 Now for Now"
+        },
+        {
+          "aired": "2018-10-07",
+          "plot": "Desperate for the grand prize dune buggy at their local arcade, Louise, Tina and Gene devise a master plan, with the help of Mr. Fischoeder. Meanwhile, Teddy manages to convince Bob and Linda to take in a chicken by promising fresh eggs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j4K78sSH5aB1LK3P4iMJ0RXEMS1.jpg",
+          "title": "The Taking of Funtime One Two Three"
+        },
+        {
+          "aired": "2018-10-14",
+          "plot": "Tina, Louise, and Gene get a taste of business when they join the school's Tweentrepeneurs club. Back at the restaurant, Bob and Linda find themselves outsmarted by a dine-and-dasher.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oMqYJGHiqgSmVs7A6XBwxsK6YYD.jpg",
+          "title": "Tweentrepreneurs"
+        },
+        {
+          "aired": "2018-10-21",
+          "plot": "The kids set out for their regular Halloween shenanigans, but when everyone's candy bags start mysteriously disappearing, it's up to Tina, Louise, and Gene to find the culprit. Meanwhile, Teddy decorates the restaurant to compete with another handyman on the street but gets a little carried away.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7foUP65AsHueojoBGl8pEiV4mx2.jpg",
+          "title": "Nightmare on Ocean Avenue Street"
+        },
+        {
+          "aired": "2018-11-04",
+          "plot": "The kids learn the dangers of revenge when their plan to get back at the school guidance counselor gets them entangled in a deep rooted sibling rivalry between two pilots. Meanwhile, Linda and Bob put their game faces on when Teddy invites them to a paper airplane contest.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/45wKXnIg6Fqa5TyiqANeWEj9Jg9.jpg",
+          "title": "Live and Let Fly"
+        },
+        {
+          "aired": "2018-11-11",
+          "plot": "Bob agrees to drive professional quilter Edith around town, after she convinces him to join in a plot for revenge. Meanwhile, the kids attend a lavish \"Gatsby\"-themed birthday party, and Linda helps Teddy expand his taste palate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iePd5yHlegdi2iIdeSQPj1nZAdc.jpg",
+          "title": "Bobby Driver"
+        },
+        {
+          "aired": "2018-11-18",
+          "plot": "The Belchers set out to save a turkey from a trip to the slaughterhouse, but when a local reporter catches wind of their schemes, the mission becomes more complicated than they had anticipated.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/45MbxI3LJWZFZv83jlQZZu2fWoZ.jpg",
+          "title": "I Bob Your Pardon"
+        },
+        {
+          "aired": "2018-11-25",
+          "plot": "Gene is livid when his best friend, Alex, ditches him to be Courtney's roller-dancing partner. Meanwhile, Teddy, Linda and Bob let their imaginations get the best of them when they discover someone stalking the restaurant.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/exrlmIO8l3vKabrK7dG1GtCBZmI.jpg",
+          "title": "Roller I Hardly Know Her!"
+        },
+        {
+          "aired": "2018-12-02",
+          "plot": "Tina and her new science partner create a device that allows them to communicate with aliens, but their excitement turns to fear when they receive a dangerous warning message. Meanwhile, Bob attempts to sell mini coat racks he bought.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/szDv3RtBkt0KZFGUYU0nbFch3ex.jpg",
+          "title": "UFO No You Didn't"
+        },
+        {
+          "aired": "2018-12-09",
+          "plot": "The battle is on when some angsty teenagers take over Louise, Gene and Tina's usual sledding territory, inciting an epic turf war. Meanwhile, Bob steps in to help Linda, who's in a time crunch to get three scarves knitted before Christmas.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aO2tuDyYJ4dLq8eacLryWhdTSnd.jpg",
+          "title": "Better Off Sled"
+        },
+        {
+          "aired": "2019-01-06",
+          "plot": "Linda's new friend introduces her to essential oils and Aunt Gayle is convinced she must be rescued. Meanwhile, Bob and Teddy are bamboozled into performing a series of annoying favors for Mr. Huggins.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/81AmLa9LotlM84tGwhOLDzZoZzq.jpg",
+          "title": "Lorenzo's Oil No, Linda's"
+        },
+        {
+          "aired": "2019-01-13",
+          "plot": "The Belchers make it their mission to help Teddy get his dream girl, but Tina is convinced she's found a better match for him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rP6hMynngIsxbtI6iiG0IrTtKWT.jpg",
+          "title": "The Helen Hunt"
+        },
+        {
+          "aired": "2019-02-10",
+          "plot": "A Valentine's Day fight between Bob and Linda has the kids feeling confused. After a failed attempt to see a movie, it's up to Tina, Louise and Gene to tell their own story as a distraction from the awkward tension.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5PG6lgAZkHhMS2qYOOweEZlepXK.jpg",
+          "title": "Bed, Bob & Beyond"
+        },
+        {
+          "aired": "2019-02-17",
+          "plot": "Tina, discouraged by not being asked to prom by Jimmy Jr., forms an unhealthy attachment to a goose from the nearby park. Meanwhile, Linda joins a dating app to help Gretchen find a match.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fSKOig8SNdYroREQ4oD0DyNjCHX.jpg",
+          "title": "Every Which Way but Goose"
+        },
+        {
+          "aired": "2019-03-03",
+          "plot": "Things get out of hand when Louise wins a contest to be Principal for a Day. Meanwhile, Teddy attempts to help Bob when he suddenly finds himself unable to flip burgers",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4ZUHyHM0fAlL8j63EZjZlrh7WCk.jpg",
+          "title": "The Fresh Princ-ipal"
+        },
+        {
+          "aired": "2019-03-10",
+          "plot": "The family forces workaholic Bob to take a much-needed day off, only for him to wind up working at a local sandwich shop. Meanwhile, Linda and the kids throw a last minute baby shower at the restaurant for a female biker group.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hrajLRJmATt3zoFlci89s29YsEZ.jpg",
+          "title": "Roamin' Bob-iday"
+        },
+        {
+          "aired": "2019-03-17",
+          "plot": "Gene convinces Tina and Louise to help him save a misunderstood plankton blob from being destroyed by a yacht club.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2f4Z95oovFMMddI2UpE3rAhzCRK.jpg",
+          "title": "What About Blob"
+        },
+        {
+          "aired": "2019-03-24",
+          "plot": "The kids visit a marionette theater for a school field trip and Louise gets on the theater owner's bad side.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wDXZDUPIif4adQ12xkluhmiJid9.jpg",
+          "title": "If You Love It So Much, Why Don't You Marionette"
+        },
+        {
+          "aired": "2019-04-07",
+          "plot": "Bob meets his personal hero - a renegade radio DJ who refuses to compromise. However, the Belchers get in over their heads when they try to help him stage a comeback.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8ccAcOV5DE1SFObRmmJXnr5QCZ4.jpg",
+          "title": "Long Time Listener, First Time Bob"
+        },
+        {
+          "aired": "2019-04-28",
+          "plot": "When the kids have to run a mandatory mile for school on free-ice-cream-day, they hatch an elaborate plot to sneak away. Meanwhile, Bob and Linda frantically try to secure discount tickets to a show at the Wharf Arts Center.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wvvlBdFy5DQbVCRXIYN7fCC0qol.jpg",
+          "title": "The Gene Mile"
+        },
+        {
+          "aired": "2019-05-05",
+          "plot": "Linda attempts to become more involved with the P.T.A., inspired by its seemingly perfect president, Joanne. Meanwhile, Bob tries to cheer up a hardware store owner after unknowingly making a joke about his pet parrot that recently flew away",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8XpziHdBmprnB7ghgDM9dJSpM78.jpg",
+          "title": "P.T.A. It Ain't So"
+        },
+        {
+          "aired": "2019-05-12",
+          "plot": "When Zeke gets in trouble, the Belcher kids and Jimmy Jr. pitch in to help prevent him from being sent to a disciplinary school. However, Tina tries to thwart their mission, so she can have Jimmy Jr. and his butt all to herself. Meanwhile, Randy rents out Bob's Burgers to shoot his independent short feature film.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hRuAF5yHZImBpkrFu2FJr6VeOjc.jpg",
+          "title": "Yes Without My Zeke"
+        }
       ]
     },
     "10": {
       "episodes": [
         null,
-        "The Ring (But Not Scary)",
-        "Boys Just Wanna Have Fungus",
-        "Motor, She Boat",
-        "Pig Trouble in Little Tina",
-        "Legends of the Mall",
-        "The Hawkening: Look Who's Hawking Now!",
-        "Land of the Loft",
-        "Now We're Not Cooking with Gas",
-        "All That Gene",
-        "Have Yourself a Maily Linda Christmas",
-        "Drumforgiven",
-        "A Fish Called Tina",
-        "Three Girls and a Little Wharfy",
-        "Wag the Song",
-        "Yurty Rotten Scoundrels",
-        "Flat-Top o' the Morning to Ya",
-        "Just the Trip",
-        "Tappy Tappy Tappy Tap Tap Tap",
-        "The Handyman Can",
-        "Poops!… I Didn't Do It Again",
-        "Local She-ro",
-        "Prank You for Being a Friend"
+        {
+          "aired": "2019-09-29",
+          "plot": "Bob's plan to surprise Linda for their anniversary gets tricky when the kids become involved.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t4jNQxyUd5suQSTe6jQaGQLgEWa.jpg",
+          "title": "The Ring (But Not Scary)"
+        },
+        {
+          "aired": "2019-10-06",
+          "plot": "Unable to afford a rare gourmet mushroom for a Burger of the Day, Bob and Gene jump into the cutthroat world of mushroom foraging. Meanwhile, Tina's powerful new prescription glasses lead her to believe she has a superpower.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9nO3RW71qaKGuRIoZQA4Dm34vPm.jpg",
+          "title": "Boys Just Wanna Have Fungus"
+        },
+        {
+          "aired": "2019-10-13",
+          "plot": "Tina and Bob participate in the Thundergirls father-daughter cardboard boat race and Tina tries to hide her feelings about Bob's terrible boat-building skills. Meanwhile, Linda drags Louise and Gene to a fire station open house and overstays her welcome.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1HvgzaF0hOEdHnAkO5R4iuV2OLd.jpg",
+          "title": "Motor, She Boat"
+        },
+        {
+          "aired": "2019-10-20",
+          "plot": "Tina dissects a fetal pig in science class and things get spooky. Also, Bob and Linda do battle with a giant ball of ear wax.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oTEEBOuVS1BdGK32yErZICOgiVv.jpg",
+          "title": "Pig Trouble in Little Tina"
+        },
+        {
+          "aired": "2019-11-03",
+          "plot": "On a Belcher family trip to the mall, Tina is mistaken for a sleeping boy's girlfriend. Meanwhile, Gene and Louise are turned loose on motorized animals, Linda disrupts a book reading and Bob struggles to shop for acceptable pants.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bhOikuy20O9336gE4OJVbZgznX2.jpg",
+          "title": "Legends of the Mall"
+        },
+        {
+          "aired": "2019-11-10",
+          "plot": "Bob and Louise are riding high, hosting an exclusive screening of a Hawk & Chick movie at the restaurant, until the actor who plays Hawk throws a wrench into the works, for his own mysterious reasons.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6FKascXTy3UEfQGMLWPEpRYo8Xz.jpg",
+          "title": "The Hawkening- Look Who's Hawking Now!"
+        },
+        {
+          "aired": "2019-11-17",
+          "plot": "Bob and Linda challenge themselves and attend a loft party on a stormy night, while the kids challenge their babysitter, Jen, and face the storm in an ice cream truck.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5bFvnv0nH2Z0ydIGyIKnhV8WoE0.jpg",
+          "title": "Land of the Loft"
+        },
+        {
+          "aired": "2019-11-24",
+          "plot": "Bob is determined to do whatever it takes to cook a rare, heritage turkey after the gas goes out on Thanksgiving.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/h4j3XpU3h9yZ1Ce4sr2ALsTMiuA.jpg",
+          "title": "Now We're Not Cooking with Gas"
+        },
+        {
+          "aired": "2019-12-01",
+          "plot": "Gene auditions for a small role in a local theater production, but things backfire when he discovers that Linda actually bargained with the director to get Gene the part.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i1mIkkOuq1tPaGgSQYSjVjjKHmJ.jpg",
+          "title": "All That Gene"
+        },
+        {
+          "aired": "2019-12-15",
+          "plot": "Linda works a temp job at the post office to make extra money for the holidays. But when an important package goes undelivered, Linda breaks protocol and takes it upon herself to save the day. Meanwhile, Bob and Tina are trapped at home with Linda's fussy family and Gene and Louise scramble last-minute to find the perfect gift for Tina.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4X19LBhmEhp7yb3CvQWb77JsGOH.jpg",
+          "title": "Have Yourself a Maily Linda Christmas"
+        },
+        {
+          "aired": "2020-01-12",
+          "plot": "Gene gets kicked out of the Ocean Avenue Hifi Emporium, but Louise takes matters into her own hands to defend Gene's honor. Teddy takes a handyman job at Jimmy Pesto's restaurant and tries to hide it from Bob.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mpBpkxSbl9fqWZsTdo396jUZZBd.jpg",
+          "title": "Drumforgiven"
+        },
+        {
+          "aired": "2020-02-16",
+          "plot": "Tina goes too far trying to be a perfect mentor. Meanwhile, Bob and Linda test out the gym next door.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tCLCJA7bIG0hFChZrnUE5v998bR.jpg",
+          "title": "A Fish Called Tina"
+        },
+        {
+          "aired": "2020-02-23",
+          "plot": "Louise skeptically joins Jessica and fifth-grader Megan in their search for Wharfy, a mythical sea monster, while Bob takes an online master class by a world-renowned chef.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cg0FUqXOGHMfulStylH5S3lrli7.jpg",
+          "title": "Three Girls and a Little Wharfy"
+        },
+        {
+          "aired": "2020-03-01",
+          "plot": "Tina competes against Gene and Louise to write a new school song for Wagstaff but finds herself creatively stalled. Meanwhile, Bob and Linda battle blinding glare from Jimmy Pesto's new shiny steel awning across the street.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pdi0GlJmh20JWmOmkmaFzSP3BpS.jpg",
+          "title": "Wag the Song"
+        },
+        {
+          "aired": "2020-03-08",
+          "plot": "When Gayle decides to host an artists' workshop in a yurt with only one attendee, Linda feels compelled to go to support her sister. Meanwhile, Louise and Gene lead a covert operation to find a lost cat for a cash reward.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7iDy4IPIxAOSMC4CyB38IvC6GVE.jpg",
+          "title": "Yurty Rotten Scoundrels"
+        },
+        {
+          "aired": "2020-03-15",
+          "plot": "Bob and the kids help a down-on-his-luck restaurant owner, while Linda and Teddy get carried away with St. Patrick's Day festivities.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cxkyhXaTYTXf7ZUmoxrA7Ne9po8.jpg",
+          "title": "Flat-Top o' the Morning to Ya"
+        },
+        {
+          "aired": "2020-03-22",
+          "plot": "The family takes an unexpected road trip with Nat the limo driver.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xsCNpGl49eyhf2ZhraOQomdx1PB.jpg",
+          "title": "Just the Trip"
+        },
+        {
+          "aired": "2020-04-19",
+          "plot": "Tina goes to see Josh perform in a tap show, and suspects sabotage when he's injured on stage.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kc1ZImIECUTMO2PLDMAeowPei9.jpg",
+          "title": "Tappy Tappy Tappy Tap Tap Tap"
+        },
+        {
+          "aired": "2020-04-26",
+          "plot": "When Teddy finds himself doubting his abilities as a handyman, the kids build up his confidence.\n\nReferences",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j3xbDI7snwNx0S3ol8P4xB2VaQB.jpg",
+          "title": "The Handyman Can"
+        },
+        {
+          "aired": "2020-05-03",
+          "plot": "Louise must face her fear of public pooping when her class goes on an overnight trip to the aquarium. Meanwhile, Linda enlists the family to make a video for her parents' anniversary.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bNq8y3j4wH4hFxyWX9nd4bb9i5g.jpg",
+          "title": "Poops!… I Didn't Do It Again"
+        },
+        {
+          "aired": "2020-05-10",
+          "plot": "While trying to show Tina what's great about their town, Linda ends up on the trail of a legendary local singer. Meanwhile, Teddy turns to Bob for help in arguing with a sports radio host.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u6p95NhZUOnkYRsCA0w4Atet3kO.jpg",
+          "title": "Local She-ro"
+        },
+        {
+          "aired": "2020-05-17",
+          "plot": "A classmate comes to Louise for lessons in how to get in trouble. Meanwhile, Bob reluctantly agrees to bring Jimmy Pesto his hernia medication.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2YpX5sHay34qu89igeFLZH97fCG.jpg",
+          "title": "Prank You for Being a Friend"
+        }
       ]
     },
     "11": {
       "episodes": [
         null,
-        "Dream a Little Bob of Bob",
-        "Worms of In-Rear-ment",
-        "Copa-Bob-bana",
-        "Heartbreak Hotel-oween"
+        {
+          "aired": "2020-09-27",
+          "plot": "Bob goes on an epic quest to find a misplaced lock box key. Tina attempts to learn a hand-slapping song that everyone can do - but her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wRCdQ4cJFJrn0SdQspmnMqv8IVF.jpg",
+          "title": "Dream a Little Bob of Bob"
+        },
+        {
+          "aired": "2020-10-04",
+          "plot": "When the family prepares for a night out, they have to abort their plans when one certain member catches the pinworm.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bRMOX8rS7AYADSdncM0i8Ee1krl.jpg",
+          "title": "Worms of In-Rear-ment"
+        },
+        {
+          "aired": "2020-10-11",
+          "plot": "Bob agrees to be the temporary chef at the Fischoeders' new nightclub; the kids throw a pool party in the restaurant basement when they get a hold of a stock tank.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fSGLSqWdZzZCobXBCP4iotsiU7A.jpg",
+          "title": "Copa-Bob-bana"
+        },
+        {
+          "aired": "2020-11-01",
+          "plot": "The kids meet a mysterious old woman at a hotel on Halloween as Louise plots her revenge for a candy transgression; Bob and Linda donate blood at a vampire-themed blood mobile.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/at6mLBTKlzIfSBbzJVt3BEkr0oM.jpg",
+          "title": "Heartbreak Hotel-oween"
+        },
+        {
+          "aired": "2020-11-08",
+          "plot": "Tina is put in charge of the Wagstaff School time capsule project, but she makes an enemy when she rejects Tammy's submission.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w4X6Bhn4l5f2U6W6xQnTFzt5DML.jpg",
+          "title": "Fast Time Capsules at Wagstaff School"
+        },
+        {
+          "aired": "2020-11-15",
+          "plot": "The family must figure out how to keep the restaurant open after Bob's flattop breaks on the morning of the Ocean Avenue Business Association's: Ocean Fest on Ocean Avenue.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uOnW7U9oGPA7dtcNwBkHDamU4Se.jpg",
+          "title": "Bob Belcher and the Terrible, Horrible, No Good, Very Bad Kids"
+        },
+        {
+          "aired": "2020-11-22",
+          "plot": "When Gene can't eat Thanksgiving dinner because of a stomach flu, the family tries to cheer him up.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1Z9j5SxZdqWJM0sK7KDYkz3XKb0.jpg",
+          "title": "Diarrhea of a Poopy Kid"
+        },
+        {
+          "aired": "2020-11-29",
+          "plot": "When Linda's parents have a layover at an airport nearby, Bob and Linda attempt to turn it into their annual \"visit.\"",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7VLulXnp0izg27kJULY16NgmM2R.jpg",
+          "title": "The Terminalator II- Terminals of Endearment"
+        },
+        {
+          "aired": "2020-12-06",
+          "plot": "When Linda joins a women's business group, Gene gets possessive of her time. Meanwhile, Louise and Tina want to learn how to fight.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fEbyXj4XnlMuFp2eM4XUnyPyF5u.jpg",
+          "title": "Mommy Boy"
+        },
+        {
+          "aired": "2020-12-13",
+          "plot": "When the Belchers get an unexpected invitation to cater the Glencrest Yacht Club's holiday boat parade, Bob wonders if there's a catch. Meanwhile, Louise has her eye on the present-loaded Santa Schooner.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/foTOCfFitkbLSSYubFmhg0vEi0G.jpg",
+          "title": "Yachty or Nice"
+        },
+        {
+          "aired": "2021-02-14",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 11"
+        }
       ]
     }
   },

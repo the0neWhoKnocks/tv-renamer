@@ -1,34 +1,247 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
   "id": 71733,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/332898/seasonposter/smilf-5c35e7939abab.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/332898/seasonposter/smilf-5c35e7b14d6e1.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/332898/showbackground/smilf-5b5df05be9914.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/332898/tvbanner/smilf-5b5df0f5ce5b0.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/332898/tvposter/smilf-5b5df033532b6.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/332898/tvthumb/smilf-5b5df27087423.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/z8j1FausIgD7cmar2QFwaqh63D2.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/yrHVP3NQgvMwGhjcA9W49P7uE4O.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "SMILF",
+  "plot": "A raw and honest comedic look at a single, 20-something from Southie whose desires for relationships, sex, and a career collide with the realities of young, single motherhood.",
+  "premiered": "2017-11-05",
+  "status": "Canceled",
+  "studios": [
+    "Showtime"
+  ],
+  "actors": [
+    {
+      "name": "Frankie Shaw",
+      "order": 0,
+      "role": "Bridgette Bird",
+      "thumb": "/lK8cNGtpwjbMf5UZzrc0S5V8hD5.jpg"
+    },
+    {
+      "name": "Miguel Gomez",
+      "order": 1,
+      "role": "Rafi",
+      "thumb": "/t5ZVFoVWLunw6zaA66gOWTxYQ7M.jpg"
+    },
+    {
+      "name": "Samara Weaving",
+      "order": 2,
+      "role": "Nelson Rose Taylor",
+      "thumb": "/7sHnBVEiJOzjdfzUHo9vvDLkoCH.jpg"
+    },
+    {
+      "name": "Alexandra  Mary Reimer",
+      "order": 3,
+      "role": "Larry",
+      "thumb": "/tbFeHF3saxt6NLdtxX6KRVAD28h.jpg"
+    },
+    {
+      "name": "Anna Reimer",
+      "order": 4,
+      "role": "Larry",
+      "thumb": "/pHWrmjSEFDqTdF1SYLzl4yga1y6.jpg"
+    },
+    {
+      "name": "Rosie O'Donnell",
+      "order": 5,
+      "role": "Tutu",
+      "thumb": "/qawjdFSn1FzrFhRNxeDhZnnj91n.jpg"
+    },
+    {
+      "name": "Austin Abrams",
+      "order": 1,
+      "role": "Casey",
+      "thumb": "/9pSpSAk9NsYC5puqAVsmSK3OSeu.jpg"
+    },
+    {
+      "name": "Alex Brightman",
+      "order": 2,
+      "role": "Jesse",
+      "thumb": "/3QotS4a8RAI1jR6mjWAG4C8HIoq.jpg"
+    },
+    {
+      "name": "Matt Shively",
+      "order": 3,
+      "role": "Ken",
+      "thumb": "/iHRsz1oz5SWGYhEXS59dR0dsODZ.jpg"
+    },
+    {
+      "name": "Dan Aid",
+      "order": 4,
+      "role": "Hank",
+      "thumb": "/emwiTOBqgHn2o9WZtuYQ7M8jJZQ.jpg"
+    },
+    {
+      "name": "Sarah Waisman",
+      "order": 5,
+      "role": "Jill",
+      "thumb": "/vHVxajimLNDIv8CJCOY0W0nhEV5.jpg"
+    },
+    {
+      "name": "Ally Sheedy",
+      "order": 6,
+      "role": "Fiona",
+      "thumb": "/dV6eGZm2HNEN2sfa4abTa2QtwOH.jpg"
+    },
+    {
+      "name": "Kristan Lyon",
+      "order": 7,
+      "role": "Bridesmaid (uncredited)",
+      "thumb": "/3ps2suSzDhdM3nyqbZnj8aRbZQj.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "A Box of Dunkies and Two Squirts of Maple Syrup",
-        "1,800 Filet-O-Fishes & One Small Diet Coke",
-        "Half a Sheet Cake & a Blue-Raspberry Slushie",
-        "Deep-Dish Pizza & a Shot of Holy Water",
-        "Run, Bridgette, Run or Forty-Eight Burnt Cupcakes & Graveyard Rum",
-        "Chocolate Pudding & a Cooler of Gatorade",
-        "Family-Sized Popcorn & a Can of Wine",
-        "Mark's Lunch & Two Cups of Coffee"
+        {
+          "aired": "2017-11-05",
+          "plot": "Concerned that giving birth has blown out her vagina, Bridgette pursues a former hookup for a comparison test. Meanwhile, she also learns that Rafi, her baby's father, is dating someone new.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qbfqzS1Re8DDIfgu3UkVEW7CWix.jpg",
+          "title": "A Box of Dunkies and Two Squirts of Maple Syrup"
+        },
+        {
+          "aired": "2017-11-12",
+          "plot": "Left in charge of Ally's house for the day, Bridgette fantasizes about what it would be like living the life of a wealthy, stay-at-home mom. Meanwhile, Nelson vaccinates Larry without Rafi's consent or knowledge.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zUWGJNpbfLwcA5oUaaeovhTv7ot.jpg",
+          "title": "1,800 Filet-O-Fishes & One Small Diet Coke"
+        },
+        {
+          "aired": "2017-11-19",
+          "plot": "Nelson convinces Bridge to use visualization techniques to improve her life. Inspired by Eliza's financial success with an online venture, a broke Bridge takes to Craigslist for some fast cash.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6WHmjy8Xog7O4N034Q7EkUnYyTV.jpg",
+          "title": "Half a Sheet Cake & a Blue-Raspberry Slushie"
+        },
+        {
+          "aired": "2017-11-26",
+          "plot": "Bridge, Eliza and Nelson participate in an extreme mud run. Rafi and Tutu baptize Larry without Bridge's consent.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A5ZO75U6FUL1cBjtGs3Tr8YkRiC.jpg",
+          "title": "Deep-Dish Pizza & a Shot of Holy Water"
+        },
+        {
+          "aired": "2017-12-03",
+          "plot": "Three separate scenarios play out for Bridge on Father's Day as she grapples with choosing different paths to forgive Rafi for baptizing Larry.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1Vopjdjq6LsKKS6lGJfohzf5cew.jpg",
+          "title": "Run, Bridgette, Run or Forty-Eight Burnt Cupcakes & Graveyard Rum"
+        },
+        {
+          "aired": "2017-12-10",
+          "plot": "Bridge, having realized her true passion for basketball, tries out for the WNBA. A visit with Father Eddie leaves an at-the-edge Rafi at a crossroads. Tutu reconnects with someone from her past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u5m88zDRVxBttgTQOdzwDoBuMDl.jpg",
+          "title": "Chocolate Pudding & a Cooler of Gatorade"
+        },
+        {
+          "aired": "2017-12-17",
+          "plot": "Bridge, Eliza and Larry spend a day together searching for Bridge's towed car. Tutu has a manic episode.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/l1d5WwsQ4iFbQ0djNBwhr6l9zVG.jpg",
+          "title": "Family-Sized Popcorn & a Can of Wine"
+        },
+        {
+          "aired": "2017-12-31",
+          "plot": "Bridgette matches with her estranged Dad on Tinder. Tutu prepares to go on a cruise. Rafi moves out of sober living and in with Nelson.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zMmWRZZIxZiqWpoF7GTf9yy2Uc5.jpg",
+          "title": "Mark's Lunch & Two Cups of Coffee"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Sh*t Man, I've Literally Failed",
-        "Sorry Mary, I'm Losing Faith",
-        "Single Mothers Inspire Loving Families",
-        "So Maybe I Look Feminine",
-        "Single Mom In Love Forever",
-        "Should Mothers Incur Loss Financially?",
-        "Smile More If Lying Fails",
-        "Sex Makes It Less Formal",
-        "Single Mom Is Losing Faith",
-        "Single Mom Is Looking (for) Family"
+        {
+          "aired": "2019-01-20",
+          "plot": "Bridgette’s search for her father leads her to Philadelphia and back home again as she loses the key to his whereabouts. Tutu’s decision to leave Larry alone with Joe unexpectedly leads both Bridgette and Tutu on a path to close the door on their pasts.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wUbgW3dyRqe96CWFgHdCk8ttgsf.jpg",
+          "title": "Sht Man, I've Literally Failed"
+        },
+        {
+          "aired": "2019-01-27",
+          "plot": "Bridgette misses a date after unexpected news at Ally’s birthday dinner sends her spiraling towards a religious rediscovery. Rafi struggles to establish boundaries with Bridgette in their co-parenting arrangement. Tutu and her sister Jackie are left to sort through their memories of the past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pdUIGQKSDpkzynRksqbIQj2LLT3.jpg",
+          "title": "Sorry Mary, I'm Losing Faith"
+        },
+        {
+          "aired": "2019-02-10",
+          "plot": "On the day of Ally’s birthday, three parallel stories reveal the ripple effects of Bridgette’s night out. Feeling neglected by her husband, Ally goes on a mission to obtain a rare Birkin bag. Ida cares for Ally’s children while she struggles to stay connected with her own daughter in Samoa. Elsie and Mindy have to put their own birthday celebration on hold when Ally makes a special request on their night off.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/77lYjWodCIhSWUDpXkUIHz21Wqw.jpg",
+          "title": "Single Mothers Inspire Loving Families"
+        },
+        {
+          "aired": "2019-02-17",
+          "plot": "Bridgette gets a taste of the picture-perfect life of the one-percent, spending a luxurious day at a polo match as a blonde, hobnobbing with celebrities, and celebrating her new best friend’s basic bachelorette party.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2BgHjBwf499eFdJsVlrXfHEEKPe.jpg",
+          "title": "So Maybe I Look Feminine"
+        },
+        {
+          "aired": "2019-02-24",
+          "plot": "In 2014, Bridgette and Rafi prepare for the realities of parenthood as Bridgette experiences contractions, leading her on a day of self-discovery through the streets of Boston.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2DhMyZGzCJ3gIWKVo6ANKAydyXO.jpg",
+          "title": "Single Mom In Love Forever"
+        },
+        {
+          "aired": "2019-03-03",
+          "plot": "Bridgette discovers the hidden strings attached to financial assistance. Rafi and Nelson grow closer as they accept the ugly realities of their cohabitation. Tutu’s own housing is at risk with the increased involvement of Joe Jr.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/moQpJhY1v1s1qDAHQiG7glSDHZO.jpg",
+          "title": "Should Mothers Incur Loss Financially"
+        },
+        {
+          "aired": "2019-03-10",
+          "plot": "At a cookout celebrating Eliza’s graduation, Bridgette comes to terms with the unacknowledged racial divide between the two friends while Eliza admits that Bridgette’s disconnect is ultimately what gives their friendship strength.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j02lnds1IpOZgSzbDhYlYanp5QE.jpg",
+          "title": "Smile More If Lying Fails"
+        },
+        {
+          "aired": "2019-03-17",
+          "plot": "Bridgette throws a bachelor party for Rafi. Nelson celebrates her engagement with her mother and sister, reigniting their unresolved familial tensions. Jackie helps Tutu accept the realities of a life outside of Southie.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r5NQC0S4wX50zQ3E6Gc0yhQfQtD.jpg",
+          "title": "Sex Makes It Less Formal"
+        },
+        {
+          "aired": "2019-03-24",
+          "plot": "In the style of “The Magnificent Seven,” Bridgette gathers a posse of white hats to challenge the tyrannical rule of the town’s mysterious baron.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4z3Cq9yPTCkcZCK3J3dV4lSxTj0.jpg",
+          "title": "Single Mom Is Losing Faith"
+        },
+        {
+          "aired": "2019-03-31",
+          "plot": "Bridgette and Nelson address their growing concerns over Rafi. Tutu throws a birthday party for Larry. Eliza reconsiders her medical future.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lvq01imhL8jlM29s0wf3MjTZAXp.jpg",
+          "title": "Single Mom Is Looking (for) Family"
+        }
       ]
     }
   },

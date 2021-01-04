@@ -1,93 +1,850 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
   "id": 61118,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-57c93b757aa7d.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-57c882b0106d5.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-57c882d0e0373.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-59abc8d50bfaa.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-5c3a512e6f198.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-58f1421c6980e.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-53ca954f0aee7.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-55f1bd23cb376.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-584b3ceee5646.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-53eb7cd176f7e.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-53eb7ce9472bd.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-53ebfe3b9808b.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-566f5b1e30fa9.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-57c8827a0312e.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-54245bf43062c.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-58f1424fd6761.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-55f1bd1a4accd.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-584b3cc9681f7.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-58f1423ece3e9.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-54eb95bc65559.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-566f586316e28.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-566f5b0e8cf48.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-584b3cd692069.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/3gqDstdBLUbJ2jY3hl953iS97D4.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/cc712GZjnMS8lusS9W3hhGoMgph.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "You're the Worst",
+  "plot": "Narcissistic, brash, and self-destructive “Jimmy Shive-Overly,” thinks all relationships are doomed. Cynical, people-pleasing, and stubborn “Gretchen Cutler,” knows that relationships aren't for her. So when they meet at a wedding, it's only natural that the two of them go home together and, despite their better judgment, begin to find themselves falling for each other.",
+  "premiered": "2014-07-17",
+  "status": "Ended",
+  "studios": [
+    "FX",
+    "FXX"
+  ],
+  "actors": [
+    {
+      "name": "Chris Geere",
+      "order": 1,
+      "role": "Jimmy Shive-Overly",
+      "thumb": "/y5Ti23z47KY0XG7lzSLxffB0QKn.jpg"
+    },
+    {
+      "name": "Aya Cash",
+      "order": 2,
+      "role": "Gretchen Cutler",
+      "thumb": "/kanvrW5ZdAS2MFmS0Pj9pSdR7p9.jpg"
+    },
+    {
+      "name": "Desmin Borges",
+      "order": 3,
+      "role": "Edgar Quintero",
+      "thumb": "/9tF2giXqRiSJc2lkZG9R3G8FPjv.jpg"
+    },
+    {
+      "name": "Kether Donohue",
+      "order": 4,
+      "role": "Lindsay Jillian",
+      "thumb": "/f1JMAIitNYTOYQCRgNtBGZYgaY1.jpg"
+    },
+    {
+      "name": "Andrew Daly",
+      "order": 500,
+      "role": "Andy Daly",
+      "thumb": "/mBbtTnfcxkFXH3RPomSO4VCyxYS.jpg"
+    },
+    {
+      "name": "Janet Varney",
+      "order": 2,
+      "role": "Becca Barbara",
+      "thumb": "/3oMQf9mtVXXXKF2FhUH7kCIOOIf.jpg"
+    },
+    {
+      "name": "Todd Robert Anderson",
+      "order": 4,
+      "role": "Vernon Barbara",
+      "thumb": "/wS3WOVCu8h0Q4gf7mLpRKGHRc1o.jpg"
+    },
+    {
+      "name": "Brandon Mychal Smith",
+      "order": 3,
+      "role": "Sam Dresden",
+      "thumb": "/5nKqpvHatEEjyQWXWIH3fABDDSe.jpg"
+    },
+    {
+      "name": "Allan McLeod",
+      "order": 5,
+      "role": "Paul Jillian",
+      "thumb": null
+    },
+    {
+      "name": "Shane Francis Smith",
+      "order": 6,
+      "role": "Killian Mounce",
+      "thumb": null
+    },
+    {
+      "name": "Allen Maldonado",
+      "order": 7,
+      "role": "Honeynutz",
+      "thumb": "/rl8YFsk4XsFZqCZO5jHNwP0Qoog.jpg"
+    },
+    {
+      "name": "Darrell Britt-Gibson",
+      "order": 8,
+      "role": "Shitstain",
+      "thumb": "/cCfTL6qkctE088J3qr8qtgGrZa1.jpg"
+    },
+    {
+      "name": "Niko Nicotera",
+      "order": 47,
+      "role": "Jeff",
+      "thumb": "/3gv1N2MYcTJ8DNY9u1SEjHsZsOZ.jpg"
+    },
+    {
+      "name": "Stephen Ellis",
+      "order": 48,
+      "role": "Carl",
+      "thumb": "/wbq1YIz7AVHWD1SypvaNa1LRrNw.jpg"
+    },
+    {
+      "name": "Stephen Schneider",
+      "order": 1,
+      "role": "Ty Wyland",
+      "thumb": "/lX1w5kzuKJQnplbdcwNSwDjrLE6.jpg"
+    },
+    {
+      "name": "Giovonnie Samuels",
+      "order": 20,
+      "role": "Brianna",
+      "thumb": "/gtO9TzBVArIExO7cH8mC9qhxhE7.jpg"
+    },
+    {
+      "name": "Colin Campbell",
+      "order": 33,
+      "role": "Barfly",
+      "thumb": null
+    },
+    {
+      "name": "Jessica Stroup",
+      "order": 59,
+      "role": "Young Faye",
+      "thumb": "/sr01O3bY7fjZ3OaR9grC4gJAWeM.jpg"
+    },
+    {
+      "name": "Neil Dickson",
+      "order": 9,
+      "role": "Nestor",
+      "thumb": "/rcNReyDrQ8izRg3qVOaTthb1Rpx.jpg"
+    },
+    {
+      "name": "Winston Story",
+      "order": 10,
+      "role": "Wallace",
+      "thumb": null
+    },
+    {
+      "name": "Stephanie Courtney",
+      "order": 11,
+      "role": "Bookstore Manager",
+      "thumb": "/vcytGt5hAPQltCpVXfYdMyWqDR8.jpg"
+    },
+    {
+      "name": "Joshua Levine",
+      "order": 12,
+      "role": "Philippe",
+      "thumb": null
+    },
+    {
+      "name": "Tara Bianco",
+      "order": 13,
+      "role": "Pepper Fondant",
+      "thumb": null
+    },
+    {
+      "name": "Chantelle Tibbs",
+      "order": 14,
+      "role": "Hostess",
+      "thumb": null
+    },
+    {
+      "name": "Remington Hoffman",
+      "order": 15,
+      "role": "Waiter",
+      "thumb": null
+    },
+    {
+      "name": "John A. McKenna",
+      "order": 16,
+      "role": "Old Man",
+      "thumb": null
+    },
+    {
+      "name": "Lynn Adrianna",
+      "order": 17,
+      "role": "Woman in Theater",
+      "thumb": null
+    },
+    {
+      "name": "Kacy Owens",
+      "order": 18,
+      "role": "Hip Woman",
+      "thumb": "/2iut03OVnXRZ8gFB71Jcf05ypWx.jpg"
+    },
+    {
+      "name": "Trey Gerrald",
+      "order": 19,
+      "role": "Darren Kaplan",
+      "thumb": "/6M9XiPxjLS3gpmZEVlIrZ4RDecj.jpg"
+    },
+    {
+      "name": "Kalia Prescott",
+      "order": 21,
+      "role": "Element",
+      "thumb": "/zCPUl6F4Fh8xaw2JnR3yZ2WYrPe.jpg"
+    },
+    {
+      "name": "Callard Harris",
+      "order": 22,
+      "role": "Skinny Vet Tommy",
+      "thumb": "/x9S6EdDCVQoVsRaJPPt23Y5zCRf.jpg"
+    },
+    {
+      "name": "Ryan Dorsey",
+      "order": 23,
+      "role": "Bone Bag",
+      "thumb": "/yomA0PIhGFD5dNG5mQkp8Fw2pYh.jpg"
+    },
+    {
+      "name": "Jesse Garcia",
+      "order": 24,
+      "role": "Martinez",
+      "thumb": "/jsEZz7z1wI95277m7S9YM1dbVYb.jpg"
+    },
+    {
+      "name": "Steve Agee",
+      "order": 25,
+      "role": "Pizza Delivery Guy",
+      "thumb": "/uKVbxQJ60nksFoBKQfuGw6wOqrP.jpg"
+    },
+    {
+      "name": "Vincent Duvall",
+      "order": 26,
+      "role": "City Councilman Jim Burton",
+      "thumb": "/uDnAoEOGYEukZMnzwIusu93KQvJ.jpg"
+    },
+    {
+      "name": "Thomas Middleditch",
+      "order": 27,
+      "role": "Hipster Ringleader",
+      "thumb": "/e6rjipqOp5iPjMMdU9YgGy8ueI.jpg"
+    },
+    {
+      "name": "Chris Sanders",
+      "order": 28,
+      "role": "Brunch Hipster",
+      "thumb": null
+    },
+    {
+      "name": "Caitlin Kimball",
+      "order": 29,
+      "role": "Sloppy Sweatshirt Girl",
+      "thumb": "/lxZJw5AEMTH05BY8jJyasTimdEQ.jpg"
+    },
+    {
+      "name": "Chayce Lee",
+      "order": 30,
+      "role": "Massage Therapist",
+      "thumb": null
+    },
+    {
+      "name": "Rob Locke",
+      "order": 31,
+      "role": "Food Columnist",
+      "thumb": null
+    },
+    {
+      "name": "Ginger Gonzaga",
+      "order": 32,
+      "role": "Megan Thomas",
+      "thumb": "/4YMXflYscHwrDBrrPfWEndwyNsB.jpg"
+    },
+    {
+      "name": "Francis Lloyd Corby",
+      "order": 34,
+      "role": "Aiden",
+      "thumb": "/jElKHmSvBloUXHPpGZGIl4bql9k.jpg"
+    },
+    {
+      "name": "Stephen Falk",
+      "order": 35,
+      "role": "Ron Stitches",
+      "thumb": null
+    },
+    {
+      "name": "Marc Evan Jackson",
+      "order": 36,
+      "role": "Therapist",
+      "thumb": "/zfuxICJp5pKV29TVnmU0ixw5CW1.jpg"
+    },
+    {
+      "name": "Tommy Mountain",
+      "order": 37,
+      "role": "Denver",
+      "thumb": null
+    },
+    {
+      "name": "Benjamin Patterson",
+      "order": 38,
+      "role": "Kenji",
+      "thumb": "/iQ5m0rglateZV1Qb3NDEdLYKyC9.jpg"
+    },
+    {
+      "name": "Adam Tsekhman",
+      "order": 39,
+      "role": "Venti",
+      "thumb": "/evZD3VsuNt6hvuXhpctwc5lCnVd.jpg"
+    },
+    {
+      "name": "Krishna Nagulapally",
+      "order": 40,
+      "role": "Restaurant Patron",
+      "thumb": null
+    },
+    {
+      "name": "Rodney To",
+      "order": 41,
+      "role": "Greg",
+      "thumb": "/eSuJKehbJ9YeiZHnf49HOkzRDsb.jpg"
+    },
+    {
+      "name": "Adam Zastrow",
+      "order": 42,
+      "role": "Homeless Man",
+      "thumb": null
+    },
+    {
+      "name": "George Basil",
+      "order": 43,
+      "role": "Chip",
+      "thumb": "/8Bn5ZZp0cAnyjRWGPGiV833y7LZ.jpg"
+    },
+    {
+      "name": "Charmel Catrell",
+      "order": 44,
+      "role": "Waitress",
+      "thumb": null
+    },
+    {
+      "name": "Celia Finkelstein",
+      "order": 45,
+      "role": "Protester",
+      "thumb": null
+    },
+    {
+      "name": "Lou Diamond Phillips",
+      "order": 46,
+      "role": "Himself",
+      "thumb": "/yqGZwaGe8XgoxfO7zmx7weGBaXZ.jpg"
+    },
+    {
+      "name": "Caitlin McGee",
+      "order": 49,
+      "role": "Gemma",
+      "thumb": "/60xwyNLBX9LCvlCwN0luop7xa6q.jpg"
+    },
+    {
+      "name": "Morgan Krantz",
+      "order": 50,
+      "role": "Jake",
+      "thumb": "/6Qg4j29llJzikTFbVfNJdREa8kO.jpg"
+    },
+    {
+      "name": "Brennan Murray",
+      "order": 51,
+      "role": "Ziggy",
+      "thumb": "/nAEZWF5gWB32tjbmdsiEAsg900D.jpg"
+    },
+    {
+      "name": "Josh Ruben",
+      "order": 52,
+      "role": "Greg",
+      "thumb": "/zEqP4Y0bkLc1RX78SkMJbivOSlo.jpg"
+    },
+    {
+      "name": "Noelle E. Parker",
+      "order": 53,
+      "role": "Sweet Little Girl",
+      "thumb": "/aXu0lHcB2oLazSdgbnx4ufAXYsl.jpg"
+    },
+    {
+      "name": "Jessy Hodges",
+      "order": 54,
+      "role": "Female Jogger",
+      "thumb": "/cRGqWZqxxqomvtRvxdVninq6P0k.jpg"
+    },
+    {
+      "name": "Stephen Holland",
+      "order": 55,
+      "role": "Expo Worker (uncredited)",
+      "thumb": "/6c9uvSxTGfZrrcMkBojqVRSBsEl.jpg"
+    },
+    {
+      "name": "Patrick Birkett",
+      "order": 56,
+      "role": "Old Man",
+      "thumb": null
+    },
+    {
+      "name": "Jeff Bowser",
+      "order": 57,
+      "role": "Ricky",
+      "thumb": "/kE3mPMYwiVgtL2z3EnARt2FIAIC.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Pilot",
-        "Insouciance",
-        "Keys Open Doors",
-        "What Normal People Do",
-        "Sunday Funday",
-        "PTSD",
-        "Equally Dead Inside",
-        "Finish Your Milk",
-        "Constant Horror and Bone-Deep Dissatisfaction",
-        "Fists and Feet and Stuff"
+        {
+          "aired": "2014-07-17",
+          "plot": "Jimmy and Gretchen find themselves falling for each other despite their better judgment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/IjyTgKNntMcLaca4Y3E3PzYboW.jpg",
+          "title": "Pilot"
+        },
+        {
+          "aired": "2014-07-24",
+          "plot": "Jimmy attempts to take Gretchen on a date.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fR7TVeBCHE1xjwj5iewnrn6FlTj.jpg",
+          "title": "Insouciance"
+        },
+        {
+          "aired": "2014-07-31",
+          "plot": "Gretchen inadvertently asks Jimmy for a key to his house.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s3SaxM37BYJdYRmogfsBvqwPoUt.jpg",
+          "title": "Keys Open Doors"
+        },
+        {
+          "aired": "2014-08-07",
+          "plot": "Gretchen makes Jimmy come over to her disaster of an apartment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5YDb2hgXQqanNGO3N3K5G5WUujR.jpg",
+          "title": "What Normal People Do"
+        },
+        {
+          "aired": "2014-08-14",
+          "plot": "Jimmy begrudgingly joins Gretchen, Edgar, and Lindsay on a \"Sunday Funday.\"",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/20WeLkerEUofUotRegquWAFXR1w.jpg",
+          "title": "Sunday Funday"
+        },
+        {
+          "aired": "2014-08-21",
+          "plot": "After Jimmy accidentally sleeps with an A-List celebrity, he and Gretchen embark on a sex arms race to even out their score.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6kZepvQ5zkHFUotnHLwvNK01JHR.jpg",
+          "title": "PTSD"
+        },
+        {
+          "aired": "2014-08-28",
+          "plot": "Jimmy opens up emotionally, which completely freaks Gretchen out.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rrzVX7Vb43mgVcsMd1Q0OYqNBfj.jpg",
+          "title": "Equally Dead Inside"
+        },
+        {
+          "aired": "2014-09-04",
+          "plot": "Jimmy meets Gretchen's parents.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hzDYsI7bTXgaUmZY28GycfOIteb.jpg",
+          "title": "Finish Your Milk"
+        },
+        {
+          "aired": "2014-09-11",
+          "plot": "An episode spanning the course of nearly three years, we see the events that lead up to Gretchen and Jimmy meeting.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gq9FakK4jXVxjoxdjXP1nXFWZ2v.jpg",
+          "title": "Constant Horror and Bone-Deep Dissatisfaction"
+        },
+        {
+          "aired": "2014-09-18",
+          "plot": "Jimmy and Gretchen take their relationship to the next level.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hV9lkYocjXjWV5VUFQuoMNT2DeP.jpg",
+          "title": "Fists and Feet and Stuff"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "The Sweater People",
-        "Crevasses",
-        "Born Dead",
-        "All About That Paper",
-        "We Can Do Better Than This",
-        "Side Bitch",
-        "There Is Not Currently a Problem",
-        "Spooky Sunday Funday",
-        "LCD Soundsystem",
-        "A Right Proper Story",
-        "A Rapidly Mutating Virus",
-        "Other Things You Could Be Doing",
-        "The Heart Is a Dumb Dumb"
+        {
+          "aired": "2015-09-09",
+          "plot": "Although they're now living together, Jimmy and Gretchen try to avoid domesticity by partying all the time -- a lifestyle that's harder than it looks. Meanwhile, Edgar is smitten with Lindsay, who attempts a desperate reconciliation with Paul.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fNrp2XyX6xkcaJVYCDOoS36YZKt.jpg",
+          "title": "The Sweater People"
+        },
+        {
+          "aired": "2015-09-16",
+          "plot": "Gretchen, realizing she doesn’t really have any adult belongings, takes the gang on a trip to the mall. Jimmy uses this opportunity to gain some writing inspiration. Meanwhile, a newly single Lindsay recruits a hesitant Edgar to help her pick up guys.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p5BRfdgir3J5k4A7oVYfBmSRl3g.jpg",
+          "title": "Crevasses"
+        },
+        {
+          "aired": "2015-09-23",
+          "plot": "Gretchen makes an attempt to reconnect with her old group of friends by throwing herself a housewarming party. Jimmy does his best to affirm his belief that friends are for babies. Edgar continues his pursuit of Lindsay, and Lindsay meets her estranged husband’s new girlfriend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uD2sLX2odk6N76qCckkMnzDXyfm.jpg",
+          "title": "Born Dead"
+        },
+        {
+          "aired": "2015-09-30",
+          "plot": "Jimmy spends the day with an eccentric author on a day-long job interview. Gretchen deals with a work crisis. Edgar discovers the magic of improv comedy. And Lindsay gets served with divorce papers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hUBvaheWw5bCfSw34n3uZFSmAiW.jpg",
+          "title": "All About That Paper"
+        },
+        {
+          "aired": "2015-10-07",
+          "plot": "Jimmy questions his ability as a writer but finally zeroes in on his next project. Meanwhile, Gretchen and Lindsay discover all they do is talk about men and set out to change the status-quo. Edgar gets close to his improv teacher, Dorothy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/msF8jtB6KechlS4zcfAkXadZTO1.jpg",
+          "title": "We Can Do Better Than This"
+        },
+        {
+          "aired": "2015-10-14",
+          "plot": "Jimmy discovers Gretchen's been sneaking out of the house at night and suspects she's having an affair. Lindsay's life spirals as she discovers she doesn't know how to live on her own. Edgar takes Dorothy out on a date.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7tAxLe18x7yrtLm9pxEuQny2ZDW.jpg",
+          "title": "Side Bitch"
+        },
+        {
+          "aired": "2015-10-21",
+          "plot": "The group tries to get rid of a mouse in Jimmy's house; Gretchen finally opens up to Jimmy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mVNo5J3LzT09pQp6ZmXMpgxYEbJ.jpg",
+          "title": "There Is Not Currently a Problem"
+        },
+        {
+          "aired": "2015-10-28",
+          "plot": "Jimmy tries to stealthily help Gretchen with her depression by planning a Halloween-themed Sunday Funday.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p7PzqQoYBxPApFa7Q7fNskekNov.jpg",
+          "title": "Spooky Sunday Funday"
+        },
+        {
+          "aired": "2015-11-04",
+          "plot": "Gretchen becomes fascinated by a slightly older, cool couple that appears to have it all. Jimmy employs a punishment-based system to ensure he meets his writing deadline.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jWGNsi6kM2bXeNyfO1xp0HPKFtZ.jpg",
+          "title": "LCD Soundsystem"
+        },
+        {
+          "aired": "2015-11-11",
+          "plot": "Jimmy’s trashy family comes to visit from England, much to Jimmy’s dismay. In the throes of her depression, Gretchen struggles to help Jimmy entertain them. Lindsay fills in for Gretchen at work. Edgar bonds with Jimmy’s little sister.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mpKMwanMp1EfyKngSZ7aeEYxOpp.jpg",
+          "title": "A Right Proper Story"
+        },
+        {
+          "aired": "2015-11-18",
+          "plot": "Jimmy gets closer to his bartender friend, Nina. Gretchen accompanies Sam to do a radio interview. Edgar attempts to make inroads with Dorothy's comedy friends.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7rkU6Ruebu3BT3wDt3ZZAHbQkvV.jpg",
+          "title": "A Rapidly Mutating Virus"
+        },
+        {
+          "aired": "2015-12-02",
+          "plot": "Gretchen’s depression comes to a head, forcing Jimmy to make a tough choice. Lindsay finally lets Paul go. Edgar has his improv graduation show.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m83COezrYNCVXO0SwxCiu2Nk1kS.jpg",
+          "title": "Other Things You Could Be Doing"
+        },
+        {
+          "aired": "2015-12-09",
+          "plot": "Jimmy attends Becca and Vernon’s baby gender reveal party. Gretchen takes care of some unfinished business. Edgar and Dorothy’s relationship reaches a turning point. Lindsay confronts Paul.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aF4dRL1AAKE8Ny5DeKIFAb2JaxE.jpg",
+          "title": "The Heart Is a Dumb Dumb"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Try Real Hard",
-        "Fix Me, Dummy",
-        "Bad News: Dude's Dead",
-        "Men Get Strong",
-        "Twenty-Two",
-        "The Last Sunday Funday",
-        "The Only Thing That Helps",
-        "Genetically Inferior Beta Males",
-        "The Seventh Layer",
-        "Talking to Me, Talking to Me",
-        "The Inherent, Unsullied Qualitative Value of Anything",
-        "You Knew It Was a Snake",
-        "No Longer Just Us"
+        {
+          "aired": "2016-09-01",
+          "plot": "Jimmy and Gretchen adjust to life after saying I love you. Edgar and Dorothy have sexual problems. Lindsay and Paul start a new hobby.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3Ex5Dz5Z1NxogsepLhxKkUC4E4.jpg",
+          "title": "Try Real Hard"
+        },
+        {
+          "aired": "2016-09-08",
+          "plot": "Gretchen starts therapy; Jimmy's confidence wavers; Lindsay neglects a bedridden Paul.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5FCDUhDttmZ1RTz3jFPWC6fzaU8.jpg",
+          "title": "Fix Me, Dummy"
+        },
+        {
+          "aired": "2016-09-15",
+          "plot": "Everyone comes together to break some big news to Jimmy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gtXZ8n2LjxxNrPFuJaXi3Xl22rK.jpg",
+          "title": "Bad News- Dude's Dead"
+        },
+        {
+          "aired": "2016-09-22",
+          "plot": "Gretchen helps Jimmy process a tragedy. Lindsay decides she wants to be a good mom.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s9N4HXffUNAEw4hF5fh3kGTkjt6.jpg",
+          "title": "Men Get Strong"
+        },
+        {
+          "aired": "2016-09-28",
+          "plot": "Edgar spends the day trying to find some relief for his PTSD.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/Y7GLH1GZJ0dasYv6st7n6HgkC1.jpg",
+          "title": "Twenty-Two"
+        },
+        {
+          "aired": "2016-10-05",
+          "plot": "The gang embark on a very special Sunday Funday.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5mwsG52fsBYcapNs9FGIa7aTcBw.jpg",
+          "title": "The Last Sunday Funday"
+        },
+        {
+          "aired": "2016-10-12",
+          "plot": "Gretchen and Jimmy hold an unconventional funeral. Paul struggles to give Lindsay what she needs sexually. Edgar takes a stand against the VA.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vj6wS2y7ji7D6UMsfP7vQcjXwPz.jpg",
+          "title": "The Only Thing That Helps"
+        },
+        {
+          "aired": "2016-10-19",
+          "plot": "Gretchen parents her friends with mixed results. Jimmy does Vernon’s podcast. Edgar embarks on an alternative therapy. Lindsay pushes Paul too far.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tIiMa9sKaBgDB1B2bgP0nvYEgi4.jpg",
+          "title": "Genetically Inferior Beta Males"
+        },
+        {
+          "aired": "2016-10-26",
+          "plot": "Vernon and Paul take a road trip.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6hq2nEuHT0LlXVOcF3FAcu1eHxH.jpg",
+          "title": "The Seventh Layer"
+        },
+        {
+          "aired": "2016-11-02",
+          "plot": "Jimmy builds a tree house. Gretchen accompanies Lindsay during a potentially emotional event. Edgar's professional life flourishes to Dorothy's dismay.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vCgCvUc6p4CuCcE73ZTmEnlzdKN.jpg",
+          "title": "Talking to Me, Talking to Me"
+        },
+        {
+          "aired": "2016-11-09",
+          "plot": "At a wedding together for the first time since the day they met, Jimmy and Gretchen's tensions come to a head. Edgar's relationship is jeopardized by his newfound success. Lindsay is forced to come clean to Paul.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3iqzB9eD6z3nJoJWVybGw8tQuXG.jpg",
+          "title": "The Inherent, Unsullied Qualitative Value of Anything"
+        },
+        {
+          "aired": "2016-11-16",
+          "plot": "The three couples engage in day-long fights.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lQUF3xtVy47suOMnK3WyVqmd3qE.jpg",
+          "title": "You Knew It Was a Snake"
+        },
+        {
+          "aired": "2016-11-16",
+          "plot": "Jimmy and Gretchen investigate a murder site. Lindsay sees a new side of Paul. Edgar makes a sacrifice with unforeseen consequences.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9V3RTyhASiIPeyRbGmWijOCWqC5.jpg",
+          "title": "No Longer Just Us"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "It's Been - Part 1",
-        "It's Been - Part 2",
-        "Odysseus",
-        "This Is Just Marketing",
-        "Fog of War, Bro",
-        "There's Always a Back Door",
-        "Not a Great Bet",
-        "A Bunch of Hornballs",
-        "Worldstar!",
-        "Dad-Not-Dad",
-        "From the Beginning, I Was Screwed",
-        "Like People",
-        "It's Always Been This Way"
+        {
+          "aired": "2017-09-06",
+          "plot": "After proposing to Gretchen and immediately abandoning her on a hilltop, Jimmy has gone into hiding in the middle of nowhere in an attempt to escape reality. Reality does not comply.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lChB3z7Oc9IOJ7ngZ77iVbIQ426.jpg",
+          "title": "It's Been - Part 1"
+        },
+        {
+          "aired": "2017-09-06",
+          "plot": "Gretchen takes the first baby steps toward reconstructing her life as Edgar and Lindsay struggle to find normalcy in their new post‐Jimmy/Gretchen world.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/UtTv7UlKUuszWtdYsAc6zNlV6F.jpg",
+          "title": "It's Been - Part 2"
+        },
+        {
+          "aired": "2017-09-13",
+          "plot": "After Jimmy returns to Los Angeles, he attempts to make amends with Gretchen, leading to their first confrontation. Lindsay and Edgar enjoy their new friends‐with‐benefits arrangement while Edgar tries to show Jimmy that Gretchen wasn’t the only person he abandoned.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sGif3EKAz35aIiJCC9wPuYup25w.jpg",
+          "title": "Odysseus"
+        },
+        {
+          "aired": "2017-09-20",
+          "plot": "Jimmy learns that his literary novel is being marketed as erotica. While doing Vernon’s podcast, Gretchen realizes she’s been letting Jimmy off easy. When Edgar and Lindsay babysit Tallulah, Lindsay learns for the first time that she’s capable of love and Edgar tries a new technique to pick up women.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aJF4ur9VSP8uxtZ2k160buQlquR.jpg",
+          "title": "This Is Just Marketing"
+        },
+        {
+          "aired": "2017-09-27",
+          "plot": "Gretchen has moved back into the house and plays mind games with Jimmy, sabotaging his first interview for the new book. Seeing an opportunity in Gretchen’s return to the house, Edgar and Lindsay plot to get Jimmy and Gretchen back together.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/50ddCQjYIOFEgr2UNFHlxqsxZoX.jpg",
+          "title": "Fog of War, Bro"
+        },
+        {
+          "aired": "2017-10-04",
+          "plot": "Edgar takes Jimmy on a “man date” in an effort to emotionally bond with him while Gretchen discovers some startling news about the new guy she’s seeing. Lindsay attempts to make friends at work.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1depOXQtIEVpPBlxSHMh46fteGF.jpg",
+          "title": "There's Always a Back Door"
+        },
+        {
+          "aired": "2017-10-11",
+          "plot": "Gretchen goes home for the birth of her brother’s baby, but instead ends up reconnecting with a friend from her past, who inadvertently reveals why Jimmy may have left her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7bpmXlLEXXiOvKdtkFsbdJPjKTs.jpg",
+          "title": "Not a Great Bet"
+        },
+        {
+          "aired": "2017-10-18",
+          "plot": "Jimmy goes out of town for a Romance/Erotica fiction convention while Gretchen throws a divorce for Lindsay, leading to an unintended deepening of Gretchen’s relationship with Boone. Meanwhile, Edgar’s friend Max encourages him to overspend on party planning.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dmMqrkaIUhthd1thpl54yDcaITo.jpg",
+          "title": "A Bunch of Hornballs"
+        },
+        {
+          "aired": "2017-10-25",
+          "plot": "Lindsay's mom comes to town, shedding light on the origin of Lindsay's issues, while Jimmy attempts to get over Gretchen by hooking up with someone from his past. Meanwhile, Edgar struggles to reconcile his new writer life with his old veteran life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oms7JuulGnm27s4vXi0VUyTLyse.jpg",
+          "title": "Worldstar!"
+        },
+        {
+          "aired": "2017-11-01",
+          "plot": "Jimmy spends a day with a woman from his past and attempts to fit in with her friends while Gretchen attempts to impress Boone’s ex‐wife. Lindsay reconnects to a former father figure and Edgar, prompted by Max, buys a fancy car he can’t afford.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mlYdb9RtAiaK02GD0M5qOtJFNIX.jpg",
+          "title": "Dad-Not-Dad"
+        },
+        {
+          "aired": "2017-11-08",
+          "plot": "Gretchen participates in a family tradition with Boone and his daughter while Jimmy competes on an NPR game show in an attempt to regain some literary cred. Lindsay’s desire to help people leads her back into Paul’s orbit, and Edgar attempts to deepen his friendship with Max.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sFr9kIIN8i3BCoTGaOAvYkFH5rg.jpg",
+          "title": "From the Beginning, I Was Screwed"
+        },
+        {
+          "aired": "2017-11-15",
+          "plot": "Gretchen spends the day with Boone and his daughter in an attempt to distract herself from having slept with Jimmy the previous night, while Jimmy tries to prove to himself he’s moved on. Lindsay attempts to save Olivia from getting too close to the unreliable Gretchen, and Edgar trails Max to figure out why they’re no longer writing partners.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wcCCFZ2kpWiw13qVT0JATBrOyMV.jpg",
+          "title": "Like People"
+        },
+        {
+          "aired": "2017-11-15",
+          "plot": "Jimmy and Gretchen go for a long drive to force a conclusion on the confusing state of their relationship. Edgar finds closure with Max while Lindsay figures out a way to solve Becca, Vernon, and Paul’s problems all at once.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tp4fXV4v9miw77iOncQlJJ7flce.jpg",
+          "title": "It's Always Been This Way"
+        }
       ]
     },
     "5": {
       "episodes": [
         null,
-        "The Intransigence of Love",
-        "The Pin In My Grenade",
-        "The One Thing We Don't Talk About",
-        "What Money?",
-        "A Very Good Boy",
-        "This Brief Fermata",
-        "Zero Eggplants",
-        "The Pillars of Creation",
-        "Bachelor/Bachelorette Party Sunday Funday",
-        "Magical Thinking",
-        "Four Goddamn More Days",
-        "We Were Having Such a Nice Day",
-        "Pancakes"
+        {
+          "aired": "2019-01-09",
+          "plot": "Jimmy and Gretchen tell the story of their love to a prospective wedding planner.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5pMxTvVPB8URKG8iekdOdUZhXX5.jpg",
+          "title": "The Intransigence of Love"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "Jimmy and Gretchen reveal that they're forgoing a traditional wedding, opting instead for a Courthouse elopement.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fFhKAmfwj8zL8O3bHmJZt4apMMG.jpg",
+          "title": "The Pin In My Grenade"
+        },
+        {
+          "aired": "2019-01-23",
+          "plot": "Jimmy challenges Gretchen to tackle some of the responsibilities that come with being an adult.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6YyINwzf7YKODKRUjvzprDAjVRA.jpg",
+          "title": "The One Thing We Don't Talk About"
+        },
+        {
+          "aired": "2019-01-30",
+          "plot": "Jimmy unexpectedly receives a large advance and must fend off all his “friends” who just want a piece of the pie.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y0m859iaHv7q6OdMmVuPe60SXIJ.jpg",
+          "title": "What Money"
+        },
+        {
+          "aired": "2019-02-06",
+          "plot": "Jimmy attempts to prove that, despite being on the verge of becoming a married man, he has not lost his edge. Edgar and Lindsay attempt to go on a real date.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pfsKbRzhPFK4R5WlUhdxpixymI8.jpg",
+          "title": "A Very Good Boy"
+        },
+        {
+          "aired": "2019-02-13",
+          "plot": "Jimmy “gifts” Gretchen a week of no-strings-attached sex.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jOM3NHOEtUDBPCqpmrF2C2ahJzk.jpg",
+          "title": "This Brief Fermata"
+        },
+        {
+          "aired": "2019-02-20",
+          "plot": "Gretchen and Jimmy make “couple friends.”",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4k4CGCHzQBvbKp7UVyKZriCyuxW.jpg",
+          "title": "Zero Eggplants"
+        },
+        {
+          "aired": "2019-02-27",
+          "plot": "Paul, Vernon, and Becca air their dirty laundry on a weekend getaway.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3ECYGoJ65v7eRzDl41PVxtfZpAB.jpg",
+          "title": "The Pillars of Creation"
+        },
+        {
+          "aired": "2019-03-06",
+          "plot": "Edgar and Lindsay plan the most epic Sunday Funday yet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1HnP7S8fzsBREmB9TooqMGapfuq.jpg",
+          "title": "Bachelor-Bachelorette Party Sunday Funday"
+        },
+        {
+          "aired": "2019-03-13",
+          "plot": "Gretchen’s anxiety comes to the surface at a major event she’s organized for her new client.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lJxOOLBXDzJ6U8ey5tFV54FFHwy.jpg",
+          "title": "Magical Thinking"
+        },
+        {
+          "aired": "2019-03-20",
+          "plot": "Gretchen maintains an elaborate act of deception while Jimmy prepares for the big day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xmZ36HDdu8h1CRZQo5cSobsq2cV.jpg",
+          "title": "Four Goddamn More Days"
+        },
+        {
+          "aired": "2019-03-27",
+          "plot": "The day before the wedding, Gretchen’s mom comes to town and Edgar takes Jimmy on an epic best-man date.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2u5d9Zrl6jPcp7rbyVcPD6jpWhz.jpg",
+          "title": "We Were Having Such a Nice Day"
+        },
+        {
+          "aired": "2019-04-03",
+          "plot": "On the day of their wedding, Jimmy and Gretchen grapple with the meaning of marriage.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/arNq7Ur5VsKstz0Oe8wyY9VUCNE.jpg",
+          "title": "Pancakes"
+        }
       ]
     }
   },

@@ -1,114 +1,1059 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy"
+  ],
   "id": 2947,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/237831/clearart/veep-4f96ba57df17c.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/237831/clearlogo/veep-4f710a27353e6.png",
+        "https://assets.fanart.tv/fanart/tv/237831/clearlogo/veep-4f7bfaedbd7fe.png"
+      ],
+      "seasonPoster": {
+        "0": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5534dd6278bee.jpg"
+        ],
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5363fd9ca33d1.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5534dc68bd0e0.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5363fda6899d5.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5534dc824f5e6.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-53652bad2e394.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5534dc967098a.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-550c79053876d.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5534dcae886b4.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-58789ca73849d.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-59c95f932d9ad.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5534dcfe7b527.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-58f65fa5ec345.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-59c95e99db665.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5534dd1a07466.jpg"
+        ],
+        "7": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5c9f38306871f.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5534dd32139c1.jpg"
+        ],
+        "all": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonposter/veep-5534dd815ef33.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonthumb/veep-5f26b997b73ed.jpg",
+          "https://assets.fanart.tv/fanart/tv/237831/seasonthumb/veep-4fa65da624ee9.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonthumb/veep-5f26b9a9d905b.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonthumb/veep-5f26b9c2605bd.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonthumb/veep-5f26b9d68e305.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonthumb/veep-5f26b9e813ef2.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonthumb/veep-5f26b9fb5e030.jpg"
+        ],
+        "7": [
+          "https://assets.fanart.tv/fanart/tv/237831/seasonthumb/veep-5f26ba10e9101.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-54c6f49e20063.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-5f26c1a019373.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-53f10e58b4117.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-5c920aa16026b.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-58f224d264ec1.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-58fb86ff86f0b.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-57c9f7d1453b3.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-57c9f78587959.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-57c9f80dd425e.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/showbackground/veep-57c9f8667dbf2.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/237831/tvbanner/veep-5c937a4298e5c.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvbanner/veep-5328933a52a53.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvbanner/veep-57cf36917d932.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvbanner/veep-54b596b4514d5.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/237831/tvposter/veep-5f26b94f31170.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvposter/veep-52cedb8c4a234.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvposter/veep-5f26b95fe97f2.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvposter/veep-5366862aac736.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvposter/veep-532892178e00d.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvposter/veep-58fb86cef2036.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvposter/veep-58f224ae495e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvposter/veep-54fdf9941eb46.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvposter/veep-58f2248ad004f.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/237831/tvthumb/veep-5f26b981c5bb6.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvthumb/veep-4fa65ec3cd770.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvthumb/veep-58fb86f07d672.jpg",
+        "https://assets.fanart.tv/fanart/tv/237831/tvthumb/veep-5561cbb56562b.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/vKaDMLbdLrThldFj9Vavo6suTS2.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/rsP68RZwUkhdi47hE8AEPLQNVfQ.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Veep",
+  "plot": "A look into American politics, revolving around former Senator Selina Meyer who finds being Vice President of the United States is nothing like she expected and everything everyone ever warned her about.",
+  "premiered": "2012-04-22",
+  "status": "Ended",
+  "studios": [
+    "HBO"
+  ],
+  "actors": [
+    {
+      "name": "Julia Louis-Dreyfus",
+      "order": 0,
+      "role": "Selina Meyer",
+      "thumb": "/pDzlVQhjxKQBpb9NcQ3hR20kz3z.jpg"
+    },
+    {
+      "name": "Anna Chlumsky",
+      "order": 1,
+      "role": "Amy Brookheimer",
+      "thumb": "/y5FMFdsORlQVhUWiR8yC35COlpO.jpg"
+    },
+    {
+      "name": "Tony Hale",
+      "order": 2,
+      "role": "Gary Walsh",
+      "thumb": "/ar4uapp4w5wMkThZcqWUNMSTO8z.jpg"
+    },
+    {
+      "name": "Reid Scott",
+      "order": 3,
+      "role": "Dan Egan",
+      "thumb": "/kBAeDUDA7XJRXFLGNALlpE5d3lA.jpg"
+    },
+    {
+      "name": "Timothy Simons",
+      "order": 4,
+      "role": "Jonah Ryan",
+      "thumb": "/a5CXdb6xANtSM8JDbOvIRUkvjwE.jpg"
+    },
+    {
+      "name": "Matt Walsh",
+      "order": 5,
+      "role": "Mike McLintock",
+      "thumb": "/qGPdThOmuzzWx7MH12qZr0pw19X.jpg"
+    },
+    {
+      "name": "Sufe Bradshaw",
+      "order": 7,
+      "role": "Sue Wilson",
+      "thumb": "/MmJStuwoy3TPXa8Ql9xMr4kQZQ.jpg"
+    },
+    {
+      "name": "Kevin Dunn",
+      "order": 6,
+      "role": "Ben Cafferty",
+      "thumb": "/enBfVbnotr1d9vJfMjLCsLzvO6u.jpg"
+    },
+    {
+      "name": "Gary Cole",
+      "order": 8,
+      "role": "Kent Davison",
+      "thumb": "/uWsqIlfHbyxkmBJLmq2mR93musF.jpg"
+    },
+    {
+      "name": "Sam Richardson",
+      "order": 9,
+      "role": "Richard Splett",
+      "thumb": "/nEtVkRRf3y7EL2Ln5XfCpo8oxEV.jpg"
+    },
+    {
+      "name": "Sarah Sutherland",
+      "order": 64,
+      "role": "",
+      "thumb": "/mrTcCpis2G2xH4zZNIIlVC8hZGZ.jpg"
+    },
+    {
+      "name": "Clea DuVall",
+      "order": 62,
+      "role": "",
+      "thumb": "/bGw2BtPnGPmjizgFYUlbDrNoL9i.jpg"
+    },
+    {
+      "name": "Hugh Laurie",
+      "order": 61,
+      "role": "",
+      "thumb": "/akArncggHnusP5jxzMBKmJDRrMo.jpg"
+    },
+    {
+      "name": "Emily Pendergast",
+      "order": 11,
+      "role": "Beth Ryan",
+      "thumb": null
+    },
+    {
+      "name": "Peter MacNicol",
+      "order": 59,
+      "role": "Jeff Kane",
+      "thumb": "/xo09hN0cqYh1V7z986yFOTdaKhU.jpg"
+    },
+    {
+      "name": "John Slattery",
+      "order": 61,
+      "role": "",
+      "thumb": "/t1mhOQR8XwCqp7xArTy8FCENTsR.jpg"
+    },
+    {
+      "name": "Dan Bakkedahl",
+      "order": 61,
+      "role": "",
+      "thumb": "/vo5sW2u8bGXJvfe6lL0KmrPNGGG.jpg"
+    },
+    {
+      "name": "Nelson Franklin",
+      "order": 62,
+      "role": "",
+      "thumb": "/2YYnTxpFmS5i9qRkb6H4Nxky2px.jpg"
+    },
+    {
+      "name": "Wayne Wilderson",
+      "order": 64,
+      "role": "",
+      "thumb": "/wxGjX5fqMaw9pey8ysFZbetpKGD.jpg"
+    },
+    {
+      "name": "Diedrich Bader",
+      "order": 59,
+      "role": "",
+      "thumb": "/j3ARZGysag7RZ96ISYBAu51GpnK.jpg"
+    },
+    {
+      "name": "Phil Reeves",
+      "order": 61,
+      "role": "",
+      "thumb": "/uyMQCLuxS3LbTfEVNJG7FIqpgM.jpg"
+    },
+    {
+      "name": "Craig Cackowski",
+      "order": 38,
+      "role": "",
+      "thumb": "/pomSoRjZJvWyWz4wKvC0sKiErYV.jpg"
+    },
+    {
+      "name": "Scott Adsit",
+      "order": 61,
+      "role": "",
+      "thumb": "/hhFWlYAasLldXD1fvzwmmzo9X43.jpg"
+    },
+    {
+      "name": "Martin Mull",
+      "order": 61,
+      "role": "",
+      "thumb": "/6XjisWyfvi4r35naeIAvy7i3Gix.jpg"
+    },
+    {
+      "name": "Matt Oberg",
+      "order": 63,
+      "role": "",
+      "thumb": "/kMMqMnG9TGYCcgldFAFUUajoomq.jpg"
+    },
+    {
+      "name": "Kathy Najimy",
+      "order": 63,
+      "role": "",
+      "thumb": "/nqbZF7Igr0SC8Xq8y0jwmx0mLDN.jpg"
+    },
+    {
+      "name": "David Rasche",
+      "order": 64,
+      "role": "",
+      "thumb": "/bWPhfa4m8pXVneP1gf37xvuMUCA.jpg"
+    },
+    {
+      "name": "Zach Woods",
+      "order": 7,
+      "role": "Ed Webster",
+      "thumb": "/hRpAh2dvHKkaeuHTTLdDgwYtSZb.jpg"
+    },
+    {
+      "name": "Evan Arnold",
+      "order": 41,
+      "role": "",
+      "thumb": "/meFpF2hqoODL1TMNgx1MNqUWiC1.jpg"
+    },
+    {
+      "name": "Lennon Parham",
+      "order": 47,
+      "role": "",
+      "thumb": "/4j72PiVYOusmHCYRa5KDNgDlb8T.jpg"
+    },
+    {
+      "name": "Nancy Lenehan",
+      "order": 57,
+      "role": "",
+      "thumb": "/chVVOrraeMfM6UEDB3WfllsxxDJ.jpg"
+    },
+    {
+      "name": "K Callan",
+      "order": 57,
+      "role": "",
+      "thumb": "/8UnFOCodeeywOtIkFPOuPPuQixB.jpg"
+    },
+    {
+      "name": "Peter Grosz",
+      "order": 59,
+      "role": "",
+      "thumb": "/9aVKXpi1MmFB9m8uNR65AH8UD7z.jpg"
+    },
+    {
+      "name": "Lauren Bowles",
+      "order": 59,
+      "role": "",
+      "thumb": "/jXE67lUj8xVkCC3SmjkV7Tgg8ON.jpg"
+    },
+    {
+      "name": "David Pasquesi",
+      "order": 62,
+      "role": "",
+      "thumb": "/vlXVxJSH6ja8RPf1Bv6UTnFdyhq.jpg"
+    },
+    {
+      "name": "Phil LaMarr",
+      "order": 63,
+      "role": "",
+      "thumb": "/l5w0qABfsFBxjfWNnpFiaXnh4Nm.jpg"
+    },
+    {
+      "name": "Andrea Savage",
+      "order": 64,
+      "role": "",
+      "thumb": "/t1zxxWJyw0s3lNsLJPyOeiz7Y5x.jpg"
+    },
+    {
+      "name": "Dana Powell",
+      "order": 5,
+      "role": "Kelly",
+      "thumb": "/iEJB5IFSe84kRiAoKaM0NH0uVw0.jpg"
+    },
+    {
+      "name": "Brad Leland",
+      "order": 33,
+      "role": "",
+      "thumb": "/cXbbZEa4WEsSQU8kLrQkQqogNzV.jpg"
+    },
+    {
+      "name": "Rose Abdoo",
+      "order": 35,
+      "role": "",
+      "thumb": "/28EzTtPYjeZR4I7qUMzeikYHPvk.jpg"
+    },
+    {
+      "name": "Harris Yulin",
+      "order": 35,
+      "role": "",
+      "thumb": "/rKEWwNwhaE4AsubDGoLu6pDIxZy.jpg"
+    },
+    {
+      "name": "Mary Catherine Garrison",
+      "order": 41,
+      "role": "",
+      "thumb": "/3yovBlhR6lv8ODWWdnxGxM0uecS.jpg"
+    },
+    {
+      "name": "Brian Huskey",
+      "order": 46,
+      "role": "",
+      "thumb": "/3VIUkvDGLbCYxs4cl52ugEMMZiE.jpg"
+    },
+    {
+      "name": "Seth Morris",
+      "order": 53,
+      "role": "",
+      "thumb": "/xjXxjuulUGFtq4JyhWF5B2BTRjY.jpg"
+    },
+    {
+      "name": "Nigel Gibbs",
+      "order": 59,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Brian Doyle-Murray",
+      "order": 61,
+      "role": "",
+      "thumb": "/atVyKPOaZaDncy5RGq1oCrK73iu.jpg"
+    },
+    {
+      "name": "Usman Ally",
+      "order": 61,
+      "role": "",
+      "thumb": "/y3LstAfszCiatWQoFVfOX0hzfvW.jpg"
+    },
+    {
+      "name": "Tzi Ma",
+      "order": 61,
+      "role": "",
+      "thumb": "/x4fz0LCIiBNGdil3nBYO22W7QJ0.jpg"
+    },
+    {
+      "name": "Meredith Hagner",
+      "order": 62,
+      "role": "",
+      "thumb": "/k4SQGzj6k2HqYfed0NU3KtJi78o.jpg"
+    },
+    {
+      "name": "J.P. Manoux",
+      "order": 63,
+      "role": "",
+      "thumb": "/lLEfizV970QfahQSBssUvj8Exs7.jpg"
+    },
+    {
+      "name": "Abbey DiGregorio",
+      "order": 70,
+      "role": "Dr. Walcott",
+      "thumb": "/6We814Iiuq5yKdb39AcD0iKFv8O.jpg"
+    },
+    {
+      "name": "Kate Burton",
+      "order": 0,
+      "role": "",
+      "thumb": "/rHnt0gTvarr492I1ZIYg8VNBdPn.jpg"
+    },
+    {
+      "name": "Eddie Jones",
+      "order": 1,
+      "role": "",
+      "thumb": "/nMGaE2RFCZpVv5gVlDqeLLxNql6.jpg"
+    },
+    {
+      "name": "Priyanga Burford",
+      "order": 4,
+      "role": "Reporter",
+      "thumb": "/seQNFUmUyeTBfc6NBKwmg704LsR.jpg"
+    },
+    {
+      "name": "Phil Abrams",
+      "order": 8,
+      "role": "Rabbi",
+      "thumb": null
+    },
+    {
+      "name": "Andrew Leeds",
+      "order": 9,
+      "role": "",
+      "thumb": "/w9aIFV2E4qIA19wEaarPR3Dxtbu.jpg"
+    },
+    {
+      "name": "Ella Jay Basco",
+      "order": 11,
+      "role": "Ella",
+      "thumb": "/gBcipG4lBMXy6gCdnI9QWRsF72C.jpg"
+    },
+    {
+      "name": "Sarayu Blue",
+      "order": 36,
+      "role": "",
+      "thumb": "/qdddbhIrw9Jb88DNc23w7qxUv5J.jpg"
+    },
+    {
+      "name": "Jim O'Heir",
+      "order": 43,
+      "role": "",
+      "thumb": "/qrdzPtyh0lWQp8ZxRvWDqBxyi0P.jpg"
+    },
+    {
+      "name": "Jamie Denbo",
+      "order": 45,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Todd Jeffries",
+      "order": 46,
+      "role": "",
+      "thumb": "/ehIrqir7K653gokQh58xTsCCfPM.jpg"
+    },
+    {
+      "name": "John Ross Bowie",
+      "order": 48,
+      "role": "",
+      "thumb": "/XAv1RilHZu7qiGGIOgikrLgHeD.jpg"
+    },
+    {
+      "name": "Patton Oswalt",
+      "order": 49,
+      "role": "",
+      "thumb": "/ljQvjbPmcIAl205Lb2Mu4CW8WO7.jpg"
+    },
+    {
+      "name": "Troy Evans",
+      "order": 50,
+      "role": "",
+      "thumb": "/56m9RDIDGH0DfNrRVMPuiTqi5m4.jpg"
+    },
+    {
+      "name": "Rod McLachlan",
+      "order": 52,
+      "role": "",
+      "thumb": "/ewLwuiroXH1KclIWDXoR4rvpxtw.jpg"
+    },
+    {
+      "name": "Zak Orth",
+      "order": 53,
+      "role": "",
+      "thumb": "/ldywlWMt89PO3qLDL174TpTc0ce.jpg"
+    },
+    {
+      "name": "Concetta Tomei",
+      "order": 54,
+      "role": "",
+      "thumb": "/8Nklhc1OqbZazPb0fB1r0oCl69x.jpg"
+    },
+    {
+      "name": "Stephnie Weir",
+      "order": 55,
+      "role": "",
+      "thumb": "/wYYjycbaRiIQkGxU1QwVrDVqYi5.jpg"
+    },
+    {
+      "name": "Raymond Ma",
+      "order": 57,
+      "role": "",
+      "thumb": "/9IvSLpcBKb6AHYnba0HIn7Dx2Ok.jpg"
+    },
+    {
+      "name": "Sally Phillips",
+      "order": 58,
+      "role": "",
+      "thumb": "/xLEMZhksdCEO8HUhQLNetkETLdr.jpg"
+    },
+    {
+      "name": "Sumalee Montano",
+      "order": 60,
+      "role": "",
+      "thumb": "/cqkKL8hTGglY1n0DRrDmsfvwpDx.jpg"
+    },
+    {
+      "name": "Randall Park",
+      "order": 61,
+      "role": "",
+      "thumb": "/1QJ4cBQZoOaLR8Hc3V2NgBLvB0f.jpg"
+    },
+    {
+      "name": "Jessica Chaffin",
+      "order": 61,
+      "role": "",
+      "thumb": "/tR33HttgoicrmgXRx2Ceuk5sba4.jpg"
+    },
+    {
+      "name": "Hector Hugo",
+      "order": 62,
+      "role": "",
+      "thumb": "/hcW39P3ip93B2o2j0gMf6U426f8.jpg"
+    },
+    {
+      "name": "Rick Overton",
+      "order": 63,
+      "role": "",
+      "thumb": "/6TYFFjEKcS7ielkYru6MvJa8jSY.jpg"
+    },
+    {
+      "name": "Jim Titus",
+      "order": 64,
+      "role": "",
+      "thumb": "/f8wicNrIhd9zxOaADn7rvgAmuCH.jpg"
+    },
+    {
+      "name": "J. Anthony Pena",
+      "order": 65,
+      "role": "Stage Manager",
+      "thumb": "/73687WPnjxzpbuVyQXk5cLOmNBp.jpg"
+    },
+    {
+      "name": "Tim Baltz",
+      "order": 66,
+      "role": "Craig",
+      "thumb": null
+    },
+    {
+      "name": "Rhea Seehorn",
+      "order": 67,
+      "role": "Michelle",
+      "thumb": "/59pHXuk5siBXX17fEoIxEg2CEZL.jpg"
+    },
+    {
+      "name": "Benjamin Cook",
+      "order": 68,
+      "role": "Walt",
+      "thumb": "/siFE5F4ReT1krbu3kPseVx0OO6T.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Making Veep",
-        "Season 1 Deleted Scenes",
-        "Season 2 Deleted Scenes"
+        {
+          "aired": "2012-04-09",
+          "plot": "Go behind the scenes of the new HBO comedy series, Veep, starring Julia Louis-Dreyfus.",
+          "thumbnail": "",
+          "title": "Making Veep"
+        },
+        {
+          "aired": "2013-03-26",
+          "plot": "More than sixty cut scenes and improv riffs spread across 25 minutes.",
+          "thumbnail": "",
+          "title": "Season 1 Deleted Scenes"
+        },
+        {
+          "aired": "2014-03-25",
+          "plot": "A generous collection of deleted scenes from the entire second season.",
+          "thumbnail": "",
+          "title": "Season 2 Deleted Scenes"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Fundraiser",
-        "Frozen Yoghurt",
-        "Catherine",
-        "Chung",
-        "Nicknames",
-        "Baseball",
-        "Full Disclosure",
-        "Tears"
+        {
+          "aired": "2012-04-22",
+          "plot": "Vice President Selina Meyer and her staff - chief of staff Amy, spokesperson Mike, right-hand man Gary, and executive assistant Sue - are still finding their footing in Washington D.C. Selina decides to make the Clean Jobs Commission a pet project, but a series of missteps requires her staff to work damage control.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8zaLCXpV8KMCusfHDhDjGOIrhXV.jpg",
+          "title": "Fundraiser"
+        },
+        {
+          "aired": "2012-04-29",
+          "plot": "After getting good news on a clean-jobs bill, the staff brainstorm for a photo-op idea, but the trip to a local frozen-yoghurt shop is delayed by a stop in the White House Situation Room and a gastrointestinal illness that's going around.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f2V8wgK7f2jkzs5oY7WY1ZEnNl7.jpg",
+          "title": "Frozen Yoghurt"
+        },
+        {
+          "aired": "2012-05-06",
+          "plot": "Selina celebrates 20 years in Washington, D.C., but tries to keep a low profile after a newspaper article paints her as a diva and rumors float about her feud with the first lady. Meanwhile, Selina’s college-age daughter arrives for a visit, and is surprised that her mother is looking for a dog but appalled by her reaction to “Selina” being on the list of names for hurricanes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n0NAp6hDPLYWCGC2AehecNV0wW.jpg",
+          "title": "Catherine"
+        },
+        {
+          "aired": "2012-05-13",
+          "plot": "Dan and Amy try to figure out if an Asian-American war hero-cum-governor could be a political threat to Selina. Meanwhile, Selina and Mike prep for her \"Meet the Press\" interview; and Gary and Amy make a startling discovery about Selina's romantic life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/remwq4lvjtuvjmko3EYSeaPUJge.jpg",
+          "title": "Chung"
+        },
+        {
+          "aired": "2012-05-20",
+          "plot": "Bloggers' nicknames for Selina become her next obsession; Dan goes on a fact-finding mission after his boss is snubbed by the president; it's make-or-break time for the clean-jobs bill.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9ved6rAbxX7xqnHtCEErsKqV7VE.jpg",
+          "title": "Nicknames"
+        },
+        {
+          "aired": "2012-05-27",
+          "plot": "Selina attends a healthy eating event at Camden Yards with some very grumpy fast-food executives, where she also confides a secret to Amy. Mike holds a press briefing for some local news pals, save for the inquisitive Leon West. Later, with the Veep delayed, Amy and Dan are forced to entertain elementary school children.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uHLF1b9dypzYRypV7BM6JBLkBWC.jpg",
+          "title": "Baseball"
+        },
+        {
+          "aired": "2012-06-03",
+          "plot": "The vice president's office takes some heat over a pregnancy rumor and the firing of a Secret Service agent, so Selina establishes some new ground rules about internal correspondence. Meanwhile, Dan tries to cover his boss' tracks on the clean-jobs bill; and a staffer's job may be in jeopardy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nvmo2MqUZrNC7fpb3PgvZ2CWOfu.jpg",
+          "title": "Full Disclosure"
+        },
+        {
+          "aired": "2012-06-10",
+          "plot": "In the Season 1 finale, an Ohio gubernatorial candidate balks at Selina's endorsement due to her current unpopularity, but Mike and Amy try to make the best of the vice president's emotions during their meeting. Meanwhile, Dan can't shake the clean-jobs bill debacle, especially when it could be the subject of a Congressional hearing.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vnHsKTqhEmnawSA4TpIVLHcIo9K.jpg",
+          "title": "Tears"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Midterms",
-        "Signals",
-        "Hostages",
-        "The Vic Allen Dinner",
-        "Helsinki",
-        "Andrew",
-        "Shutdown",
-        "First Response",
-        "Running",
-        "D.C."
+        {
+          "aired": "2013-04-14",
+          "plot": "Fresh off successful campaign appearances for midterm elections, Selina sees an opportunity to expand her role, but must first curry favor with Kent Davison, the president's icy senior strategist. Meanwhile, there are new developments in the staff's personal lives.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wZCD0iIDJvMlDqtzITl2SGuEMnX.jpg",
+          "title": "Midterms"
+        },
+        {
+          "aired": "2013-04-21",
+          "plot": "Selina attends a pig roast in North Carolina as part of the president's \"Listen to Rural America\" initiative. Dan takes up Pilates to get face time.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yv14mbUk3COS7XFAtT0aKTYFCTJ.jpg",
+          "title": "Signals"
+        },
+        {
+          "aired": "2013-04-28",
+          "plot": "As a hostage crisis in Uzbekistan heats up, Selina and Secretary of Defense General Maddox have trouble getting on the same page at their joint appearance at the Marine Corps Base at Quantico. Sue testifies at a congressional hearing on governmental efficiencies; Dan and Gary jockey for the Veep's ear.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lkoeQSGDkwTdZfGlfwkaIwdxVMz.jpg",
+          "title": "Hostages"
+        },
+        {
+          "aired": "2013-05-05",
+          "plot": "Selina is rankled when the White House releases an unflattering photo of her. Mike and Kent bond over sailing; Jonah gets an executive parking space; Sue has a job interview. Selina takes steps to keep her staff happy as they prepare for her appearance at the Vic Allen dinner.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6r0bv4VwSskauuhIzaKR5NfsDym.jpg",
+          "title": "The Vic Allen Dinner"
+        },
+        {
+          "aired": "2013-05-12",
+          "plot": "Selina and her staff head to Helsinki to finalize a trade agreement, but are worried whether Selina will be received warmly in Europe. Dan call Mike for advice on charming the press and Mike leans on Jonah for help. Ken and Ben argue over how to deal with new intel.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fICzrOdHgY7EVMJoB65nX8O576c.jpg",
+          "title": "Helsinki"
+        },
+        {
+          "aired": "2013-05-19",
+          "plot": "Catherine's 21st birthday party becomes a forum for Selina's budget negotiation with the majority leader, but Amy and Gary are more worried how Selina will handle seeing her ex-husband. Meanwhile, Mike discusses Selina's role in the Uzbek hostage crisis with the press.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ibDETpL4Q3BHK4FKu6QyEWwwlrc.jpg",
+          "title": "Andrew"
+        },
+        {
+          "aired": "2013-06-02",
+          "plot": "With D.C. in the midst of a government shutdown, Selina is forced to furlough some of her staff. A damaging story leaks about Selina’s ex-husband, Andrew; Danny Chung takes advantage of the shutdown; Gary Jonah go on a run to retrieve Selina’s trash.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2gsDdZmNlmiX0Q9yAAc5BdrNKzB.jpg",
+          "title": "Shutdown"
+        },
+        {
+          "aired": "2013-06-09",
+          "plot": "After being prepped for a “puff piece” interview at the VP residence, Selina is thrown by Janet Ryland’s “gotcha” questions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bNC0dGBUFNGWUxIylGpktSDv3dy.jpg",
+          "title": "First Response"
+        },
+        {
+          "aired": "2013-06-16",
+          "plot": "Despite being told to limit public appearances, Selina continues her plans; Dan tries to play both sides of a rivalry.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cuL2mYDzxCoNgR9o4XyHhkHVfW6.jpg",
+          "title": "Running"
+        },
+        {
+          "aired": "2013-06-23",
+          "plot": "Selina and her staff try to cope when the administration goes into full crisis mode.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4Whe752pjNk3e9IVJFFIl4IDTDg.jpg",
+          "title": "D.C."
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Some New Beginnings",
-        "The Choice",
-        "Alicia",
-        "Clovis",
-        "Fishing",
-        "Detroit",
-        "Special Relationship",
-        "Debate",
-        "Crate",
-        "New Hampshire"
+        {
+          "aired": "2014-04-06",
+          "plot": "In Iowa, Selina courts possible caucus voters at a book signing for her new autobiography, while her team attends a staff wedding in D.C. As the day proceeds, she and her staff get word of a rumor that could affect the next election.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6ohYbQ5SV11O7C72TaOTXG5tVYz.jpg",
+          "title": "Some New Beginnings"
+        },
+        {
+          "aired": "2014-04-13",
+          "plot": "After a quick visit to their new campaign HQ, Selina and her team go on a ride-along with the Coast Guard, where they learn the president has flipped on a major issue, which makes Selina reexamine her own stance. Meanwhile, Gary questions his role with the Veep, and Jonah's new political blog causes trouble.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mOm6oPr9wVMR0vRz2wNvt0EKEgK.jpg",
+          "title": "The Choice"
+        },
+        {
+          "aired": "2014-04-20",
+          "plot": "While Selina and her staff prepare for an Annapolis event where she will announce her candidacy, Dan gets word that \"Saturday Night Live\" has done a not-so-flattering sketch about her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rkjxpkdM2Ln7qR7nxxYjNk7wLPo.jpg",
+          "title": "Alicia"
+        },
+        {
+          "aired": "2014-04-27",
+          "plot": "On a fundraising trip in Silicon Valley, Selina is challenged by an anti-fracking mom and visits the campus of Clovis, a tech company with an ambitious young CEO. In D.C., Jonah makes a crude viral video of the Selina-mom encounter, and Dan, with Ben's help, gets an idea for a rumor he can spread against Chung.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5PkLxHsg5dj4kMiDjeAq0R05GJb.jpg",
+          "title": "Clovis"
+        },
+        {
+          "aired": "2014-05-04",
+          "plot": "Selina has a secret lunch with a major strategist she may tap as her campaign manager, even as Amy and Dan are openly vying for the job. Meanwhile, Defense Secretary Maddox invites the vice president to his country estate; Gary gets bad news about his shoulder; and Mike's colleagues find out he's mixing business with pleasure.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sNNPPaNZqcvyhJUlfy4othVsZPw.jpg",
+          "title": "Fishing"
+        },
+        {
+          "aired": "2014-05-11",
+          "plot": "At an economic summit in Detroit, Selina’s staff and her family are peeved by the presence of her new personal trainer. Meanwhile, Jonah and Mike negotiate a photo-op with Selina and Maddox. Later, Catherine protects her mom from a protestor, and Selina attends a women’s gun show.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/caA2THnWyIZKFcaZsQtLM9KV3Fs.jpg",
+          "title": "Detroit"
+        },
+        {
+          "aired": "2014-05-18",
+          "plot": "In the U.K. for the 100th anniversary of WWI, Selina’s staff worries about Ray’s growing influence on the Veep. Meanwhile, Dan’s nerves begin to fray as Ben gets news that sends him back to D.C. Later, Jonah arrives in London, U.K. to spy for Team Maddox, and Amy leaks a secret.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7dtBhSsIEnBlr6QA9FQIOrQshEC.jpg",
+          "title": "Special Relationship"
+        },
+        {
+          "aired": "2014-06-01",
+          "plot": "Selina and the staff prep for her debate with George Maddox, Danny Chung, congressman Owen Pierce and Joe Thornhill, a major-league baseball manager who recently entered the race. Dan returns with a rosier outlook. Wendy, Mike's wife, arrives to do a style piece on Selina, but eyes a bigger story involving Ray.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s8QHM9fgFsk3kqscoIJmC7BGX2Z.jpg",
+          "title": "Debate"
+        },
+        {
+          "aired": "2014-06-08",
+          "plot": "With Thornhill ahead in the polls, Selina and her staff discuss how to make her more \"folksy.\" In need of a job, Jonah meets with Bill Ericsson. Selina has an interview with pretentious journalist Quincy Carter.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y48xYUePKbRJGQX4usCRdJ9cm3C.jpg",
+          "title": "Crate"
+        },
+        {
+          "aired": "2014-06-08",
+          "plot": "Three days before the New Hampshire primary, Selina and her staff juggle her multiple official obligations and campaign appearances.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iyVsROrAyCQVFE01qCZQ4EHzlFh.jpg",
+          "title": "New Hampshire"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "Joint Session",
-        "East Wing",
-        "Data",
-        "Tehran",
-        "Convention",
-        "Storms and Pancakes",
-        "Mommy Meyer",
-        "B/ill",
-        "Testimony",
-        "Election Night"
+        {
+          "aired": "2015-04-12",
+          "plot": "Selina's staff frantically works on her first major speech as president. Gary questions his worth.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vnWSms9KK31DLm1B3rszZHqNhOu.jpg",
+          "title": "Joint Session"
+        },
+        {
+          "aired": "2015-04-19",
+          "plot": "The president's staff prepares for her state visit with the Israeli prime minister.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mvfMcrIsOCd1xOveHcu9TBbiwfh.jpg",
+          "title": "East Wing"
+        },
+        {
+          "aired": "2015-04-26",
+          "plot": "Selina's team tries to find a scapegoat. Catherine wants to support an anti-bullying campaign.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jEtwQSP4tT9oTXEimAharvirjaO.jpg",
+          "title": "Data"
+        },
+        {
+          "aired": "2015-05-03",
+          "plot": "President Meyer travels to Iran, where an American reporter is being detained.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ccx8s4JIjIJtKMyymcmCVwGZecd.jpg",
+          "title": "Tehran"
+        },
+        {
+          "aired": "2015-05-10",
+          "plot": "Selina and her staff scramble to avert a major internal crisis; Amy is angry with a new advisor.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hqVukNbSYuEUOZj8W4PHecvjOrd.jpg",
+          "title": "Convention"
+        },
+        {
+          "aired": "2015-05-17",
+          "plot": "Selina is annoyed by the press' reaction to her running mate's charm.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2n440De53iQbNdKWETGFsGd8VMI.jpg",
+          "title": "Storms and Pancakes"
+        },
+        {
+          "aired": "2015-05-24",
+          "plot": "The president is shaken by a dramatic incident at the White House.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yF69Ywbk1blsKxQHgEwYnuBGEZK.jpg",
+          "title": "Mommy Meyer"
+        },
+        {
+          "aired": "2015-05-31",
+          "plot": "Gary sets up a secret meeting with Dan and Amy to persuade them to lobby against Selina's bill.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qjECcICTNzrkbfv5auKalk7u0XY.jpg",
+          "title": "B-ill"
+        },
+        {
+          "aired": "2015-06-07",
+          "plot": "While Selina fields questions from the press, members of her staff testify before a congressional committee about whether the Families First vote was intentionally sabotaged – and who was really behind the data breach.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oMqEEoQrWPc5el6FbJfP10OQRaD.jpg",
+          "title": "Testimony"
+        },
+        {
+          "aired": "2015-06-14",
+          "plot": "On election night, Selina and her staff find their nerves growing frayed as each state result is called.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kckSyVszW96QTeCkz01CxsnNiKD.jpg",
+          "title": "Election Night"
+        }
       ]
     },
     "5": {
       "episodes": [
         null,
-        "Morning After",
-        "Nev-AD-a",
-        "The Eagle",
-        "Mother",
-        "Thanksgiving",
-        "C**tgate",
-        "Congressional Ball",
-        "Camp David",
-        "Kissing Your Sister",
-        "Inauguration"
+        {
+          "aired": "2016-04-24",
+          "plot": "Post-election night: Selina discovers a possible road to victory. Meanwhile, Amy must figure out if she is back or not; Catherine kicks off a behind-the-scenes documentary project; Mike announces that he and Wendy are adopting a baby from China; and Dan considers a new career.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8n5VCVpS7xLeoTLjEydAwGNzoDA.jpg",
+          "title": "Morning After"
+        },
+        {
+          "aired": "2016-05-01",
+          "plot": "Amy, Dan, Jonah and Richard try to win the Presidency for the President. Back in D.C., Selina brings in respected Washington fixture Bob Bradley, aka \"The Eagle,\" and, after nudging out Tom James on the newly created Banking Task Force, meets billionaire banker Charlie Baird. Meanwhile, Mike tries to get healthy before his baby arrives; Kent investigates Sue's age; and Amy and Dan share a charged moment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bVayDoUTTfDNUIp89FuQPpn1DbK.jpg",
+          "title": "Nev-AD-a"
+        },
+        {
+          "aired": "2016-05-08",
+          "plot": "Selina sends a tweet and Mike must deal with the consequences. Amy feels usurped by Bob, and begins to be troubled by his behavior. At a museum gala, Gary finds himself the belle of the ball.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3vzxdp5mrfXuls4wNdVK68CARpL.jpg",
+          "title": "The Eagle"
+        },
+        {
+          "aired": "2016-05-15",
+          "plot": "Selina rushes to the hospital while attempting to win the presidency. Amy and Dan discover the O'Brien camp has staged a fake protest, and task Jonah and Richard with organizing their own pro-POTUS demonstration. Mike and Wendy meet with a potential surrogate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5vkhPRTtt4aKl1lk1KxY7IWF4nz.jpg",
+          "title": "Mother"
+        },
+        {
+          "aired": "2016-05-22",
+          "plot": "Selina celebrates Thanksgiving in her own special way. Meanwhile, Ben and Kent manage a Thanksgiving Day crisis, deploying Tom James and VP Doyle to make statements in Selina's absence. Ben sends Dan to work for Tom James.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/30V5U6ZrWaAu0eaIDeG8PfFarTr.jpg",
+          "title": "Thanksgiving"
+        },
+        {
+          "aired": "2016-05-29",
+          "plot": "With the U.S. on the brink of a major financial meltdown, Selina must make an important decision. Jonah finds himself back in New Hampshire. Meanwhile, Amy investigates the staff, and Catherine tries to get time with Selina to share some major news.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cwLQdRIlqQPGVAP03qs07zn9Psi.jpg",
+          "title": "Ctgate"
+        },
+        {
+          "aired": "2016-06-05",
+          "plot": "At the White House Christmas party, Selina bargains for votes in hopes of breaking the election tie. Meanwhile, the staff is preoccupied with the annual '50 Hottest D.C. Staffers' list; Mike eyes a job outside politics; and Dan helps Jonah with debate prep in New Hampshire.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aZYeDrlHdIlXjB42vGnqI3Yo2c2.jpg",
+          "title": "Congressional Ball"
+        },
+        {
+          "aired": "2016-06-12",
+          "plot": "Selina takes Catherine to a family pre-Christmas celebration at Camp David, where her team also plans to conduct secret negotiations. After a disastrous debate in New Hampshire, Amy and Dan try to make Jonah seem more human.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hJ9lXoq4vunbdJnaLpedgchytKI.jpg",
+          "title": "Camp David"
+        },
+        {
+          "aired": "2016-06-19",
+          "plot": "Catherine and Marjorie have a fight. Mike prepares for his babies. Selina is interviewed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sbCzWCj5pew1IioOTNDDUeAvWMM.jpg",
+          "title": "Kissing Your Sister"
+        },
+        {
+          "aired": "2016-06-26",
+          "plot": "Selina and her staff prepare for inauguration day. Mike suffers exhaustion. Catherine gets a makeover.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4zm9UinDqB6Tnw1Es4tpAKmo2w5.jpg",
+          "title": "Inauguration"
+        }
       ]
     },
     "6": {
       "episodes": [
         null,
-        "Omaha",
-        "Library",
-        "Georgia",
-        "Justice",
-        "Chicklet",
-        "Qatar",
-        "Blurb",
-        "Judge",
-        "A Woman First",
-        "Groundbreaking"
+        {
+          "aired": "2017-04-16",
+          "plot": "One year after losing the presidency, Selina attempts to secure her legacy. Dan tries to ingratiate himself at his new job. Amy's brash D.C.-style personality proves too much for her new co-workers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sdQbo9Fatlvl2Ubi9PeU7ROvM9V.jpg",
+          "title": "Omaha"
+        },
+        {
+          "aired": "2017-04-23",
+          "plot": "Selina attends the opening of President Hughes' library. Jonah gets advice on how to rise in the political ranks; Dan suffers through Jane's whims; Amy releases a negative attack ad.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dZk7pdJNpfMdLubSWw9DS9hsmBZ.jpg",
+          "title": "Library"
+        },
+        {
+          "aired": "2017-04-30",
+          "plot": "Selina helps monitor the first free and democratic election in Georgia (the country, not the state) and is reunited with an old \"friend.\" Meanwhile, Mike and Gary hide evidence of a major mishap, and Jonah and Richard have an eventful night out. Back in the U.S., Dan tries to help Amy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/thjAFZwTW6AQJ2yMEyulKlOx2jQ.jpg",
+          "title": "Georgia"
+        },
+        {
+          "aired": "2017-05-07",
+          "plot": "Selina and her team attend the funeral of a Supreme Court Justice. Amy works on securing a location for Selina's library. Dan tries to maintain his upswing with his co-host. Jonah finds an issue.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gNnxR4Pn0YitcjyX7YzNUQfsitE.jpg",
+          "title": "Justice"
+        },
+        {
+          "aired": "2017-05-14",
+          "plot": "Selina settles on a location for her presidential library. Dan lands in a gossip column. Mike and Selina work on her book. Jonah tries to cement a big donation. Gary manages a mini-crisis at Madame Tussauds.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4TLSgZVlSIi6HQa6GlGVv1se5P2.jpg",
+          "title": "Chicklet"
+        },
+        {
+          "aired": "2017-05-21",
+          "plot": "Selina visits Qatar. In D.C., Jonah gets a dinner invite. Dan gets an unexpected visit from an HR rep. Catherine and Marjorie have big news.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lq8aZzEQRslUQ7GthE27q8JnvMG.jpg",
+          "title": "Qatar"
+        },
+        {
+          "aired": "2017-05-28",
+          "plot": "Selina tries to finish her book. Selina and her staff prepare for her portrait-unveiling ceremony, while Jonah tries to weasel himself onto the guest list. Dan works on his onscreen-chemistry problem.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mroTLE59y8UrGgF4z9PolYHpAVr.jpg",
+          "title": "Blurb"
+        },
+        {
+          "aired": "2017-06-11",
+          "plot": "Selina takes a trip. Meanwhile, Dan woos Jonah in order to get a coveted interview, and Amy convinces Selina to put her in charge of a very disorganized Mike.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ddJ10bOwGhkzHp86MliNRLnJs9P.jpg",
+          "title": "Judge"
+        },
+        {
+          "aired": "2017-06-18",
+          "plot": "Selina's book finally arrives. Jonah has a big meeting. Dan, Ben and Kent grab a drink.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6ggRDmJC6UlCtYF4hKOR0gc1jfP.jpg",
+          "title": "A Woman First"
+        },
+        {
+          "aired": "2017-06-25",
+          "plot": "Selina and her team prepare for the long-awaited groundbreaking of her library. Amy seeks clarity on her role. Jonah asks a major donor for help. Season finale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lH1VyNn7U3jZzCr87DkonWfnXHT.jpg",
+          "title": "Groundbreaking"
+        }
       ]
     },
     "7": {
       "episodes": [
         null,
-        "Iowa",
-        "Discovery Weekend",
-        "Pledge",
-        "South Carolina",
-        "Super Tuesday",
-        "Oslo",
-        "Veep"
+        {
+          "aired": "2019-03-31",
+          "plot": "Selina evaluates her past and present campaigns. Jonah's personal life sparks interest among the press. Amy makes an important decision.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i3R2CkeyThHOqgqcptjHZzBoDoV.jpg",
+          "title": "Iowa"
+        },
+        {
+          "aired": "2019-04-07",
+          "plot": "At an Aspen retreat for rich donors, Selina deals with potential adversaries and allies. Amy's behavior raises Gary's suspicions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7C1XTQ40S3xPB4icJyneGPlndLq.jpg",
+          "title": "Discovery Weekend"
+        },
+        {
+          "aired": "2019-04-14",
+          "plot": "In the run-up to the first debate, Selina makes a novel campaign proposal. Comments by Jonah create blowback. Dan and Amy take a road trip.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dA7lhsZWC36ynhOL17i3Jy8QeJp.jpg",
+          "title": "Pledge"
+        },
+        {
+          "aired": "2019-04-21",
+          "plot": "Selina and team head to South Carolina, where she seeks an endorsement from a key leader. Gary gets a long-awaited promotion, while Marjorie excels in her new role.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rmQVNmZGI1YQwVfGzOcFxVLXk8c.jpg",
+          "title": "South Carolina"
+        },
+        {
+          "aired": "2019-04-28",
+          "plot": "Facing increased scrutiny heading into Super Tuesday, Selina visits Mike to deflect attention from Andrew's legal troubles. Jonah and Amy ramp up their anti-Selina campaign rhetoric. Dan attempts to exploit Richard.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oyiZ2ckeMrxvDCxJsovVpM2mkfN.jpg",
+          "title": "Super Tuesday"
+        },
+        {
+          "aired": "2019-05-05",
+          "plot": "Selina tries to arrange a meeting via her Finnish contact Minna. Gary helps Catherine plan a big event. Jonah and Amy push an anti-vax message in Pennsylvania. Mike finds a new home. Richard may have an enemy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/giOQOJ7iuc5v7nxLE6uVSPdaSlH.jpg",
+          "title": "Oslo"
+        },
+        {
+          "aired": "2019-05-12",
+          "plot": "The nominating fight between Selina and her rivals reaches its climax, as their race comes to a historic finish. Series finale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9MfLOjN8AinLoGSyRX2dYhWhPHQ.jpg",
+          "title": "Veep"
+        }
       ]
     }
   },

@@ -1,119 +1,661 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Action & Adventure",
+    "Animation",
+    "Comedy",
+    "Sci-Fi & Fantasy"
+  ],
   "id": 60877,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/263975/clearart/bravest-warriors-50c698d3cf0f7.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/263975/clearlogo/bravest-warriors-50c5b65596a19.png",
+        "https://assets.fanart.tv/fanart/tv/263975/clearlogo/bravest-warriors-50c5b66543194.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/263975/tvbanner/bravest-warriors-50c9401c99254.jpg",
+        "https://assets.fanart.tv/fanart/tv/263975/tvbanner/bravest-warriors-50c9406e28634.jpg"
+      ],
+      "seriesPoster": [],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/263975/tvthumb/bravest-warriors-5133e5de287fa.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/LJ8Hi0ZIZz9EcguKoULFkDcIw7.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/2Fjkjr3m6cLB8PKtZOooE3D9Dg8.jpg"
+    }
+  },
+  "mpaa": "",
   "name": "Bravest Warriors",
+  "plot": "In the year 3085, Chris, Beth, Wallow and Danny,  four teenage heroes-for-hire, warp through the universe to save adorable aliens and their worlds using the power of their emotions.",
+  "premiered": "2012-11-08",
+  "status": "Returning Series",
+  "studios": [
+    "VRV"
+  ],
+  "actors": [
+    {
+      "name": "Liliana Mumy",
+      "order": 2,
+      "role": "Beth Tezuka",
+      "thumb": "/rjwfUdZYb1P7y2DR8pekZ5tusHZ.jpg"
+    },
+    {
+      "name": "Ian Jones-Quartey",
+      "order": 3,
+      "role": "Wallow",
+      "thumb": "/j2pXEXcz6f3DDQO0qPJ23brj0ra.jpg"
+    },
+    {
+      "name": "John Omohundro",
+      "order": 4,
+      "role": "Danny Vasquez",
+      "thumb": null
+    },
+    {
+      "name": "Breehn Burns",
+      "order": 5,
+      "role": "Emotion Lord",
+      "thumb": null
+    },
+    {
+      "name": "Sam Lavagnino",
+      "order": 6,
+      "role": "Catbug",
+      "thumb": "/zTKuiH43wspXMigVAiGMF4rUKUs.jpg"
+    },
+    {
+      "name": "Michael-Leon Wooley",
+      "order": 7,
+      "role": "Impossibear",
+      "thumb": "/tMUNtp3xPTHRBUhnOiHcU5sjBDS.jpg"
+    },
+    {
+      "name": "Tara Strong",
+      "order": 8,
+      "role": "Plum",
+      "thumb": "/y9S3QzI3L5aARP8GYYO86rREKxU.jpg"
+    },
+    {
+      "name": "Graeme Jokic",
+      "order": 500,
+      "role": "Chris Kirkman",
+      "thumb": "/A8yZu5owQzF6fbsNOfHKte4uGDx.jpg"
+    },
+    {
+      "name": "Alexander Walsh",
+      "order": 1,
+      "role": "Chris Kirkman",
+      "thumb": null
+    },
+    {
+      "name": "Bill Mumy",
+      "order": 9,
+      "role": "Ralph Waldo Pickle Chips",
+      "thumb": "/pxjz9MOh1PMGV2SYu2hw7cmpO9e.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Moo-Phobia",
-        "DramaBug",
-        "Browser Fail",
-        "Impossibomb",
-        "Terrabeth Bytes",
-        "Bravest Warriors Documentary"
+        {
+          "aired": "2013-08-08",
+          "plot": "Chris's fear of cows keeps him from joining the others on a mission.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bsS1PDyXGkf2iNMOdrIXrzFLL6i.jpg",
+          "title": "Moo-Phobia"
+        },
+        {
+          "aired": "2013-08-15",
+          "plot": "Catbug plays with his toys with soap opera-worthy drama.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/b5Nas3condn8BkUxrAvVS9eaySD.jpg",
+          "title": "DramaBug"
+        },
+        {
+          "aired": "2013-08-22",
+          "plot": "Danny wakes up to realize his eyebrows have been shaved off in his sleep.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gkPKzReojFJ0cWx9QQGQXLWwe2c.jpg",
+          "title": "Browser Fail"
+        },
+        {
+          "aired": "2013-09-06",
+          "plot": "Impossibear shows up with a present for Wallow, not knowing that it is actually a bomb.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5nJw4x3Vtar8ruO23mb49ygNpg9.jpg",
+          "title": "Impossibomb"
+        },
+        {
+          "aired": "2013-09-13",
+          "plot": "Beth sumo wrestles with Wallow.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uI6FyJcazEZNYkBD0ZEizaFhq9G.jpg",
+          "title": "Terrabeth Bytes"
+        },
+        {
+          "aired": "2017-12-11",
+          "plot": "Who is behind a Bravest Warriors episode? How did the series come about? What does a clip from Season 4 look like? Find out all of this and more in our Bravest Warriors Behind the Scenes documentary.",
+          "thumbnail": "",
+          "title": "Bravest Warriors Documentary"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Time Slime",
-        "Emotion Lord",
-        "Butter Lettuce",
-        "Memory Donk",
-        "The Bunless",
-        "Lavarinth",
-        "Gas Powered Stick",
-        "Dan Before Time",
-        "Cereal Master",
-        "Ultra Wankershim",
-        "Catbug",
-        "Sugarbellies"
+        {
+          "aired": "2012-11-08",
+          "plot": "The Bravest Warriors must save Glendale, or be forever stuck in a time loop.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mRRBHlv518sOgUU8yUDdW5JXHYz.jpg",
+          "title": "Time Slime"
+        },
+        {
+          "aired": "2012-11-15",
+          "plot": "Emotions run high on the Bravest Warriors' ship when Danny contracts Zgraxxis fever and Wallow must perform surgery. Meanwhile, a mysterious old man has appeared, distracting everyone from the task at hand. Chris must contain his anger and save Danny, or else put all of his friends in mortal peril. Also, Beth has a tail.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4HPpIpkBK0o5BSak6SkNjbVDmBv.jpg",
+          "title": "Emotion Lord"
+        },
+        {
+          "aired": "2012-11-29",
+          "plot": "\"Butter Lettuce\" Dark abomination of the Wet Mounds of Nardacorn, Chris is taking his sweet time in the bathroom! As Chris, Wallow, and Danny hog the Holo-John with their fantasies, they prevent a certain member of the Bravest Warriors team from getting a fresh start to her day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fMvOA3Vt4ZrmPbJGXPCuVhAgEdC.jpg",
+          "title": "Butter Lettuce"
+        },
+        {
+          "aired": "2012-12-06",
+          "plot": "The Bravest Warriors are on a bus. Wwho are the Bravest Warriors? The team must remember their identities before they crash into the NeoMars Convention Center. Things looks pretty grim for the Bravest Whoevers, but at least they have plenty of bread.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6Xats6fFCt8rJoEMnGCq3XC3ady.jpg",
+          "title": "Memory Donk"
+        },
+        {
+          "aired": "2012-12-13",
+          "plot": "The fate of the planet Bunless 9 depends on the Bravest Warriors overcoming their adolescent fears of intimacy in order to prevent an apocalypse. Will love prevail through time, space, and fleshy buttocks?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ts5KSD6SQFg7KMqv9A1SF0PTQbe.jpg",
+          "title": "The Bunless"
+        },
+        {
+          "aired": "2012-12-20",
+          "plot": "In a shocking encounter, the Emotion Lord returns to help the Bravest Warriors in destroying the firebugs' hive. That is, if he doesn't get them killed first. Chris learns about fate, the future, and the importance of vitamin B-12. Remember to take your vitamins, kids!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7qL2d49g9yj1N2mMgDX5mEu62hl.jpg",
+          "title": "Lavarinth"
+        },
+        {
+          "aired": "2013-01-10",
+          "plot": "After a relaxing day by the lake, the Bravest Warriors make an extraordinary new friend. As the boys vie for her attention, Impossibear finds a mysterious stick that sprouts unforeseen consequences from Chris's forehead. Chris discovers that with great power, comes great responsibility, but also lots of emotion.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hweh6sw2GyuBZe8PdpPfGjOW0t0.jpg",
+          "title": "Gas Powered Stick"
+        },
+        {
+          "aired": "2013-01-24",
+          "plot": "The hour has come at last! Danny has constructed a time machine to seek revenge on the low gravity hacker lads. He reveals the truth behind his dark, disgusting past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oWCI3u0OEFt37ghSHHXpq08oGVS.jpg",
+          "title": "Dan Before Time"
+        },
+        {
+          "aired": "2013-02-07",
+          "plot": "In the early morning hours Chris and Danny fly from the Bravest Warriors Invisible Hideout on a mission to buy cereal for Beth. Chris must comfort a Martian chef with daddy issues and return to his best friend with the cereal for their jinx-iversary.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gcTPhtErbEcuLUHjXrk5DWYeqeL.jpg",
+          "title": "Cereal Master"
+        },
+        {
+          "aired": "2013-02-21",
+          "plot": "Breaking the laws of physics, Wankershim has left the Holo-John and is now taking up residence in NeoMars Park... and he's growing at an exponential rate. Meanwhile, an old friend returns to share with Chris a vision of the future, and to tell the Bravest Warriors that it's always been Wankershim.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vnDXx41RHjmhfbMCVfQhc8sUazn.jpg",
+          "title": "Ultra Wankershim"
+        },
+        {
+          "aired": "2013-03-07",
+          "plot": "When the Bravest Warriors receive mysterious gifts from the See-Through Zone, they must use their wits to unlock the door to the greatest secret. In this season finale, there promises to be more emotion, Catbug, and delicious peanut butter squares than ever before.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rKQxFeychSgyvFYgCtpcraLduDM.jpg",
+          "title": "Catbug"
+        },
+        {
+          "aired": "2013-07-18",
+          "plot": "When the adorable Sugarbelly aliens ask the the Bravest Warriors for help, the young heroes split up to tackle their most challenging mission yet in this cross-planetary adventure.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3hHS8YKLZhklXclAlF9K1h5w1Dd.jpg",
+          "title": "Sugarbellies"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Aeon Worm",
-        "RoboChris",
-        "Mexican Touchdown",
-        "Hamster Priest",
-        "Jelly Kid Forever",
-        "The Puppetyville Horror",
-        "Catbug's Away Team",
-        "Merewif Tag",
-        "Dimension Garden",
-        "The Parasox Pub",
-        "Season of the Worm",
-        "Season of the Mitch"
+        {
+          "aired": "2013-10-17",
+          "plot": "Beth and her horse find their way into the See-Through Zone where Beth decides to save her father, who has since become known as \"Ralph Waldo Pickle Chips\" in his service to the evil Aeon Worm.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qiMEh8XT68nRHIL9clVwR3A0nEg.jpg",
+          "title": "Aeon Worm"
+        },
+        {
+          "aired": "2013-10-31",
+          "plot": "Danny creates a robotic Chris duplicate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jNhzvxwakN3taCQAmCVGhdBigho.jpg",
+          "title": "RoboChris"
+        },
+        {
+          "aired": "2013-11-14",
+          "plot": "Danny and Plum team up to help out the adorable little aliens and Catbug is wearing a grass skirt?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vbBzXPO0np4XuhBCXhJkhNZ8o2B.jpg",
+          "title": "Mexican Touchdown"
+        },
+        {
+          "aired": "2013-12-05",
+          "plot": "The return of Ralph Waldo Pickle Chips!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wrUTTAqwwox9tq2tjNmI6WEhdSn.jpg",
+          "title": "Hamster Priest"
+        },
+        {
+          "aired": "2013-12-19",
+          "plot": "Catbug Kills Jelly Kid and the news doesn't take to well to Danny.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sWWfrny56mPQcxD4Cr4Q1rsFwdP.jpg",
+          "title": "Jelly Kid Forever"
+        },
+        {
+          "aired": "2014-01-23",
+          "plot": "The Warriors are stranded on a yellow planet and one, by one, they are disappearing.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sUgkCCrWzwsySkCe3IUFdL9SfYC.jpg",
+          "title": "The Puppetyville Horror"
+        },
+        {
+          "aired": "2014-02-06",
+          "plot": "Catbug assembles an away team to save the day, while the Warriors handle things on deck.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bQLdKo9jREcnDw5UOrslKpPDB1A.jpg",
+          "title": "Catbug's Away Team"
+        },
+        {
+          "aired": "2014-02-20",
+          "plot": "Chris and Plum play a little Merwif Tag, but Chris does not know that it makes them trade bodies!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yMH3Dq3YgPF2XpFsUqr3TK8NfR6.jpg",
+          "title": "Merewif Tag"
+        },
+        {
+          "aired": "2014-03-06",
+          "plot": "The Bravest Children come across a potential brain sucker, growing in Beth’s Dad’s garden and causes Wallow to become highly suspicious. You can’t fool his dolls! But this doesn’t bode well… Wallow needs their help!!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fyga0K7sBz2x8DctuRcIrjurV90.jpg",
+          "title": "Dimension Garden"
+        },
+        {
+          "aired": "2014-05-22",
+          "plot": "Chris socializes with many dimension lords in the Parasox Pub.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hN45lkb0BGgZo5fBofCnUwg2Xmm.jpg",
+          "title": "The Parasox Pub"
+        },
+        {
+          "aired": "2014-06-05",
+          "plot": "Hamsters flee from the invisible hideout and the Bravest Warriors need to figure out what the heck is going on! Wallow receives a Falcon Mod, Danny steps it up and Beth kicks butt!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yp0abtPk8aLJn6Sy8Q5Fro0arHp.jpg",
+          "title": "Season of the Worm"
+        },
+        {
+          "aired": "2014-06-12",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kg6A3o4LsoAdEtWunLPJSwWhXXY.jpg",
+          "title": "Season of the Mitch"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Dan of Future Past",
-        "Himmel Mancheese",
-        "Ghosts of the See-Through Zone",
-        "Fast Times at Saturn Oaks",
-        "Everything is Okay",
-        "Emotion Fjord"
+        {
+          "aired": "2017-01-10",
+          "plot": "Chris returns home from the Parasox Pub, but arrives on Mars ten years too early. With his powers out of control, he is discovered by a young, unitard-clad Danny, who is more than enthusiastic about nurturing him back to health.",
+          "thumbnail": "",
+          "title": "Dan of Future Past"
+        },
+        {
+          "aired": "2017-01-10",
+          "plot": "To save a divided race of cute little aliens, the Warriors fly to their planet where Himmel is the only hope for peace. But when Wallow's unscrupulous attitude about hooking up with aliens destroys the kingdom's chance for peace, he is sentenced to death.",
+          "thumbnail": "",
+          "title": "Himmel Mancheese"
+        },
+        {
+          "aired": "2017-01-24",
+          "plot": "While spending the evening in the city with Plum, Beth is in turmoil over who she loves more: Chris or Danny, lamenting how either decision will tear apart the Bravest Warriors. Back home, in the meantime, the group is being torn apart by interdimensional phantasms.",
+          "thumbnail": "",
+          "title": "Ghosts of the See-Through Zone"
+        },
+        {
+          "aired": "2017-02-07",
+          "plot": "At the Saturn Oaks Galleria--a popular teen hangout floating in the rings of Saturn--Chris must foil a food court heist before it's too late, but the crushing prospect of Beth falling for a new guy makes his mission all the more difficult.",
+          "thumbnail": "",
+          "title": "Fast Times at Saturn Oaks"
+        },
+        {
+          "aired": "2017-02-21",
+          "plot": "Catbug, Impossibear, and the other pets open the Invisible Hideout as a Bravest Warriors museum, while Hamster Mitch, AKA The Lord of Morality, is on a mission to seek the wisdom of the Paralyzed Horse.",
+          "thumbnail": "",
+          "title": "Everything is Okay"
+        },
+        {
+          "aired": "2017-03-07",
+          "plot": "Plum leads the Warriors to the Emotion Fjord to find Captain C Word, who can give Chris the protection he needs from deathly emoverload.",
+          "thumbnail": "",
+          "title": "Emotion Fjord"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "Whispers in the Morning",
-        "You've Grown So Tall You've Grown So Fast",
-        "Mirror's Reflection",
-        "Chained to Your Side",
-        "From The Inside Room",
-        "All I Wish Is To Be Alone",
-        "This Dance Ain't For Everybody",
-        "A Few Stolen Moments",
-        "No Need to Argue",
-        "We Can Leave Your Friends Behind",
-        "Sit Down Sip Some Bouillabaisse",
-        "Living in a Powder Keg",
-        "This is Not My Beautiful House",
-        "Footprints by the Garden Tree",
-        "Think I'll Miss This One This Year",
-        "Nothin' Stays the Same",
-        "I.O.U. For Your Love",
-        "At Night When The Program's Through",
-        "All I Get Is Static",
-        "I'm Smitten, I'm Bitten, I'm Hooked, I'm Cooked",
-        "A (Apple) B (Banana) C (Chili)",
-        "Dance Into The Fire",
-        "Craft of the Father",
-        "One in a Million Girls",
-        "Enough To Last a Lifetime",
-        "Will Things Ever Be The Same Again?",
-        "It Shouldn't Ever Have to End This Way - Part 1",
-        "It Shouldn't Ever Have to End This Way - Part 2",
-        "This is Your Paradise",
-        "Too High, Too Far, Too Soon",
-        "The Conscious Liberation of the Female State",
-        "Your Life is in Your Hands",
-        "The Crowd I'm Seeing",
-        "Everybody's Coming, Leave Your Body At The Door",
-        "My Only Weakness Is a List Of Crime",
-        "Decide What You Want From Me",
-        "You're Walkin' Tough Baby But You're Walkin' Blind - Part 1",
-        "You're Walkin' Tough Baby But You're Walkin' Blind - Part 2",
-        "You're Walkin' Tough Baby But You're Walkin' Blind - Part 3",
-        "Maybe You Could Be Mine",
-        "The Wire That Holds the Cork",
-        "If You Don't Know Electric Co.",
-        "That Ain't Workin",
-        "Nice Day to Start Again",
-        "Mouth is Alive With Juices Like Wine",
-        "Bang, Bang, Bang On The Door Baby",
-        "I Just Can't Cope Without My Soap",
-        "War Without Tears",
-        "Out Of Reach, Not Good Enough",
-        "Won't You Please Take Me Home",
-        "No Matter What The Future Brings - Part 1",
-        "No Matter What The Future Brings - Part 2"
+        {
+          "aired": "2017-12-25",
+          "plot": "When Chris's heart gets stabbed by a moop-infected flame sword, it's up to the rest of the Bravest Warriors to get him back to the ship... in time for Beth's date with another guy.",
+          "thumbnail": "",
+          "title": "Whispers in the Morning"
+        },
+        {
+          "aired": "2017-12-25",
+          "plot": "Chris goes on a ‘vision quest’ with the Emotion Lord while the Bravest Warriors try to solve a bi-dimensional baby crisis.",
+          "thumbnail": "",
+          "title": "You've Grown So Tall You've Grown So Fast"
+        },
+        {
+          "aired": "2018-01-12",
+          "plot": "Worm clones from another dimension overtake the hideout, forcing the real Bravest Warriors to mobilize and murder their wormy selves.",
+          "thumbnail": "",
+          "title": "Mirror's Reflection"
+        },
+        {
+          "aired": "2017-01-12",
+          "plot": "When her new beau stands her up for the annual ‘Sadie Hawkins’-style dance, Beth flies solo for the couples’ carnival games and competes against the other Bravest Warriors.",
+          "thumbnail": "",
+          "title": "Chained to Your Side"
+        },
+        {
+          "aired": "2018-01-26",
+          "plot": "Danny struggles to serve his 1000 year long prison sentence for time crimes, but is helped by his new cellmate: the Reverend Picklechips.",
+          "thumbnail": "",
+          "title": "From The Inside Room"
+        },
+        {
+          "aired": "2018-01-26",
+          "plot": "Jumpy after Puddingtown gives him an alarming tip about the other Emotion Lords, Chris, home alone, accidentally causes a violent revolt from the bathroom Elves.",
+          "thumbnail": "",
+          "title": "All I Wish Is To Be Alone"
+        },
+        {
+          "aired": "2018-02-09",
+          "plot": "Beth and Plum’s big ‘girls night out’ at a trendy virtual nightclub sours when a creepy party crasher threatens to wreck the club and maybe the girls’ friendship.",
+          "thumbnail": "",
+          "title": "This Dance Ain't For Everybody"
+        },
+        {
+          "aired": "2018-02-09",
+          "plot": "When Beth’s new boy-toy gets roped into an alien rescue mission, it’s his alone time with a moopy and volatile Chris that really puts him in danger.",
+          "thumbnail": "",
+          "title": "A Few Stolen Moments"
+        },
+        {
+          "aired": "2018-02-23",
+          "plot": "On a trip to her home planet, Plum’s strict parents catch her and Chris partaking in forbidden nums, forcing Chris into a fight to the death with Plum’s jealous ex.",
+          "thumbnail": "",
+          "title": "No Need to Argue"
+        },
+        {
+          "aired": "2018-02-23",
+          "plot": "Himmel begins phasing back to his own time, leaving Wallow with the hardest choice of his life: bid farewell to love, or go with Himmel and bid farewell to the BWs forever!",
+          "thumbnail": "",
+          "title": "We Can Leave Your Friends Behind"
+        },
+        {
+          "aired": "2018-03-09",
+          "plot": "When Robochris hijacks the Space Whale for an unlikely quest, the BWs are knocked out, kidnapped, then trapped inside a living, breathing whale. After that, things get weird.",
+          "thumbnail": "",
+          "title": "Sit Down Sip Some Bouillabaisse"
+        },
+        {
+          "aired": "2018-03-09",
+          "plot": "With Chris and Beth locked in the holojohn during a sassy game of “Seven Moons in Uranus”, the rest of the BWs must defend the Invisible Hideout from a Mechacat attack!",
+          "thumbnail": "",
+          "title": "Living in a Powder Keg"
+        },
+        {
+          "aired": "2018-03-23",
+          "plot": "Via a séance, Danny’s mom sends him on a quest to his childhood home, where memories and a winning lottery ticket await... along with loads of sentient cockroaches.",
+          "thumbnail": "",
+          "title": "This is Not My Beautiful House"
+        },
+        {
+          "aired": "2018-03-23",
+          "plot": "Gasp! Someone has eaten all of the cupcakes! Now it’s up to Detective Catbug to solve the crime and ensure the culprit gets his just deserts... which is, to say, no dessert at all!",
+          "thumbnail": "",
+          "title": "Footprints by the Garden Tree"
+        },
+        {
+          "aired": "2018-04-06",
+          "plot": "Chris struggles to make it home in time to celebrate the first Wanksgiving, while the other BWs establish new holiday traditions.",
+          "thumbnail": "",
+          "title": "Think I'll Miss This One This Year"
+        },
+        {
+          "aired": "2018-04-06",
+          "plot": "With the BWs trapped in a time loop and repeatedly devoured by a Timegobbler, it’s up to Beth to find an end to the cycle while experiencing infinite colorful deaths.",
+          "thumbnail": "",
+          "title": "Nothin' Stays the Same"
+        },
+        {
+          "aired": "2018-04-20",
+          "plot": "When alien bugs build a tiny feudal castle around their political prisoner, Danny, the BWs are enraptured by the intrigue within the bug’s royal court.",
+          "thumbnail": "",
+          "title": "I.O.U. For Your Love"
+        },
+        {
+          "aired": "2018-04-20",
+          "plot": "When the Invisible Hideout’s food synthesizer gains sentience, the BWs name it E.D.G.A.R. and set about teaching it the mysteries of life.",
+          "thumbnail": "",
+          "title": "At Night When The Program's Through"
+        },
+        {
+          "aired": "2018-05-04",
+          "plot": "As Danny’s new relationship with a super hot and legit girlfriend (who he’s never met) heats up, Beth can’t figure out why Zac is being so cold to her.",
+          "thumbnail": "",
+          "title": "All I Get Is Static"
+        },
+        {
+          "aired": "2018-05-04",
+          "plot": "When the BWs contract jelly pox, it's up to Catbug and his fellow pets to undertake an alien rescue mission, without anyone discovering they aren’t the real BWs.",
+          "thumbnail": "",
+          "title": "I'm Smitten, I'm Bitten, I'm Hooked, I'm Cooked"
+        },
+        {
+          "aired": "2018-05-18",
+          "plot": "Wallow’s hanger reaches dangerous levels, forcing The BWs to make a quick pit stop at the Planet Mart - but the lure of consumerism threatens to stop them forever.",
+          "thumbnail": "",
+          "title": "A (Apple) B (Banana) C (Chili)"
+        },
+        {
+          "aired": "2018-05-18",
+          "plot": "The war between the Emotion Lords comes to a dramatic climax in an all-out merkathon, with Beth Tezuka as the ultimate prize!",
+          "thumbnail": "",
+          "title": "Dance Into The Fire"
+        },
+        {
+          "aired": "2018-06-01",
+          "plot": "When Wallow discovers an abandoned alien egg, he vows to raise the baby as his own; but the high demands of parenting take a heavy toll on the teen dad.",
+          "thumbnail": "",
+          "title": "Craft of the Father"
+        },
+        {
+          "aired": "2018-06-01",
+          "plot": "As Plum and Beth hit up the mall for a robo-modelling cattle call, Chris stumbles upon some difficult truths about Zachary Ryan.",
+          "thumbnail": "",
+          "title": "One in a Million Girls"
+        },
+        {
+          "aired": "2018-06-15",
+          "plot": "When Danny crash lands on a desolate planet, he finds another shipwrecked crew’s holo log to guide him through his survival, escape, and consumption of alien banan’ers.",
+          "thumbnail": "",
+          "title": "Enough To Last a Lifetime"
+        },
+        {
+          "aired": "2018-06-15",
+          "plot": "The BWs go into their final throwdown with the Mecha Cats, while uncomfortably aware of a prophecy promising that one of them is going to get super merked.",
+          "thumbnail": "",
+          "title": "Will Things Ever Be The Same Again"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "The Courageous Battlers protect the fuzzy parts of the universe from the slimy bits, all while raising families, and lately, dealing with some… inter-office turmoil.",
+          "thumbnail": "",
+          "title": "It Shouldn't Ever Have to End This Way - Part 1"
+        },
+        {
+          "aired": "2018-09-14",
+          "plot": "The Courageous Battlers were on the verge of breaking up - but now they're getting busted up by the Robolord and her army of giant Robobots…",
+          "thumbnail": "",
+          "title": "It Shouldn't Ever Have to End This Way - Part 2"
+        },
+        {
+          "aired": "2018-09-21",
+          "plot": "Catbug doesn’t care for everybody’s moop over Chris’s death, so he journeys into the afterlife to bring their friend back.",
+          "thumbnail": "",
+          "title": "This is Your Paradise"
+        },
+        {
+          "aired": "2018-09-21",
+          "plot": "While on a contentious Spring Break trip, the BWs find a planet where time moves super fast, and accidentally populate it with their tiny clones—who then try to destroy one another.",
+          "thumbnail": "",
+          "title": "Too High, Too Far, Too Soon"
+        },
+        {
+          "aired": "2018-09-28",
+          "plot": "Beth’s new role as captain of the BWs is challenged by a “Manet,” a planet of only sexist dudes, that really need to simmer down and let her save them already.",
+          "thumbnail": "",
+          "title": "The Conscious Liberation of the Female State"
+        },
+        {
+          "aired": "2018-09-28",
+          "plot": "When aliens proclaim Danny to be The One, from their ancient prophecies, Chris is suspicious and Danny is way too eager to please in his new role.",
+          "thumbnail": "",
+          "title": "Your Life is in Your Hands"
+        },
+        {
+          "aired": "2018-10-05",
+          "plot": "After breaking-up with Zachary Ryan, Beth leaves to decompress with some 'me time,' finding solace in a brassy all-lady gang of punky geriatrics, the 'Upta Gals'.",
+          "thumbnail": "",
+          "title": "The Crowd I'm Seeing"
+        },
+        {
+          "aired": "2018-10-05",
+          "plot": "When the rest of the gang won’t party with him, Danny invents a whole crew of RoboPartyAnimals with no ‘off’ buttons—and they’re down to fight for their right to get down.",
+          "thumbnail": "",
+          "title": "Everybody's Coming, Leave Your Body At The Door"
+        },
+        {
+          "aired": "2018-10-12",
+          "plot": "When the Bravest Warriors discover Catbug has been stealing 'treasures' during their interplanetary adventures, Chris takes it upon himself to teach him right from wrong.",
+          "thumbnail": "",
+          "title": "My Only Weakness Is a List Of Crime"
+        },
+        {
+          "aired": "2018-10-12",
+          "plot": "When Danny feels the Bravest Warriors would be better off without him, a strange extra-dimensional being takes him to see what life would be like if he never existed.",
+          "thumbnail": "",
+          "title": "Decide What You Want From Me"
+        },
+        {
+          "aired": "2018-10-19",
+          "plot": "Chris reacquaints himself with a childhood friend, while the other BWs, who remember her as a jerk, nearly destroy the hide-out with a plot to reveal her true nature.",
+          "thumbnail": "",
+          "title": "You're Walkin' Tough Baby But You're Walkin' Blind - Part 1"
+        },
+        {
+          "aired": "2018-10-19",
+          "plot": "The Bravest Warriors are called to do a no-brainer task at a Wankershim parade, but find it impossible to function or keep their memories straight - what gives?!",
+          "thumbnail": "",
+          "title": "You're Walkin' Tough Baby But You're Walkin' Blind - Part 2"
+        },
+        {
+          "aired": "2018-10-26",
+          "plot": "After Jenna and her gang infiltrate the Hideout, the Bravest Warriors must fight to reclaim their home and compel Chris to remember that he’s on their side!",
+          "thumbnail": "",
+          "title": "You're Walkin' Tough Baby But You're Walkin' Blind - Part 3"
+        },
+        {
+          "aired": "2018-10-26",
+          "plot": "When he thinks Plum is in danger, Chris’s Emotion Lord powers get the best of him, and he winds up stalking her super creepy-like while she runs a series of mysterious errands.",
+          "thumbnail": "",
+          "title": "Maybe You Could Be Mine"
+        },
+        {
+          "aired": "2018-11-02",
+          "plot": "Danny creates a time machine that actually works! So well that it takes the BWs to a time before time, and they have to figure out how to make the Big Bang get bangin’.",
+          "thumbnail": "",
+          "title": "The Wire That Holds the Cork"
+        },
+        {
+          "aired": "2018-11-02",
+          "plot": "As Chris’s wonky Emotion Lord powers are blamed for strange issues with the Space Whale, he gets cray-cray convinced that they have a secret saboteur aboard.",
+          "thumbnail": "",
+          "title": "If You Don't Know Electric Co."
+        },
+        {
+          "aired": "2018-11-09",
+          "plot": "When Danny’s girlfriend breaks up with him, he handles the painful emotions like a maturing young adult… by peddling them off to blackmarket Emotion Dealer for cash.",
+          "thumbnail": "",
+          "title": "That Ain't Workin"
+        },
+        {
+          "aired": "2018-11-09",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Nice Day to Start Again"
+        },
+        {
+          "aired": "2018-11-16",
+          "plot": "Wallow, deciding he wants to eat as ethically as possible, embarks on a faddish “ghost diet” - but the negative effects on both his physical and mental health quickly become apparent.",
+          "thumbnail": "",
+          "title": "Mouth is Alive With Juices Like Wine"
+        },
+        {
+          "aired": "2018-11-16",
+          "plot": "After a big fight about some very uncool spoilers, the Bravest Warriors retreat to separate rooms to blow off steam. But each of them causes their own kind of disaster, resulting in unexpected revelation.",
+          "thumbnail": "",
+          "title": "Bang, Bang, Bang On The Door Baby"
+        },
+        {
+          "aired": "2018-11-23",
+          "plot": "It’s night shift in the E.R. as Wallow trains for his nursing credential. But when chaos erupts, he must swap bedpans for scalpels and learn the hard truths about Registered Nursing.",
+          "thumbnail": "",
+          "title": "I Just Can't Cope Without My Soap"
+        },
+        {
+          "aired": "2018-11-23",
+          "plot": "The Bravest Warriors discover their reality is actually a ‘video game’ designed to entertain Higher Beings. Lacking free will, they quickly find themselves locked in a competition to the actual death with no power to resist.",
+          "thumbnail": "",
+          "title": "War Without Tears"
+        },
+        {
+          "aired": "2018-11-30",
+          "plot": "It’s Plum’s CURVE-VA-VERSARY, the day celebrating Plum growing legit lady bumps. But when Chris’s thoughtfully planned, yet cheaply executed, party doesn’t live up to her expectations, she donks herself into a series of tantrums, reliving the most lavishly decked out day of all time.",
+          "thumbnail": "",
+          "title": "Out Of Reach, Not Good Enough"
+        },
+        {
+          "aired": "2018-11-30",
+          "plot": "When the Bravest Warriors answer a distress call from a humanoid planet overrun by an evil mech race, they have no idea how their own smooshy secrets will come into play - or who they should be fighting for in the first place.",
+          "thumbnail": "",
+          "title": "Won't You Please Take Me Home"
+        },
+        {
+          "aired": "2018-12-24",
+          "plot": "The Bravest Warriors journey to the See-Thru Zone to finally rescue their parents. But do the Courageous Battlers even want to be rescued?",
+          "thumbnail": "",
+          "title": "No Matter What The Future Brings - Part 1"
+        },
+        {
+          "aired": "2018-12-24",
+          "plot": "With the Courageous Battlers happily trapped in the See-Thru Zone, the Bravest Warriors return to biz as usual, until they discover their parents’ bliss may not be on their own volition.",
+          "thumbnail": "",
+          "title": "No Matter What The Future Brings - Part 2"
+        }
       ]
     }
   },

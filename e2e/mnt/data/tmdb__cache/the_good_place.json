@@ -1,88 +1,1358 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Sci-Fi & Fantasy",
+    "Comedy"
+  ],
   "id": 66573,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "0": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5dcfdf31928a6.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5e1376f0652e7.jpg"
+        ],
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-59b69c36b2ccc.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5a81f54e52f9b.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5bdfde6e84aaf.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5e13770383c5a.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-583b245c9d545.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5b5ec91c66daa.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5a81f56e73ca8.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5bdfde9450ae1.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5e13771590ec9.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5dcd820d9c580.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5e13772e008f2.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5bb15ff01cfea.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5bdfdeb9b424f.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5ed10613ba1b7.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonposter/the-good-place-5e13773f23ee5.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "0": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5e2209bd74f00.jpg"
+        ],
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5a81f58a5856f.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5bdfddc5cd45e.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5e2209cca1692.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5a81f59e4dde7.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5bdfddded5920.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5e2209dd9dc07.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5bdfdd2255cc7.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5bdfddfbeb59f.jpg",
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5e220a794f4c8.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/311711/seasonthumb/the-good-place-5e2209ff20244.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5a81f5bb1f581.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5bdfdd7fa7237.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd80f647df4.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd80f666e67.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd80f6a0601.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd80f6bd160.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd80f6d9e13.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd81083607e.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd81085aaa3.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd810877447.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd810893e90.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd8108b0ab9.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd8108cd33d.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd80f622ab1.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5dcd80f683c2f.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-583b206bd8a63.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-583b2078d1514.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-59be3947c5478.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-5d72dafde9be2.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/showbackground/the-good-place-59b69d4c2dbef.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/311711/tvbanner/the-good-place-5d80b3c31c08f.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvbanner/the-good-place-57e1471490019.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvbanner/the-good-place-5bdfdd95cc983.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/311711/tvposter/the-good-place-5bdc842946889.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvposter/the-good-place-581cec3b9cc70.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvposter/the-good-place-59b69b5070dd8.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvposter/the-good-place-5bdfda813c709.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvposter/the-good-place-59fde61b369d8.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvposter/the-good-place-5d72dc8e5e391.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvposter/the-good-place-59b692ff99208.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/311711/tvthumb/the-good-place-59c6d241ae048.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvthumb/the-good-place-583b1d5516ae6.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvthumb/the-good-place-5d72dbbe41ecc.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvthumb/the-good-place-5bb5aae7a2784.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvthumb/the-good-place-5bdfdac5870fe.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvthumb/the-good-place-5bdfdb3268136.jpg",
+        "https://assets.fanart.tv/fanart/tv/311711/tvthumb/the-good-place-5bdfdbda8051a.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/tZmlWeFEMvxrjJhBJJcLNXpSRiG.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/eFV0O3u0CbVdhEYIozea4iZRn3O.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "The Good Place",
+  "plot": "Eleanor Shellstrop, an ordinary woman who, through an extraordinary string of events, enters the afterlife where she comes to realize that she hasn't been a very good person. With the help of her wise afterlife mentor, she's determined to shed her old way of living and discover the awesome (or at least the pretty good) person within.",
+  "premiered": "2016-09-19",
+  "status": "Ended",
+  "studios": [
+    "NBC"
+  ],
+  "actors": [
+    {
+      "name": "Kristen Bell",
+      "order": 0,
+      "role": "Eleanor Shellstrop",
+      "thumb": "/zPDp7jfqwiesn7R3ygKufwjMLDU.jpg"
+    },
+    {
+      "name": "Ted Danson",
+      "order": 1,
+      "role": "Michael",
+      "thumb": "/xBzs8fPsOLvl6oK6JrugLEBVXJY.jpg"
+    },
+    {
+      "name": "William Jackson Harper",
+      "order": 2,
+      "role": "Chidi Anagonye",
+      "thumb": "/5Oy037YttIweiqNGaErkalNmH0G.jpg"
+    },
+    {
+      "name": "Jameela Jamil",
+      "order": 3,
+      "role": "Tahani Al-Jamil",
+      "thumb": "/rB3lWcIdcldHJxpVQhwNU2ZwWPS.jpg"
+    },
+    {
+      "name": "Manny Jacinto",
+      "order": 4,
+      "role": "Jason Mendoza",
+      "thumb": "/cjkZzaVR5StB4fqnl58NAOSsH0o.jpg"
+    },
+    {
+      "name": "D'Arcy Carden",
+      "order": 5,
+      "role": "Janet",
+      "thumb": "/bDsVpVIp7hqT1qYisS6ZGw44AWQ.jpg"
+    },
+    {
+      "name": "Marc Evan Jackson",
+      "order": 145,
+      "role": "Shawn",
+      "thumb": "/zfuxICJp5pKV29TVnmU0ixw5CW1.jpg"
+    },
+    {
+      "name": "Tiya Sircar",
+      "order": 90,
+      "role": "The Real Eleanor",
+      "thumb": "/ySOwYAheNWApnu9TBJkziNthMA6.jpg"
+    },
+    {
+      "name": "Maya Rudolph",
+      "order": 145,
+      "role": "Judge Gen",
+      "thumb": "/bpEVMFMyHEQ8wLdii9WKB279w8p.jpg"
+    },
+    {
+      "name": "Kirby Howell-Baptiste",
+      "order": 146,
+      "role": "Simone Garnett",
+      "thumb": "/neWSyBmw5q2JJiOAXWk4lvWJGlY.jpg"
+    },
+    {
+      "name": "Josh Siegal",
+      "order": 148,
+      "role": "Glenn",
+      "thumb": null
+    },
+    {
+      "name": "Bambadjan Bamba",
+      "order": 133,
+      "role": "Bambadjan",
+      "thumb": "/6Uk5XX0zRDYJeeIkjgtScS5zjFG.jpg"
+    },
+    {
+      "name": "Jason Mantzoukas",
+      "order": 146,
+      "role": "Derek Hofstetler",
+      "thumb": "/ogkbSybFX2NrMZk0u0dBt1KZwVW.jpg"
+    },
+    {
+      "name": "Brandon Scott Jones",
+      "order": 148,
+      "role": "John Wheaton",
+      "thumb": "/lgw6q8nuBLDet1VUIEbuS5FX9eJ.jpg"
+    },
+    {
+      "name": "Maribeth Monroe",
+      "order": 126,
+      "role": "Mindy St. Claire",
+      "thumb": "/l3vMVl0vzOz599zX58jUCPxA8nV.jpg"
+    },
+    {
+      "name": "Benjamin Koldyke",
+      "order": 146,
+      "role": "Brent Norwalk",
+      "thumb": null
+    },
+    {
+      "name": "Eugene Cordero",
+      "order": 146,
+      "role": "Pillboi",
+      "thumb": "/waruLSR8lXBjhAFL0J6ihuVY62d.jpg"
+    },
+    {
+      "name": "Rebecca Hazlewood",
+      "order": 146,
+      "role": "Kamilah Al-Jamil",
+      "thumb": "/WGSTucKs5GuyLHPLGTjEZUFcuq.jpg"
+    },
+    {
+      "name": "Steve Berg",
+      "order": 147,
+      "role": "Gunnar",
+      "thumb": "/rXYD0Zqx4lqz7c3XWwA6TG75AzB.jpg"
+    },
+    {
+      "name": "Amy Okuda",
+      "order": 22,
+      "role": "Gayle / Jessica",
+      "thumb": "/mkiG0v1iZV8YDGzlTPhB8SNB3IK.jpg"
+    },
+    {
+      "name": "Adam Scott",
+      "order": 117,
+      "role": "Trevor",
+      "thumb": "/6vLiih0N5s7JOYyRgclxbnOMzI9.jpg"
+    },
+    {
+      "name": "Jama Williamson",
+      "order": 123,
+      "role": "Val",
+      "thumb": "/5ACrihcKq00bLylv8JFNrDF2Zvr.jpg"
+    },
+    {
+      "name": "Anna Khaja",
+      "order": 146,
+      "role": "Manisha Al-Jamil",
+      "thumb": "/Ys2OGtrsX8X9d4rfdUMMATOUa0.jpg"
+    },
+    {
+      "name": "Ajay Mehta",
+      "order": 146,
+      "role": "Waqas Al-Jamil",
+      "thumb": "/uB3ys11jidcaAEkAvvFbSNtNhRD.jpg"
+    },
+    {
+      "name": "Seth Morris",
+      "order": 50,
+      "role": "Wallace",
+      "thumb": "/xjXxjuulUGFtq4JyhWF5B2BTRjY.jpg"
+    },
+    {
+      "name": "Joe Mande",
+      "order": 106,
+      "role": "Toddrick Hemple",
+      "thumb": "/onIBAhW2omltRUOOK8LcYddWXwt.jpg"
+    },
+    {
+      "name": "Luke Guldan",
+      "order": 131,
+      "role": "Chris Baker",
+      "thumb": "/cU4jMVQdxhPeQOAEs8jfphTiExN.jpg"
+    },
+    {
+      "name": "Paul Scheer",
+      "order": 142,
+      "role": "Chuck",
+      "thumb": "/yGOxrFSrmIZQ4hVnB3HHJm2NCPN.jpg"
+    },
+    {
+      "name": "Mike O'Malley",
+      "order": 146,
+      "role": "Jeff the Doorman",
+      "thumb": "/blpOdhEfAn9llt8gyYwIbqyaT2y.jpg"
+    },
+    {
+      "name": "Susan Park",
+      "order": 52,
+      "role": "Pevita",
+      "thumb": "/lwetyIzRTIOvxdHecVxyZIoRBAT.jpg"
+    },
+    {
+      "name": "Allyn Rachel",
+      "order": 52,
+      "role": "Betsy",
+      "thumb": "/1OndNkWkw1Jefq85isKKBLopWgK.jpg"
+    },
+    {
+      "name": "Meryl Hathaway",
+      "order": 53,
+      "role": "Brittany",
+      "thumb": null
+    },
+    {
+      "name": "Ruman Kazi",
+      "order": 85,
+      "role": "Sachveer",
+      "thumb": null
+    },
+    {
+      "name": "Monnae Michaell",
+      "order": 93,
+      "role": "Nina",
+      "thumb": "/viQRzMcT0ihksIyqx5SVyIzTRAr.jpg"
+    },
+    {
+      "name": "Dominic Burgess",
+      "order": 103,
+      "role": "Henry",
+      "thumb": "/ncqFGuh7Og4G2qTyliJiJErsMKe.jpg"
+    },
+    {
+      "name": "Ben Lawson",
+      "order": 119,
+      "role": "Larry Hemsworth",
+      "thumb": "/nU6HgNTr9z11oms6jhiNSzpOCkf.jpg"
+    },
+    {
+      "name": "Leslie Grossman",
+      "order": 121,
+      "role": "Donna Shellstrop",
+      "thumb": "/kkr9KK5bua1rC8qlOW61dq8nBoq.jpg"
+    },
+    {
+      "name": "Keston John",
+      "order": 137,
+      "role": "Uzo",
+      "thumb": "/zEqkvuCDDgiErHg3XNyoG5TulUg.jpg"
+    },
+    {
+      "name": "Tatiana Carr",
+      "order": 143,
+      "role": "Meg",
+      "thumb": null
+    },
+    {
+      "name": "Denise G. Sanchez",
+      "order": 143,
+      "role": "Andie",
+      "thumb": "/zK4onOonf2fDK4byvzNyWrBvXGZ.jpg"
+    },
+    {
+      "name": "Mitch Narito",
+      "order": 146,
+      "role": "Donkey Doug",
+      "thumb": null
+    },
+    {
+      "name": "Takato Yonemoto",
+      "order": 148,
+      "role": "Daisuke",
+      "thumb": "/sE1WL5oM0VdLa1k2kMhsgFLpsyi.jpg"
+    },
+    {
+      "name": "Emily Arlook",
+      "order": 2,
+      "role": "Dana",
+      "thumb": "/8SedHmWLsDagH5aBpvHp7sWg5wC.jpg"
+    },
+    {
+      "name": "John Hartmann",
+      "order": 12,
+      "role": "Ed / Bart",
+      "thumb": "/daIxySeWSL5bok5WilgH7dNxgYM.jpg"
+    },
+    {
+      "name": "John Hartmann",
+      "order": 53,
+      "role": "Bart",
+      "thumb": "/zCAhxGnsxTKpWB388qDFzDzlil8.jpg"
+    },
+    {
+      "name": "John Hartman",
+      "order": 54,
+      "role": "Joe",
+      "thumb": null
+    },
+    {
+      "name": "Marques Ray",
+      "order": 56,
+      "role": "Tomás",
+      "thumb": "/us33hjP9E2kGWbXXinQbzzfDRmu.jpg"
+    },
+    {
+      "name": "Jorge Diaz",
+      "order": 66,
+      "role": "Antonio",
+      "thumb": null
+    },
+    {
+      "name": "Sunita Mani",
+      "order": 71,
+      "role": "Chad",
+      "thumb": "/wZoFzMEweAnSlGaBj0kpv3KyrKY.jpg"
+    },
+    {
+      "name": "Zeke Nicholson",
+      "order": 71,
+      "role": "Troy",
+      "thumb": null
+    },
+    {
+      "name": "Jackie Tohn",
+      "order": 71,
+      "role": "Alexis",
+      "thumb": "/doWAOkOzRyy16wX4Hv5v8TQH4GB.jpg"
+    },
+    {
+      "name": "Jamila Webb",
+      "order": 75,
+      "role": "Good Woman",
+      "thumb": "/vwyF3kPejevsj9rOtQMq56TgQIb.jpg"
+    },
+    {
+      "name": "Rebecca Delgado Smith",
+      "order": 85,
+      "role": "Pilar",
+      "thumb": null
+    },
+    {
+      "name": "Drew Brooks",
+      "order": 98,
+      "role": "Samuel",
+      "thumb": null
+    },
+    {
+      "name": "Tom Beyer",
+      "order": 99,
+      "role": "Doug Shellstrop",
+      "thumb": "/kBQ9bqns4ipSMQbbkCkS7UBRJjo.jpg"
+    },
+    {
+      "name": "Angela Trimbur",
+      "order": 100,
+      "role": "Madison",
+      "thumb": "/malUbS6ZMv351wkJdKDXLO5hlzw.jpg"
+    },
+    {
+      "name": "Brad Morris",
+      "order": 134,
+      "role": "Matt",
+      "thumb": "/m4Hp7SzAel4eOQUQDILlxHMzSeZ.jpg"
+    },
+    {
+      "name": "Dana Powell",
+      "order": 134,
+      "role": "Paula",
+      "thumb": "/iEJB5IFSe84kRiAoKaM0NH0uVw0.jpg"
+    },
+    {
+      "name": "Tiana Okoye",
+      "order": 139,
+      "role": "Allesandra",
+      "thumb": null
+    },
+    {
+      "name": "Jill Remez",
+      "order": 4,
+      "role": "Gloria",
+      "thumb": "/p4kt2yPvRvb1TwLW4SpyVSZG4oI.jpg"
+    },
+    {
+      "name": "Paulina Lule",
+      "order": 13,
+      "role": "Angélique",
+      "thumb": "/aS4HLkvx8hpNOyUQlmlLhuPllnb.jpg"
+    },
+    {
+      "name": "Hayden Szeto",
+      "order": 18,
+      "role": "Luang",
+      "thumb": "/6naRHak7HpEHr43RMW6verf5Wrn.jpg"
+    },
+    {
+      "name": "Joaquin Ticonderoga",
+      "order": 20,
+      "role": "Pedro",
+      "thumb": null
+    },
+    {
+      "name": "George Basil",
+      "order": 22,
+      "role": "Andy",
+      "thumb": "/8Bn5ZZp0cAnyjRWGPGiV833y7LZ.jpg"
+    },
+    {
+      "name": "Sandra Cevallos",
+      "order": 23,
+      "role": "Cualli",
+      "thumb": null
+    },
+    {
+      "name": "Jamie Denbo",
+      "order": 24,
+      "role": "Chef Patricia",
+      "thumb": null
+    },
+    {
+      "name": "Lynnette Gaza",
+      "order": 30,
+      "role": "Eunice",
+      "thumb": null
+    },
+    {
+      "name": "Noelle E. Parker",
+      "order": 31,
+      "role": "Young Eleanor",
+      "thumb": "/aXu0lHcB2oLazSdgbnx4ufAXYsl.jpg"
+    },
+    {
+      "name": "Will McLaughlin",
+      "order": 32,
+      "role": "Officer Prawnmandler",
+      "thumb": "/vYS0UBEBHse0EzPlQEx8T0ZIhBx.jpg"
+    },
+    {
+      "name": "Mary Holland",
+      "order": 33,
+      "role": "Paula Ouncerock",
+      "thumb": "/iwEK2fIrU1q7aijjD8FI9hCUMEL.jpg"
+    },
+    {
+      "name": "Avery Hayes",
+      "order": 36,
+      "role": "Young Eleanor",
+      "thumb": "/oRwZGUFgSXI0mVw7r7Wr70mWYfu.jpg"
+    },
+    {
+      "name": "Dax Shepard",
+      "order": 39,
+      "role": "Chet",
+      "thumb": "/28lPuIJDTjOOpJCowYllbiDXi7F.jpg"
+    },
+    {
+      "name": "Ross Bryant",
+      "order": 40,
+      "role": "Petruchio",
+      "thumb": null
+    },
+    {
+      "name": "Dah-uh Morrow",
+      "order": 41,
+      "role": "Chork",
+      "thumb": "/ya3WcH5IOheNKyjStLSuOykx3eC.jpg"
+    },
+    {
+      "name": "Jim Meskimen",
+      "order": 42,
+      "role": "Bertram Varmin",
+      "thumb": "/913aYSudoetrtOIA8tZPjOj9dTo.jpg"
+    },
+    {
+      "name": "Fran Gillespie",
+      "order": 43,
+      "role": "Megan",
+      "thumb": null
+    },
+    {
+      "name": "Behzad Dabu",
+      "order": 44,
+      "role": "Dirk",
+      "thumb": "/WfUQpdpVzX3TECxx2jSS7M7evA.jpg"
+    },
+    {
+      "name": "Adam Huber",
+      "order": 59,
+      "role": "Kirk",
+      "thumb": "/zuMPx25vJYOdVBGecDK2lymB9du.jpg"
+    },
+    {
+      "name": "David Ferguson",
+      "order": 61,
+      "role": "AcidCat",
+      "thumb": null
+    },
+    {
+      "name": "Yanellie Ireland",
+      "order": 62,
+      "role": "Young Kamilah",
+      "thumb": null
+    },
+    {
+      "name": "Jill Johnson",
+      "order": 63,
+      "role": "Henriette",
+      "thumb": "/mC1mN7KgvuouRp3Z4VNKSUP60yo.jpg"
+    },
+    {
+      "name": "GraceAnne Pullappally",
+      "order": 64,
+      "role": "Young Tahani",
+      "thumb": null
+    },
+    {
+      "name": "Jordan Diggs",
+      "order": 71,
+      "role": "Todd",
+      "thumb": null
+    },
+    {
+      "name": "Kaleigh Krause",
+      "order": 72,
+      "role": "Jessica",
+      "thumb": null
+    },
+    {
+      "name": "Michelle Matule",
+      "order": 73,
+      "role": "Casey's Friend",
+      "thumb": null
+    },
+    {
+      "name": "Max Silvestri",
+      "order": 74,
+      "role": "Dwayne DeRock",
+      "thumb": null
+    },
+    {
+      "name": "Ele Woods",
+      "order": 75,
+      "role": "Casey",
+      "thumb": null
+    },
+    {
+      "name": "Sarah Yarkin",
+      "order": 76,
+      "role": "Gloria",
+      "thumb": "/dbIjlRBm3DpW6RCevB5vDyVqCJu.jpg"
+    },
+    {
+      "name": "Jonno Roberts",
+      "order": 78,
+      "role": "Gawlff",
+      "thumb": "/vlSQQYKDk4HrG9b8GncDkOT56j8.jpg"
+    },
+    {
+      "name": "Jonathan Bray",
+      "order": 79,
+      "role": "Zach Czytchu",
+      "thumb": "/xKcbHsF3w3i9ASDqkNQrHkHjAJo.jpg"
+    },
+    {
+      "name": "Dallas Dupree Young",
+      "order": 80,
+      "role": "Young Uzo",
+      "thumb": "/2whzoMgXAmyGCQthZsFtkuEplXL.jpg"
+    },
+    {
+      "name": "Jayne Entwistle",
+      "order": 81,
+      "role": "Dierdre",
+      "thumb": null
+    },
+    {
+      "name": "A.J. Hudson",
+      "order": 82,
+      "role": "Young Chidi",
+      "thumb": "/rMhWCKmHCCxP2rbX3tV379Vshtq.jpg"
+    },
+    {
+      "name": "Abigail Marlowe",
+      "order": 83,
+      "role": "Margaret",
+      "thumb": "/2hsCcJ7UFJ1Rw66mv8KQMlvsYy2.jpg"
+    },
+    {
+      "name": "Mataeo Mingo",
+      "order": 84,
+      "role": "Femi",
+      "thumb": "/dk27KFGyuqMbnD0FoIuy9sjsz9I.jpg"
+    },
+    {
+      "name": "Jen Statsky",
+      "order": 85,
+      "role": "Susan",
+      "thumb": null
+    },
+    {
+      "name": "Jailene Arias",
+      "order": 87,
+      "role": "Vanessa",
+      "thumb": null
+    },
+    {
+      "name": "Sarah Casolaro",
+      "order": 89,
+      "role": "Google Crosby",
+      "thumb": null
+    },
+    {
+      "name": "Mele Ihara",
+      "order": 90,
+      "role": "Beadie",
+      "thumb": "/9tTcKRb9mVZkjlCV5TsXmYwAxkR.jpg"
+    },
+    {
+      "name": "Georgia Mischak",
+      "order": 91,
+      "role": "Yoga Woman",
+      "thumb": "/kuF5a0dfK10D12J11jhU0PwcthR.jpg"
+    },
+    {
+      "name": "Braxton Beckham",
+      "order": 92,
+      "role": "Dave",
+      "thumb": null
+    },
+    {
+      "name": "Aisha Kabia",
+      "order": 94,
+      "role": "Kamaria",
+      "thumb": "/ydkQZA7hJRPja0E0NktGTup7HT9.jpg"
+    },
+    {
+      "name": "Jess Rowland",
+      "order": 95,
+      "role": "Sebastian",
+      "thumb": null
+    },
+    {
+      "name": "Joanna Sotomura",
+      "order": 96,
+      "role": "Véronique",
+      "thumb": "/tF1U7bKwadKx1yUu70CFfrYmGT9.jpg"
+    },
+    {
+      "name": "Doc Farrow",
+      "order": 98,
+      "role": "Greg",
+      "thumb": "/zSXXwFRhUNLWXFHSoIwHMt88Zcn.jpg"
+    },
+    {
+      "name": "Emma Vivien Garcia",
+      "order": 99,
+      "role": "Birdie",
+      "thumb": "/x6NBlNlyEs320RmapdEqdISrdpo.jpg"
+    },
+    {
+      "name": "David Piggott",
+      "order": 100,
+      "role": "Frim",
+      "thumb": null
+    },
+    {
+      "name": "Ben Harris",
+      "order": 101,
+      "role": "Waiter Stenn",
+      "thumb": "/2LJ99DAdvFOsfeTGhxpRkwOLyQA.jpg"
+    },
+    {
+      "name": "Thomas Bromhead",
+      "order": 102,
+      "role": "Strange Man (uncredited)",
+      "thumb": "/lQstvRDnlyxkix4BdB4HTTtJ0K7.jpg"
+    },
+    {
+      "name": "Lisandra Tena",
+      "order": 104,
+      "role": "Officer Ramos",
+      "thumb": "/kD5brT2Qm1itu5ShXdDLN4f5zQC.jpg"
+    },
+    {
+      "name": "Taryn Leggett",
+      "order": 106,
+      "role": "Phaedra",
+      "thumb": null
+    },
+    {
+      "name": "Andrew Bering",
+      "order": 107,
+      "role": "François Lloyd-Tort",
+      "thumb": "/mkPi2f1y4brv7KgrhKgWqTkyAY4.jpg"
+    },
+    {
+      "name": "Harvey Guillén",
+      "order": 109,
+      "role": "Steve",
+      "thumb": "/yiNBonobPwqMVweB02JWufzp2l9.jpg"
+    },
+    {
+      "name": "Moshe Kasher",
+      "order": 110,
+      "role": "Colby",
+      "thumb": null
+    },
+    {
+      "name": "Whitmer Thomas",
+      "order": 111,
+      "role": "Gatorbait",
+      "thumb": "/krvcQFLwjY6kNHTLTOMCr763HRr.jpg"
+    },
+    {
+      "name": "Johnny McKeown",
+      "order": 114,
+      "role": "Reginald",
+      "thumb": null
+    },
+    {
+      "name": "Teshi Thomas",
+      "order": 116,
+      "role": "Li'l Peanut",
+      "thumb": "/iYxo6qBuPXH5SWZoVFNhjYsccFF.jpg"
+    },
+    {
+      "name": "Prudence Vindin",
+      "order": 117,
+      "role": "Nurse Pat",
+      "thumb": null
+    },
+    {
+      "name": "Antoniette Iesue",
+      "order": 118,
+      "role": "Hortense",
+      "thumb": "/kFPBefIWfYQ15OvG8HGNIF5WPmq.jpg"
+    },
+    {
+      "name": "Adam Groves",
+      "order": 119,
+      "role": "Ken Garoo",
+      "thumb": "/iA2cNl88LFgx9YAvTot28ZW8IRL.jpg"
+    },
+    {
+      "name": "Nathan Lovejoy",
+      "order": 120,
+      "role": "Gel Mibson",
+      "thumb": "/7dx4o0ioHOBWV6wyqUPB8T7Bd9r.jpg"
+    },
+    {
+      "name": "Peter Katona",
+      "order": 121,
+      "role": "Jozsef Müvészember",
+      "thumb": null
+    },
+    {
+      "name": "Andrew Daly",
+      "order": 121,
+      "role": "Dave Katterttrune",
+      "thumb": "/mBbtTnfcxkFXH3RPomSO4VCyxYS.jpg"
+    },
+    {
+      "name": "Michael McKean",
+      "order": 122,
+      "role": "Doug Forcett",
+      "thumb": "/xSwMjo3hLLVeopaHwYDdM1m5enl.jpg"
+    },
+    {
+      "name": "Stephen Merchant",
+      "order": 123,
+      "role": "Neil",
+      "thumb": "/6WM2rK6390Nwk398syJbGcPvRct.jpg"
+    },
+    {
+      "name": "Judah Simard",
+      "order": 125,
+      "role": "Eeth Kurban",
+      "thumb": "/3joUmt4zXu4ofEwW1gnsxlV5aIv.jpg"
+    },
+    {
+      "name": "Nicole Byer",
+      "order": 126,
+      "role": "Gwendolyn",
+      "thumb": "/6kdtaNH5A0zGqE1rn8jNQZ2K4Ci.jpg"
+    },
+    {
+      "name": "Nicolas Cantu",
+      "order": 130,
+      "role": "Raymond",
+      "thumb": "/A9pFJ8Vd0WPgn3SljEZjYgZtqW7.jpg"
+    },
+    {
+      "name": "Deb Hiett",
+      "order": 131,
+      "role": "Wanda",
+      "thumb": "/dD5RdZwhCQtaiJYjQvDcXd9MuFw.jpg"
+    },
+    {
+      "name": "Sheila Carrasco",
+      "order": 132,
+      "role": "Matilda",
+      "thumb": "/bLFmXQ6bm3QO52D31D21sexR0Nf.jpg"
+    },
+    {
+      "name": "Kate Berlant",
+      "order": 136,
+      "role": "Esmeralda",
+      "thumb": "/kVUd1rIM50AsrcEmnLhaGfawNP3.jpg"
+    },
+    {
+      "name": "Noel Arthur",
+      "order": 137,
+      "role": "Emeka",
+      "thumb": null
+    },
+    {
+      "name": "Sonya Leslie",
+      "order": 138,
+      "role": "Ndeye",
+      "thumb": null
+    },
+    {
+      "name": "Adinett Nsabimana",
+      "order": 139,
+      "role": "Rokhaya",
+      "thumb": "/uE6Aww55Wyf1BZbv7BsapF1zZ7p.jpg"
+    },
+    {
+      "name": "Timothy Olyphant",
+      "order": 140,
+      "role": "Timothy Olyphant",
+      "thumb": "/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg"
+    },
+    {
+      "name": "Lisa Kudrow",
+      "order": 141,
+      "role": "Hypatia",
+      "thumb": "/lHbNHsHrlDxaUA1JHQjWSUCY89P.jpg"
+    },
+    {
+      "name": "Gary Richardson",
+      "order": 142,
+      "role": "Musa",
+      "thumb": "/qZnYgEpMMnA2tih2zTa5uj1Fc7.jpg"
+    },
+    {
+      "name": "David Danipour",
+      "order": 143,
+      "role": "Paltibaal",
+      "thumb": null
+    },
+    {
+      "name": "Andrew Law",
+      "order": 144,
+      "role": "Drew",
+      "thumb": "/ambF0ZmnMhHxZAd7cNHFLwur8Tt.jpg"
+    },
+    {
+      "name": "Michael Eshaun York",
+      "order": 144,
+      "role": "Child African Student (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Nick Offerman",
+      "order": 145,
+      "role": "Nick Offerman",
+      "thumb": "/7gnfjpIKhBCjfnZJEieIvjwzXLD.jpg"
+    },
+    {
+      "name": "Kurt Braunohler",
+      "order": 146,
+      "role": "Ken",
+      "thumb": "/5l0bFRt6d7JQ2d3iNZmJvXNAji3.jpg"
+    },
+    {
+      "name": "Pamela Hieronymi",
+      "order": 147,
+      "role": "Pam",
+      "thumb": "/3wdVrzZvLvIXbnVR33pOkCKnEU7.jpg"
+    },
+    {
+      "name": "Mary Steenburgen",
+      "order": 147,
+      "role": "Teacher",
+      "thumb": "/yJhfuqS3yXW7kLSyvRU6n3b35mq.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "The Selection, Part 1- The Mission",
-        "The Selection, Part 2- The Candidates",
-        "The Selection, Part 3- The Takeout Order",
-        "The Selection, Part 4- The Storm Out",
-        "The Selection, Part 5- The Talk",
-        "The Selection, Part 6- The Solution",
-        "Series Finale Aftershow"
+        {
+          "aired": "2019-09-13",
+          "plot": "Shawn and his demon cohorts plot to destroy Michael’s new neighborhood. Shawn gets the demons briefed on their mission.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/muI6JOwsXVC5Krh8PBl65TxS8J7.jpg",
+          "title": "The Selection, Part 1- The Mission"
+        },
+        {
+          "aired": "2019-09-13",
+          "plot": "Shawn’s demon ding-dongs pitch their human choices for Michael’s new neighborhood.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jIOTCv3Zx6gdrRCpF1FJIK3Zam.jpg",
+          "title": "The Selection, Part 2- The Candidates"
+        },
+        {
+          "aired": "2019-09-13",
+          "plot": "Shawn’s demon ash-holes try to decide what to eat. Maybe some sludge from the inside of shoes that you don’t wear socks with?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a7vSONehu25soSrcKlGCkFAZU0r.jpg",
+          "title": "The Selection, Part 3- The Takeout Order"
+        },
+        {
+          "aired": "2019-09-13",
+          "plot": "Tensions rise as the demons try to select the right “human fart bombs” for Michael’s new neighborhood. Glenn feels Shawn is being too mean.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5Kf7O3FfMwKnHu1cb6Onyk47Vpj.jpg",
+          "title": "The Selection, Part 4- The Storm Out"
+        },
+        {
+          "aired": "2019-09-13",
+          "plot": "In a demon-to-demon chat with Glenn, Shawn is inspired to rethink the way he forks with Michael’s new neighborhood.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dOkTpMiFgqynCNmiJJG96ZajOpO.jpg",
+          "title": "The Selection, Part 5- The Talk"
+        },
+        {
+          "aired": "2019-09-13",
+          "plot": "When Shawn takes aim on a more personal attack on the humans, Glenn has some reservations.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jSiVP7US9MPuhYvAB5HBfJWjOGE.jpg",
+          "title": "The Selection, Part 6- The Solution"
+        },
+        {
+          "aired": "2020-01-31",
+          "plot": "Holy motherforking shirtballs! This is the official comedy and entertainment podcast for NBC’s TV show The Good Place. Subscribe and you’ll get weekly behind-the-scenes stories, episode and performance insights and funny anecdotes. Hosted by actor Marc Evan Jackson (Shawn) with a rotating slate of co-hosts and special guests, including actors, writers, producers and more, this podcast takes a deep dive into everything on- and off-screen.",
+          "thumbnail": "",
+          "title": "Series Finale Aftershow"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Everything Is Fine",
-        "Flying",
-        "Tahani Al-Jamil",
-        "Jason Mendoza",
-        "Category 55 Emergency Doomsday Crisis",
-        "What We Owe to Each Other",
-        "The Eternal Shriek",
-        "Most Improved Player",
-        "...Someone Like Me as a Member",
-        "Chidi's Choice",
-        "What's My Motivation",
-        "Mindy St. Claire",
-        "Michael's Gambit"
+        {
+          "aired": "2016-09-19",
+          "plot": "Newly-deceased Eleanor Shellstrop is sent to the Good Place, but only by mistake; Eleanor is determined to become a better person in her afterlife with help from friends Chidi and Janet; Eleanor tries to prove to Chidi that she's worthy of his help.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n6yqPpZk4geXG2j5kWF6ycC0ROo.jpg",
+          "title": "Everything Is Fine"
+        },
+        {
+          "aired": "2016-09-19",
+          "plot": "Eleanor tries to prove to Chidi that she is worthy of his help. Meanwhile, Tahani and Jianyu try to help Michael feel better about the unknown flaw in his Neighborhood.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qK7k9lIc7MtMwxayzoYcc2Bmfjy.jpg",
+          "title": "Flying"
+        },
+        {
+          "aired": "2016-09-22",
+          "plot": "Chidi begins formally teaching Eleanor about ethics, and lesson No. 1 is: be kind to your neighbor. Michael and Janet help Chidi find a new, exciting hobby.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pHwByErkg1yUNLDvtx8Ej2ejpFW.jpg",
+          "title": "Tahani Al-Jamil"
+        },
+        {
+          "aired": "2016-09-29",
+          "plot": "Eleanor has a hard time remaining hidden.  Michael asks Tahani to assist a neighbor in finding her true purpose.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/43dRxHIqWwk4wWAENbo1XcGgrXw.jpg",
+          "title": "Jason Mendoza"
+        },
+        {
+          "aired": "2016-10-06",
+          "plot": "Eleanor's eagerness to learn ethics from Chidi becomes the full-time job he never wanted. Meanwhile, Michael and Janet focus their attention on a Neighborhood emergency.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zI4fwEJeercFIM337dpbUqBx1DA.jpg",
+          "title": "Category 55 Emergency Doomsday Crisis"
+        },
+        {
+          "aired": "2016-10-13",
+          "plot": "Eleanor is enlisted to help Michael with an important task that could determine her fate in the Good Place. Meanwhile, Chidi agrees to be the third wheel in an effort to help out his friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3M0lJvlEafJY3SaN4TSQMiQoOsQ.jpg",
+          "title": "What We Owe to Each Other"
+        },
+        {
+          "aired": "2016-10-20",
+          "plot": "Eleanor puts Janet in her crosshairs to save Michael from eternal suffering.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xmorHu3gE1kypqh16ZaKVXmcftd.jpg",
+          "title": "The Eternal Shriek"
+        },
+        {
+          "aired": "2016-10-27",
+          "plot": "Michael has a private meeting with Eleanor, who is put to the test. Also, Chidi harbors a secret and mulls over what to do.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tQsZEsJBBwea3qBxAYXbRlj30gW.jpg",
+          "title": "Most Improved Player"
+        },
+        {
+          "aired": "2016-11-03",
+          "plot": "Michael faces a challenge when he tries to resolve an unprecedented situation. In addition, Chidi makes a connection, to Eleanor's chagrin, and a different side of Janet emerges.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/z6oUx5mx3T5PELbGhh5Pp0KXOve.jpg",
+          "title": "...Someone Like Me as a Member"
+        },
+        {
+          "aired": "2017-01-05",
+          "plot": "Eleanor makes a surprising personal discovery. Meanwhile, Michael tasks an indecisive Chidi with coming to an important decision and Jianyu makes a big announcement.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zIv88OEN9TkYMMbK1J2bPYwblZA.jpg",
+          "title": "Chidi's Choice"
+        },
+        {
+          "aired": "2017-01-12",
+          "plot": "Eleanor and Tahani hatch a plan while Michael makes a startling discovery. Meanwhile, Chidi confides in Eleanor after learning some interesting news.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cQIhVUZS8c2wYpIykJfsSwVz8sY.jpg",
+          "title": "What's My Motivation"
+        },
+        {
+          "aired": "2017-01-19",
+          "plot": "With the help of Chidi and Tahani, Michael faces his biggest challenge yet. Meanwhile, Eleanor, Jianyu and Janet are faced with a monumental decision.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sBqSC6c4D7BxAPL1sQKtDpGYq6X.jpg",
+          "title": "Mindy St. Claire"
+        },
+        {
+          "aired": "2017-01-19",
+          "plot": "Eleanor and her pals contemplate their fates.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cHSaUJagEg8iF6SZ1PxlfkUH0TZ.jpg",
+          "title": "Michael's Gambit"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Everything Is Great!",
-        "Dance Dance Resolution",
-        "Team Cockroach",
-        "Existential Crisis",
-        "The Trolley Problem",
-        "Janet and Michael",
-        "Derek",
-        "Leap to Faith",
-        "Best Self",
-        "Rhonda, Diana, Jake, and Trent",
-        "The Burrito",
-        "Somewhere Else"
+        {
+          "aired": "2017-09-20",
+          "plot": "Having had their memories erased by ambitious master architect Michael, Eleanor, Chidi, Tahani and Jason again settle into the Good Place, unaware of what has previously transpired...except that Eleanor discovers the one clue she had left for herself and attempts to piece things together.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kxHOrDnZQhLCNvLxmRn21oz69zx.jpg",
+          "title": "Everything Is Great!"
+        },
+        {
+          "aired": "2017-09-28",
+          "plot": "Michael continues to work out the kinks in his grand plan. Meanwhile, Eleanor stumbles across a secret.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/654JNYP5JgUDVm150daN2mmR1Ah.jpg",
+          "title": "Dance Dance Resolution"
+        },
+        {
+          "aired": "2017-10-05",
+          "plot": "Michael approaches things from a new angle. Eleanor, Chidi, Tahani and Jason struggle to make a collective decision.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rerdpCR9PCOXomyCCvbyuYfyJKx.jpg",
+          "title": "Team Cockroach"
+        },
+        {
+          "aired": "2017-10-12",
+          "plot": "Tahani throws a dinner party to impress. Eleanor and Jason both have to lend a hand when things don't go as planned.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zdJIPtNXwu6vzVenfsDt5RKpJhZ.jpg",
+          "title": "Existential Crisis"
+        },
+        {
+          "aired": "2017-10-19",
+          "plot": "Chidi and Eleanor tackle a famous ethical dilemma, leading to a conflict with Michael. Meanwhile, Tahani harbors a secret and confides in Janet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jkk77SEFaMc9Lu0O1JXofxRqaQI.jpg",
+          "title": "The Trolley Problem"
+        },
+        {
+          "aired": "2017-10-26",
+          "plot": "When the Neighborhood experiences a small glitch, Michael has to resolve the issue with Janet before it gets out of control.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2AAhmoGYcJ6ZkVllUAdGmYHmUMo.jpg",
+          "title": "Janet and Michael"
+        },
+        {
+          "aired": "2017-11-02",
+          "plot": "Janet creates a big problem for Michael. Meanwhile, Eleanor lets Chidi  in on a secret, and Jason puts Tahani in a difficult position.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wZKcwiaOQAS3AOtui4f2M9k937t.jpg",
+          "title": "Derek"
+        },
+        {
+          "aired": "2018-01-04",
+          "plot": "Michael receives a surprise visitor. Meanwhile, Eleanor, Chidi, Tahani and Jason attempt to solve a riddle.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mo9cOrTNVY43NtSzyBlse2vs2WB.jpg",
+          "title": "Leap to Faith"
+        },
+        {
+          "aired": "2018-01-11",
+          "plot": "Michael finds himself in a bind. Meanwhile, Eleanor sparks an idea that has Chidi, Tahani, Jason and even Janet laying their feelings on the line.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nQM3DjYmP8EWT0Sa89rXMqNVHW1.jpg",
+          "title": "Best Self"
+        },
+        {
+          "aired": "2018-01-18",
+          "plot": "Eleanor, Chidi, Tahani, Janet, and Jason head to a destination that may have lasting implications.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9E1geQkks8sEhJujRxnJv6G8NJP.jpg",
+          "title": "Rhonda, Diana, Jake, and Trent"
+        },
+        {
+          "aired": "2018-01-25",
+          "plot": "Eleanor, Chidi, Tahani, and Jason consider just how much they have (or have not) improved. Michael is left to deal with the consequences of his recent actions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/43dFDYiPXvyxGzjDreYf62i6h9F.jpg",
+          "title": "The Burrito"
+        },
+        {
+          "aired": "2018-02-01",
+          "plot": "Michael makes a plea. Eleanor looks to take the high road. Michael tries to pull a rabbit out of a hat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mdlXHwc3Km35auCzfUuobc8PaHw.jpg",
+          "title": "Somewhere Else"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Everything Is Bonzer!",
-        "The Brainy Bunch",
-        "The Snowplow",
-        "Jeremy Bearimy",
-        "The Ballad of Donkey Doug",
-        "A Fractured Inheritance",
-        "The Worst Possible Use of Free Will",
-        "Don't Let The Good Life Pass You By",
-        "Janet(s)",
-        "The Book Of Dougs",
-        "Chidi Sees the Time-Knife",
-        "Pandemonium"
+        {
+          "aired": "2018-09-27",
+          "plot": "Michael intervenes in the near-death accidents of Eleanor, Chidi, Tahani and Jason on Earth, in hopes that a second chance at life allows them to become better versions of themselves.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cl3H4VT6ri5Ix1vWxCssxkawhOt.jpg",
+          "title": "Everything Is Bonzer!"
+        },
+        {
+          "aired": "2018-10-04",
+          "plot": "Michael's grand scheme hits an unexpected snag and forces him to take drastic measures.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a27PUCda7tiIJxxUStiPYdcldRG.jpg",
+          "title": "The Brainy Bunch"
+        },
+        {
+          "aired": "2018-10-11",
+          "plot": "A surprising announcement from one of the humans threatens to dissolve the group.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ptPi80i5BW9jFP8Kn8pF9QUOu8.jpg",
+          "title": "The Snowplow"
+        },
+        {
+          "aired": "2018-10-18",
+          "plot": "The group explores the three main branches of ethical thought.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7SUvvfW1H6mH6we7gqDaBOJ0HcS.jpg",
+          "title": "Jeremy Bearimy"
+        },
+        {
+          "aired": "2018-10-25",
+          "plot": "Jason visits with some people from his past while Chidi gets help in resolving a problem.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aTbRxc4vyndZ0iWmfkpuCNBrxXt.jpg",
+          "title": "The Ballad of Donkey Doug"
+        },
+        {
+          "aired": "2018-11-01",
+          "plot": "Eleanor makes a startling discovery that tests her resolve, Tahani looks to make amends and Janet does some bonding.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zdAb4qbhYPUlvytfgrCz99Zgxfb.jpg",
+          "title": "A Fractured Inheritance"
+        },
+        {
+          "aired": "2018-11-08",
+          "plot": "Eleanor recalls some forgotten events from her past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gq9qlHyPHRwvdYLQZTqQCikMYIA.jpg",
+          "title": "The Worst Possible Use of Free Will"
+        },
+        {
+          "aired": "2018-11-15",
+          "plot": "Michael and Janet visit the person they believe to be the blueprint for how to live a good life on Earth; Eleanor turns to Tahani for advice.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7wZBtiIlcTPekf3KiyKn1wwD6DQ.jpg",
+          "title": "Don't Let The Good Life Pass You By"
+        },
+        {
+          "aired": "2018-12-06",
+          "plot": "While Eleanor and the gang contend with an intense out-of-body experience, Michael hatches a plan with Janet's help.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ikCrViqznzVK31XjyY4P0L82HWb.jpg",
+          "title": "Janet(s)"
+        },
+        {
+          "aired": "2019-01-10",
+          "plot": "Michael's resolve is put to the test. Meanwhile, Jason wrestles with his feelings and Chidi surprises Eleanor.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kiwPFpQITjvlS5ihsK6Hx3t2OWw.jpg",
+          "title": "The Book Of Dougs"
+        },
+        {
+          "aired": "2019-01-17",
+          "plot": "Michael arranges an important meeting and Janet makes a reconnection.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zRTXVX0TIDm3n4IdSlKc8gPyZMb.jpg",
+          "title": "Chidi Sees the Time-Knife"
+        },
+        {
+          "aired": "2019-01-24",
+          "plot": "Various events occur, in a certain specific order.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/v1fLZGrxH8xaFQhpKPjXhntro7N.jpg",
+          "title": "Pandemonium"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "A Girl from Arizona",
-        "A Girl from Arizona Part 2",
-        "Chillaxing",
-        "Tinker, Tailor, Demon, Spy",
-        "Employee of the Bearimy",
-        "A Chip Driver Mystery",
-        "Help Is Other People",
-        "The Funeral to End All Funerals",
-        "The Answer",
-        "You've Changed, Man",
-        "Mondays, Am I Right",
-        "Patty",
-        "Whenever You're Ready"
+        {
+          "aired": "2019-09-26",
+          "plot": "With Eleanor assuming the role of the architect, the group adapts to the challenges facing them when four test subjects inhabit a new neighborhood under their supervision.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cMrP2toJrRXaNImOZMdKEE3HfIX.jpg",
+          "title": "A Girl from Arizona"
+        },
+        {
+          "aired": "2019-10-03",
+          "plot": "Eleanor, Michael, Janet and Tahani have their hands full when the new residents begin to show their true colors. Jason receives some unsettling news.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e1R32vuvY3485H40JuhJs9DJYfD.jpg",
+          "title": "A Girl from Arizona Part 2"
+        },
+        {
+          "aired": "2019-10-10",
+          "plot": "Michael and Eleanor discover something troubling and turn to an unusual source for help. Tahani lends her expertise to assist with one of the new residents.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xGDrTow3WPmbvDAuYpF6vYslIMi.jpg",
+          "title": "Chillaxing"
+        },
+        {
+          "aired": "2019-10-17",
+          "plot": "Uncertainty abounds when an unexpected visitor arrives.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ehWDp6WVNVaXl2adU3rFvAEihKI.jpg",
+          "title": "Tinker, Tailor, Demon, Spy"
+        },
+        {
+          "aired": "2019-10-24",
+          "plot": "Michael and Jason hatch a plan. Eleanor learns firsthand the difficulties of running the neighborhood.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xMq7wm38ilhnRxvwH6vwYjYWJbP.jpg",
+          "title": "Employee of the Bearimy"
+        },
+        {
+          "aired": "2019-10-31",
+          "plot": "One of the new residents creates a division in the ranks.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3pSdLpffmDiamyDc5xDivZIRVIR.jpg",
+          "title": "A Chip Driver Mystery"
+        },
+        {
+          "aired": "2019-11-07",
+          "plot": "On the last day of the experiment, Chidi is faced with one final ethical dilemma.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uZsniCB6pxJ2nQcNZhnAr58LHSu.jpg",
+          "title": "Help Is Other People"
+        },
+        {
+          "aired": "2019-11-14",
+          "plot": "The group awaits the Judge's final decision on the fate of human existence.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mcooiyoDWbBYINWaCHAfcPUHhbb.jpg",
+          "title": "The Funeral to End All Funerals"
+        },
+        {
+          "aired": "2019-11-21",
+          "plot": "In an attempt to plan a better future, Chidi considers his past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qAx6TENa7FQFnFm71JwbaFFzR81.jpg",
+          "title": "The Answer"
+        },
+        {
+          "aired": "2020-01-09",
+          "plot": "The group works to negotiate an afterlife plan with Shawn and the judge.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pGDPx8OrsAYHyycGKwx3nSEyTyC.jpg",
+          "title": "You've Changed, Man"
+        },
+        {
+          "aired": "2020-01-16",
+          "plot": "Michael runs some tests and Chidi gets some good advice from Jason.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9xnboFBkLFWahrehvCKqvonZjYk.jpg",
+          "title": "Mondays, Am I Right"
+        },
+        {
+          "aired": "2020-01-23",
+          "plot": "The group makes some new friends.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1VmkQpM81dzwg0xOQBjKd3JUwEA.jpg",
+          "title": "Patty"
+        },
+        {
+          "aired": "2020-01-30",
+          "plot": "Various conversations occur, between various groups of people.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/40JOgMD6JTSP3ohjg9L4mSkIOOY.jpg",
+          "title": "Whenever You're Ready"
+        }
       ]
     }
   },

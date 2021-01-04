@@ -1,73 +1,996 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Drama",
+    "Comedy",
+    "Sci-Fi & Fantasy"
+  ],
   "id": 71738,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328487/seasonposter/the-orville-5c16c8a9b9783.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328487/seasonposter/the-orville-5c16c8b411fa1.jpg",
+          "https://assets.fanart.tv/fanart/tv/328487/seasonposter/the-orville-5c4bc99c1fa41.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5c87c45e5fa98.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-59b5224f21b79.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-59b523d9ed744.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-59b61c87e9e1a.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5e64ff8091ff5.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093a40b374a.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093ace7dfcb.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093b304554a.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-591f163f6dbd8.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093b0069240.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/328487/tvbanner/the-orville-5bfcf14545fa2.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvbanner/the-orville-5c4c037eee5a2.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-59b5245f0004e.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-5b4f83151eecd.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-5c4bc97d2916f.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-5c9c14274a36c.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-59b61c2b973ae.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-591ff16a2d431.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-59b61c3ab3da1.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-5c4bcbcf75679.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/2Qg2fViQzWenpUaMjhv0kNhCbE9.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/1q2gRQ8uN8D2ythPMzd5NvsHkVf.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "The Orville",
+  "plot": "Follows the crew of the not-so-functional exploratory ship in the Earth's interstellar fleet, 400 years in the future.",
+  "premiered": "2017-09-10",
+  "status": "Returning Series",
+  "studios": [
+    "FOX",
+    "Hulu"
+  ],
+  "actors": [
+    {
+      "name": "Norm Macdonald",
+      "order": 93,
+      "role": "Yaphit (voice)",
+      "thumb": "/pGOpdt9Xy9YO2nUEWgp8G89KC5r.jpg"
+    },
+    {
+      "name": "Seth MacFarlane",
+      "order": 0,
+      "role": "Ed Mercer",
+      "thumb": "/f58Rhr2Wf3T5O2kVJo7VVnXzekR.jpg"
+    },
+    {
+      "name": "Adrianne Palicki",
+      "order": 1,
+      "role": "Kelly Grayson",
+      "thumb": "/3qpWQ5d2XxvZuoZDsGgZUsOI60q.jpg"
+    },
+    {
+      "name": "Penny Johnson",
+      "order": 2,
+      "role": "Claire Finn",
+      "thumb": "/lWB66icA4Cwyg8WfAdDmZDG1uS7.jpg"
+    },
+    {
+      "name": "Scott Grimes",
+      "order": 3,
+      "role": "Gordon Malloy",
+      "thumb": "/7LOWBMiRsSVm8iLj3mklQc6v7Jy.jpg"
+    },
+    {
+      "name": "Peter Macon",
+      "order": 4,
+      "role": "Bortus",
+      "thumb": "/oA3AbLBLWVR0cYzPqxNOX3WXzUy.jpg"
+    },
+    {
+      "name": "J. Lee",
+      "order": 6,
+      "role": "John LaMarr",
+      "thumb": "/y7lED1RdCatEtPMu5cWlhLAjjmU.jpg"
+    },
+    {
+      "name": "Mark Jackson",
+      "order": 7,
+      "role": "Isaac",
+      "thumb": "/zhW6d36qtSNY7Sp99J2PbNCaePC.jpg"
+    },
+    {
+      "name": "Chad L. Coleman",
+      "order": 89,
+      "role": "Klyden",
+      "thumb": "/3sktDHA5N5VA9rQujz6F8C0jSxT.jpg"
+    },
+    {
+      "name": "Mike Henry",
+      "order": 89,
+      "role": "Dann",
+      "thumb": "/zCE9EAHyu2pgxDXxdK0k8PzVdaK.jpg"
+    },
+    {
+      "name": "Halston Sage",
+      "order": 99,
+      "role": "Alara Kitan",
+      "thumb": "/nzOEtLuQLiYkYRxL5OvnOJw2m82.jpg"
+    },
+    {
+      "name": "Jessica Szohr",
+      "order": 500,
+      "role": "Talla Keyali",
+      "thumb": "/bFhRVdzOj3zVbtNARmEL50wyz7J.jpg"
+    },
+    {
+      "name": "BJ Tanner",
+      "order": 99,
+      "role": "Marcus Finn",
+      "thumb": "/l35zkObzvh3WxqGEPtiXFgNcATR.jpg"
+    },
+    {
+      "name": "Victor Garber",
+      "order": 95,
+      "role": "Admiral Halsey",
+      "thumb": "/FdhXl8qxsKgj22Ip99SRM9jUx1.jpg"
+    },
+    {
+      "name": "Kai Wener",
+      "order": 99,
+      "role": "Ty Finn",
+      "thumb": "/5AMKRITH6NV8M6CIA3nhOm8JgaC.jpg"
+    },
+    {
+      "name": "Larry Joe Campbell",
+      "order": 10,
+      "role": "Steve Newton",
+      "thumb": "/lOP81xAI3yNWJAxl9vmkzKADUsI.jpg"
+    },
+    {
+      "name": "Chris Johnson",
+      "order": 89,
+      "role": "Cassius",
+      "thumb": "/nHWPtaHaGCQkjgcVvF3nksYAHg0.jpg"
+    },
+    {
+      "name": "Kelly Hu",
+      "order": 97,
+      "role": "Admiral Ozawa",
+      "thumb": "/2s8l6WvXyoDf0RbLeFGZvEclmds.jpg"
+    },
+    {
+      "name": "Michaela McManus",
+      "order": 52,
+      "role": "Lt. Janel Tyler/Teleya",
+      "thumb": "/oi9ZdXQm0qpRLo3FrLtNfcVieXM.jpg"
+    },
+    {
+      "name": "Ron Canada",
+      "order": 62,
+      "role": "Fleet Admiral Tucker",
+      "thumb": "/zZxuI6u5R4aow7PyEdBzx5ei4QK.jpg"
+    },
+    {
+      "name": "Jason Alexander",
+      "order": 65,
+      "role": "Olix",
+      "thumb": "/5a34uLhhHqmeYII984EfaVBh70p.jpg"
+    },
+    {
+      "name": "Patrick Warburton",
+      "order": 80,
+      "role": "Lt. Tharl",
+      "thumb": "/eLqDtbFYmlTxov9vT9Dwldn839v.jpg"
+    },
+    {
+      "name": "Nick Chinlund",
+      "order": 92,
+      "role": "Capt. Dalak",
+      "thumb": "/lRmgWDIXqBTneGbKlJNSFyiis1e.jpg"
+    },
+    {
+      "name": "Carlos Bernard",
+      "order": 92,
+      "role": "Capt. Marcos",
+      "thumb": "/oAHPWN2kHx3LEE8FtdUXxGqgGXq.jpg"
+    },
+    {
+      "name": "Graham Hamilton",
+      "order": 92,
+      "role": "Kaylon Primary",
+      "thumb": "/b01Uk5beE5yYOMnnR3nD8IIir8I.jpg"
+    },
+    {
+      "name": "Rena Owen",
+      "order": 96,
+      "role": "Heveena",
+      "thumb": "/8s0ePZ1ifvE7NlvtLOAWNXLjdx4.jpg"
+    },
+    {
+      "name": "Ted Danson",
+      "order": 96,
+      "role": "Admiral Perry",
+      "thumb": "/xBzs8fPsOLvl6oK6JrugLEBVXJY.jpg"
+    },
+    {
+      "name": "Will Sasso",
+      "order": 98,
+      "role": "Mooska",
+      "thumb": "/4F8p9Dg32WJl12ras7CzQzLFy2i.jpg"
+    },
+    {
+      "name": "Patrick Cox",
+      "order": 3,
+      "role": "Ogre",
+      "thumb": "/zSBUKA6kLKi6Ibysn4VnIlXar3Y.jpg"
+    },
+    {
+      "name": "Brian George",
+      "order": 4,
+      "role": "Dr. Aronov",
+      "thumb": "/mHjc58pfKkxtghhliPOnNz0SlcT.jpg"
+    },
+    {
+      "name": "Christine Corpuz",
+      "order": 5,
+      "role": "Janice Lee",
+      "thumb": null
+    },
+    {
+      "name": "Sean Cook",
+      "order": 6,
+      "role": "Derek",
+      "thumb": null
+    },
+    {
+      "name": "Joel Swetow",
+      "order": 7,
+      "role": "Krill Captain",
+      "thumb": "/eYGiPqOy65ldNUfOZ5liRETs7ok.jpg"
+    },
+    {
+      "name": "Jeffrey Tambor",
+      "order": 8,
+      "role": "Bert Mercer",
+      "thumb": "/e4IkxsEo5O4oUWrIpXlEhWa6lqB.jpg"
+    },
+    {
+      "name": "Holland Taylor",
+      "order": 9,
+      "role": "Jeannie Mercer",
+      "thumb": "/jt9yFB3nLfZQ0c1DcnvvcfA11gB.jpg"
+    },
+    {
+      "name": "Mike Gray",
+      "order": 11,
+      "role": "Ensign Parker",
+      "thumb": null
+    },
+    {
+      "name": "Glenn Morshower",
+      "order": 12,
+      "role": "Admiral Tucker",
+      "thumb": "/SjgNUSLoBAVossDI4QkNtDxYDZ.jpg"
+    },
+    {
+      "name": "JD Cullum",
+      "order": 13,
+      "role": "Calivon Zoo Administrator",
+      "thumb": "/1K6hRv9Y0QicjazSThUYm7wdXDG.jpg"
+    },
+    {
+      "name": "Lamont Thomspon",
+      "order": 14,
+      "role": "Kaybrak",
+      "thumb": null
+    },
+    {
+      "name": "Deobia Oparei",
+      "order": 15,
+      "role": "Captain Vorak",
+      "thumb": "/kcw8vNMlYgK8peuN80zhX6TqeNk.jpg"
+    },
+    {
+      "name": "Antonio D. Charity",
+      "order": 16,
+      "role": "Advocate Kagus",
+      "thumb": "/S8T0ABox1qJYbl84GWkQNU7wvZ.jpg"
+    },
+    {
+      "name": "Jonathan Adams",
+      "order": 18,
+      "role": "Moclan Arbitrator",
+      "thumb": "/mkgyl2MciZ14wsYi6zedyj6hnR8.jpg"
+    },
+    {
+      "name": "D. Elliot Woods",
+      "order": 19,
+      "role": "Moclan Council Foreman",
+      "thumb": null
+    },
+    {
+      "name": "Robert Knepper",
+      "order": 21,
+      "role": "Hamelac",
+      "thumb": "/w40AttR4OPQvjYyTVanq5Rm5iOb.jpg"
+    },
+    {
+      "name": "James Morrison",
+      "order": 22,
+      "role": "Kemka",
+      "thumb": null
+    },
+    {
+      "name": "Charlize Theron",
+      "order": 23,
+      "role": "Pria Lavesque",
+      "thumb": "/1WKfLshTtawW26lqOcKZhS4lZVA.jpg"
+    },
+    {
+      "name": "Max Burkholder",
+      "order": 23,
+      "role": "Tomilin",
+      "thumb": "/8uNNDZPSxLsNetHPl1zxMwKULTC.jpg"
+    },
+    {
+      "name": "Rachael MacFarlane",
+      "order": 24,
+      "role": "Computer Voice (V.O.) (voice)",
+      "thumb": "/AnLEvMh9pl94uJOO2MnZFQB44b4.jpg"
+    },
+    {
+      "name": "Dylan Kenin",
+      "order": 26,
+      "role": "Captain Haros",
+      "thumb": "/yGq7PooU34xeRWFORF96fmJmvl9.jpg"
+    },
+    {
+      "name": "James Horan",
+      "order": 28,
+      "role": "High Priest Sazeron",
+      "thumb": "/jDYotaLeffsHv4WxTbb4vo5zrRm.jpg"
+    },
+    {
+      "name": "Steven Culp",
+      "order": 30,
+      "role": "Willks",
+      "thumb": "/hqweK3WhIOORsOLBPhzEy47iXO8.jpg"
+    },
+    {
+      "name": "Giorgia Whigham",
+      "order": 31,
+      "role": "Lysella",
+      "thumb": "/oWcGJQ0vqDws24acdxQzPB41hGV.jpg"
+    },
+    {
+      "name": "Barry Livingston",
+      "order": 32,
+      "role": "Tom",
+      "thumb": "/3zcKDmYcOv18c4VxIoPqLuQbmen.jpg"
+    },
+    {
+      "name": "Loren Lester",
+      "order": 33,
+      "role": "Lewis",
+      "thumb": "/AmdxCKx7ehFXtOglUH02iewTHqI.jpg"
+    },
+    {
+      "name": "Brian Thompson",
+      "order": 35,
+      "role": "Drogen",
+      "thumb": "/1gl5GvQVjdamggUpFQbOlkmEvN2.jpg"
+    },
+    {
+      "name": "Gavin Lee",
+      "order": 37,
+      "role": "Henry Park",
+      "thumb": null
+    },
+    {
+      "name": "J. Paul Boehmer",
+      "order": 38,
+      "role": "Navarian Ambassador",
+      "thumb": "/aoOeVNvoTrC581JE5PubaZV01rk.jpg"
+    },
+    {
+      "name": "Ralph Garman",
+      "order": 39,
+      "role": "Kanoot",
+      "thumb": "/AuDBsawi0M9m9Gd23swFI3mur1v.jpg"
+    },
+    {
+      "name": "Rob Lowe",
+      "order": 40,
+      "role": "Darulio",
+      "thumb": "/77decDyKXB34i9A1FnMM1suI5cA.jpg"
+    },
+    {
+      "name": "Kyra Santoro",
+      "order": 41,
+      "role": "Ensign Turco",
+      "thumb": "/pfRJOB845e9PYA5rhOMp6HHYPIO.jpg"
+    },
+    {
+      "name": "Lenny Von Dohlen",
+      "order": 42,
+      "role": "Valondis",
+      "thumb": "/yZfisRYu3aEDRa0AaEIjMhkmW8w.jpg"
+    },
+    {
+      "name": "Erica Tazel",
+      "order": 43,
+      "role": "Baleth",
+      "thumb": "/4rYudd0BJiAE4msLhl5IcYvIyLU.jpg"
+    },
+    {
+      "name": "Philip Anthony-Rodriguez",
+      "order": 44,
+      "role": "Fadolin",
+      "thumb": "/bv3hFFxayfEj3LKGWuAM42ME07j.jpg"
+    },
+    {
+      "name": "Jasper McPherson",
+      "order": 45,
+      "role": "Little Girl",
+      "thumb": null
+    },
+    {
+      "name": "Jay Jackson",
+      "order": 46,
+      "role": "Reporter",
+      "thumb": "/emur6RNO75YoAFWlXUmwPAf4vEy.jpg"
+    },
+    {
+      "name": "Paul Vogt",
+      "order": 48,
+      "role": "Horbalak Captain",
+      "thumb": "/ntZMdGgmIFEP4kPxBfSLOPIDQ0x.jpg"
+    },
+    {
+      "name": "Gordy De St. Jeor",
+      "order": 49,
+      "role": "Teenage Boy",
+      "thumb": "/xDlVfqRsbvNPBxbTikW5lflNya0.jpg"
+    },
+    {
+      "name": "Lesley Fera",
+      "order": 55,
+      "role": "Minister Theece",
+      "thumb": null
+    },
+    {
+      "name": "Michael C. Mahon",
+      "order": 56,
+      "role": "Altox",
+      "thumb": "/k0ZJ5AdIsLOcireMfduMtOYJ9UO.jpg"
+    },
+    {
+      "name": "Darren Dupree Washington",
+      "order": 57,
+      "role": "Simulated Moclan",
+      "thumb": "/yJz38KcawEQMG9ijfwPtRMJrK3z.jpg"
+    },
+    {
+      "name": "Jude Lanston",
+      "order": 58,
+      "role": "Moclan Prison Guard",
+      "thumb": null
+    },
+    {
+      "name": "Robert Picardo",
+      "order": 59,
+      "role": "Ildis Kitan",
+      "thumb": "/9TOY0mhWRMlU5Ur8QHMoDecWs2n.jpg"
+    },
+    {
+      "name": "Molly Hagan",
+      "order": 60,
+      "role": "Drenala Kitan",
+      "thumb": "/m5pL170dlh7ex4lTESAK5kKARde.jpg"
+    },
+    {
+      "name": "Candice King",
+      "order": 61,
+      "role": "Solana Kitan",
+      "thumb": "/qDbwM5IQhriaYELdb4xOJALMoxV.jpg"
+    },
+    {
+      "name": "John Billingsley",
+      "order": 62,
+      "role": "Cambis Borrin",
+      "thumb": "/uQzAvv4LUt57GBrYzDj5Ao1vhUT.jpg"
+    },
+    {
+      "name": "Kerry O'Malley",
+      "order": 63,
+      "role": "Floratta",
+      "thumb": "/8a1wpq7lC8S3XiokACHkJOqJv5v.jpg"
+    },
+    {
+      "name": "Kevin Daniels",
+      "order": 65,
+      "role": "Locar",
+      "thumb": "/oBFjroVs6jUSHkpMx8ruDD9ftz.jpg"
+    },
+    {
+      "name": "Mackenzie Astin",
+      "order": 66,
+      "role": "Orrin Channing",
+      "thumb": "/2cE08v6N7OyWH8OqenYelQ2dEWy.jpg"
+    },
+    {
+      "name": "Aily Kei",
+      "order": 67,
+      "role": "Leyna Channing",
+      "thumb": null
+    },
+    {
+      "name": "Leighton Meester",
+      "order": 69,
+      "role": "Laura",
+      "thumb": "/mJCXT8QcrUjqmqSFpusZMgQxkUs.jpg"
+    },
+    {
+      "name": "Gabriella Graves",
+      "order": 70,
+      "role": "Krill Girl Student",
+      "thumb": "/kaCOvWyMbqih88KgDe4veo1hnnx.jpg"
+    },
+    {
+      "name": "Liam Neeson",
+      "order": 72,
+      "role": "Jahavus Dorahl",
+      "thumb": "/r1DRqmZhLrzhTTwg9PtuMMQTvuB.jpg"
+    },
+    {
+      "name": "Fred Tatasciore",
+      "order": 73,
+      "role": "Krill Voice (voice)",
+      "thumb": "/busoEz4khUJ0hOoKHexjXwGrsit.jpg"
+    },
+    {
+      "name": "Giovanni Bejarano",
+      "order": 74,
+      "role": "Security Officer",
+      "thumb": "/z7dMYP9OWS6Vtc5D2OxJRomsTrf.jpg"
+    },
+    {
+      "name": "Greta Jung",
+      "order": 75,
+      "role": "Comm Officer",
+      "thumb": "/v7fRZLeXyYERrRm2LP1K6sxMsiW.jpg"
+    },
+    {
+      "name": "Michael Traynor",
+      "order": 76,
+      "role": "Krill Captain",
+      "thumb": "/j0q2FJUS3ZyAhkIh7mnvGhFyK3M.jpg"
+    },
+    {
+      "name": "Michele Boyd",
+      "order": 78,
+      "role": "Lieutenant Dorsett",
+      "thumb": "/teBwQPszbQ9yaPVgtEZFRGjROIy.jpg"
+    },
+    {
+      "name": "Nathan Dana Aldrich",
+      "order": 79,
+      "role": "Krill Officer",
+      "thumb": null
+    },
+    {
+      "name": "Blesson Yates",
+      "order": 81,
+      "role": "Topa",
+      "thumb": null
+    },
+    {
+      "name": "Arriane Alexander",
+      "order": 81,
+      "role": "Regorian Doctor #2",
+      "thumb": null
+    },
+    {
+      "name": "Brandon Young",
+      "order": 82,
+      "role": "Obstetric Surgeon #2",
+      "thumb": null
+    },
+    {
+      "name": "Cory Tucker",
+      "order": 83,
+      "role": "Camp Guard #2",
+      "thumb": "/6nni69oOrGCwwzO8SqQmcwmdKcw.jpg"
+    },
+    {
+      "name": "Erica Shaffer",
+      "order": 84,
+      "role": "Obstetric Surgeon #1",
+      "thumb": "/7L6yfu2SETLrd08WDS7vqGtGZbQ.jpg"
+    },
+    {
+      "name": "John Rubinstein",
+      "order": 85,
+      "role": "Prefect",
+      "thumb": "/9Ufrca4VnhnsN1Ec0i0QudPqS6L.jpg"
+    },
+    {
+      "name": "Niko Nicotera",
+      "order": 86,
+      "role": "Rokal",
+      "thumb": "/3gv1N2MYcTJ8DNY9u1SEjHsZsOZ.jpg"
+    },
+    {
+      "name": "Jennifer Landon",
+      "order": 87,
+      "role": "Ukania",
+      "thumb": "/lBNS7wOnbldpl071686cImcRS1O.jpg"
+    },
+    {
+      "name": "Robert Curtis Brown",
+      "order": 88,
+      "role": "Chief Advisor Makkal",
+      "thumb": "/rbMhXK1U9zZXcPHQKAoJ677qeak.jpg"
+    },
+    {
+      "name": "Tim Russ",
+      "order": 92,
+      "role": "Dr. Sherman",
+      "thumb": "/pwCVxvFbkUnBr46pPFJLabNMHww.jpg"
+    },
+    {
+      "name": "Darri Ingolfsson",
+      "order": 93,
+      "role": "Greg",
+      "thumb": null
+    },
+    {
+      "name": "Sarah Scott",
+      "order": 94,
+      "role": "Trisha",
+      "thumb": "/y31s1T72B6LNTwArkhed4i9l5RT.jpg"
+    },
+    {
+      "name": "F. Murray Abraham",
+      "order": 95,
+      "role": "Chairman",
+      "thumb": "/p2RYVGdrcP0m70BkkiKcwyrDeim.jpg"
+    },
+    {
+      "name": "Tony Todd",
+      "order": 97,
+      "role": "Moclan Delegate",
+      "thumb": "/Tl2wuhRon93SkcAj1jyC52bQaG.jpg"
+    },
+    {
+      "name": "Chase Kim",
+      "order": 98,
+      "role": "Officer",
+      "thumb": null
+    },
+    {
+      "name": "Chris Marroy",
+      "order": 99,
+      "role": "Rebel",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "The Orville Panel at PaleyFest 2018",
-        "The First Six Missions",
-        "The Orville Inside Look",
-        "The Science of The Orville - Alien Life",
-        "The Science of The Orville - Quantum Drive",
-        "Crafting Aliens",
-        "Directed By...",
-        "The Orville Takes Flight",
-        "A Better Tomorrow",
-        "Designing the Future"
+        {
+          "aired": "2018-03-17",
+          "plot": "The cast and crew of \"The Orville\" host a panel at PaleyFest 2018 where they have a Q&A and discuss the show, its future, and more.",
+          "thumbnail": "",
+          "title": "The Orville Panel at PaleyFest 2018"
+        },
+        {
+          "aired": "2017-10-26",
+          "plot": "Get caught up on the first six adventures of The Orville and her crew. Originally released ahead of episode 7, this supercut was intended to quickly catch new viewers up-to-speed on the first half of Season 1.",
+          "thumbnail": "",
+          "title": "The First Six Missions"
+        },
+        {
+          "aired": "2018-12-11",
+          "plot": "Go behind the scenes of \"The Orville\", featuring interviews with the cast and creative team behind the series.",
+          "thumbnail": "",
+          "title": "The Orville Inside Look"
+        },
+        {
+          "aired": "2018-12-11",
+          "plot": "More than a rubber mask, the aliens of \"The Orville\" are rooted in scientific principals about what life might look like beyond our solar system.",
+          "thumbnail": "",
+          "title": "The Science of The Orville - Alien Life"
+        },
+        {
+          "aired": "2018-12-11",
+          "plot": "The speed of light is the greatest limiting factor of any science fiction series, The Orville overcomes that limit with something that is closer to fact than fiction.",
+          "thumbnail": "",
+          "title": "The Science of The Orville - Quantum Drive"
+        },
+        {
+          "aired": "2018-12-11",
+          "plot": "Go behind the scenes with the makeup team responsible for turning human actors into otherworldly beings.",
+          "thumbnail": "",
+          "title": "Crafting Aliens"
+        },
+        {
+          "aired": "2018-12-11",
+          "plot": "Interview with the pilot's director Jon Favreau.",
+          "thumbnail": "",
+          "title": "Directed By..."
+        },
+        {
+          "aired": "2018-12-11",
+          "plot": "The Orville herself is an actual, physical model. Go behind the scenes to see how the crew of the show uses the model to make the show feel more real.",
+          "thumbnail": "",
+          "title": "The Orville Takes Flight"
+        },
+        {
+          "aired": "2018-12-11",
+          "plot": "Seth McFarlane explains why it is important that science fiction should be about a more optimistic future.",
+          "thumbnail": "",
+          "title": "A Better Tomorrow"
+        },
+        {
+          "aired": "2018-12-11",
+          "plot": "Seth McFarlane discusses the set and how the set reflects an aspirational future.",
+          "thumbnail": "",
+          "title": "Designing the Future"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Old Wounds",
-        "Command Performance",
-        "About a Girl",
-        "If the Stars Should Appear",
-        "Pria",
-        "Krill",
-        "Majority Rule",
-        "Into the Fold",
-        "Cupid's Dagger",
-        "Firestorm",
-        "New Dimensions",
-        "Mad Idolatry"
+        {
+          "aired": "2017-09-10",
+          "plot": "It's 2417, and the Planetary Union promotes Ed Mercer to Captain of the exploratory vessel The U.S.S. Orville. Ed's enthusiasm for his new position is dampened when his ex-wife, Kelly Grayson, is assigned to be his First Officer. While on their first routine mission, the Orville crew is ambushed by the Krill, a vicious alien race, who are bent on stealing a device that can cause time to accelerate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/36zHTDmGqXgVWgDFIakuOJhUU0J.jpg",
+          "title": "Old Wounds"
+        },
+        {
+          "aired": "2017-09-17",
+          "plot": "When Ed and Kelly are tricked by a hologram of a ship in distress and find themselves prisoners in a replica of their former home, Alara must step up in her first command of the Orville and attempt a heroic rescue. Meanwhile, Bortus and Klyden receive some happy, yet unexpected news.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nZ5Xuz47Cog4VZ5NYhJfybLXyii.jpg",
+          "title": "Command Performance"
+        },
+        {
+          "aired": "2017-09-21",
+          "plot": "The Orville crew is divided between cultures when Bortus and Klyden debate if their newly born offspring should receive a controversial surgery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1Jh3ZXTsfr4B2X3CZpmktRAETp8.jpg",
+          "title": "About a Girl"
+        },
+        {
+          "aired": "2017-09-28",
+          "plot": "Ed and the Orville crew encounter a massive vessel adrift in space, which is in danger of colliding with a star. While some of the crew set out to help the ship's inhabitants, Bortus, Gordon, and John stay behind and fend off a Krill attack on another Union ship",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hdCeCrNByCX0EfJRNOn0pIQDrjZ.jpg",
+          "title": "If the Stars Should Appear"
+        },
+        {
+          "aired": "2017-10-05",
+          "plot": "After the crew saves a stranded ship and its attractive captain, Ed becomes smitten with the Orville’s new guest, while Kelly suspects all is not what it seems. Meanwhile, Gordon attempts to teach Isaac the art of pulling off a practical joke.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q8Xsl2FBs8DzbjCywydDm3TUssq.jpg",
+          "title": "Pria"
+        },
+        {
+          "aired": "2017-10-12",
+          "plot": "After the Orville crew defeats a Krill attack on a brand-new colony, the Union sends Ed and Gordon on a dangerous undercover mission to infiltrate a Krill ship and obtain a copy of the Krill bible, the \"Anhkana,\" to better understand the enemy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s6zPCOk0jvItzX7mWMJSiC4BETu.jpg",
+          "title": "Krill"
+        },
+        {
+          "aired": "2017-10-26",
+          "plot": "When two Union anthropologists go missing on a planet similar to 21st century Earth, Ed sends a team led by Kelly to find them, but the mission quickly goes awry when they realize the society’s government is completely based on a public voting system to determine punishment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e2ypuZNmiuFqpdQsXrRfi7Q3lbQ.jpg",
+          "title": "Majority Rule"
+        },
+        {
+          "aired": "2017-11-02",
+          "plot": "Ed and the crew set out to save Dr. Finn, her two sons and Isaac after their shuttle gets thrown into uncharted space and they crash-land on a moon that is light years from the Orville.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1TDBeI7OZOuihFYPfaCIL1QwgcW.jpg",
+          "title": "Into the Fold"
+        },
+        {
+          "aired": "2017-11-09",
+          "plot": "The Orville is called to mediate a peace treaty between two warring cultures, but tensions run even higher between Ed and Kelly when a familiar face boards the ship. Meanwhile Yaphit declares his love for Dr. Finn with surprising results.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8vpHQYCYBDRNegCeKDbJKnIAtB7.jpg",
+          "title": "Cupid's Dagger"
+        },
+        {
+          "aired": "2017-11-16",
+          "plot": "When a fire breaks out on The Orville and a crew member dies, Alara begins to question if she is fit for her job, just as unusual and terrifying things start happening on the ship.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/b1kObIltpeTCIBp77HoWWGS0Vul.jpg",
+          "title": "Firestorm"
+        },
+        {
+          "aired": "2017-11-30",
+          "plot": "Kelly discovers that Lt. John Lamarr is smarter than he lets on. So, she pushes Ed to consider him for a key leadership position on the ship after The Orville gets damaged by a mysterious spatial anomaly causing harrowing effects to all things living.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1keja0nI5MM1QdULSLI5vTOiYq.jpg",
+          "title": "New Dimensions"
+        },
+        {
+          "aired": "2017-12-07",
+          "plot": "Ed and Kelly consider the possibility of reforging their relationship, but Kelly soon crash-lands on a planet in another universe with Isaac and Gordon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6F52TF09EnS5v5fOiV3WHlCbvD6.jpg",
+          "title": "Mad Idolatry"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Ja'loja",
-        "Primal Urges",
-        "Home",
-        "Nothing Left on Earth Excepting Fishes",
-        "All the World is Birthday Cake",
-        "A Happy Refrain",
-        "Deflectors",
-        "Identity, Pt. 1 (1)",
-        "Identity, Pt. 2 (2)",
-        "Blood of Patriots",
-        "Lasting Impressions",
-        "Sanctuary",
-        "Tomorrow, and Tomorrow, and Tomorrow",
-        "The Road Not Taken"
+        {
+          "aired": "2018-12-30",
+          "plot": "As The Orville heads towards Moclus for Bortus' special once-a-year ceremony, Ed discovers Kelly has moved on and has started dating. Meanwhile, Gordon asks for John's help in getting game, and Claire turns to Isaac for parenting advice.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/poBrT3HUYP7O5cWlUHW9NxT7nVq.jpg",
+          "title": "Ja'loja"
+        },
+        {
+          "aired": "2019-01-03",
+          "plot": "Ed and the crew race to save a small group of survivors on a planet about to be destroyed by its sun. Meanwhile, Bortus and Klyden start marriage counseling when Bortus' obsession with the ship's simulation room gets out of hand.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/anPyr3a2h2neiokbrcHY8UOkQc5.jpg",
+          "title": "Primal Urges"
+        },
+        {
+          "aired": "2019-01-10",
+          "plot": "Ed, Gordon and Alara visit Alara's home planet of Xelayah.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lt4fFdUM44LaTRtIFqFCI6GZ7le.jpg",
+          "title": "Home"
+        },
+        {
+          "aired": "2019-01-17",
+          "plot": "Ed finds himself behind enemy lines when he crash-lands on a mysterious planet. Meanwhile, Kelly questions why Gordon wants to take the Command Test.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mpkwLmnjjgYuaODgTtNtpfhSMhd.jpg",
+          "title": "Nothing Left on Earth Excepting Fishes"
+        },
+        {
+          "aired": "2019-01-24",
+          "plot": "The Orville makes First Contact and a new crew member joins the ship.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/Aqg96AsS08hFFNg6dQgvmM9Qagx.jpg",
+          "title": "All the World is Birthday Cake"
+        },
+        {
+          "aired": "2019-01-31",
+          "plot": "The Orville crew is surprised when Claire's personal life takes an unexpected turn, and Gordon makes an unusual grooming suggestion to Bortus.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gYVA52V2NDk7ZjINzcEDDbiwn1P.jpg",
+          "title": "A Happy Refrain"
+        },
+        {
+          "aired": "2019-02-14",
+          "plot": "One of Bortus's old lovers is assigned to help upgrade the ships defences and makes a surprising admission to Talia.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u04rhsCXLcWT5O1vCHMXl38GA9n.jpg",
+          "title": "Deflectors"
+        },
+        {
+          "aired": "2019-02-21",
+          "plot": "Ed and the crew travel to Isaac's home planet, Kaylon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8LLlk1hQOq3TubSfXhptneA7qaX.jpg",
+          "title": "Identity, Pt. 1 (1)"
+        },
+        {
+          "aired": "2019-02-28",
+          "plot": "The Kaylons take control of the Orville with the intention of destroying all biological lifeforms",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sfMIqEqT0qfazjLReuWzYLN09nN.jpg",
+          "title": "Identity, Pt. 2 (2)"
+        },
+        {
+          "aired": "2019-03-07",
+          "plot": "Ed must initiate peace talks with the Krill.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/irf7bplsoiS3SHSL3TNL9CYj3rs.jpg",
+          "title": "Blood of Patriots"
+        },
+        {
+          "aired": "2019-03-21",
+          "plot": "The Orville crew members open a time capsule from 2015.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8fChEqkdxKod5Oq5RCnclhRQ81S.jpg",
+          "title": "Lasting Impressions"
+        },
+        {
+          "aired": "2019-04-11",
+          "plot": "Ed discovers that Moclans aboard The Orville are harboring a secret.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9a8Y2xAAmIMAMpObimH9mDIUnnJ.jpg",
+          "title": "Sanctuary"
+        },
+        {
+          "aired": "2019-04-18",
+          "plot": "A time distortion affects Ed and Kelly's relationship.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zw1ekulO8E7jclr46KvA7bk4wg0.jpg",
+          "title": "Tomorrow, and Tomorrow, and Tomorrow"
+        },
+        {
+          "aired": "2019-04-25",
+          "plot": "The crew must contend with the disastrous fallout from Kelly's decision.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hopZ1A3YKEfQp64cKzStj9dFVvr.jpg",
+          "title": "The Road Not Taken"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Episode 1",
-        "Episode 2",
-        "Episode 3",
-        "Episode 4",
-        "Episode 5",
-        "Episode 6",
-        "Episode 7",
-        "Episode 8",
-        "Episode 9",
-        "Episode 10",
-        "Episode 11"
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 1"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 2"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 3"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 4"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 5"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 6"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 7"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 8"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 9"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 10"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 11"
+        }
       ]
     }
   },

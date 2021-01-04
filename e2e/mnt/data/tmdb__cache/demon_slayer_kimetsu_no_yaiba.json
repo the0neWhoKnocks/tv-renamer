@@ -1,44 +1,842 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Animation",
+    "Drama",
+    "Sci-Fi & Fantasy",
+    "Action & Adventure"
+  ],
   "id": 85937,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5d039ca9a2450.jpg",
+        "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5f88b93734c25.jpg",
+        "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5fc79e30ef538.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/348545/tvbanner/demon-slayer-kimetsu-no-yaiba-5fc79d1ceda53.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/348545/tvposter/demon-slayer-kimetsu-no-yaiba-5ce04663476b5.jpg",
+        "https://assets.fanart.tv/fanart/tv/348545/tvposter/demon-slayer-kimetsu-no-yaiba-5ce0473be96d5.jpg",
+        "https://assets.fanart.tv/fanart/tv/348545/tvposter/demon-slayer-kimetsu-no-yaiba-5cf2d4c9efd4d.jpg",
+        "https://assets.fanart.tv/fanart/tv/348545/tvposter/demon-slayer-kimetsu-no-yaiba-5d039d2dbb53c.jpg",
+        "https://assets.fanart.tv/fanart/tv/348545/tvposter/demon-slayer-kimetsu-no-yaiba-5fc79e90deb2b.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/348545/tvthumb/demon-slayer-kimetsu-no-yaiba-5fc79d39aa369.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/wrCVHdkBlBWdJUZPvnJWcBRuhSY.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Demon Slayer: Kimetsu no Yaiba",
+  "plot": "It is the Taishō period in Japan. Tanjirō, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjirō resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.",
+  "premiered": "2019-04-06",
+  "status": "Ended",
+  "studios": [
+    "Tokyo MX"
+  ],
+  "actors": [
+    {
+      "name": "Natsuki Hanae",
+      "order": 0,
+      "role": "Tanjirō Kamado (voice)",
+      "thumb": "/A1lGrpBEdAUxZA7RoAw4Zr4ved3.jpg"
+    },
+    {
+      "name": "Akari Kitō",
+      "order": 1,
+      "role": "Nezuko Kamado (voice)",
+      "thumb": "/43SgANYtj7vpsHmz68hgPDlxC15.jpg"
+    },
+    {
+      "name": "Hiro Shimono",
+      "order": 2,
+      "role": "Zenitsu Agatsuma (voice)",
+      "thumb": "/i5CaaqKmHH0vKCloqZyrCwn5mWy.jpg"
+    },
+    {
+      "name": "Yoshitsugu Matsuoka",
+      "order": 3,
+      "role": "Inosuke Hashibira (voice)",
+      "thumb": "/imT0u1zSM0RbMxBBbQ6kGDRNoCV.jpg"
+    },
+    {
+      "name": "Takahiro Sakurai",
+      "order": 72,
+      "role": "Giyū Tomioka (voice)",
+      "thumb": "/cXVu8xUA3CFHB0RJLyTcrUP38j3.jpg"
+    },
+    {
+      "name": "Saori Hayami",
+      "order": 72,
+      "role": "Shinobu Kochō (voice)",
+      "thumb": "/qBtiwuh6bzNqzdwPOAYRaeFrmIu.jpg"
+    },
+    {
+      "name": "Takumi Yamazaki",
+      "order": 72,
+      "role": "Kasugai crow (voice)",
+      "thumb": "/ePrQK9RflpUx9qHX6Vq1yHPvHBA.jpg"
+    },
+    {
+      "name": "Shinya Takahashi",
+      "order": 93,
+      "role": "Man (voice)",
+      "thumb": "/qDQEfE7RfeycYLlvvZ5YUAdGOeW.jpg"
+    },
+    {
+      "name": "Hōchū Ōtsuka",
+      "order": 66,
+      "role": "Sakonji Urokodaki (voice)",
+      "thumb": "/ouMRSpccmkS6iOMVkSc4fEOBiN2.jpg"
+    },
+    {
+      "name": "Manaka Iwami",
+      "order": 71,
+      "role": "Chuntarō (voice)",
+      "thumb": "/zJgSy0mSBVvRbR44Bub8NPUlNeS.jpg"
+    },
+    {
+      "name": "Yoshiaki Hasegawa",
+      "order": 101,
+      "role": "(voice)",
+      "thumb": "/keP18EZCxYwtXguoMdZyjhI7S2f.jpg"
+    },
+    {
+      "name": "Yūsuke Tonozaki",
+      "order": 101,
+      "role": "(voice)",
+      "thumb": null
+    },
+    {
+      "name": "Koki Uchiyama",
+      "order": 103,
+      "role": "Rui (voice)",
+      "thumb": "/hpFCRKaOEQUFBGk1C5P4UlfFKp2.jpg"
+    },
+    {
+      "name": "Toshiyuki Morikawa",
+      "order": 72,
+      "role": "Kagaya Ubuyashiki (voice)",
+      "thumb": "/u1N6H7V0dehFD4fcO7ZkHvIMUrG.jpg"
+    },
+    {
+      "name": "Riho Sugiyama",
+      "order": 89,
+      "role": "(voice)",
+      "thumb": "/vCGq0zc7w7jQDCgJt0ioTN7I8sy.jpg"
+    },
+    {
+      "name": "Hisako Tōjō",
+      "order": 90,
+      "role": "Ozaki (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Toshihiko Seki",
+      "order": 103,
+      "role": "Muzan Kibutsuji (voice)",
+      "thumb": "/esu8zw5fb3f7IAyQ2CDVfypbB2U.jpg"
+    },
+    {
+      "name": "Mitsuhiro Ichiki",
+      "order": 38,
+      "role": "Shōichi (voice)",
+      "thumb": "/b9NIDag7vDZlFt8jg984bYNm19N.jpg"
+    },
+    {
+      "name": "Miho Okasaki",
+      "order": 38,
+      "role": "Teruko (voice)",
+      "thumb": "/cTkMJzOdsXL8o5q5AhP9eT0sXDK.jpg"
+    },
+    {
+      "name": "Ryoko Shiraishi",
+      "order": 52,
+      "role": "Older sister spider demon (voice)",
+      "thumb": "/jooJuM32XwSrznYHCsfYiSyFjWp.jpg"
+    },
+    {
+      "name": "Ami Koshimizu",
+      "order": 52,
+      "role": "Mother spider demon (voice)",
+      "thumb": "/voI9ZsOQPLaZmZSOhd4uJVVBTLK.jpg"
+    },
+    {
+      "name": "Kōki Miyata",
+      "order": 66,
+      "role": "Murata (voice)",
+      "thumb": "/uKFkqpxIkEvShw5EI7Bl2sBYbuE.jpg"
+    },
+    {
+      "name": "Makoto Furukawa",
+      "order": 102,
+      "role": "Gotō (voice)",
+      "thumb": "/ayE3vqqNYt4wBQIvoEVka4oFDw6.jpg"
+    },
+    {
+      "name": "Jun Fukuyama",
+      "order": 33,
+      "role": "Yahaba (voice)",
+      "thumb": "/aadtVXCUS1oPqWraYW3ErO1Ajcg.jpg"
+    },
+    {
+      "name": "Mikako Komatsu",
+      "order": 33,
+      "role": "Susamaru (voice)",
+      "thumb": "/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg"
+    },
+    {
+      "name": "Daiki Yamashita",
+      "order": 33,
+      "role": "Yushirō (voice)",
+      "thumb": "/rQNdJdZewk7VGP16ZNbpfJ9ZeMd.jpg"
+    },
+    {
+      "name": "Maaya Sakamoto",
+      "order": 33,
+      "role": "Tamayo (voice)",
+      "thumb": "/hPz2oEQui8a4q9aXdBugQf93ONq.jpg"
+    },
+    {
+      "name": "Shunichi Toki",
+      "order": 38,
+      "role": "Kiyoshi (voice)",
+      "thumb": "/2PTQRvQ95X3lwVHH2Zc4EMaCOor.jpg"
+    },
+    {
+      "name": "Junichi Suwabe",
+      "order": 38,
+      "role": "Kyōgai (voice)",
+      "thumb": "/zEESFmAPlxRzYCjmROGLiHqoku5.jpg"
+    },
+    {
+      "name": "Ikuko Tani",
+      "order": 48,
+      "role": "Hisa (voice)",
+      "thumb": "/pf5EMr0fXXGJqG1zkc60ZzyrlZd.jpg"
+    },
+    {
+      "name": "Satoshi Hino",
+      "order": 66,
+      "role": "Kyōjurō Rengoku (voice)",
+      "thumb": "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
+    },
+    {
+      "name": "Daisuke Namikawa",
+      "order": 71,
+      "role": "Hotaru Haganezuka (voice)",
+      "thumb": "/u3G0dSOXazsERnRtVJJgdT1LVUq.jpg"
+    },
+    {
+      "name": "Nanami Yamashita",
+      "order": 72,
+      "role": "Kiyo Terauchi (voice)",
+      "thumb": "/6L81LPf3cWjMSAzjysiJE57lJio.jpg"
+    },
+    {
+      "name": "Yuri Ehara",
+      "order": 72,
+      "role": "Aoi Kanzaki (voice)",
+      "thumb": "/9EswrerXSdxjKtYmZ3oXfFmQp0P.jpg"
+    },
+    {
+      "name": "Reina Ueda",
+      "order": 72,
+      "role": "Kanao Tsuyuri (voice)",
+      "thumb": "/3kTgC9cpCdDa3FwtadHJu4O61K0.jpg"
+    },
+    {
+      "name": "Yuuki Kuwahara",
+      "order": 72,
+      "role": "Naho Takada (voice)",
+      "thumb": "/rb9Wi0CdZdhWOjaSgqxaj4D4yqf.jpg"
+    },
+    {
+      "name": "Ayumi Mano",
+      "order": 72,
+      "role": "Sumi Nakahara (voice)",
+      "thumb": "/liD31RULp4lwXmfR4QlvSUTDq93.jpg"
+    },
+    {
+      "name": "Ai Kakuma",
+      "order": 12,
+      "role": "Makomo (voice)",
+      "thumb": "/g7vys7fqqdn40ePXQgx3XWinxtw.jpg"
+    },
+    {
+      "name": "Yūki Kaji",
+      "order": 12,
+      "role": "Sabito (voice)",
+      "thumb": "/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg"
+    },
+    {
+      "name": "Shiori Izawa",
+      "order": 20,
+      "role": "Kanata Ubuyashiki (voice)",
+      "thumb": "/eHptDnhb7y2ODEJJczftCFG2uHF.jpg"
+    },
+    {
+      "name": "Takehito Koyasu",
+      "order": 20,
+      "role": "Hand demon (voice)",
+      "thumb": "/sINa9EAHOENr93OX5gF6w60AJgm.jpg"
+    },
+    {
+      "name": "Aoi Yuki",
+      "order": 20,
+      "role": "Kiriya Ubuyashiki (voice)",
+      "thumb": "/qaOsU5bdcB7YGzXPlvunv8kTr3f.jpg"
+    },
+    {
+      "name": "Koudai Sakai",
+      "order": 25,
+      "role": "Kazumi (voice)",
+      "thumb": "/wiSgwzCy7StaA5pD8cKkKG4IcAj.jpg"
+    },
+    {
+      "name": "Ryohei Kimura",
+      "order": 29,
+      "role": "Swamp demon (voice)",
+      "thumb": "/ghw7P67LKTNIsc6g6hAixsRSIWR.jpg"
+    },
+    {
+      "name": "Mitsuo Iwata",
+      "order": 31,
+      "role": "Toyo (voice)",
+      "thumb": "/xCAsuzc5OBQZWhG5WSZIyhBZ7xj.jpg"
+    },
+    {
+      "name": "Yūko Minaguchi",
+      "order": 31,
+      "role": "Rei Kibutsuji (voice)",
+      "thumb": "/38Yf1kfxg7plWKl5dsPGjoJWccH.jpg"
+    },
+    {
+      "name": "Haruka Shiraishi",
+      "order": 31,
+      "role": "Muzan's daughter (voice)",
+      "thumb": "/bmFLvmzqxVWEpecmkKGcMeYpUvH.jpg"
+    },
+    {
+      "name": "Showtaro Morikubo",
+      "order": 44,
+      "role": "Older brother spider demon (voice)",
+      "thumb": "/3OsBYIbC5XBDIUVnZiDBD1dewHP.jpg"
+    },
+    {
+      "name": "Shigeru Chiba",
+      "order": 48,
+      "role": "Jigorō Kuwajima (voice)",
+      "thumb": "/9oajq1i3qzkA2MTDH3ciLOEenS9.jpg"
+    },
+    {
+      "name": "Tetsu Inada",
+      "order": 49,
+      "role": "Father spider demon (voice)",
+      "thumb": "/hTYTl43IBpV0UZY788EqHE7VxHZ.jpg"
+    },
+    {
+      "name": "Houko Kuwashima",
+      "order": 50,
+      "role": "Kie Kamado (voice)",
+      "thumb": "/5CEae7kCZ2GNZtrosTxOQYwT4fR.jpg"
+    },
+    {
+      "name": "Tomokazu Sugita",
+      "order": 66,
+      "role": "Gyōmei Himejima (voice)",
+      "thumb": "/tW9VGnxmdhy3XTWfssk8ySrDu7K.jpg"
+    },
+    {
+      "name": "Tomokazu Seki",
+      "order": 66,
+      "role": "Sanemi Shinazugawa (voice)",
+      "thumb": "/4N6i4cgtbeUj5AJd8kiBZ2BxxEJ.jpg"
+    },
+    {
+      "name": "Kengo Kawanishi",
+      "order": 66,
+      "role": "Muichirō Tokitō (voice)",
+      "thumb": "/fBzVAY4gcUvs5EfRWQMViYgp9xV.jpg"
+    },
+    {
+      "name": "Kaede Hondo",
+      "order": 66,
+      "role": "Shigeru Kamado (voice)",
+      "thumb": "/11BcHnuJYrOZhIftgUiQqfm7TK6.jpg"
+    },
+    {
+      "name": "Katsuyuki Konishi",
+      "order": 66,
+      "role": "Tengen Uzui (voice)",
+      "thumb": "/lxSKVgpbKGhCfxFDXplM8eb4YLk.jpg"
+    },
+    {
+      "name": "Kana Hanazawa",
+      "order": 66,
+      "role": "Mitsuri Kanroji (voice)",
+      "thumb": "/5bK9ttcRydQBWmyZp7gXDmJYOPF.jpg"
+    },
+    {
+      "name": "Kenichi Suzumura",
+      "order": 66,
+      "role": "Obanai Iguro (voice)",
+      "thumb": "/fUM4vIHabt840p55zvwFwrFq9r6.jpg"
+    },
+    {
+      "name": "Yumiri Hanamori",
+      "order": 66,
+      "role": "Hinaki Ubuyashiki (voice)",
+      "thumb": "/AnrnfnxLllwqCYfkI9mEPBlkjG1.jpg"
+    },
+    {
+      "name": "Yuuki Takada",
+      "order": 82,
+      "role": "Distressed woman (voice)",
+      "thumb": "/9FHiJOXDAXugkVAEiE0rfqPZmJZ.jpg"
+    },
+    {
+      "name": "Tarusuke Shingaki",
+      "order": 86,
+      "role": "Tongue demon (voice)",
+      "thumb": "/ahFxImLFUCM6942Jx5EtxljXYHj.jpg"
+    },
+    {
+      "name": "Yoshihisa Kawahara",
+      "order": 87,
+      "role": "(voice)",
+      "thumb": "/62FvRNnULaznWZ84nn2rIcFHo4o.jpg"
+    },
+    {
+      "name": "Shin-ichiro Miki",
+      "order": 1,
+      "role": "Tanjūrō Kamado (voice)",
+      "thumb": "/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg"
+    },
+    {
+      "name": "Masaki Terasoma",
+      "order": 2,
+      "role": "Saburō (voice)",
+      "thumb": "/eol7Ul4buAam9SmJDuFIWln0Cd3.jpg"
+    },
+    {
+      "name": "You Taichi",
+      "order": 6,
+      "role": "Takeo Kamado (voice)",
+      "thumb": "/fcGAwDZT2NMcC2VgdZ4655ptxG2.jpg"
+    },
+    {
+      "name": "Konomi Kohara",
+      "order": 7,
+      "role": "Hanako Kamado (voice)",
+      "thumb": "/6Mt6gAmv5ffhjHgpGfPjkMcgYfG.jpg"
+    },
+    {
+      "name": "Hikaru Midorikawa",
+      "order": 9,
+      "role": "Temple demon (voice)",
+      "thumb": "/pvzfUDE9UruEhRBrONVFk83o6Zh.jpg"
+    },
+    {
+      "name": "Nobuhiko Okamoto",
+      "order": 16,
+      "role": "Genya Shinazugawa (voice)",
+      "thumb": "/qyZpSYva9O9JQIZ0nVmXTf90FlL.jpg"
+    },
+    {
+      "name": "Aki Toyosaki",
+      "order": 20,
+      "role": "Hand demon (child) (voice)",
+      "thumb": "/1y8uX5CSuLsdHlkIRmQ7m1cRZBA.jpg"
+    },
+    {
+      "name": "Makoto Koichi",
+      "order": 21,
+      "role": "Hand demon's brother (voice)",
+      "thumb": "/6YOLk8hP7WzoFVY8Mg8mqD2EN8S.jpg"
+    },
+    {
+      "name": "Misako Tomioka",
+      "order": 23,
+      "role": "Tokie (voice)",
+      "thumb": "/c1yrn2c7FJ4y7Dk1EsFKWH2M1Hn.jpg"
+    },
+    {
+      "name": "Yoshimasa Hosoya",
+      "order": 46,
+      "role": "Kaigaku (voice)",
+      "thumb": "/r90gExomlgr7IEt3vZ1Y0xYkXHT.jpg"
+    },
+    {
+      "name": "Satomi Satou",
+      "order": 49,
+      "role": "Tanjirō Kamado (child) (voice)",
+      "thumb": "/7Lq3t9h0p6b51LCQ8CAmndDyjME.jpg"
+    },
+    {
+      "name": "Wataru Takagi",
+      "order": 53,
+      "role": "Kasugai crow (voice)",
+      "thumb": "/gWHhudGHTGuROF0pUE5mqbcVq9r.jpg"
+    },
+    {
+      "name": "Nobuyuki Hiyama",
+      "order": 54,
+      "role": "Kasugai crow (voice)",
+      "thumb": "/mZp2JyaHnFGmyqpzFj5sMiIVulb.jpg"
+    },
+    {
+      "name": "Natsuko Kuwatani",
+      "order": 55,
+      "role": "Rui's mother (voice)",
+      "thumb": "/oGEfosK0708YBgqKcKlaWFKy9Vz.jpg"
+    },
+    {
+      "name": "Shinnosuke Tachibana",
+      "order": 56,
+      "role": "Rui's father (voice)",
+      "thumb": "/gDQvyiMai3X7024QzTxFQrxHZWx.jpg"
+    },
+    {
+      "name": "Ayaka Shimizu",
+      "order": 57,
+      "role": "Kakushi (voice)",
+      "thumb": "/wuowat2waVkQOm14oO0gjx7QJt9.jpg"
+    },
+    {
+      "name": "Ari Ozawa",
+      "order": 66,
+      "role": "Nichika Ubuyashiki (voice)",
+      "thumb": "/ytTlvXFgoFQkrjDLPf1XvM6q088.jpg"
+    },
+    {
+      "name": "Ai Kayano",
+      "order": 70,
+      "role": "Kanae Kochō (voice)",
+      "thumb": "/l8ywp387rfdAS7mOExe3cEZnsk0.jpg"
+    },
+    {
+      "name": "Eiji Takemoto",
+      "order": 71,
+      "role": "Kōzō Kanamori (voice)",
+      "thumb": "/uFDEeRuhSXluBREdxs8TroPUtpF.jpg"
+    },
+    {
+      "name": "Daisuke Hirakawa",
+      "order": 72,
+      "role": "Enmu (voice)",
+      "thumb": "/b7FddQn3GktZ1CkA1HOpwWRjEew.jpg"
+    },
+    {
+      "name": "Kenn",
+      "order": 73,
+      "role": "Kamanue (voice)",
+      "thumb": "/y7Gtn1PchXJ1MxmUxU9jtt138EO.jpg"
+    },
+    {
+      "name": "Taiten Kusunoki",
+      "order": 74,
+      "role": "Rokuro (voice)",
+      "thumb": "/uMmvTcOpFGbsOl4h6g3bzyMhNmc.jpg"
+    },
+    {
+      "name": "Soichiro Hoshi",
+      "order": 75,
+      "role": "Wakuraba (voice)",
+      "thumb": "/kBULhALfWrkacAuX9KZHBx27nfJ.jpg"
+    },
+    {
+      "name": "Kana Ueda",
+      "order": 76,
+      "role": "Mukago (voice)",
+      "thumb": "/987Ly7tMKjNAGGzsQIAWCoqa9NR.jpg"
+    },
+    {
+      "name": "Mamiko Noto",
+      "order": 80,
+      "role": "Kotoha Hashibira (voice)",
+      "thumb": "/raDUy21NNUHKAM24OUcQMcp6kAJ.jpg"
+    },
+    {
+      "name": "Saeko Akiho",
+      "order": 82,
+      "role": "(voice)",
+      "thumb": "/df3xzUBp2gByGa3mUq5Zwo3Yxjd.jpg"
+    },
+    {
+      "name": "Aoi Koga",
+      "order": 82,
+      "role": "Rokuta Kamado (voice)",
+      "thumb": "/e8jLpSAuyzHFQhUUar3O7jSspsl.jpg"
+    },
+    {
+      "name": "Satoshi Tsuruoka",
+      "order": 85,
+      "role": "(voice)",
+      "thumb": "/g7L5dhltNbCDclyw7jgwOmz6pMS.jpg"
+    },
+    {
+      "name": "Jun Fukushima",
+      "order": 86,
+      "role": "(voice)",
+      "thumb": "/gHv2Nw6LAC6OdNuC8tzmW36CHpM.jpg"
+    },
+    {
+      "name": "Kōhei Amasaki",
+      "order": 88,
+      "role": "(voice)",
+      "thumb": "/tnN5jLiLjcDa7qn88uLb1iAfivL.jpg"
+    },
+    {
+      "name": "Chikahiro Kobayashi",
+      "order": 89,
+      "role": "(voice)",
+      "thumb": "/nL1KymFBoJgixPLkMU3gfNzXnuC.jpg"
+    },
+    {
+      "name": "Yū Hayashi",
+      "order": 90,
+      "role": "(voice)",
+      "thumb": "/Acy7IAZqjFbq7j2MIxRq25u00Vk.jpg"
+    },
+    {
+      "name": "Hana Satō",
+      "order": 92,
+      "role": "(voice)",
+      "thumb": "/4npLYfxrVK5EwuipOvFKCXA0XmA.jpg"
+    },
+    {
+      "name": "Mitsuki Nakae",
+      "order": 95,
+      "role": "(voice)",
+      "thumb": "/ow1om0pIrGVhRkbY67BkFwylJhb.jpg"
+    },
+    {
+      "name": "Takara Inoue",
+      "order": 98,
+      "role": "(voice)",
+      "thumb": null
+    },
+    {
+      "name": "Taito Ban",
+      "order": 99,
+      "role": "(voice)",
+      "thumb": "/pSExEOVmjAujKUyJJJSxC1WEzOM.jpg"
+    },
+    {
+      "name": "Kanae Itō",
+      "order": 100,
+      "role": "(voice)",
+      "thumb": "/jUdmRAThxT1cPfNikgOLJJ9XAAL.jpg"
+    },
+    {
+      "name": "Chado Horii",
+      "order": 102,
+      "role": "(voice)",
+      "thumb": "/q5anvbQX0njjWIP4gi4IeeLZC4l.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Movie- Bonds of Siblings",
-        "Movie- Infinity Train"
+        {
+          "aired": "2019-03-29",
+          "plot": "The first 5 episodes of TV series Kimetsu no Yaiba were released as a film. A special screening was held on 19.03.2019 in Shinjuku Wald 9, Tokyo.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m7RZoaAJ3lhB0BBPm74drV5Cm5T.jpg",
+          "title": "Movie- Bonds of Siblings"
+        },
+        {
+          "aired": "2020-10-16",
+          "plot": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, board the Infinity Train on a new mission with the Fire Pillar, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8XC3fUPVo07rcLWvNPAVRGYLIOc.jpg",
+          "title": "Movie- Infinity Train"
+        },
+        {
+          "aired": "2019-08-28",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5EnSPWGcLpFUl4d3BXDCbKZb5dC.jpg",
+          "title": "Episode 3"
+        },
+        {
+          "aired": "2020-12-20",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Pillar Meeting - Butterfly House"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Cruelty",
-        "Trainer Sakonji Urokodaki",
-        "Sabito and Makomo",
-        "Final Selection",
-        "My Own Steel",
-        "Swordsman Accompanying a Demon",
-        "Muzan Kibutsuji",
-        "The Smell of Enchanting Blood",
-        "Temari Demon and Arrow Demon",
-        "Together Forever",
-        "Tsuzumi Mansion",
-        "The Boar Bares Its Fangs, Zenitsu Sleeps",
-        "Something More Important Than Life",
-        "The House with the Wisteria Family Crest",
-        "Mount Natagumo",
-        "Letting Someone Else Go First",
-        "You Must Master a Single Thing",
-        "A Forged Bond",
-        "Hinokami",
-        "Pretend Family",
-        "Against Corps Rules",
-        "Master of the Mansion",
-        "Hashira Meeting",
-        "Rehabilitation Training",
-        "Tsuguko, Kanao Tsuyuri",
-        "New Mission"
+        {
+          "aired": "2019-04-06",
+          "plot": "It is the Taisho Period (i.e. 1912-1926). Tanjiro Kamado is living a modest but blissful life in the mountains with his family. One day, when he returns from selling charcoal in town, he finds the remains of his slaughtered family in pools of blood after a demon attack. Tanjiro rushes down the snowy mountain with the sole survivor, his sister Nezuko, on his back. But on the way, Nezuko suddenly snarls, turning on Tanjiro.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tBBiqP5rAhIpZt54b5fA0DFuhCQ.jpg",
+          "title": "Cruelty"
+        },
+        {
+          "aired": "2019-04-13",
+          "plot": "At Giyu Tomioka's urging, Tanjiro heads for Mt. Sagiri with his sister Nezuko who's been turned into a demon. During the night, Tanjiro catches the smell of blood from inside a temple. He enters, thinking that someone might be hurt, only to come upon a man-eating demon. When the demon attacks, Tanjiro manages to fight back with his hatchet, but the demon's strength is overwhelming. Just as the demon is about to finish him off, Tanjiro is saved by none other than.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r2MZH3snLABIpqUPj8YOF9HIaBf.jpg",
+          "title": "Trainer Sakonji Urokodaki"
+        },
+        {
+          "aired": "2019-04-20",
+          "plot": "The Demon Slayer Corps... An organization that's been hunting down demons since ancient times. Sakonji Urokodaki starts training Tanjiro for Final Selection, the test for joining the unit. Navigating a mountain riddled with booby traps, dry sword swings, waterfall immersion and breathing techniques... A year later, Urokodaki informs Tanjiro that he has nothing more to teach him, and gives him one last hurdle to overcome in front of a giant boulder.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m9sWQLtoU1G5jdHOYUnykin0xxw.jpg",
+          "title": "Sabito and Makomo"
+        },
+        {
+          "aired": "2019-04-27",
+          "plot": "To pass Final Selection, one must survive for seven days on Mt. Fujikasane where demons captured by the Demon Slayers have been imprisoned. So begins the battle for survival between the young swordsmen and the demons. Armed with the breathing techniques and stances he'd learned from Sakonji Urokodaki, Tanjiro slashes demon after demon. His two years of training have not gone to waste. But just then, a morphed demon appears out of nowhere.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kH6Ir9EWGoqkTMoiQnx5fJmwY2I.jpg",
+          "title": "Final Selection"
+        },
+        {
+          "aired": "2019-05-04",
+          "plot": "When day breaks, there are only four swordsmen left standing after the seven-day battle. The guides who greet Tanjiro and the other survivors explain the Demon Slayer Corps system. All four are issued uniforms and Kasugai Crows as messengers, after which they must select the ore for their own Nichirin swords. After gazing hard at each lump of ore, and using his keen sense of smell, the one Tanjiro chooses is...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fWsUsEVYaOHh6bPkgH7HeQxotmP.jpg",
+          "title": "My Own Steel"
+        },
+        {
+          "aired": "2019-05-11",
+          "plot": "Tanjiro is now clad in the uniform of the Demon Slayer Corps. His Nichirin Sword on his hip, and Nezuko, now awake, in a special box made by Urokodaki on his back, he heads out for his first assignment. A town to the northwest where girls have been vanishing nightly. There, Tanjiro meets Kazumi, haggard with worry after his girlfriend's been abducted. Though he does catch the scent of a demon nearby, there's just no demon in sight. Tanjiro is sure that a demon is behind this sinister incident...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qd0lN2R3wzbUyXbSEQEO19nkGah.jpg",
+          "title": "Swordsman Accompanying a Demon"
+        },
+        {
+          "aired": "2019-05-18",
+          "plot": "Now split into three, the demons have driven Tanjiro into a corner. It is then that Nezuko attacks. Now that she’s become a demon herself, she’s no longer so weak that she needs protection. His mind made up, Tanjiro follows one of the demons into the swamp now spreading across the ground. Waiting for him there is...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aR1bB3ltg1FjGc6N3xBpiYz7Huo.jpg",
+          "title": "Muzan Kibutsuji"
+        },
+        {
+          "aired": "2019-05-25",
+          "plot": "The next mission is in Asakusa, Tokyo. Tanjiro is taken aback by the opulent Taisho Era cityscape, but soon picks up the demon’s scent there. His pursuit of the scent leads him to Muzan Kibutsuji. Tanjiro attempts to strike him down. But Kibutsuji transforms a passerby into demon, triggering a commotion. As Tanjiro desperately tries to get things under control, someone appears before him...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hnvD3jFov03BLjvGrqTueXZfvwL.jpg",
+          "title": "The Smell of Enchanting Blood"
+        },
+        {
+          "aired": "2019-06-01",
+          "plot": "It was two demons named Tamayo and Yushiro who came to Tanjiro’s rescue. Using the “Eyeblind” spell, Tamayo guides Tanjiro and Nezuko to her house. There, through his conversation with Tamayo, Tanjiro learns that there is a way to return demons to human form. Just then, two demons in pursuit of Tanjiro locate the house and unleash a furious assault...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pMST9IQizKO4EE6P54yFFMBz7vE.jpg",
+          "title": "Temari Demon and Arrow Demon"
+        },
+        {
+          "aired": "2019-06-08",
+          "plot": "Tanjiro’s crisis continues. He uses multiple forms of the Water Breathing technique to hold out against Yahaba’s final Blood Demon Art, the \"Kouketsu Arrow.\" Meanwhile, Nezuko and Susamaru are still battling it out. Worried about the outcome, Tamayo unleashes her own Blood Demon Art.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nDbVix8vunXKj6zLcVEaxwF7YTq.jpg",
+          "title": "Together Forever"
+        },
+        {
+          "aired": "2019-06-15",
+          "plot": "Tanjiro's next destination, according to his Kasugai Crow, is to the south-southeast. On the way, Tanjiro runs into his fellow Final Selection survivor, the swordsman Zenitsu Agatsuma. Tanjiro has a hard time dealing with Zenitsu's passive attitude as they head deep into the mountains. They encounter two children whose older brother was taken away right in front of their house. There, Zenitsu hears the sound of a tsuzumi ringing out from somewhere.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xKOewshyBZcisLUWrOQjEGe650L.jpg",
+          "title": "Tsuzumi Mansion"
+        },
+        {
+          "aired": "2019-06-22",
+          "plot": "Inside the house, where the rooms spin each time the tsuzumi is played, Tanjiro gets separated from Zenitsu Agatsuma. Without Tanjiro by his side, Zenitsu is overcome by fear and despair as he takes Shoichi through the house. Meanwhile, Tanjiro meets the master of the house, the tsuzumi-playing demon, and an odd-looking man wearing a boar’s head mask.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qrPsA5eNGH4sPwMImUhOvlShd7U.jpg",
+          "title": "The Boar Bares Its Fangs, Zenitsu Sleeps"
+        },
+        {
+          "aired": "2019-06-29",
+          "plot": "Every time Kyogai, the master of house, plays his tsuzumi, the room spins and Tanjiro struggles. Debilitated by the fractured bones he sustained in his previous battle, Tanjiro tries to fire himself up as he desperately fights on, but he is overwhelmed by Kyogai's Blood Demon Art. Will he find a way to slice off Kyogai's head?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5ixd8rC1tTDHf5kSo5o7hbghpOi.jpg",
+          "title": "Something More Important Than Life"
+        },
+        {
+          "aired": "2019-07-06",
+          "plot": "After a desperate fight to the death, Tanjiro prevails over Kyogai. He exits the house to find Zenitsu who had escaped earlier. But it is then that he sees the strange circumstances before him... The battered Zenitsu holding the box containing Nezuko in his arms while the man in the boar's head mask stands in the way with two Nichirin Swords drawn.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e98IzkyZqU3mUP7f568GenqGQ9v.jpg",
+          "title": "The House with the Wisteria Family Crest"
+        },
+        {
+          "aired": "2019-07-13",
+          "plot": "Their next destination is to the north-northwest. Tanjiro and Nezuko head towards Mount Natagumo with Zenitsu and Inosuke. This mountain is covered with spider webs and is swarming with innumerable spiders. Leaving the cowering Zenitsu behind, Tanjiro and Inosuke head up the mountain where they run into fellow Demon Slayers entangled in spider webs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8CNCZfubtFYzvuo4GgIDCSXBYvj.jpg",
+          "title": "Mount Natagumo"
+        },
+        {
+          "aired": "2019-07-20",
+          "plot": "Tanjiro and Inosuke battle the Demon Slayers trapped by spider webs. After slashing the threads and destroying the webs, they head deeper into the mountain. The farther they advance through the forest, the thicker the threads become, and those under their control start moving in ways impossible for a human being. Stopping the Demon Slayers without hurting them isn't going to be easy, but then Tanjiro makes a certain move...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/swSQtQPgFpqjw3s0LNtUMWyHFnU.jpg",
+          "title": "Letting Someone Else Go First"
+        },
+        {
+          "aired": "2019-07-27",
+          "plot": "One of the Twelve Kizuki, a direct subordinate of Muzan Kibutsuji, is here somewhere. When Tanjiro slays the Mother Spider Demon of Mt. Natagumo, he learns that a demon who might hold the key to turning Nezuko back into a human is somewhere in this very forest. With the battered Inosuke in tow, he heads deeper into the forest. Meanwhile, Zenitsu trudges forlornly through the woods only to encounter a spider with a human face.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oKOrMhozP1BX6gWiJAcuZVSm6Zd.jpg",
+          "title": "You Must Master a Single Thing"
+        },
+        {
+          "aired": "2019-08-03",
+          "plot": "Tanjiro and Inosuke face off against the Father Spider Demon of Mt. Natagumo. Tanjiro unleashes an attack, only to get hurled away by the demon's overwhelming power. Landing near a river, he comes upon the young demon Rui torturing the Sister Spider Demon. When Rui calls their bond of terror and hatred \"a family’s bond,\" Tanjiro is enraged. So begins the battle between Rui and Tanjiro.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ra7dCRS9E39fnhHieFKF47ldESl.jpg",
+          "title": "A Forged Bond"
+        },
+        {
+          "aired": "2019-08-10",
+          "plot": "Swordsmen in the Demon Slayer Corps known as Hashiras have arrived on Mt. Natagumo. Giyu Tomioka, the Water Hashira, slays the Father Spider Demon with a single strike. Inosuke, thrilled to see such a display of swordsmanship by someone in a totally different league from himself, challenges Giyu to a duel. Meanwhile, Zenitsu lies near death as the poison circulates throughout his body. Just then, the Insect Hashira, Shinobu Kocho appears before him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2TROrMfuRlydzjzEx2sguuUqvXi.jpg",
+          "title": "Hinokami"
+        },
+        {
+          "aired": "2019-08-17",
+          "plot": "When Rui assaults him with his Blood Demon Art, Tanjiro braces himself for certain death. As his life flashes before his eyes, he suddenly remembers his father's dance, the kagura, and unleashes a new, non-Water Breathing attack. Hinokami Kagura Dance. Knowing that he’ll be receiving a simultaneous blow from the demon, he uses his new move to slice off Rui’s head. As Tanjiro crawls towards Nezuko, who lies on the ground, riddled with wounds, someone appears before him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zEBhEj2Dt58vqAUsEWv6DOCz5RJ.jpg",
+          "title": "Pretend Family"
+        },
+        {
+          "aired": "2019-08-24",
+          "plot": "Seeing Tanjiro try to protect Nezuko even as he collapses triggers memories of Rui’s own past. Once a sickly boy, he became a demon after meeting Muzan Kibutsuji who gave him a share of his blood. But after he turns into a demon, his own parents try to kill him. Ever since then, he has been searching for a family. Seeking a bond that he can never hope to acquire...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/g3jzSZOzqaH6VD23tmIqRQLtLoF.jpg",
+          "title": "Against Corps Rules"
+        },
+        {
+          "aired": "2019-08-31",
+          "plot": "After the battle is over, Tanjiro and Nezuko are taken to the Demon Slayer Corps headquarters. This is where the Hashira Meeting between the Corps leader, Ubuyashiki, and the Hashiras, the most powerful swordsmen in the Corps, is to be held. The Hashiras censure Tanjiro for violating the Demon Slayer Corps by protecting a demon. And then, the Wind Hashira, Sanemi Shinazugawa, raises his sword against Nezuko...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2bo6M1fLHXz47b3NoW3Y5zesTKB.jpg",
+          "title": "Master of the Mansion"
+        },
+        {
+          "aired": "2019-09-07",
+          "plot": "Ubuyashiki, the leader of the Demon Slayer Corps, finally appears before Tanjiro. He tells him that he will allow Tanjiro and Nezuko to join the Corps. But the Hashiras are unable to accept this decision right away. The Wind Hashira, Sanemi Shinazugawa, slashes his own arm and taunts Nezuko with his blood, trying to get her to show her true colors as a demon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/szeEDxTKmg7OSYNqT8nghqaBF8o.jpg",
+          "title": "Hashira Meeting"
+        },
+        {
+          "aired": "2019-09-14",
+          "plot": "The injured Tanjiro, Zenitsu and Inosuke are sent to the home of the Insect Hashira, Shinobu Kocho, for treatment. Two weeks later, Tanjiro and Inosuke start rehabilitation training. But the drills are brutal, and they find themselves broken in spirit. Unaware of the grueling regimen, Zenitsu joins them late and is visibly enthusiastic in front of girls, but...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hhZsnP34Tjx568RJwSTN9nkkCcX.jpg",
+          "title": "Rehabilitation Training"
+        },
+        {
+          "aired": "2019-09-21",
+          "plot": "Tanjiro, who's undergoing rehabilitation training at the Butterfly Mansion, works hard to keep up his Total Concentration Breathing techniques all day long. Though at first, he's helpless against Kanao, a swordswoman in his class who's training him, he slowly but surely begins to make some headway. Seeing Tanjiro devote himself to training every single day, Zenitsu and Inosuke resume training as well, but...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2gFTfcxiijwkLwCwQpCyzkZPxLG.jpg",
+          "title": "Tsuguko, Kanao Tsuyuri"
+        },
+        {
+          "aired": "2019-09-28",
+          "plot": "As Tanjiro and the others are devoted to their rehabilitation training, the absolute master of the demons, Muzan Kibutsuji, gathers the Lower Ranks of the Twelve Kizuki. The demons, too, are preparing to make their next move. As training draws to a close, Tanjiro has improved to the point where he can fight on equal terms with Kanao. Just then, he receives word of a new mission from his Kasugai Crow.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nHUuUN70yMUDDo4tpJNwq1SPuAX.jpg",
+          "title": "New Mission"
+        }
       ]
     }
   },

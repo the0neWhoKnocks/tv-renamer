@@ -1,84 +1,1246 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Action & Adventure",
+    "Drama",
+    "War & Politics"
+  ],
   "id": 71789,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328686/seasonposter/seal-team-5bb782296370f.jpg",
+          "https://assets.fanart.tv/fanart/tv/328686/seasonposter/seal-team-5d8366c233bd2.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328686/seasonposter/seal-team-5bb782324fc43.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d8771c6bc351.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811a7062c.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811a95e7d.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811ab331e.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811aed439.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811b16147.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5a6c86d3ccdfe.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5a6c870a401cb.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/328686/tvbanner/seal-team-5d84f93502348.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvbanner/seal-team-5a6c8a7754312.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvbanner/seal-team-5b0ee92702dbc.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-5d812b681c51c.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-59af103860b4d.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-59b1ab3d053ef.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-5d8b9db179b86.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5d8368411e47e.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5bd450e4af060.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5d836840ed2c3.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5d8368413b35e.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/6lOtF3yx8iurvaBVz1ZVhwcRgmD.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/uTSLeQTeHevt4fplegmQ6bOnE0Z.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "SEAL Team",
+  "plot": "The lives of the elite Navy Seals as they train, plan and execute the most dangerous, high-stakes missions our country can ask.",
+  "premiered": "2017-09-27",
+  "status": "Returning Series",
+  "studios": [
+    "CBS"
+  ],
+  "actors": [
+    {
+      "name": "David Boreanaz",
+      "order": 0,
+      "role": "Jason Hayes",
+      "thumb": "/oO619MACIfz7YoPiIGXYOfamhOE.jpg"
+    },
+    {
+      "name": "Max Thieriot",
+      "order": 1,
+      "role": "Clay Spenser",
+      "thumb": "/ceCeFvmzTrADF1HYU0jIlcKUBvQ.jpg"
+    },
+    {
+      "name": "Neil Brown Jr.",
+      "order": 2,
+      "role": "Ray Perry",
+      "thumb": "/z5oYLrCNGh48EoRQYqyIklYiCs9.jpg"
+    },
+    {
+      "name": "A.J. Buckley",
+      "order": 3,
+      "role": "Sonny Quinn",
+      "thumb": "/7mdIM5QdxnccD4YWC03FrI78EPc.jpg"
+    },
+    {
+      "name": "Toni Trucks",
+      "order": 5,
+      "role": "Lisa Davis",
+      "thumb": "/s2qfaRUh8oEt78HqkXTagbeVNE7.jpg"
+    },
+    {
+      "name": "Tyler Grey",
+      "order": 6,
+      "role": "Trent Sawyer",
+      "thumb": "/3yuB34p1EXx8273HnMrng7kgolA.jpg"
+    },
+    {
+      "name": "Judd Lormand",
+      "order": 75,
+      "role": "Eric Blackburn",
+      "thumb": "/jeZBWgcjiTaXZM6FwcHm9QW1F6w.jpg"
+    },
+    {
+      "name": "Justin Melnick",
+      "order": 500,
+      "role": "Brock Reynolds",
+      "thumb": "/sE5W8tononGWHKH2Z6GLeUHXeyP.jpg"
+    },
+    {
+      "name": "Jessica Paré",
+      "order": 112,
+      "role": "Mandy Ellis",
+      "thumb": "/d6Xz1zmV8L0Zt04shYKDy4xOPV.jpg"
+    },
+    {
+      "name": "Scott Foxx",
+      "order": 116,
+      "role": "Full Metal",
+      "thumb": null
+    },
+    {
+      "name": "Parisa Fakhri",
+      "order": 114,
+      "role": "Naima Perry",
+      "thumb": "/e5r0goEK65gD85Tk7yTcslIJHlI.jpg"
+    },
+    {
+      "name": "Emily Swallow",
+      "order": 115,
+      "role": "Natalie Pierce",
+      "thumb": "/2i7QwcWjsJwsPk3gkJhm1iIphzj.jpg"
+    },
+    {
+      "name": "Michaela McManus",
+      "order": 83,
+      "role": "Alana Hayes",
+      "thumb": "/oi9ZdXQm0qpRLo3FrLtNfcVieXM.jpg"
+    },
+    {
+      "name": "Kerri Medders",
+      "order": 110,
+      "role": "Emma Hayes (voice)",
+      "thumb": "/7vu4gS1z2XzQMIEfU8SfMtRG8HJ.jpg"
+    },
+    {
+      "name": "Jamie McShane",
+      "order": 114,
+      "role": "Captain Lindell",
+      "thumb": "/wojvRZMpAwytyoFTMFOpvZ26qJq.jpg"
+    },
+    {
+      "name": "Alona Tal",
+      "order": 114,
+      "role": "Stella",
+      "thumb": "/kYRu965Jt11NWWbJ9XtSUOhTkUx.jpg"
+    },
+    {
+      "name": "Lucca De Oliveira",
+      "order": 73,
+      "role": "Vic Lopez",
+      "thumb": "/e75G7ucbDPCOUbi7je8fHCz1QAJ.jpg"
+    },
+    {
+      "name": "Tim Chiou",
+      "order": 118,
+      "role": "Michael 'Thirty Mike' Chen",
+      "thumb": "/whofc4pCEv3sb6n81Hge83qLqxO.jpg"
+    },
+    {
+      "name": "C. Thomas Howell",
+      "order": 65,
+      "role": "Ash Spenser",
+      "thumb": "/jbe1EIWMlIvnIJjPX5H5hAVLBbJ.jpg"
+    },
+    {
+      "name": "Adelaide Kane",
+      "order": 109,
+      "role": "Rebecca Bowen",
+      "thumb": "/3QegxqIuKy9Zbl4Tf6a6U06qBlc.jpg"
+    },
+    {
+      "name": "Ammon Jacob Ford",
+      "order": 76,
+      "role": "Michael",
+      "thumb": null
+    },
+    {
+      "name": "Samantha Sloyan",
+      "order": 105,
+      "role": "Victoria Seaver",
+      "thumb": "/prhRQ3npp7OwssXhxNUw0RTFjFw.jpg"
+    },
+    {
+      "name": "Coby Bell",
+      "order": 73,
+      "role": "Warrant Officer Glen Mack",
+      "thumb": "/2fOJuToMdCTk1KI0Kod8wRT8gFq.jpg"
+    },
+    {
+      "name": "Marsha Thomason",
+      "order": 83,
+      "role": "Vanessa Ryan",
+      "thumb": "/fqN0FKAJeTfcPHDFL529EkuX1s6.jpg"
+    },
+    {
+      "name": "Breana Raquel",
+      "order": 105,
+      "role": "Hannah",
+      "thumb": "/bFOytdqsK34vDHG289BDJUT831O.jpg"
+    },
+    {
+      "name": "Ellie Jameson",
+      "order": 106,
+      "role": "Evelyn Hale",
+      "thumb": "/vQgw1yscHN1TaEOCyVXQDqyXuzR.jpg"
+    },
+    {
+      "name": "Alexa Mansour",
+      "order": 38,
+      "role": "Dorri",
+      "thumb": "/xm0qZi9pqYbmhFz2YiijCnbilSv.jpg"
+    },
+    {
+      "name": "Sharif Atkins",
+      "order": 43,
+      "role": "Beau Fuller",
+      "thumb": "/yF2XmuQN6GO3qpaAcO442bkBCu3.jpg"
+    },
+    {
+      "name": "Daniel Gillies",
+      "order": 46,
+      "role": "Nate Massey",
+      "thumb": "/zasTOfb8TNyVGwRfb4jNdHnsZ2m.jpg"
+    },
+    {
+      "name": "Jay Hayden",
+      "order": 51,
+      "role": "Brian Armstrong",
+      "thumb": "/blBIWNzXKBEfynH15n020QWaWmh.jpg"
+    },
+    {
+      "name": "Michael Irby",
+      "order": 55,
+      "role": "Adam",
+      "thumb": "/9DlWNTlVhkdKnZ76DT8nUTl5DD3.jpg"
+    },
+    {
+      "name": "Rudy Dobrev",
+      "order": 63,
+      "role": "Filip",
+      "thumb": null
+    },
+    {
+      "name": "Khandi Alexander",
+      "order": 69,
+      "role": "Ambassador Nicole Marsden",
+      "thumb": "/53IjZhkaywgsM0ZkDt3GJQtY5ls.jpg"
+    },
+    {
+      "name": "Ruffin Prentiss",
+      "order": 97,
+      "role": "Summer Kairos",
+      "thumb": "/nCJ0LYgQQOIAupqH3APaO4KkKqx.jpg"
+    },
+    {
+      "name": "Mark Semos",
+      "order": 100,
+      "role": "John TJ Monero",
+      "thumb": "/eemEhfgnDoq04i1V0CMilKoYzL9.jpg"
+    },
+    {
+      "name": "Michael Rooker",
+      "order": 3,
+      "role": "Big Chief",
+      "thumb": "/dq3xFKDWJsQjPffm1bmB3TbMilq.jpg"
+    },
+    {
+      "name": "Reiko Aylesworth",
+      "order": 4,
+      "role": "Dr. Julie Kruger",
+      "thumb": "/4JKpN5On2Dvq0Zwg0CqyobABras.jpg"
+    },
+    {
+      "name": "Hunter Wilson",
+      "order": 7,
+      "role": "Randy",
+      "thumb": null
+    },
+    {
+      "name": "Ron Roggé",
+      "order": 9,
+      "role": "Captain Bryce",
+      "thumb": "/fMQ8K0Yez1FBSCOCm4FGSmgMyT2.jpg"
+    },
+    {
+      "name": "Ahmed Lucan",
+      "order": 10,
+      "role": "Abu Khaled Al-Masri",
+      "thumb": null
+    },
+    {
+      "name": "Donald Paul",
+      "order": 11,
+      "role": "General Lionheart",
+      "thumb": null
+    },
+    {
+      "name": "Zailand Adams",
+      "order": 16,
+      "role": "Lionheart’s Child Soldier",
+      "thumb": "/yEwB95CyLmfxyQBP32znEROZqpQ.jpg"
+    },
+    {
+      "name": "Julie Michaels",
+      "order": 17,
+      "role": "Stacy Mitchell",
+      "thumb": "/hXYvvPhWbXNULOV2kge9EyH5OIC.jpg"
+    },
+    {
+      "name": "Kelton DuMont",
+      "order": 18,
+      "role": "Conor Hayes",
+      "thumb": "/vcy3fLLcMfNkPIsDO5zoWpHOeo3.jpg"
+    },
+    {
+      "name": "Darcie Isabella Cottrell",
+      "order": 19,
+      "role": "Jameelah",
+      "thumb": "/z3bAHbkHWSWokGRk5wEWEcml7Rq.jpg"
+    },
+    {
+      "name": "Alexis Genya",
+      "order": 21,
+      "role": "Nate’s Mom",
+      "thumb": null
+    },
+    {
+      "name": "Steve Howey",
+      "order": 27,
+      "role": "Danny Cooper",
+      "thumb": "/7pkqToPpwV6id92cHDwigS77qdv.jpg"
+    },
+    {
+      "name": "Sarah Hudnut Brody",
+      "order": 29,
+      "role": "Rita Harris",
+      "thumb": null
+    },
+    {
+      "name": "Sunkrish Bala",
+      "order": 30,
+      "role": "Fitzgerald",
+      "thumb": "/sY8vTJ2ZNkEqiELkeILRmjdrp2K.jpg"
+    },
+    {
+      "name": "Nitya Vidyasagar",
+      "order": 32,
+      "role": "Meera Nelson",
+      "thumb": "/cOjEIumye0bTMjDWoSC6MMBLkzX.jpg"
+    },
+    {
+      "name": "Mitch Eakins",
+      "order": 33,
+      "role": "Sean Nolan",
+      "thumb": null
+    },
+    {
+      "name": "Mark D. Espinoza",
+      "order": 34,
+      "role": "Gen. Gene Parsons",
+      "thumb": "/xOgpNm7F37H4o5UV9HYJvgVW3yl.jpg"
+    },
+    {
+      "name": "Nick Hermz",
+      "order": 35,
+      "role": "IS Fighter #2",
+      "thumb": "/9SlwvbGkixjWB8atQth9AodYvsA.jpg"
+    },
+    {
+      "name": "Boualem Hassaine",
+      "order": 36,
+      "role": "IS Fighter #3",
+      "thumb": null
+    },
+    {
+      "name": "Austin Highsmith",
+      "order": 37,
+      "role": "Trish",
+      "thumb": "/lS0WknA5CuvLKWnBH37RZg35ycW.jpg"
+    },
+    {
+      "name": "Daniella Alonso",
+      "order": 39,
+      "role": "Leigh Wheeler",
+      "thumb": "/ipFtnG5kvkMY1HcLOSFONDIEXqn.jpg"
+    },
+    {
+      "name": "Stephen Hailo",
+      "order": 40,
+      "role": "Rasul's Aide",
+      "thumb": null
+    },
+    {
+      "name": "Ion Overman",
+      "order": 41,
+      "role": "Dr. Finley",
+      "thumb": null
+    },
+    {
+      "name": "Callan Farris",
+      "order": 43,
+      "role": "Syrian Boy",
+      "thumb": "/7Jn49ecM8rnH4YzEmT9mwHJ0YZy.jpg"
+    },
+    {
+      "name": "Jeff Schine",
+      "order": 45,
+      "role": "EOD #1",
+      "thumb": null
+    },
+    {
+      "name": "Eve Harlow",
+      "order": 45,
+      "role": "JAMIE",
+      "thumb": "/iXwYkiU3IgxYfaPuU8nFzFYWyqI.jpg"
+    },
+    {
+      "name": "Linda Park",
+      "order": 47,
+      "role": "Dr. Koch",
+      "thumb": "/9yUfbbcea278H5j5KC0e54m1kLE.jpg"
+    },
+    {
+      "name": "Michael Scott",
+      "order": 47,
+      "role": "CIA Tech Tim",
+      "thumb": null
+    },
+    {
+      "name": "Mike Estes",
+      "order": 48,
+      "role": "Syrian Military (uncredited)",
+      "thumb": "/nvGpCX3KBMOteVz4jWkx5ZayUM7.jpg"
+    },
+    {
+      "name": "Reem Kadem",
+      "order": 48,
+      "role": "Woman",
+      "thumb": "/rmnnWjv67iTHKLBLRsCHI6zYjrf.jpg"
+    },
+    {
+      "name": "Philip Fornah",
+      "order": 48,
+      "role": "Fake Terrorist",
+      "thumb": "/mH6UjRLpoHkwwDzCMkzXfyFAlje.jpg"
+    },
+    {
+      "name": "Cary Huff",
+      "order": 49,
+      "role": "Navy Seal Parent (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Cecilia Quinan",
+      "order": 50,
+      "role": "Naima's Mom (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "David Sampen",
+      "order": 50,
+      "role": "EOD (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Johnathan McClain",
+      "order": 51,
+      "role": "Sam Roberts",
+      "thumb": null
+    },
+    {
+      "name": "Alexandra LeMosle",
+      "order": 52,
+      "role": "Laila",
+      "thumb": null
+    },
+    {
+      "name": "Shaan Sharma",
+      "order": 53,
+      "role": "Vince",
+      "thumb": "/xuAYRVltME3At6WGkbnk8l3dgW4.jpg"
+    },
+    {
+      "name": "Kelsey Siepser",
+      "order": 54,
+      "role": "Julia",
+      "thumb": null
+    },
+    {
+      "name": "Vikas Adam",
+      "order": 55,
+      "role": "Intel Tech",
+      "thumb": "/vTNqQ1Nk0fbg6czP8ppdxhay9P6.jpg"
+    },
+    {
+      "name": "Lloyd Barachina",
+      "order": 56,
+      "role": "Eduardo Misaya",
+      "thumb": null
+    },
+    {
+      "name": "Mitch Westphal",
+      "order": 57,
+      "role": "Teammate",
+      "thumb": null
+    },
+    {
+      "name": "Jeff Bosley",
+      "order": 58,
+      "role": "Steve Porter (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Christina Childress",
+      "order": 59,
+      "role": "Theresa Wilder (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Louis Ferreira",
+      "order": 60,
+      "role": "Dr. Conners",
+      "thumb": "/7xUTd7N6XbB3uWvob12qpmGzPzA.jpg"
+    },
+    {
+      "name": "Linsay Rousseau",
+      "order": 61,
+      "role": "Flight Attendant #1",
+      "thumb": "/9SxHZf6ez6a4X1IS7HbbZDpJUFd.jpg"
+    },
+    {
+      "name": "Tamara Aleksić",
+      "order": 62,
+      "role": "Ana",
+      "thumb": null
+    },
+    {
+      "name": "Stephen Bishop",
+      "order": 69,
+      "role": "Master Chief Winston Blake",
+      "thumb": "/9DDF9z96Aax6tQ6WrJyMDlF1Rtl.jpg"
+    },
+    {
+      "name": "Sumalee Montano",
+      "order": 71,
+      "role": "Agent Susan Carver",
+      "thumb": "/cqkKL8hTGglY1n0DRrDmsfvwpDx.jpg"
+    },
+    {
+      "name": "Robert Cicchini",
+      "order": 72,
+      "role": "Dr. Bernstein",
+      "thumb": "/gArIiPNgKbAnCrObWyFjqdt4f9F.jpg"
+    },
+    {
+      "name": "Nealla Gordon",
+      "order": 73,
+      "role": "Holly Baxter",
+      "thumb": "/3TpK3kxculu7qUpCkw1UMlqqeqR.jpg"
+    },
+    {
+      "name": "Ali Olomi",
+      "order": 74,
+      "role": "Nawid",
+      "thumb": "/ucT2NgVay4DX6JxvaSUkT3LnOGA.jpg"
+    },
+    {
+      "name": "Callard Harris",
+      "order": 76,
+      "role": "Curtis \"Cujo\" Johnson",
+      "thumb": "/x9S6EdDCVQoVsRaJPPt23Y5zCRf.jpg"
+    },
+    {
+      "name": "Bailey Chase",
+      "order": 77,
+      "role": "Eddie Guzman",
+      "thumb": "/1tqzsmbws2X225dIUK8sWze4bBR.jpg"
+    },
+    {
+      "name": "Joe Pistone",
+      "order": 79,
+      "role": "Romeo OIC",
+      "thumb": "/cFJNXPEDlzAYunCjLNU2paTjrKv.jpg"
+    },
+    {
+      "name": "Jay Abdo",
+      "order": 80,
+      "role": "Asim Al-Hazred",
+      "thumb": "/qxgBekBKia9n58MdrdG8ar7fHhQ.jpg"
+    },
+    {
+      "name": "Ali Ezz Eldein",
+      "order": 81,
+      "role": "Young Azfaar Al-Hazred",
+      "thumb": null
+    },
+    {
+      "name": "Julia Morizawa",
+      "order": 83,
+      "role": "Intake Nurse",
+      "thumb": "/4WF7LPn5kcMRBuwPJyKVtn7CzVh.jpg"
+    },
+    {
+      "name": "Bianca Lopez",
+      "order": 83,
+      "role": "Waitress",
+      "thumb": "/mfiMebY1XSnFEDplwN3aExUThEO.jpg"
+    },
+    {
+      "name": "Michael McGrady",
+      "order": 84,
+      "role": "Captain Harrington",
+      "thumb": "/nLYC2BMns7lhF3zr5WDlI8a02Yd.jpg"
+    },
+    {
+      "name": "Felix Solis",
+      "order": 85,
+      "role": "Col. Martinez",
+      "thumb": "/gM65Emq01TmdwQUlTlfYJH5SJd1.jpg"
+    },
+    {
+      "name": "Mirelly Taylor",
+      "order": 86,
+      "role": "Rita Alfaro",
+      "thumb": null
+    },
+    {
+      "name": "Paolo Cesar",
+      "order": 87,
+      "role": "Carlos Gonzalez",
+      "thumb": null
+    },
+    {
+      "name": "Julia Effertz",
+      "order": 89,
+      "role": "Bartender (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Anthony Molinari",
+      "order": 90,
+      "role": "Humvee Driver (uncredited)",
+      "thumb": "/m61qwEPjv8G3vmzNxaG2VDxSAmd.jpg"
+    },
+    {
+      "name": "A Leslie Kies",
+      "order": 91,
+      "role": "Marcie",
+      "thumb": "/3JTqdYPHqq86wEuH9XT8NvCIkGh.jpg"
+    },
+    {
+      "name": "Louise Lombard",
+      "order": 92,
+      "role": "Claire North",
+      "thumb": "/6znYbOI2Z8PfzZ6p9jHG5QdAeb2.jpg"
+    },
+    {
+      "name": "Luke Mably",
+      "order": 93,
+      "role": "Sgt. Maj. Nigel Wickham",
+      "thumb": "/jTMAb14IELP0s2FjpFsM0Bo5rJk.jpg"
+    },
+    {
+      "name": "Joelle Better",
+      "order": 95,
+      "role": "Daughter",
+      "thumb": "/apQXv4NpPNFyDba8BTwFweCfTHN.jpg"
+    },
+    {
+      "name": "Jennifer Emett",
+      "order": 96,
+      "role": "Hostage (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Olesya Rulin",
+      "order": 97,
+      "role": "Jenna Robertson",
+      "thumb": "/tR7UXBhDlV5mG9gJZBLxplF2HWu.jpg"
+    },
+    {
+      "name": "David Barrera",
+      "order": 98,
+      "role": "Jeff Walker",
+      "thumb": "/pGlwMV9HlpTTJPWKupPA1O8D5TF.jpg"
+    },
+    {
+      "name": "Ziya Farajzada",
+      "order": 101,
+      "role": "ISIS leader (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Stanton Lee",
+      "order": 102,
+      "role": "CIA Technician (uncredited)",
+      "thumb": "/ag2IThGbO1htp9R0ozg8pkjioJb.jpg"
+    },
+    {
+      "name": "Jeremy Zaugg",
+      "order": 104,
+      "role": "Master Chief (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Peter Jessop",
+      "order": 106,
+      "role": "Commander Shaw",
+      "thumb": null
+    },
+    {
+      "name": "Pooja Batra",
+      "order": 107,
+      "role": "Anita Patel",
+      "thumb": "/b0ZRDKTixu27ljge5W4oNUv6wZ.jpg"
+    },
+    {
+      "name": "Michelle Jubilee Gonzalez",
+      "order": 108,
+      "role": "Woman",
+      "thumb": "/rs6h9fvozdaRa2uCFKtPRQb9bFa.jpg"
+    },
+    {
+      "name": "Ghadir",
+      "order": 109,
+      "role": "Enemy Villager (uncredited)",
+      "thumb": "/2FOTja1W888SqsYRuaWoo2DY4Ub.jpg"
+    },
+    {
+      "name": "Sameer Ali Khan",
+      "order": 109,
+      "role": "Azfaar Al-Hazred",
+      "thumb": null
+    },
+    {
+      "name": "Ellen Wroe",
+      "order": 110,
+      "role": "Olivia Green",
+      "thumb": "/qF0w43ICIOceZgXjFaFU2XvV1JJ.jpg"
+    },
+    {
+      "name": "Tiffany Mack",
+      "order": 112,
+      "role": "Capt. Brie Campbell",
+      "thumb": "/4jv78I2kH0XYO5El43qeqsMISXr.jpg"
+    },
+    {
+      "name": "Rachel Boston",
+      "order": 114,
+      "role": "Hannah Oliver",
+      "thumb": "/lXsexhIX8oMhPnO85M0ocL0GhC2.jpg"
+    },
+    {
+      "name": "Jonathan Medina",
+      "order": 115,
+      "role": "Cmdr. Tim Algren",
+      "thumb": "/tXTIqU4yXUBWnEmdcSdPNSeFfGS.jpg"
+    },
+    {
+      "name": "James Ransone",
+      "order": 115,
+      "role": "Reiss Julian",
+      "thumb": "/9j39UVIex7nIAOMaNqo0w9yJpSG.jpg"
+    },
+    {
+      "name": "Ammar Daraiseh",
+      "order": 116,
+      "role": "Ansar Al-Masar Leader",
+      "thumb": null
+    },
+    {
+      "name": "Saad Siddiqui",
+      "order": 117,
+      "role": "Jack Daniels",
+      "thumb": "/xUsZ9SqGgn6cLeQUF0s0JgJhSw3.jpg"
+    },
+    {
+      "name": "Shvan Aladdin",
+      "order": 118,
+      "role": "Samim",
+      "thumb": "/zIfYOYMZmtb0ulULHehksjQBQvA.jpg"
+    },
+    {
+      "name": "Jack Griffo",
+      "order": 119,
+      "role": "PV2 Elliot Moundst",
+      "thumb": "/j7trzRGKcNqhnFwrw65thR1e3qU.jpg"
+    },
+    {
+      "name": "John Savage",
+      "order": 120,
+      "role": "Emmet Quinn",
+      "thumb": "/9gOlQ0P6KkGdIk8h0EYCsbtWIL1.jpg"
+    },
+    {
+      "name": "Yousuf Azami",
+      "order": 121,
+      "role": "Taliban Lieutenan",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Tip of the Spear",
-        "Other Lives",
-        "Boarding Party",
-        "Ghosts of Christmas Future",
-        "Collapse",
-        "The Spinning Wheel",
-        "Borderlines",
-        "The Exchange",
-        "Rolling Dark",
-        "Pattern of Life",
-        "Containment",
-        "The Upside Down",
-        "Getaway Day",
-        "Call Out",
-        "No Man's Land",
-        "Never Get Out of the Boat",
-        "In Name Only",
-        "Credible Threat",
-        "Takedown",
-        "Enemy of My Enemy",
-        "The Graveyard of Empires",
-        "The Cost of Doing Business"
+        {
+          "aired": "2017-09-27",
+          "plot": "The most elite unit of Navy SEALs must navigate their professional and personal lives as they train, plan and execute the most dangerous, high stakes missions our country can ask of them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/v8VzyiIRCOslX94rFPhkNuJPjl3.jpg",
+          "title": "Tip of the Spear"
+        },
+        {
+          "aired": "2017-10-04",
+          "plot": "While on an evidence-collecting mission in Syria, Jason and the SEAL Team find innocent civilians in desperate need of rescue just as enemy forces close in on them. Also, while on the mission, the team debates whether or not to tell Ray that his wife has gone into labor.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kHuIKwUmN4n9NJ4kUALiV8n5hBz.jpg",
+          "title": "Other Lives"
+        },
+        {
+          "aired": "2017-10-11",
+          "plot": "Jason and the SEAL team must rescue a group of researchers being held hostage on a ship in the South China Sea. Also, Clay is ranked in the “bottom five” of his class, jeopardizing his future as a SEAL",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/avKmJd7EmTwR1HFPmacBjnI0R0q.jpg",
+          "title": "Boarding Party"
+        },
+        {
+          "aired": "2017-10-18",
+          "plot": "Jason and the SEAL Team refuse to abort a mission to capture a dangerous war criminal after it goes sideways. Also, Clay’s controversial father, Ash Spenser, comes to town on his book tour.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jvQucdxtMM43bXMoGF6lPIBTKk2.jpg",
+          "title": "Ghosts of Christmas Future"
+        },
+        {
+          "aired": "2017-10-25",
+          "plot": "Jason and the SEAL Team must protect the American Embassy in South Sudan when the ambassador refuses to evacuate as the country becomes increasingly unstable. Also, Clay and Stella take their relationship to the next level.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mM8oIKiooFsNNXdgLtrLH5fT6Gw.jpg",
+          "title": "Collapse"
+        },
+        {
+          "aired": "2017-11-08",
+          "plot": "The SEAL Team must work with Jason’s longtime rival, Beau Fuller, and his team to plan and perfect a raid under the watchful eye of top military brass. Also, Clay delivers solemn news to a teammate’s next of kin.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/frNXhRhluriWb4DwqEELvCBhSTX.jpg",
+          "title": "The Spinning Wheel"
+        },
+        {
+          "aired": "2017-11-15",
+          "plot": "Jason and the SEAL Team must rescue an undercover CIA operative after she is captured by radical terrorists to be used as a bargaining chip. Also, Clay undergoes the final harrowing exercise for his candidacy into Tier One.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tSFjp2yg87COrldWPQLYcsMpK8W.jpg",
+          "title": "Borderlines"
+        },
+        {
+          "aired": "2017-11-22",
+          "plot": "Jason and the SEAL Team have mixed feelings when they are tasked with bringing home an American soldier who was captured after deserting, in exchange for detainees in Gitmo.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iuJ8txqqz5WvNvVxDf0Z8kkhQUz.jpg",
+          "title": "The Exchange"
+        },
+        {
+          "aired": "2017-12-06",
+          "plot": "Jason and the SEAL team must rescue a Russian scientist and his wife and bring them across the Afghanistan border to safety as Chinese and Russian Special Forces close in, intent on stopping them. Also, Clay endures his first day with Jason’s unit.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uS1Zm58e0JR1Fn74MUhzRVjPmRz.jpg",
+          "title": "Rolling Dark"
+        },
+        {
+          "aired": "2018-01-03",
+          "plot": "Tensions are high when Jason and the SEAL Team enter a Yemeni house to locate a cell phone linked to a terrorist network, and interrogate the family while the daughter lays in critical condition after being accidentally shot.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kC4UsSew1ZLBLeiOiFIu2P4XiMM.jpg",
+          "title": "Pattern of Life"
+        },
+        {
+          "aired": "2018-01-10",
+          "plot": "Jason and the SEAL team are sent to intercept the sale of nuclear weapons, but the mission goes sideways when they must make the treacherous journey back to base with nukes that have unsecured fuel rods. Also, Ray is sidelined with a shoulder injury, and Jason and Alana are shocked by their kids’ reactions when the topic of their reunion is brought up.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sfewmvVFSXo7fCp2cAdk3iM0Kbj.jpg",
+          "title": "Containment"
+        },
+        {
+          "aired": "2018-01-17",
+          "plot": "While on a mission to retrieve a downed top-secret drone, Jason and the SEAL Team disobey orders so they can save Clay, who is trapped beneath a room full of armed terrorists. Also, Clay and Stella’s relationship takes a new turn.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dnLF3wzP8zwPkv0Urr5U5Q7zdCn.jpg",
+          "title": "The Upside Down"
+        },
+        {
+          "aired": "2018-01-31",
+          "plot": "Jason and the SEAL Team must leave their families immediately when their deployment date is moved up after the team they were going to relieve is ambushed. Also, Jason and Alana make a big decision about their future, and Clay and Stella feel the weight of his marriage proposal.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8LqmXQRon5bc8gpihaxRP9fHkU3.jpg",
+          "title": "Getaway Day"
+        },
+        {
+          "aired": "2018-02-28",
+          "plot": "Jason and the SEAL Team settle into deployment life and get closer to discovering who ambushed Echo Team after Mandy gets a lead from an unlikely source on the base.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hP09IthUw0muTPozGJ1kyCfZVti.jpg",
+          "title": "Call Out"
+        },
+        {
+          "aired": "2018-03-07",
+          "plot": "Jason and the SEAL Team close in on avenging the deaths of Echo Team when they find the money that funded their murder on a nearby poppy farm that was previously used to make heroin. Also, Jason meets an intriguing woman on the base.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fyFz2xW8jytgIljzP2f1I3w2xqG.jpg",
+          "title": "No Man's Land"
+        },
+        {
+          "aired": "2018-03-21",
+          "plot": "Jason leads the SEAL Team on a dangerous daytime mission where Sonny is wounded and must now rely on Clay and his brothers to save his life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bAHiUuKGYAM3icNIaPHu0hChdmw.jpg",
+          "title": "Never Get Out of the Boat"
+        },
+        {
+          "aired": "2018-03-28",
+          "plot": "As Jason and the SEAL Team come closer to avenging the loss of Echo Team, Mandy takes matters into her own hands after her boss won’t green-light her mission to take out their biggest target. Also, Jason is unsure of where his relationship with Amy stands.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aY9tl9YaEGLOEgZ8BUnQswm5FUO.jpg",
+          "title": "In Name Only"
+        },
+        {
+          "aired": "2018-04-11",
+          "plot": "Jason and the SEAL Team are tasked with protecting a delegation of congressmen and department of defense officials who come to Jalalabad for a publicity tour even though a credible threat has been made against them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fDpi7UKywpthYufil7fLBUESxr3.jpg",
+          "title": "Credible Threat"
+        },
+        {
+          "aired": "2018-04-25",
+          "plot": "The SEAL Team sends Ray undercover in a busy spice market to make a high-stakes money swap, and Jason attempts to take down a terrorist known to wear a suicide belt. Also, Ray realizes the devastating consequences of his decisions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tklBavuCBOAARtb4eYOJ36h11cc.jpg",
+          "title": "Takedown"
+        },
+        {
+          "aired": "2018-05-02",
+          "plot": "The lives of Jason and the SEAL Team are in jeopardy when a risky mission to capture a highly valuable target may actually be a trap. Also, Clay and Davis commiserate about the frustrations of having long distance relationships, and Ray has a meeting regarding his involvement with the accidental death of the local boy that could affect his military career.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5uFqREX1qDn8f7Iz0AED3326eLa.jpg",
+          "title": "Enemy of My Enemy"
+        },
+        {
+          "aired": "2018-05-09",
+          "plot": "Following a helicopter crash, the SEAL Team must proceed with the mission as hostiles bear down on them and an injured and impaired Jason goes after their target alone.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pUXSBJjktMtzVYas2SqDhT7dnsw.jpg",
+          "title": "The Graveyard of Empires"
+        },
+        {
+          "aired": "2018-05-16",
+          "plot": "After Jason lies about his concussion to get cleared for combat, he and the SEAL Team plan a final mission to avenge Echo Team’s deaths once and for all before they return home from deployment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6DUIBTEaLQqpQ9lxOyJp1ILsrAS.jpg",
+          "title": "The Cost of Doing Business"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Fracture",
-        "Never Say Die",
-        "The Worst of Conditions",
-        "All That Matters",
-        "Say Again Your Last",
-        "Hold What You Got",
-        "Outside the Wire",
-        "Parallax",
-        "Santa Muerte",
-        "Prisoner's Dilemma",
-        "Backwards in High Heels",
-        "Things Not Seen",
-        "Time to Shine",
-        "What Appears to Be",
-        "You Only Die Once",
-        "Dirt, Dirt, Gucci",
-        "Paradise Lost",
-        "Payback",
-        "Medicate and Isolate",
-        "Rock Bottom",
-        "My Life for Yours",
-        "Never Out of the Fight"
+        {
+          "aired": "2018-10-03",
+          "plot": "Jason and Bravo Team head to the Gulf of Guinea to rescue American hostages after an oil platform is overtaken by armed militants.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wqnGvxBkUFzwuZgHcdcZTqAygNw.jpg",
+          "title": "Fracture"
+        },
+        {
+          "aired": "2018-10-10",
+          "plot": "Jason and Bravo Team travel to Saudi Arabia, where extremists take hold of an underground water source and threaten to release anthrax into the water supply. Also, Ray contemplates joining another team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6qffeVl5PvWkmOje80IeS4B4RyN.jpg",
+          "title": "Never Say Die"
+        },
+        {
+          "aired": "2018-10-17",
+          "plot": "After tragedy strikes, Jason is faced with a huge decision regarding his future with Bravo Team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sN7q7Dlc5ZQFWhyJufMP9dg7zut.jpg",
+          "title": "The Worst of Conditions"
+        },
+        {
+          "aired": "2018-10-24",
+          "plot": "Bravo Team is in Mumbai to rescue a U.S. Foreign Service officer being held hostage by radicals who attacked the city. Also, Jason reevaluates his parenting style and finds a way to connect with his kids.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rcOeOHSRURsA54iuWVFiSKDoEL9.jpg",
+          "title": "All That Matters"
+        },
+        {
+          "aired": "2018-10-31",
+          "plot": "While tasked with rescuing a group of American students held hostage in Mumbai, Bravo Team suffers life-threatening injuries.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/juGpAzXsi9iQ8pYH7vL67iFRoFt.jpg",
+          "title": "Say Again Your Last"
+        },
+        {
+          "aired": "2018-11-07",
+          "plot": "Bravo Team partners with the Mexican Marines to hunt the head of one of the most powerful and lethal drug cartels in Mexico.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iFTULr60Yg4MdXq6I7dToLRNqV2.jpg",
+          "title": "Hold What You Got"
+        },
+        {
+          "aired": "2018-11-14",
+          "plot": "Bravo Team continues to follow tips that will lead to Andres Doza, the head of one of the most powerful and lethal drug cartels in Mexico.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jvgh3i5dkybPE5NaNR7laQy32jt.jpg",
+          "title": "Outside the Wire"
+        },
+        {
+          "aired": "2018-11-21",
+          "plot": "Jason and Mandy go undercover as a couple on vacation at an upscale night club in Mexico City in order to track one of Andres Doza's cartel members.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8VMgYrPkQ67674uK0TOFS6Q42fX.jpg",
+          "title": "Parallax"
+        },
+        {
+          "aired": "2018-12-05",
+          "plot": "Following an ambush, the SEAL team suspects someone on the inside is leaking information to the cartel.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o9vX8jh1Sc7SKrEMDPGqGqwNwaa.jpg",
+          "title": "Santa Muerte"
+        },
+        {
+          "aired": "2018-12-12",
+          "plot": "The hunt for Andres Doza comes to a head when the SEAL Team makes one last ditch effort to find and capture the leader of one of the most powerful and lethal drug cartels in Mexico.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/v5oRUlIvuGgzVJQVOwKeb31Sp2P.jpg",
+          "title": "Prisoner's Dilemma"
+        },
+        {
+          "aired": "2019-01-02",
+          "plot": "Bravo Team partners with the British Special Air Service to rescue passengers on a hijacked plane who are taken hostage by terrorists.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jFkxstpz3d0vIs0ByZaMQCi0oOA.jpg",
+          "title": "Backwards in High Heels"
+        },
+        {
+          "aired": "2019-01-09",
+          "plot": "Bravo Team travels to Turkey to rescue a young American who voluntarily married an ISIS leader.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hdgsPwK1Pbznuun9SF83oLc26GF.jpg",
+          "title": "Things Not Seen"
+        },
+        {
+          "aired": "2019-01-23",
+          "plot": "Bravo Team desperately works to save Sonny from a life-threatening situation, after he becomes trapped in a submarine torpedo tube during a clandestine mission off the coast of North Korea.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6HPvbTLt89o2G4qpzKRCAf8lWKs.jpg",
+          "title": "Time to Shine"
+        },
+        {
+          "aired": "2019-03-20",
+          "plot": "Bravo Team works with the Congolese Army on a covert mission to capture the head of a rebel militia group. Jason argues with Emma about college. Sonny and Davis make a big decision about their future.",
+          "thumbnail": "",
+          "title": "What Appears to Be"
+        },
+        {
+          "aired": "2019-03-27",
+          "plot": "Bravo Team sets out on a special ops mission to take down the financier and mastermind behind several terrorist attacks.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/inZQUTcZW4UDVPpjV5e90mFD42Q.jpg",
+          "title": "You Only Die Once"
+        },
+        {
+          "aired": "2019-04-03",
+          "plot": "As Bravo Team prepares for what they expect to be a “cushy” deployment with the luxury of staying in a hotel in the Philippines, Jason tries to find a way to pay for Emma’s college.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/elrfuSwHZ5GP0QCQdhRd0zWUQOy.jpg",
+          "title": "Dirt, Dirt, Gucci"
+        },
+        {
+          "aired": "2019-04-10",
+          "plot": "While Bravo Team is deployed to train Filipino SEALs, a surprise bomb attack in Manila leaves them in peril.",
+          "thumbnail": "",
+          "title": "Paradise Lost"
+        },
+        {
+          "aired": "2019-04-17",
+          "plot": "Bravo Team is out for revenge as they search for the person responsible for the surprise bomb attack that left one of their own in peril.",
+          "thumbnail": "",
+          "title": "Payback"
+        },
+        {
+          "aired": "2019-04-24",
+          "plot": "While Bravo Team is on a recovery mission in Mali, their friend, former Navy SEAL Brett Swan, continues to struggle with his mental health.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xz72XuD8OhQh6JmC26V7nlgp4bI.jpg",
+          "title": "Medicate and Isolate"
+        },
+        {
+          "aired": "2019-05-01",
+          "plot": "The tension between Jason and Ray comes to a head, and Lisa faces her final test in officer candidate school.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iKeJ8892hBaZGCOpexfpY3sqJdn.jpg",
+          "title": "Rock Bottom"
+        },
+        {
+          "aired": "2019-05-08",
+          "plot": "Bravo Team desperately searches for Ray after he gets separated from them while in enemy territory.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cnjloAUqDQm23vMipEpZ8YVEBBW.jpg",
+          "title": "My Life for Yours"
+        },
+        {
+          "aired": "2019-05-22",
+          "plot": "Bravo team’s future is on the line when Commander Shaw recommends they be split up, but Jason’s unit has one final mission to prove him wrong.",
+          "thumbnail": "",
+          "title": "Never Out of the Fight"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Welcome to the Refuge",
-        "Ignore and Override",
-        "Theory and Methodology",
-        "The Strength of the Wolf",
-        "All Along the Watchtower (1)",
-        "All Along the Watchtower (2)",
-        "The Ones You Can't See",
-        "Danger Crossing",
-        "Kill or Cure",
-        "Unbecoming an Officer",
-        "Siege Protocol",
-        "Fog of War",
-        "Objects in Mirror",
-        "Rules of Engagement",
-        "Last Known Location",
-        "Drawdown",
-        "Edge of Nowhere",
-        "In the Blind",
-        "No Choice in Duty"
+        {
+          "aired": "2019-10-02",
+          "plot": "Jason Hayes leads the team on a mission in Serbia to track down an organization linked to the bombing of multiple American military outposts.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6rJ1LH003APwHgdhJiyd0qWG4WW.jpg",
+          "title": "Welcome to the Refuge"
+        },
+        {
+          "aired": "2019-10-09",
+          "plot": "Bravo Team continues their mission in Serbia to track down an organization linked to the bombing of multiple American military outposts, when Jason Hayes’ past returns to haunt him and leaves him contemplating his future.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/48AeqqXbot0SDN5yZ7nw9Mz8Qfc.jpg",
+          "title": "Ignore and Override"
+        },
+        {
+          "aired": "2019-10-16",
+          "plot": "Bravo Team is on a mission in Azerbaijan to help retake a power plant in order to avoid political instability in the area.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9fepttTdsPa46xrUnYODetecPg8.jpg",
+          "title": "Theory and Methodology"
+        },
+        {
+          "aired": "2019-10-23",
+          "plot": "Tensions boil over among Bravo members when they disagree while training for a mission, and Jason must select a new candidate to join the team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/plFZXPm0v5e4EVCA1KO9hoGlk3V.jpg",
+          "title": "The Strength of the Wolf"
+        },
+        {
+          "aired": "2019-10-30",
+          "plot": "Jason pleads to be sent to help Ray and Clay, who are abroad on a mission to protect a U.S. ambassador when their compound is attacked.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dDZEKv9tGDa2G33U8tMHq9Qzpvc.jpg",
+          "title": "All Along the Watchtower (1)"
+        },
+        {
+          "aired": "2019-11-06",
+          "plot": "While on a mission abroad to protect U.S. ambassador Nicole Marsden, Bravo Team must fight off enemy attackers trying to infiltrate their compound.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ebNgqSIxkGhrJrADWfA7ifvYOZO.jpg",
+          "title": "All Along the Watchtower (2)"
+        },
+        {
+          "aired": "2019-11-20",
+          "plot": "As Jason contemplates surgery for an injury, Bravo Team is on a mission abroad to help the secret service prevent a sniper attack on U.S. dignitaries.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cRpVQG5cdbfHaSkBEPG0g0NKVcz.jpg",
+          "title": "The Ones You Can't See"
+        },
+        {
+          "aired": "2019-11-27",
+          "plot": "While Jason is sidelined with an injury, Ray takes over as Bravo 1 and leads the team on a mission to rescue a marine pilot who was shot down in enemy territory.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/49RzDsEBdQ8ebom50ntS8hHKDNY.jpg",
+          "title": "Danger Crossing"
+        },
+        {
+          "aired": "2019-12-04",
+          "plot": "Bravo team is on a mission to protect aid convoys in an Ebola hot zone after a warlord steals preserved samples of the virus that can be weaponized.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vTb3lMxwLMhuWry3s3rZrkQtzhM.jpg",
+          "title": "Kill or Cure"
+        },
+        {
+          "aired": "2019-12-11",
+          "plot": "Jason leads Bravo Team on his first mission back following surgery, and Ensign Davis faces disciplinary action",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x2xduE8ps0uSRO72gNuKbAA3CXf.jpg",
+          "title": "Unbecoming an Officer"
+        },
+        {
+          "aired": "2020-02-26",
+          "plot": "Amid several life-altering moments on the home front, Bravo Team travels overseas to extract a CIA agent who is being held hostage. As the situation escalates, the Tactical Operations Center is compromised and Bravo’s support team comes face-to-face with the enemy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zopMDLdygUcu0a2HgBhwmKKBU66.jpg",
+          "title": "Siege Protocol"
+        },
+        {
+          "aired": "2020-03-04",
+          "plot": "Following a mission failure, Bravo Team conducts a high-stakes After Action Review to identify who’s responsible for a possible career-ending mistake.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wdU449LFodpUfjqJvN6UQCK38Me.jpg",
+          "title": "Fog of War"
+        },
+        {
+          "aired": "2020-03-11",
+          "plot": "Bravo Team travels overseas for a foreign training exercise to disguise their true mission – to rescue a high-value target that is being held hostage. Also, NASCAR driver Austin Dillon gives the team a special driving lesson.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sW4S0bVQPNX6vXqWgcjNgQbSRmf.jpg",
+          "title": "Objects in Mirror"
+        },
+        {
+          "aired": "2020-03-18",
+          "plot": "While Bravo Team is on a special reconnaissance mission abroad, they are diverted to protect a group of American engineers and the dam they are constructing from a terrorist attack. The rules of engagement raise the level of danger, as the team is not permitted to use their weapons unless the enemy fires first.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/swXLbnD4rnOGEOqatpaV6tl9n26.jpg",
+          "title": "Rules of Engagement"
+        },
+        {
+          "aired": "2020-03-25",
+          "plot": "Tensions flare on the home front, as Sonny faces disciplinary action, Clay considers a new career path and Jason faces pressure from Capt. Lindell to consider the next phase of his career, all while Bravo Team prepares for a three-month deployment in Afghanistan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/am87EoBevYOeEkal6mFwKSVEYAQ.jpg",
+          "title": "Last Known Location"
+        },
+        {
+          "aired": "2020-04-08",
+          "plot": "As Bravo Team begins their deployment in Afghanistan during peace negotiations, Sonny reports to an Air Force base in Texas to serve his disciplinary training action, where he gets reacquainted with Hannah, a childhood friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6G87yUclTDStX3ewxQbI9g7j7LP.jpg",
+          "title": "Drawdown"
+        },
+        {
+          "aired": "2020-04-22",
+          "plot": "Bravo Team searches for a new terrorist group leader who is orchestrating violent resistance to peace negotiations in Afghanistan. Also, Clay learns what it means to be a leader and Sonny works to repair his relationship with his father in Texas.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aypBSGW1b33zbBgz9vNMurE14Xe.jpg",
+          "title": "Edge of Nowhere"
+        },
+        {
+          "aired": "2020-04-29",
+          "plot": "Bravo Team gets ambushed by enemy forces during a mission to extract a potential link to a new terrorist leader. Also, Sonny considers planting roots in his hometown.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7rI9Noqnzo0BvrkYXZqqueS9xW6.jpg",
+          "title": "In the Blind"
+        },
+        {
+          "aired": "2020-05-06",
+          "plot": "While Jason escorts Mandy on a condolence visit to the family of a fallen informant, Ray leads Bravo on an urgent mission when they are confronted with a time-sensitive lead on a terrorist leader’s location. Also, Davis reveals to the team that the terrorist leader they’ve been searching for is related to a target from Jason’s past, and Sonny rejoins Bravo team in Afghanistan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4bFmjQ71o1iPRnx3NzGXqooMQqj.jpg",
+          "title": "No Choice in Duty"
+        }
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        {
+          "aired": "2020-12-02",
+          "plot": "Bravo Team enters enemy territory in the snowy Spin Ghar Mountain Range to capture Al-Hazred, the leader of a terrorist group and son of the terrorist leader that Jason took down early in his career and made him Bravo One. When they are attacked, Jason and Cerberus, Bravo's canine member, are separated from the team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/g8raKTaiYxk9440Q1y0HQ3YV8ZY.jpg",
+          "title": "God of War (1)"
+        },
+        {
+          "aired": "2020-12-02",
+          "plot": "Bravo Team reunites with Jason and Cerberus, then go underground to search booby-trapped tunnels for terrorist leader Al-Hazred.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3LuFiDXxxAlsCofrnfQQ3dsYG9w.jpg",
+          "title": "Forever War (2)"
+        },
+        {
+          "aired": "2020-12-09",
+          "plot": "Bravo Team struggles to adjust to a new team dynamic after several members make life-altering career decisions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e9wgFlMls1d8POz46rnazNMY1y1.jpg",
+          "title": "The New Normal"
+        },
+        {
+          "aired": "2020-12-16",
+          "plot": "When Warrant Officer Ray Perry goes missing following an explosion in Tunisia, his former teammates wrestle with how to help their brother and his family while Bravo Team is sidelined.",
+          "thumbnail": "",
+          "title": "Shockwave"
+        },
+        {
+          "aired": "2021-01-13",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 5"
+        }
       ]
     }
   },

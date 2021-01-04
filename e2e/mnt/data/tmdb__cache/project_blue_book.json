@@ -1,36 +1,304 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Sci-Fi & Fantasy",
+    "Mystery"
+  ],
   "id": 79649,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5c3d8fb33647c.jpg",
+          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5c414417b9d7e.jpg",
+          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5c3b2cd47daaf.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5e281eea88e95.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/350401/seasonthumb/project-blue-book-5cd3ffea3a9e7.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/350401/seasonthumb/project-blue-book-5e7690685a5c4.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c41e7186e3af.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c41719298db9.JPG",
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c3b0bf682cdc.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c4172a18368e.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5e2850c03b263.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/350401/tvbanner/project-blue-book-5c3d903f85957.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvbanner/project-blue-book-5e281f8322258.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c41713e7a495.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c48622791903.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c3b28fd6844c.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c41633c2ca93.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c417129c89e8.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5e2edfe4a8984.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/350401/tvthumb/project-blue-book-5c4178ad2c5d5.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvthumb/project-blue-book-5c3d90097d861.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvthumb/project-blue-book-5e281f03ba832.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/xsTo4EoKxk27FvY5Stwuw6CGYt.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/rqrzjT5nc7mTD5IKVMLRhLeyzgD.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "Project Blue Book",
+  "plot": "A chronicle of the true top secret U.S. Air Force-sponsored investigations into UFO-related phenomena in the 1950s and ’60s, known as “Project Blue Book.”",
+  "premiered": "2019-01-08",
+  "status": "Canceled",
+  "studios": [
+    "History"
+  ],
+  "actors": [
+    {
+      "name": "Aidan Gillen",
+      "order": 0,
+      "role": "Dr. Allen Hynek",
+      "thumb": "/ju5ho6nnwOQ2QLGLnDP9yOZhGpb.jpg"
+    },
+    {
+      "name": "Michael Malarkey",
+      "order": 1,
+      "role": "Captain Michael Quinn",
+      "thumb": "/pgbcK2FZbUOIN0FIPYxHiXsZ9Sq.jpg"
+    },
+    {
+      "name": "Laura Mennell",
+      "order": 2,
+      "role": "Mimi Hynek",
+      "thumb": "/onIPcCc3swg2q2k2vRcNtqYdwaQ.jpg"
+    },
+    {
+      "name": "Ksenia Solo",
+      "order": 3,
+      "role": "Susie Miller",
+      "thumb": "/nkqF1iGzsnT37XBNgdhuVeaSRNy.jpg"
+    },
+    {
+      "name": "Neal McDonough",
+      "order": 4,
+      "role": "General James Harding",
+      "thumb": "/twI3avjsXXLYzCSl1ylGEDmGfXc.jpg"
+    },
+    {
+      "name": "Michael Harney",
+      "order": 5,
+      "role": "General Hugh Valentine",
+      "thumb": "/j64sglNnGc5fAHPEkJ1TmKOITQP.jpg"
+    },
+    {
+      "name": "Robert John Burke",
+      "order": 6,
+      "role": "William Fairchild",
+      "thumb": "/9z4goY4Qlzmtkt7sG1JwIQ4XwrN.jpg"
+    },
+    {
+      "name": "Hayley McLaughlin",
+      "order": 11,
+      "role": "Rebecca",
+      "thumb": "/6tT9aNc5pN3qrNg7nxDMZt68581.jpg"
+    },
+    {
+      "name": "Elyse Maloway",
+      "order": 1,
+      "role": "Student #1",
+      "thumb": "/oREWBuun5XvNkn0E1s01B82tyyY.jpg"
+    },
+    {
+      "name": "Justine Warrington",
+      "order": 2,
+      "role": "SECRETARY",
+      "thumb": "/6x4UamRMhUXPCL8qvk4iGGFRSqm.jpg"
+    },
+    {
+      "name": "Nadine Lewington",
+      "order": 3,
+      "role": "Kelly",
+      "thumb": "/4pf6v0AIfZ0Zt5WALfRFRR8udfy.jpg"
+    },
+    {
+      "name": "Daryl Ducharme",
+      "order": 4,
+      "role": "Stepan",
+      "thumb": "/eQUPmEBzVYmaqUgMTG0G18Juodc.jpg"
+    },
+    {
+      "name": "Brendan Fletcher",
+      "order": 5,
+      "role": "Sgt. Willingham",
+      "thumb": "/dSXct01FSuMQmuTt2PuBlV4veTY.jpg"
+    },
+    {
+      "name": "Kayla Deorksen",
+      "order": 6,
+      "role": "Ruthie Shoemaker",
+      "thumb": "/oL0syT7zESyeNDIBRyDUvXzR5gJ.jpg"
+    },
+    {
+      "name": "Olivia Poon",
+      "order": 7,
+      "role": "Amy",
+      "thumb": "/f51TMI2rqiY21dKhVi9xSWKj08W.jpg"
+    },
+    {
+      "name": "Quinton Boisclair",
+      "order": 8,
+      "role": "Skinwalker",
+      "thumb": "/oIlUYbyH97aiJPgOO7FI1sKK7zz.jpg"
+    },
+    {
+      "name": "Nolan Hupp",
+      "order": 9,
+      "role": "Eric",
+      "thumb": "/4AsdwbGPrnLEoegI3MjthZ32jEc.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "The Fuller Dogfight",
-        "The Flatwoods Monster",
-        "The Lubbock Lights",
-        "Operation Paperclip",
-        "Foo Fighters",
-        "The Green Fireballs",
-        "The Scoutmaster",
-        "War Games",
-        "Abduction",
-        "The Washington Merry-Go Round"
+        {
+          "aired": "2019-01-08",
+          "plot": "Ohio State astrophysicist Dr. Allen Hynek is recruited by the Air Force into their top-secret program investigating UFOs called Project Blue Book. Partnered with Captain Michael Quinn, they investigate the case of a military pilot who survived a dogfight with an alien craft. Based on the \"Gorman Dogfight\" case.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nzCUFPgDs0msuUN1JElu0lBv1fB.jpg",
+          "title": "The Fuller Dogfight"
+        },
+        {
+          "aired": "2019-01-15",
+          "plot": "Dr. Hynek and Captain Quinn investigate a West Virginia case of a woman and her two children who witnessed a flying saucer crash near their farm and an alien being emerge from the fiery wreck; based on the Flatwoods Monster case.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5oUQcAdpilF32nIByqCZr9P02k8.jpg",
+          "title": "The Flatwoods Monster"
+        },
+        {
+          "aired": "2019-01-22",
+          "plot": "When the citizens of Lubbock, Texas witness a mysterious V-shaped craft in the night sky, Hynek and Quinn are brought in to investigate the mass sighting. Based on the “Lubbock Lights” case.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jqXH28xPjtUZeGLEh6mxwk6irqx.jpg",
+          "title": "The Lubbock Lights"
+        },
+        {
+          "aired": "2019-01-29",
+          "plot": "Quinn and Hynek are lead into a secret program involving the Operation Paperclip.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t6u8rQZYr27xjjPusRqDm97yfYl.jpg",
+          "title": "Operation Paperclip"
+        },
+        {
+          "aired": "2019-02-05",
+          "plot": "Quinn and Hynek follow clues that lead them to a secret group who have witnessed strange lights.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gycblO5t9AXhi6ITRMDynIeHEV5.jpg",
+          "title": "Foo Fighters"
+        },
+        {
+          "aired": "2019-02-12",
+          "plot": "Mysterious green fireballs nearly cause a nuclear disaster during a weapons test, and Hynek and Quinn must investigate how it could have occurred.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6rxwYZGXkGQoCDZ3E2joxZoH1CT.jpg",
+          "title": "The Green Fireballs"
+        },
+        {
+          "aired": "2019-02-19",
+          "plot": "After a Scoutmaster vanishes when he and his troop witness a strange craft hovering in the woods, Hynek is sent to investigate for Project Blue Book, while Quinn is pulled into a rogue mission for General Harding.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3nS1eCCpqN4t3uGHqfAPEMakuJ1.jpg",
+          "title": "The Scoutmaster"
+        },
+        {
+          "aired": "2019-02-26",
+          "plot": "When a film emerges documenting an Army platoon under UFO attack, the Generals send Hynek and Quinn in to investigate, where they find the soldiers not only suffer from physical effects of war, but psychological ones as well.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cvjRwjyDkrCGNI7LdawldFkagbd.jpg",
+          "title": "War Games"
+        },
+        {
+          "aired": "2019-03-05",
+          "plot": "Hynek is drawn into a case from which he literally can't escape when a man arrives at Blue Book headquarters with his wife. The man claims he was abducted by aliens, and he plans to hold Hynek and Quinn hostage until he learns the truth.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/l9wZLOKT9x4GqWyj5AwXefR6xTa.jpg",
+          "title": "Abduction"
+        },
+        {
+          "aired": "2019-03-12",
+          "plot": "Washington D.C. is invaded by UFOs, and Hynek and Quinn must uncover the true nature of the threat before it's too late.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mKOwSH0Cx1G1Umb2J2J34snkonV.jpg",
+          "title": "The Washington Merry-Go Round"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "The Roswell Incident - Part I",
-        "The Roswell Incident - Part II",
-        "Area 51",
-        "Hopkinsville",
-        "The Men in Black",
-        "Close Encounters",
-        "Curse of the Skinwalker",
-        "What Lies Beneath",
-        "Broken Arrow",
-        "Operation Mainbrace"
+        {
+          "aired": "2020-01-21",
+          "plot": "Hynek and Quinn follow General Harding to Roswell, New Mexico, where an anonymous townsperson has threatened to expose evidence to the world of an extraterrestrial crash-landing six years ago.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eFkmLx14Fgx36vVzWnuBKYuiJ2R.jpg",
+          "title": "The Roswell Incident - Part I"
+        },
+        {
+          "aired": "2020-01-28",
+          "plot": "Hynek and Quinn nearly reach a potential culprit, which could take them to just where they need to be to discover the truth behind the famous Roswell incident.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fhXNvz7EmTQZzEykkFPUti2nPBI.jpg",
+          "title": "The Roswell Incident - Part II"
+        },
+        {
+          "aired": "2020-02-04",
+          "plot": "Hynek and Quinn investigate reports of a soldier who was allegedly taken inside a flying saucer at a remote military base in Nevada, where they subsequently learn about the several reasons why the secrets contained in Area 51 should not be released.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7lBhnSL8sW08sEnejULZVApLrLb.jpg",
+          "title": "Area 51"
+        },
+        {
+          "aired": "2020-02-11",
+          "plot": "A supposed alien invades a rural home in Kentucky, which prompts the CIA to give Hynek and Quinn access to their top-secret program known as MK Ultra, which asserts that the alien attack has the potential to be the beginning of a larger plan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sp7q21kNJ1Hkw2RW6RnVXwOxFdK.jpg",
+          "title": "Hopkinsville"
+        },
+        {
+          "aired": "2020-02-18",
+          "plot": "The mysterious Man in Black kidnaps Hynek, which sends Quinn on a mission with the CIA to follow him and rescue Hynek.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oRnMYANVgZ3xZWR52iIIMrt3Ok1.jpg",
+          "title": "The Men in Black"
+        },
+        {
+          "aired": "2020-02-25",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1wCul9CDfbvyRwfo1w30ojXKDeQ.jpg",
+          "title": "Close Encounters"
+        },
+        {
+          "aired": "2020-03-03",
+          "plot": "Hynek and Quinn head to a Utah ranch to investigate a young family’s claims of unexplainable and dangerous phenomena.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7gZV9exno9G6lXS4aPt8Wui1rKr.jpg",
+          "title": "Curse of the Skinwalker"
+        },
+        {
+          "aired": "2020-03-10",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pkKERAjZe7N7799HfPAobfz1iZM.jpg",
+          "title": "What Lies Beneath"
+        },
+        {
+          "aired": "2020-03-17",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bKGbJd2ShHCj39jX6zX2tdeg3Jx.jpg",
+          "title": "Broken Arrow"
+        },
+        {
+          "aired": "2020-03-24",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dzHNSjeZElGCp8ILA6ASRLQOkkt.jpg",
+          "title": "Operation Mainbrace"
+        }
       ]
     }
   },

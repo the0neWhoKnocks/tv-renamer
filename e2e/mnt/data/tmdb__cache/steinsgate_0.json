@@ -1,40 +1,284 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Sci-Fi & Fantasy",
+    "Animation"
+  ],
   "id": 78102,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/339268/showbackground/steinsgate-0-5f8388e99bcf8.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/339268/tvposter/steinsgate-0-5daf21544cf1e.jpg"
+      ],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/7B4PGxWt9NrcFCEAegLSEuSyAeS.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/qOo0mPA228UIvEM4aoeLGp42tYp.jpg"
+    }
+  },
+  "mpaa": "",
   "name": "Steins;Gate 0",
+  "plot": "The dark untold story of Steins;Gate that leads with the eccentric mad scientist Okabe, struggling to recover from a failed attempt at rescuing Kurisu. He decides to give up and abandons his lively scientist alter ego, in pursuit to forget the past. When all seems to be normal, he is seemingly pulled back into the past by meeting an acquaintance of Kurisu, who tells him that they have begun testing a device that stores the memory of a human and creates a simulation of them with their characteristics and personalities. Okabe begins testing and finds out that the simulation of Kurisu has brought back anguish and some new unexpected tragedies.\n\nZero is a side story that explores events from the Beta Attractor Field's future that contribute in making the end of the original story possible.",
+  "premiered": "2018-04-12",
+  "status": "Ended",
+  "studios": [
+    "Tokyo MX"
+  ],
+  "actors": [
+    {
+      "name": "Yukari Tamura",
+      "order": 5,
+      "role": "Suzuha Amane",
+      "thumb": "/1VquTCcon9zDRbFZDSnbY7Pc425.jpg"
+    },
+    {
+      "name": "Mamoru Miyano",
+      "order": 0,
+      "role": "Rintarou Okabe",
+      "thumb": "/5bw3P0A3iCeXaBGWtuWwkmxnAh1.jpg"
+    },
+    {
+      "name": "Asami Imai",
+      "order": 1,
+      "role": "Kurisu Makise",
+      "thumb": "/duWEzCEjWrYn7fCDSUQYssmJ2Ya.jpg"
+    },
+    {
+      "name": "Kana Hanazawa",
+      "order": 2,
+      "role": "Mayuri Shiina",
+      "thumb": "/5bK9ttcRydQBWmyZp7gXDmJYOPF.jpg"
+    },
+    {
+      "name": "Tomokazu Seki",
+      "order": 4,
+      "role": "Hashida Itaru",
+      "thumb": "/4N6i4cgtbeUj5AJd8kiBZ2BxxEJ.jpg"
+    },
+    {
+      "name": "Sayuri Yahagi",
+      "order": 5,
+      "role": "Hiyajou Maho",
+      "thumb": "/z39U1UUNdSnPKVsbinxFObOy3vP.jpg"
+    },
+    {
+      "name": "Haruko Momoi",
+      "order": 6,
+      "role": "Akiha Rumiho",
+      "thumb": "/9sQMb6Xmazkv4sdxAJpMGnXGJQb.jpg"
+    },
+    {
+      "name": "Yū Kobayashi",
+      "order": 8,
+      "role": "Urushibara Ruka",
+      "thumb": "/q98lvBNhHvxGYfIvfB3YRczsTeE.jpg"
+    },
+    {
+      "name": "Megumi Han",
+      "order": 9,
+      "role": "Shiina Kagari",
+      "thumb": "/hbZsSUqFOLShJ29uY32UHdW7RYI.jpg"
+    },
+    {
+      "name": "Hina Kino",
+      "order": 10,
+      "role": "Kurushima Kaede",
+      "thumb": "/rdS2N6L1AhLkkUS1Aq8XOeYc3Mm.jpg"
+    },
+    {
+      "name": "Mariko Honda",
+      "order": 11,
+      "role": "Nakase Katsumi",
+      "thumb": "/rLSZXMSZpPhPWXyItco7r3EfkvN.jpg"
+    },
+    {
+      "name": "Masaki Terasoma",
+      "order": 12,
+      "role": "Tennouji Yuugo",
+      "thumb": "/eol7Ul4buAam9SmJDuFIWln0Cd3.jpg"
+    },
+    {
+      "name": "Yōji Ueda",
+      "order": 13,
+      "role": "Alexis Leskinen",
+      "thumb": "/uEwkH9kQnfgpSz0DiaJbc7OHZKG.jpg"
+    },
+    {
+      "name": "Saori Gotō",
+      "order": 14,
+      "role": "Kiryuu Moeka",
+      "thumb": "/5ZZKmt1rtDpr1TQeZGHBuZfQHWi.jpg"
+    },
+    {
+      "name": "Ayano Yamamoto",
+      "order": 15,
+      "role": "Tennouji Nae",
+      "thumb": "/f1eYV3oWGTlGv2lB1ztS6iOQZr8.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Valentine's of Crystal Polymorphism -Bittersweet Intermedio-"
+        {
+          "aired": "2018-12-21",
+          "plot": "Unaired episode included with the volume 6 BD/DVD release of Steins;Gate 0.\n\nA special day approaches during a lull in the chaos. It's that time of year to give chocolate to the ones you love, but not everyone finds that an easy task.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fh0ApRipDgq51oDxkrshxm9f7IS.jpg",
+          "title": "Valentine's of Crystal Polymorphism -Bittersweet Intermedio-"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Missing Link of the Annihilator -Absolute Zero-",
-        "Epigraph of the Closed Curve -Closed Epigraph-",
-        "Protocol of the Two-sided Gospel -X-day Protocol-",
-        "Solitude of the Mournful Flow -A Stray Sheep-",
-        "Solitude of the Astigmatism -Entangled Sheep-",
-        "Eclipse of Orbital Ordering -The Orbital Eclipse-",
-        "Eclipse of Vibronic Transition- Vibronic Transition",
-        "Dual of Antinomy- Antinomic Dual",
-        "Pandora of Eternal Return- Pandora's Box",
-        "Pandora of Provable Existence- Forbidden Cubicle",
-        "Pandora of Forgotten Existence- Sealed Reliquary",
-        "Mother Goose of Mutual Recursion- Recursive Mother Goose",
-        "Mother Goose of Distractive Recitativo- Distraction Mother Goose",
-        "Recognition of the Elastic Limit -Presage or Recognize-",
-        "Recognition of the Asymptotic Line -Recognize Asymptote-",
-        "Altair of the Point at Infinity -Vega and Altair-",
-        "Altair of the Hyperbolic Plane -Beltrami Pseudosphere-",
-        "Altair of Translational Symmetry -Translational Symmetry-",
-        "Altair of the Cyclic Coordinate -Time-leap Machine-",
-        "Rinascimento of the Unwavering Promise -Promised Rinascimento-",
-        "Rinascimento of Image Formation -Return of Phoenix-",
-        "Rinascimento of Projection -Project Amadeus-",
-        "Arclight of the Point at Infinity- Arclight of the Sky"
+        {
+          "aired": "2018-04-12",
+          "plot": "Though WWIII is on the horizon, Okabe attempts to live a normal college life. However, a newly developed AI is about to shake up his world.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xHkTdFpdTePArIOr0th8MT5zi7K.jpg",
+          "title": "Missing Link of the Annihilator -Absolute Zero-"
+        },
+        {
+          "aired": "2018-04-19",
+          "plot": "After a chance encounter with Maho where they discover knowing someone in common, Okabe has his first face-to-face with her special AI, Amadeus.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q5EnGAITegtisGCGdhaQtJr0DCp.jpg",
+          "title": "Epigraph of the Closed Curve -Closed Epigraph-"
+        },
+        {
+          "aired": "2018-04-25",
+          "plot": "Mayuri tries to bring everyone together for a Christmas party at the lab, but Okabe has a rude awakening.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gR6CgJDBMmm97nlJO8vEwnaYcPq.jpg",
+          "title": "Protocol of the Two-sided Gospel -X-day Protocol-"
+        },
+        {
+          "aired": "2018-05-03",
+          "plot": "While Okabe Rintarou briefly has a vision of a world line where he is caught up in the middle of a war, which he eventually comes to realize was his Reading Steiner taking effect. Meanwhile, Suzuha explains to Daru that she is looking for Kagari Shiina, Mayuri's future adopted daughter who time-traveled with her from the year 2036 but became separated from her in 1998. As Rintarou decides to help with the search, he gets a call from Ruka Urashibara about a pressing matter before finding Moeka before his doorstep. be is left with more questions than answers, Suzuha recruits help in her search for an unexpectedly close person.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/50v3q6WGwKQstuU4X4YQVnXmRbu.jpg",
+          "title": "Solitude of the Mournful Flow -A Stray Sheep-"
+        },
+        {
+          "aired": "2018-05-10",
+          "plot": "Their search continues as New Years swiftly approaches, though Ruka's dilemma with a certain guest might make matters worse.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/foAx1isxo9puGjknujypr2HGgtC.jpg",
+          "title": "Solitude of the Astigmatism -Entangled Sheep-"
+        },
+        {
+          "aired": "2018-05-17",
+          "plot": "Now that the girl's identity is known, Okabe and friends kick off the New Years with a shrine visit and party to never forget.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4Itq8KBhRZMXPdl9tcf8INu6grM.jpg",
+          "title": "Eclipse of Orbital Ordering -The Orbital Eclipse-"
+        },
+        {
+          "aired": "2018-05-23",
+          "plot": "The armed men attempt to abduct Kagari but are forced to flee empty-handed when Yugo Tennouji arrives and disarms them. Concluding that group are not the same Rounders he had previously encountered, Rintaro approaches Tennouji, using his knowledge over him being a member of a Rounders to acquire his help in protecting Kagari. Meanwhile, as Maho continues to find herself locked out of Amadeus, Ruka tries to question of Suzuha over what everyone is keeping from him. Later, Rintaro suddenly receives a distress call from Amadeus, at which point his Reading Steiner activates and he is sent to another world line where Kurisu is still alive.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yfwNouLYH7a77TBG6S9geHq0P5W.jpg",
+          "title": "Eclipse of Vibronic Transition- Vibronic Transition"
+        },
+        {
+          "aired": "2018-05-30",
+          "plot": "Rintaro soon comes to realise that he has once again ended up in the alpha world line where Mayuri is dead, as the Rintaro of this world line couldn't go through with sacrificing Kurisu in order to save her. Realising that this Rintaro came from another world line, Kurisu reveals she has rebuilt the Phone Microwave, asking him to use it to return to his world line. As Rintaro struggles with his decision, Kurisu takes him to Mayuri's grave, urging him to wake up from his dream. After advising Rintaro not to interact so much with Amadeus, Kurisu kisses Rintaro before sending a D-Mail, returning him to the beta world line.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/okZ3veQ5LQQrwVchIoUAkwxFQUU.jpg",
+          "title": "Dual of Antinomy- Antinomic Dual"
+        },
+        {
+          "aired": "2018-06-06",
+          "plot": "As Rintaro arrives back in the beta world line, where Amadeus' takeover has been prevented, he discovers Mayuri's friend Katsumi \"Fubuki\" Nakase, who was hospitalized after they both collapsed, has memories of the alpha world line he was just in. After arranging for Maho to stay with Faris after her hotel is burgled, Rintaro is questioned by Suzuha about the shift in world line, revealing that it was caused by time machine experiments by America and Russia. Fearing she is running out of time, Suzuha tries to force Rintaro to go back in time with her, but Daru convinces her to stop. Later, Tennouji informs Rintaro about an organisation known as DURPA, leading him to suspect that they may be targeting Amadeus in order to obtain Kurisu's time machine theory. Rintaro asks Maho if she possesses any of Kurisu's research, but she lies and keeps secret from him the fact she has Kurisu's personal laptop.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s3fakS6tW2z3CyDT7Z0kygrN6Ov.jpg",
+          "title": "Pandora of Eternal Return- Pandora's Box"
+        },
+        {
+          "aired": "2018-06-14",
+          "plot": "Hiring Moeka as a bodyguard, Maho gets Amadeus running again and resumes testing with Rintaro before having a slumber party with Faris and Moeka. The next day, Rintaro, Maho, and Amadeus spend the day going around Akihabara, ending up at the Radio Building where Kurisu was killed. After Maho reveals to him that she possesses Kurisu's laptop, Rintaro warns her that the data on it is what will spark World War III.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tBQ2mWt1WB8OG3ZlwbkQkUmNmAK.jpg",
+          "title": "Pandora of Provable Existence- Forbidden Cubicle"
+        },
+        {
+          "aired": "2018-06-21",
+          "plot": "Meeting up with Daru, who had been hired by Maho to analyze Kurisu's laptop, Rintaro decides to tell Maho the truth about time machines, warning her that she mustn't attempt to use one herself to save Kurisu. The group become surrounded by a hostile group who take Maho hostage, demanding the laptop in exchange. However, another group appears and destroys the laptop, leaving Maho upset that she couldn't protect Kurisu's legacy. Later, Maho and Alexis return to America, bringing Rintaro's time with Amadeus to an end.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bzvjrOyNfuqHPxaLImnXYWA8GsM.jpg",
+          "title": "Pandora of Forgotten Existence- Sealed Reliquary"
+        },
+        {
+          "aired": "2018-06-28",
+          "plot": "Kagari collapses again after hearing Mayuri singing a song, which Rintaro believes may be a hint to regaining her memories. He finds that Mayuri had learned the song from Suzuha, who herself had learned it from Yuki in the future. Yuki then reveals she had learned the song from Rintaro's mother, who claims he was the one who sang it to her back when he first started his mad scientist phase. While visiting Mayuri's grandmother's grave for any clues, Kagari goes into a daze upon hearing a song on the radio and almost gets hit by a truck, after which she regains her memories of Mayuri being her mother. It is then revealed that Rintaro had learned the song from Kagari herself years ago, when a mysterious organization spotted her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/juA1OzM9uuoLlPnPdNhY7IM0N61.jpg",
+          "title": "Mother Goose of Mutual Recursion- Recursive Mother Goose"
+        },
+        {
+          "aired": "2018-07-04",
+          "plot": "Despite Kagari regaining her childhood memories of Mayuri, who is informed about her future relationship with her, Rintaro and Daru remain curious about what happened during the past twelve years that she still doesn't remember. During an argument with her, Suzuha notices a contradiction in Kagari's recollection of their seperation, with Tennouji suggesting to Rintaro that it may be the result of brainwashing by a third party. The next day, Rintaro goes with Moeka to investigate an abandoned building located near where Kagari was found, discovering it to be a secret facility where Kagari was being held captive. Meanwhile, as Kagari heads towards a party held by Mayuri, she hears a song that causes more memories to resurface, at which point she starts hearing a voice and disappears somewhere.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8N6iXmVuYRifw8efvbSLQ9XvmDt.jpg",
+          "title": "Mother Goose of Distractive Recitativo- Distraction Mother Goose"
+        },
+        {
+          "aired": "2018-07-18",
+          "plot": "Shocked by a surprise attack, Suzuha and Daru look to America as their last hope to save the world.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pHOARY4I17H2VToUNS4sEGvgNte.jpg",
+          "title": "Recognition of the Elastic Limit -Presage or Recognize-"
+        },
+        {
+          "aired": "2018-07-25",
+          "plot": "Fed up with her Dad's passiveness, Suzuha must make a man out of Daru before Yuki ends up with somebody else.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7PxxBLPv1teToLGajIbxwv3YKu6.jpg",
+          "title": "Recognition of the Asymptotic Line -Recognize Asymptote-"
+        },
+        {
+          "aired": "2018-08-01",
+          "plot": "Okabe's stubbornness causes fists to fly and tears to be shed as the deadline for using the time machine swiftly approaches.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AtU5hGozo4P3GyiVHFdvXDY7Ci8.jpg",
+          "title": "Altair of the Point at Infinity -Vega and Altair-"
+        },
+        {
+          "aired": "2018-08-08",
+          "plot": "As Suzuha sets off to finish her mission, Mayuri finds determination of her own. But then, disaster strikes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wdAzdeRMqGdBmM69LfJkkpWAKIo.jpg",
+          "title": "Altair of the Hyperbolic Plane -Beltrami Pseudosphere-"
+        },
+        {
+          "aired": "2018-08-15",
+          "plot": "All hell breaks loose over the time machine when a villain from the future haunts the past and unveils their devious plan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dkRTlWDrxP2jhHt5OhpqjatEJYw.jpg",
+          "title": "Altair of Translational Symmetry -Translational Symmetry-"
+        },
+        {
+          "aired": "2018-08-23",
+          "plot": "War and disaster has come, and the only way Okabe can stop it is to rely on his friends, determination, and hope.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/asQwAITmCpCXGHodollNMj4M20V.jpg",
+          "title": "Altair of the Cyclic Coordinate -Time-leap Machine-"
+        },
+        {
+          "aired": "2018-09-06",
+          "plot": "Okabe awakes in a cold, lifeless world where he finds his friends struggling to survive amidst all the chaos.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mQvdOmMIqdXfAEOqJGdEkeA3XMb.jpg",
+          "title": "Rinascimento of the Unwavering Promise -Promised Rinascimento-"
+        },
+        {
+          "aired": "2018-09-12",
+          "plot": "Setting forth on a long and arduous journey, Okabe seeks to rekindle his hope and revive what all had thought gone.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mn2PrCyZwUENWckLpsjHjVsVMhN.jpg",
+          "title": "Rinascimento of Image Formation -Return of Phoenix-"
+        },
+        {
+          "aired": "2018-09-19",
+          "plot": "In their struggle to save the time machine, the lab members brainstorm to circumvent convergence but realize it cannot be done without sacrifice.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6I0xNNgEOZJRSo0zsxIj2UOJkSl.jpg",
+          "title": "Rinascimento of Projection -Project Amadeus-"
+        },
+        {
+          "aired": "2018-09-26",
+          "plot": "Arriving in a world line where Amadeus doesn't exist, Rintaro heads towards the roof, receiving help from Moeka in getting past Leskinen. As Rintaro urges Mayuri and Suzuha to head to the past, Kagari, who decides to place her faith in Rintaro, helps him to hold back the enemy just long enough for the time machine to successfully leave before the helicopter attacks. Arriving just before Rintaro returns from his failed rescue attempt, Mayuri calls her past self and encourages her to set Rintaro on the right path, after which she and Suzuha are forced to jump into a random time period to avoid causing a time paradox. The past Mayuri slaps Rintaro to knock him back to his senses, and then receives a D-mail from Rintaro. In the year 2025, Rintaro sends his past self a video instructing him on how to save both Mayuri and Kurisu and reach Steins;Gate before setting off in a time machine in order to find Mayuri and Suzuha. Meanwhile, Mayuri and Suzuha are trapped somewhere at an unknown barren land in the year 18,000 BC when they see Rintaro arrive in his time machine to rescue them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m5qBHFbRw5tC34EnjOrfu0jp2Gw.jpg",
+          "title": "Arclight of the Point at Infinity- Arclight of the Sky"
+        }
       ]
     }
   },

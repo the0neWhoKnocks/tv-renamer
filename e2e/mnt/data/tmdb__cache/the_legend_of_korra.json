@@ -1,88 +1,629 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Action & Adventure",
+    "Animation",
+    "Drama",
+    "Family",
+    "Sci-Fi & Fantasy"
+  ],
   "id": 33880,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/251085/clearart/the-legend-of-korra-4f96100ce0253.png",
+        "https://assets.fanart.tv/fanart/tv/251085/clearart/the-legend-of-korra-4fa03aae4fdc9.png",
+        "https://assets.fanart.tv/fanart/tv/251085/clearart/the-legend-of-korra-4f9676f865379.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4fa03a85ca224.png",
+        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4f96697450f58.png",
+        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4fa03a9c39930.png",
+        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4faefc0d97a8a.png"
+      ],
+      "seasonPoster": {
+        "0": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-54318c3f09617.jpg"
+        ],
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-54304668a16ab.jpg",
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c98ebe106.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5430467b18bf0.jpg",
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c9a56fbf6.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5430468f836e9.jpg",
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c9baad16d.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-543046a8b1ca1.jpg",
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c9d44f9eb.jpg"
+        ],
+        "all": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c39d6e8edabb.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543064b28ef43.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543064c6944ca.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543064d4c51e1.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543065078f161.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-53d6e167c5e1f.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-5522435ac48c9.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-551ffc7c2a972.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-551ffcbed5bcf.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215d8c7bb52.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215d9d04254.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215db25e2dd.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215e3d75ffd.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-552243ace7cdc.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-5522448e5fb59.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-552260ec445e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-53d6e0ea9e312.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/251085/tvbanner/the-legend-of-korra-55d2648d2faec.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvbanner/the-legend-of-korra-55d264c75a8da.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-53d2d6774a9e6.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-5c35c94b572a4.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325b66a0b7.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0a19a.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0a827.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0ad12.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa189c26df85.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa03abe2ef9b.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4f9679ff280a6.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa22ab9eb6fd.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/hmrNfrUl3FFaymDj6Iw5oKQjIs2.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/5ppmZN3AbBsWKesTBGSStYJR4R1.jpg"
+    }
+  },
+  "mpaa": "TV-Y7",
   "name": "The Legend of Korra",
+  "plot": "Avatar Korra, a headstrong, rebellious, feisty young woman who continually challenges and breaks with tradition, is on her quest to become a fully realized Avatar. In this story, the Avatar struggles to find balance within herself.",
+  "premiered": "2012-04-14",
+  "status": "Ended",
+  "studios": [
+    "Nickelodeon"
+  ],
+  "actors": [
+    {
+      "name": "Dee Bradley Baker",
+      "order": 14,
+      "role": "Naga (voice)",
+      "thumb": "/fpGmSNSkwTaixEGAwC14A88JYAH.jpg"
+    },
+    {
+      "name": "Janet Varney",
+      "order": 0,
+      "role": "Korra (voice)",
+      "thumb": "/3oMQf9mtVXXXKF2FhUH7kCIOOIf.jpg"
+    },
+    {
+      "name": "David Faustino",
+      "order": 1,
+      "role": "Mako (voice)",
+      "thumb": "/dNqoFIPkusGDUjjIAX0jmtQV47v.jpg"
+    },
+    {
+      "name": "Maria Bamford",
+      "order": 2,
+      "role": "Pema (voice)",
+      "thumb": "/AenlRNiFPypdVSKwSeFxOdtP3B4.jpg"
+    },
+    {
+      "name": "P. J. Byrne",
+      "order": 2,
+      "role": "Bolin (voice)",
+      "thumb": "/sKqr3A3LjLYlRCXJGJI8rjpdMOs.jpg"
+    },
+    {
+      "name": "Seychelle Gabriel",
+      "order": 3,
+      "role": "Asami Sato (voice)",
+      "thumb": "/mZoS8xFXJht2s2O4duwmEWoKlqD.jpg"
+    },
+    {
+      "name": "J.K. Simmons",
+      "order": 3,
+      "role": "Tenzin (voice)",
+      "thumb": "/7kIiPojgSVNRXb5z0hiijcD5LJ6.jpg"
+    },
+    {
+      "name": "Kiernan Shipka",
+      "order": 4,
+      "role": "Jinora (voice)",
+      "thumb": "/aZeL5x1QfJ9LVpXfpTzyQilJTjN.jpg"
+    },
+    {
+      "name": "Mindy Sterling",
+      "order": 10,
+      "role": "Lin Beifong (voice)",
+      "thumb": "/hX99KTTCFxB4a2rB1SpDbr8imrK.jpg"
+    },
+    {
+      "name": "Darcy Rose Byrnes",
+      "order": 13,
+      "role": "Ikki (voice)",
+      "thumb": "/hR5Jk5VEiPAwKdphtsUhjQnI3A0.jpg"
+    },
+    {
+      "name": "Logan Wells",
+      "order": 18,
+      "role": "Meelo (voice)",
+      "thumb": "/qZMaVIUDxHK1hrpB8CkeHtxht23.jpg"
+    },
+    {
+      "name": "Richard Epcar",
+      "order": 4,
+      "role": "Two Toed Ping (voice)",
+      "thumb": "/m24OJXHsHNz3577uBrNURbyn7Fa.jpg"
+    },
+    {
+      "name": "Tom Kenny",
+      "order": 10,
+      "role": "Referee (voice)",
+      "thumb": "/o6sC2IsjL7KncT4pZBOx4T0WKhM.jpg"
+    },
+    {
+      "name": "Daniel Dae Kim",
+      "order": 8,
+      "role": "Hiroshi Sato (voice)",
+      "thumb": "/aXbTKgL4u6oVumQ459B9VkGTn4A.jpg"
+    },
+    {
+      "name": "Jeff Bennett",
+      "order": 12,
+      "role": "Shiro Shinobi (voice)",
+      "thumb": "/p78svoOr99IA2oBOUzAH9cnPOwf.jpg"
+    },
+    {
+      "name": "Lance Henriksen",
+      "order": 5,
+      "role": "Lieutenant (voice)",
+      "thumb": "/ieo8Zbw30UAPAscGOI6090VhL4I.jpg"
+    },
+    {
+      "name": "Skyler Brigmann",
+      "order": 12,
+      "role": "Kai (voice)",
+      "thumb": "/gEkXIPvDSr6OJXJ21lSMv6A7Hpa.jpg"
+    },
+    {
+      "name": "Rami Malek",
+      "order": 2,
+      "role": "Tahno (voice)",
+      "thumb": "/zvBCjFmedqXRqa45jlLf6vBd9Nt.jpg"
+    },
+    {
+      "name": "Aubrey Plaza",
+      "order": 13,
+      "role": "Eska",
+      "thumb": "/85Z7trh6zqdjf21PeYIUmTWeKhW.jpg"
+    },
+    {
+      "name": "D. B. Sweeney",
+      "order": 0,
+      "role": "",
+      "thumb": "/enY28APVRWfyHjGAkh6VCkYCWOA.jpg"
+    },
+    {
+      "name": "Steve Blum",
+      "order": 3,
+      "role": "Amon (voice)",
+      "thumb": "/cpO0muunoigq1WHegeOEI1AIQAo.jpg"
+    },
+    {
+      "name": "Carlos Alazraqui",
+      "order": 6,
+      "role": "Additional Voices (voice)",
+      "thumb": "/rv3ZYwFvMCz6rQNJR4p0wRMbK9U.jpg"
+    },
+    {
+      "name": "Dave Thomas",
+      "order": 7,
+      "role": "Additional Voices (voice)",
+      "thumb": "/aUU8H9o4jgOyV7D6nULrEiwi6mV.jpg"
+    },
+    {
+      "name": "Michael Yurchak",
+      "order": 8,
+      "role": "Additional Voices (voice)",
+      "thumb": "/etbEVuqkux2LmeZBSXeGzQZW7ee.jpg"
+    },
+    {
+      "name": "Jason Harris",
+      "order": 10,
+      "role": "Ring Announcer (voice)",
+      "thumb": "/akEgMPo2vC5Twf84rOAwaE60yIe.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Republic City Hustle: Part 1",
-        "Republic City Hustle: Part 2",
-        "Republic City Hustle: Part 3",
-        "The Re-Telling of Korras Journey",
-        "The Legend of Puppetbender: The Making of a Legend - The Untold Story"
+        {
+          "aired": "2013-08-09",
+          "plot": "Mako and Bolin enter the crime-ridden underworld of Republic City where you either hustle, or get hustled.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/792abaRoKSHVjbmINvQsPzmeufv.jpg",
+          "title": "Republic City Hustle- Part 1"
+        },
+        {
+          "aired": "2013-08-16",
+          "plot": "While collecting that for the big match, Bolin reminds Toza of the past while creating a future for a new friend.",
+          "thumbnail": "",
+          "title": "Republic City Hustle- Part 2"
+        },
+        {
+          "aired": "2013-08-23",
+          "plot": "Mako and Bolin make a bet that could change the game forever.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/g0JjkxqtIN2H8Jg4dvi475TOt25.jpg",
+          "title": "Republic City Hustle- Part 3"
+        },
+        {
+          "aired": "",
+          "plot": "Review of season 1.",
+          "thumbnail": "",
+          "title": "The Re-Telling of Korras Journey"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "The Legend of Puppetbender- The Making of a Legend - The Untold Story"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Welcome to Republic City",
-        "A Leaf in the Wind",
-        "The Revelation",
-        "The Voice in the Night",
-        "The Spirit of Competition",
-        "And the Winner is...",
-        "The Aftermath",
-        "When Extremes Meet",
-        "Out of the Past",
-        "Turning the Tides",
-        "Skeletons in the Closet",
-        "Endgame"
+        {
+          "aired": "2012-04-14",
+          "plot": "Korra, the new Avatar, travels to Republic city to start her Airbending training.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rxB7UzsYL3sULMcqYcBNBmNyB40.jpg",
+          "title": "Welcome to Republic City"
+        },
+        {
+          "aired": "2012-04-14",
+          "plot": "Against Tenzin's prohibition, a frustrated Korra sneaks out to visit the pro-bending sports arena.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7FnBpFDNORX6YGPa0SqbJP5QBKI.jpg",
+          "title": "A Leaf in the Wind"
+        },
+        {
+          "aired": "2012-04-21",
+          "plot": "Korra attempts to infiltrate the Equalist movement and learn more about its mysterious leader.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8bs59H5mjYLR7ulnQG8ectVSfSy.jpg",
+          "title": "The Revelation"
+        },
+        {
+          "aired": "2012-04-28",
+          "plot": "Korra becomes part of Councilman Tarrlok's task force which aims to rid Republic City of the Equalists.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/19xNVPVSfMYssEpHEG4NSGCuXP6.jpg",
+          "title": "The Voice in the Night"
+        },
+        {
+          "aired": "2012-05-05",
+          "plot": "As Asami steals Mako's heart, Korra struggles to express her feelings for Mako and also at the same time Bolin tries to win Korra's heart by being brave enough to ask Korra to go out with him. The tension gets higher as the Pro bending tournament starts.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jFTYcFVXPOeRSAubpWH76t0SZHm.jpg",
+          "title": "The Spirit of Competition"
+        },
+        {
+          "aired": "2012-05-12",
+          "plot": "Korra and the Fire Ferrets are in the pro-bending championship, but will the Equalists allow the game to go on?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t7sg3EY4nPcGOz05bwX2Ea9OhsK.jpg",
+          "title": "And the Winner is..."
+        },
+        {
+          "aired": "2012-05-19",
+          "plot": "Korra suspects that an ally is working with the Equalists.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fSa7o3FcwArptHikthalGAuVTbv.jpg",
+          "title": "The Aftermath"
+        },
+        {
+          "aired": "2012-06-02",
+          "plot": "Korra faces off with Councilman Tarrlok as Equalist activity continues to rise in Republic City.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6mbkwHLEuxPXC8kBf4TQtWK6mKW.jpg",
+          "title": "When Extremes Meet"
+        },
+        {
+          "aired": "2012-06-09",
+          "plot": "After being imprisoned by Tarrlok, Korra attempts to analyze the mysterious visions she has been having. Meanwhile, Tenzin, Lin, Mako, Bolin and Asami search for Korra, having been given false information by Tarrlok.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/arzwQaAjumNd7zE53pf7t4VpxjI.jpg",
+          "title": "Out of the Past"
+        },
+        {
+          "aired": "2012-06-16",
+          "plot": "The Equalists begin their attack on Republic City.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4bMT828aaNIhswrw7sWac6vby8J.jpg",
+          "title": "Turning the Tides"
+        },
+        {
+          "aired": "2012-06-23",
+          "plot": "Korra goes undercover as the war between benders and non-benders intensifies.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iPMLEQyqElKsHZk0PiT0zJWFUQ.jpg",
+          "title": "Skeletons in the Closet"
+        },
+        {
+          "aired": "2012-06-23",
+          "plot": "The duel between Amon and Korra - will Korra be powerful enough to beat Amon?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cKFqN32VbmfAm2wSOt1GNHNdaEh.jpg",
+          "title": "Endgame"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Rebel Spirit",
-        "The Southern Lights",
-        "Civil Wars (1)",
-        "Civil Wars (2)",
-        "Peacekeepers",
-        "The Sting",
-        "Beginnings (1)",
-        "Beginnings (2)",
-        "The Guide",
-        "A New Spiritual Age",
-        "Night of a Thousand Stars",
-        "Harmonic Convergence",
-        "Darkness Falls",
-        "Light in the Dark"
+        {
+          "aired": "2013-09-13",
+          "plot": "Korra struggles to find a deeper connection with the Spirit World as she and the gang attend a Southern Water Tribe festival.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/deLGV202U8erTPTvyXaqyLQKcD5.jpg",
+          "title": "Rebel Spirit"
+        },
+        {
+          "aired": "2013-09-13",
+          "plot": "Korra and Chief Unalaq journey into a dangerous maelstrom and find a source of great spiritual power.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bqr3moChSMkSIDquutpCluL1E4l.jpg",
+          "title": "The Southern Lights"
+        },
+        {
+          "aired": "2013-09-20",
+          "plot": "While tensions flare between the Northern and Southern Water Tribes, Korra struggles to remain neutral.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gxQWnbcK3CkUddw0dgjwotyJGU7.jpg",
+          "title": "Civil Wars (1)"
+        },
+        {
+          "aired": "2013-09-27",
+          "plot": "When Korra's parents are wrongfully arrested, Korra fights for their freedom.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iWUsMZzBaUGwTQjw5YcK159CmTV.jpg",
+          "title": "Civil Wars (2)"
+        },
+        {
+          "aired": "2013-10-04",
+          "plot": "When the President of the United Republic refuses to help Korra, she decides to take matters into her own hands.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d7UUYU3FKBAH8PHQOqELpgVzbky.jpg",
+          "title": "Peacekeepers"
+        },
+        {
+          "aired": "2013-10-11",
+          "plot": "When Triad activity threatens to put Future Industries out of business, Mako performs an investigation and discovers a much bigger conspiracy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d5eOBrjAjxQb7KO77C4h9aoF9aD.jpg",
+          "title": "The Sting"
+        },
+        {
+          "aired": "2013-10-18",
+          "plot": "Korra learns about the epic and mythic origins of the first Avatar.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oz3X1elprfQsDpM5lSt4VImDDi4.jpg",
+          "title": "Beginnings (1)"
+        },
+        {
+          "aired": "2013-10-18",
+          "plot": "Korra delves deeper into the Avatar's past and realizes what she must do in order to restore balance between the physical and spirit worlds.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/67Er0biH04tU2jjT6wOvtvDI4Kn.jpg",
+          "title": "Beginnings (2)"
+        },
+        {
+          "aired": "2013-11-01",
+          "plot": "Korra seeks Tenzin's help to enter the Spirit World for the first time.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uuObaC9UP3EWtiyUw4H37q9ynLN.jpg",
+          "title": "The Guide"
+        },
+        {
+          "aired": "2013-11-08",
+          "plot": "Korra enters the Spirit World and struggles with the Avatar's relationship with the spirits.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4hfHZHJHYuEuz6YMmsH2oLRgY6J.jpg",
+          "title": "A New Spiritual Age"
+        },
+        {
+          "aired": "2013-11-15",
+          "plot": "When President Raiko is attacked, Bolin saves the day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gPV6XQ8AKoXARsykHsVRvgVfSBg.jpg",
+          "title": "Night of a Thousand Stars"
+        },
+        {
+          "aired": "2013-11-15",
+          "plot": "Korra and company attempt to close the spirit portals before Harmonic Convergence.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fJ6x70fg6uJpc1hyCFL2Zvb08Tf.jpg",
+          "title": "Harmonic Convergence"
+        },
+        {
+          "aired": "2013-11-22",
+          "plot": "Korra discovers a new twist in Unalaq's evil plan. Meanwhile, Tenzin realizes he must face his own demons in order to save his daughter.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5tGbOQEIORNYBqSWZ31iZVflV5w.jpg",
+          "title": "Darkness Falls"
+        },
+        {
+          "aired": "2013-11-22",
+          "plot": "Korra discovers a way she may be able to defeat the ultimate dark spirit and save the world.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nunitPOBzKLYNK3tlG1LnsMS8b0.jpg",
+          "title": "Light in the Dark"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "A Breath of Fresh Air",
-        "Rebirth",
-        "The Earth Queen",
-        "In Harm's Way",
-        "The Metal Clan",
-        "Old Wounds",
-        "Original Airbenders",
-        "The Terror Within",
-        "The Stakeout",
-        "Long Live the Queen",
-        "The Ultimatum",
-        "Enter the Void",
-        "Venom of the Red Lotus"
+        {
+          "aired": "2014-06-27",
+          "plot": "After the events of Harmonic Convergence, Korra has her hands full with trying to remove all the spirit vines that have overgrown Republic City. Her lack of success strains her relationship with President Raiko and brings down her approval rate among the city's populace. When airbenders are suddenly popping up across the world and causing more trouble for the city, President Raiko demands Korra to leave the city, which she takes as an opportunity to travel the world to find the new airbenders. Meanwhile, a dangerous criminal uses his newfound airbending abilities to escape.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7YBNR5q2xmqnxGtqa0gur9F3UR7.jpg",
+          "title": "A Breath of Fresh Air"
+        },
+        {
+          "aired": "2014-06-27",
+          "plot": "Tenzin, Jinora, and Team Avatar travel toward Ba Sing Se in order to find the new airbenders. Stopping at various villages along the way, they hope to recruit them in order to rebuild the Air Nation, though with little success as they were only able to convince a young boy named Kai to join them. Meanwhile, Zaheer travels the four nations to free his fellow criminals from their prison. After freeing Ghazan and Ming-Hua, they set course for the Northern Water Tribe to free their last member, P'Li. Upon learning of their escape, Lord Zuko sets course for the Northern Water Tribe himself in an attempt to stop them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ziYqxtdomIjYqJV7iaaSFPU2S2h.jpg",
+          "title": "Rebirth"
+        },
+        {
+          "aired": "2014-06-27",
+          "plot": "Team Avatar arrives in Ba Sing Se. While Korra has an audience with the Earth Queen, the others notice that Kai has gone missing, prompting Mako and Bolin to go look for him. They track him down, but he manages to shake them in the monorail, which takes the brothers to the Lower Ring, where they eventually run into their family from their father's side. Meanwhile, Korra and Asami set course for a small village to collect taxes as a favor to the Queen. After getting her money, the Queen brushes off Korra's request for help in tracking down the airbenders, leaving the Avatar to storm out of the palace. In the city, Kai found himself arrested by the Dai Li and subsequently conscripted in the Earth Queen's first airbending regiment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wm5b2Y9XqhVAyj0PJ424ClPgZtq.jpg",
+          "title": "The Earth Queen"
+        },
+        {
+          "aired": "2014-07-11",
+          "plot": "Lord Zuko, Tonraq, Desna, and Eska try to prevent Zaheer from freeing the last prisoner, P'Li, while Korra discovers that the Earth Queen is forcing all the airbenders in Ba Sing Se to join her army. Team Avatar thus devises a plan to free them from the monarch's captivity.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nE8XTR1sxBwneEKtyRKJEKo2lR8.jpg",
+          "title": "In Harm's Way"
+        },
+        {
+          "aired": "2014-07-11",
+          "plot": "Korra's quest leads her and her friends to the metal city of Zaofu.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1DGuf0HLWWvpOiVtztDMlSRKxQZ.jpg",
+          "title": "The Metal Clan"
+        },
+        {
+          "aired": "2014-07-18",
+          "plot": "Per Su's suggestion, Korra begins to learn metalbending. Opal admits her reluctance to leave Zaofu due to her obligations to her family while Bolin deals with his fear of learning how to bend metal. Meanwhile, Lin faces her past during an acupuncture sessions, forcing her to relive the circumstances which led to her and Su's strained relationship. After a cathartic release of her repressed emotions, Lin makes amends with her sister as well as Opal, who she convinces to travel to the Northern Air Temple to train with Tenzin. Elsewhere, Zaheer and his group determine Korra's whereabouts shortly after escaping Republic City, deducing that she was under the Metal Clan's protection in Zaofu.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vRttEhr8eTBAsutZop26yCxP1Mu.jpg",
+          "title": "Old Wounds"
+        },
+        {
+          "aired": "2014-07-18",
+          "plot": "Despite Bumi's bad attitude, Tenzin attempts to train the new members of the Air Nation with little success. Things become more complicated for the airbending master as Jinora, with Kai's influence, begins to exert her independence and demand her airbending tattoos. The new airbenders are tested when they are forced to face a group of bison rustlers who have taken Jinora and Kai along with several bison calves.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jEnZQcJI1T81MlsCUqhO0VJORDr.jpg",
+          "title": "Original Airbenders"
+        },
+        {
+          "aired": "2014-07-25",
+          "plot": "Zaheer and his gang try to kidnap Korra.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dxhHf3exNKTPRfkfipo775ZFgZ0.jpg",
+          "title": "The Terror Within"
+        },
+        {
+          "aired": "2014-08-01",
+          "plot": "Korra learns the truth about the group that is planning to destroy her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3sVrcSVGtOTvcmPWcz30eCD8s77.jpg",
+          "title": "The Stakeout"
+        },
+        {
+          "aired": "2014-08-08",
+          "plot": "Korra and Asami are stranded in the desert. The members of The Red Lotus negotiate with the Earth Queen.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/k94qlK8ZjRLWKr7IcGLdHZToKZl.jpg",
+          "title": "Long Live the Queen"
+        },
+        {
+          "aired": "2014-08-15",
+          "plot": "Mako and Bolin deliver an ominous message from Zaheer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pGXfa0ivWZHqtDr2r8DU4xPN0CK.jpg",
+          "title": "The Ultimatum"
+        },
+        {
+          "aired": "2014-08-22",
+          "plot": "When other plans fail, Korra suggests a brave idea to take on the Red Lotus and save the Air Nation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wmXI0zc26ZYkF8oiNy0MNsx1TGf.jpg",
+          "title": "Enter the Void"
+        },
+        {
+          "aired": "2014-08-22",
+          "plot": "Korra battles Zaheer, while Bolin and Mako duel Ghazan and Ming-Hua. The captive members of the Air Nation escape and band together to help Korra.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/glqHWJvop38kUawoKXDdnPCjgA5.jpg",
+          "title": "Venom of the Red Lotus"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "After All These Years",
-        "Korra Alone",
-        "The Coronation",
-        "The Calling",
-        "Enemy at the Gates",
-        "Battle of Zaofu",
-        "Reunion",
-        "Remembrances",
-        "Beyond the Wilds",
-        "Operation: Beifong",
-        "Kuvira's Gambit",
-        "Day of the Colossus",
-        "The Last Stand"
+        {
+          "aired": "2014-10-03",
+          "plot": "It's been three years since Zaheer poisoned Korra and the members of Team Avatar have moved on with their lives; Kai and Opal help a struggling Earth Kingdom town.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5FMM9bvo6ENuq2SJS6XDKcDjsA8.jpg",
+          "title": "After All These Years"
+        },
+        {
+          "aired": "2014-10-10",
+          "plot": "Korra's three-year journey of healing takes her to unexpected places.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e5QJnXMYD0Fz8GnvaSYc9TNtj92.jpg",
+          "title": "Korra Alone"
+        },
+        {
+          "aired": "2014-10-17",
+          "plot": "Prince Wu's big day is ruined by Kuvira; Korra thinks she may have found the key to a full recovery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fOEig2jRmm8NDtKWVDbz2pmDPK7.jpg",
+          "title": "The Coronation"
+        },
+        {
+          "aired": "2014-10-24",
+          "plot": "While the young airbenders look far and wide for Korra, Ikki is briefly captured by two Earth Empire soldiers. Based on what they say, Ikki leads the trio to the swamp. There, Korra is still haunted by visions of being hurt by her past enemies, but manages to connect to the siblings through the great banyan-grove tree's roots. After they beg her to resume her Avatar duties to face Kuvira, Toph's advice helps Korra to let go of her fears, bend the rest of the poison out of herself and re-enter the Avatar State.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vmBXqMEwDSlEhhMdnkn42utHM3W.jpg",
+          "title": "The Calling"
+        },
+        {
+          "aired": "2014-10-31",
+          "plot": "Kuvira threatens Zaofu; Bolin is caught in the middle of the bad blood between Su Beifong and Kuvira.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yZSgjeZafgqUYHWBYdfuSK8z9zO.jpg",
+          "title": "Enemy at the Gates"
+        },
+        {
+          "aired": "2014-11-07",
+          "plot": "Korra returns to her role as the Avatar, but is she really ready for action? Bolin and Varrick break from Kuvira's army.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vKlISfDACYJxHnNJnJ3xkwmzXfw.jpg",
+          "title": "Battle of Zaofu"
+        },
+        {
+          "aired": "2014-11-14",
+          "plot": "Korra returns to Republic City and Team Avatar faces their first mission together in three years when Prince Wu goes missing; Bolin and Varrick are on the lam.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cNlLuS0Xfws3MgG1LeQvzm3uzmj.jpg",
+          "title": "Reunion"
+        },
+        {
+          "aired": "2014-11-21",
+          "plot": "In a clip show episode, Mako, Korra, and Bolin recollect their past. Mako tells Wu about his romantic entanglements and eventual breakup with Asami and Korra. Korra talks to Asami about her confrontations with Amon, Unalaq, Vaatu, and Zaheer. Varrick presents Bolin's life to the Earth Empire refugees in the style of an action film in which Bolin defeats all of Korra's previous enemies.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yG0H77SCWKkB7L6VMeArYNgUseh.jpg",
+          "title": "Remembrances"
+        },
+        {
+          "aired": "2014-11-28",
+          "plot": "The spirit vines in Republic City start abducting people and it's up to Korra to figure out why.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fgCiWg5JZpc3bcN2ttBxdSRvoA9.jpg",
+          "title": "Beyond the Wilds"
+        },
+        {
+          "aired": "2014-12-05",
+          "plot": "Bolin helps Opal and Lin save the Beifongs from Kuvira. Korra visits the Spirit World looking for help.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o5FrsNhADbyfLhBzRQuGY1XZfbB.jpg",
+          "title": "Operation- Beifong"
+        },
+        {
+          "aired": "2014-12-12",
+          "plot": "Korra and Team Avatar try to stop Kuvira from moving against Republic City; Kuvira unveils a deadly new weapon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ou6pnScKzH1IbaKgWetxCUAwy2R.jpg",
+          "title": "Kuvira's Gambit"
+        },
+        {
+          "aired": "2014-12-18",
+          "plot": "Team Avatar clashes with Kuvira on the streets of Republic City; Pema and Prince Wu help evacuate innocent citizens.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2q280iSy1s3iyN0iF5OSMcUBCB9.jpg",
+          "title": "Day of the Colossus"
+        },
+        {
+          "aired": "2014-12-18",
+          "plot": "The fate of the Earth Kingdom and the Avatar's life is at stake, when Korra comes face to face with Kuvira.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kbrMScIRyNPJOE6pj3QJo1MweQ1.jpg",
+          "title": "The Last Stand"
+        }
       ]
     }
   },

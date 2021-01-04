@@ -1,17 +1,156 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Crime",
+    "Drama",
+    "Mystery"
+  ],
   "id": 81239,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "01": [
+          "https://assets.fanart.tv/fanart/tv/349997/seasonposter/i-am-the-night-5e2c0142c99b1.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "01": [
+          "https://assets.fanart.tv/fanart/tv/349997/seasonthumb/i-am-the-night-5e2c0203a77ce.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5c5a2e1e5b5f3.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5e2c021b78bb7.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5e2c0251a022f.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/349997/tvbanner/i-am-the-night-5e2c023c574ba.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/349997/tvposter/i-am-the-night-5c4ba952b76e6.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/349997/tvthumb/i-am-the-night-5e2c01eb88598.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/uVfQZBs99rytWwyBK71ZBy7TEiP.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/sPRGQlCcyNIIoH1HSVEkhJKME75.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "I Am the Night",
+  "plot": "Fauna Hodel, who was given away by her teenage birth mother, begins to investigate the secrets to her past, following a sinister trail that swirls ever closer to an infamous Hollywood gynecologist connected to the legendary Black Dahlia murder.",
+  "premiered": "2019-01-28",
+  "status": "Ended",
+  "studios": [
+    "TNT"
+  ],
+  "actors": [
+    {
+      "name": "Chris Pine",
+      "order": 0,
+      "role": "Jay Singletary",
+      "thumb": "/vSe6sIsdtcoqBhuWRXynahFg8Vf.jpg"
+    },
+    {
+      "name": "India Eisley",
+      "order": 1,
+      "role": "Fauna Hodel",
+      "thumb": "/7dmchBMMzEvUG7pkEGYdyQ35Y3F.jpg"
+    },
+    {
+      "name": "Jefferson Mays",
+      "order": 2,
+      "role": "George Hodel",
+      "thumb": "/5W9RapvctoJpGfjaQFQHsaLlGc9.jpg"
+    },
+    {
+      "name": "Leland Orser",
+      "order": 3,
+      "role": "Peter Sullivan",
+      "thumb": "/vvVcWhActW8k2gQz95UatVP4Duf.jpg"
+    },
+    {
+      "name": "Yul Vazquez",
+      "order": 4,
+      "role": "Billis",
+      "thumb": "/8AeBmhIMia6gF5PO5SF3PRznD3M.jpg"
+    },
+    {
+      "name": "Justin Cornwell",
+      "order": 5,
+      "role": "Terrence Shye",
+      "thumb": "/xFmMBP5qtAiLDpbrziXOYdAkK7.jpg"
+    },
+    {
+      "name": "Connie Nielsen",
+      "order": 6,
+      "role": "Corinna Hodel",
+      "thumb": "/gSQ3O3PJ6ly6nT63joOtfZyscFP.jpg"
+    },
+    {
+      "name": "Dylan Smith",
+      "order": 7,
+      "role": "Sepp",
+      "thumb": "/khDLIA2yy2hVrD4uLYt9EAUYTj6.jpg"
+    },
+    {
+      "name": "Jay Paulson",
+      "order": 8,
+      "role": "Ohls",
+      "thumb": null
+    },
+    {
+      "name": "Golden Brooks",
+      "order": 9,
+      "role": "Jimmy Lee",
+      "thumb": "/tr3J6R668h1BAZQh3ZtecMiphW9.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Pilot",
-        "Phenomenon of Interference",
-        "Dark Flower",
-        "Matador",
-        "Aloha",
-        "Queen's Gambit, Accepted"
+        {
+          "aired": "2019-01-28",
+          "plot": "Fauna Hodel, a naïve girl growing up in mid-sixties Reno, Nevada, embarks on a quest to discover who she really is. In LA, Jay Singletary, a former Marine turned hack reporter covers a gruesome murder.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xPTvyB0dIMhcxoEqZrXHrpmVLDC.jpg",
+          "title": "Pilot"
+        },
+        {
+          "aired": "2019-02-04",
+          "plot": "Fauna attempts to track down her family, including her mysterious grandfather, George Hodel. Jay continues his pursuit of the Bloody Romeo, but he can't let go of the story that ruined his career; a story that involved George Hodel.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qqMNQsu8ELV51Y8rYArE7290Zqh.jpg",
+          "title": "Phenomenon of Interference"
+        },
+        {
+          "aired": "2019-02-11",
+          "plot": "Fauna meets up with Corinna but suspects the woman of lies and hiding her real mother, Tamar. Jay meanwhile gets a harsh visit from the LAPD but this leaves him wondering how close he's getting to the truth.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nIALK0333wfFysKp0Yu3i12CyIk.jpg",
+          "title": "Dark Flower"
+        },
+        {
+          "aired": "2019-02-18",
+          "plot": "As Jay edges closer to the truth, he begins to realise the MO for the case he's looking at has more than a passing resemblance to the Black Dahlia murder. Fauna receives a mysterious invitation to a “Happening” and, hoping for further information about her mother Tamar, heads to it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vRRANHHM2ThNdPKp5SgaptaZ0kf.jpg",
+          "title": "Matador"
+        },
+        {
+          "aired": "2019-02-25",
+          "plot": "With an address in hand, Fauna and Jay head to Hawaii to find Tamar. Fauna in the hope of finding some answers about who she is, Jay hoping to find answers about the Hodel story he wrote about that ruined his career.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2MnmSGOzEinri5rj5hhBPcIW2lE.jpg",
+          "title": "Aloha"
+        },
+        {
+          "aired": "2019-03-04",
+          "plot": "When Fauna hears what happened to Jimmy Lee, she frantically searches for a way home. As Watts explodes around her into chaotic riots, Fauna’s way out harbors a nightmarish trap. Jay stews in a cell that overflows with rioters, his options diminishing as the hours pass, until he hatches a desperate plan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7GuRXVkblooIKJIG5xDbwSC25Wy.jpg",
+          "title": "Queen's Gambit, Accepted"
+        }
       ]
     }
   },

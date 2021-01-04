@@ -267,19 +267,23 @@ export default ({ reqData, res }) => {
               // make an initial request so the series gets cached, then finish
               // up the remaining items.
               const seriesRequestsInProgress = [];
-              const seriesDataPromise = ({ id, index, name, update, year }, ndx) => {
-                const cacheKey = (cachedItems[ndx]) ? cachedItems[ndx].cacheKey : undefined;
+              const cacheNdxs = [];
+              const seriesDataPromise = ({ cacheKey, id, index, name, update, year }, ndx) => {
+                const cacheNdx = cacheNdxs[ndx];
+                let _cacheKey = cacheKey;
                 let seriesYear = year; 
                 
-                if(update && !year && cacheKey){
-                  const _year = ((cachedItems[ndx].file.name.match(/\((?<year>\d{4})\)$/) || {}).groups || {}).year;
+                if(!_cacheKey && cachedItems[cacheNdx]) _cacheKey = cachedItems[cacheNdx].cacheKey;
+                
+                if(!year && _cacheKey && cachedItems[cacheNdx] && cachedItems[cacheNdx].file){
+                  const _year = ((cachedItems[cacheNdx].file.name.match(/\((?<year>\d{4})\)$/) || {}).groups || {}).year;
                   if(_year) seriesYear = _year; 
                 }
                 
                 return lookUpSeries({
                   apiKey,
                   cache, 
-                  cacheKey,
+                  cacheKey: _cacheKey,
                   fanarttvAPIKey, 
                   id,
                   index,
@@ -291,11 +295,12 @@ export default ({ reqData, res }) => {
                 });
               };
               const pendingSeriesData = requestedNames
-                .filter((lookup) => {
+                .filter((lookup, ndx) => {
                   const { name } = lookup;
                   if(seriesRequestsInProgress.includes(name)) return false;
                   
                   seriesRequestsInProgress.push(name);
+                  cacheNdxs.push(ndx);
                   return true;
                 })
                 .map(seriesDataPromise);
@@ -320,8 +325,17 @@ export default ({ reqData, res }) => {
                   }
                   else{
                     pending = requestedNames.map((lookup, ndx) => {
-                      const { name: cacheKey } = genCacheName(lookup.nameWithYear);
-                      const seriesCache = cache[cacheKey];
+                      let cacheKey;
+                      let seriesCache;
+                      
+                      if(!seriesCache && cachedItems[ndx] && cachedItems[ndx].file){
+                        seriesCache = cachedItems[ndx].file;
+                        cacheKey = seriesCache.cacheKey;
+                      }
+                      else{
+                        const { name: cacheKey } = genCacheName(lookup.nameWithYear);
+                        seriesCache = cache[cacheKey];
+                      }
                       
                       // The `cacheKey` may not always match up because a User
                       // had assigned an ID to another name. In which case the
@@ -339,7 +353,10 @@ export default ({ reqData, res }) => {
                       else{
                         // Map the newly scraped data to the partially set up
                         // items so any further lookups are read from memory.
-                        if(seriesCache) cachedItems[ndx].file = cache[cacheKey];
+                        if(seriesCache) {
+                          cachedItems[ndx].file = cache[cacheKey];
+                          lookup.cacheKey = cacheKey;
+                        }
                         
                         if(updatingCache) {
                           const item = cachedItems[ndx];

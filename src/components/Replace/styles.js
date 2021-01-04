@@ -3,6 +3,8 @@ import { css } from 'emotion';
 export const ROOT_CLASS = 'replace';
 const COLOR__TABLE_BORDER = '#555';
 
+const groupColors = ['#a9eaf9', '#ffdbe6', '#bbffd9', '#cdcaff'];
+
 export default css`
   width: calc(80vw - 2em); /* values from Modal */
   max-width: 600px;
@@ -35,6 +37,22 @@ export default css`
         padding: 0.25em 0.5em;
         border-radius: unset;
         margin-left: 0.25em;
+      }
+      
+      &:nth-of-type(2) {
+        
+        button:nth-of-type(1) {
+          background: ${ groupColors[0] };
+        }
+        button:nth-of-type(2) {
+          background: ${ groupColors[1] };
+        }
+        button:nth-of-type(3) {
+          background: ${ groupColors[2] };
+        }
+        button:nth-of-type(4) {
+          background: ${ groupColors[3] };
+        }
       }
     }
     
@@ -122,8 +140,28 @@ export default css`
             mark {
               font-weight: bold;
             }
-            &:nth-of-type(1) mark {
-              background: #d3f7ff;
+            &:nth-of-type(1) > mark {
+              background: #fff;
+              padding: 0.25em;
+              border-radius: 0.25em;
+              border: solid 1px #b1b1b1;
+              
+              mark {
+                padding: 0 0.25em;
+              }
+              
+              mark[data-ndx="0"] {
+                background: ${ groupColors[0] };
+              }
+              mark[data-ndx="1"] {
+                background: ${ groupColors[1] };
+              }
+              mark[data-ndx="2"] {
+                background: ${ groupColors[2] };
+              }
+              mark[data-ndx="3"] {
+                background: ${ groupColors[3] };
+              }
             }
             &:nth-of-type(2) mark {
               background: transparent;

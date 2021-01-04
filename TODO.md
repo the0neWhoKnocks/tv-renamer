@@ -27,7 +27,7 @@ NFO Scraping
   - [ ] strip out un-needed data from cache files.
 - [x] Fix "replace" dialog overflow when there's a bunch of items.
 - Update Rename functionality
-  - [ ] It should only replace what is matched and leave the rest.
+  - [x] It should only replace what is matched and leave the rest.
   - [x] Add a button to insert `(\d{2})` pattern, so it's easier to replace text
     while on Mobile.
   - [x] Have buttons below `Replace` input that insert `$NUM`. The buttons will

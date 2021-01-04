@@ -174,25 +174,36 @@ class Replace extends Component {
             {files.map(({ dir, ext, name }, fileNdx) => {
               const origFilename = `${ name }${ ext }`;
               let currentName = origFilename;
-              let newName = origFilename;
+              let newName = name;
               
               if(matchRegEx){
                 const matches = currentName.match(matchRegEx);
                 
                 if(matches){
                   const [match, ...groups] = matches;
-                  currentName = currentName.replace(match, `<mark>${ match.trim() }</mark>`);
                   
-                  if(groups && replacePattern){
-                    newName = replacePattern;
+                  if(groups){
+                    currentName = currentName.replace(match, `<mark>${ match.trim() }</mark>`);
+                    groups.forEach((g, ndx) => {
+                      if(g){
+                        currentName = currentName.replace(g, `<mark data-ndx="${ ndx }">${ g.trim() }</mark>`);
+                      }
+                    });
+                  }
+                  
+                  if(groups){
+                    newName = newName.replace(match, replacePattern);
+                    
                     groups.forEach((group, groupNdx) => {
                       newName = newName.replace(new RegExp(`\\$${ groupNdx+1 }`, 'g'), group);
                     });
+                    
                     this.replacedNames[fileNdx] = newName.trim();
-                    newName = `<mark>${ newName.trim() }</mark>${ ext }`;
+                    newName = `<mark>${ newName.trim() }</mark>`;
                   }
                 }
               }
+              newName += ext;
               
               return (
                 <div

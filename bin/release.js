@@ -135,7 +135,7 @@ const parseArgs = ({ desc, flags }) => {
       const descWords = desc.split(/\s/);
       let lineNdx = 0;
       
-      descWords.forEach((word, ndx) => {
+      descWords.forEach((word) => {
         let line = lines[lineNdx];
         if (((line + word).length + MIN_DOTS + LEADING_SPACE.length) > TERMINAL_WIDTH) {
           lineNdx++;
@@ -353,10 +353,22 @@ class CLISelect {
   const HAS_TEST_SCRIPT = PACKAGE_JSON.scripts && PACKAGE_JSON.scripts.test;
   if (HAS_TEST_SCRIPT) {
     renderHeader('RUN', 'tests');
-    const testCmd = `cd ${PATH__REPO_ROOT} && npm test`;
-    (args.dryRun)
-      ? dryRunCmd(testCmd)
-      : await cmd(testCmd, { silent: false });
+    
+    const runTests = await new CLISelect({
+      label: color.yellow.bold('Run tests, or skip?'),
+      options: [
+        [color.green.bold('Yes, run tests'), true],
+        [color.red.bold('Nah, skip tests'), false],
+      ],
+      selectedMsg: null,
+    });
+    
+    if (runTests) {
+      const testCmd = `cd ${PATH__REPO_ROOT} && npm test`;
+      (args.dryRun)
+        ? dryRunCmd(testCmd)
+        : await cmd(testCmd, { silent: false });
+    }
   }
   
   if (latestTagOrSHA) {

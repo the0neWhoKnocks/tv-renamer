@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v4.0.1
+
+**Bugfixes**
+- [0a91913](https://github.com/the0neWhoKnocks/tv-renamer/commit/0a91913):  Season folder can't be found from name
+
+---
+
 ## v4.0.0
 
 **Bugfixes**

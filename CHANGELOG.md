@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v4.0.2
+
+**Bugfixes**
+- [92b5ff6](https://github.com/the0neWhoKnocks/tv-renamer/commit/92b5ff6):  EAI_AGAIN error while downloading image
+
+---
+
 ## v4.0.1
 
 **Bugfixes**

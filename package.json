@@ -1,6 +1,6 @@
 {
   "name": "@noxx/tv-renamer",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "A local network app that allows for renaming TV shows",
   "main": "index.js",
   "paths": {

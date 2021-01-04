@@ -1,21 +1,490 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Drama",
+    "Crime",
+    "Action & Adventure"
+  ],
   "id": 75663,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/353717/seasonposter/deadly-class-5c33516478e61.jpg",
+          "https://assets.fanart.tv/fanart/tv/353717/seasonposter/deadly-class-5c3199c3b78d0.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd169452e726.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd17933c893c.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd17959560b3.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd1797a2e3c9.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd1799e66f8b.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5c0e6cfa7ef40.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5c335aaf24405.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c0e6d1979f30.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c31cfe90dea1.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c3cfcaebf4bb.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c31a907da0d9.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c0e6c88c7610.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c0e6cab996bb.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c3351241e49e.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5bc98ac40bce7.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c31998d65feb.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/353717/tvthumb/deadly-class-5c0e6cda67aa8.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvthumb/deadly-class-5c3199f4d0665.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvthumb/deadly-class-5c3cdd164686a.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/iC2zQ3PW2c93fU67c9gN6ocMKdl.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/u2GSiPazSXpyNQz0yymOUCUm944.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Deadly Class",
+  "plot": "Follow a disillusioned teen recruited into a storied high school for assassins. Maintaining his moral code while surviving a ruthless curriculum, vicious social cliques, and his own adolescent uncertainties may prove fatal.",
+  "premiered": "2019-01-19",
+  "status": "Canceled",
+  "studios": [
+    "Syfy"
+  ],
+  "actors": [
+    {
+      "name": "Benedict Wong",
+      "order": 0,
+      "role": "Master Lin",
+      "thumb": "/ukmfsl59Isvn9odgzMWBidA3cmt.jpg"
+    },
+    {
+      "name": "Benjamin Wadsworth",
+      "order": 1,
+      "role": "Marcus Lopez Arguello",
+      "thumb": "/smNGeAw59reyB1btRIQOaxgbLZ4.jpg"
+    },
+    {
+      "name": "Lana Condor",
+      "order": 2,
+      "role": "Saya Kuroki",
+      "thumb": "/vWn27Fk2GLwH7o9fBG9hBWZI6OR.jpg"
+    },
+    {
+      "name": "María Gabriela de Faría",
+      "order": 3,
+      "role": "Maria Salazar",
+      "thumb": "/1GtHCXOOf3t0B8i6Jb1etXQUBdD.jpg"
+    },
+    {
+      "name": "Luke Tennie",
+      "order": 4,
+      "role": "Willie Lewis",
+      "thumb": "/nLn4tj69OEL9ZPZMxcSRWk2mOmG.jpg"
+    },
+    {
+      "name": "Liam James",
+      "order": 5,
+      "role": "Billy Bennett",
+      "thumb": "/a8qMiwUEbiohMnjwyMSOSrivUUE.jpg"
+    },
+    {
+      "name": "Michel Duval",
+      "order": 6,
+      "role": "Chico",
+      "thumb": "/eAH1AmNbiX1SpjXkkAdqBh1b5kD.jpg"
+    },
+    {
+      "name": "Taylor Hickson",
+      "order": 49,
+      "role": "Petra",
+      "thumb": "/qYc16SYLGSwm31MklUP42oKeTmO.jpg"
+    },
+    {
+      "name": "Tom Stevens",
+      "order": 50,
+      "role": "Chester \"Fuckface\" Wilson",
+      "thumb": "/i0HKBXKjgRNtyOIIlcegJ5nBVJQ.jpg"
+    },
+    {
+      "name": "Jack Gillett",
+      "order": 50,
+      "role": "Lex Miller",
+      "thumb": "/gknOGPka4HM6Ig1AvQp0lQSB0pz.jpg"
+    },
+    {
+      "name": "Sean Depner",
+      "order": 48,
+      "role": "Viktor",
+      "thumb": "/u1pCWqU9WE8dhedUdFj01rjFhrr.jpg"
+    },
+    {
+      "name": "Olivia Cheng",
+      "order": 41,
+      "role": "Master Gao",
+      "thumb": "/c1rOhwVuZi3v47fuTAnVVB4XuSc.jpg"
+    },
+    {
+      "name": "Siobhan Williams",
+      "order": 49,
+      "role": "Brandy Lynn",
+      "thumb": "/rYMTamEkeTJqxrfqQGYOlU1tK6V.jpg"
+    },
+    {
+      "name": "Isaiah Lehtinen",
+      "order": 53,
+      "role": "Shabnam",
+      "thumb": "/sOYfdzKsUYkaUAS8Kcbb7S3fQJN.jpg"
+    },
+    {
+      "name": "David Zayas",
+      "order": 50,
+      "role": "El Alma Del Diablo",
+      "thumb": "/h9rJXJKHba008IUiorvofL69ie1.jpg"
+    },
+    {
+      "name": "Brian Posehn",
+      "order": 53,
+      "role": "Dwight Shandy",
+      "thumb": "/kg93LNpDQaRoosR4gVt7SsA3oL1.jpg"
+    },
+    {
+      "name": "Sam Jin Coates",
+      "order": 47,
+      "role": "Yukio",
+      "thumb": null
+    },
+    {
+      "name": "Victor Andres Trelles Turgeon",
+      "order": 53,
+      "role": "Holy Ghost",
+      "thumb": "/da54ECcQiSVdsViJVxJ7Uk3NLE4.jpg"
+    },
+    {
+      "name": "Viva Lee",
+      "order": 54,
+      "role": "Nahia",
+      "thumb": null
+    },
+    {
+      "name": "Henry Rollins",
+      "order": 38,
+      "role": "Jürgen Denke",
+      "thumb": "/2E0cZdoJsdt1Lv4waG3s6fsfJeU.jpg"
+    },
+    {
+      "name": "Erica Cerra",
+      "order": 41,
+      "role": "Miss De Luca",
+      "thumb": "/crbst9frQuWVRxILtvbsLL9ZAEv.jpg"
+    },
+    {
+      "name": "Michael Mitton",
+      "order": 41,
+      "role": "Jaden",
+      "thumb": null
+    },
+    {
+      "name": "Ryan Robbins",
+      "order": 48,
+      "role": "Rory Heemsle",
+      "thumb": "/kZrq5a760JU1kHuxQ7Q8YCgsOr6.jpg"
+    },
+    {
+      "name": "Kelcey Mawema",
+      "order": 50,
+      "role": "Gabrielle",
+      "thumb": "/yJdBLJTiAGTnGquw015OprJsqpb.jpg"
+    },
+    {
+      "name": "Theresa Wong",
+      "order": 52,
+      "role": "Shu",
+      "thumb": "/w8TA9s3BjlshKJewwNn11em1FW5.jpg"
+    },
+    {
+      "name": "Chanelle Peloso",
+      "order": 53,
+      "role": "Sue Ann",
+      "thumb": "/nTPTk8TdI5DHozNn9Uw698WQsxs.jpg"
+    },
+    {
+      "name": "Naomi Simpson",
+      "order": 54,
+      "role": "Gran Gran",
+      "thumb": "/kwHnUpkvOSM12kzlJNaHAC2IJiD.jpg"
+    },
+    {
+      "name": "Josh Burns",
+      "order": 37,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Sean Campbell",
+      "order": 39,
+      "role": "Gene",
+      "thumb": "/zytN3N5EAtRJHJC7ProCEyjdDVp.jpg"
+    },
+    {
+      "name": "Christopher Heyerdahl",
+      "order": 41,
+      "role": "Master Zane",
+      "thumb": "/pTPZa3TFIkxRbqM5adXYE51a99s.jpg"
+    },
+    {
+      "name": "French Stewart",
+      "order": 46,
+      "role": "Scorpio Slasher",
+      "thumb": "/a8mUqejNKnuqum0OtBIn8Tr6K3b.jpg"
+    },
+    {
+      "name": "Gary Hetherington",
+      "order": 15,
+      "role": "Ronald Reagan Type",
+      "thumb": "/nYXYnXGAGrwuFZKVOVZhSdatmmK.jpg"
+    },
+    {
+      "name": "Michel Issa Rubio",
+      "order": 23,
+      "role": "Emilio",
+      "thumb": "/dy6huJc4XluH3tCpcuDxadOjGgQ.jpg"
+    },
+    {
+      "name": "Eric Breker",
+      "order": 36,
+      "role": "Casino Policeman",
+      "thumb": "/bD08h8S2wmXmw6MDD2mHuRO4J2B.jpg"
+    },
+    {
+      "name": "Shauna Hansen",
+      "order": 37,
+      "role": "Catherine",
+      "thumb": "/2B8SMB3pITNPOXej6mYyQXqXIoD.jpg"
+    },
+    {
+      "name": "Chad Riley",
+      "order": 38,
+      "role": "Cop #1",
+      "thumb": "/cbODmJU9MTwuSw9VDu0aabiBFGs.jpg"
+    },
+    {
+      "name": "Laine MacNeil",
+      "order": 38,
+      "role": "Rory's Daughter",
+      "thumb": "/sGOn7vLF5WwuqBPieml5sJtu1mU.jpg"
+    },
+    {
+      "name": "Jason Vaisvila",
+      "order": 38,
+      "role": "Mustache Hippie",
+      "thumb": null
+    },
+    {
+      "name": "Brad Kelly",
+      "order": 38,
+      "role": "Chashier",
+      "thumb": "/iyATYHZDhTfnEEG1SPa8sIMKWBV.jpg"
+    },
+    {
+      "name": "Jett Klyne",
+      "order": 38,
+      "role": "Tommy",
+      "thumb": "/kBsnQlQNg5JpbtITFGALfWDP2dR.jpg"
+    },
+    {
+      "name": "Barbara Wallace",
+      "order": 39,
+      "role": "Doris",
+      "thumb": "/eBXpiV5eYtPYln9Wa2badsNu78u.jpg"
+    },
+    {
+      "name": "Bill Croft",
+      "order": 39,
+      "role": "Old Clerk",
+      "thumb": "/xDgAWtePgX0sMY1vxjy5jfZgv71.jpg"
+    },
+    {
+      "name": "Frank Brandies",
+      "order": 40,
+      "role": "Bartender",
+      "thumb": null
+    },
+    {
+      "name": "Ice-T",
+      "order": 41,
+      "role": "Ice-T Slot Machine (voice)",
+      "thumb": "/iqyAw0iTgESyykWIUtMP0CoP88J.jpg"
+    },
+    {
+      "name": "Spencer Teeter",
+      "order": 44,
+      "role": "Delivery Boy",
+      "thumb": "/92ndGiQITEqA0ECWshfdKeM5VJT.jpg"
+    },
+    {
+      "name": "Colton Mackie",
+      "order": 45,
+      "role": "Yuri",
+      "thumb": null
+    },
+    {
+      "name": "Conor Stinson O'Gorman",
+      "order": 46,
+      "role": "Ivan",
+      "thumb": null
+    },
+    {
+      "name": "Doralynn Mui",
+      "order": 47,
+      "role": "Riku",
+      "thumb": "/AcR2svME13NJJgK9Y7XLFbL4Tih.jpg"
+    },
+    {
+      "name": "Dominic Mariche",
+      "order": 48,
+      "role": "Young Marcus",
+      "thumb": "/6qi7GqL5PtJhnvT2q8joW7flNTY.jpg"
+    },
+    {
+      "name": "Jeremy Jones",
+      "order": 48,
+      "role": "Cactus Jack",
+      "thumb": "/ilfm9Ydsje9ACgpQHWT4MH8Bk9P.jpg"
+    },
+    {
+      "name": "Sarah Lindsay",
+      "order": 48,
+      "role": "Yuppie Woman",
+      "thumb": "/zu5xI8RCkgdFu4OW5xcuk6wpyBb.jpg"
+    },
+    {
+      "name": "Alexander Soto",
+      "order": 49,
+      "role": "Marcus' Dad",
+      "thumb": "/43si5UUvzOYlY7JtyZd49M4EZJ8.jpg"
+    },
+    {
+      "name": "Benjamin Rogers",
+      "order": 49,
+      "role": "Jimmy Jon",
+      "thumb": null
+    },
+    {
+      "name": "Jillian Walchuck",
+      "order": 50,
+      "role": "Marcus' Mom",
+      "thumb": "/A5N9LbclVwQQeOFGVcPqLMCizTJ.jpg"
+    },
+    {
+      "name": "Dhirendra",
+      "order": 51,
+      "role": "Shabnam's Mom",
+      "thumb": null
+    },
+    {
+      "name": "Glen Gordon",
+      "order": 52,
+      "role": "Mike Ray",
+      "thumb": "/gy80doAcYAjSqmAFlh2uffto0Pc.jpg"
+    },
+    {
+      "name": "Peri Allan",
+      "order": 53,
+      "role": "Shabnam's Mom",
+      "thumb": null
+    },
+    {
+      "name": "Mike Kovac",
+      "order": 54,
+      "role": "Banjo Benji",
+      "thumb": "/t64fHmpEQO2AN2QkVIyMyyHkEoQ.jpg"
+    },
+    {
+      "name": "Fraser Simpson",
+      "order": 55,
+      "role": "Fancy Frank",
+      "thumb": null
+    },
+    {
+      "name": "Sebastian Kroon",
+      "order": 56,
+      "role": "Cousin Jim",
+      "thumb": "/rClPldpiU4FvxvoPC9r7wuWpAlF.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Pilot",
-        "Noise, Noise, Noise",
-        "Snake Pit",
-        "Mirror People",
-        "Saudade",
-        "Stigmata Martyr",
-        "Rise Above",
-        "The Clampdown",
-        "Kids of the Black Hole",
-        "Sink With California"
+        {
+          "aired": "2019-01-19",
+          "plot": "A disillusioned teen finds purpose and fights for survival at an elite academy for the Deadly Arts.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fFYNixeaetlBvMC4uEAveYMgkw8.jpg",
+          "title": "Pilot"
+        },
+        {
+          "aired": "2019-01-23",
+          "plot": "Marcus, dealing with guilt of killing Rory, has a party at Shabnam's and all the school is invited.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yRaXNuG5oEobphyzu7wPuSRVHJe.jpg",
+          "title": "Noise, Noise, Noise"
+        },
+        {
+          "aired": "2019-01-30",
+          "plot": "Marcus navigates a prank war between the Rats and Legacies, as everyone prepares for the big dance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/62IEn6AEAy0PL8DU2cG9qXE4g6t.jpg",
+          "title": "Snake Pit"
+        },
+        {
+          "aired": "2019-02-06",
+          "plot": "Saya and Marcus have to survive an attack on the school when Saya's past comes back to haunt her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lkzT1KC59xGawT4A70qWLSBniPE.jpg",
+          "title": "Mirror People"
+        },
+        {
+          "aired": "2019-02-13",
+          "plot": "On a mission to Vegas to kill Billy's dad, Marcus accidentally takes way too much acid.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j31hvUMVua8S44XASNffcBbg4GA.jpg",
+          "title": "Saudade"
+        },
+        {
+          "aired": "2019-02-20",
+          "plot": "Marcus and Maria, now dating in secret, have to deal with the ramifications of Chico's death.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aGAgV9hDbYvgaqt3feAWh0uMGis.jpg",
+          "title": "Stigmata Martyr"
+        },
+        {
+          "aired": "2019-02-27",
+          "plot": "Marcus confesses the truth about Chester to Saya which leads them on a citywide manhunt.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bSxuskxkjHJLlwQQupKVCJ9eBXs.jpg",
+          "title": "Rise Above"
+        },
+        {
+          "aired": "2019-03-06",
+          "plot": "Following the death of Chico and Yukio, a gang war brews during a lockdown imposed by Lin.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4keREQwcDz1Is5yEXZb7cbEtY1N.jpg",
+          "title": "The Clampdown"
+        },
+        {
+          "aired": "2019-03-13",
+          "plot": "After discovering Chester has taken over Shabnam's house, our heroes lay down plans to raid it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vFRwykd75dDaw8FNxE5o3EmCXwX.jpg",
+          "title": "Kids of the Black Hole"
+        },
+        {
+          "aired": "2019-03-20",
+          "plot": "Our heroes raid Chester manor, while across town Lin runs with his daughter from El Diablo.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gMvu5BK95OxeGCAb7fF9T6Ahv53.jpg",
+          "title": "Sink With California"
+        }
       ]
     }
   },

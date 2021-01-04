@@ -97,7 +97,7 @@ fi
 if $BUILD; then
   echo;
   echo "[BUILD] App"
-  npm run build:appForDocker
+  docker-compose run tvrenamer_dev zsh -c "npm run build:appForDocker"
   
   echo;
   echo "[BUILD] Containers"
@@ -110,7 +110,8 @@ echo;
 if [[ "$cypressCmd" != "" ]]; then
   ${cypressCmd}
 else
-  docker-compose up --abort-on-container-exit
+  # NOTE - `depends_on` in docker-compose will start the App
+  docker-compose up --abort-on-container-exit e2e-cypress
 fi
 exitCode=$(echo $?)
 

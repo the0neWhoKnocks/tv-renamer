@@ -1,86 +1,1430 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy"
+  ],
   "id": 71728,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5a9d7ee13bbd0.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5ba9df335a3ef.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5a805b9823122.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5ba09aea367d5.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5a2d36ea89a42.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5d75dee74f11c.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5bb0c5a9d41b1.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5d87c00b23c2d.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5f4d2ddda4fb0.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5f4d2d52d03be.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5d9645f4523d2.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5a805ce4a4174.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5ddf20a8d020c.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5ddf20bb83e56.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5ddf20ce34745.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5d87a1c7cd573.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-59cb18e9e9e37.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5a2d281d1a15f.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5a9d7b5472013.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-59cb18ea009bc.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5d8b184985566.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5d8b184960942.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/328724/tvbanner/young-sheldon-5d813db31a83d.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvbanner/young-sheldon-5a805beb72f03.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvbanner/young-sheldon-5a9d794bf2611.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5d813bd8a6902.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-59b148d7066b2.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5a805b81ddcbb.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5b9b534aa53d0.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5ba09b9c26ace.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5dcbc1d6dcf76.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-59c72be48b393.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5d813cd384823.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-59c6d330e5db3.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5dcd2da439fcd.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5a805bd7b8018.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5a9d7c26cef82.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/nlDBlCtorM7nx130wYnfR5ZmyLX.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/aESxB2HblKlDzma39xVefa20pbW.jpg"
+    }
+  },
+  "mpaa": "TV-PG",
   "name": "Young Sheldon",
+  "plot": "The early life of child genius Sheldon Cooper, later seen in The Big Bang Theory.",
+  "premiered": "2017-09-25",
+  "status": "Returning Series",
+  "studios": [
+    "CBS"
+  ],
+  "actors": [
+    {
+      "name": "Iain Armitage",
+      "order": 0,
+      "role": "Sheldon Cooper",
+      "thumb": "/wwBzIjjBLJAOnCXMEuH03JSmXmD.jpg"
+    },
+    {
+      "name": "Zoe Perry",
+      "order": 1,
+      "role": "Mary Cooper",
+      "thumb": "/dpdoE1SdfXqFum0xMbg1Yl8ciWE.jpg"
+    },
+    {
+      "name": "Lance Barber",
+      "order": 2,
+      "role": "George Cooper Sr.",
+      "thumb": "/dCIcGDmlHPOwohzQwf1wOWgawHk.jpg"
+    },
+    {
+      "name": "Montana Jordan",
+      "order": 3,
+      "role": "Georgie Cooper",
+      "thumb": "/vDmv2p8ZDabInqtubeuM5iEgk4L.jpg"
+    },
+    {
+      "name": "Raegan Revord",
+      "order": 4,
+      "role": "Missy Cooper",
+      "thumb": "/zIHQyMQZipJ2GCF2r10K7MM7Ue9.jpg"
+    },
+    {
+      "name": "Annie Potts",
+      "order": 5,
+      "role": "Connie Tucker",
+      "thumb": "/nugPVN28qOhOIoHawrDJ6fIfrxR.jpg"
+    },
+    {
+      "name": "Jim Parsons",
+      "order": 6,
+      "role": "Sheldon Cooper (voice)",
+      "thumb": "/sa05slVgacuXe94UFnQs4rfqZL4.jpg"
+    },
+    {
+      "name": "Matt Hobby",
+      "order": 7,
+      "role": "Jeff Difford",
+      "thumb": "/Acek1U1sb6WnfhEIVoZCaNkOgiF.jpg"
+    },
+    {
+      "name": "Ryan Phuong",
+      "order": 132,
+      "role": "Tam Nguyen",
+      "thumb": "/atm3lYSz2d9u48ZfCgnJbENgcF7.jpg"
+    },
+    {
+      "name": "Wallace Shawn",
+      "order": 132,
+      "role": "John Sturgis",
+      "thumb": "/jviZU3Ae0vVKW6cYeEtjfxq2TWS.jpg"
+    },
+    {
+      "name": "Wyatt McClure",
+      "order": 143,
+      "role": "Billy Sparks",
+      "thumb": "/fqrpoM0mdvnv7H5906f8u0bBtim.jpg"
+    },
+    {
+      "name": "Doc Farrow",
+      "order": 144,
+      "role": "Wayne Wilkins",
+      "thumb": "/zSXXwFRhUNLWXFHSoIwHMt88Zcn.jpg"
+    },
+    {
+      "name": "Brian Stepanek",
+      "order": 128,
+      "role": "Hubert Givens",
+      "thumb": "/gYkYnm0RtMvo9oeqnWPfcYQCr7v.jpg"
+    },
+    {
+      "name": "Danielle Pinnock",
+      "order": 132,
+      "role": "Evelyn Ingram",
+      "thumb": "/hFMGpNsziDjtFvrkQ6KCJSiRN4e.jpg"
+    },
+    {
+      "name": "Valerie Mahaffey",
+      "order": 128,
+      "role": "Victoria MacElroy",
+      "thumb": "/d4Oc12PuuhTevEGjKEhs95XrVIl.jpg"
+    },
+    {
+      "name": "Craig T. Nelson",
+      "order": 144,
+      "role": "Dale Ballard",
+      "thumb": "/gQOdZNaAqvYTY48iXwkKm1zbHyS.jpg"
+    },
+    {
+      "name": "Rex Linn",
+      "order": 132,
+      "role": "Tom Petersen",
+      "thumb": "/dY8x6OrmS0dBdogxeF2QALrCvpI.jpg"
+    },
+    {
+      "name": "Melissa Peterman",
+      "order": 135,
+      "role": "Brenda Sparks",
+      "thumb": "/7Li7vgIvO16BBVNkCAjmet59iDO.jpg"
+    },
+    {
+      "name": "Nancy Linehan Charles",
+      "order": 116,
+      "role": "Peg",
+      "thumb": "/v6VF5CPLzcLBzmEFZbZOpA4fb1D.jpg"
+    },
+    {
+      "name": "Sarah Baker",
+      "order": 124,
+      "role": "Sheryl Hutchins",
+      "thumb": "/5MxJEPPcHSIr8IUH0vm8WMZ9CYJ.jpg"
+    },
+    {
+      "name": "Isabel May",
+      "order": 118,
+      "role": "Veronica Duncan",
+      "thumb": "/9AT39NSHNQ44VebDrqupxplmyLK.jpg"
+    },
+    {
+      "name": "Ava Allan",
+      "order": 144,
+      "role": "Jana Boggs",
+      "thumb": "/fz7oTsBGWChftLDfMnouXm3Csk3.jpg"
+    },
+    {
+      "name": "Ed Begley Jr.",
+      "order": 119,
+      "role": "Grant Linkletter",
+      "thumb": "/tF0HU5QePY4ej9aPDZSyQ53ERKR.jpg"
+    },
+    {
+      "name": "Mckenna Grace",
+      "order": 143,
+      "role": "Paige Swanson",
+      "thumb": "/jQLBM6ErQnvU8QqNvW8KKF9y8N0.jpg"
+    },
+    {
+      "name": "Billy Gardell",
+      "order": 77,
+      "role": "Herschel Sparks",
+      "thumb": "/aEOsZg1mroO9O5NneqjpPwFL9RL.jpg"
+    },
+    {
+      "name": "Andrea Anders",
+      "order": 111,
+      "role": "Linda Swanson",
+      "thumb": "/rTRgTbxzZFdYnnmooOCZ2XHk3vC.jpg"
+    },
+    {
+      "name": "Katherine Von Till",
+      "order": 116,
+      "role": "Kimberly",
+      "thumb": "/dqKoDqcUzYCXDipHsXMWkBc2DLK.jpg"
+    },
+    {
+      "name": "Mary Grill",
+      "order": 122,
+      "role": "Robin",
+      "thumb": "/5UcNDkwX9MPZI61PiKbwsKcbr59.jpg"
+    },
+    {
+      "name": "John Hartman",
+      "order": 64,
+      "role": "Dr. Goetsch",
+      "thumb": "/2vUJPWvhsWgj4kMK0KaiWZ241gx.jpg"
+    },
+    {
+      "name": "Pam Cook",
+      "order": 90,
+      "role": "Diane",
+      "thumb": "/lEt83i99sfh6CTjEvJEk1zDIUWt.jpg"
+    },
+    {
+      "name": "Chris Wylde",
+      "order": 91,
+      "role": "Glenn",
+      "thumb": "/eS2Gv7lBrwNYeifgV23Jwm5HSZL.jpg"
+    },
+    {
+      "name": "Nick Alvarez",
+      "order": 93,
+      "role": "Derek",
+      "thumb": "/gz7D4Pr9rdhHwkkNXwlPRu34OrM.jpg"
+    },
+    {
+      "name": "Richard Kind",
+      "order": 99,
+      "role": "Ira Rosenbloom",
+      "thumb": "/yWmuVQeQUzb5OSMVDoWkR0IylCK.jpg"
+    },
+    {
+      "name": "Jason Alexander",
+      "order": 122,
+      "role": "Mr. Lundy",
+      "thumb": "/5a34uLhhHqmeYII984EfaVBh70p.jpg"
+    },
+    {
+      "name": "London Cheshire",
+      "order": 122,
+      "role": "Marcus",
+      "thumb": "/nV6MbjnX05QPceYdR0Yt0ziLYai.jpg"
+    },
+    {
+      "name": "Melissa Tang",
+      "order": 47,
+      "role": "Ms. Fenley",
+      "thumb": "/f6EsoLbG1vPhBKmKGoBwOKAXe7r.jpg"
+    },
+    {
+      "name": "Caleigh Kilpatrick",
+      "order": 69,
+      "role": "Abigail",
+      "thumb": "/4SqHwmjURWDqeUfMBxCCQADOrot.jpg"
+    },
+    {
+      "name": "VyVy Nguyen",
+      "order": 83,
+      "role": "Trang Nguyen",
+      "thumb": "/tBBXiWdk4K766ddrfahOGXlIhyb.jpg"
+    },
+    {
+      "name": "Josh Cooke",
+      "order": 88,
+      "role": "Barry Swanson",
+      "thumb": "/sudTNfRjT7oIiWBBNzAM04NOAUV.jpg"
+    },
+    {
+      "name": "Vernee Watson-Johnson",
+      "order": 93,
+      "role": "Nurse Robinson",
+      "thumb": "/g5URd4YcVrk7yYEGk4SvYzi3rml.jpg"
+    },
+    {
+      "name": "Mac Jarman",
+      "order": 108,
+      "role": "Evan",
+      "thumb": "/eZu1SQ2byq4M3vlM3jU45VKhjpj.jpg"
+    },
+    {
+      "name": "Ed Ackerman",
+      "order": 116,
+      "role": "Nate",
+      "thumb": "/idirAWlgShb9EYfgfNFEzdCrDRO.jpg"
+    },
+    {
+      "name": "Bob Newhart",
+      "order": 123,
+      "role": "Professor Proton",
+      "thumb": "/vAHAfHo6TMJSCIzy0AkdEIzkxgn.jpg"
+    },
+    {
+      "name": "Karly Rothenberg",
+      "order": 1,
+      "role": "Janice Veazey",
+      "thumb": "/hJOemjP9oDP04qiIuATAMzdJejG.jpg"
+    },
+    {
+      "name": "Jason E. Kelley",
+      "order": 3,
+      "role": "Moving Guy",
+      "thumb": "/cvDdNM8ib5e2QfwhYetWGqpapQq.jpg"
+    },
+    {
+      "name": "Ella Anderson",
+      "order": 5,
+      "role": "Erica Swanson",
+      "thumb": "/snv9S8ta4DsO1A6TUpa6dFbAtCV.jpg"
+    },
+    {
+      "name": "Anjelika Washington",
+      "order": 6,
+      "role": "Libby",
+      "thumb": "/wvRbqMQ436TrKfQSSdsA8gt2eCJ.jpg"
+    },
+    {
+      "name": "Paul Yen",
+      "order": 11,
+      "role": "Le Nguyen",
+      "thumb": "/lCAq6ybdIaNBn9Z4ZzvW3rOVKha.jpg"
+    },
+    {
+      "name": "Carlease Burke",
+      "order": 15,
+      "role": "Mrs. Ebner",
+      "thumb": "/watMlWszsYx1MBLdmAvahZ8KkgR.jpg"
+    },
+    {
+      "name": "Jayne Taini",
+      "order": 16,
+      "role": "Phyllis",
+      "thumb": "/h5LSieXoaaqafx5nNQWz1GAX0GP.jpg"
+    },
+    {
+      "name": "Dennis Cockrum",
+      "order": 17,
+      "role": "Mr. Stover",
+      "thumb": "/A3Or26SK7GFf9nv9OVd2X5DpLuO.jpg"
+    },
+    {
+      "name": "Duane R. Shepard Sr.",
+      "order": 18,
+      "role": "Mr. Bustifer",
+      "thumb": "/jSde1OY1EVDivOlAs7sJHqiBlkL.jpg"
+    },
+    {
+      "name": "Carol Mansell",
+      "order": 19,
+      "role": "Mrs. Krawcynski",
+      "thumb": "/dkLNcEXUP2P1h0Rn6JySUR00v2b.jpg"
+    },
+    {
+      "name": "Chelsea Rae Bernier",
+      "order": 20,
+      "role": "Lynette",
+      "thumb": "/q5nnO4hiSLyoiV7QmWXN9fDuxzh.jpg"
+    },
+    {
+      "name": "Karen Constantine",
+      "order": 21,
+      "role": "Lorraine",
+      "thumb": "/wHYQbSOvGeaTROqV5bS8ob5Ofw5.jpg"
+    },
+    {
+      "name": "Joe Howard",
+      "order": 22,
+      "role": "Edwin",
+      "thumb": "/6D1rHVdwAhd1NNVbUIDYH6CtOsp.jpg"
+    },
+    {
+      "name": "Patricia Belcher",
+      "order": 33,
+      "role": "Clara",
+      "thumb": "/fT3aNLRdvqihRxF5gFrUWzyuPu4.jpg"
+    },
+    {
+      "name": "Deb Hiett",
+      "order": 34,
+      "role": "Susan",
+      "thumb": "/dD5RdZwhCQtaiJYjQvDcXd9MuFw.jpg"
+    },
+    {
+      "name": "Kurt Scholler",
+      "order": 36,
+      "role": "Stan",
+      "thumb": "/svUrMJzEyjRhRVvl1z9PKvBMyPi.jpg"
+    },
+    {
+      "name": "Frank Gallegos",
+      "order": 38,
+      "role": "Frank",
+      "thumb": "/vsvFqDvLPcvzqVxoEJqtEZYgTYc.jpg"
+    },
+    {
+      "name": "Marcia Ann Burrs",
+      "order": 46,
+      "role": "Betty",
+      "thumb": "/bEytLgAt4gRXk0l8yxPJkbQbijk.jpg"
+    },
+    {
+      "name": "Christian Alexander Garcia",
+      "order": 47,
+      "role": "Stinson",
+      "thumb": "/3PkoxSlvZmLVF274rQDXi336T2g.jpg"
+    },
+    {
+      "name": "Murray Wyatt Rundus",
+      "order": 47,
+      "role": "Clint",
+      "thumb": "/a1UcC2mBQwYcdCrmqNPwTW7LVDg.jpg"
+    },
+    {
+      "name": "Tate Berney",
+      "order": 48,
+      "role": "Dexter",
+      "thumb": null
+    },
+    {
+      "name": "Cait Pool",
+      "order": 49,
+      "role": "Lisa May",
+      "thumb": "/xEjH0YydjSHj9XAdpTrgE79DtIo.jpg"
+    },
+    {
+      "name": "Christopher Cho",
+      "order": 50,
+      "role": "Omar",
+      "thumb": "/6F8ifpJaFhDfjPoHMiCjo0TBUr6.jpg"
+    },
+    {
+      "name": "Ray Liotta",
+      "order": 51,
+      "role": "Vincent",
+      "thumb": "/iXKotiB0Xe9iJLCBbjAedHPLb7p.jpg"
+    },
+    {
+      "name": "Brielle Barbusca",
+      "order": 52,
+      "role": "Cheerleader",
+      "thumb": "/9DJMTlsLxseV0sImJWKIiju19dU.jpg"
+    },
+    {
+      "name": "Jason Kravits",
+      "order": 53,
+      "role": "Ronald Hodges",
+      "thumb": "/cJR2IntcqNtpMU7iqiHBUAHx6HA.jpg"
+    },
+    {
+      "name": "Sharon Ferguson",
+      "order": 54,
+      "role": "Madam Laveau",
+      "thumb": "/11NYDNPJccPzb7zKfZYhBkNokae.jpg"
+    },
+    {
+      "name": "Frances Conroy",
+      "order": 55,
+      "role": "Flora Douglas",
+      "thumb": "/aJRQAkO24L6bH8qkkE5Iv1nA3gf.jpg"
+    },
+    {
+      "name": "Thomas Adoue Polk",
+      "order": 58,
+      "role": "Dave",
+      "thumb": "/iWarpYxvaO0tkglkNTZjbQMFMuP.jpg"
+    },
+    {
+      "name": "Dave Florek",
+      "order": 59,
+      "role": "Mr. Eberland",
+      "thumb": null
+    },
+    {
+      "name": "Kurt Doss",
+      "order": 60,
+      "role": "Ned",
+      "thumb": "/8n9dj1UcMxoMFzR3kNKmCfMwvwg.jpg"
+    },
+    {
+      "name": "Caitlin Carmichael",
+      "order": 61,
+      "role": "Veronica",
+      "thumb": "/k0yEVLRkkGChEKcW5R7mAOwS9sa.jpg"
+    },
+    {
+      "name": "Zuleyka Silver",
+      "order": 62,
+      "role": "Selena",
+      "thumb": null
+    },
+    {
+      "name": "Cedric Begley",
+      "order": 63,
+      "role": "Doug",
+      "thumb": "/mQ6MUDDTwlJ7WnLD3qs4zBBpqQz.jpg"
+    },
+    {
+      "name": "Lily Keene",
+      "order": 65,
+      "role": "Sueann Ludlow",
+      "thumb": "/pH3O7Ukt5dTTeK7C8P0SHyq5N3p.jpg"
+    },
+    {
+      "name": "Ava Cantrell",
+      "order": 66,
+      "role": "Molly",
+      "thumb": "/yKytngrYPXlGtvt6yAq208FCCa5.jpg"
+    },
+    {
+      "name": "Aliyah Moulden",
+      "order": 67,
+      "role": "Pepper",
+      "thumb": "/aPlctebdlu4v1Jk2Da5ELdLYKrK.jpg"
+    },
+    {
+      "name": "Gabriella Martinez",
+      "order": 68,
+      "role": "Kate",
+      "thumb": "/mSM89Q9XJ5Ewc2TWlOiaC4Ov4VY.jpg"
+    },
+    {
+      "name": "Paul Bates",
+      "order": 71,
+      "role": "Luis",
+      "thumb": "/cvHI8cb5vKjqaigqwljpsERsv8R.jpg"
+    },
+    {
+      "name": "Ella Allan",
+      "order": 72,
+      "role": "Bobbi Sparks",
+      "thumb": "/1DNjJ4IoKwJO3NTM9kdVTmudL0K.jpg"
+    },
+    {
+      "name": "Mia Allan",
+      "order": 73,
+      "role": "Bobbi Sparks",
+      "thumb": "/ZeVj08CArTQ0Tk9j64pdj0zOLR.jpg"
+    },
+    {
+      "name": "Charlie Hankin",
+      "order": 74,
+      "role": "Randall",
+      "thumb": "/telyMVLn78YsrQUQFF0gwaKc463.jpg"
+    },
+    {
+      "name": "Cleo King",
+      "order": 75,
+      "role": "Mrs. Costello",
+      "thumb": "/23g8Et2W8WqyAW6aneeTA9jBKUx.jpg"
+    },
+    {
+      "name": "Aaron Schwartz",
+      "order": 77,
+      "role": "Marcus",
+      "thumb": "/2Xwwd8qnXfslaDqbHDJFeoRiW2z.jpg"
+    },
+    {
+      "name": "Bill Chott",
+      "order": 78,
+      "role": "Franklin",
+      "thumb": "/gYtlWWLUzd5qTr1BEC9pzsWSxTl.jpg"
+    },
+    {
+      "name": "Josh Latzer",
+      "order": 79,
+      "role": "Hank",
+      "thumb": "/fevFmfIsmS8IWhOEnKquzGnLurI.jpg"
+    },
+    {
+      "name": "Amy Farrington",
+      "order": 82,
+      "role": "Sandra Thorpe",
+      "thumb": "/yyJQhPEnV1JjbyCiJmecSWTWgN.jpg"
+    },
+    {
+      "name": "Jonney Ahmanson",
+      "order": 82,
+      "role": "Bruce",
+      "thumb": "/tms9QxzzmgaPRTN9k4c5N5BvRsD.jpg"
+    },
+    {
+      "name": "Wallace Langham",
+      "order": 82,
+      "role": "Edward Pilson",
+      "thumb": "/pjc9iFeNMAAHI3zOsiP1anZ0wis.jpg"
+    },
+    {
+      "name": "Cheyenne Nguyen",
+      "order": 83,
+      "role": "Mai Nguyen",
+      "thumb": "/rqVa3qqda9RufZ9n62Y9GFfyYqb.jpg"
+    },
+    {
+      "name": "Sara Sanderson",
+      "order": 84,
+      "role": "Leslie",
+      "thumb": "/iEFbBfuasovdOsbcLCriGRmhJ9H.jpg"
+    },
+    {
+      "name": "Adam Kulbersh",
+      "order": 85,
+      "role": "Fred Murphy",
+      "thumb": "/ovfFy2W5SmslmZwzWSfWPA6oQop.jpg"
+    },
+    {
+      "name": "Hilda Boulware",
+      "order": 86,
+      "role": "Judy",
+      "thumb": "/cUSkkGYBrOhYH0QSHKh7PDEaqLs.jpg"
+    },
+    {
+      "name": "Dale Raoul",
+      "order": 87,
+      "role": "Melissa",
+      "thumb": "/sfFnK9ukMxGFRriVNoXlXOc9hEI.jpg"
+    },
+    {
+      "name": "Susan Chuang",
+      "order": 88,
+      "role": "Dr. Barrett",
+      "thumb": "/bj3w5esnk92cK8b9gcRHmV5VXyc.jpg"
+    },
+    {
+      "name": "Livia Treviño",
+      "order": 89,
+      "role": "Paula",
+      "thumb": "/9HXrvSKjTM2suqNFIXexmDYc1o4.jpg"
+    },
+    {
+      "name": "Chris Ellis",
+      "order": 90,
+      "role": "Marty Steinbecker",
+      "thumb": "/zSoBhmD7KtHi9YrBVrHK9QSl8DU.jpg"
+    },
+    {
+      "name": "Kate Flannery",
+      "order": 91,
+      "role": "Nora",
+      "thumb": "/wFXWKB2IUyB6Cu08PyovyBAm9WT.jpg"
+    },
+    {
+      "name": "Wayne Wilderson",
+      "order": 92,
+      "role": "Dr. Gilbert",
+      "thumb": "/wxGjX5fqMaw9pey8ysFZbetpKGD.jpg"
+    },
+    {
+      "name": "Jordan Leer",
+      "order": 93,
+      "role": "Bryan",
+      "thumb": "/sLCjVjEPi8LC1weVneJhnjbDPjr.jpg"
+    },
+    {
+      "name": "Ryan Cargill",
+      "order": 94,
+      "role": "Tommy Clarkson",
+      "thumb": "/7JlBEIGz0GWiLf25sQ1hGSW80Hd.jpg"
+    },
+    {
+      "name": "Forrest Deal",
+      "order": 95,
+      "role": "Jason Davies",
+      "thumb": null
+    },
+    {
+      "name": "Christine Baranski",
+      "order": 97,
+      "role": "Beverly Hofstadter",
+      "thumb": "/fqDRKSrJx7v337MWsY5gklvSFGB.jpg"
+    },
+    {
+      "name": "Winifred Freedman",
+      "order": 97,
+      "role": "Luann",
+      "thumb": "/yUVNGD9Lqx9rFRkGN8aYCebAG9E.jpg"
+    },
+    {
+      "name": "Carol Ann Susi",
+      "order": 98,
+      "role": "Mrs. Wolowitz",
+      "thumb": "/9O1sHiZOzNjR4hRcvXugtWxx5hD.jpg"
+    },
+    {
+      "name": "Maree Cheatham",
+      "order": 99,
+      "role": "Dorothy",
+      "thumb": "/gtgvheeo3rR8N7o6gvo5S5EO9GP.jpg"
+    },
+    {
+      "name": "Davey Johnson",
+      "order": 100,
+      "role": "Nigel",
+      "thumb": "/iez4oEjV4TG0orLjUL23qfqCCY3.jpg"
+    },
+    {
+      "name": "Kerri Medders",
+      "order": 103,
+      "role": "Lisa",
+      "thumb": "/7vu4gS1z2XzQMIEfU8SfMtRG8HJ.jpg"
+    },
+    {
+      "name": "Gerald Downey",
+      "order": 104,
+      "role": "Jim",
+      "thumb": "/8yCC7RJc02xoyff3s0Jd4J9KqAR.jpg"
+    },
+    {
+      "name": "Alfred Adderly",
+      "order": 106,
+      "role": "Victor",
+      "thumb": "/ottfzoPgH6oJEZ18h4jiO9QFuVm.jpg"
+    },
+    {
+      "name": "Diedrich Bader",
+      "order": 106,
+      "role": "Batman (voice)",
+      "thumb": "/j3ARZGysag7RZ96ISYBAu51GpnK.jpg"
+    },
+    {
+      "name": "Kaley Cuoco",
+      "order": 107,
+      "role": "Pool (voice)",
+      "thumb": "/jZdgOfncpYjks4AFd6ndYIwpAez.jpg"
+    },
+    {
+      "name": "Steve Burns",
+      "order": 109,
+      "role": "Nathan",
+      "thumb": "/gqdJpTlGTPlF97HX2Hy0XL6J2ZT.jpg"
+    },
+    {
+      "name": "J. Rene Pena",
+      "order": 110,
+      "role": "Caroline",
+      "thumb": "/6QC4hg1tdK9LhS0YYochWnIIhhE.jpg"
+    },
+    {
+      "name": "Jim Beaver",
+      "order": 111,
+      "role": "Kenneth",
+      "thumb": "/c3Cqp1XAdcyeUZKkcrdQsPwb010.jpg"
+    },
+    {
+      "name": "Reba McEntire",
+      "order": 112,
+      "role": "June",
+      "thumb": "/fWF0qy3NJyNRQ4eo6suQiOHlac5.jpg"
+    },
+    {
+      "name": "Taylor Spreitler",
+      "order": 114,
+      "role": "Sam",
+      "thumb": "/ubhhLLy3BTqGV3pOxYORuRZH0Nm.jpg"
+    },
+    {
+      "name": "Nolan Bateman",
+      "order": 115,
+      "role": "Keith",
+      "thumb": "/mGxc00GQxIY6lER3BAq7DH6OgbA.jpg"
+    },
+    {
+      "name": "Amanda Payton",
+      "order": 116,
+      "role": "Meredith",
+      "thumb": "/kHLl3MB0ggUfjCIqZZlQGPonozd.jpg"
+    },
+    {
+      "name": "Kerry O'Malley",
+      "order": 117,
+      "role": "Travel Agent",
+      "thumb": "/8a1wpq7lC8S3XiokACHkJOqJv5v.jpg"
+    },
+    {
+      "name": "Louie Anderson",
+      "order": 118,
+      "role": "Ralph",
+      "thumb": "/6yxIwla3vi06Hd3l16S5kaXgSI0.jpg"
+    },
+    {
+      "name": "Lyn Alicia Henderson",
+      "order": 119,
+      "role": "Sally",
+      "thumb": "/kTzRrupnxlAMwGF3ujxnh2Rr6Wi.jpg"
+    },
+    {
+      "name": "Stacey Moseley",
+      "order": 120,
+      "role": "Carol",
+      "thumb": "/4hDuntTKsv6tEpmOgQX5V7q8olj.jpg"
+    },
+    {
+      "name": "Ian Ousley",
+      "order": 122,
+      "role": "Jeremy",
+      "thumb": "/eYRsfGlRRXU0M8poQ7KNTxVAP8k.jpg"
+    },
+    {
+      "name": "Cyndi Lauper",
+      "order": 123,
+      "role": "Herself",
+      "thumb": "/4fMFl40wCdIEjlajmdpqqPJkhMQ.jpg"
+    },
+    {
+      "name": "Ryan Stiles",
+      "order": 124,
+      "role": "Dr. Bowers",
+      "thumb": "/awUGig6kHCKlZ0oXunMxvGwNFEt.jpg"
+    },
+    {
+      "name": "Phil Hendrie",
+      "order": 125,
+      "role": "Albert Einstein",
+      "thumb": "/yVEa7Z3AXlTY4Aob2nsDH7I1u4r.jpg"
+    },
+    {
+      "name": "John Mariano",
+      "order": 126,
+      "role": "Richard Feynman",
+      "thumb": "/WJbEhM4040D2XBb1ko7OHR7t2q.jpg"
+    },
+    {
+      "name": "Emily Berry",
+      "order": 127,
+      "role": "Janice",
+      "thumb": "/y6QJUcSiLRePjlztOCKvk8KUxKg.jpg"
+    },
+    {
+      "name": "Pappy Faulkner",
+      "order": 128,
+      "role": "Student #1",
+      "thumb": null
+    },
+    {
+      "name": "Amanda Kubota",
+      "order": 129,
+      "role": "Student #2",
+      "thumb": null
+    },
+    {
+      "name": "Landon Taylor Klotz",
+      "order": 130,
+      "role": "Student #3",
+      "thumb": null
+    },
+    {
+      "name": "Angelina Nguyen",
+      "order": 131,
+      "role": "Kim-Ly Nguyen",
+      "thumb": null
+    },
+    {
+      "name": "Luis Victor Jiminez",
+      "order": 133,
+      "role": "Waiter",
+      "thumb": null
+    },
+    {
+      "name": "Mayim Bialik",
+      "order": 134,
+      "role": "Amy Fowler (voice)",
+      "thumb": "/g46253x1eNIj9F1fxRlmiRsA9fY.jpg"
+    },
+    {
+      "name": "Sonya Eddy",
+      "order": 135,
+      "role": "Gretchen",
+      "thumb": "/u4yQNLmXkijZoXxMYC2Hs3DtA4P.jpg"
+    },
+    {
+      "name": "Ramiz Monsef",
+      "order": 136,
+      "role": "Dr. Patel",
+      "thumb": null
+    },
+    {
+      "name": "Larry Cedar",
+      "order": 137,
+      "role": "Lawrence",
+      "thumb": null
+    },
+    {
+      "name": "Jill Johnson",
+      "order": 138,
+      "role": "Gretchen",
+      "thumb": "/mC1mN7KgvuouRp3Z4VNKSUP60yo.jpg"
+    },
+    {
+      "name": "Thomas W. Ashworth",
+      "order": 139,
+      "role": "Norman",
+      "thumb": "/dKpLc5cSkElWyv1TgmKfP1nVTc2.jpg"
+    },
+    {
+      "name": "L. Emille Thomas",
+      "order": 140,
+      "role": "Umpire",
+      "thumb": "/trV52jwX1csoCtBiJtrFGNpGvH1.jpg"
+    },
+    {
+      "name": "Krishna Smitha",
+      "order": 141,
+      "role": "Woman",
+      "thumb": "/wH4dalFunnDVCNod7syrIUbr2Ro.jpg"
+    },
+    {
+      "name": "Sharon Omi",
+      "order": 142,
+      "role": "Librarian",
+      "thumb": "/ePI4YXCf8fiALsNdkYhWw7URP6u.jpg"
+    },
+    {
+      "name": "Rick Peters",
+      "order": 143,
+      "role": "Mr. Boggs",
+      "thumb": "/A8uebBEdc7jyVmruFdJ7CVUam4K.jpg"
+    },
+    {
+      "name": "Julia Pace Mitchell",
+      "order": 144,
+      "role": "Darlene",
+      "thumb": null
+    },
+    {
+      "name": "Eric Normington",
+      "order": 145,
+      "role": "Customer",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Pilot",
-        "Rockets, Communists, and the Dewey Decimal System",
-        "Poker, Faith, and Eggs",
-        "A Therapist, a Comic Book, and a Breakfast Sausage",
-        "A Solar Calculator, a Game Ball, and a Cheerleader's Bosom",
-        "A Patch, a Modem, and a Zantac®",
-        "A Brisket, Voodoo, and Cannonball Run",
-        "Cape Canaveral, Schrodinger's Cat and Cyndi Lauper's Hair",
-        "Spock, Kirk, and Testicular Hernia",
-        "An Eagle Feather, A String Bean, And An Eskimo",
-        "Demons, Sunday School, and Prime Numbers",
-        "A Computer, a Plastic Pony, and a Case of Beer",
-        "A Sneeze, Detention, and Sissy Spacek",
-        "Potato Salad, a Broomstick, and Dad's Whiskey",
-        "Dolomite, Apple Slices, and a Mystery Woman",
-        "Killer Asteroids, Oklahoma, and a Frizzy Hair Machine",
-        "Jiu-Jitsu, Bubble Wrap, and Yoo-hoo",
-        "A Mother, A Child, and a Blue Man's Backside",
-        "Gluons, Guacamole, and the Color Purple",
-        "A Dog, a Squirrel, and a Fish Named Fish",
-        "Summer Sausage, a Pocket Poncho, and Tony Danza",
-        "Vanilla Ice Cream, Gentleman Callers, and A Dinette Set"
+        {
+          "aired": "2017-09-25",
+          "plot": "9-year-old Sheldon Cooper is a once-in-a-generation mind capable of advanced mathematics and science but learns that isn’t always helpful growing up in East Texas, a land where church and football are king.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yspLJDIxVq2fQhmy3nxsAh8hyjQ.jpg",
+          "title": "Pilot"
+        },
+        {
+          "aired": "2017-11-02",
+          "plot": "To appease his worried mother, Sheldon employs the techniques of a self-help book to try and make a friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yxAFfzQgOJmrnxYQ60O8rt0ktAI.jpg",
+          "title": "Rockets, Communists, and the Dewey Decimal System"
+        },
+        {
+          "aired": "2017-11-09",
+          "plot": "When George Sr. is rushed to the emergency room, Meemaw comes to babysit, and the kids have an adventure getting to the hospital on their own.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mfMGjkiiOEkjDQRkuW9DTjIHeHI.jpg",
+          "title": "Poker, Faith, and Eggs"
+        },
+        {
+          "aired": "2017-11-16",
+          "plot": "After choking on a breakfast sausage, Sheldon wrestles with his fear of solid foods and discovers comic books for the first time.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qyta8FZA4QTeVnjmWImDrHSOlHi.jpg",
+          "title": "A Therapist, a Comic Book, and a Breakfast Sausage"
+        },
+        {
+          "aired": "2017-11-23",
+          "plot": "Sheldon struggles with newfound popularity after utilizing statistics to help the football team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aBmCuDXXizQ0LYZlVK3jszOotSJ.jpg",
+          "title": "A Solar Calculator, a Game Ball, and a Cheerleader's Bosom"
+        },
+        {
+          "aired": "2017-11-30",
+          "plot": "When a NASA representative visits Sheldon’s school and dismisses his science, Sheldon is set on a mission to prove him wrong.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wF33TQKGDgpEprJOpfFc3DrgnlN.jpg",
+          "title": "A Patch, a Modem, and a Zantac®"
+        },
+        {
+          "aired": "2017-12-07",
+          "plot": "The kids brainstorm ways to resolve a family feud when Meemaw refuses to give George Sr. her brisket recipe.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cZ9RfJyQWUvU9fbx2uw9Ie7T2OM.jpg",
+          "title": "A Brisket, Voodoo, and Cannonball Run"
+        },
+        {
+          "aired": "2017-12-14",
+          "plot": "While Mary, Memaw and Missy have their girls night at the salon, the three Cooper men plan their road trip to see the space launcher, but it doesn't go as well as they plan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tZ8qGgDkOnI4YYfRAg9BJu8bmZh.jpg",
+          "title": "Cape Canaveral, Schrodinger's Cat and Cyndi Lauper's Hair"
+        },
+        {
+          "aired": "2017-12-21",
+          "plot": "George Sr. strikes a deal with Sheldon to tutor Georgie when poor grades threaten to keep him from playing football",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vxlAWxXXv3kglLTFyQMKxd9SAL4.jpg",
+          "title": "Spock, Kirk, and Testicular Hernia"
+        },
+        {
+          "aired": "2018-01-04",
+          "plot": "When Sheldon moves to Dallas to attend a school for gifted children, the family struggles to cope with his absence.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pP9SGPWWMasF7kxuE09ODr1xzhw.jpg",
+          "title": "An Eagle Feather, A String Bean, And An Eskimo"
+        },
+        {
+          "aired": "2018-01-11",
+          "plot": "A worried Mary sends Sheldon to Sunday school after she finds him playing Dungeons and Dragons with his friends, Tam and Billy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a0o8i7hdvDTSl0KaZF30ELXBsIx.jpg",
+          "title": "Demons, Sunday School, and Prime Numbers"
+        },
+        {
+          "aired": "2018-01-18",
+          "plot": "Sheldon asks for a computer and unknowingly sparks a heated argument between Mary and George Sr. over the family’s finances.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tLteiGlYyNkbyPctVSssEzRqceF.jpg",
+          "title": "A Computer, a Plastic Pony, and a Case of Beer"
+        },
+        {
+          "aired": "2018-02-01",
+          "plot": "When flu season hits Medford, Sheldon takes extreme measures to remain healthy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qUKl6sXDE9KzMr692wID4r211le.jpg",
+          "title": "A Sneeze, Detention, and Sissy Spacek"
+        },
+        {
+          "aired": "2018-03-01",
+          "plot": "When Mary takes a job as church secretary, she finds herself becoming Pastor Jeff's marriage counselor. Also, Sheldon and Missy spend their first afternoon home alone.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4TivpGw3gtOHrdK57enFcQuxYOn.jpg",
+          "title": "Potato Salad, a Broomstick, and Dad's Whiskey"
+        },
+        {
+          "aired": "2018-03-08",
+          "plot": "Sheldon makes friends with an upperclassman who introduces him to a new field of science. Also, Mary and George disagree on how to handle Sheldon's blossoming social life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m5ljEPv4PlVtqsdK5Q9lnxGqcKF.jpg",
+          "title": "Dolomite, Apple Slices, and a Mystery Woman"
+        },
+        {
+          "aired": "2018-03-29",
+          "plot": "A disappointing loss at the science fair sends Sheldon’s life in a new direction.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mBna0nCJROq0DDkog59Heanw3LO.jpg",
+          "title": "Killer Asteroids, Oklahoma, and a Frizzy Hair Machine"
+        },
+        {
+          "aired": "2018-04-05",
+          "plot": "Sheldon is bullied by an unlikely character, and Mary and George disagree on how to handle the situation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eCLIBctFJGouVuC7ZIk0raDzbyx.jpg",
+          "title": "Jiu-Jitsu, Bubble Wrap, and Yoo-hoo"
+        },
+        {
+          "aired": "2018-04-12",
+          "plot": "Mary bans Sheldon from reading a mature comic book. Sheldon decides it's time to stop living under Mary's thumb.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/h52s9oEk1UuGh87kJeH6d0Us7V5.jpg",
+          "title": "A Mother, A Child, and a Blue Man's Backside"
+        },
+        {
+          "aired": "2018-04-19",
+          "plot": "When Sheldon is no longer academically challenged at Medford High, he audits a college class taught by Dr. John Sturgis.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xk1yxBRujgjDUIpHwGcRLwcZVLm.jpg",
+          "title": "Gluons, Guacamole, and the Color Purple"
+        },
+        {
+          "aired": "2018-04-26",
+          "plot": "A battle erupts between the Coopers and Sparks when the Sparks' new dog terrorizes Sheldon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o7JN7GyZHqGt4OeUAM0LgzoEzwj.jpg",
+          "title": "A Dog, a Squirrel, and a Fish Named Fish"
+        },
+        {
+          "aired": "2018-05-03",
+          "plot": "While Sheldon is busy keeping tabs on Meemaw’s budding relationship with Dr. Sturgis, George Sr. and Mary attempt to bond with their other children.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kj4HLjIkKW1VMHVukNL4p812IrJ.jpg",
+          "title": "Summer Sausage, a Pocket Poncho, and Tony Danza"
+        },
+        {
+          "aired": "2018-05-10",
+          "plot": "When Meemaw is pursued by two gentlemen callers, Sheldon interferes, forcing her to set some ground rules.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bLpcJUh4nNsyNfRpXchqr0VjfVT.jpg",
+          "title": "Vanilla Ice Cream, Gentleman Callers, and A Dinette Set"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "A High-Pitched Buzz and Training Wheels",
-        "A Rival Prodigy and Sir Isaac Neutron",
-        "A Crisis of Faith and Octopus Aliens",
-        "A Financial Secret and Fish Sauce",
-        "A Research Study and Czechoslovakian Wedding Pastries",
-        "Seven Deadly Sins and a Small Carl Sagan",
-        "Carbon Dating and a Stuffed Raccoon",
-        "An 8-Bit Princess and a Flat Tire Genius",
-        "Family Dynamics and a Red Fiero",
-        "A Stunted Childhood and a Can of Fancy Mixed Nuts",
-        "A Race of Superhumans and a Letter to Alf",
-        "A Tummy Ache and a Whale of a Metaphor",
-        "A Nuclear Reactor and a Boy Called Lovely",
-        "David, Goliath and a Yoo-hoo from the Back",
-        "A Math Emergency and Perky Palms",
-        "A Loaf of Bread and a Grand Old Flag",
-        "Albert Einstein and the Story of Another Mary",
-        "A Perfect Score and a Bunsen Burner Marshmallow",
-        "A Political Campaign and a Candy Land Cheater",
-        "A Proposal and a Popsicle Stick Cross",
-        "A Broken Heart and a Crock Monster",
-        "A Swedish Science Thing and the Equation for Toast"
+        {
+          "aired": "2018-09-24",
+          "plot": "After Sheldon dismantles the refrigerator to stop an annoying hum, he gets a paper route to pay for the repairs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wO0Y0sGuBrAyacU7EBk4zk6oaU1.jpg",
+          "title": "A High-Pitched Buzz and Training Wheels"
+        },
+        {
+          "aired": "2018-09-27",
+          "plot": "When Dr. Sturgis bonds with Paige, another 10-year-old genius, Sheldon’s jealousy leads Meemaw to intervene. Mary invites Paige’s family over for a play date.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uj0JUOLokZoyiRXDVuuiptmdnKi.jpg",
+          "title": "A Rival Prodigy and Sir Isaac Neutron"
+        },
+        {
+          "aired": "2018-10-04",
+          "plot": "When Mary’s faith is shaken by a tragedy in the community, Sheldon becomes an unlikely ally.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/huJYmKmQ6Kgo2LDU0UNCNQp7hW9.jpg",
+          "title": "A Crisis of Faith and Octopus Aliens"
+        },
+        {
+          "aired": "2018-10-11",
+          "plot": "When George Sr. asks Sheldon to keep a secret from Mary, the stress of not being honest drives Sheldon to hideout at Tam’s for his first sleepover.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3WPuigW7zlG4JmP5AEkR3zObw1N.jpg",
+          "title": "A Financial Secret and Fish Sauce"
+        },
+        {
+          "aired": "2018-10-18",
+          "plot": "When Dr. Sturgis recommends Sheldon and Missy for a university research study on twins, Mary is unhappy when the test results go to Sheldon's head.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5Xsj1jiTQ2RleHHzc0iXpa8nMR0.jpg",
+          "title": "A Research Study and Czechoslovakian Wedding Pastries"
+        },
+        {
+          "aired": "2018-10-25",
+          "plot": "Mary clashes with Sheldon's drama teacher over plans for a Halloween fundraiser for the church. Georgie falls for a rebellious teenage girl whom Sheldon is tutoring.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d698CoNWRzOMKNWVyAllrgUxScv.jpg",
+          "title": "Seven Deadly Sins and a Small Carl Sagan"
+        },
+        {
+          "aired": "2018-11-01",
+          "plot": "Sheldon gets into trouble with fellow child genius, Paige at the science museum. George Sr. is forced to play therapist to Paige’s bickering parents. Mary, Georgie and Missy help Meemaw with a garage sale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lpt3GB92eihXFOBAA3koa5yS9Fn.jpg",
+          "title": "Carbon Dating and a Stuffed Raccoon"
+        },
+        {
+          "aired": "2018-11-08",
+          "plot": "A video game takes over Sheldon and Meemaw’s life. George Sr. is jealous when Georgie bonds with Herschel at the auto shop.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qIUlofa2zLv6akYrYvfJoyEfkR1.jpg",
+          "title": "An 8-Bit Princess and a Flat Tire Genius"
+        },
+        {
+          "aired": "2018-11-15",
+          "plot": "Sheldon studies his family for a psychology project. Thanksgiving dinner turns into a family fight when George Sr. is offered a job in Oklahoma.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kcZSFzeeFKE98OYjLZXADurQNO6.jpg",
+          "title": "Family Dynamics and a Red Fiero"
+        },
+        {
+          "aired": "2018-12-06",
+          "plot": "When Sheldon learns that people with stunted childhoods can turn into social outcasts, he tries to act. Meemaw and Dr. Sturgis' relationship is tested when she teaches him how to drive.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dQOjQhijJ4c9ldGRta7Gl6SkzXP.jpg",
+          "title": "A Stunted Childhood and a Can of Fancy Mixed Nuts"
+        },
+        {
+          "aired": "2019-01-03",
+          "plot": "Sheldon experiments on Missy, and Georgie joins Mary’s bible study to spend more time with his crush, Veronica.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7pbNfDOltHTcr6rkvdI7Avr0m2t.jpg",
+          "title": "A Race of Superhumans and a Letter to Alf"
+        },
+        {
+          "aired": "2019-01-10",
+          "plot": "When Sheldon has to spend a few days in the hospital, he turns into the world’s worst patient. Also, Missy gets a taste of what life would be like without her twin.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3nXXvakupNfxbI2HQyThn9cYfiE.jpg",
+          "title": "A Tummy Ache and a Whale of a Metaphor"
+        },
+        {
+          "aired": "2019-01-17",
+          "plot": "Sheldon attempts to build a nuclear reactor. Also, a university cocktail party gets heated when Dr. Sturgis’ colleague, Dr. Linkletter, flirts with Meemaw, and Georgie is heartbroken when he learns Veronica has a boyfriend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/txtRlModP5BCTVtZxLG9ZLe2bFA.jpg",
+          "title": "A Nuclear Reactor and a Boy Called Lovely"
+        },
+        {
+          "aired": "2019-01-31",
+          "plot": "Sheldon uses his new friendship with the school bully to boss Georgie around. Also, Missy steals Meemaw’s makeup for picture day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iSDAGm0TJnM3Bbzvv4sKXYH2XGK.jpg",
+          "title": "David, Goliath and a Yoo-hoo from the Back"
+        },
+        {
+          "aired": "2019-02-07",
+          "plot": "Sheldon and Dr. Sturgis have their first fight when Dr. Sturgis marks a question wrong on Sheldon's test. Also, Mary takes over for Pastor Jeff when he's out sick.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/27hi7pEsmQkycZuKvHmdOji11rV.jpg",
+          "title": "A Math Emergency and Perky Palms"
+        },
+        {
+          "aired": "2019-02-21",
+          "plot": "Things spiral out of control when Sheldon boycotts his favorite bread company. Also, Georgie offers Veronica a shoulder to cry on when she's dumped by her boyfriend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eDIk9yc1f2PZhHXqRVHDJF00ZSF.jpg",
+          "title": "A Loaf of Bread and a Grand Old Flag"
+        },
+        {
+          "aired": "2019-03-07",
+          "plot": "Inspired by his hero, Albert Einstein, Sheldon tries his hand at the violin. Also, Mary and Meemaw secretly buy a pregnancy test when Mary thinks she's pregnant",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zyhDZowbWZdwQuaJGok8TmKgUrs.jpg",
+          "title": "Albert Einstein and the Story of Another Mary"
+        },
+        {
+          "aired": "2019-04-04",
+          "plot": "Sheldon moves in with Dr. Sturgis for the weekend to see what his life will be like in college. Also, a lonely Mary tries to bond with the other Coopers during Sheldon's absence.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mHWkcoO1c8JTFunSj6WUoZeqH0I.jpg",
+          "title": "A Perfect Score and a Bunsen Burner Marshmallow"
+        },
+        {
+          "aired": "2019-04-25",
+          "plot": "Unhappy that school funds are going towards football rather than academics, Sheldon decides to run for class president.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1stUdS0Kt3Nt12X2ShdQIj6fuq1.jpg",
+          "title": "A Political Campaign and a Candy Land Cheater"
+        },
+        {
+          "aired": "2019-05-02",
+          "plot": "Georgie is thrilled when Veronica stays at the Coopers' house for a few days. Also, Meemaw and Dr. Sturgis celebrate their one-year anniversary.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f3h46DenmOwF0WV82GrNk5qzWDS.jpg",
+          "title": "A Proposal and a Popsicle Stick Cross"
+        },
+        {
+          "aired": "2019-05-09",
+          "plot": "The Coopers help Pastor Jeff through a rough patch in his marriage. Also, Sheldon pressures church members for donations when Mary takes him to work for a day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/z9IzNMveeRkYVQlwOZBugki1hQ3.jpg",
+          "title": "A Broken Heart and a Crock Monster"
+        },
+        {
+          "aired": "2019-05-16",
+          "plot": "Sheldon invites the entire school to a party for the Nobel Prize announcements. Also, Meemaw learns more about Dr. Sturgis' past, and Georgie's desire for cable TV leads to a standoff between him and George Sr.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ai4obiLc0XD46XeSO2j7IykMOFw.jpg",
+          "title": "A Swedish Science Thing and the Equation for Toast"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Quirky Eggheads and Texas Snow Globes",
-        "A Broom Closet and Satan's Monopoly Board",
-        "An Entrepreneurialist and a Swat on the Bottom",
-        "Hobbitses, Physicses and a Ball with Zip",
-        "A Pineapple and the Bosom of Male Friendship",
-        "A Parasol and a Hell of an Arm",
-        "Pongo Pygmaeus and a Culture that Encourages Spitting",
-        "The Sin of Greed and a Chimichanga from Chi-chi's",
-        "A Party Invitation, Football Grapes And An Earth Chicken",
-        "Teenager Soup And A Little Ball Of Fib",
-        "A Live Chicken, a Fried Chicken and Holy Matrimony",
-        "Body Glitter and a Mall Safety Kit",
-        "Contracts, Rules and a Little Bit of Pig Brains",
-        "A Slump, a Cross and Roadside Gravel",
-        "A Boyfriend's Ex-Wife and a Good Luck Head Rub",
-        "Pasadena",
-        "An Academic Crime and a More Romantic Taco Bell",
-        "A Couple Bruised Ribs and a Cereal Box Ghost Detector",
-        "A House for Sale and Serious Woman Stuff",
-        "A Baby Tooth and the Egyptian God of Knowledge",
-        "A Secret Letter and a Lowly Disc of Processed Meat"
+        {
+          "aired": "2019-09-26",
+          "plot": "After Dr. Sturgis experiences a nervous breakdown, Mary worries Sheldon is headed down a similar path. Also, Georgie discovers he has a knack for sales.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7ByHZndMiJ77tOEKwxz6DeXBye3.jpg",
+          "title": "Quirky Eggheads and Texas Snow Globes"
+        },
+        {
+          "aired": "2019-10-03",
+          "plot": "Without Dr. Sturgis’ university class, Sheldon must find a new way to stay academically challenged. Also, Mary helps Pastor Jeff avoid temptation with his girlfriend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7qddDT5k5i4HyH5T4r2BoNWgelk.jpg",
+          "title": "A Broom Closet and Satan's Monopoly Board"
+        },
+        {
+          "aired": "2019-10-10",
+          "plot": "Sheldon takes matters into his own hands when Meemaw refuses to drive him to a lecture with Dr. Linkletter. Also, Georgie tries to impress Veronica with his new business venture",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/638NC1cVAOSUfbeVHR4iK4cCXux.jpg",
+          "title": "An Entrepreneurialist and a Swat on the Bottom"
+        },
+        {
+          "aired": "2019-10-17",
+          "plot": "Sheldon is forced to take a break from science when his new obsession with \"The Lord of the Rings\" leads to an unhealthy habit. Also, Missy asks George Sr. to teach her how to play catch.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8D4p69gNW2lEainBu7Egf1HlO7c.jpg",
+          "title": "Hobbitses, Physicses and a Ball with Zip"
+        },
+        {
+          "aired": "2019-10-24",
+          "plot": "After being released from the mental hospital, Dr. Sturgis unexpectedly breaks up with Meemaw.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yPAgQFgmEF2zlr3cf53Ey6lMD54.jpg",
+          "title": "A Pineapple and the Bosom of Male Friendship"
+        },
+        {
+          "aired": "2019-11-07",
+          "plot": "A church carnival leads Missy to try out for the baseball team. Also, Meemaw struggles after her breakup with Dr. Sturgis.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2r2ETr9bKbfEStmQAQn9QIE4dYe.jpg",
+          "title": "A Parasol and a Hell of an Arm"
+        },
+        {
+          "aired": "2019-11-14",
+          "plot": "Sheldon starts an internet flame war, and Missy stands up to the boys on her baseball team. Also, Meemaw is unhappy when George Sr. spends time with her new boyfriend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/859vq94V8uMzjXg8m1OihMO1Fsu.jpg",
+          "title": "Pongo Pygmaeus and a Culture that Encourages Spitting"
+        },
+        {
+          "aired": "2019-11-21",
+          "plot": "The University makes George Sr. a lucrative job offer in the hopes of recruiting Sheldon. Also, Georgie gets a job working for Meemaw's new boyfriend, and Mary is determined to rid her home of greed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5D0hw7Se5PeUAxnQ4B9ff712wGr.jpg",
+          "title": "The Sin of Greed and a Chimichanga from Chi-chi's"
+        },
+        {
+          "aired": "2019-12-05",
+          "plot": "Mary gets Pastor Jeff involved when Sheldon isn't invited to Billy's birthday party. Also, George Sr. has \"male-bonding time\" with Dr. Sturgis.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f4xr8k0QUYGBRFYNdN53KJmjHoY.jpg",
+          "title": "A Party Invitation, Football Grapes And An Earth Chicken"
+        },
+        {
+          "aired": "2019-12-12",
+          "plot": "Sheldon fakes being sick to avoid a swim test at school. Also, Dr. Sturgis spies on Meemaw's new boyfriend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j15XKLZRZyjlBIy16qz8hCAW9Sj.jpg",
+          "title": "Teenager Soup And A Little Ball Of Fib"
+        },
+        {
+          "aired": "2020-01-09",
+          "plot": "George Sr. and Meemaw struggle to manage the Cooper household while Mary plans Pastor Jeff’s wedding.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/idvcJdGR7JT4BxLf1XhA0R1HZMV.jpg",
+          "title": "A Live Chicken, a Fried Chicken and Holy Matrimony"
+        },
+        {
+          "aired": "2020-01-16",
+          "plot": "Sheldon learns to listen when an emotional Paige struggles with her parents’ divorce. George Sr. is furious when Georgie tries to buy his way out of chores.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5UDctDo6n6QPzz32azUrRue6o2J.jpg",
+          "title": "Body Glitter and a Mall Safety Kit"
+        },
+        {
+          "aired": "2020-01-30",
+          "plot": "George Sr. and Georgie go camping with Meemaw's new boyfriend, Dale, but things get complicated when her ex-boyfriend, Dr. Sturgis, tags along. Also, Sheldon and Missy invent a super-game.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rrkhE4VjJF4Lq9XZkuY0K5mut84.jpg",
+          "title": "Contracts, Rules and a Little Bit of Pig Brains"
+        },
+        {
+          "aired": "2020-02-06",
+          "plot": "Sheldon and Georgie mine for platinum in roadside gravel. Mary is concerned when Missy misuses religion to help with a batting slump.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ffmY6JWnSmgneuAnrawCy0fKSSR.jpg",
+          "title": "A Slump, a Cross and Roadside Gravel"
+        },
+        {
+          "aired": "2020-02-13",
+          "plot": "Meemaw meets Dale’s ex-wife, June. Sheldon is forced to work on a group project with reluctant college students.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mWx1FUwf5ulRrixxA6Eddp6Myce.jpg",
+          "title": "A Boyfriend's Ex-Wife and a Good Luck Head Rub"
+        },
+        {
+          "aired": "2020-02-20",
+          "plot": "Sheldon visits CalTech for the very first time. Also, Georgie is furious when Mary listens in on a phone call with his girlfriend, and Meemaw tries to cheer up a jealous Missy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8mhuqhK845EtxI8kQrcBPuIzS55.jpg",
+          "title": "Pasadena"
+        },
+        {
+          "aired": "2020-03-05",
+          "plot": "Dr. Sturgis is furious when Sheldon accuses him of plagiarism. Also, Mary sets out to find a “girl trophy” for Missy’s end-of-season baseball ceremony, and Georgie has an awkward run-in with Veronica while on a date with his new girlfriend, Jana.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2Rrmq4qQ1T0Y8xa3D2CdGQ4iFLf.jpg",
+          "title": "An Academic Crime and a More Romantic Taco Bell"
+        },
+        {
+          "aired": "2020-03-12",
+          "plot": "When George Sr. accidentally lands the school librarian in the hospital, the Cooper family must nurse her back to health. Meemaw gives Georgie relationship advice.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1ktX1ZU8HvbD9EceeUlAmLBRB.jpg",
+          "title": "A Couple Bruised Ribs and a Cereal Box Ghost Detector"
+        },
+        {
+          "aired": "2020-04-02",
+          "plot": "When Sheldon learns the house next door is for sale, he takes it upon himself to find the perfect neighbors. Missy is torn when she’s forced to pitch against her boyfriend at the baseball game.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fGu9yvTgeeXGDRVl3sr2IjAnM6u.jpg",
+          "title": "A House for Sale and Serious Woman Stuff"
+        },
+        {
+          "aired": "2020-04-16",
+          "plot": "Sheldon has a scientific breakthrough at the dentist's office. Also, Dale (Craig T. Nelson) and Meemaw go to the casino, and Georgie makes a big mistake when Dale leaves him in charge of the store",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3wPSFugXo8O542qBx5HFbxiMM1u.jpg",
+          "title": "A Baby Tooth and the Egyptian God of Knowledge"
+        },
+        {
+          "aired": "2020-04-30",
+          "plot": "Sheldon discovers that Mary's been keeping a secret about his future. Also, Meemaw is furious when she learns Dale fired Georgie.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/juh2LVL5p3GBtOPbxPVMCsJFIbj.jpg",
+          "title": "A Secret Letter and a Lowly Disc of Processed Meat"
+        }
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        {
+          "aired": "2020-11-05",
+          "plot": "After graduating high school, Sheldon has a breakdown when he realizes he may not be ready for college. Dale tries to make amends with Meemaw.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nOEJ4hxRN0yPwSOHawxzkRIVTQn.jpg",
+          "title": "Graduation"
+        },
+        {
+          "aired": "2020-11-12",
+          "plot": "Sheldon gets a summer job at the local train museum. Also, George and Missy bond when Missy embarks on a new stage of womanhood, and Georgie discovers Mary's guilty pleasure.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/epTLno8bRQ5xG8Iz06snzPeNWUQ.jpg",
+          "title": "A Docent, A Little Lady and a Bouncer Named Dalton"
+        },
+        {
+          "aired": "2020-11-19",
+          "plot": "With college in sight, Sheldon is determined to ride his bike without training wheels. Also, Mary and George Sr. argue over parenting styles.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bLZr5UkwTbVclpRZdmxfLumDHQf.jpg",
+          "title": "Training Wheels and an Unleashed Chicken"
+        },
+        {
+          "aired": "2020-12-03",
+          "plot": "When their mothers force them to attend Vacation Bible School. Also, George is furious after Georgie makes a questionable purchase.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1UND6MCKQnV8TAyUkDpnwmfNegO.jpg",
+          "title": "Bible Camp and a Chariot of Love"
+        },
+        {
+          "aired": "2020-12-17",
+          "plot": "Dale and Meemaw work out relationship issues while playing Dungeons and Dragons with Sheldon and Missy. Also, Mary and George take a trip with Coach Wilkins and his wife, and Georgie freaks out when his girlfriend thinks she's pregnant.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5gaPTaX5BMnFMnykjIqZfKP4N3m.jpg",
+          "title": "A Musty Crypt and a Stick to Pee On"
+        },
+        {
+          "aired": "2021-01-07",
+          "plot": "College orientation does not go as Sheldon planned. Also, Mary is invited to a party when she's mistaken for a university student, and George Sr. helps Pastor Jeff set up a children's nursery.",
+          "thumbnail": "",
+          "title": "Freshman Orientation And The Inventor Of The Zipper"
+        }
       ]
     }
   },

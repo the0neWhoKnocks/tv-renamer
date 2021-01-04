@@ -1,42 +1,564 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Action & Adventure",
+    "Sci-Fi & Fantasy",
+    "Drama"
+  ],
   "id": 75006,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5c66bbd58ec98.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d003ebe39.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d015754ce.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d027cd87c.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d053aef1b.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d5da15214.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d5ef8488a.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d61876e22.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d62f31e5d.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d64d7b4df.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5cff020026.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d3cc1bf5b.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d5b3acd94.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d60476f25.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d04024c18.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d0695dd69.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5f036db251fde.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/353764/seasonthumb/the-umbrella-academy-5f108235bd49b.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5f1082504a7cb.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c69f5b85755d.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c55fb8156005.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5f242d636c945.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c66b88bbf4d9.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c66b6b9c42e8.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c66b88bb5846.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5f10848af2dbb.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5c66b6c35ba17.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5c66b6c363e61.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5f583d5a2169e.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5d06368e5a0cf.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5efb06f23f247.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5d063650e33e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5f036e2c78b3e.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5f242d4302e8b.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c6f1397a4030.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c55fb6498d8f.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c70709ea662d.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5d0635bd3ee9b.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c55fd5230eab.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f1083dcb2c1b.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b193ba7f6.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b6d34df9c.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f583ca39a005.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f583ca4e5e28.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/mE3zzMkpP8yqlkzdjPsQmJHceoe.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "The Umbrella Academy",
+  "plot": "A dysfunctional family of superheroes comes together to solve the mystery of their father's death, the threat of the apocalypse and more.",
+  "premiered": "2019-02-15",
+  "status": "Returning Series",
+  "studios": [
+    "Netflix"
+  ],
+  "actors": [
+    {
+      "name": "Tom Hopper",
+      "order": 0,
+      "role": "Luther Hargreeves",
+      "thumb": "/qS8F31xn6ZoNBTOvcXZfWewgma2.jpg"
+    },
+    {
+      "name": "David Castañeda",
+      "order": 1,
+      "role": "Diego Hargreeves",
+      "thumb": "/5ClaQPDoFKBRmQrjuiomq01uSgC.jpg"
+    },
+    {
+      "name": "Emmy Raver-Lampman",
+      "order": 2,
+      "role": "Allison Hargreeves",
+      "thumb": "/cBkHUBzqoqrnkxDXWlqQmm91pD2.jpg"
+    },
+    {
+      "name": "Robert Sheehan",
+      "order": 3,
+      "role": "Klaus Hargreeves",
+      "thumb": "/2rum1TvJyB13RMERueiH1MrBmjZ.jpg"
+    },
+    {
+      "name": "Aidan Gallagher",
+      "order": 4,
+      "role": "Number Five",
+      "thumb": "/zwOMopF4dAAvA6Lexr2dxJ9qBlD.jpg"
+    },
+    {
+      "name": "Elliot Page",
+      "order": 6,
+      "role": "Vanya Hargreeves",
+      "thumb": "/tp157uXeMPA5G91cfecBWO2OFzn.jpg"
+    },
+    {
+      "name": "Kate Walsh",
+      "order": 40,
+      "role": "The Handler",
+      "thumb": "/jRg4pmjvI2063YnQ6PJidclOc4L.jpg"
+    },
+    {
+      "name": "Colm Feore",
+      "order": 40,
+      "role": "Sir Reginald Hargreeves",
+      "thumb": "/oOxcf1qB1IvVZrBEE1PdrfMiyBK.jpg"
+    },
+    {
+      "name": "Justin H. Min",
+      "order": 5,
+      "role": "Ben Hargreeves",
+      "thumb": "/ephzwqElc1LzIDfm9fiVf38ppkK.jpg"
+    },
+    {
+      "name": "Cameron Britton",
+      "order": 7,
+      "role": "Hazel",
+      "thumb": "/Aobxj7I3aPOkHlQiiQSE64aHCud.jpg"
+    },
+    {
+      "name": "Marin Ireland",
+      "order": 7,
+      "role": "Sissy",
+      "thumb": "/jAIOQNraHjvIAdqk81QDV5Phupp.jpg"
+    },
+    {
+      "name": "Mary J. Blige",
+      "order": 8,
+      "role": "Cha-Cha",
+      "thumb": "/riQBsxzhbp8E7T9noJEZrEoLZWO.jpg"
+    },
+    {
+      "name": "Ritu Arya",
+      "order": 8,
+      "role": "Lila Pitts",
+      "thumb": "/9ojwd1UhOJx6Jx8s6hLwNP2HwGb.jpg"
+    },
+    {
+      "name": "Yusuf Gatewood",
+      "order": 9,
+      "role": "Raymond Chestnut",
+      "thumb": "/2MXPjXtx7JkdeXLWG9a1DsGfGSJ.jpg"
+    },
+    {
+      "name": "Adam Godley",
+      "order": 9,
+      "role": "Pogo",
+      "thumb": "/xOM0zOb2KZ2q8M6lRrDo9bEBeJE.jpg"
+    },
+    {
+      "name": "Jordan Claire Robbins",
+      "order": 10,
+      "role": "Grace",
+      "thumb": "/7FIdqy5rRT5Bg6IgOW4PjDKuKc2.jpg"
+    },
+    {
+      "name": "John Magaro",
+      "order": 500,
+      "role": "Leonard Peabody",
+      "thumb": "/smLwDbuUhfOAEohgtCm2YKZbGZW.jpg"
+    },
+    {
+      "name": "T.J. McGibbon",
+      "order": 4,
+      "role": "Young Vanya",
+      "thumb": "/k75hqHbiyun2guO4VGlEbwu4VDJ.jpg"
+    },
+    {
+      "name": "Cameron Brodeur",
+      "order": 5,
+      "role": "Young Luther",
+      "thumb": "/htUezZbskoZ7nLrxT4CjM7BkLTU.jpg"
+    },
+    {
+      "name": "Blake Talabis",
+      "order": 6,
+      "role": "Young Diego",
+      "thumb": "/j49KTVAl4sACiSZG1pHHZJbbTrf.jpg"
+    },
+    {
+      "name": "Dante Albidone",
+      "order": 7,
+      "role": "Young Klaus",
+      "thumb": "/fuN2Zmd06gsLBis6PYcTaJHvzaP.jpg"
+    },
+    {
+      "name": "Eden Cupid",
+      "order": 8,
+      "role": "Young Allison",
+      "thumb": "/gZRl0z53LYZNfAfyqyKiVAu9B2t.jpg"
+    },
+    {
+      "name": "Ethan Hwang",
+      "order": 9,
+      "role": "Young Ben",
+      "thumb": "/8pVXPxP0EoGMyYrg4JPHx3eW3XM.jpg"
+    },
+    {
+      "name": "Sean Sullivan",
+      "order": 10,
+      "role": "Middle Aged 5",
+      "thumb": "/4Wd5kbhuduN6ZswesPMwprv5zt2.jpg"
+    },
+    {
+      "name": "Paskal Vaklev",
+      "order": 11,
+      "role": "Teenage Boy",
+      "thumb": null
+    },
+    {
+      "name": "Anna Nadtotchii",
+      "order": 12,
+      "role": "Teenage Girl",
+      "thumb": "/dIx5dgxGHpZCxKACDXTvkD06MAQ.jpg"
+    },
+    {
+      "name": "Janet Monid",
+      "order": 13,
+      "role": "Instructor",
+      "thumb": null
+    },
+    {
+      "name": "Adam Growe",
+      "order": 14,
+      "role": "Jim Hellerman",
+      "thumb": null
+    },
+    {
+      "name": "Lee Rumohr",
+      "order": 15,
+      "role": "Ringleader",
+      "thumb": "/46n9CK5cttodt0x2mCjuKSzwBJo.jpg"
+    },
+    {
+      "name": "Murray Furrow",
+      "order": 16,
+      "role": "Syd",
+      "thumb": "/Ag0aT5GTRmJuQutYgdiFKBQ6oZx.jpg"
+    },
+    {
+      "name": "Karl Campbell",
+      "order": 17,
+      "role": "Goon Leader",
+      "thumb": "/ms1WkdYgLdi9FRYTTy8cdoTSLIh.jpg"
+    },
+    {
+      "name": "Michael Mast",
+      "order": 18,
+      "role": "Paparazzi #1",
+      "thumb": null
+    },
+    {
+      "name": "Phil Borg",
+      "order": 19,
+      "role": "Paparazzi #2",
+      "thumb": null
+    },
+    {
+      "name": "Peter Outerbridge",
+      "order": 20,
+      "role": "The Conductor",
+      "thumb": "/kK4OUFJCk2eVmluzpS28uqjKHpk.jpg"
+    },
+    {
+      "name": "Cherie D'Elia",
+      "order": 20,
+      "role": "Paparazzi #3",
+      "thumb": null
+    },
+    {
+      "name": "JD Smith",
+      "order": 40,
+      "role": "Officer #1",
+      "thumb": "/cufFNRTKd3QzkqVSwa1lISm6E14.jpg"
+    },
+    {
+      "name": "Ken Hall",
+      "order": 40,
+      "role": "Herb",
+      "thumb": null
+    },
+    {
+      "name": "Kristen Holden-Ried",
+      "order": 40,
+      "role": "Axel",
+      "thumb": "/lphlznej10kVTFkPcSFYCigaZV9.jpg"
+    },
+    {
+      "name": "John Kapelos",
+      "order": 40,
+      "role": "Jack Ruby",
+      "thumb": "/9buu5iq8FxJXMqMjmqEjm1zl2A6.jpg"
+    },
+    {
+      "name": "Kevin Rankin",
+      "order": 40,
+      "role": "Elliott",
+      "thumb": "/fOW5R6BSgRvMrt2R7KAxSk7L4H2.jpg"
+    },
+    {
+      "name": "William Poulin",
+      "order": 40,
+      "role": "Norm",
+      "thumb": null
+    },
+    {
+      "name": "Mindy Sterling",
+      "order": 40,
+      "role": "Edna Frankel",
+      "thumb": "/hX99KTTCFxB4a2rB1SpDbr8imrK.jpg"
+    },
+    {
+      "name": "Jason Blicker",
+      "order": 40,
+      "role": "Desk Cop",
+      "thumb": "/joMhJB4dk4AtJ0KtAmIGs3y2IdC.jpg"
+    },
+    {
+      "name": "Robert Skanes",
+      "order": 40,
+      "role": "Arresting Officer",
+      "thumb": null
+    },
+    {
+      "name": "Bo Martyn",
+      "order": 40,
+      "role": "Autumn",
+      "thumb": "/9yl9hXW9xdWHHPDd9vKtJLxDv7u.jpg"
+    },
+    {
+      "name": "Colleen Reynolds",
+      "order": 40,
+      "role": "Landlord",
+      "thumb": null
+    },
+    {
+      "name": "Dov Tiefenbach",
+      "order": 40,
+      "role": "Keechie",
+      "thumb": "/m5zltcenHoksNzbNlM1V4S5m5A1.jpg"
+    },
+    {
+      "name": "Stephen Bogaert",
+      "order": 40,
+      "role": "Carl Cooper",
+      "thumb": "/snk4elJGQwdV3RN017rFS074XSv.jpg"
+    },
+    {
+      "name": "Kjartan Hewitt",
+      "order": 40,
+      "role": "Hal",
+      "thumb": "/PQrGGYNsZsTSjurAEMII3mxXBz.jpg"
+    },
+    {
+      "name": "George Wyner",
+      "order": 40,
+      "role": "Dan Frankel",
+      "thumb": "/pWd7EqBz83MWu6FfLG0Eco7yY5d.jpg"
+    },
+    {
+      "name": "Jason Bryden",
+      "order": 40,
+      "role": "Otto",
+      "thumb": "/julZmecbULIhu1Ha9pkUDIeEgVA.jpg"
+    },
+    {
+      "name": "Tom Sinclair",
+      "order": 40,
+      "role": "Oscar",
+      "thumb": null
+    },
+    {
+      "name": "Patrice Goodman",
+      "order": 40,
+      "role": "Dot",
+      "thumb": null
+    },
+    {
+      "name": "Justin Paul Kelly",
+      "order": 40,
+      "role": "Harlan",
+      "thumb": "/qmi6cqd7AIoMJGHhPTcAQscxKhe.jpg"
+    },
+    {
+      "name": "Jesse Noah Gruman",
+      "order": 61,
+      "role": "Young Harold",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "The Raincoat Academy Starring King Vader"
+        {
+          "aired": "2020-08-18",
+          "plot": "What happened to the children who weren’t adopted by Sir Reginald Hargreeves?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ntocvMhWOFDTfdZPCZwDv6fSi2W.jpg",
+          "title": "The Raincoat Academy Starring King Vader"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "We Only See Each Other at Weddings and Funerals",
-        "Run Boy Run",
-        "Extra Ordinary",
-        "Man on the Moon",
-        "Number Five",
-        "The Day That Wasn't",
-        "The Day That Was",
-        "I Heard a Rumor",
-        "Changes",
-        "The White Violin"
+        {
+          "aired": "2019-02-15",
+          "plot": "Years after they rose to fame as young crime-fighting superheroes, the estranged Hargreeves siblings come together to mark their father's death.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fXZwLJo0azr4w1TTsCtFv2QbA6i.jpg",
+          "title": "We Only See Each Other at Weddings and Funerals"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "After sharing the story of his time travel with Vanya, Five hunts for the owner of a fake eye. But two mysterious assassins are hot on his trail.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hvm3ziJgN8uhxiYPkFb7y4dDgWV.jpg",
+          "title": "Run Boy Run"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "Worried their mother is hiding something, Luther and Allison call a family meeting. Cha-Cha and Hazel catch a big break in their hunt for Five.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AnJURmufIi5Z3A7UWS8mlltQ0yH.jpg",
+          "title": "Extra Ordinary"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "The story of Luther's transformation emerges. At the motel, Klaus puts Hazel and Cha-Cha's training to the test. Allison grows suspicious of Leonard.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9rA1yB3tI9utlQdMi4YYj9T0HsS.jpg",
+          "title": "Man on the Moon"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "Five lets Luther in on his secret, Klaus returns from a harrowing trip through time, and Vanya begins to feel different without her meds.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/66QRDOQycj4ZZuqpDDaxSiJuz3E.jpg",
+          "title": "Number Five"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "Sparks fly when Vanya finds her siblings holding an emergency family meeting without her. Five starts his new job at HQ. Cha-Cha faces a dilemma.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dHLL0XIqMnDihyr6UwXYhCbbKLX.jpg",
+          "title": "The Day That Wasn't"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "With a second chance at the day, the siblings team up to find the mysterious \"Harold Jenkins.\" Leonard takes Vanya into the woods to test her powers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kgHJ51Cq3l0cKFk96MtZXTHPIem.jpg",
+          "title": "The Day That Was"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "As Vanya practices controlling her new abilities, Allison tags along with a local cop to find out what happened outside the restaurant.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iMd9hsdIe19nxTi5BcIBFtsHt5R.jpg",
+          "title": "I Heard a Rumor"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "Vanya veers between shock and despair as she makes a string of unsettling discoveries. A serendipitous development leaves Five at loose ends.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w7EF6w0kqLbTLtu5Q0A9vIJu1eQ.jpg",
+          "title": "Changes"
+        },
+        {
+          "aired": "2019-02-15",
+          "plot": "As a lifetime of secrets and resentment bring the Umbrella Academy crashing down, the Hargreeves siblings realize the worst is still to come.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9FXVaciyta9KO80GKg7d6qlZLW9.jpg",
+          "title": "The White Violin"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Right Back Where We Started",
-        "The Frankel Footage",
-        "The Swedish Job",
-        "The Majestic 12",
-        "Valhalla",
-        "A Light Supper",
-        "Öga for Öga",
-        "The Seven Stages",
-        "743",
-        "The End of Something"
+        {
+          "aired": "2020-07-31",
+          "plot": "After dropping his siblings into an alley in Dallas — in different years — Five scrambles to track them all down and stop a new doomsday threat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5I0e7IJkP90gnTL73NJkM2xPQWE.jpg",
+          "title": "Right Back Where We Started"
+        },
+        {
+          "aired": "2020-07-31",
+          "plot": "An incident at the bar leads Luther to Vanya. Five finds an unsettling surprise in the film Hazel left behind. The cops come after Allison's husband.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qd7UZWNaFYsHf1dPsEPjIHp9Zde.jpg",
+          "title": "The Frankel Footage"
+        },
+        {
+          "aired": "2020-07-31",
+          "plot": "As the sit-in approaches, Allison reconnects with Klaus, the Swedes chase Vanya into a cornfield, and Luther makes a distressing discovery.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AeaBX1Rr1ashIIxTU9Hdxe2PQno.jpg",
+          "title": "The Swedish Job"
+        },
+        {
+          "aired": "2020-07-31",
+          "plot": "While Allison searches frantically for Ray, Vanya contends with a crisis at the farm, and Five, Diego, and Lila crash a party at the Mexican Consulate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tynLupsuLsfQeLy4tvmDzzeo8vr.jpg",
+          "title": "The Majestic 12"
+        },
+        {
+          "aired": "2020-07-31",
+          "plot": "Summoned to an emergency meeting, the siblings hatch very different plans for how to spend their last six days on Earth. Lila confronts her mother.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kUxvMK7xTnFEbealcfhlhUii3hl.jpg",
+          "title": "Valhalla"
+        },
+        {
+          "aired": "2020-07-31",
+          "plot": "Allison gives Ray a peek at her powers, Dave visits Klaus's compound, the Handler offers Five a deal, and the siblings meet their father for dinner.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jDjtxiUJdHVAScRmhxbBuXkJSbx.jpg",
+          "title": "A Light Supper"
+        },
+        {
+          "aired": "2020-07-31",
+          "plot": "After Five travels to 1982 to carry out his new mission, the siblings face a flurry of difficult decisions. Carl issues a warning to Vanya.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oQ9niEDvmugVs11AIkKt3D3I2dH.jpg",
+          "title": "Öga for Öga"
+        },
+        {
+          "aired": "2020-07-31",
+          "plot": "A desperate Five concocts a risky plan to intercept another version of himself. The FBI tortures Vanya. Diego discovers what causes the apocalypse.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m8PAFyRinRmAhQxelBPfprN9XdR.jpg",
+          "title": "The Seven Stages"
+        },
+        {
+          "aired": "2020-07-31",
+          "plot": "As the Fives plot against each other, one of the siblings makes a big sacrifice to help Vanya, and Lila learns the truth about her parents.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zvBH7OmtZaxP2sw51Ifi9xgGWVS.jpg",
+          "title": "743"
+        },
+        {
+          "aired": "2020-07-31",
+          "plot": "Reeling from the events at Dealey Plaza, the siblings head to the farm to help save Harlan — only to find themselves drawn into a deadly showdown.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5yXFW57LrLfQdynihqhaFgSKkvi.jpg",
+          "title": "The End of Something"
+        }
       ]
     }
   },

@@ -1,32 +1,268 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Drama",
+    "Crime"
+  ],
   "id": 83251,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/351254/seasonposter/dirty-john-5ed7622a66892.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/351254/seasonthumb/dirty-john-5ed7636a6c3ff.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/351254/showbackground/dirty-john-5ed76255aec1e.jpg",
+        "https://assets.fanart.tv/fanart/tv/351254/showbackground/dirty-john-5c04f626bf74e.jpg",
+        "https://assets.fanart.tv/fanart/tv/351254/showbackground/dirty-john-5c04f626cfe1a.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/351254/tvposter/dirty-john-5ed762e935e53.jpg",
+        "https://assets.fanart.tv/fanart/tv/351254/tvposter/dirty-john-5ed76211db324.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/351254/tvthumb/dirty-john-5ed76289ce825.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/Sjm6X8bJnbBRUJ3nOKCVPnvnsm.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/epIeL5ru4ETHTL3X3XOmT1ryd84.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Dirty John",
+  "plot": "Anthology series in which each season is based on a true crime story featuring an epic tale of love gone wrong.",
+  "premiered": "2018-11-25",
+  "status": "Returning Series",
+  "studios": [
+    "USA Network",
+    "Bravo"
+  ],
+  "actors": [
+    {
+      "name": "Connie Britton",
+      "order": 0,
+      "role": "Debra Newell",
+      "thumb": "/tvmHBugmn6zKgWWcDFFOafBkS3K.jpg"
+    },
+    {
+      "name": "Amanda Peet",
+      "order": 0,
+      "role": "Betty Broderick",
+      "thumb": "/5TfyCj0X9ftKO11FN057P05s78C.jpg"
+    },
+    {
+      "name": "Eric Bana",
+      "order": 1,
+      "role": "John Meehan",
+      "thumb": "/j8tbvkg0kyCZihbwrUNRxwhqXXe.jpg"
+    },
+    {
+      "name": "Christian Slater",
+      "order": 1,
+      "role": "Dan Broderick",
+      "thumb": "/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg"
+    },
+    {
+      "name": "Julia Garner",
+      "order": 2,
+      "role": "Terra Newell",
+      "thumb": "/3ssgMsIWiTafSrjHNYdxYYZcvuf.jpg"
+    },
+    {
+      "name": "Rachel Keller",
+      "order": 2,
+      "role": "Linda Kolkena",
+      "thumb": "/16PDQIPN3SoY66M5SIen4mTed1I.jpg"
+    },
+    {
+      "name": "Juno Temple",
+      "order": 3,
+      "role": "Veronica Newell",
+      "thumb": "/2PTZ3uEnL4HgawL5OMjVH6sANY.jpg"
+    },
+    {
+      "name": "Jake Abel",
+      "order": 4,
+      "role": "Trey",
+      "thumb": "/7Z5BBB0x73NOOASuHTibgsJpWSJ.jpg"
+    },
+    {
+      "name": "Katrina Bowden",
+      "order": 1,
+      "role": "Cindi",
+      "thumb": "/ykdL2JKteaBexfDiS9jp9Msyori.jpg"
+    },
+    {
+      "name": "Giorgia Whigham",
+      "order": 2,
+      "role": "Teenage Denise",
+      "thumb": "/oWcGJQ0vqDws24acdxQzPB41hGV.jpg"
+    },
+    {
+      "name": "Joshua Wolf Coleman",
+      "order": 4,
+      "role": "Philipp",
+      "thumb": "/pckYVuLpnfsxCxJeDVZSFdQ2Bq7.jpg"
+    },
+    {
+      "name": "David Ansell",
+      "order": 5,
+      "role": "pastor",
+      "thumb": null
+    },
+    {
+      "name": "Eyas Younis",
+      "order": 6,
+      "role": "Dr L Peifar",
+      "thumb": "/k17LGP9i6H5PWqzo2pGx7PZWgKn.jpg"
+    },
+    {
+      "name": "Marley Shelton",
+      "order": 7,
+      "role": "Carrie",
+      "thumb": "/3Sj8SpMFygZffIwZzbLSiboLF18.jpg"
+    },
+    {
+      "name": "Seneca Paliotta",
+      "order": 8,
+      "role": "Young Denise",
+      "thumb": "/hZgJoHyc09x4r0W6SgwZyK30MN8.jpg"
+    },
+    {
+      "name": "Missi Pyle",
+      "order": 9,
+      "role": "Karen Kintner",
+      "thumb": "/qIeLygSouOCNuESQMvf2Pz9mft.jpg"
+    },
+    {
+      "name": "Dakota Somervill",
+      "order": 10,
+      "role": "Pre-Teen Betty",
+      "thumb": "/aKvTEmVm0fgzuzAz3wDacMXtZzG.jpg"
+    },
+    {
+      "name": "Summer Sveinson",
+      "order": 11,
+      "role": "Courtney",
+      "thumb": "/mfYCeSQdUtJpLR2IEuKnwGEyuZ8.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Approachable Dreams",
-        "Red Flags and Parades",
-        "Remember It Was Me",
-        "Shrapnel",
-        "Lord High Executioner",
-        "One Shoe",
-        "Chivalry",
-        "This Young Woman Fought Like Hell"
+        {
+          "aired": "2018-11-25",
+          "plot": "Debra Newell has a seemingly perfect life: she’s successful, beautiful and lives in one of California’s most desirable coastal cities, Newport Beach. The only thing missing is love. So when Debra finally meets charming and handsome doctor John Meehan, she’s quickly swept into a whirlwind romance, much to her daughters’ dismay.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mHbiFxzbk9HwnWF7PH6VfHKHdCl.jpg",
+          "title": "Approachable Dreams"
+        },
+        {
+          "aired": "2018-12-02",
+          "plot": "Debra and John revel secretly in their newlywed bliss, as Veronica, Terra, and Toby hatch a plan to prove their suspicions about their mother’s new man.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vsP5KsIx0kC9TuV9FQSXL48J5Iw.jpg",
+          "title": "Red Flags and Parades"
+        },
+        {
+          "aired": "2018-12-09",
+          "plot": "Debra discovers John’s criminal record. In the past, John starts his first family.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qb7rbzzsDXmbgabhiFLmlE0ILBy.jpg",
+          "title": "Remember It Was Me"
+        },
+        {
+          "aired": "2018-12-16",
+          "plot": "Debra confronts John in the present, while we learn more about Arlane’s past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/60pBe0uYKMlxld3vVahIkFL2WGO.jpg",
+          "title": "Shrapnel"
+        },
+        {
+          "aired": "2018-12-23",
+          "plot": "John gets clean for Debra. Terra learns John’s back. John puts his sister through the ringer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mztqqRoTsaSx15VxruPbeK9xJBW.jpg",
+          "title": "Lord High Executioner"
+        },
+        {
+          "aired": "2018-12-30",
+          "plot": "Debra makes a decision about John. In Ohio, John captures the attention of Detective Dennis Luken.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t8p0FK9zlpJ1s6ypd3Keygs2nHl.jpg",
+          "title": "One Shoe"
+        },
+        {
+          "aired": "2019-01-06",
+          "plot": "A look at how John operates while Debra tries to move forward.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mkabnkwTriXvZCWjyUyMJoiPH3w.jpg",
+          "title": "Chivalry"
+        },
+        {
+          "aired": "2019-01-13",
+          "plot": "John and Debra's relationship comes to a head in an unexpected way.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jFQK06Vkf3uFWsqvTeof5ym2nN6.jpg",
+          "title": "This Young Woman Fought Like Hell"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "No Fault",
-        "The Turtle and the Alligator",
-        "Marriage Encounter",
-        "More to It Than Fun",
-        "Scream Therapy",
-        "The Twelfth of Never",
-        "The Shillelagh",
-        "Perception is Reality"
+        {
+          "aired": "2020-06-02",
+          "plot": "Betty thinks she can't be divorced by her rich lawyer husband without her consent.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gzBSremG8vttayW2BeESe1xNwf9.jpg",
+          "title": "No Fault"
+        },
+        {
+          "aired": "2020-06-02",
+          "plot": "Through medical school, law school and many pregnancies, Betty supports Dan until he hits it big.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oahynjFgDireFjO5KNfiJg5hQHX.jpg",
+          "title": "The Turtle and the Alligator"
+        },
+        {
+          "aired": "2020-06-09",
+          "plot": "A worried Betty takes a desperate step to save her marriage, and it works. Until it doesn’t.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rIdfd9DHCsHwX1v0ZyixKgabp6i.jpg",
+          "title": "Marriage Encounter"
+        },
+        {
+          "aired": "2020-06-16",
+          "plot": "Betty sees her life has been a sham for years.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AsYe2DLLeD21oJhGQ0PMIXTspOM.jpg",
+          "title": "More to It Than Fun"
+        },
+        {
+          "aired": "2020-06-23",
+          "plot": "Fighting her new reality, Betty goes on the offense.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/niikmRk3XUtd4UcwliSJzfZkItC.jpg",
+          "title": "Scream Therapy"
+        },
+        {
+          "aired": "2020-06-30",
+          "plot": "Betty faces Dan in divorce court, and it sends her past a point of no return.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5VCdTFsDqwpRF3C2q0zazLWxp34.jpg",
+          "title": "The Twelfth of Never"
+        },
+        {
+          "aired": "2020-07-07",
+          "plot": "Having lost her sense of identity, Betty can only see her own pain and turn it outward.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/grlJtA86HdrI0Dbdg0L86P1Fl5X.jpg",
+          "title": "The Shillelagh"
+        },
+        {
+          "aired": "2020-07-14",
+          "plot": "Empathy from strangers allows Betty to avoid facing what she's done, until she can't any more.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fU4AQ87IClboPZAcZjGoNVnumov.jpg",
+          "title": "Perception is Reality"
+        }
       ]
     }
   },

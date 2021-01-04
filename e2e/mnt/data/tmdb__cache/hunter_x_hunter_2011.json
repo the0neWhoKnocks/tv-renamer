@@ -1,169 +1,1028 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Action & Adventure",
+    "Animation",
+    "Drama"
+  ],
   "id": 46298,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/252322/clearart/hunter-x-hunter-2011-4f08ce8760caa.png",
+        "https://assets.fanart.tv/fanart/tv/252322/clearart/hunter-x-hunter-2011-4f08ce96792f0.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/252322/clearlogo/hunter-x-hunter-2011-4f02ea599fdff.png",
+        "https://assets.fanart.tv/fanart/tv/252322/clearlogo/hunter-x-hunter-2011-4f04c3b849968.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/252322/showbackground/hunter-x-hunter-2011-5d3e74368c65b.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/showbackground/hunter-x-hunter-2011-5d3e7436aee2e.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/showbackground/hunter-x-hunter-2011-5d3e7436c9e39.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/showbackground/hunter-x-hunter-2011-5d3e7436e47ca.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/showbackground/hunter-x-hunter-2011-5d3e74370b2e6.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/showbackground/hunter-x-hunter-2011-51205e3f30088.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/showbackground/hunter-x-hunter-2011-55a8dd61dccac.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/showbackground/hunter-x-hunter-2011-511cfb81c7e3f.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/showbackground/hunter-x-hunter-2011-55a7a9cb9f80e.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/252322/tvbanner/hunter-x-hunter-2011-55f1fa3aaa751.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-56c9b2ebdf747.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-54a1f76808ecf.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-5b06b0fe6b483.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-55a6fe9bde963.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-58fb2c307ac63.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/252322/tvthumb/hunter-x-hunter-2011-4f847e0fe32d9.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/tvthumb/hunter-x-hunter-2011-4f08ceba35c06.jpg",
+        "https://assets.fanart.tv/fanart/tv/252322/tvthumb/hunter-x-hunter-2011-4f08cec4d910f.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/A702KA1gXlI3hB33hdhwPM708pY.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg"
+    }
+  },
+  "mpaa": "",
   "name": "Hunter x Hunter (2011)",
+  "plot": "Twelve-year-old Gon Freecss one day discovers that the father he had always been told was dead was alive and well. His Father, Ging, is a Hunter—a member of society's elite with a license to go anywhere or do almost anything. Gon, determined to follow in his father's footsteps, decides to take the Hunter Examination and eventually find his father to prove himself as a Hunter in his own right. But on the way, he learns that there is more to becoming a Hunter than previously thought, and the challenges that he must face are considered the toughest in the world.",
+  "premiered": "2011-10-02",
+  "status": "Ended",
+  "studios": [
+    "NTV"
+  ],
+  "actors": [
+    {
+      "name": "Mariya Ise",
+      "order": 500,
+      "role": "Killua Zoldyck (voice)",
+      "thumb": "/tQWlgrlQ70biWdg7x9E75CtwsuD.jpg"
+    },
+    {
+      "name": "Keiji Fujiwara",
+      "order": 500,
+      "role": "Leorio Paladiknight (voice)",
+      "thumb": "/cK5cLHWfVnQdREHs7SpsBs4g4EI.jpg"
+    },
+    {
+      "name": "Chisa Yokoyama",
+      "order": 500,
+      "role": "Biscuit Krueger (voice)",
+      "thumb": "/zdG1f8EJl4vNSCaW9ABkz3ezZFI.jpg"
+    },
+    {
+      "name": "Megumi Han",
+      "order": 500,
+      "role": "Gon Freecss (voice)",
+      "thumb": "/hbZsSUqFOLShJ29uY32UHdW7RYI.jpg"
+    },
+    {
+      "name": "Miyuki Sawashiro",
+      "order": 500,
+      "role": "Kurapika (voice)",
+      "thumb": "/o0ZlluSQHTyaKuFubRtW7rPxQBW.jpg"
+    },
+    {
+      "name": "Daisuke Namikawa",
+      "order": 500,
+      "role": "Hisoka Morow (voice)",
+      "thumb": "/u3G0dSOXazsERnRtVJJgdT1LVUq.jpg"
+    },
+    {
+      "name": "Banjou Ginga",
+      "order": 500,
+      "role": "Isaac Netero (voice)",
+      "thumb": "/akhAAMAjgZw13Lrz8LQqsfm9ez2.jpg"
+    },
+    {
+      "name": "Koki Uchiyama",
+      "order": 500,
+      "role": "Meruem",
+      "thumb": "/hpFCRKaOEQUFBGk1C5P4UlfFKp2.jpg"
+    },
+    {
+      "name": "Mamoru Miyano",
+      "order": 500,
+      "role": "Chrollo Lucilfer (voice)",
+      "thumb": "/5bw3P0A3iCeXaBGWtuWwkmxnAh1.jpg"
+    },
+    {
+      "name": "Rikiya Koyama",
+      "order": 500,
+      "role": "Ging Freecss (voice)",
+      "thumb": "/76irEW7bn5hQYfAk28QtSxnoKOV.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Departure x And x Friends",
-        "Test x Of x Tests",
-        "Rivals x For x Survival",
-        "Hope x And x Ambition",
-        "Hisoka x Is x Sneaky",
-        "A x Surprising x Challenge",
-        "Showdown x On The x Airship",
-        "Decision x By x Majority",
-        "Beware x Of x Prisoners",
-        "Trick x To The x Trick",
-        "Trouble x With The x Gamble",
-        "Last x Test Of x Resolve!",
-        "Letter x From x Gon",
-        "Hit x The x Target",
-        "Explosion x Of x Deception!",
-        "Defeat x And x Disgrace",
-        "Trap x In The x Hole",
-        "Big x Time x Interview",
-        "Can't Win x and x Can't Lose",
-        "Baffling x Turn of x Events",
-        "Some x Brother x Trouble",
-        "A x Dangerous x Watchdog",
-        "The x Guard's x Duty!",
-        "The x Zoldyck x Family!",
-        "Can't See x if x You're x Blind!",
-        "Then × And × After",
-        "Arrival x At The x Arena!",
-        "Nen x And x 'Nen'",
-        "Awakening x And x Potential!",
-        "Fierce x and x Ferocious",
-        "Destiny x and x Tenacity!",
-        "A x Surprising x Win",
-        "An x Empty x Threat!",
-        "Power x To x Avenge!",
-        "The x True x Pass",
-        "A Big Debt x And x A Small Kick!",
-        "Ging x And x Gon!",
-        "Reply x From x Dad!",
-        "Wish x And x Promise!",
-        "Nen x Users x Unite",
-        "Gathering x Of x Heroes!",
-        "Defend x and x Attack!",
-        "A x Shocking x Tragedy!",
-        "Buildup x To A x Fierce Battle",
-        "Restraint x And x Vow",
-        "Chasing x and x Waiting",
-        "Condition x and x Condition",
-        "Very x Sharp x Eye",
-        "Pursuit x and x Analysis",
-        "Ally x and x Sword",
-        "A x Brutal x Battlefield",
-        "Assault x And x Impact",
-        "Fake x And x Psyche",
-        "Fortunes x Aren't x Right",
-        "Allies x And x Lies",
-        "Beloved x And x Beleaguered",
-        "Initiative x And x Law",
-        "Signal x To x Retreat",
-        "Bid x And x Haste",
-        "End x And x Beginning",
-        "Invitation x And x Friend",
-        "Reality x And x Raw"
+        {
+          "aired": "2011-10-02",
+          "plot": "The story begins with a young boy named Gon, who aspires to be a hunter just like his father Ging. Ging leaves his son in the care of Mito, Gon's aunt, and has not been seen since. Gon catches the local monster fish, \"Lord of the Lake\", in order to prove his ability to take the exam. Although Mito is reluctant to let Gon leave his home, she relents after he is determined to understand the reason his father left him and his interest of being a hunter.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7ppEotl1YMs1adTscDdMoLhQaQ3.jpg",
+          "title": "Departure x And x Friends"
+        },
+        {
+          "aired": "2011-10-09",
+          "plot": "Gon, Kurapika and Leorio reach Dolle Harbor and are given instructions by the captain to head for the cedar tree on the hilltop behind the city. Moving through a small town, the three are stopped by a group of people, where an old woman gives a question requring them to choose from two choices. Answering wrongly, refusing to answer or attempting to head back will result in failure of the exam.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qEX0cNZhtRdvXkqalV3cg1yiJhB.jpg",
+          "title": "Test x Of x Tests"
+        },
+        {
+          "aired": "2011-10-16",
+          "plot": "With the navigators' help, Gon, Kurapika and Leorio arrive at Zaban City, the venue of the exam. The navigator leads them to a small restaurant, which is revealed to be the front for the venue. Gon's group is led to an elevator disguised as a back room, which leads a hundred floors underground. Below, they meet the rest of the participants and given their numbers. There they meet Tonpa, a regular participant who claims to have tried and failed 35 times in the exam.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wBvtNJypYY0Jm2nb3B9K7IAC5N2.jpg",
+          "title": "Rivals x For x Survival"
+        },
+        {
+          "aired": "2011-10-23",
+          "plot": "During the first test, a number of participants fall out from fatigue after running for at least forty kilometers. Leorio almost gives up until he is encouraged by Gon, who waits for him. Killua, a participant, is introduced and he is curious of Gon's personality when he discovers that the boy is the same age as him. Kurapika and Leorio talk about the reason for being a hunter, with Kurapika wanting to take down the Phantom Troupe as his clan was massacred by them for their precious scarlet eyes, which manifest when the Kurta uses their heightened sense. Leorio aims to be a hunter for money, for purely altruistic reasons, as his childhood friend died of an illness without the funds to save him. He wishes to be a doctor so he can give his patients free treatment. Finally, the participants reach the end of the tunnel they are in and up to the surface to the Numere Wetlands, also known as Swindlers' Swamp.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4guXoOOo3DEN4OkSdlC5Cf6EZey.jpg",
+          "title": "Hope x And x Ambition"
+        },
+        {
+          "aired": "2011-10-30",
+          "plot": "While following Satotz, a fog moves into the swamp and most of the participants are either rendered unconscious or killed by traps and verocious beasts. A group of candidates target Hisoka as they feel he's a threat. Gon and Killua are separated from Leorio and Kurapika and both sides are eventually attacked by monsters. Leorio and Kurapika encounter Hisoka about to be attacked by candidates but are shocked to watch the magician easily take the candidates down. Hisoka then targets Leorio and Kurapika, but realizing that they are no match for him, they decide to head in different directions to stop him from following. However, Leorio returns, unable to run away from a fight. As expected, Leorio is beaten badly by Hisoka. Before the melee can get any worse, Gon, who is separated from Killua, arrives to stop Hisoka. Although he is also no match for Hisoka, he manages to hit his face once before being strangled by Hisoka.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/597gzJBK4A8tbDX4KZKrK9hmJQG.jpg",
+          "title": "Hisoka x Is x Sneaky"
+        },
+        {
+          "aired": "2011-11-06",
+          "plot": "Gon and Kurapika reunite with Leorio and Killua at the Phase Two site. Satotz leads what remains of the candidates to meet the second phase examiners, named Menchi and Buhara. The examiners declare the next phase is to test their cooking skills, much to the candidates' disbelief. The test requires pork, so the candidates are sent to find pigs in the forest. However, the pigs living inside the forest are carnivorous and tear through the candidates. Thanks to Gon, they discover the pigs' weakness and they manage to each get one for their cooking. Upon tasting the candidates' cooking, Buhara gives a pass but Menchi fails all of them. Knowing the candidates will riot, Satotz informs Chairman Netoros of the Hunter Selection Committee to make an appearance. Netoros arrives to correct Menchi's habit of getting biased whenever it's related to cooking. Netoros allows Menchi to stay on as examiner, and she gives the candidates a retest: boil eggs laid by spider eagles on Mt. Split-in-Half.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fU4qeE9kQXtVDHnp2vgzxjOycsG.jpg",
+          "title": "A x Surprising x Challenge"
+        },
+        {
+          "aired": "2011-11-13",
+          "plot": "All the candidates are told by Beans, Neteros' secretary to get their dinner and rest and prepare for the third phase the next morning. Tonpa tries to commit sabotage again by trying to keep Kurapika and Leorio awake for the whole night, but is exasperated to find that none of them fall for his tricks. Gon and Killua explore the airship, and Killua tells Gon that he is actually from a family of assassins. He wished to strike out on his own, which his family has not taken lightly. Neteros arrives and tests both boys' instinct and asks how they felt about the difficulty of the exam. Neteros invites both of them to a game, whoever can grab the ball he is holding before dawn will immediately pass the exam. Gon and Killua find it too hard to pass up, but discovers that with Neteros' skills, they are unable to grab the ball. Eventually Killua realizes that with their skills, they will never be able to take the ball from Neteros for a year, if he keeps it up.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ktmIrxuf7aOrJlivhovCqnrDvOz.jpg",
+          "title": "Showdown x On The x Airship"
+        },
+        {
+          "aired": "2011-11-20",
+          "plot": "The airship reaches Trick Tower, the Phase Three site, which is a tall featureless pillar built on an equally high platform. The candidates are told that to pass Phase 3, they have to climb down from the top to the base of the tower. An experienced rock climber candidate tries to climb down but is eaten by some flying monsters. Later, Kurapika finds that more than half of the candidates have discovered hidden doors to go inside the tower, which Gon finds one as well. However, the catch is that there are many hidden doors, each one can be only used once and only one person can fit through a door, which means they have to split up. When they try out different doors, they realize that they end up in the same room. In the room, Gon's group are given instructions and special wristwatches for five of them to follow the majority, but they cannot proceed without a fifth member. Lippo, one of the Phase 3 examiners tells them this while explaining they have chosen the path of majority rule.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sj2RJGWOjtR9t903J3jXesPGEe3.jpg",
+          "title": "Decision x By x Majority"
+        },
+        {
+          "aired": "2011-11-27",
+          "plot": "Tonpa promptly gives up even before Bendot land a punch on him. Leorio is furious at what he has done but Tonpa tells them that his real plan is to sabotage rookies like them. Gon then faces Sedokan, who proposes a match to see whose candle burns the longest. Gon chooses the longer candle, unaware that it is oil-soaked, and his candle starts to burn faster midway. Seeing that his candle is not susceptible to strong winds, he puts it down and sprints towards Sedokan to blow his candle. The next match is between Kurapika and Majitani, who proposes a death match without weapons and and with the condition that one must die or surrender to finish the match. Majitani, who relies on scaring and intimidating his enemies to make them surrender, is easily defeated by Kurapika when he sees something in Majitani and makes him see red.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lAqMF73lJBtNPkyoZHOgpEJwL5E.jpg",
+          "title": "Beware x Of x Prisoners"
+        },
+        {
+          "aired": "2011-12-04",
+          "plot": "A female prisoner claim that Majitani is only unconscious, thus Kurapika's match has not been settled. Leorio, and even Killua cannot persuade Kurapika to finish the fight for the latter refuses to fight a person who has lost the will to fight. Frustrated, Leorio decides to use the majority rule as a way out of the difficulty but no one supports him. Elsewhere Hisoka is met by Togari, a former examiner whom Hisoka attacked and is now wanting revenge. Togari attacks with four crescent blades, only to be finished with one sweeping attack. Hisoka then becomes the first applicant to pass this phase. Meanwhile, the team suspects Majitani's real condition. The female prisoner challenges Leorio to have a betting game instead. Leorio agrees and bets ten hours that Majitani is alive, which he wins. Next, he bets twenty hours on Majitani feigning unconsciousness. To confirm, he brings Majitani to the edge of the platform and threatens to drop him. Seeing that, the prisoner changes her bet to forty hours on Majitani being conscious. When he is about to be dropped by Leorio, Majitani moves and admits defeat, putting the score at 2 - 1 in favor of Leorio's team. However, they only have 20 hours left to wager",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iwZQOYXqojkNzVIa23t6kY3QBoJ.jpg",
+          "title": "Trick x To The x Trick"
+        },
+        {
+          "aired": "2011-12-11",
+          "plot": "After winning the bet about Majitani, Leroute, as what the prisoner is named, bets with Leorio about her gender. Despite looking conspicuously female, Leorio, much to Killua and Kurapika's annoyance, bets that she is male. Leorio thinks that team wins if he is correct; and if he is wrong, he will be able to touch Leroute to confirm. Leorio is wrong and goes on to check Leroute. Leorio then challenges Leroute in rock, paper, scissors, and loses. Killua then faces the feared mass murderer Johness the Dissector. Killua rips Johness' heart in an instant and even have it covered in a piece of Johness' cloth. The latter pleads for his heart, and Killua returned it after he is dead. The team thus gathers three points and pass the trial, but they are forced to wait the 50 hours that Leorio has lost with his bets in a small room. Meanwhile, applicants Gittarackur and Hanzo become the second and third one to finish the third phase.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cDlwi2JQREzRF7eyqCXQJmLWCvA.jpg",
+          "title": "Trouble x With The x Gamble"
+        },
+        {
+          "aired": "2011-12-18",
+          "plot": "The team stays inside a small room for fifty hours and keep themselves from getting bored. Then they spend the remaining time going to a series of traps and tricks. At the last room, they encountered two doors and are forced to either choose the long and hard path (45 hours) in which all of them may use or the shortcut (about 3 minutes) wherein two of them must be left behind. As disputes break out among them, Gon comes up with an ingenious idea of opening the long way and breaking through the wall to go to the shortcut so all five of them pass this phase.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9CjSlm1zoWsFcvBNRds8ilZueWF.jpg",
+          "title": "Last x Test Of x Resolve!"
+        },
+        {
+          "aired": "2011-12-25",
+          "plot": "Gon decides to send a letter to his aunt Mito in order to inform her about the events that had happened during his journey. He started to narrate the story on the events starting from the preliminary Hunter exam to the point when he met Leorio, Kurapika, Killua and the other examinees.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8gDyN4qfTUXotm5HqdMsrjxvJv8.jpg",
+          "title": "Letter x From x Gon"
+        },
+        {
+          "aired": "2012-01-08",
+          "plot": "Gon learns to master his accuracy with his pole to try and steal Hisoka's number plate.Finally mastering it,He decides to steal it when Hisoka is busy catching his Prey.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qCFO7q6Xu0vFGE9XyzDxK7jcPoL.jpg",
+          "title": "Hit x The x Target"
+        },
+        {
+          "aired": "2012-01-15",
+          "plot": "Gon is relying on Bloodcrazy Butterflies to find his target, Hisoka, before waiting for the perfect time to use his skill with the fishing rod to snatch Hisoka's tag. Meanwhile, Leorio is tricked by Tonpa and loses his own tag, but Kurapika helps him recover it. Now that Kurapika and Leorio know that neither is the other's target, they decided to form an alliance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vwQGJWECo9pcMNOiWcNfZZqYUyj.jpg",
+          "title": "Explosion x Of x Deception!"
+        },
+        {
+          "aired": "2012-01-22",
+          "plot": "Kurapika and Leorio are being stalked by Hisoka, but they managed to negotiate their way out of a fight. However, the encounter leaves Hisoka aroused, so he leaves in search of a new target. Gon is able to use his fishing rod to snatch Hisoka's tag right when Hisoka attacks his target. However, as Gon tries to escape, he is attacked by another applicant and loses his tag...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ipiSa3T8dTKUN2ONfcRRasL1Yj3.jpg",
+          "title": "Defeat x And x Disgrace"
+        },
+        {
+          "aired": "2012-01-29",
+          "plot": "Killua grows tired of having Imori shadowing him so he challenges Imori to a fight and quickly dispatches him. Meanwhile, Gon has joined up with Leorio and Kurapika. The three of them devise a plan for taking Ponzu's tag and track her down to a suspicious-looking cave. That is when Leorio insists on heading in alone.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tNsFQC2NKUubt5tXo0RTM7NkA6W.jpg",
+          "title": "Trap x In The x Hole"
+        },
+        {
+          "aired": "2012-02-05",
+          "plot": "Gon and his friends have been trapped inside a cave by poisonous snakes. Bourbon, the person responsible for the trap, is already dead, and nobody knows how to disarm the trap. Meanwhile, Leorio, who was bitten by the snakes, is growing weak. Gon manages to get them out of the sticky situation and through to the final phase of the exam. But first, Netero wants an interview with each of the remaining applicants...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vJZkqcrHpmZHxegZ78LzDfcOmuX.jpg",
+          "title": "Big x Time x Interview"
+        },
+        {
+          "aired": "2012-02-12",
+          "plot": "Gon and his friends have advanced to the final phase of the Hunter Exam. The final phase is a tournament where the winners are out and the losers advance. The rule is that if you kill your opponent, you'll be disqualified. The first mach is Gon versus Hanzo. Gon can't do anything against Hanzo, but he refuses to give up. Hanzo is losing his patience and threatens to break Gon's arm.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3dDeKMK7zSvwPmqfJx8QIysbxvP.jpg",
+          "title": "Can't Win x and x Can't Lose"
+        },
+        {
+          "aired": "2012-02-19",
+          "plot": "Gon wakes up, and finds himself being congratulated by Satotz for being the first person to pass the Hunter Exam. Gon asks Satotz if the Exam was still going on, and Satotz tells him that it's over. Satotz reveals what happens after he lost consciousness, and Gon finds out some shocking turn of events.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gdCm8R66k7J6lxGHEbH2Dwg0jl4.jpg",
+          "title": "Baffling x Turn of x Events"
+        },
+        {
+          "aired": "2012-03-04",
+          "plot": "Gon is upset that Killua was forced to kill. Gon is mad at Illumi and proclaims that he will go to Kukuroo Mountain to rescue Killua. As Gon and his friends depart, Satotz mentions that the Hunter Exam isn't over yet...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/v3V2wFLlfDJePv8r539fvZc4d4O.jpg",
+          "title": "Some x Brother x Trouble"
+        },
+        {
+          "aired": "2012-03-11",
+          "plot": "Gon, Kurapica, and Leorio arrive at Kukuroo Mountain only to find out that they cannot get close to the Zoldyck family estate. The Zoldyck family owns the mountain and all of the surrounding forest and the entire region is gated shut. There is a guard outpost immediately outside of the gate, but instead of serving as a guard, the man working in there actually cleans up the mess created by the watchdog whenever there are intruders into the grounds. Gon, unwilling to give up on \"rescuing\" Killua, learns from the gatekeeper that the actual door is the massive stone gate and anyone who enters via that path will not be attacked by the watchdog. Leorio tries to pull and push on the gate, to no avail. The gatekeeper informs them that the gate opens up different amounts of stone slabs based only on the strength of the person; however, the least amount of strength anyone needs to open the smallest portion of the door requires two tons of strength on each side.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f9rEeoWdY3fGhqyEB0aBuZulmJc.jpg",
+          "title": "A x Dangerous x Watchdog"
+        },
+        {
+          "aired": "2012-03-18",
+          "plot": "Gon and his friends have decided to pass through the Trial Gate to see Killua. First, they must train in the servants' residence until they can open the gate. Meanwhile, Killua has learned that Gon and the others are here to see him. Gon, Leorio, and Kurapika are able to open the gate after completing their training, but the apprentice butler Canary stands in their way.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ubAClUC0YLOcXVTAZBe7Ifc7NcS.jpg",
+          "title": "The x Guard's x Duty!"
+        },
+        {
+          "aired": "2012-03-25",
+          "plot": "With help from Canary, who is concerned about Killua, Gon and his friends are getting closer to the mansion. However, Kikyo tells them that Killua cannot see them as he is in solitary confinement. Meanwhile, Killua has been summoned by Silva and asked if he wants to see his friend? Killua answers truthfully, and he is allowed to go see his friends...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/b9dLM01DTcBvNKkkzG7VKrBRwQ2.jpg",
+          "title": "The x Zoldyck x Family!"
+        },
+        {
+          "aired": "2012-04-01",
+          "plot": "Gon, Kurapika and Leorio arrive at the Butler's Quarters, where the Head Butler entertains them while waiting for Killua. But just what game does he have in mind, and what are the stakes?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yk0Mv0GuGVjyPF9dvHOY5feL5bo.jpg",
+          "title": "Can't See x if x You're x Blind!"
+        },
+        {
+          "aired": "2012-04-15",
+          "plot": "A letter from Gon arrives at Whale Island for Mito... (A recap of everything that has happened.)",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6ALbyCGQjoYTTTiPOeAANpkXyI.jpg",
+          "title": "Then × And × After"
+        },
+        {
+          "aired": "2012-04-15",
+          "plot": "Gon and Killua arrive at the Heavens Arena and begin to work their way up, making a new friend, Zushi, who is trained in the martial arts.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kMEnNBYAVlPAUD6Sc7Q3jguENON.jpg",
+          "title": "Arrival x At The x Arena!"
+        },
+        {
+          "aired": "2012-04-22",
+          "plot": "While working to understand Nen and Ren, Gon and Killua run into a familiar acquaintance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i92F1OWGYAod5iMA7gIUf6RrdQe.jpg",
+          "title": "Nen x And x 'Nen'"
+        },
+        {
+          "aired": "2012-04-29",
+          "plot": "After reaching the 200th floor, Gon and Killua run into Hisoka's barrier of Nen. They ask Wing to use the violent method for activating their Nen potential. As the deadline for registration draws near, they begin training in one of the four major principles of Nen, Ten.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1epSCrmRHrKDDvxCHxqO0nyLsHN.jpg",
+          "title": "Awakening x And x Potential!"
+        },
+        {
+          "aired": "2012-05-06",
+          "plot": "Gon faces the Nen user Gido in his first 200s Heavens Arena match. Gon uses Ten to protect himself, but he soon finds himself on the defense against Gido's Dancing Tops. As Gon desperately tries to find a way to fight back, he makes a bold decision...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wITa0jIlz1OPaEwDQAbnYw4Ydw.jpg",
+          "title": "Fierce x and x Ferocious"
+        },
+        {
+          "aired": "2012-05-13",
+          "plot": "A month has passed since Gon was seriously injured, and Hisoka and Kastro are about to fight in Heavens Arena. Kastro was able to knock Hisoka down in the past and sounds very confident in his interview. Hisoka appears unperturbed by the upcoming fight.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hOjKE9KOcZPax7k8IZFTaAOImDy.jpg",
+          "title": "Destiny x and x Tenacity!"
+        },
+        {
+          "aired": "2012-05-20",
+          "plot": "Kastro has used his ability to create a clone of himself with Nen to sever Hisoka's arm and take an advantage in the fight. However, despite losing both arms, Hisoka appears to be perfectly calm. Kastro loses his cool and attacks Hisoka.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5bGFbChoHIYCjCabjG7X01ALSVo.jpg",
+          "title": "A x Surprising x Win"
+        },
+        {
+          "aired": "2012-05-27",
+          "plot": "After two months, Gon and Killua are finally allowed to practice Nen again. That's when Gido, Sadaso, and Riehlvelt appear before them and tell them to fight them in the arena. Gon and Killua refuse, but Killua finds Sadaso's behavior to be very suspicious.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/l7MxcIjl3sMrH0FWj1wQSjroolS.jpg",
+          "title": "An x Empty x Threat!"
+        },
+        {
+          "aired": "2012-06-03",
+          "plot": "Gon has fights against Gido and Riehlvelt coming up. He's still mad about what they did to Zushi. Gon is able to withstand Gido's attacks and overwhelm him in battle. This causes Hisoka to smile.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6edJcYCU3f6f1Sxi6x3OX5Dq5kY.jpg",
+          "title": "Power x To x Avenge!"
+        },
+        {
+          "aired": "2012-06-17",
+          "plot": "Gon and Killua begin training in Hatsu, the culmination of everything they've learned about Nen. And finally, Gon challenges Hisoka to return the favor from the Hunter Exam.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7vgWpVQkWRZPjHBq5oXv3dcH0oI.jpg",
+          "title": "The x True x Pass"
+        },
+        {
+          "aired": "2012-06-24",
+          "plot": "After landing a punch on Hisoka, Gon returns the tag from the Hunter Exam. Hisoka is ecstatic to see Gon's development and uses his own Nen to attack. Gon is scared, but he recklessly continues to attack! Will he emerge victorious.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jAoQgkl8YJX07NyfRAHZ8z6DYbe.jpg",
+          "title": "A Big Debt x And x A Small Kick!"
+        },
+        {
+          "aired": "2012-07-01",
+          "plot": "After learning Nen and becoming a true Hunter, Gon returns to Whale Island with Killua. When he arrives, Mito has a box for him. She was told by Ging to give this box to Gon once he became a Hunter. However, it appears that the box cannot be opened.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9whw6I0bgZRn0g5RPvwjxLgizHd.jpg",
+          "title": "Ging x And x Gon!"
+        },
+        {
+          "aired": "2012-07-08",
+          "plot": "Gon and Killua have begun to listen to the cassette tape left behind by Ging in anticipation of Gon becoming a Hunter.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j0pfjEG4dezWnTM72dLbKWDGbNk.jpg",
+          "title": "Reply x From x Dad!"
+        },
+        {
+          "aired": "2012-07-15",
+          "plot": "Having learned his Nen ability, Kurapika pursues a Hunter's work that will get him close to the New York auction.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/20b0e5UpBguxeFVOf2bwGwqEH49.jpg",
+          "title": "Wish x And x Promise!"
+        },
+        {
+          "aired": "2012-07-22",
+          "plot": "Kurapika and the other job candidates have to battle their way out of the employers mansion... if they ever hope of obtaining any of the items they even need for the job.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iyIWGudUoF19d4tPrDlxcI5vVP1.jpg",
+          "title": "Nen x Users x Unite"
+        },
+        {
+          "aired": "2012-07-29",
+          "plot": "The biggest auction in the world is about to take place in York New City. The Phantom Troupe leader, Chrollo, has instructed the members to gather in the city. For what purpose? The band of murdering thieves is about to make its move.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5hnXRLR2G4HxNlFVjmaQicx1FYQ.jpg",
+          "title": "Gathering x Of x Heroes!"
+        },
+        {
+          "aired": "2012-08-05",
+          "plot": "The auction is finally about to begin. Gon, Killua, and Leorio are working hard to amass enough money to buy Greed Island. Kurapika has been assigned to monitor the auction house. Meanwhile, the Phantom Troupe draws close. All paths will soon cross in York New City.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6BejwIjXKOawFKSDF6jpGRuCC39.jpg",
+          "title": "Defend x and x Attack!"
+        },
+        {
+          "aired": "2012-08-12",
+          "plot": "The Phantom Troupe attacks the underground auction held by the Mafia. Afterwards, there is no sign of the merchandise or guests. The Mafia place a reward on their heads and begin pursuit. Kurapika and the other bodyguards on patrol join the pursuit. Kurapika is drawing closer to the Phantom Troupe.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iyhewpsvmdg1TZxKuV4PnJz5TM4.jpg",
+          "title": "A x Shocking x Tragedy!"
+        },
+        {
+          "aired": "2012-08-19",
+          "plot": "After Uvogin slaughters the Mafia's pursuit, the Mafia dispatches their secret weapon, the Shadow Beasts. However, Uvogin is able to defeat them by himself. During the battle, the spider tattoo on Uvogin's back is revealed, and Kurapika springs to action.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n2DWd1Lt80aqIFeMtFzSgpjn18X.jpg",
+          "title": "Buildup x To A x Fierce Battle"
+        },
+        {
+          "aired": "2012-09-02",
+          "plot": "Kurapika was able to capture Uvogin, a member of the Phantom Troupe. Kurapika struggles to control his rage as Uvogin makes demands as though he isn't a captive. That is when Kurapika receives an e-mail from Hisoka...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vg0QzmDJG2Uf5Uif4k2deo08ZYE.jpg",
+          "title": "Restraint x And x Vow"
+        },
+        {
+          "aired": "2012-09-09",
+          "plot": "Uvogin was able to escape with some help from his fellow bandits. However, after the blow to his pride, he is determined to track down and Kurapika and defeat him. Kurapika realizes that the Phantom Troupe has identified their location and moves the boss to a safe place while awaiting the Phantom Troupe's arrival by himself.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jxK8tVxssyrKQuxG3YCqHMu8cWs.jpg",
+          "title": "Chasing x and x Waiting"
+        },
+        {
+          "aired": "2012-09-16",
+          "plot": "The anticipated battle between Kurapika and Uvogin begins! Can Kurapika really withstand Uvogin's abilities, and just what are the full extent of the powers in Kurapika's chains?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2DSHHAuP0cI9A9LzCZf8hkY3HGl.jpg",
+          "title": "Condition x and x Condition"
+        },
+        {
+          "aired": "2012-09-23",
+          "plot": "Gon, Killua, and Leorio are trying to get their hands on enough money to buy Greed Island. As they pass through the market, Gon stumbles across a way to identify valuable items. The plan is to buy cheap and sell low, but someone else is bidding on all their items.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q29X8OVumAX2mECNdSFaulpxvsb.jpg",
+          "title": "Very x Sharp x Eye"
+        },
+        {
+          "aired": "2012-09-30",
+          "plot": "Gon and his friends are hoping to win the reward that's been placed on the Phantom Troupe. At the same time, Machi and Nobunaga have been dispatched to search for the \"chain user\" because Uvogin hasn't returned. Gon and Killua receive a tip and begin shadowing the two Troupe members.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m06AjUYeKIoGAyb1SlSXEdaHMrT.jpg",
+          "title": "Pursuit x and x Analysis"
+        },
+        {
+          "aired": "2012-10-07",
+          "plot": "Gon and Killua have been captured by the Phantom Troupe. They are questioned about the chain user that the Troupe is searching for, but the two of them don't know that the chain user is Kurapika. As they're about to be released, Nobunaga decides to keep them around as potential recruits for the Troupe.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jzF9mjDw9SrbDy3LJVEc26wkRUe.jpg",
+          "title": "Ally x and x Sword"
+        },
+        {
+          "aired": "2012-10-14",
+          "plot": "The auction has been rescheduled, and the Mafia expects the Phantom Troupe to attack again. The Ten Dons have hired multiple assassins to deal with the Phantom Troupe. Light Nostrade sends Kurapika to join the assassins in dispatching of the Troupe.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9CTiIfWUL8DAMAI2UigX0fjf5fM.jpg",
+          "title": "A x Brutal x Battlefield"
+        },
+        {
+          "aired": "2012-10-21",
+          "plot": "The Troupe is attacking the auction with all their power. The Ten Dons hired assassins are no match, except for Zeno and Silva.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hovXzhyd56Rjgq5ERi81xIkym1m.jpg",
+          "title": "Assault x And x Impact"
+        },
+        {
+          "aired": "2012-10-28",
+          "plot": "The leader of the Phantom Troupe is dead... Kurapika is shocked by the news. Unconvinced, he tries to get a glimpse of the body. Meanwhile, the dead bodies of the other Troupe members have been discovered.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5auF9f0bcgQauAU3Fj8oTOX05bp.jpg",
+          "title": "Fake x And x Psyche"
+        },
+        {
+          "aired": "2012-11-04",
+          "plot": "Gon, Killua, Kurapika, and Leorio are finally reunited. Kurapika reveals his Nen powers to the others. However, Killua is afraid that Kurapika is now in danger because one of the Troupe members can read minds. Meanwhile, Chrollo is using the fortune telling power he stole from Neon to tell the fortunes of the Troupe members.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8WZfM3jvb0ETVDjQbDRK5bfqTIW.jpg",
+          "title": "Fortunes x Aren't x Right"
+        },
+        {
+          "aired": "2012-11-11",
+          "plot": "After Chrollo tells fortunes for all of the Troupe members, they suspect that Hisoka has betrayed them. Hisoka's desire to fight Chrollo drives him to take a big risk by altering his own fortune. Meanwhile, after learning that the Troupe is still alive, Kurapika teams up with Gon and friends and work on a plan to capture Pakunoda.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bCZTNyi6RpMd52MrPR1JlyHFMwL.jpg",
+          "title": "Allies x And x Lies"
+        },
+        {
+          "aired": "2012-11-18",
+          "plot": "Chrollo uses the information he has on Neon to identify the location of the chain user, Kurapika. Meanwhile, Killua is keeping an eye on the Phantom Troupe base when he is joined by Melody, who helps determine that the Troupe is headed towards Kurapika's hotel. The Troupe is finally closing in on Kurapika.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aSUAx7yRqzrdK1aamiHkwpml1dn.jpg",
+          "title": "Beloved x And x Beleaguered"
+        },
+        {
+          "aired": "2012-12-02",
+          "plot": "The Phantom Troupe has learned that Kurapika was the one who killed Uvogin. It's only a matter of time before they realize that the captured Gon and Killua are working with Kurapika? Chrollo takes Gon and killua to the hotel lobby, where Paknoda and the other Troupe members are waiting. Suddenly, the lights go out. Gon and Killua try to escape in the darkness. But Chrollo is the one who has vanished...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4n2FnhORFVr2WGSP48Dy23ZlhTY.jpg",
+          "title": "Initiative x And x Law"
+        },
+        {
+          "aired": "2012-12-09",
+          "plot": "Kurapika has captured Chrollo. He offers to release Chrollo if Pakunoda brings Gon and Killua to him. However, Kurapika is unable to control his emotions in the presence of the Troupe leader.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4bbh9hwLdXhFBuZZ9VFnDSAjbY5.jpg",
+          "title": "Signal x To x Retreat"
+        },
+        {
+          "aired": "2012-12-16",
+          "plot": "The game Greed Island, which holds a clue to finding Ging, is finally on  auction. Gon and Killua ask the winning buyer to hire them as players,  but they're told that their Nen is too weak. They begin to work on  special abilities so they can be selected as players.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t54Kzth37hxC267MmOVzTjoIu0s.jpg",
+          "title": "Bid x And x Haste"
+        },
+        {
+          "aired": "2012-12-23",
+          "plot": "Gon and Killua are trying to get themselves chosen as Greed Island  players. Tsezgerra, the judge, says that he will make his decision after  they show him his Nen. Only 32 of the 200 applicants will pass.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tfpBmwvXnxuzVT5uf7ZvTjCnPcm.jpg",
+          "title": "End x And x Beginning"
+        },
+        {
+          "aired": "2013-01-06",
+          "plot": "Gon and Killua have finally made it inside the world of Greed Island,  their clue to finding Ging. However, all they found was a message from  Ging telling Gon to enjoy the game. Their first step is to find a city  and gather information. There, they receive an invitation to join a  group that's trying to clear the game.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bETLKtT4hlmEpC95eH7FBtMW82t.jpg",
+          "title": "Invitation x And x Friend"
+        },
+        {
+          "aired": "2013-01-13",
+          "plot": "Gon and Killua set off for Masadora in search of spell cards. On the  way, they run into many different monsters. However, they struggle  against some of the stronger monsters. A girl named Biscuit watches as  they fight their way through.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/avJ1kF7vZUcpPX0wU2iAvalaHcE.jpg",
+          "title": "Reality x And x Raw"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "(63) A x Hard x Master",
-        "(64) Strengthen x And x Threaten",
-        "(65) Evil Fist x And x Rock, Paper, Scissors",
-        "(66) Strategy x And x Scheme",
-        "(67) 15 x 15",
-        "(68) Pirates x And x Guesses",
-        "(69) A x Heated x Showdown",
-        "(70) Guts x And x Courage",
-        "(71) Bargain x And x Deal",
-        "(72) Chase x And x Chance",
-        "(73) Insanity x And x Sanity",
-        "(74) Victor x And x Loser",
-        "(75) Ging's Friends x And x True Friends",
-        "(76) Reunion x And x Understanding",
-        "(77) Unease x And x Sighting",
-        "(78) Very x Rapid x Reproduction",
-        "(79) No x Good x NGL",
-        "(80) Evil x And x Terrible",
-        "(81) The x Fight x Begins",
-        "(82) Kite x And x Slots",
-        "(83) Inspiration x To x Evolve",
-        "(84) A x Fated x Awakening",
-        "(85) Light x And x Darkness",
-        "(86) Promise x And x Reunion",
-        "(87) Duel x And x Escape",
-        "(88) Rock-Paper-Scissors x And x Weakness",
-        "(89) Compassion x And x Strength",
-        "(90) Slow x And x Cursed",
-        "(91) The Strong x And x The Weak",
-        "(92) One Wish x And x Two Promises",
-        "(93) Date x With x Palm",
-        "(94) Friend x And x Journey",
-        "(95) Grudge x And x Dread",
-        "(96) A x Lawless x Home",
-        "(97) Carnage x And x Devastation",
-        "(98) Infiltration x And x Selection",
-        "(99) Combination x And x Evolution",
-        "(100) Tracking x And x Pursuit",
-        "(101) Ikalgo x And x Lightning",
-        "(102) Power x And x Games",
-        "(103) Check x And x Mate",
-        "(104) Doubt x And x Hesitation",
-        "(105) Resolve x And x Awakening",
-        "(106) Knov x And x Morel",
-        "(107) Return x And x Retire",
-        "(108) Komugi × And × Gungi",
-        "(109) Taking Stock x And x Taking Action",
-        "(110) Confusion x And x Expectation",
-        "(111) Charge x And x Invade",
-        "(112) Monster x And x Monster",
-        "(113) An x Indebted x Insect",
-        "(114) Divide x And x Conquer",
-        "(115) Duty x And x Question",
-        "(116) Revenge x And x Recovery",
-        "(117) Insult x And x Payback",
-        "(118) A x False x Rage",
-        "(119) Strong x Or x Weak",
-        "(120) Fake x And x Real",
-        "(121) Defeat x And x Dignity",
-        "(122) Pose x And x Name",
-        "(123) Centipede x And x Memory",
-        "(124) Breakdown x And x Awakening",
-        "(125) Great Power x And x Ultimate Power",
-        "(126) Zero x And x Rose",
-        "(127) Hostility x And x Determination",
-        "(128) Unparalleled Joy x And x Unconditional Love",
-        "(129) Formidable Enemy x And x Clear Objective",
-        "(130) Magic × To × Destroy",
-        "(131) Anger x And x Light",
-        "(132) Flash x And x Start",
-        "(133) Deadline x To x Live",
-        "(134) The Word x Is x You",
-        "(135) This Person x And x This Moment",
-        "(136) Homecoming x And x True Name"
+        {
+          "aired": "2013-01-20",
+          "plot": "Gon and Killua have finally realized Biscuit's true strength and asked her to teach them Nen. With that said, they begin their hard training.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3dAKW55W7JjsPRYfxi0IPy5zDDi.jpg",
+          "title": "(63) A x Hard x Master"
+        },
+        {
+          "aired": "2013-01-27",
+          "plot": "Gon and Killua are gradually improving their Nen under Bisky's tutelage. They are now able to easily capture the monsters that they previously struggled against. While their training draws to an end, the Bomber is paying a visit to the players who have teamed up.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6MulA4Ok6LokYM9BaYrxbpJV23C.jpg",
+          "title": "(64) Strengthen x And x Threaten"
+        },
+        {
+          "aired": "2013-02-03",
+          "plot": "After hearing Bisky's lecture on rock-paper-scissors, Gon decides to work on a special technique modeled off of rock-paper-scissors by using Enhancer, Emitter, and Conjurer abilities. Meanwhile, Killua leaves the game temporarily to take the HUnter Exam. While he's gone, Gon and Bisky find learn about the Bomber's most recent attack.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f5AsO4rtum5wDW0JnCLi4mboudT.jpg",
+          "title": "(65) Evil Fist x And x Rock, Paper, Scissors"
+        },
+        {
+          "aired": "2013-02-10",
+          "plot": "Killua returns after easily passing his second try at the Hunter Exam. Now that Gon, Killua, and Bisky are together again, they begin working on beating this game by collecting cards. Meanwhile, the other players are scheming to gather the cards they need to complete the game.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mPwevU53hYJ28MU4T3grzxBaq58.jpg",
+          "title": "(66) Strategy x And x Scheme"
+        },
+        {
+          "aired": "2013-02-17",
+          "plot": "Team Genthru now has 96 different types of restricted slot cards after tricking Team Tsegzerra. Gon and Killua receive an invitation from other players to team up to prevent Genthru from beating the game. They head to Soufrabi to monopolize Patch of Shore, one of the cards Genthru is missing.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jOXT8Ry4g5iGXqIWylMrAwcYkF5.jpg",
+          "title": "(67) 15 x 15"
+        },
+        {
+          "aired": "2013-02-24",
+          "plot": "The condition for obtaining Patch of Shore is to chase a band of fifteen pirates out of town. Gon and crew are immediately taken to the boss, Razor, but they are quickly defeated. The plan is to recruit stronger party members and try again, so they start with the player named Chrollo.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eHhVEtWsNfeJE1umGp4xy2EB7Yd.jpg",
+          "title": "(68) Pirates x And x Guesses"
+        },
+        {
+          "aired": "2013-03-03",
+          "plot": "Gon and his friends have teamed up with Hisoka and Goreinu to challenge Razor again. To round out the party, they recruit Team Tsezgerra. Their preparations allow them to breeze through the first few matches, but then Razor challenges them to a game of dodgeball.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kMYdJ8Nv4yzFxIgDLwpJuZ0HfHl.jpg",
+          "title": "(69) A x Heated x Showdown"
+        },
+        {
+          "aired": "2013-03-10",
+          "plot": "Gon is unable to hold onto Razor's throw and is sent to the outfield. He uses Back to return, but Hisoka is also injured and the situation looks grim. However, Gon has an idea for defeating Razor, but he needs Killua's help to pull it off.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tdIHLiTK9947lDOD5cCJTbJmSjQ.jpg",
+          "title": "(70) Guts x And x Courage"
+        },
+        {
+          "aired": "2013-03-17",
+          "plot": "Gon, Killua, and Hisoka team up to catch Razor's strongest throw. They're taking Razor head on. Once the ball has been secured, Gon uses all of his strength to launch it at Razor. The game of dodgeball is drawing to a close.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uGHCFSbdhbcKfwP16Q5pDk65OFy.jpg",
+          "title": "(71) Bargain x And x Deal"
+        },
+        {
+          "aired": "2013-03-24",
+          "plot": "In order to beat the game, the other players must face off against Genthru. Tsezgerra offers to distract Genthru for three weeks. While Gon trains hard, Team Tsezgerra leaves the game temporarily to delay Genthru, but Mr. Battera has an unpleasant surprise for them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nuE0KOtPWmG8lyRAmARdRFwiSoc.jpg",
+          "title": "(72) Chase x And x Chance"
+        },
+        {
+          "aired": "2013-03-31",
+          "plot": "Tsezgerra's tea has not returned to the game. Genthru finally turns his attention to Gon's group. Gon faces off against Genthru, Killua is against Sub, and Bisky takes Bara.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hbQAc1KKW1fTFVF0VdlH41svBBs.jpg",
+          "title": "(73) Insanity x And x Sanity"
+        },
+        {
+          "aired": "2013-04-07",
+          "plot": "Genthru has shown that he is much stronger than Gon. However, after Gon refuses to back down, he finally uses Little Flower to severely injure Gon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bIyWvXxB3ZpseUYdlsvATK2U3pv.jpg",
+          "title": "(74) Victor x And x Loser"
+        },
+        {
+          "aired": "2013-04-14",
+          "plot": "After defeating Genthru and collecting 99 restricted cards, Gon and his friends participate in the final event, a quiz tournament open to all players. After winning, Gon receives Ruler's Invitation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/trIBiEfmmtowkeTyzIvxccVcusQ.jpg",
+          "title": "(75) Ging's Friends x And x True Friends"
+        },
+        {
+          "aired": "2013-04-21",
+          "plot": "Gon and Killua use the cards they brought back from the game to warp to Nigg, who they believe is Ging. However, they are sent to a completely different man who immediately knocks them to the ground. However, Gon finds him familiar for some reason.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sBR2cc5iqaInAVJw7PNiEzpoCoD.jpg",
+          "title": "(76) Reunion x And x Understanding"
+        },
+        {
+          "aired": "2013-04-28",
+          "plot": "Gon and Killua join Kite's team as they investigate the Chimera Ants. The Chimera Ants are dangerous insects that can pass traits from the prey they consume to their offspring. As Kite begins to fear the worst, the Chimera Ants begin to feed on humans.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oe9ACgFGz5UapOEeNgPxqpaM0dg.jpg",
+          "title": "(77) Unease x And x Sighting"
+        },
+        {
+          "aired": "2013-05-05",
+          "plot": "Kite uses the location where the Chimera Ant arm was discovered and ocean patterns to determine where the actual Chimera Ant is. It turns out to be an isolated country that bans all forms of technology. Meanwhile, the Chimera Ants continue to evolve.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s1RNqwCc5jVIc2oyEMX1Xawgzwv.jpg",
+          "title": "(78) Very x Rapid x Reproduction"
+        },
+        {
+          "aired": "2013-05-12",
+          "plot": "After passing a strict border checkpoint, Gon and his new friends enter NGL where they suspect the Chimera Ant is. However, ten other teams of Hunters have already arrived before them. Meanwhile, the Chimera Ants, with their new names and individual personalities, are attacking humans.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x6eyR5L5JuJQgeO0RLMZMr6Hs3h.jpg",
+          "title": "(79) No x Good x NGL"
+        },
+        {
+          "aired": "2013-05-19",
+          "plot": "Pokkle and Ponzu use Ponzu's bees to deliver messages asking the Hunter Association to help eliminate the Chimera Ants. Meanwhile, the Chimera Ants have attacked Gyro, the shadowy ruler of NGL, and taken his guns. As the situation gets worse, Ponzu's message reaches Gon's group.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dnF68v7cdR50X8kvtpUg4xfusJh.jpg",
+          "title": "(80) Evil x And x Terrible"
+        },
+        {
+          "aired": "2013-05-26",
+          "plot": "Gon, Killua, and Kite discover the remains of a destroyed village. There, they encounter their first Chimera Ant. Gon and Killua are shaken by the speed and power displayed by the Chimera Ant. However, Kite tells them that they must defeat the Chimera Ant or leave.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oxhpcUDrE0KD1ZtrviFiLEVCWi6.jpg",
+          "title": "(81) The x Fight x Begins"
+        },
+        {
+          "aired": "2013-06-02",
+          "plot": "Some of the more aggressive Chimera Ants have eaten the villains who ran the NGL underground and grown increasingly evil. When Gon looks away from their gruesome act, Kite admonishes him. Now, they must battle for their lives. Meanwhile, a Chimera Ant is on the verge of discovering Nen.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nRnAsjJHj9X2KyVQQf98oscK9Z9.jpg",
+          "title": "(82) Kite x And x Slots"
+        },
+        {
+          "aired": "2013-06-09",
+          "plot": "The Hunter Association has dispatched an expeditionary force to exterminate the Chimera Ants. Meanwhile, Gon and his friends are being targeted by Chimera Ants who seek to eat rare humans. They are forced into one-on-one battles with Chimera Ant captains. They easily dispatch their opponents, but Kite continues to feel uneasy. less.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q5hKenRctZ58PnksDxhwhw2gw9Z.jpg",
+          "title": "(83) Inspiration x To x Evolve"
+        },
+        {
+          "aired": "2013-06-16",
+          "plot": "As Gon, Killua and Kite approach the nest, one of the Chimera Ant Royal Guards, Neferpitou, awakens. Upon extracting information from a surviving Hunter, Neferpitou learns the secrets of Nen, including the means to awaken and control it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pHipW8jBA8gwS4eQeYrQeURA0G4.jpg",
+          "title": "(84) A x Fated x Awakening"
+        },
+        {
+          "aired": "2013-06-23",
+          "plot": "As the Chimera Ants are reunited to unlock the power of Nen into their bodies, Neferpitou feels the presence of Kite approaching and leaves to confront him. Realizing that the enemy is too powerful for them, Kite warns Gon and Killua to flee, but Gon is taken by rage upon seeing Kite's arm being severed by Neferpitou and Killua is forced to knock him down and escape carrying him. After escaping the NGL, with Gon still uncounscious, Killua is approached by Chairman Netero who is sent there to wipe out the Chimera Ants assisted by two other Pro Hunters, Morel and Knov.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s94ZRW4bNGbitTdMLieQPb8SKxD.jpg",
+          "title": "(85) Light x And x Darkness"
+        },
+        {
+          "aired": "2013-06-30",
+          "plot": "Gon and Killua meet Knov's student Palm and learn that to earn a place in the Extermination Squad and return to the NGL, they must win against Morel's students Knuckle and Shoot in one month. To increase their chances of winning, Palm asks for Biscuit's help and they start a harsh training routine with her. Meanwhile at the Chimera Ants nest, Shaiapouf, the second Royal Guard awakens.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6OKfLWaxyDeCtN33oIsbZt8D9uX.jpg",
+          "title": "(86) Promise x And x Reunion"
+        },
+        {
+          "aired": "2013-07-07",
+          "plot": "After completing their training, Biscuit sends the exausted Gon and Killua to face Knuckle. Looking at the condition fo their opponents, Knuckle boasts that they could never move him an inch and bets his token on it. However His assumptions are proven wrong when Gon manages to land a powerful hit that knocks him out cold, and after awakening, Knuckle agrees that he will help them with their training until the deadline for returning the token comes. Meanwhile at the nest, Neferpitou focuses herself into reviving Kite for a second chance to fight him and Netero's team starts taking down small groups of Chimera Ants that bring the attention of the captains, while the king grows strong inside the queen's womb. As Gon and Killua spend their days training with Biscuit and sparring with Knuckle, Shoot, the second of Morel's disciples make plans about how to deal with them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tvi6uotVRdzyiJC0ibHPdBReXlG.jpg",
+          "title": "(87) Duel x And x Escape"
+        },
+        {
+          "aired": "2013-07-14",
+          "plot": "As the deadline established by Netero approaches, the chairman and his companions continue to wipe out the Chimera Ant squads one by one. While the remaining squad captains discuss how to deal with the problem, the final member of the royal guard, Menthuthuyoupi, is born. Meanwhile, Gon and Killua complete their training and challenge Knuckle for real.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aMyNSvAJfLrjbN4iraQudCZRqi6.jpg",
+          "title": "(88) Rock-Paper-Scissors x And x Weakness"
+        },
+        {
+          "aired": "2013-07-21",
+          "plot": "As the battle with Knuckle begins, Gon is told that his Janken technique is fatally flawed - but Gon exploits this weakness, countering as his opponent tries to take advantage. Just as Gon is about to deal a finishing blow, he collapses from exhaustion. With the deadline the next day, the final showdown is looming. As Gon sleeps, Biscuit spars with Killua, after which she explains the nature of his own weakness. She issues an ultimatum - should he lose the next day's battle, he must leave Gon's side.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5k8L2R3C5psLC5DhqYvEostM53x.jpg",
+          "title": "(89) Compassion x And x Strength"
+        },
+        {
+          "aired": "2013-07-28",
+          "plot": "Gon and Killua are finally facing off against Knuckle and Shoot. Killua takes Shoot while Gon's opponent is Knuckle. Gon succeeds in sensing Knuckle through his aura, but then LoanBoy pops up on his left arm. Meanwhile, Killua is struggling against Shoot.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zqhZVjQQKeIcbNQxM4FvRWArUgF.jpg",
+          "title": "(90) Slow x And x Cursed"
+        },
+        {
+          "aired": "2013-08-04",
+          "plot": "At long last, the Queen gives birth to the King. The Chimera Ants are cowed by the menancing aura emitted by the King. Pitou, Pouf, and Youpi kneel before the King to greet him, but with that gesture, they have abandoned the Queen.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rXHXN4vw0U7RNFuQUrZEjHiEcFj.jpg",
+          "title": "(91) The Strong x And x The Weak"
+        },
+        {
+          "aired": "2013-08-11",
+          "plot": "Despite all efforts to save the queen, she does not resist her wounds and dies, but not before revealing to Colt the name she had chosen for the king, \"Meruem\". A final live offspring is found inside her body and Morel offers himself to protect both after he promises that they will never eat humans anymore. As the other squad leaders leave to build their own colonies, the king and the royal guard arrive at the neighboring country of East Gorteau.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iBHZIPR3bKdZb0buwJKaq0IXIlp.jpg",
+          "title": "(92) One Wish x And x Two Promises"
+        },
+        {
+          "aired": "2013-08-18",
+          "plot": "As the king kills the ruler of East Gorteau and takes over the country, Gon and Killua return to meet Palm, prepared to face her fury upon failing to fulfill their promise, but she decides to forgive them when Gon accepts her request to have a date with her. After learning from Morel that they found Kite, Gon takes Palm for her date, while Killua keeps trailing them in case of an enemy attack, and his fears are confirmed when Rammot appears before him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gN6AOr1o2TViDgRM7VgpG6FXUVb.jpg",
+          "title": "(93) Date x With x Palm"
+        },
+        {
+          "aired": "2013-09-01",
+          "plot": "Divided between his drive to flee and his will to protect Gon, Killua find himself in a dire situation until he realizes that he is under the effect of one Illumi's needles, easily killing Rammot after he breaks free fom it. Meanwhile, Gon's date with Palm turns to the worse when he claims that he can't stay by her side. As shoot returns to check on them, morel and Knuckle confront Cheetu, one of the Chimera Ants on the run.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oANn5lxkNG6a6Uw1kwVIrNClpDy.jpg",
+          "title": "(94) Friend x And x Journey"
+        },
+        {
+          "aired": "2013-09-08",
+          "plot": "After a brief fight with Cheetu, Morel and Knuckle return to check on Gon and Killua as they finally reunite with Kite, but upon seeing that he was turned into a mindless rogue by Neferpitou, Gon swears to avenge him. The Hunters then travel to East Gorteau, where the government summons all the population to meet at the capital for an undisclosed event in ten days. Knowing that it is all a plan of the Chimera Ants, Netero contacts the others and they start making plans to confront the king and the royal guard in the night preceding said event.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wpemlA3oNbOCldgK2cYAVh7TiVE.jpg",
+          "title": "(95) Grudge x And x Dread"
+        },
+        {
+          "aired": "2013-09-15",
+          "plot": "As news about the rogue Chimera Ants spread arround the world, six members of the Phantom Troupe appear at Meteor City to wipe out some of them which had established a colony there.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4m3ynMxxe5sxDauIF1grM0VgrLk.jpg",
+          "title": "(96) A x Lawless x Home"
+        },
+        {
+          "aired": "2013-09-22",
+          "plot": "The Phantom Troupe reaches Zazan, the leader of the Ants, eliminating all oposition on the way. Fighting Zazan by himself, Feitan is forced to unleash his true power against her, which is feared even by his companions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4AGTtajnR0pfB8tuHBvjaAn8LSm.jpg",
+          "title": "(97) Carnage x And x Devastation"
+        },
+        {
+          "aired": "2013-09-29",
+          "plot": "Once inside East Gorteau, Gon and Killua take separate ways in preparation for the attack on the palace, but once alone, it does not take long for Gon to be attacked by Ants sent by Meleoron whose presence is concealed thanks to his Chameleon-like powers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/57nfHf1LkeQfeApFz3vaDBrYZeJ.jpg",
+          "title": "(98) Infiltration x And x Selection"
+        },
+        {
+          "aired": "2013-10-08",
+          "plot": "As Gon deals with his enemies, Killua tries his best to save the citizens of nearby villages from falling prey to the Chimera Ants' scheme until the Government, under the Royal Guards' control, declares martial law to hinder his plans. Meanwhile, Shoot and Knuckle detect Cheetu's presence and attempt to intercept him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/476kuxrMcFucxxTMwyULgzbRDpj.jpg",
+          "title": "(99) Combination x And x Evolution"
+        },
+        {
+          "aired": "2013-10-15",
+          "plot": "Leol's party is sent by the Royal Guard to stop Killua's interference and Meleoron is found out by Gon, but instead of fighting, the Chimera Ant attempts to reason with him while hiding his true intentions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lYPUwjGXGbHAFoRsNPecReagCjp.jpg",
+          "title": "(100) Tracking x And x Pursuit"
+        },
+        {
+          "aired": "2013-10-22",
+          "plot": "Killua confronts Ikalgo but later, saves him from getting eaten by his own subordinates. The Ortho Siblings confront Killua in their game, a 1-501 dart game where he gets continuously attacked. After feigning death, Killua beheads his opponents in a flash, but he collapses due to extreme blood loss and Ikalgo decides to repay the favor by taking him to be treated.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uAPLxprjvuVv6EVZhiLPOOApRca.jpg",
+          "title": "(101) Ikalgo x And x Lightning"
+        },
+        {
+          "aired": "2013-10-29",
+          "plot": "Gon becomes friends with Meleoron, who in return reveals the true extent of his powers and the reason why he wants the king dead. As the Hunters make adjustments in their preparations to storm the palace, the king entertains himself with board games until an unusual player appears before him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9JeGT71XaJAIW76kRs6VSUUaZpR.jpg",
+          "title": "(102) Power x And x Games"
+        },
+        {
+          "aired": "2013-11-06",
+          "plot": "Despite having mastered the rules of the board game \"Gungi\", the king is upset for still being unable to defeat the champion before him. Meanwhile, Morel is approached by Cheetu who uses his new abilities to trap him inside a closed space, claiming that he can't leave unless he manages to catch him in 8 hours.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6RnuN0oHbB2lPYXQZ79BZSH5AEP.jpg",
+          "title": "(103) Check x And x Mate"
+        },
+        {
+          "aired": "2013-11-12",
+          "plot": "As the king is yet to defeat his opponent, Cheetu tries to provoke Morel into running after him with no success, unaware that he is setting a trap for him. Meanwhile, Knov realizes the enemy's trick to detect him and comes with countermeasures against it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vGhP2CLZawmqSBHIu800prVJ2eB.jpg",
+          "title": "(104) Doubt x And x Hesitation"
+        },
+        {
+          "aired": "2013-11-19",
+          "plot": "The king attempts to intimidate the Gungi champion but moved by her determination, he rips off his own arm as a form of apology. With Neferpitou using her powers to treat the king, the palace's defenses are lowered and Knov rushes to sneak inside it in preparations for the hunters' attack. Meanwhile, Palm prepares to infiltrate the palace as well.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yxKjLLlKNictcnWh5FIZRJw1akF.jpg",
+          "title": "(105) Resolve x And x Awakening"
+        },
+        {
+          "aired": "2013-11-26",
+          "plot": "Knov succeeds in his mission to breach the palace's security, but just feeling the proximity of Royal Guards' overwhelming aura is enough to drive him into despair. Palm takes advantage of the lecherous secretary Bizelf to infiltrate the palace as well and Morel is confronted by the Chimera Ant Leol, who fights using the powers of those who owe him a favor.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eVczSRNwKvTye0FUFj7FMLKbJ6w.jpg",
+          "title": "(106) Knov x And x Morel"
+        },
+        {
+          "aired": "2013-12-03",
+          "plot": "Even with his borrowed powers, Leol has been defeated by Morel while Killua recovers from his wounds and invites Ikalgo to join his side. Meanwhile, Palm starts her investigation when a massive and ominous aura surrounds her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xnbB2aWAvM6w2ooR4JcQh9FvBre.jpg",
+          "title": "(107) Return x And x Retire"
+        },
+        {
+          "aired": "2013-12-10",
+          "plot": "Gon and his friends make the final preparations for their assault on the palace. Meanwhile, the king is yet to defeat Komugi, the Gungi champion and when he decides to kill her, he ends up protecting her instead, for reasons that even he can't explain.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6uVbRuligtQgaUcWheQFuLPb3V8.jpg",
+          "title": "(108) Komugi × And × Gungi"
+        },
+        {
+          "aired": "2013-12-17",
+          "plot": "The time has come for Gon and his friends to infiltrate the palace and confront the Royal Guard, who are making preparations for the upcoming selection. As his concerns about Komugi increase, the king starts questioning his own existence and purpose.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t0iSyByFhJqFxXsLWGDihNtTi9m.jpg",
+          "title": "(109) Taking Stock x And x Taking Action"
+        },
+        {
+          "aired": "2013-12-24",
+          "plot": "The selection is at hand, but the king starts isolating himself from his servants, including the Royal Guard. Meanwhile, Gon's party is about to break into the palace.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zbGY00ZdIzI4zaz1WX9Gzlz6Yvb.jpg",
+          "title": "(110) Confusion x And x Expectation"
+        },
+        {
+          "aired": "2014-01-07",
+          "plot": "The Hunters assault on the royal palace begins. Gon and his friends break inside and come across Menthuthuyoupi, while Netero and Zeno strike from the sky and Neferpitou jumps up to confront them, just to be driven away when the chairman makes a small demonstration of his powers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qZ4KA73UMRoFyBAHWujsQqNtkyz.jpg",
+          "title": "(111) Charge x And x Invade"
+        },
+        {
+          "aired": "2014-01-14",
+          "plot": "Gon's party confronts Youpi while Pouf and Pitou rush to the palace to assist the king, who is distraught with Komugi's condition as she gets herself badly injured during the attack.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aYFMduwiejOxev0e3e1MbbmQLmK.jpg",
+          "title": "(112) Monster x And x Monster"
+        },
+        {
+          "aired": "2014-01-21",
+          "plot": "Shoot and Knuckle stay behind to fight Youpi while Morel rushes forward to face Pouf. While looking for Pitou, Killua turns back briefly to assist Ikalgo unaware that he accidentally put his friend's cover at risk.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9QlWeOHsC4ZqnbydqE1tgaSy9N0.jpg",
+          "title": "(113) An x Indebted x Insect"
+        },
+        {
+          "aired": "2014-01-28",
+          "plot": "Separated from the Royal Guard, the king departs from the palace with Netero to have their fight elsewhere and Gon, learning of Pitou's location, steels himself to confront it. Meanwhile, Pouf enters in a cocoon in preparation to confront Morel, and Shoot fights Youpi to the limit of his forces until Knuckle steps in to protect him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xXH3Lv4QkrkZh9uGkB3rCgiYlXx.jpg",
+          "title": "(114) Divide x And x Conquer"
+        },
+        {
+          "aired": "2014-02-04",
+          "plot": "The disguised Ikalgo reaches the lower levels of the palace to look for Palm, unaware that he is being followed. Meanwhile, Meleoron leaves Knuckle's side and proceeds further into the palace, but another Chimera Ant, Welfin, tracks his smell. Elsewhere, Gon and Killua find Pitou, who is too busy to fight them while tending to Komugi's wounds.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aHwzVR5QQvzkHFIc87HHKCXKt5s.jpg",
+          "title": "(115) Duty x And x Question"
+        },
+        {
+          "aired": "2014-02-11",
+          "plot": "Face to face with Pitou, Gon can't hold back his rage and urges the chimera to fight him. Realizing that Pitou is willing to sacrifice itself to protect Komugi, Killua attempts to calm down his friend down with no success, but in the end, Gon gives one hour for Pitou to treat Komugi in exchange of accompanying him to meet Kite and help him recover his senses.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aSvYNE6z6dChbwOIkdQt6k7GnLV.jpg",
+          "title": "(116) Revenge x And x Recovery"
+        },
+        {
+          "aired": "2014-02-18",
+          "plot": "Cheetu attempts to provoke Zeno into fighting him, but Silva appears to pick up his father, killing the ant instanly in the occasion. Separated from the others, Youpi realizes that he failed to prevent the intruders from approaching the king and attempts to vent out his anger on Knuckle and Shoot, creating an overwhelming explosion, a feat that surprised even himself. Knuckle believes this could prove itself as an opportunity to make a comeback, while Youpi plans to use it to defeat them for good.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/l0Bjci1uwxgDajyGzy3ErMAVifw.jpg",
+          "title": "(117) Insult x And x Payback"
+        },
+        {
+          "aired": "2014-02-25",
+          "plot": "Ikalgo infiltrates the palace's lower levels to look for Palm with no success. While returning to the surface, his cover is blown and he finds himself trapped in the undergound with an enemy. Meanwhile, Youpi pretends to be angered in order to have Knuckle falsely believe there is an opening for him to attack. Youpi's plan works, but just before he could kill his opponent, Killua paralyzes the ant with a lighting bolt and steps in to fight him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vOdxwsKjVQQ7bmjsqQYA5JbVVow.jpg",
+          "title": "(118) A x False x Rage"
+        },
+        {
+          "aired": "2014-03-04",
+          "plot": "Taking advantage of Youpi's distraction, Killua vents out his anger by beating him up, but is forced to flee after his lighting power runs out. Meanwhile, Ikalgo makes use of the underground security system to outsmart his pursuer and find a way to escape back to surface. Morel, on the other hand, is in doubt about whether he should make the first move against Pouf or not.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hEoUCQmkFzKW54M4KFBx8rvRTJB.jpg",
+          "title": "(119) Strong x Or x Weak"
+        },
+        {
+          "aired": "2014-03-11",
+          "plot": "Morel decides to make the first move and unwillingly frees Pouf from his restrain. Upon realizing that Shoot is missing, unaware that he was taken by Knov to be treated, Knuckle confronts Youpi, assisted by Morel, whose options are drastically reduced upon having his pipe stolen by Pouf, who after realizing that the king is nowhere to be found, decides to rejoin Pitou, who is still working to stabilize Komugi under Gon's vigilant eyes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8C2ILBPGOvcPbr1ZsJKZjKPS7c7.jpg",
+          "title": "(120) Fake x And x Real"
+        },
+        {
+          "aired": "2014-03-18",
+          "plot": "Knuckle and Morel confront Youpi with their lives on the line, but just a few moments left of neutralizing his nen with his ability, he is forced to abandon his master or give up on defeating his oponent.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qBo3Achl6DDeheSwIxFVhY3khO5.jpg",
+          "title": "(121) Defeat x And x Dignity"
+        },
+        {
+          "aired": "2014-03-25",
+          "plot": "Far away from the palace, Netero prepares himself to confront the king, who much to his surprise, recognizes his value as a fighter and is not willing to kill him. Meanwhile, Pouf learns the situation from Pitou and sneaks past Gon's vigilance to rejoin Youpi as they leave the palace to search for the king.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i3yKtzm5KdOWp8xqFWZYhrbkWn8.jpg",
+          "title": "(122) Pose x And x Name"
+        },
+        {
+          "aired": "2014-04-01",
+          "plot": "Ikalgo is attacked by Welfin but the enemy's attempt to restrain him backfires and they find themselves in a stand off. In the occasion, Welfin regains some of his lost memories from when he was still human and gives him a hint regarding Palm's location.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tOXyX2Lq7LvWe7rnDjPyfan4hFS.jpg",
+          "title": "(123) Centipede x And x Memory"
+        },
+        {
+          "aired": "2014-04-08",
+          "plot": "Killua meets Palm and learns that she was transformed into a Chimera. Refusing to let her see Gon in fear of what effects this could have on his already unstable mind, Killua is attacked by her, unaware that she is under Pouf's control.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x6tb49fivOBQWG4qJuWaQmiMGIb.jpg",
+          "title": "(124) Breakdown x And x Awakening"
+        },
+        {
+          "aired": "2014-04-15",
+          "plot": "Netero convinces the king to fight him by revealing that he will tell him his true name once defeated. The chairman then unleashes his most powerful technique that despite striking the king countless times, olny manages to scratch him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6MRzS8u8sA47dbZCrUPEFsSi8AM.jpg",
+          "title": "(125) Great Power x And x Ultimate Power"
+        },
+        {
+          "aired": "2014-04-22",
+          "plot": "The fight between Netero and the king comes to an end.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aXy31PWN4kDnywAKu1bCV3AbZAb.jpg",
+          "title": "(126) Zero x And x Rose"
+        },
+        {
+          "aired": "2014-04-29",
+          "plot": "Pitou completes Komugi's treatment and Gon forces her to accompany him to Peijing in order to restore Kaito's mind, while Komugi stays behind with Killua and the others. Meanwhile, Pouf and Youpi reach the site of Netero's battle with Meruem and can't hide their feelings of sadness upon finding their king's maimed body.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gdX5FNnbXgdFBuSfWVbkmbDNLy.jpg",
+          "title": "(127) Hostility x And x Determination"
+        },
+        {
+          "aired": "2014-05-06",
+          "plot": "Pouf and Youpi sacrifice most of their own bodies to heal Meruem, who rises stronger than before, but with most of his memories missing. Pouf then decides to take this opportunity to dispose of Komugi in hopes that Meruem never remembers about her at all, but is attacked by the other hunters, who realize, much to their horror, that the king is still alive and is about to return to the palace.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y2KJJP2kjFieIvKmo4Dchu3yofo.jpg",
+          "title": "(128) Unparalleled Joy x And x Unconditional Love"
+        },
+        {
+          "aired": "2014-05-13",
+          "plot": "Shaiapouf's plan to kill Komugi is thwarted when Killua faces him in a battle of words and speed. When the King arrives in the palace, Shaiapouf is resolved to get rid of the Gungi board before the King can remember anything else. Finally, Neferpitou and Gon arrive at the place of their long-awaited battle.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/53gLYox0WtpnnnwNozwYvOapN5O.jpg",
+          "title": "(129) Formidable Enemy x And x Clear Objective"
+        },
+        {
+          "aired": "2014-05-20",
+          "plot": "Shaiapouf continues his plan to remove anything that could trigger Meruem's memory of Komugi as the King arrives at the palace. Killua continues to hold onto Komugi, and meets with Palm. Gon and Neferpitou arrive where Kite is, however, Gon must now face the truth.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/klre2EGRv7onlQQXqS6Xfp55WKr.jpg",
+          "title": "(130) Magic × To × Destroy"
+        },
+        {
+          "aired": "2014-05-27",
+          "plot": "After telling gon the truth about kite, Pitou tells gon that she is sorry for what she did, but it's too late for apologies.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/razXnCod1WhFbtzkFk7kGVFdLNW.jpg",
+          "title": "(131) Anger x And x Light"
+        },
+        {
+          "aired": "2014-06-03",
+          "plot": "The King still struggles to retrieve his memories as he and his two remaining Royal Guards return to the palace. He eventually knocks out Meleoron and Knuckle Bine with his En, and later engages Shaiapouf and Menthuthuyoupi in a race against time. Meanwhile, only two remain, Palm and Ikalgo, and hide an unconscious Komugi underground.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/siH2V7ncxlzoWnoJxgPKqvkRwWG.jpg",
+          "title": "(132) Flash x And x Start"
+        },
+        {
+          "aired": "2014-06-10",
+          "plot": "A message of hostage exchange sends Welfin on the field. One moment he encounters Menthuthuyoupi, and the next, Shaiapouf finds Youpi lifeless. When he returns to the King, Meruem demands Shaiapouf's secrets. On their way, Shaiapouf unsuspectingly coughs out blood, just like how blood trickled from the King and Menthuthuyoupi.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pHIFnEOYlYKTXpdxiDo98aUU2js.jpg",
+          "title": "(133) Deadline x To x Live"
+        },
+        {
+          "aired": "2014-06-17",
+          "plot": "Meruem uses his final permissible En and enlightens his surrounding with that and approaches to Welfin who was not detected by his En earlier. Caught between the desire to live and avoidable death, Welfin finally utters the name of Komugi and the secret Shaiapouf was trying so hard to protect now is finally revealed with Meruem regaining all of his memories about Komugi.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tq9lLh5rByjvzi2gHhFmIAr3xHQ.jpg",
+          "title": "(134) The Word x Is x You"
+        },
+        {
+          "aired": "2014-06-24",
+          "plot": "Now knowing his fate, Meruem admits defeat and reveals that all he wants now is to spend his final moments playing with Komugi, convincing Palm to tell him where she is hidden. East Gorteau and the NGL gets in turmoil after the fall of the Chimera Ants and the Hunter Association start making preparations to decide who will succeed Netero as its president. Despite knowing that she will also be poisoned to death by staying close to Meruem, Komugi stays by his side until his last breath and passes away in sequence.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iqJE7XyiknJq9yq2fhdA2IuP6Fu.jpg",
+          "title": "(135) This Person x And x This Moment"
+        },
+        {
+          "aired": "2014-07-01",
+          "plot": "After the fall of the king, the remaining Chimera Ants move on with their lives, each following their own path. However, Gon is still in critical condition after his battle with Neferpitou and Killua departs in search for a way to heal his body. Meanwhile, the top members of the Hunter Association, the Zodiacs, assemble to organize the election to choose the next president, following the will of Netero's last message.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1tbPsGNxTKLtEtxfTS9NzKBIs76.jpg",
+          "title": "(136) Homecoming x And x True Name"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "(137) Debate x Among x Zodiacs",
-        "(138) Request x And x Wish",
-        "(139) Alluka x And x Something",
-        "(140) Join Battle x And x Open Battle",
-        "(141) Magician x And x Butler",
-        "(142) Needles x And x Debt",
-        "(143) Sin x And x Claw",
-        "(144) Approval x And x Coalition",
-        "(145) Defeat x And x Reunion",
-        "(146) Chairman x And x Release",
-        "(147) Salvation x And x Future",
-        "(148) Past x And x Future"
+        {
+          "aired": "2014-07-08",
+          "plot": "To ensure that Netero's last wish will be followed, Ging convinces the other members of the Zodiacs to procede with the election according to some rules defined by him. However, after the first round of voting, a winner is not decided and a second round begins. Meanwhile, Illumi informs Hisoka about Gon's condition and asks for his help to ensure Killua's safety as well, in a plan that somehow involves a fifth, yet unrevealed member of the Zoldyck siblings.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a6GJpf08Yb3Z1LXmuHa6COFak3h.jpg",
+          "title": "(137) Debate x Among x Zodiacs"
+        },
+        {
+          "aired": "2014-07-15",
+          "plot": "With the elections in a stalemate, Pariston, the current vice-president proposes a new set of rules to his fellow Zodiacs in order to solve the impasse, but the others know that he actually plans to make use of this to secure a victory for himself. Meanwhile, Killua returns home and asks his father to let him see his younger sister Alluka, intending to use her mysterious and frightening power to grant wishes in order to save Gon's life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jwl4CIIBWDHDU7Pu8eqP9qxCeHF.jpg",
+          "title": "(138) Request x And x Wish"
+        },
+        {
+          "aired": "2014-07-22",
+          "plot": "Killua reunites with his sister Alluka and uses her as a leverage for them to be allowed to leave the Zoldick state, as her powers can only be used to heal Gon if she is close to him. Meanwhile, Illumi asks for Hisoka's help to stop Killua's plans, and with elections yet to reach a conclusion, the Zodiacs keep arguing about a possible way to bring it to end.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uxd65aSW5SXlYsacC1t9l2cl51g.jpg",
+          "title": "(139) Alluka x And x Something"
+        },
+        {
+          "aired": "2014-07-29",
+          "plot": "Killua is allowed by his family to leave the Zoldick estate with his sister, but only under supervision of several butlers with orders to bring them home if he ever leaves Alluka's side or allows any of their secrets to be leaked. Meanwhile, Leorio appears and confronts Ging, asking him why he had not ever paid a visit to Gon at the hospital yet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tSP3lTkaYVNlg9bploJUn37t5DA.jpg",
+          "title": "(140) Join Battle x And x Open Battle"
+        },
+        {
+          "aired": "2014-08-05",
+          "plot": "Leorio's confrontation with Ging earns him the respect of his fellow Hunters and make him one of the frontrunners for the election. Meanwhile, Illumi begins an attack on Killua as part of his plan to kill Alluka, assisted by Hisoka, who has other plans for her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nw013pro5YdFxvVdPaI9ZMe1QWj.jpg",
+          "title": "(141) Magician x And x Butler"
+        },
+        {
+          "aired": "2014-08-12",
+          "plot": "Gotoh is killed by Hisoka, while the other butlers keep following Killua until he manages to shake them off. Meanwhile, Illumi uses his needles to take control of several people to assist on his plans and when news of it come to the Association, a team of Hunters is assembled to bring him to justice, while some of them decide to take advantage of it in order to win the election.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qh56WlLyXEYGCUBg1pfiUvMfThD.jpg",
+          "title": "(142) Needles x And x Debt"
+        },
+        {
+          "aired": "2014-08-19",
+          "plot": "The election proceeds without a winner determined yet, and Killua is cornered by Illumi, who demands him to reveal which secrets he is hiding regarding Alluka's powers. Meanwhile, Hisoka keeps murdering other hunters just to amuse himself.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iDLXvbypT4t5Qa6WYt8tRMu0JSZ.jpg",
+          "title": "(143) Sin x And x Claw"
+        },
+        {
+          "aired": "2014-08-26",
+          "plot": "With only four candidates left, the election draws to its conclusion and has an unexpected turn when Leorio receives the support from two of the other remaining contestants, who are eager to prevent Pariston from winning. Meanwhile, Killua and Alluka finally arrive at the hospital where Gon is being treated.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3ITQ52fx8MrsXxM4XhkP6lMvRI9.jpg",
+          "title": "(144) Approval x And x Coalition"
+        },
+        {
+          "aired": "2014-09-02",
+          "plot": "Leorio is about to win the election, but loses all motivation to continue after a fully healed Gon appears before him, thanks to the power of Alluka, opening the way to Pariston's victory. Surrounded by his friends and the other hunters who celebrate his recovery, Gon meets his father at last.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jQdAwi6Hwkz2D81OH38AQtArcUU.jpg",
+          "title": "(145) Defeat x And x Reunion"
+        },
+        {
+          "aired": "2014-09-09",
+          "plot": "Gon apologizes to Ging for failing to save Kite and his father instructs him to apologize to Kite himself instead, affirming that he will wait for him to return. Meanwhile, Pariston wins the election, but renounces in favor of fellow Zodiac Cheadle and Killua seals Alluka's powers away to ensure that he can live a normal life beside him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lfUi51Se5O9fbgblVKcJoWAcCI0.jpg",
+          "title": "(146) Chairman x And x Release"
+        },
+        {
+          "aired": "2014-09-16",
+          "plot": "Gon apologizes to Kite for not being strong enough to save him. Kite tells him they'll always be friends and that he should go get to know his dad. Gon returns to the Election Hall only to find a note that Ging has gone to the World Tree. Gon, Killua, and Alluka journey to the World Tree where Killua reveals Alluka's powers to Gon. Killua vows to protect his sister and says farewell to Gon, promising they'll meet again. Gon in turn promises to introduce Killua to Ging when they meet again.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cBmpayCSV8rfFPrxjwfQobH6TUN.jpg",
+          "title": "(147) Salvation x And x Future"
+        },
+        {
+          "aired": "2014-09-23",
+          "plot": "Gon climbs to the top of the World Tree where Ging is expecting him, and the two finally have a heart to heart. In this occasion, Ging reveals his intentions to explore the world beyond the current boundaries known to mankind and Gon tells him of all his adventures, while his friends keep following their separate ways, each one of them with their own dreams and goals to pursue.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/z8FUy1ScYC2Pc1J3ozYpNLUTMI2.jpg",
+          "title": "(148) Past x And x Future"
+        }
       ]
     }
   },

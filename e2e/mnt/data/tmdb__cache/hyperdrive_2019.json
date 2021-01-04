@@ -1,21 +1,128 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Reality"
+  ],
   "id": 91766,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/367373/showbackground/hyperdrive-2019-5d96b82ca8796.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/367373/tvthumb/hyperdrive-2019-5d96b808d8063.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/bZ082u4TlCRijcRlTOlNsDjej0X.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/g3tIsbySSQj9GnDjhAAW7p5DmLU.jpg"
+    }
+  },
+  "mpaa": "",
   "name": "Hyperdrive (2019)",
+  "plot": "Elite street racers from around the world test their limits in supercharged custom cars on the biggest, baddest automotive obstacle course ever built.",
+  "premiered": "2019-08-21",
+  "status": "Returning Series",
+  "studios": [
+    "Netflix"
+  ],
+  "actors": [
+    {
+      "name": "Lindsay Czarniak",
+      "order": 4,
+      "role": "Herself - Host",
+      "thumb": "/2Hnf7p5UfpVmKPcSZ8Mipnw6uPv.jpg"
+    },
+    {
+      "name": "Rutledge Wood",
+      "order": 500,
+      "role": "Himself - Host",
+      "thumb": "/chOTyXZWN2K4jcjrhZiKomUMTKE.jpg"
+    },
+    {
+      "name": "Mike Hill",
+      "order": 500,
+      "role": "Himself - Host",
+      "thumb": null
+    },
+    {
+      "name": "Michael Bisping",
+      "order": 500,
+      "role": "Himself - Host",
+      "thumb": "/xF6wdVG9pYbYRhS0ncaweWPpb7Y.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Qualifier 1- Ready to Launch",
-        "Qualifier 2- Roll the Dice",
-        "Qualifier 3- Enter the Assassin",
-        "Qualifier 4- Go Hard or Go Home",
-        "Knockout 1- Head to Head",
-        "Knockout 2- Checkers or Wreckers",
-        "Knockout 3- Track Is Hot",
-        "Wild Card- A Chance at Redemption",
-        "Semifinal- Last Chance",
-        "Finale- The Monster"
+        {
+          "aired": "2019-08-21",
+          "plot": "The amped-up drivers get their first experience on the course, but not everyone has what it takes to dominate behind the wheel.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8TEDK1gUppGzS8qJ3RS7s35v0nZ.jpg",
+          "title": "Qualifier 1- Ready to Launch"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "A millionaire with a Lamborghini, a truck driver in a stock Mustang and a slew of other racers in tricked-out rides push each other to new extremes",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5pQcK6dkrUZsfdUz8xMCX93bL0H.jpg",
+          "title": "Qualifier 2- Roll the Dice"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "The qualifying rounds continue with the craziest obstacle yet and six new racers. The standout is a 21-year-old nicknamed the Baby-Faced Assassin.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ys7apLKAGQhJUfeTwgVEPmcGeeq.jpg",
+          "title": "Qualifier 3- Enter the Assassin"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "The qualifying rounds continue with the craziest obstacle yet and six new racers. The standout is a 21-year-old nicknamed the Baby-Faced Assassin.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s3Pc6f76HtuhxfpbUUoVKf5bm4z.jpg",
+          "title": "Qualifier 4- Go Hard or Go Home"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "As the knockout round begins, the drivers must prove themselves on a newly redesigned course. But not everyone's car survives the chaos.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/isyRCqw1LKFU2KinZmFRKoNh7TA.jpg",
+          "title": "Knockout 1- Head to Head"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "A new obstacle humbles the racers -- even one indomitable driver. Another contestant's overconfidence proves costly on the track.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7EYJ84J0ZNu6SG7bWPRJ3f9xEIZ.jpg",
+          "title": "Knockout 2- Checkers or Wreckers"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "With the competition down to eight drivers, the track designers crank up the difficulty with a new obstacle that turns out to be alarmingly dangerous.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/Aae58369T2c7qOBH5cdH54s1GS6.jpg",
+          "title": "Knockout 3- Track Is Hot"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "A few old favorites return to the course for a series of head-to-head battles. The prize: a second chance at glory.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r60nJypbStjModXdWxYgl1b91Ym.jpg",
+          "title": "Wild Card- A Chance at Redemption"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "The course is downright diabolical. The margin for error is thinner than ever. The finale is nearly here. Go, drivers, go!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2tntfVOkqey3QwBF47BuYZKyfCm.jpg",
+          "title": "Semifinal- Last Chance"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "It all comes down to this. The top six drivers race through nine obstacles to determine the ultimate champion on four wheels.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gpxo3VBmFYaCgOLMywmjzTIG8Bb.jpg",
+          "title": "Finale- The Monster"
+        }
       ]
     }
   },

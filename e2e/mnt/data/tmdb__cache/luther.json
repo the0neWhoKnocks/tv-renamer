@@ -1,62 +1,635 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Crime",
+    "Drama",
+    "Mystery"
+  ],
   "id": 1426,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/159591/clearart/luther-4e00f0456c615.png",
+        "https://assets.fanart.tv/fanart/tv/159591/clearart/luther-4dfcb6fc7fc7d.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/159591/clearlogo/luther-159591.png"
+      ],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-53f63b66c136d.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-53f63b79e54c1.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-53f63b866d557.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-57bf30bcc08a0.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2feb944cc3.jpg",
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-526eac71739c9.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2fec5edd2d.jpg",
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-526eac95b6944.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2fed18e999.jpg",
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-526eacbc03857.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-57bf30ce099fa.jpg"
+        ],
+        "all": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2fead2de13.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f772ea.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f77c24.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f784f5.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f78a6e.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5240f2c5c9c6d.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5240f36767cd0.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5240f3676849d.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-52410cd77a8e1.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-52410cd7a1540.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-52410d464ede7.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-57e7064aa0878.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-57eeda16ab2c0.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-57eeda29477a3.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/159591/tvbanner/luther-55397e82d1ddf.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvbanner/luther-54974cfb96cf2.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-53f63b9350b48.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-53f63b596cd4b.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-56435ce844c43.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-52410d951210c.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-57e7065aae96e.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-57eed9de7ca3a.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-510ca53234080.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-526eaa08ad90d.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-4dfcb7761547e.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-4fce2cac2516d.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-4fce2cac25828.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-54974cec56c84.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-5ad205b8b3543.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-5ad205bfc5a1e.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/A2qdFRq9oJDC5E7fbgSS4POUMDF.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Luther",
+  "plot": "A dark psychological crime drama starring Idris Elba as Luther, a man struggling with his own terrible demons, who might be as dangerous as the depraved murderers he hunts.",
+  "premiered": "2010-05-04",
+  "status": "Returning Series",
+  "studios": [
+    "BBC One"
+  ],
+  "actors": [
+    {
+      "name": "Dermot Crowley",
+      "order": 11,
+      "role": "DCI Martin Schenk",
+      "thumb": "/wQN9dvOXdecRtUAgOx8xSMC1gyh.jpg"
+    },
+    {
+      "name": "Idris Elba",
+      "order": 0,
+      "role": "DCI John Luther",
+      "thumb": "/be1bVF7qGX91a6c5WeRPs5pKXln.jpg"
+    },
+    {
+      "name": "Michael Smiley",
+      "order": 8,
+      "role": "Benny Silver",
+      "thumb": "/eWfpVJs6nnvWlzz85LRDEXHsyOJ.jpg"
+    },
+    {
+      "name": "Ruth Wilson",
+      "order": 1,
+      "role": "Alice Morgan",
+      "thumb": "/pVmUK9ONJnuAYuAZ7ULFRxNwYPe.jpg"
+    },
+    {
+      "name": "Warren Brown",
+      "order": 2,
+      "role": "DS Justin Ripley",
+      "thumb": "/pxX1ZaBdy7K2ADCOcSBEB7qbsnf.jpg"
+    },
+    {
+      "name": "Aimee-Ffion Edwards",
+      "order": 9,
+      "role": "Jenny Jones",
+      "thumb": "/iwk8yjyWd46R5BFAYQLImFUvlHh.jpg"
+    },
+    {
+      "name": "Paul McGann",
+      "order": 21,
+      "role": "Mark North",
+      "thumb": "/4NAtQI30CAaJuQRiot9twe7J9t9.jpg"
+    },
+    {
+      "name": "Saskia Reeves",
+      "order": 6,
+      "role": "DSU Rose Teller",
+      "thumb": "/dTzb4BHZ9T9O2kNgNgTuMtGQ8rB.jpg"
+    },
+    {
+      "name": "Indira Varma",
+      "order": 1,
+      "role": "Zoe Luther",
+      "thumb": "/pAdniIOfMrI3RBJPp2FOF3yUZNn.jpg"
+    },
+    {
+      "name": "Steven Mackintosh",
+      "order": 4,
+      "role": "DCI Ian Reed",
+      "thumb": "/vDA4mmVe0XMnqd6qMyGWI8bUEeC.jpg"
+    },
+    {
+      "name": "Patrick Malahide",
+      "order": 500,
+      "role": "George Cornelius",
+      "thumb": "/ae0AJ8FbJireYPQyglIxNucjqIy.jpg"
+    },
+    {
+      "name": "Nikki Amuka-Bird",
+      "order": 11,
+      "role": "DCI Erin Gray",
+      "thumb": "/bbZouEqBH8lhldqYmnBxR7XxhlA.jpg"
+    },
+    {
+      "name": "Sienna Guillory",
+      "order": 12,
+      "role": "Mary Day",
+      "thumb": "/nO190bAQxXvZH3DG9rZto0eocLe.jpg"
+    },
+    {
+      "name": "David O'Hara",
+      "order": 13,
+      "role": "DSU George Stark",
+      "thumb": "/zPWpTV19nPLawd1E9A1jUDdcT2H.jpg"
+    },
+    {
+      "name": "Michael Obiora",
+      "order": 19,
+      "role": "Errol Minty",
+      "thumb": "/4AJSOV9JzHOzeULqamGqTcNtltV.jpg"
+    },
+    {
+      "name": "Hermione Norris",
+      "order": 20,
+      "role": "Vivien Lake",
+      "thumb": "/x2qg33wx8d3A7pYPiKtkJHxwhKQ.jpg"
+    },
+    {
+      "name": "Enzo Cilenti",
+      "order": 500,
+      "role": "Jeremy Lake",
+      "thumb": "/lGFHPUsOlAnncpZLfdFXCGq2nji.jpg"
+    },
+    {
+      "name": "Wunmi Mosaku",
+      "order": 500,
+      "role": "Detective Sgt. Catherine Halliday",
+      "thumb": "/mWDsVCo9sBcekrsjUTsoCFLhtYt.jpg"
+    },
+    {
+      "name": "Roberta Taylor",
+      "order": 20,
+      "role": "Celia Lavender",
+      "thumb": "/89SuF1eOL3FbLEmJzJvQvY2pXjR.jpg"
+    },
+    {
+      "name": "Anton Saunders",
+      "order": 33,
+      "role": "Henry Madsen",
+      "thumb": null
+    },
+    {
+      "name": "Jami Reid-Quarrell",
+      "order": 16,
+      "role": "James Hauser",
+      "thumb": null
+    },
+    {
+      "name": "Anthony Howell",
+      "order": 20,
+      "role": "Palmer",
+      "thumb": "/l4FKkGxL5M4G0Alg0zoh2ntBBiy.jpg"
+    },
+    {
+      "name": "Chris Wilson",
+      "order": 31,
+      "role": "Police Firearms Officer (uncredited)",
+      "thumb": "/AbN1FqJYx6R14B8jHmBBFFZ75oY.jpg"
+    },
+    {
+      "name": "John Heffernan",
+      "order": 500,
+      "role": "Steven Rose",
+      "thumb": "/dAMQs7geqSwGszODyDlSezoDsCA.jpg"
+    },
+    {
+      "name": "Laura Haddock",
+      "order": 500,
+      "role": "Megan Cantor",
+      "thumb": "/6kRUvA7N3pMzznG9PdiqCOvxhGQ.jpg"
+    },
+    {
+      "name": "Rose Leslie",
+      "order": 500,
+      "role": "DS Emma Lane",
+      "thumb": "/oxO7Cia4g9YSOxpc3GpmGXmH24U.jpg"
+    },
+    {
+      "name": "Darren Boyd",
+      "order": 500,
+      "role": "DCI Theo Bloom",
+      "thumb": "/akabAN2sVL3zyAR04aIZ1GIsONe.jpg"
+    },
+    {
+      "name": "Nicola Walker",
+      "order": 0,
+      "role": "Linda Shand",
+      "thumb": "/gZNT3kN254dASL2MZ6S2MpP6Nk2.jpg"
+    },
+    {
+      "name": "Alexander Morton",
+      "order": 0,
+      "role": "Bill Winingham",
+      "thumb": null
+    },
+    {
+      "name": "Sean Pertwee",
+      "order": 0,
+      "role": "Terry Lynch",
+      "thumb": "/j4pAEMhKL5vA61ADrkxxLFtcI4c.jpg"
+    },
+    {
+      "name": "Paul Rhys",
+      "order": 0,
+      "role": "Lucien Burgess",
+      "thumb": "/l7uc38oZGMQbbq7WqE8rKn9xZJr.jpg"
+    },
+    {
+      "name": "Ross McCall",
+      "order": 1,
+      "role": "Daniel Sugarman",
+      "thumb": "/6l3lARiyHHISOIntSlvYv0JgTHz.jpg"
+    },
+    {
+      "name": "Louise Rose",
+      "order": 1,
+      "role": "Corrine Day",
+      "thumb": null
+    },
+    {
+      "name": "Rob Jarvis",
+      "order": 1,
+      "role": "Graham Shand",
+      "thumb": "/t2MLooTwg1bnXOVudjJ6D0iY5wz.jpg"
+    },
+    {
+      "name": "Andrew Tiernan",
+      "order": 1,
+      "role": "Richard Henley",
+      "thumb": "/co8FxSWaRuYW3bhsJBTXO3GNkdg.jpg"
+    },
+    {
+      "name": "Ania Sowinski",
+      "order": 2,
+      "role": "Evangeline Nixon",
+      "thumb": null
+    },
+    {
+      "name": "Matti Houghton",
+      "order": 10,
+      "role": "Layla",
+      "thumb": "/spJG86tyIJF3UgfXtR5j0gbHnFJ.jpg"
+    },
+    {
+      "name": "Luke Ward-Wilkinson",
+      "order": 11,
+      "role": "Owen Woodward",
+      "thumb": null
+    },
+    {
+      "name": "Thomas Lockyer",
+      "order": 13,
+      "role": "James Carrodus",
+      "thumb": "/wArFs4Xa3gMjINQurV13jmUYuH8.jpg"
+    },
+    {
+      "name": "Luke Westlake",
+      "order": 19,
+      "role": "Lee Peck",
+      "thumb": null
+    },
+    {
+      "name": "Nicholas Asbury",
+      "order": 20,
+      "role": "DCI Woodgate",
+      "thumb": "/wuhSNWzSQjcSXgYhdlR8WqmQrjj.jpg"
+    },
+    {
+      "name": "Matthew Marsh",
+      "order": 22,
+      "role": "DCSU Russell Cornish",
+      "thumb": "/9NfvGnHBZI4CwyPIOgv8qPMIaAv.jpg"
+    },
+    {
+      "name": "Glen Stanway",
+      "order": 24,
+      "role": "Police Constable (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Geoffrey Lumb",
+      "order": 25,
+      "role": "PC Steve Gorman",
+      "thumb": null
+    },
+    {
+      "name": "Sam Spruell",
+      "order": 26,
+      "role": "Owen Lynch",
+      "thumb": "/mV62no6D4yYtYS4A6dkHCGPTugZ.jpg"
+    },
+    {
+      "name": "Diveen Henry",
+      "order": 27,
+      "role": "PC Jenny Hanson",
+      "thumb": null
+    },
+    {
+      "name": "Gary Shelford",
+      "order": 28,
+      "role": "PC Mardel",
+      "thumb": null
+    },
+    {
+      "name": "Catherine Balavage",
+      "order": 29,
+      "role": "Hoodie (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Catherine Hamilton",
+      "order": 30,
+      "role": "Kirsten Ross",
+      "thumb": null
+    },
+    {
+      "name": "Mark Redguard",
+      "order": 32,
+      "role": "Policeman",
+      "thumb": null
+    },
+    {
+      "name": "Johann Myers",
+      "order": 33,
+      "role": "Dennis Keaton (as Johann Meyer)",
+      "thumb": "/6DXoJ3crStvWHXyY3dIA6eREhrf.jpg"
+    },
+    {
+      "name": "Stacey Sampson",
+      "order": 34,
+      "role": "Claire Weldon",
+      "thumb": null
+    },
+    {
+      "name": "Okorie Chukwu",
+      "order": 35,
+      "role": "PC Alistair Fulford",
+      "thumb": null
+    },
+    {
+      "name": "Katie Hardwick",
+      "order": 36,
+      "role": "Monika Poole (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Donatienne Dupont",
+      "order": 37,
+      "role": "Jessica Carrodus",
+      "thumb": null
+    },
+    {
+      "name": "Danny Lee Wynter",
+      "order": 38,
+      "role": "Tom Meyer",
+      "thumb": "/pHC68MqhUN3NUN62UvZPIRWmm0l.jpg"
+    },
+    {
+      "name": "Graham Turner",
+      "order": 39,
+      "role": "Patrick Holguin",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Extended Inside Look - S1 Ep 1",
-        "Extended Inside Look - S1 Ep 2",
-        "Extended Inside Look - S1 Ep 3",
-        "Extended Inside Look - S1 Ep 4",
-        "Extended Inside Look - S1 Ep 5",
-        "Luther - The Journey So Far"
+        {
+          "aired": "2010-10-18",
+          "plot": "Series creator and writer Neil Cross, and Luther star, Idris Elba take you inside the first episode and inside the mind of Luther himself.",
+          "thumbnail": "",
+          "title": "Extended Inside Look - S1 Ep 1"
+        },
+        {
+          "aired": "2010-10-27",
+          "plot": "Idris Elba takes you deeper inside the mind of Luther, his marriage, why it's falling apart, and so much more!",
+          "thumbnail": "",
+          "title": "Extended Inside Look - S1 Ep 2"
+        },
+        {
+          "aired": "2010-11-04",
+          "plot": "Creator, Neil Cross reveals that he's a HUGE Columbo fan, as is Idris, and how that show influenced his style, especially in regards to structuring Luther.",
+          "thumbnail": "",
+          "title": "Extended Inside Look - S1 Ep 3"
+        },
+        {
+          "aired": "2010-11-09",
+          "plot": "Find out how the relationship between Luther and Alice is getting more intertwined, and how it's becoming more and more difficult to sever the ties between them.",
+          "thumbnail": "",
+          "title": "Extended Inside Look - S1 Ep 4"
+        },
+        {
+          "aired": "2010-11-17",
+          "plot": "Indira takes you inside Zoe's thoughts about Luther and how dealing a passionate man makes for fun in some areas of life, and problems in others.",
+          "thumbnail": "",
+          "title": "Extended Inside Look - S1 Ep 5"
+        },
+        {
+          "aired": "2015-12-08",
+          "plot": "Summary of the most exciting moments from the first three seasons.",
+          "thumbnail": "",
+          "title": "Luther - The Journey So Far"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Episode 1",
-        "Episode 2",
-        "Episode 3",
-        "Episode 4",
-        "Episode 5",
-        "Episode 6"
+        {
+          "aired": "2010-05-04",
+          "plot": "Luther returns to work after a traumatic arrest to investigate the murder of a former child genius's parents, and quickly deduces that their daughter is responsible. However, unable to find evidence to convict, he becomes embroiled in a battle of wits with the suspect - who has set her sights on him and his estranged wife.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8DEytgrlJOAQPk2XTpaMLWtjpoV.jpg",
+          "title": "Episode 1"
+        },
+        {
+          "aired": "2010-05-11",
+          "plot": "A gunman begins murdering uniformed police officers, prompting the detective to taunt the killer on TV in the hope of inspiring him to turn his anger on him and come out into the open. To his horror, Luther also learns that Alice Morgan has been investigating his past - and is threatening to tell Zoe what she has discovered.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eglkeRU4ZdmgQyHlQAqeYREnBgQ.jpg",
+          "title": "Episode 2"
+        },
+        {
+          "aired": "2010-05-18",
+          "plot": "John Luther must catch a Satanic occult killer accused of kidnap and murder. However, with a young mother's life at stake, Luther must use all his skills to build an airtight case.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8E7QN5ZpvoFrENboA405GOZM4U.jpg",
+          "title": "Episode 3"
+        },
+        {
+          "aired": "2010-05-25",
+          "plot": "When a serial killer goes on the rampage, Luther must put his personal life aside and delve inside the murderer's mind to discover what is driving him to kill so many girls, and why.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cjVKXEDGQPhrWeQFrXFl8MYeRdx.jpg",
+          "title": "Episode 4"
+        },
+        {
+          "aired": "2010-06-01",
+          "plot": "When a wealthy couple are taken hostage, Luther must try to avert a disastrous chain of events. However, what he doesn't know is that it will soon become very personal.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wFpEzmOHAbY56bf5tLX6g0gWYiB.jpg",
+          "title": "Episode 5"
+        },
+        {
+          "aired": "2010-06-08",
+          "plot": "Luther, suspected of murder, goes on the run to try and prove his innocence. With Alice's assistance, they set out together to exact revenge on the real killer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/od38z0KGr3N1dp5VPQu6qdCzywS.jpg",
+          "title": "Episode 6"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Episode 1",
-        "Episode 2",
-        "Episode 3",
-        "Episode 4"
+        {
+          "aired": "2011-06-14",
+          "plot": "Still plagued by the death of his ex-wife, Luther returns to work to face a surreal and nightmarish case of a masked murderer determined to enter into folklore. As the body count rises, Luther must use all his skills to stop the killer, at the same time trying to rescue an old acquaintance's daughter from the dangerous world of prostitution.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a2x5zi0M7UCrSdk03Rq4jTgUgnZ.jpg",
+          "title": "Episode 1"
+        },
+        {
+          "aired": "2011-06-21",
+          "plot": "Luther must rescue Ripley, abducted by Cameron, in time to prevent Cameron's final murderous set piece. But Jenny's ruthless and vengeful boss is demanding compensation for stealing her protege. Luther is torn; will his visionary mind provide the team with the tools to save Ripley and the killer's intended victims, or will his focus be compromised?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q8fLq0S98HEs3QX0sr3nmnSgpr0.jpg",
+          "title": "Episode 2"
+        },
+        {
+          "aired": "2011-06-28",
+          "plot": "As Luther's affection for Jenny grows, so does his determination to protect her and help her back on her feet. Baba, however, is determined to keep Luther on a tight leash. To add to Luther's difficulties, he is called in to investigate a man whose brutal and escalating murders seem to have no motive, leaving Jenny alone and vulnerable.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bW5ZZhfN3MfUPOTlqdJUzPhKmyb.jpg",
+          "title": "Episode 3"
+        },
+        {
+          "aired": "2011-07-05",
+          "plot": "Luther's personal and professional life spirals out of control as he tries to cover up Toby's death and appease a suspicious Baba. He must also protect Jenny from any further harm. At work there's also a killer at large whose actions are ruled by his dice. How do you stop a man who sees life and death as a game and whose actions can't be predicted?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7H8unP71ljLmAZb2hkPIssOnbnB.jpg",
+          "title": "Episode 4"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Episode 1",
-        "Episode 2",
-        "Episode 3",
-        "Episode 4"
+        {
+          "aired": "2013-07-02",
+          "plot": "Luther investigates a the case of a fetishist who is murdering women which is similar to an unsolved case from the 1980s. The team attempt to catch the copycat killer, whose murderous spree has only just started.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2G93aCK7yEFSPoQVV8F9nu2dtIQ.jpg",
+          "title": "Episode 1"
+        },
+        {
+          "aired": "2013-07-09",
+          "plot": "Luther's date with Mary, and the promise of romance, is interrupted by the news of another murder. The killer has struck again - the number of victims is escalating fast.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gkGzGNLGhrnJR0O2tF0RPdOw8T0.jpg",
+          "title": "Episode 2"
+        },
+        {
+          "aired": "2013-07-16",
+          "plot": "In what looks like a gangland crime - two hoodies are shot at close range. But an un-connected crime sees Luther make a un-connected connection that might provide the real answer to what happened.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zg68dJrtl2rcmR4JmqoNygF7HBu.jpg",
+          "title": "Episode 3"
+        },
+        {
+          "aired": "2013-07-23",
+          "plot": "Marwood makes his vendetta personal - targeting Luther and those closest to him, raining destruction on everything he touches. Stark and Gray arrive just in time to hurry Mary to a secret place, but is her safety really Stark's priority, or is she just a pawn in his game to lure Luther to him?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6YZ6j4PjwVDWPXpP2KGD8HjBC6i.jpg",
+          "title": "Episode 4"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "Episode 1",
-        "Episode 2"
+        {
+          "aired": "2015-12-15",
+          "plot": "Away from the police force, Luther receives a visit from Detective Chief Inspector Theo Bloom and Detective Sergeant Emma Lane. They bring him some new evidence that will draw him back to London to find the truth. The team tracks a cannibalistic serial killer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jYG9rQ0xQ6ADcmNhHK0SI6lR8DA.jpg",
+          "title": "Episode 1"
+        },
+        {
+          "aired": "2015-12-22",
+          "plot": "On the trail of a horrifying killer, Luther finds himself haunted by ghosts from his past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/835ke3zDL9HteezDuBJ5pq2SgQ6.jpg",
+          "title": "Episode 2"
+        }
       ]
     },
     "5": {
       "episodes": [
         null,
-        "Episode 1",
-        "Episode 2",
-        "Episode 3",
-        "Episode 4"
+        {
+          "aired": "2019-01-01",
+          "plot": "A new spate of nightmarish murders brings DCI John Luther to once again face the depths of human depravity on the streets of London. As the body count rises, and gangster George Cornelius applies his own pressure, can Luther catch the killer and save his own neck?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yV6c9zk4g5yADpIa55mozcdEc9O.jpg",
+          "title": "Episode 1"
+        },
+        {
+          "aired": "2019-01-02",
+          "plot": "Luther must confront a demon from his past, as both the police and Cornelius converge on his home. With Halliday convinced that the body in the morgue isn't their killer, can Luther put his own troubles to one side and find the true murderer before he strikes again?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4vizwLuiSwezaN9SBFuDGPJUfZf.jpg",
+          "title": "Episode 2"
+        },
+        {
+          "aired": "2019-01-03",
+          "plot": "With his friend in peril and a young woman kidnapped by the relentless serial killer, can Luther protect the innocent while preventing Cornelius's violent revenge from consuming him? Who is Luther willing to save, and who can't he bear to lose?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/biVnBtp6JBYxrH9RXkEd4RwzEyK.jpg",
+          "title": "Episode 3"
+        },
+        {
+          "aired": "2019-01-04",
+          "plot": "Reeling from the death of his friend, Luther races to save the others from Cornelius's terrible retribution. With Luther's increasing absence from the case, Halliday heads the hunt for a killer on the loose - a killer determined to complete his final macabre masterpiece.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rI62zgCTptOlBwN5dOMAuJgBuxw.jpg",
+          "title": "Episode 4"
+        }
       ]
     }
   },

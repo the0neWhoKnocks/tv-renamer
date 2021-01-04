@@ -1,40 +1,443 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Sci-Fi & Fantasy"
+  ],
   "id": 2538,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/79182/clearart/hyperdrive-4dbc373571c62.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/79182/clearlogo/hyperdrive-79182.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/79182/tvbanner/hyperdrive-51498855b1950.jpg"
+      ],
+      "seriesPoster": [],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/79182/tvthumb/hyperdrive-51498a40dc57d.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/originalnull",
+      "poster": "https://image.tmdb.org/t/p/original/p3ddSPtzMUjFxNefYZVIZCWbKDy.jpg"
+    }
+  },
+  "mpaa": "",
   "name": "Hyperdrive",
+  "plot": "Hyperdrive is a British television science fiction sitcom broadcast by BBC Two in 2006 and 2007. The working title was Full Power. In a 2008 interview, Kevin Eldon commented that he considered a third series was unlikely to be commissioned. Set in 2151 and 2152, it follows the crew of HMS Camden Lock as they stumble through their heroic mission to protect British interests in a changing galaxy.\n\nThe series is written by Kevin Cecil and Andy Riley, directed by John Henderson and produced by Alex Walsh-Taylor. The first episode was broadcast on BBC Two on 11 January 2006. A second series began on 12 July 2007 on BBC Two.",
+  "premiered": "2006-01-11",
+  "status": "Ended",
+  "studios": [
+    "BBC One"
+  ],
+  "actors": [
+    {
+      "name": "Nick Frost",
+      "order": 0,
+      "role": "Commander Michael Henderson",
+      "thumb": "/2CHS4t6miNGLgMQAjhFqb4fFuKS.jpg"
+    },
+    {
+      "name": "Miranda Hart",
+      "order": 1,
+      "role": "Diplomatic Officer Chloe Alice Teal",
+      "thumb": "/lLqIihBICaGVkzB8yqCvydZ9qc3.jpg"
+    },
+    {
+      "name": "Kevin Eldon",
+      "order": 2,
+      "role": "First Officer Eduardo Pauline York",
+      "thumb": "/5Ws7v11Y6N4bLPSed4HffjCajaX.jpg"
+    },
+    {
+      "name": "Dan Antopolski",
+      "order": 3,
+      "role": "Technical Officer Karl Jeffers",
+      "thumb": null
+    },
+    {
+      "name": "Stephen Evans",
+      "order": 4,
+      "role": "Navigator Dave Vine",
+      "thumb": null
+    },
+    {
+      "name": "Petra Massey",
+      "order": 5,
+      "role": "Sandstrom",
+      "thumb": "/3vpRGQCkhgEmXKPqCc2uhZ4Hl7P.jpg"
+    },
+    {
+      "name": "Maggie Service",
+      "order": 18,
+      "role": "Computer (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Petra Massey",
+      "order": 4,
+      "role": "Sandstrom",
+      "thumb": null
+    },
+    {
+      "name": "Paterson Joseph",
+      "order": 6,
+      "role": "",
+      "thumb": "/n8kf0aowLTcPSt72k0eC4ZShe3s.jpg"
+    },
+    {
+      "name": "Waen Shepherd",
+      "order": 13,
+      "role": "Captain Helix",
+      "thumb": null
+    },
+    {
+      "name": "Morwenna Banks",
+      "order": 19,
+      "role": "Announcer",
+      "thumb": "/szyznnzWGxBpl7LTXUaVzdjR5No.jpg"
+    },
+    {
+      "name": "Ewan Bailey",
+      "order": 27,
+      "role": "Computer (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Remi Nicole",
+      "order": 0,
+      "role": "Piretti",
+      "thumb": null
+    },
+    {
+      "name": "Joe Marshall",
+      "order": 19,
+      "role": "Wade",
+      "thumb": null
+    },
+    {
+      "name": "Montserrat Lombard",
+      "order": 15,
+      "role": "Lavya",
+      "thumb": null
+    },
+    {
+      "name": "Geoffrey McGivern",
+      "order": 17,
+      "role": "Supreme Ruler",
+      "thumb": null
+    },
+    {
+      "name": "Stephen Mangan",
+      "order": 0,
+      "role": "Mason",
+      "thumb": "/zatRZ5DRialqZFCn1zkqibpx9ko.jpg"
+    },
+    {
+      "name": "Hywel Simons",
+      "order": 1,
+      "role": "",
+      "thumb": "/20aOZDttacDO0UXpcGAnjgjMpEn.jpg"
+    },
+    {
+      "name": "Sarah Solemani",
+      "order": 3,
+      "role": "Alien #1",
+      "thumb": "/gYB0Qo4xYhBCt7lE3qCzxMgVsWV.jpg"
+    },
+    {
+      "name": "Katy Brand",
+      "order": 4,
+      "role": "",
+      "thumb": "/lMxM7EwxghGuhBPFZkAXSYT35A7.jpg"
+    },
+    {
+      "name": "Sally Phillips",
+      "order": 7,
+      "role": "Clare Winchester",
+      "thumb": "/xLEMZhksdCEO8HUhQLNetkETLdr.jpg"
+    },
+    {
+      "name": "Colin McFarlane",
+      "order": 8,
+      "role": "Male Bulaahg",
+      "thumb": "/dJDcUzJEhy1vTjnLm72kPaYPpbK.jpg"
+    },
+    {
+      "name": "Richard Katz",
+      "order": 10,
+      "role": "Male Glish",
+      "thumb": null
+    },
+    {
+      "name": "Katherine Jakeways",
+      "order": 11,
+      "role": "Female Glish",
+      "thumb": null
+    },
+    {
+      "name": "Laurence Howarth",
+      "order": 12,
+      "role": "Fasmoff of Uberon",
+      "thumb": null
+    },
+    {
+      "name": "Steven Burrell",
+      "order": 16,
+      "role": "Joshua",
+      "thumb": null
+    },
+    {
+      "name": "Martina McClements",
+      "order": 20,
+      "role": "Female Bulaahg",
+      "thumb": "/fd0z3hXKBGbsMAghAF2qwezORjc.jpg"
+    },
+    {
+      "name": "James Bachman",
+      "order": 21,
+      "role": "Lallakkiss #1",
+      "thumb": "/1Fme06hFfa3H3tTMcyGVXqYaCBL.jpg"
+    },
+    {
+      "name": "Neil Edmond",
+      "order": 22,
+      "role": "Lallakkiss #2",
+      "thumb": "/vhalEsYFz40hEwlIy6h4MH6jmZQ.jpg"
+    },
+    {
+      "name": "William Brand",
+      "order": 23,
+      "role": "Danish Commander",
+      "thumb": "/7NXZlFmsVZ861bpbFeM0Nnm0Mto.jpg"
+    },
+    {
+      "name": "Stephanie Dooley",
+      "order": 25,
+      "role": "Beautiful Space Lady",
+      "thumb": "/fTJODhFZA77XvhUEE4kh9Py7gz4.jpg"
+    },
+    {
+      "name": "Chris Brailsford",
+      "order": 26,
+      "role": "Space Force Inspector",
+      "thumb": "/1pQutxfwxHJxlGrrEiqXyhecW8w.jpg"
+    },
+    {
+      "name": "Robert Galas",
+      "order": 28,
+      "role": "Teenager",
+      "thumb": null
+    },
+    {
+      "name": "Hon Ping Tang",
+      "order": 29,
+      "role": "Sergeant Destruction",
+      "thumb": "/dCD9EPkkq62i7JcL4qFMNTY8fvX.jpg"
+    },
+    {
+      "name": "Dustin Demri-Burns",
+      "order": 30,
+      "role": "Queppu Warrior",
+      "thumb": "/m0yBhBOqO9HSvsBxj9JzdPfMf3d.jpg"
+    },
+    {
+      "name": "Stephan Kreiss",
+      "order": 31,
+      "role": "Gunface",
+      "thumb": "/ketnq2wS1GsZCYfI6h03UjDMher.jpg"
+    },
+    {
+      "name": "Catherine Shepherd",
+      "order": 32,
+      "role": "Arabella",
+      "thumb": "/2MY9wFTqnAPGGRn8KIFRZfN1cs0.jpg"
+    },
+    {
+      "name": "Jim Howick",
+      "order": 33,
+      "role": "Swamp Creature",
+      "thumb": "/nkvkarlcXjFBsg30DYWKsah3APg.jpg"
+    },
+    {
+      "name": "Dan Tetsell",
+      "order": 34,
+      "role": "Robot #1",
+      "thumb": null
+    },
+    {
+      "name": "Tom Basden",
+      "order": 35,
+      "role": "Lallakkiss",
+      "thumb": "/wKEMQ8TVb1sY09lXrL0flj8mT7I.jpg"
+    },
+    {
+      "name": "Fox Jackson-Keen",
+      "order": 36,
+      "role": "Lallakkid",
+      "thumb": null
+    },
+    {
+      "name": "Andy Riley",
+      "order": 37,
+      "role": "Pastie Lord",
+      "thumb": "/sqIZEHrLVK81djEqfUv0wJUufIy.jpg"
+    },
+    {
+      "name": "Clare Thomson",
+      "order": 38,
+      "role": "Commander Roche",
+      "thumb": null
+    },
+    {
+      "name": "Thaila Zucchi",
+      "order": 39,
+      "role": "Commander Gulati",
+      "thumb": null
+    },
+    {
+      "name": "Alisdair McKee",
+      "order": 40,
+      "role": "Scrane",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Unaired Pilot",
-        "The Story of Hyperdrive",
-        "Creating the World of Hyperdrive",
-        "Video Diary",
-        "Miranda Hart's Tour of the Set",
-        "Behinds the Scenes with Nick Frost",
-        "Deleted Scenes"
+        {
+          "aired": "1999-11-30",
+          "plot": "Original pilot episode when the show was originally called \"Lepus\" and then \"Full Power.\" Starred Sanjeev Bhaskar as Henderson and Mark Gatiss as York while the rest of the cast was pretty much those that appeared in the full series. It was directed by Armando Ianucci.",
+          "thumbnail": "",
+          "title": "Unaired Pilot"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "The Story of Hyperdrive"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Creating the World of Hyperdrive"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Video Diary"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Miranda Hart's Tour of the Set"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Behinds the Scenes with Nick Frost"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scenes"
+        }
       ]
     },
     "1": {
       "episodes": [
-        "Unaired Pilot",
-        "A Gift from the Glish",
-        "Hello, Queppu",
-        "Weekend Off",
-        "Asteroid",
-        "Clare",
-        "Assessment"
+        null,
+        {
+          "aired": "2006-01-11",
+          "plot": "The crew of HMS Camden Lock start negotiations with various alien civilisations to sell blocks of the Peterborough Enterprise Zone. When things fail the first time, Space Force demands that Commander Henderson and his crew have to find another buyer within a week. The task doesn't get easier with an alien killer machine on board and the navigation system dropping out.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2ImXqqci0yLFiHP0lPxCkCAhsb0.jpg",
+          "title": "A Gift from the Glish"
+        },
+        {
+          "aired": "2006-01-18",
+          "plot": "Henderson, Teal and York try to make first contact with the Queppu but are instead greeted by crossbow fire and are accused of being rebels.\n\nMeanwhile Jeffers, left in command of the ship, enters into a space race.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fpIhMLrBL31lY3OElmDMar3FpU.jpg",
+          "title": "Hello, Queppu"
+        },
+        {
+          "aired": "2006-01-25",
+          "plot": "Vine buys a planet while Teal contrives to be alone with Henderson at the officer's ball.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kgvHRwyBDIO51AalkHEzDE3svw8.jpg",
+          "title": "Weekend Off"
+        },
+        {
+          "aired": "2006-01-31",
+          "plot": "Henderson, miffed at being usurped by the Americans negotiating peace between two alien races, takes matters into his own hands with explosive consequences.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aI7PQIMTjQrWW6j2eyzMYoNnswj.jpg",
+          "title": "Asteroid"
+        },
+        {
+          "aired": "2006-02-07",
+          "plot": "Clare Winchester, a record-breaking British space-sailer, has been driven a bit mad on her latest solo expedition when she comes across the slightly more mad crew of HMS Camden Lock.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8fzcHJSCn8FPgpZbwaGOn4mMR1V.jpg",
+          "title": "Clare"
+        },
+        {
+          "aired": "2006-02-14",
+          "plot": "The crew of HMS Camden Lock are subjected to an extremely strict assessment test causing Henderson to seek the solitude of his cabin leaving York in command.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1pq1Hclt1N0nozwvFM64lMatKux.jpg",
+          "title": "Assessment"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Green Javelins",
-        "Artefact",
-        "Admiral's Daughter",
-        "Harvest",
-        "Dreamgate",
-        "Convoy"
+        {
+          "aired": "2007-07-12",
+          "plot": "Henderson is invited to join Britains premier space-o-batics team (a Red Arrows for space) led by Squadron Leader Mason (played by Stephen Mangan), who twenty years ago had a fling with Teal. \n\nMeanwhile, York reveals the results of his terrifying scientific experiment and Vine has enlisted Jeffers into injuring him in a 'workplace accident' so he can be sent back to Earth.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/meywxrHDpX7EYn9HcUqPVYbIfMb.jpg",
+          "title": "Green Javelins"
+        },
+        {
+          "aired": "2007-07-19",
+          "plot": "When presented with a mysterious object Henderson can't help but try to return it to its rightful owners despite York's warnings that it's a classic hero trap. \n\nThe three senior officers find themselves on a forest moon suddenly surrounded by the Queppu ready for revenge. After narrowly avoiding destruction last year they have acquired new technology and are ready to strike back by putting Henderson, York and Teal into a reality TV gladiatorial contest.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sdNbI8LNNiIx1z5mAHSYB4nnfC3.jpg",
+          "title": "Artefact"
+        },
+        {
+          "aired": "2007-07-26",
+          "plot": "The daughter of the Space Admiral has run away avoiding university and Henderson is ordered to get her back.\n\nMeanwhile both Vine and Jeffers have taken a shine to the young student and fight for her heart in the only way they know how - a duel. Arabella steals a shuttle craft and elopes with Jeffers leading them both into mortal danger.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rJ2QylJ5FRyZD6Sfs8blreuoUT8.jpg",
+          "title": "Admiral's Daughter"
+        },
+        {
+          "aired": "2007-08-02",
+          "plot": "York is sacked from Space Force after footage of him beating up an innocent alien ends up on the news. \n\nTeal is delighted to be left in charge of the ship in the officer's absence - but she faces a tough challenge when the team discover the Red Shiny Robots of Vortis are about to attack.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/32App39dmzAl2xtAAgq4nxOxXwF.jpg",
+          "title": "Harvest"
+        },
+        {
+          "aired": "2007-08-09",
+          "plot": "The crew discover the Dreamgate, one of the most dangerous devices in the Universe, which gives its owner the power to infiltrate other people's dreams without their knowledge. \n\nHenderson and York wander into Vine's dream of a pub in the mid 1990s...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rD7ZYEsh0IOuWU3xm9LteWtepgB.jpg",
+          "title": "Dreamgate"
+        },
+        {
+          "aired": "2007-08-16",
+          "plot": "Entrusted with leading the convoy guarding Britain's new super-weapon, the Camden Lock's position is betrayed. \n\nThere is a traitor aboard and all the officers are under suspicion. There is a desperate race against time to find the mole before Earth is destroyed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bTFrwvIZZJGVJXskHmsQBNgEXs2.jpg",
+          "title": "Convoy"
+        }
       ]
     }
   },

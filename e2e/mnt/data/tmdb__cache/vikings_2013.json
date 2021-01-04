@@ -1,0 +1,1407 @@
+{
+  "schema": 3,
+  "genres": [
+    "Action & Adventure",
+    "Drama"
+  ],
+  "id": 44217,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/260449/clearart/vikings-51563359eb0d8.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/260449/clearlogo/vikings-511805dc08101.png",
+        "https://assets.fanart.tv/fanart/tv/260449/clearlogo/vikings-516294ec5cee3.png",
+        "https://assets.fanart.tv/fanart/tv/260449/clearlogo/vikings-510edb29c2c4f.png"
+      ],
+      "seasonPoster": {
+        "0": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59e30468bb65b.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-53598325a527b.jpg"
+        ],
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-53408cc7535ef.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a243ef98ffa7.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618dcd70d6b.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521a41b4080.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59be5ba756f64.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-57dd872e5aab7.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-535983048f2a4.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-578753c28f245.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302b640c88.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-57c6f346594d6.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-53408cd2ba30e.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-543ed43abfc23.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a243f10dbf91.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618d6da9631.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521b6b826be.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59bd75bc05c4f.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5359830f6a0a8.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-578753cde49d6.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302c59c1b6.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-57c5ba0dcd5d0.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5341a479f3264.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-54e9ad3a2e394.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a243f28168aa.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618d8d71fbe.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521b7f6df05.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59be5c12ab031.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5359831998054.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-578753d8e2e6f.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302d5569af.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-57c6f3530587a.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-56cf634561863.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a243f3c35998.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618db11f1ac.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521b951fc1b.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59be5c3eccde0.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-578753e53d9bb.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302e4c3cc9.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e06719cab9c9.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618d47bed22.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a22527c47b90.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521ba934862.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ac4951357d4e.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302f4258e9.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5de891502ec24.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e0672bc415eb.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea303310dc36.jpg"
+        ],
+        "all": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e64058b2b4ac.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-57861fd69a720.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c4fe21aa.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-57861fe30197e.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c5eafb61.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5f13b2feec8b8.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-57861fedaae67.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c6dca6f2.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-57861ff890871.jpg",
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c7f1f4ba.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c91e0d2f.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30ca12f68c.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-54d960d0cdad3.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-518847a63588f.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-5de89317c23f1.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-550e3080528c0.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-56abaff6b4764.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a23a5e69bb4.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-51434af4d68bd.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-54df702384751.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-5261bf8b988c2.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a23486a5e8f.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a2352dd3eeb.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a2354933956.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a235636a748.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a2357f46753.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-54e4aa55e8936.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a2366d34e0a.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a2376592a22.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a238a4e44de.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a238c1259d1.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a2390a808e5.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a239c79ccf8.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a23ab4c19a5.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a23b5a851c2.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-562324d4af844.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a244dd33836.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-51434af4501cd.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-51434af4d54ef.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55c204daadfdb.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-5a0eaa9056354.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-56aa8b03728f5.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a234b1ee8e4.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a234cc42a13.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a23509df92c.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a2362e777de.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a236bcb9117.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a23731a2566.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a237fc27593.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a238202e0d9.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-53d9284b53789.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-53d9285997188.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-53d9286d2fa9e.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a239a8bafc5.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a23a15ec4b8.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a23a41cf547.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-51434af4a0b4f.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-51434af4d5ea4.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-56189df407d21.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-581f55b855039.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55c204daab0c3.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55c204daad10d.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-54df70495d75b.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-54c612427fbf1.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-57c34ebb444cf.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-532af34539c3a.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-53105d4dd362e.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-5c00b699cfb5b.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-583623d713c00.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-53d9283659f5f.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-514350ab69723.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-5aa5169036ec0.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-532af2cc55dcd.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-5786200882189.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-567b267888400.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbab63dbfb8.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbabdcc762d.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbb22203bf3.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbb2d6881f3.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-54c20576b2fb2.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-5ea31d080a871.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbac029f8c4.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbac2fef7e6.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbac8389c8b.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbb191e1fba.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-55b2d01ccb828.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-56189f7533b8e.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a33fac0ba16d.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-567ad6c091ee2.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5e066fa3b924a.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-551f63e8bcc0d.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a33fb1d69b69.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-544abaf697f4d.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5311788f18027.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5558adffb5008.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5e618d05109a7.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5e618d184dc2b.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5537e3efb3b20.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-553a642633dc4.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5807bbd76bc90.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a33fb676c4a1.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a22529848be0.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-58332c45d9af1.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-56a6f9b66f017.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-546668b6b5423.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-578753b072e09.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-56a94892751e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-57d08c045c2fa.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5d428a15808ea.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5b83bceba4d65.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-553a64158292a.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-57d08c8cc7b85.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-57d08d35dd555.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-57d08e5569148.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5ea304996ffb5.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-583626b434b5e.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-514353896f15e.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5aa51668b0150.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58bc17ba2694e.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58bc398b5a2f3.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58177d295a5b9.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58bc17ba27657.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58bc17ba27ae3.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-57861fc9b1eda.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5ea306094e96d.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-577abc54e8f11.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5134d012f1d2a.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5134d0301397b.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-54f23be6c2ed6.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58177d4515f2a.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58177d4f45593.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5817cb10d652d.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5818b6e41e983.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5834e2e44fee3.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5835f0e546770.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/aq2yEMgRQBPfRkrO0Repo2qhUAT.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
+  "name": "Vikings (2013)",
+  "plot": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
+  "premiered": "2013-03-03",
+  "status": "Ended",
+  "studios": [
+    "Amazon",
+    "History"
+  ],
+  "actors": [
+    {
+      "name": "Katheryn Winnick",
+      "order": 4,
+      "role": "Lagertha Lothbrok",
+      "thumb": "/vQSqH3ybDWZHZIqX4NZKhOCXAhQ.jpg"
+    },
+    {
+      "name": "Peter Franzén",
+      "order": 5,
+      "role": "King Harald Finehair",
+      "thumb": "/oyOHvNdJcOTQGZuAimene2Wlghw.jpg"
+    },
+    {
+      "name": "Alexander Ludwig",
+      "order": 1,
+      "role": "Bjorn Lothbrok",
+      "thumb": "/unP5YUgEdECL2gMLs0zCNya6is6.jpg"
+    },
+    {
+      "name": "Gustaf Skarsgård",
+      "order": 10,
+      "role": "Floki",
+      "thumb": "/oH2XSFil6ZHNg9HWur1ymwTLRX3.jpg"
+    },
+    {
+      "name": "Jasper Pääkkönen",
+      "order": 7,
+      "role": "Halfdan the Black",
+      "thumb": "/aZZy9NQEZdhlXWS2i8N00gxW6LU.jpg"
+    },
+    {
+      "name": "Moe Dunford",
+      "order": 8,
+      "role": "Aethelwulf",
+      "thumb": "/4iimMsE2JI0W3VXOMj0rSZtX70n.jpg"
+    },
+    {
+      "name": "Alex Høgh Andersen",
+      "order": 77,
+      "role": "Ivar the Boneless",
+      "thumb": "/wqtvSvC80cSbFCExptqC2s1DZO5.jpg"
+    },
+    {
+      "name": "Marco Ilsø",
+      "order": 3,
+      "role": "Hvitserk Lothbrok",
+      "thumb": "/4p6Mz91vuUugQHNw4Zv2bmw5liJ.jpg"
+    },
+    {
+      "name": "Georgia Hirst",
+      "order": 9,
+      "role": "Torvi",
+      "thumb": "/lnUhfcYBq1iCC5g8M6YmH4fhhTl.jpg"
+    },
+    {
+      "name": "Travis Fimmel",
+      "order": 0,
+      "role": "Ragnar Lothbrok",
+      "thumb": "/v8gLLGqFOHMtftmhg6148zKvBPU.jpg"
+    },
+    {
+      "name": "Clive Standen",
+      "order": 6,
+      "role": "Rollo",
+      "thumb": "/8cxLoC2qnzk0FvuLFLRGxYSq9i9.jpg"
+    },
+    {
+      "name": "Maude Hirst",
+      "order": 14,
+      "role": "Helga",
+      "thumb": "/7TArLsQhx3Na4XzMrj6kz6r7lA.jpg"
+    },
+    {
+      "name": "Alyssa Sutherland",
+      "order": 2,
+      "role": "Princess Aslaug",
+      "thumb": "/femjkNZ7jTbcwz6LjoQQyRD5Mlc.jpg"
+    },
+    {
+      "name": "Jordan Patrick Smith",
+      "order": 3,
+      "role": "Ubbe Lothbrok",
+      "thumb": "/bGPLRUkjCHm2j8VspCOgL6mti4b.jpg"
+    },
+    {
+      "name": "John Kavanagh",
+      "order": 25,
+      "role": "The Seer",
+      "thumb": "/wG5dUlNS4b7eUof6m32MaVFWdla.jpg"
+    },
+    {
+      "name": "George Blagden",
+      "order": 26,
+      "role": "Athelstan",
+      "thumb": "/6wHqrUQoadDuh0lxLNw7Pnl4ABl.jpg"
+    },
+    {
+      "name": "Jessalyn Gilsig",
+      "order": 7,
+      "role": "Siggy Haraldson",
+      "thumb": "/uEApWb9gsIFMZKSxKFklpFW25Wi.jpg"
+    },
+    {
+      "name": "Dianne Doan",
+      "order": 13,
+      "role": "Yidu",
+      "thumb": "/1qOHNQerubLL28fkAX2swY9bAIz.jpg"
+    },
+    {
+      "name": "Danila Kozlovsky",
+      "order": 500,
+      "role": "Prince Oleg of Novgorod",
+      "thumb": "/burD0f0IEOj6FyU5Zokf6VLhHKe.jpg"
+    },
+    {
+      "name": "Nathan O'Toole",
+      "order": 5,
+      "role": "Bjorn Lothbrok",
+      "thumb": "/aayIvRClxGA1v4lcBcZ4jiI1fZl.jpg"
+    },
+    {
+      "name": "Huw Parmenter",
+      "order": 57,
+      "role": "Roland",
+      "thumb": "/gSMP82sQYAn5okwDQseDa8rOd78.jpg"
+    },
+    {
+      "name": "Amy Bailey",
+      "order": 22,
+      "role": "Princess Kwenthrith",
+      "thumb": "/mPUBxceWoU4DPVzz4kF97nwUbkm.jpg"
+    },
+    {
+      "name": "Jack McEvoy",
+      "order": 58,
+      "role": "Helgi the Lean",
+      "thumb": "/dGvuRjET6DswkTZIepuI3vgVyLH.jpg"
+    },
+    {
+      "name": "Donal Logue",
+      "order": 6,
+      "role": "King Horik",
+      "thumb": "/dyY8Q2jCXQWWG9NtSsXRriKxpgf.jpg"
+    },
+    {
+      "name": "Ragga Ragnars",
+      "order": 63,
+      "role": "Gunnhild",
+      "thumb": "/thDqwXUOQXSEIjfaDLQMeAV071.jpg"
+    },
+    {
+      "name": "Steven Berkoff",
+      "order": 65,
+      "role": "King Olaf the Stout",
+      "thumb": "/pNVdTLSFxPY9Jq2MkYRhkLgAATp.jpg"
+    },
+    {
+      "name": "Gaia Weiss",
+      "order": 500,
+      "role": "Thorunn",
+      "thumb": "/3IxpprwM2Au3mgZrfJ04R6iQsGz.jpg"
+    },
+    {
+      "name": "Gabriel Byrne",
+      "order": 1,
+      "role": "Earl Haraldson",
+      "thumb": "/9r9oDGENg92VYYFMkV4C09IUlrb.jpg"
+    },
+    {
+      "name": "Ruby O'Leary",
+      "order": 8,
+      "role": "Gyda",
+      "thumb": null
+    },
+    {
+      "name": "Tadhg Murphy",
+      "order": 9,
+      "role": "Arne",
+      "thumb": "/5YQzdACbDvDwcfITmcwxMUEPJLK.jpg"
+    },
+    {
+      "name": "Jefferson Hall",
+      "order": 10,
+      "role": "Torstein",
+      "thumb": "/39QSUNG3CEJldnGkPigmbMjMTXx.jpg"
+    },
+    {
+      "name": "Alicia Agneson",
+      "order": 62,
+      "role": "Freydis",
+      "thumb": "/a3IrkRmyqbm7NltqvN7ilWZZkx0.jpg"
+    },
+    {
+      "name": "Adam Copeland",
+      "order": 61,
+      "role": "Kjetill Flatnose",
+      "thumb": "/xawkWKkgbOx5atAMeFDh9rjHGWt.jpg"
+    },
+    {
+      "name": "Lucy Martin",
+      "order": 61,
+      "role": "Ingrid",
+      "thumb": "/5mYsGxI46oVUCVjU66jAltQZNJu.jpg"
+    },
+    {
+      "name": "Roisin Murphy",
+      "order": 18,
+      "role": "Elsewith",
+      "thumb": "/29BykMWPEOed3Hzmfaxie5hwTxW.jpg"
+    },
+    {
+      "name": "Ryan Henson",
+      "order": 64,
+      "role": "Hali",
+      "thumb": null
+    },
+    {
+      "name": "Kieran O'Reilly",
+      "order": 64,
+      "role": "White Hair",
+      "thumb": "/bliXgZTXDTg7cnuFwT6bLjojYJQ.jpg"
+    },
+    {
+      "name": "Kristy Dawn Dinsmore",
+      "order": 65,
+      "role": "Amma",
+      "thumb": "/kDcAPgQIQXxhwI7we2DyGrwA4RY.jpg"
+    },
+    {
+      "name": "Aaron Lee Reed",
+      "order": 8,
+      "role": "Viking (uncredited)",
+      "thumb": "/7ap5YTCNolesyOo7frukahIHjiM.jpg"
+    },
+    {
+      "name": "Elodie Curry",
+      "order": 48,
+      "role": "Asa",
+      "thumb": "/4n4ohWEAswZhhYYfMvAJpMaTkn5.jpg"
+    },
+    {
+      "name": "Lenn Kudrjawizki",
+      "order": 58,
+      "role": "Prince Dir",
+      "thumb": "/hH26APWthsuBSlX9VeOMcM2olel.jpg"
+    },
+    {
+      "name": "Andrei Claude",
+      "order": 63,
+      "role": "Ganbaatar",
+      "thumb": "/nMNPUFGq8qyrLMMMMli1biPGqlP.jpg"
+    },
+    {
+      "name": "Oran Glynn O'Donovan",
+      "order": 63,
+      "role": "Igor",
+      "thumb": null
+    },
+    {
+      "name": "Danny O'Connor",
+      "order": 48,
+      "role": "Messenger 1",
+      "thumb": "/1ZsMKDDXflblPQAj0bIJJt71VD7.jpg"
+    },
+    {
+      "name": "Kelly Campbell",
+      "order": 61,
+      "role": "Ingvild",
+      "thumb": "/7i2irpjuZVTzZccUDc0DTVwcgqn.jpg"
+    },
+    {
+      "name": "Sophie Vavasseur",
+      "order": 3,
+      "role": "Princess Ellisif",
+      "thumb": "/tlAjiOhWufp4yUTfZbbUfqNFJun.jpg"
+    },
+    {
+      "name": "Eve Connolly",
+      "order": 44,
+      "role": "Thora",
+      "thumb": "/qzNUbOgKQl22GNF3UG6THMEeIrj.jpg"
+    },
+    {
+      "name": "Serena Kennedy",
+      "order": 45,
+      "role": "Anna",
+      "thumb": "/9oqsvyQFeovD3fjyqGJNNm2Jhhz.jpg"
+    },
+    {
+      "name": "Michael Johnston",
+      "order": 45,
+      "role": "Messenger 2",
+      "thumb": "/h2eTTULM5QN2m7a9XJPPYZ2WfrP.jpg"
+    },
+    {
+      "name": "Marko Leht",
+      "order": 45,
+      "role": "Torturer",
+      "thumb": "/4WmZVY3aAQ6aGkH0WiA4juuVL2m.jpg"
+    },
+    {
+      "name": "Conn Rogers",
+      "order": 48,
+      "role": "Canute",
+      "thumb": "/mP5NW2pTgfLAkAhY2OyGcnjYBJl.jpg"
+    },
+    {
+      "name": "Martin Maloney",
+      "order": 65,
+      "role": "Vigrid",
+      "thumb": "/Ayj6FE4QpglC5KhJl04ezoYTeZ.jpg"
+    },
+    {
+      "name": "Paul Reid",
+      "order": 76,
+      "role": "Mannel",
+      "thumb": null
+    },
+    {
+      "name": "David Wilmot",
+      "order": 1,
+      "role": "Olaf Andwend",
+      "thumb": "/epb46N0iJyAmSOguMdFn6qQGSsy.jpg"
+    },
+    {
+      "name": "David Lindström",
+      "order": 2,
+      "role": "Sigurd",
+      "thumb": null
+    },
+    {
+      "name": "Siobhan Kelly",
+      "order": 6,
+      "role": "Egil's Wife",
+      "thumb": "/lUpJQuUPSAUsbtDF2ep1yIxx6Et.jpg"
+    },
+    {
+      "name": "Leah McNamara",
+      "order": 9,
+      "role": "Aud",
+      "thumb": "/ecVaqYk9SlH0sOJ8eDgwqsbKceS.jpg"
+    },
+    {
+      "name": "James Craze",
+      "order": 13,
+      "role": "bul",
+      "thumb": null
+    },
+    {
+      "name": "James Craze",
+      "order": 14,
+      "role": "Bul",
+      "thumb": null
+    },
+    {
+      "name": "James Craze",
+      "order": 15,
+      "role": "Bul",
+      "thumb": null
+    },
+    {
+      "name": "James Craze",
+      "order": 16,
+      "role": "Bul",
+      "thumb": null
+    },
+    {
+      "name": "James Craze",
+      "order": 17,
+      "role": "Bul",
+      "thumb": null
+    },
+    {
+      "name": "Jamie Maclachlan",
+      "order": 18,
+      "role": "Aldwin",
+      "thumb": "/oE0O4BjDMwD4j4EBedS0eOvhcv0.jpg"
+    },
+    {
+      "name": "Elizabeth Moynihan",
+      "order": 19,
+      "role": "Gunnhild",
+      "thumb": null
+    },
+    {
+      "name": "Bryan Quinn",
+      "order": 36,
+      "role": "One-Eyed Man",
+      "thumb": "/7aDIOZaj48RBnaqg4oVtvfuemrc.jpg"
+    },
+    {
+      "name": "Will Guppy",
+      "order": 41,
+      "role": "Chamberlain",
+      "thumb": "/pV6m2Lh9RJPpo2TOTEt9Di9gttH.jpg"
+    },
+    {
+      "name": "Blake Kubena",
+      "order": 42,
+      "role": "Prince Askold",
+      "thumb": "/4kwSXbQAiFxy4UK09f9qNyajX68.jpg"
+    },
+    {
+      "name": "Alicia Gerrard",
+      "order": 45,
+      "role": "First Woman",
+      "thumb": "/7xaeebSc1dfLyx2oOcI6s6Xjbpw.jpg"
+    },
+    {
+      "name": "Deborah Wiseman",
+      "order": 46,
+      "role": "Second Woman",
+      "thumb": "/Sc5CLTWWSNWv8h51l4yvcqVfaM.jpg"
+    },
+    {
+      "name": "Aine Hayden",
+      "order": 47,
+      "role": "Old Woman",
+      "thumb": "/iUyjfVp3Y7DBUMZ4HYZ3eDGrs7Z.jpg"
+    },
+    {
+      "name": "Per Fredrik Åsly",
+      "order": 48,
+      "role": "Envoy",
+      "thumb": "/6sDhn8QYxX8AlTE01RLCOYWSmg7.jpg"
+    },
+    {
+      "name": "Kathy Monahan",
+      "order": 49,
+      "role": "Eira",
+      "thumb": null
+    },
+    {
+      "name": "Oisin Murray",
+      "order": 50,
+      "role": "Tarben",
+      "thumb": null
+    },
+    {
+      "name": "David Sterne",
+      "order": 51,
+      "role": "Gudmund",
+      "thumb": "/ipvWDt43Md5CHeq4tDq6oucNFl5.jpg"
+    },
+    {
+      "name": "Aoibheann McCann",
+      "order": 52,
+      "role": "Skadi",
+      "thumb": "/rYezoCSuCvSbRo96r6KsnE83xg5.jpg"
+    },
+    {
+      "name": "Gina Costigan",
+      "order": 53,
+      "role": "Runa",
+      "thumb": "/nLiELNvcpCoVk99J1VftmRzagJw.jpg"
+    },
+    {
+      "name": "Owen Barton",
+      "order": 54,
+      "role": "Warrior",
+      "thumb": "/3fwdW7KRJCXX3Rp8tjmrOtKUTsD.jpg"
+    },
+    {
+      "name": "Sandy Kennedy",
+      "order": 55,
+      "role": "Sylvi",
+      "thumb": null
+    },
+    {
+      "name": "Anna Maria Jopek",
+      "order": 59,
+      "role": "Female Skald",
+      "thumb": "/4WnGd3F2MJQF93Nvg9F3gN9WHZ3.jpg"
+    },
+    {
+      "name": "Ray Stevenson",
+      "order": 60,
+      "role": "Othere",
+      "thumb": "/fH1cLfWFslsQc4AvWL5SNoF0nvM.jpg"
+    },
+    {
+      "name": "Elshka Lane",
+      "order": 61,
+      "role": "Katia's Servant",
+      "thumb": null
+    },
+    {
+      "name": "Fredrik Hiller",
+      "order": 62,
+      "role": "Thorkell",
+      "thumb": "/pgQE7NQmzv4y0JnSDuHZ8ndeeqh.jpg"
+    },
+    {
+      "name": "Dean Ridge",
+      "order": 63,
+      "role": "Magnus",
+      "thumb": null
+    },
+    {
+      "name": "Svea Killoran",
+      "order": 64,
+      "role": "Asa",
+      "thumb": null
+    },
+    {
+      "name": "Erik Madsen",
+      "order": 67,
+      "role": "King Hemming",
+      "thumb": "/3U5RkBemIeA9GA7pt1reJ7MQSku.jpg"
+    },
+    {
+      "name": "Khaled Abol Naga",
+      "order": 68,
+      "role": "Ziyadat Allah",
+      "thumb": "/kmT9Wpzy0Y1m1jmUgCy7VqMzgSS.jpg"
+    },
+    {
+      "name": "Ferdia Walsh-Peelo",
+      "order": 71,
+      "role": "Alfred The Great",
+      "thumb": "/l06B8SizX7bjom7GDKbpSxGxZDS.jpg"
+    },
+    {
+      "name": "Jonathan Delaney Tynan",
+      "order": 72,
+      "role": "Lord Cuthred",
+      "thumb": null
+    },
+    {
+      "name": "Keith McErlean",
+      "order": 73,
+      "role": "Lord Denewulf",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        {
+          "aired": "2013-02-25",
+          "plot": "History provides a first look at the their new scripted series, Vikings.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cR8ikPqPVe1zFCUtqObkLNdJaAO.jpg",
+          "title": "First Look- Behind the Scenes"
+        },
+        {
+          "aired": "2015-03-26",
+          "plot": "The inner turmoil of a man destined to choose between two gods, and the two very different lives he lives.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qdlt3VsXJoOaaTdoFZXvUxjimHG.jpg",
+          "title": "Athelstan's Journal"
+        },
+        {
+          "aired": "2016-11-30",
+          "plot": "A recap of Season 1 through 4.",
+          "thumbnail": "",
+          "title": "The Saga of Ragnar Lothbrok"
+        },
+        {
+          "aired": "2017-11-29",
+          "plot": "In this one-hour recap special, Ivar the Boneless summons the Seer to tell him about his greatest enemy, Lagertha. The Seer takes us through Lagertha's epic story in the previous 4 seasons, telling everything there is to know about the formidable warrior, fearless leader, and legendary shieldmaiden.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tM60c9Jylz5NzjzrtWwgn6freb0.jpg",
+          "title": "The Saga of Lagertha"
+        },
+        {
+          "aired": "2017-11-29",
+          "plot": "Before “Vikings” raids our screens for their boldest, bloodiest, and most badass season yet, get a look behind the scenes for exclusive interviews with your favorite cast members, a shieldmaiden makeover, and never-before-seen sets.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7uNMkOeJlHVLBYRZRxgFOC2r8Xm.jpg",
+          "title": "A New World"
+        },
+        {
+          "aired": "2018-11-28",
+          "plot": "On the run after being defeated by Ivar the Boneless in Kattegat, Torvi tells her son the story of his legendary father, Viking warrior and explorer Bjorn Ironside, to ensure their family saga lives on.",
+          "thumbnail": "",
+          "title": "The Saga of Bjorn"
+        },
+        {
+          "aired": "2019-12-04",
+          "plot": "After leaving Kattegat, Ivar the Boneless embarks on a journey to unknown places, where he stumbles upon a stranger and suddenly remembers previous memories, which forces him to recall the story of the unique genius that is Floki.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qDbBeuNbl5ENNwJ1YKeamaE2rt7.jpg",
+          "title": "The Saga of Floki"
+        }
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        {
+          "aired": "2013-03-03",
+          "plot": "Ragnar Lothbrok is a warrior and a farmer who dreams of finding riches by bucking the tradition.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7cuiE0fvDXnCyVbQ5EXHtIz2sAr.jpg",
+          "title": "Rites of Passage"
+        },
+        {
+          "aired": "2013-03-10",
+          "plot": "The journey west begins as Ragnar gathers a crew willing to risk their lives to travel into the unknown. Earl Haraldson's paranoia reaches new heights as his fear of Ragnar's success grows.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5IN9TOLnqt9dpIC3h6xnmGNqZuz.jpg",
+          "title": "Wrath of the Northmen"
+        },
+        {
+          "aired": "2013-03-17",
+          "plot": "Ragnar and his crew return from their trip with treasure, and Earl Haraldson has no choice but to sanction another raid. The west is open for the taking, and the Vikings' world will never be the same.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8aI8TkJNjaDWsprmQ9nY73mZ9iP.jpg",
+          "title": "Dispossessed"
+        },
+        {
+          "aired": "2013-03-24",
+          "plot": "Ragnar and his crew sail out with Earl Haraldson's permission.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lmGxHLz8EExTSrN4e44g6wCnvyE.jpg",
+          "title": "Trial"
+        },
+        {
+          "aired": "2013-03-31",
+          "plot": "A seer reads Earl Haraldson's future and tells him that Ragnar searches for his death.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1AJBjizzwRviK9zrXiE7BIEu3Hs.jpg",
+          "title": "Raid"
+        },
+        {
+          "aired": "2013-04-07",
+          "plot": "Ragnar, weak and still hurt, must meet the Earl head-on after it comes to light that Rollo has been tortured on Haraldson’s orders. The two men will come together face to face with a single outcome possible: Only one man will leave this fight alive.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kbcaeoP4vz6ggqFHKGPAtTBWCgr.jpg",
+          "title": "Burial of the Dead"
+        },
+        {
+          "aired": "2013-04-14",
+          "plot": "Three Viking ships sail toward the Royal Villa of King Aelle in eastern England. Ragnar wants ransom in exchange for peace, but the king has a very different plan in mind.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tJFeOQIcK7BCBbMmGTqO9FF9noi.jpg",
+          "title": "A King's Ransom"
+        },
+        {
+          "aired": "2013-04-21",
+          "plot": "The traditional pilgrimage to Uppsala to thank the gods brings a torrent of emotions for Ragnar, Lagertha, and Athelstan. Ragnar, pulling farther away from his wife goes to make peace with the death of his unborn son. Lagertha, still reeling from her miscarriage, wants to find out from the gods if more sons are in her future. As the Vikings come together to sacrifice and give thanks to their gods, Athelstan discovers just how strong his Christian faith still is.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/z8sDwBSk48Al52CdA9u4vnPvWJQ.jpg",
+          "title": "Sacrifice"
+        },
+        {
+          "aired": "2013-04-28",
+          "plot": "Ragnar travels to Götaland to help King Horik resolve a land dispute with the area's leader, Jarl Borg. Meanwhile, sickness infects the village of Kattegat, and the people look to Lagertha to help them appease the gods.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oyNW4u6DhkaF9m44RXo3Lwwc0WC.jpg",
+          "title": "All Change"
+        }
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        {
+          "aired": "2014-02-27",
+          "plot": "The battle begins between Ragnar and King Horik's forces against Jarl Borg; Princess Aslaug makes her way to Kattegat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sMPUeOSbb1OH4PtSjUvmD79hvTE.jpg",
+          "title": "Brother's War"
+        },
+        {
+          "aired": "2014-03-06",
+          "plot": "The time has come for an unlikely alliance to band together for a new raid on England; a storm pushes the Viking fleet to a new destination; Ragnar and his men may have met their match.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fNTvPUeldtfm8THkrC8hOZjibs2.jpg",
+          "title": "Invasion"
+        },
+        {
+          "aired": "2014-03-13",
+          "plot": "King Ecbert finds himself facing an entirely new kind of foe; Ragnar races to dominate in the west; Jarl Borg has his own plans in store for the future of Kattegat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a7v9k61yKmqRnRvr20cw4lzckJq.jpg",
+          "title": "Treachery"
+        },
+        {
+          "aired": "2014-03-20",
+          "plot": "Ragnar and Ecbert come face to face; Jarl Borg rules Kattegat with an iron fist; Rollo must now become the leader his people need in Ragnar's absence.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/juWaNsM6TDCvxQ1J5j7T9qM4AVT.jpg",
+          "title": "Eye for an Eye"
+        },
+        {
+          "aired": "2014-03-27",
+          "plot": "Lagertha and Ragnar unite to try to win Kattegat back from Jarl Borg; Aslaug must face the truth of her prophecies; Athelstan struggles to define his faith; Bjorn must once again make a choice.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uMctGpmxDEfFcLDv37y63IxURHC.jpg",
+          "title": "Answers in Blood"
+        },
+        {
+          "aired": "2014-04-03",
+          "plot": "King Horik returns to Kattegat with a surprising proposition for Ragnar; Lagertha runs into a less than enthusiastic homecoming from her new husband; Athelstan becomes confidant to King Ecbert.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hS0pqJLCh9HAWI9JC76sc4ScnFN.jpg",
+          "title": "Unforgiven"
+        },
+        {
+          "aired": "2014-04-10",
+          "plot": "Ragnar and King Horik clash over how to dispense justice to Jarl Borg; King Aelle in Wessex; Ecbert has an eye on a new alliance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5cifsP8FNSVolSgVFx88ctHfRpp.jpg",
+          "title": "Blood Eagle"
+        },
+        {
+          "aired": "2014-04-17",
+          "plot": "Princess Aslaug's latest prophecy comes to fruition as she readies to give birth once more; Ragnar and Horik have very different ideas about the true purpose of their trip to Wessex.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5PpzqoelWJvKiPaSDVLM9u43Rf7.jpg",
+          "title": "Boneless"
+        },
+        {
+          "aired": "2014-04-24",
+          "plot": "Ragnar's warriors march on to King Ecbert's villa and are met with a surprisingly vicious welcome party.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zoNFrK1ARgFtuT15v9VGbqSjt3m.jpg",
+          "title": "The Choice"
+        },
+        {
+          "aired": "2014-05-01",
+          "plot": "Ragnar and King Horik return to Kattegat; Ragnar places his trust in those who have stood by him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dBfQlXePKuoSwy6eCUOY8t2irOb.jpg",
+          "title": "The Lord's Prayer"
+        }
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        {
+          "aired": "2015-02-19",
+          "plot": "Ragnar and Lagertha's fleets depart Kattegat once more for Wessex but this time they bring settlers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lxkXxSHLqkqM7vSGaZLTRbVnfvw.jpg",
+          "title": "Mercenary"
+        },
+        {
+          "aired": "2015-02-26",
+          "plot": "Lagertha and Athelstan help to set up the Viking settlement. A mysterious wanderer turns up.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/l3FI55cfzldcO3jhNX1CeSctabN.jpg",
+          "title": "The Wanderer"
+        },
+        {
+          "aired": "2015-03-05",
+          "plot": "King Ecbert visits the developing Viking settlement as the first harvest is sown.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/26Df88Y15xJ8wJ6eIND2SLu2Mes.jpg",
+          "title": "Warrior's Fate"
+        },
+        {
+          "aired": "2015-03-12",
+          "plot": "There is bitterness in the camp, Floki is angry over the alliance with Ecbert.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5w5PZjjiT0fscns1td55qEuR2np.jpg",
+          "title": "Scarred"
+        },
+        {
+          "aired": "2015-03-19",
+          "plot": "The fleet returns to Kattegat to discover tragic circumstances await.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/PkbyH1xQZy63SycZT07IOTSF1N.jpg",
+          "title": "The Usurper"
+        },
+        {
+          "aired": "2015-03-26",
+          "plot": "Preparations for the Paris raid pick up speed, and Rollo thinks about the Seer's prophecy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9n8pc6XwRlEeeMb4nrukUGzRHS9.jpg",
+          "title": "Born Again"
+        },
+        {
+          "aired": "2015-04-02",
+          "plot": "The Viking fleet causes panic in Paris. The Emperor Charles declares he will remain in the city.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cFFY8zOjUQlACFAKyMIufup3VjE.jpg",
+          "title": "Paris"
+        },
+        {
+          "aired": "2015-04-09",
+          "plot": "The Viking army sets out and Paris goes into lockdown as the army prepares the defense.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5Wmmag8yK7kPyLunTnx9DuQAJTs.jpg",
+          "title": "To the Gates!"
+        },
+        {
+          "aired": "2015-04-16",
+          "plot": "Paris is hit with a second assault. Emperor Charles needs to make a difficult decision.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kJerWFq6iuToWn6NJf2hwkXzFUO.jpg",
+          "title": "Breaking Point"
+        },
+        {
+          "aired": "2015-04-23",
+          "plot": "With one last chance to take Paris, Ragnar, and his Vikings troops take a daring chance. Ragnar asks Bjorn for a favor that could change the course of Viking history.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5KpRWZYaZ8Tjxn40TQzPj4Tnk9t.jpg",
+          "title": "The Dead"
+        }
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        {
+          "aired": "2016-02-18",
+          "plot": "A dangerously ill Ragnar returns to Kattegat, where his suspected death kicks off a scramble to succeed him. Meanwhile, Lagertha engages in a power struggle with her calculating, former second in command, Kalf. Rollo betrays his heritage and remains in Frankia. Floki pays the price for his brutality against the Christian priest.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hrwR0Ttjrr4iuiMWBVr9dTN2Aa7.jpg",
+          "title": "A Good Treason"
+        },
+        {
+          "aired": "2016-02-25",
+          "plot": "As Ragnar and Floki remain at odds, Rollo makes great efforts in Paris to win over his new bride, Princess Gisla. Meanwhile, King Ecbert sets the task for his son Aethelwulf to rescue Queen Kwenthrith.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fLmE6zAIwmL1tmzsPylRrxNvlac.jpg",
+          "title": "Kill the Queen"
+        },
+        {
+          "aired": "2016-03-03",
+          "plot": "Floki learns of the heavy price he has paid for his actions. Rollo finds an unlikely ally in Count Odo. Bjorn has to fight a fierce opponent in the wilderness.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/whXSA0wNJ5huU8GwA1gVWoqOEpb.jpg",
+          "title": "Mercy"
+        },
+        {
+          "aired": "2016-03-10",
+          "plot": "King Aelle goes to Wessex for Christmas and is not impressed with how family relations are developing. Rollo's future hangs in the balance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aj2TVz5b4U3uPicwQoRa3Z2ebxh.jpg",
+          "title": "Yol"
+        },
+        {
+          "aired": "2016-03-17",
+          "plot": "There's an air of betrayal as those whom Odo trusts plot against him. Ecbert agrees to support Kwenthrith in Mercia. Pregnancy brings happiness to Lagertha and Kalf and a marriage is arranged.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uHJAV3pXqNw3gNl73Tx5aZi3HHe.jpg",
+          "title": "Promised"
+        },
+        {
+          "aired": "2016-03-24",
+          "plot": "Ragnar declares another raid on Paris at the Thing in Kattegat. Ecbert also has a journey in mind as he dispatches Aethelwulf and Alfred on a pilgrimage to Rome.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zGAYf5xNRQSiS8cirRYnyonvlnH.jpg",
+          "title": "What Might Have Been"
+        },
+        {
+          "aired": "2016-03-31",
+          "plot": "In England, King Ecbert's true ambitions are revealed as he plots to gain the crown of Mercia while outside Paris. The Vikings attack Paris with considerable force, but will Rollo's defenses be too much for them to overcome? Meanwhile, Harbard, the mysterious wanderer, returns and causes a stir amongst the women of Kattegat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iNzGDvCcceZJ6AG5B8LA0LdbBen.jpg",
+          "title": "The Profit and the Loss"
+        },
+        {
+          "aired": "2016-04-07",
+          "plot": "Defeat for the Vikings calls Ragnar's leadership into question as they evacuate their camp and move back down river. Ragnar remains inscrutable until he orders the fleet to beach at a cliff face and unveils an ingenious plan. Rollo and Gisla have news that strengthens Rollo's position at the French Court.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tnwyCySvtyEtKX2OqUMaO0yTPmD.jpg",
+          "title": "Portage"
+        },
+        {
+          "aired": "2016-04-14",
+          "plot": "The labors of the Vikings eventually bear fruit as, within sight of Paris, they re-launch their boats but this time along with some interesting structures that Floki has built. Aethelwulf and Alfred eventually arrive in Rome and honors are conferred by Pope Leo but relations are not so cordial in Wessex between King Ecbert and the disgruntled King Aelle.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m4gzIOird8hnGMlPd9xDhz8GBbO.jpg",
+          "title": "Death All 'Round"
+        },
+        {
+          "aired": "2016-04-21",
+          "plot": "A ferocious battle between the Vikings and the French eventually comes down to Ragnar against Rollo. The outcome will seal the fate of the two brothers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cvezBE5fO95KKl5ZEsXh3MOjUNw.jpg",
+          "title": "The Last Ship"
+        },
+        {
+          "aired": "2016-11-30",
+          "plot": "Ragnar returns to Kattegat and formulates a plan to head back to Wessex, where he intends to right past wrongs.. Meanwhile, Lagertha plans a power play in Kattegat and Bjorn prepares to fulfill his long-held dream to explore the Mediterranean in a sleek new boat built for him by Floki.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/23bDUORmHdkWVdhFbqilDhuIxE0.jpg",
+          "title": "The Outsider"
+        },
+        {
+          "aired": "2016-12-07",
+          "plot": "The Kattegat locals chide Ragnar that the gods have deserted him as he struggles to crew his voyage to Wessex. It's Bjorn who has charisma now as he prepares to fulfill his long-held dream to explore the Mediterranean in a sleek new boat built for him by Floki. By contrast, Ragnar must accept weathered boats and a crew he has bribed but when Aslaug foresees that the fleet will be lost in a vicious storm her warnings go un-heeded by Ragnar and her precious son, Ivar.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mQLcB8sbGJz9nd8th1kY5IyH4P4.jpg",
+          "title": "The Vision"
+        },
+        {
+          "aired": "2016-12-14",
+          "plot": "Ragnar's fleet is shipwrecked and washes up on the Wessex coast, but without enough survivors to form a credible force, Ragnar and Ivar have a difficult decision to make. Rollo meets his Viking comrades again and can't resist the urge to join Bjorn's voyage, risking his marriage and his new Frankish identity. Ragnar too is taking a risk as he carries Ivar towards the Royal Villa in Wessex – throwing himself and his son upon the mercy of King Ecbert.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9ZsvVNJeDWy97O0HZkfwSqgR3Tm.jpg",
+          "title": "Two Journeys"
+        },
+        {
+          "aired": "2016-12-21",
+          "plot": "Lagertha attempts to fulfill a long-held ambition. Ragnar negotiates an unexpected concession from King Ecbert.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kRYaOvnxbBeILFRCVMIDmZWlj4y.jpg",
+          "title": "In the Uncertain Hour Before the Morning"
+        },
+        {
+          "aired": "2016-12-28",
+          "plot": "Ragnar and Ivar plot against the Saxons and reach a new level of understanding.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bo8f6YozU0JIWhuAxdvAIfWPVqS.jpg",
+          "title": "All His Angels"
+        },
+        {
+          "aired": "2017-01-04",
+          "plot": "Bjorn's fleet sails onward and launches a surprise attack. Back in Kattegat, Lagertha continues in her quest for power.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lXjAKqM6FzcE3jKzlv0hjnAIjnt.jpg",
+          "title": "Crossings"
+        },
+        {
+          "aired": "2017-01-11",
+          "plot": "The Viking army begins to gather in Kattegat. Lagertha must remain vigilant in the absence of her son, Bjorn.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nG5WMT0v3h6sXDUyZwzs7BcWi3z.jpg",
+          "title": "The Great Army"
+        },
+        {
+          "aired": "2017-01-18",
+          "plot": "Ragnar's plan comes to fruition. The Viking army lands on the coast of Northumbria.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5HLpnL66LOOVOu33bQz7iEwTvvH.jpg",
+          "title": "Revenge"
+        },
+        {
+          "aired": "2017-01-25",
+          "plot": "The Viking army causes panic in the English countryside as King Ecbert and Aethelwulf plan the defense of the realm.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lAPqhzVTyik6zJiRbkPTUlrCEMt.jpg",
+          "title": "On the Eve"
+        },
+        {
+          "aired": "2017-02-01",
+          "plot": "Prince Aethelwulf finds himself subject to the Vikings' battle master plan. Ecbert remains behind with a plan of his own.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p22hFeEGVqZu9hmMwMIHXxN30J4.jpg",
+          "title": "The Reckoning"
+        }
+      ]
+    },
+    "5": {
+      "episodes": [
+        null,
+        {
+          "aired": "2017-11-29",
+          "plot": "Tensions mount between the sons of Ragnar Lothbrok as the Vikings continue to threaten the very heart of England. As the Great Army moves to take York, with King Aethelwulf and his family still in hiding, Heahmund—the warrior bishop—must rally the Saxons to defend the Realm.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/snj1cxaWLGq0n25aCDXL544zr2A.jpg",
+          "title": "The Departed Part One"
+        },
+        {
+          "aired": "2017-11-29",
+          "plot": "Tensions mount between the sons of Ragnar Lothbrok as the Vikings continue to threaten the very heart of England. As the Great Army moves to take York, with King Aethelwulf and his family still in hiding, Heahmund—the warrior bishop—must rally the Saxons to defend the Realm.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lh1FjFNHRPH53bp1eqcrfnXs8TV.jpg",
+          "title": "The Departed Part Two"
+        },
+        {
+          "aired": "2017-12-06",
+          "plot": "Celebrations are cut short in the aftermath of the battle at York. Ragnar Lothbrok's sons are pitted against each other as tensions reach an all-time high, and each is forced to choose a side.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kSdzvlvjHIhAJt1yGu9D2CUYHKu.jpg",
+          "title": "Homeland"
+        },
+        {
+          "aired": "2017-12-13",
+          "plot": "Guided by Heahmund's visions, the Saxons devise a battle plan. Ivar the Boneless strategises as the Vikings undergo increasing pressure. Bjorn Ironside finds himself in a new territory and must convince the local commander he is a trader.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mwhArS0AWSYKnES2Ne22vWgxl7Z.jpg",
+          "title": "The Plan"
+        },
+        {
+          "aired": "2017-12-20",
+          "plot": "Ivar meets his match in Heahmund. Floki returns to Kattegat. Bjorn receives a lavish welcome in North Africa.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qW4zxYXVAIoodVC8G4ix7sLsP8H.jpg",
+          "title": "The Prisoner"
+        },
+        {
+          "aired": "2017-12-27",
+          "plot": "Lagertha is betrayed, and Bjorn must find a way to support the distraught queen. Floki and his settlers arrive in a new land, but it is far from what they expected.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cfmte4CzQuUyUka7gSLfNwDYLXD.jpg",
+          "title": "The Message"
+        },
+        {
+          "aired": "2018-01-03",
+          "plot": "Bjorn returns to Kattegat to learn that an attack will take place during the next full moon. Ivar must decide if he can place his trust in a former enemy on the battlefield.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vpHMCPaeOflXb8NZFKx2rGMSMYM.jpg",
+          "title": "Full Moon"
+        },
+        {
+          "aired": "2018-01-10",
+          "plot": "The battle for Kattegat begins and, as the two armies line up to fight, the Great Heathen Army must decide between a final plea for peace or all-out war. Floki faces discord among the settlers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ax7Qx3iaftydXA21h3JpdtL3DYG.jpg",
+          "title": "The Joke"
+        },
+        {
+          "aired": "2018-01-17",
+          "plot": "The army leaders consider their options in the aftermath of the battle. In Floki's camp, all hopes of binding the community together are dashed as tragedy unfolds.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aGDpMbiLDRSKw67o5RKTKpFUEMK.jpg",
+          "title": "A Simple Story"
+        },
+        {
+          "aired": "2018-01-24",
+          "plot": "A sense of doom looms over Kattegat as bloodshed ensues. The defeated army flees in the face of the victors. A legendary warrior makes his way home.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/glnCGZWOccC4fVCihgggXo93bA2.jpg",
+          "title": "Moments of Vision"
+        },
+        {
+          "aired": "2018-11-28",
+          "plot": "Ivar is crowned the new king of Kattegat just in time to welcome Rollo home. Bjorn, Lagertha and Ubbe must rely on unsteady alliances to survive.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tHBGZz1uxTbhP0KWZ8fUaUYcsZe.jpg",
+          "title": "The Revelation"
+        },
+        {
+          "aired": "2018-12-05",
+          "plot": "Bjorn, Lagertha and Ubbe face an uncertain fate as Heahmund's loyalty is tested. Floki fights to understand the will of the gods. Ivar may have met his match.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7RyxIQQ2S0y3ZxBuZ89lCsgmoD2.jpg",
+          "title": "Murder Most Foul"
+        },
+        {
+          "aired": "2018-12-12",
+          "plot": "Heahmund must try to convince King Alfred that his actions are in defense of the Crown. Ubbe and Torvi strengthen the position of the Vikings but not all in the Viking camp support their strategy. Another settler disappears in Iceland.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6DHMKxB7FXXHy4myQixMxmNyFFQ.jpg",
+          "title": "A New God"
+        },
+        {
+          "aired": "2018-12-19",
+          "plot": "As the celebrations for Ivar continue in Kattegat, grief hits Iceland and Floki must now make a fated decision. Harald's army approaches Wessex. A conspiracy grows against King Alfred.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xRSDThRVa1Xj3UpoIOR9xrqquZr.jpg",
+          "title": "The Lost Moment"
+        },
+        {
+          "aired": "2018-12-26",
+          "plot": "Bishop Heahmund is wracked with guilt as he fights to renounce his passions. Viking will clash with Saxon on the battlefield leaving a key figure lost in the balance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s56Ni5Ywi05t3gf4V9IN3QV16Zq.jpg",
+          "title": "Hell"
+        },
+        {
+          "aired": "2019-01-02",
+          "plot": "Bjorn achieves one of Ragnar's dreams. Ivar hatches a new plan while preparing for a divine arrival. In Iceland, a settler returns in a terrible state. King Alfred faces his greatest threat yet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sZdh4eH8hoi2uU7Vt6zBRkNbqj1.jpg",
+          "title": "The Buddha"
+        },
+        {
+          "aired": "2019-01-09",
+          "plot": "An unexpected turn amongst the settlers leaves Floki powerless. King Alfred confronts Judith. In York, Bjorn must strike a deal with Harald. Wessex is once again threatened by a Viking force, but who will lead the Saxon army to defend the Realm?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jkGKKRCkLkRMNBBnNMWTrDMCniE.jpg",
+          "title": "The Most Terrible Thing"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "Hvitserk is severely tested. Floki makes an amazing discovery. Freydis gives Ivar a surprise. Ubbe negotiates with the three Danish Kings that have massed their armies in Reading, but the negotiations may have a perilous outcome.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zAzm9qFxGxOlnAig6sVRer8CKAf.jpg",
+          "title": "Baldur"
+        },
+        {
+          "aired": "2019-01-23",
+          "plot": "Ubbe is forced into hand-to-hand combat. Floki reaches new depths and is met by a shocking sight. Bjorn sets off for Scandinavia with an old rival.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qoReo3XyPF4xrWMA5zq84CkKI8O.jpg",
+          "title": "What Happens in the Cave"
+        },
+        {
+          "aired": "2019-01-30",
+          "plot": "A new battle for Kattegat is on and only the gods know who will emerge victorious.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t4tFliwhDTtVXhhKkFRMl9q5eD3.jpg",
+          "title": "Ragnarok"
+        }
+      ]
+    },
+    "6": {
+      "episodes": [
+        null,
+        {
+          "aired": "2019-12-04",
+          "plot": "It’s six months after the battle of Kattegat and Bjorn is now King. As he struggles with the responsibilities of kingship, he finds he can’t rely on his mother. Ivar falls into the hands of the Kievan Rus, and in their ruthless and unpredictable ruler, Prince Oleg, he may finally have met his match.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o3L1c9Fsw5G92zOEOrPi5RmyAcx.jpg",
+          "title": "New Beginnings"
+        },
+        {
+          "aired": "2019-12-04",
+          "plot": "Messengers arrive in Kattegat with news that presents Bjorn with a dilemma. Prince Oleg of Kiev seems untroubled by his conscience. Lagertha has settled into her new, peaceful life, but danger lurks nearby.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w7ZBnpkkbDuACKm3XUCOEEomzda.jpg",
+          "title": "The Prophet"
+        },
+        {
+          "aired": "2019-12-11",
+          "plot": "Lagertha is forced to take action. In Kiev, although Oleg continues to be friendly, Ivar is aware of the threat which Oleg poses to the vulnerable young heir to the throne. Bjorn has answered the call and come to the aid of an old enemy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/azkjib3I3XuOeVfjF36dbdUUZJt.jpg",
+          "title": "Ghosts, Gods, and Running Dogs"
+        },
+        {
+          "aired": "2019-12-18",
+          "plot": "Lagertha leads her village's response to the recent attacks, but despite her best efforts, the consequences are tragic. Olaf has a bold new plan for the future of Norway. Ivar discusses Oleg's ambitions for Scandinavia.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eFj6z3QOKVwdc9yJnEBCFBfqlSM.jpg",
+          "title": "All the Prisoners"
+        },
+        {
+          "aired": "2020-01-01",
+          "plot": "As Norway’s Kings and Jarls arrive at Harald’s territory for the election of the King of all Norway, Olaf is certain of the result, however, it may not go as smoothly as he believes. Lagertha’s village is anxious in anticipation of another attack and she is relieved when Gunnhild arrives with re-enforcements. In Kiev, Igor and Ivar engage in subterfuge and Ivar is stunned when he encounters a ghost from his past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5ZQfIh4Eq924DYiBFcnb3nNTqDk.jpg",
+          "title": "The Key"
+        },
+        {
+          "aired": "2020-01-08",
+          "plot": "Bjorn is forced to act quickly in the aftermath of the election for the king of all Norway. The Bandits attack Lagertha’s village again confident of an easy victory. However, when the defense boils down to single combat with Lagertha, victory seems less likely. In Kattegat, haunted and paranoid, Hvitserk continues to unravel.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8l5jE8Ue1g9HZn417vbcHrvgaD5.jpg",
+          "title": "Death and the Serpent"
+        },
+        {
+          "aired": "2020-01-15",
+          "plot": "Bjorn returns to Kattegat. Harald gains a measure of revenge on Olaf. In Kiev, interesting news reaches Ivar and Igor about Prince Dir.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mXzDiFWFiII28bCwRhD08OS1OuP.jpg",
+          "title": "The Ice Maiden"
+        },
+        {
+          "aired": "2020-01-22",
+          "plot": "Bjorn faces a difficult decision. Ubbe and Torvi leave Kattegat in search of new lands and perhaps old friends. Oleg's plans for the invasion of Scandinavia take shape. King Harald is baffled by the origin of a mysterious raiding party.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qQz3GyZvuWHIDVmwlBP2k4eoQQ2.jpg",
+          "title": "Valhalla Can Wait"
+        },
+        {
+          "aired": "2020-01-29",
+          "plot": "In Iceland, Ubbe and Torvi finally meet a mysterious wanderer. Bjorn is forced to re-think who his enemies are when Erik returns from a scouting mission with worrying information. Bjorn will need allies, but he may not be able to convince his old foe, King Harald, to join forces in the face of the new threat. Ivar is reunited with someone close to him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mW72v3NPSSja5fBKnjKNvMYnRZL.jpg",
+          "title": "Resurrection"
+        },
+        {
+          "aired": "2020-02-05",
+          "plot": "Ivar and Igor may be plotting against Oleg, but they're still part of the force that departs Kiev to invade Scandinavia. King Harald and King Bjorn begin furious preparations for the invasion.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7jQkjDessT3JB36TMDv6uMkb25q.jpg",
+          "title": "The Best Laid Plans"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "In Iceland, Ubbe learns the truth about Kjetill and has a difficult decision to make. Back in Norway, the battle against the Rus has had grave consequences. But re-enforcements have arrived, and Bjorn has an idea that may yet save the day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wzZjjHudWG8Aw94vwyZRy7WlROQ.jpg",
+          "title": "King of Kings"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "The mood has changed when the Rus army returns to Kiev and Oleg isolates Ivar. But Dir confirms that he’s mustering a force to overthrow Oleg and Ivar is part of the plan. Ubbe and a group of settlers depart Iceland, in search of the Golden Land.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uA1KJNbfrB5hS53iLsTECOoBcG5.jpg",
+          "title": "All Change"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "It’s Election Day in Kattegat and all eyes are on the voting. But strangers arriving at the harbormay force an unexpected outcome. Meanwhile, Ivar receives the signal from Prince Dir that his forces are ready to challenge Oleg.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2DJXUoZ9zyn2K3y7pKoZxhksWrz.jpg",
+          "title": "The Signal"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "Prince Igor receives a hero’s welcome in Novgorod but back in Kiev the mood is darker: Prince Oleg will not be giving up the fight. Meanwhile, Ubbe’s settlers are overjoyed to find land, but it’s not the Golden Land they expected.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5na7PFBJ4XEDq9KCTpKlHHT1wCf.jpg",
+          "title": "Lost Souls"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "Ubbe, Torvi, and Othere barely escape with their lives when a fight breaks out in Greenland, then they are faced with a new dilemma.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xaVN43teppuG1akdK255lfzLowj.jpg",
+          "title": "All at Sea"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "Out in the open sea, Ubbe and the settlers are at the mercy of the elements. Tension mounts between Ubbe and Othere and when baby Ragnar begins to weaken, it’s the final straw for Ubbe. Meanwhile, Ivar and Hvitserk return to Kattegat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6P5IvRtYnYTfONiMIy2MwZKoZKA.jpg",
+          "title": "The Final Straw"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "When King Alfred of Wessex hears about the arrival of the sons of Ragnar, with an army, he knows he must take drastic action. So as the Viking army makes camp and lies in wait, Alfred and his army abandon the Royal Villa and march to meet them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jAhNalWnkhgcN0VDwy6mTregIQl.jpg",
+          "title": "The Raft of Medusa"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "Ubbe and the settlers find land, but soon realize they’re not alone. In Wessex, King Alfred has mustered a large force to meet the Vikings. Meanwhile, in Kattegat, Erik realizes that Ingrid has been using her powers against him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dYuWUI8Gh4LSDkIVouKyU3lIdM1.jpg",
+          "title": "It's Only Magic"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "In the new land, Ubbe and the settlers engage in careful diplomacy when they are surrounded by the locals. In Wessex, the Vikings ambush the Saxon army, but Alfred is convinced the Lord is with his army and refuses to retreat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8b1Li8HTLLLIgpdlsfeVzAGxDIA.jpg",
+          "title": "The Lord Giveth"
+        },
+        {
+          "aired": "2020-12-30",
+          "plot": "The epic saga which began with Ragnar Lothbrok, the first Viking hero to emerge from the mists of myth and legend, comes to an end in a spectacular and shocking series finale which finds tragedy striking in the new land and in England.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5NmZRvgBV0IRtx1tYVuMyCalx41.jpg",
+          "title": "The Last Act"
+        }
+      ]
+    }
+  },
+  "cacheKey": "vikings_2013"
+}

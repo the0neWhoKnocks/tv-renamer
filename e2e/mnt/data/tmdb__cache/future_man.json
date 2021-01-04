@@ -1,55 +1,847 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Sci-Fi & Fantasy"
+  ],
   "id": 73157,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "0": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5c3c43d7c93ad.jpg"
+        ],
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5e6b55a5ed860.jpg",
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5c3973686473f.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5e6b55bb92dcc.jpg",
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5c39737daedff.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonthumb/future-man-5e6b55cf92026.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonthumb/future-man-5e6b55e45e1f8.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonthumb/future-man-5e7687673f312.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5e807c48d6c13.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5c398778b1240.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5e6b5604718b5.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5e6b561568891.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/330997/tvbanner/future-man-5ece7833346c4.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvbanner/future-man-5c3987852dc6e.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-5e807ca109b37.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-59f46570b9461.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-5c355571ac24a.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-5c3b9890a359f.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5ece74fa00cdd.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5ece75ab1d017.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5a2bad4380293.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5e807cefe0aac.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/1HpKx1aeqLQ5cHaYy3IsNpmEolD.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/49mOgAEa4eKpPsoBH8UvvXwEMDT.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Future Man",
+  "plot": "Josh Futturman, a janitor by day/world-ranked gamer by night, is tasked with preventing the extinction of humanity after mysterious visitors from the future proclaim him the key to defeating the imminent super-race invasion.",
+  "premiered": "2017-11-14",
+  "status": "Ended",
+  "studios": [
+    "Hulu"
+  ],
+  "actors": [
+    {
+      "name": "Josh Hutcherson",
+      "order": 0,
+      "role": "Josh Futturman",
+      "thumb": "/9VpZOzJnmuajtAdBizBhQBnjFrG.jpg"
+    },
+    {
+      "name": "Eliza Coupe",
+      "order": 1,
+      "role": "Tiger",
+      "thumb": "/uscVJ5XW8pA74wPaT29OlIx1Fy5.jpg"
+    },
+    {
+      "name": "Derek Wilson",
+      "order": 2,
+      "role": "Wolf",
+      "thumb": "/oOvJLNW7WSuf2ZU9wLN0wK3i78a.jpg"
+    },
+    {
+      "name": "Ed Begley Jr.",
+      "order": 500,
+      "role": "Gabe Futturman",
+      "thumb": "/tF0HU5QePY4ej9aPDZSyQ53ERKR.jpg"
+    },
+    {
+      "name": "Glenne Headly",
+      "order": 500,
+      "role": "Diane Futturman",
+      "thumb": "/v1uqgxYG3grfF7s7sky8B9oufzP.jpg"
+    },
+    {
+      "name": "Haley Joel Osment",
+      "order": 74,
+      "role": "Dr. Stu Camillo",
+      "thumb": "/jft0dGgR5bJ6mR7QRYriMVBC6QH.jpg"
+    },
+    {
+      "name": "Jason Scott Jenkins",
+      "order": 71,
+      "role": "Carl",
+      "thumb": null
+    },
+    {
+      "name": "Robert Craighead",
+      "order": 60,
+      "role": "Detective Vincent Skarsgaard",
+      "thumb": null
+    },
+    {
+      "name": "Keith David",
+      "order": 66,
+      "role": "Dr. Elias Kronish",
+      "thumb": "/jJLJuR7FNHYL1fB5igjj7IXzOel.jpg"
+    },
+    {
+      "name": "Drew James",
+      "order": 44,
+      "role": "Young Gabe Futturman",
+      "thumb": "/ph7JM7JGHrIAgrTohij6GQ4uaZq.jpg"
+    },
+    {
+      "name": "Mary Manofsky",
+      "order": 45,
+      "role": "Grandma Futturman",
+      "thumb": "/cPc9Bsq4jMvJ5hmIdgxX2EHBzwV.jpg"
+    },
+    {
+      "name": "Britt Lower",
+      "order": 47,
+      "role": "Jeri Elizabeth Lang",
+      "thumb": "/1TATcjBE6cNsKlcXvIuGF0tygia.jpg"
+    },
+    {
+      "name": "Paul Scheer",
+      "order": 57,
+      "role": "Man at Video Game Store",
+      "thumb": "/yGOxrFSrmIZQ4hVnB3HHJm2NCPN.jpg"
+    },
+    {
+      "name": "Katherine LaNasa",
+      "order": 78,
+      "role": "Athena",
+      "thumb": "/fzbfjUXQalCeALLxhGBYzy5jzQs.jpg"
+    },
+    {
+      "name": "Awkwafina",
+      "order": 94,
+      "role": "Woman at Video Game Store",
+      "thumb": "/l5AKkg3H1QhMuXmTTmq1EyjyiRb.jpg"
+    },
+    {
+      "name": "Holger Moncada Jr.",
+      "order": 20,
+      "role": "Miguel Santiago",
+      "thumb": "/tEH2MOvPgZRg8A5sc06iXiraanL.jpg"
+    },
+    {
+      "name": "Patrick Carlyle",
+      "order": 20,
+      "role": "Young Skarsgaard",
+      "thumb": "/2YQfQ1Yby5haOqkYTtpWZkflWA3.jpg"
+    },
+    {
+      "name": "Leigh Green",
+      "order": 20,
+      "role": "Wasp",
+      "thumb": null
+    },
+    {
+      "name": "Carla Gallo",
+      "order": 66,
+      "role": "Dingo",
+      "thumb": "/jmgM6EZSFrGTwQyxyO4jxFQ9KoS.jpg"
+    },
+    {
+      "name": "Rowan Smyth",
+      "order": 68,
+      "role": "Sowing Kid",
+      "thumb": "/wTZnjBMXAMwlNvkUKSaX828lASW.jpg"
+    },
+    {
+      "name": "Patrick Cox",
+      "order": 80,
+      "role": "Wrench",
+      "thumb": "/zSBUKA6kLKi6Ibysn4VnIlXar3Y.jpg"
+    },
+    {
+      "name": "Sara Amini",
+      "order": 90,
+      "role": "Thimble",
+      "thumb": "/bM2Okv0uudBsratKTn5tQL8ml3H.jpg"
+    },
+    {
+      "name": "Jade Catta-Preta",
+      "order": 90,
+      "role": "Level",
+      "thumb": "/xc8dtOHMegg68XJ19xK3NVC3TMa.jpg"
+    },
+    {
+      "name": "Staci Lynn Fletcher",
+      "order": 90,
+      "role": "Rivet",
+      "thumb": null
+    },
+    {
+      "name": "Timothy Hornor",
+      "order": 90,
+      "role": "Lathe",
+      "thumb": "/s0s3wyhmZer0vX5MEyO3StJom76.jpg"
+    },
+    {
+      "name": "Shaun Brown",
+      "order": 90,
+      "role": "Hatchet",
+      "thumb": "/gPRRhoelZLDmQpdu6dm6D2nNKwc.jpg"
+    },
+    {
+      "name": "Ricky Mabe",
+      "order": 90,
+      "role": "Pump",
+      "thumb": "/2PjLEp90D93Ih4uFIEaY6LlpT9t.jpg"
+    },
+    {
+      "name": "Alyvia Alyn Lind",
+      "order": 90,
+      "role": "Lugnut",
+      "thumb": "/gg7ZRQQic55Kh7vGQRFz7dwbBSr.jpg"
+    },
+    {
+      "name": "Rati Gupta",
+      "order": 90,
+      "role": "Rake",
+      "thumb": "/mljuIWHmKrh8qxuPNQo5BCTDF7G.jpg"
+    },
+    {
+      "name": "Artemis Pebdani",
+      "order": 91,
+      "role": "Dr. Mina Ahmadi",
+      "thumb": "/ctwVQYbcOuTIQJ866fi3AhzqKBM.jpg"
+    },
+    {
+      "name": "Wyatt Walter",
+      "order": 94,
+      "role": "Sowing Kid / Sowing Kid Singer",
+      "thumb": "/xmlQlQWKaUXiorKNQfyIRzSUIdS.jpg"
+    },
+    {
+      "name": "Jefferson Cox",
+      "order": 3,
+      "role": "Dad",
+      "thumb": null
+    },
+    {
+      "name": "Ron Funches",
+      "order": 5,
+      "role": "Ray",
+      "thumb": "/f0DJiBdDZ7UD8rcZeig0Yv6Dkhj.jpg"
+    },
+    {
+      "name": "Joanna DeLane",
+      "order": 6,
+      "role": "Maria Santiago",
+      "thumb": null
+    },
+    {
+      "name": "Kavi Ladnier",
+      "order": 10,
+      "role": "Mom",
+      "thumb": "/iVU7jZIgQvdQlseRzMQ0QqLzGTw.jpg"
+    },
+    {
+      "name": "Dan Sachoff",
+      "order": 15,
+      "role": "Reporter",
+      "thumb": "/i0ogjEzllCYCo6W0JsxdIkQoYF2.jpg"
+    },
+    {
+      "name": "Megan Suri",
+      "order": 17,
+      "role": "Daughter",
+      "thumb": "/faZ1YMIgNMqbxLePpkUUa69u64W.jpg"
+    },
+    {
+      "name": "Joshua Walker",
+      "order": 18,
+      "role": "Frat Brother #3",
+      "thumb": null
+    },
+    {
+      "name": "Caitlin Gallogly",
+      "order": 19,
+      "role": "Young Mom",
+      "thumb": null
+    },
+    {
+      "name": "Robert Catrini",
+      "order": 20,
+      "role": "Lt. Miller",
+      "thumb": "/zmA6oHE0OXhMrasd8qG9lvYYRaI.jpg"
+    },
+    {
+      "name": "Ronnie Clark",
+      "order": 21,
+      "role": "Rick",
+      "thumb": "/oMuSGT3j6KVR8HV6yF621QsTj0s.jpg"
+    },
+    {
+      "name": "Elijah Isaiah Cook",
+      "order": 22,
+      "role": "Lamar",
+      "thumb": "/gfDhACaR28m16GV5aM8csVHMzoO.jpg"
+    },
+    {
+      "name": "Ross Crain",
+      "order": 23,
+      "role": "Lt. Michaels",
+      "thumb": "/bmL0RCnkF9PhD70UaD4lOPn4uGo.jpg"
+    },
+    {
+      "name": "Michelle Jubilee Gonzalez",
+      "order": 24,
+      "role": "Eagle",
+      "thumb": "/rs6h9fvozdaRa2uCFKtPRQb9bFa.jpg"
+    },
+    {
+      "name": "Anthony Hill",
+      "order": 25,
+      "role": "Malcolm",
+      "thumb": null
+    },
+    {
+      "name": "Zachary Mastoon",
+      "order": 26,
+      "role": "Policeman",
+      "thumb": null
+    },
+    {
+      "name": "Londale Theus Jr.",
+      "order": 28,
+      "role": "Tyler",
+      "thumb": null
+    },
+    {
+      "name": "Omar Angulo",
+      "order": 29,
+      "role": "Rabbit",
+      "thumb": null
+    },
+    {
+      "name": "Susan James Berger",
+      "order": 30,
+      "role": "Line Person",
+      "thumb": "/tJAsLDKJdcLAIOthD6J9kp4AYOY.jpg"
+    },
+    {
+      "name": "Greg Bryan",
+      "order": 31,
+      "role": "Detective Richards",
+      "thumb": "/qNDR5r887sy5CQKo2z7pvkxMB9a.jpg"
+    },
+    {
+      "name": "Constance Ejuma",
+      "order": 32,
+      "role": "Professor Apongyo",
+      "thumb": "/4UlHzlycJmxryGanE6KDOpFcebN.jpg"
+    },
+    {
+      "name": "Ian Gary",
+      "order": 33,
+      "role": "Head Lab Tech",
+      "thumb": null
+    },
+    {
+      "name": "Alice Lo",
+      "order": 35,
+      "role": "Kyung Lee",
+      "thumb": null
+    },
+    {
+      "name": "Matt Medrano",
+      "order": 36,
+      "role": "Detective Pena",
+      "thumb": null
+    },
+    {
+      "name": "Randall Taylor",
+      "order": 37,
+      "role": "Bus Passenger",
+      "thumb": "/p8ROAbBpSkgoamYsOK2wxeh33em.jpg"
+    },
+    {
+      "name": "Jen Zaborowski",
+      "order": 38,
+      "role": "Cindy",
+      "thumb": "/bnEp1DcGb27zYTatZrC8JRUBJ6k.jpg"
+    },
+    {
+      "name": "Bárbara Garófalo",
+      "order": 40,
+      "role": "Stoned Caterer",
+      "thumb": "/tayf1yvoVXgVUHEzdNNd6wnxiSR.jpg"
+    },
+    {
+      "name": "Martin Starr",
+      "order": 41,
+      "role": "Lyle Karofsky",
+      "thumb": "/gNyCdend3C5gY3ucq42Zt3swfg2.jpg"
+    },
+    {
+      "name": "J.T. Jackson",
+      "order": 43,
+      "role": "Julius Seneca",
+      "thumb": null
+    },
+    {
+      "name": "Dalia Kaissi",
+      "order": 44,
+      "role": "Scientist",
+      "thumb": null
+    },
+    {
+      "name": "Pamela Shaddock",
+      "order": 45,
+      "role": "Marigold",
+      "thumb": null
+    },
+    {
+      "name": "Kathryn Taylor Smith",
+      "order": 46,
+      "role": "Melinda",
+      "thumb": "/y6XV40uA6e45ebI2ffXaGZkWCAk.jpg"
+    },
+    {
+      "name": "Carolyn Hennesy",
+      "order": 47,
+      "role": "Wanda",
+      "thumb": "/7bQvRDhBrokCMCQBQDKRYsYqItq.jpg"
+    },
+    {
+      "name": "Megan Hayes",
+      "order": 48,
+      "role": "SIGORN-E  (Voice)",
+      "thumb": "/kgBZokH4vl1gYJXRPNGeEScTUo8.jpg"
+    },
+    {
+      "name": "Lilan Bowden",
+      "order": 51,
+      "role": "Fox",
+      "thumb": "/dMWFzbPxvF8hhdokpP9Uoz1KAo1.jpg"
+    },
+    {
+      "name": "Troy Brenna",
+      "order": 52,
+      "role": "Apollo",
+      "thumb": "/warWRxaoKAlbc5g9ne70m74CzDq.jpg"
+    },
+    {
+      "name": "Hillary Anne Matthews",
+      "order": 55,
+      "role": "Shiva",
+      "thumb": "/ewfEowrJeJ4JxrC9o8XncSnojfb.jpg"
+    },
+    {
+      "name": "Timothy Simons",
+      "order": 57,
+      "role": "Xenu",
+      "thumb": "/a5CXdb6xANtSM8JDbOvIRUkvjwE.jpg"
+    },
+    {
+      "name": "Trevor Wooldridge",
+      "order": 58,
+      "role": "Resident D",
+      "thumb": null
+    },
+    {
+      "name": "Jeremy Fitzgerald",
+      "order": 60,
+      "role": "Scary Figure #1",
+      "thumb": "/keSYyyIHpBVIMxcMVnsgMFDfWdT.jpg"
+    },
+    {
+      "name": "Will Forte",
+      "order": 61,
+      "role": "CASSIN-E",
+      "thumb": "/kphnirb7YggSVEhGI47kACxaIJQ.jpg"
+    },
+    {
+      "name": "Tim Johnson Jr.",
+      "order": 62,
+      "role": "Jimmy McGurgan",
+      "thumb": "/3QKnC3Mt3v9vXl6ridpn8WTlZ2n.jpg"
+    },
+    {
+      "name": "Christian J. Simon",
+      "order": 65,
+      "role": "Lil Jimmy McGurgan - Hologram",
+      "thumb": "/sfuCawC8UViDrIatBscCa2tkkmM.jpg"
+    },
+    {
+      "name": "Jon Daly",
+      "order": 66,
+      "role": "Owl",
+      "thumb": "/v8lq3HUmdQk1t50DAP1vt3LcJJM.jpg"
+    },
+    {
+      "name": "Eddie Driscoll",
+      "order": 67,
+      "role": "P.I.",
+      "thumb": "/l4ENngo82M7oaAS3cGPgv8288cG.jpg"
+    },
+    {
+      "name": "Corey Hart",
+      "order": 69,
+      "role": "Corey Hart",
+      "thumb": null
+    },
+    {
+      "name": "Kevin Caliber",
+      "order": 70,
+      "role": "Blaze",
+      "thumb": "/vL86uxS1LK8X80tqWz5PCqHna4U.jpg"
+    },
+    {
+      "name": "Beth Crosby",
+      "order": 71,
+      "role": "Angry Driver",
+      "thumb": "/6PTZZbOHiJiL9hhmG3REEDfYPAC.jpg"
+    },
+    {
+      "name": "Emily Hinkler",
+      "order": 72,
+      "role": "Dr. Benson",
+      "thumb": "/41gf7g5vb3m77w82CGEh7Ne9CVb.jpg"
+    },
+    {
+      "name": "Dennis Keiffer",
+      "order": 73,
+      "role": "Lead Biker",
+      "thumb": "/bmLkNcO8emp17vTMKaRUBHYE15j.jpg"
+    },
+    {
+      "name": "Alexis Lynne Baumert",
+      "order": 75,
+      "role": "Sowing Kid Singer",
+      "thumb": null
+    },
+    {
+      "name": "Lili Brennan",
+      "order": 76,
+      "role": "Sowing Kid Singer",
+      "thumb": null
+    },
+    {
+      "name": "Reece Cody",
+      "order": 79,
+      "role": "Sowing Kid Singer",
+      "thumb": "/aidM2BCgOtHaeCGt8WJF3hmMs6U.jpg"
+    },
+    {
+      "name": "Kerri Kenney-Silver",
+      "order": 82,
+      "role": "Forceps",
+      "thumb": "/8BIBidgv08VXLttLeCN0trPFXNf.jpg"
+    },
+    {
+      "name": "Evan Kishiyama",
+      "order": 83,
+      "role": "Sowing Kid Singer",
+      "thumb": "/tL0bxnvJNvCWbysjQuh6lcboJGx.jpg"
+    },
+    {
+      "name": "Terral Altom",
+      "order": 89,
+      "role": "Jesus",
+      "thumb": null
+    },
+    {
+      "name": "Jaime Moyer",
+      "order": 90,
+      "role": "Clamp Barrowmaker",
+      "thumb": "/2tqKLWiLir9wpctimdwd82T1Yzm.jpg"
+    },
+    {
+      "name": "Kristen Schaal",
+      "order": 91,
+      "role": "",
+      "thumb": "/s3LSHVTx8gxHP2twYsXEGa8JbLl.jpg"
+    },
+    {
+      "name": "David Theune",
+      "order": 92,
+      "role": "Binx",
+      "thumb": "/zNadeApQk3UBQL6I4gEORdeDng6.jpg"
+    },
+    {
+      "name": "Seth Rogen",
+      "order": 93,
+      "role": "Susan",
+      "thumb": "/xCt0MWnPkk1tJIYYPT6fekgQRMg.jpg"
+    },
+    {
+      "name": "Sarah Cooper",
+      "order": 93,
+      "role": "Stray",
+      "thumb": "/5R3muthEVJ5q2WKHGeop2YfMbZB.jpg"
+    },
+    {
+      "name": "Diego Delpiano",
+      "order": 94,
+      "role": "Young Wolf",
+      "thumb": "/9cEoxeP6jXWoLD1U95PMPxbGS2E.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Pilot",
-        "Herpe: Fully Loaded",
-        "A Riphole in Time",
-        "A Fuel's Errand",
-        "Justice Desserts",
-        "A Blowjob Before Dying",
-        "Pandora's Mailbox",
-        "Girth, Wind & Fire",
-        "Operation: Fatal Attraction",
-        "Operation: Natal Attraction",
-        "Beyond the TruffleDome",
-        "Prelude to an Apocalypse",
-        "A Date With Destiny"
+        {
+          "aired": "2017-11-14",
+          "plot": "Josh Futturman feels stuck in his dead-end job as a janitor so all he really does is play Biotic Wars, an unbeatable videogame the rest of the world has given up on. But when Josh beats the game, mysterious visitors from the future appear: the world is in danger, and Josh is the only one who can save it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9dtrjOngK8hObv6ruiSsybOV70f.jpg",
+          "title": "Pilot"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "In 1969, Josh, Tiger, and Wolf launch a mission to infiltrate a fraternity party and prevent Dr. Kronish from contracting herpes—but the destruction they’ve left in their wake quickly catches up with them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8IpCXpfsEEBiGDUAItupm8dxsWm.jpg",
+          "title": "Herpe- Fully Loaded"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "Tiger and Wolf decide it’s time for Dr. Kronish to die. Josh reluctantly agrees to help—but when he realizes he can’t go through with it, he finds himself caught in Tiger and Wolf’s sights instead.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zEx4VSpX5HgtJIBOHWnc6SisCxS.jpg",
+          "title": "A Riphole in Time"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "In the wake of the disastrous attempt to assassinate Dr. Kronish, Tiger and Wolf kick Josh off the mission. When they realize their Time Travel Device is compromised, Josh makes a deal: if he can get them more fuel, they’ll let him back on the team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rHDYiyTT9qZGvok08oLLnL3CGyS.jpg",
+          "title": "A Fuel's Errand"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "Tiger, Wolf, and Josh work to unmask the Biotics undercover at the Kronish Labs Christmas party. Meanwhile, Josh grows closer to his coworker Jeri as she helps him avoid the obsessed policeman hot on Josh’s tail.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4TGsPIiVJ8ajRd0Ef4D3yJLFsqn.jpg",
+          "title": "Justice Desserts"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "With just twenty-seven minutes before a bomb explodes in the head of their captured Biotic, Josh, Tiger, and Wolf hold a high-stakes interrogation in Josh's bedroom while Josh’s unwitting parents host a holiday dinner party downstairs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j9BjcHjn9AUCSrpBqxVAvghEqRv.jpg",
+          "title": "A Blowjob Before Dying"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "Josh, Tiger, and Wolf jump into the future to steal the fuel they desperately need to continue their mission. But when they arrive at their destination, they are confronted by an unexpected enemy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2LeLh1OvY5gKIPIYGyKlQoUBY5U.jpg",
+          "title": "Pandora's Mailbox"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "The end of the mission is in sight as Tiger and Wolf prepare for one final jump into the past. But when Josh’s mom is kidnapped, Josh refuses to let Tiger and Wolf leave before they mount a daring rescue to save her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rxPzMjBSzCVp43Ur3X0KDmGcOcV.jpg",
+          "title": "Girth, Wind & Fire"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "Convinced he knows how to stop Dr. Kronish once and for all, Josh commandeers the TTD and leads the team on a mission into the past. But when Wolf goes missing, they have to spilt up, forcing Josh to carry out his insane plan alone.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AxecIrIawV8VerIzTf16jgAuJi.jpg",
+          "title": "Operation- Fatal Attraction"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "Still in the past, Josh desperately tries to change Dr. Kronish’s future while not messing up his own. Meanwhile, Tiger and Wolf confront each other over Wolf's wavering dedication to the cause.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4qIsGa7OsFg4KVXdUtuzlrmsz0K.jpg",
+          "title": "Operation- Natal Attraction"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "Torn apart by internal divisions, the team is scattered throughout history, as Tiger and Wolf reckon with the way the mission has changed them and the possibility that they might fail.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e23UII1HOnCWt4PrhUNL0aLJ8E3.jpg",
+          "title": "Beyond the TruffleDome"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "Josh discovers that his interference in the past has completely transformed his life…for the better. Wolf and Tiger deal with the aftermath of their failed mission to the past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6Ccw8UjMvAAF2Q2pdYlPQjxILLs.jpg",
+          "title": "Prelude to an Apocalypse"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "Out of time and options, the team reconciles that their actions have made everything much, much worse and plan one final mission to put an end to Dr. Kronish and the Cure forever.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qtJtOTMyahljdSuYZp1dDZ2Y4WT.jpg",
+          "title": "A Date With Destiny"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Countdown to a Prologue",
-        "The i of the Tiger",
-        "A Wolf in the Torque House",
-        "Guess Who's Coming to Lunch",
-        "J1: Judgment Day",
-        "The Binx Ultimatum",
-        "Homicide: Life in the Mons",
-        "The Last Horchata",
-        "The Ballad of PUP-E Q. Barkington",
-        "Exes and OS",
-        "Dia De Los Robots",
-        "The Brain Job",
-        "Ultra-Max"
+        {
+          "aired": "2019-01-11",
+          "plot": "Josh is confused to discover that he’s been released from jail. As he tries to make sense of this, he quickly realizes that all is not as it seems in his world. A new nefarious plan is afoot and Josh is being pulled into it whether he likes it or not.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kzEe7lqMA2QFuhW0rtV6GmVxeHS.jpg",
+          "title": "Countdown to a Prologue"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Tiger and Wolf arrive in the future they created. Tiger is not welcome in The NAG (The New Above Ground) so she heads to The Mons where she learns humanity is moving to Mars, her DNA created the cure, and Stu Camillo is alive and well in hologram form.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pN89TGwkG8Go4jb87t2MVTYQysj.jpg",
+          "title": "The i of the Tiger"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Wolf is mistaken for Torque (the Wolf in this timeline) and he goes with it – learning about the NAG, and its 6-parent families and hatred of technology. Wolf tries to escape but the appeal of this new, strange world makes it hard for him to leave.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tcjxgPK0tal7NaNvfu180JKTKlt.jpg",
+          "title": "A Wolf in the Torque House"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "As Tiger gets to know her doppelganger Ty-Anne, Wolf acclimates to the NAG, and Josh wanders the desert. Josh is brought to the NAG and remanded to indentured servitude as a technology smasher.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oCXbFIxuKOo9rZo1g3PU43lOPPK.jpg",
+          "title": "Guess Who's Coming to Lunch"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Josh, Tiger, and Wolf go on a mission to find their TTD and take down the Pointed Circle.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dGJiuQXTOG7EAgVQ37Uy8LL9fz5.jpg",
+          "title": "J1- Judgment Day"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Tiger uses Stu’s fondness for her to help her track down Athena. Meanwhile, Josh is now a “Smasher” remanded to a labor camp, where the Pointed Circle comes after him. Wolf, vowing to improve the NAG, faces off against Supreme Overlord Vice.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lox1CiC3ddMotDXSraembGCZdfv.jpg",
+          "title": "The Binx Ultimatum"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Wolf, ignoring warnings about the Pointed Circle, brings Josh to live outside his Clusternest. Tiger reaches a dead end in her quest for the TTD.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lXbwEsvrIQ2Bf25zfcFZAOCJSBU.jpg",
+          "title": "Homicide- Life in the Mons"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Stu introduces a depressed Tiger to his simulation – where anything can be reality, drawing them closer than ever before.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zyxA2y1AeIf7rzvGkqmADdiPiV7.jpg",
+          "title": "The Last Horchata"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Stu sends commandos to abduct Josh in the NAG – chaos and bloodshed ensue. Josh and Wolf learn the identity of Achilles, the elusive leader of the Pointed Circle.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ryd6lmRUMnwodP3Sh25drHlLFMT.jpg",
+          "title": "The Ballad of PUP-E Q. Barkington"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Ty-Anne shares the story of growing up with Stu as her father and her early exposure to The Pointed Circle. Josh believes he’s the key to stopping Stu once and for all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tTdQsnaXZ4lU3J00Rkk0ckWgn9t.jpg",
+          "title": "Exes and OS"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "It’s the day of the MARS launch. Josh goes on a suicide mission to sneak into Stu’s upload machine to shut him down for good.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q1UxqA7Vqww3HcozCR5lrNuAnKN.jpg",
+          "title": "Dia De Los Robots"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Armed with the newly discovered TTD, our team uses an 11-second window to jump back in time over and over to reach Stu’s brain and destroy it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qJ6MpL5hj8JqTuAjuxqCj5yEaKn.jpg",
+          "title": "The Brain Job"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Having messed with time travel one too many times, Josh, Tiger, and Wolf land in jail in the year 3491. Facing a death sentence for their crimes, their loyalty to each other is tested by their cruel and unusual jailer, Susan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5CEkZOCxRY3agfNKX1hCcx69jhp.jpg",
+          "title": "Ultra-Max"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "The Precipice of Yesterday",
-        "There Will Be Borscht",
-        "Trapper's Delight",
-        "The Outlaw Wild Sam Bladden",
-        "Haven Is for Real",
-        "The Land After Time",
-        "Time Rogues III: Escape From Forever",
-        "Return of the Present"
+        {
+          "aired": "2020-04-03",
+          "plot": "Josh, Tiger, and Wolf are forced to compete in the Diecathalon, but a complication arises that puts them at odds with each other.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j4OmKp87cAWwf1Q8gXHqUpHA9j2.jpg",
+          "title": "The Precipice of Yesterday"
+        },
+        {
+          "aired": "2020-04-03",
+          "plot": "Josh puts his faith in The Voice while Wolf basks in his element and Tiger struggles to adapt.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nCZrsocKD7bvk5nxtjc4Trgf2ED.jpg",
+          "title": "There Will Be Borscht"
+        },
+        {
+          "aired": "2020-04-03",
+          "plot": "Josh’s crisis of faith comes to a head as Tiger connects with her killer instincts, and Wolf struggles to lay low.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ifYwisEaV7J1sen0kqPxVS4sV1a.jpg",
+          "title": "Trapper's Delight"
+        },
+        {
+          "aired": "2020-04-03",
+          "plot": "Tiger and Wolf come to terms with their true selves as Josh is forced to confront what and who he truly believes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nQvt3ZGAQqgcDaOv4VdxDdcCHlG.jpg",
+          "title": "The Outlaw Wild Sam Bladden"
+        },
+        {
+          "aired": "2020-04-03",
+          "plot": "Josh makes a risky deal. Tiger and Wolf let Josh take command.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cuixDvgzTjMi9nX7X6SHiAautp4.jpg",
+          "title": "Haven Is for Real"
+        },
+        {
+          "aired": "2020-04-03",
+          "plot": "Josh discovers a new happiness as Wolf loses his mind and Tiger embarks on an unexpected journey.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3sYGPbeJAvFF93x7tNdBhRVm2pO.jpg",
+          "title": "The Land After Time"
+        },
+        {
+          "aired": "2020-04-03",
+          "plot": "Josh and Wolf reunite and make a desperate move to escape while Tiger reconciles her past and present selves.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/52IihLMkw4IKOGn0HYGdbNHW8va.jpg",
+          "title": "Time Rogues III- Escape From Forever"
+        },
+        {
+          "aired": "2020-04-03",
+          "plot": "The universe is about to end. For real this time.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3jUrorLPINFC80pGRtDcEvkfZBm.jpg",
+          "title": "Return of the Present"
+        }
       ]
     }
   },

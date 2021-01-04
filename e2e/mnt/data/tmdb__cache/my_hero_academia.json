@@ -1,132 +1,803 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Animation",
+    "Action & Adventure",
+    "Comedy"
+  ],
   "id": 65930,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/305074/seasonposter/my-hero-academia-58e3dccd740c7.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/305074/seasonposter/my-hero-academia-58e47e13b5726.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/305074/seasonposter/my-hero-academia-5af6eefd0a96e.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5ca8d43cd466f.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5ca8d44c88904.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5ca8d42d1ac81.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5f884d748bfdf.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/305074/tvbanner/my-hero-academia-5748231dbd831.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvbanner/my-hero-academia-5748232a43a5b.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-570a2a9e6e16a.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-570b22701fc1d.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5d4003c896315.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5748241251b4d.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-58ad2fd5956f5.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5d4003c8b81f7.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5d4003c8d30ac.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5d4003c8eddc0.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-570697ddaa5ce.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5eeb7c62b8f37.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/305074/tvthumb/my-hero-academia-58f39ebeb3956.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvthumb/my-hero-academia-5ce4e001cf127.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvthumb/my-hero-academia-5704a8cca1a5c.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/3ILMlmC30QUnYkY3XEBOyJ82Dqu.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/he1aoyFEPYAMsjGOVGfObbEIzid.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "My Hero Academia",
+  "plot": "In a world where eighty percent of the population has some kind of super-powered Quirk, Izuku was unlucky enough to be born completely normal. But that won’t stop him from enrolling in a prestigious hero academy. Now, he’ll get his first taste of brutal rivalry from other schools as he braves the cutthroat, no-holds-barred provisional license exam.",
+  "premiered": "2016-04-03",
+  "status": "Returning Series",
+  "studios": [
+    "MBS",
+    "TBS"
+  ],
+  "actors": [
+    {
+      "name": "Daiki Yamashita",
+      "order": 0,
+      "role": "Izuku Midoriya (voice)",
+      "thumb": "/rQNdJdZewk7VGP16ZNbpfJ9ZeMd.jpg"
+    },
+    {
+      "name": "Nobuhiko Okamoto",
+      "order": 1,
+      "role": "Katsuki Bakugou (voice)",
+      "thumb": "/qyZpSYva9O9JQIZ0nVmXTf90FlL.jpg"
+    },
+    {
+      "name": "Kenta Miyake",
+      "order": 2,
+      "role": "All Might (voice)",
+      "thumb": "/8MfjEWHfbqbMCFyt1Cpfz3ES8Fe.jpg"
+    },
+    {
+      "name": "Ayane Sakura",
+      "order": 3,
+      "role": "Ochako Uraraka (voice)",
+      "thumb": "/3DEUD9sdtJQXd3QpkdNtcz9NuBy.jpg"
+    },
+    {
+      "name": "Kaito Ishikawa",
+      "order": 4,
+      "role": "Tenya Iida (voice)",
+      "thumb": "/kLVhJYH73ust9ComUxGR63DOvxu.jpg"
+    },
+    {
+      "name": "Yūki Kaji",
+      "order": 5,
+      "role": "Shouto Todoroki (voice)",
+      "thumb": "/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg"
+    },
+    {
+      "name": "Aoi Yuki",
+      "order": 6,
+      "role": "Tsuyu Asui (voice)",
+      "thumb": "/qaOsU5bdcB7YGzXPlvunv8kTr3f.jpg"
+    },
+    {
+      "name": "Junichi Suwabe",
+      "order": 7,
+      "role": "Shouta Aizawa (voice)",
+      "thumb": "/zEESFmAPlxRzYCjmROGLiHqoku5.jpg"
+    },
+    {
+      "name": "Koki Uchiyama",
+      "order": 8,
+      "role": "Tomura Shigaraki (voice)",
+      "thumb": "/hpFCRKaOEQUFBGk1C5P4UlfFKp2.jpg"
+    },
+    {
+      "name": "Kōhei Amasaki",
+      "order": 500,
+      "role": "Neito Monoma (voice)",
+      "thumb": "/tnN5jLiLjcDa7qn88uLb1iAfivL.jpg"
+    },
+    {
+      "name": "Tarusuke Shingaki",
+      "order": 500,
+      "role": "Mirio Togata (voice)",
+      "thumb": "/ahFxImLFUCM6942Jx5EtxljXYHj.jpg"
+    },
+    {
+      "name": "Kenjirou Tsuda",
+      "order": 10,
+      "role": "Overhaul (voice)",
+      "thumb": "/9KISTULuEd5uXU9iS5IJHVnss2L.jpg"
+    },
+    {
+      "name": "Shin-ichiro Miki",
+      "order": 10,
+      "role": "Sir Nighteye (voice)",
+      "thumb": "/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg"
+    },
+    {
+      "name": "Shinnosuke Ogami",
+      "order": 1,
+      "role": "Death Arms (voice)",
+      "thumb": "/3acQzrttQPSKoAQHbQraerJtDxG.jpg"
+    },
+    {
+      "name": "Hiro Shimono",
+      "order": 5,
+      "role": "Dabi (voice)",
+      "thumb": "/i5CaaqKmHH0vKCloqZyrCwn5mWy.jpg"
+    },
+    {
+      "name": "Misato Fukuen",
+      "order": 5,
+      "role": "Himiko Toga (voice)",
+      "thumb": "/g3gSXEerPZT32D7agLjzlPvWA15.jpg"
+    },
+    {
+      "name": "Ryōta Takeuchi",
+      "order": 3,
+      "role": "Kenji Tsuragamae (voice)",
+      "thumb": "/4Ppgfg6MBMw39rCWhuFQgMh5nRn.jpg"
+    },
+    {
+      "name": "Yuichi Nakamura",
+      "order": 8,
+      "role": "Hawks (voice)",
+      "thumb": "/wb8behVKjBHX9XXrEydvNINCYwH.jpg"
+    },
+    {
+      "name": "Shohei Kajikawa",
+      "order": 9,
+      "role": "Kendō Rappa (voice)",
+      "thumb": "/yZccGkTo1lgdnDzBAH94B3i6ig5.jpg"
+    },
+    {
+      "name": "Eiji Hanawa",
+      "order": 5,
+      "role": "Taneo Tokuda (voice)",
+      "thumb": "/bLwoSFqpe1BYyEckvUpwITM8hMM.jpg"
+    },
+    {
+      "name": "Tomokazu Seki",
+      "order": 10,
+      "role": "Selkie (voice)",
+      "thumb": "/4N6i4cgtbeUj5AJd8kiBZ2BxxEJ.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Hero Notebook",
-        "Save! Rescue Training",
-        "Training of the Dead",
-        "All Might- Rising - The Animation",
-        "End-Roll BBQ Picture Drama",
-        "Make It! Do-or-Die Survival Training, Part 1",
-        "Make It! Do-or-Die Survival Training, Part 2"
+        {
+          "aired": "2017-03-25",
+          "plot": "Recap of Boku no Hero Academia's first season, aired a week before the second season.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wFfRvB30aPQYAu6q8fV4j6m9nCo.jpg",
+          "title": "Hero Notebook"
+        },
+        {
+          "aired": "2017-04-04",
+          "plot": "Four weeks after the League of Villains' attempt to assassinate All Might, the students of Class 1-A return to USJ to complete their disaster training. However, unbeknownst to the heroes-in-training, an unexpected foe is lurking within the facility's walls and waiting to strike...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6ScabTykKIeUf2oWh6bgkPHzYU2.jpg",
+          "title": "Save! Rescue Training"
+        },
+        {
+          "aired": "2017-06-02",
+          "plot": "Story about a joint practice session between Izuku's class and Isami High students at Yuuei Academy, takes place after the field training arc in the second season.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lMCDQ4Kpz6JYzR3E4wwASg9aekv.jpg",
+          "title": "Training of the Dead"
+        },
+        {
+          "aired": "2019-02-13",
+          "plot": "Young All Might sees his mentor, Nana Shimura, be defeated by One For All.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wHQHJq4zGERaeHUWAFeB2lQcoTH.jpg",
+          "title": "All Might- Rising - The Animation"
+        },
+        {
+          "aired": "2019-02-13",
+          "plot": "Included in the BD/DVD release of the movie My Hero Academia: Two Heroes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ezxLL2Rf1fyPZhzCOfnchKCHKW0.jpg",
+          "title": "End-Roll BBQ Picture Drama"
+        },
+        {
+          "aired": "2020-08-14",
+          "plot": "UA's sophomore students are undergoing targeted training to prepare for their provisional license exams, and today they will have to take part in a rescue operation. This is just a simulation, but teamwork will be required in order to succeed in the exercise. Except that as soon as the mission begins, a landslide changes the game. The ten students who had split into several groups find themselves trapped by debris. Is this accident part of the exercise? Will the students come out of it unharmed? The survival test has just begun.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sCPvzfBG1yUn6InTzBKTXcaRbpc.jpg",
+          "title": "Make It! Do-or-Die Survival Training, Part 1"
+        },
+        {
+          "aired": "2020-08-14",
+          "plot": "In preparation for the provisional license exam, UA's 10th grade students are participating in a simulated rescue, but the rescue has gone wrong and the students are now trapped in an underground shopping mall. As if the situation wasn't complicated enough, water starts seeping through the walls. The students have to get out of here as soon as possible. That said, Bakugo still takes the mission very seriously and refuses to go out without finding and evacuating the rescue dummy. The water is rising dangerously. Will they be able to evacuate and avoid the disaster?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jFjv3Mh1Yf4S0p2AxYyokSDOzAY.jpg",
+          "title": "Make It! Do-or-Die Survival Training, Part 2"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Izuku Midoriya- Origin",
-        "What It Takes to Be a Hero",
-        "Roaring Muscles ",
-        "Start Line",
-        "What I Can Do for Now",
-        "Rage, You Damn Nerd!",
-        "Deku vs. Kacchan",
-        "Bakugo's Start Line",
-        "Yeah, Just Do Your Best, Iida!",
-        "Encounter with the Unknown",
-        "Game Over",
-        "All Might",
-        "In Each of Our Hearts"
+        {
+          "aired": "2016-04-03",
+          "plot": "Izuku Midoriya desperately wants to be a hero, but he is one of the few in his generation born without a Quirk. Will meeting the number one hero, All Might, change his fate?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5S4t7vjGUahG8ieEUTDNPi1DPBh.jpg",
+          "title": "Izuku Midoriya- Origin"
+        },
+        {
+          "aired": "2016-04-10",
+          "plot": "Izuku accidentally learns of All Might's secret, but there's trouble in town again before Izuku has time to process it. Will All Might be able to save the day again?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4Aa6blmgqkJDVDrf70Un1hXfjIT.jpg",
+          "title": "What It Takes to Be a Hero"
+        },
+        {
+          "aired": "2016-04-17",
+          "plot": "All Might tells Izuku that he can become a hero, but does he really have what it takes to become one?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/un1Xph8SN0yBOwwa4ntNga0XkiN.jpg",
+          "title": "Roaring Muscles "
+        },
+        {
+          "aired": "2016-04-24",
+          "plot": "At the entrance exam, Izuku falls behind as the other students defeat faux villains left and right. Will he be able to get enough points to pass?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fUq0PFzkFH0cTmsw9sBpTE2vgw9.jpg",
+          "title": "Start Line"
+        },
+        {
+          "aired": "2016-05-01",
+          "plot": "It's Izuku's first day of high school, and he still can't control his new Quirk. Will he make it to the second day of school with his eccentric new teacher?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fBVvIvLZ1pMg8Ox1MSRBmbTiIz3.jpg",
+          "title": "What I Can Do for Now"
+        },
+        {
+          "aired": "2016-05-08",
+          "plot": "Izuku somehow gets through his first day of school and falls into a regular schedule of classes and training at U.A. In their first class with All Might...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1dIpjSrV4ViDPCuiuyCS1ISDDSO.jpg",
+          "title": "Rage, You Damn Nerd!"
+        },
+        {
+          "aired": "2016-05-15",
+          "plot": "Izuku is up against Katsuki in their first class with All Might! Can he and Uraraka beat the villain team of Katsuki and Tenya before time runs out?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i4Yf5yWJuNW2r2ufYyC9GU8INeF.jpg",
+          "title": "Deku vs. Kacchan"
+        },
+        {
+          "aired": "2016-05-22",
+          "plot": "After the combat training lesson, the students and All Might reflect on their matches as they think about their next steps.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nAWnMtHNLKxpT015Lorue9G4LfK.jpg",
+          "title": "Bakugo's Start Line"
+        },
+        {
+          "aired": "2016-05-29",
+          "plot": "Class 1-A has to elect a class representative, and everyone wants the job! How will they choose? And what lies in wait for them at the next class?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y8A33rJZSKx3xy4XPXmgXWHvs2N.jpg",
+          "title": "Yeah, Just Do Your Best, Iida!"
+        },
+        {
+          "aired": "2016-06-05",
+          "plot": "Villains have attacked USJ, and it's up to Class 1-A to stop them. What are the villains after? Will All Might be able to save the day again?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3QC4VYPiVCW7IEynQfrrGqFaNyg.jpg",
+          "title": "Encounter with the Unknown"
+        },
+        {
+          "aired": "2016-06-12",
+          "plot": "The students of Class 1-A are up against the League of Villains. Will they survive long enough for help to arrive?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dXfjYFWR087jOEPdDUTgECpfctw.jpg",
+          "title": "Game Over"
+        },
+        {
+          "aired": "2016-06-19",
+          "plot": "All Might has finally shown up, but will he be able to defeat Nomu and save the day?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/koVhy5mauwCw6D9PErUyX0ZBFeL.jpg",
+          "title": "All Might"
+        },
+        {
+          "aired": "2016-06-26",
+          "plot": "As the battle at USJ winds down, Izuku and All Might think about its repercussions. Meanwhile, the villains slink home to plan their next move.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bKdjFwLHyaa6TPZxeFOflLifXxH.jpg",
+          "title": "In Each of Our Hearts"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "That's the Idea, Ochaco",
-        "Roaring Sports Festival",
-        "In Their Own Quirky Ways",
-        "Strategy, Strategy, Strategy",
-        "Cavalry Battle Finale",
-        "The Boy Born with Everything",
-        "Victory or Defeat",
-        "Battle on, Challengers!",
-        "Bakugo vs. Uraraka",
-        "Shoto Todoroki- Origin",
-        "Fight on, Iida",
-        "Todoroki vs. Bakugo",
-        "Time to Pick Some Names",
-        "Bizarre! Gran Torino Appears",
-        "Midoriya and Shigaraki",
-        "Hero Killer- Stain vs U.A. Students",
-        "Climax",
-        "The Aftermath of Hero Killer- Stain",
-        "Everyone's Internships",
-        "Listen Up!! A Tale from the Past",
-        "Gear up for Final Exams",
-        "Yaoyorozu- Rising",
-        "Stripping the Varnish",
-        "Katsuki Bakugo- Origin",
-        "Encounter"
+        {
+          "aired": "2017-04-01",
+          "plot": "As U.A. students and teachers recover from the League of Villains attack on USJ, Izuku learns about why Ochaco wants to become a hero.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jKX0BNvkeEPwbP7doTQJmL9SxMI.jpg",
+          "title": "That's the Idea, Ochaco"
+        },
+        {
+          "aired": "2017-04-08",
+          "plot": "The U.A. sports festival begins and all eyes are on the first-years as they start their qualifying round—the obstacle course race.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jSUUHX8mJmi9jYkTYjHoir3luKx.jpg",
+          "title": "Roaring Sports Festival"
+        },
+        {
+          "aired": "2017-04-15",
+          "plot": "The first years try to stand out as they struggle to finish the obstacle course and qualify for a spot in the next round.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A2qkLsFynZG1kidiNIaiVbvDQkX.jpg",
+          "title": "In Their Own Quirky Ways"
+        },
+        {
+          "aired": "2017-04-22",
+          "plot": "Izuku's having trouble finding a team for the cavalry battle in the next round of the U.A. sports festival. Luckily, he has a plan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f1kWHlvpXebscrGo9mherSx1nG7.jpg",
+          "title": "Strategy, Strategy, Strategy"
+        },
+        {
+          "aired": "2017-04-29",
+          "plot": "Fighting it out in the second half of the cavalry battle, does Team Midoriya have what it takes to stay in the top four?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dhSx6iVF3Vz5S2jZ57dkL4AAJ1h.jpg",
+          "title": "Cavalry Battle Finale"
+        },
+        {
+          "aired": "2017-05-06",
+          "plot": "Izuku learns more about Todoroki's past as the first-years head into the final round of the sports festival.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cdDvi6ZLWMTqBbrgXZ0HXkp5bVH.jpg",
+          "title": "The Boy Born with Everything"
+        },
+        {
+          "aired": "2017-05-13",
+          "plot": "Izuku is up against Shinso in the first match of the finals, but can he overcome Shinso's Quirk to advance to the next round?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/c7QUEodtTFbEuwRWhWruZBQg9tc.jpg",
+          "title": "Victory or Defeat"
+        },
+        {
+          "aired": "2017-05-20",
+          "plot": "It's one match after another in the first round of the finals tournament. Who will advance to second round?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2V7ZQB1juYVxphEyTANUPhuQEyt.jpg",
+          "title": "Battle on, Challengers!"
+        },
+        {
+          "aired": "2017-05-27",
+          "plot": "Bakugo seems almost villainous when he's up against Uraraka, but she has a plan to keep it from being a one-sided match.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9vtX2ZWCPyxU0FyJLqcYDULylYt.jpg",
+          "title": "Bakugo vs. Uraraka"
+        },
+        {
+          "aired": "2017-06-03",
+          "plot": "Izuku forces Todoroki to face his past in a chilling battle as the two class rivals finally go head to head!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9fauMLW8gjPXyBVCH57ltsrUl7N.jpg",
+          "title": "Shoto Todoroki- Origin"
+        },
+        {
+          "aired": "2017-06-10",
+          "plot": "It's class rep versus child prodigy as Iida and Todoroki square off. Will Iida's Reciproburst be enough to beat the boy of fire and ice?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gtkZna20EWSZnkw3fTdKv4WpZTQ.jpg",
+          "title": "Fight on, Iida"
+        },
+        {
+          "aired": "2017-06-17",
+          "plot": "The explosive showdown between Todoroki and Bakugo begins. Only one can take the title of first-year champion!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4ZSXPuR84ypZ5VTaaBbebd5yVMM.jpg",
+          "title": "Todoroki vs. Bakugo"
+        },
+        {
+          "aired": "2017-06-24",
+          "plot": "Following their epic debut at the sports festival, it's time for the first-years to pick the most important part of their identities—their hero name!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pryUQihr9rDyhbi5GCh8YkO8dIE.jpg",
+          "title": "Time to Pick Some Names"
+        },
+        {
+          "aired": "2017-07-08",
+          "plot": "The internships begin! While everyone adjusts to their new tasks, Izuku starts training with Gran Torino, the same man who once taught All Might.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zZvIDhNNe3WQdt3RkNPBN0tPVmy.jpg",
+          "title": "Bizarre! Gran Torino Appears"
+        },
+        {
+          "aired": "2017-07-15",
+          "plot": "The U.A. students are finally starting to get the hang of their internships, but Izuku has much more to learn about One For All.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i7PYwjTCbQMQS0uEKJGZZIgl9nb.jpg",
+          "title": "Midoriya and Shigaraki"
+        },
+        {
+          "aired": "2017-07-22",
+          "plot": "Stain strikes again, and this time some U.A. students are around when it happens. Will they be able to hold him off until the pros come?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sy4x22W7mzpSzdcENPXsztmbXnJ.jpg",
+          "title": "Hero Killer- Stain vs U.A. Students"
+        },
+        {
+          "aired": "2017-07-29",
+          "plot": "It all comes to a head as Izuku, Iida, and Todoroki face off against Stain while the pro heroes in Hosu City fight against the Nomus.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jFDSZqlC8sfKgOO6vuiQjDidfkS.jpg",
+          "title": "Climax"
+        },
+        {
+          "aired": "2017-08-05",
+          "plot": "Stain is finally captured, but while the hero community deals with the consequences, an even greater challenge is set in motion.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vKXtSJpnvBBiBdnKz90nlhiWcoI.jpg",
+          "title": "The Aftermath of Hero Killer- Stain"
+        },
+        {
+          "aired": "2017-08-12",
+          "plot": "As Izuku, Iida, and Todoroki recover from their fight with Stain, the other members of Class 1-A work hard at their own internships.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fPMY8vANaLtYEokGTEWlB1951X6.jpg",
+          "title": "Everyone's Internships"
+        },
+        {
+          "aired": "2017-08-19",
+          "plot": "The students return to their daily lives while All Might has a special history lesson for Izuku. It's time to learn about One For All!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/g7QnQCNfBQOmjo8HMr0oQkyQbdL.jpg",
+          "title": "Listen Up!! A Tale from the Past"
+        },
+        {
+          "aired": "2017-09-02",
+          "plot": "Finals are coming up and Class 1-A is going to need more than a cram session. This year, the teachers are changing the practical exams.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/h0QFP8dKtq6I0dOsljPh5uMjUET.jpg",
+          "title": "Gear up for Final Exams"
+        },
+        {
+          "aired": "2017-09-09",
+          "plot": "The exams are turning out to be much more challenging than the students expected. Can any of the teams hold their own against a teacher?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/viz7Ei6dxSmLXQwvVbodQvUfhxf.jpg",
+          "title": "Yaoyorozu- Rising"
+        },
+        {
+          "aired": "2017-09-16",
+          "plot": "As the students of Class 1-A fight in their practical exams, their resolve to become heroes is put to the test.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/edmDKyqrYDtp53b5uCylfS5gFY9.jpg",
+          "title": "Stripping the Varnish"
+        },
+        {
+          "aired": "2017-09-23",
+          "plot": "It's finally time for Izuku and Bakugo's practical exam. How can they challenge All Might without a plan?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3D3vfbtDmMHsbse73NYfUK3ShU8.jpg",
+          "title": "Katsuki Bakugo- Origin"
+        },
+        {
+          "aired": "2017-09-30",
+          "plot": "Class 1-A goes shopping for training camp supplies, but things get out of hand when a villain pulls Izuku aside.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tRaD9tu1Qjq9kcdgN4UHYgKzlqa.jpg",
+          "title": "Encounter"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Game Start",
-        "Wild, Wild Pussycats",
-        "Kota",
-        "My Hero",
-        "Drive It Home, Iron Fist!!!",
-        "Roaring Upheaval",
-        "What a Twist!",
-        "From Iida to Midoriya",
-        "All For One",
-        "Symbol of Peace",
-        "One For All",
-        "End of the Beginning, Beginning of the End",
-        "Moving into Dorms",
-        "Create Those Ultimate Moves",
-        "The Test",
-        "Shiketsu High Lurking",
-        "Class 1-A",
-        "RUSH!",
-        "Rescue Exercises",
-        "Special Episode- Save the World with Love!",
-        "What's the Big Idea",
-        "A Talk about Your Quirk",
-        "Deku vs. Kacchan, Part 2",
-        "A Season for Encounters",
-        "Unrivaled"
+        {
+          "aired": "2018-04-07",
+          "plot": "Before the U.A. students head to their training camp, Class 1-A goes to the pool for extra training, and the League of Villains plots their next move.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vSjHls96Tj4JroSYg954S3vlwha.jpg",
+          "title": "Game Start"
+        },
+        {
+          "aired": "2018-04-14",
+          "plot": "Class 1-A faces the first challenge of their summer training camp when they have to fight their way through \"The Beast's Forest\" before lunch.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2JiTX9BNFKxdy6nCCzYDJRj55uX.jpg",
+          "title": "Wild, Wild Pussycats"
+        },
+        {
+          "aired": "2018-04-21",
+          "plot": "Izuku tries to talk with Kota as the first-years start their training in earnest. Little do they know what awaits them in the forest.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A4fGP3dSlUXqs0grDPCilYgkTYi.jpg",
+          "title": "Kota"
+        },
+        {
+          "aired": "2018-04-28",
+          "plot": "The villains launch their attack, and only Izuku knows where Kota is. Can he get to him in time?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/68IZjxkQnzXj0sTzH4kbfrbzspW.jpg",
+          "title": "My Hero"
+        },
+        {
+          "aired": "2018-05-05",
+          "plot": "Izuku finally makes it back to the training camp only to leave again with a message for Mandalay to broadcast.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ijFQhbw0MmqX24AikB22mRMkuMb.jpg",
+          "title": "Drive It Home, Iron Fist!!!"
+        },
+        {
+          "aired": "2018-05-12",
+          "plot": "The students and teachers of U.A. are still fighting in the woods, but has the Vanguard Action Squad accomplished its mission already…?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wOM6DjJ8BX7zhIopKRhvi30RDRK.jpg",
+          "title": "Roaring Upheaval"
+        },
+        {
+          "aired": "2018-05-19",
+          "plot": "The battle at the training camp concludes, and now the students and teachers of U.A. have to deal with the aftermath.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5mIb8XehfDrjJ6r1ycxtNAHaqHl.jpg",
+          "title": "What a Twist!"
+        },
+        {
+          "aired": "2018-05-26",
+          "plot": "Todoroki, Kirishima, and Midoriya want to go after Bakugo, but the class rep is standing in their way. Meanwhile, Shigaraki makes Bakugo an offer…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/glltUgXwP24uFcBmPhfrKaesI08.jpg",
+          "title": "From Iida to Midoriya"
+        },
+        {
+          "aired": "2018-06-02",
+          "plot": "The heroes and U.A. students close in on the League of Villains' hideouts, but the League still has an ace up its sleeve.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cRaSrEOmmUiwn42z309BxnpGIXz.jpg",
+          "title": "All For One"
+        },
+        {
+          "aired": "2018-06-09",
+          "plot": "As the fight against the League of Villains escalates, can the U.A. students get Bakugo out in time for All Might to make a big comeback?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vd9dlXJWYLvOHRtK884Rl0x6foN.jpg",
+          "title": "Symbol of Peace"
+        },
+        {
+          "aired": "2018-06-16",
+          "plot": "All Might's time is running out as he faces his ultimate nemesis head on. Will he finally be able to defeat All For One once and for all?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j22Wsra1aSvXR3Yf4siiSbpmpFY.jpg",
+          "title": "One For All"
+        },
+        {
+          "aired": "2018-06-23",
+          "plot": "After All Might and All For One's fight, the students go back home while the U.A. teachers decide how to deal with the aftermath.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yleKjvyD5DXUnRKjbvOxJCPAhWG.jpg",
+          "title": "End of the Beginning, Beginning of the End"
+        },
+        {
+          "aired": "2018-06-30",
+          "plot": "The students of Class 1-A move into their dorms and hold a competition to determine who has the best room.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mUxkrWky8pUr3rdcV8OgO3JKFiA.jpg",
+          "title": "Moving into Dorms"
+        },
+        {
+          "aired": "2018-07-14",
+          "plot": "Class 1-A works on developing their Quirks and creating ultimate moves to prepare for the provisional hero licensing exam.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xi44czDy0Tm28tk8HVIdoB6fyzo.jpg",
+          "title": "Create Those Ultimate Moves"
+        },
+        {
+          "aired": "2018-07-21",
+          "plot": "Izuku and his classmates make some final adjustments to their ultimate moves and then head off to the provisional licensing exam.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gpARjoAURqHvSxscBaTeTI2wouS.jpg",
+          "title": "The Test"
+        },
+        {
+          "aired": "2018-07-28",
+          "plot": "The exam has begun, and everyone's after Class 1-A! Can the first-years last long enough to pass this first test?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gXLFmnOo3JkuehX8eRRRk5thpAa.jpg",
+          "title": "Shiketsu High Lurking"
+        },
+        {
+          "aired": "2018-08-04",
+          "plot": "Todoroki's on his own against Seijin High, and Yaoyorozu's group is pitted against Seiai Academy as they and the rest of Class 1-A fight to pass the first test.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oJvs5SmB3tsNDDCmAzySGH6zAku.jpg",
+          "title": "Class 1-A"
+        },
+        {
+          "aired": "2018-08-11",
+          "plot": "It's down to the final minutes of the first test and almost half of Class 1-A has yet to earn a passing score!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ywZN4HBRmxZIPFySBHWonCfM2lk.jpg",
+          "title": "RUSH!"
+        },
+        {
+          "aired": "2018-08-18",
+          "plot": "The second test of the provisional licensing has begun, and the hero candidates are suddenly thrust into a rescue operation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fD2yK1bua0rWWnAcHMlT72D2Xfp.jpg",
+          "title": "Rescue Exercises"
+        },
+        {
+          "aired": "2018-08-25",
+          "plot": "We take a break from the provisional licensing exam to visit a class held before the summer training camp!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7DrBKSt7wy2977wQBbtIaCpDwgE.jpg",
+          "title": "Special Episode- Save the World with Love!"
+        },
+        {
+          "aired": "2018-09-01",
+          "plot": "The exam nears its end, but Izuku and the other hero candidates must fend off Gang Orca to finish the rescue mission.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6MSrGMZMZ6zILXEMqGgHrD9JttC.jpg",
+          "title": "What's the Big Idea"
+        },
+        {
+          "aired": "2018-09-08",
+          "plot": "While the U.A. students finish up the provisional licensing exam and get their results, All Might has a talk with All For One.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/38B31AYuygAu6u6mrBOcKVQQ0FA.jpg",
+          "title": "A Talk about Your Quirk"
+        },
+        {
+          "aired": "2018-09-15",
+          "plot": "Following the provisional licensing exam, Izuku tries out his Shoot Style on Bakugo as they have a heart-to-heart through their fight.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pyQNl85oNJebSsui1JxuhWomBMs.jpg",
+          "title": "Deku vs. Kacchan, Part 2"
+        },
+        {
+          "aired": "2018-09-22",
+          "plot": "The world has changed for villains and heroes alike in the weeks after All Might's fight with All For One, and the U.A. students start their second semester.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lTqwkYaOSyFHMMdFhOFcdJXsoXd.jpg",
+          "title": "A Season for Encounters"
+        },
+        {
+          "aired": "2018-09-29",
+          "plot": "The students of Class 1-A learn about work studies from the Big Three. Meanwhile, the villains also prepare their next steps.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qp7TmTcLDv6N1Erjr3OJSvGFj4z.jpg",
+          "title": "Unrivaled"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "The Scoop on U.A. Class 1-A",
-        "Overhaul",
-        "Boy Meets…",
-        "Fighting Fate",
-        "Let's Go, Gutsy Red Riot",
-        "An Unpleasant Talk",
-        "GO!!",
-        "Suneater of the Big Three",
-        "Red Riot",
-        "Temp Squad",
-        "Lemillion",
-        "Unforeseen Hope",
-        "Infinite 100%",
-        "Bright Future",
-        "Smoldering Flames",
-        "Win Those Kids' Hearts",
-        "Relief for License Trainees",
-        "School Festival",
-        "Prepping for the School Festival is the Funnest Part",
-        "Golden Tips Imperial",
-        "Deku vs. Gentle Criminal",
-        "School Festival Start!",
-        "Let It Flow! School Festival!",
-        "Japanese Hero Billboard Chart",
-        "His Start"
+        {
+          "aired": "2019-10-12",
+          "plot": "After All Might announces his retirement, freelance reporter Taneo Tokuda goes to the dorms to investigate U.A. Class 1-A.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tv8nAqL2sOYi9XWWbea2RpxH3Tt.jpg",
+          "title": "The Scoop on U.A. Class 1-A"
+        },
+        {
+          "aired": "2019-10-19",
+          "plot": "Overhaul pays a visit to the League of Villains, and Midoriya tries to find a place to do his work study.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aTKDtpb0lDOtjPuMUbu9r9T1VhN.jpg",
+          "title": "Overhaul"
+        },
+        {
+          "aired": "2019-10-26",
+          "plot": "Izuku battles Sir Nighteye so he can do his work study at Nighteye’s agency, but Nighteye has someone else in mind to be All Might’s successor…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u4IWgBmdGMqqeUG9DwJ8FDvVyn9.jpg",
+          "title": "Boy Meets…"
+        },
+        {
+          "aired": "2019-11-09",
+          "plot": "Izuku’s mind is swirling with feelings from his work study, so he goes and talks to All Might about it and learns about All Might’s fate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uQEUdJIxePxCys89awT5JrEYvRW.jpg",
+          "title": "Fighting Fate"
+        },
+        {
+          "aired": "2019-11-16",
+          "plot": "The U.A. work study students go out with their respective heroes and become involved in some big fights.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6xSlj42kvFobud9Jj1Utj38X5ho.jpg",
+          "title": "Let's Go, Gutsy Red Riot"
+        },
+        {
+          "aired": "2019-11-23",
+          "plot": "The work study students from U.A. attend a meeting of heroes gathered by Sir Nighteye and leave with new resolve.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yDStQtH9HfpK79oXrWvHTolbYwo.jpg",
+          "title": "An Unpleasant Talk"
+        },
+        {
+          "aired": "2019-11-30",
+          "plot": "The work study students wait until the pro heroes find Eri and it’s time to start the operation to save her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s1OR21F40kIoJ7jAlPTziWWFvgm.jpg",
+          "title": "GO!!"
+        },
+        {
+          "aired": "2019-12-07",
+          "plot": "The Shie Hassaikai is going all out to stop the heroes, and Suneater volunteers to take out the first batch of Eight Bullets members in their way.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wWWdXsRozPFLt4VCDWPtAR4C6qD.jpg",
+          "title": "Suneater of the Big Three"
+        },
+        {
+          "aired": "2019-12-14",
+          "plot": "As the fight with the Shie Hassaikai continues, Kirishima has to face his past when he and Fat Gum get separated from the others.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ri65KrslHFXAe1Ewb1tTWzqfMKK.jpg",
+          "title": "Red Riot"
+        },
+        {
+          "aired": "2019-12-21",
+          "plot": "The Hassaikai gets some help from the League of Villains as the heroes continue to make their way to Chisaki to rescue Eri.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yozV28EeXAjh4SEJoiTt2BTE7F3.jpg",
+          "title": "Temp Squad"
+        },
+        {
+          "aired": "2019-12-28",
+          "plot": "The League of Villains stay true to their name in their fight. Meanwhile, Togata catches up to Chisaki and Eri first…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nrIfe8bFzbORVN7THMqZ72Hhq6k.jpg",
+          "title": "Lemillion"
+        },
+        {
+          "aired": "2020-01-04",
+          "plot": "Izuku, Eraser Head, and Sir Nighteye finally reach the area where Chisaki and the others are and find Togata past his limit…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/22rgsCKe7ZTkBUckpJAqWaSUoHB.jpg",
+          "title": "Unforeseen Hope"
+        },
+        {
+          "aired": "2020-01-11",
+          "plot": "As the fight with the Shie Hassaikai reaches its climax, Chisaki looks back on how it all started, and Izuku uses All For One at 100%.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r9Dxr15uS6rXcPJPS6jMOnGCUHq.jpg",
+          "title": "Infinite 100%"
+        },
+        {
+          "aired": "2020-01-18",
+          "plot": "As the heroes deal with the aftermath of the fight with the Shie Hassaikai, the vehicle transporting Chisaki has an encounter with the League of Villains…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wsDTycOk4KfbCqfvEwT3CQPs4cB.jpg",
+          "title": "Bright Future"
+        },
+        {
+          "aired": "2020-01-25",
+          "plot": "After the fight with the Shie Hassaikai, a new villain emerges, and the students who participated reflect on their own roles as future heroes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qS2s0q8eHOdcYBuxp5dJfy33yZh.jpg",
+          "title": "Smoldering Flames"
+        },
+        {
+          "aired": "2020-02-01",
+          "plot": "Camie joins the provisional license training course and is added to the team working with the kids from Masegaki. Meanwhile, Endeavor has a serious talk with All Might.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1EPTmLd1q4cj2vcMmjUdsiMEXLg.jpg",
+          "title": "Win Those Kids' Hearts"
+        },
+        {
+          "aired": "2020-02-08",
+          "plot": "The trainees bond with the precocious Masegaki kids and life at U.A. goes back to normal as autumn approaches, but Aoyama has been acting strangely…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hqU4H7qf8xw0Qnhxf7B8LbegqBC.jpg",
+          "title": "Relief for License Trainees"
+        },
+        {
+          "aired": "2020-02-15",
+          "plot": "As the students of U.A. prepare for their school festival, Deku and Togata visit Eri in the hospital. Meanwhile, a new villain named Gentle Criminal begins his reign of crime.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eY34pkD5wgXKmH8zsfcQ5k7qzW9.jpg",
+          "title": "School Festival"
+        },
+        {
+          "aired": "2020-02-22",
+          "plot": "Class 1-A assigns roles for their performance at the school festival, and Gentle starts preparing his next plan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mZPyaBmpuiJF5ePmqESrKa18PHk.jpg",
+          "title": "Prepping for the School Festival is the Funnest Part"
+        },
+        {
+          "aired": "2020-02-29",
+          "plot": "Eri visits U.A. while the students are preparing for the school festival, and Gentle finalizes his plans.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/csmr4g86fPLJtoCUsfvRLRdKCdT.jpg",
+          "title": "Golden Tips Imperial"
+        },
+        {
+          "aired": "2020-03-07",
+          "plot": "As Deku buys some last-minute supplies for the school festival, he encounters a mysterious man wrapped in a trench coat…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hGZtCiBp6yMKQqnz1XdoilhgVUQ.jpg",
+          "title": "Deku vs. Gentle Criminal"
+        },
+        {
+          "aired": "2020-03-14",
+          "plot": "Izuku must stop Gentle Criminal and his partner, La Brava, or else the school festival will be cancelled.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a61IwJeorvJsj18lGwAvO6coYSD.jpg",
+          "title": "School Festival Start!"
+        },
+        {
+          "aired": "2020-03-21",
+          "plot": "Izuku rushes back to the school festival after his encounter with Gentleman and La Brava, but will he make it in time for his performance?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dSpX2czk3KmymDDr2Ltwy2J0Pnk.jpg",
+          "title": "Let It Flow! School Festival!"
+        },
+        {
+          "aired": "2020-03-28",
+          "plot": "It's time for the next Japanese Hero Billboard Chart rankings to be announced, and this time, all the top ten heroes make an appearance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j1KX3vFTFpI7g71548rWFIERsez.jpg",
+          "title": "Japanese Hero Billboard Chart"
+        },
+        {
+          "aired": "2020-04-04",
+          "plot": "Endeavor and Hawks are up against High-End, and it's Endeavor's chance to show the world what the new number one hero is like.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vJmfcJkL1jMy6qQGrgV4uwJMADU.jpg",
+          "title": "His Start"
+        }
       ]
     },
     "5": {
       "episodes": [
         null,
-        "Episode 1 (TBA)"
+        {
+          "aired": "2021-03-27",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 1 (TBA)"
+        }
       ]
     }
   },

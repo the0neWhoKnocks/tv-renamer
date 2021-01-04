@@ -1,19 +1,273 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
   "id": 84977,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/356640/seasonposter/russian-doll-5ca94c6d8c193.jpg"
+        ],
+        "01": [
+          "https://assets.fanart.tv/fanart/tv/356640/seasonposter/russian-doll-5ce68ebf0b914.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "01": [
+          "https://assets.fanart.tv/fanart/tv/356640/seasonthumb/russian-doll-5ce68ed74ce1d.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/356640/showbackground/russian-doll-5ce68f0ddd1f9.jpg",
+        "https://assets.fanart.tv/fanart/tv/356640/showbackground/russian-doll-5ce68f0e0a34a.jpg",
+        "https://assets.fanart.tv/fanart/tv/356640/showbackground/russian-doll-5c574d3b61fcf.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/356640/tvbanner/russian-doll-5ce68fdbc4144.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/356640/tvposter/russian-doll-5c574d0214c64.jpg",
+        "https://assets.fanart.tv/fanart/tv/356640/tvposter/russian-doll-5c574cf4504b4.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/356640/tvthumb/russian-doll-5c58146062f1b.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/Aq6rWq3yIytfaSad4qabTUl8n0J.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/4WijEAbnGMJifP6uepGALci3Jf.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Russian Doll",
+  "plot": "Nadia keeps dying and reliving her 36th birthday party. She's trapped in a surreal time loop -- and staring down the barrel of her own mortality.",
+  "premiered": "2019-02-01",
+  "status": "Returning Series",
+  "studios": [
+    "Netflix"
+  ],
+  "actors": [
+    {
+      "name": "Natasha Lyonne",
+      "order": 0,
+      "role": "Nadia Vulvokov",
+      "thumb": "/Ao3Tao5nCrJGvNiFyFrzZs0Iyzg.jpg"
+    },
+    {
+      "name": "Greta Lee",
+      "order": 1,
+      "role": "Maxine",
+      "thumb": "/1abycN4fpnxrLLQH3r7bzov8ibP.jpg"
+    },
+    {
+      "name": "Charlie Barnett",
+      "order": 500,
+      "role": "Alan Zaveri",
+      "thumb": "/AgtQueSnpvcT9cVupnJZlIHWrsW.jpg"
+    },
+    {
+      "name": "Rebecca Henderson",
+      "order": 24,
+      "role": "Lizzy",
+      "thumb": "/zNZBd3cyTu9ElzwAyqJhLZ75nVz.jpg"
+    },
+    {
+      "name": "Elizabeth Ashley",
+      "order": 26,
+      "role": "Ruth Brenner",
+      "thumb": "/AtWsVmCyUd6RTgULq6OvcthSi5K.jpg"
+    },
+    {
+      "name": "Jeremy Bobb",
+      "order": 26,
+      "role": "Mike Kershaw",
+      "thumb": "/gomL7VWzJeDfhewAgQy0xh25Hre.jpg"
+    },
+    {
+      "name": "Dascha Polanco",
+      "order": 24,
+      "role": "Beatrice",
+      "thumb": "/blUbrcKm2ILZZZ1WlQUDZ5rKGF7.jpg"
+    },
+    {
+      "name": "Brendan Sexton III",
+      "order": 23,
+      "role": "Horse",
+      "thumb": "/36EvFVDqOKzUa91ixgGEAUPgnqA.jpg"
+    },
+    {
+      "name": "Yoni Lotan",
+      "order": 23,
+      "role": "Ryan",
+      "thumb": null
+    },
+    {
+      "name": "Ritesh Rajan",
+      "order": 26,
+      "role": "Farran",
+      "thumb": "/jGvKcMTjaATcKdfyehK4AacDSvG.jpg"
+    },
+    {
+      "name": "Tatiana E. Rivera",
+      "order": 24,
+      "role": "Lucy",
+      "thumb": null
+    },
+    {
+      "name": "David Cale",
+      "order": 6,
+      "role": "Dr. Daniel",
+      "thumb": null
+    },
+    {
+      "name": "Stephen Adly Guirgis",
+      "order": 8,
+      "role": "Peter",
+      "thumb": "/dS7BkMwLecWfCFzRgNcesujLuXS.jpg"
+    },
+    {
+      "name": "Fady Kerko",
+      "order": 9,
+      "role": "Kamile",
+      "thumb": null
+    },
+    {
+      "name": "Tami Sagher",
+      "order": 10,
+      "role": "Shifra",
+      "thumb": "/1GIL1inagFQ1t0DEXluEubKUOsr.jpg"
+    },
+    {
+      "name": "Jonathan Hadary",
+      "order": 11,
+      "role": "Rabbi",
+      "thumb": null
+    },
+    {
+      "name": "Branden Wellington",
+      "order": 12,
+      "role": "Fred",
+      "thumb": null
+    },
+    {
+      "name": "Stella Schnabel",
+      "order": 14,
+      "role": "Liana",
+      "thumb": "/5pTviGvo8jWD8NLP20h9KUatBU0.jpg"
+    },
+    {
+      "name": "Mirirai Sithole",
+      "order": 15,
+      "role": "Audrey",
+      "thumb": null
+    },
+    {
+      "name": "Lillias White",
+      "order": 16,
+      "role": "Dr. Zaveri",
+      "thumb": "/fIHaqkbqWzdXoiPM9KKwub7icWU.jpg"
+    },
+    {
+      "name": "Jocelyn Bioh",
+      "order": 17,
+      "role": "Claire",
+      "thumb": "/colhbCJmNOBNu6nqD2CEFKF5wZM.jpg"
+    },
+    {
+      "name": "Tawny Sorensen",
+      "order": 19,
+      "role": "Bartender",
+      "thumb": null
+    },
+    {
+      "name": "Burt Young",
+      "order": 21,
+      "role": "Joe",
+      "thumb": "/sHe7o1ZkJV5r0WDzkm28xnsNtAu.jpg"
+    },
+    {
+      "name": "Charisma Glasper",
+      "order": 22,
+      "role": "Jordana",
+      "thumb": null
+    },
+    {
+      "name": "Chloë Sevigny",
+      "order": 23,
+      "role": "Lenora Vulvokov",
+      "thumb": "/eM7KGAMCmZCzYDFV8gaSfknN675.jpg"
+    },
+    {
+      "name": "Kate Jennings Grant",
+      "order": 24,
+      "role": "Young Ruth",
+      "thumb": "/5uAN3gTBDRWaYx345svylihKY5J.jpg"
+    },
+    {
+      "name": "Brooke Timber",
+      "order": 25,
+      "role": "Young Nadia",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Nothing in This World Is Easy",
-        "The Great Escape",
-        "A Warm Body",
-        "Alan's Routine",
-        "Superiority Complex",
-        "Reflection",
-        "The Way Out",
-        "Ariadne"
+        {
+          "aired": "2019-02-01",
+          "plot": "On the night of her 36th birthday, Nadia meets an untimely end ... then suddenly finds herself back at the party her friends threw for her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p7DIKaTD7q3lNLk2hl5L41SsCga.jpg",
+          "title": "Nothing in This World Is Easy"
+        },
+        {
+          "aired": "2019-02-01",
+          "plot": "Confused and hung over, Nadia tries to piece together what happened the night before. She tracks down Wardog, the drug dealer with the Israeli joints.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gOApzcKWend6fkk47hKncJWjg7y.jpg",
+          "title": "The Great Escape"
+        },
+        {
+          "aired": "2019-02-01",
+          "plot": "Nadia's hunt for clues leads her to a Yeshiva school -- but she needs John's help. Out searching for Oatmeal, Nadia befriends a homeless man.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eFMWIjnu33Z950RbR7XbSg5ybl7.jpg",
+          "title": "A Warm Body"
+        },
+        {
+          "aired": "2019-02-01",
+          "plot": "Meticulous as always, Alan steadies himself for a rendez-vous with his girlfriend. Meanwhile, Nadia's latest discovery sends her reeling.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mqrU8Fr5t3ebZD7KlKiX5bPOWXj.jpg",
+          "title": "Alan's Routine"
+        },
+        {
+          "aired": "2019-02-01",
+          "plot": "Perturbed by the changes in his routine, Alan shows up at Nadia's birthday party. Nadia tries to make amends to John, and Alan confronts Mike.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/reIneUcESV0gxJn8J0iInbKBuxp.jpg",
+          "title": "Superiority Complex"
+        },
+        {
+          "aired": "2019-02-01",
+          "plot": "Nadia and Alan try to figure out how they're connected. Alan can't remember his first death, so Nadia follows him over the course of his night.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3VTf94We8as1yxbYm3uMHkRDIbD.jpg",
+          "title": "Reflection"
+        },
+        {
+          "aired": "2019-02-01",
+          "plot": "As the present begins to unravel, Nadia's troubled past comes back to haunt her, and Alan worries they're running out of time.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/htJsoRseIf0rRV9IBHUdYUvcnnG.jpg",
+          "title": "The Way Out"
+        },
+        {
+          "aired": "2019-02-01",
+          "plot": "Nadia and Alan look for each other and finally cross paths at the deli. Something's not right -- but they're not giving up on each other.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/76Nd2nqaEbf5iqQwTOjLRRUHTmU.jpg",
+          "title": "Ariadne"
+        }
       ]
     }
   },

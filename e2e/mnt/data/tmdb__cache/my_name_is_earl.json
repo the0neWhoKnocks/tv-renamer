@@ -1,190 +1,1836 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy"
+  ],
   "id": 2317,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/75397/clearart/my-name-is-earl-4e5d1e2c74f37.png",
+        "https://assets.fanart.tv/fanart/tv/75397/clearart/my-name-is-earl-4fb38886596d5.png",
+        "https://assets.fanart.tv/fanart/tv/75397/clearart/M_75397 (2).png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/75397/clearlogo/MyNameIsEarl-75397-2.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/75397/seasonthumb/my-name-is-earl-526d2530b1bdf.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/75397/seasonthumb/my-name-is-earl-526d255ce84c1.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/75397/seasonthumb/my-name-is-earl-526d25685b0e7.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/75397/seasonthumb/my-name-is-earl-526d257356bc3.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/75397/showbackground/my-name-is-earl-52ed1edb11dbe.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/showbackground/my-name-is-earl-55990ed3155e4.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/showbackground/my-name-is-earl-55990ed315ad6.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/showbackground/my-name-is-earl-55990ed315f14.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/showbackground/my-name-is-earl-55990ed31635a.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/showbackground/my-name-is-earl-55990ed3166fd.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/showbackground/my-name-is-earl-55990ed316a89.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/showbackground/my-name-is-earl-5a1ae38a2c249.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/75397/tvbanner/my-name-is-earl-5b54c53c8ad64.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/tvbanner/my-name-is-earl-54232f1a67f84.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/75397/tvposter/my-name-is-earl-5a1ae44d3a968.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/tvposter/my-name-is-earl-5b54cb497e948.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/tvposter/my-name-is-earl-52ee0ff46bdec.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/tvposter/my-name-is-earl-526e31e6cdd68.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/tvposter/my-name-is-earl-526e31e6ce85f.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/tvposter/my-name-is-earl-526e31e6cf154.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/75397/tvthumb/M_75397 (2).jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/tvthumb/my-name-is-earl-517ca4c910e7f.jpg",
+        "https://assets.fanart.tv/fanart/tv/75397/tvthumb/M_75397.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/2YnILU5G2ZLgNcg23qKxt1VE9Vh.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/57shLTTkHvhLUhyP1t0lNZPoAxD.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "My Name Is Earl",
+  "plot": "When petty criminal Earl Hickey wins the lottery, he sets off on a quest to repair his questionable karma.",
+  "premiered": "2005-09-20",
+  "status": "Canceled",
+  "studios": [
+    "NBC"
+  ],
+  "actors": [
+    {
+      "name": "Jason Lee",
+      "order": 0,
+      "role": "Earl Hickey",
+      "thumb": "/64tEXo3xR9IFXsIJKSlJ2LUrrEA.jpg"
+    },
+    {
+      "name": "Ethan Suplee",
+      "order": 1,
+      "role": "Randy Hickey",
+      "thumb": "/gGSb8P9nQdDNu0JC65zyAyMUFhS.jpg"
+    },
+    {
+      "name": "Nadine Velázquez",
+      "order": 2,
+      "role": "Catalina Aruca",
+      "thumb": "/uARYneOeME6qChGb029BAUQuHuM.jpg"
+    },
+    {
+      "name": "Jaime Pressly",
+      "order": 3,
+      "role": "Joy Turner",
+      "thumb": "/zH677OefzDCCbzJ3s1Tt4iKn1YX.jpg"
+    },
+    {
+      "name": "Eddie Steeples",
+      "order": 5,
+      "role": "Darnell Turner",
+      "thumb": "/rD7gNnaa4hQeIxyBBLYkEUWoIuD.jpg"
+    },
+    {
+      "name": "Noah Crawford",
+      "order": 4,
+      "role": "Young Earl",
+      "thumb": "/c3R1GuH9wzKUlyZIM8f6uzY0lG9.jpg"
+    },
+    {
+      "name": "Louis T. Moyle",
+      "order": 6,
+      "role": "Dodge",
+      "thumb": null
+    },
+    {
+      "name": "Trey Carlisle",
+      "order": 7,
+      "role": "Earl Jr.",
+      "thumb": null
+    },
+    {
+      "name": "Mike Cochrane",
+      "order": 8,
+      "role": "Crab Shack Regular",
+      "thumb": null
+    },
+    {
+      "name": "Elora Night",
+      "order": 9,
+      "role": "Sarah",
+      "thumb": null
+    },
+    {
+      "name": "Dale Dickey",
+      "order": 0,
+      "role": "",
+      "thumb": "/588WXHw17JYi2rAqIVQXzgYENu3.jpg"
+    },
+    {
+      "name": "Giovanni Ribisi",
+      "order": 121,
+      "role": "Ralph Mariano",
+      "thumb": "/8EAiS9D3YtGOrwNM0OrwmDpWK7s.jpg"
+    },
+    {
+      "name": "Beau Bridges",
+      "order": 123,
+      "role": "",
+      "thumb": "/4Z5E1ei0wfJa5kq2P7LV6lUwwpy.jpg"
+    },
+    {
+      "name": "Nancy Lenehan",
+      "order": 3,
+      "role": "",
+      "thumb": "/chVVOrraeMfM6UEDB3WfllsxxDJ.jpg"
+    },
+    {
+      "name": "Alyssa Milano",
+      "order": 0,
+      "role": "",
+      "thumb": "/q5RAaX57dLvlpigAhbX3lCb2dkZ.jpg"
+    },
+    {
+      "name": "Silas Weir Mitchell",
+      "order": 1,
+      "role": "",
+      "thumb": "/6TDZz2GdGDorb7ZGDpotMn27cOm.jpg"
+    },
+    {
+      "name": "Timothy Stack",
+      "order": 3,
+      "role": "",
+      "thumb": "/wMOpamq0meq9NSE5MMMV4x1MjFJ.jpg"
+    },
+    {
+      "name": "Jessica Cauffiel",
+      "order": 0,
+      "role": "",
+      "thumb": "/hNS7NYPPU1PLt8H8lcCmQwk1YuO.jpg"
+    },
+    {
+      "name": "Craig T. Nelson",
+      "order": 1,
+      "role": "",
+      "thumb": "/gQOdZNaAqvYTY48iXwkKm1zbHyS.jpg"
+    },
+    {
+      "name": "Beth Riesgraf",
+      "order": 0,
+      "role": "",
+      "thumb": "/hFCMloGRDOJng6F1L41PTO3CBuE.jpg"
+    },
+    {
+      "name": "Tim DeKay",
+      "order": 0,
+      "role": "",
+      "thumb": "/pHPSlTKNbcspyquAHJHWPAKZKPP.jpg"
+    },
+    {
+      "name": "Bob Clendenin",
+      "order": 0,
+      "role": "",
+      "thumb": "/bB8teXzKyQsJ4avnPLqbkSww23R.jpg"
+    },
+    {
+      "name": "Mike O'Malley",
+      "order": 3,
+      "role": "",
+      "thumb": "/blpOdhEfAn9llt8gyYwIbqyaT2y.jpg"
+    },
+    {
+      "name": "Max Perlich",
+      "order": 5,
+      "role": "",
+      "thumb": "/hdyemQG5w6xGtcDsqnuZkZV11nG.jpg"
+    },
+    {
+      "name": "Ray Santiago",
+      "order": 121,
+      "role": "",
+      "thumb": "/hmRNXZ0A2MEswe0BUgXBATk6OSO.jpg"
+    },
+    {
+      "name": "John Leguizamo",
+      "order": 121,
+      "role": "",
+      "thumb": "/2P0LTIKMUZn7BG1q9S9e5FZFZkn.jpg"
+    },
+    {
+      "name": "Kathryn Joosten",
+      "order": 0,
+      "role": "",
+      "thumb": "/kkPEyfRYwrbSdQQwOwQo8qFTiKP.jpg"
+    },
+    {
+      "name": "Kadeem Hardison",
+      "order": 0,
+      "role": "",
+      "thumb": "/swexf3AEacs9Ep2oDcaUyE5XBdj.jpg"
+    },
+    {
+      "name": "David Arquette",
+      "order": 0,
+      "role": "",
+      "thumb": "/74wJjoywG7zCrNMWbRxwoyOj7Ub.jpg"
+    },
+    {
+      "name": "Lou Wagner",
+      "order": 0,
+      "role": "",
+      "thumb": "/4AiQ0fbSjHrYrnr0uX3R8CKmWMb.jpg"
+    },
+    {
+      "name": "Jimmi Simpson",
+      "order": 0,
+      "role": "",
+      "thumb": "/uVyNmaRuiih2B1NUeTxuRKBlPon.jpg"
+    },
+    {
+      "name": "Leigh-Allyn Baker",
+      "order": 0,
+      "role": "",
+      "thumb": "/gYlBqeBk2JkTZXyfgQ5SKiFd1QB.jpg"
+    },
+    {
+      "name": "Michael Patrick McGill",
+      "order": 0,
+      "role": "",
+      "thumb": "/kKKnwvtxhXaJtYpdZUtjXHO4f26.jpg"
+    },
+    {
+      "name": "Lin Shaye",
+      "order": 0,
+      "role": "",
+      "thumb": "/aL87Za52elH81zMiXQn5C7AXAeg.jpg"
+    },
+    {
+      "name": "Larry Hankin",
+      "order": 0,
+      "role": "",
+      "thumb": "/2uR8SZ9geiSQOpBhKrerh9qY7CX.jpg"
+    },
+    {
+      "name": "Miriam Shor",
+      "order": 0,
+      "role": "",
+      "thumb": "/jOc3jxdS7zvSm7ymoZJuPOCFGwE.jpg"
+    },
+    {
+      "name": "Tatum McCann",
+      "order": 0,
+      "role": "",
+      "thumb": "/1MdjMMaf016Pf1hSQyDJ7TLvSHC.jpg"
+    },
+    {
+      "name": "DJ Qualls",
+      "order": 0,
+      "role": "",
+      "thumb": "/8Hw3oa9v0Kc0aXLBaAmEvVMH66f.jpg"
+    },
+    {
+      "name": "Dennis Burkley",
+      "order": 0,
+      "role": "",
+      "thumb": "/d0CcBC887DciCRF7KLKKAXzIs0I.jpg"
+    },
+    {
+      "name": "John Henson",
+      "order": 0,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Paul Teutul, Jr.",
+      "order": 0,
+      "role": "",
+      "thumb": "/vuk9Mhy7zR6BFMvYXacufQiqxt9.jpg"
+    },
+    {
+      "name": "Johnny Galecki",
+      "order": 0,
+      "role": "Scott",
+      "thumb": "/ta3YYBteR0qB2h5Qx1r42pFYcda.jpg"
+    },
+    {
+      "name": "Malcolm David Kelley",
+      "order": 0,
+      "role": "",
+      "thumb": "/iI2dDYZMugpsh0voos1GMT3Cwet.jpg"
+    },
+    {
+      "name": "Jerry Van Dyke",
+      "order": 0,
+      "role": "",
+      "thumb": "/eNXhtKd9CO65H6OnZHRiVxNeVm4.jpg"
+    },
+    {
+      "name": "Joan Blair",
+      "order": 0,
+      "role": "",
+      "thumb": "/2xN0dnYYRa4QpnsFcAdJxvSUsk7.jpg"
+    },
+    {
+      "name": "Ewen Bremner",
+      "order": 0,
+      "role": "",
+      "thumb": "/d8ZVdFiJHRl43tApt2w43Ha6prf.jpg"
+    },
+    {
+      "name": "Norm Macdonald",
+      "order": 0,
+      "role": "Little Chubby",
+      "thumb": "/pGOpdt9Xy9YO2nUEWgp8G89KC5r.jpg"
+    },
+    {
+      "name": "Jenna Elfman",
+      "order": 0,
+      "role": "",
+      "thumb": "/AsXlf2XtVF3tyx0GrUPRq72NLIa.jpg"
+    },
+    {
+      "name": "Ed Brigadier",
+      "order": 0,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Brett Butler",
+      "order": 0,
+      "role": "",
+      "thumb": "/r39kkAf5GuHAD5vNI8bDDsUZEGP.jpg"
+    },
+    {
+      "name": "Ellen Albertini Dow",
+      "order": 0,
+      "role": "",
+      "thumb": "/8FP0z70otkYqc1J3EfS6IWLB96O.jpg"
+    },
+    {
+      "name": "Erik Estrada",
+      "order": 0,
+      "role": "",
+      "thumb": "/qrx8AHvFiGzj33W1qgIMAEL5uDZ.jpg"
+    },
+    {
+      "name": "Melody Thomas Scott",
+      "order": 0,
+      "role": "",
+      "thumb": "/93jV1Oi0Ocpfu6vFac8zbzcoSuL.jpg"
+    },
+    {
+      "name": "Christine Taylor",
+      "order": 0,
+      "role": "",
+      "thumb": "/pObWuDJmyDJAGijDVdRO9phX3Md.jpg"
+    },
+    {
+      "name": "Sunkrish Bala",
+      "order": 0,
+      "role": "",
+      "thumb": "/sY8vTJ2ZNkEqiELkeILRmjdrp2K.jpg"
+    },
+    {
+      "name": "Jon Heder",
+      "order": 0,
+      "role": "",
+      "thumb": "/xGLRJEKKmNsDpz6MefPMU4gqQj1.jpg"
+    },
+    {
+      "name": "Judy Greer",
+      "order": 0,
+      "role": "Maggie Lester",
+      "thumb": "/jW4ui3qQj7kH34OsmcNRsJ9fSdQ.jpg"
+    },
+    {
+      "name": "Jenny McCarthy",
+      "order": 0,
+      "role": "",
+      "thumb": "/vNTcoF3ZQqVuJfbhLRyLgjHTjrl.jpg"
+    },
+    {
+      "name": "Amy Sedaris",
+      "order": 0,
+      "role": "",
+      "thumb": "/2HI7CSudw9oN7AvprxEDR2AaEo2.jpg"
+    },
+    {
+      "name": "Billy Gardell",
+      "order": 0,
+      "role": "",
+      "thumb": "/aEOsZg1mroO9O5NneqjpPwFL9RL.jpg"
+    },
+    {
+      "name": "Carla Jimenez",
+      "order": 0,
+      "role": "",
+      "thumb": "/oqFrZJ2keQS66BZ5Wt2yB2QVxaG.jpg"
+    },
+    {
+      "name": "Marcia Ann Burrs",
+      "order": 0,
+      "role": "",
+      "thumb": "/bEytLgAt4gRXk0l8yxPJkbQbijk.jpg"
+    },
+    {
+      "name": "Seth Green",
+      "order": 0,
+      "role": "",
+      "thumb": "/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg"
+    },
+    {
+      "name": "Page Kennedy",
+      "order": 0,
+      "role": "",
+      "thumb": "/hM7yB43TFtzKg8W3rW0LOceVnok.jpg"
+    },
+    {
+      "name": "Timothy Olyphant",
+      "order": 0,
+      "role": "",
+      "thumb": "/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg"
+    },
+    {
+      "name": "Kurt Fuller",
+      "order": 0,
+      "role": "",
+      "thumb": "/kV02XLACLFd1YYQdSOgqy6lFmQ3.jpg"
+    },
+    {
+      "name": "Willam Belli",
+      "order": 0,
+      "role": "",
+      "thumb": "/Ac5Lr6f4ZkZWEr4wHq2B8bCid5w.jpg"
+    },
+    {
+      "name": "Don Swayze",
+      "order": 0,
+      "role": "",
+      "thumb": "/lewJdPYpyb8sacBQWLAJFNhpeAU.jpg"
+    },
+    {
+      "name": "Samm Levine",
+      "order": 1,
+      "role": "",
+      "thumb": "/d7ECYdqEMKQQhqp9cmIRfmjWKjK.jpg"
+    },
+    {
+      "name": "Arjay Smith",
+      "order": 1,
+      "role": "",
+      "thumb": "/gxgUd3LSLlrskWOQoCGSfflyv1A.jpg"
+    },
+    {
+      "name": "Ernie Grunwald",
+      "order": 1,
+      "role": "Pierre",
+      "thumb": "/ylCALgLXEmahsIh7jHwEZHq5tSu.jpg"
+    },
+    {
+      "name": "Lindsay Hollister",
+      "order": 1,
+      "role": "",
+      "thumb": "/uzrHigS961NZWADMoCQ39stLr0Y.jpg"
+    },
+    {
+      "name": "Mackenzie Astin",
+      "order": 1,
+      "role": "",
+      "thumb": "/2cE08v6N7OyWH8OqenYelQ2dEWy.jpg"
+    },
+    {
+      "name": "Blake Clark",
+      "order": 1,
+      "role": "",
+      "thumb": "/pA4OZQPyATEX9AqZYUIOItQ447o.jpg"
+    },
+    {
+      "name": "Julia Vera",
+      "order": 1,
+      "role": "",
+      "thumb": "/lmB2sxRlUi2I8krf3XpPOVbfp0K.jpg"
+    },
+    {
+      "name": "Jack Betts",
+      "order": 1,
+      "role": "",
+      "thumb": "/f03shMGYcbPG2EyjkIVAR0YA1RA.jpg"
+    },
+    {
+      "name": "Kevin Sussman",
+      "order": 1,
+      "role": "",
+      "thumb": "/tLqrE9uz6GKoeoDC7LU7cE6oF2Q.jpg"
+    },
+    {
+      "name": "Tamala Jones",
+      "order": 1,
+      "role": "",
+      "thumb": "/ygJISciCMS9apZBpIk44QR7JkrG.jpg"
+    },
+    {
+      "name": "Marlee Matlin",
+      "order": 1,
+      "role": "",
+      "thumb": "/1iV3yA07kdj7RFj2yyzwO2T6M8o.jpg"
+    },
+    {
+      "name": "Terence Bernie Hines",
+      "order": 1,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Missi Pyle",
+      "order": 1,
+      "role": "",
+      "thumb": "/qIeLygSouOCNuESQMvf2Pz9mft.jpg"
+    },
+    {
+      "name": "Brad Grunberg",
+      "order": 1,
+      "role": "",
+      "thumb": "/4ZBParqJyo1eJ1ti5QcnejP0ZJx.jpg"
+    },
+    {
+      "name": "Tiffany Haddish",
+      "order": 1,
+      "role": "",
+      "thumb": "/ivLhcXp38OlPybsFe8gSCklcYxP.jpg"
+    },
+    {
+      "name": "Bill Erwin",
+      "order": 1,
+      "role": "",
+      "thumb": "/b5QFi1pQOpHmz4oWCJ9ltcHeH2v.jpg"
+    },
+    {
+      "name": "Dona Hardy",
+      "order": 1,
+      "role": "",
+      "thumb": "/dvtbAT1L8FCwkPdaFnVC5rPzuCG.jpg"
+    },
+    {
+      "name": "William Schallert",
+      "order": 1,
+      "role": "",
+      "thumb": "/862YCXRbmhADXVC0RaxfwNT9g4E.jpg"
+    },
+    {
+      "name": "Montel Williams",
+      "order": 1,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Peggy Stewart",
+      "order": 1,
+      "role": "",
+      "thumb": "/ple7j4xTyiEhU5KPZWKPYHtSepy.jpg"
+    },
+    {
+      "name": "Kathy Kinney",
+      "order": 1,
+      "role": "",
+      "thumb": "/3UDuBZVbTjial2JrmLhJnNItLl4.jpg"
+    },
+    {
+      "name": "Kerry O'Malley",
+      "order": 1,
+      "role": "",
+      "thumb": "/8a1wpq7lC8S3XiokACHkJOqJv5v.jpg"
+    },
+    {
+      "name": "Johnny Sneed",
+      "order": 1,
+      "role": "",
+      "thumb": "/sDjNDC2oVjsMY9ooBtbDadet2MS.jpg"
+    },
+    {
+      "name": "David Reivers",
+      "order": 1,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Khamani Griffin",
+      "order": 1,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Michael Bailey Smith",
+      "order": 1,
+      "role": "",
+      "thumb": "/nvQbMma1PzxDgjfnECsgYZrw3k6.jpg"
+    },
+    {
+      "name": "Burt Reynolds",
+      "order": 2,
+      "role": "",
+      "thumb": "/iBtcPHUOhA3xH3LMPLRJrQRKI3W.jpg"
+    },
+    {
+      "name": "Victor Raider-Wexler",
+      "order": 2,
+      "role": "",
+      "thumb": "/A0GHKqatHaLOJCEXXuTJhwHphV1.jpg"
+    },
+    {
+      "name": "Booth Colman",
+      "order": 2,
+      "role": "",
+      "thumb": "/hB0mszIR6KeexXzqfHBOKbHYqv7.jpg"
+    },
+    {
+      "name": "Jeremy Howard",
+      "order": 2,
+      "role": "",
+      "thumb": "/tkZNfmlNkiH7UZxYDaDqO9z1TuV.jpg"
+    },
+    {
+      "name": "Tucker Smallwood",
+      "order": 2,
+      "role": "",
+      "thumb": "/shcF79vg7yQ5zF2FpAnged0WxgL.jpg"
+    },
+    {
+      "name": "Mark Christopher Lawrence",
+      "order": 2,
+      "role": "",
+      "thumb": "/uQgXQbaDS0hoPyqUhs5Z97KIZPA.jpg"
+    },
+    {
+      "name": "Chloë Grace Moretz",
+      "order": 2,
+      "role": "Candy Stoker",
+      "thumb": "/cIZNPpvdSPvEnwCuXvxwWcEUezM.jpg"
+    },
+    {
+      "name": "Andrew Lewis Caldwell",
+      "order": 2,
+      "role": "",
+      "thumb": "/2g33J4GnUzhCU3GYSswPAh06j9l.jpg"
+    },
+    {
+      "name": "Emilio Rivera",
+      "order": 2,
+      "role": "",
+      "thumb": "/brtL6uF2cWCN3LhQYWymHPdTY88.jpg"
+    },
+    {
+      "name": "Harland Williams",
+      "order": 2,
+      "role": "",
+      "thumb": "/sTYycQ7LXXXXTrM0BJGrnhWGYmM.jpg"
+    },
+    {
+      "name": "Leo Fitzpatrick",
+      "order": 2,
+      "role": "",
+      "thumb": "/iZG9G5DstChbwlL9mAQ727heZX.jpg"
+    },
+    {
+      "name": "Carel Struycken",
+      "order": 2,
+      "role": "",
+      "thumb": "/3y5Mgtgpv5OBeQJpsCTCp5j7SHW.jpg"
+    },
+    {
+      "name": "Laura Johnson",
+      "order": 2,
+      "role": "",
+      "thumb": "/aUZdnEjPBZyVjBbndk4FZEa0H2o.jpg"
+    },
+    {
+      "name": "Geoffrey Lewis",
+      "order": 2,
+      "role": "",
+      "thumb": "/codb8rrsNqnsq3e0MHkH3kAAJwg.jpg"
+    },
+    {
+      "name": "Yvette Cruise",
+      "order": 2,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Dax Shepard",
+      "order": 2,
+      "role": "",
+      "thumb": "/28lPuIJDTjOOpJCowYllbiDXi7F.jpg"
+    },
+    {
+      "name": "Beth Grant",
+      "order": 2,
+      "role": "",
+      "thumb": "/zf3ti0PVwZs0kcj6XxEQwlkVpLy.jpg"
+    },
+    {
+      "name": "Juliette Lewis",
+      "order": 2,
+      "role": "",
+      "thumb": "/vvitS2sZSM9RupCf5B0sZYNS6wT.jpg"
+    },
+    {
+      "name": "Shailene Woodley",
+      "order": 3,
+      "role": "",
+      "thumb": "/ryWimB6zczsIq329H4SmvQl5RIy.jpg"
+    },
+    {
+      "name": "Benjamín Benítez",
+      "order": 3,
+      "role": "",
+      "thumb": "/iEpXrHdn7FmQ2OKURvX0OfMQTAD.jpg"
+    },
+    {
+      "name": "Jon Favreau",
+      "order": 3,
+      "role": "",
+      "thumb": "/8MtRRnEHaBSw8Ztdl8saXiw1egP.jpg"
+    },
+    {
+      "name": "Paul Ben-Victor",
+      "order": 3,
+      "role": "",
+      "thumb": "/qhxGWVppbnwF4YuzQQtIym5z99E.jpg"
+    },
+    {
+      "name": "Patricia Belcher",
+      "order": 3,
+      "role": "",
+      "thumb": "/fT3aNLRdvqihRxF5gFrUWzyuPu4.jpg"
+    },
+    {
+      "name": "E.J. Callahan",
+      "order": 3,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Jesse Head",
+      "order": 3,
+      "role": "",
+      "thumb": "/c9v7sEG4rUobl5cYinuF7Np5NtS.jpg"
+    },
+    {
+      "name": "Tyler Kain",
+      "order": 4,
+      "role": "",
+      "thumb": "/w9Ovo5JzdA4asvhI84jMpea6Vyt.jpg"
+    },
+    {
+      "name": "Clint Howard",
+      "order": 4,
+      "role": "",
+      "thumb": "/4i6JcDZYPxQfwOOTLkzrQBZvwGz.jpg"
+    },
+    {
+      "name": "Mary-Pat Green",
+      "order": 4,
+      "role": "",
+      "thumb": "/cLqn3eEGnE5zGxT2KBXRSkahrPE.jpg"
+    },
+    {
+      "name": "Penny Balfour",
+      "order": 4,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Frances Callier",
+      "order": 115,
+      "role": "",
+      "thumb": "/aaYVxIu0DyknXITM8QGraXntDTj.jpg"
+    },
+    {
+      "name": "Darcy Shean",
+      "order": 116,
+      "role": "",
+      "thumb": "/b2CIf8boiNRZrVpS2LlR3keCOag.jpg"
+    },
+    {
+      "name": "Deborah Ann Woll",
+      "order": 116,
+      "role": "Greta",
+      "thumb": "/yKhny4ZkLmAGlrp37mWzzkvGApb.jpg"
+    },
+    {
+      "name": "Stacy Reed Payton",
+      "order": 117,
+      "role": "Teacher",
+      "thumb": "/4XNcbjjBcFBixUlAIN681xcRcix.jpg"
+    },
+    {
+      "name": "Christian Slater",
+      "order": 119,
+      "role": "",
+      "thumb": "/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg"
+    },
+    {
+      "name": "Charles S. Dutton",
+      "order": 121,
+      "role": "",
+      "thumb": "/zX8lrPMMC6Uh1ZrNkcrvempl02X.jpg"
+    },
+    {
+      "name": "Sean Astin",
+      "order": 122,
+      "role": "",
+      "thumb": "/j7ufzsiGkUck6HUAuQciXVnowmO.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Bad Karma (An Earl Misadventure)",
-        "Karma Is A Funny Thing",
-        "Makin' Things Right",
-        "Season 1 Deleted Scenes",
-        "Season 2 Deleted Scenes",
-        "Karma: Take 2 Blooper Reel",
-        "The Stoner Files: From Start To Finish",
-        "The Web Cam - Earl",
-        "Under The Shell: The Mr. Turtle Commentary",
-        "Those Guys From Those Episodes: Creating The Characters",
-        "Season 3 Gag Reel",
-        "Season 3 Deleted Scenes",
-        "My Name is Earl as a Telenovela",
-        "Season 4 Delete Scenes",
-        "Season 4 Gag Reel",
-        "Earl's Fan Mail",
-        "Deleted Scenes from 'Monkeys in Space'",
-        "Deleted Scenes from 'O Karma, Where Art Thou?'",
-        "Deleted Scenes from 'Something to Live For'",
-        "Deleted Scenes from 'The Professor' (1)",
-        "Deleted Scenes from 'The Professor' (2)",
-        "Deleted Scenes from 'Stole a Badge'",
-        "Deleted Scene from Very Bad Things",
-        "Deleted Scene from Van Hickey",
-        "Deleted Scene from Mad a Lady Think I Was God",
-        "Deleted Scene from Mailbox",
-        "Deleted Scene from Born A Gamblin' Man",
-        "Deleted Scene from South of the Boarder, Part Uno",
-        "Deleted Scene from Kept a Guy Locked In a Truck",
-        "Deleted Scene from B.L.O.W.",
-        "Deleted Scene from The Birthday Party",
-        "Deleted Scene from Two Balls, Two Strikes",
-        "The Web Cam - Randy",
-        "The Web Cam - Joy",
-        "The Web Cam - Darnell",
-        "The Web Cam - Earl & Randy",
-        "The Web Cam - Catalina",
-        "Deleted Scene from Frank's Girl",
-        "Deleted Scene from Our Other Cops is On",
-        "Deleted Scene from I Won't Die With a Little Help From My Friends",
-        "Deleted Scene from Stole a Motorcycle",
-        "Deleted Scene from No Heads and a Duffel Bag",
-        "Deleted Scene from Killerball",
-        "Deleted Scene from Girl Earl",
-        "Deleted Scene from The Magic Hour",
-        "Deleted Scene from Vote For This And I Promise to do Something Crazy at the Primetime Emmys",
-        "Deleted Scene from We've Got Spirit",
-        "Deleted Scene from Quit Your Snitchin'",
-        "Deleted Scene from Little Bad Voodoo Brother",
-        "Deleted Scene from Sold a Guy a Lemon Car",
-        "Deleted Scene from Earl and Joy's Anniversary",
-        "Deleted Scene from Nature's Game Show",
-        "Deleted Scene from Reading is a Funa Mental Case",
-        "Deleted Scene from Darnell Outed (2)",
-        "Deleted Scene from My Name is Alias",
-        "Deleted Scene from Chaz Daltons Space Academy",
-        "Deleted Scene from Gospel",
-        "Deleted Scene from Inside Probe (1)",
-        "Deleted Scene from Inside Probe (2)",
-        "Deleted Scene from Dodge's Dad",
-        "'2 The Max' Movie Trailer",
-        "Deleted Scene from 'Pilot'",
-        "Deleted Scene from 'Broke Joy's Fancy Figurine'"
+        {
+          "aired": "",
+          "plot": "In this mini-episode Jason Lee introduces us to a \"lost pilot\" of \"My Name Is Earl\", in which Earl watches Stewie Griffin on TV instead of Carson Daly and decides to get revenge on everyone that has ever \"screwed him over\".",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tkGMNuvGkm2dRneqkM4azHk7fGM.jpg",
+          "title": "Bad Karma (An Earl Misadventure)"
+        },
+        {
+          "aired": "",
+          "plot": "Season 1 Blooper Reel.",
+          "thumbnail": "",
+          "title": "Karma Is A Funny Thing"
+        },
+        {
+          "aired": "",
+          "plot": "Behind the Scenes of \"My Name Is Earl\"",
+          "thumbnail": "",
+          "title": "Makin' Things Right"
+        },
+        {
+          "aired": "",
+          "plot": "Deleted Scene from Pilot\n\nDeleted Scene from Broke Joy's Fancy Figurine",
+          "thumbnail": "",
+          "title": "Season 1 Deleted Scenes"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Season 2 Deleted Scenes"
+        },
+        {
+          "aired": "",
+          "plot": "Season 2 blooper reel.",
+          "thumbnail": "",
+          "title": "Karma- Take 2 Blooper Reel"
+        },
+        {
+          "aired": "",
+          "plot": "Making an episode by Marc Buckland, executive producer/director.",
+          "thumbnail": "",
+          "title": "The Stoner Files- From Start To Finish"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "The Web Cam - Earl"
+        },
+        {
+          "aired": "",
+          "plot": "Season 3 DVD Special Feature. Clips presented by Mr. Turtle",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w83IPxdcFqr0DZ4zfInGJlGH0hN.jpg",
+          "title": "Under The Shell- The Mr. Turtle Commentary"
+        },
+        {
+          "aired": "",
+          "plot": "Season 3 DVD Special Feature.",
+          "thumbnail": "",
+          "title": "Those Guys From Those Episodes- Creating The Characters"
+        },
+        {
+          "aired": "",
+          "plot": "Season 3 DVD Special Feature.",
+          "thumbnail": "",
+          "title": "Season 3 Gag Reel"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Season 3 Deleted Scenes"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "My Name is Earl as a Telenovela"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Season 4 Delete Scenes"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Season 4 Gag Reel"
+        },
+        {
+          "aired": "",
+          "plot": "Season 4 Special",
+          "thumbnail": "",
+          "title": "Earl's Fan Mail"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scenes from 'Monkeys in Space'"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scenes from 'O Karma, Where Art Thou'"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scenes from 'Something to Live For'"
+        },
+        {
+          "aired": "",
+          "plot": "Deleted Scene from The Professor - Original Make-Up",
+          "thumbnail": "",
+          "title": "Deleted Scenes from 'The Professor' (1)"
+        },
+        {
+          "aired": "",
+          "plot": "Deleted Scene from The Professor - Frat Paddling",
+          "thumbnail": "",
+          "title": "Deleted Scenes from 'The Professor' (2)"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scenes from 'Stole a Badge'"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Very Bad Things"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Van Hickey"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Mad a Lady Think I Was God"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Mailbox"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Born A Gamblin' Man"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from South of the Boarder, Part Uno"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Kept a Guy Locked In a Truck"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from B.L.O.W."
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from The Birthday Party"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Two Balls, Two Strikes"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "The Web Cam - Randy"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "The Web Cam - Joy"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "The Web Cam - Darnell"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "The Web Cam - Earl & Randy"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "The Web Cam - Catalina"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Frank's Girl"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Our Other Cops is On"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from I Won't Die With a Little Help From My Friends"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Stole a Motorcycle"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from No Heads and a Duffel Bag"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Killerball"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Girl Earl"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from The Magic Hour"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Vote For This And I Promise to do Something Crazy at the Primetime Emmys"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from We've Got Spirit"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Quit Your Snitchin'"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Little Bad Voodoo Brother"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Sold a Guy a Lemon Car"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Earl and Joy's Anniversary"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Nature's Game Show"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Reading is a Funa Mental Case"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Darnell Outed (2)"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from My Name is Alias"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Chaz Daltons Space Academy"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Gospel"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Inside Probe (1)"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Inside Probe (2)"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from Dodge's Dad"
+        },
+        {
+          "aired": "",
+          "plot": "Earl Hickey presents 2 The Max movie trailer.\n\nSquid Attack",
+          "thumbnail": "",
+          "title": "'2 The Max' Movie Trailer"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from 'Pilot'"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Deleted Scene from 'Broke Joy's Fancy Figurine'"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Pilot",
-        "Quit Smoking",
-        "Randy's Touchdown",
-        "Faked My Own Death",
-        "Teacher Earl",
-        "Broke Joy's Fancy Figurine",
-        "Stole Beer From a Golfer",
-        "Joy's Wedding",
-        "Cost Dad the Election",
-        "White Lie Christmas",
-        "Barn Burner",
-        "O Karma, Where Art Thou?",
-        "Stole P's HD Cart",
-        "Monkeys in Space",
-        "Something to Live For",
-        "The Professor",
-        "Didn't Pay Taxes",
-        "Dad's Car",
-        "Y2K",
-        "Boogeyman",
-        "The Bounty Hunter",
-        "Stole a Badge",
-        "BB",
-        "Number One"
+        {
+          "aired": "2005-09-20",
+          "plot": "Today is the first day of the rest of Earl Hickey's life. After coming into a $100,000 scratch-off lottery ticket and losing it just as fast upon being hit by a car, Earl has an epiphany in the hospital--to make up for all the terrible things he's done in the past. With his brother Randy and a motel maid named Catalina, Earl writes up a list of every misdeed he was a part of. Earl sets out to do just that, starting with #64--Kenny James, a boy he picked on in elementary school.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r79tpa4fbOvClQynlXKkVZHiXTQ.jpg",
+          "title": "Pilot"
+        },
+        {
+          "aired": "2005-09-27",
+          "plot": "Earl must make amends to Donny, an intimidating thug who spent two years in jail for a robbery Earl committed. Oddly enough, the only way he can do this is by helping Donny's mom quit smoking. Meanwhile, Joy discovers she's the beneficiary of Earl's will and decides to kill him!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5d9Z1RfdfszSUfdVB9H9Lxx116f.jpg",
+          "title": "Quit Smoking"
+        },
+        {
+          "aired": "2005-10-04",
+          "plot": "Back in their high school days, Earl ruined Randy's chance to score a touchdown during a key football game; now Earl must figure out a way to make things right.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jnZ95AM2IJCqq8aNDxv1vW8TJVZ.jpg",
+          "title": "Randy's Touchdown"
+        },
+        {
+          "aired": "2005-10-11",
+          "plot": "When Earl meets a tough biker chick at a Halloween party, it looks like a match made in heaven--but when the costumes come off, the mismatch becomes apparent and Earl takes drastic measures to get out of the relationship.  Now, years later, Earl must find a way to make amends for deceiving the girl.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/238PJF30QVzQuJD1fWre4ErHP1s.jpg",
+          "title": "Faked My Own Death"
+        },
+        {
+          "aired": "2005-10-18",
+          "plot": "Earl decides to teach English as a Second language to cross \"Made fun of people with accents\" off his karma list. While Ralph an old friend is released from prison, Earl tries to convince him in the ways of karma however Ralph ends up kidnapping Randy trying to get his hands on Earl’s lotto winnings.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kptIgnPwzeoZMLzNO3ocyAoDAet.jpg",
+          "title": "Teacher Earl"
+        },
+        {
+          "aired": "2005-11-01",
+          "plot": "In order to replace a fancy figurine that he broke, Earl lends a hand to help Joy's former adversary and her daughter win a mother/daughter beauty pageant . However, Joy enters the pageant also with her \"dead\" mother trying to win that same figurine, hoping to trade it for a hot tub.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t27GiE37Jrb36KQL1jD5JYGRAAy.jpg",
+          "title": "Broke Joy's Fancy Figurine"
+        },
+        {
+          "aired": "2005-11-08",
+          "plot": "Earl attempts to help Scott get over his preoccupation with golf--an obsession caused when he and Randy started fixing Scott’s golf game to get free beer. But after becoming so thoroughly entangled in Scott’s personal life that he drives Randy away, Earl realizes that he may be the one with the obsession.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/siTR6o4ptXEaiXlkYbH7uzQstfz.jpg",
+          "title": "Stole Beer From a Golfer"
+        },
+        {
+          "aired": "2005-11-15",
+          "plot": "Darnell and Joy decided to tie the knot while Earl learns thru Randy’s invitation that he is not invited.  To make things worse Joy has scheduled the wedding on Earl’s birthday so that all of their friends will be unable to celebrate with him. A drunken Earl crashes the party accidentally breaking Joy’s nose and now is forced to add “ruined Joy’s wedding” to his list.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/joEaRNCxeLWri5eh0mdw4uEBGXI.jpg",
+          "title": "Joy's Wedding"
+        },
+        {
+          "aired": "2005-11-22",
+          "plot": "Earl tries to cross of number four off his list “Blew dad’s chance to be elected mayor”. Four years earlier, Carl Hickey ran for mayor to redirect a proposed airplane traffic route over his house and away from the wealthy part of town. Earl unfortunately ruins any chances of his father winning when caught in on tape assaulting a police officer.  Earl must now help his father get elected and mend his relationship with his father.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oyrgqxsrsPZa5wvySUZQHNmH935.jpg",
+          "title": "Cost Dad the Election"
+        },
+        {
+          "aired": "2005-12-06",
+          "plot": "As the holiday season comes under way a few secrets are exposed when Earl attempts to cross number seventy-four off of his list: \"always ruined Joy's Christmas.\" Earl, Randy, and Catalina enter a radio contest to win a brand new car for Joy to make up for all of the thoughtless Christmas presents Earl gave her while they were married. While Randy and Catalina vie over the car, Earl finds out that Joy's parents believe that he's still their son-in-law and that he's just returned from the war in Iraq. Joy is afraid to tell her father, an alleged racist, that she is now married to Darnell, so Earl plays the part, afraid of ruining another one of her Christmases.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4TizdQgioVdAv7QY4MtzhyIlUdr.jpg",
+          "title": "White Lie Christmas"
+        },
+        {
+          "aired": "2006-01-05",
+          "plot": "When trying to enroll her children into the Right Choice Ranch for troubled youth, Joy is denied enrollment because of a barn burning incident at the hands of a younger Earl. Earl, Randy and Catalina travel to the camp to make amends for the barn burning by building a pen for the camp’s ostrich.  Earl learns the real reason behind the barn burning incident and decides that every incident on his list after the fire should be shared by Randy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bP4omQkFgfX9Ma8PMyGxhCbikwE.jpg",
+          "title": "Barn Burner"
+        },
+        {
+          "aired": "2006-01-12",
+          "plot": "When Earl and Randy try to return a stolen wallet they find out taking the money had cost two newlyweds their honeymoon. In an attempt to make things right Earl takes over for the groom at his fast food restaurant. After time Earl finds out the boss is a jerk and Earl wonders how such a man with a luxurious house and beautiful wife could not be affected by the only thing he believes in, Karma.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j3X7bLMA0xg4dB2KTVmnWyN32Ou.jpg",
+          "title": "O Karma, Where Art Thou"
+        },
+        {
+          "aired": "2006-01-19",
+          "plot": "Earl crosses another number off the list when he returns Pops’ Weiner Hot Dog cart he and Ralph stole in his youth. The good deed does not last long as Ralph, who works for a competing franchise sets fire to Pops cart. Earl now must set things right with a bizarre plan while recruiting Randy, Joy, Catalina and Darnell to assist him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wGSaCJjHQ2V498T1dHS46TJbDvU.jpg",
+          "title": "Stole P's HD Cart"
+        },
+        {
+          "aired": "2006-01-26",
+          "plot": "Earl tackles number eighteen on his list when one of his old friends is arrested. Remebering that he told an inappropriate story at his birthday party he must give him one great day to make up the the terrible one before he was sent to prison.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qMrMqZHkcpJOmVwwh3TsQYtarfK.jpg",
+          "title": "Monkeys in Space"
+        },
+        {
+          "aired": "2006-02-02",
+          "plot": "Earl takes his car troubles as a sign that it is time for him to redeem himself for a long run of stealing gas out of a complete stranger's car.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ftz7zeQ2alMJ9I9YRpHS20iDZOi.jpg",
+          "title": "Something to Live For"
+        },
+        {
+          "aired": "2006-02-09",
+          "plot": "Earl's nervous about returning a laptop computer he stole from a college professor, mostly because he's uncomfortable around smart people. When the professor turns out to be a beautiful woman, he feels even more ill at ease, until she flatters him and asks him to speak about his list in front of her class. Meanwhile, Randy experiences fraternity life---and absolutely loves it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3Y71AsK9cbcgD8GDNHVpASveENC.jpg",
+          "title": "The Professor"
+        },
+        {
+          "aired": "2006-03-02",
+          "plot": "Earl attempts to cross off another deed of his list. This time trying to repay the government after failing to pay his taxes in the past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ezhJDgP9Z3JDB1vBKQSFISxRmfo.jpg",
+          "title": "Didn't Pay Taxes"
+        },
+        {
+          "aired": "2006-03-16",
+          "plot": "It's Mother's Day again when Earl  remembers that he has never given his mother a Mother's Day gift Just as he and Randy are about to finish carrying out his long overdue gift his mother decides her repayment should include Earl doing something for his father.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lHEfXNvdfOpZOl35EMWodY5xrUL.jpg",
+          "title": "Dad's Car"
+        },
+        {
+          "aired": "2006-03-23",
+          "plot": "When Earl is attempting to cross number 24 (\"Stole a red 'Take-a-number' machine” ) off his list, Randy tries to get Earl to back down by trying to make him remember, through a flashback, how they got the machine around New Year’s Eve 1999. Darnell convinces the gang to believe that Y2K will signal the end of the world and they, happily, will be the last people on Earth.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2LeKn5qB7mcAkrhb79Ulkzd5FHK.jpg",
+          "title": "Y2K"
+        },
+        {
+          "aired": "2006-03-30",
+          "plot": "Earl decides to cross off \"made a kid scared of the boogeyman\" from his list. Earl soon discovers just what kind of lasting affect he had on the little boy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kFglwobTeZuLNJ8d53QxdsGoGMV.jpg",
+          "title": "Boogeyman"
+        },
+        {
+          "aired": "2006-04-06",
+          "plot": "Number forty-five \"Ditched Jessie to Marry Joy\" is next on the list when Jessie, Earl's ex-girlfriend returns to town seeking revenge. Earl must protect Joy in a lakeside retreat while Randy fights not to reveal their location to Jessie.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sIYKNdu17ejHdmzNFDYYG0zHsuS.jpg",
+          "title": "The Bounty Hunter"
+        },
+        {
+          "aired": "2006-04-27",
+          "plot": "Earl tackles No. 127 on his list by making amends for pilfering a police officer's badge. When he discovers that the theft resulted in the cop's demotion, he tries to get the officer reinstated.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/byFdRd8GlcsWefCARLBQmzxHFK3.jpg",
+          "title": "Stole a Badge"
+        },
+        {
+          "aired": "2006-05-04",
+          "plot": "Earl attempts to cross out number 147 on his list \"Shot Gwen Waters with a BB Gun.\"  To make things right he must reunite Gwen with her estranged father which Earl finds increasingly difficult.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/clh7l1HwXrT42w1sKGBapHCs6pJ.jpg",
+          "title": "BB"
+        },
+        {
+          "aired": "2006-05-11",
+          "plot": "In the season finale, Earl decides to cross off the first number on his karma list, “Stole ten dollars from a guy at the Camden Market.” Earl to his dismay finds out that he owes much more than ten dollars, in fact he must surrender all his lotto winnings. Earl now ponders when karma is going to help him with his misfortunes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aGtgO8zP3Ra5elA7ouZO2womAv1.jpg",
+          "title": "Number One"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Very Bad Things",
-        "Jump For Joy",
-        "Sticks & Stones",
-        "Larceny of a Kitty Cat",
-        "Van Hickey",
-        "Made a Lady Think I Was God",
-        "Mailbox",
-        "Robbed a Stoner Blind",
-        "Born a Gamblin' Man",
-        "South of the Border: Part Uno",
-        "South of the Border: Part Dos",
-        "Our 'Cops' is On!",
-        "Buried Treasure",
-        "Kept a Guy Locked in a Truck",
-        "Foreign Exchange Student",
-        "Blow",
-        "The Birthday Party",
-        "Guess Who's Coming Out of Joy",
-        "Harassed a Reporter",
-        "Two Balls, Two Strikes",
-        "G.E.D.",
-        "Get a Real Job",
-        "The Trial"
+        {
+          "aired": "2006-09-21",
+          "plot": "When Joy and Darnell get into an argument over her surprise birthday, Earl jumps at the opportunity to cross off number 183 on his list “Never took Joy’s side”. Meanwhile Joy runs into various problems after trying to return a television set she recently purchased.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pxPqAxtN6WR7LON6lkgqLFrxMy6.jpg",
+          "title": "Very Bad Things"
+        },
+        {
+          "aired": "2006-09-28",
+          "plot": "In order to help a friend Earl has to raise a lot of money.  He goes to Richard Chubby (Burt Reynolds), owner of Club Chubby a local strip club.  He agrees to loan Earl the money if Earl can convince his most popular dancer to come back and work for him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d6y959NrT9TPAXB6NQRsulJpGLJ.jpg",
+          "title": "Jump For Joy"
+        },
+        {
+          "aired": "2006-10-05",
+          "plot": "Earl decides to cross off number ninety-one on his list \"Made fun of Maggie Lester for having a moustache.\" Earl and Randy visit Maggie who is now working for a carnival as \"The Amazing Bearded Woman\" meanwhile Joy has a run in with the law.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wBISLud5ebswRLmp19VXaJI7FLB.jpg",
+          "title": "Sticks & Stones"
+        },
+        {
+          "aired": "2006-10-12",
+          "plot": "Earl scratches number 56 off his list when he must return a prize winning cat back to its owner after sabotaging a cat show in Joy's favor. Meanwhile Randy forms an attraction with the cat’s owner.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mh3bOnwsYovAEpWtaWIQQGBwJnB.jpg",
+          "title": "Larceny of a Kitty Cat"
+        },
+        {
+          "aired": "2006-10-19",
+          "plot": "Earl tries to make amends with Tom (number 50), the older man they let be the lead singer in his band but then kicked out before their first performance.  While trying to arrange a reunion show Earl must also deal with Number 51, \"Slept with Ralph's mom.\"",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/beqslEohpfdxHZAFZdodBpZ9zaZ.jpg",
+          "title": "Van Hickey"
+        },
+        {
+          "aired": "2006-11-02",
+          "plot": "Earl takes on Number 12 on his list \"Made a lady think I was God.\"  Millie Banks, she was the manager of Earl's trailer park, he pretended to be the voice of God to get her to stop bothering them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zu674wVLOvoOTGadepBtnzkYMZF.jpg",
+          "title": "Made a Lady Think I Was God"
+        },
+        {
+          "aired": "2006-11-09",
+          "plot": "Catalina helps Earl cross off No. 75 on his list \"Used a mailbox as a trash can\" This leads to the discovery of two undelivered letters one is a declaration of a man's love the other reveals Darnell's secret.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7wmk6SrUcilWgFQ8Q2huVFvVFkI.jpg",
+          "title": "Mailbox"
+        },
+        {
+          "aired": "2006-11-16",
+          "plot": "In the middle of a heat wave, Earl decides to cross number 26 off his list \"Robbed a Stoner Blind.\" To accomplish this task Earl and Randy find Woody the stoner and must live an environmentally conscious life in the commune with Woody for a week.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bE6Jj0eXuPvnkar6L6nybZ6xp3S.jpg",
+          "title": "Robbed a Stoner Blind"
+        },
+        {
+          "aired": "2006-11-30",
+          "plot": "Earl tackles number 146 on his list.  He decides to make 274 bologna sandwiches for Kenny because he stole them from him in school when they were kids. While delivering the sandwiches, Earl moves onto a new mission, to teach Kenny how to gamble but has trouble stopping. Joy goes to group therapy for her anger management issues.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8IJVlSKHV0erftzn7ytsAXNSDq8.jpg",
+          "title": "Born a Gamblin' Man"
+        },
+        {
+          "aired": "2006-12-07",
+          "plot": "In the first half of this special one hour episode, Earl and Randy face problems in their quest to take Catalina off Earl's list and bring her home after she was deported because of Earl.  Joy's friendly attitude causes the neighbors to get closer and Darnell doesn't like it at all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d3M5VwUAs54iaOjz2aDhQuI5CpE.jpg",
+          "title": "South of the Border- Part Uno"
+        },
+        {
+          "aired": "2006-12-07",
+          "plot": "In the second half of this special one hour episode, Earl and Randy face problems in their quest to take Catalina off Earl's list and bring her home after she was deported because of Earl. Joy's friendly attitude causes the neighbors to get closer and Darnell doesn't like it at all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bslh7VEj5MT0q1Zn6Ln8Uok9wud.jpg",
+          "title": "South of the Border- Part Dos"
+        },
+        {
+          "aired": "2007-01-04",
+          "plot": "It's a trip down memory lane for Earl, Randy, Joy, Darnell and the Crab Shack regulars when they remember their fifteen minutes of fame watching a 2003 repeat of the TV show \"Cops,\" which was filmed in Camden County.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9lVU14CJIgQIMvVvRab04zwv3vd.jpg",
+          "title": "Our 'Cops' is On!"
+        },
+        {
+          "aired": "2007-01-11",
+          "plot": "In classic whodunit fashion, Earl must determine who took his stolen \"treasure\" so he can cross it off his list. Joy, Darnell and Randy all give their own version of what happened to the buried treasure.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xepwJLkAED1kyoXKS9HsgTjej6Y.jpg",
+          "title": "Buried Treasure"
+        },
+        {
+          "aired": "2007-01-18",
+          "plot": "Earl attempts to figure out how to make amends to a dead guy that he once locked in a truck.  Meanwhile, newlyweds Randy and Catalina go hunting for an apartment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2rox9xzXtG9pwM7DkBurY8rcLxA.jpg",
+          "title": "Kept a Guy Locked in a Truck"
+        },
+        {
+          "aired": "2007-02-01",
+          "plot": "Earl goes for #44 on his list trying to help Pierre, a French foreign exchange student, he made fun of when they went to school together. Earl flies him back to the US and he tries to hook Pierre up with a girl he had a crush on as a child. Meanwhile, newlyweds Randy and Catalina find their marriage changes in ways they would never imagine.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/882APzXWtmRwrQ2GdPBvp0WCnRt.jpg",
+          "title": "Foreign Exchange Student"
+        },
+        {
+          "aired": "2007-02-08",
+          "plot": "Earl takes on number 101 on his list, \"Stole a girl's identity.\"  The girl turns out to be Joy's half-sister that she never knew about and the one person that could possibly help her get sympathy from the jury.  The problem, Joy and Liberty are enemies.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sRMa8duenh7cSqTA1XPyjqpr8hk.jpg",
+          "title": "Blow"
+        },
+        {
+          "aired": "2007-02-15",
+          "plot": "Earl wants to use his birthday to look back on all the good he's done over the past year, but at his party, everyone seems to want to talk about his past misdeeds instead.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/RM0utBefvmKqagLYnBnLnLA9xM.jpg",
+          "title": "The Birthday Party"
+        },
+        {
+          "aired": "2007-02-22",
+          "plot": "With Joy now pregnant again, Earl looks back on her pregnancy during their marriage, and how his father was responsible for one of his first truly good deeds.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tJyjobRnZBypaw27RYbVoWYn1yK.jpg",
+          "title": "Guess Who's Coming Out of Joy"
+        },
+        {
+          "aired": "2007-04-12",
+          "plot": "As Earl and Randy work to cross No. 29 on the list \"Harassed A Reporter,\" Randy gets tired of being in his brother's shadow. In an attempt to distance himself from his brother, Randy realizes the true power of karma and the media.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xfjrfENn9Nc04Yu6TCmYehXhyuV.jpg",
+          "title": "Harassed a Reporter"
+        },
+        {
+          "aired": "2007-04-19",
+          "plot": "After Richard Chubby dies, Little Chubby comes to town to take over the family business. While Earl tries to cross an item off his list he learns the true meaning of sacrifice.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aZAqKzskerGgL7yS3U3N0hpds3I.jpg",
+          "title": "Two Balls, Two Strikes"
+        },
+        {
+          "aired": "2007-04-26",
+          "plot": "Earl tries to apply for a credit card but is declined because he doesn't have a job or a proper place to live, so he goes back to school to receive a diploma, where he realizes how hard it is for teachers to put up with badly behaved kids - just like the one he used to be.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kjrNymoAmq01BJE00NqDexdqSwl.jpg",
+          "title": "G.E.D."
+        },
+        {
+          "aired": "2007-05-03",
+          "plot": "When Earl decides to get his first real job at an appliance store, he experiences 'growing pains'. Meanwhile, Joy makes another irrational decision when the forthcoming trial continues to get to her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oPLCtB4olMDh0znTNCe5Qct2bKb.jpg",
+          "title": "Get a Real Job"
+        },
+        {
+          "aired": "2007-05-10",
+          "plot": "Things are finally looking up for Earl with a GED, a job, a new apartment and love interest however it may all come crashing down during Joy's trial date. Earl's shocking testimony could help Joy but at what cost?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rycASdo1juQ5cWMdcsfEiRFAsGo.jpg",
+          "title": "The Trial"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "My Name Is Inmate #28301-016 (1)",
-        "My Name Is Inmate #28301-016 (2)",
-        "The Gangs of Camden County",
-        "The Frank Factor",
-        "Creative Writing",
-        "Frank's Girl",
-        "Our Other Cops is On! (1)",
-        "Our Other Cops is On! (2)",
-        "Randy In Charge (...Of Our Days and Our Nights)",
-        "Midnight Bun",
-        "Burn Victim",
-        "Early Release",
-        "Bad Earl",
-        "I Won't Die With a Little Help From My Friends (1)",
-        "I Won't Die with a Little Help from My Friends (2)",
-        "Stole a Motorcycle",
-        "No Heads and a Duffel Bag",
-        "Killerball",
-        "Love Octagon",
-        "Girl Earl",
-        "Camdenites (1)",
-        "Camdenites (2)"
+        {
+          "aired": "2007-09-27",
+          "plot": "Earl begins his prison sentence. Meanwhile, Joy tries to repay Earl by taking care of Randy (who is struggling to adjust) and a prison bully is looking for Earl.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f73Dydps9Whx7pbVygImzYCSwIf.jpg",
+          "title": "My Name Is Inmate #28301-016 (1)"
+        },
+        {
+          "aired": "2007-09-27",
+          "plot": "Earl begins his prison sentence. Meanwhile, Joy tries to repay Earl by taking care of Randy (who is struggling to adjust) and a prison bully is looking for Earl.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/42NfRNNQBkgyR912QjDVK7X5TGE.jpg",
+          "title": "My Name Is Inmate #28301-016 (2)"
+        },
+        {
+          "aired": "2007-10-04",
+          "plot": "Earl is offered a deal to receive a lesser sentence if he can resolve problems between rival gangs. But, he finds the task harder than he expected. Meanwhile, Randy looks for ways to join Earl in prison.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fy3aO7EDSCVbtI5esZ2zxlBN5Id.jpg",
+          "title": "The Gangs of Camden County"
+        },
+        {
+          "aired": "2007-10-11",
+          "plot": "Joy visits Earl in prison and they are surprised to meet an old friend who is also in prison. The three reminisce about their past and how they met.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dIkYWEI8dTHSJwJQTFgZKzliRF5.jpg",
+          "title": "The Frank Factor"
+        },
+        {
+          "aired": "2007-10-18",
+          "plot": "Earl is given an assignment after attending a prison class which focuses on creative writing: to write a story. Soon Earl realises that writing is harder than he thought.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/haarOsYQXeagW6V8QUXm7VCPxjy.jpg",
+          "title": "Creative Writing"
+        },
+        {
+          "aired": "2007-10-25",
+          "plot": "It's conjugal visiting day at the prison and since no one is visiting Earl, Frank wants Earl to explain to his girlfriend why he cannot see her today. Things don't go as planned and Frank's girlfriend dumps him because of Earl. Earl is blames himself and vows to get them back together.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7WZy568fKAqNrvi7quEelsZvFhx.jpg",
+          "title": "Frank's Girl"
+        },
+        {
+          "aired": "2007-11-01",
+          "plot": "Earl and Randy watch the filming of Cops in Camden County where the different situations are slightly related to Earl. Meanwhile, Kenny's hatred for Earl is caught on camera.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ySE1FLMgTL6HdYdVif8z2bda6bR.jpg",
+          "title": "Our Other Cops is On! (1)"
+        },
+        {
+          "aired": "2007-11-01",
+          "plot": "Earl and Randy watch the filming of Cops in Camden County where the different situations are slightly related to Earl. Meanwhile, Kenny's hatred for Earl is caught on camera.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fgiEdgpz1kGH1hTMWUkRmDxYFlV.jpg",
+          "title": "Our Other Cops is On! (2)"
+        },
+        {
+          "aired": "2007-11-08",
+          "plot": "The Warden ask Earl to make a skit called 'scared straight' that will stop kids from committing crimes and stay out of jail. Meanwhile, Randy uses his authority to make Earl's life difficult in prison.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6l0VQLTxDp8rcbvFJ7OViOYAhvA.jpg",
+          "title": "Randy In Charge (...Of Our Days and Our Nights)"
+        },
+        {
+          "aired": "2007-11-15",
+          "plot": "Joy enlists the help of Darnell to expediate the baby's birth. Meanwhile, Frank escapes from prison when Randy takes the convicts out for ice cream. Elsewhere, Catalina baby-sits Dodge and Earl Jr.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6Z2UTzqSUL0PH43leJaBcYVajzu.jpg",
+          "title": "Midnight Bun"
+        },
+        {
+          "aired": "2007-11-29",
+          "plot": "Earl helps the Warden solve another jail house problem between an inmate and his victims. Later Earl realizes that planning a prom for the inmates might deplete his lottery winnings.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yyeiIUZJlOBBrZ1FxnD7DhFCfzk.jpg",
+          "title": "Burn Victim"
+        },
+        {
+          "aired": "2007-12-06",
+          "plot": "When Earl finds out that the Warden has destroyed all the certificates that would grant him early release from prison, he seeks the help of his friends to escape.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e1pWiNUox8rxHBp2jfZSohLhT15.jpg",
+          "title": "Early Release"
+        },
+        {
+          "aired": "2008-01-10",
+          "plot": "Earl is having difficulty re-adjusting to life on the outside. He returns to his old ways after he encounters Ralph. Randy plans an intervention for Earl on Christmas morning.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7hGoZjt811DPp30i0XDAzY699ZO.jpg",
+          "title": "Bad Earl"
+        },
+        {
+          "aired": "2008-04-03",
+          "plot": "After a car accident Earl is put in a coma and finds himself in an alternate world shown as a sitcom, while his friends try to keep him alive.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xJeTh00pqrJ25aVAxUcjEPdCF6S.jpg",
+          "title": "I Won't Die With a Little Help From My Friends (1)"
+        },
+        {
+          "aired": "2008-04-03",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4W818m3IJF1ebckH8DiaFqgRHBY.jpg",
+          "title": "I Won't Die with a Little Help from My Friends (2)"
+        },
+        {
+          "aired": "2008-04-10",
+          "plot": "While Earl is still in a coma, Randy starts to believe that he can help Earl get better by crossing things off the list.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pPBPKCSCVvvqRM089W5MXvJB85t.jpg",
+          "title": "Stole a Motorcycle"
+        },
+        {
+          "aired": "2008-04-17",
+          "plot": "When Randy visits his parents to make up for their ruined vacation, he realizes that he forgot to tell them about Earl's prison sentence and the following coma at all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1DJ35uYZ8bMDuw3H5WbrKKv6oHt.jpg",
+          "title": "No Heads and a Duffel Bag"
+        },
+        {
+          "aired": "2008-04-24",
+          "plot": "When the hospital wants to get rid of Earl, Randy decides to take care of his brother by himself. But instead of working on the list for Earl, he uses Earl's help to cross things off in order to help him get better.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4ui2RdYvIyPW1QIinuGa7vSHpCg.jpg",
+          "title": "Killerball"
+        },
+        {
+          "aired": "2008-05-01",
+          "plot": "When Earl finally wakes up from his coma, he believes in Karma again and considers Billie his soul mate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/prXrx88HG5VNG567shswwE1fIgO.jpg",
+          "title": "Love Octagon"
+        },
+        {
+          "aired": "2008-05-08",
+          "plot": "Inspired by Earl, Billie starts a list of her own and when Earl is getting annoyed by Billie's little habits, he decides to focus on working on the list instead. He picks a task that is on both of their lists, atones for the injury of a champion grocery-bagger and discovers a unique talent of his own. But Earl soon finds out that they have different ways of interpreting Karma.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9qbuEKaTbaoxT0DnJIRxjphjACs.jpg",
+          "title": "Girl Earl"
+        },
+        {
+          "aired": "2008-05-15",
+          "plot": "When relational problems arise between Earl and Billie, he is forced to choose between Karma and her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vlZnFL9yQnn4YPwcz2bMqWq9AwD.jpg",
+          "title": "Camdenites (1)"
+        },
+        {
+          "aired": "2008-05-15",
+          "plot": "When relational problems arise between Earl and Billie, he is forced to choose between Karma and her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a19zz7rbLsxqRHoVvza0TvDTMqk.jpg",
+          "title": "Camdenites (2)"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "The Magic Hour",
-        "Monkeys Take a Bath",
-        "Joy in a Bubble",
-        "Stole an RV",
-        "Sweet Johnny",
-        "We've Got Spirit",
-        "Quit Your Snitchin'",
-        "Little Bad Voodoo Brother",
-        "Sold a Guy a Lemon Car",
-        "Earl and Joy's Anniversary",
-        "Nature's Game Show",
-        "Reading Is a Fundamental Case",
-        "Orphan Earl",
-        "Got the Babysitter Pregnant",
-        "Darnell Outed (1)",
-        "Darnell Outed (2)",
-        "Randy's List Item",
-        "Friends with Benefits",
-        "My Name Is Alias",
-        "Chaz Dalton's Space Academy",
-        "Witch Lady",
-        "Pinky",
-        "Bullies",
-        "Gospel",
-        "Inside Probe (1)",
-        "Inside Probe (2)",
-        "Dodge's Dad"
+        {
+          "aired": "2008-09-25",
+          "plot": "When Joy cons Make-A-Wish to send a celebrity to her trailer, Earl remembers a wish he stole from a dying child and decides it's time to cross him off the list. When he returns to the kid's home, he finds that little Buddy has exceeded all of the doctors' expectations and is still alive. Buddy asks Earl to produce his movie and suddenly all of Camden County find themselves starring in a high-octane action film. Randy surprises everyone when his acting skills get rave reviews.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hacexDHIUwEfwkp8pMhvDrxvIpP.jpg",
+          "title": "The Magic Hour"
+        },
+        {
+          "aired": "2008-09-25",
+          "plot": "Earl and Randy decide it's time to make amends with their childhood neighbors, the Clarks. But when they discover more skeletons in the closet than they had expected, the brothers find themselves needing to sort out some family issues between their mom and dad. Meanwhile, Joy has duped one-eyed Willy out of his glass eye, and despite Darnell's efforts Willy may never \"see\" that eye again.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xhykJIVVrJfeF6hehZtLqLfBg8x.jpg",
+          "title": "Monkeys Take a Bath"
+        },
+        {
+          "aired": "2008-10-02",
+          "plot": "Earl's attempt to give Joy the hot tub she's always wanted backfires and she is forced to stay in a makeshift bubble because of a flesh eating toe infection. While she is out of commission, Earl must fill in as the new Joy. Between gossiping with the ladies at the salon and shopping for meat out of some guy's trunk, Earl learns about the Turner family. This includes the fact that Dodge and Earl Jr. might have a social disorder that causes them to have no friends. Can Earl fix this problem too?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u4iRONIlwMJXLsAHzC0A1kBIAoo.jpg",
+          "title": "Joy in a Bubble"
+        },
+        {
+          "aired": "2008-10-02",
+          "plot": "To cross Jerry off of his list, Earl can't just return the RV he stole, mostly because Randy blew it up. Earl and Randy set out to find what might make this grumpy war hero happy, and accidentally turn him into a 75-year-old killing machine. Elsewhere, Joy and Darnell attempt to turn the legend of a giant pig that lives near the trailer park into a one-of-a-kind, money making sideshow.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uWCHEHObydvz7ZU3Der2yXOPtGX.jpg",
+          "title": "Stole an RV"
+        },
+        {
+          "aired": "2008-10-09",
+          "plot": "Earl wants to make up for sleeping with local stuntman Sweet Johnny's girlfriend, while Joy feels the need to buy a gun.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dYvmqS4tIC4F45WfoAVZIly4lH6.jpg",
+          "title": "Sweet Johnny"
+        },
+        {
+          "aired": "2008-10-16",
+          "plot": "To cross Randy off his list, Earl takes his brother to cheerleading camp. Once there, the tight cheer pants and their lack of flexibility are not their only problem. They also have to deal with Kimmi Himmler, the camp owner with a deeply scarred face and milky eye - both a result of a badger accident suffered while cheering in high school. When Himmler wants the brothers out of her camp, Earl goes to drastic measure to make sure that Randy's cheerleading dreams will come true. Elsewhere, Joy is hurt when her son Dodge indicates that Catalina is the most beautiful woman in Camden.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fBrZhD0RdnRPhlcY69y0VezbwPk.jpg",
+          "title": "We've Got Spirit"
+        },
+        {
+          "aired": "2008-10-23",
+          "plot": "When Randy's birthday is coming up, Earl gets him a new car, but it is stolen before he can present it to Randy. Apparently, Earl no longer falls under the code of criminals, that no criminal steals from another one. Now that he is treated as a \"civilian\", he needs to decide whether to take the matter to the police and become a snitch.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3AJ35wCxlXVKbyK7PFgcKEKROTM.jpg",
+          "title": "Quit Your Snitchin'"
+        },
+        {
+          "aired": "2008-10-30",
+          "plot": "Earl plans a Halloween party for Dodge and Earl Jr, while Catalina's nephew Oscar visits. This poses an opportunity for Randy to become the big brother he always wanted to be.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lYLtUYn4SjZcv7b9MMmG3WftMyp.jpg",
+          "title": "Little Bad Voodoo Brother"
+        },
+        {
+          "aired": "2008-11-06",
+          "plot": "Suddenly at the top of Earl's list a life-or-death item appears right after a new mysterious man moves in next door. Meanwhile, a science fair has Joy all worked up to the point of obsession. She' so fixated on winning the fair so she can buy something special with the prize money.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2FCxAS48apPRhqsGdMsoNT9LzY.jpg",
+          "title": "Sold a Guy a Lemon Car"
+        },
+        {
+          "aired": "2008-11-13",
+          "plot": "Earl remembers his first wedding anniversary and the events that finally lead to their break up, involving Earl's cousin Blake and an invasion of killer bees.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/79r6OM42fJZazkjgvhhqc6HsDmH.jpg",
+          "title": "Earl and Joy's Anniversary"
+        },
+        {
+          "aired": "2008-11-20",
+          "plot": "Earl loses his list while tornado's hit Camden County. Meanwhile, Randy thinks he's invincible after a wild boat ride and contemplates how he should use his new found power. Elsewhere, who's the smartest, Joy or Darnell? that's what this weeks argument is about and Catalina and Patty have a religious awakening.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3YJ1wjL4EIxv18OFvWJ4jE2hP8K.jpg",
+          "title": "Nature's Game Show"
+        },
+        {
+          "aired": "2008-12-04",
+          "plot": "Earl remembers a list item he crossed off while reading to the children of Camden County. While going down memory lane, Earl recalls that his old friend Raynard kept company with a raccoon while living in the great outdoors.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xdsfajQFpPVhqffULXVcbYRQJxb.jpg",
+          "title": "Reading Is a Fundamental Case"
+        },
+        {
+          "aired": "2008-12-11",
+          "plot": "Earl discovers that Joy has continued a holiday scam they started years before, and has expanded the scam to include her friends.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/alWdJLc4rd0w9qokBga5Fmr7Kua.jpg",
+          "title": "Orphan Earl"
+        },
+        {
+          "aired": "2009-01-08",
+          "plot": "A young Earl gets his heart broken by the babysitter and swears revenge on her and her boyfriend. Now, Earl is older and wiser, so he decides to cross them off his list, but it may have terrible repercussions for Randy. Meanwhile, Joy loses Darnell's pet turtle",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pRJOZhZmLjhvetQ7ZQfs95by63V.jpg",
+          "title": "Got the Babysitter Pregnant"
+        },
+        {
+          "aired": "2009-01-15",
+          "plot": "Joy steals Randy's audition for Erik Estrada's reality show \"Estrada or Nada\", but her public appearance has consequences for Darnell.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2xXL6i9BxIfurgt9B5oDJd9Ui3H.jpg",
+          "title": "Darnell Outed (1)"
+        },
+        {
+          "aired": "2009-01-22",
+          "plot": "In the aftermath of having his cover blown, Darnell must pack up and leave Camden. Meanwhile, Earl, Randy and Catalina discover a devastating truth within the post office.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5ZCc5juuxn93GM2X94lJi65RJLH.jpg",
+          "title": "Darnell Outed (2)"
+        },
+        {
+          "aired": "2009-02-05",
+          "plot": "When Randy loses his winning lottery ticket, he assumes the event to be a message from Karma, so he starts a list of his own. Meanwhile, Joy is not happy with her cover identity of the witness protection program.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7s6IdYiwcAdhbxdbOk7BILWg9sr.jpg",
+          "title": "Randy's List Item"
+        },
+        {
+          "aired": "2009-02-12",
+          "plot": "When Mr. Turtle returns back to Earl, he wants to bring him back to Darnell. Meanwhile, Joy and Darnell have to adapt to a new lifestyle of their cover identities.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sT7cVpndIo53cpMWE1dLpQiqhtO.jpg",
+          "title": "Friends with Benefits"
+        },
+        {
+          "aired": "2009-02-19",
+          "plot": "Danny Glover guest stars as Darnell's father who comes looking for him in Camden only to raise Earl and Randy's suspicions. However, a family reunion leads to father and son partaking in one last undercover mission.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kivbYFUuPdZFYuTE4q6pxseuc0.jpg",
+          "title": "My Name Is Alias"
+        },
+        {
+          "aired": "2009-03-05",
+          "plot": "Earl works on a list item that has to do with Chaz Dalton, his childhood hero. Meanwhile, Darnell tries to help Joy make friends using the internet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eP8pF5VE1xtwsUDlKhNipOGmn4w.jpg",
+          "title": "Chaz Dalton's Space Academy"
+        },
+        {
+          "aired": "2009-03-19",
+          "plot": "Earl works on a list item that deals with a crazy witch lady. Meanwhile, Joy wants to show Darnell her good side.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3l3yrtqVCvxPuOnJbEt6XzuqRmG.jpg",
+          "title": "Witch Lady"
+        },
+        {
+          "aired": "2009-03-26",
+          "plot": "Earl helps Randy find his first love, Pinky.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kwdpLJpTEVcO1AVijnEorULyjZK.jpg",
+          "title": "Pinky"
+        },
+        {
+          "aired": "2009-04-16",
+          "plot": "Randy busts into the motel room, demanding that Earl drive to Joy's and punch her in the face. Over time, Randy has invested lots of time and money in the Crab Shack's claw machine, but every time he wins a cute stuffed animal, Joy bullies him into giving it to her. This last time he won a fancy bird dressed up for a wedding and the loss has put Randy over the edge. Earl points out that Randy is 32 years old, and it's time he learned to stick up for himself - Earl's not going to protect him anymore.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uwHirl5AqP5grg7ztDOgXfICW7y.jpg",
+          "title": "Bullies"
+        },
+        {
+          "aired": "2009-04-23",
+          "plot": "Earl tests the faith of a former gangbanger-turned-born-again reverend, whom he's wronged many, many times.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bRv1cX9TCwzBHI0lrsjBeaKoAC3.jpg",
+          "title": "Gospel"
+        },
+        {
+          "aired": "2009-04-30",
+          "plot": "News show \"Inside Probe\" investigates the disappearance of the Crab Shack owner. After eight years the show airs on TV, and several Camden residents become murder suspects.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AjvILEGdlWiEu4pjVVXVw7YaAGn.jpg",
+          "title": "Inside Probe (1)"
+        },
+        {
+          "aired": "2009-05-07",
+          "plot": "The mystery of the disappearance of the former Crab Shack owner is finally resolved.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yKKaAkEUDvN3xgNVbPKyHemWjND.jpg",
+          "title": "Inside Probe (2)"
+        },
+        {
+          "aired": "2009-05-14",
+          "plot": "When Dodge tells Joy he doesn't want Darnell to speak at career day, she enlists Earl to pretend to be his father. Things don't go well and Earl realizes Dodge needs to know his real dad. Despite Joy's protests, Earl enlists Randy and Catalina to help him hunt down the deadbeat dad, but what they discover is worse than they could have imagined.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sBcuGV0Pu3voIruBhZw0aiQ2xga.jpg",
+          "title": "Dodge's Dad"
+        }
       ]
     }
   },

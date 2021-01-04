@@ -1,36 +1,586 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Drama",
+    "Science Fiction"
+  ],
   "id": 63646,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/337302/seasonposter/counterpart-5cbc7fbc08a44.jpg",
+          "https://assets.fanart.tv/fanart/tv/337302/seasonposter/counterpart-5b9603e03c703.jpg"
+        ],
+        "02": [
+          "https://assets.fanart.tv/fanart/tv/337302/seasonposter/counterpart-5cf8d2ec48487.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/337302/seasonthumb/counterpart-5b9603f894ced.jpg",
+          "https://assets.fanart.tv/fanart/tv/337302/seasonthumb/counterpart-5cbc860d1cd29.jpg"
+        ],
+        "02": [
+          "https://assets.fanart.tv/fanart/tv/337302/seasonthumb/counterpart-5cf8d31353cc9.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5fd6f5735fdaa.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5cfb23f27d868.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5b96042523d0f.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5cfb23d396427.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5cfb24075e6e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5a6cfcfccfa1b.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5a6cfd461b86a.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/337302/tvbanner/counterpart-5c517f627ab32.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvbanner/counterpart-5a6cfbd90f744.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvbanner/counterpart-5f70693271054.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5c2360e80db82.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5c236c8dcc5f2.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5a47c6b6481bf.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5a47c7488ff9f.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/337302/tvthumb/counterpart-5bae9fefe8479.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvthumb/counterpart-5a6cf4fecb99e.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/b92ZXORrpljn3YRAXOrURhVO0JV.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/vBIc9SkfZUUUUYD5b9srR5NpX5o.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Counterpart",
+  "plot": "Howard Silk is a lowly cog in a bureaucratic UN agency who is turning the last corner of a life filled with regret when he discovers the agency he works for is guarding a secret: a crossing to a parallel dimension.",
+  "premiered": "2017-12-10",
+  "status": "Canceled",
+  "studios": [
+    "Starz"
+  ],
+  "actors": [
+    {
+      "name": "J.K. Simmons",
+      "order": 0,
+      "role": "Howard Silk",
+      "thumb": "/7kIiPojgSVNRXb5z0hiijcD5LJ6.jpg"
+    },
+    {
+      "name": "Nazanin Boniadi",
+      "order": 1,
+      "role": "Clare",
+      "thumb": "/6fbyNhdkrAVNMJzfpKqcQLl9OwC.jpg"
+    },
+    {
+      "name": "Harry Lloyd",
+      "order": 2,
+      "role": "Peter Quayle",
+      "thumb": "/qZSf6OzRpDaZdOCX6pynSRp6jVV.jpg"
+    },
+    {
+      "name": "Olivia Williams",
+      "order": 3,
+      "role": "Emily Burton Silk",
+      "thumb": "/u7JWwpkbZFPoXR80YPpgiggIFRI.jpg"
+    },
+    {
+      "name": "Sara Serraiocco",
+      "order": 4,
+      "role": "Baldwin",
+      "thumb": "/8nIfI0wgDdP26JfK80srhLhleS2.jpg"
+    },
+    {
+      "name": "Nicholas Pinnock",
+      "order": 5,
+      "role": "Ian Shaw",
+      "thumb": "/7PYDHVBCuNy1dNqUSG3HLxv7V6F.jpg"
+    },
+    {
+      "name": "Betty Gabriel",
+      "order": 6,
+      "role": "Naya Temple",
+      "thumb": "/n67i3H3VM5quDQfcS591EbotPby.jpg"
+    },
+    {
+      "name": "Ulrich Thomsen",
+      "order": 7,
+      "role": "Aldrich",
+      "thumb": "/e1XN63iALgaAc9gKAvd4uG2ljws.jpg"
+    },
+    {
+      "name": "James Cromwell",
+      "order": 7,
+      "role": "Yanek",
+      "thumb": "/vpNQQbM5PtxsYmVm4oh79SGFyUK.jpg"
+    },
+    {
+      "name": "Christiane Paul",
+      "order": 42,
+      "role": "Mira",
+      "thumb": "/h1Cr9GA5C29FhDzbRZ6qrLTydjB.jpg"
+    },
+    {
+      "name": "Sarah Bolger",
+      "order": 39,
+      "role": "Anna Burton Silk",
+      "thumb": "/A3K2l5kkqTMQHtAkctzICqtbZMY.jpg"
+    },
+    {
+      "name": "Liv Lisa Fries",
+      "order": 43,
+      "role": "Greta",
+      "thumb": "/xkoleCmeMr1GBfCry0GEvkXV9XN.jpg"
+    },
+    {
+      "name": "Mirela Burke",
+      "order": 44,
+      "role": "Milla",
+      "thumb": null
+    },
+    {
+      "name": "Fanny Altenburger",
+      "order": 40,
+      "role": "Ethel",
+      "thumb": null
+    },
+    {
+      "name": "Whoopie van Raam",
+      "order": 45,
+      "role": "Young Mother",
+      "thumb": null
+    },
+    {
+      "name": "Ilean Almaguer",
+      "order": 39,
+      "role": "Milla",
+      "thumb": null
+    },
+    {
+      "name": "Lara Decaro",
+      "order": 41,
+      "role": "Young Clare",
+      "thumb": "/oK9FkuZ8VihpG5By58s6k1H7l2Q.jpg"
+    },
+    {
+      "name": "Anne Beyer",
+      "order": 44,
+      "role": "Nicole",
+      "thumb": null
+    },
+    {
+      "name": "Jerry Ying",
+      "order": 1,
+      "role": "Interface Hallway Guard",
+      "thumb": "/jeqIez261JvxmWlviDsP76hIGeB.jpg"
+    },
+    {
+      "name": "Donald Allen Wright",
+      "order": 2,
+      "role": "Diplomate Driver",
+      "thumb": null
+    },
+    {
+      "name": "Ilka Urbach",
+      "order": 3,
+      "role": "Burly Nurse",
+      "thumb": null
+    },
+    {
+      "name": "Jeffrey Scott Basham",
+      "order": 4,
+      "role": "German Polizei",
+      "thumb": null
+    },
+    {
+      "name": "Karim Saleh",
+      "order": 5,
+      "role": "Marcel",
+      "thumb": "/5kzIr2drDqJvBpIznz75Xeht7Oe.jpg"
+    },
+    {
+      "name": "Robert Reinhardt",
+      "order": 6,
+      "role": "Border Guard",
+      "thumb": null
+    },
+    {
+      "name": "Louis C. Oberlander",
+      "order": 7,
+      "role": "Police Chief",
+      "thumb": "/kOwhDpbM5i6z6XqwA2IMEqXHJzM.jpg"
+    },
+    {
+      "name": "Ross McCall",
+      "order": 8,
+      "role": "Tim Fletcher",
+      "thumb": "/6l3lARiyHHISOIntSlvYv0JgTHz.jpg"
+    },
+    {
+      "name": "Sandeep Chopra",
+      "order": 9,
+      "role": "Doctor",
+      "thumb": null
+    },
+    {
+      "name": "Tarnue Massaquoi",
+      "order": 10,
+      "role": "Lawyer #3",
+      "thumb": "/7KsgcQscNQw3ZbOdlMNQcM1DFZK.jpg"
+    },
+    {
+      "name": "Mathew Lorenceau",
+      "order": 11,
+      "role": "Aldrich's Man #1",
+      "thumb": null
+    },
+    {
+      "name": "Mido Hamada",
+      "order": 12,
+      "role": "Cyrus",
+      "thumb": "/kpZ4Q7W9G3j75KlfD5hyjQuYNKu.jpg"
+    },
+    {
+      "name": "Jared Goldstein",
+      "order": 13,
+      "role": "Young Man",
+      "thumb": null
+    },
+    {
+      "name": "Whitney Coleman",
+      "order": 14,
+      "role": "Nurse",
+      "thumb": null
+    },
+    {
+      "name": "Benny Briseño",
+      "order": 17,
+      "role": "S.E.K. Agent",
+      "thumb": null
+    },
+    {
+      "name": "Thomas Bekkers",
+      "order": 18,
+      "role": "Co-Worker",
+      "thumb": null
+    },
+    {
+      "name": "Andreas Beckett",
+      "order": 19,
+      "role": "Translater",
+      "thumb": "/yjNZohwfKPQ5HmpvmltU1rlRNhE.jpg"
+    },
+    {
+      "name": "Kathrin Beck",
+      "order": 20,
+      "role": "Inquisitor",
+      "thumb": null
+    },
+    {
+      "name": "Erik Audé",
+      "order": 21,
+      "role": "Aldrich's man #2",
+      "thumb": "/rZx7QfqyZ11nn6UaRLYTMDLpVeq.jpg"
+    },
+    {
+      "name": "Richard Schiff",
+      "order": 22,
+      "role": "Roland Fancher",
+      "thumb": "/cHYHhPvyznOJrw0yEqndhYK2GnQ.jpg"
+    },
+    {
+      "name": "Christian Janner",
+      "order": 23,
+      "role": "Agent",
+      "thumb": null
+    },
+    {
+      "name": "Rudy Dobrev",
+      "order": 24,
+      "role": "Petar Miroslav",
+      "thumb": null
+    },
+    {
+      "name": "Tina Masafret",
+      "order": 25,
+      "role": "Talia",
+      "thumb": "/mSHtBcbjvBwTRO6gdy2BVGdymAY.jpg"
+    },
+    {
+      "name": "Lisa Hagmeister",
+      "order": 28,
+      "role": "Alice / Alice Alpha",
+      "thumb": "/826Y7niTC1W1C8Oiz2UIEU1gYzT.jpg"
+    },
+    {
+      "name": "Igor Tjumenzev",
+      "order": 29,
+      "role": "Strategy Agent",
+      "thumb": "/wxdues5YhlLUDOPaiOkJyQ0pTOm.jpg"
+    },
+    {
+      "name": "Matthias Bundschuh",
+      "order": 30,
+      "role": "Operator",
+      "thumb": null
+    },
+    {
+      "name": "Maximilian Pekrul",
+      "order": 31,
+      "role": "Security Guard",
+      "thumb": null
+    },
+    {
+      "name": "Dionne Neish",
+      "order": 32,
+      "role": "Luisa",
+      "thumb": null
+    },
+    {
+      "name": "Stephan Goldbach",
+      "order": 34,
+      "role": "Concerned Guard",
+      "thumb": null
+    },
+    {
+      "name": "Leslie Malton",
+      "order": 35,
+      "role": "Doctor Rosshoff",
+      "thumb": "/tfpUQZ8hpcWfBxalbQaDtsJmOYw.jpg"
+    },
+    {
+      "name": "John Funk",
+      "order": 36,
+      "role": "Howard / Prime Double",
+      "thumb": null
+    },
+    {
+      "name": "Lea Faßbender",
+      "order": 37,
+      "role": "Alice Alpha Double",
+      "thumb": "/mtArXdlfS0xK5PzuyNSQJLLYp4I.jpg"
+    },
+    {
+      "name": "Krissi Bohn",
+      "order": 38,
+      "role": "Nomi",
+      "thumb": null
+    },
+    {
+      "name": "Shuya Chang",
+      "order": 39,
+      "role": "Mei Ling",
+      "thumb": null
+    },
+    {
+      "name": "Emilie Neumeister",
+      "order": 45,
+      "role": "Young Mira",
+      "thumb": "/teoSueSS5v2skVxQMFuFVARLPSD.jpg"
+    },
+    {
+      "name": "Sarah Bellini",
+      "order": 46,
+      "role": "Ilse Prime",
+      "thumb": "/v9PWXCUuJuQyq2Lbm0jy12BlhOy.jpg"
+    },
+    {
+      "name": "Laura Bellini",
+      "order": 47,
+      "role": "Ilse",
+      "thumb": "/5BCZo9xI2GH6hae2BYMdc5mgZbD.jpg"
+    },
+    {
+      "name": "Samuel Roukin",
+      "order": 48,
+      "role": "Young Yanek",
+      "thumb": "/rO6MJgFD5rBBeDQABN9b0YZwg4J.jpg"
+    },
+    {
+      "name": "Ivanno Jeremiah",
+      "order": 49,
+      "role": "Young Juma",
+      "thumb": "/fBiHNcmXe4S23vXGtjjwlmyAeyT.jpg"
+    },
+    {
+      "name": "Martin Glade",
+      "order": 50,
+      "role": "Young Martin",
+      "thumb": null
+    },
+    {
+      "name": "Julia Koschitz",
+      "order": 51,
+      "role": "Isabell",
+      "thumb": "/kn5X8xxUBc7H4gwltMTYsuVft0h.jpg"
+    },
+    {
+      "name": "Gregory Zarian",
+      "order": 52,
+      "role": "Volker",
+      "thumb": null
+    },
+    {
+      "name": "Lawrence Zarian",
+      "order": 53,
+      "role": "Volker Prime",
+      "thumb": null
+    },
+    {
+      "name": "Trevor White",
+      "order": 54,
+      "role": "Croft",
+      "thumb": "/oziIah969dJDcq24hH4TRA5PX2U.jpg"
+    },
+    {
+      "name": "Andreas Warmbrunn",
+      "order": 55,
+      "role": "Rainer",
+      "thumb": null
+    },
+    {
+      "name": "Viola Prettejohn",
+      "order": 56,
+      "role": "Young Emily",
+      "thumb": "/2e1mHCgpgXp44uwrxzDEkflPAVI.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "The Crossing",
-        "Birds of a Feather",
-        "The Lost Art of Diplomacy",
-        "Both Sides Now",
-        "Shaking the Tree",
-        "Act Like You've Been Here Before",
-        "The Sincerest Form of Flattery",
-        "Love the Lie",
-        "No Man's Land, Part One",
-        "No Man's Land, Part Two"
+        {
+          "aired": "2017-12-10",
+          "plot": "Howard Silk discovers the truth about where he works. The Office of Interchange searches for an assassin.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cMfASjkM6qFFgYn7gjJ4kpqKCTJ.jpg",
+          "title": "The Crossing"
+        },
+        {
+          "aired": "2018-01-28",
+          "plot": "Howard must work together with his counterpart. Baldwin comes face to face with her past. Emily, from the other side, tries to make sense of her orders.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uje7eKwfBFCj6UuAgqWzM9hFkel.jpg",
+          "title": "Birds of a Feather"
+        },
+        {
+          "aired": "2018-02-04",
+          "plot": "Both sides turn to diplomacy to resolve a conflict. Emily obtains a special visa. Howard interrogates a suspect.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r4mZ06PNHWav3rcXjysz91Y3wle.jpg",
+          "title": "The Lost Art of Diplomacy"
+        },
+        {
+          "aired": "2018-02-11",
+          "plot": "Both Howards deepen their investigation of the conspiracy. Quayle meets one of Howard's sources. Clare must decide what to do about Baldwin.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qgCS0aiWHHIw5q33NBZqV0gdXl0.jpg",
+          "title": "Both Sides Now"
+        },
+        {
+          "aired": "2018-02-18",
+          "plot": "Howard discovers another side of Emily. Howard and Emily search for answers about a mysterious drop site. Aldrich and Quayle seek intel from an old friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/29CUchZhqrrzv771Td5k8BzLng0.jpg",
+          "title": "Shaking the Tree"
+        },
+        {
+          "aired": "2018-02-25",
+          "plot": "Aldrich questions a not-too recent death in the office. Emily, Howard and Shaw follow a lead.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1ksDgkEsRXhOGfnKMuqyJFKRoIa.jpg",
+          "title": "Act Like You've Been Here Before"
+        },
+        {
+          "aired": "2018-03-04",
+          "plot": "Clare's past is revealed. Quayle suffers through his own birthday party.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/b9peu4XU8O1Xj4RgxwXw1K5trED.jpg",
+          "title": "The Sincerest Form of Flattery"
+        },
+        {
+          "aired": "2018-03-11",
+          "plot": "The aftermath of the Indigo school discovery takes an emotional toll. Quayle grapples with his wife's new identity.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kHDuZ6OkviEIKasPFnNh5VEXlQ6.jpg",
+          "title": "Love the Lie"
+        },
+        {
+          "aired": "2018-03-18",
+          "plot": "Howard attempts to thwart the Guest's plans. Howard and Emily chase Kaspar.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oQJEcJrN87A3H4xnCsKwmIlkZnG.jpg",
+          "title": "No Man's Land, Part One"
+        },
+        {
+          "aired": "2018-04-01",
+          "plot": "A crisis at the O.I. leaves both Howards stranded.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/C5LVio9wtAqdegMamiVbaAQHLv.jpg",
+          "title": "No Man's Land, Part Two"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Inside Out",
-        "Outside In",
-        "Something Borrowed",
-        "Point of Departure",
-        "Shadow Puppets",
-        "Twin Cities",
-        "No Strings Attached",
-        "In from the Cold",
-        "You to You",
-        "Better Angels"
+        {
+          "aired": "2018-12-09",
+          "plot": "While hiding in Howard’s life, Howard Prime must avoid detection at home and at the OI. Quayle and Clare struggle to adjust to their new arrangement.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/PkIUHip95wBzHk63xFA2GqoPKS.jpg",
+          "title": "Inside Out"
+        },
+        {
+          "aired": "2018-12-16",
+          "plot": "Imprisoned on the Other Side, Howard's loyalties are tested. Emily Prime gets a promotion.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vaKVffJx0v3vaEpdaVsHhx21Oxj.jpg",
+          "title": "Outside In"
+        },
+        {
+          "aired": "2018-12-23",
+          "plot": "Howard is transferred to a mysterious prison called Echo. An unexpected visit gives Emily a connection to her old life. Emily Prime and Shaw's investigation is met with resistance.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zfe6zS0DXOOsXKdkZ9jeoE7T8J1.jpg",
+          "title": "Something Borrowed"
+        },
+        {
+          "aired": "2018-12-30",
+          "plot": "Howard Prime, Quayle and Clare must unite against a common enemy. Emily Prime turns her investigation towards her other. Yanek probes Howard's past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r5R9LFEwbzexqjVcbKzDOFo3s6c.jpg",
+          "title": "Point of Departure"
+        },
+        {
+          "aired": "2019-01-06",
+          "plot": "A new revelation puts Howard Prime and Quayle in jeopardy. Life at Echo is disrupted. Clare reconnects with her past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sqpVbEgLJoD1fCJu62LwJG69Hc5.jpg",
+          "title": "Shadow Puppets"
+        },
+        {
+          "aired": "2019-01-20",
+          "plot": "The origins of the Crossing are revealed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ngkQih7DZRWogOMWmydbuIbbm0G.jpg",
+          "title": "Twin Cities"
+        },
+        {
+          "aired": "2019-01-27",
+          "plot": "The fallout of the lockdown casts suspicions around the OI. Howard and Emily Prime find clues about the history of Management. Clare questions her allegiances.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rQrSqvwxYXhHFTS4fzbFxICcT91.jpg",
+          "title": "No Strings Attached"
+        },
+        {
+          "aired": "2019-02-03",
+          "plot": "Howard Prime and Emily work together to figure out Indigo's plans. Clare and Quayle consider their future. Howard must face the truth about his wife.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8aDldZTPCBskjOSJyXohfRv2UNp.jpg",
+          "title": "In from the Cold"
+        },
+        {
+          "aired": "2019-02-10",
+          "plot": "Management makes a historic decision. Emily sends a warning. Quayle, Clare and Temple investigate the final Indigo cell. Howard Prime reaches out to an old contact.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5Ih6eBzPNZOHa7ehxMF9j1IVIlI.jpg",
+          "title": "You to You"
+        },
+        {
+          "aired": "2019-02-17",
+          "plot": "Mira's looming threat forges some unlikely alliances.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tgJb3GfQo0gKdVfYR7bFoIV45eM.jpg",
+          "title": "Better Angels"
+        }
       ]
     }
   },

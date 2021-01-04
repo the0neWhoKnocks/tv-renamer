@@ -1,23 +1,181 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Animation",
+    "Action & Adventure",
+    "Sci-Fi & Fantasy"
+  ],
   "id": 88041,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/361456/tvposter/astra-lost-in-space-5daa8ffba666c.jpg"
+      ],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/1KdrqxptNeFjo80sOiZX67egmQF.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/9IkspqaIiNMNL3mS1QmVekYWokv.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "Astra Lost in Space",
+  "plot": "In the year 2063, eight high school students and a kid are flown out to Planet Camp, tasked with surviving on their own for a few days. But shortly after arriving, an ominous glowing orb warps them to an unknown quadrant of space, nearly 5,012 light years away. Now, the only way back home is a slow, dangerous trek across the universe—a journey that’ll test them in ways Planet Camp never could.",
+  "premiered": "2019-07-03",
+  "status": "Ended",
+  "studios": [
+    "AT-X",
+    "TV Aichi",
+    "Tokyo MX",
+    "Sun TV",
+    "BS11",
+    "KBS Kyoto"
+  ],
+  "actors": [
+    {
+      "name": "Inori Minase",
+      "order": 0,
+      "role": "Aries Spring",
+      "thumb": "/sGKqaVZjusdhBTklmBoebr8lxcA.jpg"
+    },
+    {
+      "name": "Yoshimasa Hosoya",
+      "order": 1,
+      "role": "Kanata Hoshijima",
+      "thumb": "/r90gExomlgr7IEt3vZ1Y0xYkXHT.jpg"
+    },
+    {
+      "name": "Naoki Tatsuta",
+      "order": 2,
+      "role": "Beego",
+      "thumb": "/iYGYNGRoQv0yRwKhisqfk5ARVTE.jpg"
+    },
+    {
+      "name": "Nobunaga Shimazaki",
+      "order": 3,
+      "role": "Charce Lecroix",
+      "thumb": "/iJFlSanoNgJMP31qBGCT9HzxFbi.jpg"
+    },
+    {
+      "name": "Hina Kino",
+      "order": 4,
+      "role": "Funicia Raffaeli",
+      "thumb": "/rdS2N6L1AhLkkUS1Aq8XOeYc3Mm.jpg"
+    },
+    {
+      "name": "Risae Matsuda",
+      "order": 5,
+      "role": "Luca Esposito",
+      "thumb": "/rd6YTlRyZN2KMP0IKQ2lwOnjGBX.jpg"
+    },
+    {
+      "name": "Tomoyo Kurosawa",
+      "order": 6,
+      "role": "Quitterie Raffaeli",
+      "thumb": "/rBbnk9Hg7iXMaRPtDU2HuUZSr6k.jpg"
+    },
+    {
+      "name": "Koki Uchiyama",
+      "order": 7,
+      "role": "Ulgar Zweig",
+      "thumb": "/hpFCRKaOEQUFBGk1C5P4UlfFKp2.jpg"
+    },
+    {
+      "name": "Saori Hayami",
+      "order": 8,
+      "role": "Yunhua Lu",
+      "thumb": "/qBtiwuh6bzNqzdwPOAYRaeFrmIu.jpg"
+    },
+    {
+      "name": "Shunsuke Takeuchi",
+      "order": 9,
+      "role": "Zack Walker",
+      "thumb": "/yPepMSUOzmyguvQ0GT4LTSX8IIq.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Planet Camp",
-        "Wilderness",
-        "Meteor",
-        "Star of Hope",
-        "Paradise",
-        "Secret",
-        "Past",
-        "Lost and Found",
-        "Revelation",
-        "Culprit",
-        "Confession",
-        "Friend-ship"
+        {
+          "aired": "2019-07-03",
+          "plot": "Nine students embark on their first trip to outer space, to attend a five-day \"Planet Camp\" on an uninhabited planet. The moment they arrive, however, a mysterious sphere transports them to a different part of the galaxy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qS6UTdOk1VqXgOHqaHYKBmlhUqL.jpg",
+          "title": "Planet Camp"
+        },
+        {
+          "aired": "2019-07-10",
+          "plot": "The team reach the first planet on their interstellar trip, Planet Vilavurs. Though the planet itself seems comfortably inhabitable, the novice explorers have much to learn about space survival, and about each other.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iuBjz4WCFTQ4C4UZTTIvhH5y0nv.jpg",
+          "title": "Wilderness"
+        },
+        {
+          "aired": "2019-07-17",
+          "plot": "Spirits are raised and friendships are forged after the nine students successfully complete their first visit to a foreign planet. However, they are reminded that danger still lurks — in outer space, and from within the group.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jSkFgarj5DV6UznXdE59Csmu7qO.jpg",
+          "title": "Meteor"
+        },
+        {
+          "aired": "2019-07-24",
+          "plot": "Disaster narrowly averted, the group land on Planet Shummoor, the second planet of their trip. Finding resources proved to be a challenge, but every member of the group was optimistic that things will work out — except for one.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xg11y5SNn6pv8vrvpPLNmme6245.jpg",
+          "title": "Star of Hope"
+        },
+        {
+          "aired": "2019-07-31",
+          "plot": "After surviving another dangerous setback, the team are able to resume their trip. Meanwhile, back home, the students’ parents meet to discuss the fate of their children.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1YH4ogVa12hALXEVwDQVzLtdz6n.jpg",
+          "title": "Paradise"
+        },
+        {
+          "aired": "2019-08-07",
+          "plot": "Ulgar threatens to kill Luca, revealing the previously unknown connection between the two, as well as secrets about Luca himself. Kanata attempts to piece the information together, but another disaster strikes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qLNUmNmnk5XSxtheA1DqhfKma0U.jpg",
+          "title": "Secret"
+        },
+        {
+          "aired": "2019-08-14",
+          "plot": "As the Astra and Team B5 approach their next planet, Aries notices that Charce’s story doesn’t add up. The team confront Charce about his past, which he has kept secret until now.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q3L60PIo8c5xbdo4CB5u63VOEGn.jpg",
+          "title": "Past"
+        },
+        {
+          "aired": "2019-08-21",
+          "plot": "The team meet Polina, an astronaut hibernating inside a ship identical to the Astra. Together, they work on a way to get off of this planet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yOMUcwQ57lp8R7XTnqRgx7eNnye.jpg",
+          "title": "Lost and Found"
+        },
+        {
+          "aired": "2019-08-28",
+          "plot": "Some peculiar medical readings raise Zack’s suspicions about the true relationship between Funicia and Quitterie. Studying this, the team discovers the common link between the team members — the reason someone wants them all dead.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uK9pago3jsBU0cYqbhhcjxTbmR1.jpg",
+          "title": "Revelation"
+        },
+        {
+          "aired": "2019-09-04",
+          "plot": "The team is on its way to the final planet. Polina is determined to find out how it is possible that the children are from a different planet, and Kanata closes in on the enemy within.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dCfDDKGJJw1wHddgFUAl0LMpcn1.jpg",
+          "title": "Culprit"
+        },
+        {
+          "aired": "2019-09-11",
+          "plot": "The entrapment was successful, and the team finally corners the killer amongst them. What drove the killer to do what they did, despite developing such a close bond with the rest of the team?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s8G8PSimwt5RiuMYKW7C7krxql7.jpg",
+          "title": "Confession"
+        },
+        {
+          "aired": "2019-09-18",
+          "plot": "The truth is revealed about the killer, which leads to numerous discoveries about the history of the world. Can the team overcome the final obstacle and return home safely?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hGUsxOQv2k2CR2aKlDpMwXy1bTJ.jpg",
+          "title": "Friend-ship"
+        }
       ]
     }
   },

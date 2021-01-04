@@ -1,45 +1,1533 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Drama"
+  ],
   "id": 46648,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-53d1439d3c69d.jpg",
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-556b32c12e6cf.jpg",
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-53d143ae97e5c.jpg",
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-581f727ba29ba.jpg"
+        ],
+        "03": [
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-5c9c26cd246d1.jpg"
+        ],
+        "02": [
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-54de790bd0572.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "03": [
+          "https://assets.fanart.tv/fanart/tv/270633/seasonthumb/true-detective-5c9c26e6a7a25.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-52cde8f547e46.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-530d50d28cb66.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-531e2b6073ec7.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-531e2dc7d2d4b.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147949d55ef.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147a9e5a36b.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b373e1e7.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b37464fa.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b37509f1.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a2a2e7d0f.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-530d51029b65e.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-5583e9d3aaf5b.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d8678d8fdd4.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-5938a93b9145a.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-5938a9638f653.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b37350e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad49452af3.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad4a53dd31.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad4bcb030c.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b3760fe5.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad4cd6fb85.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b3771705.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a2e2132b8.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a300aa874.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a32b82d03.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-52cedf2d6a52e.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-531e2d36a93cf.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3ad11493f.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3af6dc416.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3b113d527.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3b25c7218.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-537f2242afab1.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-5597b38e712bc.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-557911a2908e8.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-557911a290f3e.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-557911a2913ab.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-543ab597917b0.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-54b83eb0189c9.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-556b382ce9c06.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-54b8b8d0778d8.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-52c3ace03064c.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5c1bdc9dec7a1.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-52ef56dab88d2.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-581f7262926e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5509923facbe4.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-55099291b5691.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-581f3c4613146.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-556b2c94dd817.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5584742f00f64.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5dc85bda57641.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-55b888ee36dd6.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-558753748809d.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5584741dd9bc4.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-559ae12ab7c48.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-52d09d848dbe5.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-5b55eccfec9b7.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-558d4b79aad65.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-558d4bfd0ad4e.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-55a16efc8b410.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-5c9856d0e0be2.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-55427a33a0ea7.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-5597ac8b393fd.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-556b381866dc9.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-559ae225c623f.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/2Ahm0YjLNQKuzSf9LOkHrXk8qIE.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/aowr4xpLP5sRCL50TkuADomJ98T.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "True Detective",
+  "plot": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+  "premiered": "2014-01-12",
+  "status": "Returning Series",
+  "studios": [
+    "HBO"
+  ],
+  "actors": [
+    {
+      "name": "Colin Farrell",
+      "order": 0,
+      "role": "Ray Velcoro",
+      "thumb": "/lZ3dU4uFEV4BccAEvjJUBIY2OaB.jpg"
+    },
+    {
+      "name": "Mahershala Ali",
+      "order": 0,
+      "role": "Wayne Hays",
+      "thumb": "/9ZmSejm5lnUVY5IJ1iNx2QEjnHb.jpg"
+    },
+    {
+      "name": "Woody Harrelson",
+      "order": 0,
+      "role": "Martin Hart",
+      "thumb": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
+    },
+    {
+      "name": "Carmen Ejogo",
+      "order": 1,
+      "role": "Amelia Reardon",
+      "thumb": "/pJkBfxuifYtuigcjM8qnvNklZNX.jpg"
+    },
+    {
+      "name": "Vince Vaughn",
+      "order": 1,
+      "role": "Frank Semyon",
+      "thumb": "/A9fJ88dfXZGpgFTnQIK0bOtjMrj.jpg"
+    },
+    {
+      "name": "Matthew McConaughey",
+      "order": 1,
+      "role": "Rust Cohle",
+      "thumb": "/wJiGedOCZhwMx9DezY8uwbNxmAY.jpg"
+    },
+    {
+      "name": "Taylor Kitsch",
+      "order": 2,
+      "role": "Paul Woodrugh",
+      "thumb": "/m39IoFjaJWiCoFYv0DfYCklOeOS.jpg"
+    },
+    {
+      "name": "Stephen Dorff",
+      "order": 2,
+      "role": "Roland West",
+      "thumb": "/hlcLGDAm3sacUNi8tnk9BeMCAJw.jpg"
+    },
+    {
+      "name": "Michelle Monaghan",
+      "order": 2,
+      "role": "Maggie Hart",
+      "thumb": "/qpSBIBtM0nlekgtbkYL6MRpwspX.jpg"
+    },
+    {
+      "name": "Scoot McNairy",
+      "order": 3,
+      "role": "Tom Purcell",
+      "thumb": "/ttVt0Q7exExZNqcLbhqVJFyXKpY.jpg"
+    },
+    {
+      "name": "Michael Potts",
+      "order": 3,
+      "role": "Maynard Gilbough",
+      "thumb": "/3fgLuZkPH6F4RDjWeWt1s9bjy3v.jpg"
+    },
+    {
+      "name": "Ray Fisher",
+      "order": 4,
+      "role": "Henry Hays",
+      "thumb": "/310snvA05xDOQZDn2fJSp242GHw.jpg"
+    },
+    {
+      "name": "Tory Kittles",
+      "order": 4,
+      "role": "Thomas Papania",
+      "thumb": "/8NubsD32UAPhPflJuEBqtTa5vWR.jpg"
+    },
+    {
+      "name": "Rachel McAdams",
+      "order": 9,
+      "role": "Ani Bezzerides",
+      "thumb": "/2zyOjda95OfAAsJvuwTV0UaznPZ.jpg"
+    },
+    {
+      "name": "Kelly Reilly",
+      "order": 10,
+      "role": "Jordan Semyon",
+      "thumb": "/gof8bWW9E7MH30GpvA97PwGiIuu.jpg"
+    },
+    {
+      "name": "Chris Kerson",
+      "order": 60,
+      "role": "Nails",
+      "thumb": "/4IktQBREhdw3Ldep3SiJVitgs6O.jpg"
+    },
+    {
+      "name": "Ritchie Coster",
+      "order": 61,
+      "role": "Mayor Austin Chessani",
+      "thumb": "/kYXTkSP5fbgM1kBrYlqOwI8vrlJ.jpg"
+    },
+    {
+      "name": "Christopher James Baker",
+      "order": 62,
+      "role": "Blake Churchman",
+      "thumb": "/bxGk5Zoo0LX6bJUOCjtKimZYihn.jpg"
+    },
+    {
+      "name": "Afemo Omilami",
+      "order": 63,
+      "role": "Police Chief Holloway",
+      "thumb": "/usW1GHq20ZEX3rpei1HpeXfSpiP.jpg"
+    },
+    {
+      "name": "James Frain",
+      "order": 64,
+      "role": "Lieutenant Kevin Burris",
+      "thumb": "/tQLuwlPodwk8CWd3ly067s1x1dh.jpg"
+    },
+    {
+      "name": "Abigail Spencer",
+      "order": 66,
+      "role": "Gena Brune",
+      "thumb": "/ka5RVER07tqrkD25C7p7FKYgwJJ.jpg"
+    },
+    {
+      "name": "Dana Gourrier",
+      "order": 5,
+      "role": "Cathleen",
+      "thumb": "/v3krc3R7LKMsHJEm8esPqEa7CR.jpg"
+    },
+    {
+      "name": "Madison Wolfe",
+      "order": 7,
+      "role": "Audrey Hart",
+      "thumb": "/qvAaB02INi8xCVy2BPzVWjYF1vR.jpg"
+    },
+    {
+      "name": "J.D. Evermore",
+      "order": 16,
+      "role": "Detective Lutz",
+      "thumb": "/bTLrDTIj9DNnYP8afZXPTo31CJA.jpg"
+    },
+    {
+      "name": "Andy Mackenzie",
+      "order": 65,
+      "role": "Ivar",
+      "thumb": "/q8qdAq4xuBlcW4P5FinpRHexk9T.jpg"
+    },
+    {
+      "name": "Michael Irby",
+      "order": 67,
+      "role": "Detective Elvis Ilinca",
+      "thumb": "/9DlWNTlVhkdKnZ76DT8nUTl5DD3.jpg"
+    },
+    {
+      "name": "Timothy V. Murphy",
+      "order": 68,
+      "role": "Osip Agronov",
+      "thumb": "/4WMz4UUMeexgP1ddfC2j7pqf8hU.jpg"
+    },
+    {
+      "name": "Yara Martinez",
+      "order": 69,
+      "role": "Felicia",
+      "thumb": "/h7FcuyLMJ96EMqzcyjzrS5cYg34.jpg"
+    },
+    {
+      "name": "Adria Arjona",
+      "order": 70,
+      "role": "Emily",
+      "thumb": "/gBOblv33jhgAo997KzhEafNOb52.jpg"
+    },
+    {
+      "name": "Alain Uy",
+      "order": 71,
+      "role": "Ernst Bodine",
+      "thumb": "/jpU5gY52HM2gc2BoZp6fFTZSjJg.jpg"
+    },
+    {
+      "name": "Jon Lindstrom",
+      "order": 72,
+      "role": "Jacob McCandless",
+      "thumb": "/tofGx1IJEqsGpakqLnhSjE31nL0.jpg"
+    },
+    {
+      "name": "Sarah Gadon",
+      "order": 181,
+      "role": "Elisa Montgomery",
+      "thumb": "/wn1JyDdcpBkrGMwRbdPXhkxVc9a.jpg"
+    },
+    {
+      "name": "Kevin Dunn",
+      "order": 2,
+      "role": "Major Ken Quesada",
+      "thumb": "/enBfVbnotr1d9vJfMjLCsLzvO6u.jpg"
+    },
+    {
+      "name": "Joe Chrest",
+      "order": 33,
+      "role": "Detective Demma",
+      "thumb": "/ox45oYzfnI9mxDYNeP01ZTRWGXC.jpg"
+    },
+    {
+      "name": "Dane Rhodes",
+      "order": 40,
+      "role": "Detective Favre",
+      "thumb": "/g3fJPCVvDzpfOI1QahakwSwEP0h.jpg"
+    },
+    {
+      "name": "W. Earl Brown",
+      "order": 73,
+      "role": "Detective Teague Dixon",
+      "thumb": "/wTZF15gk5rwH94oREtj6WBoqzio.jpg"
+    },
+    {
+      "name": "Leven Rambin",
+      "order": 74,
+      "role": "Athena Bezzerides",
+      "thumb": "/sO3P6LX42339crEYyR9FPSUYwqC.jpg"
+    },
+    {
+      "name": "Lera Lynn",
+      "order": 75,
+      "role": "Singer",
+      "thumb": "/AgiZoK0EOThMVcEMnzSoRwJMaKv.jpg"
+    },
+    {
+      "name": "Michael Hyatt",
+      "order": 76,
+      "role": "Katherine Davis",
+      "thumb": "/zXJ1mV2NlZuWYgTj8eTuUFhCgp5.jpg"
+    },
+    {
+      "name": "Tony Molina Jr.",
+      "order": 38,
+      "role": "Detective",
+      "thumb": "/sZZocBuNqhK8TqqGvvSCW9Rjgzh.jpg"
+    },
+    {
+      "name": "Meghan Wolfe",
+      "order": 44,
+      "role": "Maisie Hart",
+      "thumb": "/qLV8Evewmt5OTtrBl0Aleu8kFq.jpg"
+    },
+    {
+      "name": "C.S. Lee",
+      "order": 77,
+      "role": "Richard Geldof",
+      "thumb": "/cjqzZKv7iCDk2o5Wp2TlhxuQi52.jpg"
+    },
+    {
+      "name": "Lolita Davidovich",
+      "order": 78,
+      "role": "Cynthia Woodrugh",
+      "thumb": "/cDpuHwPkWkLy8LSBXKIn5Gx3JUF.jpg"
+    },
+    {
+      "name": "Vinicius Machado",
+      "order": 79,
+      "role": "Tony Chessani",
+      "thumb": "/tBNRr4wV9UgVxQKoeqztJimg9gN.jpg"
+    },
+    {
+      "name": "Trevor Larcom",
+      "order": 80,
+      "role": "Chad Velcoro",
+      "thumb": "/9FEKei62MeXfdxmkHsEgzK8ESLz.jpg"
+    },
+    {
+      "name": "Matt Battaglia",
+      "order": 81,
+      "role": "Commander Floyd Heschmeyer",
+      "thumb": null
+    },
+    {
+      "name": "Solomon Shiv",
+      "order": 82,
+      "role": "Michael Bulgari",
+      "thumb": null
+    },
+    {
+      "name": "Mamie Gummer",
+      "order": 184,
+      "role": "Lucy Purcell",
+      "thumb": "/iVSSYF6BldRkb2qedkbFo6MvRjv.jpg"
+    },
+    {
+      "name": "Erin Moriarty",
+      "order": 8,
+      "role": "Audrey Hart",
+      "thumb": "/oioBLC6lD6CfYGjDrs8iO6iH4gS.jpg"
+    },
+    {
+      "name": "Glenn Fleshler",
+      "order": 17,
+      "role": "Errol Childress",
+      "thumb": "/x1Cef2yPZS7bJTwxI7DX3q0HNcv.jpg"
+    },
+    {
+      "name": "Michael Harney",
+      "order": 18,
+      "role": "Steve Geraci",
+      "thumb": "/j64sglNnGc5fAHPEkJ1TmKOITQP.jpg"
+    },
+    {
+      "name": "Don Yesso",
+      "order": 45,
+      "role": "Commander Speece",
+      "thumb": "/m93AeciV1iGX5siORbhB94njyRn.jpg"
+    },
+    {
+      "name": "David Morse",
+      "order": 83,
+      "role": "Eliot Bezzerides",
+      "thumb": "/3YeyORYXfhIOEDtfUbrkMF9qEjf.jpg"
+    },
+    {
+      "name": "Rick Springfield",
+      "order": 84,
+      "role": "Dr. Irving Pitlor",
+      "thumb": "/rQeUcfwR1M8n51mRROeYLHHY7Gc.jpg"
+    },
+    {
+      "name": "Alex Fernandez",
+      "order": 85,
+      "role": "James O'Neal",
+      "thumb": "/yiDEh04fPKZnqb0iznqSDwsDZV9.jpg"
+    },
+    {
+      "name": "Arthur Darbinyan",
+      "order": 86,
+      "role": "Leonid",
+      "thumb": "/2nvWg5Vi1AIfZrSUGPixV0BzXnF.jpg"
+    },
+    {
+      "name": "Agnes Olech",
+      "order": 87,
+      "role": "Veronica Chessani",
+      "thumb": null
+    },
+    {
+      "name": "Emily Rios",
+      "order": 88,
+      "role": "Betty Chessani",
+      "thumb": "/hwJd91tvfkscI8ViEkaqkW3NVnG.jpg"
+    },
+    {
+      "name": "Gabriel Luna",
+      "order": 89,
+      "role": "Miguel Gilb",
+      "thumb": "/mYVDObiZuw7DmsBHsLfZIAn37Tw.jpg"
+    },
+    {
+      "name": "Jack Topalian",
+      "order": 90,
+      "role": "Armin",
+      "thumb": "/4MBcynysA0OLX263lq3N0qGpXjO.jpg"
+    },
+    {
+      "name": "Christian Campbell",
+      "order": 91,
+      "role": "Richard Brune",
+      "thumb": "/vRZvOyWcbiIJai5hGZRFDG7222F.jpg"
+    },
+    {
+      "name": "Courtney Halverson",
+      "order": 92,
+      "role": "Erica Jonson",
+      "thumb": "/q0ZHXK8AYBsYfkBLV9zJ7Gr5ryT.jpg"
+    },
+    {
+      "name": "Carla Vila",
+      "order": 93,
+      "role": "Danielle Delvayo",
+      "thumb": "/amY9drkYuaGFD0vgpVonpqv7wld.jpg"
+    },
+    {
+      "name": "Benjamín Benítez",
+      "order": 94,
+      "role": "Gonzales #1",
+      "thumb": "/iEpXrHdn7FmQ2OKURvX0OfMQTAD.jpg"
+    },
+    {
+      "name": "Robert Renderos",
+      "order": 95,
+      "role": "Gonzales #2",
+      "thumb": null
+    },
+    {
+      "name": "Ronnie Gene Blevins",
+      "order": 96,
+      "role": "Stan",
+      "thumb": "/28O4ALimfSVQgMOvkstDJpzHKDc.jpg"
+    },
+    {
+      "name": "Jackson Beals",
+      "order": 111,
+      "role": "Detective Mark Daughtry",
+      "thumb": null
+    },
+    {
+      "name": "Jim Klock",
+      "order": 112,
+      "role": "Detective Ted Bertrand",
+      "thumb": "/uP9BqJHWhtLmJ2UEmwSiRp4jpp6.jpg"
+    },
+    {
+      "name": "Garrett Kruithof",
+      "order": 113,
+      "role": "Detective Jimmy Dufrene",
+      "thumb": null
+    },
+    {
+      "name": "Josh Hopkins",
+      "order": 168,
+      "role": "Jim Dobkins",
+      "thumb": "/gPcG3xAnuUP9pMxGWkhb5nQqOPQ.jpg"
+    },
+    {
+      "name": "Jon Tenney",
+      "order": 168,
+      "role": "Alan Jones",
+      "thumb": "/ktb1RA23pHJKMdcFenQ2cosnCkp.jpg"
+    },
+    {
+      "name": "Rhys Wakefield",
+      "order": 168,
+      "role": "Freddy Burns",
+      "thumb": "/wqg6qaNkYUMviXz7irNWJGDdeZB.jpg"
+    },
+    {
+      "name": "Michael Greyeyes",
+      "order": 168,
+      "role": "Brett Woodard",
+      "thumb": "/mNpyZ9w5nhxmH7B0ixlKxoy43js.jpg"
+    },
+    {
+      "name": "Richard Meehan",
+      "order": 169,
+      "role": "Frankie Boyle",
+      "thumb": null
+    },
+    {
+      "name": "Brandon Flynn",
+      "order": 169,
+      "role": "Ryan Peters",
+      "thumb": "/iqDIFoLKrRl6yzKTnyqVA4aa00L.jpg"
+    },
+    {
+      "name": "Emily Nelson",
+      "order": 169,
+      "role": "Margaret",
+      "thumb": "/p8kjoG3f4ZpYPbE2miVnt1A6m23.jpg"
+    },
+    {
+      "name": "Corbin B. Pitts",
+      "order": 199,
+      "role": "Mike Ardoin",
+      "thumb": null
+    },
+    {
+      "name": "Brighton Sharbino",
+      "order": 6,
+      "role": "Maisie Hart",
+      "thumb": "/6xB81yi0MrrEbKb4Mn0sgscdE4C.jpg"
+    },
+    {
+      "name": "Jay O. Sanders",
+      "order": 10,
+      "role": "Billy Lee Tuttle",
+      "thumb": "/omKTFUvCq1Dt8WoCg5hJEVAWBmw.jpg"
+    },
+    {
+      "name": "Lili Simmons",
+      "order": 11,
+      "role": "Beth",
+      "thumb": "/h1X7C95cwYoDX45Fe4Zk6KzIhCV.jpg"
+    },
+    {
+      "name": "Christopher Berry",
+      "order": 17,
+      "role": "Danny Fontenot",
+      "thumb": "/8y2HybPVLxUabwnMPjdBREbitKZ.jpg"
+    },
+    {
+      "name": "Johnny McPhail",
+      "order": 20,
+      "role": "Robert Doumain",
+      "thumb": "/oRQCdrbRQC5IJ2NXpSN365gl0Hm.jpg"
+    },
+    {
+      "name": "Miranda Rae Mayo",
+      "order": 29,
+      "role": "Vera Machiado",
+      "thumb": null
+    },
+    {
+      "name": "Brad Carter",
+      "order": 32,
+      "role": "Charlie Lange",
+      "thumb": "/xdQINDoQK3nx5ndIJnYU3qKRM4Y.jpg"
+    },
+    {
+      "name": "Alyshia Ochse",
+      "order": 39,
+      "role": "Lucy",
+      "thumb": "/6gI5qlYJrWZkAqt167B5BNq9M6W.jpg"
+    },
+    {
+      "name": "Molly Hagan",
+      "order": 97,
+      "role": "Mrs. Harris",
+      "thumb": "/m5pL170dlh7ex4lTESAK5kKARde.jpg"
+    },
+    {
+      "name": "Ashley Grace",
+      "order": 98,
+      "role": "Lacey Lindel",
+      "thumb": "/1DYxtbOchpW3NrCaw5hGsJbUrw5.jpg"
+    },
+    {
+      "name": "Pedro Miguel Arce",
+      "order": 99,
+      "role": "Danny Santos",
+      "thumb": "/zNluiNjyxoEAlGUYnQuJDiCw6zq.jpg"
+    },
+    {
+      "name": "Fred Ward",
+      "order": 100,
+      "role": "Eddie Velcoro",
+      "thumb": "/t3tZduAwP1LMR8Vc13HZ39wKJ1q.jpg"
+    },
+    {
+      "name": "Chet Grissom",
+      "order": 101,
+      "role": "Bart Sallis",
+      "thumb": "/yTfrcarwGM9H8F47VA2Z0sXATCF.jpg"
+    },
+    {
+      "name": "Weronika Rosati",
+      "order": 102,
+      "role": "Agnes",
+      "thumb": "/6GUOUPkpY5UODU6srmYGL9l0fI0.jpg"
+    },
+    {
+      "name": "Luke Edwards",
+      "order": 103,
+      "role": "Lenny Tyler",
+      "thumb": "/cZcUHl6jojQJiviybrDV5iX8K9Z.jpg"
+    },
+    {
+      "name": "Mark Chaet",
+      "order": 104,
+      "role": "Jew Diamond Dealer",
+      "thumb": "/9yoOX1KQv2stP4JvjBKEP0QJ9gZ.jpg"
+    },
+    {
+      "name": "Stevin Knight",
+      "order": 105,
+      "role": "Dan Howser",
+      "thumb": "/9xfddjQX0RCT1xWoKwbeifxFFmn.jpg"
+    },
+    {
+      "name": "Riley Smith",
+      "order": 106,
+      "role": "Steve Mercer",
+      "thumb": "/cBLhhvqOQY8g95RaymVbd2Bd6py.jpg"
+    },
+    {
+      "name": "Jamison Jones",
+      "order": 107,
+      "role": "Will Davidson",
+      "thumb": "/5Z7txx8ZhHuJLGjUeqo00vOlOKs.jpg"
+    },
+    {
+      "name": "Anjul Nigam",
+      "order": 109,
+      "role": "Ventura County Medical Examiner",
+      "thumb": null
+    },
+    {
+      "name": "Ronny Cox",
+      "order": 110,
+      "role": "Catalast Executive",
+      "thumb": "/gFBda93UWxvPjZJdvdI4zQ3VIKJ.jpg"
+    },
+    {
+      "name": "Shea Whigham",
+      "order": 114,
+      "role": "Joel Theriot",
+      "thumb": "/d3caK3l4UfbnzOxv95wLoFLZzMO.jpg"
+    },
+    {
+      "name": "Charles Halford",
+      "order": 115,
+      "role": "Reggie Ledoux",
+      "thumb": "/mrCy6dA5AHqczA4aJX4drCQ3tjC.jpg"
+    },
+    {
+      "name": "Joseph Sikora",
+      "order": 116,
+      "role": "Ginger",
+      "thumb": "/xql9QZqU9povZhRIkuXym2FtoFq.jpg"
+    },
+    {
+      "name": "Brett Cullen",
+      "order": 157,
+      "role": "Greg Larson",
+      "thumb": "/sEcPXqdcoZ9h4s7PSjVYocEPypP.jpg"
+    },
+    {
+      "name": "Tim Griffin",
+      "order": 168,
+      "role": "Special Agent Burt Diller",
+      "thumb": "/o7zbHEy2e02CtR2pJLfav7jYuqd.jpg"
+    },
+    {
+      "name": "Michael Broderick",
+      "order": 168,
+      "role": "Special Agent John Bowen",
+      "thumb": "/2MaElb6nAwm6OTryXot6Ip2LJTp.jpg"
+    },
+    {
+      "name": "Jaiden McLeod",
+      "order": 169,
+      "role": "Jaiden McLeod",
+      "thumb": null
+    },
+    {
+      "name": "Isaiah C. Morgan",
+      "order": 169,
+      "role": "Young Henry Hays",
+      "thumb": null
+    },
+    {
+      "name": "Kennedi Lynn Butler",
+      "order": 169,
+      "role": "Young Becca Hays",
+      "thumb": "/mrHi0t7XE38ySQ2hpGjQYHbWFua.jpg"
+    },
+    {
+      "name": "Lennon Morgan",
+      "order": 172,
+      "role": "Ronnie Boyle",
+      "thumb": null
+    },
+    {
+      "name": "Nick Basta",
+      "order": 172,
+      "role": "James Boyle",
+      "thumb": "/dNxd3V2RRDx0P4eMV4YqndcBTnJ.jpg"
+    },
+    {
+      "name": "Brian Oerly",
+      "order": 176,
+      "role": "Eddie",
+      "thumb": null
+    },
+    {
+      "name": "Gareth Williams",
+      "order": 182,
+      "role": "Police Chief Warren",
+      "thumb": null
+    },
+    {
+      "name": "Phoenix Elkin",
+      "order": 186,
+      "role": "Will Purcell",
+      "thumb": null
+    },
+    {
+      "name": "Lena McCarthy",
+      "order": 186,
+      "role": "Julie Purcell",
+      "thumb": null
+    },
+    {
+      "name": "Sola Bamis",
+      "order": 189,
+      "role": "Heather Hays",
+      "thumb": "/7hr47LMyBPHSmrGF8INNJMlqeYR.jpg"
+    },
+    {
+      "name": "Bailey Rae Fenderson",
+      "order": 195,
+      "role": "Amy Hays",
+      "thumb": null
+    },
+    {
+      "name": "Elizabeth Reaser",
+      "order": 3,
+      "role": "Laurie Spencer",
+      "thumb": "/gYzfVDwWI6A955MEtX1ZqfZIuN2.jpg"
+    },
+    {
+      "name": "Paul Ben-Victor",
+      "order": 9,
+      "role": "Major Leroy Salter",
+      "thumb": "/qhxGWVppbnwF4YuzQQtIym5z99E.jpg"
+    },
+    {
+      "name": "Kerry Cahill",
+      "order": 12,
+      "role": "Nurse",
+      "thumb": "/zu2Sv5mod9UYdYaiZp1idH9W7vV.jpg"
+    },
+    {
+      "name": "Azure Parsons",
+      "order": 13,
+      "role": "Charmaine Boudreaux",
+      "thumb": null
+    },
+    {
+      "name": "Tim Bell",
+      "order": 14,
+      "role": "CID Clerk",
+      "thumb": "/uVwy0aJxDksh2eXO2d2Im5h9I1w.jpg"
+    },
+    {
+      "name": "Dave Davis",
+      "order": 15,
+      "role": "Toby",
+      "thumb": "/9cPhpNYacn5Lc8bUIWX44Lj5K0z.jpg"
+    },
+    {
+      "name": "Jay Huguley",
+      "order": 19,
+      "role": "Jimmy Ledoux",
+      "thumb": "/pe6L583qCepA5KYPGj2RL72X50U.jpg"
+    },
+    {
+      "name": "Kelsey Scott",
+      "order": 21,
+      "role": "Fiona Jackson",
+      "thumb": "/k7on2GZnLft1b0umFl7cQydVBDe.jpg"
+    },
+    {
+      "name": "Carol Sutton",
+      "order": 22,
+      "role": "Miss Delores",
+      "thumb": "/5kQkv64ubSeFbs2i831mvnh3o2Q.jpg"
+    },
+    {
+      "name": "Ann Dowd",
+      "order": 23,
+      "role": "Betty Childress",
+      "thumb": "/zo44U71uiMNVW1HSiOa5F9MpqIq.jpg"
+    },
+    {
+      "name": "Veronica Hunsinger-Loe",
+      "order": 24,
+      "role": "Teacher",
+      "thumb": null
+    },
+    {
+      "name": "Kurt Krause",
+      "order": 25,
+      "role": "Chad",
+      "thumb": null
+    },
+    {
+      "name": "Terry Moore",
+      "order": 26,
+      "role": "Lilly Hill",
+      "thumb": "/znkj4uTUkNpJucQcW4z4juqf6b6.jpg"
+    },
+    {
+      "name": "David Stifel",
+      "order": 27,
+      "role": "Billy Lee Childress",
+      "thumb": null
+    },
+    {
+      "name": "Rachel Wulff",
+      "order": 28,
+      "role": "News Reporter",
+      "thumb": "/zq8dYX0Wgy0AanLGQG6KXKIh1OL.jpg"
+    },
+    {
+      "name": "Clarke Peters",
+      "order": 30,
+      "role": "Minister",
+      "thumb": "/tYkdEioI3Q3WRBpL6GIxkvZiq4H.jpg"
+    },
+    {
+      "name": "Jennifer K. Dawson",
+      "order": 34,
+      "role": "Erath Woman",
+      "thumb": null
+    },
+    {
+      "name": "Charleigh Harmon Stelly",
+      "order": 35,
+      "role": "Anette",
+      "thumb": "/tmnzRCnISYfq4B5cIicq6Yx1WtF.jpg"
+    },
+    {
+      "name": "Davi Jay",
+      "order": 36,
+      "role": "Gordon DiCillo",
+      "thumb": "/2kdp8yFfVPLi56PYqDm9xAQcM3S.jpg"
+    },
+    {
+      "name": "Jason Kirkpatrick",
+      "order": 37,
+      "role": "Deputy",
+      "thumb": "/vketB9Udug89v6aEV9fV40BhU5v.jpg"
+    },
+    {
+      "name": "Ron Clinton Smith",
+      "order": 41,
+      "role": "Sheriff Tate",
+      "thumb": "/uV0y7b3plMAfEd8M8Z1bPHvnJpI.jpg"
+    },
+    {
+      "name": "Charley Vance",
+      "order": 42,
+      "role": "Erath Man",
+      "thumb": null
+    },
+    {
+      "name": "Wanetah Walmsley",
+      "order": 43,
+      "role": "Marie Fontenot",
+      "thumb": "/rjkTACZM6IBE0FMsjbfJ4iETfRG.jpg"
+    },
+    {
+      "name": "Rex Baker",
+      "order": 47,
+      "role": "Narcotics Officer",
+      "thumb": null
+    },
+    {
+      "name": "Amanda Rose Batz",
+      "order": 48,
+      "role": "Dora Kelly Lange",
+      "thumb": null
+    },
+    {
+      "name": "Skip Bolen",
+      "order": 49,
+      "role": "Forensic Photographer",
+      "thumb": null
+    },
+    {
+      "name": "Brian Bossetta",
+      "order": 50,
+      "role": "Reporter",
+      "thumb": null
+    },
+    {
+      "name": "Kenneth Kynt Bryan",
+      "order": 51,
+      "role": "Transsexual Hooker",
+      "thumb": "/o7YOTJZeXD8xFTGnzdEka15RfSX.jpg"
+    },
+    {
+      "name": "Divine Prince Ty Emmecca",
+      "order": 52,
+      "role": "Gay Prostitute",
+      "thumb": "/qULeWCcfXUT7PnZIDG7wnf8nRys.jpg"
+    },
+    {
+      "name": "Will Koberg",
+      "order": 53,
+      "role": "Trooper",
+      "thumb": null
+    },
+    {
+      "name": "Elton LeBlanc",
+      "order": 54,
+      "role": "Good Ol Boy",
+      "thumb": null
+    },
+    {
+      "name": "Scott Everett Nichols",
+      "order": 55,
+      "role": "Truck Driver",
+      "thumb": null
+    },
+    {
+      "name": "Lola Phillips",
+      "order": 56,
+      "role": "Neighborhood Kid",
+      "thumb": "/jwOyQtDITDZmxzaBcoW5fIivudU.jpg"
+    },
+    {
+      "name": "Robert Segari",
+      "order": 57,
+      "role": "Detective",
+      "thumb": null
+    },
+    {
+      "name": "Florence Young",
+      "order": 59,
+      "role": "Reporter",
+      "thumb": null
+    },
+    {
+      "name": "Cooper Roth",
+      "order": 108,
+      "role": "Aspen Conroy",
+      "thumb": "/qvyGmXnMjBtX6e7aCGvOOGi1Rqo.jpg"
+    },
+    {
+      "name": "Joseph Gatt",
+      "order": 117,
+      "role": "Bogden",
+      "thumb": "/ufXNVj0gOpGOB6uUnNuTIzk5rpb.jpg"
+    },
+    {
+      "name": "Sharon Landry",
+      "order": 118,
+      "role": "Linda",
+      "thumb": "/uABdE5wKu3c2KkqaJw6IcYXool9.jpg"
+    },
+    {
+      "name": "Bree Williamson",
+      "order": 119,
+      "role": "Jennifer",
+      "thumb": "/ho68bDjFcGc7paHP9zePzXSmACP.jpg"
+    },
+    {
+      "name": "December Ensminger",
+      "order": 120,
+      "role": "Kelly Reider",
+      "thumb": "/jhkkdTCFzPGV2HMirVnO3EJ1GRH.jpg"
+    },
+    {
+      "name": "Alex Rich",
+      "order": 121,
+      "role": "Tyler",
+      "thumb": "/jiumqKVIgYWHKlXocoxKcYSabFY.jpg"
+    },
+    {
+      "name": "Nic Pizzolatto",
+      "order": 122,
+      "role": "Bartender",
+      "thumb": "/fzBUlNWTyZVsmMBeURqWBk5Gwlo.jpg"
+    },
+    {
+      "name": "Michael Graziadei",
+      "order": 127,
+      "role": "Dan O’Brien",
+      "thumb": "/cVLdj0tltcDRkIU88ENYOc5kYtp.jpg"
+    },
+    {
+      "name": "Shawn-Caulin Young",
+      "order": 132,
+      "role": "Ted LaGrange",
+      "thumb": "/nM1xjkGwzwjCziW47idHTCOApiI.jpg"
+    },
+    {
+      "name": "Natalie Canerday",
+      "order": 145,
+      "role": "Louise Purcell",
+      "thumb": "/o1oaQCQknPps42QNsnFs9E0Jjrm.jpg"
+    },
+    {
+      "name": "David Jensen",
+      "order": 146,
+      "role": "Roy Purcell",
+      "thumb": "/eMKoRn7Xz7Z7JEfBLkZA5pV2k5t.jpg"
+    },
+    {
+      "name": "Thomas W. Moore",
+      "order": 147,
+      "role": "Worried Man",
+      "thumb": null
+    },
+    {
+      "name": "Sara Edgerton",
+      "order": 149,
+      "role": "Worried Woman",
+      "thumb": null
+    },
+    {
+      "name": "Michael Klucher",
+      "order": 150,
+      "role": "Reporter",
+      "thumb": null
+    },
+    {
+      "name": "Michael Papajohn",
+      "order": 151,
+      "role": "Vice Cop",
+      "thumb": "/9nVHCoYxCpGh9pO00xp7SybWd7b.jpg"
+    },
+    {
+      "name": "Jennifer Pierce Mathus",
+      "order": 152,
+      "role": "Daycare Matron",
+      "thumb": "/vM5f6DyZJ8lnkq9bT7o7QEPpYKq.jpg"
+    },
+    {
+      "name": "Alyson Courtney",
+      "order": 153,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Lawrence Turner",
+      "order": 155,
+      "role": "Foreman",
+      "thumb": "/dQKjluBSgfnVaFObJnpzSwyaCRF.jpg"
+    },
+    {
+      "name": "Keith Hudson",
+      "order": 156,
+      "role": "Ernest",
+      "thumb": "/s4m9nHJRaOYeQkYdh5pLt5bqmx5.jpg"
+    },
+    {
+      "name": "Josh Whites",
+      "order": 157,
+      "role": "Joe",
+      "thumb": null
+    },
+    {
+      "name": "Cody Shelton",
+      "order": 158,
+      "role": "Don",
+      "thumb": null
+    },
+    {
+      "name": "John Charles Dickson",
+      "order": 161,
+      "role": "Young Deputy",
+      "thumb": null
+    },
+    {
+      "name": "Grant Hockenbrough",
+      "order": 162,
+      "role": "Deputy O'Bannon",
+      "thumb": null
+    },
+    {
+      "name": "Katherine Forbes",
+      "order": 163,
+      "role": "Smoking Woman",
+      "thumb": null
+    },
+    {
+      "name": "Julia Lashae",
+      "order": 164,
+      "role": "Woman #1",
+      "thumb": "/5EwcUY1CGo6V9oWqA7su4h0mgP3.jpg"
+    },
+    {
+      "name": "Brad S. Clayton",
+      "order": 165,
+      "role": "Man #2",
+      "thumb": null
+    },
+    {
+      "name": "Samantha Rae Soard",
+      "order": 166,
+      "role": "Teenage Girl",
+      "thumb": null
+    },
+    {
+      "name": "Jancey Sheats",
+      "order": 167,
+      "role": "Newsreader",
+      "thumb": null
+    },
+    {
+      "name": "Marcus Lyle Brown",
+      "order": 168,
+      "role": "",
+      "thumb": "/zHsqlROpMRsvtW70bgbkSEqakCd.jpg"
+    },
+    {
+      "name": "Mark Cabus",
+      "order": 169,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "BoJesse Christopher",
+      "order": 170,
+      "role": "",
+      "thumb": "/z6OQYBH4nl6JSabTX21tkg6gyZ8.jpg"
+    },
+    {
+      "name": "Lee Osorio",
+      "order": 171,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Mischa Hutchings",
+      "order": 172,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Becki Davis",
+      "order": 173,
+      "role": "",
+      "thumb": "/19pPOaVu077VsXsdNHkay5Pzds3.jpg"
+    },
+    {
+      "name": "Harlon Miller",
+      "order": 174,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Mike Hickman",
+      "order": 175,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Brian Brown",
+      "order": 176,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Anthony Molinari",
+      "order": 177,
+      "role": "",
+      "thumb": "/m61qwEPjv8G3vmzNxaG2VDxSAmd.jpg"
+    },
+    {
+      "name": "Melanie Haynes",
+      "order": 178,
+      "role": "",
+      "thumb": "/xrkiTTh9KTikz3hWouk6YAGeECF.jpg"
+    },
+    {
+      "name": "Jon Arthur",
+      "order": 179,
+      "role": "Detective (uncredited)",
+      "thumb": "/l4v7HMpzlfEgFWuXD05JlGL7FgQ.jpg"
+    },
+    {
+      "name": "Michael Phelps",
+      "order": 179,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Michael Rooker",
+      "order": 180,
+      "role": "Edward Hoyt",
+      "thumb": "/dq3xFKDWJsQjPffm1bmB3TbMilq.jpg"
+    },
+    {
+      "name": "Steven Williams",
+      "order": 182,
+      "role": "Junius",
+      "thumb": "/okrQsLdE6hCGJ1M4p5nXPC3mJTW.jpg"
+    },
+    {
+      "name": "Scott Shepherd",
+      "order": 183,
+      "role": "Harris James",
+      "thumb": "/leLuJUpF6uySDWPS7FwHpObAMs4.jpg"
+    },
+    {
+      "name": "Bea Santos",
+      "order": 184,
+      "role": "21 Year Old Lucy Purcell",
+      "thumb": "/xQucP9echnVIjaGR36iajASZJXD.jpg"
+    },
+    {
+      "name": "Lauren Sweetser",
+      "order": 185,
+      "role": "Isabel Hoyt",
+      "thumb": null
+    },
+    {
+      "name": "Deborah Ayorinde",
+      "order": 186,
+      "role": "Becca Hays",
+      "thumb": null
+    },
+    {
+      "name": "Roxanne Hart",
+      "order": 187,
+      "role": "Mrs. James",
+      "thumb": "/sNDRhIcW51b7ruS8yt0Xpwa12Mz.jpg"
+    },
+    {
+      "name": "Lindsay Musil",
+      "order": 188,
+      "role": "Shelly",
+      "thumb": "/x6RETrNPCjrmUA8SVQq7vOVLesj.jpg"
+    },
+    {
+      "name": "Nathan Wetherington",
+      "order": 189,
+      "role": "Mike Ardoin",
+      "thumb": "/ySuNbVz1A0FtzoiYE9QwCJXZbNN.jpg"
+    },
+    {
+      "name": "Virginia Kirby",
+      "order": 190,
+      "role": "Courthouse Manager",
+      "thumb": null
+    },
+    {
+      "name": "Tim Sitarz",
+      "order": 191,
+      "role": "Big Biker",
+      "thumb": "/ezjFxVPoxg71Dqi3g9r99Uov31K.jpg"
+    },
+    {
+      "name": "CC Castillo",
+      "order": 192,
+      "role": "Big Biker's Woman",
+      "thumb": "/aHOaTiVIFA4I149xyRgnZ0w74GF.jpg"
+    },
+    {
+      "name": "Ivy Dubreuil",
+      "order": 193,
+      "role": "Lucy Ardoin",
+      "thumb": "/g4Pts8sjOVjUW0rNohFoLEw68CK.jpg"
+    },
+    {
+      "name": "James Davison",
+      "order": 195,
+      "role": "Biker",
+      "thumb": null
+    },
+    {
+      "name": "Dennis Keiffer",
+      "order": 197,
+      "role": "Biker",
+      "thumb": "/bmLkNcO8emp17vTMKaRUBHYE15j.jpg"
+    },
+    {
+      "name": "Eric Parkinson",
+      "order": 198,
+      "role": "Gus",
+      "thumb": "/rkX6U8ksm5uHg9ombDcgJBp8tSL.jpg"
+    },
+    {
+      "name": "Tommy Sheppard",
+      "order": 198,
+      "role": "Bar Patron",
+      "thumb": "/tMnnJVy8BnPAzcSWxIjkxVexXx5.jpg"
+    },
+    {
+      "name": "Robert Pralgo",
+      "order": 199,
+      "role": "Detective at Courthouse",
+      "thumb": "/lF2UcQemojihJM4XlLGkWEEsJuJ.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "The Long Bright Dark",
-        "Seeing Things",
-        "The Locked Room",
-        "Who Goes There?",
-        "The Secret Fate of All Life",
-        "Haunted Houses",
-        "After You've Gone",
-        "Form and Void"
+        {
+          "aired": "2014-01-12",
+          "plot": "Former Louisiana State CID partners Martin Hart and Rustin Cohle give separate statements to a pair of investigators about the murder of a prostitute, Dora Lange, 17 years earlier. As they look back, details of the crime, replete with occult overtones, are accompanied by insights into the detectives’ volatile partnership and personal lives.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hmPd6IkdJTDOXJzmO8Gjc7d0Fnt.jpg",
+          "title": "The Long Bright Dark"
+        },
+        {
+          "aired": "2014-01-19",
+          "plot": "Under pressure to land a suspect in the Lange murder, Quesada warns Hart and Cohle that they might be replaced by three detectives from a new task force. The pair lobbies for extra time to follow up on a lead that takes them from a rural cathouse to an incinerated church. With his marriage to Maggie already strained by work, Hart finds respite away from home.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/htrlCoORtTr7DB8BmwPkafHG3Ps.jpg",
+          "title": "Seeing Things"
+        },
+        {
+          "aired": "2014-01-26",
+          "plot": "A hidden image at the burned-out church leads Cohle and Hart to Joel Theriot, a tent-revival minister whose parishioners finger a scarred “tall man” seen with Dora Lange. Brought in for interrogation, a sex offender matching the description is quickly dismissed by Cohle, despite offering a confession. Hart gets sidetracked after Maggie sets Cohle up with a friend at a C&W bar. Looking to establish a pattern of murder, Cohle pores over old case files, finding a connection with a woman assumed to have drowned years earlier.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bOruKcYh7t3lvaxEISYnODU9TEv.jpg",
+          "title": "The Locked Room"
+        },
+        {
+          "aired": "2014-02-09",
+          "plot": "Hart and Cohle hunt for their newly identified suspect, Reggie Ledoux, a meth cooker who shared a cell with Dora Lange's husband and recently skipped parole. As Hart's personal life collapses around him, Cohle immerses himself in an old criminal identity from his narco days, contacting an East-Texas biker gang known to deal with their primary suspect.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rxIdNZxiGOsw4AYmnWnBxlRr3uX.jpg",
+          "title": "Who Goes There"
+        },
+        {
+          "aired": "2014-02-16",
+          "plot": "A violent denouement in the forest clears the Dora Lange case and turns Cohle and Hart into local heroes. Each man settles into a healthier rhythm of living as Hart returns to his family, and Cohle starts a relationship while gaining a reputation as a closer in interrogations. As time passes and his daughters grow older, Hart faces new tensions and temptations, and Cohle learns from a double-murder suspect that there could be much more to an old case than he'd once thought. In 2012, Gilbough and Papania put their cards on the table, presenting new intelligence that threatens Cohle and causes Hart to reassess everything he thought he knew about his former partner.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8nWKR5NiRKfFE1vBgvPcl4G6Trj.jpg",
+          "title": "The Secret Fate of All Life"
+        },
+        {
+          "aired": "2014-02-23",
+          "plot": "Maggie reveals Cohle's activities in 2002, when his relationship with Hart fractured and he quit the force.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qiRGhQrahc9LQuGvh05VJEnBE9L.jpg",
+          "title": "Haunted Houses"
+        },
+        {
+          "aired": "2014-03-02",
+          "plot": "Hart and Cohle call a truce to investigate a series of disappearances that may be related to the Dora Lange murder and the Tuttle family.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cj7WwlFJ9oo4D4iK91s7ZygZixS.jpg",
+          "title": "After You've Gone"
+        },
+        {
+          "aired": "2014-03-09",
+          "plot": "An overlooked detail provides Hart and Cohle with an important new lead in their 17-year-old case.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zsSbVtxlmnzQ2agUS6VpLVVHHbf.jpg",
+          "title": "Form and Void"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "The Western Book of the Dead",
-        "Night Finds You",
-        "Maybe Tomorrow",
-        "Down Will Come",
-        "Other Lives",
-        "Church in Ruins",
-        "Black Maps and Motel Rooms",
-        "Omega Station"
+        {
+          "aired": "2015-06-21",
+          "plot": "The disappearance of a city manager disrupts a lucrative land scheme and ignites an investigation involving three police officers and a career criminal who is moving into legitimate business.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ck03m25eWq0FMw3FVms2glwRWLL.jpg",
+          "title": "The Western Book of the Dead"
+        },
+        {
+          "aired": "2015-06-28",
+          "plot": "Ben Caspar's autopsy reveals the gruesome details of his demise, and Ray and Ani wonder if it has anything to do with his fondness for prostitutes. Meanwhile, Frank looks into what might have happened to his missing fortune.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/awcguTsmJ6odf85sHRiZV3iNARs.jpg",
+          "title": "Night Finds You"
+        },
+        {
+          "aired": "2015-07-05",
+          "plot": "The repercussions from Caspar's murder are felt by Frank and the Vinci Mayor's office. Ray and Ani are involved in a close call with the killer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cDbrc3RCqCuOudQCVAiQaW7Oxy1.jpg",
+          "title": "Maybe Tomorrow"
+        },
+        {
+          "aired": "2015-07-12",
+          "plot": "The detail works a pawn-shop lead to close in on a suspect in the Caspere case. Frank revisits his past to pay for his present. Velcoro, Bezzerides and Woodrugh struggle to keep the case straight in the face of corruption.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xpCCioq5r7wGm5yflVXXgASGlLv.jpg",
+          "title": "Down Will Come"
+        },
+        {
+          "aired": "2015-07-19",
+          "plot": "Ray and Frank contemplate new life choices. Ani and Paul follow a lead up the coast. ",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qNq39lt81ETw0K0eU2dcGWgv44t.jpg",
+          "title": "Other Lives"
+        },
+        {
+          "aired": "2015-07-26",
+          "plot": "Desperate to locate a missing woman with intel about Caspere, Frank meets with Mexican drug dealers; Ani infiltrates an exclusive inner circle, with Ray and Paul keeping close tabs. ",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uxqRw7XU8cVDUhuO3AFntfq8g5W.jpg",
+          "title": "Church in Ruins"
+        },
+        {
+          "aired": "2015-08-02",
+          "plot": "Ray, Ani and Paul take precautionary measures to elude detection and untangle a dark mystery; Frank deals with the fallout of his betrayal.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a50alacRPu7p8hcjrGk1kE6J3XK.jpg",
+          "title": "Black Maps and Motel Rooms"
+        },
+        {
+          "aired": "2015-08-09",
+          "plot": "Frank, Ray and Ani weigh their options as Caspere's killer and the scope of corruption is revealed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vTfGacGuZJSyocSlfYeMa1uFHtv.jpg",
+          "title": "Omega Station"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "The Great War and Modern Memory",
-        "Kiss Tomorrow Goodbye",
-        "The Big Never",
-        "The Hour and the Day",
-        "If You Have Ghosts",
-        "Hunters in the Dark",
-        "The Final Country",
-        "Now Am Found"
+        {
+          "aired": "2019-01-13",
+          "plot": "The disappearance of a young Arkansas boy and his sister in 1980 triggers vivid memories and enduring questions for retired detective Wayne Hays, who worked the case 35 years before with partner Roland West. What started as a routine case becomes a long journey to dissect and make sense of the crime.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pJSjYUN0om8ch5dBj9G0rZ1dGiu.jpg",
+          "title": "The Great War and Modern Memory"
+        },
+        {
+          "aired": "2019-01-13",
+          "plot": "Hays looks back at the aftermath of the 1980 Purcell case in West Finger, Arkansas, including possible evidence left behind at the Devil's Den. As attention focuses on two conspicuous suspects--Brett Woodard, a solitary vet and trash collector, and Ted LaGrange, an ex-con with a penchant for children--the parents of the missing kids, Tom and Lucy Purcell, receive a cryptic note.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cyE86pfKRVlAlHZgDscbmaBOr89.jpg",
+          "title": "Kiss Tomorrow Goodbye"
+        },
+        {
+          "aired": "2019-01-20",
+          "plot": "Hays recalls his early romance with Amelia, as well as cracks in their relationship that surfaced after they married and had children. Ten years after the Purcell crimes, new evidence emerges, giving him a second chance to vindicate himself and the investigation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y6XAeDjuvITdzxBJfxUOf6vPr2P.jpg",
+          "title": "The Big Never"
+        },
+        {
+          "aired": "2019-01-27",
+          "plot": "Hays and West see a possible connection between the local church and the Purcell crimes. As the detectives search for one suspect and round up another for interrogation, Woodard is targeted by a vigilante group.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rqTEBDu8bOhq0mBlaD5abOUwuPy.jpg",
+          "title": "The Hour and the Day"
+        },
+        {
+          "aired": "2019-02-03",
+          "plot": "Wayne finds himself in a no-win situation as new clues emerge in the Purcell case. Roland wrestles with how to keep evidence secure as lawyers demand a new investigation. Amelia finds her relationship with Wayne imperiled by her writing aspirations and his jealousy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eFtEt0gfhPzoFp5iezZhjx6H0Qx.jpg",
+          "title": "If You Have Ghosts"
+        },
+        {
+          "aired": "2019-02-10",
+          "plot": "Wayne and Roland revisit discrepancies in the Purcell case that were hidden or forgotten over the years. Among those being reevaluated is Tom Purcell, as well as Lucy Purcell’s cousin, Dan O’Brien. The glitter of Amelia’s book release is tarnished by a voice from the past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uyte3ROivDzGLz6Cpvbf6h6mkeR.jpg",
+          "title": "Hunters in the Dark"
+        },
+        {
+          "aired": "2019-02-17",
+          "plot": "Following up on new leads, Wayne and Roland track down a man who left the police force in the midst of the Purcell investigation. Meanwhile, Amelia visits Lucy Purcell’s best friend in hopes of gaining insights into the whereabouts of the mysterious one-eyed man.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7zybgu1RorDGIHktVV4GNyeoinm.jpg",
+          "title": "The Final Country"
+        },
+        {
+          "aired": "2019-02-24",
+          "plot": "Wayne struggles to hold on to his memories, and his grip on reality, as the truth behind the Purcell case is finally revealed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6RFGeFsZrlDd2TllfmTGksPUoo0.jpg",
+          "title": "Now Am Found"
+        }
       ]
     }
   },

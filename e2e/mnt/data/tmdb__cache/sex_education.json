@@ -1,32 +1,504 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
   "id": 81356,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/356317/showbackground/sex-education-5c84395a7aaee.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/356317/tvposter/sex-education-5c8438be23f51.jpeg",
+        "https://assets.fanart.tv/fanart/tv/356317/tvposter/sex-education-5d062f348671a.jpg",
+        "https://assets.fanart.tv/fanart/tv/356317/tvposter/sex-education-5e72cb662338a.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/356317/tvthumb/sex-education-5c44b6fca369f.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/61m8HGEWwE4q8oSz3AY5vl5F3BS.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/4Bph0hhnDH6dpc0SZIV522bLm4P.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Sex Education",
+  "plot": "Inexperienced Otis channels his sex therapist mom when he teams up with rebellious Maeve to set up an underground sex therapy clinic at school.",
+  "premiered": "2019-01-11",
+  "status": "Returning Series",
+  "studios": [
+    "Netflix"
+  ],
+  "actors": [
+    {
+      "name": "Asa Butterfield",
+      "order": 0,
+      "role": "Otis Milburn",
+      "thumb": "/hMDIBO0QcOydD0UtfeDjTR7mhi6.jpg"
+    },
+    {
+      "name": "Gillian Anderson",
+      "order": 1,
+      "role": "Jean Milburn",
+      "thumb": "/pLHyyHwLID7icND29spleuM0mPQ.jpg"
+    },
+    {
+      "name": "Ncuti Gatwa",
+      "order": 2,
+      "role": "Eric Effiong",
+      "thumb": "/zc7x4xSaSUb85PBYUj7sXu17NvT.jpg"
+    },
+    {
+      "name": "Emma Mackey",
+      "order": 3,
+      "role": "Maeve Wiley",
+      "thumb": "/9OZBcFSS3Yz0Oqr8mssbQa4suW8.jpg"
+    },
+    {
+      "name": "Kedar Williams-Stirling",
+      "order": 4,
+      "role": "Jackson Monroe",
+      "thumb": "/dhXjEwdKhhObMgU1Y8cA1MgZnUL.jpg"
+    },
+    {
+      "name": "Aimée-Lou Wood",
+      "order": 5,
+      "role": "Aimee Gibbs",
+      "thumb": "/4mBtmJ4MAkP1fRPhQC7lHTpntW3.jpg"
+    },
+    {
+      "name": "Connor Swindells",
+      "order": 6,
+      "role": "Adam Groff",
+      "thumb": "/jUY1Ayi79usRpwjMmrGVtGmWL6B.jpg"
+    },
+    {
+      "name": "Alistair Petrie",
+      "order": 34,
+      "role": "Mr. Groff",
+      "thumb": "/rCGlytQY6cpDj3px2acSxlX24Il.jpg"
+    },
+    {
+      "name": "Simone Ashley",
+      "order": 52,
+      "role": "Olivia",
+      "thumb": "/sE4dPGknBFLpO4DoCQqL0AkasHH.jpg"
+    },
+    {
+      "name": "Patricia Allison",
+      "order": 15,
+      "role": "Ola Nyman",
+      "thumb": "/ztRXYFo2HUgUkxKjNbh3ivlw6pL.jpg"
+    },
+    {
+      "name": "Jim Howick",
+      "order": 38,
+      "role": "Colin Hendricks",
+      "thumb": "/nkvkarlcXjFBsg30DYWKsah3APg.jpg"
+    },
+    {
+      "name": "Mimi Keene",
+      "order": 38,
+      "role": "Ruby Matthews",
+      "thumb": "/yC4gDbUHJ0ANo7nACi87VrU7KoZ.jpg"
+    },
+    {
+      "name": "Rakhee Thakrar",
+      "order": 41,
+      "role": "Miss Sands",
+      "thumb": "/af76hFq2OmCfMiwMZRPAjaWyvvT.jpg"
+    },
+    {
+      "name": "Chaneil Kular",
+      "order": 43,
+      "role": "Anwar",
+      "thumb": null
+    },
+    {
+      "name": "Tanya Reynolds",
+      "order": 38,
+      "role": "Lily Iglehart",
+      "thumb": "/m5FP6lzbxYon8W6hEvj9d4h21i4.jpg"
+    },
+    {
+      "name": "Hannah Waddingham",
+      "order": 53,
+      "role": "Sofia Marchetti",
+      "thumb": "/4xa9UtUBvrN0tpBEXdBZXJCIMgi.jpg"
+    },
+    {
+      "name": "Chinenye Ezeudu",
+      "order": 54,
+      "role": "Viv",
+      "thumb": null
+    },
+    {
+      "name": "Samantha Spiro",
+      "order": 52,
+      "role": "Mrs. Groff",
+      "thumb": "/qRHDueWNjMHLNstQen26vSDtV05.jpg"
+    },
+    {
+      "name": "Lino Facioli",
+      "order": 47,
+      "role": "Dex",
+      "thumb": "/ykP2TP7SprUMjQnoMIWYryk04a2.jpg"
+    },
+    {
+      "name": "Sharon Duncan-Brewster",
+      "order": 52,
+      "role": "Roz Marchetti",
+      "thumb": "/3UCihGvkuWQbdRBzYgVM52IFPeA.jpg"
+    },
+    {
+      "name": "Lisa Palfrey",
+      "order": 52,
+      "role": "Cynthia",
+      "thumb": "/iwZrsJhsuiqep5zEyh4b7lhYTs5.jpg"
+    },
+    {
+      "name": "George Robinson",
+      "order": 56,
+      "role": "Isaac",
+      "thumb": null
+    },
+    {
+      "name": "Deobia Oparei",
+      "order": 34,
+      "role": "Mr. Effoing",
+      "thumb": "/kcw8vNMlYgK8peuN80zhX6TqeNk.jpg"
+    },
+    {
+      "name": "Joe Wilkinson",
+      "order": 52,
+      "role": "Jeffrey",
+      "thumb": "/4Ti7DUnXyvjmnejzSzj1EbdiMIm.jpg"
+    },
+    {
+      "name": "Chris Jenks",
+      "order": 43,
+      "role": "Steve",
+      "thumb": null
+    },
+    {
+      "name": "Conor Clarke-McGrath",
+      "order": 54,
+      "role": "Courgette Connor",
+      "thumb": null
+    },
+    {
+      "name": "George Somner",
+      "order": 54,
+      "role": "Joe",
+      "thumb": "/9FocanO4wogWLjxxNiLk3dP84Aa.jpg"
+    },
+    {
+      "name": "Edward Bluemel",
+      "order": 25,
+      "role": "Sean Wiley",
+      "thumb": "/wrL8lk0Y6tHtVQCOMBTyvnBhofd.jpg"
+    },
+    {
+      "name": "Jojo Macari",
+      "order": 34,
+      "role": "Kyle",
+      "thumb": "/dnl83JiW2Ks0C8tDpsRaS5fHbOR.jpg"
+    },
+    {
+      "name": "George Georgiou",
+      "order": 55,
+      "role": "Yousef",
+      "thumb": "/9NoRfi7L87xsmveXpE7ryycsFQy.jpg"
+    },
+    {
+      "name": "Max Boast",
+      "order": 34,
+      "role": "Tom Baker",
+      "thumb": null
+    },
+    {
+      "name": "Daniel Ings",
+      "order": 34,
+      "role": "Dan",
+      "thumb": "/VHtgRMz5t0F8DEjYMxSmY09DTw.jpg"
+    },
+    {
+      "name": "Lily Newmark",
+      "order": 34,
+      "role": "Ruthie",
+      "thumb": "/eptZSYgdDbYjdIfsLwSyEizmSmx.jpg"
+    },
+    {
+      "name": "T'Nia Miller",
+      "order": 39,
+      "role": "Maxine Tarrington",
+      "thumb": "/cON15HfebAGCgPUDcM3s4PL9LX2.jpg"
+    },
+    {
+      "name": "Mirren Mack",
+      "order": 50,
+      "role": "Florence",
+      "thumb": "/3xOiyeum1KDzlPqnfrPeEQh8kOE.jpg"
+    },
+    {
+      "name": "Armin Karima",
+      "order": 55,
+      "role": "Malek",
+      "thumb": null
+    },
+    {
+      "name": "Adam Young",
+      "order": 11,
+      "role": "Birthday Twin",
+      "thumb": null
+    },
+    {
+      "name": "Lowri Palfrey",
+      "order": 19,
+      "role": "Simone McAllister",
+      "thumb": null
+    },
+    {
+      "name": "Tom Mackley",
+      "order": 21,
+      "role": "Liam",
+      "thumb": null
+    },
+    {
+      "name": "Doreene Blackstock",
+      "order": 24,
+      "role": "Mrs. Effoing",
+      "thumb": "/zfbfmEIFNx5vdiWUKKBz8IKFOpz.jpg"
+    },
+    {
+      "name": "Alice Hewkin",
+      "order": 27,
+      "role": "Tanya",
+      "thumb": "/Ab92Gh6ILQCaoniNeJHwds9za2Y.jpg"
+    },
+    {
+      "name": "Zak Shukor",
+      "order": 28,
+      "role": "Dr. Atwan",
+      "thumb": null
+    },
+    {
+      "name": "Dominic Applewhite",
+      "order": 29,
+      "role": "Charlie",
+      "thumb": "/bwk1Wgtct7bmTTuOFDsecQf5Coj.jpg"
+    },
+    {
+      "name": "Lu Corfield",
+      "order": 30,
+      "role": "Sarah",
+      "thumb": "/pUtLj4vPHs70s8mclARFUvNOqG8.jpg"
+    },
+    {
+      "name": "Lily Frazer",
+      "order": 31,
+      "role": "Tiana",
+      "thumb": "/jYrpFVwTncJ4qv80dqyhmLazBzn.jpg"
+    },
+    {
+      "name": "Toby Williams",
+      "order": 32,
+      "role": "Tim",
+      "thumb": null
+    },
+    {
+      "name": "Jonny Amies",
+      "order": 33,
+      "role": "Sam",
+      "thumb": null
+    },
+    {
+      "name": "Samuel Jordan",
+      "order": 35,
+      "role": "Simon",
+      "thumb": null
+    },
+    {
+      "name": "Stephen Fry",
+      "order": 42,
+      "role": "NSQC Quizmaster",
+      "thumb": "/xeheTDmmQDFYaKxEHmyxbjrte4G.jpg"
+    },
+    {
+      "name": "Jack Bandeira",
+      "order": 45,
+      "role": "Eli",
+      "thumb": "/510gfaNl3XiWsA6ZS8oplLmsDJp.jpg"
+    },
+    {
+      "name": "Daniel Betts",
+      "order": 46,
+      "role": "Sgt Morris",
+      "thumb": "/n9D1PVeaCTuWIym7do1rXpuMErL.jpg"
+    },
+    {
+      "name": "Spike Leighton",
+      "order": 47,
+      "role": "Luke",
+      "thumb": "/y6YSlsVnsUDjsKfDUpP53pgSvdC.jpg"
+    },
+    {
+      "name": "Youssef Kerkour",
+      "order": 52,
+      "role": "Nathan",
+      "thumb": "/2QStIgovcVM6EopKRtVPKmEjYD7.jpg"
+    },
+    {
+      "name": "Tom Atkinson",
+      "order": 53,
+      "role": "Nick",
+      "thumb": null
+    },
+    {
+      "name": "Sanchia McCormack",
+      "order": 55,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Behnaz VAKILI",
+      "order": 56,
+      "role": "",
+      "thumb": "/wJada6a4RWZa15c1QgCl0iZ5XlV.jpg"
+    },
+    {
+      "name": "Liz Jadav",
+      "order": 56,
+      "role": "",
+      "thumb": "/ienk34EXxHE7ILVN5GP0XAZ2iwI.jpg"
+    },
+    {
+      "name": "Sanchia Maccormack",
+      "order": 57,
+      "role": "",
+      "thumb": "/emtYFKuObRdJu5BVHpAGV50qvIM.jpg"
+    },
+    {
+      "name": "Catriona Knox",
+      "order": 58,
+      "role": "Mrs. Gibbs",
+      "thumb": "/wIOYVjWCdC9iOHNAkQQXdRyokRM.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Encouragement",
-        "House Party",
-        "Liftoff",
-        "Crush",
-        "Mean Girl",
-        "Issues",
-        "Big Dance",
-        "Violated"
+        {
+          "aired": "2019-01-11",
+          "plot": "Despite the ministrations of sex therapist mom Jean and encouragement from pal Eric, Otis worries that he can't get it on. He's not the only one.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4m4Dt8sZJpoZ0hIfTxiNefq0rhT.jpg",
+          "title": "Encouragement"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Egged on by Maeve -- and finding that dispensing sex tips is tougher than he thought -- Otis tries offering free advice at a classmate's house party.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uCFl2rMgA0h7zkqMuSRdJKzhxOm.jpg",
+          "title": "House Party"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Otis' clinic achieves liftoff, as does his attraction to Maeve, who unexpectedly asks him for help. Eric swings off on his own and fields a come-on.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1eG2PslaSsfPlVnLyA6FbjAUsio.jpg",
+          "title": "Liftoff"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Eric realizes Otis has fallen for Maeve. But the young sex therapist finds himself torn when hot guy Jackson seeks help with his secret crush.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lzDSSWhqUrwMAb6Dlki8cnj7GTO.jpg",
+          "title": "Crush"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "An explicit pic puts a mean girl on the spot. Maeve wants to track down the shaming culprit, forcing Otis to make a tough choice on an important day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wd9xLkImxfQyIx3JQtMPYkrfhvC.jpg",
+          "title": "Mean Girl"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Eric's trauma isolates him, and Maeve's essay wins a prize. Otis tries to hook up with Lily, but his deep-seated issues get in the way.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pzWhca23Vz1ERIas8hEOKeHyWAL.jpg",
+          "title": "Issues"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "The big dance brings out the best, and the drama, in Moordale's student body. Otis finds a date, Maeve gets her dress, and Eric returns with style.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s6vOtDfOa0LHMFzdzTrKOmirzZJ.jpg",
+          "title": "Big Dance"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Otis feels violated by Jean's new book, and Maeve takes the fall for her brother. Eric serves detention with an old foe, while Lily's body betrays her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uQBpwYS0RMEQb3Etu2YAiS26IJB.jpg",
+          "title": "Violated"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Episode 1",
-        "Episode 2",
-        "Episode 3",
-        "Episode 4",
-        "Episode 5",
-        "Episode 6",
-        "Episode 7",
-        "Episode 8"
+        {
+          "aired": "2020-01-17",
+          "plot": "Masturbation turns out to be Otis's secret talent, but can he master his unruly desires for Ola? A chlamydia outbreak distracts the student body.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zLUTt5SzgvvpYokTwL9nq2QEEZt.jpg",
+          "title": "Episode 1"
+        },
+        {
+          "aired": "2020-01-17",
+          "plot": "After Jean makes a cringey appearance at school, Otis tries his hand at pleasing Ola – and advising a hapless teacher. Fearless Maeve buckles.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aoTUp1kKCUeaw8jAyu2ZJXJq4gD.jpg",
+          "title": "Episode 2"
+        },
+        {
+          "aired": "2020-01-17",
+          "plot": "On her way to surprise Maeve, Aimee gets a horrible shock on the bus. Rahim connects with Eric as a Milburn family dinner gets seriously awkward.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oO3Rxb9662jv1NprN5VnrQFJH9z.jpg",
+          "title": "Episode 3"
+        },
+        {
+          "aired": "2020-01-17",
+          "plot": "Ola wants to go all the way, but Otis is on edge. Jean and Maeve need their space. Jackson has performance worries, and star-crossed lovers reconnect.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n0FmFaY5WkF87nV01y7dU1BZczD.jpg",
+          "title": "Episode 4"
+        },
+        {
+          "aired": "2020-01-17",
+          "plot": "Otis and Eric get away from romance and retreat to the woods with Remi. But parents aren’t perfect, as Maeve knows. Later, Ola follows her heart.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9th5kDCTc5nYjz9aE5SI395XnRC.jpg",
+          "title": "Episode 5"
+        },
+        {
+          "aired": "2020-01-17",
+          "plot": "Bouncing back is the only option, so Otis throws a small gathering that turns rowdy, and Jackson deals with the healing. Who can handle the truth?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fZbrT3LgfvehTMdNg0ti92OT7Wt.jpg",
+          "title": "Episode 6"
+        },
+        {
+          "aired": "2020-01-17",
+          "plot": "Welcome to the morning after. \"Sex kid\" has made a huge mess – and just can't stop barfing. Chaos comes to class, and in detention, the girls bond.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2b0Qw7MLXCBW8558zHIVll5EUgN.jpg",
+          "title": "Episode 7"
+        },
+        {
+          "aired": "2020-01-17",
+          "plot": "The talking cure may be failing Otis and Jean as they sort out their issues. A wary Maeve makes the finals. Sexy Shakespeare never goes out of style.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5AvJbMdjERWUTv8AeXzLyssxTWs.jpg",
+          "title": "Episode 8"
+        }
       ]
     }
   },

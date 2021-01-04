@@ -1,23 +1,196 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Talk"
+  ],
   "id": 108299,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/o2ZijYlyLXCzVdjkpo4wmrjcNK5.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/fhJF3DbV7A2gMDzwC2qdBXDPKW9.jpg"
+    }
+  },
+  "mpaa": "",
   "name": "The Big Fat Quiz of Everything",
+  "plot": "The Big Fat Quiz of Everything is a spin-off series to the annual The Big Fat Quiz of the Year. These quizzes ask questions based on various subjects including history, geography, films, television, music, science, technology, art, literature, sports and games. Essentially, the show is a comedy panel game in the style of a pub quiz. Three teams, of two celebrities each, are asked questions relating to the events of the year just gone by, which they write answers to on an electronic board in front of them. At the end of each round, they then display their answers, scoring a point for each correct one.",
+  "premiered": "2016-08-15",
+  "status": "Returning Series",
+  "studios": [
+    "Channel 4"
+  ],
+  "actors": [
+    {
+      "name": "Jonathan Ross",
+      "order": 20,
+      "role": "Self - Contestant",
+      "thumb": "/lHQNwKd8S96W1A4oUq3C2M9amZP.jpg"
+    },
+    {
+      "name": "Noel Fielding",
+      "order": 20,
+      "role": "Self - Contestant",
+      "thumb": "/1s5hoRdVVQJOX1OAetGfYvfZZrZ.jpg"
+    },
+    {
+      "name": "Richard Ayoade",
+      "order": 20,
+      "role": "Self - Contestant",
+      "thumb": "/qHKoy9kP4bsv4G9EkvU4FMUmYkS.jpg"
+    },
+    {
+      "name": "Jimmy Carr",
+      "order": 500,
+      "role": "Host",
+      "thumb": "/xfEer8eO6rUrpuctvMrJtseYJcR.jpg"
+    },
+    {
+      "name": "Chelsea Peretti",
+      "order": 17,
+      "role": "Self - Contestant",
+      "thumb": "/zjAYqAx8o0H2bg9WmfAxBsFrsel.jpg"
+    },
+    {
+      "name": "Mel Giedroyc",
+      "order": 18,
+      "role": "Self - Contestant",
+      "thumb": "/tyEurzH1ZBRBtY2YPfNOv2FKFXN.jpg"
+    },
+    {
+      "name": "Aisling Bea",
+      "order": 20,
+      "role": "Self - Contestant",
+      "thumb": "/deaWGyvV0qCibq5j0HlnWnnSjVh.jpg"
+    },
+    {
+      "name": "Claudia Winkleman",
+      "order": 21,
+      "role": "Self - Contestant",
+      "thumb": "/mZx3EyhpfAeHkzMF18qK4RprNbI.jpg"
+    },
+    {
+      "name": "Bob Mortimer",
+      "order": 23,
+      "role": "Self - Contestant",
+      "thumb": "/epY4sAhBlj9RiKbMA2J0dmEy7S2.jpg"
+    },
+    {
+      "name": "Rob Beckett",
+      "order": 28,
+      "role": "Self - Contestant",
+      "thumb": "/uAaDoyd8cCdjcZ0bAgRI7FnIJMI.jpg"
+    },
+    {
+      "name": "David Mitchell",
+      "order": 2,
+      "role": "Self - Contestant",
+      "thumb": "/mHN2NWjBsXseWqq7Zg8K31NS91n.jpg"
+    },
+    {
+      "name": "Kristen Schaal",
+      "order": 4,
+      "role": "Self - Contestant",
+      "thumb": "/s3LSHVTx8gxHP2twYsXEGa8JbLl.jpg"
+    },
+    {
+      "name": "Adam Buxton",
+      "order": 9,
+      "role": "Self - Contestant",
+      "thumb": "/jD0Pl0QnNHuls1PmYtEnBNbuLKY.jpg"
+    },
+    {
+      "name": "Alan Carr",
+      "order": 12,
+      "role": "Self - Contestant",
+      "thumb": "/v2bFTjWXEdlt2RbNhXQkPfUQwkY.jpg"
+    },
+    {
+      "name": "Romesh Ranganathan",
+      "order": 13,
+      "role": "Self - Contestant",
+      "thumb": "/kZ4g2kvgx8MHKLEQ7DAQ07ta2Lz.jpg"
+    },
+    {
+      "name": "Dara Ó Briain",
+      "order": 14,
+      "role": "Self - Contestant",
+      "thumb": "/mKu8KTyWejSZCtc92bkfRKdrvfS.jpg"
+    },
+    {
+      "name": "Eddie Izzard",
+      "order": 16,
+      "role": "Self - Contestant",
+      "thumb": "/jPsZdu9DzGudytybdzjXAm77Q0r.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "2016 Special",
-        "2017 Special",
-        "2018 Special",
-        "2019 Special"
+        {
+          "aired": "2016-01-05",
+          "plot": "With Jonathan Ross and Chelsea Pareto (Cops and Wobbers). Jack Whitehall and Mel Giedroyc (The Custard Junkies), Noel Fielding and Richard Ayoade (The Ladder Collars / Team Falafel / Russell Brand Not Available).\n\nPre-recorded guest questions came from Little Mix, Gareth Malone, Paul Whitehouse, Joey Essex, Jessica Ennis-Hill, Dom and Steph Parker from Gogglebox, Kevin McCloud, Darcey Bussell and Alesha Dixon. Chris Kamara provided the in-studio guest question.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o2ZijYlyLXCzVdjkpo4wmrjcNK5.jpg",
+          "title": "2016 Special"
+        },
+        {
+          "aired": "2017-01-06",
+          "plot": "With Jonathan Ross and David Walliams (Walliams); Katherine Ryan and Aisling Bea (Foreign Twerkers); Noel Fielding and Richard Ayoade (Humanity's Last Hope).\n\nPre-recorded guest questions came from Joe Wicks, Nick Hewer, Joey Essex, Laura and Jason Kenny, Derren Brown, Ollie Locke from Made in Chelsea and Darcey Bussell. Jonnie Peacock provided the in-studio guest question in the form of sporting celebrations. The London Philharmonic Choir appeared to sing popular hip-hop and rap tunes in a choral style for the final question.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o2ZijYlyLXCzVdjkpo4wmrjcNK5.jpg",
+          "title": "2017 Special"
+        },
+        {
+          "aired": "2018-01-12",
+          "plot": "With Jonathan Ross and Nish Kumar (The British Asians); Claudia Winkleman and Miranda Hart (Ladies Who Lunch, Breakfast, Dinner, Snack and Tea); Vic Reeves and Bob Mortimer (Strike Force One).\n\nPre-recorded guest questions came from Luke Evans, Ore Oduba, Dynamo, Christian Slater, Judy Murray and Reverend Kate Bottley. The Big Fat Question featured several football team mascots for the teams to identify.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o2ZijYlyLXCzVdjkpo4wmrjcNK5.jpg",
+          "title": "2018 Special"
+        },
+        {
+          "aired": "2019-01-04",
+          "plot": "Question master Jimmy Carr is joined by Sandi Toksvig, Joe Lycett, Katherine Ryan, Big Narstie, David Baddiel and Frank Skinner as they battle it out in the super-sized quiz.\n\nPre-recorded guest questions came from Brendan O'Carroll, Stacey Solomon, Eric Idle, Asim Chaudhry (in character as Chabuddy G from People Just Do Nothing), Basil Brush, Clara Amfo and Boyzone. The in-studio guest questions were provided by This Morning's Dr. Ranj who asked the teams to identify different muscles and bones in the body, and First Dates barman Merlin Griffiths who asked the teams to identify the cocktails he was mixing.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o2ZijYlyLXCzVdjkpo4wmrjcNK5.jpg",
+          "title": "2019 Special"
+        },
+        {
+          "aired": "2021-01-07",
+          "plot": "Jimmy Carr hosts as celebrity quizzers Rob Beckett, Roisin Conaty, Nish Kumar, Katherine Ryan, Oti Mabuse and Rob Brydon go head to head. With Jon Snow and Charles Dance.",
+          "thumbnail": "",
+          "title": "2021 Special"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Episode 1",
-        "Episode 2",
-        "Episode 3"
+        {
+          "aired": "2016-08-15",
+          "plot": "with Claudia Winkleman and David Mitchell (David & Claudia); Mel Giedroyc and Kristen Schaal (The Awesome Clams); Jonathan Ross and Bob Mortimer (One and a Half Condoms).\n\nPre-recorded guest questions came from Buzz Aldrin, Deborah Meaden from Dragons' Den, Joey Essex, Rylan Clark, Warwick Davis and David Haye. The in-studio guest questions were asked by First Dates maitre d' Fred Sirieix (who proceeded to open a large bottle of champagne and serve it to the contestants and the studio audience) and Strictly Come Dancing pair Kevin and Karen Clifton, who performed a series of dances in a minute for the contestants to guess.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nItx0XxCWw4Yo9IjiDc1ZI6lvSq.jpg",
+          "title": "Episode 1"
+        },
+        {
+          "aired": "2016-08-22",
+          "plot": "with Noel Fielding and Richard Ayoade (The Sultans of Bhunai); Adam Buxton and Jonathan Ross (Two Great Guys Trying Their Best / The Ancient Fucks); Aisling Bea and Rob Beckett (Tits and Teeth).\n\nPre-recorded guest questions came from Jodie Kidd, Dr. Christian Jessen, Joey Essex, Ronan Keating, Jerry Springer and Eddie \"The Eagle\" Edwards. The Mariachis appeared to play TV themes in a mariachi style for the final question.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hZhgxzbKtWNQU4feFcmgjTEOaFv.jpg",
+          "title": "Episode 2"
+        },
+        {
+          "aired": "2016-08-28",
+          "plot": "with Alan Carr and Romesh Ranganathan (The Twins); Dara Ó Briain and Chelsea Peretti (Darsea O Perettiain); Noel Fielding and Eddie Izzard (The Phrologists).\n\nPre-recorded guest questions came from Jess Glynne, Made in Chelsea's Jamie Laing, Ricky Wilson, Ray Mears and Joey Essex. Two sloths appeared in the studio for a question about the seven deadly sins, and three human statues replicated famous historical statues for the final question.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hZhgxzbKtWNQU4feFcmgjTEOaFv.jpg",
+          "title": "Episode 3"
+        }
       ]
     }
   },

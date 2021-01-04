@@ -1,21 +1,203 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Drama",
+    "Action & Adventure",
+    "Comedy"
+  ],
   "id": 84231,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/353367/seasonposter/wayne-2018-5e1bdd0fe5175.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c434ad42e927.jpg",
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c4349c672242.jpg",
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c434a83af778.jpg",
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c5e593e0e868.jpg",
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c5e59c4b85f2.jpg",
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c5e5beb3d8bb.jpg"
+      ],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/8R3yTaFVhITGm0YfwXRixuUkjD9.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/z8E1ZKTDhz477wjkT9ttIRmiVOc.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Wayne",
+  "plot": "In this gritty and sometimes bloody tale, sixteen year-old Wayne sets out on a dirt bike with his new crush Del to take back the 1978 Pontiac Trans Am that was stolen from his father before he died. It is Wayne and Del against the world.",
+  "premiered": "2019-01-16",
+  "status": "Canceled",
+  "studios": [
+    "YouTube Premium"
+  ],
+  "actors": [
+    {
+      "name": "Mark McKenna",
+      "order": 0,
+      "role": "Wayne",
+      "thumb": "/a8r29te8SjNZm28YpYW0MXl3epg.jpg"
+    },
+    {
+      "name": "Ciara Bravo",
+      "order": 1,
+      "role": "Del",
+      "thumb": "/2UE11ONGTerkmGLNDkIInr7hsqr.jpg"
+    },
+    {
+      "name": "Dean Winters",
+      "order": 2,
+      "role": "Bobby",
+      "thumb": "/4kwzxdILxtCfo33Z8EJQdlAc1e3.jpg"
+    },
+    {
+      "name": "Stephen Kearin",
+      "order": 3,
+      "role": "Sergeant Stephen Geller",
+      "thumb": null
+    },
+    {
+      "name": "James Earl",
+      "order": 4,
+      "role": "Officer Jay",
+      "thumb": "/iJ3kiSr9LXPcBNbBh38Zs3obCzz.jpg"
+    },
+    {
+      "name": "Jamie Champagne",
+      "order": 5,
+      "role": "Brother Teddy",
+      "thumb": "/7bp3NiYZMOQfH7Abdu4muN3dwpT.jpg"
+    },
+    {
+      "name": "Jon Champagne",
+      "order": 6,
+      "role": "Brother Carl",
+      "thumb": "/7dem7yirp3Vr39Emqpowi1B2cYq.jpg"
+    },
+    {
+      "name": "Francesco Antonio",
+      "order": 7,
+      "role": "Reggie",
+      "thumb": "/c3AxEN0Pj5ozcxwgydfA7b2dGXZ.jpg"
+    },
+    {
+      "name": "Joshua J. Williams",
+      "order": 8,
+      "role": "Orlando",
+      "thumb": "/6iN0Qm7f9vq0X9UpF3oLTWcxfeV.jpg"
+    },
+    {
+      "name": "Mike O'Malley",
+      "order": 9,
+      "role": "Principal Cole",
+      "thumb": "/blpOdhEfAn9llt8gyYwIbqyaT2y.jpg"
+    },
+    {
+      "name": "Thomas Mitchell Barnet",
+      "order": 3,
+      "role": "Scott",
+      "thumb": "/4eBHOQs0sG2CLyMUS8knp5U34jx.jpg"
+    },
+    {
+      "name": "Kaniehtiio Horn",
+      "order": 1,
+      "role": "Kyra",
+      "thumb": "/9ut7shQuUKtxgP6AAu48tBYiUbA.jpg"
+    },
+    {
+      "name": "Peyton Meyer",
+      "order": 3,
+      "role": "Bradley",
+      "thumb": "/cIw99XCCWj5fg6xLODVJpRfGQq9.jpg"
+    },
+    {
+      "name": "Alexander Nunez",
+      "order": 4,
+      "role": "Kenny",
+      "thumb": "/9DFBnjLiVv8s8vTqfdTu9BUOn5O.jpg"
+    },
+    {
+      "name": "Lisa Berry",
+      "order": 5,
+      "role": "Gail",
+      "thumb": "/tTvV9ZWKieJtWX8JK1kIzIUFWJR.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "CHAPTER ONE- 'GET SOME THEN'",
-        "CHAPTER TWO- 'NO PRIESTS'",
-        "CHAPTER THREE- 'THE GODDAMNED BEACON OF TRUTH'",
-        "CHAPTER FOUR- 'FIND SOMETHING BLACK TO WEAR'",
-        "CHAPTER FIVE- 'DEL'",
-        "CHAPTER SIX- 'WHO EVEN ARE WE NOW'",
-        "CHAPTER SEVEN- 'IT'LL LAST FOREVER'",
-        "CHAPTER EIGHT- 'MUSTA BURNED LIKE HELL'",
-        "CHAPTER NINE- 'THOUGHT WE WAS FRIENDS'",
-        "CHAPTER TEN- 'BUCKLE THE FK UP'"
+        {
+          "aired": "2019-01-16",
+          "plot": "Wayne, a 16 year-old Dirty Harry with a heart of gold, sets out on his dirt-bike from Boston to Florida with his new crush Del, to get back a s*** hot '79 Trans Am that was stolen from his father before he died.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wWd4cMMrCmF1VBjjKdDZQeJ1jLS.jpg",
+          "title": "CHAPTER ONE- 'GET SOME THEN'"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "When Wayne fails to do one simple task for Del, she questions her choice to leave Brockton. The consequences of this small failure have life-threatening results when Wayne crosses paths with a dangerous local.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iuWhNAuXo458GPLJnfOWy5bCQSW.jpg",
+          "title": "CHAPTER TWO- 'NO PRIESTS'"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "After Wayne and Del make an appearance on the local news, Del gives Wayne a lesson in lying in order to keep their new cool friends at bay. But it’s not long before their lies are discovered and their cover is blown.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w7atqdOMvDgSWPYABJqSlk2g9nH.jpg",
+          "title": "CHAPTER THREE- 'THE GODDAMNED BEACON OF TRUTH'"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "After being robbed, Wayne goes to work as a day laborer as Del becomes obsessed with a stranger’s death. Meanwhile, Carl and Teddy celebrate their birthday on the road and come to terms with who their father really is.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/urnici8MLEa0owGBmdluX5zjxCf.jpg",
+          "title": "CHAPTER FOUR- 'FIND SOMETHING BLACK TO WEAR'"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "A look back on a day long before Wayne met Del; a day that changed Del, Daddy, and the boys forever.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/453vScwX0TnqwLCV8ZoHH5XdU1F.jpg",
+          "title": "CHAPTER FIVE- 'DEL'"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "When Del makes friends at a local Georgia high school, Wayne worries she might miss home. Or even worse--that she may want to stay and live the life she never had in Brockton. Meanwhile, Daddy and the boys are closing in fast, and Orlando helps Cole with a speech for the Principals Conference.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9KbuDtxOVwngC9RIDS7tgMqzvKU.jpg",
+          "title": "CHAPTER SIX- 'WHO EVEN ARE WE NOW'"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "Wayne struggles with whether or not to tell Del that her dad is in the hospital, while Sergeant Geller lays a trap for Wayne and Del.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6IX28AH6zcjU9JvdbxYRlcXw3C9.jpg",
+          "title": "CHAPTER SEVEN- 'IT'LL LAST FOREVER'"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "After their first kiss, Wayne and Del arrive in Florida, where they have a chance encounter with the elusive Trans Am. But when Wayne reconnects with his mom Maureen, Del starts to realize Wayne’s real reason for coming to Florida might not be the car after all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jeD008rUdLFB4Rp8RzOP4NygwTe.jpg",
+          "title": "CHAPTER EIGHT- 'MUSTA BURNED LIKE HELL'"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "When things with both Del and his mom go south, Wayne turns this attention back to his dad’s Trans Am. But he has to contend with Calvin and Reggie to get it. Meanwhile, Del learns a secret about Wayne that changes everything for her.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lUVBFuZ9HtNvODXF4I2ingonkDI.jpg",
+          "title": "CHAPTER NINE- 'THOUGHT WE WAS FRIENDS'"
+        },
+        {
+          "aired": "2019-01-16",
+          "plot": "Wayne, now under arrest and on his own, must face off against Reggie in a brutal fight to settle their rivalry. Meanwhile, Del returns to Wayne’s mom’s house, determined to get her man back by any means necessary.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tkYGfyHwSVDC9H2vlx60BTrzHfM.jpg",
+          "title": "CHAPTER TEN- 'BUCKLE THE FK UP'"
+        }
       ]
     }
   },

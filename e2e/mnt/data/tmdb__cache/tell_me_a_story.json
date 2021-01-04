@@ -1,0 +1,436 @@
+{
+  "schema": 3,
+  "genres": [
+    "Drama"
+  ],
+  "id": 81747,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/351134/seasonposter/tell-me-a-story-us-5d9e2ec68c6c9.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/351134/showbackground/tell-me-a-story-us-5d9e2f2ddec00.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/showbackground/tell-me-a-story-us-5c88ee845232c.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/351134/tvbanner/tell-me-a-story-us-5bda23b6e13a2.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/tvbanner/tell-me-a-story-us-5d9e2f42323cb.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/351134/tvposter/tell-me-a-story-us-5bda20eca88d2.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/tvposter/tell-me-a-story-us-5d9e2ea434278.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/351134/tvthumb/tell-me-a-story-us-5bda21fa76fb8.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/tvthumb/tell-me-a-story-us-5d9e2f10542b6.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/tvthumb/tell-me-a-story-us-5d9e2f0169890.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/hRUpjh7zyueZMUjzMfkgdu66AxG.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/56aw0q12N8ujbcEdCXaLZMfAYXd.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
+  "name": "Tell Me a Story",
+  "plot": "The world's most beloved fairy tales reimagined as a dark and twisted psychological thriller.",
+  "premiered": "2018-10-31",
+  "status": "Canceled",
+  "studios": [
+    "CBS All Access"
+  ],
+  "actors": [
+    {
+      "name": "Danielle Campbell",
+      "order": 251,
+      "role": "Kayla Powell",
+      "thumb": "/h3kLxMJT1SL8zfTtQPTd7mYRm8S.jpg"
+    },
+    {
+      "name": "Paul Wesley",
+      "order": 254,
+      "role": "Eddie Longo",
+      "thumb": "/5Y41OJCtiYIBc4a8zbYRdNJ7Q4v.jpg"
+    },
+    {
+      "name": "James Wolk",
+      "order": 0,
+      "role": "Jordan Evans",
+      "thumb": "/89a7ZeiV8nvDWer8fyix19iuka2.jpg"
+    },
+    {
+      "name": "Billy Magnussen",
+      "order": 1,
+      "role": "Nick Sullivan",
+      "thumb": "/a0hW6CSgGG12B1BitoDD11Bt6S7.jpg"
+    },
+    {
+      "name": "Dania Ramirez",
+      "order": 2,
+      "role": "Hannah Perez",
+      "thumb": "/jfMsNVcPcrhzjcdltOksDhahmf2.jpg"
+    },
+    {
+      "name": "Dorian Missick",
+      "order": 4,
+      "role": "Sam Reynolds",
+      "thumb": "/n1Wsh7AZjsWcanQrTLwjZvGKw66.jpg"
+    },
+    {
+      "name": "Michael Raymond-James",
+      "order": 5,
+      "role": "Mitch Longo",
+      "thumb": "/gIj1VOLIVpaZ607ml28fNS0lmmw.jpg"
+    },
+    {
+      "name": "Davi Santos",
+      "order": 6,
+      "role": "Gabe Perez",
+      "thumb": "/eTOwsCKNfwYdSAYCql5halsn7nq.jpg"
+    },
+    {
+      "name": "Sam Jaeger",
+      "order": 7,
+      "role": "Tim Powell",
+      "thumb": "/h3oODojKkkQ3wlrJ4CyAGsjqnn2.jpg"
+    },
+    {
+      "name": "Zabryna Guevara",
+      "order": 8,
+      "role": "Renee Garcia",
+      "thumb": "/occlHEwfYmhuQw7TIEmQpdP2qcx.jpg"
+    },
+    {
+      "name": "Kim Cattrall",
+      "order": 10,
+      "role": "Colleen Powell",
+      "thumb": "/2mXIZzn8NsuF5DdIKHRggvXpLpu.jpg"
+    },
+    {
+      "name": "Matt Lauria",
+      "order": 500,
+      "role": "Jackson Pruitt",
+      "thumb": "/2n6JEP2OueaYrMvRIVM3t6dPo3w.jpg"
+    },
+    {
+      "name": "Carrie-Anne Moss",
+      "order": 500,
+      "role": "Rebecca Pruitt",
+      "thumb": "/xD4jTA3KmVp5Rq3aHcymL9DUGjD.jpg"
+    },
+    {
+      "name": "Odette Annable",
+      "order": 500,
+      "role": "Maddie Pruitt",
+      "thumb": "/fWPmTC9QfqAKi3JKJKp2LKrm8Ix.jpg"
+    },
+    {
+      "name": "Ashley Madekwe",
+      "order": 500,
+      "role": "Simone Garland",
+      "thumb": "/ueWSC5CwsxtdoVabCHqh82Uue7y.jpg"
+    },
+    {
+      "name": "Natalie Alyn Lind",
+      "order": 500,
+      "role": "Ashley Rose Pruitt",
+      "thumb": "/2JfuBvtiS8obgQFhmlAw36rHIYg.jpg"
+    },
+    {
+      "name": "Eka Darville",
+      "order": 500,
+      "role": "Beau Morris",
+      "thumb": "/7tNdST92WSTGHmEJbExaRlQHWcW.jpg"
+    },
+    {
+      "name": "Paulina Singer",
+      "order": 22,
+      "role": "Laney Reed",
+      "thumb": "/subJjTZ2IQqgAM3rG6gQmHK9gjW.jpg"
+    },
+    {
+      "name": "Kurt Yaeger",
+      "order": 23,
+      "role": "Terry",
+      "thumb": null
+    },
+    {
+      "name": "Becki Newton",
+      "order": 23,
+      "role": "Katrina Thorn",
+      "thumb": "/zHz9UTFISg3U7gs3BsELijbB0sA.jpg"
+    },
+    {
+      "name": "Spencer Grammer",
+      "order": 23,
+      "role": "Beth",
+      "thumb": "/1L8Y45RJo2YxUXl6ldIowQay1V7.jpg"
+    },
+    {
+      "name": "Rarmian Newton",
+      "order": 18,
+      "role": "Ethan Davies",
+      "thumb": "/yF8hld3grc3jhNyMuKXoEezCB3e.jpg"
+    },
+    {
+      "name": "Justine Cotsonas",
+      "order": 18,
+      "role": "Carla",
+      "thumb": "/5WxHnQD5EN6Zz3NWEU0acnJgpck.jpg"
+    },
+    {
+      "name": "Tonya Glanz",
+      "order": 21,
+      "role": "Shelley Longo",
+      "thumb": null
+    },
+    {
+      "name": "Debra Monk",
+      "order": 23,
+      "role": "Esther Thorn",
+      "thumb": "/ry6b3MF6SNMWA6GTi3ujofcuWMc.jpg"
+    },
+    {
+      "name": "James Martinez",
+      "order": 23,
+      "role": "Detective Olsen",
+      "thumb": "/nD2Alcz1mjb5hpvNKPZqYiqmZBI.jpg"
+    },
+    {
+      "name": "Harry Shum Jr.",
+      "order": 24,
+      "role": "Brendan",
+      "thumb": "/8n9Q0SUALJUFTVW57Kp9LqDPGOK.jpg"
+    },
+    {
+      "name": "Jennifer Ikeda",
+      "order": 16,
+      "role": "Rita",
+      "thumb": "/dSCyy9xovGlCsJJTBahJvkKhIrj.jpg"
+    },
+    {
+      "name": "Luke Guldan",
+      "order": 16,
+      "role": "Billy",
+      "thumb": "/cU4jMVQdxhPeQOAEs8jfphTiExN.jpg"
+    },
+    {
+      "name": "Sydney James Harcourt",
+      "order": 16,
+      "role": "Lance",
+      "thumb": "/tKNptUzgklRMk5ZI1E1yHRCCzvG.jpg"
+    },
+    {
+      "name": "Sanjit De Silva",
+      "order": 16,
+      "role": "Mark",
+      "thumb": null
+    },
+    {
+      "name": "Dan Amboyer",
+      "order": 16,
+      "role": "Harry",
+      "thumb": "/vjRD1RCeoHPeKOGUEZZvAnPYEty.jpg"
+    },
+    {
+      "name": "Polly Draper",
+      "order": 18,
+      "role": "Madeline Winston",
+      "thumb": "/i6HVej6JGCimoS5CPXgYOkn94NX.jpg"
+    },
+    {
+      "name": "Tom Lipinski",
+      "order": 23,
+      "role": "Bruce",
+      "thumb": "/flmVBfCCLtaj7qsa5v3uZF9n3Sp.jpg"
+    },
+    {
+      "name": "David Andrews",
+      "order": 18,
+      "role": "Richard Winston",
+      "thumb": "/36LEerIIN7gpG52mM3Ier7YWDbh.jpg"
+    },
+    {
+      "name": "Quincy Chad",
+      "order": 21,
+      "role": "Detective Grant",
+      "thumb": "/aUXApnhutkhBUuoKW4o0g4C03GO.jpg"
+    },
+    {
+      "name": "Elliot Villar",
+      "order": 21,
+      "role": "Detective Herrera",
+      "thumb": "/2gviakyBApIIf3cNHgDxsGx72Pl.jpg"
+    },
+    {
+      "name": "Simone Missick",
+      "order": 23,
+      "role": "Marianna Reynolds",
+      "thumb": "/hRGrkMMzGc0bLaKHgSquSpRwZ7l.jpg"
+    },
+    {
+      "name": "Paul Rolfes",
+      "order": 12,
+      "role": "Dan Simmons",
+      "thumb": "/v0HbDVGF7nUBW4O8pdwQe760i70.jpg"
+    },
+    {
+      "name": "Marguerite Moreau",
+      "order": 21,
+      "role": "Abby Powell",
+      "thumb": "/e0joYMTL9HzL2fnGKCrZJvcRZCp.jpg"
+    },
+    {
+      "name": "Amanda Jaros",
+      "order": 24,
+      "role": "Christine",
+      "thumb": "/760nQVHwP1VY0Ndzh5FDK9uaHNg.jpg"
+    },
+    {
+      "name": "Lynn Marocola",
+      "order": 25,
+      "role": "NYPD Officer (uncredited)",
+      "thumb": "/EUCiWK7SMchKLqeVZYobZTw3qL.jpg"
+    }
+  ],
+  "dvdSeasons": {},
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        {
+          "aired": "2018-10-31",
+          "plot": "Troubled teen Kayla and her dad, Tim, try to make a fresh start at grandmother Colleen's home. Estranged siblings Gabe and Hannah are reunited under extreme circumstances. Jordan and his girlfriend Beth can't see eye-to-eye on their future together.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gcutRfZATfn3KyZemNWoTNkpJpe.jpg",
+          "title": "Chapter 1- Hope"
+        },
+        {
+          "aired": "2018-11-08",
+          "plot": "Jordan helps the police pinpoint one of the robbers of a jewelry heist while Eddie realizes things are worse than he imagined.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uPfGR01h3C5cDxEDMuQLDjKdG6A.jpg",
+          "title": "Chapter 2- Loss"
+        },
+        {
+          "aired": "2018-11-15",
+          "plot": "Fed up with the police's investigation, Jordan's need for answers quickly veers towards obsession. Kayla is determined to keep her and Nick's relationship a secret, but Ethan's jealousy threatens to derail her plans. Hannah makes a stunning discovery about Dan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iSeXGTZRmhs83ALgl0njbus9DIy.jpg",
+          "title": "Chapter 3- Greed"
+        },
+        {
+          "aired": "2018-11-22",
+          "plot": "When the police fail to act, Jordan takes matters in his own hands and pursues the littlest pig Eddie in hopes it will lead to the other two. While her relationship with Nick deepens, Kayla goes against her better judgment and decides to give friendship with Ethan another chance. After a series of disturbing incidents, Hannah and Gabe flee town.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/utgj5HeP7LYD1oiVS8e61swJfgO.jpg",
+          "title": "Chapter 4- Rage"
+        },
+        {
+          "aired": "2018-11-29",
+          "plot": "Gabe leads Hannah to an unwelcome figure from their past. Armed with the identity of two of the pigs, Jordan presses on to find the third. Nick decides he must find a way to put an end to Ethan's meddling.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fCzlLnU0lt8TeMVu2xt7XuNwhQl.jpg",
+          "title": "Chapter 5- Madness"
+        },
+        {
+          "aired": "2018-12-06",
+          "plot": "Kayla spends a day in the city with Nick, gaining a new perspective on not only their relationship but her future. Eddie nears a breaking point due to Jordan's relentless torment but Mitch offers Eddie a solution. A vulnerable Hannah and Gabe are blindsided.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8DU9JCOohuRziCOAAcBnRCFHRyE.jpg",
+          "title": "Chapter 6- Guilt"
+        },
+        {
+          "aired": "2018-12-13",
+          "plot": "After a devastating betrayal, Hannah and Gabe find themselves lost in the woods and on the run from deadly assailants. Jordan's hunt for vengeance continues as he sets his sights on a new target. Increasingly worried about Nick's erratic behavior, Kayla and Laney decide to investigate his past. Meanwhile, Tim grows closer to colleague Katrina.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fDAJ8vNT0D8js9DxBsN4P1mKWX5.jpg",
+          "title": "Chapter 7- Betrayal"
+        },
+        {
+          "aired": "2018-12-20",
+          "plot": "Jordan learns a shocking truth about the third pig. Hannah rushes back to New York City searching for Gabe, who is being held captive by an evil stranger. Kayla turns to her dad Tim when she discovers Nick's obsession may run deeper than she ever imagined.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w7q0IH2Vt4e1ImZCqvnKjc9fSFy.jpg",
+          "title": "Chapter 8- Truth"
+        },
+        {
+          "aired": "2018-12-27",
+          "plot": "Hannah takes on Katrina's henchmen in her attempt to get Gabe to safety. Nick refuses to take no for an answer, seeing anyone in Kayla's life as a potential threat to their future happiness. Realizing he has an ally at the police department, Jordan tries to let go of his obsession for revenge.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u2jAjm8muuWPIazDmHKMHLgzpYZ.jpg",
+          "title": "Chapter 9- Deception"
+        },
+        {
+          "aired": "2019-01-03",
+          "plot": "Hannah takes the fight to Katrina, culminating in a final showdown as she tries to free Gabe. Afraid of what an unhinged Josh is capable of, Kayla breaks off from Tim and the police to try and save Colleen. Jordan reaches his breaking point with the third pig.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mbg8qd1wXRBbXZ8FlmkAukWxtoy.jpg",
+          "title": "Chapter 10- Forgiveness"
+        }
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        {
+          "aired": "2019-12-05",
+          "plot": "Rising country music star Ashley Rose Pruitt celebrates the launch of her debut album but a tragic event threatens to derail it all. Under the disapproving eye of his mother, Rebecca Pruitt, troubled musician Jackson Pruitt tries to break old habits when an intriguing stranger enters his life. Meanwhile, Maddie Pruitt attempts to hold her family together amidst a growing disconnect with her fiancée Tucker, a struggling novelist.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6ZQHCSPyCMLNYLgHPC3UJ6a876u.jpg",
+          "title": "The Curse"
+        },
+        {
+          "aired": "2019-12-12",
+          "plot": "Ashley struggles to adjust to her new reality but finds a moment of solace with Beau, who has his own burdens to bear. Maddie starts to second guess her upcoming wedding to Tucker as his distant behavior continues. Simone attends her estranged father’s funeral and learns her stepmother, Veronica, may be more evil than she thought.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7OGAILq2YozJoGHzDoOYMlK7Fz3.jpg",
+          "title": "Writer's Block"
+        },
+        {
+          "aired": "2019-12-18",
+          "plot": "An anonymous delivery sends Ashley into a dark tailspin as Rebecca, Beau and the Nashville Police search for answers. Meanwhile, Jackson and Simone's deeply-rooted family troubles bring them closer together. Tucker continues to hold a terrified Olivia hostage while concealing his secret from Maddie.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j2jLQ03p4gd43DCa89Gkk1Yzy1r.jpg",
+          "title": "Family Business"
+        },
+        {
+          "aired": "2019-12-25",
+          "plot": "Ashley is inspired to make music again while others begin to notice her blossoming connection with Beau. Simone enlists Jackson's help as she seeks the truth behind her father's trust and Veronica's scheming. Olivia questions Tucker about his motives, ultimately resurfacing painful memories for both of them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zF2YztGdvzo9xo2LsuRSYxyJOuD.jpg",
+          "title": "Number One Fan"
+        },
+        {
+          "aired": "2020-01-01",
+          "plot": "Ashley's instincts tell her she's not out of danger yet and Beau takes action to make her feel safe. Simone and Jackson attend an elegant ball to confront Veronica. Meanwhile, Tucker feels his relationship with Maddie is back on track while she has her doubts. Olivia begins to understand her captor.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fciCSpAV5n0gYIVS7nQ6983nyIQ.jpg",
+          "title": "New Pages"
+        },
+        {
+          "aired": "2020-01-08",
+          "plot": "Beau is determined to track down Ashley's assailant after the shootout. Jackson confronts Veronica about Simone's disappearance and gets help from an unlikely ally. Olivia makes her escape with Tucker in pursuit, while Maddie seeks some motherly advice from Rebecca about her fiancé.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dDHFH86SWccd9OaNcGB804OcCG0.jpg",
+          "title": "Lost and Found"
+        },
+        {
+          "aired": "2020-01-15",
+          "plot": "Simone's guilt and fear of her step-family hinder her relationship with Jackson, causing him to spiral. A doctor's appointment yields good news for Ashley and Rebecca, and the Nashville PD continue their investigation. Meanwhile, the tables have turned as Olivia interrogates a captive Tucker, forcing him to reckon with his past and present.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7Wiv0cbFGqr70IJU8fHTkaYr3CD.jpg",
+          "title": "Thorns and All"
+        },
+        {
+          "aired": "2020-01-22",
+          "plot": "Both heartbroken, Jackson and Maddie find solace and clarity with each other. Ashley is determined to return to the stage, but Rebecca and Beau are worried about potential risks. Simone and Veronica reconcile and make an effort at being a family. Meanwhile, Olivias scheming continues and Tucker has some troubling dreams.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a1cMWb6XzLzfO7nm7do2nEycviu.jpg",
+          "title": "Sweet Dreams"
+        },
+        {
+          "aired": "2020-01-29",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2NxRAMC2yTmODlguQOGxyGOOueX.jpg",
+          "title": "Favorite Son"
+        },
+        {
+          "aired": "2020-02-05",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yZhpahk0WvHxhsMpnBjaY55OhRX.jpg",
+          "title": "Ever After"
+        }
+      ]
+    }
+  },
+  "cacheKey": "tell_me_a_story"
+}

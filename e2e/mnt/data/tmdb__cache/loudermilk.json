@@ -1,36 +1,292 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
   "id": 73200,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/bZTxh2wIYO4yiqOy1ONqqMsd21R.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/n9OpiTPynQDamlNyBPZgubMunKL.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Loudermilk",
+  "plot": "Sam Loudermilk is a recovering alcoholic and substance abuse counselor with an extremely bad attitude about, well, everything. He is unapologetically uncensored, and manages to piss off everyone in his life. Although he has his drinking under control, Loudermilk discovers that when your life is a complete mess, getting clean is the easy part.",
+  "premiered": "2017-10-17",
+  "status": "Returning Series",
+  "studios": [
+    "Audience",
+    "Amazon"
+  ],
+  "actors": [
+    {
+      "name": "Ron Livingston",
+      "order": 0,
+      "role": "Sam Loudermilk",
+      "thumb": "/qbMJsRGmvGYnB0iVBH5zVRKaANW.jpg"
+    },
+    {
+      "name": "Will Sasso",
+      "order": 1,
+      "role": "Ben",
+      "thumb": "/4F8p9Dg32WJl12ras7CzQzLFy2i.jpg"
+    },
+    {
+      "name": "Laura Mennell",
+      "order": 2,
+      "role": "Allison",
+      "thumb": "/onIPcCc3swg2q2k2vRcNtqYdwaQ.jpg"
+    },
+    {
+      "name": "Anja Savcic",
+      "order": 3,
+      "role": "Claire",
+      "thumb": "/6xJzn2ckq3kxBNWOF9uuIeelN6L.jpg"
+    },
+    {
+      "name": "Toby Levins",
+      "order": 4,
+      "role": "Carl",
+      "thumb": "/xce4pr2wngY2GiJyE50zpyekZmR.jpg"
+    },
+    {
+      "name": "Timothy Webber",
+      "order": 6,
+      "role": "Ed",
+      "thumb": "/mM49QpT5fwGCMPenjOIrUo1nqV8.jpg"
+    },
+    {
+      "name": "Tyler Layton-Olson",
+      "order": 7,
+      "role": "Cisco",
+      "thumb": "/3G91qeWlV3RWCQeZuWzXop3Pkhr.jpg"
+    },
+    {
+      "name": "Mat Fraser",
+      "order": 8,
+      "role": "Roger",
+      "thumb": "/rF996Z979GJsjQTc3ElKna3vni2.jpg"
+    },
+    {
+      "name": "Mark Brandon",
+      "order": 1,
+      "role": "Reardon",
+      "thumb": "/tlghFTHocWRGd010vni5ZhbvlVp.jpg"
+    },
+    {
+      "name": "Natalie Sharp",
+      "order": 2,
+      "role": "Latte",
+      "thumb": "/eSB6gUSkkm2d4EV69cMKCyZnJyN.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "A Girl in Trouble Is a Temporary Thing",
-        "Shark Week",
-        "You're Only as Sick as Your Secrets",
-        "It's All About the Beans",
-        "There's a New Kid in Town",
-        "Lay, Lady, Lay",
-        "Father of the Year",
-        "Invitation Only",
-        "Highway 10 Revisited",
-        "Bourbon Street"
+        {
+          "aired": "2017-10-17",
+          "plot": "Grumpy substance-abuse counselor Sam Loudermilk is forced to try to make a connection with a young addict if he wants to keep his weekly meeting space.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bZTxh2wIYO4yiqOy1ONqqMsd21R.jpg",
+          "title": "A Girl in Trouble Is a Temporary Thing"
+        },
+        {
+          "aired": "2017-10-24",
+          "plot": "With nowhere left to turn, a worse for wear Claire lands on Loudermilk's couch. Deciding she needs to be taught a lesson, he and Ben take her on their version of a vision quest. Loudermilk also makes a play for his new neighbor, Allison.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/59WtauFgtFIajSEreXavqE384Nz.jpg",
+          "title": "Shark Week"
+        },
+        {
+          "aired": "2017-10-31",
+          "plot": "Loudermilk goes to great lengths to get Claire to open up about her deep-seated issues, with mixed results. Mugsy reaches out to his estranged daughter and finds that some relationships are harder to fix than others.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f8ZbjDixaSw4YXo1YfuG55XaYnz.jpg",
+          "title": "You're Only as Sick as Your Secrets"
+        },
+        {
+          "aired": "2017-11-07",
+          "plot": "Loudermilk is fed up with Claire's couch crashing and wants her gone, but her mother bribes him to continue to keep an eye on her daughter. Roger's conflicted when his old rock band is approached to use their music in a beer commercial.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fJ8gsddQdk9K21unGZMXmFKAZ3m.jpg",
+          "title": "It's All About the Beans"
+        },
+        {
+          "aired": "2017-11-14",
+          "plot": "A new member, Tom, joins the group who isn't all he appears to be. Cutter takes Tom under his wing to make sure his charge stays clean and sober, no matter what it takes. Loudermilk and Allison butt heads over her taste in music.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qtr3aLOvZTZimcJBh3hrTZtqJGS.jpg",
+          "title": "There's a New Kid in Town"
+        },
+        {
+          "aired": "2017-11-21",
+          "plot": "Cutter continues to make Tom's life a living hell, but no matter what he tries, Tom can't shake him. When he turns to Loudermilk for help, Tom quickly finds that he's on his own.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xesAOpoo9yZ8f4rWbiVpJ3DKEUc.jpg",
+          "title": "Lay, Lady, Lay"
+        },
+        {
+          "aired": "2017-11-28",
+          "plot": "A visit from Loudermilk's alcoholic, philandering father opens old wounds and creates new problems.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7CozKZEzUJlnWUcVGvw62AFQgLM.jpg",
+          "title": "Father of the Year"
+        },
+        {
+          "aired": "2017-12-05",
+          "plot": "Ben's secret life catches up to him, and Loudermilk is forced to confront the fact that he may not know his best friend as well as he thinks.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r26CykM1oejEkjtXg5KgvUiRmdd.jpg",
+          "title": "Invitation Only"
+        },
+        {
+          "aired": "2017-12-12",
+          "plot": "Loudermilk, Ben, and Claire hit the road for New Orleans with the intention of crashing a wedding. Left to their own devices, the group goes off the rails.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j5mxDZxX32CDGGZKQlQn6g7tid0.jpg",
+          "title": "Highway 10 Revisited"
+        },
+        {
+          "aired": "2017-12-19",
+          "plot": "Loudermilk returns to Seattle and makes a huge decision that affects not only his life, but the lives of everyone in his world as well.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gVNRZBT0VILwGQwNg0PrGXr850K.jpg",
+          "title": "Bourbon Street"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Everybody's Got Something to Hide Except me and my Monkey",
-        "Cruel to be Kind",
-        "All Apologies",
-        "White Rabbit",
-        "I Fought The Law",
-        "Our Lips Are Sealed",
-        "He Ain't Heavy",
-        "Iron Man",
-        "Saturday Night's Alright for Fighting",
-        "Don't Go Away Mad"
+        {
+          "aired": "2018-10-16",
+          "plot": "Loudermilk rallies the group.",
+          "thumbnail": "",
+          "title": "Everybody's Got Something to Hide Except me and my Monkey"
+        },
+        {
+          "aired": "2018-10-23",
+          "plot": "A visitor arrives.",
+          "thumbnail": "",
+          "title": "Cruel to be Kind"
+        },
+        {
+          "aired": "2018-10-30",
+          "plot": "A crime occurs.",
+          "thumbnail": "",
+          "title": "All Apologies"
+        },
+        {
+          "aired": "2018-11-06",
+          "plot": "Ben makes amends.",
+          "thumbnail": "",
+          "title": "White Rabbit"
+        },
+        {
+          "aired": "2018-11-13",
+          "plot": "Claire joins  band.",
+          "thumbnail": "",
+          "title": "I Fought The Law"
+        },
+        {
+          "aired": "2018-11-21",
+          "plot": "A Date Is Planned.",
+          "thumbnail": "",
+          "title": "Our Lips Are Sealed"
+        },
+        {
+          "aired": "2018-11-27",
+          "plot": "Loudermilk has a DNA test.",
+          "thumbnail": "",
+          "title": "He Ain't Heavy"
+        },
+        {
+          "aired": "2018-12-04",
+          "plot": "Claire learns a secret.",
+          "thumbnail": "",
+          "title": "Iron Man"
+        },
+        {
+          "aired": "2018-12-11",
+          "plot": "Ben Housesits.",
+          "thumbnail": "",
+          "title": "Saturday Night's Alright for Fighting"
+        },
+        {
+          "aired": "2018-12-18",
+          "plot": "A funeral is attended.",
+          "thumbnail": "",
+          "title": "Don't Go Away Mad"
+        }
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        {
+          "aired": "2020-12-31",
+          "plot": "Loudermilk becomes a Dad. Sort of.",
+          "thumbnail": "",
+          "title": "Stuck In The Middle With You"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "Ben shows off some unusual talents.",
+          "thumbnail": "",
+          "title": "There Goes My Baby"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "Loudermilk and the group are challenged.",
+          "thumbnail": "",
+          "title": "American Idiot"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "Members of the group explore their feminine side.",
+          "thumbnail": "",
+          "title": "Hit Me Baby One More Time"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "Claire gets a new beau.",
+          "thumbnail": "",
+          "title": "Just What I Needed"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "Loudermilk admits he was wrong.",
+          "thumbnail": "",
+          "title": "Hard For Me To Say I'm Sorry"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "Roger in honored.",
+          "thumbnail": "",
+          "title": "Wind Beneath My Wings"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "Loudermilk is surprised.",
+          "thumbnail": "",
+          "title": "Resurrection Shuffle"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "Mugsy takes a tumble.",
+          "thumbnail": "",
+          "title": "Should Have Known Better"
+        },
+        {
+          "aired": "2020-12-31",
+          "plot": "Loudermilk receives some news.",
+          "thumbnail": "",
+          "title": "When I'm Alone"
+        }
       ]
     }
   },

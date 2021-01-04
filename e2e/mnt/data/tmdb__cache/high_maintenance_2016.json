@@ -1,60 +1,543 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy"
+  ],
   "id": 67243,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "0": [
+          "https://assets.fanart.tv/fanart/tv/314324/seasonposter/high-maintenance-2016-5a97f0f287c2d.jpg"
+        ],
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/314324/seasonposter/high-maintenance-2016-5a97f147b05e0.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/314324/seasonposter/high-maintenance-2016-5a97f19c63b53.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/314324/seasonposter/high-maintenance-2016-5c1f530e4070c.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/314324/seasonposter/high-maintenance-2016-5e3ec6bc25b0f.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/314324/tvbanner/high-maintenance-2016-5a97f00739d4f.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/314324/tvposter/high-maintenance-2016-5c1f51a2217b0.jpg",
+        "https://assets.fanart.tv/fanart/tv/314324/tvposter/high-maintenance-2016-5a980aac69dc3.jpg",
+        "https://assets.fanart.tv/fanart/tv/314324/tvposter/high-maintenance-2016-5a982a9ec0095.jpg",
+        "https://assets.fanart.tv/fanart/tv/314324/tvposter/high-maintenance-2016-5a982af74eb9d.jpg",
+        "https://assets.fanart.tv/fanart/tv/314324/tvposter/high-maintenance-2016-5a982b65999aa.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/314324/tvthumb/high-maintenance-2016-58088392558a1.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/1gGqDyfSAkoXENPSvSYXxBTePT9.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/qmYqwOW0QTkJy1UGUsM2t0Kowpu.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "High Maintenance (2016)",
+  "plot": "Jump into the daily routines of a diverse group of New Yorkers and how they light things up. “The Guy” is a nameless pot deliveryman whose client base includes an eccentric group of characters with neuroses as diverse as the city.",
+  "premiered": "2016-09-16",
+  "status": "Returning Series",
+  "studios": [
+    "HBO"
+  ],
+  "actors": [
+    {
+      "name": "Ben Sinclair",
+      "order": 500,
+      "role": "The Guy",
+      "thumb": "/h5TSpNlyBIFWMii6RZHgBr0MNtn.jpg"
+    },
+    {
+      "name": "Juan Carlos Díaz",
+      "order": 500,
+      "role": "Aldo",
+      "thumb": "/kHYXO5rhXiaYDZe9V2VQe7obSPr.jpg"
+    },
+    {
+      "name": "Edwin Lugo",
+      "order": 500,
+      "role": "Ricardo",
+      "thumb": "/78ZyE6LsW6hPGFmw6q9G1xHqLz5.jpg"
+    },
+    {
+      "name": "Jack Ferver",
+      "order": 1,
+      "role": "Jason",
+      "thumb": "/e8ax7ugort9VGkkA83scTRd6oBt.jpg"
+    },
+    {
+      "name": "Jason Sol",
+      "order": 2,
+      "role": "Delivery Guy",
+      "thumb": null
+    },
+    {
+      "name": "Cavan Rogers",
+      "order": 3,
+      "role": "Meth Head",
+      "thumb": null
+    },
+    {
+      "name": "Bob the Drag Queen",
+      "order": 4,
+      "role": "Darnell",
+      "thumb": "/uhCV6dA5GoNaa3VYGIT7qfKxUKC.jpg"
+    },
+    {
+      "name": "Neimah Djourabchi",
+      "order": 5,
+      "role": "Jasper",
+      "thumb": "/eSiftziQztFYeaIXVV2t4IrOIH9.jpg"
+    },
+    {
+      "name": "Andy Taylor",
+      "order": 6,
+      "role": "Jerry",
+      "thumb": "/j3tZ0qDczaHf9QcpZcNtAEBhz87.jpg"
+    },
+    {
+      "name": "Julia Weldon",
+      "order": 7,
+      "role": "Christian russo",
+      "thumb": "/iOyedb7HyupKxCTfZP4lSA18HDq.jpg"
+    },
+    {
+      "name": "May Hong",
+      "order": 8,
+      "role": "Sara",
+      "thumb": "/iN1l85OuNnxXrkqsffivHZHhRhb.jpg"
+    },
+    {
+      "name": "Bobby Moreno",
+      "order": 9,
+      "role": "Neil",
+      "thumb": "/7tlv5GPvjJemkPuczBqtddfaX0i.jpg"
+    },
+    {
+      "name": "Jacqueline Antaramian",
+      "order": 10,
+      "role": "Shiloh",
+      "thumb": "/e9Jv7fneXEsWEXL6QRhgkV1okvD.jpg"
+    },
+    {
+      "name": "Vanessa Aspillaga",
+      "order": 11,
+      "role": "April",
+      "thumb": "/dXwuCr1nZPF2S0rrPdPFiZ8pWwc.jpg"
+    },
+    {
+      "name": "Ken Leung",
+      "order": 12,
+      "role": "Gene",
+      "thumb": "/hpatUP6u74gkpDRmn9voNY9V43O.jpg"
+    },
+    {
+      "name": "Gabriel Gurevich",
+      "order": 13,
+      "role": "Eli",
+      "thumb": "/z7SnnNFmY4VEuc4yIg7MYJIW87B.jpg"
+    },
+    {
+      "name": "Liliane Klein",
+      "order": 14,
+      "role": "Waitress",
+      "thumb": "/tiquXI8zDq5G00touIU62W2eyB0.jpg"
+    },
+    {
+      "name": "Milla Sofia Press",
+      "order": 15,
+      "role": "Hunter",
+      "thumb": "/rMTUSCBbZHzhYtioBPEuJBGLvmw.jpg"
+    },
+    {
+      "name": "Ashley Austin Morris",
+      "order": 16,
+      "role": "Carrie",
+      "thumb": "/A2sTTptRO4MufJon9tEf0jWAHWZ.jpg"
+    },
+    {
+      "name": "Michael Braun",
+      "order": 17,
+      "role": "Bradley",
+      "thumb": "/8kXullRDTBYW7MvHnnMb0TVRc7j.jpg"
+    },
+    {
+      "name": "Aizzah Fatima",
+      "order": 18,
+      "role": "Kunza",
+      "thumb": "/bEfUaspnNDEJdVxvk2VWn3IAgSG.jpg"
+    },
+    {
+      "name": "Eve Lindley",
+      "order": 19,
+      "role": "",
+      "thumb": "/xWv6iXI0fIBGFFQ8d1GBxjmRNZv.jpg"
+    },
+    {
+      "name": "K. Todd Freeman",
+      "order": 20,
+      "role": "Bill",
+      "thumb": null
+    },
+    {
+      "name": "Crystal Monee Hall",
+      "order": 21,
+      "role": "Mo",
+      "thumb": null
+    },
+    {
+      "name": "Rachel Hilson",
+      "order": 22,
+      "role": "Hailey",
+      "thumb": "/k0XVYmqjan0oqKzI4PJxYdxmqnC.jpg"
+    },
+    {
+      "name": "Russell Gregory",
+      "order": 23,
+      "role": "Ted",
+      "thumb": null
+    },
+    {
+      "name": "Tessa Skara",
+      "order": 24,
+      "role": "Charlie",
+      "thumb": null
+    },
+    {
+      "name": "Kelsey Carthew",
+      "order": 25,
+      "role": "Eva",
+      "thumb": "/1QxTBuH247YHsZHTyFEj9n8DIwK.jpg"
+    },
+    {
+      "name": "D.K. Bowser",
+      "order": 26,
+      "role": "Hareem",
+      "thumb": "/pvtB03Csky5netse29OYojy0fzC.jpg"
+    },
+    {
+      "name": "Rachelle Garniez",
+      "order": 27,
+      "role": "Ursula",
+      "thumb": null
+    },
+    {
+      "name": "Chris Lamberth",
+      "order": 28,
+      "role": "Darius",
+      "thumb": null
+    },
+    {
+      "name": "Johnnie Mae",
+      "order": 29,
+      "role": "Sondra",
+      "thumb": "/65hFNfB5KUP8zXq2dwrGrpzjUKZ.jpg"
+    },
+    {
+      "name": "Megumi Nakamura",
+      "order": 30,
+      "role": "Hanni",
+      "thumb": "/lRKHtAXXqWGFij2mTqa1NpQA4Tg.jpg"
+    },
+    {
+      "name": "Larry Owens",
+      "order": 31,
+      "role": "",
+      "thumb": null
+    },
+    {
+      "name": "Natalie Woolams-Torres",
+      "order": 32,
+      "role": "",
+      "thumb": "/g4aXGV6jk5v2MXwL1g3Wtopmk5a.jpg"
+    },
+    {
+      "name": "Roma Maffia",
+      "order": 33,
+      "role": "",
+      "thumb": "/oEfa2NUJJNo4zg74eB5oY86tyip.jpg"
+    },
+    {
+      "name": "Ira Glass",
+      "order": 34,
+      "role": "",
+      "thumb": "/9zRVHL14bbjV5gDzZoinIXTTVXP.jpg"
+    },
+    {
+      "name": "Stacey Yen",
+      "order": 35,
+      "role": "Joan",
+      "thumb": "/dkocC21RtHfen9LWqB3xI5Ce3wJ.jpg"
+    },
+    {
+      "name": "Julia Shiplett",
+      "order": 36,
+      "role": "Neka",
+      "thumb": null
+    },
+    {
+      "name": "Damiyr Shuford",
+      "order": 37,
+      "role": "Rich",
+      "thumb": "/xxj7tC7VvjXj4nQrIyihqEHcDSQ.jpg"
+    },
+    {
+      "name": "José Luis Useche",
+      "order": 39,
+      "role": "Barista",
+      "thumb": "/ggCL6TOjEAI82C0qxJNbWAJqxrn.jpg"
+    },
+    {
+      "name": "Eric Tabach",
+      "order": 40,
+      "role": "",
+      "thumb": "/npZV1MoQGHtcZZJQbmHYavrt3CL.jpg"
+    },
+    {
+      "name": "Pat Regan",
+      "order": 40,
+      "role": "Marc",
+      "thumb": "/9mCx7YW2G3veNe78gu9vw8lyu2x.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Meth(od)",
-        "Museebat",
-        "Grandpa",
-        "Tick",
-        "Selfie",
-        "Ex"
+        {
+          "aired": "2016-09-16",
+          "plot": "The Guy makes an uncomfortable delivery to a macho client and his taciturn friend. Best friends Max and Lainey’s co-dependent relationship begins to wane after Max accidentally stumbles upon a new group of friends. In order to stay part of this group, Max must maintain a charade, while keeping Lainey’s suspicions at bay.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vbhFKoQpEKotya80oe1ohQl7zCD.jpg",
+          "title": "Meth(od)"
+        },
+        {
+          "aired": "2016-09-23",
+          "plot": "Eesha, a young girl living with her aunt and uncle in Brooklyn, struggles to be a “normal college student,” despite her family’s religious values. The Guy delivers to Leo and Gigi, a jaded couple throwing an intimate gathering for Leo’s birthday – an event marked by accusations, recriminations and a troubling revelation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zgXNT8NhTImuMMKoW8GKG5a2J5S.jpg",
+          "title": "Museebat"
+        },
+        {
+          "aired": "2016-09-30",
+          "plot": "When Chase and his sensitive yet fun-loving dog Gatsby move from the suburban Midwest to Queens, culture shock takes its toll – until they cross paths with Beth, a whimsical dog walker.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9AJTA88u19JdjigFoKX3bSJ4EC4.jpg",
+          "title": "Grandpa"
+        },
+        {
+          "aired": "2016-10-07",
+          "plot": "Aging parents Joon and Wei navigate their son’s recent success and new lifestyle. The Guy delivers to Jim, a retired, former workaholic living downstairs from his neurotic daughter, Quinn, and her husband and baby.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hUcEDfcn8Nm9nCRje5DpRO6lIk4.jpg",
+          "title": "Tick"
+        },
+        {
+          "aired": "2016-10-14",
+          "plot": "Anja, a twentysomething aspiring writer who spends most of her time on social media, convinces The Guy to sit down for a one-on-one interview, but her social media addiction threatens to blow up the story. Former customer Heidi enlists The Guy’s help when she is confronted by her past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mH0H5dmzZt90mEGw6ddiQlAchzH.jpg",
+          "title": "Selfie"
+        },
+        {
+          "aired": "2016-10-21",
+          "plot": "The Guy pays a visit to agoraphobic Patrick, a longtime customer. The Guy seeks solace from a customer after a rough night.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ezsej8bTch3D9Kqxa4DDgvF4BTa.jpg",
+          "title": "Ex"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Globo",
-        "Fagin",
-        "Namaste",
-        "Derech",
-        "Scromple",
-        "Googie",
-        "HBD",
-        "Ghost",
-        "#goalz",
-        "Steve"
+        {
+          "aired": "2018-01-19",
+          "plot": "The Guy has a busier-than-usual day as New Yorkers react to world-changing news. The morning after a hookup, carefree hotel guests spend an indulgent day, unaware of what’s going on outside their door. With the world around him in disarray, a client’s roommate struggles to maintain his commitment to losing weight.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5PhDAMCCKjZMFBcXY4piXg3nPZe.jpg",
+          "title": "Globo"
+        },
+        {
+          "aired": "2018-01-26",
+          "plot": "A couple visiting their daughter in Bushwick embraces the urban surroundings while dealing with a less-than-ideal rental that comes with an unwelcome roommate. The Guy delivers to Brenna and Molly’s all-female, politically-minded meetup, where things get dramatic fast.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A8SYm80qV1DfjhLJsmqYBSUXtwm.jpg",
+          "title": "Fagin"
+        },
+        {
+          "aired": "2018-02-02",
+          "plot": "An industrious Brooklyn realtor endeavors to hustle her way to a new home. After winning an affordable-housing lottery, Candace and John face culture shock and notice a class divide when they move into their new apartment. The Guy considers his living situation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/50tVudBdDCYrFRx7d3FNH9ze8Pi.jpg",
+          "title": "Namaste"
+        },
+        {
+          "aired": "2018-02-09",
+          "plot": "An ex-Hasidic man explores the world outside his sect as he connects with a writer who may have ulterior motives. A nightclub performer’s night out takes an unexpected turn. The Guy bonds with a driver when he finds himself in need of a lift.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AgbvAPEXxBSevOsinddItraxcG4.jpg",
+          "title": "Derech"
+        },
+        {
+          "aired": "2018-02-16",
+          "plot": "The Guy tries to de-stress when he ends up in an uncomfortable situation. A freelance brand strategist struggling with her latest assignment embarks on a desperate search for a weed fix.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/riFLQ5a1jbFeIeSxcppp7Qcnr61.jpg",
+          "title": "Scromple"
+        },
+        {
+          "aired": "2018-02-23",
+          "plot": "Abdullah, a potential partner, takes over the Guy's weed route while he attempts to take time off.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1ZSRresfI9axOGKFFmWuqLD2Mz0.jpg",
+          "title": "Googie"
+        },
+        {
+          "aired": "2018-03-02",
+          "plot": "Emily, an artistic teen, has her birthday spotlight stolen by her bohemian mother, her uninhibited friends and a delivery from the Guy; only her mother's European friend gives Emily the attention she craves.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uCx9XY1UjDoggUk5juXX30wgEVk.jpg",
+          "title": "HBD"
+        },
+        {
+          "aired": "2018-03-09",
+          "plot": "When a high-strung mother finds herself more involved in her college-aged daughter's life than her own, her husband turns to The Guy to get a prescription for her stress, not to mention their underwhelming sex life. After a routine delivery, The Guy's good deed helping out an elderly man turns into more than he bargained for.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mFvCDTeKIsN9c8yQLbnWq8TYs0i.jpg",
+          "title": "Ghost"
+        },
+        {
+          "aired": "2018-03-16",
+          "plot": "Deciding to embrace a life without the distractions of the Internet, a computer programmer tries out a tech-free night per The Guy's advice. After a controversial tweet draws attention, a comedian becomes inundated by Internet trolls. While attempting to match a world record, a fearless dancer struggles as the hours drag on and her dance partners fall by the wayside.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9laZvQRJP5B1Uhs0OehcTLy5xPI.jpg",
+          "title": "#goalz"
+        },
+        {
+          "aired": "2018-03-23",
+          "plot": "Season finale. On the day of the eclipse, two couples head to the park and make new friends in the process. The Guy says some goodbyes and attempts to make a few life changes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xuCMqyQfiH2CjMywIeb2vwaMDvL.jpg",
+          "title": "Steve"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "M.A.S.H.",
-        "Craig",
-        "Blondie",
-        "Breathwork",
-        "Payday",
-        "Fingerbutt",
-        "Dongle",
-        "Proxy",
-        "Cruise"
+        {
+          "aired": "2019-01-20",
+          "plot": "While spending some time in his RV and away from the city, The Guy gets some upsetting news but makes an intriguing new connection. Cori, meanwhile, is trying to adjust to a new reality without her friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fg2cYh92ROazAQjbbpmURtBNzbF.jpg",
+          "title": "M.A.S.H."
+        },
+        {
+          "aired": "2019-01-27",
+          "plot": "After his bike is stolen, regular customer Marty consults The Guy, whose suggestion sends Marty down a surprising path. Bored with her mundane life, Darby finds various ways to unnerve and bewilder strangers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aqNKZs3nsBB3pvNfsDL8Cjn34wL.jpg",
+          "title": "Craig"
+        },
+        {
+          "aired": "2019-02-03",
+          "plot": "Young Raymond tries his best to be useful on a day off from school. Barbie, a longtime New Yorker, must find a new place to live and becomes roommates with The Guy's nudist client, Arthur.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A8GVy4ozKPkZyVHJpnVcYHDzMu4.jpg",
+          "title": "Blondie"
+        },
+        {
+          "aired": "2019-02-10",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ilzQzUoTCqbD151R3QOCfZPeO3y.jpg",
+          "title": "Breathwork"
+        },
+        {
+          "aired": "2019-02-17",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hi9mhPDt9x7ldCRKwx9hEJHLA5f.jpg",
+          "title": "Payday"
+        },
+        {
+          "aired": "2019-02-24",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aO8HWQPLm4dntQ86yY0jLmvtKaI.jpg",
+          "title": "Fingerbutt"
+        },
+        {
+          "aired": "2019-03-03",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sdiieVoocp8N5IBpo1bmZ0qexry.jpg",
+          "title": "Dongle"
+        },
+        {
+          "aired": "2019-03-10",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/50t5USXnOTimWrG0NfpgzzeH57U.jpg",
+          "title": "Proxy"
+        },
+        {
+          "aired": "2019-03-17",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cvqsfHXIny98bAh42xLem1TYWpO.jpg",
+          "title": "Cruise"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "Cycles",
-        "Trick",
-        "Voir Dire",
-        "Backflash",
-        "Screen",
-        "Adelante",
-        "Hand",
-        "Solo",
-        "Soup"
+        {
+          "aired": "2020-02-07",
+          "plot": "The Guy finds a lost canine. A reporter pitches a story about her parents' marriage and inadvertently strains her own relationship when her boyfriend visits for their anniversary weekend. A singing telegram in a bad mood looks for some relief.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6pVoy4xurtYdjBnEUTIFRkmeXY5.jpg",
+          "title": "Cycles"
+        },
+        {
+          "aired": "2020-02-14",
+          "plot": "The Guy delivers to Matthew, a man looking for a connection who hires a new-to-the-business escort for the night. After bonding on set with a familiar face, intimacy coordinator Kym learns a surprising fact about her new love interest.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pGMGgfj225bSoaLdmPCqCcYk0Az.jpg",
+          "title": "Trick"
+        },
+        {
+          "aired": "2020-02-21",
+          "plot": "When The Guy and his eclectic jury duty group head to a karaoke bar to mark the end of their civic service, Keesha and Roman, the youngest members of the crew, run into trouble. While exploring a side hustle with her friend Violet, Freddie encounters someone from her past.",
+          "thumbnail": "",
+          "title": "Voir Dire"
+        },
+        {
+          "aired": "2020-02-28",
+          "plot": "Two sisters clean out their childhood home after the untimely death of their mother. The Guy delivers to a bickering couple renegotiating their relationship. And a new mother hosts her teenage cousin from out of town.",
+          "thumbnail": "",
+          "title": "Backflash"
+        },
+        {
+          "aired": "2020-03-06",
+          "plot": "Shy sneaker head Alvin spends most of his time to himself, but gets a new challenge when he spends the day with his cousin. The Guy attends a dinner party hosted by an old friend, Jackson, and as the night progresses, realizes he might be out of his element.",
+          "thumbnail": "",
+          "title": "Screen"
+        },
+        {
+          "aired": "2020-03-13",
+          "plot": "Two former friends share an awkward ride, and The Guy has an interesting ride-share experience of his own. Meanwhile, when a patient asks her out on a date, dental hygienist, mother and caretaker Nora wonders if she can put her needs first for once.",
+          "thumbnail": "",
+          "title": "Adelante"
+        },
+        {
+          "aired": "2020-03-20",
+          "plot": "The Guy delivers to ASL interpreter Jordan, who lands in an uncomfortable situation on a job at a high-profile photo shoot. After Victor notices that his partner, Ellen, has a new habit, a secret blows up amid already simmering tensions in their relationship.",
+          "thumbnail": "",
+          "title": "Hand"
+        },
+        {
+          "aired": "2020-03-27",
+          "plot": "When Rocky hears a sneeze through his apartment wall, he falls down a shame spiral, reliving embarrassing moments. An attention-seeking A.J. fails to make plans for Halloween—until an emergency text from an ex-friend, Francis, evolves into an unexpected night with Francis' assistant, Cheyenne.",
+          "thumbnail": "",
+          "title": "Solo"
+        },
+        {
+          "aired": "2020-04-03",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Soup"
+        }
       ]
     }
   },

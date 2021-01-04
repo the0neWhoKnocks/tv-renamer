@@ -1,96 +1,1886 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Drama",
+    "Fantasy",
+    "Horror"
+  ],
   "id": 64432,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd56e13bb6.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace451567e47.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d26abe53f.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d418ef23b.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-56c4835252c12.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb0b18ce5.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5a0f55dc084b6.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd59c641f6.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace4525f1501.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d289908f1.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d431cf94d.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-59359074a7ac6.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb3c16c00.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5a0f55fb2df8d.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd5c59192d.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace453517fa5.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d2a40af1d.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d4497d2e4.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb4ad822b.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd60149990.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d2c09d6fe.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d37b8db90.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d464d8e28.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb580c9df.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd69762b4c.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d396c1dc6.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d480e94b9.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb68f104e.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb77dd048.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d165d7121.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5690b0afbe9b1.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e120e24c9dc2.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d165b4c18.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d165f1bab.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d16618602.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d166331ac.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d1664dba1.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d16668677.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d16683303.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d17742cef.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d17764fd2.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d1777fa7a.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d1779a481.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d177b4c1a.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d177cf310.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d177ea6c4.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18a81883.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18aa415d.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18ada32d.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b01174.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b1c119.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b36cf1.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b51412.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5690b0d711af9.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5a57a4bc41ce3.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-588e79bec177d.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e120e24a75fb.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-568164f1a7f2c.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be5542ff3.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be69b1bcf.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be69cd00b.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be69e79ac.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a0ed76.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a2a7b3.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a4609e.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a6185b.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be7a1bf53.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be7a3eb7f.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be7a59c19.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d17810e4e.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-57fc74b7f0de0.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-569d350499c5a.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-569d355eeacbc.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-5c90fcaabc503.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb479b527576.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb479ca91370.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5681648d132e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb7d24c2ad53.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c483325d408.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44b313bab.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44bbf1fb4.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44d199f57.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5681647918389.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-568164a2efffd.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5bbeb77b8c884.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5c163bca9acbf.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-571a47325dfdb.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5848ac082d62c.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c483433a4f5.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c4834a93fa5.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d0840b089.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d09512aa0.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d095356ef.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d095507aa.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-571f32d5c725f.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5c90fc8eb332f.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-56abf7b50aa54.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/wcfErhzLmmeutxAMpbHlR0Naa2q.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/A66dZN98BPEYeFQAhNdNCIXa57d.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "The Magicians (2015)",
+  "plot": "Brakebills University is a secret institution specializing in magic. There, amidst an unorthodox education of spellcasting, a group of twenty-something friends soon discover that a magical fantasy world they read about as children is all too real— and poses grave danger to humanity.",
+  "premiered": "2015-12-16",
+  "status": "Ended",
+  "studios": [
+    "Syfy"
+  ],
+  "actors": [
+    {
+      "name": "Olivia Taylor Dudley",
+      "order": 1,
+      "role": "Alice Quinn",
+      "thumb": "/rVwLRb9Fmj9JzCEK78bZ2weCodx.jpg"
+    },
+    {
+      "name": "Arjun Gupta",
+      "order": 2,
+      "role": "William \"Penny\" Adiyodi",
+      "thumb": "/9ERbuk0fcUsE9Smgd8hkSDGYwJg.jpg"
+    },
+    {
+      "name": "Stella Maeve",
+      "order": 3,
+      "role": "Julia Wicker",
+      "thumb": "/eVDO0GLQqjfeQiIJj5LDOBt6Ms.jpg"
+    },
+    {
+      "name": "Jade Tailor",
+      "order": 4,
+      "role": "Kady Orloff-Diaz",
+      "thumb": "/uKwcvlrEOkKgtji7WagDFN5Gq3m.jpg"
+    },
+    {
+      "name": "Hale Appleman",
+      "order": 5,
+      "role": "Eliot Waugh",
+      "thumb": "/yVoVmU3WpeXuIBcXrLxkKslFa71.jpg"
+    },
+    {
+      "name": "Summer Bishil",
+      "order": 6,
+      "role": "Margo Hanson",
+      "thumb": "/TAN5tk54w5JDtz03gg3BWwOR1C.jpg"
+    },
+    {
+      "name": "Jason Ralph",
+      "order": 0,
+      "role": "Quentin Coldwater",
+      "thumb": "/i7sjPMHxKjAcvXl8bg1jpFBmsxS.jpg"
+    },
+    {
+      "name": "Rick Worthy",
+      "order": 186,
+      "role": "Dean Fogg",
+      "thumb": "/lcA54ANnnfhIMdTEvJy8q6PZs1R.jpg"
+    },
+    {
+      "name": "Trevor Einhorn",
+      "order": 69,
+      "role": "Josh Hoberman",
+      "thumb": "/xJ6OfafMRqSu0EjxFj4acnTP6QV.jpg"
+    },
+    {
+      "name": "Brittany Curran",
+      "order": 218,
+      "role": "Fen",
+      "thumb": "/4qR8ISeCUIj0K47Cfs0fD2lH3pk.jpg"
+    },
+    {
+      "name": "Rizwan Manji",
+      "order": 218,
+      "role": "Tick Pickwick",
+      "thumb": "/mBsLE1sDCWZXR9PWV8xptTpxkQc.jpg"
+    },
+    {
+      "name": "Mageina Tovah",
+      "order": 211,
+      "role": "Zelda, The Librarian",
+      "thumb": "/lB0J8ZIqvLmvVecIiWCUXTLDoQO.jpg"
+    },
+    {
+      "name": "Mackenzie Astin",
+      "order": 186,
+      "role": "Richard",
+      "thumb": "/2cE08v6N7OyWH8OqenYelQ2dEWy.jpg"
+    },
+    {
+      "name": "Kacey Rohl",
+      "order": 217,
+      "role": "Marina Andrieski",
+      "thumb": "/bhHoECJMImwXSi27WqHsipq349m.jpg"
+    },
+    {
+      "name": "Oliver Bell",
+      "order": 500,
+      "role": "George",
+      "thumb": "/jricXh8yQBWPPOKWnzVsmTRGq3c.jpg"
+    },
+    {
+      "name": "Hannah Henney",
+      "order": 500,
+      "role": "Dancer (uncredited)",
+      "thumb": "/7UrORCSwEthYIkPT5huxyRyXnyN.jpg"
+    },
+    {
+      "name": "Keegan Connor Tracy",
+      "order": 192,
+      "role": "Professor Lipson",
+      "thumb": "/i1FYzgF6nGXtZnH9AhiMbzDr64g.jpg"
+    },
+    {
+      "name": "Adam DiMarco",
+      "order": 218,
+      "role": "Todd",
+      "thumb": "/nDhp0bQqHPZG64BxjlixAW9qriY.jpg"
+    },
+    {
+      "name": "Sergio Osuna",
+      "order": 191,
+      "role": "Rafe",
+      "thumb": "/3BWKxvRXSDvvQUIDF2uSQa9k4um.jpg"
+    },
+    {
+      "name": "Zahf Paroo",
+      "order": 164,
+      "role": "Gillen",
+      "thumb": "/ejjvDERgLhZnKhP0QRBtBZiAyeS.jpg"
+    },
+    {
+      "name": "Candis Cayne",
+      "order": 187,
+      "role": "Fairy Queen",
+      "thumb": "/sa1oqxmEEMVqpzFku50tiknoLQ1.jpg"
+    },
+    {
+      "name": "Miranda Edwards",
+      "order": 191,
+      "role": "Heloise",
+      "thumb": "/8ThdqK0IOBW5da1BlNe5VIMJFjd.jpg"
+    },
+    {
+      "name": "Marlee Matlin",
+      "order": 215,
+      "role": "Harriet",
+      "thumb": "/1iV3yA07kdj7RFj2yyzwO2T6M8o.jpg"
+    },
+    {
+      "name": "Harvey Guillén",
+      "order": 179,
+      "role": "Benedict Pickwick",
+      "thumb": "/yiNBonobPwqMVweB02JWufzp2l9.jpg"
+    },
+    {
+      "name": "David Call",
+      "order": 216,
+      "role": "Pete",
+      "thumb": "/lcfAlaiVRjpmb5OXtrso0eH8br.jpg"
+    },
+    {
+      "name": "Rose Liston",
+      "order": 12,
+      "role": "Jane Chatwin",
+      "thumb": "/3764tBTejvMkHOcdcMjJzXPxmdr.jpg"
+    },
+    {
+      "name": "Esmé Bianco",
+      "order": 22,
+      "role": "Eliza",
+      "thumb": "/mcbQdFHVEbGypOdDiNMCcqHgNaX.jpg"
+    },
+    {
+      "name": "Charles Mesure",
+      "order": 32,
+      "role": "The Beast",
+      "thumb": "/W8bCZfLDHaI3ptn75WeVLYVtdk.jpg"
+    },
+    {
+      "name": "Hannah Levien",
+      "order": 183,
+      "role": "Victoria",
+      "thumb": "/5tc5j0MFVvK6UC7FQKPzwLG7kUq.jpg"
+    },
+    {
+      "name": "Daniel Nemes",
+      "order": 214,
+      "role": "Gavin",
+      "thumb": "/phtSIB7J8LOyr0dl9BZbrhUE9g1.jpg"
+    },
+    {
+      "name": "Anne Dudek",
+      "order": 16,
+      "role": "Prof. Pearl Sunderland",
+      "thumb": "/ea7ib0LrrJMtqS8FGpNiStFCoDq.jpg"
+    },
+    {
+      "name": "Bobbi Charlton",
+      "order": 61,
+      "role": "Silver",
+      "thumb": null
+    },
+    {
+      "name": "Fiona Hogan",
+      "order": 65,
+      "role": "Menially",
+      "thumb": null
+    },
+    {
+      "name": "Garcelle Beauvais",
+      "order": 67,
+      "role": "Our Lady Underground",
+      "thumb": "/bKR6NHtAJUYInnCMdb36YoAWirm.jpg"
+    },
+    {
+      "name": "Arlen Escarpeta",
+      "order": 98,
+      "role": "Prince Ess",
+      "thumb": "/nD96bhCXnvzmoT34ITI0QU0OeQO.jpg"
+    },
+    {
+      "name": "Madeleine Arthur",
+      "order": 167,
+      "role": "Fray",
+      "thumb": "/gVjGKDGVLLzvn7VivEjuIRG2ale.jpg"
+    },
+    {
+      "name": "Jaime Ray Newman",
+      "order": 187,
+      "role": "Irene McAllistair",
+      "thumb": "/2NZqIILL9BW8fSveWDGBDLoMYN8.jpg"
+    },
+    {
+      "name": "Charles Shaughnessy",
+      "order": 219,
+      "role": "Christopher Plover",
+      "thumb": "/3sbkB0S3tmPqdKHzIrjjSIAt49k.jpg"
+    },
+    {
+      "name": "Michael Cassidy",
+      "order": 7,
+      "role": "James",
+      "thumb": "/fZCDSWnHabiv2eP05cvpahYejCb.jpg"
+    },
+    {
+      "name": "Jesse Reid",
+      "order": 63,
+      "role": "Bender",
+      "thumb": null
+    },
+    {
+      "name": "Everrett Shea",
+      "order": 101,
+      "role": "Ilario",
+      "thumb": null
+    },
+    {
+      "name": "Nikolai Witschl",
+      "order": 165,
+      "role": "Ominous Fairy",
+      "thumb": "/zMPbQZssKhXcRdIq58D9zeTSz47.jpg"
+    },
+    {
+      "name": "Dominic Burgess",
+      "order": 192,
+      "role": "Ember",
+      "thumb": "/ncqFGuh7Og4G2qTyliJiJErsMKe.jpg"
+    },
+    {
+      "name": "Felicia Day",
+      "order": 213,
+      "role": "Poppy",
+      "thumb": "/9jXzLt34ibmmmTakiZXn7Eotdeh.jpg"
+    },
+    {
+      "name": "Judith Hoag",
+      "order": 214,
+      "role": "Stephanie Quinn",
+      "thumb": "/rxaOOY9ITIBDP0I0CXl7RSIKFbZ.jpg"
+    },
+    {
+      "name": "Leonard Roberts",
+      "order": 3,
+      "role": "King Idri of Loria",
+      "thumb": "/4rfue5GhCI77xc7YLMIR8rXzOMY.jpg"
+    },
+    {
+      "name": "Valerie Tian",
+      "order": 5,
+      "role": "Healer Faye",
+      "thumb": "/znUa1enmheF0mvHPIw8upy54ay.jpg"
+    },
+    {
+      "name": "Trezzo Mahoro",
+      "order": 20,
+      "role": "Ralphie",
+      "thumb": "/il163LKprDtU2IA7ZaTKjD1dz4d.jpg"
+    },
+    {
+      "name": "Edwin Perez",
+      "order": 21,
+      "role": "Eugenio",
+      "thumb": "/3GhHGH37AM7jOzVv62ofFxzkWGi.jpg"
+    },
+    {
+      "name": "Abby Miller",
+      "order": 23,
+      "role": "Emily Greenstreet",
+      "thumb": "/fqvHDoOGVDpI1HthS2cABoO4Otl.jpg"
+    },
+    {
+      "name": "Brían F. O'Byrne",
+      "order": 42,
+      "role": "Mayakovsky",
+      "thumb": "/7ppXakXhRdkouqPFb8YQSSDgJg0.jpg"
+    },
+    {
+      "name": "Tom Amandes",
+      "order": 57,
+      "role": "Daniel Quinn",
+      "thumb": "/olQoiZFd0PjCdxP1oW9bSeddDoj.jpg"
+    },
+    {
+      "name": "Katie Findlay",
+      "order": 59,
+      "role": "Eve",
+      "thumb": "/kuAEMiHePenfLjCLsqfvJVeDuUz.jpg"
+    },
+    {
+      "name": "Nicholas Croucher",
+      "order": 63,
+      "role": "Martin Chatwin",
+      "thumb": "/yXA4IVtSZelOj5KU6UvU6TMPX8P.jpg"
+    },
+    {
+      "name": "Christopher Gorham",
+      "order": 118,
+      "role": "Senator John Gaines",
+      "thumb": "/u3D21bfXweqiGWalFxMq2jONcYi.jpg"
+    },
+    {
+      "name": "Imogen Tear",
+      "order": 120,
+      "role": "Shade Julia",
+      "thumb": "/sRCsoVEJ3Nh9p2YO2Q7T6jcGEhq.jpg"
+    },
+    {
+      "name": "Roan Curtis",
+      "order": 183,
+      "role": "Sylvia",
+      "thumb": "/zCr1NzKboownfvi1BQpHPCB5OlW.jpg"
+    },
+    {
+      "name": "Spencer Garrett",
+      "order": 186,
+      "role": "Ted Coldwater",
+      "thumb": "/jJWISea4PvC9Mv5kWONAMKhEK7j.jpg"
+    },
+    {
+      "name": "Dina Meyer",
+      "order": 192,
+      "role": "Stone Queen",
+      "thumb": "/kQCF2rYGo3wxaCjv5wOBXHiWm6C.jpg"
+    },
+    {
+      "name": "Tom Wright",
+      "order": 198,
+      "role": "Santa",
+      "thumb": "/3Jmwf493R4e9cis5689Nn0DLgqt.jpg"
+    },
+    {
+      "name": "Ryan McDonald",
+      "order": 198,
+      "role": "Bacchus",
+      "thumb": "/vqqU8iLd5xWVokCGhixyCkAlACG.jpg"
+    },
+    {
+      "name": "Jolene Purdy",
+      "order": 206,
+      "role": "Shoshana",
+      "thumb": "/hq66UInEJuDjS3M4aCqgTFEcIzA.jpg"
+    },
+    {
+      "name": "West Duchovny",
+      "order": 208,
+      "role": "Whitley",
+      "thumb": "/8mssusmh5dfj0NO1HcOBxjf7tAD.jpg"
+    },
+    {
+      "name": "Jewel Staite",
+      "order": 216,
+      "role": "Phyllis",
+      "thumb": "/Adu1hsShEmbcEeKNmXB8RSJC18j.jpg"
+    },
+    {
+      "name": "Brian Markinson",
+      "order": 218,
+      "role": "Everett",
+      "thumb": "/26fa857UrEU4aCMHVQbpvNOGuKv.jpg"
+    },
+    {
+      "name": "Camryn Manheim",
+      "order": 218,
+      "role": "Sheila",
+      "thumb": "/eI42MrAyzJ3vbiGSIQB0FCwecba.jpg"
+    },
+    {
+      "name": "Tembi Locke",
+      "order": 9,
+      "role": "Dr. Jennifer London",
+      "thumb": "/oe9bXpFmv9udogSzy6Lk6HlwplJ.jpg"
+    },
+    {
+      "name": "Anthony Marble",
+      "order": 15,
+      "role": "The Beast",
+      "thumb": "/1dkH6gSICsz2NBiQ14ghGbTBkj6.jpg"
+    },
+    {
+      "name": "Hiro Kanagawa",
+      "order": 19,
+      "role": "Professor March",
+      "thumb": "/dyWOPJmZTfy3r3R5eDY2d7yf8Ze.jpg"
+    },
+    {
+      "name": "Sachin Sahel",
+      "order": 24,
+      "role": "Surendra",
+      "thumb": "/lieLuEGNqGeyxetkX68sUP4jkpl.jpg"
+    },
+    {
+      "name": "M.C. Gainey",
+      "order": 31,
+      "role": "Stanley",
+      "thumb": "/nM82se0lOFbOhhj3J6tRFcdEydO.jpg"
+    },
+    {
+      "name": "Amy Pietz",
+      "order": 34,
+      "role": "The Lamia",
+      "thumb": "/yt9SEBl3gd29YZoDl2qCGOs0mhN.jpg"
+    },
+    {
+      "name": "Amitai Marmorstein",
+      "order": 35,
+      "role": "Rick",
+      "thumb": "/Anhoqg3uEdllj9QGN7ahpaaOL5c.jpg"
+    },
+    {
+      "name": "Jesse Luken",
+      "order": 39,
+      "role": "Mike McCormick",
+      "thumb": "/AteY6dMT2yJXNR2mJWQ0uafWulT.jpg"
+    },
+    {
+      "name": "Daniella Evangelista",
+      "order": 79,
+      "role": "Fillorian Mother",
+      "thumb": null
+    },
+    {
+      "name": "Rhys Ward",
+      "order": 96,
+      "role": "Bayler",
+      "thumb": null
+    },
+    {
+      "name": "Jason Burkart",
+      "order": 104,
+      "role": "Stinkmonster",
+      "thumb": "/mpnyAPpkDG2PxhZCwJmMqb6oNjr.jpg"
+    },
+    {
+      "name": "Jamie Harris",
+      "order": 113,
+      "role": "Friar Joseph",
+      "thumb": "/w4RhAUrejInGkOYc0T4B6Wxpncd.jpg"
+    },
+    {
+      "name": "Samuel Roukin",
+      "order": 117,
+      "role": "Fairy Ambassador",
+      "thumb": "/rO6MJgFD5rBBeDQABN9b0YZwg4J.jpg"
+    },
+    {
+      "name": "Ava Telek",
+      "order": 128,
+      "role": "Shade Alice",
+      "thumb": "/tDhmjpB8asgxUI2LGtXz6KGdB2t.jpg"
+    },
+    {
+      "name": "Nico Evers-Swindell",
+      "order": 133,
+      "role": "Nigel",
+      "thumb": "/kGqkhCXGAgZjYqSXTrZawqF6rcW.jpg"
+    },
+    {
+      "name": "Roger Cross",
+      "order": 139,
+      "role": "Admiral Lacker",
+      "thumb": "/gqEINLLJ7KnoOF2vKwyjqC2SGIY.jpg"
+    },
+    {
+      "name": "David Lewis",
+      "order": 147,
+      "role": "Dr. Walton",
+      "thumb": "/fEHH2ApOpWksZaV0e3TFsL9mQbp.jpg"
+    },
+    {
+      "name": "Christopher Britton",
+      "order": 168,
+      "role": "Demon",
+      "thumb": null
+    },
+    {
+      "name": "Nicholas Coombe",
+      "order": 179,
+      "role": "Prince Fomar",
+      "thumb": "/exoZHzswspFOZpo41GjgpDcOnIU.jpg"
+    },
+    {
+      "name": "Dustin Ingram",
+      "order": 179,
+      "role": "Hyman Cooper",
+      "thumb": "/4jH3kSG3JCcjWtbIQYkGmU1Cugc.jpg"
+    },
+    {
+      "name": "Anja Savcic",
+      "order": 183,
+      "role": "Skye",
+      "thumb": "/6xJzn2ckq3kxBNWOF9uuIeelN6L.jpg"
+    },
+    {
+      "name": "Spencer Daniels",
+      "order": 198,
+      "role": "Nameless",
+      "thumb": "/yFePed7zzGyvdoU1c3XdilsHw1r.jpg"
+    },
+    {
+      "name": "Agam Darshi",
+      "order": 198,
+      "role": "Janet",
+      "thumb": "/rJoqe224bDWl03fnSqrUPt9QfLn.jpg"
+    },
+    {
+      "name": "Leanne Lapp",
+      "order": 198,
+      "role": "Sam Cunningham",
+      "thumb": "/zp2vgmRtiCNOs7k1uhBeKqj7qn0.jpg"
+    },
+    {
+      "name": "Tarun Keram",
+      "order": 198,
+      "role": "Hansel",
+      "thumb": "/6u102CBNiRMagE0YaI1KbcpFEYx.jpg"
+    },
+    {
+      "name": "Emily Althaus",
+      "order": 198,
+      "role": "Kimber D'Antoni",
+      "thumb": "/2X4Ig3KrvHy9An4mQoZtU3yZaCe.jpg"
+    },
+    {
+      "name": "Madisen Beaty",
+      "order": 206,
+      "role": "Iris",
+      "thumb": "/lVi9dRepPhX6FJc1PHcWDb4DwdC.jpg"
+    },
+    {
+      "name": "Ben Esler",
+      "order": 1,
+      "role": "Charlie Quinn",
+      "thumb": "/tTU99OhfhefHvOg4GlIZZdKVY0V.jpg"
+    },
+    {
+      "name": "Amanda Brooks",
+      "order": 4,
+      "role": "Prof. Bigby",
+      "thumb": "/x8WndbTvjbG6Z4QeDv0Knh8jLvS.jpg"
+    },
+    {
+      "name": "Wayne Pére",
+      "order": 8,
+      "role": "Professor Van Der Weghe",
+      "thumb": "/ppVRC4a061nwAOBerUhg0E9sUDJ.jpg"
+    },
+    {
+      "name": "Laura Fraser",
+      "order": 10,
+      "role": "Female Professor",
+      "thumb": "/hOgkyPtP5WOjcQjc7RmmKJl3OGE.jpg"
+    },
+    {
+      "name": "Seth Meriwether",
+      "order": 13,
+      "role": "Martin Chatwin",
+      "thumb": "/c2SlCLZWrw91tE1ZGuswx2W1Byj.jpg"
+    },
+    {
+      "name": "Brian Beckman",
+      "order": 14,
+      "role": "Rupert Chatwin",
+      "thumb": null
+    },
+    {
+      "name": "Lev Grossman",
+      "order": 18,
+      "role": "Dev Fleishman",
+      "thumb": null
+    },
+    {
+      "name": "Ryan Beil",
+      "order": 25,
+      "role": "Robert",
+      "thumb": "/p5eaQJt1irdzhZ3AeeaArGXWSIp.jpg"
+    },
+    {
+      "name": "Jesse Haddock",
+      "order": 26,
+      "role": "Smith",
+      "thumb": null
+    },
+    {
+      "name": "Matt Beairsto",
+      "order": 28,
+      "role": "Ellis Wirth-Downs",
+      "thumb": null
+    },
+    {
+      "name": "Jagen Johnson",
+      "order": 29,
+      "role": "Quentin's Roommate",
+      "thumb": "/88wpTeB0tuWkqeUieXjkajwtN5J.jpg"
+    },
+    {
+      "name": "Denise Crosby",
+      "order": 30,
+      "role": "Genji",
+      "thumb": "/1Eoo8o3xRGflJ9kHxg1eFVwAwQa.jpg"
+    },
+    {
+      "name": "Patricia Isaac",
+      "order": 34,
+      "role": "Doctor Meers",
+      "thumb": "/coyXEuD66wLJloHpCOqUcQcvD9Y.jpg"
+    },
+    {
+      "name": "Megan Peta Hill",
+      "order": 37,
+      "role": "Natural Student",
+      "thumb": "/cg6k3a5mtaZyR9gqFVUrHqlxvt8.jpg"
+    },
+    {
+      "name": "Ingrid Nilson",
+      "order": 38,
+      "role": "Camille",
+      "thumb": "/vEoMY9pqOb5gSNNj49xFX9txApI.jpg"
+    },
+    {
+      "name": "Jessica Harmon",
+      "order": 41,
+      "role": "Mackenzie",
+      "thumb": "/mcNJAyFuqAUYI2qX8zVrojkq6Mq.jpg"
+    },
+    {
+      "name": "Lee Majdoub",
+      "order": 43,
+      "role": "The Djinn",
+      "thumb": "/vpF3R2YRCGHseGevmDAhftmOPkO.jpg"
+    },
+    {
+      "name": "Carmen Moore",
+      "order": 44,
+      "role": "Homicide Detective",
+      "thumb": "/cPUNFyRPEbgNpBfEVYKWNZtoGML.jpg"
+    },
+    {
+      "name": "Nesta Cooper",
+      "order": 48,
+      "role": "Gretchen",
+      "thumb": "/2RH4RUWl6tAAjw9SnBvs53Ou3aI.jpg"
+    },
+    {
+      "name": "Rebecca Tilney",
+      "order": 50,
+      "role": "Prudence Plover",
+      "thumb": null
+    },
+    {
+      "name": "Oliver Rice",
+      "order": 51,
+      "role": "Hugh",
+      "thumb": "/8H0kGdzDUzgWoP7oqbR2FVydB42.jpg"
+    },
+    {
+      "name": "Sibyl Gregory",
+      "order": 53,
+      "role": "Beatrix",
+      "thumb": null
+    },
+    {
+      "name": "Kavandeep Hayre",
+      "order": 54,
+      "role": "Raymond",
+      "thumb": "/sM94qaSyuue6rkNzpYjru0mWXky.jpg"
+    },
+    {
+      "name": "Jonathan Scarfe",
+      "order": 58,
+      "role": "Joe",
+      "thumb": "/uCgPUGJkwVkDQ9LkGtNUUdKeKsX.jpg"
+    },
+    {
+      "name": "Marco Grazzini",
+      "order": 60,
+      "role": "Margo's Ex-Boyfriend",
+      "thumb": "/jDZTxRiX72okQGbIK1BsJbOkYtX.jpg"
+    },
+    {
+      "name": "Cardi Wong",
+      "order": 64,
+      "role": "Pizza Guy",
+      "thumb": "/zOzUBSR1yPia5YyQbuJLrL34aZD.jpg"
+    },
+    {
+      "name": "Byron Noble",
+      "order": 65,
+      "role": "Roman Slave",
+      "thumb": "/bf7MdtbMLcx9TX0UMOu57EE7E6f.jpg"
+    },
+    {
+      "name": "Colin Cunningham",
+      "order": 68,
+      "role": "Bjorn",
+      "thumb": "/41O1EQ9b7zvIoYwR10K2BWpoSnx.jpg"
+    },
+    {
+      "name": "Arturo del Puerto",
+      "order": 70,
+      "role": "Servant of Our Lady Underground",
+      "thumb": "/tALGmngyUUtxyeQtMSy7KyzjdYc.jpg"
+    },
+    {
+      "name": "Tony Giroux",
+      "order": 72,
+      "role": "Hooded Agent",
+      "thumb": "/jUmPyQSYKnqt5NElRTtOiSPXmuc.jpg"
+    },
+    {
+      "name": "Ryan Robbins",
+      "order": 73,
+      "role": "Knifemaker's Son",
+      "thumb": "/kZrq5a760JU1kHuxQ7Q8YCgsOr6.jpg"
+    },
+    {
+      "name": "Laci J Mailey",
+      "order": 76,
+      "role": "Fen",
+      "thumb": "/d0OpeMTRGr4ck0m9iPQSXeEUi6P.jpg"
+    },
+    {
+      "name": "Primo Allon",
+      "order": 77,
+      "role": "Dint",
+      "thumb": "/gL9VXWgAyZEuXpmKoj3ExFPAdUS.jpg"
+    },
+    {
+      "name": "Arien Boey",
+      "order": 78,
+      "role": "Dint the Boy",
+      "thumb": null
+    },
+    {
+      "name": "Karin Konoval",
+      "order": 82,
+      "role": "Kitchen Witch",
+      "thumb": "/5e8YyNQjWre2UbExYBlJ7zva934.jpg"
+    },
+    {
+      "name": "J.P. Manoux",
+      "order": 83,
+      "role": "River Watcher",
+      "thumb": "/lLEfizV970QfahQSBssUvj8Exs7.jpg"
+    },
+    {
+      "name": "Kevin McNulty",
+      "order": 84,
+      "role": "Knight of Crowns",
+      "thumb": "/tqr4quYj4H1Yos1swN5DvmCzta0.jpg"
+    },
+    {
+      "name": "Christine Lippa",
+      "order": 85,
+      "role": "Barbara",
+      "thumb": null
+    },
+    {
+      "name": "Daniel Martin",
+      "order": 86,
+      "role": "Farmer",
+      "thumb": "/cYQgTBUAkN1yJ7jm3sKjag7cgLu.jpg"
+    },
+    {
+      "name": "Kirsten Robek",
+      "order": 87,
+      "role": "Arleen",
+      "thumb": "/iqcerFwPYnWjoTu3jgs38PDUuqJ.jpg"
+    },
+    {
+      "name": "Emma Dumont",
+      "order": 89,
+      "role": "The White Lady",
+      "thumb": "/ogbFDpuUl0VRefprU8qvPNNf0fI.jpg"
+    },
+    {
+      "name": "Alessandro Juliani",
+      "order": 90,
+      "role": "Sawbones",
+      "thumb": "/f8pVEpYsRU30EsMoWcBsTkUN9e0.jpg"
+    },
+    {
+      "name": "Bellina Logan",
+      "order": 91,
+      "role": "Nurse",
+      "thumb": null
+    },
+    {
+      "name": "Sunita Prasad",
+      "order": 94,
+      "role": "Lia",
+      "thumb": "/5D3vNDlHOeixwRg1Bk45YlJUtsl.jpg"
+    },
+    {
+      "name": "Michelle Harrison",
+      "order": 97,
+      "role": "Dr. Higgins",
+      "thumb": "/4NNuBCS6I4USJT45xSN9R7vwXFI.jpg"
+    },
+    {
+      "name": "Dustin Schwartz",
+      "order": 97,
+      "role": "Ardian",
+      "thumb": null
+    },
+    {
+      "name": "Lee Garlington",
+      "order": 99,
+      "role": "Dana",
+      "thumb": "/tbXeeXUl9py2pCeMHchZAxd56Ua.jpg"
+    },
+    {
+      "name": "Michelle Azar",
+      "order": 102,
+      "role": "Goldie",
+      "thumb": "/hILSES74wsD9NZqd4IvGzFvyWO8.jpg"
+    },
+    {
+      "name": "Stephen Aberle",
+      "order": 103,
+      "role": "Samuel",
+      "thumb": null
+    },
+    {
+      "name": "Alexandra Bokyun Chun",
+      "order": 105,
+      "role": "The Mudang",
+      "thumb": null
+    },
+    {
+      "name": "Tora Kim",
+      "order": 106,
+      "role": "Moon",
+      "thumb": "/9ZgKdwiipjfJznPNxACfO8lVgMz.jpg"
+    },
+    {
+      "name": "Kathleen Duborg",
+      "order": 107,
+      "role": "Rhona",
+      "thumb": "/y2ydKXs8ORtwKsbq1gPXfcvvnGG.jpg"
+    },
+    {
+      "name": "Vivian Lanko",
+      "order": 108,
+      "role": "Becky",
+      "thumb": "/yb5faUXSXqd3XFgkdPBWuAqhGhm.jpg"
+    },
+    {
+      "name": "Greg Delmage",
+      "order": 109,
+      "role": "Adam",
+      "thumb": "/463FEM06aviR8gMbrMGD1kiAHjt.jpg"
+    },
+    {
+      "name": "Alison Wandzura",
+      "order": 110,
+      "role": "Susie",
+      "thumb": "/5zSFLbqMtBLBEBp8E4OuomZJLK7.jpg"
+    },
+    {
+      "name": "Romuald Hivert",
+      "order": 111,
+      "role": "Jimmy",
+      "thumb": null
+    },
+    {
+      "name": "Grey Damon",
+      "order": 112,
+      "role": "Dryad",
+      "thumb": "/pI2EgN1ihdxgmzaiJ9Jy5Q0VITu.jpg"
+    },
+    {
+      "name": "Farrah Aviva",
+      "order": 114,
+      "role": "Healer Tara",
+      "thumb": "/bQs9qNX2tXahAYp2YOgt7Eq7Z8r.jpg"
+    },
+    {
+      "name": "Bracken Hanke",
+      "order": 115,
+      "role": "The Anglerbeast",
+      "thumb": "/lFYRc70gQHvvy4DkYjD4UtHUap6.jpg"
+    },
+    {
+      "name": "Nicole Paris",
+      "order": 116,
+      "role": "Michelle Walker",
+      "thumb": null
+    },
+    {
+      "name": "Brendan Taylor",
+      "order": 121,
+      "role": "Howard",
+      "thumb": "/3Nmo4lADHhCENtR6im3orE4eC5j.jpg"
+    },
+    {
+      "name": "Jeff Gulka",
+      "order": 122,
+      "role": "Timid Servant",
+      "thumb": null
+    },
+    {
+      "name": "Pippa Mackie",
+      "order": 124,
+      "role": "Receptionist",
+      "thumb": "/vJ8kKchKkcBCweRUKXuELFSv5rF.jpg"
+    },
+    {
+      "name": "Alexie Gilmore",
+      "order": 125,
+      "role": "Cindy Gaines",
+      "thumb": "/1Ev9eTuu8bL6t8xzfqchZm4wSfI.jpg"
+    },
+    {
+      "name": "Graeme McComb",
+      "order": 126,
+      "role": "The Concierge",
+      "thumb": "/93KiqyNdWQd5Jt6ktrV27kyXWLx.jpg"
+    },
+    {
+      "name": "Liam Hughes",
+      "order": 129,
+      "role": "Eugene",
+      "thumb": "/1lZLJ9Xi1cyWOoqKXgD5dBPjgmV.jpg"
+    },
+    {
+      "name": "Fred Keating",
+      "order": 130,
+      "role": "Cowden",
+      "thumb": "/j3XjPgQoLY45QDSjYlPB6Vk25Wb.jpg"
+    },
+    {
+      "name": "Marc Senior",
+      "order": 131,
+      "role": "Bellhop",
+      "thumb": "/gQHF5QWA8ErteAbZHbsokIE98GA.jpg"
+    },
+    {
+      "name": "Ingrid Oliver",
+      "order": 132,
+      "role": "Dragon (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Kurtis Maguire",
+      "order": 135,
+      "role": "Plumber of the Gods",
+      "thumb": "/xp0wG9kugoq3oCi2Eau0dVmxQBu.jpg"
+    },
+    {
+      "name": "Faran Tahir",
+      "order": 137,
+      "role": "The Great Cock of the Darkling Woods",
+      "thumb": "/eVYiHKj9OGRn3MeRqJuwROFqIkg.jpg"
+    },
+    {
+      "name": "Julian Richings",
+      "order": 140,
+      "role": "Asteroth",
+      "thumb": "/ia2Xo99pxLX3sxZ0jVcj7eai56l.jpg"
+    },
+    {
+      "name": "Markian Tarasiuk",
+      "order": 143,
+      "role": "Prince Micah",
+      "thumb": "/vWSl6EIiOb9TveVEjMVxWlfCqVj.jpg"
+    },
+    {
+      "name": "Robert Corness",
+      "order": 145,
+      "role": "Puzzler",
+      "thumb": null
+    },
+    {
+      "name": "Stephanie Nogueras",
+      "order": 148,
+      "role": "Young Harriet",
+      "thumb": "/2ErOAPA7vzHLZ9pTj2L5JAlMcGk.jpg"
+    },
+    {
+      "name": "Bola Omodara",
+      "order": 149,
+      "role": "Zan",
+      "thumb": "/cb8ARzjKQdXpD8CJapqadVXYz9t.jpg"
+    },
+    {
+      "name": "Sean O. Roberts",
+      "order": 152,
+      "role": "Brooklyn Vampire",
+      "thumb": null
+    },
+    {
+      "name": "Aaron Paul Stewart",
+      "order": 153,
+      "role": "Rambo",
+      "thumb": "/2rDEXAjJj9LTLi337qdpVlqLXKx.jpg"
+    },
+    {
+      "name": "Wolsey Brooks",
+      "order": 154,
+      "role": "Palace Guard",
+      "thumb": "/jE1VyWrAPZcsTh5bXvmNQE38wBK.jpg"
+    },
+    {
+      "name": "Haig Sutherland",
+      "order": 155,
+      "role": "Father Poe",
+      "thumb": "/o6wu1HoDk1xnqPHZorW7OmERhnj.jpg"
+    },
+    {
+      "name": "Alex Duncan",
+      "order": 156,
+      "role": "Shara",
+      "thumb": "/l0ESJT5wM66HeoRdBIYIG40l6e1.jpg"
+    },
+    {
+      "name": "Robert Rozen",
+      "order": 157,
+      "role": "Cal",
+      "thumb": "/wnWoeqGdt8bUKU2LglmtiPdMypk.jpg"
+    },
+    {
+      "name": "Andres Joseph",
+      "order": 158,
+      "role": "Donovan",
+      "thumb": "/oqVXsqI6vUgl2qaJgtR4ZOtbrgG.jpg"
+    },
+    {
+      "name": "Celia Reid",
+      "order": 159,
+      "role": "Maggie",
+      "thumb": "/aHA4qMj73Eai0e6gIz3S1eqOF5Z.jpg"
+    },
+    {
+      "name": "Mik Byskov",
+      "order": 160,
+      "role": "Naru",
+      "thumb": "/v5q9uLHkmXkm7GsYiEVFcLBHbp3.jpg"
+    },
+    {
+      "name": "Patrick Sabongui",
+      "order": 161,
+      "role": "Bingle",
+      "thumb": "/yI8xBqEi5IAeyoEgGcdbcyEc9vO.jpg"
+    },
+    {
+      "name": "Justin Turnbull",
+      "order": 162,
+      "role": "Construction Worker",
+      "thumb": null
+    },
+    {
+      "name": "Daniella Alonso",
+      "order": 163,
+      "role": "Pirate King",
+      "thumb": "/ipFtnG5kvkMY1HcLOSFONDIEXqn.jpg"
+    },
+    {
+      "name": "Kate Robbins",
+      "order": 164,
+      "role": "Carol",
+      "thumb": null
+    },
+    {
+      "name": "Jason Simpson",
+      "order": 165,
+      "role": "Hoop",
+      "thumb": "/nicxmXmjjQUMiiuwrnGwkBYobcZ.jpg"
+    },
+    {
+      "name": "Mitch Ainley",
+      "order": 169,
+      "role": "Lance Morrison",
+      "thumb": "/23u37HEoWB6n5TSTGPIKD2Qv0oS.jpg"
+    },
+    {
+      "name": "Michael Kopsa",
+      "order": 170,
+      "role": "Emmett Morrison",
+      "thumb": "/i6J24oJfHH4rb8O0HlKnt6IkrgK.jpg"
+    },
+    {
+      "name": "Michael Ryan",
+      "order": 170,
+      "role": "Eliot's Father",
+      "thumb": null
+    },
+    {
+      "name": "Arthur MacKinnon",
+      "order": 171,
+      "role": "Rupert Chatwin",
+      "thumb": "/q2nOR2ewrifDquXw7M2xUZ1AixY.jpg"
+    },
+    {
+      "name": "Matt Afonso",
+      "order": 172,
+      "role": "Bodi",
+      "thumb": null
+    },
+    {
+      "name": "Jason Vaisvila",
+      "order": 173,
+      "role": "Shep",
+      "thumb": null
+    },
+    {
+      "name": "Kylee Bush",
+      "order": 174,
+      "role": "Arielle",
+      "thumb": "/hgZ8l9HreQioqaAEhmD1GyLbBMV.jpg"
+    },
+    {
+      "name": "Darien Martin",
+      "order": 175,
+      "role": "Lunk",
+      "thumb": "/ikQEhFZUBkrIt868hT0lbTsnLME.jpg"
+    },
+    {
+      "name": "Latonya Williams",
+      "order": 176,
+      "role": "Handmaid",
+      "thumb": "/hkwpYfbp1IqCQ1SrdhSs1NnHYMU.jpg"
+    },
+    {
+      "name": "Sebastian Billingsley-Rodriguez",
+      "order": 177,
+      "role": "Rupert - Age 5",
+      "thumb": "/xhPHlfkz0RgoUGDfMpvz2SCYMlf.jpg"
+    },
+    {
+      "name": "Tim Donadt",
+      "order": 178,
+      "role": "Rupert - Age 20",
+      "thumb": "/wDxfDaD3dmj9DzBoWUDo4iN1vSp.jpg"
+    },
+    {
+      "name": "Ben Wilkinson",
+      "order": 179,
+      "role": "The Incubus",
+      "thumb": "/nTIJfyQMv25m0IKtubtgYRsYeEF.jpg"
+    },
+    {
+      "name": "Sera Gamble",
+      "order": 180,
+      "role": "Water Dragon (voice)",
+      "thumb": "/twgr4lp83L8x6T9xx51rFHFxnqZ.jpg"
+    },
+    {
+      "name": "Kett Turton",
+      "order": 181,
+      "role": "Vince",
+      "thumb": null
+    },
+    {
+      "name": "Mackenzie Murdock",
+      "order": 182,
+      "role": "Orderly",
+      "thumb": "/dhss45FRLXbAJnvoQSC158hbSDg.jpg"
+    },
+    {
+      "name": "William Vaughan",
+      "order": 183,
+      "role": "Underworld Park Ranger",
+      "thumb": "/4KFaIOMfsadrHQkRSQhjs1ZGzvZ.jpg"
+    },
+    {
+      "name": "Melanie Chan",
+      "order": 184,
+      "role": "Maribel",
+      "thumb": "/ljPTpTA2e3jeKEt4Qa76eWX7r7.jpg"
+    },
+    {
+      "name": "Mike Moore",
+      "order": 186,
+      "role": "Bunny (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Michaela McManus",
+      "order": 188,
+      "role": "Callie",
+      "thumb": "/oi9ZdXQm0qpRLo3FrLtNfcVieXM.jpg"
+    },
+    {
+      "name": "Alexandra Metz",
+      "order": 189,
+      "role": "Ora",
+      "thumb": "/q6U7AigI9FzlfCxFwzxR6TPNGrS.jpg"
+    },
+    {
+      "name": "Georgie Daburas",
+      "order": 191,
+      "role": "Prometheus",
+      "thumb": "/h4eJCXgXb36Tc6s0wqWZFxB7Mav.jpg"
+    },
+    {
+      "name": "Zach Cherry",
+      "order": 199,
+      "role": "Frankie",
+      "thumb": "/tBT9Fqb3jUnZ6vcM8LjfoGoB4XY.jpg"
+    },
+    {
+      "name": "Deborah Ramsay",
+      "order": 201,
+      "role": "Beatrice McAllister",
+      "thumb": null
+    },
+    {
+      "name": "Arden Myrin",
+      "order": 203,
+      "role": "Helen",
+      "thumb": "/ka28lcyQeWblQC7tl83dOe8sHU4.jpg"
+    },
+    {
+      "name": "Joanna Going",
+      "order": 204,
+      "role": "Quentin's Mother",
+      "thumb": "/cqYMJFlkkAc2n1FTGaOmom4IFFL.jpg"
+    },
+    {
+      "name": "Kasha Kropinski",
+      "order": 205,
+      "role": "Enid",
+      "thumb": "/egBLtfpm8smgTxqFYBJOvLVB34s.jpg"
+    },
+    {
+      "name": "Miranda Frigon",
+      "order": 208,
+      "role": "Lady Pike",
+      "thumb": "/44VovG3Gm0NGyHAhgyKla4RcHnw.jpg"
+    },
+    {
+      "name": "Dean Marshall",
+      "order": 211,
+      "role": "Cyrus",
+      "thumb": "/che3C6ZnOAGQimCgXWIZwnf56iW.jpg"
+    },
+    {
+      "name": "Olivia Norman",
+      "order": 212,
+      "role": "Baba Yaga/Bailey",
+      "thumb": null
+    },
+    {
+      "name": "Gabrielle Miller",
+      "order": 214,
+      "role": "Carol",
+      "thumb": "/iItl3xqd0H2VNraCBfe5ufm2aL.jpg"
+    },
+    {
+      "name": "Gethin Anthony",
+      "order": 215,
+      "role": "Enyalius",
+      "thumb": "/sIjeLMgUTnXFy1fPjWYykAxN2XX.jpg"
+    },
+    {
+      "name": "Rukiya Bernard",
+      "order": 216,
+      "role": "Ru",
+      "thumb": "/1xnSniYd3y84qt6lqLvDIzGT4x0.jpg"
+    },
+    {
+      "name": "Yaani King Mondschein",
+      "order": 217,
+      "role": "Kira",
+      "thumb": "/jpdu5ko9yVcVdXyzJc2hmis0IIo.jpg"
+    },
+    {
+      "name": "Luca Padovan",
+      "order": 217,
+      "role": "Young Quentin (Golem)",
+      "thumb": "/k7TO7YgOkoAZSfAYjiu0DSQKvd0.jpg"
+    },
+    {
+      "name": "Elyse Maloway",
+      "order": 217,
+      "role": "Berry",
+      "thumb": "/oREWBuun5XvNkn0E1s01B82tyyY.jpg"
+    },
+    {
+      "name": "Thabo Ketshabetswe",
+      "order": 218,
+      "role": "Guard #1",
+      "thumb": "/yz7UtoD2of4APMUo3dkFMd2Qymc.jpg"
+    },
+    {
+      "name": "Cassandra Naud",
+      "order": 218,
+      "role": "Partier #5 (uncredited)",
+      "thumb": "/Fw2FlUQGmFC0DGLGEBATXfswHh.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Unauthorized Magic",
-        "The Source of Magic",
-        "Consequences of Advanced Spellcasting",
-        "The World in the Walls",
-        "Mendings, Major and Minor",
-        "Impractical Applications",
-        "The Mayakovsky Circumstance",
-        "The Strangled Heart",
-        "The Writing Room",
-        "Homecoming",
-        "Remedial Battle Magic",
-        "Thirty-Nine Graves",
-        "Have You Brought Me Little Cakes"
+        {
+          "aired": "2015-12-16",
+          "plot": "A group of twentysomethings studying magic in New York discover a real-life fantasy world that poses a great threat to humanity in this drama adapted from Lev Grossman’s book series.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bIpRxBk0lstQdOP0puph2PpAG0K.jpg",
+          "title": "Unauthorized Magic"
+        },
+        {
+          "aired": "2016-01-25",
+          "plot": "The Brakebills students struggle to deal with the aftermath of a catastrophe that befalls the university. Back in Brooklyn, Julia makes her first foray into the mysterious world of Hedge Witches.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mHQweHANK1SBUbIymzKSdQxVrd.jpg",
+          "title": "The Source of Magic"
+        },
+        {
+          "aired": "2016-02-01",
+          "plot": "Alice ends up risking everything to discover the truth behind her brother's disappearance. Quentin and Julia are involved in a volatile reunion.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cmXfSff9b0lTQwzMrSSRkttMhxZ.jpg",
+          "title": "Consequences of Advanced Spellcasting"
+        },
+        {
+          "aired": "2016-02-08",
+          "plot": "Quentin panics when he wakes up in a mental hospital. Meanwhile, upset over her fight with Quentin, Julia commits herself to learning more powerful spells.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/svE7VSRMFzVo1RiywFBUOLiq3kz.jpg",
+          "title": "The World in the Walls"
+        },
+        {
+          "aired": "2016-02-15",
+          "plot": "The students each deal with a personal matter that keeps them from focusing on the upcoming Welter's Tournament.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tYiyJhIWsqC4QD0rCctQ8bUhGl7.jpg",
+          "title": "Mendings, Major and Minor"
+        },
+        {
+          "aired": "2016-02-22",
+          "plot": "The first-year students face something called \"The Trials,\" a series of unconventional and emotional tests, which result in expulsion from Brakebills for those who fail.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7U8O2BSRKmtDbNAmQDcQ3zdcsJQ.jpg",
+          "title": "Impractical Applications"
+        },
+        {
+          "aired": "2016-02-29",
+          "plot": "An uncompromising professor pushes boundaries both in magic and in the personal lives of his first-year students. Meanwhile, Julia must decide whether she's ready to accept help and what that means for her future as a Magician.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bkYIyqRkHMe8A6mLggopiTgjbF0.jpg",
+          "title": "The Mayakovsky Circumstance"
+        },
+        {
+          "aired": "2016-03-07",
+          "plot": "Brakebills is thrown into chaos when Penny is violently attacked by someone who was considered a friend. Quentin tries to find a connection to the Beast. Julia considers giving up magic for good after entering a rehab facility.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aapl7XoM5ORZf1FRgBLm2i4mhZI.jpg",
+          "title": "The Strangled Heart"
+        },
+        {
+          "aired": "2016-03-14",
+          "plot": "Quentin, Alice, Eliot, and Penny travel to England in search of a missing magic button. Julia searches for real meaning in her magic.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8SEuSmHnO7Glwj5Q709D6LhQ3ol.jpg",
+          "title": "The Writing Room"
+        },
+        {
+          "aired": "2016-03-21",
+          "plot": "Penny travels to the world of The Neitherlands, and Quentin and Alice work together to save him. Julia joins an eclectic group of magicians.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/apLj2cHJjcyPnLIYsxVI52kAk1W.jpg",
+          "title": "Homecoming"
+        },
+        {
+          "aired": "2016-03-28",
+          "plot": "Quentin and the others learn battle magic and prepare for a showdown in Fillory. Julia and Kady take on a mission with the Free Traders.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lpCQkLJiPaBb8KU4GiHNGZtWHgL.jpg",
+          "title": "Remedial Battle Magic"
+        },
+        {
+          "aired": "2016-04-04",
+          "plot": "The students wake up to foggy memories and regret after a night of drinking; Penny reminds everyone that their lives depend on getting to The Neitherlands.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nobbyDzpzXDSHX9sdg00FU8YHK5.jpg",
+          "title": "Thirty-Nine Graves"
+        },
+        {
+          "aired": "2016-04-11",
+          "plot": "Quentin and Julia arrive in Fillory and try to catch up with the group, who are more than 70 years ahead of them, in the search for The Beast.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nGSMOHUQsJcBpnxFfzkhW5eUhYg.jpg",
+          "title": "Have You Brought Me Little Cakes"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Knight of Crowns",
-        "Hotel Spa Potions",
-        "Divine Elimination",
-        "The Flying Forest",
-        "Cheat Day",
-        "The Cock Barrens",
-        "Plan B",
-        "Word As Bond",
-        "Lesser Evils",
-        "The Girl Who Told Time",
-        "The Rattening",
-        "Ramifications",
-        "We Have Brought You Little Cakes"
+        {
+          "aired": "2017-01-25",
+          "plot": "In the aftermath of their clash with The Beast, Quentin and his friends scramble for a new plan. Julia and The Beast strike a dangerous deal.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jC1PzqWF3nkypiNwKFkrmmmFoWV.jpg",
+          "title": "Knight of Crowns"
+        },
+        {
+          "aired": "2017-02-01",
+          "plot": "Quentin, Alice, Penny and Margo seek a new weapon; Eliot struggles with being king. Julia and The Beast find an unexpected ally.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3uwef1LHrLoDLI7nRpJ0gV1la17.jpg",
+          "title": "Hotel Spa Potions"
+        },
+        {
+          "aired": "2017-02-08",
+          "plot": "Quentin and friends prepare to face The Beast again. Julia conspires with The Beast and their new ally to lure and trap Reynard.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qGVwCZCWY1y7vt5VIaXDuLwJ7wh.jpg",
+          "title": "Divine Elimination"
+        },
+        {
+          "aired": "2017-02-15",
+          "plot": "Quentin and Penny embark on a quest. Margo works on a way to help Eliot. Julia seeks an old friend's help.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ffuh6SIDgFIWs70nEelLx9mRqcK.jpg",
+          "title": "The Flying Forest"
+        },
+        {
+          "aired": "2017-02-22",
+          "plot": "Quentin adjusts to his new life; Penny seeks help from an unexpected source; Eliot and Margo contend with the dangers of ruling; Julia and Kady discover another consequence of Reynard’s attack.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bFMjDXcOYRQZoDjSbtRVyAhX3Gd.jpg",
+          "title": "Cheat Day"
+        },
+        {
+          "aired": "2017-03-01",
+          "plot": "Eliot attempts to summon Alice's spirit while Julia and Kady follow leads to rid them of Reynard and his unborn child. In Fillory, Eliot and Margo find that they have enemies from outside their kingdom as well as within.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gNxsLmYAsA2yfVLGk9rP9PhQr9l.jpg",
+          "title": "The Cock Barrens"
+        },
+        {
+          "aired": "2017-03-08",
+          "plot": "Julia and Kady enlist Quentin, Margo, Eliot, and Penny for a magical heist.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bnLC0d1LHzoFl3bqEqJDlxKa84U.jpg",
+          "title": "Plan B"
+        },
+        {
+          "aired": "2017-03-15",
+          "plot": "Margo feels the pressure of ruling; Julia's friends question her behavior; Quentin faces the repercussions of the deal he made; Penny finds a way to help Kady.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a75mMST75tzSs7jtjfGz0yhdyrA.jpg",
+          "title": "Word As Bond"
+        },
+        {
+          "aired": "2017-03-22",
+          "plot": "Quentin nears what could be a dead end to his problem; Eliot risks his life for his kingdom, and Margo makes a costly bargain to protect him; Julia, Kady and Penny find a possible ally.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2fuGjdj8uCZlw2QBhu2nKlRDrE5.jpg",
+          "title": "Lesser Evils"
+        },
+        {
+          "aired": "2017-03-29",
+          "plot": "Quentin helps Julia with her search; Eliot attempts to win over his people as Margo tries to keep a devastating secret; Penny and Kady become caught between two magical factions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1lJ95aaSkkUWEdGL3Y60YrD3ELE.jpg",
+          "title": "The Girl Who Told Time"
+        },
+        {
+          "aired": "2017-04-05",
+          "plot": "Quentin and Julia undertake a difficult journey; Eliot faces mounting catastrophes in Fillory; Margo attempts to fix the bad deal she made; Penny finds a new ally.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pWHMFvNGRJkK8CvH4hGYN4LykF.jpg",
+          "title": "The Rattening"
+        },
+        {
+          "aired": "2017-04-12",
+          "plot": "Julia, Kady and Penny each make sacrifices to finally face Reynard; Quentin and Eliot learn a disturbing truth about Fillory",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vKwSvcmtT7yiq62KDwx2HmgAURg.jpg",
+          "title": "Ramifications"
+        },
+        {
+          "aired": "2017-04-19",
+          "plot": "Quentin, Eliot, Julia and Margo enact a risky plan to protect Fillory; Penny questions fate, and Kady makes a deal to help him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nyLBLaRYU56aOqcpBbb4sFJOAzE.jpg",
+          "title": "We Have Brought You Little Cakes"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "The Tale of the Seven Keys",
-        "Heroes and Morons",
-        "The Losses of Magic",
-        "Be the Penny",
-        "A Life in the Day",
-        "Do You Like Teeth",
-        "Poached Eggs",
-        "Six Short Stories About Magic",
-        "All That Josh",
-        "The Art of the Deal",
-        "Twenty-Three",
-        "The Fillorian Candidate",
-        "Will You Play with Me"
+        {
+          "aired": "2018-01-10",
+          "plot": "Quentin and Julia attempt to bring magic back. Julia explores her small, but significant gift. Eliot and Margo chafe under the fairy occupation. Kady searches for a way to heal Penny.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2FX70XLb2Y7Fu3jFRMHOlt9hxav.jpg",
+          "title": "The Tale of the Seven Keys"
+        },
+        {
+          "aired": "2018-01-17",
+          "plot": "Eliot embarks on a quest. Alice runs from a monster. Quentin, Kady, and Josh continue their search for magic.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rXFqcDjKvDBCo4SKJ8J4BEoAon.jpg",
+          "title": "Heroes and Morons"
+        },
+        {
+          "aired": "2018-01-24",
+          "plot": "Alice and Quentin visit her parents as Kady and Julia explore new methods to heal Penny.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zlphdtxuqhaOecgDSCrm6bZx1LF.jpg",
+          "title": "The Losses of Magic"
+        },
+        {
+          "aired": "2018-01-31",
+          "plot": "As Eliot is hunted, Quentin and Julia discover a powerful secret tied to the history of Brakebills.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i1Ea8SjfkmRoyVrm2VBzmTU3qFE.jpg",
+          "title": "Be the Penny"
+        },
+        {
+          "aired": "2018-02-07",
+          "plot": "Julia helps Alice navigate a personal crisis; Quentin and Eliot go on an adventure.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/r1QImljqy1aGjQ9GAptSgjbyWm8.jpg",
+          "title": "A Life in the Day"
+        },
+        {
+          "aired": "2018-02-14",
+          "plot": "Quentin faces his most formidable foe yet; Julia helps Alice with a dangerous endeavor.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bAvS4bW5KbGR7qs7bXwuP5RP9Xa.jpg",
+          "title": "Do You Like Teeth"
+        },
+        {
+          "aired": "2018-02-21",
+          "plot": "Margo makes a bold stand against the Fairy Queen. Quentin and Penny try to retrieve a lost item.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8omEG2VoMqDNi5buHsIcIlinPPH.jpg",
+          "title": "Poached Eggs"
+        },
+        {
+          "aired": "2018-02-28",
+          "plot": "Julia and Fen investigate a dangerous group of Magicians as Eliot and Margo’s reign is challenged.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o8dHDExyCX04mFpWComu3KDHrPC.jpg",
+          "title": "Six Short Stories About Magic"
+        },
+        {
+          "aired": "2018-03-07",
+          "plot": "Quentin, Kady and Alice try to convince an old friend to return home.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6BcxIEpgF7XmTiFk6ed6br0vGdA.jpg",
+          "title": "All That Josh"
+        },
+        {
+          "aired": "2018-03-14",
+          "plot": "Quentin and Alice search the castle for an important object while Julia and Fen work with an enemy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nxRxJAJAsariCKLh9cmGhCSWx8J.jpg",
+          "title": "The Art of the Deal"
+        },
+        {
+          "aired": "2018-03-21",
+          "plot": "The group strategizes as Josh and Julia travel to a familiar place and are given a chance to help.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2oe7XD6KfRsi7qRlgx3pl1Zsodi.jpg",
+          "title": "Twenty-Three"
+        },
+        {
+          "aired": "2018-03-28",
+          "plot": "The political situation in Fillory comes to a head. Julia makes amends and Alice makes a confession.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/if0kTPKVD9v9QtAKqpv0obTk2oU.jpg",
+          "title": "The Fillorian Candidate"
+        },
+        {
+          "aired": "2018-04-04",
+          "plot": "The group finds what they’re looking for and attempt once and for all to get magic back.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tUgHB4P4xCgcdOjYTNzwMJjPL3E.jpg",
+          "title": "Will You Play with Me"
+        }
       ]
     },
     "4": {
       "episodes": [
         null,
-        "A Flock of Lost Birds",
-        "Lost, Found, Fucked",
-        "The Bad News Bear",
-        "Marry, F..., Kill",
-        "Escape from the Happy Place",
-        "A Timeline and Place",
-        "The Side Effect",
-        "Home Improvement",
-        "The Serpent",
-        "All That Hard, Glossy Armor",
-        "The 4-1-1",
-        "The Secret Sea",
-        "No Better to Be Safe Than Sorry"
+        {
+          "aired": "2019-01-23",
+          "plot": "Brian takes a friend out for ice cream; Sam is one week away from retirement.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pg4Csw8q7cz4kDR51UKLmsc0C5t.jpg",
+          "title": "A Flock of Lost Birds"
+        },
+        {
+          "aired": "2019-01-30",
+          "plot": "Dean Fogg gets a new suit.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zrpBJmInoBIWllfSNX3t2FhsA2s.jpg",
+          "title": "Lost, Found, Fucked"
+        },
+        {
+          "aired": "2019-02-06",
+          "plot": "Kady gets a puppy; Quentin meets a snake.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5IIHQsl59gpvpu5QCy4venVqQmS.jpg",
+          "title": "The Bad News Bear"
+        },
+        {
+          "aired": "2019-02-13",
+          "plot": "Josh gives Margo a muffin; Julia drinks Schnapps.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uQTHvXfjQxhf2E4a4GzYOKV1qnC.jpg",
+          "title": "Marry, F..., Kill"
+        },
+        {
+          "aired": "2019-02-20",
+          "plot": "There are some flashbacks while Alice and Quentin confront a dog.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bA7MScXrTJFo3yzjKhWe2gdWPEv.jpg",
+          "title": "Escape from the Happy Place"
+        },
+        {
+          "aired": "2019-02-27",
+          "plot": "Quentin and Julia play Pictionary while Margo drinks some weird milk.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/saEJBL6xIie8lfufwwyhyMvklE0.jpg",
+          "title": "A Timeline and Place"
+        },
+        {
+          "aired": "2019-03-06",
+          "plot": "Kady goes to the flea market. What's Zelda been up to? This one's about Fen, you guys.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2irJjSE7hqxToPauYoGgEJZN4Ro.jpg",
+          "title": "The Side Effect"
+        },
+        {
+          "aired": "2019-03-13",
+          "plot": "Penny licks an egg. Alice is jealous of a flower.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/19o1BLeX5bH6I0IrtWDwtVLpJn6.jpg",
+          "title": "Home Improvement"
+        },
+        {
+          "aired": "2019-03-20",
+          "plot": "Quentin eats a quesadilla. Kady and Zelda share a smoke.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gdoB9Y6qiPs9sYj7sN5VDwsEFks.jpg",
+          "title": "The Serpent"
+        },
+        {
+          "aired": "2019-03-27",
+          "plot": "Margo hits her step count.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p80pGMsT6Cw2Z1vhwyybRb09CJ6.jpg",
+          "title": "All That Hard, Glossy Armor"
+        },
+        {
+          "aired": "2019-04-03",
+          "plot": "The gang talks to a book. Tick threatens to drink some water.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1jc8hACjknOVyqHvgWhJdkU6Rod.jpg",
+          "title": "The 4-1-1"
+        },
+        {
+          "aired": "2019-04-10",
+          "plot": "Quentin yells at a plant. Margo stares at a fish.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/trNkEhoNLlJ4QX2Cv5V8v2BJzXb.jpg",
+          "title": "The Secret Sea"
+        },
+        {
+          "aired": "2019-04-17",
+          "plot": "Quentin and Josh get cake; Quentin reflects on his actions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n6KiCvF3iyXwTtqKSm0oH05PUl2.jpg",
+          "title": "No Better to Be Safe Than Sorry"
+        }
       ]
     },
     "5": {
       "episodes": [
         null,
-        "Do Something Crazy",
-        "The Wrath of the Time Bees",
-        "The Mountain of Ghosts",
-        "Magicians Anonymous",
-        "Apocalypse Now!",
-        "Oops!...I Did It Again",
-        "Acting Dean",
-        "Garden Variety Homicide",
-        "Cello Squirrel Daffodil",
-        "Purgatory",
-        "Be The Hyman",
-        "The Balls",
-        "Fillory and Further"
+        {
+          "aired": "2020-01-15",
+          "plot": "Penny and Julia go stargazing. Eliot and Margo forget a sandwich.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oskVQO65Reo49KyNVbOw4nSgxS.jpg",
+          "title": "Do Something Crazy"
+        },
+        {
+          "aired": "2020-01-22",
+          "plot": "Alice didn't buy enough tacos. Fen's got 3 bars.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i7bnQeNvExCUtKqaZ6Czuy8wVxM.jpg",
+          "title": "The Wrath of the Time Bees"
+        },
+        {
+          "aired": "2020-01-29",
+          "plot": "Eliot and Alice go for a hike. Fen gets a haircut.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pwMvdVkSzzdVSMklX7vtx0SEfz0.jpg",
+          "title": "The Mountain of Ghosts"
+        },
+        {
+          "aired": "2020-02-05",
+          "plot": "Julia lends a book to some lady. Fogg finds a sock.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ujxpSniGlYpgcJw4sGqLEpcOKg3.jpg",
+          "title": "Magicians Anonymous"
+        },
+        {
+          "aired": "2020-02-12",
+          "plot": "Zelda has come up with a plan to stop the Apocalypse, but they all have to work together to make that happen. This proves to be more exhausting and challenging than they had hoped. When they are almost successful, something unexpected happens.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AgLmMcjnpgiEKSMphCMqvJNK5wk.jpg",
+          "title": "Apocalypse Now!"
+        },
+        {
+          "aired": "2020-02-12",
+          "plot": "With their mistake from the last episode, the apocalypse is imminent. Eliot and Margo try all they can think of to prevent this, but nothing works. While Eliot sinks deeper and deeper in self-despair, Margo comes close to the solution. But in the end, it's not Margo's idea that saves the day!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fIuJgZItFuvmspSrbVYLCXuSgp0.jpg",
+          "title": "Oops!...I Did It Again"
+        },
+        {
+          "aired": "2020-02-19",
+          "plot": "While Penny struggles to keep everything at Brakebills under control, Eliot and Margo investigate the stolen gold of the Dark King of Fillory. This leads them to discover a very disturbing secret.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x3gJcQoWAVXs6Cw4i6O2SK6KqVf.jpg",
+          "title": "Acting Dean"
+        },
+        {
+          "aired": "2020-02-26",
+          "plot": "Josh returns from his nephew's bar mitzvah. Margo and Eliot share a mojito.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3uwTMFtYG0PawSxWHDlC37nKSg2.jpg",
+          "title": "Garden Variety Homicide"
+        },
+        {
+          "aired": "2020-03-04",
+          "plot": "Penny only wears vintage. Alice rejects a sandwich. Julia does a thing.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dRCtunfXAm29n62HxwcQv08Xt8.jpg",
+          "title": "Cello Squirrel Daffodil"
+        },
+        {
+          "aired": "2020-03-11",
+          "plot": "Margo learns to project. Josh goes to the spa.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gK4vWcOYnjGPvSRB6v2vKMZDnWm.jpg",
+          "title": "Purgatory"
+        },
+        {
+          "aired": "2020-03-18",
+          "plot": "Slap fight! Josh eats a pickle. Dreams are weird.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jJityBL6bW2PQ9rNg8Xdzz79fZ8.jpg",
+          "title": "Be The Hyman"
+        },
+        {
+          "aired": "2020-03-25",
+          "plot": "Margo sees a purse she hates. Alice writes a letter. We couldn't get Prince.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jGjzdpfGXg8oiOn9k477o2SayfK.jpg",
+          "title": "The Balls"
+        },
+        {
+          "aired": "2020-04-01",
+          "plot": "Christmas comes early.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9YkvoxzozW6sebLy5bAUSl2a9C7.jpg",
+          "title": "Fillory and Further"
+        }
       ]
     }
   },

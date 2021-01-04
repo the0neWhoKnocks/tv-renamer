@@ -1,32 +1,289 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy",
+    "Action & Adventure"
+  ],
   "id": 73107,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/333072/seasonposter/barry-5b506fbadbbf7.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/333072/seasonthumb/barry-5f1c90c3134ce.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/333072/seasonthumb/barry-5f1c90d88c443.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d07a5aeaf7e5.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d07a5a16bda4.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d101aea5c55a.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d101b14e1ef9.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/333072/tvbanner/barry-5b503067a612b.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvbanner/barry-5eaeedb30f1e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvbanner/barry-5eafb94daec97.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/333072/tvposter/barry-5c3d4d44317c8.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvposter/barry-5c72cc980b14b.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/333072/tvthumb/barry-5af6da47a28c0.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvthumb/barry-5eaee5348d5a4.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvthumb/barry-5eafb74f283e8.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/48GPYOknlGxLYGIkRl8z1vPaHCR.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/2rdMty10eLffdDRPkHdc9VXNFJK.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Barry",
+  "plot": "A hit man from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.",
+  "premiered": "2018-03-25",
+  "status": "Returning Series",
+  "studios": [
+    "HBO"
+  ],
+  "actors": [
+    {
+      "name": "Bill Hader",
+      "order": 0,
+      "role": "Barry Berkman",
+      "thumb": "/8LiP5wHNq3QpwoARquhkGcPSgjM.jpg"
+    },
+    {
+      "name": "Stephen Root",
+      "order": 1,
+      "role": "Monroe Fuches",
+      "thumb": "/3odRHGTElNONSifyvjDohYWyAl3.jpg"
+    },
+    {
+      "name": "Henry Winkler",
+      "order": 2,
+      "role": "Gene Cousineau",
+      "thumb": "/7YyLHBtoJLSexYJEtrB9DApFTG8.jpg"
+    },
+    {
+      "name": "Sarah Goldberg",
+      "order": 3,
+      "role": "Sally Reed",
+      "thumb": "/774o9vX8HQSMX2JVojp25XQd5AV.jpg"
+    },
+    {
+      "name": "Anthony Carrigan",
+      "order": 5,
+      "role": "NoHo Hank",
+      "thumb": "/6YtczDvE4eI8lkU6KXE6pkXaTIi.jpg"
+    },
+    {
+      "name": "D'Arcy Carden",
+      "order": 8,
+      "role": "Natalie Greer",
+      "thumb": "/bDsVpVIp7hqT1qYisS6ZGw44AWQ.jpg"
+    },
+    {
+      "name": "Glenn Fleshler",
+      "order": 4,
+      "role": "Goran Pazer",
+      "thumb": "/x1Cef2yPZS7bJTwxI7DX3q0HNcv.jpg"
+    },
+    {
+      "name": "Michael Irby",
+      "order": 7,
+      "role": "Cristobal Sifuentes",
+      "thumb": "/9DlWNTlVhkdKnZ76DT8nUTl5DD3.jpg"
+    },
+    {
+      "name": "Paula Newsome",
+      "order": 6,
+      "role": "Janice Moss",
+      "thumb": "/b6SdnIsuPKv6MCJwGELycUYbfss.jpg"
+    },
+    {
+      "name": "Jessy Hodges",
+      "order": 5,
+      "role": "Lindsay Mandel",
+      "thumb": "/cRGqWZqxxqomvtRvxdVninq6P0k.jpg"
+    },
+    {
+      "name": "Chris Marquette",
+      "order": 13,
+      "role": "Chris Lucado",
+      "thumb": "/auJI59lLgNdjN8QcqmEywrYnW9C.jpg"
+    },
+    {
+      "name": "Dale Pavinski",
+      "order": 14,
+      "role": "Taylor Garrett",
+      "thumb": "/wgwVe9ymocZAFDbUZcMjxc7Trh9.jpg"
+    },
+    {
+      "name": "Lee Coc",
+      "order": 2,
+      "role": "Bolivian Gangster",
+      "thumb": "/bO2zc8Ofc8n9N6hs3orBsMWSrQ7.jpg"
+    },
+    {
+      "name": "Nicholas Sean Johnny",
+      "order": 1,
+      "role": "Theo",
+      "thumb": "/fajp3oOL0ZBpvyXfoO06XE3NQm3.jpg"
+    },
+    {
+      "name": "Tyler Jacob Moore",
+      "order": 8,
+      "role": "Ryan Madison",
+      "thumb": "/zeLFpXP0pCf9lPFRcIPEF1U9Xex.jpg"
+    },
+    {
+      "name": "Melissa Villaseñor",
+      "order": 9,
+      "role": "Diner Waitress",
+      "thumb": "/144VoO4M5sU0Mn4lpTOYQFAgNVO.jpg"
+    },
+    {
+      "name": "Daniel Bernhardt",
+      "order": 10,
+      "role": "Ronny Proxin",
+      "thumb": "/b59qhg5VJOCypx9eMXrXHAjauLd.jpg"
+    },
+    {
+      "name": "Jessie Giacomazzi",
+      "order": 11,
+      "role": "Lily Proxin",
+      "thumb": null
+    },
+    {
+      "name": "Marinov Dimiter D.",
+      "order": 14,
+      "role": "Abbas",
+      "thumb": "/l7OqbtlulfHE0BvL7Ms6Je45LQz.jpg"
+    },
+    {
+      "name": "Deepti Gupta",
+      "order": 16,
+      "role": "TV Host",
+      "thumb": "/kMvUaVfUXBbFpoRTwIiaeKlg1vj.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Chapter One: Make Your Mark",
-        "Chapter Two: Use It",
-        "Chapter Three: Make the Unsafe Choice",
-        "Chapter Four: Commit...To You",
-        "Chapter Five: Do Your Job",
-        "Chapter Six: Listen With Your Ears, React With Your Face",
-        "Chapter Seven: Loud, Fast, and Keep Going",
-        "Chapter Eight: Know Your Truth"
+        {
+          "aired": "2018-03-25",
+          "plot": "Barry, a disillusioned hit man, is sent to Los Angeles to kill an aspiring actor who is having an affair with a Chechen mob leader's wife. After following his target to an acting class, Barry becomes inspired to begin a new life with the students.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wPQL3IefD2DTlBwk0cgdofjTDft.jpg",
+          "title": "Chapter One- Make Your Mark"
+        },
+        {
+          "aired": "2018-04-01",
+          "plot": "In the wake of shocking news, Gene encourages his students to channel their feelings into their work. Resolved to quit his job and put the past behind him, Barry tries not to get pulled back in by Fuches and the Chechens. Sally tries to crack the nut that is Barry.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iFsn7UnuxYx6lIReJ4gZCuXsDfC.jpg",
+          "title": "Chapter Two- Use It"
+        },
+        {
+          "aired": "2018-04-08",
+          "plot": "A frustrated Barry misses an acting class to honor an obligation. Detectives Moss and Loach try to piece together a murder puzzle. Gene presses Barry to take more risks. Sally is thrown for a loop during an audition, and turns to Barry for comfort. The Chechens rejoice when a legendary assassin arrives.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hXg7Z4gWRdvjoRqRuQFNQlbw8Sf.jpg",
+          "title": "Chapter Three- Make the Unsafe Choice"
+        },
+        {
+          "aired": "2018-04-15",
+          "plot": "Barry finds that distancing himself from Fuches and the Chechens might be harder than he thought. Sally is dismayed to learn that an audition arranged by a prospective agent has strings attached. Gene promises Moss a bombshell, but only over dinner. Barry invites a Marine buddy and his two pals to a party given by his classmate Natalie, where Zach, a rising actor, threatens Barry’s claim on Sally.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bn25jetAErgS75p3nwZ16oslmQB.jpg",
+          "title": "Chapter Four- Commit...To You"
+        },
+        {
+          "aired": "2018-04-22",
+          "plot": "Barry looks to hit the reset button with Sally, but a scene from “Macbeth” triggers a reaction that pushes them farther apart. Moss moves to interrogate members of Gene’s acting class after a shooting video surfaces. Barry finds himself in a quandary after teaming up with Taylor, a reckless new acquaintance, in a dangerous mission to wipe out a group of Bolivians.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A8Kv8b7eqiR6OaFbW5EnFoKfXi6.jpg",
+          "title": "Chapter Five- Do Your Job"
+        },
+        {
+          "aired": "2018-04-29",
+          "plot": "Barry tries to fly solo at a remote airstrip, but Taylor still wants in. Vacha looks to exact revenge on the man who killed his brother, despite Pazar’s hands-off orders. Moss tries to end her association with Gene, but finds herself drawn to his classroom at a critical juncture. Sally lobbies for a major acting challenge.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/928arAMuAEd9y7ogrocGbljVq0Z.jpg",
+          "title": "Chapter Six- Listen With Your Ears, React With Your Face"
+        },
+        {
+          "aired": "2018-05-06",
+          "plot": "After a shootout at the airstrip, Barry must make a tough decision to avoid capture. Sally worries her performance in MacBeth will be compromised and ruin her chance at impressing a top talent agent.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lqcVvr67T9kABDVOa0vElaIAYp3.jpg",
+          "title": "Chapter Seven- Loud, Fast, and Keep Going"
+        },
+        {
+          "aired": "2018-05-13",
+          "plot": "In the season finale, Barry vows to give up his life of crime. Elsewhere, Pazar enlists a replacement to take care of Fuches. Detective Moss closes in on an arrest that they hope will crack the Madison homicide case.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/boOjYoKrcE11bFSUSzTVldlamrP.jpg",
+          "title": "Chapter Eight- Know Your Truth"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "The Show Must Go On, Probably?",
-        "The Power of No",
-        "Past = Present x Future Over Yesterday",
-        "What?!",
-        "ronny/lily",
-        "The Truth Has a Ring to It",
-        "The Audition",
-        "berkman > block"
+        {
+          "aired": "2019-03-31",
+          "plot": "Barry tries to convince Sally and the class to go ahead with a performance despite the absence of Cousineau, who's grief-stricken after the disappearance of Detective Moss. With Goran gone, NoHo Hank and Cristobal's new partnership faces growing pains and some jealousy issues. Back in Cleveland, Fuches learns that replacement hitmen don't come easy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dsKiTJ68w3QBVi8tmvVCjCPoJ1o.jpg",
+          "title": "The Show Must Go On, Probably"
+        },
+        {
+          "aired": "2019-04-07",
+          "plot": "Facing pressure from Noho Hank, Barry struggles to pull off an important hit. After asking the class to mine their personal traumas for an original piece, Gene decides to confront his own past. A visit to her agents leaves Sally disappointed. Fuches tries to evade questions in Cleveland.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7us2tToZUZXB8pbrhH8GnXDWOnG.jpg",
+          "title": "The Power of No"
+        },
+        {
+          "aired": "2019-04-14",
+          "plot": "As part of a class project, Gene tasks Barry with revisiting his past, and Sally reflects on her own personal history. Barry offers to provide training to NoHo Hank's men. Fuches finds Barry in an unexpected location.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ifn58I6un50WVS3TAxkBa1ER0gP.jpg",
+          "title": "Past = Present x Future Over Yesterday"
+        },
+        {
+          "aired": "2019-04-21",
+          "plot": "Barry's patience is put to the test when a figure from Sally's past arrives in LA. Gene gets a pleasant surprise and encourages Barry to believe that change is possible.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2fQ7NXgX31eKJ4tnAxyxg9lgdHA.jpg",
+          "title": "What!"
+        },
+        {
+          "aired": "2019-04-28",
+          "plot": "An encounter that Barry never could have predicted has surprising effects.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ssjuixbA56i6ZF4QqE9lpyHIHfY.jpg",
+          "title": "ronny-lily"
+        },
+        {
+          "aired": "2019-05-05",
+          "plot": "In preparation for his big scene with Sally, Barry works with Gene to help get into character. Sally resolves to embrace her truth. Noho Hank prepares for a big night with his newly-trained men. Fuches goes on a mission.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tbJciAuaG8a85MbFPI63RKnsybM.jpg",
+          "title": "The Truth Has a Ring to It"
+        },
+        {
+          "aired": "2019-05-12",
+          "plot": "Barry  prepares for his first audition under Gene's guidance. Sally takes a stand in a meeting with a major TV producer. Noho Hank bares all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j1aA7zBeEfwU8ltoRwCfVYNLtFi.jpg",
+          "title": "The Audition"
+        },
+        {
+          "aired": "2019-05-19",
+          "plot": "Barry is out for vengeance. Noho Hank faces the looming threat of being sent home. Sally makes a split-second decision on the night of the acting class' big performance. Fuches turns to an unexpected source for help. Season Two Finale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ncRcTMguNwiAT6GXu2zICZCMr6h.jpg",
+          "title": "berkman (greater-than) block"
+        }
       ]
     }
   },

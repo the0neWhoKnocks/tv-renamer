@@ -1,51 +1,303 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy"
+  ],
   "id": 77485,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/332439/seasonposter/the-last-og-5c8192d3741ff.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/332439/seasonposter/the-last-og-5c818b4e3ab30.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/332439/seasonposter/the-last-og-5eec504b381b7.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/332439/showbackground/the-last-og-5c8197966775e.jpg",
+        "https://assets.fanart.tv/fanart/tv/332439/showbackground/the-last-og-5c9f6410893fb.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/332439/tvbanner/the-last-og-5c81c84faa38c.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/332439/tvposter/the-last-og-5c8186c7d675f.jpg",
+        "https://assets.fanart.tv/fanart/tv/332439/tvposter/the-last-og-5c8188e117fbf.jpg",
+        "https://assets.fanart.tv/fanart/tv/332439/tvposter/the-last-og-5eec03712a3a6.jpg"
+      ],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/cQRYJM0yqioJsovslGkxGKUjuPH.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/6G1MhSXTMQKhlxeErDXKeTeGd5Z.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "The Last O.G.",
+  "plot": "An ex-felon is shocked to see just how much the world has changed when he is released from prison for good behavior after a 15-year stint and returns to his newly gentrified Brooklyn neighborhood.",
+  "premiered": "2018-04-03",
+  "status": "Returning Series",
+  "studios": [
+    "TBS"
+  ],
+  "actors": [
+    {
+      "name": "Tracy Morgan",
+      "order": 0,
+      "role": "Tray",
+      "thumb": "/v7l37yzapiVav6dAUxnYseu9tZq.jpg"
+    },
+    {
+      "name": "Tiffany Haddish",
+      "order": 1,
+      "role": "Shay",
+      "thumb": "/ivLhcXp38OlPybsFe8gSCklcYxP.jpg"
+    },
+    {
+      "name": "Ryan Gaul",
+      "order": 2,
+      "role": "Josh",
+      "thumb": "/odVCSzMm1IiM4hBZ28Oam5NZRUL.jpg"
+    },
+    {
+      "name": "Taylor Mosby",
+      "order": 3,
+      "role": "Amira",
+      "thumb": null
+    },
+    {
+      "name": "Dante Hoagland",
+      "order": 4,
+      "role": "Shazad",
+      "thumb": "/zMxjjR6roKzh1AgxNhSDz6Stkwj.jpg"
+    },
+    {
+      "name": "Cedric the Entertainer",
+      "order": 5,
+      "role": "Mullins",
+      "thumb": "/k5j649G9C8OSayff8HqVWr0jV6S.jpg"
+    },
+    {
+      "name": "Allen Maldonado",
+      "order": 6,
+      "role": "Cousin Bobby",
+      "thumb": "/rl8YFsk4XsFZqCZO5jHNwP0Qoog.jpg"
+    },
+    {
+      "name": "Joel Garland",
+      "order": 7,
+      "role": "Big Country",
+      "thumb": "/p7t1IZ8YDHxRjC2SdYmX9ccl2y1.jpg"
+    },
+    {
+      "name": "Ashley Austin Morris",
+      "order": 1,
+      "role": "Maggie",
+      "thumb": "/A2sTTptRO4MufJon9tEf0jWAHWZ.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Pilot",
-        "Bobo Beans",
-        "Truth Safari",
-        "Swipe Right",
-        "Repass",
-        "Tray-Ning Day",
-        "Lemon Drops",
-        "That Backslide",
-        "Paid In Full",
-        "Clemenza"
+        {
+          "aired": "2018-04-03",
+          "plot": "Ex-con Tray is shocked to see how much the world has changed when he's released from prison for good behavior after a 15-year stint.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dnYy4o90IdItuyva3LfwkZyFpzm.jpg",
+          "title": "Pilot"
+        },
+        {
+          "aired": "2018-04-10",
+          "plot": "After getting turned down for a job at a high-end restaurant, Tray stumbles into a position at a chain coffee shop. The twist - it's owned by Wavy, the drug dealer that Tray took the fall for.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f18SIkFmoh6MLPBU3tK7h0Cao0J.jpg",
+          "title": "Bobo Beans"
+        },
+        {
+          "aired": "2018-04-17",
+          "plot": "Tray and Cousin Bobby intercept the kids at school and take them on a trip down memory lane. Shay tries to track down the kids, and Josh reminds Shay that it's her lie that disrupted the family dynamic.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/h79ft5yoakAmB20dQz3QLvGgfMT.jpg",
+          "title": "Truth Safari"
+        },
+        {
+          "aired": "2018-04-24",
+          "plot": "Cousin Bobby convinces Tray to try Tinder. Tray lands a great match but realizes that he's not emotionally ready for a new relationship.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w8Xql3J1ydJLawRYA0AO5B4rFkk.jpg",
+          "title": "Swipe Right"
+        },
+        {
+          "aired": "2018-05-01",
+          "plot": "Unbeknownst to Shay, Tray was invited to her mother's funeral reception, much to her disapproval. Tray stands up for Shay when her family gives her a hard time about not being there in her mother's later years.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xE1Im2RxOtdTWM5zxxve8jEjucp.jpg",
+          "title": "Repass"
+        },
+        {
+          "aired": "2018-05-08",
+          "plot": "Tray attempts to teach his son Shazad how to be a man.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sbC99OphzDvqh49Ig5Yy48lVIRQ.jpg",
+          "title": "Tray-Ning Day"
+        },
+        {
+          "aired": "2018-05-15",
+          "plot": "In an effort to support the homeless shelter at which Shay volunteers much of her time, Tray resorts to old methods of raising quick funds.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/c3pkoimVUhiSHS3HrfvV3Za2k7h.jpg",
+          "title": "Lemon Drops"
+        },
+        {
+          "aired": "2018-05-22",
+          "plot": "Left reeling from the error of his ways, Tray goes into a tailspin and turns to Bobby for support.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1Fg2m8UAigp8bGmlUF1u4AajhDx.jpg",
+          "title": "That Backslide"
+        },
+        {
+          "aired": "2018-05-29",
+          "plot": "Flashback episode of the entire day leading up to Tray's arrest that culminates in present day Tray deciding to pay Wavy back for the years he lost.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cAzxMg5JBIy8YylPOcS0HMcjh1F.jpg",
+          "title": "Paid In Full"
+        },
+        {
+          "aired": "2018-06-05",
+          "plot": "Tray enlists the halfway house gang to try and take Wavy out before coming to the realization that Wavy isn't the one to blame for his arrest.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fs1H0WLqNL5S637v5xrN2h6SqNK.jpg",
+          "title": "Clemenza"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Ladies First",
-        "Git Up Git Out & Git Something",
-        "A Roller Skating Jam Named Saturdays",
-        "Scenario",
-        "Sound of Da Police",
-        "Keep Their Heads Ringing",
-        "Criminal Minded",
-        "Mama Said Knock You Out",
-        "Your Mom's in My Business",
-        "Fight The Power"
+        {
+          "aired": "2019-04-02",
+          "plot": "Tray wants to see the twins' birth video, and searching for it brings back emotional memories for Shay.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/njV1m2yYX0Dfhg9wmceh6WbgJ2S.jpg",
+          "title": "Ladies First"
+        },
+        {
+          "aired": "2019-04-09",
+          "plot": "Tray finds part-time work in the cafeteria of the kids’ school and finds himself more determined than ever to make it as a chef. Shay straightens Josh out after he tells her that sometimes she “goes off” and scares white people.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2RigJ4mJPYMDMw9JI7ePXD2Lkgt.jpg",
+          "title": "Git Up Git Out & Git Something"
+        },
+        {
+          "aired": "2019-04-16",
+          "plot": "Shay rededicates a neighborhood landmark and reconnects with her old skate crew. Tray and Bobby get caught up helping an OWL (old white lady) in distress.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y4Zc9Bj39CHy4PdXQcd7iAmY6t5.jpg",
+          "title": "A Roller Skating Jam Named Saturdays"
+        },
+        {
+          "aired": "2019-04-23",
+          "plot": "Bobby blows an important loan meeting for Tray, who has to reconsider his business relationship with his cousin. Shay drags Amira to a birthday party so she can spend time with her new friend Faith.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3JPIl89jjlstMQt1QYl4yC3rtcW.jpg",
+          "title": "Scenario"
+        },
+        {
+          "aired": "2019-04-30",
+          "plot": "Josh and Tray have different experiences teaching Shahzad to drive, and he learns a hard lesson about privilege.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m60IHV28m5xDWvAd8c6d7ZSgtzp.jpg",
+          "title": "Sound of Da Police"
+        },
+        {
+          "aired": "2019-05-07",
+          "plot": "Tray takes Shahzad to visit his old barbershop. Shay deals with Amira's recent behavior problems.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4gnAPxhOclggAIXZS9rAfWWURcm.jpg",
+          "title": "Keep Their Heads Ringing"
+        },
+        {
+          "aired": "2019-05-14",
+          "plot": "A neighborhood tough named BAMF threatens Josh and levies a \\\"tax\\\" on the food truck. Tray reconnects with another O.G. in an attempt to learn the new code of the street. Bobby has a new girlfriend, but she comes with more baggage than he imagined.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mzKrzGAkjAJl8ldSPFO7dv9173.jpg",
+          "title": "Criminal Minded"
+        },
+        {
+          "aired": "2019-05-21",
+          "plot": "On Mother's Day, Tray tries to make amends with his mom, who threw him out of the house 30 years ago.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gJKDiV2yrt2UfCpMSoXu57s7ZU3.jpg",
+          "title": "Mama Said Knock You Out"
+        },
+        {
+          "aired": "2019-05-28",
+          "plot": "Shay quits her job and turns her energies to Tray's food truck. Bobby gets a new job as an exterminator.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tWlc0TzgkXdTagsid6aoeSpYikV.jpg",
+          "title": "Your Mom's in My Business"
+        },
+        {
+          "aired": "2019-06-04",
+          "plot": "The food truck crew enters a neighborhood competition. Tray tries to save an old apartment building.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iSoAgHBlAL0DgWD1JU0qr1rSV6K.jpg",
+          "title": "Fight The Power"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Lookin at the Front Door",
-        "Started From the Bottom",
-        "Ballin",
-        "They Reminisce Over You",
-        "Family Feud",
-        "Episode 6",
-        "Episode 7",
-        "Come Clean",
-        "Episode 9",
-        "Episode 10"
+        {
+          "aired": "2020-04-07",
+          "plot": "After six months of crashing at his mom’s house, Tray leaves the nest in search of a place of his own, but he must first get some sage advice from a wise OG on how to battle the demons of his past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jaeoFWNM6Nn9iNyjddKZWbVtSXN.jpg",
+          "title": "Lookin at the Front Door"
+        },
+        {
+          "aired": "2020-04-14",
+          "plot": "Tray meets his neighbors as he settles into his new apartment. Meanwhile, Shay has mixed feelings when she learns that Shahzad’s “queen” is a white girl.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bwhdfczu7jPvjYP5OVfXOmYGQny.jpg",
+          "title": "Started From the Bottom"
+        },
+        {
+          "aired": "2020-04-21",
+          "plot": "Tray takes Shahzad to his first basketball game and teaches him how to finesse his way to courtside seats. Josh feels insecure about his relationship with Shahzad and worries that he's not the cool Dad anymore.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qWGnQ1pAMjuCnBpwfb5IWwqPrHG.jpg",
+          "title": "Ballin"
+        },
+        {
+          "aired": "2020-04-28",
+          "plot": "Tray and his family go on a city-wide hunt for an old pair of Air Jordan's after Tray discovers that they are worth big bank.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pOZtDRvaZ5QiqRvtc3gYBiZYC3M.jpg",
+          "title": "They Reminisce Over You"
+        },
+        {
+          "aired": "2020-05-05",
+          "plot": "It's Thanksgiving and Tray is cooking up beef with his long-time rival and cousin, Fred. Meanwhile, Amira and Shahzad get to know the good, bad and ugly sides of their family.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yPui9OVZC6QtH4cCxdj6PR0iOTn.jpg",
+          "title": "Family Feud"
+        },
+        {
+          "aired": "2020-05-12",
+          "plot": "When Shay finally gets a big break in her career, Tray and the family grapple with the huge changes that it will mean for them all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j9K2il0lZjhj8z7OEiNu6zE6HqB.jpg",
+          "title": "The Breaks"
+        },
+        {
+          "aired": "2020-05-19",
+          "plot": "When Tray's relationship advice to Paul fails, Tray and company decide to take him out to the club so he can let loose and find himself.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nSbZKZxxCeXsXzPUvGYHowaD0KS.jpg",
+          "title": "In Da Club"
+        },
+        {
+          "aired": "2020-05-26",
+          "plot": "Tray is convinced that his mother's younger boyfriend Carl is cheating on her and goes out of his way to prove it by catching him in the act.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lJmHrIizOCy7jdVIMoO1UyMMoQU.jpg",
+          "title": "Come Clean"
+        },
+        {
+          "aired": "2020-06-02",
+          "plot": "Tray finds a new love and is faced with the realities of dating with his checkered past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1CFVRGDWnzffvp0ZskQ0WL9B8sU.jpg",
+          "title": "All I Need"
+        },
+        {
+          "aired": "2020-06-09",
+          "plot": "Cousin Bobby is accused of being a snitch after being released from prison early, and Tray faces a formidable bully in his new girlfriend's ex-husband, who is a cop.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bvS0RgdHfO7tuLKdlOP8gabDIP4.jpg",
+          "title": "Warning"
+        }
       ]
     }
   },

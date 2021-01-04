@@ -1,93 +1,732 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Action & Adventure",
+    "Animation"
+  ],
   "id": 33217,
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/192061/clearart/young-justice-4f926113c351e.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/192061/clearlogo/young-justice-4f9bc01c40b89.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/192061/showbackground/young-justice-582169586da3d.jpg",
+        "https://assets.fanart.tv/fanart/tv/192061/showbackground/young-justice-54d26d5cbe148.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/192061/tvbanner/young-justice-518ee3cae8e41.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/192061/tvposter/young-justice-5d2fa20abbe68.jpg",
+        "https://assets.fanart.tv/fanart/tv/192061/tvposter/young-justice-54912f56a00e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/192061/tvposter/young-justice-5491308abec0c.jpg",
+        "https://assets.fanart.tv/fanart/tv/192061/tvposter/young-justice-5561d1ddd2af2.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/192061/tvthumb/young-justice-5aa42d2174c1c.jpg",
+        "https://assets.fanart.tv/fanart/tv/192061/tvthumb/young-justice-4e63f951a8548.jpg",
+        "https://assets.fanart.tv/fanart/tv/192061/tvthumb/young-justice-4e63f9598d34f.jpg",
+        "https://assets.fanart.tv/fanart/tv/192061/tvthumb/young-justice-5180f4230fa85.jpg",
+        "https://assets.fanart.tv/fanart/tv/192061/tvthumb/young-justice-5180f4231ced3.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/3Yjbb4g4yJoXY12zYfV8bUm8C92.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/oL31ADgSgVdgoJPRAdWISQBIO0w.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "Young Justice",
+  "plot": "Teenage superheroes strive to prove themselves as members of the Justice League.",
+  "premiered": "2010-11-26",
+  "status": "Returning Series",
+  "studios": [
+    "Cartoon Network",
+    "DC Universe",
+    "HBO Max"
+  ],
+  "actors": [
+    {
+      "name": "Crispin Freeman",
+      "order": 4,
+      "role": "",
+      "thumb": "/rOnOnBVr0EI1YOawxyQsTDwh8tI.jpg"
+    },
+    {
+      "name": "Bruce Greenwood",
+      "order": 4,
+      "role": "",
+      "thumb": "/ndobQyQRbDG3ThbDzS3nI3NkAV7.jpg"
+    },
+    {
+      "name": "Khary Payton",
+      "order": 4,
+      "role": "",
+      "thumb": "/4WKDDalnICxaIsW9S37koUDIdwr.jpg"
+    },
+    {
+      "name": "Jason Spisak",
+      "order": 12,
+      "role": "Forager / Fred Bugg (voice)",
+      "thumb": "/yxIWLB5Yf2fIB2WyHd6WYB0MbHD.jpg"
+    },
+    {
+      "name": "Stephanie Lemelin",
+      "order": 32,
+      "role": "Artemis Crock (voice)",
+      "thumb": "/of3XWkT2XPgci18PMIQd6Ozzrm.jpg"
+    },
+    {
+      "name": "Danica McKellar",
+      "order": 0,
+      "role": "M'gaan M'orzz / Miss Martian (voice)",
+      "thumb": "/qJBXmtQem78QiYzDdKot6qIzMj2.jpg"
+    },
+    {
+      "name": "Jesse McCartney",
+      "order": 1,
+      "role": "Dick Grayson / Robin / Nightwing (voice)",
+      "thumb": "/95f7jVXUwkHUUfj3AjvTJYx3pei.jpg"
+    },
+    {
+      "name": "Nolan North",
+      "order": 2,
+      "role": "Conner Kent / Superboy (voice)",
+      "thumb": "/gb499KZIoBTZnKCGKE4zwzlcfSe.jpg"
+    },
+    {
+      "name": "Masasa Moyo",
+      "order": 7,
+      "role": "Karen Beecher",
+      "thumb": "/9TvAkxkLGsnREVqzg7JRHtSVzZW.jpg"
+    },
+    {
+      "name": "Kevin Michael Richardson",
+      "order": 8,
+      "role": "J'onn J'onzz",
+      "thumb": "/vgCGZMxz06kfnF97ilZTujyk7Ye.jpg"
+    },
+    {
+      "name": "Zehra Fazal",
+      "order": 500,
+      "role": "Violet Harper / Halo (voice)",
+      "thumb": "/gEL0hqxcckQth8ogIEByxirXa7f.jpg"
+    },
+    {
+      "name": "Lacey Chabert",
+      "order": 26,
+      "role": "Zatanna Zatara (voice)",
+      "thumb": "/s4gEejBUkJPwdSezGlIpFXeidKD.jpg"
+    },
+    {
+      "name": "Denise Boutte",
+      "order": 33,
+      "role": "Raquel Ervin / Rocket (voice)",
+      "thumb": "/salMX5ngNXWOf1VBshBbMnToSF.jpg"
+    },
+    {
+      "name": "Jeff Bennett",
+      "order": 0,
+      "role": "",
+      "thumb": "/p78svoOr99IA2oBOUzAH9cnPOwf.jpg"
+    },
+    {
+      "name": "René Auberjonois",
+      "order": 0,
+      "role": "",
+      "thumb": "/qejqtzg4Ol2qIupgGAINeJoNjul.jpg"
+    },
+    {
+      "name": "Miguel Ferrer",
+      "order": 0,
+      "role": "",
+      "thumb": "/kQBRwJc9vzfUZXwUxTpdev9Gp4M.jpg"
+    },
+    {
+      "name": "Phil LaMarr",
+      "order": 2,
+      "role": "",
+      "thumb": "/l5w0qABfsFBxjfWNnpFiaXnh4Nm.jpg"
+    },
+    {
+      "name": "Alan Tudyk",
+      "order": 4,
+      "role": "",
+      "thumb": "/91LuROVPKcEJvT0FwSOZZj62bZ8.jpg"
+    },
+    {
+      "name": "Peter MacNicol",
+      "order": 0,
+      "role": "",
+      "thumb": "/xo09hN0cqYh1V7z986yFOTdaKhU.jpg"
+    },
+    {
+      "name": "Bill Fagerbakke",
+      "order": 0,
+      "role": "",
+      "thumb": "/sx3LkX82tpdQfGi3ie3cFvrgCYg.jpg"
+    },
+    {
+      "name": "Kelly Hu",
+      "order": 0,
+      "role": "",
+      "thumb": "/2s8l6WvXyoDf0RbLeFGZvEclmds.jpg"
+    },
+    {
+      "name": "Edward Asner",
+      "order": 1,
+      "role": "",
+      "thumb": "/i9Akq9tqNwgcAc63QaSaiTYZtUB.jpg"
+    },
+    {
+      "name": "Vanessa Marshall",
+      "order": 2,
+      "role": "",
+      "thumb": "/yZsWfaiOxaN5MZkWIKPbxz1KKS1.jpg"
+    },
+    {
+      "name": "Cree Summer",
+      "order": 2,
+      "role": "",
+      "thumb": "/yuOIiBu7YYGG79GnRa6RiDErRwp.jpg"
+    },
+    {
+      "name": "Arnold Vosloo",
+      "order": 2,
+      "role": "",
+      "thumb": "/g7IuNOiDslCGInYEYClbyRrma5z.jpg"
+    },
+    {
+      "name": "Yuri Lowenthal",
+      "order": 2,
+      "role": "",
+      "thumb": "/68tBtkEmCUws4BAr2TQ5OIs2hIR.jpg"
+    },
+    {
+      "name": "Keone Young",
+      "order": 2,
+      "role": "",
+      "thumb": "/nDTQe7D7NmbzAryfKQKx2NALmid.jpg"
+    },
+    {
+      "name": "Danny Trejo",
+      "order": 3,
+      "role": "",
+      "thumb": "/gCWJybpDGAuKZ0mG2uTBVfsLuZX.jpg"
+    },
+    {
+      "name": "Mark Rolston",
+      "order": 3,
+      "role": "",
+      "thumb": "/hcrNRIptYMRXgkJ9k76BlQu6DQp.jpg"
+    },
+    {
+      "name": "John de Lancie",
+      "order": 3,
+      "role": "",
+      "thumb": "/e9GsjWaW9fabT22ceLzesJhUgzd.jpg"
+    },
+    {
+      "name": "Oded Fehr",
+      "order": 3,
+      "role": "",
+      "thumb": "/gcYVN3vx8tHedEz2RbVNSKs44Wm.jpg"
+    },
+    {
+      "name": "Nick Chinlund",
+      "order": 4,
+      "role": "",
+      "thumb": "/lRmgWDIXqBTneGbKlJNSFyiis1e.jpg"
+    },
+    {
+      "name": "George Eads",
+      "order": 8,
+      "role": "",
+      "thumb": "/fBvMhnzAJTdqRVXlrOCL9sXJLbo.jpg"
+    },
+    {
+      "name": "Keith Szarabajka",
+      "order": 9,
+      "role": "",
+      "thumb": "/drXhJoVUmm352h4G1QWnvHZgudT.jpg"
+    },
+    {
+      "name": "Tara Strong",
+      "order": 27,
+      "role": "Serling Roquette",
+      "thumb": "/y9S3QzI3L5aARP8GYYO86rREKxU.jpg"
+    },
+    {
+      "name": "Robert Ochoa",
+      "order": 28,
+      "role": "Billy Batson (voice)",
+      "thumb": "/gEZPDG9tCsByVRGxUKa5p16OfaP.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        {
+          "aired": "2020-09-12",
+          "plot": "Conner Kent and Megan Morse bid farewell to their friends as they head off for a new adventure on their own, signaling the end of their time on the Team. What's more, Arsenal joins the Team once again, after an invitation from Artemis Crock.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uXA3XCUNz0oP6w1K9iabUwSeOiq.jpg",
+          "title": "The Prize"
+        }
+      ]
+    },
     "1": {
       "episodes": [
         null,
-        "Independence Day",
-        "Fireworks",
-        "Welcome to Happy Harbor",
-        "Drop-Zone",
-        "Schooled",
-        "Infiltrator",
-        "Denial",
-        "Downtime",
-        "Bereft",
-        "Targets",
-        "Terrors",
-        "Homefront",
-        "Alpha Male",
-        "Revelation",
-        "Humanity",
-        "Failsafe",
-        "Disordered",
-        "Secrets",
-        "Misplaced",
-        "Coldhearted",
-        "Image",
-        "Agendas",
-        "Insecurity",
-        "Performance",
-        "Usual Suspects",
-        "Auld Acquaintance"
+        {
+          "aired": "2010-11-26",
+          "plot": "Robin, Aqualad, and Kid Flash break into Cadmus and find that it is being run by Genomorphs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lMIIv0YPrbCgkQmAUqZNm0HbZw3.jpg",
+          "title": "Independence Day"
+        },
+        {
+          "aired": "2010-11-26",
+          "plot": "The sidekicks find a clone of Superman known as Superboy. They free him from Cadmus' control, while battling Blockbuster.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/l0it1ftVsJHP4N34A865Z0E95fS.jpg",
+          "title": "Fireworks"
+        },
+        {
+          "aired": "2011-01-21",
+          "plot": "After Speedy declines to join the new team, Robin, Aqualad and Kid Flash fear Young Justice is just a big joke…while new member Miss Martian fears there's no room for her to be part of it. So when the four heroes and Superboy come up against Mister Twister, it looks like all their fears have just been realized…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/g33Nuxw0lRjmZHDk1wUgf2lZbcg.jpg",
+          "title": "Welcome to Happy Harbor"
+        },
+        {
+          "aired": "2011-01-28",
+          "plot": "Young Justice goes on its first official mission under Batman, while trying to determine which of them will lead the team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9J040mDC2Lrajpq2MpQyygib3mi.jpg",
+          "title": "Drop-Zone"
+        },
+        {
+          "aired": "2011-02-04",
+          "plot": "Superboy's anger over his non-relationship with Superman is getting out of control. He refuses to train with Black Canary, and when the team faces an opponent that even the Justice League had trouble defeating, the Boy of Steel goes rogue.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p139g0jE50eVNTUHhUT5vfTRbzc.jpg",
+          "title": "Schooled"
+        },
+        {
+          "aired": "2011-02-11",
+          "plot": "Green Arrow's niece, Artemis, joins Young Justice and must save a bright young scientist from the League of Shadows.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ah47UB5pd1hrXZ60Ss1sOCbeJhV.jpg",
+          "title": "Infiltrator"
+        },
+        {
+          "aired": "2011-02-18",
+          "plot": "When the team investigates the disappearance of Kent Nelson (formerly Doctor Fate), the scientific-minded Wally West is forced to confront his disbelief in magic while battling Abra Kadabra and Klarion the Witch Boy, for the ultra-powerful Helmet of Fate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vvnsHCID7u6XoVUmcs7y7VBhG0f.jpg",
+          "title": "Denial"
+        },
+        {
+          "aired": "2011-03-04",
+          "plot": "After a disastrous mission with the team, Aqualad returns to Atlantis to choose between a life on the surface world or one beneath the waves with the Aquagirl of his dreams. But other forces at play may make Aqualad's decision for him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iezyUQB2Jj8dmh9UHtpGhgYS4KZ.jpg",
+          "title": "Downtime"
+        },
+        {
+          "aired": "2011-03-11",
+          "plot": "Young Justice discovers that they have forgotten the last six months of their lives, including each other and a final fateful mission in Bialya. The team turns to Miss Martian to recover their memories, before it is too late for Superboy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6aJv1mMzbS6X8SQVSt87V1sHBfJ.jpg",
+          "title": "Bereft"
+        },
+        {
+          "aired": "2011-09-16",
+          "plot": "Red Arrow is on his own against the world's most dangerous assassins in preventing the League of Shadows from starting a war, until he is forced to make an unlikely alliance with someone even more dangerous. Aqualad fails to convince Red Arrow to ask the team for help.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/swRYWxAQ28AmEfRknVYkBdH6Pxh.jpg",
+          "title": "Targets"
+        },
+        {
+          "aired": "2011-09-23",
+          "plot": "Superboy and Miss Martian go undercover inside Belle Reve Penitentiary.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/c8souJBKq7vuvDTzF8vGvFIwGmR.jpg",
+          "title": "Terrors"
+        },
+        {
+          "aired": "2011-09-30",
+          "plot": "When Mount Justice itself is attacked, can Artemis and Robin (the two teens without super-powers) save the Team (or even themselves) from the unknown invaders?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aT50LbOaDxvIAyYRrSCYxNPjGRO.jpg",
+          "title": "Homefront"
+        },
+        {
+          "aired": "2011-10-07",
+          "plot": "Already exhausted and rattled after a home turf invasion of The Cave, the team learns that Aqualad - their friend and leader - withheld vital information that put them all at risk. When Batman sends the Team and new \"den-mother\" Captain Marvel to India to investigate bizarre reports of armed animals attacking human beings, can Aqualad pull his fractured team together?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aiNljjTojvkVHPxzRmckVghPtYV.jpg",
+          "title": "Alpha Male"
+        },
+        {
+          "aired": "2011-10-14",
+          "plot": "When Plant Creatures attack major cities around the world, the team is eager to join the fight alongside the Justice League. Instead, Batman assigns them a still more dangerous task - taking out the plants' masters: a secret society of super- villains: the Injustice League!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d6pEyx19LYlFzbEKMW4CUbTZg4o.jpg",
+          "title": "Revelation"
+        },
+        {
+          "aired": "2011-10-21",
+          "plot": "The team is on the hunt for Red Tornado, determined to find out once and for all whether the robot was the mole - even if it means kidnapping new friend Zatanna and dragging her along on their quest!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jF81w2GmsVSZVmdsCdOoiJ9W1SZ.jpg",
+          "title": "Humanity"
+        },
+        {
+          "aired": "2011-11-04",
+          "plot": "When the Justice League is defeated during an alien invasion, the Team has to step up and fill their mentors shoes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zaIqwCqpieWkJ50umvjmdzPQtoK.jpg",
+          "title": "Failsafe"
+        },
+        {
+          "aired": "2011-11-11",
+          "plot": "Superboy's \"Sphere\" goes through a surprising change, revealing a connection to the forever people of New Genesis.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nDkfB7efCtKR7UyVXWT7s0D5mgN.jpg",
+          "title": "Disordered"
+        },
+        {
+          "aired": "2011-11-18",
+          "plot": "It's Halloween. Artemis and Zatanna are in Manhattan for a girls' night out. There, they encounter the deadly Harm, who has a secret.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/b5KxiryvthzdcOXGBzlTJBQlKR.jpg",
+          "title": "Secrets"
+        },
+        {
+          "aired": "2012-03-03",
+          "plot": "When every adult on the planet disappears, only the team, Zatanna, and Billy Batson are left to defeat the five most powerful sorcerers on Earth. In the end, Zatanna officialy joins the team and Zatara becomes the new Doctor Fate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d6D0LkYV4gelIlD8Vf5HLrI4xGu.jpg",
+          "title": "Misplaced"
+        },
+        {
+          "aired": "2012-03-10",
+          "plot": "Wally West comes oh-so-close to fulfilling his birthday wish to finally fight alongside the Justice League. Instead, a massively disappointed Kid Flash is taken off the mission and tasked with a simple delivery job. But a few deadly surprises await the birthday boy along the way.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A0xbCwhTVgqsWCW4YYV5uCUds8s.jpg",
+          "title": "Coldhearted"
+        },
+        {
+          "aired": "2012-03-17",
+          "plot": "A covert operation against Queen Bee in Qurac forces Miss Martian to finally face her greatest fears and her biggest secrets. But will she reveal those secrets to her friends—or allow what she's hiding to take down the entire team?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mU0RA7SydfrWHpEQCSDWhkRPoo.jpg",
+          "title": "Image"
+        },
+        {
+          "aired": "2012-03-24",
+          "plot": "Superboy returns to Project Cadmus, where he learns the top-secret genetics lab may have created another Super-clone.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dF6XNOLwJboSD7eOuCVjUGrvL8A.jpg",
+          "title": "Agendas"
+        },
+        {
+          "aired": "2012-03-31",
+          "plot": "Red Arrow's return undercuts Artemis' confidence, while the team's mission to track down Sportsmaster threatens to expose her darkest secrets.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uvYlNmY2HW1ZoXxJeMTvJe3PsTP.jpg",
+          "title": "Insecurity"
+        },
+        {
+          "aired": "2012-04-07",
+          "plot": "The Team goes undercover at the Haly International Traveling Circus to locate a thief stealing weapons technology across Europe. But a thief isn’t all they find…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/g3L7f8vZAkl22zsHLocmoQ0ySWP.jpg",
+          "title": "Performance"
+        },
+        {
+          "aired": "2012-04-14",
+          "plot": "The Team gets a new member and a new mission – a mission that may finally expose all the Team’s secrets... and all their lies!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/68XYsY3R9TmX5akxq1IllBVgf66.jpg",
+          "title": "Usual Suspects"
+        },
+        {
+          "aired": "2012-04-21",
+          "plot": "The Team finally learns the identity of the traitor in their midst, forcing a battle against an enemy more dangerous than any they’ve ever faced before!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7BGv3xyxxk53F4sH2PVmOuyLjdf.jpg",
+          "title": "Auld Acquaintance"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Happy New Year!",
-        "Earthlings",
-        "Alienated",
-        "Salvage",
-        "Beneath",
-        "Bloodlines",
-        "Depths",
-        "Satisfaction",
-        "Darkest",
-        "Before the Dawn",
-        "Cornered",
-        "True Colors",
-        "The Fix",
-        "Runaways",
-        "War",
-        "Complications",
-        "The Hunt",
-        "Intervention",
-        "Summit",
-        "Endgame"
+        {
+          "aired": "2012-04-28",
+          "plot": "The Team takes on the intergalactic bounty hunter Lobo…as a precursor to an alien invasion!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vQ6phdn6Z7H8aKJiEHQVlOgJjxM.jpg",
+          "title": "Happy New Year!"
+        },
+        {
+          "aired": "2012-05-05",
+          "plot": "Miss Martian, Superboy, Beast Boy and Adam Strange arrive on the distant planet Rann to stop the alien infiltration of Earth at its source.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hk3HtXE0DlC2Q0ncT4FJzkkjXUq.jpg",
+          "title": "Earthlings"
+        },
+        {
+          "aired": "2012-05-12",
+          "plot": "The Team and the Justice League continue to hunt the Kroloteans that have invaded Earth—but the aliens have help from an extremely unexpected source.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q3HDieQUrsu3YqDVSB7WKgxQjxj.jpg",
+          "title": "Alienated"
+        },
+        {
+          "aired": "2012-05-19",
+          "plot": "While Superboy and Blue Beetle battle Intergang, Nightwing and company try to salvage the soul of a former comrade fallen from grace.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/acXCzmE26QmdmgOmtFKu1zvzIPL.jpg",
+          "title": "Salvage"
+        },
+        {
+          "aired": "2012-05-26",
+          "plot": "Jaime Reyes searches for a missing friend, while Miss Martian, Batgirl, Bumblebee and Wonder Girl return to Bialya to discover what lies beneath.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lRn5twnNu8dxrqAHwDClNlUZAVm.jpg",
+          "title": "Beneath"
+        },
+        {
+          "aired": "2012-06-02",
+          "plot": "An intruder mysteriously appears inside Mount Justice, claiming to be a tourist from the future. But who is he really? And what is his true agenda?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eqFHrcXDdMKMrRda6wkoF9KEe39.jpg",
+          "title": "Bloodlines"
+        },
+        {
+          "aired": "2012-06-09",
+          "plot": "Artemis rejoins the team to defend a critical satellite launch. But will her first mission back also be her last?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nXIktKdAoA94mRBFakTUQL6LSpb.jpg",
+          "title": "Depths"
+        },
+        {
+          "aired": "2012-09-29",
+          "plot": "Roy Harper seeks vengeance against the man who ruined his life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oy5GMVnQRGde00rJ4nIZJZD23jP.jpg",
+          "title": "Satisfaction"
+        },
+        {
+          "aired": "2012-10-06",
+          "plot": "Black Manta sends Kaldur on a mission that will prove where his loyalties truly lie.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w1QHyQqqKXLnYECbQaQbPXp6jgJ.jpg",
+          "title": "Darkest"
+        },
+        {
+          "aired": "2013-01-05",
+          "plot": "The Team uncovers some shocking secrets while on a covert rescue mission.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ybjSbpjTDXGQWWgBvOhpvItOWxG.jpg",
+          "title": "Before the Dawn"
+        },
+        {
+          "aired": "2013-01-12",
+          "plot": "A brutal alien warrior traps the Team inside the Hall of Justice.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bmhfECV6k9dhzxsPuA1rQgrs231.jpg",
+          "title": "Cornered"
+        },
+        {
+          "aired": "2013-01-19",
+          "plot": "Robin leads a squad to investigate Lexcorp's troubling allegiances.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6d9w02OgkY0xC87ZtyVVvxkCRAB.jpg",
+          "title": "True Colors"
+        },
+        {
+          "aired": "2013-01-26",
+          "plot": "In revenge for her telepathic attack on his son, Black Manta goes after Miss Martian.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1AN1zXMCmu51UTKE9CYNM31vIHK.jpg",
+          "title": "The Fix"
+        },
+        {
+          "aired": "2013-02-02",
+          "plot": "Nightwing tasks Blue Beetle with chasing down a group of potentially dangerous super-powered teenage runaways. But Blue Beetle is not the only one hunting them...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aflspgrCmmLJfxOElyxAp89zjy9.jpg",
+          "title": "Runaways"
+        },
+        {
+          "aired": "2013-02-09",
+          "plot": "A conqueror from another world becomes a wild card in an intergalactic game of supremacy -- placing planet Earth square in the jackpot.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yOlwVx9DrPxuqA9pSjm3uOx91WK.jpg",
+          "title": "War"
+        },
+        {
+          "aired": "2013-02-16",
+          "plot": "Black Manta gives Miss Martian twenty-four hours to live, but that may be more time than Aqualad has with Sportsmaster and Cheshire on the hunt for his head!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lAUAqJrQ4SshjEeRMZrsN9c1Izq.jpg",
+          "title": "Complications"
+        },
+        {
+          "aired": "2013-02-23",
+          "plot": "A band of misfits is put to the test when Lex Luthor sends them behind enemy lines... to rescue the team!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cLEiBHzhasXFwe7dW9BDiMqyND1.jpg",
+          "title": "The Hunt"
+        },
+        {
+          "aired": "2013-03-02",
+          "plot": "The team embarks on a desperate endeavor to free Blue Beetle!!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5L8QqSXUFqRN8Jta9Wk98CuEIRE.jpg",
+          "title": "Intervention"
+        },
+        {
+          "aired": "2013-03-09",
+          "plot": "The Light calls a summit to decide the final fate of Aqualad, the team ... and the entire planet Earth!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rPWoIH8n3XTTktQe5HxNNLXeTDt.jpg",
+          "title": "Summit"
+        },
+        {
+          "aired": "2013-03-16",
+          "plot": "On the verge of finally ending the alien invasion, the team discovers the price of victory may be the entire planet Earth!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/myQxeSgcma4rrfxK4WVg95VCZuI.jpg",
+          "title": "Endgame"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Princes All",
-        "Royal We",
-        "Eminent Threat",
-        "Private Security",
-        "Away Mission",
-        "Rescue Op",
-        "Evolution",
-        "Triptych",
-        "Home Fires",
-        "Exceptional Human Beings",
-        "Another Freak",
-        "Nightmare Monkeys",
-        "True Heroes",
-        "Influence",
-        "Leverage",
-        "Illusion Of Control",
-        "First Impression",
-        "Early Warning",
-        "Elder Wisdom",
-        "Quiet Conversations",
-        "Unknown Factors",
-        "Antisocial Pathologies",
-        "Terminus",
-        "Into the Breach",
-        "Overwhelmed",
-        "Nevermore"
+        {
+          "aired": "2019-01-04",
+          "plot": "After the Justice League faces a horrifying incident on the planet Rann, Dick Grayson gathers an elite squad of heroes to shut down a meta-human trafficking syndicate in Markovia.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gorAhQMHKcJnJMfttl58cbsRjDx.jpg",
+          "title": "Princes All"
+        },
+        {
+          "aired": "2019-01-04",
+          "plot": "Dick Grayson, Artemis Crock, Conner Kent and Jefferson Pierce go undercover in Markovia to stop the Bedlam Syndicate's meta-human trafficking cartel – before it claims another victim",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/71uL7zfxfwnFOf158Yhl71QGgNC.jpg",
+          "title": "Royal We"
+        },
+        {
+          "aired": "2019-01-04",
+          "plot": "Conner Kent and Prince Biron Markov are in the clutches of Count Vertigo, leaving Dick Grayson, Artemis Crock and an emotionally damaged Jefferson Pierce to save them and put an end to the Bedlam Syndicate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eUGNzQcrLZb4wjF45ZLtroVc9Qw.jpg",
+          "title": "Eminent Threat"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "After the Justice League faces a horrifying incident on the planet Rann, Dick Grayson gathers an elite squad of heroes to shut down a meta-human trafficking syndicate in Markovia.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gDpwUkQzMlwvkxgn0q808744VtM.jpg",
+          "title": "Private Security"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Dick Grayson, Artemis Crock, Conner Kent and Jefferson Pierce go undercover in Markovia to stop the Bedlam Syndicate's meta-human trafficking cartel – before it claims another victim",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zXaQbCgPCCnl3HdrwDKYadyuQjm.jpg",
+          "title": "Away Mission"
+        },
+        {
+          "aired": "2019-01-11",
+          "plot": "Brion Markov is determined to rescue his missing sister – even if it means throwing down against the entire League of Shadows.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lbHeY8BQa1SxBtKNtruFDwLQyiz.jpg",
+          "title": "Rescue Op"
+        },
+        {
+          "aired": "2019-01-18",
+          "plot": "Aliens again threaten the Earth, but with the Justice League split and scattered, only the planet’s first and greatest hero can save the day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aqlwe7dxBef29JRj8dUpKcj0yI5.jpg",
+          "title": "Evolution"
+        },
+        {
+          "aired": "2019-01-18",
+          "plot": "As Meta-Human trafficking spreads across the United States, three very different teams of heroes hope to put a stop to it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1yDPjSG0m45XdGgWOIQEYal43fQ.jpg",
+          "title": "Triptych"
+        },
+        {
+          "aired": "2019-01-18",
+          "plot": "The Light has hired an intergalactic assassin, but who is the intended target?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8SY4NBY2bZGMjL7hukVEcyOaoKW.jpg",
+          "title": "Home Fires"
+        },
+        {
+          "aired": "2019-01-25",
+          "plot": "The search for Tara Markov continues – but who’s doing the searching and where?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xhYqjMKoCpB19BH1uc9MVwQP50C.jpg",
+          "title": "Exceptional Human Beings"
+        },
+        {
+          "aired": "2019-01-25",
+          "plot": "It’s the first day of school for Violet Harper and Forager (JASON SPISAK). And the last day for a different freak…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wgdyzYNtkUool0KRjtl6evheG5H.jpg",
+          "title": "Another Freak"
+        },
+        {
+          "aired": "2019-01-25",
+          "plot": "Garfield Logan tests out a pair of Goode VR goggles. Then the goggles test him!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4lTP0g3VFzKf5N2n4C6C3keSnEy.jpg",
+          "title": "Nightmare Monkeys"
+        },
+        {
+          "aired": "2019-01-25",
+          "plot": "Grayson’s operatives attempt to stop an auction of enslaved meta-teens.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xzHBApi46MtFJv7QTWAl2z8zZcP.jpg",
+          "title": "True Heroes"
+        },
+        {
+          "aired": "2019-07-02",
+          "plot": "The team reassembles as the Justice League faces a new threat in space.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/97e0y5aoRSW7zXePSFJPgZ0AtMe.jpg",
+          "title": "Influence"
+        },
+        {
+          "aired": "2019-07-02",
+          "plot": "A new Gamma Squad team is sent out on its first mission to investigate rumors of meta-trafficking in Russia.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zHgKgwPOjyW5ooHDQJ2qtaDwphc.jpg",
+          "title": "Leverage"
+        },
+        {
+          "aired": "2019-07-02",
+          "plot": "Across the nation, the team members give thanks for what they have -- and for what they very well might lose.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ycSMjJbkvpZ6nYsYG3JebktbxEi.jpg",
+          "title": "Illusion Of Control"
+        },
+        {
+          "aired": "2019-07-09",
+          "plot": "The Reach are back, terrorizing small town America… unless the Outsiders can stop them!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vKsye9kI3f9ulrmBtAkFW7wjbTQ.jpg",
+          "title": "First Impression"
+        },
+        {
+          "aired": "2019-07-16",
+          "plot": "Project Rutabaga threatens to create an international crisis for the Outsiders.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zqQwrbHCho3BBJIHqFYI7oWaJi6.jpg",
+          "title": "Early Warning"
+        },
+        {
+          "aired": "2019-07-23",
+          "plot": "The Outsiders face Lex Luthor's machinations, but Lex is not the only one trying to manipulate them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4I1IbvjF4xPsvAfGh0tv7lCpTFc.jpg",
+          "title": "Elder Wisdom"
+        },
+        {
+          "aired": "2019-07-30",
+          "plot": "Victor Stone reaches a crisis point -- but he's not the only one.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pVCPvVI81gwXi4oMZ3VneUx7vYW.jpg",
+          "title": "Quiet Conversations"
+        },
+        {
+          "aired": "2019-08-06",
+          "plot": "Dick Grayson and Jefferson go after Gretchen Goode -- and they encounter the ominous Overlord.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ppA6C3j2jRugoEijIcgx6Eie3Sq.jpg",
+          "title": "Unknown Factors"
+        },
+        {
+          "aired": "2019-08-13",
+          "plot": "The betrayals come fast and furious -- and with them is a reckoning.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xI3iaHYBj650m0kBa04Xor1Katl.jpg",
+          "title": "Antisocial Pathologies"
+        },
+        {
+          "aired": "2019-08-20",
+          "plot": "The hunt for Halo is on.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/37R088cd063vp02WX2n3HEhRANr.jpg",
+          "title": "Terminus"
+        },
+        {
+          "aired": "2019-08-27",
+          "plot": "The Outsiders make a final attempt to save Halo -- and the galaxy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mNgrJn0duWaUdQff7nXtXjfING9.jpg",
+          "title": "Into the Breach"
+        },
+        {
+          "aired": "2019-08-27",
+          "plot": "Artemis and Conner journey back to their pasts during the calm before the storm.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/c2OKN7cNHzsu6MXkI0LZzcEOjxf.jpg",
+          "title": "Overwhelmed"
+        },
+        {
+          "aired": "2019-08-27",
+          "plot": "Things come full circle as the team and the Outsiders return to Markovia for a final confrontation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9DCwaniE7PVyYRsJcOEFcSNhknY.jpg",
+          "title": "Nevermore"
+        }
       ]
     }
   },

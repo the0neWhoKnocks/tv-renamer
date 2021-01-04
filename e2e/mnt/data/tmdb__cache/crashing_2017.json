@@ -1,45 +1,250 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Comedy"
+  ],
   "id": 68898,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/319153/tvbanner/crashing-2017-58e88dce54f8f.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/319153/tvposter/crashing-2017-5b004dc92a36e.jpg",
+        "https://assets.fanart.tv/fanart/tv/319153/tvposter/crashing-2017-587d113184271.jpg",
+        "https://assets.fanart.tv/fanart/tv/319153/tvposter/crashing-2017-5c4e2a51d99b9.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/319153/tvthumb/crashing-2017-58bdeb1b14506.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/jhjSMDabhZCJ4pzzMbhDDmB7R9D.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/iImLsPrc45QjbyFxqEY3Yk21JFr.jpg"
+    }
+  },
+  "mpaa": "TV-MA",
   "name": "Crashing (2017)",
+  "plot": "A standup comic discovers that his wife is unfaithful, leading him to reevaluate his life amidst the New York City comedy scene.",
+  "premiered": "2017-02-19",
+  "status": "Returning Series",
+  "studios": [
+    "HBO"
+  ],
+  "actors": [
+    {
+      "name": "Pete Holmes",
+      "order": 0,
+      "role": "Pete",
+      "thumb": "/3iwuKKYe9qGmXXQ63qHnrnWMTij.jpg"
+    },
+    {
+      "name": "Artie Lange",
+      "order": 1,
+      "role": "Artie Lange",
+      "thumb": "/3bbfXRP7TANPJrsj0oLosw9vq0v.jpg"
+    },
+    {
+      "name": "Lauren Lapkus",
+      "order": 2,
+      "role": "Jess",
+      "thumb": "/2Y2r6l50cGz9HwfcVLnQDh2W9RQ.jpg"
+    },
+    {
+      "name": "George Basil",
+      "order": 500,
+      "role": "Leif",
+      "thumb": "/8Bn5ZZp0cAnyjRWGPGiV833y7LZ.jpg"
+    },
+    {
+      "name": "T. J. Miller",
+      "order": 500,
+      "role": "T.J. Miller",
+      "thumb": "/rRrVvBxOkyYM5XdLXimShHR1Itn.jpg"
+    },
+    {
+      "name": "Zach Cherry",
+      "order": 2,
+      "role": "Chicken Wing Man",
+      "thumb": "/tBT9Fqb3jUnZ6vcM8LjfoGoB4XY.jpg"
+    },
+    {
+      "name": "Julia Shiplett",
+      "order": 2,
+      "role": "Julia",
+      "thumb": null
+    },
+    {
+      "name": "Gary Gulman",
+      "order": 3,
+      "role": "Gary",
+      "thumb": "/luX8IjBnUrfMAvpkkaGibX7feqG.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
         null,
-        "Artie Lange",
-        "The Road",
-        "Yard Sale",
-        "Barking",
-        "Parents",
-        "Warm-Up",
-        "Julie",
-        "The Baptism"
+        {
+          "aired": "2017-02-19",
+          "plot": "Aspiring comedian Pete finds himself without a home after he catches his wife, Jessica, in a compromising position. As Pete attempts to find solace at a New York comedy club, he befriends cynical comedy legend Artie Lange, who reluctantly offers him some pizza, some advice and a couch.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ayeNVVk3hORQit5rqdxKcniNrXO.jpg",
+          "title": "Artie Lange"
+        },
+        {
+          "aired": "2017-02-26",
+          "plot": "Pete wallows in his new reality, but Artie Lange snaps him out of it with an offer: In exchange for a ride to Albany, Pete can be Artie’s opening act. Pete meets co-headliner T.J. Miller and attempts to save Artie from breaking his sobriety by getting between him and the temptations of an ardent fan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9tHmR1fKoLBs8EVGicYpux8tVwI.jpg",
+          "title": "The Road"
+        },
+        {
+          "aired": "2017-03-05",
+          "plot": "While staying at T.J. Miller’s place, Pete has the unsettling experience of witnessing a comic who can’t “turn it off.” Hearing from his wife, Jessica, Pete and T.J. travel upstate to her yard sale, where Pete unexpectedly teams up with Jess’ new boyfriend, Leif, to get back a prized possession. After Jess voices her true feelings to Pete, the sale comes to a dramatic end.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dWnFqh7RpooTpxWMjGDfXz05YCq.jpg",
+          "title": "Yard Sale"
+        },
+        {
+          "aired": "2017-03-12",
+          "plot": "In an effort to get stage time, Pete spends the night handing out fliers for a comedy club, or “barking,” as he later learns it’s known in the comedy world. On the streets of New York, he finds himself encountering disinterested locals, befriending up-and-coming comics, engaging in a turf war with a rival barker and getting a pep talk from a veteran comedian.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5HONz64CrhKqbJ7QVk8L8hrOmGk.jpg",
+          "title": "Barking"
+        },
+        {
+          "aired": "2017-03-19",
+          "plot": "When Pete’s parents decide to come to New York for his mother’s birthday, Pete begs Jess to come along and keep up the charade of their marriage, but an incredibly tense dinner reveals harsh truths about their relationships, as Jess struggles to keep quiet. Pete faces a turning point.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oRrejR1ygwfjymC3THGHUFq1TCp.jpg",
+          "title": "Parents"
+        },
+        {
+          "aired": "2017-03-26",
+          "plot": "Homeless once more and facing professional disappointment, Pete turns to Artie Lange, who invites him to be a guest on his podcast. Pete meets Sarah Silverman, who takes pity on him and invites him to stay with her and her collection of stray comedians. When Sarah suggests that he try to find work as an audience “warm-up” comedian, Pete is presented with a job opportunity, where he’s tasked with saving the day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iOpFkTydRxTyyZcFsWBD1ZFsE0T.jpg",
+          "title": "Warm-Up"
+        },
+        {
+          "aired": "2017-04-02",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qKFtBpdp39Eoi14Qlb1bIIQhIlO.jpg",
+          "title": "Julie"
+        },
+        {
+          "aired": "2017-04-09",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p8m8v7MfAjesVOAWs89G2BfvuNt.jpg",
+          "title": "The Baptism"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "The Atheist",
-        "Pete and Leif",
-        "Bill Burr",
-        "Porter Got HBO",
-        "Too Good",
-        "Artie",
-        "Naca",
-        "Roast Battle"
+        {
+          "aired": "2018-01-14",
+          "plot": "Pete has a chance encounter with famed magician Penn Jillette, who shakes his faith and inspires a questioning Pete to try living with abandon for one night.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fM6bzb83wZ7O5V6Gu8UvB5fyLOZ.jpg",
+          "title": "The Atheist"
+        },
+        {
+          "aired": "2018-01-21",
+          "plot": "Pete decides to spend the day with Leif, who encourages him to be open to the universe. Their carefree attitude is challenged when the two find themselves at odds and in trouble with the law.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qRyrh5yjoNK6S94VfYNH8qWLRhu.jpg",
+          "title": "Pete and Leif"
+        },
+        {
+          "aired": "2018-01-28",
+          "plot": "When Pete is abandoned by Artie, he is rescued by comedian Bill Burr, who takes pity on him and offers his guest room. As they become unlikely friends, Bill encourages Pete to toughen up and embrace his masculine side.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jNpwb6kEUdLzwVhaRfgfvGv0AF.jpg",
+          "title": "Bill Burr"
+        },
+        {
+          "aired": "2018-02-04",
+          "plot": "Pete tries to be supportive when a fellow comic at The Boston gets his big break. Later, he reconnects with Jess, who encourages him to find a healthy way to express himself.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nOh6nvXa3ojc2vLfFnXI1khVECZ.jpg",
+          "title": "Porter Got HBO"
+        },
+        {
+          "aired": "2018-02-11",
+          "plot": "Pete reunites with Ali, who takes him on a tour of New York’s alternative comedy scene, where they encounter a wide array of comedians and venues over the course of one night.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9BQnxNRmO9DnToEotASni5HuYUB.jpg",
+          "title": "Too Good"
+        },
+        {
+          "aired": "2018-02-18",
+          "plot": "Pete’s decision to organize a secret benefit for an ailing comedy vet finds him scrambling to put on a good show and facing hard truths about Artie.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mWl47oRJTztR9BVQXyv2RbYc1XG.jpg",
+          "title": "Artie"
+        },
+        {
+          "aired": "2018-02-25",
+          "plot": "On a trip to a comedy conference to book college gigs, Pete and Ali clash over the best strategy to appeal to the college crowd.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6Z6WbcpjuRo0BnD1FQ5bvxZ2PgE.jpg",
+          "title": "Naca"
+        },
+        {
+          "aired": "2018-03-04",
+          "plot": "In an attempt to show Ali that he has a backbone, Pete enters a comedy-roast battle, but finds that being mean is harder than he thought. The fierce competition brings uncomfortable truths to the surface, forcing Pete to examine his priorities in life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mcpnOBDLWwJ0IiM6YFzTr30jTu0.jpg",
+          "title": "Roast Battle"
+        }
       ]
     },
     "3": {
       "episodes": [
         null,
-        "Jaboukie",
-        "The Temple Gig",
-        "The Secret",
-        "MC, Middle, Headliner",
-        "Mom and Kat",
-        "The Viewing Party",
-        "The Christian Tour",
-        "Mulaney"
+        {
+          "aired": "2019-01-20",
+          "plot": "As his successful two-month college comedy tour comes to an end, Pete, donning a new look and confidence to match, takes a college-age aspiring comedian, Jaboukie, under his wing. But Pete's return to New York finds him having an awkward reunion and a big audition at the Comedy Cellar that could change everything.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5aLzMxMkvFdEu7ZO7IFWvrNUXPw.jpg",
+          "title": "Jaboukie"
+        },
+        {
+          "aired": "2019-01-27",
+          "plot": "Feeling like his time away from New York has taken him out of the scene, Pete accepts an offer to perform at a Jewish show, where Elon Gold and Modi question his impulsive behavior with a woman he met earlier that day.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xm6lWYK7Fyr2KZDl9SMbLxNYk16.jpg",
+          "title": "The Temple Gig"
+        },
+        {
+          "aired": "2019-02-03",
+          "plot": "Pete falls headfirst into a relationship with a new girlfriend, Kat, who encourages him to be more aggressive in his career. On the night of their three-week anniversary, things amp up after a visit to a sex shop and a comedy show that morphs into a night all about Pete.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/s5pkUwsQEimR09hh53i1wymVTsn.jpg",
+          "title": "The Secret"
+        },
+        {
+          "aired": "2019-02-10",
+          "plot": "Pete travels to New Jersey with Jason to do a weekend of shows at a big corporate comedy club and is surprised to find Ali, his ex, staying with them at the comedy condo. Jason’s misogynistic act and point of view cause Pete to question his path in comedy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5n8HtPDmDAjDhirgxcebghF7aOK.jpg",
+          "title": "MC, Middle, Headliner"
+        },
+        {
+          "aired": "2019-02-17",
+          "plot": "During a tour stop, Pete pays a visit to his parents and introduces them to Kat, who notices the uncomfortably close relationship he has with his overbearing mom. As he tries to keep the peace, Pete grows increasingly trapped between the two most important women in his life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xR0jUYY4IUsdhYojCaJiUMCA9ug.jpg",
+          "title": "Mom and Kat"
+        },
+        {
+          "aired": "2019-02-24",
+          "plot": "Pete and Kat attend a viewing party for Ali’s late-night spot on Seth Meyers’ show. Tensions mount as Ali is nervous about how her set went and Kat becomes jealous of Pete’s friendship with his ex.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kZGBRIZbeqZd8HAZsoP5Rn0tqQc.jpg",
+          "title": "The Viewing Party"
+        },
+        {
+          "aired": "2019-03-03",
+          "plot": "While enjoying the perks of being on a Christian comedy tour, Pete feels busted when he runs into NY Cellar comic Jessica Kirson in Charleston. After ghosting Kat while on the road, Pete finally sits down to talk about their relationship.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xQKzeijNtNaOqmFnFw7At7CyaLv.jpg",
+          "title": "The Christian Tour"
+        },
+        {
+          "aired": "2019-03-10",
+          "plot": "Pete jumps at the opportunity of a lifetime to open for John Mulaney at New York’s Town Hall, but the gig leaves him in an awkward situation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wSqlRdYofwqDFqBM1bTtEphlZbj.jpg",
+          "title": "Mulaney"
+        }
       ]
     }
   },

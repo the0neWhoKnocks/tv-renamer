@@ -1,60 +1,608 @@
 {
-  "dvdSeasons": {},
+  "schema": 3,
+  "genres": [
+    "Action & Adventure",
+    "Animation",
+    "Comedy"
+  ],
   "id": 67075,
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5f63e7ba73bb8.jpg",
+        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5b91c006a2fb5.jpg",
+        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5b91c373f224b.jpg",
+        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5b91c37e155f5.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/307375/tvbanner/mob-psycho-100-5e77a74acbfaa.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/307375/tvposter/mob-psycho-100-5f7734df2cd8d.jpg",
+        "https://assets.fanart.tv/fanart/tv/307375/tvposter/mob-psycho-100-57ad7d876add6.jpg"
+      ],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/kP5duNJEbTfXpBs6CITsaZ88pQi.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/5Wf9Y6gucbu1LMe1FyqD8TQjaNM.jpg"
+    }
+  },
+  "mpaa": "TV-14",
   "name": "Mob Psycho 100",
+  "plot": "Shigeo Kageyama, a.k.a. \"Mob,\" is a boy who has trouble expressing himself, but who happens to be a powerful esper. Mob is determined to live a normal life and keeps his ESP suppressed, but when his emotions surge to a level of 100%, something terrible happens to him! As he's surrounded by false espers, evil spirits, and mysterious organizations, what will Mob think? What choices will he make?",
+  "premiered": "2016-07-12",
+  "status": "Ended",
+  "studios": [
+    "Tokyo MX"
+  ],
+  "actors": [
+    {
+      "name": "Setsuo Itō",
+      "order": 59,
+      "role": "Shigeo \"Mob\" Kageyama (voice)",
+      "thumb": "/iHx4Berd8yap7Hh7dh8OXJong0x.jpg"
+    },
+    {
+      "name": "Takahiro Sakurai",
+      "order": 60,
+      "role": "Arataka Reigen (voice)",
+      "thumb": "/cXVu8xUA3CFHB0RJLyTcrUP38j3.jpg"
+    },
+    {
+      "name": "Miyu Irino",
+      "order": 62,
+      "role": "Ritsu Kageyama (voice)",
+      "thumb": "/dcZ4IJX8CBcJzxy8hhKFXv59LDE.jpg"
+    },
+    {
+      "name": "Akio Otsuka",
+      "order": 63,
+      "role": "Ekubo (voice)",
+      "thumb": "/fBgebh93VAJC9lIVdB8JmFtdixL.jpg"
+    },
+    {
+      "name": "Yoshitsugu Matsuoka",
+      "order": 37,
+      "role": "Teruki \"Teru\" Hanazawa (voice)",
+      "thumb": "/imT0u1zSM0RbMxBBbQ6kGDRNoCV.jpg"
+    },
+    {
+      "name": "Yoshimasa Hosoya",
+      "order": 33,
+      "role": "Tenga Onigawara (voice)",
+      "thumb": "/r90gExomlgr7IEt3vZ1Y0xYkXHT.jpg"
+    },
+    {
+      "name": "Ryuunosuke Watanuki",
+      "order": 33,
+      "role": "Ryouhei Shimura (voice)",
+      "thumb": "/iViXUrsy5tJXPnBG5XWLrPk9C7X.jpg"
+    },
+    {
+      "name": "Toshihiko Seki",
+      "order": 18,
+      "role": "Musashi Gouda (voice)",
+      "thumb": "/esu8zw5fb3f7IAyQ2CDVfypbB2U.jpg"
+    },
+    {
+      "name": "Seiichirou Yamashita",
+      "order": 25,
+      "role": "Bandai (voice)",
+      "thumb": "/oSYMF6kCPArwNf64bqf9fep3h8w.jpg"
+    },
+    {
+      "name": "Kayou Nakajima",
+      "order": 4,
+      "role": "Mrs. Kageyama (voice)",
+      "thumb": "/an8eaQ9Pk3tSoCGbPwZNSve8Pm4.jpg"
+    },
+    {
+      "name": "Kōhei Amasaki",
+      "order": 34,
+      "role": "Takeshi Hoshino (voice)",
+      "thumb": "/tnN5jLiLjcDa7qn88uLb1iAfivL.jpg"
+    },
+    {
+      "name": "Atsumi Tanezaki",
+      "order": 63,
+      "role": "Tome Kurata (voice)",
+      "thumb": "/iFMNs0tg9hBobmmUFtgG1PqWKv9.jpg"
+    },
+    {
+      "name": "Yuusuke Kuwahata",
+      "order": 33,
+      "role": "Gou Asahi (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Daiki Hamano",
+      "order": 27,
+      "role": "Saruta (voice)",
+      "thumb": "/vUC43dPfQ2oFnc8IE9qwPTEVGQG.jpg"
+    },
+    {
+      "name": "Shinya Fukumatsu",
+      "order": 32,
+      "role": "Kenji Mitsuura (voice)",
+      "thumb": "/baKHup5ce1TANnHjThQEY9Gnso3.jpg"
+    },
+    {
+      "name": "Sanae Fuku",
+      "order": 35,
+      "role": "Rei Kurosaki (voice)",
+      "thumb": "/a5u98GGI5dnCtIQMhCy6K1vk3fy.jpg"
+    },
+    {
+      "name": "Hiroyuki Kagura",
+      "order": 54,
+      "role": "Kaito Shiratori (voice)",
+      "thumb": "/vrq2jmGdnDtxrTXv13LXQr80ESp.jpg"
+    },
+    {
+      "name": "Rumi Ookubo",
+      "order": 59,
+      "role": "Ishiguro (voice)",
+      "thumb": "/2BaPpdslKKXEwt9DvHvpuyXZKvt.jpg"
+    },
+    {
+      "name": "Ayumi Fujimura",
+      "order": 60,
+      "role": "Ichi Mezato (voice)",
+      "thumb": "/5dRWFu7hfO1rUoZh0hF6rzfEmZc.jpg"
+    },
+    {
+      "name": "Yoshinori Mutō",
+      "order": 3,
+      "role": "Mr. Kageyama (voice)",
+      "thumb": "/iVPjInY6ZrHc9dUXQuCgqFeexh4.jpg"
+    },
+    {
+      "name": "Uki Satake",
+      "order": 5,
+      "role": "Tsubomi (voice)",
+      "thumb": "/ucrgObdY8DCKoovjuYkrldbYErm.jpg"
+    },
+    {
+      "name": "Tetsu Kimishima",
+      "order": 24,
+      "role": "Yamazaki (voice)",
+      "thumb": "/9I5h6rkzCfiLZAx930n18pgZkpp.jpg"
+    },
+    {
+      "name": "Koji Yusa",
+      "order": 31,
+      "role": "Shinji Kamuro (voice)",
+      "thumb": "/vBo8dHvZvbG4kax0LcaWvrXUZuX.jpg"
+    },
+    {
+      "name": "Shin-ichiro Miki",
+      "order": 43,
+      "role": "Koyama (voice)",
+      "thumb": "/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg"
+    },
+    {
+      "name": "Satoshi Tsuruoka",
+      "order": 47,
+      "role": "Muraki (voice)",
+      "thumb": "/g7L5dhltNbCDclyw7jgwOmz6pMS.jpg"
+    },
+    {
+      "name": "Sachi Kokuryū",
+      "order": 58,
+      "role": "Shou Suzuki (voice)",
+      "thumb": "/9rkWIdGYP6pbrzZaKkT3LQMXi77.jpg"
+    },
+    {
+      "name": "Noriaki Sugiyama",
+      "order": 64,
+      "role": "Ryō Shimuzaki (voice)",
+      "thumb": "/wurJc7y8bFhjtYDyEH46GOxJn9Z.jpg"
+    },
+    {
+      "name": "Shunsuke Takeuchi",
+      "order": 16,
+      "role": "Hiroshi Kumakawa (voice)",
+      "thumb": "/yPepMSUOzmyguvQ0GT4LTSX8IIq.jpg"
+    },
+    {
+      "name": "Yuuki Gouda",
+      "order": 27,
+      "role": "Toriumi (voice)",
+      "thumb": "/rrKq1hgtd9o4PtvhXahHUjtlKQW.jpg"
+    },
+    {
+      "name": "Rintarō Nishi",
+      "order": 37,
+      "role": "Fuji (voice)",
+      "thumb": "/eXHTtaf6AfuPtqTVfZsTGpVmE2a.jpg"
+    },
+    {
+      "name": "Chiaki Omigawa",
+      "order": 48,
+      "role": "Mukai (voice)",
+      "thumb": "/hNHPri7hu7ApEht5uGdQxTaV3GO.jpg"
+    },
+    {
+      "name": "Jun'ichi Yanagita",
+      "order": 49,
+      "role": "Takeuchi (voice)",
+      "thumb": "/kwNKv6AWegHdkWef9j9DAnL15C8.jpg"
+    },
+    {
+      "name": "Anri Katsu",
+      "order": 50,
+      "role": "Miyagawa (voice)",
+      "thumb": "/fXfYqB9QT5sBw0ooAvUSy4uccfD.jpg"
+    },
+    {
+      "name": "Yuuko Hara",
+      "order": 51,
+      "role": "Tsuchiya (voice)",
+      "thumb": "/p1NN8aaiH9bUebEvknxgEe6pQBp.jpg"
+    },
+    {
+      "name": "Daisuke Kirii",
+      "order": 53,
+      "role": "Mutou (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Yū Hayashi",
+      "order": 63,
+      "role": "Tsuyoshi Edano (voice)",
+      "thumb": "/Acy7IAZqjFbq7j2MIxRq25u00Vk.jpg"
+    },
+    {
+      "name": "Tomomi Watanabe",
+      "order": 1,
+      "role": "Hanako (voice)",
+      "thumb": "/sLr9ci1QMuzoLn0U4BkFMO9ePBv.jpg"
+    },
+    {
+      "name": "Wataru Hatano",
+      "order": 2,
+      "role": "Tarou (voice)",
+      "thumb": "/aIdlCpoeL8lq6KCrGbF71n0zgDp.jpg"
+    },
+    {
+      "name": "Keiji Fujiwara",
+      "order": 6,
+      "role": "Biker Ghost (voice)",
+      "thumb": "/cK5cLHWfVnQdREHs7SpsBs4g4EI.jpg"
+    },
+    {
+      "name": "Ikuji Nose",
+      "order": 10,
+      "role": "Takenaka (voice)",
+      "thumb": "/wkX1zQKFcnIfeqNdyUZ1aI9BMBP.jpg"
+    },
+    {
+      "name": "Yōji Ueda",
+      "order": 13,
+      "role": "Client (voice)",
+      "thumb": "/uEwkH9kQnfgpSz0DiaJbc7OHZKG.jpg"
+    },
+    {
+      "name": "Ai Kayano",
+      "order": 14,
+      "role": "Chihiro (voice)",
+      "thumb": "/l8ywp387rfdAS7mOExe3cEZnsk0.jpg"
+    },
+    {
+      "name": "Kotori Koiwai",
+      "order": 15,
+      "role": "Mari (voice)",
+      "thumb": "/1MC5qLbmOwUQSlJCJ2mR0mQVbqA.jpg"
+    },
+    {
+      "name": "Kouzou Douzaka",
+      "order": 17,
+      "role": "Evil Spirit (voice)",
+      "thumb": "/nJgSJno3GXZKxX9INFLVDduc1Zi.jpg"
+    },
+    {
+      "name": "Chinatsu Akasaki",
+      "order": 20,
+      "role": "Masked Woman (voice)",
+      "thumb": "/gpIjwrK3FToc27bwmwLImT4bwg8.jpg"
+    },
+    {
+      "name": "Tōru Sakurai",
+      "order": 30,
+      "role": "Hitoshi (voice)",
+      "thumb": "/1aBhuDTRqBJuj59h674U9mKOSh9.jpg"
+    },
+    {
+      "name": "Mariko Higashiuchi",
+      "order": 36,
+      "role": "Mrs. Kamuro (voice)",
+      "thumb": "/bMnzAe7ONzbMjIWxnmV3BvRJm6p.jpg"
+    },
+    {
+      "name": "Wataru Takagi",
+      "order": 40,
+      "role": "Male Store Clerk (voice)",
+      "thumb": "/gWHhudGHTGuROF0pUE5mqbcVq9r.jpg"
+    },
+    {
+      "name": "Rina Satou",
+      "order": 41,
+      "role": "Female Store Clerk (voice)",
+      "thumb": "/q1VWJEI3b386hEcYzzbiN4KmoPn.jpg"
+    },
+    {
+      "name": "Fumihiko Tachiki",
+      "order": 46,
+      "role": "Terada (voice)",
+      "thumb": "/khEt9uae6dLIrvtkAKkFR1IJPJ5.jpg"
+    },
+    {
+      "name": "Kouichi Makishima",
+      "order": 56,
+      "role": "Gen (voice)",
+      "thumb": "/zITPTbaVoGxzIDjiSCHGTRLWvwx.jpg"
+    },
+    {
+      "name": "Hiroshi Iwasaki",
+      "order": 60,
+      "role": "Ishiguro (true form, voice)",
+      "thumb": "/3THPpW2xkD0A7SVFmaUSxHeDzJG.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
         null,
-        "Mob Psycho Mini 8-bit Shorts 1",
-        "Mob Psycho Mini 8-bit Shorts 2",
-        "Mob Psycho Mini 8-bit Shorts 3",
-        "Mob Psycho Mini 8-bit Shorts 4",
-        "Mob Psycho Mini 8-bit Shorts 5",
-        "Mob Psycho Mini 8-bit Shorts 6",
-        "Mob Psycho 100 Reigen- The Miraculous Unknown Psychic",
-        "Mob Psycho 100 II- The First Spirits and Such Company Trip - A Journey that Mends the Heart and Heals the Soul",
-        "Episode 9",
-        "Episode 10",
-        "Episode 11",
-        "Episode 12",
-        "Episode 13",
-        "Episode 14"
+        {
+          "aired": "2016-09-28",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Mob Psycho Mini 8-bit Shorts 1"
+        },
+        {
+          "aired": "2016-10-26",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Mob Psycho Mini 8-bit Shorts 2"
+        },
+        {
+          "aired": "2016-11-23",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Mob Psycho Mini 8-bit Shorts 3"
+        },
+        {
+          "aired": "2016-12-21",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Mob Psycho Mini 8-bit Shorts 4"
+        },
+        {
+          "aired": "2017-01-25",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Mob Psycho Mini 8-bit Shorts 5"
+        },
+        {
+          "aired": "2017-02-22",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Mob Psycho Mini 8-bit Shorts 6"
+        },
+        {
+          "aired": "2018-12-23",
+          "plot": "A 60-minute long recap of the first season's events.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9MxS10LuJysrTVGOEvADDDRA5qP.jpg",
+          "title": "Mob Psycho 100 Reigen- The Miraculous Unknown Psychic"
+        },
+        {
+          "aired": "2019-09-25",
+          "plot": "Mob, Reigen, Dimple, and the newest member of the Spirits and Such Consultation Office staff, Serizawa, take a trip up to a secluded hot spring called Ibogami Hot Springs in Zebra Prefecture. Reigen happened to get a request from the matron there to discover the truth behind the strange rumors going around there and save the inn. Ritsu and Teru also join in on this trip and the six of them head out on this super relaxing trip to the hot spring. But on their way there, Reigen and Serizawa start nodding off on the train and somehow get sucked into an eerie parallel world.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wjt7VXD7lFDzQDQ9p9flo8oJtPE.jpg",
+          "title": "Mob Psycho 100 II- The First Spirits and Such Company Trip - A Journey that Mends the Heart and Heals the Soul"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 9"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 10"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 11"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 12"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 13"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 14"
+        }
       ]
     },
     "1": {
       "episodes": [
         null,
-        "Self-Proclaimed Psychic- Reigen Arataka ~And Mob~",
-        "Doubts About Youth ~The Telepathy Club Appears~",
-        "An Invite to a Meeting ~Simply Put, I Just Want to Be Popular~",
-        "Idiots Only Event ~Kin~",
-        "OCHIMUSHA ~Psychic Powers and Me~",
-        "Discord ~To Become One~",
-        "Exaltation ~I've Obtained Loss~",
-        "The Older Brother Bows ~Destructive Intent~",
-        "Claw ~7th Division~",
-        "The Heinous Aura ~Mastermind~",
-        "Master ~Leader~",
-        "Mob and Reigen ~A Giant Tsuchinoko Appears~"
+        {
+          "aired": "2016-07-12",
+          "plot": "Psychics fight with supernatural phenomena that cannot be explained by science. Arataka Reigen that runs the Spirits and Such Consultation office is one of those psychics... well, a fake one. His only hope is a super dull middle-schooler named Shigeo Kageyama, a.k.a. Mob. 27% towards Mob's explosion.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zIejXZ330rYyC9NkigmrhM0gA2k.jpg",
+          "title": "Self-Proclaimed Psychic- Reigen Arataka ~And Mob~"
+        },
+        {
+          "aired": "2016-07-19",
+          "plot": "The Telepathy Club is told that they are going to be shut down by the student council due to lack of members. It was then that one of the members, Inukawa, thought of possibly getting Mob to join. However, Mob gets a call from Reigen about taking care of an incident at Highso Girls' Academy...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2IRcb7QNpL1gnV4UkOfXLbtc0sm.jpg",
+          "title": "Doubts About Youth ~The Telepathy Club Appears~"
+        },
+        {
+          "aired": "2016-07-26",
+          "plot": "It's great that Mob joined the Body Improvement Club, but he suddenly faints as he's running along the riverside. His wish is to get stronger and to be able to get closer to his beloved Tsubomi-chan. One day, as Mob is feeling troubled, a woman with a strange mask approaches him... Progress toward Mob's explosion: 20%.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fbr4w6McLDh5Wx7fxWwLGtBa3Hs.jpg",
+          "title": "An Invite to a Meeting ~Simply Put, I Just Want to Be Popular~"
+        },
+        {
+          "aired": "2016-08-02",
+          "plot": "After the incident with the religious organization  (LOL), the evil spirit, Dimple, keeps following Mob around. Also,  because of the incident, Mezato Ichi from the school paper  starts following around Mob, as well. Then one day, another student  joins the Body Improvement Club.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tgEW5zsvlmglOS5EEk6UmH48kNm.jpg",
+          "title": "Idiots Only Event ~Kin~"
+        },
+        {
+          "aired": "2016-08-09",
+          "plot": "Mob is challenged to a one-on-one fight with Black Vinegar Middle School's shadow leader, Teruki Hanazawa, otherwise known as Teru. Mob doesn't use his powers but Teru goes all out on him, destroying everything around him. Teru continues to unleash his incredible power when Mob suddenly remembers a tragedy that happened between him and Ritsu...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/h7ts0QOUbragMxy6CacCnGVFETV.jpg",
+          "title": "OCHIMUSHA ~Psychic Powers and Me~"
+        },
+        {
+          "aired": "2016-08-16",
+          "plot": "Peaceful days return after Mob's fight with Teru. As usual, Reigen continues to trick people as a fake psychic, and the president of the Telepathy Club, Tome Kurata, drags Mob around to find other espers. Then one day, a mysterious man talks to Mob's younger brother, Ritsu...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y6cLitqeuAh5R6yQRAlQhlHBHtl.jpg",
+          "title": "Discord ~To Become One~"
+        },
+        {
+          "aired": "2016-08-23",
+          "plot": "Salt Middle School undergoes deep cleaning lead by the student council president, and one thug after another gets targeted. Meanwhile, the story about Mob defeating the shadow leader at Black Vinegar Middle School starts to get embellished and takes on a life of it's own, and Mob gets to be known as \"White T Poison.\" All of the gang leaders from the other schools start to gather at Salt Middle School to confront White T Poison. Also, Ritsu awakens to his dormant psychic powers, and Dimple manages to convince Ritsu to pair with him to become stronger than his brother. Ritsu finally gets to experience those powers for himself.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/deNkKthjJd0M6ybS5Tj1EtwXoPk.jpg",
+          "title": "Exaltation ~I've Obtained Loss~"
+        },
+        {
+          "aired": "2016-08-30",
+          "plot": "After defeating all of the gang leaders from the surrounding schools, Ritsu feels omnipotent. And then, he's confronted by none other than his older brother, Mob. Mob knew that Ritsu had wanted psychic powers for a while, so he congratulates him. However Ritsu doesn't greet his brother with kindness. Meanwhile, a mysterious man watches the brothers from a distance. He easily manages to grab Ritsu, and tries to drag him off. Mob activates his powers in order to save his brother.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/l4uYdqcP4uorUUNUGYvCraQzAZL.jpg",
+          "title": "The Older Brother Bows ~Destructive Intent~"
+        },
+        {
+          "aired": "2016-09-06",
+          "plot": "Ritsu and the others get abducted by a mysterious man named Koyama, and get taken to the secret organization Claw's 7th Division. Claw is an organization who is trying to lead the world to a better future by taking it over. One of Claw's assassins, Terada goes after Mob and Teru, but they overpower him and get him to tell them secrets about the organization. In order to save Ritsu, Mob heads to the 7th Division but encounters another member of Claw.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e7PzPH9webwk0km48CruE5BJaQf.jpg",
+          "title": "Claw ~7th Division~"
+        },
+        {
+          "aired": "2016-09-13",
+          "plot": "Mob and Teru infiltrate the Claw's 7th Division to save Ritsu. Meanwhile, Ritsu tries to escape with the other esper kids and they run into the upper echelon and leader of the 7th Division. Teru and Dimple run into trouble after a strenuous battle, and the boss from Claw finally shows himself...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lRbnpyYSqUHt9fFP501gHXbQWRc.jpg",
+          "title": "The Heinous Aura ~Mastermind~"
+        },
+        {
+          "aired": "2016-09-20",
+          "plot": "Mob, Ritsu, and Teru are trapped in a room where they can't use their powers. And then, someone rather unexpected shows up in front of them: Mob's master and self-proclaimed psychic, Reigen. Somehow, Reigen is mistakenly thought as the boss of Claw, and easily manages to get inside and successfully saves Mob and the others. However, there is no way that Ishiguro would let them get away with this. As they try to escape the 7th Division, the upper echelon stands in their way.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ggSfFxpN2KTUy2iAERpMuA2nSpA.jpg",
+          "title": "Master ~Leader~"
+        },
+        {
+          "aired": "2016-09-27",
+          "plot": "Mob is finally pushed to his limit when he has to face Sakurai, Muraki, Matsuo and Ishiguro of the upper echelon. But then, he comes to a rather surprising decision...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/g8JDTJ18lDQvGVyHXs3Yb3l6wwM.jpg",
+          "title": "Mob and Reigen ~A Giant Tsuchinoko Appears~"
+        }
       ]
     },
     "2": {
       "episodes": [
         null,
-        "Ripped Apart ~Someone Is Watching~",
-        "Urban Legends ~Encountering Rumors~",
-        "One Danger After Another ~ Degeneration~",
-        "Inside ~Evil Spirit~",
-        "Discord ~Choices~",
-        "Poor, Lonely, Whitey",
-        "Cornered ~True Identity~",
-        "Even Then ~Continue Forward~",
-        "Show Me What You've Got ~Band Together~",
-        "Collision ~Power Type~",
-        "Guidance ~Psychic Sensor~",
-        "Battle for Social Rehabilitation ~Friendship~",
-        "Boss Fight ~The Final Light~"
+        {
+          "aired": "2019-01-07",
+          "plot": "Reigen recieved a phone call at his office, the Spirits and Such Consultation Office. The client asked him to find out what the black shadow that kept destroying his fields actually was. Meanwhile, back at Salt Middle School, Kamuro announces that he's going to resign from the position of student council president. Elections to decide a new studnet council president are going to be held and Mezato convinces Mob to run as a candidate, but...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8avaqhS8U5QDfqBprR6DUPf84xA.jpg",
+          "title": "Ripped Apart ~Someone Is Watching~"
+        },
+        {
+          "aired": "2019-01-14",
+          "plot": "Because of the lack of clients visiting or calling his office, Reigen decides to take his business on the road. They go to Cuticle City where there seems to be various urban legend sightings. They immediately get a request to deal with something called the Dragger. With the help of a local psychic they happened to meet named Shinra Banshomaru they go to take care of the Dragger as well as the other urban legends that plague the city.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vhdahzuD9L1wsqrAF8rZiLNNX7D.jpg",
+          "title": "Urban Legends ~Encountering Rumors~"
+        },
+        {
+          "aired": "2019-01-21",
+          "plot": "Reigen sets up an official homepage for his Spirits and Such Consultation Office and he immediately starts to get jobs left and right, including a middle-aged man asking Reigen to curse someone and a woman who's being haunted by a ghost. As he was listening to their problems, Mob realizes something. Why do people treat humans and spirits so differently? Meanwhile, Reigen gets another request from a group of college students that want to take a photo at a haunted location, but...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/c0WoVoQgZ2LUEcF4LWPfSvhJVu8.jpg",
+          "title": "One Danger After Another ~ Degeneration~"
+        },
+        {
+          "aired": "2019-01-28",
+          "plot": "Reigen and Mob receive a new job. This time, their client is a wealthy man named Asagiri Masashi. He's not just rich, but super rich, so Reigen and Mob head to his mansion only to find other self-proclaimed psychics there as well. One of the psychics there happens to include the president of the Rising Sun Spiritual Union, Jodo Kirin. The job is apparently to exorcise the evil spirit that is apparently possessing his daughter, Minori.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3MWaUPTeVDD5uWQtr5bxtt6vZIU.jpg",
+          "title": "Inside ~Evil Spirit~"
+        },
+        {
+          "aired": "2019-02-04",
+          "plot": "Mob gets trapped inside a parallel world created by Mogami Keiji. Minori ends up transferring to his class, and Mob becomes the target of bullying. He can't ask anyone for help, and his negative emotions start to build inside. The truth behind the tragedy that Mogami went through when he was alive comes to light. Meanwhile, Reigen and the others were waiting for Mob to regain consciousness back at the Asagiri mansion. Dimple attempts to save Mob by infiltrating Minori's body.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8a92F1fd76UNdNzQeizvPvUWKDf.jpg",
+          "title": "Discord ~Choices~"
+        },
+        {
+          "aired": "2019-02-11",
+          "plot": "After hanging out with the Body Improvement Club and Telepathy Club more, Mob starts to feel joy like he'd never felt before. One day while he's having fun with them, he gets a call from Reigen, spoiling his fun. Mob asks Reigen to stop summoning him so suddenly, and Reigen just handles the situation in his usual overbearing manner. And because of something very minor, a gap forms between them. Reigen is forced to go on jobs without Mob, forcing him to reexamine himself.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/afmIffJ0yN3LT2XQyS4bQ59oUcD.jpg",
+          "title": "Poor, Lonely, Whitey"
+        },
+        {
+          "aired": "2019-02-18",
+          "plot": "After splitting up with Mob, Reigen starts doing a lot of the jobs on his own. He then gets an offer to appear on a TV program. Reigen is ecstatic and accepts the offer, but this was all a trap set by Jodo Kirin, the president of the Rising Sun Spiritual Union. Jodo corners him during the live filming of the show and the fact that Reigen is a fraud comes to light. Reigen gets bashed from all sides and ends up having to hold a press conference...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oDybpLwNqwoYEl1IuA59gV93VsI.jpg",
+          "title": "Cornered ~True Identity~"
+        },
+        {
+          "aired": "2019-02-25",
+          "plot": "The day for the annual marathon and Salt Middle School was drawing nearer. Mob proclaims that if he places in the top 10 he'll tell Tsubomi how he feels about her. Everyone around him cheers Mob on and he starts training hard every day until the day of the event. Meanwhile, Tsubomi and her friend Miki go to Reigen's Spirits and Such Consultation Office with a request. Ritsu happened to be at the office, helping out in Mob's absence, but he hears Tsubomi say something rather surprising.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mNgqdPRvyDAxwfaDmKdHVjh2a0g.jpg",
+          "title": "Even Then ~Continue Forward~"
+        },
+        {
+          "aired": "2019-03-04",
+          "plot": "While The Claw makes their schemes public, Reigen forms a defense team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7Q1r7Ii1VbTBV0cG6StzG94jbQ2.jpg",
+          "title": "Show Me What You've Got ~Band Together~"
+        },
+        {
+          "aired": "2019-03-10",
+          "plot": "The boss of the Claw, Suzuki Toichiro barricades himself into Seasoning City Culture Tower after declaring war on the world. After instantly getting rid of the police barriers, they make their next move. Meanwhile, back at the hideout, Reigen and the others were making their move, as well. The former members of the 7th Division and the Awakening Lab head to the tower under Reigen's instruction. Sho and Ritsu also make their move to stop Suzuki's plans.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lg2cGwfeeVfrhz0koWoBWwV53Q2.jpg",
+          "title": "Collision ~Power Type~"
+        },
+        {
+          "aired": "2019-03-17",
+          "plot": "Sho finally arrived at Seasoning Cultural Tower and was greeted by Shimazaki, one of the Ultimate 5. Ritsu faces off with Shimazaki and urges Sho to go ahead. However, Shimazaki is able to teleport and he gets ahead of him. Meanwhile, Mob has woken up and is heading to the tower and is also approached by one of the Ultimate 5, Minegishi. Mob has a difficult time dealing with Minegishi, who controls plants, but then someone rather unexpected comes to his aid.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sYyxnqWgwaM6xgFDxcGY9Dkvmqo.jpg",
+          "title": "Guidance ~Psychic Sensor~"
+        },
+        {
+          "aired": "2019-03-25",
+          "plot": "Three years ago, Serizawa was troubled with about his psychic powers. One day, he was visited by the boss, Suzuki Toichiro. Serizawa ends up trusting him since he's the first person to understand what he's going through. But Mob then brings up the fact that Serizawa is being used and tells him, \"I'll be your friend.\" Hearing Mob say that, Serizawa... Meanwhile, after defeating Sho, the boss starts gathering up the energy he was sharing with his followers and turns into an energy monster.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mWy9ZkNPO5yfoYQ3X2gzvXDAc91.jpg",
+          "title": "Battle for Social Rehabilitation ~Friendship~"
+        },
+        {
+          "aired": "2019-04-01",
+          "plot": "The Cultural Tower floats above Seasoning City. The final battle between Mob and Suzuki was about to begin. Mob is almost overwhelmed by the fact that he's able to completely release his powers, but then, he sees his younger brother, Ritsu. Mob regains his composure and he faces off with Suzuki, but Suzuki's power is too great. Mob finally gives up on trying to talk things out and puts everything he has into this battle. Who will be the victor?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bVvWPZNtFpvnJKB5lC7jv6dhFGJ.jpg",
+          "title": "Boss Fight ~The Final Light~"
+        }
       ]
     }
   },

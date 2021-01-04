@@ -5,14 +5,27 @@ import fetch from 'UTILS/fetch';
 import styles, { ROOT_CLASS } from './styles';
 
 class Replace extends Component {
-  static LabeledInput({ buttons = [], inputRef, label, onInput }) {
+  static LabeledInput({ buttons = [], inputRef, label, onChange, onInput, value }) {
     return (
       <div className={`${ ROOT_CLASS }__labeled-input`}>
         <label>{label}</label>
-        <input ref={inputRef} type="text" onInput={onInput} spellCheck="false" />
-        {buttons.map(({ label, onClick }) => (
-          <button key={label} onClick={onClick}>{label}</button>
-        ))}
+        <input
+          ref={inputRef}
+          type="text"
+          onChange={onChange}
+          onInput={onInput}
+          spellCheck="false"
+          value={value}
+        />
+        {buttons.map(({ data, label, onClick }) => {
+          const dataAtts = {};
+          if(data) Object.keys(data).forEach((key) => {
+            dataAtts[`data-${ key.toLowerCase() }`] = data[key];
+          });
+          return (
+            <button key={label} onClick={onClick} {...dataAtts}>{label}</button>
+          );
+        })}
       </div>
     );
   }
@@ -21,47 +34,62 @@ class Replace extends Component {
     super();
     
     this.state = {
+      matchInputValue: '',
       matchPattern: '',
+      replaceInputValue: '',
       replacePattern: '',
     };
+    this.replacedNames = [];
     
+    this.handleInputChange = this.handleInputChange.bind(this);
     this.handleMatchInput = this.handleMatchInput.bind(this);
-    this.handleReplaceInput = this.handleReplaceInput.bind(this);
     this.handleRenameClick = this.handleRenameClick.bind(this);
+    this.handleReplaceInput = this.handleReplaceInput.bind(this);
+    this.handleReplaceInputTextUpdate = this.handleReplaceInputTextUpdate.bind(this);
     
     this.matchInput = React.createRef();
+    this.replaceInput = React.createRef();
     
     this.matchBtns = [
       {
         label: '(\\d)',
         onClick: () => {
-          this.matchInput.current.value += '(\\d{2})';
+          const input = this.matchInput.current;
+          const startText = input.value.substr(0, input.selectionStart);
+          const endText = input.value.substr(input.selectionEnd, input.value.length);
+          const matchInputValue = `${ startText }(\\d{2})${ endText }`;
+          
+          this.setState({
+            matchInputValue,
+            matchPattern: new RegExp(matchInputValue),
+          });
         },
       },
     ];
   }
   
-  debounceInput(cb) {
-    if(this.inputDebounce) clearTimeout(this.inputDebounce);
-    this.inputDebounce = setTimeout(cb, 300);
+  handleInputChange(stateProp) {
+    return (ev) => {
+      this.setState({ [stateProp]: ev.target.value });
+    };
   }
   
   handleMatchInput(ev) {
     const val = ev.currentTarget.value;
-    this.debounceInput(() => {
-      try {
-        const pattern = new RegExp(val);
-        this.setState({ matchPattern: pattern });
-      }catch(err){ /**/ }
-    });
+    
+    try {
+      const pattern = val ? new RegExp(val) : '';
+      this.setState({ matchPattern: pattern });
+    }
+    catch(err){
+      // something wrong with the RegEx, so just use the text
+      this.setState({ matchPattern: val });
+    }
   }
   
   handleReplaceInput(ev) {
     const val = ev.currentTarget.value;
-    this.debounceInput(() => {
-      this.replacedNames = [];
-      this.setState({ replacePattern: val });
-    });
+    this.setState({ replacePattern: val });
   }
   
   handleRenameClick() {
@@ -81,9 +109,41 @@ class Replace extends Component {
       .catch((err) => { alert(err); });
   }
   
+  handleReplaceInputTextUpdate(ev) {
+    const input = this.replaceInput.current;
+    const startText = input.value.substr(0, input.selectionStart);
+    const endText = input.value.substr(input.selectionEnd, input.value.length);
+    const replaceInputValue = `${ startText }$${ ev.currentTarget.dataset.num }${ endText }`;
+    
+    this.setState({
+      replaceInputValue,
+      replacePattern: replaceInputValue,
+    });
+  }
+  
   render() {
     const { files, onCancel } = this.props;
-    const { matchPattern, replacePattern } = this.state;
+    const {
+      matchInputValue,
+      matchPattern,
+      replaceInputValue,
+      replacePattern,
+    } = this.state;
+    const matchRegEx = (matchPattern && matchPattern instanceof(RegExp))
+      ? matchPattern : '';
+    let replaceBtns = [];
+    
+    if(matchRegEx){
+      const groups = matchRegEx.source.match(/((?<!\\)\([^)]+\))/g);
+      if(groups) replaceBtns = groups.map((_, ndx) => {
+        const num = ndx + 1;
+        return {
+          data: { num },
+          label: `$${ num }`,
+          onClick: this.handleReplaceInputTextUpdate,
+        };
+      });
+    }
     
     return (
       <div className={`${ ROOT_CLASS } ${ styles }`}>
@@ -91,9 +151,18 @@ class Replace extends Component {
           buttons={this.matchBtns}
           inputRef={this.matchInput}
           label="Match:"
+          onChange={this.handleInputChange('matchInputValue')}
           onInput={this.handleMatchInput}
+          value={matchInputValue}
         />
-        <Replace.LabeledInput label="Replace:" onInput={this.handleReplaceInput} />
+        <Replace.LabeledInput
+          buttons={replaceBtns}
+          inputRef={this.replaceInput}
+          label="Replace:"
+          onChange={this.handleInputChange('replaceInputValue')}
+          onInput={this.handleReplaceInput}
+          value={replaceInputValue}
+        />
         <div className={`${ ROOT_CLASS }__table`}>
           <div className={`${ ROOT_CLASS }__table-head`}>
             <div className={`${ ROOT_CLASS }__table-row`}>
@@ -107,8 +176,8 @@ class Replace extends Component {
               let currentName = origFilename;
               let newName = origFilename;
               
-              if(matchPattern){
-                const matches = currentName.match(matchPattern);
+              if(matchRegEx){
+                const matches = currentName.match(matchRegEx);
                 
                 if(matches){
                   const [match, ...groups] = matches;

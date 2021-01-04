@@ -30,7 +30,7 @@ NFO Scraping
   - [ ] It should only replace what is matched and leave the rest.
   - [x] Add a button to insert `(\d{2})` pattern, so it's easier to replace text
     while on Mobile.
-  - [ ] Have buttons below `Replace` input that insert `$NUM`. The buttons will
+  - [x] Have buttons below `Replace` input that insert `$NUM`. The buttons will
     display `$1` `$2`, etc, based on how many captured groups were added in the
     `Match` input and how many groups were matched.
 - [x] See if fanart.tv has episode images to fill in the gaps from tmdb.

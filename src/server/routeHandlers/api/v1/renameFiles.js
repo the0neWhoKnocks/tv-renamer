@@ -87,10 +87,9 @@ export default ({ req, reqData, res }) => {
         if(moveToFolder){
           const SERIES_FOLDER = `${ outputFolder }/${ sanitizeName(moveToFolder, true) }`;
           const NFO_PATH = `${ SERIES_FOLDER }/tvshow.nfo`;
-          const { season } = ((newName.match(/- (?<season>\d{1,2})x\d{2} -/) || {}).groups || {});
           
-          if(season){
-            const folderName = (season > 0) ? `Season ${ pad(season) }` : 'Specials';
+          if(seasonNumber){
+            const folderName = (seasonNumber > 0) ? `Season ${ pad(seasonNumber) }` : 'Specials';
             _outputFolder = `${ SERIES_FOLDER }/${ folderName }`;
             
             // only try to create folders if they haven't already been created
@@ -120,7 +119,7 @@ export default ({ req, reqData, res }) => {
                 const { images, name } = await getCache(cacheKey);
                 if(images && images.fanarttv){
                   const { fanarttv } = images;
-                  const prefix = (season > 0) ? `season${ pad(season) }` : 'season-specials';
+                  const prefix = (seasonNumber > 0) ? `season${ pad(seasonNumber) }` : 'season-specials';
                   
                   try {
                     clientSocket.send(JSON.stringify({
@@ -134,9 +133,9 @@ export default ({ req, reqData, res }) => {
                     ].reduce((arr, { prop, name }) => {
                       if(
                         fanarttv[prop]
-                        && fanarttv[prop][season]
-                        && fanarttv[prop][season][0]
-                      ) arr.push(downloadFile(fanarttv[prop][season][0], `${ SERIES_FOLDER }/${ name }`));
+                        && fanarttv[prop][seasonNumber]
+                        && fanarttv[prop][seasonNumber][0]
+                      ) arr.push(downloadFile(fanarttv[prop][seasonNumber][0], `${ SERIES_FOLDER }/${ name }`));
                       else imgWarnings.push(`No "${ name }" available`);
                       return arr;
                     }, []);

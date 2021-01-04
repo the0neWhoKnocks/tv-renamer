@@ -135,7 +135,17 @@ export default ({ req, reqData, res }) => {
                         fanarttv[prop]
                         && fanarttv[prop][seasonNumber]
                         && fanarttv[prop][seasonNumber][0]
-                      ) arr.push(downloadFile(fanarttv[prop][seasonNumber][0], `${ SERIES_FOLDER }/${ name }`));
+                      ) {
+                        const IMG_URL = fanarttv[prop][seasonNumber][0];
+                        const imgPromise = downloadFile(IMG_URL, `${ SERIES_FOLDER }/${ name }`);
+                        
+                        imgPromise.catch((err) => {
+                          imgWarnings.push(`Error downloading "${ IMG_URL }"`);
+                          throw err;
+                        });
+                        
+                        arr.push(imgPromise);
+                      }
                       else imgWarnings.push(`No "${ name }" available`);
                       return arr;
                     }, []);
@@ -200,7 +210,17 @@ export default ({ req, reqData, res }) => {
                     if(
                       fanarttv[prop]
                       && fanarttv[prop][0]
-                    ) arr.push(downloadFile(fanarttv[prop][0], `${ SERIES_FOLDER }/${ name }`));
+                    ) {
+                      const IMG_URL = fanarttv[prop][0];
+                      const imgPromise = downloadFile(IMG_URL, `${ SERIES_FOLDER }/${ name }`);
+                      
+                      imgPromise.catch((err) => {
+                        imgWarnings.push(`Error downloading "${ IMG_URL }"`);
+                        throw err;
+                      });
+                      
+                      arr.push(imgPromise);
+                    }
                     else imgWarnings.push(`No "${ name }" available`);
                     return arr;
                   }, []);
@@ -211,7 +231,17 @@ export default ({ req, reqData, res }) => {
                     { prop: 'background', name: 'fanart.jpg' },
                     { prop: 'poster', name: 'poster.jpg' },
                   ].reduce((arr, { prop, name }) => {
-                    if(tmdb[prop]) arr.push(downloadFile(tmdb[prop], `${ SERIES_FOLDER }/${ name }`));
+                    if(tmdb[prop]) {
+                      const IMG_URL = tmdb[prop];
+                      const imgPromise = downloadFile(IMG_URL, `${ SERIES_FOLDER }/${ name }`);
+                      
+                      imgPromise.catch((err) => {
+                        imgWarnings.push(`Error downloading "${ IMG_URL }"`);
+                        throw err;
+                      });
+                      
+                      arr.push(imgPromise);
+                    }
                     else imgWarnings.push(`No "${ name }" available`);
                     return arr;
                   }, []);
@@ -348,7 +378,11 @@ export default ({ req, reqData, res }) => {
                         type: WS__MSG_TYPE__RENAME_STATUS,
                       }));
                       
-                      await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`);
+                      await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`)
+                        .catch((err) => {
+                          imgWarnings.push(`Error downloading "${ thumbnail }"`);
+                          throw err;
+                        });
                     }
                     catch(err) {
                       warnings.push(`Error downloading episode still for "${ newName }": "${ err.message }"\n  URL: "${ thumbnail }"`);

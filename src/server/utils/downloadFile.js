@@ -12,9 +12,12 @@ export default function downloadFile(uri, destination) {
       if(err) reject(err);
       else if(resp.statusCode > 299) reject(new Error(`Couldn't download file "${ uri }" | ${ resp.statusCode } | ${ resp.statusMessage }`));
       else{
-        request({ uri })
-          .pipe(createWriteStream(destination))
-          .on('close', resolve);
+        try {
+          request({ uri })
+            .pipe(createWriteStream(destination))
+            .on('close', resolve);
+        }
+        catch(err) { reject(err); }
       }
     });
   });

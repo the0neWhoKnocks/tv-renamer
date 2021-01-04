@@ -519,9 +519,9 @@ context('Renamer', () => {
     screenshot('.app', 'replace modal opened');
     
     const rowData = [
-      ['1x01.pilot.mkv', '1x01.pilot.mkv', `${ appConfig.source }/My Name is Earl S01-S04 Season 1-4/My Name Is Earl S01 Season 1`],
       ['1x02.quit.smoking.mkv', '1x02.quit.smoking.mkv', `${ appConfig.source }/My Name is Earl S01-S04 Season 1-4/My Name Is Earl S01 Season 1`],
       ['2x01.very.bad.things.mkv', '2x01.very.bad.things.mkv', `${ appConfig.source }/My Name is Earl S01-S04 Season 1-4/My Name Is Earl S02 Season 2`],
+      ['earl.1x01.pilot.mkv', 'earl.1x01.pilot.mkv', `${ appConfig.source }/My Name is Earl S01-S04 Season 1-4/My Name Is Earl S01 Season 1`],
     ];
     cy.get('.replace__table-body .replace__table-row').each(($tr, rowNdx) => {
       cy.wrap($tr).as('tr');
@@ -534,22 +534,28 @@ context('Renamer', () => {
       });
     });
     
-    cy.get('.replace__labeled-input input').each(($el, ndx) => {
-      const values = ['(\\d)x(\\d+)', 'My.Name.is.Earl.s0$1e$2'];
-      cy.wrap($el).type(values[ndx]);
-      // wait for the debounce logic to kick in
-      cy.get(`.replace__table-body .replace__table-row:nth-child(1) .replace__table-data:nth-child(${ ndx + 1 }) mark`);
-    });
+    cy.get('.replace__labeled-input:nth-of-type(1) input').as('MATCH_INPUT');
+    cy.get('.replace__labeled-input:nth-of-type(1) button').as('PATTERN_BTN');
+    cy.get('@MATCH_INPUT').type('(.*)?(\\d{{}1{}})x'); // `{{}` and `{}}` is Cypress' way of typing `{}`
+    cy.get('@PATTERN_BTN').click();
+    
+    cy.get('.replace__labeled-input:nth-of-type(2) input').as('REPLACE_INPUT');
+    cy.get('.replace__labeled-input:nth-of-type(2) button[data-num="2"]').as('GROUP2_BTN');
+    cy.get('.replace__labeled-input:nth-of-type(2) button[data-num="3"]').as('GROUP3_BTN');
+    cy.get('@REPLACE_INPUT').type('My.Name.is.Earl.s0');
+    cy.get('@GROUP2_BTN').click();
+    cy.get('@REPLACE_INPUT').type('e');
+    cy.get('@GROUP3_BTN').click();
     
     cy.get('.replace__table-body .replace__table-row').each(($tr, rowNdx) => {
       const rowData = [
-        ['1x01', 'My.Name.is.Earl.s01e01'],
-        ['1x02', 'My.Name.is.Earl.s01e02'],
-        ['2x01', 'My.Name.is.Earl.s02e01'],
+        ['1x02', 'My.Name.is.Earl.s01e02.quit.smoking'],
+        ['2x01', 'My.Name.is.Earl.s02e01.very.bad.things'],
+        ['earl.1x01', 'My.Name.is.Earl.s01e01.pilot'],
       ];
       
       cy.wrap($tr).within(() => {
-        cy.get('.replace__table-data mark').each(($mark, tdNdx) => {
+        cy.get('.replace__table-data > mark').each(($mark, tdNdx) => {
           expect($mark.text()).to.equal(rowData[rowNdx][tdNdx]);
         });
       });

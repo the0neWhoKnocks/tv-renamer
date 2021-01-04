@@ -20,73 +20,33 @@ NFO Scraping
   
 - Requirements for nfo files
   - for show https://kodi.wiki/view/NFO_files/TV_shows#nfo_Tags
-    All items below are not required, just a template
-    ```xml
-    <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-    <tvshow>
-      <title></title>
-      <plot></plot>
-      <userrating></userrating>
-      <mpaa></mpaa>
-      <uniqueid type="" default="true"></uniqueid>
-      <genre></genre>
-      <premiered></premiered>
-      <status></status>
-      <studio></studio>
-      <actor>
-        <name></name>
-        <role></role>
-        <order></order>
-        <thumb></thumb>
-      </actor>
-      <namedseason number="1"></namedseason>
-    </tvshow>
-    ```
   - for eps https://kodi.wiki/view/NFO_files/TV_shows#nfo_Tags_2
-    All items below are not required, just a template
-    ```xml
-    <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-    <episodedetails>
-      <title></title>
-      <showtitle></showtitle>
-      <userrating></userrating>
-      <plot></plot>
-      <runtime></runtime>
-      <uniqueid type="" default="true"></uniqueid>
-      <credits></credits>
-      <director></director>
-      <aired></aired>
-      <watched>false</watched>
-      <actor>
-        <name></name>
-        <role></role>
-        <order></order>
-        <thumb></thumb>
-      </actor>
-      <fileinfo>
-        <streamdetails>
-          <video>
-            <codec></codec>
-            <aspect></aspect>
-            <width></width>
-            <height></height>
-            <durationinseconds></durationinseconds>
-            <stereomode></stereomode>
-          </video>
-          <audio>
-            <codec></codec>
-            <language></language>
-            <channels></channels>
-          </audio>
-          <subtitle>
-            <language></language>
-          </subtitle>
-        </streamdetails>
-     </fileinfo>
-    </episodedetails>
-    ```
 
 - [ ] Instead of two Preview buttons, have a drop-down to choose different episode groupings.
 - Cypress tests
   - [ ] strip out un-needed data from cache files.
 - [x] Fix "replace" dialog overflow when there's a bunch of items.
+- Update Rename functionality
+  - [ ] It should only replace what is matched and leave the rest.
+  - [x] Add a button to insert `(\d{2})` pattern, so it's easier to replace text
+    while on Mobile.
+  - [ ] Have buttons below `Replace` input that insert `$NUM`. The buttons will
+    display `$1` `$2`, etc, based on how many captured groups were added in the
+    `Match` input and how many groups were matched.
+- [x] See if fanart.tv has episode images to fill in the gaps from tmdb.
+  - They just have series and season images currently.
+- [ ] Refactor preview logic so cache and year logic is trimmed down and easier
+  to deal with going forward.
+  - load `ids` cache
+    - if items have an id, load their cache
+  - if there's no season or episode data, just add a placeholder item so there's
+    no way a lookup could happen, or bad cache files created.
+  - if there's season and episode data and no cache or an update was requested
+    - create two Arrays
+      - one for the initial lookup that scrapes and caches data
+        - contains the first occurrence of a series
+        - does the series and episode lookups
+          - should return a list of newly updated cache items to be used on the
+            second Array.
+      - one for the remaining extra occurrences of a series
+        - just reads from the cache

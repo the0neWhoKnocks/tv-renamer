@@ -5,11 +5,14 @@ import fetch from 'UTILS/fetch';
 import styles, { ROOT_CLASS } from './styles';
 
 class Replace extends Component {
-  static LabeledInput({ label, onInput }) {
+  static LabeledInput({ buttons = [], inputRef, label, onInput }) {
     return (
       <div className={`${ ROOT_CLASS }__labeled-input`}>
         <label>{label}</label>
-        <input type="text" onInput={onInput} spellCheck="false" />
+        <input ref={inputRef} type="text" onInput={onInput} spellCheck="false" />
+        {buttons.map(({ label, onClick }) => (
+          <button key={label} onClick={onClick}>{label}</button>
+        ))}
       </div>
     );
   }
@@ -25,6 +28,17 @@ class Replace extends Component {
     this.handleMatchInput = this.handleMatchInput.bind(this);
     this.handleReplaceInput = this.handleReplaceInput.bind(this);
     this.handleRenameClick = this.handleRenameClick.bind(this);
+    
+    this.matchInput = React.createRef();
+    
+    this.matchBtns = [
+      {
+        label: '(\\d)',
+        onClick: () => {
+          this.matchInput.current.value += '(\\d{2})';
+        },
+      },
+    ];
   }
   
   debounceInput(cb) {
@@ -73,7 +87,12 @@ class Replace extends Component {
     
     return (
       <div className={`${ ROOT_CLASS } ${ styles }`}>
-        <Replace.LabeledInput label="Match:" onInput={this.handleMatchInput} />
+        <Replace.LabeledInput
+          buttons={this.matchBtns}
+          inputRef={this.matchInput}
+          label="Match:"
+          onInput={this.handleMatchInput}
+        />
         <Replace.LabeledInput label="Replace:" onInput={this.handleReplaceInput} />
         <div className={`${ ROOT_CLASS }__table`}>
           <div className={`${ ROOT_CLASS }__table-head`}>

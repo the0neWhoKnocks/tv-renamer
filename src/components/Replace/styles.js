@@ -18,8 +18,9 @@ export default css`
       align-items: center;
       
       label {
-        width: 90px;
+        width: 80px;
         font-weight: bold;
+        flex-shrink: 0;
       }
       
       input {
@@ -27,6 +28,13 @@ export default css`
         font-size: 1.2em;
         font-family: monospace;
         padding: 0.25em;
+        border: solid 1px;
+      }
+      
+      button {
+        padding: 0.25em 0.5em;
+        border-radius: unset;
+        margin-left: 0.25em;
       }
     }
     

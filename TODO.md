@@ -55,3 +55,24 @@ NFO Scraping
       - one for the remaining extra occurrences of a series
         - just reads from the cache
 - [x] `runtime` isn't being set in `.nfo` for actual videos
+- [x] Rename `Name (2019) - 1x01` shows odd matched colors. Things still work
+  but it's visually off.
+- Better series image fallbacks/handling
+  - [ ] See if images from fanart.tv have language props, and filter out non-English
+    items.
+  - [ ] Make sure that if the fanart images node is present, but poster and background
+    aren't present, but tmdb does have values, that the tmdb values get used
+    instead. May have to compile a list of available URLs
+  - [ ] Sometimes a series season poster isn't available in fanart.tv, but there
+    are images on tmdb. Currently it's a manual process of going to the series
+    page, going into the seasons, right-clicking and opening the image, then
+    changing the size value to `w780`, and download. Would be nice if this URL
+    lookup could happen along with the background and poster props for tmdb.
+  - Currently when images aren't downloaded, warnings are output. It'd be nice
+    if there was also a way to output URLs to tmdb, tvdb, and fanart if any
+    warnings pop up.
+    - [ ] As previously mentioned, if no season poster was available, have a
+      URL that goes to tmdb series seasons page.
+    - [ ] If no (any other image) have a URL for tvdb series page.
+    - [ ] For good measure, maybe have a URL for fanart, since it takes some
+      effort to navigate to a series.

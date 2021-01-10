@@ -242,15 +242,22 @@ class Replace extends Component {
                 const matches = currentName.match(matchRegEx);
                 
                 if(matches){
+                  // NOTE - `groups` is a prototype prop on a RegEx match, but
+                  // spreading to `groups` actually just gives me the indexed
+                  // capture group values.
                   const [match, ...groups] = matches;
                   
                   if(groups){
-                    currentName = currentName.replace(match, `<mark>${ match.trim() }</mark>`);
+                    const { index: matchNdx } = matches;
+                    const startChunk = currentName.substr(0, matchNdx);
+                    let endChunk = currentName.substr(matchNdx, currentName.length);
+                    
+                    endChunk = endChunk.replace(match, `<mark>${ match.trim() }</mark>`);
                     groups.forEach((g, ndx) => {
-                      if(g){
-                        currentName = currentName.replace(g, `<mark data-ndx="${ ndx }">${ g.trim() }</mark>`);
-                      }
+                      if(g) endChunk = endChunk.replace(g, `<mark data-ndx="${ ndx }">${ g.trim() }</mark>`);
                     });
+                    
+                    currentName = `${ startChunk }${ endChunk }`;
                   }
                   
                   if(groups){

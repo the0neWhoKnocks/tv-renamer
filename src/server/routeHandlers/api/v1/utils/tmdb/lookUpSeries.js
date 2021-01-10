@@ -170,8 +170,8 @@ export default async function lookUpSeries({
           images: {
             fanarttv: fanarttvImgs,
             tmdb: {
-              background: `${ TMDB__URL__BACKGROUND }${ backdrop_path }`,
-              poster: `${ TMDB__URL__POSTER }${ poster_path }`,
+              background: backdrop_path && `${ TMDB__URL__BACKGROUND }${ backdrop_path }` || '',
+              poster: poster_path && `${ TMDB__URL__POSTER }${ poster_path }` || '',
             },
           },
           mpaa,

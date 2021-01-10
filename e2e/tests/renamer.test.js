@@ -382,7 +382,7 @@ context('Renamer', () => {
       url: '/api/v1/preview',
       response: [
         {
-          cacheKey: 'high_maintenance_2016',
+          cacheKey: 'high_maintenance_(2016)',
           episodeNdx: 2,
           id: SERIES_ID,
           index: '3',
@@ -478,7 +478,7 @@ context('Renamer', () => {
   });
   
   it('should maintain the series year on cache update', () => {
-    const jsonPath = '/e2e/mnt/data/tmdb__cache/hunter_x_hunter_2011.json';
+    const jsonPath = '/e2e/mnt/data/tmdb__cache/hunter_x_hunter_(2011).json';
     cy.readFile(jsonPath, 'utf8').then((json) => {
       json.seasons['2'].episodes[2] = undefined;
       cy.writeFile(jsonPath, json, 'utf8');

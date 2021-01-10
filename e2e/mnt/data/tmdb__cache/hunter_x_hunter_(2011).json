@@ -6,6 +6,77 @@
     "Drama"
   ],
   "id": 46298,
+  "mpaa": "",
+  "name": "Hunter x Hunter (2011)",
+  "plot": "Twelve-year-old Gon Freecss one day discovers that the father he had always been told was dead was alive and well. His Father, Ging, is a Hunter—a member of society's elite with a license to go anywhere or do almost anything. Gon, determined to follow in his father's footsteps, decides to take the Hunter Examination and eventually find his father to prove himself as a Hunter in his own right. But on the way, he learns that there is more to becoming a Hunter than previously thought, and the challenges that he must face are considered the toughest in the world.",
+  "premiered": "2011-10-02",
+  "status": "Ended",
+  "studios": [
+    "NTV"
+  ],
+  "actors": [
+    {
+      "name": "Keiji Fujiwara",
+      "order": 500,
+      "role": "Leorio Paladiknight (voice)",
+      "thumb": "/cK5cLHWfVnQdREHs7SpsBs4g4EI.jpg"
+    },
+    {
+      "name": "Chisa Yokoyama",
+      "order": 500,
+      "role": "Biscuit Krueger (voice)",
+      "thumb": "/zdG1f8EJl4vNSCaW9ABkz3ezZFI.jpg"
+    },
+    {
+      "name": "Miyuki Sawashiro",
+      "order": 500,
+      "role": "Kurapika (voice)",
+      "thumb": "/o0ZlluSQHTyaKuFubRtW7rPxQBW.jpg"
+    },
+    {
+      "name": "Banjou Ginga",
+      "order": 500,
+      "role": "Isaac Netero (voice)",
+      "thumb": "/akhAAMAjgZw13Lrz8LQqsfm9ez2.jpg"
+    },
+    {
+      "name": "Daisuke Namikawa",
+      "order": 500,
+      "role": "Hisoka Morow (voice)",
+      "thumb": "/u3G0dSOXazsERnRtVJJgdT1LVUq.jpg"
+    },
+    {
+      "name": "Mariya Ise",
+      "order": 500,
+      "role": "Killua Zoldyck (voice)",
+      "thumb": "/tQWlgrlQ70biWdg7x9E75CtwsuD.jpg"
+    },
+    {
+      "name": "Megumi Han",
+      "order": 500,
+      "role": "Gon Freecss (voice)",
+      "thumb": "/hbZsSUqFOLShJ29uY32UHdW7RYI.jpg"
+    },
+    {
+      "name": "Koki Uchiyama",
+      "order": 500,
+      "role": "Meruem",
+      "thumb": "/hpFCRKaOEQUFBGk1C5P4UlfFKp2.jpg"
+    },
+    {
+      "name": "Mamoru Miyano",
+      "order": 500,
+      "role": "Chrollo Lucilfer (voice)",
+      "thumb": "/5bw3P0A3iCeXaBGWtuWwkmxnAh1.jpg"
+    },
+    {
+      "name": "Rikiya Koyama",
+      "order": 500,
+      "role": "Ging Freecss (voice)",
+      "thumb": "/76irEW7bn5hQYfAk28QtSxnoKOV.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "images": {
     "fanarttv": {
       "clearArt": [
@@ -50,77 +121,6 @@
       "poster": "https://image.tmdb.org/t/p/original/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg"
     }
   },
-  "mpaa": "",
-  "name": "Hunter x Hunter (2011)",
-  "plot": "Twelve-year-old Gon Freecss one day discovers that the father he had always been told was dead was alive and well. His Father, Ging, is a Hunter—a member of society's elite with a license to go anywhere or do almost anything. Gon, determined to follow in his father's footsteps, decides to take the Hunter Examination and eventually find his father to prove himself as a Hunter in his own right. But on the way, he learns that there is more to becoming a Hunter than previously thought, and the challenges that he must face are considered the toughest in the world.",
-  "premiered": "2011-10-02",
-  "status": "Ended",
-  "studios": [
-    "NTV"
-  ],
-  "actors": [
-    {
-      "name": "Mariya Ise",
-      "order": 500,
-      "role": "Killua Zoldyck (voice)",
-      "thumb": "/tQWlgrlQ70biWdg7x9E75CtwsuD.jpg"
-    },
-    {
-      "name": "Banjou Ginga",
-      "order": 500,
-      "role": "Isaac Netero (voice)",
-      "thumb": "/akhAAMAjgZw13Lrz8LQqsfm9ez2.jpg"
-    },
-    {
-      "name": "Daisuke Namikawa",
-      "order": 500,
-      "role": "Hisoka Morow (voice)",
-      "thumb": "/u3G0dSOXazsERnRtVJJgdT1LVUq.jpg"
-    },
-    {
-      "name": "Miyuki Sawashiro",
-      "order": 500,
-      "role": "Kurapika (voice)",
-      "thumb": "/o0ZlluSQHTyaKuFubRtW7rPxQBW.jpg"
-    },
-    {
-      "name": "Megumi Han",
-      "order": 500,
-      "role": "Gon Freecss (voice)",
-      "thumb": "/hbZsSUqFOLShJ29uY32UHdW7RYI.jpg"
-    },
-    {
-      "name": "Keiji Fujiwara",
-      "order": 500,
-      "role": "Leorio Paladiknight (voice)",
-      "thumb": "/cK5cLHWfVnQdREHs7SpsBs4g4EI.jpg"
-    },
-    {
-      "name": "Chisa Yokoyama",
-      "order": 500,
-      "role": "Biscuit Krueger (voice)",
-      "thumb": "/zdG1f8EJl4vNSCaW9ABkz3ezZFI.jpg"
-    },
-    {
-      "name": "Koki Uchiyama",
-      "order": 500,
-      "role": "Meruem",
-      "thumb": "/hpFCRKaOEQUFBGk1C5P4UlfFKp2.jpg"
-    },
-    {
-      "name": "Mamoru Miyano",
-      "order": 500,
-      "role": "Chrollo Lucilfer (voice)",
-      "thumb": "/5bw3P0A3iCeXaBGWtuWwkmxnAh1.jpg"
-    },
-    {
-      "name": "Rikiya Koyama",
-      "order": 500,
-      "role": "Ging Freecss (voice)",
-      "thumb": "/76irEW7bn5hQYfAk28QtSxnoKOV.jpg"
-    }
-  ],
-  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
@@ -1025,6 +1025,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "hunter_x_hunter_2011"
+  }
 }

@@ -5,6 +5,528 @@
     "Drama"
   ],
   "id": 44217,
+  "mpaa": "TV-MA",
+  "name": "Vikings (2013)",
+  "plot": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
+  "premiered": "2013-03-03",
+  "status": "Ended",
+  "studios": [
+    "Amazon",
+    "History"
+  ],
+  "actors": [
+    {
+      "name": "Katheryn Winnick",
+      "order": 4,
+      "role": "Lagertha Lothbrok",
+      "thumb": "/vQSqH3ybDWZHZIqX4NZKhOCXAhQ.jpg"
+    },
+    {
+      "name": "Peter Franzén",
+      "order": 5,
+      "role": "King Harald Finehair",
+      "thumb": "/oyOHvNdJcOTQGZuAimene2Wlghw.jpg"
+    },
+    {
+      "name": "Alexander Ludwig",
+      "order": 1,
+      "role": "Bjorn Lothbrok",
+      "thumb": "/unP5YUgEdECL2gMLs0zCNya6is6.jpg"
+    },
+    {
+      "name": "Gustaf Skarsgård",
+      "order": 10,
+      "role": "Floki",
+      "thumb": "/oH2XSFil6ZHNg9HWur1ymwTLRX3.jpg"
+    },
+    {
+      "name": "Jasper Pääkkönen",
+      "order": 7,
+      "role": "Halfdan the Black",
+      "thumb": "/aZZy9NQEZdhlXWS2i8N00gxW6LU.jpg"
+    },
+    {
+      "name": "Moe Dunford",
+      "order": 8,
+      "role": "Aethelwulf",
+      "thumb": "/4iimMsE2JI0W3VXOMj0rSZtX70n.jpg"
+    },
+    {
+      "name": "Alex Høgh Andersen",
+      "order": 77,
+      "role": "Ivar the Boneless",
+      "thumb": "/wqtvSvC80cSbFCExptqC2s1DZO5.jpg"
+    },
+    {
+      "name": "Marco Ilsø",
+      "order": 3,
+      "role": "Hvitserk Lothbrok",
+      "thumb": "/4p6Mz91vuUugQHNw4Zv2bmw5liJ.jpg"
+    },
+    {
+      "name": "Georgia Hirst",
+      "order": 9,
+      "role": "Torvi",
+      "thumb": "/lnUhfcYBq1iCC5g8M6YmH4fhhTl.jpg"
+    },
+    {
+      "name": "Travis Fimmel",
+      "order": 0,
+      "role": "Ragnar Lothbrok",
+      "thumb": "/v8gLLGqFOHMtftmhg6148zKvBPU.jpg"
+    },
+    {
+      "name": "Clive Standen",
+      "order": 6,
+      "role": "Rollo",
+      "thumb": "/8cxLoC2qnzk0FvuLFLRGxYSq9i9.jpg"
+    },
+    {
+      "name": "Maude Hirst",
+      "order": 14,
+      "role": "Helga",
+      "thumb": "/7TArLsQhx3Na4XzMrj6kz6r7lA.jpg"
+    },
+    {
+      "name": "Alyssa Sutherland",
+      "order": 2,
+      "role": "Princess Aslaug",
+      "thumb": "/femjkNZ7jTbcwz6LjoQQyRD5Mlc.jpg"
+    },
+    {
+      "name": "Jordan Patrick Smith",
+      "order": 3,
+      "role": "Ubbe Lothbrok",
+      "thumb": "/bGPLRUkjCHm2j8VspCOgL6mti4b.jpg"
+    },
+    {
+      "name": "John Kavanagh",
+      "order": 25,
+      "role": "The Seer",
+      "thumb": "/wG5dUlNS4b7eUof6m32MaVFWdla.jpg"
+    },
+    {
+      "name": "George Blagden",
+      "order": 26,
+      "role": "Athelstan",
+      "thumb": "/6wHqrUQoadDuh0lxLNw7Pnl4ABl.jpg"
+    },
+    {
+      "name": "Jessalyn Gilsig",
+      "order": 7,
+      "role": "Siggy Haraldson",
+      "thumb": "/uEApWb9gsIFMZKSxKFklpFW25Wi.jpg"
+    },
+    {
+      "name": "Dianne Doan",
+      "order": 13,
+      "role": "Yidu",
+      "thumb": "/1qOHNQerubLL28fkAX2swY9bAIz.jpg"
+    },
+    {
+      "name": "Danila Kozlovsky",
+      "order": 500,
+      "role": "Prince Oleg of Novgorod",
+      "thumb": "/burD0f0IEOj6FyU5Zokf6VLhHKe.jpg"
+    },
+    {
+      "name": "Nathan O'Toole",
+      "order": 5,
+      "role": "Bjorn Lothbrok",
+      "thumb": "/aayIvRClxGA1v4lcBcZ4jiI1fZl.jpg"
+    },
+    {
+      "name": "Huw Parmenter",
+      "order": 57,
+      "role": "Roland",
+      "thumb": "/gSMP82sQYAn5okwDQseDa8rOd78.jpg"
+    },
+    {
+      "name": "Amy Bailey",
+      "order": 22,
+      "role": "Queen Kwenthrith",
+      "thumb": "/mPUBxceWoU4DPVzz4kF97nwUbkm.jpg"
+    },
+    {
+      "name": "Jack McEvoy",
+      "order": 58,
+      "role": "Helgi the Lean",
+      "thumb": "/dGvuRjET6DswkTZIepuI3vgVyLH.jpg"
+    },
+    {
+      "name": "Donal Logue",
+      "order": 6,
+      "role": "King Horik",
+      "thumb": "/dyY8Q2jCXQWWG9NtSsXRriKxpgf.jpg"
+    },
+    {
+      "name": "Ragga Ragnars",
+      "order": 63,
+      "role": "Gunnhild",
+      "thumb": "/thDqwXUOQXSEIjfaDLQMeAV071.jpg"
+    },
+    {
+      "name": "Steven Berkoff",
+      "order": 65,
+      "role": "King Olaf the Stout",
+      "thumb": "/pNVdTLSFxPY9Jq2MkYRhkLgAATp.jpg"
+    },
+    {
+      "name": "Gaia Weiss",
+      "order": 500,
+      "role": "Thorunn",
+      "thumb": "/3IxpprwM2Au3mgZrfJ04R6iQsGz.jpg"
+    },
+    {
+      "name": "Gabriel Byrne",
+      "order": 1,
+      "role": "Earl Haraldson",
+      "thumb": "/9r9oDGENg92VYYFMkV4C09IUlrb.jpg"
+    },
+    {
+      "name": "Ruby O'Leary",
+      "order": 8,
+      "role": "Gyda",
+      "thumb": null
+    },
+    {
+      "name": "Tadhg Murphy",
+      "order": 9,
+      "role": "Arne",
+      "thumb": "/5YQzdACbDvDwcfITmcwxMUEPJLK.jpg"
+    },
+    {
+      "name": "Jefferson Hall",
+      "order": 10,
+      "role": "Torstein",
+      "thumb": "/39QSUNG3CEJldnGkPigmbMjMTXx.jpg"
+    },
+    {
+      "name": "Alicia Agneson",
+      "order": 62,
+      "role": "Freydis",
+      "thumb": "/a3IrkRmyqbm7NltqvN7ilWZZkx0.jpg"
+    },
+    {
+      "name": "Lucy Martin",
+      "order": 61,
+      "role": "Ingrid",
+      "thumb": "/5mYsGxI46oVUCVjU66jAltQZNJu.jpg"
+    },
+    {
+      "name": "Adam Copeland",
+      "order": 61,
+      "role": "Kjetill Flatnose",
+      "thumb": "/xawkWKkgbOx5atAMeFDh9rjHGWt.jpg"
+    },
+    {
+      "name": "Roisin Murphy",
+      "order": 18,
+      "role": "Elsewith",
+      "thumb": "/29BykMWPEOed3Hzmfaxie5hwTxW.jpg"
+    },
+    {
+      "name": "Ryan Henson",
+      "order": 64,
+      "role": "Hali",
+      "thumb": null
+    },
+    {
+      "name": "Kieran O'Reilly",
+      "order": 64,
+      "role": "White Hair",
+      "thumb": "/bliXgZTXDTg7cnuFwT6bLjojYJQ.jpg"
+    },
+    {
+      "name": "Kristy Dawn Dinsmore",
+      "order": 65,
+      "role": "Amma",
+      "thumb": "/kDcAPgQIQXxhwI7we2DyGrwA4RY.jpg"
+    },
+    {
+      "name": "James Craze",
+      "order": 72,
+      "role": "Bul",
+      "thumb": null
+    },
+    {
+      "name": "Aaron Lee Reed",
+      "order": 8,
+      "role": "Viking (uncredited)",
+      "thumb": "/7ap5YTCNolesyOo7frukahIHjiM.jpg"
+    },
+    {
+      "name": "Elodie Curry",
+      "order": 48,
+      "role": "Asa",
+      "thumb": "/4n4ohWEAswZhhYYfMvAJpMaTkn5.jpg"
+    },
+    {
+      "name": "Lenn Kudrjawizki",
+      "order": 58,
+      "role": "Prince Dir",
+      "thumb": "/hH26APWthsuBSlX9VeOMcM2olel.jpg"
+    },
+    {
+      "name": "Andrei Claude",
+      "order": 63,
+      "role": "Ganbaatar",
+      "thumb": "/nMNPUFGq8qyrLMMMMli1biPGqlP.jpg"
+    },
+    {
+      "name": "Oran Glynn O'Donovan",
+      "order": 63,
+      "role": "Igor",
+      "thumb": null
+    },
+    {
+      "name": "Danny O'Connor",
+      "order": 48,
+      "role": "Messenger 1",
+      "thumb": "/1ZsMKDDXflblPQAj0bIJJt71VD7.jpg"
+    },
+    {
+      "name": "Kelly Campbell",
+      "order": 61,
+      "role": "Ingvild",
+      "thumb": "/7i2irpjuZVTzZccUDc0DTVwcgqn.jpg"
+    },
+    {
+      "name": "Sophie Vavasseur",
+      "order": 3,
+      "role": "Princess Ellisif",
+      "thumb": "/tlAjiOhWufp4yUTfZbbUfqNFJun.jpg"
+    },
+    {
+      "name": "Eve Connolly",
+      "order": 44,
+      "role": "Thora",
+      "thumb": "/qzNUbOgKQl22GNF3UG6THMEeIrj.jpg"
+    },
+    {
+      "name": "Serena Kennedy",
+      "order": 45,
+      "role": "Anna",
+      "thumb": "/9oqsvyQFeovD3fjyqGJNNm2Jhhz.jpg"
+    },
+    {
+      "name": "Marko Leht",
+      "order": 45,
+      "role": "Torturer",
+      "thumb": "/4WmZVY3aAQ6aGkH0WiA4juuVL2m.jpg"
+    },
+    {
+      "name": "Michael Johnston",
+      "order": 45,
+      "role": "Messenger 2",
+      "thumb": "/h2eTTULM5QN2m7a9XJPPYZ2WfrP.jpg"
+    },
+    {
+      "name": "Conn Rogers",
+      "order": 48,
+      "role": "Canute",
+      "thumb": "/mP5NW2pTgfLAkAhY2OyGcnjYBJl.jpg"
+    },
+    {
+      "name": "Martin Maloney",
+      "order": 65,
+      "role": "Vigrid",
+      "thumb": "/Ayj6FE4QpglC5KhJl04ezoYTeZ.jpg"
+    },
+    {
+      "name": "Paul Reid",
+      "order": 76,
+      "role": "Mannel",
+      "thumb": null
+    },
+    {
+      "name": "David Wilmot",
+      "order": 1,
+      "role": "Olaf Andwend",
+      "thumb": "/epb46N0iJyAmSOguMdFn6qQGSsy.jpg"
+    },
+    {
+      "name": "David Lindström",
+      "order": 2,
+      "role": "Sigurd",
+      "thumb": null
+    },
+    {
+      "name": "Siobhan Kelly",
+      "order": 6,
+      "role": "Egil's Wife",
+      "thumb": "/lUpJQuUPSAUsbtDF2ep1yIxx6Et.jpg"
+    },
+    {
+      "name": "Leah McNamara",
+      "order": 9,
+      "role": "Aud",
+      "thumb": "/ecVaqYk9SlH0sOJ8eDgwqsbKceS.jpg"
+    },
+    {
+      "name": "Jamie Maclachlan",
+      "order": 18,
+      "role": "Aldwin",
+      "thumb": "/oE0O4BjDMwD4j4EBedS0eOvhcv0.jpg"
+    },
+    {
+      "name": "Elizabeth Moynihan",
+      "order": 19,
+      "role": "Gunnhild",
+      "thumb": null
+    },
+    {
+      "name": "Bryan Quinn",
+      "order": 36,
+      "role": "One-Eyed Man",
+      "thumb": "/7aDIOZaj48RBnaqg4oVtvfuemrc.jpg"
+    },
+    {
+      "name": "Will Guppy",
+      "order": 41,
+      "role": "Chamberlain",
+      "thumb": "/pV6m2Lh9RJPpo2TOTEt9Di9gttH.jpg"
+    },
+    {
+      "name": "Blake Kubena",
+      "order": 42,
+      "role": "Prince Askold",
+      "thumb": "/4kwSXbQAiFxy4UK09f9qNyajX68.jpg"
+    },
+    {
+      "name": "Alicia Gerrard",
+      "order": 45,
+      "role": "First Woman",
+      "thumb": "/7xaeebSc1dfLyx2oOcI6s6Xjbpw.jpg"
+    },
+    {
+      "name": "Deborah Wiseman",
+      "order": 46,
+      "role": "Second Woman",
+      "thumb": "/Sc5CLTWWSNWv8h51l4yvcqVfaM.jpg"
+    },
+    {
+      "name": "Aine Hayden",
+      "order": 47,
+      "role": "Old Woman",
+      "thumb": "/iUyjfVp3Y7DBUMZ4HYZ3eDGrs7Z.jpg"
+    },
+    {
+      "name": "Per Fredrik Åsly",
+      "order": 48,
+      "role": "Envoy",
+      "thumb": "/6sDhn8QYxX8AlTE01RLCOYWSmg7.jpg"
+    },
+    {
+      "name": "Kathy Monahan",
+      "order": 49,
+      "role": "Eira",
+      "thumb": null
+    },
+    {
+      "name": "Oisin Murray",
+      "order": 50,
+      "role": "Tarben",
+      "thumb": null
+    },
+    {
+      "name": "David Sterne",
+      "order": 51,
+      "role": "Gudmund",
+      "thumb": "/ipvWDt43Md5CHeq4tDq6oucNFl5.jpg"
+    },
+    {
+      "name": "Aoibheann McCann",
+      "order": 52,
+      "role": "Skadi",
+      "thumb": "/rYezoCSuCvSbRo96r6KsnE83xg5.jpg"
+    },
+    {
+      "name": "Gina Costigan",
+      "order": 53,
+      "role": "Runa",
+      "thumb": "/nLiELNvcpCoVk99J1VftmRzagJw.jpg"
+    },
+    {
+      "name": "Owen Barton",
+      "order": 54,
+      "role": "Warrior",
+      "thumb": "/3fwdW7KRJCXX3Rp8tjmrOtKUTsD.jpg"
+    },
+    {
+      "name": "Sandy Kennedy",
+      "order": 55,
+      "role": "Sylvi",
+      "thumb": null
+    },
+    {
+      "name": "Anna Maria Jopek",
+      "order": 59,
+      "role": "Female Skald",
+      "thumb": "/4WnGd3F2MJQF93Nvg9F3gN9WHZ3.jpg"
+    },
+    {
+      "name": "Ray Stevenson",
+      "order": 60,
+      "role": "Othere",
+      "thumb": "/fH1cLfWFslsQc4AvWL5SNoF0nvM.jpg"
+    },
+    {
+      "name": "Elshka Lane",
+      "order": 61,
+      "role": "Katia's Servant",
+      "thumb": null
+    },
+    {
+      "name": "Fredrik Hiller",
+      "order": 62,
+      "role": "Thorkell",
+      "thumb": "/pgQE7NQmzv4y0JnSDuHZ8ndeeqh.jpg"
+    },
+    {
+      "name": "Dean Ridge",
+      "order": 63,
+      "role": "Magnus",
+      "thumb": null
+    },
+    {
+      "name": "Svea Killoran",
+      "order": 64,
+      "role": "Asa",
+      "thumb": null
+    },
+    {
+      "name": "Erik Madsen",
+      "order": 67,
+      "role": "King Hemming",
+      "thumb": "/3U5RkBemIeA9GA7pt1reJ7MQSku.jpg"
+    },
+    {
+      "name": "Khaled Abol Naga",
+      "order": 68,
+      "role": "Ziyadat Allah",
+      "thumb": "/kmT9Wpzy0Y1m1jmUgCy7VqMzgSS.jpg"
+    },
+    {
+      "name": "Ferdia Walsh-Peelo",
+      "order": 71,
+      "role": "Alfred The Great",
+      "thumb": "/l06B8SizX7bjom7GDKbpSxGxZDS.jpg"
+    },
+    {
+      "name": "Jonathan Delaney Tynan",
+      "order": 72,
+      "role": "Lord Cuthred",
+      "thumb": null
+    },
+    {
+      "name": "Keith McErlean",
+      "order": 73,
+      "role": "Lord Denewulf",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
   "images": {
     "fanarttv": {
       "clearArt": [
@@ -187,9 +709,9 @@
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-56189f7533b8e.jpg"
       ],
       "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5e066fa3b924a.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a33fac0ba16d.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-567ad6c091ee2.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5e066fa3b924a.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-551f63e8bcc0d.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a33fb1d69b69.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-544abaf697f4d.jpg",
@@ -244,552 +766,6 @@
       "poster": "https://image.tmdb.org/t/p/original/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg"
     }
   },
-  "mpaa": "TV-MA",
-  "name": "Vikings (2013)",
-  "plot": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
-  "premiered": "2013-03-03",
-  "status": "Ended",
-  "studios": [
-    "Amazon",
-    "History"
-  ],
-  "actors": [
-    {
-      "name": "Katheryn Winnick",
-      "order": 4,
-      "role": "Lagertha Lothbrok",
-      "thumb": "/vQSqH3ybDWZHZIqX4NZKhOCXAhQ.jpg"
-    },
-    {
-      "name": "Peter Franzén",
-      "order": 5,
-      "role": "King Harald Finehair",
-      "thumb": "/oyOHvNdJcOTQGZuAimene2Wlghw.jpg"
-    },
-    {
-      "name": "Alexander Ludwig",
-      "order": 1,
-      "role": "Bjorn Lothbrok",
-      "thumb": "/unP5YUgEdECL2gMLs0zCNya6is6.jpg"
-    },
-    {
-      "name": "Gustaf Skarsgård",
-      "order": 10,
-      "role": "Floki",
-      "thumb": "/oH2XSFil6ZHNg9HWur1ymwTLRX3.jpg"
-    },
-    {
-      "name": "Jasper Pääkkönen",
-      "order": 7,
-      "role": "Halfdan the Black",
-      "thumb": "/aZZy9NQEZdhlXWS2i8N00gxW6LU.jpg"
-    },
-    {
-      "name": "Moe Dunford",
-      "order": 8,
-      "role": "Aethelwulf",
-      "thumb": "/4iimMsE2JI0W3VXOMj0rSZtX70n.jpg"
-    },
-    {
-      "name": "Alex Høgh Andersen",
-      "order": 77,
-      "role": "Ivar the Boneless",
-      "thumb": "/wqtvSvC80cSbFCExptqC2s1DZO5.jpg"
-    },
-    {
-      "name": "Marco Ilsø",
-      "order": 3,
-      "role": "Hvitserk Lothbrok",
-      "thumb": "/4p6Mz91vuUugQHNw4Zv2bmw5liJ.jpg"
-    },
-    {
-      "name": "Georgia Hirst",
-      "order": 9,
-      "role": "Torvi",
-      "thumb": "/lnUhfcYBq1iCC5g8M6YmH4fhhTl.jpg"
-    },
-    {
-      "name": "Travis Fimmel",
-      "order": 0,
-      "role": "Ragnar Lothbrok",
-      "thumb": "/v8gLLGqFOHMtftmhg6148zKvBPU.jpg"
-    },
-    {
-      "name": "Clive Standen",
-      "order": 6,
-      "role": "Rollo",
-      "thumb": "/8cxLoC2qnzk0FvuLFLRGxYSq9i9.jpg"
-    },
-    {
-      "name": "Maude Hirst",
-      "order": 14,
-      "role": "Helga",
-      "thumb": "/7TArLsQhx3Na4XzMrj6kz6r7lA.jpg"
-    },
-    {
-      "name": "Alyssa Sutherland",
-      "order": 2,
-      "role": "Princess Aslaug",
-      "thumb": "/femjkNZ7jTbcwz6LjoQQyRD5Mlc.jpg"
-    },
-    {
-      "name": "Jordan Patrick Smith",
-      "order": 3,
-      "role": "Ubbe Lothbrok",
-      "thumb": "/bGPLRUkjCHm2j8VspCOgL6mti4b.jpg"
-    },
-    {
-      "name": "John Kavanagh",
-      "order": 25,
-      "role": "The Seer",
-      "thumb": "/wG5dUlNS4b7eUof6m32MaVFWdla.jpg"
-    },
-    {
-      "name": "George Blagden",
-      "order": 26,
-      "role": "Athelstan",
-      "thumb": "/6wHqrUQoadDuh0lxLNw7Pnl4ABl.jpg"
-    },
-    {
-      "name": "Jessalyn Gilsig",
-      "order": 7,
-      "role": "Siggy Haraldson",
-      "thumb": "/uEApWb9gsIFMZKSxKFklpFW25Wi.jpg"
-    },
-    {
-      "name": "Dianne Doan",
-      "order": 13,
-      "role": "Yidu",
-      "thumb": "/1qOHNQerubLL28fkAX2swY9bAIz.jpg"
-    },
-    {
-      "name": "Danila Kozlovsky",
-      "order": 500,
-      "role": "Prince Oleg of Novgorod",
-      "thumb": "/burD0f0IEOj6FyU5Zokf6VLhHKe.jpg"
-    },
-    {
-      "name": "Nathan O'Toole",
-      "order": 5,
-      "role": "Bjorn Lothbrok",
-      "thumb": "/aayIvRClxGA1v4lcBcZ4jiI1fZl.jpg"
-    },
-    {
-      "name": "Huw Parmenter",
-      "order": 57,
-      "role": "Roland",
-      "thumb": "/gSMP82sQYAn5okwDQseDa8rOd78.jpg"
-    },
-    {
-      "name": "Amy Bailey",
-      "order": 22,
-      "role": "Princess Kwenthrith",
-      "thumb": "/mPUBxceWoU4DPVzz4kF97nwUbkm.jpg"
-    },
-    {
-      "name": "Jack McEvoy",
-      "order": 58,
-      "role": "Helgi the Lean",
-      "thumb": "/dGvuRjET6DswkTZIepuI3vgVyLH.jpg"
-    },
-    {
-      "name": "Donal Logue",
-      "order": 6,
-      "role": "King Horik",
-      "thumb": "/dyY8Q2jCXQWWG9NtSsXRriKxpgf.jpg"
-    },
-    {
-      "name": "Ragga Ragnars",
-      "order": 63,
-      "role": "Gunnhild",
-      "thumb": "/thDqwXUOQXSEIjfaDLQMeAV071.jpg"
-    },
-    {
-      "name": "Steven Berkoff",
-      "order": 65,
-      "role": "King Olaf the Stout",
-      "thumb": "/pNVdTLSFxPY9Jq2MkYRhkLgAATp.jpg"
-    },
-    {
-      "name": "Gaia Weiss",
-      "order": 500,
-      "role": "Thorunn",
-      "thumb": "/3IxpprwM2Au3mgZrfJ04R6iQsGz.jpg"
-    },
-    {
-      "name": "Gabriel Byrne",
-      "order": 1,
-      "role": "Earl Haraldson",
-      "thumb": "/9r9oDGENg92VYYFMkV4C09IUlrb.jpg"
-    },
-    {
-      "name": "Ruby O'Leary",
-      "order": 8,
-      "role": "Gyda",
-      "thumb": null
-    },
-    {
-      "name": "Tadhg Murphy",
-      "order": 9,
-      "role": "Arne",
-      "thumb": "/5YQzdACbDvDwcfITmcwxMUEPJLK.jpg"
-    },
-    {
-      "name": "Jefferson Hall",
-      "order": 10,
-      "role": "Torstein",
-      "thumb": "/39QSUNG3CEJldnGkPigmbMjMTXx.jpg"
-    },
-    {
-      "name": "Alicia Agneson",
-      "order": 62,
-      "role": "Freydis",
-      "thumb": "/a3IrkRmyqbm7NltqvN7ilWZZkx0.jpg"
-    },
-    {
-      "name": "Adam Copeland",
-      "order": 61,
-      "role": "Kjetill Flatnose",
-      "thumb": "/xawkWKkgbOx5atAMeFDh9rjHGWt.jpg"
-    },
-    {
-      "name": "Lucy Martin",
-      "order": 61,
-      "role": "Ingrid",
-      "thumb": "/5mYsGxI46oVUCVjU66jAltQZNJu.jpg"
-    },
-    {
-      "name": "Roisin Murphy",
-      "order": 18,
-      "role": "Elsewith",
-      "thumb": "/29BykMWPEOed3Hzmfaxie5hwTxW.jpg"
-    },
-    {
-      "name": "Ryan Henson",
-      "order": 64,
-      "role": "Hali",
-      "thumb": null
-    },
-    {
-      "name": "Kieran O'Reilly",
-      "order": 64,
-      "role": "White Hair",
-      "thumb": "/bliXgZTXDTg7cnuFwT6bLjojYJQ.jpg"
-    },
-    {
-      "name": "Kristy Dawn Dinsmore",
-      "order": 65,
-      "role": "Amma",
-      "thumb": "/kDcAPgQIQXxhwI7we2DyGrwA4RY.jpg"
-    },
-    {
-      "name": "Aaron Lee Reed",
-      "order": 8,
-      "role": "Viking (uncredited)",
-      "thumb": "/7ap5YTCNolesyOo7frukahIHjiM.jpg"
-    },
-    {
-      "name": "Elodie Curry",
-      "order": 48,
-      "role": "Asa",
-      "thumb": "/4n4ohWEAswZhhYYfMvAJpMaTkn5.jpg"
-    },
-    {
-      "name": "Lenn Kudrjawizki",
-      "order": 58,
-      "role": "Prince Dir",
-      "thumb": "/hH26APWthsuBSlX9VeOMcM2olel.jpg"
-    },
-    {
-      "name": "Andrei Claude",
-      "order": 63,
-      "role": "Ganbaatar",
-      "thumb": "/nMNPUFGq8qyrLMMMMli1biPGqlP.jpg"
-    },
-    {
-      "name": "Oran Glynn O'Donovan",
-      "order": 63,
-      "role": "Igor",
-      "thumb": null
-    },
-    {
-      "name": "Danny O'Connor",
-      "order": 48,
-      "role": "Messenger 1",
-      "thumb": "/1ZsMKDDXflblPQAj0bIJJt71VD7.jpg"
-    },
-    {
-      "name": "Kelly Campbell",
-      "order": 61,
-      "role": "Ingvild",
-      "thumb": "/7i2irpjuZVTzZccUDc0DTVwcgqn.jpg"
-    },
-    {
-      "name": "Sophie Vavasseur",
-      "order": 3,
-      "role": "Princess Ellisif",
-      "thumb": "/tlAjiOhWufp4yUTfZbbUfqNFJun.jpg"
-    },
-    {
-      "name": "Eve Connolly",
-      "order": 44,
-      "role": "Thora",
-      "thumb": "/qzNUbOgKQl22GNF3UG6THMEeIrj.jpg"
-    },
-    {
-      "name": "Serena Kennedy",
-      "order": 45,
-      "role": "Anna",
-      "thumb": "/9oqsvyQFeovD3fjyqGJNNm2Jhhz.jpg"
-    },
-    {
-      "name": "Michael Johnston",
-      "order": 45,
-      "role": "Messenger 2",
-      "thumb": "/h2eTTULM5QN2m7a9XJPPYZ2WfrP.jpg"
-    },
-    {
-      "name": "Marko Leht",
-      "order": 45,
-      "role": "Torturer",
-      "thumb": "/4WmZVY3aAQ6aGkH0WiA4juuVL2m.jpg"
-    },
-    {
-      "name": "Conn Rogers",
-      "order": 48,
-      "role": "Canute",
-      "thumb": "/mP5NW2pTgfLAkAhY2OyGcnjYBJl.jpg"
-    },
-    {
-      "name": "Martin Maloney",
-      "order": 65,
-      "role": "Vigrid",
-      "thumb": "/Ayj6FE4QpglC5KhJl04ezoYTeZ.jpg"
-    },
-    {
-      "name": "Paul Reid",
-      "order": 76,
-      "role": "Mannel",
-      "thumb": null
-    },
-    {
-      "name": "David Wilmot",
-      "order": 1,
-      "role": "Olaf Andwend",
-      "thumb": "/epb46N0iJyAmSOguMdFn6qQGSsy.jpg"
-    },
-    {
-      "name": "David Lindström",
-      "order": 2,
-      "role": "Sigurd",
-      "thumb": null
-    },
-    {
-      "name": "Siobhan Kelly",
-      "order": 6,
-      "role": "Egil's Wife",
-      "thumb": "/lUpJQuUPSAUsbtDF2ep1yIxx6Et.jpg"
-    },
-    {
-      "name": "Leah McNamara",
-      "order": 9,
-      "role": "Aud",
-      "thumb": "/ecVaqYk9SlH0sOJ8eDgwqsbKceS.jpg"
-    },
-    {
-      "name": "James Craze",
-      "order": 13,
-      "role": "bul",
-      "thumb": null
-    },
-    {
-      "name": "James Craze",
-      "order": 14,
-      "role": "Bul",
-      "thumb": null
-    },
-    {
-      "name": "James Craze",
-      "order": 15,
-      "role": "Bul",
-      "thumb": null
-    },
-    {
-      "name": "James Craze",
-      "order": 16,
-      "role": "Bul",
-      "thumb": null
-    },
-    {
-      "name": "James Craze",
-      "order": 17,
-      "role": "Bul",
-      "thumb": null
-    },
-    {
-      "name": "Jamie Maclachlan",
-      "order": 18,
-      "role": "Aldwin",
-      "thumb": "/oE0O4BjDMwD4j4EBedS0eOvhcv0.jpg"
-    },
-    {
-      "name": "Elizabeth Moynihan",
-      "order": 19,
-      "role": "Gunnhild",
-      "thumb": null
-    },
-    {
-      "name": "Bryan Quinn",
-      "order": 36,
-      "role": "One-Eyed Man",
-      "thumb": "/7aDIOZaj48RBnaqg4oVtvfuemrc.jpg"
-    },
-    {
-      "name": "Will Guppy",
-      "order": 41,
-      "role": "Chamberlain",
-      "thumb": "/pV6m2Lh9RJPpo2TOTEt9Di9gttH.jpg"
-    },
-    {
-      "name": "Blake Kubena",
-      "order": 42,
-      "role": "Prince Askold",
-      "thumb": "/4kwSXbQAiFxy4UK09f9qNyajX68.jpg"
-    },
-    {
-      "name": "Alicia Gerrard",
-      "order": 45,
-      "role": "First Woman",
-      "thumb": "/7xaeebSc1dfLyx2oOcI6s6Xjbpw.jpg"
-    },
-    {
-      "name": "Deborah Wiseman",
-      "order": 46,
-      "role": "Second Woman",
-      "thumb": "/Sc5CLTWWSNWv8h51l4yvcqVfaM.jpg"
-    },
-    {
-      "name": "Aine Hayden",
-      "order": 47,
-      "role": "Old Woman",
-      "thumb": "/iUyjfVp3Y7DBUMZ4HYZ3eDGrs7Z.jpg"
-    },
-    {
-      "name": "Per Fredrik Åsly",
-      "order": 48,
-      "role": "Envoy",
-      "thumb": "/6sDhn8QYxX8AlTE01RLCOYWSmg7.jpg"
-    },
-    {
-      "name": "Kathy Monahan",
-      "order": 49,
-      "role": "Eira",
-      "thumb": null
-    },
-    {
-      "name": "Oisin Murray",
-      "order": 50,
-      "role": "Tarben",
-      "thumb": null
-    },
-    {
-      "name": "David Sterne",
-      "order": 51,
-      "role": "Gudmund",
-      "thumb": "/ipvWDt43Md5CHeq4tDq6oucNFl5.jpg"
-    },
-    {
-      "name": "Aoibheann McCann",
-      "order": 52,
-      "role": "Skadi",
-      "thumb": "/rYezoCSuCvSbRo96r6KsnE83xg5.jpg"
-    },
-    {
-      "name": "Gina Costigan",
-      "order": 53,
-      "role": "Runa",
-      "thumb": "/nLiELNvcpCoVk99J1VftmRzagJw.jpg"
-    },
-    {
-      "name": "Owen Barton",
-      "order": 54,
-      "role": "Warrior",
-      "thumb": "/3fwdW7KRJCXX3Rp8tjmrOtKUTsD.jpg"
-    },
-    {
-      "name": "Sandy Kennedy",
-      "order": 55,
-      "role": "Sylvi",
-      "thumb": null
-    },
-    {
-      "name": "Anna Maria Jopek",
-      "order": 59,
-      "role": "Female Skald",
-      "thumb": "/4WnGd3F2MJQF93Nvg9F3gN9WHZ3.jpg"
-    },
-    {
-      "name": "Ray Stevenson",
-      "order": 60,
-      "role": "Othere",
-      "thumb": "/fH1cLfWFslsQc4AvWL5SNoF0nvM.jpg"
-    },
-    {
-      "name": "Elshka Lane",
-      "order": 61,
-      "role": "Katia's Servant",
-      "thumb": null
-    },
-    {
-      "name": "Fredrik Hiller",
-      "order": 62,
-      "role": "Thorkell",
-      "thumb": "/pgQE7NQmzv4y0JnSDuHZ8ndeeqh.jpg"
-    },
-    {
-      "name": "Dean Ridge",
-      "order": 63,
-      "role": "Magnus",
-      "thumb": null
-    },
-    {
-      "name": "Svea Killoran",
-      "order": 64,
-      "role": "Asa",
-      "thumb": null
-    },
-    {
-      "name": "Erik Madsen",
-      "order": 67,
-      "role": "King Hemming",
-      "thumb": "/3U5RkBemIeA9GA7pt1reJ7MQSku.jpg"
-    },
-    {
-      "name": "Khaled Abol Naga",
-      "order": 68,
-      "role": "Ziyadat Allah",
-      "thumb": "/kmT9Wpzy0Y1m1jmUgCy7VqMzgSS.jpg"
-    },
-    {
-      "name": "Ferdia Walsh-Peelo",
-      "order": 71,
-      "role": "Alfred The Great",
-      "thumb": "/l06B8SizX7bjom7GDKbpSxGxZDS.jpg"
-    },
-    {
-      "name": "Jonathan Delaney Tynan",
-      "order": 72,
-      "role": "Lord Cuthred",
-      "thumb": null
-    },
-    {
-      "name": "Keith McErlean",
-      "order": 73,
-      "role": "Lord Denewulf",
-      "thumb": null
-    }
-  ],
-  "dvdSeasons": {},
   "seasons": {
     "0": {
       "episodes": [
@@ -1348,60 +1324,59 @@
         },
         {
           "aired": "2020-12-30",
-          "plot": "The mood has changed when the Rus army returns to Kiev and Oleg isolates Ivar. But Dir confirms that he’s mustering a force to overthrow Oleg and Ivar is part of the plan. Ubbe and a group of settlers depart Iceland, in search of the Golden Land.",
+          "plot": "Ubbe persuades the settlers in Iceland to embark on a voyage of exploration. The defeat of the Rus creates power vacuums in both Kattegat and Kiev.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/uA1KJNbfrB5hS53iLsTECOoBcG5.jpg",
           "title": "All Change"
         },
         {
           "aired": "2020-12-30",
-          "plot": "It’s Election Day in Kattegat and all eyes are on the voting. But strangers arriving at the harbormay force an unexpected outcome. Meanwhile, Ivar receives the signal from Prince Dir that his forces are ready to challenge Oleg.",
+          "plot": "The election for Kattegat's new ruler is held, but a surprise visitor disrupts the proceedings. Ivar puts his plan to overthrow Oleg into action.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/2DJXUoZ9zyn2K3y7pKoZxhksWrz.jpg",
           "title": "The Signal"
         },
         {
           "aired": "2020-12-30",
-          "plot": "Prince Igor receives a hero’s welcome in Novgorod but back in Kiev the mood is darker: Prince Oleg will not be giving up the fight. Meanwhile, Ubbe’s settlers are overjoyed to find land, but it’s not the Golden Land they expected.",
+          "plot": "As his enemies scheme for power, Harald prepares for his coronation and chooses a queen. Ubbe's party reaches shore — but not the one they're seeking.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/5na7PFBJ4XEDq9KCTpKlHHT1wCf.jpg",
           "title": "Lost Souls"
         },
         {
           "aired": "2020-12-30",
-          "plot": "Ubbe, Torvi, and Othere barely escape with their lives when a fight breaks out in Greenland, then they are faced with a new dilemma.",
+          "plot": "Factions in Greenland spill blood, driving Ubbe's company away. Troops under Ivar and Dir seize Kiev for Prince Igor. Gunnhild makes a fateful choice.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/xaVN43teppuG1akdK255lfzLowj.jpg",
           "title": "All at Sea"
         },
         {
           "aired": "2020-12-30",
-          "plot": "Out in the open sea, Ubbe and the settlers are at the mercy of the elements. Tension mounts between Ubbe and Othere and when baby Ragnar begins to weaken, it’s the final straw for Ubbe. Meanwhile, Ivar and Hvitserk return to Kattegat.",
+          "plot": "Ubbe and his followers languish on the open sea. Ivar and Hvitserk receive a frosty reception in Kattegat, until a restless Ivar has a revelation.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/6P5IvRtYnYTfONiMIy2MwZKoZKA.jpg",
           "title": "The Final Straw"
         },
         {
           "aired": "2020-12-30",
-          "plot": "When King Alfred of Wessex hears about the arrival of the sons of Ragnar, with an army, he knows he must take drastic action. So as the Viking army makes camp and lies in wait, Alfred and his army abandon the Royal Villa and march to meet them.",
+          "plot": "Ivar and Hvitserk lead King Harald's army to England, where King Alfred of Wessex abandons his royal villa and marches to meet the sons of Ragnar.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/jAhNalWnkhgcN0VDwy6mTregIQl.jpg",
           "title": "The Raft of Medusa"
         },
         {
           "aired": "2020-12-30",
-          "plot": "Ubbe and the settlers find land, but soon realize they’re not alone. In Wessex, King Alfred has mustered a large force to meet the Vikings. Meanwhile, in Kattegat, Erik realizes that Ingrid has been using her powers against him.",
+          "plot": "King Alfred falls ill as the Viking army seizes the high ground. Ingrid curses Erik. Ubbe and his people find a new world — but they're not alone.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/dYuWUI8Gh4LSDkIVouKyU3lIdM1.jpg",
           "title": "It's Only Magic"
         },
         {
           "aired": "2020-12-30",
-          "plot": "In the new land, Ubbe and the settlers engage in careful diplomacy when they are surrounded by the locals. In Wessex, the Vikings ambush the Saxon army, but Alfred is convinced the Lord is with his army and refuses to retreat.",
+          "plot": "Ubbe and the settlers open relations with the indigenous people of the new land. Ivar's strategy lures Alfred's forces into a devastating battle.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/8b1Li8HTLLLIgpdlsfeVzAGxDIA.jpg",
           "title": "The Lord Giveth"
         },
         {
           "aired": "2020-12-30",
-          "plot": "The epic saga which began with Ragnar Lothbrok, the first Viking hero to emerge from the mists of myth and legend, comes to an end in a spectacular and shocking series finale which finds tragedy striking in the new land and in England.",
+          "plot": "Ubbe reunites with an old friend but must pass judgment on a killer. The armies of Alfred and Ivar clash as each leader looks to his god for strength.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/5NmZRvgBV0IRtx1tYVuMyCalx41.jpg",
           "title": "The Last Act"
         }
       ]
     }
-  },
-  "cacheKey": "vikings_2013"
+  }
 }

@@ -6,136 +6,6 @@
     "Horror"
   ],
   "id": 64432,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd56e13bb6.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace451567e47.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d26abe53f.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d418ef23b.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-56c4835252c12.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb0b18ce5.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5a0f55dc084b6.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd59c641f6.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace4525f1501.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d289908f1.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d431cf94d.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-59359074a7ac6.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb3c16c00.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5a0f55fb2df8d.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd5c59192d.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace453517fa5.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d2a40af1d.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d4497d2e4.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb4ad822b.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd60149990.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d2c09d6fe.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d37b8db90.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d464d8e28.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb580c9df.jpg"
-        ],
-        "5": [
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd69762b4c.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d396c1dc6.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d480e94b9.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb68f104e.jpg"
-        ],
-        "6": [
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb77dd048.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d165d7121.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5690b0afbe9b1.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e120e24c9dc2.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d165b4c18.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d165f1bab.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d16618602.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d166331ac.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d1664dba1.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d16668677.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d16683303.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d17742cef.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d17764fd2.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d1777fa7a.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d1779a481.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d177b4c1a.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d177cf310.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d177ea6c4.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18a81883.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18aa415d.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18ada32d.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b01174.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b1c119.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b36cf1.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b51412.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5690b0d711af9.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5a57a4bc41ce3.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-588e79bec177d.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e120e24a75fb.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-568164f1a7f2c.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be5542ff3.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be69b1bcf.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be69cd00b.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be69e79ac.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a0ed76.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a2a7b3.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a4609e.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a6185b.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be7a1bf53.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be7a3eb7f.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be7a59c19.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d17810e4e.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-57fc74b7f0de0.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-569d350499c5a.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-569d355eeacbc.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-5c90fcaabc503.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb479b527576.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb479ca91370.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5681648d132e3.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb7d24c2ad53.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c483325d408.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44b313bab.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44bbf1fb4.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44d199f57.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5681647918389.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-568164a2efffd.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5bbeb77b8c884.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5c163bca9acbf.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-571a47325dfdb.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5848ac082d62c.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c483433a4f5.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c4834a93fa5.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d0840b089.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d09512aa0.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d095356ef.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d095507aa.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-571f32d5c725f.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5c90fc8eb332f.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-56abf7b50aa54.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/wcfErhzLmmeutxAMpbHlR0Naa2q.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/A66dZN98BPEYeFQAhNdNCIXa57d.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "The Magicians (2015)",
   "plot": "Brakebills University is a secret institution specializing in magic. There, amidst an unorthodox education of spellcasting, a group of twenty-something friends soon discover that a magical fantasy world they read about as children is all too real— and poses grave danger to humanity.",
@@ -214,7 +84,7 @@
     {
       "name": "Mageina Tovah",
       "order": 211,
-      "role": "Zelda, The Librarian",
+      "role": "The Librarian",
       "thumb": "/lB0J8ZIqvLmvVecIiWCUXTLDoQO.jpg"
     },
     {
@@ -304,7 +174,7 @@
     {
       "name": "Esmé Bianco",
       "order": 22,
-      "role": "Eliza",
+      "role": "Jane Chatwin",
       "thumb": "/mcbQdFHVEbGypOdDiNMCcqHgNaX.jpg"
     },
     {
@@ -340,7 +210,7 @@
     {
       "name": "Fiona Hogan",
       "order": 65,
-      "role": "Menially",
+      "role": "Menolly",
       "thumb": null
     },
     {
@@ -466,14 +336,14 @@
     {
       "name": "Nicholas Croucher",
       "order": 63,
-      "role": "Martin Chatwin",
+      "role": "Josh Hoberman",
       "thumb": "/yXA4IVtSZelOj5KU6UvU6TMPX8P.jpg"
     },
     {
       "name": "Christopher Gorham",
       "order": 118,
       "role": "Senator John Gaines",
-      "thumb": "/u3D21bfXweqiGWalFxMq2jONcYi.jpg"
+      "thumb": "/dKFXHJ3KBJaeQ50udMdBEC0VFvI.jpg"
     },
     {
       "name": "Imogen Tear",
@@ -530,16 +400,16 @@
       "thumb": "/Adu1hsShEmbcEeKNmXB8RSJC18j.jpg"
     },
     {
-      "name": "Brian Markinson",
-      "order": 218,
-      "role": "Everett",
-      "thumb": "/26fa857UrEU4aCMHVQbpvNOGuKv.jpg"
-    },
-    {
       "name": "Camryn Manheim",
       "order": 218,
       "role": "Sheila",
       "thumb": "/eI42MrAyzJ3vbiGSIQB0FCwecba.jpg"
+    },
+    {
+      "name": "Brian Markinson",
+      "order": 218,
+      "role": "Everett",
+      "thumb": "/26fa857UrEU4aCMHVQbpvNOGuKv.jpg"
     },
     {
       "name": "Tembi Locke",
@@ -599,7 +469,7 @@
       "name": "Rhys Ward",
       "order": 96,
       "role": "Bayler",
-      "thumb": null
+      "thumb": "/vWE6aJTlhuIz3RKwJ7BnzeQZNXS.jpg"
     },
     {
       "name": "Jason Burkart",
@@ -650,16 +520,16 @@
       "thumb": null
     },
     {
-      "name": "Nicholas Coombe",
-      "order": 179,
-      "role": "Prince Fomar",
-      "thumb": "/exoZHzswspFOZpo41GjgpDcOnIU.jpg"
-    },
-    {
       "name": "Dustin Ingram",
       "order": 179,
       "role": "Hyman Cooper",
       "thumb": "/4jH3kSG3JCcjWtbIQYkGmU1Cugc.jpg"
+    },
+    {
+      "name": "Nicholas Coombe",
+      "order": 179,
+      "role": "Prince Fomar",
+      "thumb": "/exoZHzswspFOZpo41GjgpDcOnIU.jpg"
     },
     {
       "name": "Anja Savcic",
@@ -668,16 +538,10 @@
       "thumb": "/6xJzn2ckq3kxBNWOF9uuIeelN6L.jpg"
     },
     {
-      "name": "Spencer Daniels",
+      "name": "Tarun Keram",
       "order": 198,
-      "role": "Nameless",
-      "thumb": "/yFePed7zzGyvdoU1c3XdilsHw1r.jpg"
-    },
-    {
-      "name": "Agam Darshi",
-      "order": 198,
-      "role": "Janet",
-      "thumb": "/rJoqe224bDWl03fnSqrUPt9QfLn.jpg"
+      "role": "Hansel",
+      "thumb": "/6u102CBNiRMagE0YaI1KbcpFEYx.jpg"
     },
     {
       "name": "Leanne Lapp",
@@ -686,16 +550,22 @@
       "thumb": "/zp2vgmRtiCNOs7k1uhBeKqj7qn0.jpg"
     },
     {
-      "name": "Tarun Keram",
+      "name": "Agam Darshi",
       "order": 198,
-      "role": "Hansel",
-      "thumb": "/6u102CBNiRMagE0YaI1KbcpFEYx.jpg"
+      "role": "Janet",
+      "thumb": "/rJoqe224bDWl03fnSqrUPt9QfLn.jpg"
     },
     {
       "name": "Emily Althaus",
       "order": 198,
       "role": "Kimber D'Antoni",
       "thumb": "/2X4Ig3KrvHy9An4mQoZtU3yZaCe.jpg"
+    },
+    {
+      "name": "Spencer Daniels",
+      "order": 198,
+      "role": "Charlton",
+      "thumb": "/yFePed7zzGyvdoU1c3XdilsHw1r.jpg"
     },
     {
       "name": "Madisen Beaty",
@@ -968,16 +838,16 @@
       "thumb": "/5D3vNDlHOeixwRg1Bk45YlJUtsl.jpg"
     },
     {
-      "name": "Michelle Harrison",
-      "order": 97,
-      "role": "Dr. Higgins",
-      "thumb": "/4NNuBCS6I4USJT45xSN9R7vwXFI.jpg"
-    },
-    {
       "name": "Dustin Schwartz",
       "order": 97,
       "role": "Ardian",
       "thumb": null
+    },
+    {
+      "name": "Michelle Harrison",
+      "order": 97,
+      "role": "Dr. Higgins",
+      "thumb": "/4NNuBCS6I4USJT45xSN9R7vwXFI.jpg"
     },
     {
       "name": "Lee Garlington",
@@ -1235,7 +1105,7 @@
       "name": "Kate Robbins",
       "order": 164,
       "role": "Carol",
-      "thumb": null
+      "thumb": "/aN5RWaD04I0EH41vRmCOnZCLzsm.jpg"
     },
     {
       "name": "Jason Simpson",
@@ -1325,7 +1195,7 @@
       "name": "Kett Turton",
       "order": 181,
       "role": "Vince",
-      "thumb": null
+      "thumb": "/dsmW4TgzKUcLpWyE3hhZ8POmjS2.jpg"
     },
     {
       "name": "Mackenzie Murdock",
@@ -1436,12 +1306,6 @@
       "thumb": "/1xnSniYd3y84qt6lqLvDIzGT4x0.jpg"
     },
     {
-      "name": "Yaani King Mondschein",
-      "order": 217,
-      "role": "Kira",
-      "thumb": "/jpdu5ko9yVcVdXyzJc2hmis0IIo.jpg"
-    },
-    {
       "name": "Luca Padovan",
       "order": 217,
       "role": "Young Quentin (Golem)",
@@ -1454,19 +1318,155 @@
       "thumb": "/oREWBuun5XvNkn0E1s01B82tyyY.jpg"
     },
     {
-      "name": "Thabo Ketshabetswe",
-      "order": 218,
-      "role": "Guard #1",
-      "thumb": "/yz7UtoD2of4APMUo3dkFMd2Qymc.jpg"
+      "name": "Yaani King Mondschein",
+      "order": 217,
+      "role": "Kira",
+      "thumb": "/jpdu5ko9yVcVdXyzJc2hmis0IIo.jpg"
     },
     {
       "name": "Cassandra Naud",
       "order": 218,
       "role": "Partier #5 (uncredited)",
       "thumb": "/Fw2FlUQGmFC0DGLGEBATXfswHh.jpg"
+    },
+    {
+      "name": "Thabo Ketshabetswe",
+      "order": 218,
+      "role": "Guard #1",
+      "thumb": "/yz7UtoD2of4APMUo3dkFMd2Qymc.jpg"
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd56e13bb6.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace451567e47.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d26abe53f.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d418ef23b.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-56c4835252c12.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb0b18ce5.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5a0f55dc084b6.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd59c641f6.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace4525f1501.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d289908f1.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d431cf94d.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-59359074a7ac6.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb3c16c00.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5a0f55fb2df8d.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd5c59192d.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace453517fa5.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d2a40af1d.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d4497d2e4.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb4ad822b.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd60149990.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d2c09d6fe.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d37b8db90.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d464d8e28.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb580c9df.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd69762b4c.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d396c1dc6.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d480e94b9.jpg",
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb68f104e.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb77dd048.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d165d7121.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5690b0afbe9b1.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e120e24c9dc2.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d165b4c18.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d165f1bab.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d16618602.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d166331ac.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d1664dba1.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d16668677.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d16683303.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d17742cef.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d17764fd2.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d1777fa7a.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d1779a481.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d177b4c1a.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d177cf310.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d177ea6c4.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18a81883.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18aa415d.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18ada32d.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b01174.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b1c119.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b36cf1.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d18b51412.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5690b0d711af9.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5a57a4bc41ce3.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-588e79bec177d.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e120e24a75fb.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-568164f1a7f2c.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be5542ff3.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be69b1bcf.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be69cd00b.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be69e79ac.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a0ed76.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a2a7b3.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a4609e.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be6a6185b.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be7a1bf53.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be7a3eb7f.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e07be7a59c19.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-5e05d17810e4e.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/showbackground/the-magicians-57fc74b7f0de0.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-569d350499c5a.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-569d355eeacbc.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-5c90fcaabc503.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb479b527576.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb479ca91370.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5681648d132e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb7d24c2ad53.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c483325d408.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44b313bab.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44bbf1fb4.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44d199f57.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5681647918389.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-568164a2efffd.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5bbeb77b8c884.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5c163bca9acbf.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-571a47325dfdb.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5848ac082d62c.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c483433a4f5.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c4834a93fa5.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d0840b089.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d09512aa0.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d095356ef.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5e05d095507aa.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-571f32d5c725f.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-5c90fc8eb332f.jpg",
+        "https://assets.fanart.tv/fanart/tv/299139/tvthumb/the-magicians-56abf7b50aa54.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/wcfErhzLmmeutxAMpbHlR0Naa2q.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/A66dZN98BPEYeFQAhNdNCIXa57d.jpg"
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -1883,6 +1883,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "the_magicians_2015"
+  }
 }

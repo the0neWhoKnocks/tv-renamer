@@ -5,63 +5,6 @@
     "Drama"
   ],
   "id": 79744,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5defb3765c43a.jpg",
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d8b996253d48.jpg",
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5cc1a59ba2e44.jpg",
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92191c94add.jpg",
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5cc1a5c7439a9.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5e199bfd59804.jpg",
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92192c22ab6.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/350665/seasonthumb/the-rookie-5d92193eb958d.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/350665/seasonthumb/the-rookie-5d92194a2235d.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d5543285a.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d6749c010.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5b0279ff7791b.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d674a0a61.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39c7eb48f.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39c81bc5a.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39c838663.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39efcb7d2.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39efa5e9f.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/350665/tvbanner/the-rookie-5bc6d734eb27c.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/tvbanner/the-rookie-5d907ad458c3e.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5bc6d5ad99627.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5c8236ba261fa.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5d8b987029f41.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5d8b98dfdee0d.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/350665/tvthumb/the-rookie-2018-5b814a3266ee1.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/tvthumb/the-rookie-5d907abd01c82.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/tvthumb/the-rookie-5cc1a5f5406b3.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/6EwgFPJRhmv20UyJg4GAPgBBuOV.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/6hChiX0vIjWY4y2kz1WndHVMsDu.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "The Rookie (2018)",
   "plot": "Starting over isn’t easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force’s oldest rookie, he’s met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
@@ -85,27 +28,33 @@
     },
     {
       "name": "Titus Makin Jr.",
-      "order": 2,
+      "order": 3,
       "role": "Jackson West",
       "thumb": "/etChJvOSamrR5kkm3Y9Pv9StZiX.jpg"
     },
     {
       "name": "Eric Winter",
-      "order": 3,
+      "order": 4,
       "role": "Tim Bradford",
       "thumb": "/tDQSZv5rHm4s2hwwVWpp5EMQ0w9.jpg"
     },
     {
       "name": "Alyssa Diaz",
-      "order": 4,
+      "order": 5,
       "role": "Angela Lopez",
       "thumb": "/ihLNjM4E1Fjx5h4l8EL6r3iDRTa.jpg"
     },
     {
       "name": "Richard T. Jones",
-      "order": 5,
+      "order": 6,
       "role": "Wade Grey",
       "thumb": "/hdko2C45Wr5G03Z8JwGjWMynP84.jpg"
+    },
+    {
+      "name": "Mekia Cox",
+      "order": 2,
+      "role": "Nyla Harper",
+      "thumb": "/8e9wj3kX0A2L9BPgBSlgzYFpdam.jpg"
     },
     {
       "name": "Mercedes Mason",
@@ -118,12 +67,6 @@
       "order": 7,
       "role": "Talia Bishop",
       "thumb": "/xzXkZzMDNGNZVRktD7NyexkUvt0.jpg"
-    },
-    {
-      "name": "Mekia Cox",
-      "order": 349,
-      "role": "Nyla Harper",
-      "thumb": "/8e9wj3kX0A2L9BPgBSlgzYFpdam.jpg"
     },
     {
       "name": "Shawn Ashmore",
@@ -139,21 +82,21 @@
     },
     {
       "name": "Harold Perrineau",
-      "order": 352,
+      "order": 353,
       "role": "Nick Armstrong",
       "thumb": "/8x1aoTRnUpx4AHc1fQSzGWGJhGs.jpg"
+    },
+    {
+      "name": "Brent Huff",
+      "order": 356,
+      "role": "Officer Smitty",
+      "thumb": "/cewS9esLejNSq24g5GqgSZFCjli.jpg"
     },
     {
       "name": "Sarah Shahi",
       "order": 78,
       "role": "Jessica Russo",
       "thumb": "/dFnYqsEZQMAuatj367fohnB1rFI.jpg"
-    },
-    {
-      "name": "Brent Huff",
-      "order": 347,
-      "role": "Officer Smitty",
-      "thumb": "/cewS9esLejNSq24g5GqgSZFCjli.jpg"
     },
     {
       "name": "Jasmine Mathews",
@@ -186,16 +129,22 @@
       "thumb": "/aMs7MSI4y1G1c28eJdUoQ3wk0Zq.jpg"
     },
     {
+      "name": "Michael Beach",
+      "order": 353,
+      "role": "Percy West",
+      "thumb": "/7gCBCpK2OSzuUWk5iTZds9NjqkF.jpg"
+    },
+    {
       "name": "Sara Rue",
       "order": 123,
-      "role": "Nell Forester (voice)",
+      "role": "Nell Forester",
       "thumb": "/nSiNGBB8YJLhLe5L0gHGNfIQoBW.jpg"
     },
     {
-      "name": "Michael Beach",
-      "order": 124,
-      "role": "Percy West",
-      "thumb": "/7gCBCpK2OSzuUWk5iTZds9NjqkF.jpg"
+      "name": "Annie Wersching",
+      "order": 353,
+      "role": "Rosalind Dyer",
+      "thumb": "/d1FCZinx9jTWAglC70bYsw2ryuY.jpg"
     },
     {
       "name": "David DeSantos",
@@ -210,16 +159,16 @@
       "thumb": "/dJbhKpatqcleB1lssaAogo8KxGv.jpg"
     },
     {
-      "name": "Carsyn Rose",
-      "order": 334,
-      "role": "Lila Town",
-      "thumb": "/5l5DStGOjijpWx6WpydEAmojtl7.jpg"
-    },
-    {
       "name": "Enver Gjokaj",
       "order": 334,
       "role": "Donovan",
       "thumb": "/1M3ISdFIaf4p1N3ZZTK7KnZwj9p.jpg"
+    },
+    {
+      "name": "Carsyn Rose",
+      "order": 334,
+      "role": "Lila Town",
+      "thumb": "/5l5DStGOjijpWx6WpydEAmojtl7.jpg"
     },
     {
       "name": "Matthew Glave",
@@ -234,10 +183,28 @@
       "thumb": null
     },
     {
-      "name": "Annie Wersching",
-      "order": 351,
-      "role": "Rosalind Dyer",
-      "thumb": "/d1FCZinx9jTWAglC70bYsw2ryuY.jpg"
+      "name": "Angel Parker",
+      "order": 356,
+      "role": "Luna Grey",
+      "thumb": "/bbdo6p0rPHQQOp867Uel3Gwfrin.jpg"
+    },
+    {
+      "name": "Hrach Titizian",
+      "order": 356,
+      "role": "Ruben Derian",
+      "thumb": null
+    },
+    {
+      "name": "Brandon Routh",
+      "order": 356,
+      "role": "Doug Stanton",
+      "thumb": "/iPonANuyk3eOHjADqd4h9sBwvX1.jpg"
+    },
+    {
+      "name": "Crystal Coney",
+      "order": 356,
+      "role": "Nurse Lisa",
+      "thumb": "/nQLRhZ2x9KQONnyKeaQKaTIYhb3.jpg"
     },
     {
       "name": "Jane Daly",
@@ -254,7 +221,7 @@
     {
       "name": "Jeffrey D. Sams",
       "order": 137,
-      "role": "Dr. Solomon Lowell",
+      "role": "Dr. Simon Lowell",
       "thumb": null
     },
     {
@@ -262,12 +229,6 @@
       "order": 153,
       "role": "Nora Valdez",
       "thumb": "/1WCsXqqOwILcW1TVtNoHGUH691z.jpg"
-    },
-    {
-      "name": "Crystal Coney",
-      "order": 153,
-      "role": "Nurse Lisa",
-      "thumb": "/nQLRhZ2x9KQONnyKeaQKaTIYhb3.jpg"
     },
     {
       "name": "Julian Acosta",
@@ -290,7 +251,7 @@
     {
       "name": "Brian Leckner",
       "order": 157,
-      "role": "Officer Holcomb",
+      "role": "Airport Officer Holcomb",
       "thumb": null
     },
     {
@@ -302,7 +263,7 @@
     {
       "name": "Eve Harlow",
       "order": 212,
-      "role": "Bianca Windle",
+      "role": "Bianca",
       "thumb": "/iXwYkiU3IgxYfaPuU8nFzFYWyqI.jpg"
     },
     {
@@ -348,12 +309,6 @@
       "thumb": "/1TIADytV7helQrk6KDHdX1fvK2z.jpg"
     },
     {
-      "name": "Hrach Titizian",
-      "order": 351,
-      "role": "Ruben Derian",
-      "thumb": null
-    },
-    {
       "name": "Devan Long",
       "order": 352,
       "role": "Curtis \"Ripper\" Danvers",
@@ -370,6 +325,12 @@
       "order": 355,
       "role": "Sanford Motta",
       "thumb": "/wKGDLd1ylioWhpNLkunHQ2sfYSa.jpg"
+    },
+    {
+      "name": "Dylan Conrique",
+      "order": 355,
+      "role": "Tamara Collins",
+      "thumb": "/zGWupjrqlKhKZYf9F5aAp3EMe5d.jpg"
     },
     {
       "name": "Paxton Singleton",
@@ -531,7 +492,7 @@
       "name": "Amanda Carlin",
       "order": 38,
       "role": "Alma",
-      "thumb": "/4jALloXJ21Ve6QQDD9zXYKXLkxi.jpg"
+      "thumb": null
     },
     {
       "name": "Lauren Stamile",
@@ -819,7 +780,7 @@
       "name": "Alan Tudyk",
       "order": 100,
       "role": "Ellroy Basso",
-      "thumb": "/91LuROVPKcEJvT0FwSOZZj62bZ8.jpg"
+      "thumb": "/w56mp2ky1t7ORDsoGQP00OHlyic.jpg"
     },
     {
       "name": "Jim Ortlieb",
@@ -1389,7 +1350,7 @@
       "name": "Eve Brenner",
       "order": 211,
       "role": "Ruth",
-      "thumb": null
+      "thumb": "/pjn3vXM6Yvj2MDIlgKXoMDDryAh.jpg"
     },
     {
       "name": "Abraham Sigler",
@@ -1836,12 +1797,6 @@
       "thumb": "/euee2U539o7PqvYj6VBT4z1t90u.jpg"
     },
     {
-      "name": "Angel Parker",
-      "order": 291,
-      "role": "Luna Grey",
-      "thumb": "/bbdo6p0rPHQQOp867Uel3Gwfrin.jpg"
-    },
-    {
       "name": "John Billingsley",
       "order": 292,
       "role": "Kevin Scott",
@@ -2148,16 +2103,22 @@
       "thumb": "/tOW5l3r73G6odIZsAKNgRUhFkMI.jpg"
     },
     {
+      "name": "Themo Melikidze",
+      "order": 350,
+      "role": "Serj Derian",
+      "thumb": null
+    },
+    {
       "name": "Victoria Garcia-Kelleher",
       "order": 350,
       "role": "Doctor",
       "thumb": "/5sAbw0szNDqIzQQJQXnDCsXK43j.jpg"
     },
     {
-      "name": "Themo Melikidze",
-      "order": 350,
-      "role": "Serj Derian",
-      "thumb": null
+      "name": "Mike Gray",
+      "order": 351,
+      "role": "Nevin",
+      "thumb": "/tGfouIYpD86cgbqWbZByJ5SIMDx.jpg"
     },
     {
       "name": "Kathryn Taylor Smith",
@@ -2173,9 +2134,9 @@
     },
     {
       "name": "Mike Gray",
-      "order": 351,
+      "order": 352,
       "role": "Nevin",
-      "thumb": "/tGfouIYpD86cgbqWbZByJ5SIMDx.jpg"
+      "thumb": null
     },
     {
       "name": "Amarr M. Wooten",
@@ -2184,19 +2145,85 @@
       "thumb": "/kDgwxBHkKCS5ztsBXTUVjUPKAVb.jpg"
     },
     {
-      "name": "Mike Gray",
-      "order": 352,
-      "role": "Nevin",
-      "thumb": null
-    },
-    {
       "name": "Bo Barrett",
       "order": 353,
       "role": "Paul",
       "thumb": "/bu3zp5F7ht753mAo5C3ewMGDFa8.jpg"
+    },
+    {
+      "name": "Armin Shimerman",
+      "order": 353,
+      "role": "Judge Paloma",
+      "thumb": "/ntubNSuRnJ7icAEGj6JYEeguzTn.jpg"
+    },
+    {
+      "name": "Kamar de los Reyes",
+      "order": 356,
+      "role": "Ryan Caradine",
+      "thumb": null
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5defb3765c43a.jpg",
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d8b996253d48.jpg",
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5cc1a59ba2e44.jpg",
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92191c94add.jpg",
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5cc1a5c7439a9.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5e199bfd59804.jpg",
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92192c22ab6.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5ff377895ac01.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/350665/seasonthumb/the-rookie-5d92193eb958d.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/350665/seasonthumb/the-rookie-5d92194a2235d.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d5543285a.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d6749c010.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5b0279ff7791b.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d674a0a61.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39c7eb48f.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39c81bc5a.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39c838663.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39efcb7d2.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39efa5e9f.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/350665/tvbanner/the-rookie-5bc6d734eb27c.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/tvbanner/the-rookie-5d907ad458c3e.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5bc6d5ad99627.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5c8236ba261fa.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5d8b987029f41.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5d8b98dfdee0d.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/350665/tvthumb/the-rookie-2018-5b814a3266ee1.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/tvthumb/the-rookie-5d907abd01c82.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/tvthumb/the-rookie-5cc1a5f5406b3.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/original/Aof7R1if9jKhHCk6M7UGyEQWQSk.jpg",
+      "poster": "https://image.tmdb.org/t/p/original/6hChiX0vIjWY4y2kz1WndHVMsDu.jpg"
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -2460,7 +2487,7 @@
         {
           "aired": "2021-01-10",
           "plot": "Officer John Nolan and Officer Nyla Harper are assigned to a community policing center to help rebuild their station’s reputation in the community. Nolan is determined to make a positive impact but Nyla has her doubts.",
-          "thumbnail": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kXUZ2AM2uuQofRYgnZop6JSEVO5.jpg",
           "title": "In Justice"
         },
         {
@@ -2471,12 +2498,11 @@
         },
         {
           "aired": "2021-01-24",
-          "plot": "",
+          "plot": "Officer Jackson West’s relationship with his new training officer, Stanton, has escalated and he begins to work with Sergeant Grey to find a solution.",
           "thumbnail": "",
           "title": "Sabotage"
         }
       ]
     }
-  },
-  "cacheKey": "the_rookie_2018"
+  }
 }

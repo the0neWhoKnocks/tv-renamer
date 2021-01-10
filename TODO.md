@@ -60,7 +60,7 @@ NFO Scraping
 - Better series image fallbacks/handling
   - [x] See if images from fanart.tv have language props, and filter out non-English
     items.
-  - [ ] Make sure that if the fanart images node is present, but poster and background
+  - [x] Make sure that if the fanart images node is present, but poster and background
     aren't present, but tmdb does have values, that the tmdb values get used
     instead. May have to compile a list of available URLs
   - [ ] Sometimes a series season poster isn't available in fanart.tv, but there

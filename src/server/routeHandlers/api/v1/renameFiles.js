@@ -140,13 +140,13 @@ export default async function renameFiles({ req, reqData, res }) {
                     const imgPromise = downloadFile(IMG_URL, `${ SERIES_FOLDER }/${ name }`);
                     
                     imgPromise.catch((err) => {
-                      imgWarnings.push(`Error downloading "${ IMG_URL }"`);
+                      imgWarnings.push(`Error downloading "${ name }" from "${ IMG_URL }"`);
                       throw err;
                     });
                     
                     arr.push(imgPromise);
                   }
-                  else imgWarnings.push(`No "${ name }" available`);
+                  else imgWarnings.push(`Missing "${ name }" from fanart.tv`);
                   return arr;
                 }, []);
                 
@@ -190,59 +190,77 @@ export default async function renameFiles({ req, reqData, res }) {
           const { fanarttv, tmdb } = cache.images;
           
           try {
-            clientSocket.send(JSON.stringify({
-              data: { log: `Downloading series images for "${ cache.name }"` },
-              type: WS__MSG_TYPE__RENAME_STATUS,
-            }));
-            
+            const pendingImgItems = {};
             let pendingImgs;
             
-            // download all the things
+            // try to get images from fanart.tv first
             if(fanarttv){
-              pendingImgs = [
+              [
                 { prop: 'clearArt', name: 'clearart.png' },
                 { prop: 'clearLogo', name: 'clearlogo.png' },
                 { prop: 'seriesBackground', name: 'fanart.jpg' },
                 { prop: 'seriesBanner', name: 'banner.jpg' },
                 { prop: 'seriesPoster', name: 'poster.jpg' },
                 { prop: 'seriesThumb', name: 'thumb.jpg' },
-              ].reduce((arr, { prop, name }) => {
-                if(
-                  fanarttv[prop]
-                  && fanarttv[prop][0]
-                ) {
-                  const IMG_URL = fanarttv[prop][0];
-                  const imgPromise = downloadFile(IMG_URL, `${ SERIES_FOLDER }/${ name }`);
-                  
-                  imgPromise.catch((err) => {
-                    imgWarnings.push(`Error downloading "${ IMG_URL }"`);
-                    throw err;
-                  });
-                  
-                  arr.push(imgPromise);
-                }
-                else imgWarnings.push(`No "${ name }" available`);
-                return arr;
-              }, []);
+              ].forEach((obj) => {
+                const { name, prop } = obj;
+                
+                obj.from = 'fanart.tv';
+                if(fanarttv[prop] && fanarttv[prop][0]) obj.url = fanarttv[prop][0];
+                
+                pendingImgItems[name] = obj;
+              });
             }
-            // fallback to a limited set of images
-            else if(tmdb){
-              pendingImgs = [
+            
+            // fill in any missing images from fanart.tv with available images from theMDB
+            if(tmdb){
+              [
                 { prop: 'background', name: 'fanart.jpg' },
                 { prop: 'poster', name: 'poster.jpg' },
-              ].reduce((arr, { prop, name }) => {
-                if(tmdb[prop]) {
-                  const IMG_URL = tmdb[prop];
-                  const imgPromise = downloadFile(IMG_URL, `${ SERIES_FOLDER }/${ name }`);
+              ].forEach((obj) => {
+                const { name, prop } = obj;
+                
+                obj.from = 'theMDB';
+                if(tmdb[prop]) obj.url = tmdb[prop];
+                
+                if(
+                  // no item set via fanart.tv
+                  !pendingImgItems[name]
+                  // OR an item was set, but there's nothing to download
+                  || (
+                    pendingImgItems[name]
+                    && !pendingImgItems[name].url
+                  )
+                ) {
+                  pendingImgItems[name] = obj;
+                }
+              });
+            }
+            
+            const pendingKeys = Object.keys(pendingImgItems);
+            if(pendingKeys.length) {
+              clientSocket.send(JSON.stringify({
+                data: { log: `Downloading series images for "${ cache.name }"` },
+                type: WS__MSG_TYPE__RENAME_STATUS,
+              }));
+              
+              pendingImgs = pendingKeys.reduce((arr, key) => {
+                const { from, name, url } = pendingImgItems[key];
+                
+                if(url){
+                  const imgPromise = downloadFile(url, `${ SERIES_FOLDER }/${ name }`);
                   
                   imgPromise.catch((err) => {
-                    imgWarnings.push(`Error downloading "${ IMG_URL }"`);
+                    imgWarnings.push(`Error downloading "${ name }" from "${ url }"`);
                     throw err;
                   });
                   
                   arr.push(imgPromise);
                 }
-                else imgWarnings.push(`No "${ name }" available`);
+                else{
+                  imgWarnings.push(`Missing "${ name }" from ${ from }`);
+                }
+                
                 return arr;
               }, []);
             }
@@ -391,18 +409,14 @@ export default async function renameFiles({ req, reqData, res }) {
                     type: WS__MSG_TYPE__RENAME_STATUS,
                   }));
                   
-                  await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`)
-                    .catch((err) => {
-                      imgWarnings.push(`Error downloading "${ thumbnail }"`);
-                      throw err;
-                    });
+                  await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`);
                 }
                 catch(err) {
                   warnings.push(`Error downloading episode still for "${ newName }": "${ err.message }"\n  URL: "${ thumbnail }"`);
                 }
               }
               else{
-                warnings.push('No thumbnail available');
+                warnings.push('Missing "[episode]-thumb.jpg" from theMDB');
               }
             }
             catch(err) {

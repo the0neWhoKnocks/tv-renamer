@@ -58,7 +58,7 @@ NFO Scraping
 - [x] Rename `Name (2019) - 1x01` shows odd matched colors. Things still work
   but it's visually off.
 - Better series image fallbacks/handling
-  - [ ] See if images from fanart.tv have language props, and filter out non-English
+  - [x] See if images from fanart.tv have language props, and filter out non-English
     items.
   - [ ] Make sure that if the fanart images node is present, but poster and background
     aren't present, but tmdb does have values, that the tmdb values get used

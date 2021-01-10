@@ -139,23 +139,25 @@ export default async function lookUpSeries({
           tvthumb = [],
         } = await fetch(API_URL).then(resp => resp.json());
         
+        const langFilter = ({ lang }) => lang === 'en' || lang === '';
+        
         fanarttvImgs = {
-          clearArt: clearart.map(({ url }) => url),
-          clearLogo: clearlogo.map(({ url }) => url),
-          seasonPoster: seasonposter.reduce((obj, { season, url }) => {
+          clearArt: clearart.filter(langFilter).map(({ url }) => url),
+          clearLogo: clearlogo.filter(langFilter).map(({ url }) => url),
+          seasonPoster: seasonposter.filter(langFilter).reduce((obj, { season, url }) => {
             if(!obj[season]) obj[season] = [];
             obj[season].push(url);
             return obj;
           }, {}),
-          seasonThumb: seasonthumb.reduce((obj, { season, url }) => {
+          seasonThumb: seasonthumb.filter(langFilter).reduce((obj, { season, url }) => {
             if(!obj[season]) obj[season] = [];
             obj[season].push(url);
             return obj;
           }, {}),
-          seriesBackground: showbackground.map(({ url }) => url),
-          seriesBanner: tvbanner.map(({ url }) => url),
-          seriesPoster: tvposter.map(({ url }) => url),
-          seriesThumb: tvthumb.map(({ url }) => url),
+          seriesBackground: showbackground.filter(langFilter).map(({ url }) => url),
+          seriesBanner: tvbanner.filter(langFilter).map(({ url }) => url),
+          seriesPoster: tvposter.filter(langFilter).map(({ url }) => url),
+          seriesThumb: tvthumb.filter(langFilter).map(({ url }) => url),
         };
       }
       

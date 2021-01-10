@@ -33,7 +33,7 @@ NFO Scraping
   - [x] Have buttons below `Replace` input that insert `$NUM`. The buttons will
     display `$1` `$2`, etc, based on how many captured groups were added in the
     `Match` input and how many groups were matched.
-  - [ ] Store previous `Match` and `Replace` text in LocalStorage so it's easier
+  - [x] Store previous `Match` and `Replace` text in LocalStorage so it's easier
     to rename items later if the same patterns are needed.
       - Maybe add a Clear button to the inputs so it's easy to dismiss the
       pre-populated text if needed.

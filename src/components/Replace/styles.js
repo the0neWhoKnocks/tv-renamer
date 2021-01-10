@@ -14,6 +14,26 @@ export default css`
   
   .${ ROOT_CLASS } {
     
+    &__input-wrapper {
+      width: 100%;
+      position: relative;
+      
+      button {
+        font-size: 0.75em;
+        border-radius: unset;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    
+    &__helper-btn {
+      padding: 0.25em 0.5em;
+      border-radius: unset;
+      margin-left: 0.25em;
+    }
+    
     &__labeled-input {
       margin-bottom: 0.25em;
       display: flex;
@@ -33,25 +53,21 @@ export default css`
         border: solid 1px;
       }
       
-      button {
-        padding: 0.25em 0.5em;
-        border-radius: unset;
-        margin-left: 0.25em;
-      }
-      
       &:nth-of-type(2) {
         
-        button:nth-of-type(1) {
-          background: ${ groupColors[0] };
-        }
-        button:nth-of-type(2) {
-          background: ${ groupColors[1] };
-        }
-        button:nth-of-type(3) {
-          background: ${ groupColors[2] };
-        }
-        button:nth-of-type(4) {
-          background: ${ groupColors[3] };
+        .${ ROOT_CLASS } {
+          &__helper-btn:nth-of-type(1) {
+            background: ${ groupColors[0] };
+          }
+          &__helper-btn:nth-of-type(2) {
+            background: ${ groupColors[1] };
+          }
+          &__helper-btn:nth-of-type(3) {
+            background: ${ groupColors[2] };
+          }
+          &__helper-btn:nth-of-type(4) {
+            background: ${ groupColors[3] };
+          }
         }
       }
     }

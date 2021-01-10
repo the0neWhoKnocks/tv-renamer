@@ -90,6 +90,7 @@ module.exports = {
   PUBLIC_SERIES_ID_CACHE_MAP: `${ ABS_DATA_PATH }/${ SERIES_ID_CACHE_MAP }`,
   PUBLIC_VENDOR,
   SRC_STATIC: `${ SRC }/static`,
+  STORAGE_KEY: 'tvrenamer',
   TMDB__API__SEASON_EPISODES: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }/season/${ TMDB__TOKEN__SEASON_NUMBER }`,
   TMDB__API__SEASON_EPISODE_GROUP: `${ TMDB__URL__API }/tv/episode_group/${ TMDB__TOKEN__EPISODE_GROUP_ID }`,
   TMDB__API__SERIES_DETAILS: `${ TMDB__URL__API }/tv/${ TMDB__TOKEN__SERIES_ID }?append_to_response=episode_groups,content_ratings,aggregate_credits,external_ids`,

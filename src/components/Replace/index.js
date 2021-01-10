@@ -1,46 +1,70 @@
 import React, { Component } from 'react';
 import { arrayOf, func, shape, string } from 'prop-types';
-import { API__REPLACE } from 'ROOT/conf.app';
+import {
+  API__REPLACE,
+  STORAGE_KEY,
+} from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
-import styles, { ROOT_CLASS } from './styles';
+import styles, { ROOT_CLASS } from './styles'; 
 
 class Replace extends Component {
-  static LabeledInput({ buttons = [], inputRef, label, onChange, onInput, value }) {
+  static LabeledInput({ buttons = [], inputRef, label, onChange, onClearClick, onInput, value }) {
     return (
       <div className={`${ ROOT_CLASS }__labeled-input`}>
         <label>{label}</label>
-        <input
-          ref={inputRef}
-          type="text"
-          onChange={onChange}
-          onInput={onInput}
-          spellCheck="false"
-          value={value}
-        />
+        <div className={`${ ROOT_CLASS }__input-wrapper`}>
+          <input
+            ref={inputRef}
+            type="text"
+            onChange={onChange}
+            onInput={onInput}
+            spellCheck="false"
+            value={value}
+          />
+          {(onClearClick && value) && (
+            <button type="button" onClick={onClearClick}>X</button>
+          )}
+        </div>
         {buttons.map(({ data, label, onClick }) => {
           const dataAtts = {};
           if(data) Object.keys(data).forEach((key) => {
             dataAtts[`data-${ key.toLowerCase() }`] = data[key];
           });
           return (
-            <button key={label} onClick={onClick} {...dataAtts}>{label}</button>
+            <button key={label} className={`${ ROOT_CLASS }__helper-btn`} onClick={onClick} {...dataAtts}>{label}</button>
           );
         })}
       </div>
     );
   }
   
+  static getStorage() {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  }
+  
+  static setStorage(data) {
+    const currData = Replace.getStorage();
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      ...currData,
+      ...data,
+    }));
+  }
+  
   constructor() {
     super();
     
+    const { matchInputValue, replaceInputValue } = Replace.getStorage();
+    
     this.state = {
-      matchInputValue: '',
-      matchPattern: '',
-      replaceInputValue: '',
-      replacePattern: '',
+      matchInputValue: matchInputValue || '',
+      matchPattern: matchInputValue ? new RegExp(matchInputValue) : '',
+      replaceInputValue: replaceInputValue || '',
+      replacePattern: replaceInputValue || '',
     };
     this.replacedNames = [];
     
+    this.handleClearMatchInput = this.handleClearMatchInput.bind(this);
+    this.handleClearReplaceInput = this.handleClearReplaceInput.bind(this);
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleMatchInput = this.handleMatchInput.bind(this);
     this.handleRenameClick = this.handleRenameClick.bind(this);
@@ -50,6 +74,9 @@ class Replace extends Component {
     this.matchInput = React.createRef();
     this.replaceInput = React.createRef();
     
+    this.matchInputChangeHandler = this.handleInputChange('matchInputValue');
+    this.replaceInputChangeHandler = this.handleInputChange('replaceInputValue');
+    
     this.matchBtns = [
       {
         label: '(\\d)',
@@ -57,15 +84,34 @@ class Replace extends Component {
           const input = this.matchInput.current;
           const startText = input.value.substr(0, input.selectionStart);
           const endText = input.value.substr(input.selectionEnd, input.value.length);
-          const matchInputValue = `${ startText }(\\d{2})${ endText }`;
+          const newValStart = `${ startText }(\\d{2})`;
+          const matchInputValue = `${ newValStart }${ endText }`;
+          const newCursorPos = newValStart.length;
           
           this.setState({
             matchInputValue,
             matchPattern: new RegExp(matchInputValue),
+          }, () => {
+            input.focus();
+            input.selectionStart = newCursorPos;
+            input.selectionEnd = newCursorPos;
           });
         },
       },
     ];
+  }
+  
+  componentDidUpdate(prevProps, prevState) {
+    if(prevState.matchInputValue !== this.state.matchInputValue){
+      Replace.setStorage({
+        matchInputValue: this.state.matchInputValue,
+      });
+    }
+    else if(prevState.replaceInputValue !== this.state.replaceInputValue){
+      Replace.setStorage({
+        replaceInputValue: this.state.replaceInputValue,
+      });
+    }
   }
   
   handleInputChange(stateProp) {
@@ -85,6 +131,14 @@ class Replace extends Component {
       // something wrong with the RegEx, so just use the text
       this.setState({ matchPattern: val });
     }
+  }
+  
+  handleClearMatchInput() {
+    this.setState({ matchInputValue: '', matchPattern: '' });
+  }
+  
+  handleClearReplaceInput() {
+    this.setState({ replaceInputValue: '', replacePattern: '' });
   }
   
   handleReplaceInput(ev) {
@@ -113,11 +167,17 @@ class Replace extends Component {
     const input = this.replaceInput.current;
     const startText = input.value.substr(0, input.selectionStart);
     const endText = input.value.substr(input.selectionEnd, input.value.length);
-    const replaceInputValue = `${ startText }$${ ev.currentTarget.dataset.num }${ endText }`;
+    const newValStart = `${ startText }$${ ev.currentTarget.dataset.num }`;
+    const replaceInputValue = `${ newValStart }${ endText }`;
+    const newCursorPos = newValStart.length;
     
     this.setState({
       replaceInputValue,
       replacePattern: replaceInputValue,
+    }, () => {
+      input.focus();
+      input.selectionStart = newCursorPos;
+      input.selectionEnd = newCursorPos;
     });
   }
   
@@ -151,7 +211,8 @@ class Replace extends Component {
           buttons={this.matchBtns}
           inputRef={this.matchInput}
           label="Match:"
-          onChange={this.handleInputChange('matchInputValue')}
+          onChange={this.matchInputChangeHandler}
+          onClearClick={this.handleClearMatchInput}
           onInput={this.handleMatchInput}
           value={matchInputValue}
         />
@@ -159,7 +220,8 @@ class Replace extends Component {
           buttons={replaceBtns}
           inputRef={this.replaceInput}
           label="Replace:"
-          onChange={this.handleInputChange('replaceInputValue')}
+          onChange={this.replaceInputChangeHandler}
+          onClearClick={this.handleClearReplaceInput}
           onInput={this.handleReplaceInput}
           value={replaceInputValue}
         />

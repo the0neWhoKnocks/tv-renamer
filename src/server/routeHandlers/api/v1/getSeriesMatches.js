@@ -6,22 +6,22 @@ import getSeriesByName from './utils/tmdb/getSeriesByName';
 
 const log = logger('api:getSeriesMatches');
 
-export default function getSeriesMatches({ reqData, res }) {
+export default async function getSeriesMatches({ reqData, res }) {
+  const { data: { tmdbAPIKey: apiKey } } = await loadConfig();
   const { seriesName: _name } = reqData;
   const name = decodeURIComponent(_name);
   
-  loadConfig(({ tmdbAPIKey: apiKey }) => {
-    log(`Get series matches for "${ name }"`);
+  log(`Get series matches for "${ name }"`);
+  
+  try {
+    const matches = await getSeriesByName({ apiKey, name });
     
-    getSeriesByName({ apiKey, name })
-      .then((matches) => {
-        if(matches.length) log(`Found matches for "${ name }": ${ matches }`);
-        else log(`No matches for "${ name }"`);
-        
-        jsonResp(res, matches);
-      })
-      .catch((err) => {
-        handleError({ res }, 500, `Could not get series matches for "${ name }":\n${ err }`);
-      });
-  });
+    if(matches.length) log(`Found matches for "${ name }": ${ matches }`);
+    else log(`No matches for "${ name }"`);
+    
+    jsonResp(res, matches);
+  }
+  catch(err) {
+    handleError({ res }, 500, `Could not get series matches for "${ name }":\n${ err }`);
+  }
 }

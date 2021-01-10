@@ -1,14 +1,13 @@
 import sanitizeFilename from 'sanitize-filename';
-import { PUBLIC_CACHE } from 'ROOT/conf.app';
 
 export default (name) => {
-  const _name = sanitizeFilename(name)
+  const { year } = ((name.match(/\((?<year>\d{4})\)$/) || {}).groups || {});
+  let _name = sanitizeFilename(name)
     .toLowerCase()
     .replace(/\s/g, '_')
     .replace(/[,;"'|()]/g, '');
   
-  return {
-    filePath: `${ PUBLIC_CACHE }/${ _name }.json`,
-    name: _name,
-  };
+  if(year) _name = _name.replace(new RegExp(`${ year }$`), `(${ year })`);
+  
+  return _name;
 };

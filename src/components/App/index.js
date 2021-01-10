@@ -90,7 +90,6 @@ class App extends Component {
     if(nameMatch[1]){
       const lookupNames = App.parseLookupName(nameMatch[1], nameMatch[2]);
       data.lookupName = lookupNames.nameWithYear;
-      data.lookupNameWithoutYear = lookupNames.name;
       
       if(idMappings[data.lookupName]){
         data.idOverride = +idMappings[data.lookupName];
@@ -118,14 +117,12 @@ class App extends Component {
       const lookupNameData = App.buildLookupName(idMappings, name);
       
       // There's a case where a User could have renamed a file in the GUI, which
-      // then sets the `lookupName`, but then the lookup names try to get rebuilt
+      // then sets the `lookupName`, but then the lookup names tries to get rebuilt
       // before a Preview, and base that info on the original file name, not the
       // updated one. This ensures that if a lookup name was generated due to
       // User input, and no data was generated just now, use the fallback.
       if(!lookupNameData.lookupName && lookupName) {
         lookupNameData.lookupName = lookupName;
-        
-        if(!lookupNameData.lookupNameWithoutYear) lookupNameData.lookupNameWithoutYear = lookupName;
       }
       
       const data = {

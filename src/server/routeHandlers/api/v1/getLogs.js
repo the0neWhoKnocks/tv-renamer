@@ -1,8 +1,7 @@
 import jsonResp from 'SERVER/utils/jsonResp';
 import loadRenameLog from './utils/loadRenameLog';
 
-export default ({ res }) => {
-  loadRenameLog((logs) => {
-    jsonResp(res, logs);
-  });
-};
+export default async function getLogs({ res }) {
+  const { data: logs } = await loadRenameLog();
+  jsonResp(res, logs);
+}

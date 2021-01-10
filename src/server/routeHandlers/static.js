@@ -1,4 +1,4 @@
-import { exists, readFile } from 'fs';
+import { promises as fs } from 'fs';
 import crypto from 'crypto';
 import { join, parse } from 'path';
 import {
@@ -10,6 +10,7 @@ import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
 import handleError from './error';
 
+const { readFile, stat } = fs;
 const log = logger('server:static');
 
 const mimeTypes = {
@@ -23,22 +24,22 @@ const mimeTypes = {
   '.svg': 'image/svg+xml',
   '.ttf': 'aplication/font-sfnt',
 };
+let pendingRequest;
 
 // On initial load of server, create the file-cache to ensure hashes are
 // valid against possibly new files.
-saveFile({
-  cb: () => {
-    log(`[CREATED] ${ PUBLIC_FILE_CACHE }`);
-  },
-  data: {},
-  file: PUBLIC_FILE_CACHE,
-});
-let pendingRequest;
+async function createFileCache() {
+  // NOTE - no try/catch because there's no response to attach the usual error
+  // handler to, so just let it throw if there's an error.
+  await saveFile(PUBLIC_FILE_CACHE, {});
+  log(`[CREATED] ${ PUBLIC_FILE_CACHE }`);
+}
+createFileCache();
 
-export default (opts, cleanPath) => {
+export default async function _static(opts, cleanPath) {
   const file = join(PUBLIC, cleanPath);
   
-  const onCacheLoad = (cache) => {
+  const onCacheLoad = async (cache) => {
     const { req, res } = opts;
     const reqEtag = req.headers['if-none-match'];
     
@@ -50,56 +51,53 @@ export default (opts, cleanPath) => {
       res.end();
     }
     else{
-      exists(file, (exist) => {
-        if(!exist) {
-          pendingRequest = '';
-          handleError(opts, 404, `File ${ file } not found!`);
-        }
-        else{
-          // read file from file system
-          readFile(file, (err, data) => {
-            if(err){
-              pendingRequest = '';
-              handleError(opts, 500, `Error reading file: ${ err }.`);
-            }
-            else{
-              // use/generate eTag for caching
-              const eTag = cache[file] || crypto.createHash('md5').update(data).digest('hex');
-              // based on the URL path, extract the file extention. e.g. .js, .doc, ...
-              const ext = parse(file).ext;
-              // if the file is found, set Content-type and send data
-              res.setHeader('Content-type', mimeTypes[ext] || 'text/plain');
-              res.setHeader('ETag', eTag);
-              
-              // ensure the cached file is recorded for faster future look-ups
-              cache[file] = eTag;
-              saveFile({
-                cb: () => {
-                  pendingRequest = '';
-                  res.end(data);
-                },
-                data: cache,
-                file: PUBLIC_FILE_CACHE,
-                sync: true,
-              });
-            }
-          });
-        }
-      });
+      try { await stat(file); }
+      catch(err) {
+        pendingRequest = '';
+        return handleError(opts, 404, `File "${ file }" not found! | ${ err.stack }`);
+      }
+      
+      let data;
+      try {
+        data = await readFile(file);
+        
+        // use/generate eTag for caching
+        const eTag = cache[file] || crypto.createHash('md5').update(data).digest('hex');
+        // based on the URL path, extract the file extention. e.g. .js, .doc, ...
+        const ext = parse(file).ext;
+        // if the file is found, set Content-type and send data
+        res.setHeader('Content-type', mimeTypes[ext] || 'text/plain');
+        res.setHeader('ETag', eTag);
+        
+        // ensure the cached file is recorded for faster future look-ups
+        cache[file] = eTag; // eslint-disable-line require-atomic-updates
+      }
+      catch(err) {
+        pendingRequest = '';
+        return handleError(opts, 500, `Error reading file: ${ err }.`);
+      }
+      
+      try {
+        await saveFile(PUBLIC_FILE_CACHE, cache);
+        pendingRequest = '';
+        res.end(data);
+      }
+      catch(err) {
+        pendingRequest = '';
+        return handleError(opts, 500, `Error reading file: ${ err }.`);
+      }
     }
   };
   
   // Due to there not being any sort of file locking in Node I've created a
   // request queue to ensure that the most current version of the cache is
   // loaded for every request.
-  const checkQueue = () => {
+  const checkQueue = async () => {
     if(!pendingRequest){
       pendingRequest = file;
       
-      loadFile({
-        cb: onCacheLoad,
-        file: PUBLIC_FILE_CACHE,
-      });
+      const { data } = await loadFile(PUBLIC_FILE_CACHE);
+      onCacheLoad(data);
     }
     else{
       setTimeout(() => {
@@ -109,4 +107,4 @@ export default (opts, cleanPath) => {
   };
   
   checkQueue();
-};
+}

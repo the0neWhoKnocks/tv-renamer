@@ -1,19 +1,10 @@
+import { PUBLIC_CACHE } from 'ROOT/conf.app';
 import loadFile from 'SERVER/utils/loadFile';
-import genCacheName from './genCacheName';
+import logger from 'SERVER/utils/logger';
 
-export default ({ cacheKey, name }) => new Promise((resolve, reject) => {
-  if(!cacheKey && !name) reject(Error('Error loading cache item, no "cacheKey" or "name" were provided'));
-  else{
-    const cacheName = genCacheName(cacheKey || name);
-    
-    loadFile({
-      _default: null,
-      cb: (file) => resolve({
-        cacheKey: cacheName.name,
-        file,
-        name,
-      }),
-      file: cacheName.filePath,
-    });
-  }
-});
+const log = logger('server:loadCacheItem');
+
+export default function loadCacheItem(cacheKey) {
+  log(`Load cache for "${ cacheKey }"`);
+  return loadFile(`${ PUBLIC_CACHE }/${ cacheKey }.json`);
+}

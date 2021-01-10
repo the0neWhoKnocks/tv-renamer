@@ -82,7 +82,11 @@ class AssignId extends Component {
       
       fetch(API__ASSIGN_ID, {
         method: 'PUT',
-        body: JSON.stringify({ id, name: normalizedName }),
+        body: JSON.stringify({
+          assignedName: this.assignedName, // equivelant to nameWithYear
+          id,
+          name: normalizedName,
+        }),
       })
         .then((idMappings) => {
           onAssignSuccess({

@@ -33,9 +33,13 @@ NFO Scraping
   - [x] Have buttons below `Replace` input that insert `$NUM`. The buttons will
     display `$1` `$2`, etc, based on how many captured groups were added in the
     `Match` input and how many groups were matched.
+  - [ ] Store previous `Match` and `Replace` text in LocalStorage so it's easier
+    to rename items later if the same patterns are needed.
+      - Maybe add a Clear button to the inputs so it's easy to dismiss the
+      pre-populated text if needed.
 - [x] See if fanart.tv has episode images to fill in the gaps from tmdb.
   - They just have series and season images currently.
-- [ ] Refactor preview logic so cache and year logic is trimmed down and easier
+- [x] Refactor preview logic so cache and year logic is trimmed down and easier
   to deal with going forward.
   - load `ids` cache
     - if items have an id, load their cache
@@ -50,3 +54,4 @@ NFO Scraping
             second Array.
       - one for the remaining extra occurrences of a series
         - just reads from the cache
+- [ ] `runtime` isn't being set in `.nfo` for actual videos

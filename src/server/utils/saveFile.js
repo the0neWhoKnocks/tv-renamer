@@ -1,28 +1,9 @@
-import { writeFile, writeFileSync } from 'fs';
-import handleError from 'SERVER/routeHandlers/error';
+import { promises as fs } from 'fs';
 
-export default ({ cb, data, file, res, sync }) => {
-  const handleResult = (err) => {
-    if(err && res) handleError({ res }, 500, err);
-    else{
-      const args = [data];
-      if(err) args.push(err);
-      cb(...args);
-    }
-  };
-  
-  if(sync){
-    try {
-      writeFileSync(file, JSON.stringify(data, null, 2), 'utf8');
-      handleResult();
-    }
-    catch(err){
-      handleResult(err);
-    }
-  }
-  else{
-    writeFile(file, JSON.stringify(data, null, 2), 'utf8', (err) => {
-      handleResult(err);
-    });
-  }
-};
+const { writeFile } = fs;
+
+export default function saveFile(filePath, data) {
+  // NOTE - purposefly not wrapping with try/catch since each case would need to
+  // handle an error differently.
+  return writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
+}

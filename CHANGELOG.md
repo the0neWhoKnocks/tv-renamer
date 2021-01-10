@@ -1,6 +1,24 @@
 # Changelog
 ---
 
+## v5.0.0
+
+**Bugfixes**
+- [411624e](https://github.com/the0neWhoKnocks/tv-renamer/commit/411624e):  `runtime` not being added to .nfo files
+
+**Dev-Ops**
+- [3ac7b4b](https://github.com/the0neWhoKnocks/tv-renamer/commit/3ac7b4b):  Updated tests and data to account for cache name change
+- [5e7cd28](https://github.com/the0neWhoKnocks/tv-renamer/commit/5e7cd28):  Updated tests
+
+**Features**
+- [b814bb4](https://github.com/the0neWhoKnocks/tv-renamer/commit/b814bb4):  Replace modal remembers previous entries
+- [a4bbc67](https://github.com/the0neWhoKnocks/tv-renamer/commit/a4bbc67):  Refactor API to be more reliable and easy to work in
+- [8096552](https://github.com/the0neWhoKnocks/tv-renamer/commit/8096552):  Only replace matched text in Replace and leave the rest
+- [4e9d309](https://github.com/the0neWhoKnocks/tv-renamer/commit/4e9d309):  Buttons to insert matched group value in Replace dialog
+- [e4fb35e](https://github.com/the0neWhoKnocks/tv-renamer/commit/e4fb35e):  Add button to Replace to easily insert number captures
+
+---
+
 ## v4.0.2
 
 **Bugfixes**

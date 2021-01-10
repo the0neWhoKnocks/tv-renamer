@@ -313,6 +313,7 @@ export default async function renameFiles({ req, reqData, res }) {
                     disposition: { attached_pic },
                     duration,
                     pix_fmt,
+                    tags,
                   }) => {
                     // Only add actual video streams, not cover/poster attachments
                     if(
@@ -333,8 +334,20 @@ export default async function renameFiles({ req, reqData, res }) {
                       };
                       
                       // only add it if it's equal to or over a minute
-                      const _runtime = +duration/60;
-                      if(_runtime >= 1) runtime = `${ _runtime } min`;
+                      let _runtime = 0;
+                      if(duration) _runtime = +duration/60;
+                      else if(tags){
+                        const durTag = Object.keys(tags).find(t => t.toLowerCase().startsWith('duration'));
+                        
+                        if(durTag){
+                          let [hours, minutes] = tags[durTag].split('.')[0].split(':');
+                          hours = +hours;
+                          minutes = +minutes;
+                          _runtime = (hours * 60) + minutes;
+                        }
+                      }
+                      
+                      if(_runtime && _runtime >= 1) runtime = `${ _runtime } min`;
                     }
                   });
                 }

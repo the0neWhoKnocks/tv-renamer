@@ -54,4 +54,4 @@ NFO Scraping
             second Array.
       - one for the remaining extra occurrences of a series
         - just reads from the cache
-- [ ] `runtime` isn't being set in `.nfo` for actual videos
+- [x] `runtime` isn't being set in `.nfo` for actual videos

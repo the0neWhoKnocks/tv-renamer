@@ -39,6 +39,12 @@ export default css`
         color: #efff00;
         padding-right: 0.5em;
       }
+      
+      a {
+        color: #70c4ff;
+        padding: 0.5em 0;
+        display: block;
+      }
     }
     
     &__deleted {

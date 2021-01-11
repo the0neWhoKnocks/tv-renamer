@@ -68,11 +68,11 @@ NFO Scraping
     page, going into the seasons, right-clicking and opening the image, then
     changing the size value to `w780`, and download. Would be nice if this URL
     lookup could happen along with the background and poster props for tmdb.
-  - Currently when images aren't downloaded, warnings are output. It'd be nice
+  - [x] Currently when images aren't downloaded, warnings are output. It'd be nice
     if there was also a way to output URLs to tmdb, tvdb, and fanart if any
     warnings pop up.
-    - [ ] As previously mentioned, if no season poster was available, have a
+    - As previously mentioned, if no season poster was available, have a
       URL that goes to tmdb series seasons page.
-    - [ ] If no (any other image) have a URL for tvdb series page.
-    - [ ] For good measure, maybe have a URL for fanart, since it takes some
+    - If no (any other image) have a URL for tvdb series page.
+    - For good measure, maybe have a URL for fanart, since it takes some
       effort to navigate to a series.

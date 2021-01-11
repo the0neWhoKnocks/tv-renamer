@@ -323,6 +323,7 @@ export default async function renameFiles({ req, reqData, res }) {
           to: `${ _outputFolder }/${ newName }`,
         };
         const warnings = [...imgWarnings];
+        let hasImgWarnings = !!imgWarnings.length;
         const cb = async (d, moveErr) => {
           const rootDir = parse(oldPath).dir;
           const log = createLog(d);
@@ -454,10 +455,12 @@ export default async function renameFiles({ req, reqData, res }) {
                 }
                 catch(err) {
                   warnings.push(`Error downloading episode still for "${ newName }": "${ err.message }"\n  URL: "${ thumbnail }"`);
+                  hasImgWarnings = true;
                 }
               }
               else{
                 warnings.push('Missing "[episode]-thumb.jpg" from theMDB');
+                hasImgWarnings = true;
               }
             }
             catch(err) {
@@ -465,7 +468,20 @@ export default async function renameFiles({ req, reqData, res }) {
             }
           }
           
-          if(warnings.length) log.warnings = warnings;
+          if(warnings.length){
+            if(hasImgWarnings){
+              const { name } = await getCache(cacheKey);
+              const nameWithNoYear = name.replace(/ \(\d{4}\)$/, '');
+              const queryName = encodeURIComponent(name);
+              const queryNameNoYear = encodeURIComponent(nameWithNoYear);
+              
+              warnings.push(`https://thetvdb.com/search?menu%5Btype%5D=TV&query=${ queryName }`);
+              warnings.push(`https://www.themoviedb.org/search/tv?query=${ queryNameNoYear }`);
+              warnings.push(`https://fanart.tv/?s=${ queryName }&sect=1`);
+            }
+            
+            log.warnings = warnings;
+          }
           
           newLogs.push(log);
           mappedLogs[index] = log;

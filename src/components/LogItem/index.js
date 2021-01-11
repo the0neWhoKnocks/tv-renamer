@@ -21,12 +21,24 @@ const LogItem = ({
         <div className={`${ ROOT_CLASS }__error`}>{error}</div>
       )}
       {warnings && (
-        warnings.map((warning, ndx) => (
-          <div key={`${ time }_${ ndx }`} className={`${ ROOT_CLASS }__warning`}>
-            <span className={`${ ROOT_CLASS }__warning-icon`}>&#x26A0;</span>
-            {warning}
-          </div>
-        ))
+        warnings.map((warning, ndx) => {
+          let isLink = false;
+          let _warning = warning;
+          
+          if(_warning.startsWith('http')){
+            isLink = true;
+            _warning = <a href={warning}>{warning}</a>;
+          }
+          
+          return (
+            <div key={`${ time }_${ ndx }`} className={`${ ROOT_CLASS }__warning`}>
+              {!isLink && (
+                <span className={`${ ROOT_CLASS }__warning-icon`}>&#x26A0;</span>
+              )}
+              {_warning}
+            </div>
+          );
+        })
       )}
       {(!error && deleted) && (
         deleted.map((deletedPath, ndx) => (

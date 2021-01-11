@@ -1,37 +1,13 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Sci-Fi & Fantasy"
   ],
   "id": 2538,
-  "images": {
-    "fanarttv": {
-      "clearArt": [
-        "https://assets.fanart.tv/fanart/tv/79182/clearart/hyperdrive-4dbc373571c62.png"
-      ],
-      "clearLogo": [
-        "https://assets.fanart.tv/fanart/tv/79182/clearlogo/hyperdrive-79182.png"
-      ],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/79182/tvbanner/hyperdrive-51498855b1950.jpg"
-      ],
-      "seriesPoster": [],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/79182/tvthumb/hyperdrive-51498a40dc57d.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "",
-      "poster": "https://image.tmdb.org/t/p/original/p3ddSPtzMUjFxNefYZVIZCWbKDy.jpg"
-    }
-  },
   "mpaa": "",
   "name": "Hyperdrive",
-  "plot": "Hyperdrive is a British television science fiction sitcom broadcast by BBC Two in 2006 and 2007. The working title was Full Power. In a 2008 interview, Kevin Eldon commented that he considered a third series was unlikely to be commissioned. Set in 2151 and 2152, it follows the crew of HMS Camden Lock as they stumble through their heroic mission to protect British interests in a changing galaxy.\n\nThe series is written by Kevin Cecil and Andy Riley, directed by John Henderson and produced by Alex Walsh-Taylor. The first episode was broadcast on BBC Two on 11 January 2006. A second series began on 12 July 2007 on BBC Two.",
+  "plot": "Set in 2151 and 2152, it follows the crew of HMS Camden Lock as they stumble through their heroic mission to protect British interests in a changing galaxy.",
   "premiered": "2006-01-11",
   "status": "Ended",
   "studios": [
@@ -48,7 +24,7 @@
       "name": "Miranda Hart",
       "order": 1,
       "role": "Diplomatic Officer Chloe Alice Teal",
-      "thumb": "/lLqIihBICaGVkzB8yqCvydZ9qc3.jpg"
+      "thumb": "/qoKGvQG6uNDyixPSSYClyfxH3lE.jpg"
     },
     {
       "name": "Kevin Eldon",
@@ -81,12 +57,6 @@
       "thumb": null
     },
     {
-      "name": "Petra Massey",
-      "order": 4,
-      "role": "Sandstrom",
-      "thumb": null
-    },
-    {
       "name": "Paterson Joseph",
       "order": 6,
       "role": "",
@@ -99,9 +69,15 @@
       "thumb": null
     },
     {
+      "name": "Petra Massey",
+      "order": 4,
+      "role": "Sandstrom",
+      "thumb": null
+    },
+    {
       "name": "Morwenna Banks",
       "order": 19,
-      "role": "Announcer",
+      "role": "Announcer (voice)",
       "thumb": "/szyznnzWGxBpl7LTXUaVzdjR5No.jpg"
     },
     {
@@ -310,6 +286,35 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/79182/clearart/hyperdrive-4dbc373571c62.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/79182/clearlogo/hyperdrive-79182.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/79182/tvbanner/hyperdrive-51498855b1950.jpg"
+      ],
+      "seriesPoster": [],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/79182/tvthumb/hyperdrive-51498a40dc57d.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "",
+      "poster": "https://image.tmdb.org/t/p/w780/p3ddSPtzMUjFxNefYZVIZCWbKDy.jpg",
+      "seasonPosters": {
+        "0": "",
+        "1": "https://image.tmdb.org/t/p/w780/ratXVqLi4TlPXWr2a5iqHckcmRy.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/b7wd2D9MEgVbbgRVvJ1WnVWz7Bw.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -369,7 +374,7 @@
         },
         {
           "aired": "2006-01-18",
-          "plot": "Henderson, Teal and York try to make first contact with the Queppu but are instead greeted by crossbow fire and are accused of being rebels.\n\nMeanwhile Jeffers, left in command of the ship, enters into a space race.",
+          "plot": "Henderson, Teal and York try to make first contact with the Queppu but are instead greeted by crossbow fire and are accused of being rebels. Meanwhile Jeffers, left in command of the ship, enters into a space race.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/fpIhMLrBL31lY3OElmDMar3FpU.jpg",
           "title": "Hello, Queppu"
         },
@@ -404,42 +409,41 @@
         null,
         {
           "aired": "2007-07-12",
-          "plot": "Henderson is invited to join Britains premier space-o-batics team (a Red Arrows for space) led by Squadron Leader Mason (played by Stephen Mangan), who twenty years ago had a fling with Teal. \n\nMeanwhile, York reveals the results of his terrifying scientific experiment and Vine has enlisted Jeffers into injuring him in a 'workplace accident' so he can be sent back to Earth.",
+          "plot": "Henderson is invited to join Britains premier space-o-batics team (a Red Arrows for space) led by Squadron Leader Mason, who twenty years ago had a fling with Teal. Meanwhile, York reveals the results of his terrifying scientific experiment and Vine has enlisted Jeffers into injuring him in a 'workplace accident' so he can be sent back to Earth.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/meywxrHDpX7EYn9HcUqPVYbIfMb.jpg",
           "title": "Green Javelins"
         },
         {
           "aired": "2007-07-19",
-          "plot": "When presented with a mysterious object Henderson can't help but try to return it to its rightful owners despite York's warnings that it's a classic hero trap. \n\nThe three senior officers find themselves on a forest moon suddenly surrounded by the Queppu ready for revenge. After narrowly avoiding destruction last year they have acquired new technology and are ready to strike back by putting Henderson, York and Teal into a reality TV gladiatorial contest.",
+          "plot": "When presented with a mysterious object Henderson can't help but try to return it to its rightful owners despite York's warnings that it's a classic hero trap. The three senior officers find themselves on a forest moon suddenly surrounded by the Queppu ready for revenge. After narrowly avoiding destruction last year they have acquired new technology and are ready to strike back by putting Henderson, York and Teal into a reality TV gladiatorial contest.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/sdNbI8LNNiIx1z5mAHSYB4nnfC3.jpg",
           "title": "Artefact"
         },
         {
           "aired": "2007-07-26",
-          "plot": "The daughter of the Space Admiral has run away avoiding university and Henderson is ordered to get her back.\n\nMeanwhile both Vine and Jeffers have taken a shine to the young student and fight for her heart in the only way they know how - a duel. Arabella steals a shuttle craft and elopes with Jeffers leading them both into mortal danger.",
+          "plot": "The daughter of the Space Admiral has run away avoiding university and Henderson is ordered to get her back. Meanwhile both Vine and Jeffers have taken a shine to the young student and fight for her heart in the only way they know how - a duel. Arabella steals a shuttle craft and elopes with Jeffers leading them both into mortal danger.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/rJ2QylJ5FRyZD6Sfs8blreuoUT8.jpg",
           "title": "Admiral's Daughter"
         },
         {
           "aired": "2007-08-02",
-          "plot": "York is sacked from Space Force after footage of him beating up an innocent alien ends up on the news. \n\nTeal is delighted to be left in charge of the ship in the officer's absence - but she faces a tough challenge when the team discover the Red Shiny Robots of Vortis are about to attack.",
+          "plot": "York is sacked from Space Force after footage of him beating up an innocent alien ends up on the news. Teal is delighted to be left in charge of the ship in the officer's absence - but she faces a tough challenge when the team discover the Red Shiny Robots of Vortis are about to attack.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/32App39dmzAl2xtAAgq4nxOxXwF.jpg",
           "title": "Harvest"
         },
         {
           "aired": "2007-08-09",
-          "plot": "The crew discover the Dreamgate, one of the most dangerous devices in the Universe, which gives its owner the power to infiltrate other people's dreams without their knowledge. \n\nHenderson and York wander into Vine's dream of a pub in the mid 1990s...",
+          "plot": "The crew discover the Dreamgate, one of the most dangerous devices in the Universe, which gives its owner the power to infiltrate other people's dreams without their knowledge. Henderson and York wander into Vine's dream of a pub in the mid 1990s...",
           "thumbnail": "https://image.tmdb.org/t/p/w400/rD7ZYEsh0IOuWU3xm9LteWtepgB.jpg",
           "title": "Dreamgate"
         },
         {
           "aired": "2007-08-16",
-          "plot": "Entrusted with leading the convoy guarding Britain's new super-weapon, the Camden Lock's position is betrayed. \n\nThere is a traitor aboard and all the officers are under suspicion. There is a desperate race against time to find the mole before Earth is destroyed.",
+          "plot": "Entrusted with leading the convoy guarding Britain's new super-weapon, the Camden Lock's position is betrayed. There is a traitor aboard and all the officers are under suspicion. There is a desperate race against time to find the mole before Earth is destroyed.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/bTFrwvIZZJGVJXskHmsQBNgEXs2.jpg",
           "title": "Convoy"
         }
       ]
     }
-  },
-  "cacheKey": "hyperdrive"
+  }
 }

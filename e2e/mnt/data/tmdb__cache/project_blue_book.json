@@ -1,62 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Sci-Fi & Fantasy",
     "Mystery"
   ],
   "id": 79649,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5c3d8fb33647c.jpg",
-          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5c414417b9d7e.jpg",
-          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5c3b2cd47daaf.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5e281eea88e95.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/350401/seasonthumb/project-blue-book-5cd3ffea3a9e7.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/350401/seasonthumb/project-blue-book-5e7690685a5c4.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c41e7186e3af.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c41719298db9.JPG",
-        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c3b0bf682cdc.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c4172a18368e.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5e2850c03b263.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/350401/tvbanner/project-blue-book-5c3d903f85957.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/tvbanner/project-blue-book-5e281f8322258.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c41713e7a495.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c48622791903.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c3b28fd6844c.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c41633c2ca93.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c417129c89e8.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5e2edfe4a8984.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/350401/tvthumb/project-blue-book-5c4178ad2c5d5.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/tvthumb/project-blue-book-5c3d90097d861.jpg",
-        "https://assets.fanart.tv/fanart/tv/350401/tvthumb/project-blue-book-5e281f03ba832.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/xsTo4EoKxk27FvY5Stwuw6CGYt.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/rqrzjT5nc7mTD5IKVMLRhLeyzgD.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "Project Blue Book",
   "plot": "A chronicle of the true top secret U.S. Air Force-sponsored investigations into UFO-related phenomena in the 1950s and ’60s, known as “Project Blue Book.”",
@@ -170,6 +118,59 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5c3d8fb33647c.jpg",
+          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5c414417b9d7e.jpg",
+          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5c3b2cd47daaf.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/350401/seasonposter/project-blue-book-5e281eea88e95.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/350401/seasonthumb/project-blue-book-5cd3ffea3a9e7.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/350401/seasonthumb/project-blue-book-5e7690685a5c4.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c41e7186e3af.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c41719298db9.JPG",
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c3b0bf682cdc.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5c4172a18368e.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/showbackground/project-blue-book-5e2850c03b263.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/350401/tvbanner/project-blue-book-5c3d903f85957.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvbanner/project-blue-book-5e281f8322258.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c3b28fd6844c.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5c41633c2ca93.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvposter/project-blue-book-5e2edfe4a8984.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/350401/tvthumb/project-blue-book-5c4178ad2c5d5.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvthumb/project-blue-book-5c3d90097d861.jpg",
+        "https://assets.fanart.tv/fanart/tv/350401/tvthumb/project-blue-book-5e281f03ba832.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/xsTo4EoKxk27FvY5Stwuw6CGYt.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/rqrzjT5nc7mTD5IKVMLRhLeyzgD.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/emWwNHwE97TchvNJO0Rx0ndDDFV.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/rqrzjT5nc7mTD5IKVMLRhLeyzgD.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -301,6 +302,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "project_blue_book"
+  }
 }

@@ -1,42 +1,9 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama"
   ],
   "id": 81747,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/351134/seasonposter/tell-me-a-story-us-5d9e2ec68c6c9.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/351134/showbackground/tell-me-a-story-us-5d9e2f2ddec00.jpg",
-        "https://assets.fanart.tv/fanart/tv/351134/showbackground/tell-me-a-story-us-5c88ee845232c.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/351134/tvbanner/tell-me-a-story-us-5bda23b6e13a2.jpg",
-        "https://assets.fanart.tv/fanart/tv/351134/tvbanner/tell-me-a-story-us-5d9e2f42323cb.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/351134/tvposter/tell-me-a-story-us-5bda20eca88d2.jpg",
-        "https://assets.fanart.tv/fanart/tv/351134/tvposter/tell-me-a-story-us-5d9e2ea434278.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/351134/tvthumb/tell-me-a-story-us-5bda21fa76fb8.jpg",
-        "https://assets.fanart.tv/fanart/tv/351134/tvthumb/tell-me-a-story-us-5d9e2f10542b6.jpg",
-        "https://assets.fanart.tv/fanart/tv/351134/tvthumb/tell-me-a-story-us-5d9e2f0169890.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/hRUpjh7zyueZMUjzMfkgdu66AxG.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/56aw0q12N8ujbcEdCXaLZMfAYXd.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Tell Me a Story",
   "plot": "The world's most beloved fairy tales reimagined as a dark and twisted psychological thriller.",
@@ -98,7 +65,7 @@
       "name": "Sam Jaeger",
       "order": 7,
       "role": "Tim Powell",
-      "thumb": "/h3oODojKkkQ3wlrJ4CyAGsjqnn2.jpg"
+      "thumb": "/8t4wSekn6vUyEmg9etTnvTaGJEV.jpg"
     },
     {
       "name": "Zabryna Guevara",
@@ -113,28 +80,10 @@
       "thumb": "/2mXIZzn8NsuF5DdIKHRggvXpLpu.jpg"
     },
     {
-      "name": "Matt Lauria",
-      "order": 500,
-      "role": "Jackson Pruitt",
-      "thumb": "/2n6JEP2OueaYrMvRIVM3t6dPo3w.jpg"
-    },
-    {
       "name": "Carrie-Anne Moss",
       "order": 500,
       "role": "Rebecca Pruitt",
       "thumb": "/xD4jTA3KmVp5Rq3aHcymL9DUGjD.jpg"
-    },
-    {
-      "name": "Odette Annable",
-      "order": 500,
-      "role": "Maddie Pruitt",
-      "thumb": "/fWPmTC9QfqAKi3JKJKp2LKrm8Ix.jpg"
-    },
-    {
-      "name": "Ashley Madekwe",
-      "order": 500,
-      "role": "Simone Garland",
-      "thumb": "/ueWSC5CwsxtdoVabCHqh82Uue7y.jpg"
     },
     {
       "name": "Natalie Alyn Lind",
@@ -143,10 +92,28 @@
       "thumb": "/2JfuBvtiS8obgQFhmlAw36rHIYg.jpg"
     },
     {
+      "name": "Odette Annable",
+      "order": 500,
+      "role": "Maddie Pruitt",
+      "thumb": "/fWPmTC9QfqAKi3JKJKp2LKrm8Ix.jpg"
+    },
+    {
       "name": "Eka Darville",
       "order": 500,
       "role": "Beau Morris",
       "thumb": "/7tNdST92WSTGHmEJbExaRlQHWcW.jpg"
+    },
+    {
+      "name": "Matt Lauria",
+      "order": 500,
+      "role": "Jackson Pruitt",
+      "thumb": "/2n6JEP2OueaYrMvRIVM3t6dPo3w.jpg"
+    },
+    {
+      "name": "Ashley Madekwe",
+      "order": 500,
+      "role": "Simone Garland",
+      "thumb": "/ueWSC5CwsxtdoVabCHqh82Uue7y.jpg"
     },
     {
       "name": "Paulina Singer",
@@ -191,16 +158,16 @@
       "thumb": null
     },
     {
-      "name": "Debra Monk",
-      "order": 23,
-      "role": "Esther Thorn",
-      "thumb": "/ry6b3MF6SNMWA6GTi3ujofcuWMc.jpg"
-    },
-    {
       "name": "James Martinez",
       "order": 23,
       "role": "Detective Olsen",
       "thumb": "/nD2Alcz1mjb5hpvNKPZqYiqmZBI.jpg"
+    },
+    {
+      "name": "Debra Monk",
+      "order": 23,
+      "role": "Esther Thorn",
+      "thumb": "/ry6b3MF6SNMWA6GTi3ujofcuWMc.jpg"
     },
     {
       "name": "Harry Shum Jr.",
@@ -209,22 +176,22 @@
       "thumb": "/8n9Q0SUALJUFTVW57Kp9LqDPGOK.jpg"
     },
     {
+      "name": "Luke Guldan",
+      "order": 16,
+      "role": "Billy",
+      "thumb": "/qi1ZZo83r64dmuB4KTLevQxNMjb.jpg"
+    },
+    {
+      "name": "Dan Amboyer",
+      "order": 16,
+      "role": "Harry",
+      "thumb": "/vjRD1RCeoHPeKOGUEZZvAnPYEty.jpg"
+    },
+    {
       "name": "Jennifer Ikeda",
       "order": 16,
       "role": "Rita",
       "thumb": "/dSCyy9xovGlCsJJTBahJvkKhIrj.jpg"
-    },
-    {
-      "name": "Luke Guldan",
-      "order": 16,
-      "role": "Billy",
-      "thumb": "/cU4jMVQdxhPeQOAEs8jfphTiExN.jpg"
-    },
-    {
-      "name": "Sydney James Harcourt",
-      "order": 16,
-      "role": "Lance",
-      "thumb": "/tKNptUzgklRMk5ZI1E1yHRCCzvG.jpg"
     },
     {
       "name": "Sanjit De Silva",
@@ -233,10 +200,10 @@
       "thumb": null
     },
     {
-      "name": "Dan Amboyer",
+      "name": "Sydney James Harcourt",
       "order": 16,
-      "role": "Harry",
-      "thumb": "/vjRD1RCeoHPeKOGUEZZvAnPYEty.jpg"
+      "role": "Lance",
+      "thumb": "/tKNptUzgklRMk5ZI1E1yHRCCzvG.jpg"
     },
     {
       "name": "Polly Draper",
@@ -300,6 +267,43 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/351134/seasonposter/tell-me-a-story-us-5d9e2ec68c6c9.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/351134/showbackground/tell-me-a-story-us-5d9e2f2ddec00.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/showbackground/tell-me-a-story-us-5c88ee845232c.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/351134/tvbanner/tell-me-a-story-us-5bda23b6e13a2.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/tvbanner/tell-me-a-story-us-5d9e2f42323cb.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/351134/tvposter/tell-me-a-story-us-5bda20eca88d2.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/tvposter/tell-me-a-story-us-5d9e2ea434278.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/351134/tvthumb/tell-me-a-story-us-5bda21fa76fb8.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/tvthumb/tell-me-a-story-us-5d9e2f10542b6.jpg",
+        "https://assets.fanart.tv/fanart/tv/351134/tvthumb/tell-me-a-story-us-5d9e2f0169890.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/hRUpjh7zyueZMUjzMfkgdu66AxG.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/56aw0q12N8ujbcEdCXaLZMfAYXd.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/dHSM15QeUa9aZhA5eafFbgdqPY1.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/lhHIAKg8pLigO5U8sFPVI08oNz9.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -431,6 +435,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "tell_me_a_story"
+  }
 }

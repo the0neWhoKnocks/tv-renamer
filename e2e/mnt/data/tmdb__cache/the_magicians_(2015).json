@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama",
     "Fantasy",
@@ -84,7 +84,7 @@
     {
       "name": "Mageina Tovah",
       "order": 211,
-      "role": "The Librarian",
+      "role": "Zelda, The Librarian",
       "thumb": "/lB0J8ZIqvLmvVecIiWCUXTLDoQO.jpg"
     },
     {
@@ -174,7 +174,7 @@
     {
       "name": "Esmé Bianco",
       "order": 22,
-      "role": "Jane Chatwin",
+      "role": "Eliza",
       "thumb": "/mcbQdFHVEbGypOdDiNMCcqHgNaX.jpg"
     },
     {
@@ -210,7 +210,7 @@
     {
       "name": "Fiona Hogan",
       "order": 65,
-      "role": "Menolly",
+      "role": "Menially",
       "thumb": null
     },
     {
@@ -336,7 +336,7 @@
     {
       "name": "Nicholas Croucher",
       "order": 63,
-      "role": "Josh Hoberman",
+      "role": "Martin Chatwin",
       "thumb": "/yXA4IVtSZelOj5KU6UvU6TMPX8P.jpg"
     },
     {
@@ -370,16 +370,16 @@
       "thumb": "/kQCF2rYGo3wxaCjv5wOBXHiWm6C.jpg"
     },
     {
-      "name": "Tom Wright",
-      "order": 198,
-      "role": "Santa",
-      "thumb": "/3Jmwf493R4e9cis5689Nn0DLgqt.jpg"
-    },
-    {
       "name": "Ryan McDonald",
       "order": 198,
       "role": "Bacchus",
       "thumb": "/vqqU8iLd5xWVokCGhixyCkAlACG.jpg"
+    },
+    {
+      "name": "Tom Wright",
+      "order": 198,
+      "role": "Santa",
+      "thumb": "/3Jmwf493R4e9cis5689Nn0DLgqt.jpg"
     },
     {
       "name": "Jolene Purdy",
@@ -400,16 +400,16 @@
       "thumb": "/Adu1hsShEmbcEeKNmXB8RSJC18j.jpg"
     },
     {
-      "name": "Camryn Manheim",
-      "order": 218,
-      "role": "Sheila",
-      "thumb": "/eI42MrAyzJ3vbiGSIQB0FCwecba.jpg"
-    },
-    {
       "name": "Brian Markinson",
       "order": 218,
       "role": "Everett",
       "thumb": "/26fa857UrEU4aCMHVQbpvNOGuKv.jpg"
+    },
+    {
+      "name": "Camryn Manheim",
+      "order": 218,
+      "role": "Sheila",
+      "thumb": "/eI42MrAyzJ3vbiGSIQB0FCwecba.jpg"
     },
     {
       "name": "Tembi Locke",
@@ -516,7 +516,7 @@
     {
       "name": "Christopher Britton",
       "order": 168,
-      "role": "Demon",
+      "role": "Demon Todd",
       "thumb": null
     },
     {
@@ -544,18 +544,6 @@
       "thumb": "/6u102CBNiRMagE0YaI1KbcpFEYx.jpg"
     },
     {
-      "name": "Leanne Lapp",
-      "order": 198,
-      "role": "Sam Cunningham",
-      "thumb": "/zp2vgmRtiCNOs7k1uhBeKqj7qn0.jpg"
-    },
-    {
-      "name": "Agam Darshi",
-      "order": 198,
-      "role": "Janet",
-      "thumb": "/rJoqe224bDWl03fnSqrUPt9QfLn.jpg"
-    },
-    {
       "name": "Emily Althaus",
       "order": 198,
       "role": "Kimber D'Antoni",
@@ -566,6 +554,18 @@
       "order": 198,
       "role": "Charlton",
       "thumb": "/yFePed7zzGyvdoU1c3XdilsHw1r.jpg"
+    },
+    {
+      "name": "Agam Darshi",
+      "order": 198,
+      "role": "Janet",
+      "thumb": "/rJoqe224bDWl03fnSqrUPt9QfLn.jpg"
+    },
+    {
+      "name": "Leanne Lapp",
+      "order": 198,
+      "role": "Sam Cunningham",
+      "thumb": "/zp2vgmRtiCNOs7k1uhBeKqj7qn0.jpg"
     },
     {
       "name": "Madisen Beaty",
@@ -838,16 +838,16 @@
       "thumb": "/5D3vNDlHOeixwRg1Bk45YlJUtsl.jpg"
     },
     {
-      "name": "Dustin Schwartz",
-      "order": 97,
-      "role": "Ardian",
-      "thumb": null
-    },
-    {
       "name": "Michelle Harrison",
       "order": 97,
       "role": "Dr. Higgins",
       "thumb": "/4NNuBCS6I4USJT45xSN9R7vwXFI.jpg"
+    },
+    {
+      "name": "Dustin Schwartz",
+      "order": 97,
+      "role": "Ardian",
+      "thumb": null
     },
     {
       "name": "Lee Garlington",
@@ -1120,16 +1120,16 @@
       "thumb": "/23u37HEoWB6n5TSTGPIKD2Qv0oS.jpg"
     },
     {
-      "name": "Michael Kopsa",
-      "order": 170,
-      "role": "Emmett Morrison",
-      "thumb": "/i6J24oJfHH4rb8O0HlKnt6IkrgK.jpg"
-    },
-    {
       "name": "Michael Ryan",
       "order": 170,
       "role": "Eliot's Father",
       "thumb": null
+    },
+    {
+      "name": "Michael Kopsa",
+      "order": 170,
+      "role": "Emmett Morrison",
+      "thumb": "/i6J24oJfHH4rb8O0HlKnt6IkrgK.jpg"
     },
     {
       "name": "Arthur MacKinnon",
@@ -1306,16 +1306,16 @@
       "thumb": "/1xnSniYd3y84qt6lqLvDIzGT4x0.jpg"
     },
     {
-      "name": "Luca Padovan",
-      "order": 217,
-      "role": "Young Quentin (Golem)",
-      "thumb": "/k7TO7YgOkoAZSfAYjiu0DSQKvd0.jpg"
-    },
-    {
       "name": "Elyse Maloway",
       "order": 217,
       "role": "Berry",
       "thumb": "/oREWBuun5XvNkn0E1s01B82tyyY.jpg"
+    },
+    {
+      "name": "Luca Padovan",
+      "order": 217,
+      "role": "Young Quentin (Golem)",
+      "thumb": "/k7TO7YgOkoAZSfAYjiu0DSQKvd0.jpg"
     },
     {
       "name": "Yaani King Mondschein",
@@ -1344,40 +1344,23 @@
       "seasonPoster": {
         "1": [
           "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd56e13bb6.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace451567e47.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d26abe53f.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d418ef23b.jpg",
           "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-56c4835252c12.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb0b18ce5.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5a0f55dc084b6.jpg"
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb0b18ce5.jpg"
         ],
         "2": [
           "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd59c641f6.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace4525f1501.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d289908f1.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d431cf94d.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-59359074a7ac6.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb3c16c00.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5a0f55fb2df8d.jpg"
+          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb3c16c00.jpg"
         ],
         "3": [
           "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd5c59192d.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5ace453517fa5.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d2a40af1d.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d4497d2e4.jpg",
           "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb4ad822b.jpg"
         ],
         "4": [
           "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd60149990.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d2c09d6fe.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d37b8db90.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d464d8e28.jpg",
           "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb580c9df.jpg"
         ],
         "5": [
           "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5defd69762b4c.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d396c1dc6.jpg",
-          "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5fb7d480e94b9.jpg",
           "https://assets.fanart.tv/fanart/tv/299139/seasonposter/the-magicians-5c3cbb68f104e.jpg"
         ],
         "6": [
@@ -1431,20 +1414,14 @@
       ],
       "seriesBanner": [
         "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-569d350499c5a.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-569d355eeacbc.jpg",
         "https://assets.fanart.tv/fanart/tv/299139/tvbanner/the-magicians-5c90fcaabc503.jpg"
       ],
       "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb479b527576.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb479ca91370.jpg",
         "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5681648d132e3.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5fb7d24c2ad53.jpg",
         "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-56c483325d408.jpg",
         "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44b313bab.jpg",
         "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44bbf1fb4.jpg",
         "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5ace44d199f57.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5681647918389.jpg",
-        "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-568164a2efffd.jpg",
         "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5bbeb77b8c884.jpg",
         "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-5c163bca9acbf.jpg",
         "https://assets.fanart.tv/fanart/tv/299139/tvposter/the-magicians-571a47325dfdb.jpg",
@@ -1463,8 +1440,15 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/wcfErhzLmmeutxAMpbHlR0Naa2q.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/A66dZN98BPEYeFQAhNdNCIXa57d.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/wcfErhzLmmeutxAMpbHlR0Naa2q.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/A66dZN98BPEYeFQAhNdNCIXa57d.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/k4sfQrvA6qQfv4h8KoMfjrsYGL4.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/7vVSESQSVBM5UVemdKofZV4JiDe.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/3ncaweYCScN7PTZ6qt0njagpQoi.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/zCBU7H9Xl8dqWB0sYUrLqwi2A0u.jpg",
+        "5": "https://image.tmdb.org/t/p/w780/26eosVpB6MhFrR8EBQmVkmEputU.jpg"
+      }
     }
   },
   "seasons": {

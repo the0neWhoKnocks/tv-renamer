@@ -1,37 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Animation",
     "Sci-Fi & Fantasy",
     "Drama"
   ],
   "id": 83962,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/354154/showbackground/carole--tuesday-5df2f4b2ea2b5.jpg",
-        "https://assets.fanart.tv/fanart/tv/354154/showbackground/carole--tuesday-5df2f5fb7ad3f.jpg",
-        "https://assets.fanart.tv/fanart/tv/354154/showbackground/carole--tuesday-5f181b4a0afcc.jpg"
-      ],
-      "seriesBanner": [],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/354154/tvposter/carole--tuesday-5dc3d9e53bc7b.jpg",
-        "https://assets.fanart.tv/fanart/tv/354154/tvposter/carol--tuesday-5ca276736f0d3.jpg",
-        "https://assets.fanart.tv/fanart/tv/354154/tvposter/carole--tuesday-5d10a5899d701.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/354154/tvthumb/carole--tuesday-5dc3d9f1ba7de.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/kCQXUzThgvRtoyFNdjwXBH21a9r.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/1NtxJItCNV9B36FpttUumGvdzSG.jpg"
-    }
-  },
   "mpaa": "TV-PG",
   "name": "Carole & Tuesday",
   "plot": "Fifty years have passed since mankind began migrating to the new frontier: Mars. It's an age where most culture is produced by AI, and people are content to be passive consumers.  There's a girl. Scrapping a living in the metropolis of Alba City, she's working part time while trying to become a musician. She's always felt like something is missing. Her name is Carole.There's a girl. Born to a wealthy family in the provincial town of Herschel City, she dreams of becoming a musician, but nobody around her understands. She feels like the loneliest person in the world. Her name is Tuesday.\n\nA chance meeting brings them together. They want to sing. They want to make music. Together, they feel like they just might have a chance. The two of them may only create a tiny wave. But that wave will eventually grow into something larger...",
@@ -139,6 +113,32 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/354154/showbackground/carole--tuesday-5df2f4b2ea2b5.jpg",
+        "https://assets.fanart.tv/fanart/tv/354154/showbackground/carole--tuesday-5df2f5fb7ad3f.jpg",
+        "https://assets.fanart.tv/fanart/tv/354154/showbackground/carole--tuesday-5f181b4a0afcc.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/354154/tvposter/carol--tuesday-5ca276736f0d3.jpg"
+      ],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/kCQXUzThgvRtoyFNdjwXBH21a9r.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/1NtxJItCNV9B36FpttUumGvdzSG.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/a2eT3H3dFuGQJ4cPZ5scuN5ZFTu.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/hqcC6kxYiH6Cth2rCwrYjsOw6Cr.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -348,6 +348,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "carole_&_tuesday"
+  }
 }

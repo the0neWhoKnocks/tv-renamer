@@ -1,35 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Animation",
     "Action & Adventure"
   ],
   "id": 94498,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/371000/showbackground/appare-ranman-5f8381753255b.jpg"
-      ],
-      "seriesBanner": [],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/371000/tvposter/appare-ranman-5ddf494ae9f9d.jpg",
-        "https://assets.fanart.tv/fanart/tv/371000/tvposter/appare-ranman-5ddf495c15d3b.jpg",
-        "https://assets.fanart.tv/fanart/tv/371000/tvposter/appare-ranman-5f835afa67403.jpg",
-        "https://assets.fanart.tv/fanart/tv/371000/tvposter/appare-ranman-5f835b058b24f.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/371000/tvthumb/appare-ranman-5ddf496dc2750.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/5DQNUMMuGvMoCk74AucLPPNtviv.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/bY2rGuetVn9AUty7Ux76XnKOSCc.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "Appare-Ranman!",
   "plot": "During the back-end of the 19th century, the genius but socially awkward engineer Sorano Appare and the wise yet cowardly samurai Isshiki Kosame find themselves drifting in the sea between Japan and America. With no money, the duo decide to enter the Trans-America Wild Race to win the prize money so they can get home. The two encounter rivals, bandits, and challenges in the wilderness as they race through America, from the starting line in Los Angeles to the finish line in New York, in the steam-powered car they built.\n\n(Source: MyAnimeList News)",
@@ -49,34 +24,16 @@
   ],
   "actors": [
     {
-      "name": "Fumiko Orikasa",
+      "name": "Natsuki Hanae",
       "order": 500,
-      "role": "Sophia (voice)",
-      "thumb": "/nbphHwfqBIp6de1Fd38Dt1Z8KCR.jpg"
-    },
-    {
-      "name": "Takahiro Sakurai",
-      "order": 500,
-      "role": "Dylan G. Ordene (voice)",
-      "thumb": "/cXVu8xUA3CFHB0RJLyTcrUP38j3.jpg"
+      "role": "Appare (voice)",
+      "thumb": "/A1lGrpBEdAUxZA7RoAw4Zr4ved3.jpg"
     },
     {
       "name": "Tomokazu Sugita",
       "order": 500,
       "role": "TJ (voice)",
       "thumb": "/tW9VGnxmdhy3XTWfssk8ySrDu7K.jpg"
-    },
-    {
-      "name": "Kenjirou Tsuda",
-      "order": 500,
-      "role": "Richard Riesman (voice)",
-      "thumb": "/9KISTULuEd5uXU9iS5IJHVnss2L.jpg"
-    },
-    {
-      "name": "Kazuyuki Okitsu",
-      "order": 500,
-      "role": "Seth Rich Cutter (voice)",
-      "thumb": "/yxtDLuC82tSUzr2FWkqWU1lowhI.jpg"
     },
     {
       "name": "Daisuke Ono",
@@ -103,10 +60,28 @@
       "thumb": "/oSYMF6kCPArwNf64bqf9fep3h8w.jpg"
     },
     {
-      "name": "Sora Amamiya",
+      "name": "Takahiro Sakurai",
       "order": 500,
-      "role": "Gin (voice)",
-      "thumb": "/25o1W6AtzQqHJTu56wICengUOuj.jpg"
+      "role": "Dylan G. Ordene (voice)",
+      "thumb": "/cXVu8xUA3CFHB0RJLyTcrUP38j3.jpg"
+    },
+    {
+      "name": "Kenjirou Tsuda",
+      "order": 500,
+      "role": "Richard Riesman (voice)",
+      "thumb": "/9KISTULuEd5uXU9iS5IJHVnss2L.jpg"
+    },
+    {
+      "name": "Kazuyuki Okitsu",
+      "order": 500,
+      "role": "Seth Rich Cutter (voice)",
+      "thumb": "/yxtDLuC82tSUzr2FWkqWU1lowhI.jpg"
+    },
+    {
+      "name": "Fumiko Orikasa",
+      "order": 500,
+      "role": "Sophia (voice)",
+      "thumb": "/nbphHwfqBIp6de1Fd38Dt1Z8KCR.jpg"
     },
     {
       "name": "Sōma Saitō",
@@ -115,13 +90,34 @@
       "thumb": "/2DjLXKEr16MvC1tBvd7vkm5x4u8.jpg"
     },
     {
-      "name": "Natsuki Hanae",
+      "name": "Sora Amamiya",
       "order": 500,
-      "role": "Appare (voice)",
-      "thumb": "/A1lGrpBEdAUxZA7RoAw4Zr4ved3.jpg"
+      "role": "Gin (voice)",
+      "thumb": "/25o1W6AtzQqHJTu56wICengUOuj.jpg"
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/371000/showbackground/appare-ranman-5f8381753255b.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/5DQNUMMuGvMoCk74AucLPPNtviv.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/bY2rGuetVn9AUty7Ux76XnKOSCc.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/vFAldZ9IvFKl7dzcvbNcEjiIh2p.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -206,6 +202,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "appare-ranman!"
+  }
 }

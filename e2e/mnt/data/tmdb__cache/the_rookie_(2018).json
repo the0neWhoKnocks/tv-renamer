@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Crime",
     "Drama"
@@ -137,7 +137,7 @@
     {
       "name": "Sara Rue",
       "order": 123,
-      "role": "Nell Forester",
+      "role": "Nell Forester (voice)",
       "thumb": "/nSiNGBB8YJLhLe5L0gHGNfIQoBW.jpg"
     },
     {
@@ -159,16 +159,16 @@
       "thumb": "/dJbhKpatqcleB1lssaAogo8KxGv.jpg"
     },
     {
-      "name": "Enver Gjokaj",
-      "order": 334,
-      "role": "Donovan",
-      "thumb": "/1M3ISdFIaf4p1N3ZZTK7KnZwj9p.jpg"
-    },
-    {
       "name": "Carsyn Rose",
       "order": 334,
       "role": "Lila Town",
       "thumb": "/5l5DStGOjijpWx6WpydEAmojtl7.jpg"
+    },
+    {
+      "name": "Enver Gjokaj",
+      "order": 334,
+      "role": "Donovan",
+      "thumb": "/1M3ISdFIaf4p1N3ZZTK7KnZwj9p.jpg"
     },
     {
       "name": "Matthew Glave",
@@ -195,21 +195,21 @@
       "thumb": null
     },
     {
-      "name": "Brandon Routh",
-      "order": 356,
-      "role": "Doug Stanton",
-      "thumb": "/iPonANuyk3eOHjADqd4h9sBwvX1.jpg"
-    },
-    {
       "name": "Crystal Coney",
       "order": 356,
       "role": "Nurse Lisa",
       "thumb": "/nQLRhZ2x9KQONnyKeaQKaTIYhb3.jpg"
     },
     {
+      "name": "Brandon Routh",
+      "order": 356,
+      "role": "Doug Stanton",
+      "thumb": "/iPonANuyk3eOHjADqd4h9sBwvX1.jpg"
+    },
+    {
       "name": "Jane Daly",
       "order": 109,
-      "role": "Patrice Evers",
+      "role": "Mrs. Evers",
       "thumb": "/2CIjLiZD5cb4q3iBIcCDzmWb9SS.jpg"
     },
     {
@@ -221,7 +221,7 @@
     {
       "name": "Jeffrey D. Sams",
       "order": 137,
-      "role": "Dr. Simon Lowell",
+      "role": "Dr. Solomon Lowell",
       "thumb": null
     },
     {
@@ -251,7 +251,7 @@
     {
       "name": "Brian Leckner",
       "order": 157,
-      "role": "Airport Officer Holcomb",
+      "role": "Officer Holcomb",
       "thumb": null
     },
     {
@@ -263,7 +263,7 @@
     {
       "name": "Eve Harlow",
       "order": 212,
-      "role": "Bianca",
+      "role": "Bianca Windle",
       "thumb": "/iXwYkiU3IgxYfaPuU8nFzFYWyqI.jpg"
     },
     {
@@ -765,28 +765,28 @@
       "thumb": "/azasTTHyZtfbZzuImCXrvc2z5y8.jpg"
     },
     {
-      "name": "Rico E. Anderson",
-      "order": 99,
-      "role": "Amari",
-      "thumb": "/loTXJE4J4r1QPLn30MdhZwgsjKL.jpg"
-    },
-    {
       "name": "Bobby Hosea",
       "order": 99,
       "role": "Walter",
       "thumb": "/xtyJ21tU9tcRkEQQfnXKKebI3Ak.jpg"
     },
     {
-      "name": "Alan Tudyk",
-      "order": 100,
-      "role": "Ellroy Basso",
-      "thumb": "/w56mp2ky1t7ORDsoGQP00OHlyic.jpg"
+      "name": "Rico E. Anderson",
+      "order": 99,
+      "role": "Amari",
+      "thumb": "/loTXJE4J4r1QPLn30MdhZwgsjKL.jpg"
     },
     {
       "name": "Jim Ortlieb",
       "order": 100,
       "role": "Judge Stevens",
       "thumb": "/ehQGmHYLxnkZrxVklSgof2KfAvD.jpg"
+    },
+    {
+      "name": "Alan Tudyk",
+      "order": 100,
+      "role": "Ellroy Basso",
+      "thumb": "/w56mp2ky1t7ORDsoGQP00OHlyic.jpg"
     },
     {
       "name": "Lizze Broadway",
@@ -2088,7 +2088,7 @@
       "name": "Greg Serano",
       "order": 347,
       "role": "T.O. Martinez",
-      "thumb": null
+      "thumb": "/pNSUC8O3UJqs8tGj3zcSFvOi9N0.jpg"
     },
     {
       "name": "Shi Ne Nielson",
@@ -2103,16 +2103,16 @@
       "thumb": "/tOW5l3r73G6odIZsAKNgRUhFkMI.jpg"
     },
     {
-      "name": "Themo Melikidze",
-      "order": 350,
-      "role": "Serj Derian",
-      "thumb": null
-    },
-    {
       "name": "Victoria Garcia-Kelleher",
       "order": 350,
       "role": "Doctor",
       "thumb": "/5sAbw0szNDqIzQQJQXnDCsXK43j.jpg"
+    },
+    {
+      "name": "Themo Melikidze",
+      "order": 350,
+      "role": "Serj Derian",
+      "thumb": null
     },
     {
       "name": "Mike Gray",
@@ -2170,14 +2170,11 @@
       "clearLogo": [],
       "seasonPoster": {
         "1": [
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5defb3765c43a.jpg",
           "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d8b996253d48.jpg",
           "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5cc1a59ba2e44.jpg",
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92191c94add.jpg",
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5cc1a5c7439a9.jpg"
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92191c94add.jpg"
         ],
         "2": [
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5e199bfd59804.jpg",
           "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92192c22ab6.jpg"
         ],
         "3": [
@@ -2209,7 +2206,6 @@
       ],
       "seriesPoster": [
         "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5bc6d5ad99627.jpg",
-        "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5c8236ba261fa.jpg",
         "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5d8b987029f41.jpg",
         "https://assets.fanart.tv/fanart/tv/350665/tvposter/the-rookie-5d8b98dfdee0d.jpg"
       ],
@@ -2220,8 +2216,13 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/Aof7R1if9jKhHCk6M7UGyEQWQSk.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/6hChiX0vIjWY4y2kz1WndHVMsDu.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/Aof7R1if9jKhHCk6M7UGyEQWQSk.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/6hChiX0vIjWY4y2kz1WndHVMsDu.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/c5tWybs91GuwEFOucnj7yZu2YLu.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/arPUIveaNTdlZeSrOPrgof6UvhQ.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/6hChiX0vIjWY4y2kz1WndHVMsDu.jpg"
+      }
     }
   },
   "seasons": {

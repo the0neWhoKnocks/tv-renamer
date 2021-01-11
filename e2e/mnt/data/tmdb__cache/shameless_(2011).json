@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama",
     "Comedy"
@@ -33,16 +33,16 @@
       "thumb": "/fyWtrRJEm35nk4l0v7rEXqjQ0q2.jpg"
     },
     {
-      "name": "Emmy Rossum",
-      "order": 3,
-      "role": "Fiona Gallagher",
-      "thumb": "/nHMpPkC4KEnZfpV5ZxtCgA4YQfp.jpg"
-    },
-    {
       "name": "Emma Kenney",
       "order": 3,
       "role": "Debbie Gallagher",
       "thumb": "/AvcM57XKunQCFGsu5cZZHkNre4z.jpg"
+    },
+    {
+      "name": "Emmy Rossum",
+      "order": 3,
+      "role": "Fiona Gallagher",
+      "thumb": "/nHMpPkC4KEnZfpV5ZxtCgA4YQfp.jpg"
     },
     {
       "name": "Ethan Cutkosky",
@@ -141,16 +141,16 @@
       "thumb": "/8a1wpq7lC8S3XiokACHkJOqJv5v.jpg"
     },
     {
-      "name": "Vanessa Bell Calloway",
-      "order": 177,
-      "role": "Carol Fisher",
-      "thumb": "/6gJua6IKvhGrCTU1UzgRhOM9oyl.jpg"
-    },
-    {
       "name": "Nichole Bloom",
       "order": 177,
       "role": "Amanda",
       "thumb": "/pnYsUkrFGvTFwktm9QTmddr4yH1.jpg"
+    },
+    {
+      "name": "Vanessa Bell Calloway",
+      "order": 177,
+      "role": "Carol Fisher",
+      "thumb": "/6gJua6IKvhGrCTU1UzgRhOM9oyl.jpg"
     },
     {
       "name": "Rebecca Metz",
@@ -363,16 +363,16 @@
       "thumb": "/brputZXskZzzncPA4TP9ndqBe7.jpg"
     },
     {
-      "name": "Jane Levy",
-      "order": 143,
-      "role": "Mandy Milkovich",
-      "thumb": "/aO0i6RMTI9kOYCzwI2pVJXK8HhQ.jpg"
-    },
-    {
       "name": "Marguerite Moreau",
       "order": 143,
       "role": "Linda",
       "thumb": "/e0joYMTL9HzL2fnGKCrZJvcRZCp.jpg"
+    },
+    {
+      "name": "Jane Levy",
+      "order": 143,
+      "role": "Mandy Milkovich",
+      "thumb": "/aO0i6RMTI9kOYCzwI2pVJXK8HhQ.jpg"
     },
     {
       "name": "Dennis Boutsikaris",
@@ -441,16 +441,16 @@
       "thumb": "/iGprqurSU6ONbRlBHv6pwdwM2Nx.jpg"
     },
     {
-      "name": "Regina King",
-      "order": 168,
-      "role": "Gail Johnson",
-      "thumb": "/fEIz0ljk9CBrp3AitM5nwjfoGVu.jpg"
-    },
-    {
       "name": "Morgan Lily",
       "order": 168,
       "role": "Bonnie",
       "thumb": "/bvSuq6yJstBeOSD0DpOtR2Cs8pC.jpg"
+    },
+    {
+      "name": "Regina King",
+      "order": 168,
+      "role": "Gail Johnson",
+      "thumb": "/fEIz0ljk9CBrp3AitM5nwjfoGVu.jpg"
     },
     {
       "name": "Jess Gabor",
@@ -549,12 +549,6 @@
       "thumb": null
     },
     {
-      "name": "Dove Cameron",
-      "order": 148,
-      "role": "Holly Herkimer",
-      "thumb": "/3axjaPMPDgd3iLmSc9BGBwEFI8b.jpg"
-    },
-    {
       "name": "Molly Price",
       "order": 148,
       "role": "Dottie Corones",
@@ -565,6 +559,12 @@
       "order": 148,
       "role": "Craig Heisner",
       "thumb": "/zpeJHKf73rnxd4Dvq3lfAkX6Zkq.jpg"
+    },
+    {
+      "name": "Dove Cameron",
+      "order": 148,
+      "role": "Holly Herkimer",
+      "thumb": "/3axjaPMPDgd3iLmSc9BGBwEFI8b.jpg"
     },
     {
       "name": "Cameron Richardson",
@@ -597,16 +597,16 @@
       "thumb": "/5VTFnQqBpCl1F1Ja081iAmiXS28.jpg"
     },
     {
-      "name": "Stacy Edwards",
-      "order": 174,
-      "role": "Laura Shelton",
-      "thumb": "/vTvcn83poPsGhdUVGNCARBmqgzU.jpg"
-    },
-    {
       "name": "Patrick Fischler",
       "order": 174,
       "role": "Wade Shelton",
       "thumb": "/z5et9sdI57E9VRYbCbivqbDt523.jpg"
+    },
+    {
+      "name": "Stacy Edwards",
+      "order": 174,
+      "role": "Laura Shelton",
+      "thumb": "/vTvcn83poPsGhdUVGNCARBmqgzU.jpg"
     },
     {
       "name": "Jaylen Barron",
@@ -915,16 +915,16 @@
       "thumb": "/gaoHTM46dilnFiyXdYzG7Dwk8FH.jpg"
     },
     {
-      "name": "Ana Mercedes",
-      "order": 81,
-      "role": "Mrs. Hernandez",
-      "thumb": "/asRnzRvR2hAMiUYm15TL6VyKfeP.jpg"
-    },
-    {
       "name": "Anthony Anderson",
       "order": 81,
       "role": "Marty Fisher",
       "thumb": "/reO1OjwFdtXmiO4LMDaBj6eatzK.jpg"
+    },
+    {
+      "name": "Ana Mercedes",
+      "order": 81,
+      "role": "Mrs. Hernandez",
+      "thumb": "/asRnzRvR2hAMiUYm15TL6VyKfeP.jpg"
     },
     {
       "name": "Justine Lupe",
@@ -1119,16 +1119,16 @@
       "thumb": "/5I1P5oQ3WyV4eIM8E89zO1xVYuM.jpg"
     },
     {
-      "name": "Peter Macon",
-      "order": 181,
-      "role": "Luther Winslow",
-      "thumb": "/oA3AbLBLWVR0cYzPqxNOX3WXzUy.jpg"
-    },
-    {
       "name": "Cheyenne Haynes",
       "order": 181,
       "role": "Bethany",
       "thumb": "/k3e8CGiVcj1MCG6FLPEQuR8QOom.jpg"
+    },
+    {
+      "name": "Peter Macon",
+      "order": 181,
+      "role": "Luther Winslow",
+      "thumb": "/oA3AbLBLWVR0cYzPqxNOX3WXzUy.jpg"
     },
     {
       "name": "London Thor",
@@ -1188,8 +1188,7 @@
       ],
       "clearLogo": [
         "https://assets.fanart.tv/fanart/tv/161511/clearlogo/shameless-us-4f7da129b7e71.png",
-        "https://assets.fanart.tv/fanart/tv/161511/clearlogo/ShamelessUS-161511.png",
-        "https://assets.fanart.tv/fanart/tv/161511/clearlogo/shameless-us-4f489e09f4151.PNG"
+        "https://assets.fanart.tv/fanart/tv/161511/clearlogo/ShamelessUS-161511.png"
       ],
       "seasonPoster": {
         "0": [
@@ -1197,48 +1196,34 @@
         ],
         "1": [
           "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5358c4707987a.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafdf1797f9.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-57037ab501464.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-59ba5efbecb5f.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafdf1797f9.jpg"
         ],
         "2": [
           "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5358c47b06887.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafe07b852d.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-57037ac2cfb7a.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-59bb7f1630022.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafe07b852d.jpg"
         ],
         "3": [
           "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-535949520f38e.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafe431c1d1.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-57037ad133e00.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-59bb855a05551.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafe431c1d1.jpg"
         ],
         "4": [
           "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5359495b2d4bd.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafe5691af0.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-57037add12136.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-59bb9662de68c.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafe5691af0.jpg"
         ],
         "5": [
           "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-55031ffe772e4.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafe82d813b.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-57037aeda51c1.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-59bb97ea5f53b.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afafe82d813b.jpg"
         ],
         "6": [
           "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-569a76d8becec.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afaffa6cc0ce.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-57037afad9b75.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-59bb9c9294b53.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afaffa6cc0ce.jpg"
         ],
         "7": [
           "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-58959cc6dc958.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afaffb806a8c.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-59bb9e8548ab0.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afaffb806a8c.jpg"
         ],
         "8": [
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afaffc72a5b3.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5adc3762d93d7.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5afaffc72a5b3.jpg"
         ],
         "9": [
           "https://assets.fanart.tv/fanart/tv/161511/seasonposter/shameless-us-5cf4d9ca411a0.jpg"
@@ -1249,27 +1234,19 @@
       },
       "seasonThumb": {
         "1": [
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373c5bbffa.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-57037b4eac0c9.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373c5bbffa.jpg"
         ],
         "2": [
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373d198e91.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-57037b5a04c00.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373d198e91.jpg"
         ],
         "3": [
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373db0dcea.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-57037b658c0ac.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373db0dcea.jpg"
         ],
         "4": [
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373e5845b1.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-57037b6f17339.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373e5845b1.jpg"
         ],
         "5": [
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373efb2b5b.jpg",
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-57037b781391f.jpg"
-        ],
-        "6": [
-          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-57037b828bbf5.jpg"
+          "https://assets.fanart.tv/fanart/tv/161511/seasonthumb/shameless-us-550373efb2b5b.jpg"
         ]
       },
       "seriesBackground": [
@@ -1307,14 +1284,9 @@
         "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-5d9f12473f3d8.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-52efd4adc2421.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-5b992f94841f6.jpg",
-        "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-57f68080eb5ed.jpg",
-        "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-56a296f761931.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-52efd4adb9362.jpg",
-        "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-5dc833c56cf6c.jpg",
-        "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-5a009be03e592.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-52efd4add2a6e.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-52f0fda453081.jpg",
-        "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-5c4aba80bfd04.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-5686d6776d711.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-533ef53ee1ef4.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvposter/shameless-us-59fd5361c551f.jpg"
@@ -1331,13 +1303,26 @@
         "https://assets.fanart.tv/fanart/tv/161511/tvthumb/shameless-us-4e42f7e5cc801.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvthumb/shameless-us-5889c1054f852.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvthumb/shameless-us-58a8af1e85236.jpg",
-        "https://assets.fanart.tv/fanart/tv/161511/tvthumb/shameless-us-5dd06dde316a2.jpg",
         "https://assets.fanart.tv/fanart/tv/161511/tvthumb/shameless-us-504b1592813d1.jpg"
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/5s9XHTB9SLPdg3mNU6BlSLnZ9Qq.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/9akij7PqZ1g6zl42DQQTtL9CTSb.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/5s9XHTB9SLPdg3mNU6BlSLnZ9Qq.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/9akij7PqZ1g6zl42DQQTtL9CTSb.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/54bpsi8pjiU3t3y2j16hAxN8PvC.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/3L0ewQDnvgWdfL8rYi4fdHeiell.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/v7yEZZCMXgSMoGBr4DRcj4wwBGt.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/j4tFVJ926chUO9rWfHxCVw6WP18.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/xunL4azPNRRVYqPqLhxgezwAUBr.jpg",
+        "5": "https://image.tmdb.org/t/p/w780/mSSj9zjUOP9RWwXaIvQvyvJHMXg.jpg",
+        "6": "https://image.tmdb.org/t/p/w780/AnA6suQeG9vBF0tx3IFKCLPdq3m.jpg",
+        "7": "https://image.tmdb.org/t/p/w780/eOqXdkg0flz99a0OXpNKoQTSp7Z.jpg",
+        "8": "https://image.tmdb.org/t/p/w780/1E6asdJoCpoalo8mrFerAHFKANj.jpg",
+        "9": "https://image.tmdb.org/t/p/w780/von3HnQF4SokUopZV6FXt12NfXM.jpg",
+        "10": "https://image.tmdb.org/t/p/w780/m2gf7SYOq9z30Q1dJFMF51DfrmF.jpg",
+        "11": "https://image.tmdb.org/t/p/w780/9akij7PqZ1g6zl42DQQTtL9CTSb.jpg"
+      }
     }
   },
   "seasons": {

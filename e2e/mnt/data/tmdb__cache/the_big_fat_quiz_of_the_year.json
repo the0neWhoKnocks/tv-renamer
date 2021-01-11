@@ -1,34 +1,9 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy"
   ],
   "id": 3811,
-  "images": {
-    "fanarttv": {
-      "clearArt": [
-        "https://assets.fanart.tv/fanart/tv/81068/clearart/the-big-fat-quiz-of-the-year-4dc5b58fc2b16.png"
-      ],
-      "clearLogo": [
-        "https://assets.fanart.tv/fanart/tv/81068/clearlogo/bigfatquizoftheyear-81068.png",
-        "https://assets.fanart.tv/fanart/tv/81068/clearlogo/the-big-fat-quiz-of-the-year-4dc5b6396d8af.png"
-      ],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [],
-      "seriesBanner": [],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/81068/tvposter/the-big-fat-quiz-of-the-year-5ca1d423ebe13.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/81068/tvthumb/the-big-fat-quiz-of-the-year-50422bbe53423.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/zkmYJFaU8hiO2jE6rWvoGWCB0XL.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/AoscbFCK12Nhfhf6DXCkFRbL2Vd.jpg"
-    }
-  },
   "mpaa": "",
   "name": "The Big Fat Quiz of the Year",
   "plot": "Presenter Jimmy Carr oversees a panel of top-name celebrities in this year end quiz show where they compete to see who can answer the most questions correctly.",
@@ -147,12 +122,6 @@
       "thumb": "/VlV14TQ6ZDuwMV3TYthnzTqYRL.jpg"
     },
     {
-      "name": "Kevin Bridges",
-      "order": 67,
-      "role": "Self - Contestant",
-      "thumb": "/l3Ui9nrJ4dqmVaLLg1N8y2LnSVD.jpg"
-    },
-    {
       "name": "Denise Van Outen",
       "order": 67,
       "role": "Self - Contestant",
@@ -165,10 +134,10 @@
       "thumb": "/xGB0gfZ48M27gQjjL7inJIh1Pqj.jpg"
     },
     {
-      "name": "Roisin Conaty",
-      "order": 76,
+      "name": "Kevin Bridges",
+      "order": 67,
       "role": "Self - Contestant",
-      "thumb": "/xWNKOCqrkOTQlGrXReq4liFGKXW.jpg"
+      "thumb": "/l3Ui9nrJ4dqmVaLLg1N8y2LnSVD.jpg"
     },
     {
       "name": "Jo Brand",
@@ -177,10 +146,16 @@
       "thumb": "/2iM97jO52enXCk9HWrvrCZjn0ek.jpg"
     },
     {
+      "name": "Roisin Conaty",
+      "order": 76,
+      "role": "Self - Contestant",
+      "thumb": "/xWNKOCqrkOTQlGrXReq4liFGKXW.jpg"
+    },
+    {
       "name": "Simon Pegg",
       "order": 0,
       "role": "Self - Contestant",
-      "thumb": "/nOWKXxgADG98RjKyfQ7oSDfns6J.jpg"
+      "thumb": "/6ftW0kUeYno1kYfuwSTBILOtxjj.jpg"
     },
     {
       "name": "Liza Tarbuck",
@@ -252,7 +227,7 @@
       "name": "Miranda Hart",
       "order": 59,
       "role": "Self - Contestant",
-      "thumb": "/lLqIihBICaGVkzB8yqCvydZ9qc3.jpg"
+      "thumb": "/qoKGvQG6uNDyixPSSYClyfxH3lE.jpg"
     },
     {
       "name": "Eddie Izzard",
@@ -346,6 +321,35 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/81068/clearart/the-big-fat-quiz-of-the-year-4dc5b58fc2b16.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/81068/clearlogo/bigfatquizoftheyear-81068.png",
+        "https://assets.fanart.tv/fanart/tv/81068/clearlogo/the-big-fat-quiz-of-the-year-4dc5b6396d8af.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/81068/tvposter/the-big-fat-quiz-of-the-year-5ca1d423ebe13.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/81068/tvthumb/the-big-fat-quiz-of-the-year-50422bbe53423.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/zkmYJFaU8hiO2jE6rWvoGWCB0XL.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/AoscbFCK12Nhfhf6DXCkFRbL2Vd.jpg",
+      "seasonPosters": {
+        "0": "",
+        "1": ""
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -507,6 +511,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "the_big_fat_quiz_of_the_year"
+  }
 }

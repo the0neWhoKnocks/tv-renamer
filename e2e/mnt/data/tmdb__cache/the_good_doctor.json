@@ -1,69 +1,12 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama"
   ],
   "id": 71712,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-59feac4787af9.jpg",
-          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-5b8747fc216e3.jpg",
-          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-5b7981ad50f3b.jpg",
-          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-5a088ed202122.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-5d538d41bc680.jpg",
-          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-5e80d08bf11e3.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-5e80d4cd504b7.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d8754fd45518.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21ddae97.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21e28853.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-59feaa340f8ce.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-59feaafdc6118.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-59feaafdc9d70.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-59ff3f6046861.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21e0b9c6.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21e45033.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21e61add.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/328634/tvbanner/the-good-doctor-5d83668f8e698.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvbanner/the-good-doctor-59feac572db88.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvbanner/the-good-doctor-5cd1dfdf07531.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-5d83676e26f9c.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-59fea9f8bd60d.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-5ba4a4fd7739a.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-59fea9a222930.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-5b7cda3a9830c.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-5c2b5e6a4c396.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/328634/tvthumb/the-good-doctor-5d83680377bdb.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvthumb/the-good-doctor-59feaefc90a21.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvthumb/the-good-doctor-59ff3f4f521cc.jpg",
-        "https://assets.fanart.tv/fanart/tv/328634/tvthumb/the-good-doctor-59feaefc8e5c6.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/hAxZgHqhQl2aWxsrOtVVDlMuD5m.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/6tfT03sGp9k4c0J3dypjrI8TSAI.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "The Good Doctor",
-  "plot": "A young surgeon with Savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: can a person who doesn't have the ability to relate to people actually save their lives?",
+  "plot": "A young surgeon with Savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: can a person who doesn't have the ability to relate to people actually save their lives",
   "premiered": "2017-09-25",
   "status": "Returning Series",
   "studios": [
@@ -138,14 +81,14 @@
     },
     {
       "name": "Elfina Luk",
-      "order": 484,
+      "order": 487,
       "role": "Dalisay Villanueva",
       "thumb": "/azTaHchTZeeS8In7grYkXSDFMXl.jpg"
     },
     {
       "name": "Teryl Rothery",
       "order": 283,
-      "role": "J.L.",
+      "role": "Jen Lancaster",
       "thumb": "/16rUSnTH56cKatjd6kjEYEfU4cA.jpg"
     },
     {
@@ -175,13 +118,13 @@
     {
       "name": "Juliana Wimbles",
       "order": 229,
-      "role": "EMT",
+      "role": "EMT #2",
       "thumb": null
     },
     {
       "name": "Adil Zaidi",
       "order": 338,
-      "role": "Jag Dhanoa",
+      "role": "Mag Dhanoa",
       "thumb": "/ky0qSPdZzYdaThKgC8gE9YlINa5.jpg"
     },
     {
@@ -251,15 +194,39 @@
       "thumb": "/ejjvDERgLhZnKhP0QRBtBZiAyeS.jpg"
     },
     {
+      "name": "Noah Galvin",
+      "order": 487,
+      "role": "Asher Wolke",
+      "thumb": "/nS2ecM1f5nCg77AsJRn7sklbjXz.jpg"
+    },
+    {
+      "name": "Bria Samoné Henderson",
+      "order": 487,
+      "role": "Jordan Allen",
+      "thumb": "/b2Zi6Hb6SLLunl3Ndr9OLz8bTld.jpg"
+    },
+    {
+      "name": "Brian Marc",
+      "order": 487,
+      "role": "Enrique 'Ricky' Guerin",
+      "thumb": "/e56pOIH6Qx9ES5kk1rFmyitwGOw.jpg"
+    },
+    {
+      "name": "Summer Brown",
+      "order": 487,
+      "role": "Olivia Jackson",
+      "thumb": "/8lnF7M5kBXmecwtdFTUUDz4uQ8w.jpg"
+    },
+    {
       "name": "Doron Bell",
       "order": 216,
-      "role": "EMT",
+      "role": "EMT #2",
       "thumb": "/7KEWS9XUIJTjoiB53fAAixQ6bN8.jpg"
     },
     {
       "name": "Sunita Prasad",
       "order": 241,
-      "role": "Surgical Nurse",
+      "role": "Nurse",
       "thumb": "/5D3vNDlHOeixwRg1Bk45YlJUtsl.jpg"
     },
     {
@@ -305,30 +272,6 @@
       "thumb": "/e8OcPbAx8bPMl8ZOUHSk2FgWOp5.jpg"
     },
     {
-      "name": "Brian Marc",
-      "order": 480,
-      "role": "Ricky Guerin",
-      "thumb": "/e56pOIH6Qx9ES5kk1rFmyitwGOw.jpg"
-    },
-    {
-      "name": "Bria Samoné Henderson",
-      "order": 480,
-      "role": "Jordan Allen",
-      "thumb": "/b2Zi6Hb6SLLunl3Ndr9OLz8bTld.jpg"
-    },
-    {
-      "name": "Summer Brown",
-      "order": 480,
-      "role": "Olivia Jackson",
-      "thumb": "/8lnF7M5kBXmecwtdFTUUDz4uQ8w.jpg"
-    },
-    {
-      "name": "Noah Galvin",
-      "order": 480,
-      "role": "Asher Wolke",
-      "thumb": "/nS2ecM1f5nCg77AsJRn7sklbjXz.jpg"
-    },
-    {
       "name": "Holly Taylor",
       "order": 50,
       "role": "Maddie Glassman",
@@ -337,26 +280,8 @@
     {
       "name": "Peter Ciuffa",
       "order": 83,
-      "role": "Diabetic",
+      "role": "Toby Roberts",
       "thumb": null
-    },
-    {
-      "name": "Alex Weed",
-      "order": 87,
-      "role": "Chris Santos",
-      "thumb": "/9BmAzLOoqlo1qxahf76OqJEfoKT.jpg"
-    },
-    {
-      "name": "William MacDonald",
-      "order": 87,
-      "role": "Bob Cravens",
-      "thumb": null
-    },
-    {
-      "name": "Camille Guaty",
-      "order": 87,
-      "role": "Viola",
-      "thumb": "/i0pnKX7zLVCOSlrRnFQACnBxfJE.jpg"
     },
     {
       "name": "Rell Battle",
@@ -365,10 +290,34 @@
       "thumb": "/1GVI2HpZEPJPDqOQcXYBxqFl1J5.jpg"
     },
     {
+      "name": "Camille Guaty",
+      "order": 87,
+      "role": "Viola",
+      "thumb": "/i0pnKX7zLVCOSlrRnFQACnBxfJE.jpg"
+    },
+    {
+      "name": "William MacDonald",
+      "order": 87,
+      "role": "Bob Cravens",
+      "thumb": null
+    },
+    {
       "name": "Patti Allan",
       "order": 87,
       "role": "Esther",
       "thumb": "/ntFqFRTtOSYHfnNsSBUCubuop9U.jpg"
+    },
+    {
+      "name": "Alex Weed",
+      "order": 87,
+      "role": "Chris Santos",
+      "thumb": "/9BmAzLOoqlo1qxahf76OqJEfoKT.jpg"
+    },
+    {
+      "name": "Colin Lawrence",
+      "order": 88,
+      "role": "Clifton",
+      "thumb": "/aFAfFIKB10Kem86i5KbAfdUByLK.jpg"
     },
     {
       "name": "Emerson Murray",
@@ -381,12 +330,6 @@
       "order": 88,
       "role": "Security Guard #1",
       "thumb": "/phtGH4BkVv3hGNJYVlPXlyjYY4Y.jpg"
-    },
-    {
-      "name": "Colin Lawrence",
-      "order": 88,
-      "role": "Clifton",
-      "thumb": "/aFAfFIKB10Kem86i5KbAfdUByLK.jpg"
     },
     {
       "name": "Andres Joseph",
@@ -419,16 +362,16 @@
       "thumb": "/kepIOIAtrCZBvw7TuFufyGqQoo5.jpg"
     },
     {
-      "name": "Elizabeth Hinkler",
-      "order": 248,
-      "role": "Katie Kunkler",
-      "thumb": "/lfLeLIhxPAaO4V6hG9FJ3exYRkJ.jpg"
-    },
-    {
       "name": "Emily Hinkler",
       "order": 248,
       "role": "Jenny Kunkler",
       "thumb": "/41gf7g5vb3m77w82CGEh7Ne9CVb.jpg"
+    },
+    {
+      "name": "Elizabeth Hinkler",
+      "order": 248,
+      "role": "Katie Kunkler",
+      "thumb": "/lfLeLIhxPAaO4V6hG9FJ3exYRkJ.jpg"
     },
     {
       "name": "Kerry Sandomirsky",
@@ -451,7 +394,7 @@
     {
       "name": "Aadila Dosani",
       "order": 264,
-      "role": "Nurse #1",
+      "role": "O.R. Nurse",
       "thumb": "/plDJGrCm0tuoJQcDnGvYVIaZrNA.jpg"
     },
     {
@@ -521,10 +464,22 @@
       "thumb": "/uXASYYMczrmktpe3sVlHeDT6Qdd.jpg"
     },
     {
+      "name": "Christina Lewall",
+      "order": 457,
+      "role": "Kelly Smith",
+      "thumb": "/enZvHNAjCA6jO5XgnUUoF3neK6I.jpg"
+    },
+    {
       "name": "Bentley Green",
       "order": 457,
       "role": "Casey Taylor",
       "thumb": "/tm8X157E5FAk3WvM048h3kFuo0O.jpg"
+    },
+    {
+      "name": "Jeremiah Oh",
+      "order": 457,
+      "role": "Dan Jackson",
+      "thumb": "/5hYeG9j3QL0qIj0OK4oEm99Exkg.jpg"
     },
     {
       "name": "Avery Konrad",
@@ -539,21 +494,9 @@
       "thumb": "/jAIOQNraHjvIAdqk81QDV5Phupp.jpg"
     },
     {
-      "name": "Jeremiah Oh",
-      "order": 457,
-      "role": "Dan Jackson",
-      "thumb": "/5hYeG9j3QL0qIj0OK4oEm99Exkg.jpg"
-    },
-    {
-      "name": "Christina Lewall",
-      "order": 457,
-      "role": "Kelly Smith",
-      "thumb": "/enZvHNAjCA6jO5XgnUUoF3neK6I.jpg"
-    },
-    {
       "name": "Abbie Jenkins",
       "order": 464,
-      "role": "Lucy Wagner",
+      "role": "Nurse Lucy",
       "thumb": "/3AYSnkr3H8fFMFk6y6xSvXNMraw.jpg"
     },
     {
@@ -752,7 +695,7 @@
       "name": "Bryce Johnson",
       "order": 55,
       "role": "Wade",
-      "thumb": "/m27ITiYlBJ4biPS8dmZ9W5QOPZX.jpg"
+      "thumb": "/iyHjMvKijZZDVZkK681JAio4nAh.jpg"
     },
     {
       "name": "David Lewis",
@@ -875,16 +818,16 @@
       "thumb": null
     },
     {
-      "name": "Sheena Chou",
-      "order": 92,
-      "role": "Teresa Moon",
-      "thumb": "/gZbrzu0hUfzMQuQhNzomnGK8qDu.jpg"
-    },
-    {
       "name": "Vedette Lim",
       "order": 92,
       "role": "Grace Lee",
       "thumb": "/s8IBvTX99ft4VEUopSOzSg18fns.jpg"
+    },
+    {
+      "name": "Sheena Chou",
+      "order": 92,
+      "role": "Teresa Moon",
+      "thumb": "/gZbrzu0hUfzMQuQhNzomnGK8qDu.jpg"
     },
     {
       "name": "Jemmy Chen",
@@ -920,7 +863,7 @@
       "name": "Michael David Simms",
       "order": 100,
       "role": "Flakey",
-      "thumb": null
+      "thumb": "/huSmfHTI6xUGQnhZogdLwFRmpMr.jpg"
     },
     {
       "name": "Bronwen Smith",
@@ -1004,7 +947,7 @@
       "name": "Natasha Calis",
       "order": 115,
       "role": "Jess Barnes",
-      "thumb": null
+      "thumb": "/6pnuZuVyTWq0GFHSpdvDGL1urhs.jpg"
     },
     {
       "name": "James Immekus",
@@ -1187,16 +1130,16 @@
       "thumb": "/h3tJ76XwzMRzE5DkWOaa9bJBHrH.jpg"
     },
     {
-      "name": "Linda Darlow",
-      "order": 150,
-      "role": "Dr. Trudy",
-      "thumb": "/772LteU4MZU1hLIT4ZRBdAyUpq2.jpg"
-    },
-    {
       "name": "Dan Bucatinsky",
       "order": 150,
       "role": "Spence",
       "thumb": "/5MmGUnWjNeOwcWhndqhQPi7URvv.jpg"
+    },
+    {
+      "name": "Linda Darlow",
+      "order": 150,
+      "role": "Dr. Trudy",
+      "thumb": "/772LteU4MZU1hLIT4ZRBdAyUpq2.jpg"
     },
     {
       "name": "Jesse Downs",
@@ -1556,7 +1499,7 @@
       "name": "Michelle Morgan",
       "order": 222,
       "role": "Quinn's Mother",
-      "thumb": null
+      "thumb": "/9JakkNragWMHq4l1Z85pgG3N33B.jpg"
     },
     {
       "name": "Keith Allan",
@@ -1703,16 +1646,16 @@
       "thumb": null
     },
     {
-      "name": "Chad Matchette",
-      "order": 256,
-      "role": "Bus Driver",
-      "thumb": null
-    },
-    {
       "name": "Pej Vahdat",
       "order": 256,
       "role": "Dr. Avi Mehta",
       "thumb": "/aFxI4rU0m2XuLHp9ZqAzuYMLIRQ.jpg"
+    },
+    {
+      "name": "Chad Matchette",
+      "order": 256,
+      "role": "Bus Driver",
+      "thumb": null
     },
     {
       "name": "Tegan Moss",
@@ -2513,16 +2456,16 @@
       "thumb": "/iJ3kiSr9LXPcBNbBh38Zs3obCzz.jpg"
     },
     {
-      "name": "Liza Huget",
-      "order": 420,
-      "role": "Art's Mother",
-      "thumb": "/w0WwVG4zaqwx6RvaWZsyrY9IYiB.jpg"
-    },
-    {
       "name": "Peter Bryant",
       "order": 420,
       "role": "Art's Doctor",
       "thumb": "/enc6Lz5tsntLpWGjbzMgOk1DHvv.jpg"
+    },
+    {
+      "name": "Liza Huget",
+      "order": 420,
+      "role": "Art's Mother",
+      "thumb": "/w0WwVG4zaqwx6RvaWZsyrY9IYiB.jpg"
     },
     {
       "name": "Tongayi Chirisa",
@@ -2597,16 +2540,16 @@
       "thumb": "/d8jC0dF0iuzx2XnNxneFgK5eJeK.jpg"
     },
     {
-      "name": "Chelsea Alden",
-      "order": 434,
-      "role": "Kayley Parker",
-      "thumb": "/jV4wuulX7WHdoGMx0HCQfHnQKYF.jpg"
-    },
-    {
       "name": "Bonita Friedericy",
       "order": 434,
       "role": "Bella Thomas",
       "thumb": "/bc4dwlczIvsUkhItV0zJCUNjgP.jpg"
+    },
+    {
+      "name": "Chelsea Alden",
+      "order": 434,
+      "role": "Kayley Parker",
+      "thumb": "/jV4wuulX7WHdoGMx0HCQfHnQKYF.jpg"
     },
     {
       "name": "Cristina Rosato",
@@ -2874,6 +2817,62 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-59feac4787af9.jpg",
+          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-5b8747fc216e3.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328634/seasonposter/the-good-doctor-5d538d41bc680.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d8754fd45518.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21ddae97.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21e28853.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-59feaa340f8ce.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-59feaafdc6118.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-59feaafdc9d70.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-59ff3f6046861.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21e0b9c6.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21e45033.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/showbackground/the-good-doctor-5d89d21e61add.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/328634/tvbanner/the-good-doctor-5d83668f8e698.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/tvbanner/the-good-doctor-59feac572db88.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/tvbanner/the-good-doctor-5cd1dfdf07531.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-5d83676e26f9c.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-59fea9f8bd60d.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-5ba4a4fd7739a.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-59fea9a222930.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/tvposter/the-good-doctor-5b7cda3a9830c.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328634/tvthumb/the-good-doctor-5d83680377bdb.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/tvthumb/the-good-doctor-59feaefc90a21.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/tvthumb/the-good-doctor-59ff3f4f521cc.jpg",
+        "https://assets.fanart.tv/fanart/tv/328634/tvthumb/the-good-doctor-59feaefc8e5c6.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/hAxZgHqhQl2aWxsrOtVVDlMuD5m.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/6tfT03sGp9k4c0J3dypjrI8TSAI.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/hiNyjUSTFrbMv3Sc0CxNW2o39az.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/sIq4SFloM0JSeRNAQVqb5g5zAng.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/8QFssOwaWZ3eB60cGwDpfrZBscv.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/6tfT03sGp9k4c0J3dypjrI8TSAI.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -3055,7 +3054,7 @@
           "aired": "2019-01-14",
           "plot": "The hospital is still in quarantine as Dr. Shaun Murphy continues to be overwhelmed by the chaos and noise in the emergency room; Dr. Morgan Reznick struggles to keep her patients alive, and Dr. Audrey Lim fights for her life. Meanwhile, Dr. Neil Melendez and Dr. Claire Browne must find a way to complete their patient’s bone marrow transplant, despite the quarantine.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/mZQtq2nq9KpBZfUKOXOZkZkzcnV.jpg",
-          "title": "Quarantine (2)"
+          "title": "Quarantine Part Two (2)"
         },
         {
           "aired": "2019-01-21",
@@ -3261,15 +3260,15 @@
         },
         {
           "aired": "2021-01-11",
-          "plot": "",
-          "thumbnail": "",
+          "plot": "As Chief of Surgery Dr. Audrey Lim struggles to cope with the residual emotional trauma of COVID-19, she encounters a young war veteran fighting debilitating PTSD. After discussing his case with the team, Dr. Claire Browne suggests a radical treatment to help him. Meanwhile, still reeling from the recent loss of his mentee’s patient, Dr. Shaun Murphy declares he doesn’t want to teach the new residents anymore. And elsewhere, an eccentric patient keeps the team entertained.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cUT8Ri3O6taiADvNtAGWTWo7Rev.jpg",
           "title": "Lim"
         },
         {
           "aired": "2021-01-18",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Episode 7"
+          "plot": "Dr. Morgan Reznik discovers her patient’s wealth and obsession with extending his life is a dangerous mix that could end up costing more than he can afford.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/B9w4U8LlZhiyM8nEw90a5mmr5f.jpg",
+          "title": "The Uncertainty Principle"
         },
         {
           "aired": "2021-01-25",
@@ -3291,6 +3290,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "the_good_doctor"
+  }
 }

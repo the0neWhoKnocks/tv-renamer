@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Action & Adventure",
     "Sci-Fi & Fantasy",
@@ -7,6 +7,101 @@
     "Family"
   ],
   "id": 81046,
+  "mpaa": "TV-Y7",
+  "name": "The Dragon Prince",
+  "plot": "An extraordinary discovery inspires two human princes and an elven assassin to team up on an epic quest to bring peace to their warring lands.",
+  "premiered": "2018-09-14",
+  "status": "Returning Series",
+  "studios": [
+    "Netflix"
+  ],
+  "actors": [
+    {
+      "name": "Jack DeSena",
+      "order": 0,
+      "role": "Callum (voice)",
+      "thumb": "/4TXVF9XHtqJ69AzyzUMZTFK7xyi.jpg"
+    },
+    {
+      "name": "Paula Burrows",
+      "order": 1,
+      "role": "Rayla (voice)",
+      "thumb": "/ptn5uGezXeKIuyPqymsIZeLuDrM.jpg"
+    },
+    {
+      "name": "Sasha Rojen",
+      "order": 2,
+      "role": "Ezran (voice)",
+      "thumb": "/jTlk3AHIt3p9brFaE7JZlgcJN7d.jpg"
+    },
+    {
+      "name": "Erik Dellums",
+      "order": 500,
+      "role": "Aaravos",
+      "thumb": "/bCBsQZBcfBUcne3u7J5iFER8Qug.jpg"
+    },
+    {
+      "name": "Jonathan Holmes",
+      "order": 500,
+      "role": "Runaan (voice)",
+      "thumb": "/jlJax3JfsMfRgolrqhRxLOZurRz.jpg"
+    },
+    {
+      "name": "Adrian Petriw",
+      "order": 500,
+      "role": "Gren (voice)",
+      "thumb": "/3jbR14GEKoUCbrs3NVmQw8eWRvu.jpg"
+    },
+    {
+      "name": "Jason Simpson",
+      "order": 500,
+      "role": "Viren (voice)",
+      "thumb": "/nicxmXmjjQUMiiuwrnGwkBYobcZ.jpg"
+    },
+    {
+      "name": "Ellie King",
+      "order": 500,
+      "role": "Lujanne (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Omari Newton",
+      "order": 500,
+      "role": "Corvus (voice)",
+      "thumb": "/sm5maXokSm3X3ctZzb7htowLXNU.jpg"
+    },
+    {
+      "name": "Racquel Belmonte",
+      "order": 500,
+      "role": "Claudia (voice)",
+      "thumb": "/tc3nFIRbtn6fcSHMHq9xTfrOKwD.jpg"
+    },
+    {
+      "name": "Jesse Inocalla",
+      "order": 500,
+      "role": "Soren (voice)",
+      "thumb": "/fr5iWfU1qjgUt83UtY3F0wEC4fq.jpg"
+    },
+    {
+      "name": "Nahanni Mitchell",
+      "order": 500,
+      "role": "Ellis (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Luc Roderique",
+      "order": 500,
+      "role": "Harrow (voice)",
+      "thumb": "/jeAxcgvhKGTsiGyNnNTfG2qpK1S.jpg"
+    },
+    {
+      "name": "Rhona Rees",
+      "order": 2,
+      "role": "Nyx (voice)",
+      "thumb": "/6TBwRGBvWySSAWGHYQRzpQX4emI.jpg"
+    }
+  ],
+  "dvdSeasons": {},
   "images": {
     "fanarttv": {
       "clearArt": [],
@@ -43,105 +138,15 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/aIBNxPCyo4yZcK3waGDYvDyXiiV.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/d7PIRa6ez7ZEl9D4JUrnSsmcnVD.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/aIBNxPCyo4yZcK3waGDYvDyXiiV.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/d7PIRa6ez7ZEl9D4JUrnSsmcnVD.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/d7PIRa6ez7ZEl9D4JUrnSsmcnVD.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/6j6cx7633fT45CgW7EPZNIHkdVg.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/gCGEhMkzi9Q5QUEZDgaVZr0PBiz.jpg"
+      }
     }
   },
-  "mpaa": "TV-Y7",
-  "name": "The Dragon Prince",
-  "plot": "An extraordinary discovery inspires two human princes and an elven assassin to team up on an epic quest to bring peace to their warring lands.",
-  "premiered": "2018-09-14",
-  "status": "Returning Series",
-  "studios": [
-    "Netflix"
-  ],
-  "actors": [
-    {
-      "name": "Jack DeSena",
-      "order": 0,
-      "role": "Callum (voice)",
-      "thumb": "/4TXVF9XHtqJ69AzyzUMZTFK7xyi.jpg"
-    },
-    {
-      "name": "Paula Burrows",
-      "order": 1,
-      "role": "Rayla (voice)",
-      "thumb": "/ptn5uGezXeKIuyPqymsIZeLuDrM.jpg"
-    },
-    {
-      "name": "Sasha Rojen",
-      "order": 2,
-      "role": "Ezran (voice)",
-      "thumb": "/jTlk3AHIt3p9brFaE7JZlgcJN7d.jpg"
-    },
-    {
-      "name": "Erik Dellums",
-      "order": 500,
-      "role": "Aaravos",
-      "thumb": "/bCBsQZBcfBUcne3u7J5iFER8Qug.jpg"
-    },
-    {
-      "name": "Ellie King",
-      "order": 500,
-      "role": "Lujanne (voice)",
-      "thumb": null
-    },
-    {
-      "name": "Jesse Inocalla",
-      "order": 500,
-      "role": "Soren (voice)",
-      "thumb": "/fr5iWfU1qjgUt83UtY3F0wEC4fq.jpg"
-    },
-    {
-      "name": "Racquel Belmonte",
-      "order": 500,
-      "role": "Claudia (voice)",
-      "thumb": "/tc3nFIRbtn6fcSHMHq9xTfrOKwD.jpg"
-    },
-    {
-      "name": "Omari Newton",
-      "order": 500,
-      "role": "Corvus (voice)",
-      "thumb": "/sm5maXokSm3X3ctZzb7htowLXNU.jpg"
-    },
-    {
-      "name": "Jason Simpson",
-      "order": 500,
-      "role": "Viren (voice)",
-      "thumb": "/nicxmXmjjQUMiiuwrnGwkBYobcZ.jpg"
-    },
-    {
-      "name": "Jonathan Holmes",
-      "order": 500,
-      "role": "Runaan (voice)",
-      "thumb": "/jlJax3JfsMfRgolrqhRxLOZurRz.jpg"
-    },
-    {
-      "name": "Luc Roderique",
-      "order": 500,
-      "role": "Harrow (voice)",
-      "thumb": "/jeAxcgvhKGTsiGyNnNTfG2qpK1S.jpg"
-    },
-    {
-      "name": "Adrian Petriw",
-      "order": 500,
-      "role": "Gren (voice)",
-      "thumb": "/3jbR14GEKoUCbrs3NVmQw8eWRvu.jpg"
-    },
-    {
-      "name": "Nahanni Mitchell",
-      "order": 500,
-      "role": "Ellis (voice)",
-      "thumb": null
-    },
-    {
-      "name": "Rhona Rees",
-      "order": 2,
-      "role": "Nyx (voice)",
-      "thumb": "/6TBwRGBvWySSAWGHYQRzpQX4emI.jpg"
-    }
-  ],
-  "dvdSeasons": {},
   "seasons": {
     "1": {
       "episodes": [
@@ -320,6 +325,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "the_dragon_prince"
+  }
 }

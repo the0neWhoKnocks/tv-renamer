@@ -1,59 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama",
     "Comedy",
     "Sci-Fi & Fantasy"
   ],
   "id": 71738,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/328487/seasonposter/the-orville-5c16c8a9b9783.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/328487/seasonposter/the-orville-5c16c8b411fa1.jpg",
-          "https://assets.fanart.tv/fanart/tv/328487/seasonposter/the-orville-5c4bc99c1fa41.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5c87c45e5fa98.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-59b5224f21b79.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-59b523d9ed744.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-59b61c87e9e1a.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5e64ff8091ff5.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093a40b374a.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093ace7dfcb.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093b304554a.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-591f163f6dbd8.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093b0069240.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/328487/tvbanner/the-orville-5bfcf14545fa2.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/tvbanner/the-orville-5c4c037eee5a2.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-59b5245f0004e.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-5b4f83151eecd.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-5c4bc97d2916f.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-5c9c14274a36c.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-59b61c2b973ae.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-591ff16a2d431.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-59b61c3ab3da1.jpg",
-        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-5c4bcbcf75679.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/2Qg2fViQzWenpUaMjhv0kNhCbE9.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/1q2gRQ8uN8D2ythPMzd5NvsHkVf.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "The Orville",
   "plot": "Follows the crew of the not-so-functional exploratory ship in the Earth's interstellar fleet, 400 years in the future.",
@@ -67,7 +19,7 @@
     {
       "name": "Norm Macdonald",
       "order": 93,
-      "role": "Yaphit (voice)",
+      "role": "Yaphit",
       "thumb": "/pGOpdt9Xy9YO2nUEWgp8G89KC5r.jpg"
     },
     {
@@ -181,7 +133,7 @@
     {
       "name": "Ron Canada",
       "order": 62,
-      "role": "Fleet Admiral Tucker",
+      "role": "Admiral Tucker",
       "thumb": "/zZxuI6u5R4aow7PyEdBzx5ei4QK.jpg"
     },
     {
@@ -338,7 +290,7 @@
       "name": "Charlize Theron",
       "order": 23,
       "role": "Pria Lavesque",
-      "thumb": "/1WKfLshTtawW26lqOcKZhS4lZVA.jpg"
+      "thumb": "/1HloWLLhL3iTrmDtMigiitLB9Qx.jpg"
     },
     {
       "name": "Max Burkholder",
@@ -542,7 +494,7 @@
       "name": "Leighton Meester",
       "order": 69,
       "role": "Laura",
-      "thumb": "/mJCXT8QcrUjqmqSFpusZMgQxkUs.jpg"
+      "thumb": "/5ZKjgQv7udk0sx7XKLhwdfvG9st.jpg"
     },
     {
       "name": "Gabriella Graves",
@@ -554,7 +506,7 @@
       "name": "Liam Neeson",
       "order": 72,
       "role": "Jahavus Dorahl",
-      "thumb": "/r1DRqmZhLrzhTTwg9PtuMMQTvuB.jpg"
+      "thumb": "/jrf9LaTFWfLA5DBhFWENFsWh4Y9.jpg"
     },
     {
       "name": "Fred Tatasciore",
@@ -687,9 +639,69 @@
       "order": 99,
       "role": "Rebel",
       "thumb": null
+    },
+    {
+      "name": "Tory Belleci",
+      "order": 100,
+      "role": "Calivon Alien (uncredited)",
+      "thumb": "/8ctf2Hqs9cLQ7gpF4PDJN6GLu5m.jpg"
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328487/seasonposter/the-orville-5c16c8a9b9783.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328487/seasonposter/the-orville-5c16c8b411fa1.jpg",
+          "https://assets.fanart.tv/fanart/tv/328487/seasonposter/the-orville-5c4bc99c1fa41.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5c87c45e5fa98.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-59b5224f21b79.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-59b523d9ed744.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-59b61c87e9e1a.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5e64ff8091ff5.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093a40b374a.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093ace7dfcb.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093b304554a.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-591f163f6dbd8.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/showbackground/the-orville-5f093b0069240.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/328487/tvbanner/the-orville-5bfcf14545fa2.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvbanner/the-orville-5c4c037eee5a2.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-59b5245f0004e.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-5b4f83151eecd.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-5c4bc97d2916f.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvposter/the-orville-5c9c14274a36c.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-59b61c2b973ae.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-591ff16a2d431.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-59b61c3ab3da1.jpg",
+        "https://assets.fanart.tv/fanart/tv/328487/tvthumb/the-orville-5c4bcbcf75679.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/2Qg2fViQzWenpUaMjhv0kNhCbE9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/1q2gRQ8uN8D2ythPMzd5NvsHkVf.jpg",
+      "seasonPosters": {
+        "0": "",
+        "1": "https://image.tmdb.org/t/p/w780/51ZCOrM7yh7nnH5WGG4NNQlVxaW.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/8gB4zeP5OEU5r2dnXw9P87qJ1Di.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/m5bd0Gq3LAWeL9wqRWrxLD9xXet.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -993,6 +1005,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "the_orville"
+  }
 }

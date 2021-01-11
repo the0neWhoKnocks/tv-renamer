@@ -1,110 +1,9 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama"
   ],
   "id": 46648,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-53d1439d3c69d.jpg",
-          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-556b32c12e6cf.jpg",
-          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-53d143ae97e5c.jpg",
-          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-581f727ba29ba.jpg"
-        ],
-        "03": [
-          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-5c9c26cd246d1.jpg"
-        ],
-        "02": [
-          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-54de790bd0572.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "03": [
-          "https://assets.fanart.tv/fanart/tv/270633/seasonthumb/true-detective-5c9c26e6a7a25.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-52cde8f547e46.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-530d50d28cb66.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-531e2b6073ec7.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-531e2dc7d2d4b.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147949d55ef.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147a9e5a36b.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b373e1e7.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b37464fa.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b37509f1.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a2a2e7d0f.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-530d51029b65e.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-5583e9d3aaf5b.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d8678d8fdd4.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-5938a93b9145a.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-5938a9638f653.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b37350e0.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad49452af3.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad4a53dd31.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad4bcb030c.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b3760fe5.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad4cd6fb85.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b3771705.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a2e2132b8.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a300aa874.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a32b82d03.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-52cedf2d6a52e.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-531e2d36a93cf.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3ad11493f.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3af6dc416.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3b113d527.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3b25c7218.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-537f2242afab1.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-5597b38e712bc.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-557911a2908e8.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-557911a290f3e.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-557911a2913ab.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-543ab597917b0.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-54b83eb0189c9.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-556b382ce9c06.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-54b8b8d0778d8.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-52c3ace03064c.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5c1bdc9dec7a1.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-52ef56dab88d2.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-581f7262926e3.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5509923facbe4.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-55099291b5691.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-581f3c4613146.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-556b2c94dd817.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5584742f00f64.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5dc85bda57641.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-55b888ee36dd6.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-558753748809d.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5584741dd9bc4.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-559ae12ab7c48.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-52d09d848dbe5.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-5b55eccfec9b7.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-558d4b79aad65.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-558d4bfd0ad4e.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-55a16efc8b410.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-5c9856d0e0be2.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-55427a33a0ea7.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-5597ac8b393fd.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-556b381866dc9.jpg",
-        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-559ae225c623f.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/2Ahm0YjLNQKuzSf9LOkHrXk8qIE.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/aowr4xpLP5sRCL50TkuADomJ98T.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "True Detective",
   "plot": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
@@ -133,6 +32,12 @@
       "thumb": "/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
     },
     {
+      "name": "Matthew McConaughey",
+      "order": 1,
+      "role": "Rust Cohle",
+      "thumb": "/wJiGedOCZhwMx9DezY8uwbNxmAY.jpg"
+    },
+    {
       "name": "Carmen Ejogo",
       "order": 1,
       "role": "Amelia Reardon",
@@ -145,12 +50,6 @@
       "thumb": "/A9fJ88dfXZGpgFTnQIK0bOtjMrj.jpg"
     },
     {
-      "name": "Matthew McConaughey",
-      "order": 1,
-      "role": "Rust Cohle",
-      "thumb": "/wJiGedOCZhwMx9DezY8uwbNxmAY.jpg"
-    },
-    {
       "name": "Taylor Kitsch",
       "order": 2,
       "role": "Paul Woodrugh",
@@ -160,7 +59,7 @@
       "name": "Stephen Dorff",
       "order": 2,
       "role": "Roland West",
-      "thumb": "/hlcLGDAm3sacUNi8tnk9BeMCAJw.jpg"
+      "thumb": "/tTB6Do7tSZ5Sl7yXn4BC2FbODU3.jpg"
     },
     {
       "name": "Michelle Monaghan",
@@ -169,16 +68,16 @@
       "thumb": "/qpSBIBtM0nlekgtbkYL6MRpwspX.jpg"
     },
     {
-      "name": "Scoot McNairy",
-      "order": 3,
-      "role": "Tom Purcell",
-      "thumb": "/ttVt0Q7exExZNqcLbhqVJFyXKpY.jpg"
-    },
-    {
       "name": "Michael Potts",
       "order": 3,
       "role": "Maynard Gilbough",
       "thumb": "/3fgLuZkPH6F4RDjWeWt1s9bjy3v.jpg"
+    },
+    {
+      "name": "Scoot McNairy",
+      "order": 3,
+      "role": "Tom Purcell",
+      "thumb": "/ttVt0Q7exExZNqcLbhqVJFyXKpY.jpg"
     },
     {
       "name": "Ray Fisher",
@@ -349,6 +248,12 @@
       "thumb": "/zXJ1mV2NlZuWYgTj8eTuUFhCgp5.jpg"
     },
     {
+      "name": "Mamie Gummer",
+      "order": 199,
+      "role": "Lucy Purcell",
+      "thumb": "/iVSSYF6BldRkb2qedkbFo6MvRjv.jpg"
+    },
+    {
       "name": "Tony Molina Jr.",
       "order": 38,
       "role": "Detective",
@@ -397,10 +302,16 @@
       "thumb": null
     },
     {
-      "name": "Mamie Gummer",
-      "order": 184,
-      "role": "Lucy Purcell",
-      "thumb": "/iVSSYF6BldRkb2qedkbFo6MvRjv.jpg"
+      "name": "Rhys Wakefield",
+      "order": 183,
+      "role": "Freddy Burns",
+      "thumb": "/wqg6qaNkYUMviXz7irNWJGDdeZB.jpg"
+    },
+    {
+      "name": "Michael Greyeyes",
+      "order": 199,
+      "role": "Brett Woodard",
+      "thumb": "/mNpyZ9w5nhxmH7B0ixlKxoy43js.jpg"
     },
     {
       "name": "Erin Moriarty",
@@ -529,10 +440,10 @@
       "thumb": null
     },
     {
-      "name": "Josh Hopkins",
-      "order": 168,
-      "role": "Jim Dobkins",
-      "thumb": "/gPcG3xAnuUP9pMxGWkhb5nQqOPQ.jpg"
+      "name": "Brett Cullen",
+      "order": 166,
+      "role": "Gerald Kindt",
+      "thumb": "/sEcPXqdcoZ9h4s7PSjVYocEPypP.jpg"
     },
     {
       "name": "Jon Tenney",
@@ -541,22 +452,10 @@
       "thumb": "/ktb1RA23pHJKMdcFenQ2cosnCkp.jpg"
     },
     {
-      "name": "Rhys Wakefield",
+      "name": "Josh Hopkins",
       "order": 168,
-      "role": "Freddy Burns",
-      "thumb": "/wqg6qaNkYUMviXz7irNWJGDdeZB.jpg"
-    },
-    {
-      "name": "Michael Greyeyes",
-      "order": 168,
-      "role": "Brett Woodard",
-      "thumb": "/mNpyZ9w5nhxmH7B0ixlKxoy43js.jpg"
-    },
-    {
-      "name": "Richard Meehan",
-      "order": 169,
-      "role": "Frankie Boyle",
-      "thumb": null
+      "role": "Jim Dobkins",
+      "thumb": "/gPcG3xAnuUP9pMxGWkhb5nQqOPQ.jpg"
     },
     {
       "name": "Brandon Flynn",
@@ -571,10 +470,22 @@
       "thumb": "/p8kjoG3f4ZpYPbE2miVnt1A6m23.jpg"
     },
     {
+      "name": "Richard Meehan",
+      "order": 169,
+      "role": "Frankie Boyle",
+      "thumb": null
+    },
+    {
       "name": "Corbin B. Pitts",
       "order": 199,
       "role": "Mike Ardoin",
       "thumb": null
+    },
+    {
+      "name": "Tim Griffin",
+      "order": 206,
+      "role": "Special Agent Burt Diller",
+      "thumb": "/o7zbHEy2e02CtR2pJLfav7jYuqd.jpg"
     },
     {
       "name": "Brighton Sharbino",
@@ -721,18 +632,6 @@
       "thumb": "/xql9QZqU9povZhRIkuXym2FtoFq.jpg"
     },
     {
-      "name": "Brett Cullen",
-      "order": 157,
-      "role": "Greg Larson",
-      "thumb": "/sEcPXqdcoZ9h4s7PSjVYocEPypP.jpg"
-    },
-    {
-      "name": "Tim Griffin",
-      "order": 168,
-      "role": "Special Agent Burt Diller",
-      "thumb": "/o7zbHEy2e02CtR2pJLfav7jYuqd.jpg"
-    },
-    {
       "name": "Michael Broderick",
       "order": 168,
       "role": "Special Agent John Bowen",
@@ -741,7 +640,7 @@
     {
       "name": "Jaiden McLeod",
       "order": 169,
-      "role": "Jaiden McLeod",
+      "role": "",
       "thumb": null
     },
     {
@@ -757,16 +656,16 @@
       "thumb": "/mrHi0t7XE38ySQ2hpGjQYHbWFua.jpg"
     },
     {
-      "name": "Lennon Morgan",
-      "order": 172,
-      "role": "Ronnie Boyle",
-      "thumb": null
-    },
-    {
       "name": "Nick Basta",
       "order": 172,
       "role": "James Boyle",
       "thumb": "/dNxd3V2RRDx0P4eMV4YqndcBTnJ.jpg"
+    },
+    {
+      "name": "Lennon Morgan",
+      "order": 172,
+      "role": "Ronnie Boyle",
+      "thumb": null
     },
     {
       "name": "Brian Oerly",
@@ -781,10 +680,10 @@
       "thumb": null
     },
     {
-      "name": "Phoenix Elkin",
+      "name": "BoJesse Christopher",
       "order": 186,
-      "role": "Will Purcell",
-      "thumb": null
+      "role": "Detective Richard Kitting",
+      "thumb": "/z6OQYBH4nl6JSabTX21tkg6gyZ8.jpg"
     },
     {
       "name": "Lena McCarthy",
@@ -793,10 +692,22 @@
       "thumb": null
     },
     {
+      "name": "Phoenix Elkin",
+      "order": 186,
+      "role": "Will Purcell",
+      "thumb": null
+    },
+    {
       "name": "Sola Bamis",
       "order": 189,
       "role": "Heather Hays",
       "thumb": "/7hr47LMyBPHSmrGF8INNJMlqeYR.jpg"
+    },
+    {
+      "name": "Bea Santos",
+      "order": 194,
+      "role": "21 Year Old Lucy Purcell",
+      "thumb": "/xQucP9echnVIjaGR36iajASZJXD.jpg"
     },
     {
       "name": "Bailey Rae Fenderson",
@@ -1195,12 +1106,6 @@
       "thumb": null
     },
     {
-      "name": "BoJesse Christopher",
-      "order": 170,
-      "role": "",
-      "thumb": "/z6OQYBH4nl6JSabTX21tkg6gyZ8.jpg"
-    },
-    {
       "name": "Lee Osorio",
       "order": 171,
       "role": "",
@@ -1249,16 +1154,16 @@
       "thumb": "/xrkiTTh9KTikz3hWouk6YAGeECF.jpg"
     },
     {
-      "name": "Jon Arthur",
-      "order": 179,
-      "role": "Detective (uncredited)",
-      "thumb": "/l4v7HMpzlfEgFWuXD05JlGL7FgQ.jpg"
-    },
-    {
       "name": "Michael Phelps",
       "order": 179,
       "role": "",
       "thumb": null
+    },
+    {
+      "name": "Jon Arthur",
+      "order": 179,
+      "role": "Detective (uncredited)",
+      "thumb": "/l4v7HMpzlfEgFWuXD05JlGL7FgQ.jpg"
     },
     {
       "name": "Michael Rooker",
@@ -1279,12 +1184,6 @@
       "thumb": "/leLuJUpF6uySDWPS7FwHpObAMs4.jpg"
     },
     {
-      "name": "Bea Santos",
-      "order": 184,
-      "role": "21 Year Old Lucy Purcell",
-      "thumb": "/xQucP9echnVIjaGR36iajASZJXD.jpg"
-    },
-    {
       "name": "Lauren Sweetser",
       "order": 185,
       "role": "Isabel Hoyt",
@@ -1294,7 +1193,7 @@
       "name": "Deborah Ayorinde",
       "order": 186,
       "role": "Becca Hays",
-      "thumb": null
+      "thumb": "/bZcATu78JTkFLPREgVdqMS86ZoL.jpg"
     },
     {
       "name": "Roxanne Hart",
@@ -1367,9 +1266,141 @@
       "order": 199,
       "role": "Detective at Courthouse",
       "thumb": "/lF2UcQemojihJM4XlLGkWEEsJuJ.jpg"
+    },
+    {
+      "name": "Jodi Balfour",
+      "order": 200,
+      "role": "Lori",
+      "thumb": null
+    },
+    {
+      "name": "Seth Barrish",
+      "order": 201,
+      "role": "Priest",
+      "thumb": null
+    },
+    {
+      "name": "Candyce Hinkle",
+      "order": 202,
+      "role": "Patty Faber",
+      "thumb": "/kgUtL2EJrQqQh4xHdmRx8lTTAJ3.jpg"
+    },
+    {
+      "name": "Chad Cline",
+      "order": 205,
+      "role": "Sallisaw PD Officer",
+      "thumb": null
+    },
+    {
+      "name": "John Earl Jelks",
+      "order": 206,
+      "role": "Sam Whitehead",
+      "thumb": null
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-53d1439d3c69d.jpg",
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-556b32c12e6cf.jpg"
+        ],
+        "03": [
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-5c9c26cd246d1.jpg"
+        ],
+        "02": [
+          "https://assets.fanart.tv/fanart/tv/270633/seasonposter/true-detective-54de790bd0572.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "03": [
+          "https://assets.fanart.tv/fanart/tv/270633/seasonthumb/true-detective-5c9c26e6a7a25.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-52cde8f547e46.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-530d50d28cb66.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-531e2b6073ec7.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-531e2dc7d2d4b.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147949d55ef.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147a9e5a36b.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b373e1e7.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b37464fa.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b37509f1.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a2a2e7d0f.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-530d51029b65e.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-5583e9d3aaf5b.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d8678d8fdd4.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-5938a93b9145a.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-5938a9638f653.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b37350e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad49452af3.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad4a53dd31.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad4bcb030c.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b3760fe5.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-559ad4cd6fb85.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-53147b3771705.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a2e2132b8.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a300aa874.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-55d0a32b82d03.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-52cedf2d6a52e.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-531e2d36a93cf.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3ad11493f.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3af6dc416.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3b113d527.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/showbackground/true-detective-556b3b25c7218.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-537f2242afab1.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-5597b38e712bc.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-557911a2908e8.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-557911a290f3e.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-557911a2913ab.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-543ab597917b0.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-54b83eb0189c9.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-556b382ce9c06.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvbanner/true-detective-54b8b8d0778d8.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-52c3ace03064c.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5c1bdc9dec7a1.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-52ef56dab88d2.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5509923facbe4.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-55099291b5691.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-581f3c4613146.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-556b2c94dd817.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5584742f00f64.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-55b888ee36dd6.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-558753748809d.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-5584741dd9bc4.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvposter/true-detective-559ae12ab7c48.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-52d09d848dbe5.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-5b55eccfec9b7.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-558d4b79aad65.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-558d4bfd0ad4e.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-55a16efc8b410.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-5c9856d0e0be2.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-55427a33a0ea7.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-5597ac8b393fd.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-556b381866dc9.jpg",
+        "https://assets.fanart.tv/fanart/tv/270633/tvthumb/true-detective-559ae225c623f.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/2Ahm0YjLNQKuzSf9LOkHrXk8qIE.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/aowr4xpLP5sRCL50TkuADomJ98T.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/bppxcPh60DftSkKkj5wdmSua5sd.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/owTL3WTY4Yax2qClnwbaDsOO72r.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/uOd2yMAxhfvwNd0pkVapHgRk1c1.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -1501,7 +1532,7 @@
         {
           "aired": "2019-01-27",
           "plot": "Hays and West see a possible connection between the local church and the Purcell crimes. As the detectives search for one suspect and round up another for interrogation, Woodard is targeted by a vigilante group.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/rqTEBDu8bOhq0mBlaD5abOUwuPy.jpg",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mnmcJMx7oIPKiZcZwi0r7WNFlfA.jpg",
           "title": "The Hour and the Day"
         },
         {
@@ -1530,6 +1561,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "true_detective"
+  }
 }

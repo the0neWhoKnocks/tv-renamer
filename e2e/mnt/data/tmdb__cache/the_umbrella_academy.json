@@ -1,83 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Action & Adventure",
     "Sci-Fi & Fantasy",
     "Drama"
   ],
   "id": 75006,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5c66bbd58ec98.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d003ebe39.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d015754ce.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d027cd87c.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d053aef1b.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d5da15214.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d5ef8488a.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d61876e22.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d62f31e5d.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d64d7b4df.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5cff020026.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d3cc1bf5b.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d5b3acd94.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d60476f25.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d04024c18.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d0695dd69.jpg",
-          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5f036db251fde.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/353764/seasonthumb/the-umbrella-academy-5f108235bd49b.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5f1082504a7cb.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c69f5b85755d.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c55fb8156005.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5f242d636c945.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c66b88bbf4d9.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c66b6b9c42e8.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c66b88bb5846.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5f10848af2dbb.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5c66b6c35ba17.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5c66b6c363e61.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5f583d5a2169e.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5d06368e5a0cf.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5efb06f23f247.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5d063650e33e3.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5f036e2c78b3e.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5f242d4302e8b.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c6f1397a4030.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c55fb6498d8f.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c70709ea662d.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5d0635bd3ee9b.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c55fd5230eab.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f1083dcb2c1b.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b193ba7f6.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b6d34df9c.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f583ca39a005.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f583ca4e5e28.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/mE3zzMkpP8yqlkzdjPsQmJHceoe.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "The Umbrella Academy",
   "plot": "A dysfunctional family of superheroes comes together to solve the mystery of their father's death, the threat of the apocalypse and more.",
@@ -286,15 +214,69 @@
       "thumb": null
     },
     {
+      "name": "Cherie D'Elia",
+      "order": 20,
+      "role": "Paparazzi #3",
+      "thumb": null
+    },
+    {
       "name": "Peter Outerbridge",
       "order": 20,
       "role": "The Conductor",
       "thumb": "/kK4OUFJCk2eVmluzpS28uqjKHpk.jpg"
     },
     {
-      "name": "Cherie D'Elia",
-      "order": 20,
-      "role": "Paparazzi #3",
+      "name": "Kjartan Hewitt",
+      "order": 40,
+      "role": "Hal",
+      "thumb": "/PQrGGYNsZsTSjurAEMII3mxXBz.jpg"
+    },
+    {
+      "name": "Stephen Bogaert",
+      "order": 40,
+      "role": "Carl Cooper",
+      "thumb": "/snk4elJGQwdV3RN017rFS074XSv.jpg"
+    },
+    {
+      "name": "Dov Tiefenbach",
+      "order": 40,
+      "role": "Keechie",
+      "thumb": "/m5zltcenHoksNzbNlM1V4S5m5A1.jpg"
+    },
+    {
+      "name": "Jason Bryden",
+      "order": 40,
+      "role": "Otto",
+      "thumb": "/julZmecbULIhu1Ha9pkUDIeEgVA.jpg"
+    },
+    {
+      "name": "Tom Sinclair",
+      "order": 40,
+      "role": "Oscar",
+      "thumb": null
+    },
+    {
+      "name": "George Wyner",
+      "order": 40,
+      "role": "Dan Frankel",
+      "thumb": "/pWd7EqBz83MWu6FfLG0Eco7yY5d.jpg"
+    },
+    {
+      "name": "Justin Paul Kelly",
+      "order": 40,
+      "role": "Harlan",
+      "thumb": "/qmi6cqd7AIoMJGHhPTcAQscxKhe.jpg"
+    },
+    {
+      "name": "Patrice Goodman",
+      "order": 40,
+      "role": "Dot",
+      "thumb": "/vUo2byD6R6AVAW7StnE4to63mnU.jpg"
+    },
+    {
+      "name": "Ken Hall",
+      "order": 40,
+      "role": "Herb",
       "thumb": null
     },
     {
@@ -304,9 +286,21 @@
       "thumb": "/cufFNRTKd3QzkqVSwa1lISm6E14.jpg"
     },
     {
-      "name": "Ken Hall",
+      "name": "Mindy Sterling",
       "order": 40,
-      "role": "Herb",
+      "role": "Edna Frankel",
+      "thumb": "/hX99KTTCFxB4a2rB1SpDbr8imrK.jpg"
+    },
+    {
+      "name": "Jason Blicker",
+      "order": 40,
+      "role": "Desk Cop",
+      "thumb": "/joMhJB4dk4AtJ0KtAmIGs3y2IdC.jpg"
+    },
+    {
+      "name": "William Poulin",
+      "order": 40,
+      "role": "Norm",
       "thumb": null
     },
     {
@@ -328,27 +322,15 @@
       "thumb": "/fOW5R6BSgRvMrt2R7KAxSk7L4H2.jpg"
     },
     {
-      "name": "William Poulin",
-      "order": 40,
-      "role": "Norm",
-      "thumb": null
-    },
-    {
-      "name": "Mindy Sterling",
-      "order": 40,
-      "role": "Edna Frankel",
-      "thumb": "/hX99KTTCFxB4a2rB1SpDbr8imrK.jpg"
-    },
-    {
-      "name": "Jason Blicker",
-      "order": 40,
-      "role": "Desk Cop",
-      "thumb": "/joMhJB4dk4AtJ0KtAmIGs3y2IdC.jpg"
-    },
-    {
       "name": "Robert Skanes",
       "order": 40,
       "role": "Arresting Officer",
+      "thumb": null
+    },
+    {
+      "name": "Colleen Reynolds",
+      "order": 40,
+      "role": "Landlord",
       "thumb": null
     },
     {
@@ -358,60 +340,6 @@
       "thumb": "/9yl9hXW9xdWHHPDd9vKtJLxDv7u.jpg"
     },
     {
-      "name": "Colleen Reynolds",
-      "order": 40,
-      "role": "Landlord",
-      "thumb": null
-    },
-    {
-      "name": "Dov Tiefenbach",
-      "order": 40,
-      "role": "Keechie",
-      "thumb": "/m5zltcenHoksNzbNlM1V4S5m5A1.jpg"
-    },
-    {
-      "name": "Stephen Bogaert",
-      "order": 40,
-      "role": "Carl Cooper",
-      "thumb": "/snk4elJGQwdV3RN017rFS074XSv.jpg"
-    },
-    {
-      "name": "Kjartan Hewitt",
-      "order": 40,
-      "role": "Hal",
-      "thumb": "/PQrGGYNsZsTSjurAEMII3mxXBz.jpg"
-    },
-    {
-      "name": "George Wyner",
-      "order": 40,
-      "role": "Dan Frankel",
-      "thumb": "/pWd7EqBz83MWu6FfLG0Eco7yY5d.jpg"
-    },
-    {
-      "name": "Jason Bryden",
-      "order": 40,
-      "role": "Otto",
-      "thumb": "/julZmecbULIhu1Ha9pkUDIeEgVA.jpg"
-    },
-    {
-      "name": "Tom Sinclair",
-      "order": 40,
-      "role": "Oscar",
-      "thumb": null
-    },
-    {
-      "name": "Patrice Goodman",
-      "order": 40,
-      "role": "Dot",
-      "thumb": null
-    },
-    {
-      "name": "Justin Paul Kelly",
-      "order": 40,
-      "role": "Harlan",
-      "thumb": "/qmi6cqd7AIoMJGHhPTcAQscxKhe.jpg"
-    },
-    {
       "name": "Jesse Noah Gruman",
       "order": 61,
       "role": "Young Harold",
@@ -419,6 +347,80 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5c66bbd58ec98.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d003ebe39.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d015754ce.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d027cd87c.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d053aef1b.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d5da15214.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d5ef8488a.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d61876e22.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d62f31e5d.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d64d7b4df.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5cff020026.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d3cc1bf5b.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d5b3acd94.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d60476f25.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d04024c18.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5ef5d0695dd69.jpg",
+          "https://assets.fanart.tv/fanart/tv/353764/seasonposter/the-umbrella-academy-5f036db251fde.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/353764/seasonthumb/the-umbrella-academy-5f108235bd49b.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5f1082504a7cb.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c69f5b85755d.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c55fb8156005.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5f242d636c945.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c66b88bbf4d9.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c66b6b9c42e8.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/showbackground/the-umbrella-academy-5c66b88bb5846.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5f10848af2dbb.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5c66b6c35ba17.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5c66b6c363e61.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5f583d5a2169e.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5f036e2c78b3e.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5f242d4302e8b.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c6f1397a4030.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c55fb6498d8f.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c70709ea662d.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5d0635bd3ee9b.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5c55fd5230eab.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f1083dcb2c1b.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b193ba7f6.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b6d34df9c.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f583ca39a005.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f583ca4e5e28.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/mE3zzMkpP8yqlkzdjPsQmJHceoe.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg",
+      "seasonPosters": {
+        "0": "",
+        "1": "https://image.tmdb.org/t/p/w780/vKlZXlvPdq6cRJHx47J8FsU9W8P.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/2aD0iZJelrJ6CguuzgZRKCvponZ.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -561,6 +563,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "the_umbrella_academy"
+  }
 }

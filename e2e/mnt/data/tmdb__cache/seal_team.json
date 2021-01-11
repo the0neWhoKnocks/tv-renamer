@@ -1,58 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Action & Adventure",
     "Drama",
     "War & Politics"
   ],
   "id": 71789,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/328686/seasonposter/seal-team-5bb782296370f.jpg",
-          "https://assets.fanart.tv/fanart/tv/328686/seasonposter/seal-team-5d8366c233bd2.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/328686/seasonposter/seal-team-5bb782324fc43.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d8771c6bc351.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811a7062c.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811a95e7d.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811ab331e.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811aed439.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811b16147.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5a6c86d3ccdfe.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5a6c870a401cb.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/328686/tvbanner/seal-team-5d84f93502348.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/tvbanner/seal-team-5a6c8a7754312.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/tvbanner/seal-team-5b0ee92702dbc.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-5d812b681c51c.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-59af103860b4d.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-59b1ab3d053ef.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-5d8b9db179b86.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5d8368411e47e.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5bd450e4af060.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5d836840ed2c3.jpg",
-        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5d8368413b35e.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/6lOtF3yx8iurvaBVz1ZVhwcRgmD.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/uTSLeQTeHevt4fplegmQ6bOnE0Z.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "SEAL Team",
   "plot": "The lives of the elite Navy Seals as they train, plan and execute the most dangerous, high-stakes missions our country can ask.",
@@ -93,34 +46,16 @@
       "thumb": "/s2qfaRUh8oEt78HqkXTagbeVNE7.jpg"
     },
     {
-      "name": "Tyler Grey",
-      "order": 6,
-      "role": "Trent Sawyer",
-      "thumb": "/3yuB34p1EXx8273HnMrng7kgolA.jpg"
-    },
-    {
-      "name": "Judd Lormand",
-      "order": 75,
-      "role": "Eric Blackburn",
-      "thumb": "/jeZBWgcjiTaXZM6FwcHm9QW1F6w.jpg"
-    },
-    {
-      "name": "Justin Melnick",
-      "order": 500,
-      "role": "Brock Reynolds",
-      "thumb": "/sE5W8tononGWHKH2Z6GLeUHXeyP.jpg"
-    },
-    {
       "name": "Jessica Paré",
       "order": 112,
       "role": "Mandy Ellis",
       "thumb": "/d6Xz1zmV8L0Zt04shYKDy4xOPV.jpg"
     },
     {
-      "name": "Scott Foxx",
-      "order": 116,
-      "role": "Full Metal",
-      "thumb": null
+      "name": "Judd Lormand",
+      "order": 75,
+      "role": "Eric Blackburn",
+      "thumb": "/jeZBWgcjiTaXZM6FwcHm9QW1F6w.jpg"
     },
     {
       "name": "Parisa Fakhri",
@@ -167,7 +102,7 @@
     {
       "name": "Tim Chiou",
       "order": 118,
-      "role": "Michael 'Thirty Mike' Chen",
+      "role": "Thirty Mike",
       "thumb": "/whofc4pCEv3sb6n81Hge83qLqxO.jpg"
     },
     {
@@ -441,12 +376,6 @@
       "thumb": null
     },
     {
-      "name": "Mike Estes",
-      "order": 48,
-      "role": "Syrian Military (uncredited)",
-      "thumb": "/nvGpCX3KBMOteVz4jWkx5ZayUM7.jpg"
-    },
-    {
       "name": "Reem Kadem",
       "order": 48,
       "role": "Woman",
@@ -457,6 +386,12 @@
       "order": 48,
       "role": "Fake Terrorist",
       "thumb": "/mH6UjRLpoHkwwDzCMkzXfyFAlje.jpg"
+    },
+    {
+      "name": "Mike Estes",
+      "order": 48,
+      "role": "Syrian Military (uncredited)",
+      "thumb": "/nvGpCX3KBMOteVz4jWkx5ZayUM7.jpg"
     },
     {
       "name": "Cary Huff",
@@ -720,7 +655,7 @@
       "name": "Peter Jessop",
       "order": 106,
       "role": "Commander Shaw",
-      "thumb": null
+      "thumb": "/jAYTH6Xm81sY72c1nSX05Kw771v.jpg"
     },
     {
       "name": "Pooja Batra",
@@ -765,16 +700,16 @@
       "thumb": "/lXsexhIX8oMhPnO85M0ocL0GhC2.jpg"
     },
     {
-      "name": "Jonathan Medina",
-      "order": 115,
-      "role": "Cmdr. Tim Algren",
-      "thumb": "/tXTIqU4yXUBWnEmdcSdPNSeFfGS.jpg"
-    },
-    {
       "name": "James Ransone",
       "order": 115,
       "role": "Reiss Julian",
       "thumb": "/9j39UVIex7nIAOMaNqo0w9yJpSG.jpg"
+    },
+    {
+      "name": "Jonathan Medina",
+      "order": 115,
+      "role": "Cmdr. Tim Algren",
+      "thumb": "/tXTIqU4yXUBWnEmdcSdPNSeFfGS.jpg"
     },
     {
       "name": "Ammar Daraiseh",
@@ -814,6 +749,59 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328686/seasonposter/seal-team-5bb782296370f.jpg",
+          "https://assets.fanart.tv/fanart/tv/328686/seasonposter/seal-team-5d8366c233bd2.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328686/seasonposter/seal-team-5bb782324fc43.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d8771c6bc351.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811a7062c.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811a95e7d.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811ab331e.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811aed439.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5d87811b16147.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5a6c86d3ccdfe.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/showbackground/seal-team-5a6c870a401cb.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/328686/tvbanner/seal-team-5d84f93502348.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvbanner/seal-team-5a6c8a7754312.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvbanner/seal-team-5b0ee92702dbc.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-5d812b681c51c.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-59af103860b4d.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-59b1ab3d053ef.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvposter/seal-team-5d8b9db179b86.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5d8368411e47e.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5bd450e4af060.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5d836840ed2c3.jpg",
+        "https://assets.fanart.tv/fanart/tv/328686/tvthumb/seal-team-5d8368413b35e.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/6lOtF3yx8iurvaBVz1ZVhwcRgmD.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/uTSLeQTeHevt4fplegmQ6bOnE0Z.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/hxQH0F6MRUTRzbthlfKY8qg69zu.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/5U2D5l9IKWakvY8qzuZCqEe9Hl.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/dhwKmZdqhKhhrzpdnF0154mzNCQ.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/uTSLeQTeHevt4fplegmQ6bOnE0Z.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -1243,6 +1231,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "seal_team"
+  }
 }

@@ -1,44 +1,9 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy"
   ],
   "id": 77485,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/332439/seasonposter/the-last-og-5c8192d3741ff.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/332439/seasonposter/the-last-og-5c818b4e3ab30.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/332439/seasonposter/the-last-og-5eec504b381b7.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/332439/showbackground/the-last-og-5c8197966775e.jpg",
-        "https://assets.fanart.tv/fanart/tv/332439/showbackground/the-last-og-5c9f6410893fb.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/332439/tvbanner/the-last-og-5c81c84faa38c.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/332439/tvposter/the-last-og-5c8186c7d675f.jpg",
-        "https://assets.fanart.tv/fanart/tv/332439/tvposter/the-last-og-5c8188e117fbf.jpg",
-        "https://assets.fanart.tv/fanart/tv/332439/tvposter/the-last-og-5eec03712a3a6.jpg"
-      ],
-      "seriesThumb": []
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/cQRYJM0yqioJsovslGkxGKUjuPH.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/6G1MhSXTMQKhlxeErDXKeTeGd5Z.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "The Last O.G.",
   "plot": "An ex-felon is shocked to see just how much the world has changed when he is released from prison for good behavior after a 15-year stint and returns to his newly gentrified Brooklyn neighborhood.",
@@ -104,6 +69,46 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/332439/seasonposter/the-last-og-5c8192d3741ff.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/332439/seasonposter/the-last-og-5c818b4e3ab30.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/332439/seasonposter/the-last-og-5eec504b381b7.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/332439/showbackground/the-last-og-5c8197966775e.jpg",
+        "https://assets.fanart.tv/fanart/tv/332439/showbackground/the-last-og-5c9f6410893fb.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/332439/tvbanner/the-last-og-5c81c84faa38c.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/332439/tvposter/the-last-og-5c8186c7d675f.jpg",
+        "https://assets.fanart.tv/fanart/tv/332439/tvposter/the-last-og-5c8188e117fbf.jpg",
+        "https://assets.fanart.tv/fanart/tv/332439/tvposter/the-last-og-5eec03712a3a6.jpg"
+      ],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/cQRYJM0yqioJsovslGkxGKUjuPH.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/6G1MhSXTMQKhlxeErDXKeTeGd5Z.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/emXntIdQOuBWxJ97Bkr8fiWSugn.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/5haRtYdBezqp3ZdaSPCNOccHpxW.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/6G1MhSXTMQKhlxeErDXKeTeGd5Z.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -300,6 +305,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "the_last_o.g"
+  }
 }

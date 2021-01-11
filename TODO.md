@@ -76,3 +76,6 @@ NFO Scraping
     - If no (any other image) have a URL for tvdb series page.
     - For good measure, maybe have a URL for fanart, since it takes some
       effort to navigate to a series.
+- [ ] Look into using the `alternateName` stuff in theMDB, to account for the
+  bad series name for `The Big Fat Quiz of the Year`. It may cause issues with
+  other series though.

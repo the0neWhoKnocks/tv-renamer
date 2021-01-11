@@ -1,53 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Crime"
   ],
   "id": 80230,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/349338/seasonposter/black-monday-5ec90d06d2ad9.jpg",
-          "https://assets.fanart.tv/fanart/tv/349338/seasonposter/black-monday-5c2fbf185883c.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/349338/seasonposter/black-monday-5ec90d18deb7b.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/349338/seasonthumb/black-monday-5f22154cf3310.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/349338/seasonthumb/black-monday-5f22155f9d858.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/349338/showbackground/black-monday-5efc57c958af9.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/349338/tvbanner/black-monday-5efc5736e752e.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5efc59170053e.jpg",
-        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5efc592d001ed.jpg",
-        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5c2f260856cad.jpg",
-        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5c2fbd754204d.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-5f1316ba402da.jpg",
-        "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-5efc57eec27d8.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/8rPUS4uG3Z2kT7wi0oIi9iCzaYO.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/dq9ECRolZJiLWQwKcaoxufCvaG8.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Black Monday",
   "plot": "Taking viewers back to October 19, 1987 – aka Black Monday, the worst stock market crash in Wall Street history – this is the story of how a group of outsiders took on the blue-blood, old-boys club of Wall Street and ended up crashing the world’s largest financial system, a Lamborghini limousine, Don Henley’s birthday party and the glass ceiling.",
@@ -166,16 +123,16 @@
       "thumb": "/tiqkXNvPWKPpO5tdkkC7RvhyuMR.jpg"
     },
     {
-      "name": "Neil Casey",
-      "order": 122,
-      "role": "Alvin Rudnick",
-      "thumb": "/xuoT9GT77FZCmvNxKZTlEYIkkuz.jpg"
-    },
-    {
       "name": "Michael Hitchcock",
       "order": 122,
       "role": "Pastor Newell",
       "thumb": "/sLKiaWJtExmjORZCVYHB0cTgmMn.jpg"
+    },
+    {
+      "name": "Neil Casey",
+      "order": 122,
+      "role": "Alvin Rudnick",
+      "thumb": "/xuoT9GT77FZCmvNxKZTlEYIkkuz.jpg"
     },
     {
       "name": "Janelle James",
@@ -210,13 +167,13 @@
     {
       "name": "Blair Beeken",
       "order": 67,
-      "role": "Karen",
+      "role": "Junior Trader",
       "thumb": null
     },
     {
       "name": "Mel Fair",
       "order": 91,
-      "role": "Newscaster",
+      "role": "TV Anchor",
       "thumb": "/9Q9sIiikHS5HvDO89KscfnruZrb.jpg"
     },
     {
@@ -240,13 +197,13 @@
     {
       "name": "Jackie Torres",
       "order": 30,
-      "role": "Yolli",
+      "role": "Cleaning Lady",
       "thumb": null
     },
     {
       "name": "Greg Bryan",
       "order": 36,
-      "role": "Cop #1",
+      "role": "Security Guard",
       "thumb": "/qNDR5r887sy5CQKo2z7pvkxMB9a.jpg"
     },
     {
@@ -276,7 +233,7 @@
     {
       "name": "Derek Cecil",
       "order": 70,
-      "role": "Private Investigator",
+      "role": "Detective Lester",
       "thumb": "/zFePdUzvVaKFy8jIHJKjoC5WUfj.jpg"
     },
     {
@@ -553,7 +510,7 @@
       "name": "Mary-Beth Manning",
       "order": 77,
       "role": "Roxanne",
-      "thumb": null
+      "thumb": "/r59fnmbgW6V36juowdF6nXsSHj7.jpg"
     },
     {
       "name": "Artemis Pebdani",
@@ -797,6 +754,53 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/349338/seasonposter/black-monday-5ec90d06d2ad9.jpg",
+          "https://assets.fanart.tv/fanart/tv/349338/seasonposter/black-monday-5c2fbf185883c.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/349338/seasonposter/black-monday-5ec90d18deb7b.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/349338/seasonthumb/black-monday-5f22154cf3310.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/349338/seasonthumb/black-monday-5f22155f9d858.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/349338/showbackground/black-monday-5efc57c958af9.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/349338/tvbanner/black-monday-5efc5736e752e.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvbanner/black-monday-5fedd3aae386b.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5efc59170053e.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5c2f260856cad.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvposter/black-monday-5c2fbd754204d.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-5f1316ba402da.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-5efc57eec27d8.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/8rPUS4uG3Z2kT7wi0oIi9iCzaYO.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/dq9ECRolZJiLWQwKcaoxufCvaG8.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/ggIe1lMyD42yzh8adkWJ8ThvKVu.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/dq9ECRolZJiLWQwKcaoxufCvaG8.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -928,6 +932,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "black_monday"
+  }
 }

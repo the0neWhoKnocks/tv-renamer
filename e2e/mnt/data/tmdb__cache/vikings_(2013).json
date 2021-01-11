@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Action & Adventure",
     "Drama"
@@ -204,20 +204,20 @@
     {
       "name": "Alicia Agneson",
       "order": 62,
-      "role": "Freydis",
+      "role": "Katia",
       "thumb": "/a3IrkRmyqbm7NltqvN7ilWZZkx0.jpg"
+    },
+    {
+      "name": "Adam Copeland",
+      "order": 61,
+      "role": "Kjetill Flatnose",
+      "thumb": "/1bPbuSNzrAE0xP1ppBok4Bvh3by.jpg"
     },
     {
       "name": "Lucy Martin",
       "order": 61,
       "role": "Ingrid",
       "thumb": "/5mYsGxI46oVUCVjU66jAltQZNJu.jpg"
-    },
-    {
-      "name": "Adam Copeland",
-      "order": 61,
-      "role": "Kjetill Flatnose",
-      "thumb": "/xawkWKkgbOx5atAMeFDh9rjHGWt.jpg"
     },
     {
       "name": "Roisin Murphy",
@@ -310,16 +310,16 @@
       "thumb": "/9oqsvyQFeovD3fjyqGJNNm2Jhhz.jpg"
     },
     {
-      "name": "Marko Leht",
-      "order": 45,
-      "role": "Torturer",
-      "thumb": "/4WmZVY3aAQ6aGkH0WiA4juuVL2m.jpg"
-    },
-    {
       "name": "Michael Johnston",
       "order": 45,
       "role": "Messenger 2",
       "thumb": "/h2eTTULM5QN2m7a9XJPPYZ2WfrP.jpg"
+    },
+    {
+      "name": "Marko Leht",
+      "order": 45,
+      "role": "Torturer",
+      "thumb": "/4WmZVY3aAQ6aGkH0WiA4juuVL2m.jpg"
     },
     {
       "name": "Conn Rogers",
@@ -544,89 +544,45 @@
         ],
         "1": [
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-53408cc7535ef.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a243ef98ffa7.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618dcd70d6b.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521a41b4080.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59be5ba756f64.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-57dd872e5aab7.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-535983048f2a4.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-578753c28f245.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302b640c88.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-57c6f346594d6.jpg"
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-535983048f2a4.jpg"
         ],
         "2": [
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-53408cd2ba30e.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-543ed43abfc23.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a243f10dbf91.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618d6da9631.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521b6b826be.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59bd75bc05c4f.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5359830f6a0a8.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-578753cde49d6.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302c59c1b6.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-57c5ba0dcd5d0.jpg"
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5359830f6a0a8.jpg"
         ],
         "3": [
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5341a479f3264.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-54e9ad3a2e394.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a243f28168aa.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618d8d71fbe.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521b7f6df05.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59be5c12ab031.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5359831998054.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-578753d8e2e6f.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302d5569af.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-57c6f3530587a.jpg"
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5359831998054.jpg"
         ],
         "4": [
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-56cf634561863.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a243f3c35998.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618db11f1ac.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521b951fc1b.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59be5c3eccde0.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-578753e53d9bb.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302e4c3cc9.jpg"
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-59be5c3eccde0.jpg"
         ],
         "5": [
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e06719cab9c9.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e618d47bed22.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a22527c47b90.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5a521ba934862.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ac4951357d4e.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea302f4258e9.jpg"
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ac4951357d4e.jpg"
         ],
         "6": [
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5de891502ec24.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e0672bc415eb.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5ea303310dc36.jpg"
+          "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5de891502ec24.jpg"
         ],
         "all": [
           "https://assets.fanart.tv/fanart/tv/260449/seasonposter/vikings-5e64058b2b4ac.jpg"
         ]
       },
       "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-57861fd69a720.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c4fe21aa.jpg"
-        ],
         "2": [
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-57861fe30197e.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c5eafb61.jpg",
           "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5f13b2feec8b8.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-57861fedaae67.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c6dca6f2.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-57861ff890871.jpg",
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c7f1f4ba.jpg"
-        ],
-        "5": [
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30c91e0d2f.jpg"
-        ],
-        "6": [
-          "https://assets.fanart.tv/fanart/tv/260449/seasonthumb/vikings-5ea30ca12f68c.jpg"
         ]
       },
       "seriesBackground": [
@@ -691,16 +647,13 @@
       ],
       "seriesBanner": [
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-514350ab69723.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-5aa5169036ec0.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-532af2cc55dcd.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-5786200882189.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-567b267888400.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbab63dbfb8.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbabdcc762d.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbb22203bf3.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbb2d6881f3.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-54c20576b2fb2.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-5ea31d080a871.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbac029f8c4.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbac2fef7e6.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-53cbac8389c8b.jpg",
@@ -709,11 +662,8 @@
         "https://assets.fanart.tv/fanart/tv/260449/tvbanner/vikings-56189f7533b8e.jpg"
       ],
       "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5e066fa3b924a.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a33fac0ba16d.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-567ad6c091ee2.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-551f63e8bcc0d.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a33fb1d69b69.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-544abaf697f4d.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5311788f18027.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5558adffb5008.jpg",
@@ -722,33 +672,25 @@
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5537e3efb3b20.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-553a642633dc4.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5807bbd76bc90.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a33fb676c4a1.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a22529848be0.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-58332c45d9af1.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-56a6f9b66f017.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-546668b6b5423.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-578753b072e09.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-56a94892751e0.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-57d08c045c2fa.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5d428a15808ea.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5b83bceba4d65.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-553a64158292a.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-57d08c8cc7b85.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-57d08d35dd555.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-57d08e5569148.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5ea304996ffb5.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-583626b434b5e.jpg"
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-57d08e5569148.jpg"
       ],
       "seriesThumb": [
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-514353896f15e.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5aa51668b0150.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58bc17ba2694e.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58bc398b5a2f3.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58177d295a5b9.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58bc17ba27657.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-58bc17ba27ae3.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-57861fc9b1eda.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5ea306094e96d.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-577abc54e8f11.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5134d012f1d2a.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvthumb/vikings-5134d0301397b.jpg",
@@ -762,8 +704,17 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/aq2yEMgRQBPfRkrO0Repo2qhUAT.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/aq2yEMgRQBPfRkrO0Repo2qhUAT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/woP1jNltcWMLqK6pcFqPJq6pyJ6.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/uYaskJzmBhBdvkitDTjlH6gj9Pt.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/g2Pgu5Dae9P99yJs0xZQtEagA76.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/jICv5UxLDvUqCp1D2jAb0PSJWAw.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/nHJHNRApy8vmTUvZx59l1f1GXzB.jpg",
+        "5": "https://image.tmdb.org/t/p/w780/aFfwMjFhb05O2mC5hCfoEPPJ8xL.jpg",
+        "6": "https://image.tmdb.org/t/p/w780/3h0EDCz4eIefTUxHZaNaYwcRw47.jpg"
+      }
     }
   },
   "seasons": {
@@ -1368,7 +1319,7 @@
           "aired": "2020-12-30",
           "plot": "Ubbe and the settlers open relations with the indigenous people of the new land. Ivar's strategy lures Alfred's forces into a devastating battle.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/8b1Li8HTLLLIgpdlsfeVzAGxDIA.jpg",
-          "title": "The Lord Giveth"
+          "title": "The Lord Giveth..."
         },
         {
           "aired": "2020-12-30",

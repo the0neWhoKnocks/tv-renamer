@@ -1,71 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Sci-Fi & Fantasy",
     "Action & Adventure"
   ],
   "id": 67198,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5bb3a11bdc8b4.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5bb3a12a54b39.jpg",
-          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c14c5f93660e.jpg",
-          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c41b18c162fa.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5bf6120c9063f.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5bf61220e1988.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5fd2691a08b2e.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5f8603c33642e.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5cb302cfa8280.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5979864dc4ede.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-59d0eafd74fc9.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-59541ee615599.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/328711/tvbanner/star-trek-discovery-5b0db4d349720.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvbanner/star-trek-discovery-5b0db6d9173d4.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvbanner/star-trek-discovery-59d0eb075ca29.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5f860742bb9ef.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5978fca0d2fe5.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5c8a92ae73884.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5ca0920f6bcfd.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-591dd9d0c8d7b.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-59798b84f3a97.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-597f4503d2165.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-59c4be5c9163c.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-59c4c0c4b629c.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5c41b1753ca47.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-59541dab33126.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-59541d998cb64.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-59cb16a16155a.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-5bbea545609eb.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/p3McpsDNTNmpbkNBKdNxOFZJeKX.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/98RYSYsRNKWgrAAFBn0WfploUG7.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Star Trek: Discovery",
   "plot": "Follow the voyages of Starfleet on their missions to discover new worlds and new life forms, and one Starfleet officer who must learn that to truly understand all things alien, you must first understand yourself.",
@@ -97,12 +36,12 @@
       "name": "Anthony Rapp",
       "order": 4,
       "role": "Paul Stamets",
-      "thumb": "/d828snXpYqBLSAs4MdVoHexYp15.jpg"
+      "thumb": "/9Pj11mrX2MsWsOiHRjVDxYS93K5.jpg"
     },
     {
       "name": "Michelle Yeoh",
       "order": 130,
-      "role": "Emperor Philippa Georgiou",
+      "role": "Captain Philippa Georgiou",
       "thumb": "/wPI2wn6WJEtJr1oAMTLBLh92Ryc.jpg"
     },
     {
@@ -114,7 +53,7 @@
     {
       "name": "Patrick Kwok-Choon",
       "order": 146,
-      "role": "Lt. Gen Rhys",
+      "role": "Rhys",
       "thumb": "/9q410Pu0a3s4oJWQjKylTkXoVpv.jpg"
     },
     {
@@ -132,13 +71,13 @@
     {
       "name": "Sara Mitich",
       "order": 158,
-      "role": "Airiam",
+      "role": "Lt. Nilsson",
       "thumb": "/kwFIjhQYGTh9iqmCe0vhPhxlbOe.jpg"
     },
     {
       "name": "Ronnie Rowe",
       "order": 126,
-      "role": "Bryce",
+      "role": "Shuttle Pilot",
       "thumb": "/hejNuC2QGsGwQNzhSE7Sb2PKBSF.jpg"
     },
     {
@@ -163,7 +102,7 @@
       "name": "Julianne Grossman",
       "order": 163,
       "role": "Discovery Computer (voice)",
-      "thumb": "/hcbVY1CQpujAbfvCieXqe2VGwhx.jpg"
+      "thumb": "/cPnaCpQEoUkJVlIyFYzibsGjtb7.jpg"
     },
     {
       "name": "David Ajala",
@@ -204,14 +143,8 @@
     {
       "name": "Kenneth Mitchell",
       "order": 80,
-      "role": "Kol-Sha",
+      "role": "Kol",
       "thumb": "/8p9WeJZk3acU6QEBgJHgMKrr5kQ.jpg"
-    },
-    {
-      "name": "Alan van Sprang",
-      "order": 126,
-      "role": "Leland",
-      "thumb": "/i8w2PSCPHVOLmaT0MQyEFqwAHis.jpg"
     },
     {
       "name": "Mia Kirshner",
@@ -220,15 +153,21 @@
       "thumb": "/sCeZnMgqNNLG4mDeGUotGQzFSR0.jpg"
     },
     {
+      "name": "Alan van Sprang",
+      "order": 126,
+      "role": "Leland",
+      "thumb": "/i8w2PSCPHVOLmaT0MQyEFqwAHis.jpg"
+    },
+    {
       "name": "David Benjamin Tomlinson",
       "order": 142,
-      "role": "Klingon",
+      "role": "Cosmo Traitt",
       "thumb": "/lFVOI5UoOBuYwuwIv8Wy1gye5uw.jpg"
     },
     {
       "name": "Blu del Barrio",
       "order": 173,
-      "role": "Adira",
+      "role": "Adira Tal",
       "thumb": "/g1EYG2rUSqeg2Z6VeUIlc2dRsyI.jpg"
     },
     {
@@ -246,7 +185,7 @@
     {
       "name": "Nicole Dickinson",
       "order": 108,
-      "role": "Yeoman Colt",
+      "role": "Hadley",
       "thumb": "/A90UYZONOlxZnnuq0GD8z9SkcFo.jpg"
     },
     {
@@ -259,7 +198,7 @@
       "name": "Rebecca Romijn",
       "order": 126,
       "role": "Number One",
-      "thumb": "/cyZLc4sPd5CsfGUQ7hbpihqqxU9.jpg"
+      "thumb": "/7rJD4rOU1akOLPUxPH9DxGHDSqJ.jpg"
     },
     {
       "name": "Rekha Sharma",
@@ -288,7 +227,7 @@
     {
       "name": "Riley Gilchrist",
       "order": 107,
-      "role": "Admiral Shukar",
+      "role": "Andorian Regulator",
       "thumb": "/Ap5C4QWs1Ti5QnszpwIrODWLorO.jpg"
     },
     {
@@ -300,7 +239,7 @@
     {
       "name": "Avaah Blackwell",
       "order": 184,
-      "role": "Osnullus Trader",
+      "role": "Captain Rahma",
       "thumb": null
     },
     {
@@ -342,7 +281,7 @@
     {
       "name": "Michael Ayres",
       "order": 101,
-      "role": "Transporter Officer",
+      "role": "Transporter Technician",
       "thumb": "/5DgTTGxfrRpoS7DxhzDjEZUeZzR.jpg"
     },
     {
@@ -408,13 +347,13 @@
     {
       "name": "Devon MacDonald",
       "order": 84,
-      "role": "Engineering Officer",
+      "role": "Service Engineer",
       "thumb": "/1iRs7HE4ZZZ2rcOo0pEA5lsp4Ir.jpg"
     },
     {
       "name": "Anthony Grant",
       "order": 87,
-      "role": "Klingon Communications Officer",
+      "role": "Er' Toom",
       "thumb": "/nxIlWp6b8bBow0OzAx57FRN1Bhg.jpg"
     },
     {
@@ -424,16 +363,16 @@
       "thumb": "/9lYFC3D84nLvBMiFChGQizkjpgh.jpg"
     },
     {
-      "name": "Jeremy Crittenden",
-      "order": 104,
-      "role": "Lord Eling",
-      "thumb": "/orsR2zGjur7ognYqVPS8QDCR7Dk.jpg"
-    },
-    {
       "name": "Dwain Murphy",
       "order": 104,
       "role": "Captain Maddox",
       "thumb": "/8tQI3AXInj4EP5kqZ4GOvEb4V8j.jpg"
+    },
+    {
+      "name": "Jeremy Crittenden",
+      "order": 104,
+      "role": "Lord Eling",
+      "thumb": "/orsR2zGjur7ognYqVPS8QDCR7Dk.jpg"
     },
     {
       "name": "Hanneke Talbot",
@@ -472,12 +411,6 @@
       "thumb": "/f8FK8fiDSq7qUtITo2wdMjbB8c5.jpg"
     },
     {
-      "name": "Brendan Beiser",
-      "order": 173,
-      "role": "Eli the E.M.H",
-      "thumb": "/ynb8oRYud4N15KQXxXTe3sOxwgK.jpg"
-    },
-    {
       "name": "Noah Averbach-Katz",
       "order": 173,
       "role": "Ryn",
@@ -500,6 +433,12 @@
       "order": 186,
       "role": "Osyraa",
       "thumb": "/vQaIlXJkAa2H5TOL3MZtAqD6Yks.jpg"
+    },
+    {
+      "name": "Brendan Beiser",
+      "order": 199,
+      "role": "Eli the E.M.H.",
+      "thumb": "/ynb8oRYud4N15KQXxXTe3sOxwgK.jpg"
     },
     {
       "name": "Clint Howard",
@@ -1055,6 +994,72 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5bb3a11bdc8b4.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5bb3a12a54b39.jpg",
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c14c5f93660e.jpg",
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c41b18c162fa.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5bf6120c9063f.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5bf61220e1988.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5fd2691a08b2e.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5f8603c33642e.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5cb302cfa8280.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5979864dc4ede.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-59d0eafd74fc9.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-59541ee615599.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/328711/tvbanner/star-trek-discovery-5b0db4d349720.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvbanner/star-trek-discovery-5b0db6d9173d4.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvbanner/star-trek-discovery-59d0eb075ca29.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5f860742bb9ef.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5978fca0d2fe5.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5ca0920f6bcfd.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-591dd9d0c8d7b.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-59798b84f3a97.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-597f4503d2165.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-59c4be5c9163c.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-59c4c0c4b629c.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvposter/star-trek-discovery-5c41b1753ca47.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-59541dab33126.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-59541d998cb64.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-59cb16a16155a.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/tvthumb/star-trek-discovery-5bbea545609eb.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/p3McpsDNTNmpbkNBKdNxOFZJeKX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/98RYSYsRNKWgrAAFBn0WfploUG7.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/pZxMTBheuGwNBQxF5JzLp2hHdDs.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/eD0gvrU9pyicetxBJ1YLf557XeW.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/yLG5DFbf4nv6Cm8GRwwWREET2VA.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/izoaRR70PCvF1c1amaRpgkEfWXp.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -1437,7 +1442,7 @@
         {
           "aired": "2020-12-24",
           "plot": "Discovery ventures to the Verubin Nebula, where Burnham, Saru, and Culber make a shocking realization about the origin of the Burn. The rest of the crew faces an unexpected threat.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/a1qZuCmWBaHVOKgG6Ewqg1KYXvQ.jpg",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zxKheCZHAjXV0ZfU9J58aakyzTt.jpg",
           "title": "Su'Kal"
         },
         {
@@ -1448,12 +1453,11 @@
         },
         {
           "aired": "2021-01-07",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Outside"
+          "plot": "As the Emerald Chain tightens its grip and the mystery of the Burn is finally solved, Burnham and the crew have one last chance to save themselves - and the Federation.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ebddkXFMaPxNrqPstDOXjqBt26S.jpg",
+          "title": "That Hope is You, Part 2"
         }
       ]
     }
-  },
-  "cacheKey": "star_trek_discovery"
+  }
 }

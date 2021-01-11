@@ -1,5 +1,6 @@
 context('Renamer', () => {
   const SERIES_ID__HUNTER_X = 46298;
+  const DATA_SCRAPE_TIMEOUT = 2 * (60 * 1000); // 2 minutes
   const IMG_SCRAPE_TIMEOUT = 5 * (60 * 1000); // 5 minutes
   const acceptedExts = ['avi', 'mkv', 'mp4'];
   const appConfig = {};
@@ -160,7 +161,7 @@ context('Renamer', () => {
       'Supernatural (2005) - 14x15 - Peace of Mind.mkv',
       'The Blacklist - 6x02 - The Corsican.mkv',
       'The Dragon Prince - 2x03 - Smoke and Mirrors.mkv',
-      'The Good Doctor - 2x11 - Quarantine (2).mkv',
+      'The Good Doctor - 2x11 - Quarantine Part Two (2).mkv',
       'The Good Place - 3x10 - The Book Of Dougs.mkv',
       'The Last O.G. - 3x04 - They Reminisce Over You.mkv',
       'The Magicians (2015) - 4x01 - A Flock of Lost Birds.mkv',
@@ -177,7 +178,7 @@ context('Renamer', () => {
       'Young Justice - 3x02 - Royal We.mkv',
       'Young Sheldon - 2x12 - A Tummy Ache and a Whale of a Metaphor.mkv',
     ];
-    cy.get('.app.enable--rename .renamable.is--previewing.is--selected').each(($previewEl, ndx) => {
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected', { timeout: DATA_SCRAPE_TIMEOUT }).each(($previewEl, ndx) => {
       const text = $previewEl.find('.renamable__new-name-text').text();
       expect(text).to.equal(newNames[ndx]);
       
@@ -271,7 +272,7 @@ context('Renamer', () => {
       'Tell Me a Story - 1x10 - Chapter 10- Forgiveness.mkv',
       'The Legend of Korra - 1x01 - Welcome to Republic City.mkv',
     ];
-    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text', { timeout: DATA_SCRAPE_TIMEOUT }).each(($el, ndx) => {
       expect($el.text()).to.equal(newNames[ndx]);
     });
     
@@ -310,7 +311,7 @@ context('Renamer', () => {
     
     // wait for preview to appear, verify preview text
     const newName = 'Futurama - 1x01 - Space Pilot 3000.mkv';
-    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el) => {
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text', { timeout: DATA_SCRAPE_TIMEOUT }).each(($el) => {
       expect($el.text()).to.equal(newName);
     });
     
@@ -328,7 +329,7 @@ context('Renamer', () => {
     screenshot('.app', 'cache update required');
     
     // click Cache button
-    cy.get('.renamable__new-name-text').contains('No Exact Match Found - Missing episode "1" data in cache.');
+    cy.get('.renamable__new-name-text', { timeout: DATA_SCRAPE_TIMEOUT }).contains('No Exact Match Found - Missing episode "1" data in cache.');
     cy.get('.is--refresh').contains('Cache').click();
     
     // wait for preview to appear
@@ -453,7 +454,7 @@ context('Renamer', () => {
     toggleItem('Hunter.X');
     
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
-    cy.get('.renamable__nav :contains(Assign)').click();
+    cy.get('.renamable__nav :contains(Assign)', { timeout: DATA_SCRAPE_TIMEOUT }).click();
     cy.get('.assign-id__no-results').contains('No matches for "hunter x"');
     
     screenshot('.app', 'viewing assign modal');
@@ -575,7 +576,7 @@ context('Renamer', () => {
     
     screenshot('.app', 'previewing files with replaced names');
     
-    cy.get('@ITEMS_NAV__RENAME_BTN').click();
+    cy.get('@ITEMS_NAV__RENAME_BTN', { timeout: DATA_SCRAPE_TIMEOUT }).click();
     
     const logs = [
       `${ appConfig.output }/My Name Is Earl/Season 01/My Name Is Earl - 1x01 - Pilot.mkv`,

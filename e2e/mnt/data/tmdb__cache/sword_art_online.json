@@ -1,91 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Animation",
     "Sci-Fi & Fantasy",
     "Action & Adventure"
   ],
   "id": 45782,
-  "images": {
-    "fanarttv": {
-      "clearArt": [
-        "https://assets.fanart.tv/fanart/tv/259640/clearart/sword-art-online-50247eaa1d55d.png",
-        "https://assets.fanart.tv/fanart/tv/259640/clearart/sword-art-online-502e692acf755.png",
-        "https://assets.fanart.tv/fanart/tv/259640/clearart/sword-art-online-502e6936c03e0.png"
-      ],
-      "clearLogo": [
-        "https://assets.fanart.tv/fanart/tv/259640/clearlogo/sword-art-online-5014921ac245a.png",
-        "https://assets.fanart.tv/fanart/tv/259640/clearlogo/sword-art-online-4ff9919ca5b0d.png"
-      ],
-      "seasonPoster": {
-        "0": [
-          "https://assets.fanart.tv/fanart/tv/259640/seasonposter/sword-art-online-5db97ace34227.jpg"
-        ],
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/259640/seasonposter/sword-art-online-5db97ae2608c8.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/259640/seasonposter/sword-art-online-5db97af978b8e.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/259640/seasonposter/sword-art-online-5db97b0d2d39c.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/259640/seasonposter/sword-art-online-5e0828bc6cc21.jpg",
-          "https://assets.fanart.tv/fanart/tv/259640/seasonposter/sword-art-online-5db97b212e89f.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/259640/seasonthumb/sword-art-online-5decb0164ff6f.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53db475d1eada.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53dd2c33c6f55.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d7014cbcc32.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d7017279fe3.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d70289de4b9.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5def4a3da39fe.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5db97a5259530.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5db97a527dca8.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5db97a529a465.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5f83826535c8a.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d70189d2c68.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d701a516e7f.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-541cb742d46eb.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5f2033dd20e57.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5f2033dd42e2a.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5f2033dd5d71b.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5fdca33879ec2.jpeg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5dea16fee9953.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d919078cc05.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5decaca5e93f0.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/259640/tvbanner/sword-art-online-5efd92cc68133.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/tvbanner/sword-art-online-5f0bd1d8070cf.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-53dd331b6355d.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-53dd304dbddc8.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-59d39d75e04cd.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-53dd330c06d87.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-5fc3d4a944775.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-5f88ec6a60642.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-5f88f4d2c2ca2.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/259640/tvthumb/sword-art-online-5dd529bf1a852.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/tvthumb/sword-art-online-5092692578d03.jpg",
-        "https://assets.fanart.tv/fanart/tv/259640/tvthumb/sword-art-online-5dea1f8493345.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/5PUo6C8LAzcTzkuPKgLXuUFjafi.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/zLdXxodgz0UN0RCca8uxBq3EGTg.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "Sword Art Online",
   "plot": "In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now...",
@@ -125,13 +45,13 @@
     {
       "name": "Ai Kayano",
       "order": 251,
-      "role": "Alice (voice)",
+      "role": "Alice Synthesis Thirty",
       "thumb": "/l8ywp387rfdAS7mOExe3cEZnsk0.jpg"
     },
     {
       "name": "Nobunaga Shimazaki",
       "order": 260,
-      "role": "Eugeo (voice)",
+      "role": "Eugeo",
       "thumb": "/iJFlSanoNgJMP31qBGCT9HzxFbi.jpg"
     },
     {
@@ -143,7 +63,7 @@
     {
       "name": "Hiroaki Hirata",
       "order": 4,
-      "role": "Klein (Voice)",
+      "role": "Klein (voice)",
       "thumb": "/wbirlbjye7mfWkaCm0Jy4b2KAdI.jpg"
     },
     {
@@ -155,7 +75,7 @@
     {
       "name": "Hiroki Yasumoto",
       "order": 8,
-      "role": "Andrew Gilbert Mills (Voice)",
+      "role": "Andrew Gilbert Mills (voice)",
       "thumb": "/vNIGLl0wFmdhdnulMssQ1qyNeBs.jpg"
     },
     {
@@ -173,7 +93,7 @@
     {
       "name": "Kaori Ishihara",
       "order": 18,
-      "role": "Tiese Schtrinen",
+      "role": "Tiese Shtolienen (voice)",
       "thumb": "/7siy87VMyhC6NtuVKZI3mpEGF4G.jpg"
     },
     {
@@ -197,7 +117,7 @@
     {
       "name": "Toshiyuki Morikawa",
       "order": 12,
-      "role": "Kikuoka Seijirou",
+      "role": "Kikuoka Seijirou (voice)",
       "thumb": "/u1N6H7V0dehFD4fcO7ZkHvIMUrG.jpg"
     },
     {
@@ -209,7 +129,7 @@
     {
       "name": "Ryuuichi Kijima",
       "order": 14,
-      "role": "Humbert Zizek (voice)",
+      "role": "Humbert Zizek",
       "thumb": "/jwttTmcCmJQoWURnRXaLzBEH3at.jpg"
     },
     {
@@ -221,44 +141,44 @@
     {
       "name": "Megumi Han",
       "order": 15,
-      "role": "Sortiliena Serlut",
+      "role": "Sortiliena Serlut (voice)",
       "thumb": "/hbZsSUqFOLShJ29uY32UHdW7RYI.jpg"
     },
     {
       "name": "Shuuhei Iwase",
       "order": 16,
-      "role": "Raios Antinous",
+      "role": "Raios Antinous (voice)",
       "thumb": "/9a4QCqde25lFY0jvOP4lo4We3O5.jpg"
     },
     {
       "name": "Konomi Kohara",
       "order": 16,
-      "role": "Fizel Synthesis Twenty-Nine",
+      "role": "Fizel Synthesis Twenty-Nine (voice)",
       "thumb": "/6Mt6gAmv5ffhjHgpGfPjkMcgYfG.jpg"
     },
     {
       "name": "Hina Kino",
       "order": 19,
-      "role": "Linel Synthesis Twenty-Eight",
+      "role": "Linel Synthesis Twenty-Eight (voice)",
       "thumb": "/rdS2N6L1AhLkkUS1Aq8XOeYc3Mm.jpg"
     },
     {
       "name": "Sanae Kobayashi",
       "order": 12,
-      "role": "Koujiro Rinko",
+      "role": "Koujiro Rinko (voice)",
       "thumb": "/iPEx1FPFANi2eVx6kfTyKBOFRY1.jpg"
+    },
+    {
+      "name": "Hikaru Hanada",
+      "order": 13,
+      "role": "Deusolbert Synthesis Seven",
+      "thumb": "/xIhQyTOVhVwTHHlicTEB65o1RBQ.jpg"
     },
     {
       "name": "Takeaki Masuyama",
       "order": 13,
       "role": "Eldrie Synthesis Thirty-one (voice)",
       "thumb": "/pK9uP2yVNQxR8NS5v51OHn1ayY2.jpg"
-    },
-    {
-      "name": "Hikaru Hanada",
-      "order": 13,
-      "role": "Deusolbert Synthesis Seven (voice)",
-      "thumb": "/xIhQyTOVhVwTHHlicTEB65o1RBQ.jpg"
     },
     {
       "name": "Taishi Murata",
@@ -269,7 +189,7 @@
     {
       "name": "Hitomi Nabatame",
       "order": 16,
-      "role": "Fanatio Synthesis Two",
+      "role": "Fanatio Synthesis Two (voice)",
       "thumb": "/yYjra00wDyznEWRp3CQoKZgmylL.jpg"
     },
     {
@@ -310,6 +230,65 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/259640/clearart/sword-art-online-50247eaa1d55d.png",
+        "https://assets.fanart.tv/fanart/tv/259640/clearart/sword-art-online-502e692acf755.png",
+        "https://assets.fanart.tv/fanart/tv/259640/clearart/sword-art-online-502e6936c03e0.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/259640/clearlogo/sword-art-online-5014921ac245a.png",
+        "https://assets.fanart.tv/fanart/tv/259640/clearlogo/sword-art-online-4ff9919ca5b0d.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53db475d1eada.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53dd2c33c6f55.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d7014cbcc32.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d7017279fe3.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d70289de4b9.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5def4a3da39fe.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5db97a5259530.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5db97a527dca8.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5db97a529a465.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5f83826535c8a.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d70189d2c68.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d701a516e7f.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-541cb742d46eb.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5f2033dd20e57.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5f2033dd42e2a.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5f2033dd5d71b.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5fdca33879ec2.jpeg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5dea16fee9953.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-53d919078cc05.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/showbackground/sword-art-online-5decaca5e93f0.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/259640/tvbanner/sword-art-online-5efd92cc68133.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-53dd331b6355d.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-59d39d75e04cd.jpg",
+        "https://assets.fanart.tv/fanart/tv/259640/tvposter/sword-art-online-53dd330c06d87.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/259640/tvthumb/sword-art-online-5092692578d03.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/5PUo6C8LAzcTzkuPKgLXuUFjafi.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/zLdXxodgz0UN0RCca8uxBq3EGTg.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/xWqz96jtlcuFZ8xIhpt20jb8F5O.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/xMybvQFv4XOwqRTgkmvIrclPhD4.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/l4XMBIIeqTMNENUHzFXPW1bWPXM.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/f7w1F8GEoo6naXM53FJq4qHIOt.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/fZLJz2MuBgzghkoOyIjTgnp5QEc.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -1068,6 +1047,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "sword_art_online"
+  }
 }

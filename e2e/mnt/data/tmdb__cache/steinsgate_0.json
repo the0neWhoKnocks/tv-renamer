@@ -1,30 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Sci-Fi & Fantasy",
     "Animation"
   ],
   "id": 78102,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/339268/showbackground/steinsgate-0-5f8388e99bcf8.jpg"
-      ],
-      "seriesBanner": [],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/339268/tvposter/steinsgate-0-5daf21544cf1e.jpg"
-      ],
-      "seriesThumb": []
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/7B4PGxWt9NrcFCEAegLSEuSyAeS.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/qOo0mPA228UIvEM4aoeLGp42tYp.jpg"
-    }
-  },
   "mpaa": "",
   "name": "Steins;Gate 0",
   "plot": "The dark untold story of Steins;Gate that leads with the eccentric mad scientist Okabe, struggling to recover from a failed attempt at rescuing Kurisu. He decides to give up and abandons his lively scientist alter ego, in pursuit to forget the past. When all seems to be normal, he is seemingly pulled back into the past by meeting an acquaintance of Kurisu, who tells him that they have begun testing a device that stores the memory of a human and creates a simulation of them with their characteristics and personalities. Okabe begins testing and finds out that the simulation of Kurisu has brought back anguish and some new unexpected tragedies.\n\nZero is a side story that explores events from the Beta Attractor Field's future that contribute in making the end of the original story possible.",
@@ -50,7 +30,7 @@
       "name": "Asami Imai",
       "order": 1,
       "role": "Kurisu Makise",
-      "thumb": "/duWEzCEjWrYn7fCDSUQYssmJ2Ya.jpg"
+      "thumb": "/urU2HNEpBuCDi1z8Mx98GGkeK7K.jpg"
     },
     {
       "name": "Kana Hanazawa",
@@ -126,6 +106,28 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/339268/showbackground/steinsgate-0-5f8388e99bcf8.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/7B4PGxWt9NrcFCEAegLSEuSyAeS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/qOo0mPA228UIvEM4aoeLGp42tYp.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/bkTHb2thZC7qnx0o8BW7KFCWHmV.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/ojxbYwUIO3k71NP8yb6OV3ZRBP3.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -281,6 +283,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "steinsgate_0"
+  }
 }

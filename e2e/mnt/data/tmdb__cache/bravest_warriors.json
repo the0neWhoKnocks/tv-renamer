@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Action & Adventure",
     "Animation",
@@ -7,32 +7,6 @@
     "Sci-Fi & Fantasy"
   ],
   "id": 60877,
-  "images": {
-    "fanarttv": {
-      "clearArt": [
-        "https://assets.fanart.tv/fanart/tv/263975/clearart/bravest-warriors-50c698d3cf0f7.png"
-      ],
-      "clearLogo": [
-        "https://assets.fanart.tv/fanart/tv/263975/clearlogo/bravest-warriors-50c5b65596a19.png",
-        "https://assets.fanart.tv/fanart/tv/263975/clearlogo/bravest-warriors-50c5b66543194.png"
-      ],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/263975/tvbanner/bravest-warriors-50c9401c99254.jpg",
-        "https://assets.fanart.tv/fanart/tv/263975/tvbanner/bravest-warriors-50c9406e28634.jpg"
-      ],
-      "seriesPoster": [],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/263975/tvthumb/bravest-warriors-5133e5de287fa.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/LJ8Hi0ZIZz9EcguKoULFkDcIw7.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/2Fjkjr3m6cLB8PKtZOooE3D9Dg8.jpg"
-    }
-  },
   "mpaa": "",
   "name": "Bravest Warriors",
   "plot": "In the year 3085, Chris, Beth, Wallow and Danny,  four teenage heroes-for-hire, warp through the universe to save adorable aliens and their worlds using the power of their emotions.",
@@ -104,6 +78,39 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/263975/clearart/bravest-warriors-50c698d3cf0f7.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/263975/clearlogo/bravest-warriors-50c5b65596a19.png",
+        "https://assets.fanart.tv/fanart/tv/263975/clearlogo/bravest-warriors-50c5b66543194.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/263975/tvbanner/bravest-warriors-50c9401c99254.jpg",
+        "https://assets.fanart.tv/fanart/tv/263975/tvbanner/bravest-warriors-50c9406e28634.jpg"
+      ],
+      "seriesPoster": [],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/263975/tvthumb/bravest-warriors-5133e5de287fa.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/LJ8Hi0ZIZz9EcguKoULFkDcIw7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/2Fjkjr3m6cLB8PKtZOooE3D9Dg8.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/d0CHiK0ZFLCeHCVzFjFJOXeJz2O.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/fdNy77xtC8okiAT9JLddpSEMa09.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/wvwNmPXOw9mydsZMpsWHMFKIrO7.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/p4iTpI48QGokgeDkyQuegGqtsOr.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/1VfQ2tchznlicJBi1iAhPec69P0.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -658,6 +665,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "bravest_warriors"
+  }
 }

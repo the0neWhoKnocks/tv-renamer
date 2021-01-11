@@ -1,29 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Animation",
     "Action & Adventure",
     "Sci-Fi & Fantasy"
   ],
   "id": 88041,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [],
-      "seriesBanner": [],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/361456/tvposter/astra-lost-in-space-5daa8ffba666c.jpg"
-      ],
-      "seriesThumb": []
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/1KdrqxptNeFjo80sOiZX67egmQF.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/9IkspqaIiNMNL3mS1QmVekYWokv.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "Astra Lost in Space",
   "plot": "In the year 2063, eight high school students and a kid are flown out to Planet Camp, tasked with surviving on their own for a few days. But shortly after arriving, an ominous glowing orb warps them to an unknown quadrant of space, nearly 5,012 light years away. Now, the only way back home is a slow, dangerous trek across the universe—a journey that’ll test them in ways Planet Camp never could.",
@@ -41,65 +23,84 @@
     {
       "name": "Inori Minase",
       "order": 0,
-      "role": "Aries Spring",
+      "role": "Aries Spring (voice)",
       "thumb": "/sGKqaVZjusdhBTklmBoebr8lxcA.jpg"
     },
     {
       "name": "Yoshimasa Hosoya",
       "order": 1,
-      "role": "Kanata Hoshijima",
+      "role": "Kanata Hoshijima (voice)",
       "thumb": "/r90gExomlgr7IEt3vZ1Y0xYkXHT.jpg"
     },
     {
       "name": "Naoki Tatsuta",
       "order": 2,
-      "role": "Beego",
+      "role": "Beego (voice)",
       "thumb": "/iYGYNGRoQv0yRwKhisqfk5ARVTE.jpg"
     },
     {
       "name": "Nobunaga Shimazaki",
       "order": 3,
-      "role": "Charce Lecroix",
+      "role": "Charce Lecroix (voice)",
       "thumb": "/iJFlSanoNgJMP31qBGCT9HzxFbi.jpg"
     },
     {
       "name": "Hina Kino",
       "order": 4,
-      "role": "Funicia Raffaeli",
+      "role": "Funicia Raffaeli (voice)",
       "thumb": "/rdS2N6L1AhLkkUS1Aq8XOeYc3Mm.jpg"
     },
     {
       "name": "Risae Matsuda",
       "order": 5,
-      "role": "Luca Esposito",
+      "role": "Luca Esposito (voice)",
       "thumb": "/rd6YTlRyZN2KMP0IKQ2lwOnjGBX.jpg"
     },
     {
       "name": "Tomoyo Kurosawa",
       "order": 6,
-      "role": "Quitterie Raffaeli",
+      "role": "Quitterie Raffaeli (voice)",
       "thumb": "/rBbnk9Hg7iXMaRPtDU2HuUZSr6k.jpg"
     },
     {
       "name": "Koki Uchiyama",
       "order": 7,
-      "role": "Ulgar Zweig",
+      "role": "Ulgar Zweig (voice)",
       "thumb": "/hpFCRKaOEQUFBGk1C5P4UlfFKp2.jpg"
     },
     {
       "name": "Saori Hayami",
       "order": 8,
-      "role": "Yunhua Lu",
+      "role": "Yunhua Lu (voice)",
       "thumb": "/qBtiwuh6bzNqzdwPOAYRaeFrmIu.jpg"
     },
     {
       "name": "Shunsuke Takeuchi",
       "order": 9,
-      "role": "Zack Walker",
+      "role": "Zack Walker (voice)",
       "thumb": "/yPepMSUOzmyguvQ0GT4LTSX8IIq.jpg"
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/1KdrqxptNeFjo80sOiZX67egmQF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/9IkspqaIiNMNL3mS1QmVekYWokv.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/zJPcV3bdIFHkaKOcHMQ1YNrUcrV.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -178,6 +179,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "astra_lost_in_space"
+  }
 }

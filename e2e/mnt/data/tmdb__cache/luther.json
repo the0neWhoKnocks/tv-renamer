@@ -1,97 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Crime",
     "Drama",
     "Mystery"
   ],
   "id": 1426,
-  "images": {
-    "fanarttv": {
-      "clearArt": [
-        "https://assets.fanart.tv/fanart/tv/159591/clearart/luther-4e00f0456c615.png",
-        "https://assets.fanart.tv/fanart/tv/159591/clearart/luther-4dfcb6fc7fc7d.png"
-      ],
-      "clearLogo": [
-        "https://assets.fanart.tv/fanart/tv/159591/clearlogo/luther-159591.png"
-      ],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-53f63b66c136d.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-53f63b79e54c1.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-53f63b866d557.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-57bf30bcc08a0.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2feb944cc3.jpg",
-          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-526eac71739c9.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2fec5edd2d.jpg",
-          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-526eac95b6944.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2fed18e999.jpg",
-          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-526eacbc03857.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-57bf30ce099fa.jpg"
-        ],
-        "all": [
-          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2fead2de13.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f772ea.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f77c24.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f784f5.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f78a6e.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5240f2c5c9c6d.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5240f36767cd0.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5240f3676849d.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-52410cd77a8e1.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-52410cd7a1540.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-52410d464ede7.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-57e7064aa0878.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-57eeda16ab2c0.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-57eeda29477a3.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/159591/tvbanner/luther-55397e82d1ddf.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvbanner/luther-54974cfb96cf2.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-53f63b9350b48.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-53f63b596cd4b.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-56435ce844c43.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-52410d951210c.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-57e7065aae96e.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-57eed9de7ca3a.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-510ca53234080.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-526eaa08ad90d.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-4dfcb7761547e.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-4fce2cac2516d.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-4fce2cac25828.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-54974cec56c84.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-5ad205b8b3543.jpg",
-        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-5ad205bfc5a1e.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/A2qdFRq9oJDC5E7fbgSS4POUMDF.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Luther",
   "plot": "A dark psychological crime drama starring Idris Elba as Luther, a man struggling with his own terrible demons, who might be as dangerous as the depraved murderers he hunts.",
@@ -104,7 +18,7 @@
     {
       "name": "Dermot Crowley",
       "order": 11,
-      "role": "DCI Martin Schenk",
+      "role": "DSU Martin Schenk",
       "thumb": "/wQN9dvOXdecRtUAgOx8xSMC1gyh.jpg"
     },
     {
@@ -198,16 +112,16 @@
       "thumb": "/x2qg33wx8d3A7pYPiKtkJHxwhKQ.jpg"
     },
     {
-      "name": "Enzo Cilenti",
-      "order": 500,
-      "role": "Jeremy Lake",
-      "thumb": "/lGFHPUsOlAnncpZLfdFXCGq2nji.jpg"
-    },
-    {
       "name": "Wunmi Mosaku",
       "order": 500,
       "role": "Detective Sgt. Catherine Halliday",
       "thumb": "/mWDsVCo9sBcekrsjUTsoCFLhtYt.jpg"
+    },
+    {
+      "name": "Enzo Cilenti",
+      "order": 500,
+      "role": "Jeremy Lake",
+      "thumb": "/lGFHPUsOlAnncpZLfdFXCGq2nji.jpg"
     },
     {
       "name": "Roberta Taylor",
@@ -240,16 +154,16 @@
       "thumb": "/AbN1FqJYx6R14B8jHmBBFFZ75oY.jpg"
     },
     {
+      "name": "Darren Boyd",
+      "order": 500,
+      "role": "DCI Theo Bloom",
+      "thumb": "/akabAN2sVL3zyAR04aIZ1GIsONe.jpg"
+    },
+    {
       "name": "John Heffernan",
       "order": 500,
       "role": "Steven Rose",
       "thumb": "/dAMQs7geqSwGszODyDlSezoDsCA.jpg"
-    },
-    {
-      "name": "Laura Haddock",
-      "order": 500,
-      "role": "Megan Cantor",
-      "thumb": "/6kRUvA7N3pMzznG9PdiqCOvxhGQ.jpg"
     },
     {
       "name": "Rose Leslie",
@@ -258,10 +172,16 @@
       "thumb": "/oxO7Cia4g9YSOxpc3GpmGXmH24U.jpg"
     },
     {
-      "name": "Darren Boyd",
+      "name": "Laura Haddock",
       "order": 500,
-      "role": "DCI Theo Bloom",
-      "thumb": "/akabAN2sVL3zyAR04aIZ1GIsONe.jpg"
+      "role": "Megan Cantor",
+      "thumb": "/6kRUvA7N3pMzznG9PdiqCOvxhGQ.jpg"
+    },
+    {
+      "name": "Paul Rhys",
+      "order": 0,
+      "role": "Lucien Burgess",
+      "thumb": "/l7uc38oZGMQbbq7WqE8rKn9xZJr.jpg"
     },
     {
       "name": "Nicola Walker",
@@ -270,22 +190,22 @@
       "thumb": "/gZNT3kN254dASL2MZ6S2MpP6Nk2.jpg"
     },
     {
-      "name": "Alexander Morton",
-      "order": 0,
-      "role": "Bill Winingham",
-      "thumb": null
-    },
-    {
       "name": "Sean Pertwee",
       "order": 0,
       "role": "Terry Lynch",
       "thumb": "/j4pAEMhKL5vA61ADrkxxLFtcI4c.jpg"
     },
     {
-      "name": "Paul Rhys",
+      "name": "Alexander Morton",
       "order": 0,
-      "role": "Lucien Burgess",
-      "thumb": "/l7uc38oZGMQbbq7WqE8rKn9xZJr.jpg"
+      "role": "Bill Winingham",
+      "thumb": null
+    },
+    {
+      "name": "Andrew Tiernan",
+      "order": 1,
+      "role": "Richard Henley",
+      "thumb": "/co8FxSWaRuYW3bhsJBTXO3GNkdg.jpg"
     },
     {
       "name": "Ross McCall",
@@ -304,12 +224,6 @@
       "order": 1,
       "role": "Graham Shand",
       "thumb": "/t2MLooTwg1bnXOVudjJ6D0iY5wz.jpg"
-    },
-    {
-      "name": "Andrew Tiernan",
-      "order": 1,
-      "role": "Richard Henley",
-      "thumb": "/co8FxSWaRuYW3bhsJBTXO3GNkdg.jpg"
     },
     {
       "name": "Ania Sowinski",
@@ -445,6 +359,94 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/159591/clearart/luther-4e00f0456c615.png",
+        "https://assets.fanart.tv/fanart/tv/159591/clearart/luther-4dfcb6fc7fc7d.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/159591/clearlogo/luther-159591.png"
+      ],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-53f63b66c136d.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-53f63b79e54c1.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-53f63b866d557.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonposter/luther-57bf30bcc08a0.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2feb944cc3.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2fec5edd2d.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2fed18e999.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-57bf30ce099fa.jpg"
+        ],
+        "all": [
+          "https://assets.fanart.tv/fanart/tv/159591/seasonthumb/luther-51d2fead2de13.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f772ea.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f77c24.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f784f5.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5159290f78a6e.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5240f2c5c9c6d.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5240f36767cd0.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-5240f3676849d.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-52410cd77a8e1.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-52410cd7a1540.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-52410d464ede7.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-57e7064aa0878.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-57eeda16ab2c0.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/showbackground/luther-57eeda29477a3.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/159591/tvbanner/luther-55397e82d1ddf.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvbanner/luther-54974cfb96cf2.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-53f63b9350b48.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-53f63b596cd4b.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-56435ce844c43.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvposter/luther-52410d951210c.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-510ca53234080.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-4dfcb7761547e.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-4fce2cac2516d.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-4fce2cac25828.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-54974cec56c84.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-5ad205b8b3543.jpg",
+        "https://assets.fanart.tv/fanart/tv/159591/tvthumb/luther-5ad205bfc5a1e.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/A2qdFRq9oJDC5E7fbgSS4POUMDF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/hDxOMX8zzH1FiqKWVBzNaYGBkle.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/sVt1cv3OCXnYK3afriKznTGf0Ve.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/9ymss7jNv2YaTWMf5bBzlSUSFLD.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/19AwVaCOVQhkF4JF5NZKtJxYPqW.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/kyqwK0iBy9StYafHZFQ1vvm0YO7.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/poTVKpWDYSuBE6TbF3a0aKbtKPY.jpg",
+        "5": "https://image.tmdb.org/t/p/w780/pwvYiNElwC8J83gd8sJFg8Rutba.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -632,6 +634,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "luther"
+  }
 }

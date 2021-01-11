@@ -1,26 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Drama"
   ],
   "id": 73200,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [],
-      "seriesBanner": [],
-      "seriesPoster": [],
-      "seriesThumb": []
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/bZTxh2wIYO4yiqOy1ONqqMsd21R.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/n9OpiTPynQDamlNyBPZgubMunKL.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Loudermilk",
   "plot": "Sam Loudermilk is a recovering alcoholic and substance abuse counselor with an extremely bad attitude about, well, everything. He is unapologetically uncensored, and manages to piss off everyone in his life. Although he has his drinking under control, Loudermilk discovers that when your life is a complete mess, getting clean is the easy part.",
@@ -93,6 +77,29 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328774/tvthumb/loudermilk-5ff162ce5b121.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/bZTxh2wIYO4yiqOy1ONqqMsd21R.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/n9OpiTPynQDamlNyBPZgubMunKL.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/jOZGvmpEWYuDmT0bwHnMPYkiMju.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/n6gENH4OuabO2wOaowz2ZWkTkQN.jpg",
+        "3": ""
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -289,6 +296,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "loudermilk"
+  }
 }

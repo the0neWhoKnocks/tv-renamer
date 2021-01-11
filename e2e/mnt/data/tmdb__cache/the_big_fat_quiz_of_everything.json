@@ -1,26 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Talk"
   ],
   "id": 108299,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [],
-      "seriesBanner": [],
-      "seriesPoster": [],
-      "seriesThumb": []
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/o2ZijYlyLXCzVdjkpo4wmrjcNK5.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/fhJF3DbV7A2gMDzwC2qdBXDPKW9.jpg"
-    }
-  },
   "mpaa": "",
   "name": "The Big Fat Quiz of Everything",
   "plot": "The Big Fat Quiz of Everything is a spin-off series to the annual The Big Fat Quiz of the Year. These quizzes ask questions based on various subjects including history, geography, films, television, music, science, technology, art, literature, sports and games. Essentially, the show is a comedy panel game in the style of a pub quiz. Three teams, of two celebrities each, are asked questions relating to the events of the year just gone by, which they write answers to on an electronic board in front of them. At the end of each round, they then display their answers, scoring a point for each correct one.",
@@ -134,6 +118,26 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/o2ZijYlyLXCzVdjkpo4wmrjcNK5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/fhJF3DbV7A2gMDzwC2qdBXDPKW9.jpg",
+      "seasonPosters": {
+        "0": "",
+        "1": ""
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -193,6 +197,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "the_big_fat_quiz_of_everything"
+  }
 }

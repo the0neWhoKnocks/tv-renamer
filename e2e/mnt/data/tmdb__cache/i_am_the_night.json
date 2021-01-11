@@ -1,45 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Crime",
     "Drama",
     "Mystery"
   ],
   "id": 81239,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "01": [
-          "https://assets.fanart.tv/fanart/tv/349997/seasonposter/i-am-the-night-5e2c0142c99b1.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "01": [
-          "https://assets.fanart.tv/fanart/tv/349997/seasonthumb/i-am-the-night-5e2c0203a77ce.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5c5a2e1e5b5f3.jpg",
-        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5e2c021b78bb7.jpg",
-        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5e2c0251a022f.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/349997/tvbanner/i-am-the-night-5e2c023c574ba.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/349997/tvposter/i-am-the-night-5c4ba952b76e6.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/349997/tvthumb/i-am-the-night-5e2c01eb88598.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/uVfQZBs99rytWwyBK71ZBy7TEiP.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/sPRGQlCcyNIIoH1HSVEkhJKME75.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "I Am the Night",
   "plot": "Fauna Hodel, who was given away by her teenage birth mother, begins to investigate the secrets to her past, following a sinister trail that swirls ever closer to an infamous Hollywood gynecologist connected to the legendary Black Dahlia murder.",
@@ -111,6 +77,43 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "01": [
+          "https://assets.fanart.tv/fanart/tv/349997/seasonposter/i-am-the-night-5e2c0142c99b1.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "01": [
+          "https://assets.fanart.tv/fanart/tv/349997/seasonthumb/i-am-the-night-5e2c0203a77ce.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5c5a2e1e5b5f3.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5e2c021b78bb7.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5e2c0251a022f.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/349997/tvbanner/i-am-the-night-5e2c023c574ba.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/349997/tvposter/i-am-the-night-5c4ba952b76e6.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/349997/tvthumb/i-am-the-night-5e2c01eb88598.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/uVfQZBs99rytWwyBK71ZBy7TEiP.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/sPRGQlCcyNIIoH1HSVEkhJKME75.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/sPRGQlCcyNIIoH1HSVEkhJKME75.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -153,6 +156,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "i_am_the_night"
+  }
 }

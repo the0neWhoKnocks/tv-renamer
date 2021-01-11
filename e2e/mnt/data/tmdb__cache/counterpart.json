@@ -1,62 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama",
     "Science Fiction"
   ],
   "id": 63646,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/337302/seasonposter/counterpart-5cbc7fbc08a44.jpg",
-          "https://assets.fanart.tv/fanart/tv/337302/seasonposter/counterpart-5b9603e03c703.jpg"
-        ],
-        "02": [
-          "https://assets.fanart.tv/fanart/tv/337302/seasonposter/counterpart-5cf8d2ec48487.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/337302/seasonthumb/counterpart-5b9603f894ced.jpg",
-          "https://assets.fanart.tv/fanart/tv/337302/seasonthumb/counterpart-5cbc860d1cd29.jpg"
-        ],
-        "02": [
-          "https://assets.fanart.tv/fanart/tv/337302/seasonthumb/counterpart-5cf8d31353cc9.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5fd6f5735fdaa.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5cfb23f27d868.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5b96042523d0f.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5cfb23d396427.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5cfb24075e6e0.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5a6cfcfccfa1b.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5a6cfd461b86a.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/337302/tvbanner/counterpart-5c517f627ab32.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/tvbanner/counterpart-5a6cfbd90f744.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/tvbanner/counterpart-5f70693271054.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5c2360e80db82.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5c236c8dcc5f2.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5a47c6b6481bf.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5a47c7488ff9f.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/337302/tvthumb/counterpart-5bae9fefe8479.jpg",
-        "https://assets.fanart.tv/fanart/tv/337302/tvthumb/counterpart-5a6cf4fecb99e.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/b92ZXORrpljn3YRAXOrURhVO0JV.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/vBIc9SkfZUUUUYD5b9srR5NpX5o.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Counterpart",
   "plot": "Howard Silk is a lowly cog in a bureaucratic UN agency who is turning the last corner of a life filled with regret when he discovers the agency he works for is guarding a secret: a crossing to a parallel dimension.",
@@ -452,6 +400,62 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/337302/seasonposter/counterpart-5cbc7fbc08a44.jpg",
+          "https://assets.fanart.tv/fanart/tv/337302/seasonposter/counterpart-5b9603e03c703.jpg"
+        ],
+        "02": [
+          "https://assets.fanart.tv/fanart/tv/337302/seasonposter/counterpart-5cf8d2ec48487.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/337302/seasonthumb/counterpart-5b9603f894ced.jpg",
+          "https://assets.fanart.tv/fanart/tv/337302/seasonthumb/counterpart-5cbc860d1cd29.jpg"
+        ],
+        "02": [
+          "https://assets.fanart.tv/fanart/tv/337302/seasonthumb/counterpart-5cf8d31353cc9.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5fd6f5735fdaa.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5cfb23f27d868.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5b96042523d0f.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5cfb23d396427.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5cfb24075e6e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5a6cfcfccfa1b.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/showbackground/counterpart-5a6cfd461b86a.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/337302/tvbanner/counterpart-5c517f627ab32.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvbanner/counterpart-5a6cfbd90f744.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvbanner/counterpart-5f70693271054.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5c2360e80db82.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5c236c8dcc5f2.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5a47c6b6481bf.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvposter/counterpart-5a47c7488ff9f.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/337302/tvthumb/counterpart-5bae9fefe8479.jpg",
+        "https://assets.fanart.tv/fanart/tv/337302/tvthumb/counterpart-5a6cf4fecb99e.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/b92ZXORrpljn3YRAXOrURhVO0JV.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/vBIc9SkfZUUUUYD5b9srR5NpX5o.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/8zwuNF7a4mWlAxTZxsnvr08N8wH.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/yrWPRERAZYW8nTcr4zxjQJcR1Cp.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -583,6 +587,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "counterpart"
+  }
 }

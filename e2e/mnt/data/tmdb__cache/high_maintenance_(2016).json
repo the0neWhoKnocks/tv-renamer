@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy"
   ],
@@ -260,16 +260,16 @@
       "thumb": "/ggCL6TOjEAI82C0qxJNbWAJqxrn.jpg"
     },
     {
-      "name": "Pat Regan",
-      "order": 40,
-      "role": "Marc",
-      "thumb": "/9mCx7YW2G3veNe78gu9vw8lyu2x.jpg"
-    },
-    {
       "name": "Eric Tabach",
       "order": 40,
       "role": "",
       "thumb": "/npZV1MoQGHtcZZJQbmHYavrt3CL.jpg"
+    },
+    {
+      "name": "Pat Regan",
+      "order": 40,
+      "role": "Marc",
+      "thumb": "/9mCx7YW2G3veNe78gu9vw8lyu2x.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -311,8 +311,14 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/1gGqDyfSAkoXENPSvSYXxBTePT9.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/qmYqwOW0QTkJy1UGUsM2t0Kowpu.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/1gGqDyfSAkoXENPSvSYXxBTePT9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/qmYqwOW0QTkJy1UGUsM2t0Kowpu.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/iv5B3daXcmtOqGUvz5xaV6HcYhd.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/2AxWXd4rELTNaF3xy5Xni84ntYY.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/1wmIS7wRsFFVwhVMsA2oi7K878h.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/mNnAkSSIBl9p3VZsBUI81oxqvuA.jpg"
+      }
     }
   },
   "seasons": {

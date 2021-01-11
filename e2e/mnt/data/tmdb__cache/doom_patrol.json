@@ -1,81 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Sci-Fi & Fantasy",
     "Action & Adventure",
     "Comedy"
   ],
   "id": 79501,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5cf4eececa9a9.jpg",
-          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5c72f9087d861.jpg",
-          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5c73003f364d7.jpg",
-          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5c73643d5ee99.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5ef104c0ab771.jpg",
-          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5ef1054077af6.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/355622/seasonthumb/doom-patrol-5ef0fdd85cdd1.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5ef0fa9848907.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5ef0faca02504.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c62a7c42fe3f.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed34098.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed2752f.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed3df33.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7de238cb009.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1dedc532.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1df04db1.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1deb75db.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5ef0f92ce1da9.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5ef0ff68f056d.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c7100591685b.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c710066c3e53.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c710af830dac.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c71003f448ea.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5cb78e827e7a6.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5cb78f1789077.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5ef104a83c4c2.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5ef0f8e235b8b.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72a055386b8.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5d2f935805403.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5e4681aa79a7a.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72d921f1b3f.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c623d01b7700.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c70ffcdd83e7.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c71000ae8298.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72d45ee217c.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c7090b31ea0d.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a18353.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a23ea7.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c624212e652c.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5ef0fdb9d4776.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a1023e.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5ebd1a9396cdb.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/rqHL4HsLCix9H6vhCwAuSOge0NS.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/drlfSCIlMKrEeMPhi8pqY4xGxj.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Doom Patrol",
   "plot": "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.",
@@ -138,7 +68,7 @@
       "name": "Alan Tudyk",
       "order": 6,
       "role": "Mr. Nobody",
-      "thumb": "/91LuROVPKcEJvT0FwSOZZj62bZ8.jpg"
+      "thumb": "/w56mp2ky1t7ORDsoGQP00OHlyic.jpg"
     },
     {
       "name": "Phil Morris",
@@ -150,7 +80,7 @@
       "name": "Jackie Goldston",
       "order": 225,
       "role": "The Secretary",
-      "thumb": null
+      "thumb": "/nFgtp7KtgkZv7w80tkIlhqyWrXA.jpg"
     },
     {
       "name": "Abigail Shapiro",
@@ -171,16 +101,16 @@
       "thumb": "/yRGMT0AW7ukUDjj5U6ldVdIlPyZ.jpg"
     },
     {
-      "name": "Skye Roberts",
-      "order": 226,
-      "role": "Kay Challis",
-      "thumb": "/7sSiLdxA4berqw9n8RxthlqAGwA.jpg"
-    },
-    {
       "name": "Lex Lang",
       "order": 226,
       "role": "Candlemaker (voice)",
       "thumb": "/hrgjiwtrnI6meAg2Q1eTGpyTrDX.jpg"
+    },
+    {
+      "name": "Skye Roberts",
+      "order": 226,
+      "role": "Kay Challis",
+      "thumb": "/7sSiLdxA4berqw9n8RxthlqAGwA.jpg"
     },
     {
       "name": "Julie McNiven",
@@ -281,7 +211,7 @@
     {
       "name": "Greyson Chadwick",
       "order": 146,
-      "role": "Rita's Mom",
+      "role": "Addie",
       "thumb": "/mnNEcX4Ijm0XfWeO5F6zA8q4Kjx.jpg"
     },
     {
@@ -339,16 +269,16 @@
       "thumb": null
     },
     {
-      "name": "Lilli Birdsell",
-      "order": 68,
-      "role": "Mother Archon",
-      "thumb": "/u9c5Xq8uKVRmuIJ2eWsnC2B08Uu.jpg"
-    },
-    {
       "name": "Ted Sutherland",
       "order": 68,
       "role": "Elliot Patterson",
       "thumb": "/qZf9pxIFC60S2b8IGAHCRtTA4ZO.jpg"
+    },
+    {
+      "name": "Lilli Birdsell",
+      "order": 68,
+      "role": "Mother Archon",
+      "thumb": "/u9c5Xq8uKVRmuIJ2eWsnC2B08Uu.jpg"
     },
     {
       "name": "Orelon Sidney",
@@ -435,16 +365,16 @@
       "thumb": null
     },
     {
-      "name": "Katie Gunderson",
-      "order": 159,
-      "role": "Kate Steele",
-      "thumb": null
-    },
-    {
       "name": "Mark Ashworth",
       "order": 159,
       "role": "Ringmaster",
       "thumb": "/nfhUTghFe0izP9NguZsDVqmVgEk.jpg"
+    },
+    {
+      "name": "Katie Gunderson",
+      "order": 159,
+      "role": "Kate Steele",
+      "thumb": null
     },
     {
       "name": "Eleonore Dendy",
@@ -465,16 +395,16 @@
       "thumb": null
     },
     {
-      "name": "Tomi Lavinder",
-      "order": 180,
-      "role": "Heckler #2",
-      "thumb": "/iq6O3JT5Bmsqyyu2LLx1KqAE9qM.jpg"
-    },
-    {
       "name": "Mike Kaye",
       "order": 180,
       "role": "Heckler #1",
       "thumb": null
+    },
+    {
+      "name": "Tomi Lavinder",
+      "order": 180,
+      "role": "Heckler #2",
+      "thumb": "/iq6O3JT5Bmsqyyu2LLx1KqAE9qM.jpg"
     },
     {
       "name": "Kathryn Cressida",
@@ -483,16 +413,16 @@
       "thumb": "/mjDMZHcql1s2fnh6JLh3gfYh3cZ.jpg"
     },
     {
+      "name": "David Shae",
+      "order": 182,
+      "role": "Dex",
+      "thumb": "/tBfDhXA1KlmdgVtuAgKX6C8QJWz.jpg"
+    },
+    {
       "name": "Adam James Breazeale",
       "order": 182,
       "role": "Teenager #1",
       "thumb": null
-    },
-    {
-      "name": "David Shae",
-      "order": 182,
-      "role": "Dex Trainor",
-      "thumb": "/tBfDhXA1KlmdgVtuAgKX6C8QJWz.jpg"
     },
     {
       "name": "Alan Mingo Jr.",
@@ -675,15 +605,15 @@
       "thumb": null
     },
     {
-      "name": "Thom Williams",
-      "order": 50,
-      "role": "Angry Townie (uncredited)",
-      "thumb": null
-    },
-    {
       "name": "Beau Hart",
       "order": 50,
       "role": "Elliot Patterson (7 years old)",
+      "thumb": null
+    },
+    {
+      "name": "Thom Williams",
+      "order": 50,
+      "role": "Angry Townie (uncredited)",
       "thumb": null
     },
     {
@@ -720,7 +650,7 @@
       "name": "Roger Floyd",
       "order": 65,
       "role": "Red Jack",
-      "thumb": null
+      "thumb": "/dieJbJ5xhdS2xHxwsP82o7GgxpB.jpg"
     },
     {
       "name": "Jason Kirkpatrick",
@@ -1203,16 +1133,16 @@
       "thumb": null
     },
     {
-      "name": "Faith Dillon",
-      "order": 184,
-      "role": "Cop #1",
-      "thumb": "/ycEPh2zF9j3jbX66YTQW6Fj10Tk.jpg"
-    },
-    {
       "name": "Michael Tourek",
       "order": 184,
       "role": "Kiss",
       "thumb": null
+    },
+    {
+      "name": "Faith Dillon",
+      "order": 184,
+      "role": "Cop #1",
+      "thumb": "/ycEPh2zF9j3jbX66YTQW6Fj10Tk.jpg"
     },
     {
       "name": "Anna Borchert",
@@ -1227,15 +1157,15 @@
       "thumb": "/j5NeuQG1yOq7I4IR4li2NZTDvNk.jpg"
     },
     {
-      "name": "Tracey Bonner",
-      "order": 186,
-      "role": "Torture",
-      "thumb": null
-    },
-    {
       "name": "Matt Philliben",
       "order": 186,
       "role": "Palace Servant",
+      "thumb": null
+    },
+    {
+      "name": "Tracey Bonner",
+      "order": 186,
+      "role": "Torture",
       "thumb": null
     },
     {
@@ -1401,6 +1331,12 @@
       "thumb": null
     },
     {
+      "name": "Troy Hogan",
+      "order": 223,
+      "role": "Carney",
+      "thumb": "/9ixPlEa6RzuMi1SdKVXWchvGVVB.jpg"
+    },
+    {
       "name": "Carter Jenkins",
       "order": 223,
       "role": "John",
@@ -1411,12 +1347,6 @@
       "order": 223,
       "role": "Agent #1",
       "thumb": null
-    },
-    {
-      "name": "Troy Hogan",
-      "order": 223,
-      "role": "Carney",
-      "thumb": "/9ixPlEa6RzuMi1SdKVXWchvGVVB.jpg"
     },
     {
       "name": "Joshua Mikel",
@@ -1486,6 +1416,78 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5cf4eececa9a9.jpg",
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5c72f9087d861.jpg",
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5c73003f364d7.jpg",
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5c73643d5ee99.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5ef104c0ab771.jpg",
+          "https://assets.fanart.tv/fanart/tv/355622/seasonposter/doom-patrol-5ef1054077af6.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/355622/seasonthumb/doom-patrol-5ef0fdd85cdd1.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5ef0fa9848907.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5ef0faca02504.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c62a7c42fe3f.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed34098.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed2752f.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed3df33.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7de238cb009.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1dedc532.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1df04db1.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1deb75db.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5ef0f92ce1da9.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5ef0ff68f056d.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c7100591685b.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c710066c3e53.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c710af830dac.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5c71003f448ea.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5cb78e827e7a6.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvbanner/doom-patrol-5cb78f1789077.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5ef104a83c4c2.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5ef0f8e235b8b.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72a055386b8.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5d2f935805403.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72d921f1b3f.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c623d01b7700.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c71000ae8298.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72d45ee217c.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c7090b31ea0d.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a18353.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a23ea7.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c624212e652c.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5ef0fdb9d4776.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a1023e.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5ebd1a9396cdb.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/rqHL4HsLCix9H6vhCwAuSOge0NS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/drlfSCIlMKrEeMPhi8pqY4xGxj.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/nVN7Dt0Xr78gnJepRsRLaLYklbY.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/drlfSCIlMKrEeMPhi8pqY4xGxj.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -1641,6 +1643,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "doom_patrol"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Action & Adventure",
     "Animation",
@@ -8,95 +8,6 @@
     "Sci-Fi & Fantasy"
   ],
   "id": 33880,
-  "images": {
-    "fanarttv": {
-      "clearArt": [
-        "https://assets.fanart.tv/fanart/tv/251085/clearart/the-legend-of-korra-4f96100ce0253.png",
-        "https://assets.fanart.tv/fanart/tv/251085/clearart/the-legend-of-korra-4fa03aae4fdc9.png",
-        "https://assets.fanart.tv/fanart/tv/251085/clearart/the-legend-of-korra-4f9676f865379.png"
-      ],
-      "clearLogo": [
-        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4fa03a85ca224.png",
-        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4f96697450f58.png",
-        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4fa03a9c39930.png",
-        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4faefc0d97a8a.png"
-      ],
-      "seasonPoster": {
-        "0": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-54318c3f09617.jpg"
-        ],
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-54304668a16ab.jpg",
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c98ebe106.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5430467b18bf0.jpg",
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c9a56fbf6.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5430468f836e9.jpg",
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c9baad16d.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-543046a8b1ca1.jpg",
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c9d44f9eb.jpg"
-        ],
-        "all": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c39d6e8edabb.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543064b28ef43.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543064c6944ca.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543064d4c51e1.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543065078f161.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-53d6e167c5e1f.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-5522435ac48c9.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-551ffc7c2a972.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-551ffcbed5bcf.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215d8c7bb52.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215d9d04254.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215db25e2dd.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215e3d75ffd.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-552243ace7cdc.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-5522448e5fb59.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-552260ec445e0.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-53d6e0ea9e312.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/251085/tvbanner/the-legend-of-korra-55d2648d2faec.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvbanner/the-legend-of-korra-55d264c75a8da.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-53d2d6774a9e6.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-5c35c94b572a4.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325b66a0b7.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0a19a.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0a827.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0ad12.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa189c26df85.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa03abe2ef9b.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4f9679ff280a6.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa22ab9eb6fd.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/hmrNfrUl3FFaymDj6Iw5oKQjIs2.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/5ppmZN3AbBsWKesTBGSStYJR4R1.jpg"
-    }
-  },
   "mpaa": "TV-Y7",
   "name": "The Legend of Korra",
   "plot": "Avatar Korra, a headstrong, rebellious, feisty young woman who continually challenges and breaks with tradition, is on her quest to become a fully realized Avatar. In this story, the Avatar struggles to find balance within herself.",
@@ -125,28 +36,28 @@
       "thumb": "/dNqoFIPkusGDUjjIAX0jmtQV47v.jpg"
     },
     {
-      "name": "Maria Bamford",
-      "order": 2,
-      "role": "Pema (voice)",
-      "thumb": "/AenlRNiFPypdVSKwSeFxOdtP3B4.jpg"
-    },
-    {
       "name": "P. J. Byrne",
       "order": 2,
       "role": "Bolin (voice)",
       "thumb": "/sKqr3A3LjLYlRCXJGJI8rjpdMOs.jpg"
     },
     {
-      "name": "Seychelle Gabriel",
-      "order": 3,
-      "role": "Asami Sato (voice)",
-      "thumb": "/mZoS8xFXJht2s2O4duwmEWoKlqD.jpg"
+      "name": "Maria Bamford",
+      "order": 2,
+      "role": "Pema (voice)",
+      "thumb": "/AenlRNiFPypdVSKwSeFxOdtP3B4.jpg"
     },
     {
       "name": "J.K. Simmons",
       "order": 3,
       "role": "Tenzin (voice)",
       "thumb": "/7kIiPojgSVNRXb5z0hiijcD5LJ6.jpg"
+    },
+    {
+      "name": "Seychelle Gabriel",
+      "order": 3,
+      "role": "Asami Sato (voice)",
+      "thumb": "/mZoS8xFXJht2s2O4duwmEWoKlqD.jpg"
     },
     {
       "name": "Kiernan Shipka",
@@ -175,13 +86,13 @@
     {
       "name": "Richard Epcar",
       "order": 4,
-      "role": "Two Toed Ping (voice)",
+      "role": "Saikhan (voice)",
       "thumb": "/m24OJXHsHNz3577uBrNURbyn7Fa.jpg"
     },
     {
       "name": "Tom Kenny",
       "order": 10,
-      "role": "Referee (voice)",
+      "role": "Referee / Additional Voices (voice)",
       "thumb": "/o6sC2IsjL7KncT4pZBOx4T0WKhM.jpg"
     },
     {
@@ -258,6 +169,101 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/251085/clearart/the-legend-of-korra-4f96100ce0253.png",
+        "https://assets.fanart.tv/fanart/tv/251085/clearart/the-legend-of-korra-4fa03aae4fdc9.png",
+        "https://assets.fanart.tv/fanart/tv/251085/clearart/the-legend-of-korra-4f9676f865379.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4fa03a85ca224.png",
+        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4f96697450f58.png",
+        "https://assets.fanart.tv/fanart/tv/251085/clearlogo/the-legend-of-korra-4fa03a9c39930.png"
+      ],
+      "seasonPoster": {
+        "0": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-54318c3f09617.jpg"
+        ],
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-54304668a16ab.jpg",
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c98ebe106.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5430467b18bf0.jpg",
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c9a56fbf6.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5430468f836e9.jpg",
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c9baad16d.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-543046a8b1ca1.jpg",
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c35c9d44f9eb.jpg"
+        ],
+        "all": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonposter/the-legend-of-korra-5c39d6e8edabb.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543064b28ef43.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543064c6944ca.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543064d4c51e1.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/251085/seasonthumb/the-legend-of-korra-543065078f161.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-53d6e167c5e1f.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-5522435ac48c9.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-551ffc7c2a972.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-551ffcbed5bcf.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215d8c7bb52.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215d9d04254.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215db25e2dd.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-55215e3d75ffd.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-552243ace7cdc.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-5522448e5fb59.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-552260ec445e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/showbackground/the-legend-of-korra-53d6e0ea9e312.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/251085/tvbanner/the-legend-of-korra-55d2648d2faec.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvbanner/the-legend-of-korra-55d264c75a8da.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-53d2d6774a9e6.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-5c35c94b572a4.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325b66a0b7.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0a19a.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0a827.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0ad12.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa189c26df85.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa03abe2ef9b.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4f9679ff280a6.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa22ab9eb6fd.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/hmrNfrUl3FFaymDj6Iw5oKQjIs2.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/5ppmZN3AbBsWKesTBGSStYJR4R1.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/ialZU0LdazVc4hpR3owSjjFSi3L.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/MZviFVuu9UxGsSjc2UFMixMRMm.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/4Ev7tsxWx0QCBl5ViaOLPb0JEMs.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/zXUWNGU6f5LGT4fl2zqDqYyiWDG.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/1KpFAA5KQUjnTtn3aTQMaeTxG0R.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -626,6 +632,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "the_legend_of_korra"
+  }
 }

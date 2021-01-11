@@ -1,55 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama",
     "Crime",
     "Action & Adventure"
   ],
   "id": 75663,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/353717/seasonposter/deadly-class-5c33516478e61.jpg",
-          "https://assets.fanart.tv/fanart/tv/353717/seasonposter/deadly-class-5c3199c3b78d0.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd169452e726.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd17933c893c.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd17959560b3.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd1797a2e3c9.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd1799e66f8b.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5c0e6cfa7ef40.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5c335aaf24405.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c0e6d1979f30.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c31cfe90dea1.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c3cfcaebf4bb.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c31a907da0d9.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c0e6c88c7610.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c0e6cab996bb.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c3351241e49e.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5bc98ac40bce7.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c31998d65feb.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/353717/tvthumb/deadly-class-5c0e6cda67aa8.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/tvthumb/deadly-class-5c3199f4d0665.jpg",
-        "https://assets.fanart.tv/fanart/tv/353717/tvthumb/deadly-class-5c3cdd164686a.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/iC2zQ3PW2c93fU67c9gN6ocMKdl.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/u2GSiPazSXpyNQz0yymOUCUm944.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Deadly Class",
   "plot": "Follow a disillusioned teen recruited into a storied high school for assassins. Maintaining his moral code while surviving a ruthless curriculum, vicious social cliques, and his own adolescent uncertainties may prove fatal.",
@@ -108,16 +64,16 @@
       "thumb": "/qYc16SYLGSwm31MklUP42oKeTmO.jpg"
     },
     {
-      "name": "Tom Stevens",
-      "order": 50,
-      "role": "Chester \"Fuckface\" Wilson",
-      "thumb": "/i0HKBXKjgRNtyOIIlcegJ5nBVJQ.jpg"
-    },
-    {
       "name": "Jack Gillett",
       "order": 50,
       "role": "Lex Miller",
       "thumb": "/gknOGPka4HM6Ig1AvQp0lQSB0pz.jpg"
+    },
+    {
+      "name": "Tom Stevens",
+      "order": 50,
+      "role": "Chester \"Fuckface\" Wilson",
+      "thumb": "/i0HKBXKjgRNtyOIIlcegJ5nBVJQ.jpg"
     },
     {
       "name": "Sean Depner",
@@ -146,7 +102,7 @@
     {
       "name": "David Zayas",
       "order": 50,
-      "role": "El Alma Del Diablo",
+      "role": "El Angel Del Diablo",
       "thumb": "/h9rJXJKHba008IUiorvofL69ie1.jpg"
     },
     {
@@ -180,16 +136,16 @@
       "thumb": "/2E0cZdoJsdt1Lv4waG3s6fsfJeU.jpg"
     },
     {
-      "name": "Erica Cerra",
-      "order": 41,
-      "role": "Miss De Luca",
-      "thumb": "/crbst9frQuWVRxILtvbsLL9ZAEv.jpg"
-    },
-    {
       "name": "Michael Mitton",
       "order": 41,
       "role": "Jaden",
       "thumb": null
+    },
+    {
+      "name": "Erica Cerra",
+      "order": 41,
+      "role": "Miss De Luca",
+      "thumb": "/crbst9frQuWVRxILtvbsLL9ZAEv.jpg"
     },
     {
       "name": "Ryan Robbins",
@@ -270,18 +226,6 @@
       "thumb": "/2B8SMB3pITNPOXej6mYyQXqXIoD.jpg"
     },
     {
-      "name": "Chad Riley",
-      "order": 38,
-      "role": "Cop #1",
-      "thumb": "/cbODmJU9MTwuSw9VDu0aabiBFGs.jpg"
-    },
-    {
-      "name": "Laine MacNeil",
-      "order": 38,
-      "role": "Rory's Daughter",
-      "thumb": "/sGOn7vLF5WwuqBPieml5sJtu1mU.jpg"
-    },
-    {
       "name": "Jason Vaisvila",
       "order": 38,
       "role": "Mustache Hippie",
@@ -298,6 +242,18 @@
       "order": 38,
       "role": "Tommy",
       "thumb": "/kBsnQlQNg5JpbtITFGALfWDP2dR.jpg"
+    },
+    {
+      "name": "Chad Riley",
+      "order": 38,
+      "role": "Cop #1",
+      "thumb": "/cbODmJU9MTwuSw9VDu0aabiBFGs.jpg"
+    },
+    {
+      "name": "Laine MacNeil",
+      "order": 38,
+      "role": "Rory's Daughter",
+      "thumb": "/sGOn7vLF5WwuqBPieml5sJtu1mU.jpg"
     },
     {
       "name": "Barbara Wallace",
@@ -354,16 +310,16 @@
       "thumb": "/6qi7GqL5PtJhnvT2q8joW7flNTY.jpg"
     },
     {
-      "name": "Jeremy Jones",
-      "order": 48,
-      "role": "Cactus Jack",
-      "thumb": "/ilfm9Ydsje9ACgpQHWT4MH8Bk9P.jpg"
-    },
-    {
       "name": "Sarah Lindsay",
       "order": 48,
       "role": "Yuppie Woman",
       "thumb": "/zu5xI8RCkgdFu4OW5xcuk6wpyBb.jpg"
+    },
+    {
+      "name": "Jeremy Jones",
+      "order": 48,
+      "role": "Cactus Jack",
+      "thumb": "/ilfm9Ydsje9ACgpQHWT4MH8Bk9P.jpg"
     },
     {
       "name": "Alexander Soto",
@@ -421,6 +377,52 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/353717/seasonposter/deadly-class-5c33516478e61.jpg",
+          "https://assets.fanart.tv/fanart/tv/353717/seasonposter/deadly-class-5c3199c3b78d0.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd169452e726.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd17933c893c.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd17959560b3.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd1797a2e3c9.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5cd1799e66f8b.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5c0e6cfa7ef40.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/showbackground/deadly-class-5c335aaf24405.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c0e6d1979f30.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c31cfe90dea1.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c3cfcaebf4bb.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvbanner/deadly-class-5c31a907da0d9.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c0e6c88c7610.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c3351241e49e.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5bc98ac40bce7.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvposter/deadly-class-5c31998d65feb.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/353717/tvthumb/deadly-class-5c0e6cda67aa8.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvthumb/deadly-class-5c3199f4d0665.jpg",
+        "https://assets.fanart.tv/fanart/tv/353717/tvthumb/deadly-class-5c3cdd164686a.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/iC2zQ3PW2c93fU67c9gN6ocMKdl.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/u2GSiPazSXpyNQz0yymOUCUm944.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/drlZfbULIhY5NLL2T5M8gYT4Jjq.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -487,6 +489,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "deadly_class"
+  }
 }

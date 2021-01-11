@@ -1,37 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Action & Adventure",
     "Animation",
     "Comedy"
   ],
   "id": 67075,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5f63e7ba73bb8.jpg",
-        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5b91c006a2fb5.jpg",
-        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5b91c373f224b.jpg",
-        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5b91c37e155f5.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/307375/tvbanner/mob-psycho-100-5e77a74acbfaa.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/307375/tvposter/mob-psycho-100-5f7734df2cd8d.jpg",
-        "https://assets.fanart.tv/fanart/tv/307375/tvposter/mob-psycho-100-57ad7d876add6.jpg"
-      ],
-      "seriesThumb": []
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/kP5duNJEbTfXpBs6CITsaZ88pQi.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/5Wf9Y6gucbu1LMe1FyqD8TQjaNM.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "Mob Psycho 100",
   "plot": "Shigeo Kageyama, a.k.a. \"Mob,\" is a boy who has trouble expressing himself, but who happens to be a powerful esper. Mob is determined to live a normal life and keeps his ESP suppressed, but when his emotions surge to a level of 100%, something terrible happens to him! As he's surrounded by false espers, evil spirits, and mysterious organizations, what will Mob think? What choices will he make?",
@@ -68,19 +42,19 @@
     {
       "name": "Yoshitsugu Matsuoka",
       "order": 37,
-      "role": "Teruki \"Teru\" Hanazawa (voice)",
+      "role": "Tokugawa (voice)",
       "thumb": "/imT0u1zSM0RbMxBBbQ6kGDRNoCV.jpg"
     },
     {
       "name": "Yoshimasa Hosoya",
       "order": 33,
-      "role": "Tenga Onigawara (voice)",
+      "role": "Sakurai (voice)",
       "thumb": "/r90gExomlgr7IEt3vZ1Y0xYkXHT.jpg"
     },
     {
       "name": "Ryuunosuke Watanuki",
       "order": 33,
-      "role": "Ryouhei Shimura (voice)",
+      "role": "Matsuo (voice)",
       "thumb": "/iViXUrsy5tJXPnBG5XWLrPk9C7X.jpg"
     },
     {
@@ -92,7 +66,7 @@
     {
       "name": "Seiichirou Yamashita",
       "order": 25,
-      "role": "Bandai (voice)",
+      "role": "Jun Sagawa (voice)",
       "thumb": "/oSYMF6kCPArwNf64bqf9fep3h8w.jpg"
     },
     {
@@ -122,7 +96,7 @@
     {
       "name": "Daiki Hamano",
       "order": 27,
-      "role": "Saruta (voice)",
+      "role": "Gozu (voice)",
       "thumb": "/vUC43dPfQ2oFnc8IE9qwPTEVGQG.jpg"
     },
     {
@@ -140,7 +114,7 @@
     {
       "name": "Hiroyuki Kagura",
       "order": 54,
-      "role": "Kaito Shiratori (voice)",
+      "role": "Daichi Shiratori (voice)",
       "thumb": "/vrq2jmGdnDtxrTXv13LXQr80ESp.jpg"
     },
     {
@@ -355,6 +329,32 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5f63e7ba73bb8.jpg",
+        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5b91c006a2fb5.jpg",
+        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5b91c373f224b.jpg",
+        "https://assets.fanart.tv/fanart/tv/307375/showbackground/mob-psycho-100-5b91c37e155f5.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/kP5duNJEbTfXpBs6CITsaZ88pQi.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/5Wf9Y6gucbu1LMe1FyqD8TQjaNM.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/55vdN42xPQxSZodv5aFykQzb35C.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/6icoLkVYUzJgpIF5My7U8UFrHAd.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/ad33GrqmChMIoKgLzhY6b32mASZ.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -407,41 +407,42 @@
           "thumbnail": "https://image.tmdb.org/t/p/w400/wjt7VXD7lFDzQDQ9p9flo8oJtPE.jpg",
           "title": "Mob Psycho 100 II- The First Spirits and Such Company Trip - A Journey that Mends the Heart and Heals the Soul"
         },
+        null,
         {
           "aired": "",
           "plot": "",
           "thumbnail": "",
-          "title": "Episode 9"
+          "title": "(11) Episode 11"
         },
         {
           "aired": "",
           "plot": "",
           "thumbnail": "",
-          "title": "Episode 10"
+          "title": "(12) Episode 12"
         },
         {
           "aired": "",
           "plot": "",
           "thumbnail": "",
-          "title": "Episode 11"
+          "title": "(13) Episode 13"
         },
         {
           "aired": "",
           "plot": "",
           "thumbnail": "",
-          "title": "Episode 12"
+          "title": "(14) Episode 14"
         },
         {
           "aired": "",
           "plot": "",
           "thumbnail": "",
-          "title": "Episode 13"
+          "title": "(15) Episode 15"
         },
         {
           "aired": "",
           "plot": "",
           "thumbnail": "",
-          "title": "Episode 14"
+          "title": "(16) Episode 16"
         }
       ]
     },
@@ -605,6 +606,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "mob_psycho_100"
+  }
 }

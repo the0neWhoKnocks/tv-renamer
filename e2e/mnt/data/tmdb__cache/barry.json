@@ -1,53 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Action & Adventure"
   ],
   "id": 73107,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/333072/seasonposter/barry-5b506fbadbbf7.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/333072/seasonthumb/barry-5f1c90c3134ce.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/333072/seasonthumb/barry-5f1c90d88c443.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d07a5aeaf7e5.jpg",
-        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d07a5a16bda4.jpg",
-        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d101aea5c55a.jpg",
-        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d101b14e1ef9.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/333072/tvbanner/barry-5b503067a612b.jpg",
-        "https://assets.fanart.tv/fanart/tv/333072/tvbanner/barry-5eaeedb30f1e0.jpg",
-        "https://assets.fanart.tv/fanart/tv/333072/tvbanner/barry-5eafb94daec97.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/333072/tvposter/barry-5c3d4d44317c8.jpg",
-        "https://assets.fanart.tv/fanart/tv/333072/tvposter/barry-5c72cc980b14b.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/333072/tvthumb/barry-5af6da47a28c0.jpg",
-        "https://assets.fanart.tv/fanart/tv/333072/tvthumb/barry-5eaee5348d5a4.jpg",
-        "https://assets.fanart.tv/fanart/tv/333072/tvthumb/barry-5eafb74f283e8.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/48GPYOknlGxLYGIkRl8z1vPaHCR.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/2rdMty10eLffdDRPkHdc9VXNFJK.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Barry",
   "plot": "A hit man from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.",
@@ -61,7 +18,7 @@
       "name": "Bill Hader",
       "order": 0,
       "role": "Barry Berkman",
-      "thumb": "/8LiP5wHNq3QpwoARquhkGcPSgjM.jpg"
+      "thumb": "/gZRHxDqb3dLQKG4wTAer6xiI88E.jpg"
     },
     {
       "name": "Stephen Root",
@@ -132,7 +89,7 @@
     {
       "name": "Lee Coc",
       "order": 2,
-      "role": "Bolivian Gangster",
+      "role": "Dead Bolivian Gangster",
       "thumb": "/bO2zc8Ofc8n9N6hs3orBsMWSrQ7.jpg"
     },
     {
@@ -179,6 +136,53 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/333072/seasonposter/barry-5b506fbadbbf7.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/333072/seasonthumb/barry-5f1c90c3134ce.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/333072/seasonthumb/barry-5f1c90d88c443.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d07a5aeaf7e5.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d07a5a16bda4.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d101aea5c55a.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/showbackground/barry-5d101b14e1ef9.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/333072/tvbanner/barry-5b503067a612b.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvbanner/barry-5eaeedb30f1e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvbanner/barry-5eafb94daec97.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/333072/tvposter/barry-5c3d4d44317c8.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvposter/barry-5c72cc980b14b.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/333072/tvthumb/barry-5af6da47a28c0.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvthumb/barry-5eaee5348d5a4.jpg",
+        "https://assets.fanart.tv/fanart/tv/333072/tvthumb/barry-5eafb74f283e8.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/48GPYOknlGxLYGIkRl8z1vPaHCR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/2rdMty10eLffdDRPkHdc9VXNFJK.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/gxSRN9huAmJP53nB0tHNT3zLwdV.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/qXq4yyARgAS5QqhwsNyYitfpokR.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -286,6 +290,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "barry"
+  }
 }

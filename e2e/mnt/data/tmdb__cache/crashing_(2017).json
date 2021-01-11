@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy"
   ],
@@ -185,7 +185,7 @@
       "name": "Seth Meyers",
       "order": 25,
       "role": "",
-      "thumb": "/kGCRHUbJBwGlJky5jeHzAXCp1O2.jpg"
+      "thumb": "/nCcvpJFHWYHfu5oPxTOyA1uSdqA.jpg"
     },
     {
       "name": "Wayne Federman",
@@ -239,8 +239,13 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/jhjSMDabhZCJ4pzzMbhDDmB7R9D.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/iImLsPrc45QjbyFxqEY3Yk21JFr.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/jhjSMDabhZCJ4pzzMbhDDmB7R9D.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/iImLsPrc45QjbyFxqEY3Yk21JFr.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/tPEgQXh99WyLT0FAdy6dZFVJVFR.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/gWwvZk68A53JVjGRY95RerODhd7.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/a5vudLIGvjrpqIeELctJpLwmL4m.jpg"
+      }
     }
   },
   "seasons": {

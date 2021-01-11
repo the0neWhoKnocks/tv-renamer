@@ -1,43 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama",
     "Crime"
   ],
   "id": 83251,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/351254/seasonposter/dirty-john-5ed7622a66892.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/351254/seasonthumb/dirty-john-5ed7636a6c3ff.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/351254/showbackground/dirty-john-5ed76255aec1e.jpg",
-        "https://assets.fanart.tv/fanart/tv/351254/showbackground/dirty-john-5c04f626bf74e.jpg",
-        "https://assets.fanart.tv/fanart/tv/351254/showbackground/dirty-john-5c04f626cfe1a.jpg"
-      ],
-      "seriesBanner": [],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/351254/tvposter/dirty-john-5ed762e935e53.jpg",
-        "https://assets.fanart.tv/fanart/tv/351254/tvposter/dirty-john-5ed76211db324.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/351254/tvthumb/dirty-john-5ed76289ce825.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/Sjm6X8bJnbBRUJ3nOKCVPnvnsm.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/epIeL5ru4ETHTL3X3XOmT1ryd84.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Dirty John",
   "plot": "Anthology series in which each season is based on a true crime story featuring an epic tale of love gone wrong.",
@@ -61,28 +28,28 @@
       "thumb": "/5TfyCj0X9ftKO11FN057P05s78C.jpg"
     },
     {
-      "name": "Eric Bana",
-      "order": 1,
-      "role": "John Meehan",
-      "thumb": "/j8tbvkg0kyCZihbwrUNRxwhqXXe.jpg"
-    },
-    {
       "name": "Christian Slater",
       "order": 1,
       "role": "Dan Broderick",
       "thumb": "/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg"
     },
     {
-      "name": "Julia Garner",
-      "order": 2,
-      "role": "Terra Newell",
-      "thumb": "/3ssgMsIWiTafSrjHNYdxYYZcvuf.jpg"
+      "name": "Eric Bana",
+      "order": 1,
+      "role": "John Meehan",
+      "thumb": "/j8tbvkg0kyCZihbwrUNRxwhqXXe.jpg"
     },
     {
       "name": "Rachel Keller",
       "order": 2,
       "role": "Linda Kolkena",
       "thumb": "/16PDQIPN3SoY66M5SIen4mTed1I.jpg"
+    },
+    {
+      "name": "Julia Garner",
+      "order": 2,
+      "role": "Terra Newell",
+      "thumb": "/3ssgMsIWiTafSrjHNYdxYYZcvuf.jpg"
     },
     {
       "name": "Juno Temple",
@@ -158,6 +125,42 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/351254/seasonposter/dirty-john-5ed7622a66892.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/351254/seasonthumb/dirty-john-5ed7636a6c3ff.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/351254/showbackground/dirty-john-5ed76255aec1e.jpg",
+        "https://assets.fanart.tv/fanart/tv/351254/showbackground/dirty-john-5c04f626bf74e.jpg",
+        "https://assets.fanart.tv/fanart/tv/351254/showbackground/dirty-john-5c04f626cfe1a.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/351254/tvposter/dirty-john-5ed762e935e53.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/351254/tvthumb/dirty-john-5ed76289ce825.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/Sjm6X8bJnbBRUJ3nOKCVPnvnsm.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/epIeL5ru4ETHTL3X3XOmT1ryd84.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/5QWYsyYuVIdfF7GmUPBZDshILKr.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/epIeL5ru4ETHTL3X3XOmT1ryd84.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -265,6 +268,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "dirty_john"
+  }
 }

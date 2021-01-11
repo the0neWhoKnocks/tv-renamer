@@ -1,34 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Drama"
   ],
   "id": 81356,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/356317/showbackground/sex-education-5c84395a7aaee.jpg"
-      ],
-      "seriesBanner": [],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/356317/tvposter/sex-education-5c8438be23f51.jpeg",
-        "https://assets.fanart.tv/fanart/tv/356317/tvposter/sex-education-5d062f348671a.jpg",
-        "https://assets.fanart.tv/fanart/tv/356317/tvposter/sex-education-5e72cb662338a.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/356317/tvthumb/sex-education-5c44b6fca369f.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/61m8HGEWwE4q8oSz3AY5vl5F3BS.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/4Bph0hhnDH6dpc0SZIV522bLm4P.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Sex Education",
   "plot": "Inexperienced Otis channels his sex therapist mom when he teams up with rebellious Maeve to set up an underground sex therapy clinic at school.",
@@ -153,16 +129,16 @@
       "thumb": "/ykP2TP7SprUMjQnoMIWYryk04a2.jpg"
     },
     {
-      "name": "Sharon Duncan-Brewster",
-      "order": 52,
-      "role": "Roz Marchetti",
-      "thumb": "/3UCihGvkuWQbdRBzYgVM52IFPeA.jpg"
-    },
-    {
       "name": "Lisa Palfrey",
       "order": 52,
       "role": "Cynthia",
       "thumb": "/iwZrsJhsuiqep5zEyh4b7lhYTs5.jpg"
+    },
+    {
+      "name": "Sharon Duncan-Brewster",
+      "order": 52,
+      "role": "Roz Marchetti",
+      "thumb": "/3UCihGvkuWQbdRBzYgVM52IFPeA.jpg"
     },
     {
       "name": "George Robinson",
@@ -219,6 +195,12 @@
       "thumb": "/9NoRfi7L87xsmveXpE7ryycsFQy.jpg"
     },
     {
+      "name": "Lily Newmark",
+      "order": 34,
+      "role": "Ruthie",
+      "thumb": "/eptZSYgdDbYjdIfsLwSyEizmSmx.jpg"
+    },
+    {
       "name": "Max Boast",
       "order": 34,
       "role": "Tom Baker",
@@ -229,12 +211,6 @@
       "order": 34,
       "role": "Dan",
       "thumb": "/VHtgRMz5t0F8DEjYMxSmY09DTw.jpg"
-    },
-    {
-      "name": "Lily Newmark",
-      "order": 34,
-      "role": "Ruthie",
-      "thumb": "/eptZSYgdDbYjdIfsLwSyEizmSmx.jpg"
     },
     {
       "name": "T'Nia Miller",
@@ -369,16 +345,16 @@
       "thumb": null
     },
     {
-      "name": "Behnaz VAKILI",
-      "order": 56,
-      "role": "",
-      "thumb": "/wJada6a4RWZa15c1QgCl0iZ5XlV.jpg"
-    },
-    {
       "name": "Liz Jadav",
       "order": 56,
       "role": "",
       "thumb": "/ienk34EXxHE7ILVN5GP0XAZ2iwI.jpg"
+    },
+    {
+      "name": "Behnaz VAKILI",
+      "order": 56,
+      "role": "",
+      "thumb": "/wJada6a4RWZa15c1QgCl0iZ5XlV.jpg"
     },
     {
       "name": "Sanchia Maccormack",
@@ -394,6 +370,34 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/356317/showbackground/sex-education-5c84395a7aaee.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/356317/tvposter/sex-education-5c8438be23f51.jpeg",
+        "https://assets.fanart.tv/fanart/tv/356317/tvposter/sex-education-5e72cb662338a.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/356317/tvthumb/sex-education-5c44b6fca369f.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/61m8HGEWwE4q8oSz3AY5vl5F3BS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/4Bph0hhnDH6dpc0SZIV522bLm4P.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/u3eoZguH2tqLLKqRqWjvisF0d2U.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/rdcY9VJ5uVsCvCxdHoyZzXtKp2E.jpg",
+        "3": ""
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -501,6 +505,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "sex_education"
+  }
 }

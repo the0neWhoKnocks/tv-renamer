@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Action & Adventure",
     "Animation",
@@ -16,16 +16,22 @@
   ],
   "actors": [
     {
-      "name": "Keiji Fujiwara",
+      "name": "Megumi Han",
       "order": 500,
-      "role": "Leorio Paladiknight (voice)",
-      "thumb": "/cK5cLHWfVnQdREHs7SpsBs4g4EI.jpg"
+      "role": "Gon Freecss (voice)",
+      "thumb": "/hbZsSUqFOLShJ29uY32UHdW7RYI.jpg"
     },
     {
       "name": "Chisa Yokoyama",
       "order": 500,
       "role": "Biscuit Krueger (voice)",
       "thumb": "/zdG1f8EJl4vNSCaW9ABkz3ezZFI.jpg"
+    },
+    {
+      "name": "Keiji Fujiwara",
+      "order": 500,
+      "role": "Leorio Paladiknight (voice)",
+      "thumb": "/cK5cLHWfVnQdREHs7SpsBs4g4EI.jpg"
     },
     {
       "name": "Miyuki Sawashiro",
@@ -40,22 +46,16 @@
       "thumb": "/akhAAMAjgZw13Lrz8LQqsfm9ez2.jpg"
     },
     {
-      "name": "Daisuke Namikawa",
-      "order": 500,
-      "role": "Hisoka Morow (voice)",
-      "thumb": "/u3G0dSOXazsERnRtVJJgdT1LVUq.jpg"
-    },
-    {
       "name": "Mariya Ise",
       "order": 500,
       "role": "Killua Zoldyck (voice)",
       "thumb": "/tQWlgrlQ70biWdg7x9E75CtwsuD.jpg"
     },
     {
-      "name": "Megumi Han",
+      "name": "Daisuke Namikawa",
       "order": 500,
-      "role": "Gon Freecss (voice)",
-      "thumb": "/hbZsSUqFOLShJ29uY32UHdW7RYI.jpg"
+      "role": "Hisoka Morow (voice)",
+      "thumb": "/u3G0dSOXazsERnRtVJJgdT1LVUq.jpg"
     },
     {
       "name": "Koki Uchiyama",
@@ -106,7 +106,6 @@
       "seriesPoster": [
         "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-56c9b2ebdf747.jpg",
         "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-54a1f76808ecf.jpg",
-        "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-5b06b0fe6b483.jpg",
         "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-55a6fe9bde963.jpg",
         "https://assets.fanart.tv/fanart/tv/252322/tvposter/hunter-x-hunter-2011-58fb2c307ac63.jpg"
       ],
@@ -117,8 +116,13 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/A702KA1gXlI3hB33hdhwPM708pY.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/A702KA1gXlI3hB33hdhwPM708pY.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/4jA40N280wb9NT7yjtFdcJND5aq.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/itMuFli5HRafl3ofO5srdN0mmCQ.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/eHv7DcRol9xrpwE14D4GuRdgcH0.jpg"
+      }
     }
   },
   "seasons": {

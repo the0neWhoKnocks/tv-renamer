@@ -1,5 +1,5 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Reality"
   ],
@@ -55,8 +55,11 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/bZ082u4TlCRijcRlTOlNsDjej0X.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/g3tIsbySSQj9GnDjhAAW7p5DmLU.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/bZ082u4TlCRijcRlTOlNsDjej0X.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/g3tIsbySSQj9GnDjhAAW7p5DmLU.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/bLoaoBkrNi6DVraweFkhk8n47VH.jpg"
+      }
     }
   },
   "seasons": {

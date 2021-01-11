@@ -1,66 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Sci-Fi & Fantasy"
   ],
   "id": 73157,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "0": [
-          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5c3c43d7c93ad.jpg"
-        ],
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5e6b55a5ed860.jpg",
-          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5c3973686473f.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5e6b55bb92dcc.jpg",
-          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5c39737daedff.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/330997/seasonthumb/future-man-5e6b55cf92026.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/330997/seasonthumb/future-man-5e6b55e45e1f8.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/330997/seasonthumb/future-man-5e7687673f312.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5e807c48d6c13.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5c398778b1240.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5e6b5604718b5.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5e6b561568891.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/330997/tvbanner/future-man-5ece7833346c4.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/tvbanner/future-man-5c3987852dc6e.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-5e807ca109b37.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-59f46570b9461.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-5c355571ac24a.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-5c3b9890a359f.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5ece74fa00cdd.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5ece75ab1d017.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5a2bad4380293.jpg",
-        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5e807cefe0aac.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/1HpKx1aeqLQ5cHaYy3IsNpmEolD.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/49mOgAEa4eKpPsoBH8UvvXwEMDT.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Future Man",
   "plot": "Josh Futturman, a janitor by day/world-ranked gamer by night, is tasked with preventing the extinction of humanity after mysterious visitors from the future proclaim him the key to defeating the imminent super-race invasion.",
@@ -89,16 +33,16 @@
       "thumb": "/oOvJLNW7WSuf2ZU9wLN0wK3i78a.jpg"
     },
     {
-      "name": "Ed Begley Jr.",
-      "order": 500,
-      "role": "Gabe Futturman",
-      "thumb": "/tF0HU5QePY4ej9aPDZSyQ53ERKR.jpg"
-    },
-    {
       "name": "Glenne Headly",
       "order": 500,
       "role": "Diane Futturman",
       "thumb": "/v1uqgxYG3grfF7s7sky8B9oufzP.jpg"
+    },
+    {
+      "name": "Ed Begley Jr.",
+      "order": 500,
+      "role": "Gabe Futturman",
+      "thumb": "/tF0HU5QePY4ej9aPDZSyQ53ERKR.jpg"
     },
     {
       "name": "Haley Joel Osment",
@@ -161,9 +105,15 @@
       "thumb": "/l5AKkg3H1QhMuXmTTmq1EyjyiRb.jpg"
     },
     {
+      "name": "Leigh Green",
+      "order": 20,
+      "role": "Fox",
+      "thumb": null
+    },
+    {
       "name": "Holger Moncada Jr.",
       "order": 20,
-      "role": "Miguel Santiago",
+      "role": "Jorge Santiago",
       "thumb": "/tEH2MOvPgZRg8A5sc06iXiraanL.jpg"
     },
     {
@@ -173,16 +123,10 @@
       "thumb": "/2YQfQ1Yby5haOqkYTtpWZkflWA3.jpg"
     },
     {
-      "name": "Leigh Green",
-      "order": 20,
-      "role": "Wasp",
-      "thumb": null
-    },
-    {
       "name": "Carla Gallo",
       "order": 66,
       "role": "Dingo",
-      "thumb": "/jmgM6EZSFrGTwQyxyO4jxFQ9KoS.jpg"
+      "thumb": "/yf9F5OL0S97coL8bnGxDGxguZ2I.jpg"
     },
     {
       "name": "Rowan Smyth",
@@ -197,40 +141,22 @@
       "thumb": "/zSBUKA6kLKi6Ibysn4VnIlXar3Y.jpg"
     },
     {
-      "name": "Sara Amini",
-      "order": 90,
-      "role": "Thimble",
-      "thumb": "/bM2Okv0uudBsratKTn5tQL8ml3H.jpg"
-    },
-    {
-      "name": "Jade Catta-Preta",
-      "order": 90,
-      "role": "Level",
-      "thumb": "/xc8dtOHMegg68XJ19xK3NVC3TMa.jpg"
-    },
-    {
       "name": "Staci Lynn Fletcher",
       "order": 90,
       "role": "Rivet",
       "thumb": null
     },
     {
-      "name": "Timothy Hornor",
+      "name": "Sara Amini",
       "order": 90,
-      "role": "Lathe",
-      "thumb": "/s0s3wyhmZer0vX5MEyO3StJom76.jpg"
+      "role": "Thimble",
+      "thumb": "/bM2Okv0uudBsratKTn5tQL8ml3H.jpg"
     },
     {
-      "name": "Shaun Brown",
+      "name": "Rati Gupta",
       "order": 90,
-      "role": "Hatchet",
-      "thumb": "/gPRRhoelZLDmQpdu6dm6D2nNKwc.jpg"
-    },
-    {
-      "name": "Ricky Mabe",
-      "order": 90,
-      "role": "Pump",
-      "thumb": "/2PjLEp90D93Ih4uFIEaY6LlpT9t.jpg"
+      "role": "Rake",
+      "thumb": "/mljuIWHmKrh8qxuPNQo5BCTDF7G.jpg"
     },
     {
       "name": "Alyvia Alyn Lind",
@@ -239,10 +165,28 @@
       "thumb": "/gg7ZRQQic55Kh7vGQRFz7dwbBSr.jpg"
     },
     {
-      "name": "Rati Gupta",
+      "name": "Timothy Hornor",
       "order": 90,
-      "role": "Rake",
-      "thumb": "/mljuIWHmKrh8qxuPNQo5BCTDF7G.jpg"
+      "role": "Lathe",
+      "thumb": "/s0s3wyhmZer0vX5MEyO3StJom76.jpg"
+    },
+    {
+      "name": "Ricky Mabe",
+      "order": 90,
+      "role": "Pump",
+      "thumb": "/2PjLEp90D93Ih4uFIEaY6LlpT9t.jpg"
+    },
+    {
+      "name": "Shaun Brown",
+      "order": 90,
+      "role": "Hatchet",
+      "thumb": "/gPRRhoelZLDmQpdu6dm6D2nNKwc.jpg"
+    },
+    {
+      "name": "Jade Catta-Preta",
+      "order": 90,
+      "role": "Level",
+      "thumb": "/xc8dtOHMegg68XJ19xK3NVC3TMa.jpg"
     },
     {
       "name": "Artemis Pebdani",
@@ -605,16 +549,16 @@
       "thumb": "/zNadeApQk3UBQL6I4gEORdeDng6.jpg"
     },
     {
-      "name": "Seth Rogen",
-      "order": 93,
-      "role": "Susan",
-      "thumb": "/xCt0MWnPkk1tJIYYPT6fekgQRMg.jpg"
-    },
-    {
       "name": "Sarah Cooper",
       "order": 93,
       "role": "Stray",
       "thumb": "/5R3muthEVJ5q2WKHGeop2YfMbZB.jpg"
+    },
+    {
+      "name": "Seth Rogen",
+      "order": 93,
+      "role": "Susan",
+      "thumb": "/xCt0MWnPkk1tJIYYPT6fekgQRMg.jpg"
     },
     {
       "name": "Diego Delpiano",
@@ -624,6 +568,66 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "0": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5c3c43d7c93ad.jpg"
+        ],
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5e6b55a5ed860.jpg",
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5c3973686473f.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5e6b55bb92dcc.jpg",
+          "https://assets.fanart.tv/fanart/tv/330997/seasonposter/future-man-5c39737daedff.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonthumb/future-man-5e6b55cf92026.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonthumb/future-man-5e6b55e45e1f8.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/330997/seasonthumb/future-man-5e7687673f312.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5e807c48d6c13.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5c398778b1240.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5e6b5604718b5.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/showbackground/future-man-5e6b561568891.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/330997/tvbanner/future-man-5ece7833346c4.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvbanner/future-man-5c3987852dc6e.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-5e807ca109b37.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-59f46570b9461.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvposter/future-man-5c355571ac24a.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5ece74fa00cdd.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5ece75ab1d017.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5a2bad4380293.jpg",
+        "https://assets.fanart.tv/fanart/tv/330997/tvthumb/future-man-5e807cefe0aac.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/1HpKx1aeqLQ5cHaYy3IsNpmEolD.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/49mOgAEa4eKpPsoBH8UvvXwEMDT.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/o3E7ohao2PXafum87M10BshHmX4.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/dmdTEXvhKitYTIAzs1HKVvXFclR.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/49mOgAEa4eKpPsoBH8UvvXwEMDT.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -844,6 +848,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "future_man"
+  }
 }

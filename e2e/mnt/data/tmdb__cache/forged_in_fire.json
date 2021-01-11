@@ -1,36 +1,9 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Reality"
   ],
   "id": 62884,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/296830/seasonthumb/forged-in-fire-5f102f5f184f7.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/296830/showbackground/forged-in-fire-5f102f31ab236.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/296830/tvbanner/forged-in-fire-5f102f47f0ad5.jpg"
-      ],
-      "seriesPoster": [],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/296830/tvthumb/forged-in-fire-5f102f1ab480c.jpg",
-        "https://assets.fanart.tv/fanart/tv/296830/tvthumb/forged-in-fire-5596a4be63fe9.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/2JeaDiavRcMBYce00s06xARb78Y.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/yaJ6uXDgGlQKNS8hFXQLPk7pwKX.jpg"
-    }
-  },
   "mpaa": "TV-PG",
   "name": "Forged in Fire",
   "plot": "Competitors re-create weapons from historical periods ranging from Japanese katanas to medieval broadswords to ancient throwing blades. Each entry is judged on its artistry as well as its functionality and accuracy.",
@@ -66,6 +39,43 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/296830/seasonthumb/forged-in-fire-5f102f5f184f7.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/296830/showbackground/forged-in-fire-5f102f31ab236.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/296830/tvbanner/forged-in-fire-5f102f47f0ad5.jpg"
+      ],
+      "seriesPoster": [],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/296830/tvthumb/forged-in-fire-5f102f1ab480c.jpg",
+        "https://assets.fanart.tv/fanart/tv/296830/tvthumb/forged-in-fire-5596a4be63fe9.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/2JeaDiavRcMBYce00s06xARb78Y.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/yaJ6uXDgGlQKNS8hFXQLPk7pwKX.jpg",
+      "seasonPosters": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "https://image.tmdb.org/t/p/w780/bebZJCRZ3RJizINuc0Jd981fE73.jpg",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": ""
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -1136,9 +1146,20 @@
           "plot": "For the first time, Judges Ben Abbott, J. Neilson and David Baker are thrown into the fire for a grueling home forge battle against each other. Given two weeks, each judge will construct a blade unlike anything they've made before, all while filming the process themselves. With bragging rights on the table, will the judges' work hold up to their own critical eyes and survive testing or will a mistake get the best of them?",
           "thumbnail": "",
           "title": "Judges' Home Forge Battle"
+        },
+        {
+          "aired": "2021-01-06",
+          "plot": "Four bladesmiths get cooking when they are tasked with forging a cleaver using only the steel from meat hooks. After two rounds of slicing and dicing, two smiths head back to their home forges to create the Maguro Bocho, a massive tuna knife.",
+          "thumbnail": "",
+          "title": "The Massive Maguro Bocho"
+        },
+        {
+          "aired": "2021-01-13",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Teeth of the Tegha"
         }
       ]
     }
-  },
-  "cacheKey": "forged_in_fire"
+  }
 }

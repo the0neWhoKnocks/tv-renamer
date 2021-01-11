@@ -1,41 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Drama"
   ],
   "id": 71733,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/332898/seasonposter/smilf-5c35e7939abab.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/332898/seasonposter/smilf-5c35e7b14d6e1.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/332898/showbackground/smilf-5b5df05be9914.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/332898/tvbanner/smilf-5b5df0f5ce5b0.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/332898/tvposter/smilf-5b5df033532b6.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/332898/tvthumb/smilf-5b5df27087423.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/z8j1FausIgD7cmar2QFwaqh63D2.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/yrHVP3NQgvMwGhjcA9W49P7uE4O.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "SMILF",
   "plot": "A raw and honest comedic look at a single, 20-something from Southie whose desires for relationships, sex, and a career collide with the realities of young, single motherhood.",
@@ -125,6 +94,41 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/332898/seasonposter/smilf-5c35e7939abab.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/332898/seasonposter/smilf-5c35e7b14d6e1.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/332898/showbackground/smilf-5b5df05be9914.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/332898/tvbanner/smilf-5b5df0f5ce5b0.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/332898/tvposter/smilf-5b5df033532b6.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/332898/tvthumb/smilf-5b5df27087423.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/z8j1FausIgD7cmar2QFwaqh63D2.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/yrHVP3NQgvMwGhjcA9W49P7uE4O.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/pftEBDmhG4UO56AmWGB0kYQ6dDT.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/kpY6MZI9DEAgIyMETmgBgBhmoUy.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -244,6 +248,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "smilf"
+  }
 }

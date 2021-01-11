@@ -1,98 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Action & Adventure",
     "Crime",
     "Drama"
   ],
   "id": 67178,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5a104d6e21d57.jpg",
-          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5a23d75da7c2c.jpg",
-          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5cf977794d12a.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5c41912b59599.jpg",
-          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5c448879ca2d3.jpg",
-          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5c448896c5fb2.jpg",
-          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5cf977a65ff52.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5743d2160f8e3.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-59ffe7e7d4771.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a277d1013ed1.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3cf4fb5c14a.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3cf5062a544.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3da611c0b58.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3da62497130.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3da63d68f17.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a235205e68a3.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5b9291a888a5a.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5defdb83177e3.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5defdb8339c3e.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a105075ee8db.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a1050760ab9d.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a1050ca88b38.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5ac6c0aaf2f8a.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a13c846915c4.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a347be1d8b55.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5bc70306a786b.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a13c5496b285.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a669c40e4cb1.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5a105dc5adbc2.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5a105dc5a2b9c.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5a105dc5b6de0.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5c46d4c869c7e.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5c473dc13c37a.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5cafd7c757f49.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5e38e8b5e6dfd.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-59c0023e5cfe5.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5745afa089568.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-593005ffcf4a4.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5c41911065053.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5745af0a8ff4b.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5745b047cf526.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5724bb7db6f99.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5725728da7a79.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5a6713f01611a.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5b958ac1445d7.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5a13c62303137.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5c44884d42d8a.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5c44885c37e32.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5c486170dcc9f.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5be0a97100c4c.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5be0a9710a8e0.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5be0a97114547.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5be0a97120ccc.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5a347cb5683a9.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5a13c59d34930.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5b9297c743047.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5a1052612a742.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5a10526108c37.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5a10526113dc9.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5a1052611bfac.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5c377c67c960c.jpg",
-        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5cafd7a71a584.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/2yfmJudf695JBUJRW7QJjVN1rg5.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/s2YM9zHF3tf2coi8t0UEzYrOHg8.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Marvel's The Punisher",
   "plot": "A former Marine out to punish the criminals responsible for his family's murder finds himself ensnared in a military conspiracy.",
@@ -145,12 +58,6 @@
       "thumb": "/vZm8QSMhDq6GMZgdgV3uIxi44TR.jpg"
     },
     {
-      "name": "Paul Schulze",
-      "order": 6,
-      "role": "William Rawlins",
-      "thumb": "/yonS9loY0ePw5MDQ4xxNeEwSyFf.jpg"
-    },
-    {
       "name": "Floriana Lima",
       "order": 6,
       "role": "Dr. Krista Dumont",
@@ -161,6 +68,12 @@
       "order": 6,
       "role": "Sarah Lieberman",
       "thumb": "/2NZqIILL9BW8fSveWDGBDLoMYN8.jpg"
+    },
+    {
+      "name": "Paul Schulze",
+      "order": 6,
+      "role": "William Rawlins",
+      "thumb": "/yonS9loY0ePw5MDQ4xxNeEwSyFf.jpg"
     },
     {
       "name": "Michael Nathanson",
@@ -253,16 +166,16 @@
       "thumb": null
     },
     {
-      "name": "Kevin Chapman",
-      "order": 16,
-      "role": "",
-      "thumb": "/veVWDCVlIeGrXY0meC1oXSJIgQ.jpg"
-    },
-    {
       "name": "Rob Morgan",
       "order": 16,
       "role": "Turk Barrett",
       "thumb": "/yIQd0L0kn1HyZGeEMkUREzMslP0.jpg"
+    },
+    {
+      "name": "Kevin Chapman",
+      "order": 16,
+      "role": "",
+      "thumb": "/veVWDCVlIeGrXY0meC1oXSJIgQ.jpg"
     },
     {
       "name": "Sabrina Reitman",
@@ -410,6 +323,91 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5a104d6e21d57.jpg",
+          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5a23d75da7c2c.jpg",
+          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5cf977794d12a.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5c41912b59599.jpg",
+          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5c448879ca2d3.jpg",
+          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5c448896c5fb2.jpg",
+          "https://assets.fanart.tv/fanart/tv/331980/seasonposter/marvels-the-punisher-5cf977a65ff52.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5743d2160f8e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-59ffe7e7d4771.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a277d1013ed1.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3cf4fb5c14a.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3cf5062a544.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3da611c0b58.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3da62497130.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5c3da63d68f17.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a235205e68a3.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5b9291a888a5a.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5defdb83177e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5defdb8339c3e.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a105075ee8db.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a1050760ab9d.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a1050ca88b38.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5ac6c0aaf2f8a.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a13c846915c4.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a347be1d8b55.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5bc70306a786b.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a13c5496b285.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/showbackground/marvels-the-punisher-5a669c40e4cb1.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5a105dc5adbc2.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5a105dc5a2b9c.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5a105dc5b6de0.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5c46d4c869c7e.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5c473dc13c37a.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvbanner/marvels-the-punisher-5cafd7c757f49.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-59c0023e5cfe5.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5745afa089568.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-593005ffcf4a4.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5c41911065053.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5745af0a8ff4b.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5745b047cf526.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5725728da7a79.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5b958ac1445d7.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5a13c62303137.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5c44884d42d8a.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5c44885c37e32.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5be0a97100c4c.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5be0a9710a8e0.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5be0a97114547.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5be0a97120ccc.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvposter/marvels-the-punisher-5b9297c743047.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5a1052612a742.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5a10526108c37.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5a10526113dc9.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5a1052611bfac.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5c377c67c960c.jpg",
+        "https://assets.fanart.tv/fanart/tv/331980/tvthumb/marvels-the-punisher-5cafd7a71a584.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/2yfmJudf695JBUJRW7QJjVN1rg5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/s2YM9zHF3tf2coi8t0UEzYrOHg8.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/pJHS0WCBIOPJMIYpGQwubSBvDa.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/5dPQJwvAEXMbwC1fPc6GV578LS3.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -577,6 +575,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "marvels_the_punisher"
+  }
 }

@@ -1,38 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Drama",
     "Action & Adventure",
     "Comedy"
   ],
   "id": 84231,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/353367/seasonposter/wayne-2018-5e1bdd0fe5175.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [],
-      "seriesBanner": [],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c434ad42e927.jpg",
-        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c4349c672242.jpg",
-        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c434a83af778.jpg",
-        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c5e593e0e868.jpg",
-        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c5e59c4b85f2.jpg",
-        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c5e5beb3d8bb.jpg"
-      ],
-      "seriesThumb": []
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/8R3yTaFVhITGm0YfwXRixuUkjD9.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/z8E1ZKTDhz477wjkT9ttIRmiVOc.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Wayne",
   "plot": "In this gritty and sometimes bloody tale, sixteen year-old Wayne sets out on a dirt bike with his new crush Del to take back the 1978 Pontiac Trans Am that was stolen from his father before he died. It is Wayne and Del against the world.",
@@ -134,6 +107,35 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/353367/seasonposter/wayne-2018-5e1bdd0fe5175.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c4349c672242.jpg",
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c434a83af778.jpg",
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c5e593e0e868.jpg",
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c5e59c4b85f2.jpg",
+        "https://assets.fanart.tv/fanart/tv/353367/tvposter/wayne-2018-5c5e5beb3d8bb.jpg"
+      ],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/8R3yTaFVhITGm0YfwXRixuUkjD9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/z8E1ZKTDhz477wjkT9ttIRmiVOc.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/z8E1ZKTDhz477wjkT9ttIRmiVOc.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -200,6 +202,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "wayne"
+  }
 }

@@ -1,80 +1,9 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy"
   ],
   "id": 71728,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5a9d7ee13bbd0.jpg",
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5ba9df335a3ef.jpg",
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5a805b9823122.jpg",
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5ba09aea367d5.jpg",
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5a2d36ea89a42.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5d75dee74f11c.jpg",
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5bb0c5a9d41b1.jpg",
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5d87c00b23c2d.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5f4d2ddda4fb0.jpg",
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5f4d2d52d03be.jpg",
-          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5d9645f4523d2.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5a805ce4a4174.jpg",
-          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5ddf20a8d020c.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5ddf20bb83e56.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5ddf20ce34745.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5d87a1c7cd573.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-59cb18e9e9e37.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5a2d281d1a15f.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5a9d7b5472013.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-59cb18ea009bc.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5d8b184985566.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5d8b184960942.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/328724/tvbanner/young-sheldon-5d813db31a83d.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvbanner/young-sheldon-5a805beb72f03.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvbanner/young-sheldon-5a9d794bf2611.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5d813bd8a6902.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-59b148d7066b2.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5a805b81ddcbb.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5b9b534aa53d0.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5ba09b9c26ace.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5dcbc1d6dcf76.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-59c72be48b393.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5d813cd384823.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-59c6d330e5db3.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5dcd2da439fcd.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5a805bd7b8018.jpg",
-        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5a9d7c26cef82.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/nlDBlCtorM7nx130wYnfR5ZmyLX.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/aESxB2HblKlDzma39xVefa20pbW.jpg"
-    }
-  },
   "mpaa": "TV-PG",
   "name": "Young Sheldon",
   "plot": "The early life of child genius Sheldon Cooper, later seen in The Big Bang Theory.",
@@ -243,7 +172,7 @@
     {
       "name": "Katherine Von Till",
       "order": 116,
-      "role": "Kimberly",
+      "role": "Anchor",
       "thumb": "/dqKoDqcUzYCXDipHsXMWkBc2DLK.jpg"
     },
     {
@@ -283,16 +212,16 @@
       "thumb": "/yWmuVQeQUzb5OSMVDoWkR0IylCK.jpg"
     },
     {
-      "name": "Jason Alexander",
-      "order": 122,
-      "role": "Mr. Lundy",
-      "thumb": "/5a34uLhhHqmeYII984EfaVBh70p.jpg"
-    },
-    {
       "name": "London Cheshire",
       "order": 122,
       "role": "Marcus",
       "thumb": "/nV6MbjnX05QPceYdR0Yt0ziLYai.jpg"
+    },
+    {
+      "name": "Jason Alexander",
+      "order": 122,
+      "role": "Mr. Lundy",
+      "thumb": "/5a34uLhhHqmeYII984EfaVBh70p.jpg"
     },
     {
       "name": "Melissa Tang",
@@ -322,7 +251,7 @@
       "name": "Vernee Watson-Johnson",
       "order": 93,
       "role": "Nurse Robinson",
-      "thumb": "/g5URd4YcVrk7yYEGk4SvYzi3rml.jpg"
+      "thumb": "/rUMtF1F6wrUHHfRkFlLz27xRoxd.jpg"
     },
     {
       "name": "Mac Jarman",
@@ -340,7 +269,7 @@
       "name": "Bob Newhart",
       "order": 123,
       "role": "Professor Proton",
-      "thumb": "/vAHAfHo6TMJSCIzy0AkdEIzkxgn.jpg"
+      "thumb": "/kOyxzZMzbCcXMddD17F8S33I3ZU.jpg"
     },
     {
       "name": "Karly Rothenberg",
@@ -451,16 +380,16 @@
       "thumb": "/bEytLgAt4gRXk0l8yxPJkbQbijk.jpg"
     },
     {
-      "name": "Christian Alexander Garcia",
-      "order": 47,
-      "role": "Stinson",
-      "thumb": "/3PkoxSlvZmLVF274rQDXi336T2g.jpg"
-    },
-    {
       "name": "Murray Wyatt Rundus",
       "order": 47,
       "role": "Clint",
       "thumb": "/a1UcC2mBQwYcdCrmqNPwTW7LVDg.jpg"
+    },
+    {
+      "name": "Christian Alexander Garcia",
+      "order": 47,
+      "role": "Stinson",
+      "thumb": "/3PkoxSlvZmLVF274rQDXi336T2g.jpg"
     },
     {
       "name": "Tate Berney",
@@ -619,10 +548,10 @@
       "thumb": "/fevFmfIsmS8IWhOEnKquzGnLurI.jpg"
     },
     {
-      "name": "Amy Farrington",
+      "name": "Wallace Langham",
       "order": 82,
-      "role": "Sandra Thorpe",
-      "thumb": "/yyJQhPEnV1JjbyCiJmecSWTWgN.jpg"
+      "role": "Edward Pilson",
+      "thumb": "/pjc9iFeNMAAHI3zOsiP1anZ0wis.jpg"
     },
     {
       "name": "Jonney Ahmanson",
@@ -631,10 +560,10 @@
       "thumb": "/tms9QxzzmgaPRTN9k4c5N5BvRsD.jpg"
     },
     {
-      "name": "Wallace Langham",
+      "name": "Amy Farrington",
       "order": 82,
-      "role": "Edward Pilson",
-      "thumb": "/pjc9iFeNMAAHI3zOsiP1anZ0wis.jpg"
+      "role": "Sandra Thorpe",
+      "thumb": "/yyJQhPEnV1JjbyCiJmecSWTWgN.jpg"
     },
     {
       "name": "Cheyenne Nguyen",
@@ -715,16 +644,16 @@
       "thumb": null
     },
     {
-      "name": "Christine Baranski",
-      "order": 97,
-      "role": "Beverly Hofstadter",
-      "thumb": "/fqDRKSrJx7v337MWsY5gklvSFGB.jpg"
-    },
-    {
       "name": "Winifred Freedman",
       "order": 97,
       "role": "Luann",
       "thumb": "/yUVNGD9Lqx9rFRkGN8aYCebAG9E.jpg"
+    },
+    {
+      "name": "Christine Baranski",
+      "order": 97,
+      "role": "Beverly Hofstadter",
+      "thumb": "/fqDRKSrJx7v337MWsY5gklvSFGB.jpg"
     },
     {
       "name": "Carol Ann Susi",
@@ -757,16 +686,16 @@
       "thumb": "/8yCC7RJc02xoyff3s0Jd4J9KqAR.jpg"
     },
     {
-      "name": "Alfred Adderly",
-      "order": 106,
-      "role": "Victor",
-      "thumb": "/ottfzoPgH6oJEZ18h4jiO9QFuVm.jpg"
-    },
-    {
       "name": "Diedrich Bader",
       "order": 106,
       "role": "Batman (voice)",
       "thumb": "/j3ARZGysag7RZ96ISYBAu51GpnK.jpg"
+    },
+    {
+      "name": "Alfred Adderly",
+      "order": 106,
+      "role": "Victor",
+      "thumb": "/ottfzoPgH6oJEZ18h4jiO9QFuVm.jpg"
     },
     {
       "name": "Kaley Cuoco",
@@ -977,9 +906,80 @@
       "order": 145,
       "role": "Customer",
       "thumb": null
+    },
+    {
+      "name": "Elon Musk",
+      "order": 146,
+      "role": "Himself",
+      "thumb": "/52SNpDJJCgBVfZtibLuXN1ZrliC.jpg"
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5a9d7ee13bbd0.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5ba9df335a3ef.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5d75dee74f11c.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5bb0c5a9d41b1.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5f4d2ddda4fb0.jpg",
+          "https://assets.fanart.tv/fanart/tv/328724/seasonposter/young-sheldon-5d9645f4523d2.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5ddf20a8d020c.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5ddf20bb83e56.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/328724/seasonthumb/young-sheldon-5ddf20ce34745.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5d87a1c7cd573.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-59cb18e9e9e37.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5a2d281d1a15f.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5a9d7b5472013.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-59cb18ea009bc.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5d8b184985566.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/showbackground/young-sheldon-5d8b184960942.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/328724/tvbanner/young-sheldon-5d813db31a83d.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvbanner/young-sheldon-5a9d794bf2611.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5d813bd8a6902.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-59b148d7066b2.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvposter/young-sheldon-5b9b534aa53d0.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5d813cd384823.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-59c6d330e5db3.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5dcd2da439fcd.jpg",
+        "https://assets.fanart.tv/fanart/tv/328724/tvthumb/young-sheldon-5a9d7c26cef82.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/nlDBlCtorM7nx130wYnfR5ZmyLX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/aESxB2HblKlDzma39xVefa20pbW.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/grTqqLe63lMVx7SbQmRWf8RqvmO.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/aJ6b61JM66swZFSKu3wxZ3gxGQw.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/ucsA4hBfwcd2ol5KejgQ5dQC1e3.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/aESxB2HblKlDzma39xVefa20pbW.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -1420,13 +1420,12 @@
           "title": "A Musty Crypt and a Stick to Pee On"
         },
         {
-          "aired": "2021-01-07",
+          "aired": "2021-01-21",
           "plot": "College orientation does not go as Sheldon planned. Also, Mary is invited to a party when she's mistaken for a university student, and George Sr. helps Pastor Jeff set up a children's nursery.",
           "thumbnail": "",
           "title": "Freshman Orientation And The Inventor Of The Zipper"
         }
       ]
     }
-  },
-  "cacheKey": "young_sheldon"
+  }
 }

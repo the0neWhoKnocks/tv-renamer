@@ -1,27 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Animation",
     "Action & Adventure",
     "Sci-Fi & Fantasy"
   ],
   "id": 86233,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {},
-      "seasonThumb": {},
-      "seriesBackground": [],
-      "seriesBanner": [],
-      "seriesPoster": [],
-      "seriesThumb": []
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/i80M4ZN9SvomDLKgNjR58wOrRBh.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/urrhyGuIZByylEi2OkaO07RVgGg.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "gen:LOCK",
   "plot": "Fifty years in the future, an oppressive authoritarian force threatens to conquer the world. A daring team is recruited to pilot a new form of weaponized neuroscience that powers devastating mecha, but they must be willing to sacrifice everything to save the world.",
@@ -46,28 +30,10 @@
       "thumb": "/6bNiiHnZZfA7YYIxO5FszvNFBlI.jpg"
     },
     {
-      "name": "David Tennant",
-      "order": 500,
-      "role": "Dr. Weller (voice)",
-      "thumb": "/9PJteC0a8POnPhqgxvdtWNKHPsD.jpg"
-    },
-    {
       "name": "Maisie Williams",
       "order": 500,
       "role": "Cammie MacCloud (voice)",
       "thumb": "/zLTq39cdRjS43dEzb78c1p1QcbT.jpg"
-    },
-    {
-      "name": "Michael B. Jordan",
-      "order": 500,
-      "role": "Julian Chase (voice)",
-      "thumb": "/kfcn0yyEdN2aJfVaxW0NIoKVF4J.jpg"
-    },
-    {
-      "name": "Blaine Gibson",
-      "order": 500,
-      "role": "Sinclair (voice)",
-      "thumb": "/vxyFzWKsbh8rGfKtDJjxr2OKkxD.jpg"
     },
     {
       "name": "Kouichi Yamadera",
@@ -76,10 +42,10 @@
       "thumb": "/hhEyY7pc5JTjtMy1wj7PXFrSOEA.jpg"
     },
     {
-      "name": "Miles Luna",
+      "name": "Lindsay Jones",
       "order": 500,
-      "role": "Miguel “Migas” Garza (voice)",
-      "thumb": "/aegax5n5tncm9koFAeh2xC7ptVb.jpg"
+      "role": "Razzle (voice)",
+      "thumb": "/yZ1IZIHrgSNKEtDVAAynwYW5aTh.jpg"
     },
     {
       "name": "Chad James",
@@ -88,10 +54,28 @@
       "thumb": "/waEPmcydIrlVd0wBUgS0CMSsoZJ.jpg"
     },
     {
-      "name": "Lindsay Jones",
+      "name": "Miles Luna",
       "order": 500,
-      "role": "Razzle (voice)",
-      "thumb": "/yZ1IZIHrgSNKEtDVAAynwYW5aTh.jpg"
+      "role": "Miguel “Migas” Garza (voice)",
+      "thumb": "/aegax5n5tncm9koFAeh2xC7ptVb.jpg"
+    },
+    {
+      "name": "Blaine Gibson",
+      "order": 500,
+      "role": "Sinclair (voice)",
+      "thumb": "/vxyFzWKsbh8rGfKtDJjxr2OKkxD.jpg"
+    },
+    {
+      "name": "David Tennant",
+      "order": 500,
+      "role": "Dr. Weller (voice)",
+      "thumb": "/9PJteC0a8POnPhqgxvdtWNKHPsD.jpg"
+    },
+    {
+      "name": "Michael B. Jordan",
+      "order": 500,
+      "role": "Julian Chase (voice)",
+      "thumb": "/4vXkRCbrquoP5Lrb4px7tubDLMC.jpg"
     },
     {
       "name": "Anisha Nagarajan",
@@ -107,6 +91,26 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/i80M4ZN9SvomDLKgNjR58wOrRBh.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/urrhyGuIZByylEi2OkaO07RVgGg.jpg",
+      "seasonPosters": {
+        "0": "",
+        "1": "https://image.tmdb.org/t/p/w780/urrhyGuIZByylEi2OkaO07RVgGg.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -244,6 +248,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "genlock"
+  }
 }

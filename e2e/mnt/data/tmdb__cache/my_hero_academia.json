@@ -1,60 +1,11 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Animation",
     "Action & Adventure",
     "Comedy"
   ],
   "id": 65930,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/305074/seasonposter/my-hero-academia-58e3dccd740c7.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/305074/seasonposter/my-hero-academia-58e47e13b5726.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/305074/seasonposter/my-hero-academia-5af6eefd0a96e.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5ca8d43cd466f.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5ca8d44c88904.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5ca8d42d1ac81.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5f884d748bfdf.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/305074/tvbanner/my-hero-academia-5748231dbd831.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvbanner/my-hero-academia-5748232a43a5b.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-570a2a9e6e16a.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-570b22701fc1d.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5d4003c896315.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5748241251b4d.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-58ad2fd5956f5.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5d4003c8b81f7.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5d4003c8d30ac.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5d4003c8eddc0.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-570697ddaa5ce.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5eeb7c62b8f37.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/305074/tvthumb/my-hero-academia-58f39ebeb3956.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvthumb/my-hero-academia-5ce4e001cf127.jpg",
-        "https://assets.fanart.tv/fanart/tv/305074/tvthumb/my-hero-academia-5704a8cca1a5c.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/3ILMlmC30QUnYkY3XEBOyJ82Dqu.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/he1aoyFEPYAMsjGOVGfObbEIzid.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "My Hero Academia",
   "plot": "In a world where eighty percent of the population has some kind of super-powered Quirk, Izuku was unlucky enough to be born completely normal. But that won’t stop him from enrolling in a prestigious hero academy. Now, he’ll get his first taste of brutal rivalry from other schools as he braves the cutthroat, no-holds-barred provisional license exam.",
@@ -193,6 +144,54 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/305074/seasonposter/my-hero-academia-58e3dccd740c7.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/305074/seasonposter/my-hero-academia-58e47e13b5726.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/305074/seasonposter/my-hero-academia-5af6eefd0a96e.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5ca8d43cd466f.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5ca8d44c88904.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5ca8d42d1ac81.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/showbackground/my-hero-academia-5f884d748bfdf.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/305074/tvbanner/my-hero-academia-5748232a43a5b.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5748241251b4d.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-58ad2fd5956f5.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvposter/my-hero-academia-5eeb7c62b8f37.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/305074/tvthumb/my-hero-academia-58f39ebeb3956.jpg",
+        "https://assets.fanart.tv/fanart/tv/305074/tvthumb/my-hero-academia-5ce4e001cf127.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/3ILMlmC30QUnYkY3XEBOyJ82Dqu.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/he1aoyFEPYAMsjGOVGfObbEIzid.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/jEoUOaOzdf00lsTV7EW2ARcB9Pb.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/3uNxN13UY3pMZaj0sNnqPCH6OhF.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/3mffYzD5GmBOJ12ji0CKYJx9KzJ.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/hWfl6gVXEVebG0tTWBBMZLf6nYS.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/r4oTFczXbuCwrLiXSoukGcRaqhT.jpg",
+        "5": "https://image.tmdb.org/t/p/w780/t1BlbIbM02UaQuCdTX3DHGBuDd8.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -800,6 +799,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "my_hero_academia"
+  }
 }

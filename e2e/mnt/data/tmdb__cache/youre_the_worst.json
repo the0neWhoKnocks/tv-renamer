@@ -1,64 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Drama"
   ],
   "id": 61118,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-57c93b757aa7d.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-57c882b0106d5.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-57c882d0e0373.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-59abc8d50bfaa.jpg"
-        ],
-        "5": [
-          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-5c3a512e6f198.jpg"
-        ]
-      },
-      "seasonThumb": {},
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-58f1421c6980e.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-53ca954f0aee7.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-55f1bd23cb376.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-584b3ceee5646.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-53eb7cd176f7e.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-53eb7ce9472bd.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-53ebfe3b9808b.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-566f5b1e30fa9.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-57c8827a0312e.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-54245bf43062c.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-58f1424fd6761.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-55f1bd1a4accd.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-584b3cc9681f7.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-58f1423ece3e9.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-54eb95bc65559.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-566f586316e28.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-566f5b0e8cf48.jpg",
-        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-584b3cd692069.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/3gqDstdBLUbJ2jY3hl953iS97D4.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/cc712GZjnMS8lusS9W3hhGoMgph.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "You're the Worst",
   "plot": "Narcissistic, brash, and self-destructive “Jimmy Shive-Overly,” thinks all relationships are doomed. Cynical, people-pleasing, and stubborn “Gretchen Cutler,” knows that relationships aren't for her. So when they meet at a wedding, it's only natural that the two of them go home together and, despite their better judgment, begin to find themselves falling for each other.",
@@ -187,7 +133,7 @@
       "name": "Winston Story",
       "order": 10,
       "role": "Wallace",
-      "thumb": null
+      "thumb": "/tyM4hfrUrYG2iAulGjIezLBNfIm.jpg"
     },
     {
       "name": "Stephanie Courtney",
@@ -307,7 +253,7 @@
       "name": "Rob Locke",
       "order": 31,
       "role": "Food Columnist",
-      "thumb": null
+      "thumb": "/2mLPHbfo42FVfKamSrpJvzr15XD.jpg"
     },
     {
       "name": "Ginger Gonzaga",
@@ -449,6 +395,65 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-57c93b757aa7d.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-57c882b0106d5.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-57c882d0e0373.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-59abc8d50bfaa.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/281776/seasonposter/youre-the-worst-5c3a512e6f198.jpg"
+        ]
+      },
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-58f1421c6980e.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-53ca954f0aee7.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-55f1bd23cb376.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/showbackground/youre-the-worst-584b3ceee5646.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-53eb7cd176f7e.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-53eb7ce9472bd.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-53ebfe3b9808b.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvbanner/youre-the-worst-566f5b1e30fa9.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-57c8827a0312e.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-54245bf43062c.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-55f1bd1a4accd.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvposter/youre-the-worst-58f1423ece3e9.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-54eb95bc65559.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-566f586316e28.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-566f5b0e8cf48.jpg",
+        "https://assets.fanart.tv/fanart/tv/281776/tvthumb/youre-the-worst-584b3cd692069.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/3gqDstdBLUbJ2jY3hl953iS97D4.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/cc712GZjnMS8lusS9W3hhGoMgph.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/utIaoljCNY1ToRqjQ6wqVCYgoew.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/c7Ge8WbZKdOXQ50DA0c3A83sDet.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/XepGtiiULk6rfpLK6U0yHdbYqD.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/5s6tl3gR3tEOD2m324KkUwg5Duf.jpg",
+        "5": "https://image.tmdb.org/t/p/w780/3YpxoeQ2Jdwh9zrMctDQ6jAfEPR.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -847,6 +852,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "youre_the_worst"
+  }
 }

@@ -1,94 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Animation",
     "Comedy"
   ],
   "id": 32726,
-  "images": {
-    "fanarttv": {
-      "clearArt": [
-        "https://assets.fanart.tv/fanart/tv/194031/clearart/BobsBurgers-194031.png",
-        "https://assets.fanart.tv/fanart/tv/194031/clearart/BobsBurgers-194031-2.png"
-      ],
-      "clearLogo": [
-        "https://assets.fanart.tv/fanart/tv/194031/clearlogo/BobsBurgers-194031.png"
-      ],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-551eddc2dfb26.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-55e3447e2f33d.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-55e677ced16d9.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-55e344d2089d7.jpg"
-        ],
-        "5": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-58484694e065f.jpg"
-        ],
-        "6": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-5ddd62b6bef09.jpg"
-        ],
-        "7": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-5ddd62ff2eb2f.jpg"
-        ],
-        "8": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-5ddd632b1b6f7.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2953adce.jpg"
-        ],
-        "2": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2af13acf.jpg"
-        ],
-        "3": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2b981f8c.jpg"
-        ],
-        "4": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2c6835d9.jpg"
-        ],
-        "5": [
-          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2d1dcfcb.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da192f46d96.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da191f902eb.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da1951d2306.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da195f3f0f0.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da199149b93.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-55a6cef2db8f5.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/194031/tvbanner/bobs-burgers-55a6cf028407d.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-521fdf91f28e1.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43d58c600b.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43d8f69e74.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43ec1dd7a4.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43edb8b27b.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-5d8f3a5fd9ec0.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-5de202d93dd06.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-53d97418bae6e.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-4f5b95474a6eb.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-58a8e4d4d6391.jpg",
-        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-5fcb12efc8d83.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/cIXaqUB2pOIEiQsgO85r9RMKzpe.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/s3p1itdt2lxYguLigF8Grwqqu8b.jpg"
-    }
-  },
   "mpaa": "TV-14",
   "name": "Bob's Burgers",
   "plot": "Bob's Burgers follows a third-generation restaurateur, Bob, as he runs Bob's Burgers with the help of his wife and their three kids. Bob and his quirky family have big ideas about burgers, but fall short on service and sophistication. Despite the greasy counters, lousy location and a dearth of customers, Bob and his family are determined to make Bob's Burgers \"grand re-re-re-opening\" a success.",
@@ -131,31 +47,31 @@
     {
       "name": "David Herman",
       "order": 77,
-      "role": "Mr. Frond",
+      "role": "Mr. Frond/Mr. Branca/Trev",
       "thumb": "/rMY168K2qAk5eBg368WK3y2yOEI.jpg"
     },
     {
       "name": "Sarah Silverman",
       "order": 59,
-      "role": "Ms. Schnur",
+      "role": "Ollie (voice)",
       "thumb": "/g5G711XyVokJm2RoItpkaHa8mkQ.jpg"
     },
     {
       "name": "Larry Murphy",
       "order": 43,
-      "role": "Teddy/Griffin/Chicago Cop",
+      "role": "Teddy/Edith",
       "thumb": "/bcKH9bGuVuoXdfhM7k0iE7kBiPQ.jpg"
     },
     {
       "name": "Andy Kindler",
       "order": 43,
-      "role": "Mort (voice)",
+      "role": "Mort",
       "thumb": null
     },
     {
       "name": "Sam Seder",
       "order": 45,
-      "role": "Al",
+      "role": "Harold",
       "thumb": "/oz7Ri0iN6EvtlqBLlejhVR9V8px.jpg"
     },
     {
@@ -173,19 +89,19 @@
     {
       "name": "Brian Huskey",
       "order": 106,
-      "role": "Rudy",
+      "role": "Rudy / Customer",
       "thumb": "/3VIUkvDGLbCYxs4cl52ugEMMZiE.jpg"
     },
     {
       "name": "Melissa Bardin Galsky",
       "order": 74,
-      "role": "Director",
+      "role": "Miss Jacobson",
       "thumb": null
     },
     {
       "name": "Brooke Dillman",
       "order": 97,
-      "role": "Dot",
+      "role": "Laverne",
       "thumb": "/tmZM7jwbz8xMVGvp89T0TAhH1lL.jpg"
     },
     {
@@ -197,7 +113,7 @@
     {
       "name": "Jenny Slate",
       "order": 112,
-      "role": "Tammy/8th Grade Girl",
+      "role": "Tammy",
       "thumb": "/8YgcvpcNPjfIvnqXGJ31dzIWl17.jpg"
     },
     {
@@ -215,7 +131,7 @@
     {
       "name": "Ron Lynch",
       "order": 89,
-      "role": "Funtime Exec",
+      "role": "Ron",
       "thumb": null
     },
     {
@@ -239,37 +155,37 @@
     {
       "name": "Tim Heidecker",
       "order": 110,
-      "role": "Dakota / Laser Tag Owner",
+      "role": "Kevin",
       "thumb": "/W8BuzuASN9mfIY4dTZKXMRi6AE.jpg"
     },
     {
       "name": "David Wain",
       "order": 118,
-      "role": "Grover",
+      "role": "Courtney",
       "thumb": "/kdgFfZq8virxDE8FB9l54yoWptr.jpg"
     },
     {
       "name": "Aziz Ansari",
       "order": 134,
       "role": "Daryl",
-      "thumb": "/ssfy6hc9HZecwyuwJQrbB7A4Vrp.jpg"
+      "thumb": "/yUeQHM4ycUXrUgRWgKVYKNmKxfJ.jpg"
     },
     {
       "name": "Nathan Fielder",
       "order": 15,
-      "role": "Jordan (voice)",
+      "role": "Nathan (voice)",
       "thumb": "/eHJEoEck6eFEVaumhCMWpIHtIIr.jpg"
     },
     {
       "name": "Jack McBrayer",
       "order": 39,
-      "role": "Trip",
+      "role": "Marbles",
       "thumb": "/cbr26xDPEiOuYQxggtCPbu5xhDU.jpg"
     },
     {
       "name": "Pamela Adlon",
       "order": 53,
-      "role": "Olsen Benner",
+      "role": "Olsen Benner/ Teenage Girls",
       "thumb": "/e541ePtwZuHYP3zT0ANmpqUDFlw.jpg"
     },
     {
@@ -281,13 +197,13 @@
     {
       "name": "Megan Mullally",
       "order": 71,
-      "role": "Gayle / Jill",
+      "role": "Gayle",
       "thumb": "/Aryh1osN66sCLAgsDugY7n4w0az.jpg"
     },
     {
       "name": "Kerri Kenney-Silver",
       "order": 96,
-      "role": "Esther / Paramedic #2",
+      "role": "Allison/Eleanor",
       "thumb": "/8BIBidgv08VXLttLeCN0trPFXNf.jpg"
     },
     {
@@ -622,6 +538,102 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [
+        "https://assets.fanart.tv/fanart/tv/194031/clearart/BobsBurgers-194031.png",
+        "https://assets.fanart.tv/fanart/tv/194031/clearart/BobsBurgers-194031-2.png"
+      ],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/194031/clearlogo/BobsBurgers-194031.png"
+      ],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-551eddc2dfb26.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-55e3447e2f33d.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-55e677ced16d9.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-55e344d2089d7.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-58484694e065f.jpg"
+        ],
+        "6": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-5ddd62b6bef09.jpg"
+        ],
+        "7": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-5ddd62ff2eb2f.jpg"
+        ],
+        "8": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonposter/bobs-burgers-5ddd632b1b6f7.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2953adce.jpg"
+        ],
+        "2": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2af13acf.jpg"
+        ],
+        "3": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2b981f8c.jpg"
+        ],
+        "4": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2c6835d9.jpg"
+        ],
+        "5": [
+          "https://assets.fanart.tv/fanart/tv/194031/seasonthumb/bobs-burgers-55e4c2d1dcfcb.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da192f46d96.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da191f902eb.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da1951d2306.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da195f3f0f0.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-53da199149b93.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/showbackground/bobs-burgers-55a6cef2db8f5.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/194031/tvbanner/bobs-burgers-55a6cf028407d.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-521fdf91f28e1.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43d58c600b.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-55e43ec1dd7a4.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvposter/bobs-burgers-5d8f3a5fd9ec0.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-53d97418bae6e.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-5de202d93dd06.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-4f5b95474a6eb.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-58a8e4d4d6391.jpg",
+        "https://assets.fanart.tv/fanart/tv/194031/tvthumb/bobs-burgers-5fcb12efc8d83.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/cIXaqUB2pOIEiQsgO85r9RMKzpe.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/s3p1itdt2lxYguLigF8Grwqqu8b.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/wijubCz6LVkLrZYVwqQUGo4UlDz.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/dbWKCnL9v2QJ4jqRpMODj9e6mdy.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/kBSg6TCM6lL06iT8uMc9cQ8afQE.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/2xPloPZD7DvlPLMRTdsQi67jbLp.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/ammlPrLGrNPYKt9vvO6ic1waZYf.jpg",
+        "5": "https://image.tmdb.org/t/p/w780/oNlOSQfHTNjBw6uZJKpBAjuNN01.jpg",
+        "6": "https://image.tmdb.org/t/p/w780/bsmTDQG0aJQEPUFxwEcMMf5xXV.jpg",
+        "7": "https://image.tmdb.org/t/p/w780/uGQrBoq8RAOJnpGa8SqlsTYkzPH.jpg",
+        "8": "https://image.tmdb.org/t/p/w780/nFC5gMDy8q6uQnZhXkwvJeUy1WF.jpg",
+        "9": "https://image.tmdb.org/t/p/w780/eMKlKKHtVYI8a12sKyo5gfo8aZl.jpg",
+        "10": "https://image.tmdb.org/t/p/w780/joPhJJblNtFDOpp6zQlx0xJWsmM.jpg",
+        "11": "https://image.tmdb.org/t/p/w780/s3p1itdt2lxYguLigF8Grwqqu8b.jpg"
+      }
+    }
+  },
   "seasons": {
     "0": {
       "episodes": [
@@ -1925,6 +1937,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "bobs_burgers"
+  }
 }

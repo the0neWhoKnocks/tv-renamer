@@ -1,48 +1,10 @@
 {
-  "schema": 3,
+  "schema": 4,
   "genres": [
     "Comedy",
     "Drama"
   ],
   "id": 84977,
-  "images": {
-    "fanarttv": {
-      "clearArt": [],
-      "clearLogo": [],
-      "seasonPoster": {
-        "1": [
-          "https://assets.fanart.tv/fanart/tv/356640/seasonposter/russian-doll-5ca94c6d8c193.jpg"
-        ],
-        "01": [
-          "https://assets.fanart.tv/fanart/tv/356640/seasonposter/russian-doll-5ce68ebf0b914.jpg"
-        ]
-      },
-      "seasonThumb": {
-        "01": [
-          "https://assets.fanart.tv/fanart/tv/356640/seasonthumb/russian-doll-5ce68ed74ce1d.jpg"
-        ]
-      },
-      "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/356640/showbackground/russian-doll-5ce68f0ddd1f9.jpg",
-        "https://assets.fanart.tv/fanart/tv/356640/showbackground/russian-doll-5ce68f0e0a34a.jpg",
-        "https://assets.fanart.tv/fanart/tv/356640/showbackground/russian-doll-5c574d3b61fcf.jpg"
-      ],
-      "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/356640/tvbanner/russian-doll-5ce68fdbc4144.jpg"
-      ],
-      "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/356640/tvposter/russian-doll-5c574d0214c64.jpg",
-        "https://assets.fanart.tv/fanart/tv/356640/tvposter/russian-doll-5c574cf4504b4.jpg"
-      ],
-      "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/356640/tvthumb/russian-doll-5c58146062f1b.jpg"
-      ]
-    },
-    "tmdb": {
-      "background": "https://image.tmdb.org/t/p/original/Aq6rWq3yIytfaSad4qabTUl8n0J.jpg",
-      "poster": "https://image.tmdb.org/t/p/original/4WijEAbnGMJifP6uepGALci3Jf.jpg"
-    }
-  },
   "mpaa": "TV-MA",
   "name": "Russian Doll",
   "plot": "Nadia keeps dying and reliving her 36th birthday party. She's trapped in a surreal time loop -- and staring down the barrel of her own mortality.",
@@ -216,6 +178,47 @@
     }
   ],
   "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {
+        "1": [
+          "https://assets.fanart.tv/fanart/tv/356640/seasonposter/russian-doll-5ca94c6d8c193.jpg"
+        ],
+        "01": [
+          "https://assets.fanart.tv/fanart/tv/356640/seasonposter/russian-doll-5ce68ebf0b914.jpg"
+        ]
+      },
+      "seasonThumb": {
+        "01": [
+          "https://assets.fanart.tv/fanart/tv/356640/seasonthumb/russian-doll-5ce68ed74ce1d.jpg"
+        ]
+      },
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/356640/showbackground/russian-doll-5ce68f0ddd1f9.jpg",
+        "https://assets.fanart.tv/fanart/tv/356640/showbackground/russian-doll-5ce68f0e0a34a.jpg",
+        "https://assets.fanart.tv/fanart/tv/356640/showbackground/russian-doll-5c574d3b61fcf.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/356640/tvbanner/russian-doll-5ce68fdbc4144.jpg"
+      ],
+      "seriesPoster": [
+        "https://assets.fanart.tv/fanart/tv/356640/tvposter/russian-doll-5c574d0214c64.jpg",
+        "https://assets.fanart.tv/fanart/tv/356640/tvposter/russian-doll-5c574cf4504b4.jpg"
+      ],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/356640/tvthumb/russian-doll-5c58146062f1b.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/Aq6rWq3yIytfaSad4qabTUl8n0J.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/4WijEAbnGMJifP6uepGALci3Jf.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/4WijEAbnGMJifP6uepGALci3Jf.jpg"
+      }
+    }
+  },
   "seasons": {
     "1": {
       "episodes": [
@@ -270,6 +273,5 @@
         }
       ]
     }
-  },
-  "cacheKey": "russian_doll"
+  }
 }

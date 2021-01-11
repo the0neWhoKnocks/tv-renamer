@@ -111,12 +111,12 @@ module.exports = {
   TMDB__TOKEN__SERIES_YEAR,
   TMDB__URL__QUERY: `${ TMDB__URL__DOMAIN }/search/tv?query=${ TMDB__TOKEN__SERIES_QUERY }`,
   TMDB__URL__SERIES: `${ TMDB__URL__DOMAIN }/tv/${ TMDB__TOKEN__SERIES_ID }`,
-  // NOTE - domain and images sizes are found here https://developers.themoviedb.org/3/configuration/get-api-configuration
-  TMDB__URL__BACKGROUND: `${ TMDB__URL__IMG_BASE }/original`,
+  // NOTE - domain and image sizes are found here https://developers.themoviedb.org/3/configuration/get-api-configuration
+  TMDB__URL__BACKGROUND: `${ TMDB__URL__IMG_BASE }/w1280`,
   TMDB__URL__EPISODE_STILLS: `${ TMDB__URL__IMG_BASE }/w400`, // custom size not listed in API, but still works
-  TMDB__URL__POSTER: `${ TMDB__URL__IMG_BASE }/original`,
+  TMDB__URL__POSTER: `${ TMDB__URL__IMG_BASE }/w780`,
   TMDB__URL__THUMBNAILS: `${ TMDB__URL__IMG_BASE }/w154`,
-  VERSION__CACHE_SCHEMA: 3,
+  VERSION__CACHE_SCHEMA: 4,
   WP__ENTRY: `${ SRC }/app.js`,
   WP__OUTPUT: DIST_JS,
   WS__MSG_TYPE__RENAME_STATUS: 'rename status',

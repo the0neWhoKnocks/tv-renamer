@@ -63,7 +63,7 @@ NFO Scraping
   - [x] Make sure that if the fanart images node is present, but poster and background
     aren't present, but tmdb does have values, that the tmdb values get used
     instead. May have to compile a list of available URLs
-  - [ ] Sometimes a series season poster isn't available in fanart.tv, but there
+  - [x] Sometimes a series season poster isn't available in fanart.tv, but there
     are images on tmdb. Currently it's a manual process of going to the series
     page, going into the seasons, right-clicking and opening the image, then
     changing the size value to `w780`, and download. Would be nice if this URL

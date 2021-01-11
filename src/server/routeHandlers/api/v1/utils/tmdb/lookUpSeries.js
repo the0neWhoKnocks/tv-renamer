@@ -172,6 +172,10 @@ export default async function lookUpSeries({
             tmdb: {
               background: backdrop_path && `${ TMDB__URL__BACKGROUND }${ backdrop_path }` || '',
               poster: poster_path && `${ TMDB__URL__POSTER }${ poster_path }` || '',
+              seasonPosters: seasons.reduce((obj, { season_number: season, poster_path }) => {
+                obj[season] = poster_path && `${ TMDB__URL__POSTER }${ poster_path }` || '';
+                return obj;
+              }, {}),
             },
           },
           mpaa,

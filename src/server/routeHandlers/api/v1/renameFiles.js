@@ -47,6 +47,45 @@ const roundDecimal = (num, dec) => {
   return parseFloat((Math.round((_num * Math.pow(10, dec)) + (numSign * 0.0001)) / Math.pow(10, dec)).toFixed(dec));
 };
 
+function downloadSeriesImages({
+  clientSocket,
+  outputFolder,
+  pendingImgItems,
+  socketMsg,
+  warningsArr,
+}) {
+  const pendingKeys = Object.keys(pendingImgItems);
+  let pendingImgs;
+  
+  if(pendingKeys.length) {
+    clientSocket.send(JSON.stringify({
+      data: { log: socketMsg },
+      type: WS__MSG_TYPE__RENAME_STATUS,
+    }));
+    
+    pendingImgs = pendingKeys.reduce((arr, key) => {
+      const { from, name, url } = pendingImgItems[key];
+      
+      if(url){
+        const imgPromise = downloadFile(url, `${ outputFolder }/${ name }`);
+        
+        imgPromise.catch((err) => {
+          warningsArr.push(`Error downloading "${ name }" from "${ url }" | ${ err.message }`);
+        });
+        
+        arr.push(imgPromise);
+      }
+      else{
+        warningsArr.push(`Missing "${ name }" from ${ from }`);
+      }
+      
+      return arr;
+    }, []);
+  }
+  
+  return pendingImgs ? Promise.all(pendingImgs) : Promise.resolve();
+}
+
 export default async function renameFiles({ req, reqData, res }) {
   const names = reqData.names;
   const { clientSocket } = req.socket.server;
@@ -117,40 +156,65 @@ export default async function renameFiles({ req, reqData, res }) {
             }
             
             const { images, name } = await getCache(cacheKey);
-            if(images && images.fanarttv){
-              const { fanarttv } = images;
+            if(images){
+              const { fanarttv, tmdb } = images;
               const prefix = (seasonNumber > 0) ? `season${ pad(seasonNumber) }` : 'season-specials';
               
               try {
-                clientSocket.send(JSON.stringify({
-                  data: { log: `Downloading images for "${ prefix }" of "${ name }"` },
-                  type: WS__MSG_TYPE__RENAME_STATUS,
-                }));
+                const pendingImgItems = {};
                 
-                const pendingImgs = [
-                  { prop: 'seasonPoster', name: `${ prefix }-poster.jpg` },
-                  { prop: 'seasonThumb', name: `${ prefix }-thumb.jpg` },
-                ].reduce((arr, { prop, name }) => {
-                  if(
-                    fanarttv[prop]
-                    && fanarttv[prop][seasonNumber]
-                    && fanarttv[prop][seasonNumber][0]
-                  ) {
-                    const IMG_URL = fanarttv[prop][seasonNumber][0];
-                    const imgPromise = downloadFile(IMG_URL, `${ SERIES_FOLDER }/${ name }`);
+                if(fanarttv){
+                  [
+                    { prop: 'seasonPoster', name: `${ prefix }-poster.jpg` },
+                    { prop: 'seasonThumb', name: `${ prefix }-thumb.jpg` },
+                  ].forEach((obj) => {
+                    const { name, prop } = obj;
+                    obj.from = 'fanart.tv';
                     
-                    imgPromise.catch((err) => {
-                      imgWarnings.push(`Error downloading "${ name }" from "${ IMG_URL }"`);
-                      throw err;
-                    });
+                    if(
+                      fanarttv[prop]
+                      && fanarttv[prop][seasonNumber]
+                      && fanarttv[prop][seasonNumber][0]
+                    ) {
+                      obj.url = fanarttv[prop][seasonNumber][0];
+                    }
                     
-                    arr.push(imgPromise);
-                  }
-                  else imgWarnings.push(`Missing "${ name }" from fanart.tv`);
-                  return arr;
-                }, []);
+                    pendingImgItems[name] = obj;
+                  });
+                }
                 
-                if(pendingImgs.length) await Promise.all(pendingImgs);
+                if(tmdb){
+                  [
+                    { prop: 'seasonPosters', name: `${ prefix }-poster.jpg` },
+                  ].forEach((obj) => {
+                    const { name, prop } = obj;
+                    obj.from = 'theMDB';
+                    
+                    if(tmdb[prop] && tmdb[prop][seasonNumber]) {
+                      obj.url = tmdb[prop][seasonNumber];
+                    }
+                    
+                    if(
+                      // no item set via fanart.tv
+                      !pendingImgItems[name]
+                      // OR an item was set, but there's nothing to download
+                      || (
+                        pendingImgItems[name]
+                        && !pendingImgItems[name].url
+                      )
+                    ) {
+                      pendingImgItems[name] = obj;
+                    }
+                  });
+                }
+                
+                await downloadSeriesImages({
+                  clientSocket,
+                  outputFolder: SERIES_FOLDER,
+                  pendingImgItems,
+                  socketMsg: `Downloading images for "${ prefix }" of "${ name }"`,
+                  warningsArr: imgWarnings,
+                });
               }
               catch(err) {
                 log(`[ERROR] Downloading season image: "${ err.stack }"`);
@@ -191,7 +255,6 @@ export default async function renameFiles({ req, reqData, res }) {
           
           try {
             const pendingImgItems = {};
-            let pendingImgs;
             
             // try to get images from fanart.tv first
             if(fanarttv){
@@ -237,38 +300,16 @@ export default async function renameFiles({ req, reqData, res }) {
               });
             }
             
-            const pendingKeys = Object.keys(pendingImgItems);
-            if(pendingKeys.length) {
-              clientSocket.send(JSON.stringify({
-                data: { log: `Downloading series images for "${ cache.name }"` },
-                type: WS__MSG_TYPE__RENAME_STATUS,
-              }));
-              
-              pendingImgs = pendingKeys.reduce((arr, key) => {
-                const { from, name, url } = pendingImgItems[key];
-                
-                if(url){
-                  const imgPromise = downloadFile(url, `${ SERIES_FOLDER }/${ name }`);
-                  
-                  imgPromise.catch((err) => {
-                    imgWarnings.push(`Error downloading "${ name }" from "${ url }"`);
-                    throw err;
-                  });
-                  
-                  arr.push(imgPromise);
-                }
-                else{
-                  imgWarnings.push(`Missing "${ name }" from ${ from }`);
-                }
-                
-                return arr;
-              }, []);
-            }
-            
-            if(pendingImgs) await Promise.all(pendingImgs);
+            await downloadSeriesImages({
+              clientSocket,
+              outputFolder: SERIES_FOLDER,
+              pendingImgItems,
+              socketMsg: `Downloading series images for "${ cache.name }"`,
+              warningsArr: imgWarnings,
+            });
           }
           catch(err) {
-            log(`[ERROR] Downloading series image: "${ err.stack }"`);
+            log(`[ERROR] Downloading series images: "${ err.stack }"`);
           }
         }
       }

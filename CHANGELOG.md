@@ -1,6 +1,23 @@
 # Changelog
 ---
 
+## v5.1.0
+
+**Bugfixes**
+- [f288086](https://github.com/the0neWhoKnocks/tv-renamer/commit/f288086):  Fallback theMDB images not being downloaded
+- [1a51e5e](https://github.com/the0neWhoKnocks/tv-renamer/commit/1a51e5e):  null in theMDB background URL
+- [6d67c97](https://github.com/the0neWhoKnocks/tv-renamer/commit/6d67c97):  Odd visual behavior in Replace dialog
+
+**Dev-Ops**
+- [2c4c19e](https://github.com/the0neWhoKnocks/tv-renamer/commit/2c4c19e):  Updated tests and data to account for schema update
+
+**Features**
+- [875a9f3](https://github.com/the0neWhoKnocks/tv-renamer/commit/875a9f3):  Links for image sites if no images found
+- [7d43a4e](https://github.com/the0neWhoKnocks/tv-renamer/commit/7d43a4e):  Add theMDB season poster fallback image
+- [0682d21](https://github.com/the0neWhoKnocks/tv-renamer/commit/0682d21):  Filter fanart.tv images by language
+
+---
+
 ## v5.0.0
 
 **Bugfixes**

@@ -5,14 +5,20 @@ import {
   STORAGE_KEY,
 } from 'ROOT/conf.app';
 import fetch from 'UTILS/fetch';
-import styles, { ROOT_CLASS } from './styles'; 
+import styles, {
+  MODIFIER__CLEAR_BTN_VISIBLE,
+  ROOT_CLASS,
+} from './styles'; 
 
 class Replace extends Component {
   static LabeledInput({ buttons = [], inputRef, label, onChange, onClearClick, onInput, value }) {
+    const clearBtnVisible = !!(onClearClick && value);
+    const inputWrapperModifier = clearBtnVisible ? MODIFIER__CLEAR_BTN_VISIBLE : '';
+    
     return (
       <div className={`${ ROOT_CLASS }__labeled-input`}>
         <label>{label}</label>
-        <div className={`${ ROOT_CLASS }__input-wrapper`}>
+        <div className={`${ ROOT_CLASS }__input-wrapper ${ inputWrapperModifier }`}>
           <input
             ref={inputRef}
             type="text"
@@ -21,8 +27,8 @@ class Replace extends Component {
             spellCheck="false"
             value={value}
           />
-          {(onClearClick && value) && (
-            <button type="button" onClick={onClearClick}>X</button>
+          {clearBtnVisible && (
+            <button type="button" title="Click to clear input value" onClick={onClearClick}>X</button>
           )}
         </div>
         {buttons.map(({ data, label, onClick }) => {

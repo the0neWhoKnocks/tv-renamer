@@ -1,6 +1,7 @@
 import { css } from 'emotion';
 
 export const ROOT_CLASS = 'replace';
+export const MODIFIER__CLEAR_BTN_VISIBLE = 'cbtn--visible';
 const COLOR__TABLE_BORDER = '#555';
 
 const groupColors = ['#a9eaf9', '#ffdbe6', '#bbffd9', '#cdcaff'];
@@ -21,10 +22,18 @@ export default css`
       button {
         font-size: 0.75em;
         border-radius: unset;
+        background: #fff;
         position: absolute;
         right: 0;
         top: 50%;
         transform: translateY(-50%);
+      }
+      button:hover {
+        color: #000;
+      }
+      
+      &.${ MODIFIER__CLEAR_BTN_VISIBLE } input {
+        padding-right: 2.5em;
       }
     }
     

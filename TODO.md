@@ -79,3 +79,58 @@ NFO Scraping
 - [ ] Look into using the `alternateName` stuff in theMDB, to account for the
   bad series name for `The Big Fat Quiz of the Year`. It may cause issues with
   other series though.
+    - https://api.themoviedb.org/3/tv/3811?api_key=6abe43aabd8b4109d32a07e53ab56834&language=en-US&append_to_response=episode_groups%2Ccontent_ratings%2Caggregate_credits%2Cexternal_ids%2Calternative_titles
+    ```
+    "alternative_titles": {
+      "results": [
+        {
+          "iso_3166_1": "GB",
+          "title": "The Big Fat Quiz of the Year",
+          "type": ""
+        },
+        {
+          "iso_3166_1": "GB",
+          "title": "The Big Fat Anniversary Quiz",
+          "type": ""
+        },
+        {
+          "iso_3166_1": "US",
+          "title": "The Big Fat Quiz of the Year",
+          "type": ""
+        }
+      ]
+    }
+    ```
+- [ ] Add retry logic for `downloadFile`
+  ```js
+  {
+    retry: {
+      reasons: [
+        { message: 'Internal Server Error' },
+        { statusCode: 404 },
+      ],
+      times: 3, // how many times to retry
+      wait: 2, // number of seconds between retry
+    },
+  }
+  ```
+- [ ] Make the URLs in the "Error downloading image" log message, an actual
+  anchor so a User can just open up URL instead of having to copy and paste it.
+- [ ] fix Replace: Clear buttons transparent, and add padding when clear button is visible
+- [ ] When multiple episodes are present, combine their titles and plots in the
+  .nfo file. If each episode starts with the same prefix, have it only at the
+  beginning, and just the unique titles following.
+  ```
+  Rescue Me - s00e01e02e03e04e05e06e07e08e08e10 - Minisodes
+  ```
+- [ ] If no episode URL is present, have ffmpeg create one. The TVDB usually
+  has a thumb, but I don't want to integrate with their API since it costs, and
+  it's been unstable. I could try to scrape the images by crawling a series, but
+  that'd be a lot of code, and could break if they change their front-end.
+  ```sh
+  ffmpeg -i "<source>" -f mjpeg -t 0.001 -ss 5 -y "<name>-thumb.jpg"
+  # might scale down
+  -vf "scale=1280:720"
+  # The -1 will tell ffmpeg to automatically choose the correct height in relation to the provided width to preserve the aspect ratio. Use -2 if an even value is needed
+  -vf scale=720:-1
+  ```

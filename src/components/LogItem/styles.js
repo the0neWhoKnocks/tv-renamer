@@ -43,7 +43,7 @@ export default css`
       a {
         color: #70c4ff;
         padding: 0.5em 0;
-        display: block;
+        display: inline-block;
       }
     }
     

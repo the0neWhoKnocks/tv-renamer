@@ -24,10 +24,26 @@ const LogItem = ({
         warnings.map((warning, ndx) => {
           let isLink = false;
           let _warning = warning;
+          let warningHasHTML = false;
           
           if(_warning.startsWith('http')){
             isLink = true;
-            _warning = <a href={warning}>{warning}</a>;
+            _warning = <a href={warning} target="_blank" rel="noopener noreferrer">{warning}</a>;
+          }
+          else if(_warning.includes('"http')){
+            const urls = (_warning.match(/"(http[^"]+)"/g) || []);
+            
+            urls
+              .reduce((arr, url) => {
+                if(!arr.includes(url)) arr.push(url);
+                return arr;
+              }, [])
+              .forEach(url => {
+                const _url = url.replace(/"/g, '');
+                const anchor = `<a href="${ _url }" target="_blank" rel="noopener noreferrer">${ _url }</a>`;
+                _warning = _warning.replace(new RegExp(url, 'g'), `&quot;${ anchor }&quot;`);
+                warningHasHTML = true;
+              });
           }
           
           return (
@@ -35,7 +51,7 @@ const LogItem = ({
               {!isLink && (
                 <span className={`${ ROOT_CLASS }__warning-icon`}>&#x26A0;</span>
               )}
-              {_warning}
+              {warningHasHTML && <span dangerouslySetInnerHTML={{ __html: _warning }} /> || _warning}
             </div>
           );
         })

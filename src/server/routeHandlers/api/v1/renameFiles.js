@@ -1,6 +1,6 @@
 import { lstatSync } from 'fs';
 import { execSync } from 'child_process';
-import { parse } from 'path';
+import { basename, parse } from 'path';
 import mkdirp from 'mkdirp';
 import rimraf from 'rimraf';
 import {
@@ -445,16 +445,18 @@ export default async function renameFiles({ req, reqData, res }) {
               }, `${ EP_FILENAME_NO_EXT }.nfo`);
               
               if(thumbnail){
+                const thumbPath = `${ EP_FILENAME_NO_EXT }-thumb.jpg`;
+                
                 try {
                   clientSocket.send(JSON.stringify({
                     data: { log: `Downloading thumbnail for "${ newName }"` },
                     type: WS__MSG_TYPE__RENAME_STATUS,
                   }));
                   
-                  await downloadFile(thumbnail, `${ EP_FILENAME_NO_EXT }-thumb.jpg`);
+                  await downloadFile(thumbnail, thumbPath);
                 }
                 catch(err) {
-                  warnings.push(`Error downloading episode still for "${ newName }": "${ err.message }"\n  URL: "${ thumbnail }"`);
+                  warnings.push(`Error downloading episode still for:\n  Name: "${ basename(thumbPath) }"\n  Error: "${ err.message }"`);
                   hasImgWarnings = true;
                 }
               }

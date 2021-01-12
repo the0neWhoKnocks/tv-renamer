@@ -114,7 +114,7 @@ NFO Scraping
     },
   }
   ```
-- [ ] Make the URLs in the "Error downloading image" log message, an actual
+- [x] Make the URLs in the "Error downloading image" log message, an actual
   anchor so a User can just open up URL instead of having to copy and paste it.
 - [ ] fix Replace: Clear buttons transparent, and add padding when clear button is visible
 - [ ] When multiple episodes are present, combine their titles and plots in the

@@ -8,6 +8,7 @@ import {
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
 import logger from 'SERVER/utils/logger';
+import buildEpTitle from './utils/buildEpTitle';
 import genCacheName from './utils/genCacheName';
 import loadCacheItem from './utils/loadCacheItem';
 import loadIDsCacheMap from './utils/loadIDsCacheMap';
@@ -28,32 +29,6 @@ const parseEpNum = (episode) => {
 
 const buildEpNums = (episodes) => {
   return episodes.map((ndx) => `x${ parseEpNum(ndx) }`).join('');
-};
-
-const buildEpTitle = (seasons, season, episodes) => {
-  const epNames = [];
-  
-  episodes.forEach((ndx) => {
-    const epName = seasons[season].episodes[ndx].title;
-    
-    if(epName){
-      if(episodes.length > 1){
-        const parsedName = epName
-          // Multi-part episodes can end with `(1), Part 1, etc`. Those items need
-          // to be removed so a comparison can be made to see if the titles are
-          // equal.
-          .replace(/\s(?:\(\d+\)|Part \d+)$/i, '');
-        
-        // Only add the name if it doesn't already exist.
-        if(epNames.indexOf(parsedName) < 0) epNames.push(parsedName);
-      }
-      else{
-        epNames.push(epName);
-      }
-    }
-  });
-  
-  return epNames.join(' & ');
 };
 
 const getEpNamesFromCache = ({ cacheData, idMap, invalidItems, validItems }) => {
@@ -91,7 +66,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, invalidItems, validItems }) => 
     
           renamed.push({
             cacheKey,
-            episodeNdx: episode,
+            episodeNdxs: episodes.join('|'),
             id: cache.id,
             index,
             name: sanitizeName(newName),

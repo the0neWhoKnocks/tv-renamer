@@ -105,7 +105,7 @@ NFO Scraping
 - [x] Make the URLs in the "Error downloading image" log message, an actual
   anchor so a User can just open up URL instead of having to copy and paste it.
 - [x] fix Replace: Clear buttons transparent, and add padding when clear button is visible
-- [ ] When multiple episodes are present, combine their titles and plots in the
+- [x] When multiple episodes are present, combine their titles and plots in the
   .nfo file. If each episode starts with the same prefix, have it only at the
   beginning, and just the unique titles following.
   ```

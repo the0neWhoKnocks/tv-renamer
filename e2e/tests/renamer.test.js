@@ -384,7 +384,7 @@ context('Renamer', () => {
       response: [
         {
           cacheKey: 'high_maintenance_(2016)',
-          episodeNdx: 2,
+          episodeNdxs: '2',
           id: SERIES_ID,
           index: '3',
           name: 'High Maintenance (2016) - 3x02 - Craig',

@@ -171,7 +171,7 @@ class Renamable extends Component {
   render() {
     const {
       cacheKey,
-      episodeNdx,
+      episodeNdxs,
       error,
       ext,
       id,
@@ -317,7 +317,7 @@ class Renamable extends Component {
               <div 
                 className={`${ ROOT_CLASS }__new-name ${ newNameModifier }`}
                 data-cache-key={cacheKey}
-                data-episode-ndx={episodeNdx}
+                data-episode-ndxs={episodeNdxs}
                 data-index={itemIndex}
                 data-new-name={`${ newName }${ ext }`}
                 data-old-path={`${ path }/${ name }${ ext }`}
@@ -339,7 +339,7 @@ class Renamable extends Component {
 
 Renamable.propTypes = {
   cacheKey: string,
-  episodeNdx: number,
+  episodeNdxs: string,
   error: string,
   ext: string,
   folderSelected: bool,

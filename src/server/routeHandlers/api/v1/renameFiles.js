@@ -16,6 +16,7 @@ import logger from 'SERVER/utils/logger';
 import saveFile from 'SERVER/utils/saveFile';
 import { writeXML } from 'SERVER/utils/xml';
 import pad from 'UTILS/pad';
+import buildEpTitle from './utils/buildEpTitle';
 import filesFilter from './utils/filesFilter';
 import loadCacheItem from './utils/loadCacheItem';
 import loadConfig from './utils/loadConfig';
@@ -114,7 +115,7 @@ export default async function renameFiles({ req, reqData, res }) {
   }
   
   for(let i=0; i<names.length; i++){
-    const { cacheKey, episodeNdx, index, moveToFolder, newName, oldPath, seasonNumber, seasonOrder } = names[i];
+    const { cacheKey, episodeNdxs, index, moveToFolder, newName, oldPath, seasonNumber, seasonOrder } = names[i];
     const imgWarnings = [];
     let _outputFolder = outputFolder;
     let folderErr;
@@ -340,7 +341,8 @@ export default async function renameFiles({ req, reqData, res }) {
           else{
             const cache = await getCache(cacheKey);
             const seasons = seasonOrder === 'dvd' ? cache.dvdSeasons : cache.seasons;
-            const { aired, plot, thumbnail, title } = seasons[seasonNumber].episodes[episodeNdx];
+            const firstEpNdx = episodeNdxs[0];
+            const { aired, thumbnail } = seasons[seasonNumber].episodes[firstEpNdx];
             const EP_FILENAME_NO_EXT = data.to.replace(/\.[\w]{3}$/, '');
             const streamDetails = {};
             let runtime = '';
@@ -428,12 +430,18 @@ export default async function renameFiles({ req, reqData, res }) {
               warnings.push(`Error reading metadata: "${ err.message }"`);
             }
             
+            const combinedTitles = buildEpTitle(seasons, seasonNumber, episodeNdxs);
+            const combinedPlots = episodeNdxs.map((eNdx) => {
+              const { plot } = seasons[seasonNumber].episodes[eNdx];
+              return (plot) ? `${ eNdx } - ${ plot }` : '';
+            }).join('\n\n');
+            
             try {
               await writeXML({
                 episodedetails: {
-                  title: sanitizeText(title),
+                  title: sanitizeText(combinedTitles),
                   showtitle: sanitizeText(cache.name),
-                  plot: sanitizeText(plot),
+                  plot: sanitizeText(combinedPlots),
                   uniqueid: { '@type': 'tmdb', '@default': true },
                   aired,
                   watched: false,

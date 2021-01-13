@@ -135,7 +135,7 @@ class App extends Component {
       
       if(previewItem){
         data.cacheKey = previewItem.cacheKey;
-        data.episodeNdx = previewItem.episodeNdx;
+        data.episodeNdxs = previewItem.episodeNdxs;
         data.error = previewItem.error;
         data.id = previewItem.id;
         data.newName = previewItem.name;
@@ -701,7 +701,7 @@ class App extends Component {
       
       return {
         cacheKey: itemData.cacheKey,
-        episodeNdx: itemData.episodeNdx,
+        episodeNdxs: itemData.episodeNdxs.split('|'),
         index,
         moveToFolder: (files[index].folderSelected)
           ? previewItems[index].seriesName

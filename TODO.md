@@ -101,19 +101,7 @@ NFO Scraping
       ]
     }
     ```
-- [ ] Add retry logic for `downloadFile`
-  ```js
-  {
-    retry: {
-      reasons: [
-        { message: 'Internal Server Error' },
-        { statusCode: 404 },
-      ],
-      times: 3, // how many times to retry
-      wait: 2, // number of seconds between retry
-    },
-  }
-  ```
+- [x] Add retry logic for `downloadFile`
 - [x] Make the URLs in the "Error downloading image" log message, an actual
   anchor so a User can just open up URL instead of having to copy and paste it.
 - [x] fix Replace: Clear buttons transparent, and add padding when clear button is visible

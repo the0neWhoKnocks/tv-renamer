@@ -453,7 +453,13 @@ export default async function renameFiles({ req, reqData, res }) {
                     type: WS__MSG_TYPE__RENAME_STATUS,
                   }));
                   
-                  await downloadFile(thumbnail, thumbPath);
+                  await downloadFile(thumbnail, thumbPath, {
+                    retry: {
+                      reasons: [{ message: 'Internal Server Error' }],
+                      times: 3,
+                      wait: 5,
+                    },
+                  });
                 }
                 catch(err) {
                   warnings.push(`Error downloading episode still for:\n  Name: "${ basename(thumbPath) }"\n  Error: "${ err.message }"`);

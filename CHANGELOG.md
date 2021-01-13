@@ -1,6 +1,22 @@
 # Changelog
 ---
 
+## v5.2.0
+
+**Bugfixes**
+- [86a0c08](https://github.com/the0neWhoKnocks/tv-renamer/commit/86a0c08):  Replace- Clear button styling
+- [2d247d8](https://github.com/the0neWhoKnocks/tv-renamer/commit/2d247d8):  Random genCacheName error
+
+**Features**
+- [414e7ea](https://github.com/the0neWhoKnocks/tv-renamer/commit/414e7ea):  Combine multi-episode titles and plots in nfo
+- [01528a7](https://github.com/the0neWhoKnocks/tv-renamer/commit/01528a7):  Retry episode thumb download on failure
+- [8c44203](https://github.com/the0neWhoKnocks/tv-renamer/commit/8c44203):  Links in warning logs
+
+**Uncategorized**
+- [577a518](https://github.com/the0neWhoKnocks/tv-renamer/commit/577a518) doc: Added TODOs
+
+---
+
 ## v5.1.0
 
 **Bugfixes**

@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v5.2.1
+
+**Bugfixes**
+- [a910412](https://github.com/the0neWhoKnocks/tv-renamer/commit/a910412):  Download retry logic not working
+
+---
+
 ## v5.2.0
 
 **Bugfixes**

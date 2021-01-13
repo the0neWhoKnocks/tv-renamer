@@ -36,8 +36,6 @@ export default function downloadFile(uri, destination, opts = {}) {
             for(let i=0; i<retry.reasons.length; i++){
               const { code, message } = retry.reasons[i];
               
-              resp.statusMessage = 'Internal Server Errorzzz';
-              
               // IF both code and message are set, make sure they both match
               if(
                 (code && message && (

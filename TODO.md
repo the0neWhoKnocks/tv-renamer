@@ -122,4 +122,6 @@ NFO Scraping
   # The -1 will tell ffmpeg to automatically choose the correct height in relation to the provided width to preserve the aspect ratio. Use -2 if an even value is needed
   -vf scale=720:-1
   ```
-- [ ] Update `high maintenance` test so that I alter some of the response data that's returned from the Server, instead of mocking everything. There have been too many confusing test failures that could be avoided. 
+- [x] Update `high maintenance` test so that I alter some of the response data
+  that's returned from the Server, instead of mocking everything. There have 
+  been too many confusing test failures that could be avoided.

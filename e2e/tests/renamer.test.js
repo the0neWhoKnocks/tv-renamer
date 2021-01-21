@@ -5,6 +5,7 @@ context('Renamer', () => {
   const acceptedExts = ['avi', 'mkv', 'mp4'];
   const appConfig = {};
   let fileNames;
+  let fileItemsCount;
   
   let screenshotNdx = 0;
   function screenshot(selector, name) {
@@ -28,8 +29,10 @@ context('Renamer', () => {
     });
     
     cy.readFile('/e2e/bin/files.txt', 'utf8').then((names) => {
-      fileNames = names
-        .split('\n')
+      const items = names.split('\n');
+      fileItemsCount = items.length - 1; // last line is blank
+      
+      fileNames = items
         .filter(n =>
           !!n
           && (new RegExp(`.(${ acceptedExts.join('|') })$`)).test(n)
@@ -98,7 +101,8 @@ context('Renamer', () => {
   });
   
   it('should have loaded files to rename', () => {
-    expect(fileNames.length).to.eq(86);
+    const NON_VID_FILES_COUNT = 4; // .sample.ext, and .nfo files
+    expect(fileNames.length).to.eq(fileItemsCount - NON_VID_FILES_COUNT);
     
     cy.get('.renamable__ce-fix [spellcheck="false"]')
       .each(($el, ndx) => {
@@ -377,47 +381,36 @@ context('Renamer', () => {
   });
   
   it('should allow a User to assign an ID for a series', () => {
-    const SERIES_ID = 67243;
+    let reqCount = 0;
     
     toggleItem('High.Maintenance');
     
-    cy.server();
-    cy.route({
-      method: 'POST',
-      url: '/api/v1/preview',
-      response: [
-        {
-          cacheKey: 'high_maintenance_(2016)',
-          episodeNdxs: '2',
-          id: SERIES_ID,
-          index: '4',
-          name: 'High Maintenance (2016) - 3x02 - Craig',
-          seasonNumber: 3,
-          seasonOrder: 'broadcast',
-          seriesName: 'High Maintenance (2016)',
-          seriesURL: `https://www.themoviedb.org/tv/${ SERIES_ID }`,
-        },
-        {
-          error: 'Couldn\'t find exact match for series: "high maintenance" | 404 - No exact match found',
-          index: '5',
-          name: 'high maintenance',
-        },
-        {
-          error: 'Couldn\'t find exact match for series: "high maintenance" | 404 - No exact match found',
-          index: '6',
-          name: 'high maintenance',
-        },
-      ],
-    }).as('RESPONSE__POSSIBLE_MISMATCH');
+    cy
+      .intercept('POST', 'api/v1/preview', (req) => {
+        req.reply((res) => {
+          if(!reqCount){
+            res.body[1] = {
+              error: 'Couldn\'t find exact match for series: "high maintenance" | 404 - No exact match found',
+              index: res.body[1].index,
+              name: res.body[1].name,
+            };
+            res.body[2] = {
+              error: 'Couldn\'t find exact match for series: "high maintenance" | 404 - No exact match found',
+              index: res.body[2].index,
+              name: res.body[2].name,
+            };
+            
+            reqCount++;
+            res.send({ body: res.body });
+          }
+          else res.send();
+        });
+      })
+      .as('RESPONSE__POSSIBLE_MISMATCH');
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     cy.wait('@RESPONSE__POSSIBLE_MISMATCH');
-    cy.server({ enable: false });
     
-    // TEMP - keeping around in case I want to mock this stuff out later.
-    // http://localhost:9001/api/v1/series-matches?seriesName=high%2520maintenance
-    // [{"id":106300,"name":"High Maintenance","overview":"Each episode will feature amazing engineering facts about unique structures and systems including the Sir Adam Beck Hydroelectric Generating Stations at Niagara Falls, the Montreal Metro - one of North America's largest urban rapid transit schemes, and the Palm Springs Aerial Tramway in California, the largest rotating aerial tramway in the world. The series will introduce viewers to some remarkable characters who shoulder huge responsibility maintaining them on a daily basis to keep the general public safe.","thumbnail":"https://image.tmdb.org/t/p/w154/4CWKTL2Tqhp4fWqMqkkGvUTSodZ.jpg","year":2020},{"id":67243,"name":"High Maintenance","overview":"Jump into the daily routines of a diverse group of New Yorkers and how they light things up. “The Guy” is a nameless pot deliveryman whose client base includes an eccentric group of characters with neuroses as diverse as the city.","thumbnail":"https://image.tmdb.org/t/p/w154/qmYqwOW0QTkJy1UGUsM2t0Kowpu.jpg","year":2016},{"id":106014,"name":"High Maintenance","overview":"A nameless cannabis delivery guy delivers his much-needed medication to stressed-out New Yorkers.","thumbnail":"https://image.tmdb.org/t/p/w154/yCcozhFKIecvP3JxzRk70CGEg6s.jpg","year":2012},{"id":11362,"name":"High Maintenance 90210","overview":"High Maintenance 90210 is an American reality series that premiered on the E!: Entertainment Television network on January 1, 2007.","thumbnail":null,"year":2007}]
-    
-    cy.get('.renamable__nav :contains(Assign)').first().click();
+    cy.get('.renamable__new-name.has--warning .renamable__nav').contains('Assign').click();
     
     screenshot('.app', 'viewing assign modal');
     

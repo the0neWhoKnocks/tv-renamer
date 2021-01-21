@@ -1,5 +1,5 @@
 # source Dockerfile https://github.com/cypress-io/cypress-docker-images/blob/master/included/5.1.0/Dockerfile
-FROM cypress/included:5.2.0 AS cypress
+FROM cypress/included:6.3.0 AS cypress
 
 RUN \
   npm i -g \

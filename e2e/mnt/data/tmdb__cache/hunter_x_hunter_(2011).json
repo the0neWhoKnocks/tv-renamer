@@ -16,28 +16,10 @@
   ],
   "actors": [
     {
-      "name": "Keiji Fujiwara",
-      "order": 500,
-      "role": "Leorio Paladiknight (voice)",
-      "thumb": "/cK5cLHWfVnQdREHs7SpsBs4g4EI.jpg"
-    },
-    {
       "name": "Daisuke Namikawa",
       "order": 500,
       "role": "Hisoka Morow (voice)",
       "thumb": "/u3G0dSOXazsERnRtVJJgdT1LVUq.jpg"
-    },
-    {
-      "name": "Megumi Han",
-      "order": 500,
-      "role": "Gon Freecss (voice)",
-      "thumb": "/hbZsSUqFOLShJ29uY32UHdW7RYI.jpg"
-    },
-    {
-      "name": "Banjou Ginga",
-      "order": 500,
-      "role": "Isaac Netero (voice)",
-      "thumb": "/akhAAMAjgZw13Lrz8LQqsfm9ez2.jpg"
     },
     {
       "name": "Miyuki Sawashiro",
@@ -46,16 +28,34 @@
       "thumb": "/o0ZlluSQHTyaKuFubRtW7rPxQBW.jpg"
     },
     {
+      "name": "Mariya Ise",
+      "order": 500,
+      "role": "Killua Zoldyck (voice)",
+      "thumb": "/tQWlgrlQ70biWdg7x9E75CtwsuD.jpg"
+    },
+    {
+      "name": "Megumi Han",
+      "order": 500,
+      "role": "Gon Freecss (voice)",
+      "thumb": "/hbZsSUqFOLShJ29uY32UHdW7RYI.jpg"
+    },
+    {
       "name": "Chisa Yokoyama",
       "order": 500,
       "role": "Biscuit Krueger (voice)",
       "thumb": "/zdG1f8EJl4vNSCaW9ABkz3ezZFI.jpg"
     },
     {
-      "name": "Mariya Ise",
+      "name": "Banjou Ginga",
       "order": 500,
-      "role": "Killua Zoldyck (voice)",
-      "thumb": "/tQWlgrlQ70biWdg7x9E75CtwsuD.jpg"
+      "role": "Isaac Netero (voice)",
+      "thumb": "/akhAAMAjgZw13Lrz8LQqsfm9ez2.jpg"
+    },
+    {
+      "name": "Keiji Fujiwara",
+      "order": 500,
+      "role": "Leorio Paladiknight (voice)",
+      "thumb": "/cK5cLHWfVnQdREHs7SpsBs4g4EI.jpg"
     },
     {
       "name": "Koki Uchiyama",

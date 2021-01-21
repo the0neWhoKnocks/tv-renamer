@@ -1,0 +1,215 @@
+{
+  "schema": 4,
+  "genres": [
+    "Animation",
+    "Mystery",
+    "Action & Adventure",
+    "Sci-Fi & Fantasy"
+  ],
+  "id": 100022,
+  "mpaa": "TV-14",
+  "name": "Kemono Jihen",
+  "plot": "When a series of animal bodies that rot away after a single night begin appearing in a remote mountain village, Inugami, a detective from Tokyo who specializes in the occult, is called to investigate.\n\nWhile working the case, he befriends a strange boy who works in the field every day instead of going to school. Shunned by his peers and nicknamed \"Dorotabō\" after a yokai that lives in the mud, he helps Inugami uncover the truth behind the killings – but supernatural forces are at work, and while Dorotabō is just a nickname, it might not be the only thing about the boy that isn't human.",
+  "premiered": "2021-01-10",
+  "status": "Returning Series",
+  "studios": [
+    "Tokyo MX"
+  ],
+  "actors": [
+    {
+      "name": "Natsumi Fujiwara",
+      "order": 0,
+      "role": "Kabane Kusaka (voice)",
+      "thumb": "/xi0drere8viJnhtTAzVdbdw5Pov.jpg"
+    },
+    {
+      "name": "Junichi Suwabe",
+      "order": 1,
+      "role": "Kohachi Inugami (voice)",
+      "thumb": "/zEESFmAPlxRzYCjmROGLiHqoku5.jpg"
+    },
+    {
+      "name": "Ayumu Murase",
+      "order": 2,
+      "role": "Akira (voice)",
+      "thumb": "/3aGM6KpcCIEKOXP9510tzaKc8uw.jpg"
+    },
+    {
+      "name": "Natsuki Hanae",
+      "order": 3,
+      "role": "Shiki Tademaru (voice)",
+      "thumb": "/A1lGrpBEdAUxZA7RoAw4Zr4ved3.jpg"
+    },
+    {
+      "name": "Hisako Kanemoto",
+      "order": 1,
+      "role": "Yatarō (voice)",
+      "thumb": "/qyJPQaehMc4Sy5jaTfIJLdrll2v.jpg"
+    },
+    {
+      "name": "Aiko Nogami",
+      "order": 2,
+      "role": "Hostess (voice)",
+      "thumb": "/gOXc8PqxJDDfYntE8Ojx5G8cCrc.jpg"
+    },
+    {
+      "name": "Yoshiko Ikuta",
+      "order": 3,
+      "role": "Child (voice)",
+      "thumb": "/zTwRvHa1r5SbRj6SwtaN4D5nR8l.jpg"
+    },
+    {
+      "name": "Natsumi Ōshita",
+      "order": 4,
+      "role": "Child (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Azusa Satō",
+      "order": 5,
+      "role": "Child (voice)",
+      "thumb": "/tMeX38JDhHl0XTeXYsZdhcgo2rp.jpg"
+    },
+    {
+      "name": "Anna Mugiho",
+      "order": 6,
+      "role": "Ghoul deer (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Kana Hanazawa",
+      "order": 7,
+      "role": "Inari (voice)",
+      "thumb": "/5bK9ttcRydQBWmyZp7gXDmJYOPF.jpg"
+    },
+    {
+      "name": "Mutsumi Tamura",
+      "order": 8,
+      "role": "Eldest son (voice)",
+      "thumb": "/gSCYbzpLcTvNsbE4uiFZtn1UxGS.jpg"
+    },
+    {
+      "name": "Nichika Ōmori",
+      "order": 9,
+      "role": "Younger sister (voice)",
+      "thumb": "/2Z1XdYZ3SMHyXC3j1exRxzzKWVj.jpg"
+    },
+    {
+      "name": "Hiroyuki Endō",
+      "order": 10,
+      "role": "Rescue team member (voice)",
+      "thumb": "/mlWYeCbgTbh0yo3pVqc5dEdOnxn.jpg"
+    },
+    {
+      "name": "Hironori Kondō",
+      "order": 11,
+      "role": "Rescue team member (voice)",
+      "thumb": "/yBgzEpjr4C3k2DsgaaHgt8Y9HXV.jpg"
+    },
+    {
+      "name": "Kenta Zaima",
+      "order": 12,
+      "role": "Rescue team member (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Daisuke Hatooka",
+      "order": 13,
+      "role": "Rescue team member (voice)",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/jQfH20FEhvZpnbTGpZbWPOzfAZd.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/ct6HkcvSGDC5yT6eQKdBn4HWcNC.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/1ON3UrcmyECZAMug7htkszoNoMC.jpg"
+      }
+    }
+  },
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        {
+          "aired": "2021-01-10",
+          "plot": "Kohachi Inugami, a detective specializing in supernatural matters, is hired to investigate some animal mutilations in a rural village. His investigation leads to an unusual boy, nicknamed \"Dorotabō,\" who is ostracized by the other villagers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/96PGx7mw4jgG3eQP6nLcM2c2z6i.jpg",
+          "title": "Kabane"
+        },
+        {
+          "aired": "2021-01-17",
+          "plot": "Kabane meets Akira and Shiki, two other Kemono who work for Inugami, and he and Shiki get off to a rocky start. The office is called out to deal with an incident where a mother and her son are set upon by a supernatural infestation in their home.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d8aOX9dAr9ZDo1VcQlbVi5ALIah.jpg",
+          "title": "The Kemonoist"
+        },
+        {
+          "aired": "2021-01-24",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Foxes"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Mission"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Infiltration"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 6"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 7"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 8"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 9"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 10"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 11"
+        }
+      ]
+    }
+  }
+}

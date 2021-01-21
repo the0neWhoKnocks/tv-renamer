@@ -33,9 +33,17 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-const SERIES_PATTERN = "(?:\\[.*\\] )?([a-z0-9,;'.!\\-&\\s]+\\b(?:\\d{1,4})?)(?:\\.|\\s)?(?:\\((\\d{4})\\))?";
+/**
+ * Ignore beginning of string if it starts with text in brackets
+ * (?:\\[.*\\] )?
+ * Capture everything up until it finds an episode schema or a year
+ * (?<name>(?:(?!s\\d{2}e\\d{2}|\\(\\d{4}\\)).)*)
+ * Capture the year, if one exists
+ * (?:\\((?<year>\\d{4})\\))?
+ */
+const SERIES_PATTERN = '(?:\\[.*\\] )?(?<name>(?:(?!s\\d{2}e\\d{2}|\\(\\d{4}\\)).)*)(?:\\((?<year>\\d{4})\\))?';
 const SERIES_NAME_REGEX = new RegExp(`^${ SERIES_PATTERN }`, 'i');
-export const NAME_REGEX = new RegExp(`^${ SERIES_PATTERN }(?:\\.|\\s)?(?:\\s-\\s)?s(\\d{2})e(\\d{2,3})`, 'i');
+export const NAME_REGEX = new RegExp(`^${ SERIES_PATTERN }(?:\\.|\\s)?(?:\\s-\\s)?s(?<season>\\d{2})e(?<episode>\\d{2,3})`, 'i');
 // name.s01e01-s01e02.ext
 // name.s01e01e02.ext
 // name.s01e01-episode1.title-s01e02-episode2.title.ext

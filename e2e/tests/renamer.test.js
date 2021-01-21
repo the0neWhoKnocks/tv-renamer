@@ -10,7 +10,7 @@ context('Renamer', () => {
   function screenshot(selector, name) {
     const pad = (num, token='00') => token.substring(0, token.length-`${ num }`.length) + num;
     screenshotNdx++;
-    cy.get(selector).screenshot(`${ pad(screenshotNdx) }__${ name.replace(/\s/g, '-') }`);
+    cy.get(selector, { timeout: DATA_SCRAPE_TIMEOUT }).screenshot(`${ pad(screenshotNdx) }__${ name.replace(/\s/g, '-') }`);
   }
   
   function loadPage() {
@@ -55,6 +55,7 @@ context('Renamer', () => {
   
   function setUpAliases() {
     cy.get('.app__items-nav button[for="folders"]').as('ITEMS_NAV__FOLDERS_BTN');
+    cy.get('.app__items-nav button[for="replace"]').as('REPLACE_BTN');
     cy.get('.app__items-nav button[for="preview"]').as('ITEMS_NAV__PREVIEW_BTN');
     cy.get('.app__items-nav button[for="rename"]').as('ITEMS_NAV__RENAME_BTN');
   }
@@ -79,6 +80,7 @@ context('Renamer', () => {
     // disable anything I don't want to preview
     toggleItem('Doctor.Who.2005');
     toggleItem('Futurama');
+    toggleItem('Gintama');
     toggleItem('High.Maintenance');
     toggleItem('Hunter.X');
     toggleItem('The Legend of Korra');
@@ -96,7 +98,7 @@ context('Renamer', () => {
   });
   
   it('should have loaded files to rename', () => {
-    expect(fileNames.length).to.eq(83);
+    expect(fileNames.length).to.eq(86);
     
     cy.get('.renamable__ce-fix [spellcheck="false"]')
       .each(($el, ndx) => {
@@ -111,8 +113,10 @@ context('Renamer', () => {
     
     // generate list with `[...document.querySelectorAll('.renamable.is--previewing.is--selected .renamable__new-name-text')].map(el => { const t = el.textContent; const q = t.includes("'") ? '"' : "'"; return `${q}${t}${q},`}).join('\n');`
     const newNames = [
+      '30 Coins - 1x01 - Cobwebs.mkv',
       'Appare-Ranman! - 1x10 - The Bridge to Hell.mkv',
       'My Hero Academia - 4x11 - Lemillion.mkv',
+      'Kemono Jihen - 1x01 - Kabane.mkv',
       'Astra Lost in Space - 1x01 - Planet Camp.mkv',
       'Barry - 2x08 - berkman (greater-than) block.mkv',
       'Black Monday - 1x01 - 365.mkv',
@@ -386,7 +390,7 @@ context('Renamer', () => {
           cacheKey: 'high_maintenance_(2016)',
           episodeNdxs: '2',
           id: SERIES_ID,
-          index: '3',
+          index: '4',
           name: 'High Maintenance (2016) - 3x02 - Craig',
           seasonNumber: 3,
           seasonOrder: 'broadcast',
@@ -395,12 +399,12 @@ context('Renamer', () => {
         },
         {
           error: 'Couldn\'t find exact match for series: "high maintenance" | 404 - No exact match found',
-          index: '4',
+          index: '5',
           name: 'high maintenance',
         },
         {
           error: 'Couldn\'t find exact match for series: "high maintenance" | 404 - No exact match found',
-          index: '5',
+          index: '6',
           name: 'high maintenance',
         },
       ],
@@ -507,11 +511,10 @@ context('Renamer', () => {
   });
   
   it('should allow for Search & Replace of file names on the file system', () => {
-    cy.get('button[for="replace"]')
-      .should('be.disabled')
-      .as('REPLACE_BTN');
+    cy.get('@REPLACE_BTN').should('be.disabled');
     
     cy.get('.app__global-toggle .toggle__btn').click();
+    toggleItem('Gintama');
     
     cy.get('@REPLACE_BTN')
       .should('not.be.disabled')
@@ -571,6 +574,7 @@ context('Renamer', () => {
     cy.get('#modals').should('be.empty');
     cy.get('.app.is--visible');
     setUpAliases();
+    toggleItem('Gintama');
     
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     
@@ -588,6 +592,63 @@ context('Renamer', () => {
       const logMsg = logs[logNdx];
       expect($log.text()).to.equal(logMsg);
     });
+    
+    screenshot('.app', 'files renamed');
+  });
+  
+  it('should NOT fail while replacing a filename that has bad characters in it', () => {
+    toggleItem('Gintama');
+    
+    cy.get('@REPLACE_BTN')
+      .should('not.be.disabled')
+      .click();
+      
+    screenshot('.app', 'replace modal opened');
+    
+    cy.get('.replace__labeled-input:nth-of-type(1) input').as('MATCH_INPUT');
+    // cy.get('.replace__labeled-input:nth-of-type(1) .input-wrapper button').as('CLEAR_BTN');
+    cy.get('.replace__labeled-input:nth-of-type(1) button').as('PATTERN_BTN');
+    // cy.get('@CLEAR_BTN').click();
+    cy.get('@MATCH_INPUT').type('(\\d{{}1{}})x'); // `{{}` and `{}}` is Cypress' way of typing `{}`
+    cy.get('@PATTERN_BTN').click();
+    
+    cy.get('.replace__labeled-input:nth-of-type(2) input').as('REPLACE_INPUT');
+    cy.get('.replace__labeled-input:nth-of-type(2) button[data-num="1"]').as('GROUP1_BTN');
+    cy.get('.replace__labeled-input:nth-of-type(2) button[data-num="2"]').as('GROUP2_BTN');
+    cy.get('@REPLACE_INPUT').type('s0');
+    cy.get('@GROUP1_BTN').click();
+    cy.get('@REPLACE_INPUT').type('e');
+    cy.get('@GROUP2_BTN').click();
+    
+    cy.get('.replace__table-body .replace__table-row').each(($tr, rowNdx) => {
+      const rowData = [
+        ['1x46', 'Gintama - s01e46 - Adults Only – We Wouldn’t Want “Anyone Immature in Here'],
+      ];
+      
+      cy.wrap($tr).within(() => {
+        cy.get('.replace__table-data > mark').each(($mark, tdNdx) => {
+          expect($mark.text()).to.equal(rowData[rowNdx][tdNdx]);
+        });
+      });
+    });
+    
+    screenshot('.app', 'replace names preview');
+    
+    cy.get('.replace__btm-nav button')
+      .contains('Rename')
+      .click();
+    
+    cy.get('#modals').should('be.empty');
+    cy.get('.app.is--visible');
+    setUpAliases();
+    
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+    
+    screenshot('.app', 'previewing files with replaced names');
+    
+    cy.get('@ITEMS_NAV__RENAME_BTN', { timeout: DATA_SCRAPE_TIMEOUT }).click();
+    
+    cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT });
     
     screenshot('.app', 'files renamed');
   });

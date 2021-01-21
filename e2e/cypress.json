@@ -1,7 +1,7 @@
 {
   "experimentalFetchPolyfill": true,
   "integrationFolder": "tests",
-  "numTestsKeptInMemory": 1,
+  "numTestsKeptInMemory": 0,
   "reporter": "spec",
   "retries": {
     "openMode": 0,

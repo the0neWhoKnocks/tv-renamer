@@ -17,7 +17,7 @@ export default ({ reqData, res }) => {
       moveFile({
         cb,
         newPath: `${ filePath }/${ sanitizeName(newName) }${ ext }`,
-        oldPath: `${ filePath }/${ sanitizeName(oldName) }${ ext }`,
+        oldPath: `${ filePath }/${ oldName }${ ext }`,
       });
     }));
   });

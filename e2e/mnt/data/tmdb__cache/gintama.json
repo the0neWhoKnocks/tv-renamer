@@ -1,0 +1,2491 @@
+{
+  "schema": 4,
+  "genres": [
+    "Action & Adventure",
+    "Animation",
+    "Comedy",
+    "Sci-Fi & Fantasy"
+  ],
+  "id": 57041,
+  "mpaa": "TV-PG",
+  "name": "Gintama",
+  "plot": "In an era where aliens have invaded and taken over feudal Tokyo, an unemployed samurai finds work however he can.",
+  "premiered": "2006-04-04",
+  "status": "Returning Series",
+  "studios": [
+    "TV Tokyo"
+  ],
+  "actors": [
+    {
+      "name": "Yuko Kaida",
+      "order": 6,
+      "role": "Tsukuyo (voice)",
+      "thumb": "/yqnIlAd6nYYSTFnIX6Kx10ewEdI.jpg"
+    },
+    {
+      "name": "Rie Kugimiya",
+      "order": 500,
+      "role": "Kagura (voice)",
+      "thumb": "/5uxG4tsx8vCfxI8yr1RoeDkrsDg.jpg"
+    },
+    {
+      "name": "Kazuya Nakai",
+      "order": 500,
+      "role": "Toushirou Hijikata (voice)",
+      "thumb": "/78PKViY7brjF3AJI8h3tXyUyYT7.jpg"
+    },
+    {
+      "name": "Akira Ishida",
+      "order": 500,
+      "role": "Kotarou Katsura (voice)",
+      "thumb": "/jnW2Gn2NlR2uwOCeyOuzypnTmkH.jpg"
+    },
+    {
+      "name": "Takehito Koyasu",
+      "order": 500,
+      "role": "Shinsuke Takasugi (voice)",
+      "thumb": "/sINa9EAHOENr93OX5gF6w60AJgm.jpg"
+    },
+    {
+      "name": "Tomokazu Sugita",
+      "order": 500,
+      "role": "Gintoki Sakata (voice)",
+      "thumb": "/tW9VGnxmdhy3XTWfssk8ySrDu7K.jpg"
+    },
+    {
+      "name": "Satoshi Hino",
+      "order": 500,
+      "role": "Kamui (voice)",
+      "thumb": "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
+    },
+    {
+      "name": "Fumihiko Tachiki",
+      "order": 500,
+      "role": "Taizou Hasegawa (voice)",
+      "thumb": "/khEt9uae6dLIrvtkAKkFR1IJPJ5.jpg"
+    },
+    {
+      "name": "Daisuke Sakaguchi",
+      "order": 500,
+      "role": "Shimura Shinpachi (voice)",
+      "thumb": "/7aHA3ELUwyrzPRm6UCZJe87x1mL.jpg"
+    },
+    {
+      "name": "Kenichi Suzumura",
+      "order": 500,
+      "role": "Sougo Okita (voice)",
+      "thumb": "/fUM4vIHabt840p55zvwFwrFq9r6.jpg"
+    },
+    {
+      "name": "Kōichi Sakaguchi",
+      "order": 0,
+      "role": "",
+      "thumb": "/y9wSuWcrKNiQb6w7AhAWxMIrlbj.jpg"
+    },
+    {
+      "name": "Yasuhiko Kawazu",
+      "order": 0,
+      "role": "",
+      "thumb": "/zHAZRK18YjtcchtKKV08QDliAC3.jpg"
+    }
+  ],
+  "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [
+        "https://assets.fanart.tv/fanart/tv/79895/clearlogo/gintama-51aa75e49cd13.png"
+      ],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/78vRhCYGcwpO8MHFEtNqzgGWBW9.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/mWX2XnjYD8WxglIyTWM7z9FurXt.jpg",
+      "seasonPosters": {
+        "0": "https://image.tmdb.org/t/p/w780/qbpSTnevU6PNVA1UnPqvLaZI7A7.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/pKPMbL4LxqXTBYpqZd4az5Y95Mr.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/wz17KKPIGWyRnfRnqssAsaWKo0N.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/7fmFSKjiE1nqhsi7XccuSM8UzmD.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/yB3OhOKMJyBI5fPomVorOvMvtBO.jpg",
+        "5": "https://image.tmdb.org/t/p/w780/fAkigdizR6WFWhOmt58BDEw0zrn.jpg",
+        "6": "https://image.tmdb.org/t/p/w780/q57jzXlXTtw16LkgPkRnsZsNpLp.jpg",
+        "7": "https://image.tmdb.org/t/p/w780/5AX6ObPYZN0RP3L0Eu7s0RCLxeX.jpg",
+        "8": "https://image.tmdb.org/t/p/w780/qVyqN7N9zzHxpmR5h4CcXeP71YA.jpg",
+        "9": "https://image.tmdb.org/t/p/w780/zRbCuK4LzJiYvmZ9DNVbt425dAE.jpg",
+        "10": "https://image.tmdb.org/t/p/w780/p0cV9CrAHfAyWXMntCGoBZGEXtC.jpg",
+        "11": "https://image.tmdb.org/t/p/w780/tWVrwYnVsWZI1f8bnJc865wTTU4.jpg"
+      }
+    }
+  },
+  "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        {
+          "aired": "2004-12-18",
+          "plot": "Gintoki Sakata is a lazy samurai living in an alien-ridden Japan where samurai are no longer needed. This OVA is a set of short comedy stories involving Gintoki and his equally-broke sidekicks Shinpachi and Kagura. One day, Gintoki and his comrades are out viewing the spring flowers when suddenly the Shinsengumi appear, arguing that Gintoki has taken their flower-viewing spot. Gintoki's team and the Shinsengumi must then battle for the right to sit in that spot by using a violent version of rock paper scissors.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gxJuRMolUavl2S8yOu2VRrmnCak.jpg",
+          "title": "Jump Festa 2005 Special"
+        },
+        {
+          "aired": "2009-09-30",
+          "plot": "This episode shows various scenes from the war between samurais and the Amanto, focusing on Gintoki's fights alongside Kotaro Katsura, Shinsuke Takasugi and others. In the end, the episode is revealed to be a trailer from a film, which was in fact fake.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sFFvKlEr4EY0HyGhvFBrTXltJAL.jpg",
+          "title": "Jump Anime Tour 2008- Birth of White Demon"
+        },
+        {
+          "aired": "2010-03-25",
+          "plot": "A live event held prior to the release of the first Gintama movie. During the event, some of the characters get together and talk about \"regrets\" they have after 4 years of anime Gintama. Soon they fight over who gets more screen time. Also features music from Otsu-chan and the band DOES.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bhvYADVcWYXX2r5hxyo6lCMhL0W.jpg",
+          "title": "Spring Festival 2010"
+        },
+        {
+          "aired": "2010-04-24",
+          "plot": "Gintama: The Movie, known in Japan as Gintama: Shinyaku Benizakura-Hen, is a Japanese animated film produced by Sunrise. The film's plot is a retelling of the story arc from Gin Tama in which Kotaro Katsura is attacked by a member of the army Kiheitai, and the freelancer trio Odd Jobs Gin start searching for him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yE1Wwn2aahjIspQFrrsWqVTM5Uj.jpg",
+          "title": "Gintama- The Movie"
+        },
+        {
+          "aired": "2010-12-15",
+          "plot": "A re-telling of the Benizakura arc.\n\nThe silver-haired samurai Sakata Gintoki investigates the disappearance of a legendary sword named Benizakura while his partners Kagura and Shimura Shinpachi try to find out what has happened to Gintoki's friend, Kotaro Katsura.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y3bPU3jHSjlyXC5f9DACzK98uZt.jpg",
+          "title": "Benizakura Arc Special"
+        },
+        {
+          "aired": "2012-08-22",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Sakura Festival 2011"
+        },
+        {
+          "aired": "2013-07-06",
+          "plot": "What would have happened if the Shiroyasha never existed? Edo is thrown to chaos by a mysterious cause. Sakata Gintoki, now lives in a world where the future has changed, without him. What has happened to the Yorozuya? Gintoki, who is now a ghost of the past, must once again carry the burden in order to save his friends. He must finish the biggest job ever, which may be the final job of Yorozuya.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1lHeCnNuvpXSiUtCxGnz4kUK9jM.jpg",
+          "title": "Gintama- The Movie- The Final Chapter- Odd Jobs Forever"
+        },
+        {
+          "aired": "2013-10-23",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cLT9Q5JnuagQ8BX86zFRvZNvY3o.jpg",
+          "title": "Zenya Festival 2013"
+        },
+        {
+          "aired": "2015-04-03",
+          "plot": "Odd jobs wake up to find a (not so) familiar spirit, who tries to explain the importance of having special moves.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kIkQkolBKDWTULaXxbbWV1olAPf.jpg",
+          "title": "Jump Festa 2014 Special"
+        },
+        {
+          "aired": "2012-08-26",
+          "plot": "A movie version of the Shinsengumi Crisis arc, which covered episodes 101-105.",
+          "thumbnail": "",
+          "title": "The Best of Gintama on Theater 2D- Shinsengumi Crisis Arc"
+        },
+        {
+          "aired": "2012-08-26",
+          "plot": "A movie version of the Four Devas arc, which covered episodes 210-214.",
+          "thumbnail": "",
+          "title": "The Best of Gintama on Theater 2D- Four Devas Arc"
+        },
+        {
+          "aired": "2015-11-20",
+          "plot": "This special celebrates 10 years of the Gintama anime and provides a preview of the upcoming Shogun Assassination Arc.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6P9AqaZZk7Ahpq3IN3WLgMA20Dk.jpg",
+          "title": "Jump Festa 2015 Special"
+        },
+        {
+          "aired": "2016-08-04",
+          "plot": "Tsukuyo and co are caught up in a conspiracy involving an underground drug that causes people to fall in love with the first person they see.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e8aSq0tQkC1JV90QxVStHYjJwsF.jpg",
+          "title": "A Heart Without Love Does Not Smoke"
+        },
+        {
+          "aired": "2016-11-04",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/BTr9S6IV8IiiWs9N4TMtCA597p.jpg",
+          "title": "An Everlasting Flower"
+        },
+        {
+          "aired": "2019-08-29",
+          "plot": "Collaboration anime between Gintama and Monster Strike.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/445T6PJTxfAN78lOK7nNfNakott.jpg",
+          "title": "Gintama- Monster Strike-hen ONA 1"
+        },
+        {
+          "aired": "2019-09-04",
+          "plot": "Collaboration anime between Gintama and Monster Strike.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/445T6PJTxfAN78lOK7nNfNakott.jpg",
+          "title": "Gintama- Monster Strike-hen ONA 2"
+        },
+        {
+          "aired": "2021-01-15",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 17"
+        }
+      ]
+    },
+    "1": {
+      "episodes": [
+        null,
+        {
+          "aired": "2006-04-04",
+          "plot": "Gintoki, Shinpachi, and Kagura receive a request from a man who wants them to make him stronger.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4VTEx1hRwKIqLNOtVBRIi2SwToL.jpg",
+          "title": "You Guys!! Do You Even Have a Gintama! (1)"
+        },
+        {
+          "aired": "2006-04-04",
+          "plot": "Gintoki's group goes to take back a house for a man who's been conned.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/soppYU4updNxj7M1N7Ua1b5W0YM.jpg",
+          "title": "You Guys!! Do You Even Have a Gintama! (2)"
+        },
+        {
+          "aired": "2006-04-11",
+          "plot": "Sakata Gintoki meets Shimura Shinpachi.  The two proceeds to save Shinpachi's older sister from an amanto entertainment club.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jqCVkj1CpL1TL2MHGgsX21oaTyO.jpg",
+          "title": "Nobody with Naturally Wavy Hair Can be That Bad!"
+        },
+        {
+          "aired": "2006-04-25",
+          "plot": "Gintoki and Shinpachi meet an amanto alien girl who's been chased after by gangster.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gOqkarhmFfHA2hBXJU59Slcc9HE.jpg",
+          "title": "Watch Out! Weekly Shonen JUMP Sometimes Comes Out on Saturdays!"
+        },
+        {
+          "aired": "2006-05-02",
+          "plot": "Gintoki's group's been asked to deliver a package to an amanto alien embassy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sJ9S1LkRmQ0CDgvzwUSWF5KNg7V.jpg",
+          "title": "Make Friends You Can Call by Their Nicknames, Even When You're an Old Fart!"
+        },
+        {
+          "aired": "2006-05-09",
+          "plot": "A man tries to break out of jail, to attend a pop star's concert.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4U1nrmzONVref8SDYuCT9vqSMIL.jpg",
+          "title": "Keep Your Promise Even If It Kills You"
+        },
+        {
+          "aired": "2006-05-16",
+          "plot": "The group is hired to find an amanto alien prince's pet.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/m7Ka4IbmtWM9DfSitR6tJLA3HN0.jpg",
+          "title": "Responsible Owners Should Clean Up After Their Pets!"
+        },
+        {
+          "aired": "2006-05-23",
+          "plot": "Shinpachi's sister is being stalked by a Shinsengumi officer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pEiMPxUJxPnBpFzVRNN2emO7XOr.jpg",
+          "title": "There Is Butt a Fine Line Between Persistence and Stubbornness"
+        },
+        {
+          "aired": "2006-05-30",
+          "plot": "The Shinsengumi goes to avenge their commander's defeat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n7Fc3Cbzirj7MJx6N6yO8jiYmgP.jpg",
+          "title": "Fighting Should Be Done With Fists!"
+        },
+        {
+          "aired": "2006-06-06",
+          "plot": "The group picks up a giant white dog.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ApzluOGUxYmzP0lohqeVgoMEvvD.jpg",
+          "title": "Eat Something Sour When You're Tired!"
+        },
+        {
+          "aired": "2006-06-13",
+          "plot": "The trio helps an old man to track down a woman whom he met when he was young. Shown as a one hour special with episode 12.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jYbW0hC08KtfqomRiVSwVh9lpkw.jpg",
+          "title": "Look, Overly Sticky Sweet Dumplings Are Not Real Dumplings, You Idiot!"
+        },
+        {
+          "aired": "2006-06-13",
+          "plot": "The kabuki district has been robbed by a mysterious thief.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oaKLAjNhVIIp3nBBnVeLQV0E0L5.jpg",
+          "title": "People Who Make Good First Impressions Usually Suck!"
+        },
+        {
+          "aired": "2006-06-20",
+          "plot": "The group is hired to find a missing girl.  However, the group is dragged into deeper trouble than they originally anticipated.  Gintoki may require the help of his old friend Katsura to help him out of this mess.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5hbenFqqclMhGiYQBbeHNmJO91J.jpg",
+          "title": "If You're Going to Cosplay, Go All Out!"
+        },
+        {
+          "aired": "2006-07-04",
+          "plot": "The Shinsengumi is asked to protect an amanto alien official and Kagura meets a princess who's sneaked out from the castle.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/b2EGfXM6kRDfvQD6e6MXjNX2nvJ.jpg",
+          "title": "Boys Have a Weird Ritual that Makes Them Think They Turn Into Men When They Touch Frogs! - You Only Gotta Wash Under Your Armpits - Just the Armpits"
+        },
+        {
+          "aired": "2006-07-11",
+          "plot": "The group enters Sadaharu in a pet competition, with Katsura and his pet being their opponent.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iepdXAXgWjrO4FWwTv0r7MtyRaM.jpg",
+          "title": "Pets Resemble Their Owners!"
+        },
+        {
+          "aired": "2006-07-18",
+          "plot": "A man who's been fired for assaulting an amanto royal goes job hunting, only to met with failure repeatedly.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fFlIGbPZlMSN4WgM4PuY162Un2S.jpg",
+          "title": "If You Stop and Think About It, Your Life's a Lot Longer as an Old Guy Than a Kid! Whoa, Scary!!"
+        },
+        {
+          "aired": "2006-07-25",
+          "plot": "A rebel plans to asssinate the shogun during a festival.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xY1MdnEfmHewZKxG34kkSyl53Yw.jpg",
+          "title": "Sons Only Take After Their Fathers' Negative Attributes"
+        },
+        {
+          "aired": "2006-08-01",
+          "plot": "The group and Shinsengumi attempt to capture a man who's been stealing women's underwear.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/Af0CCK23NpXDrg5hMN8sBcyURia.jpg",
+          "title": "Oh Yeah! Our Crib is Number One!"
+        },
+        {
+          "aired": "2006-08-08",
+          "plot": "In an effort to get some quick cash, Gintoki and Hasegawa, along with Shinpachi, Kagura, and Otae, head to the beach to get rid of a monster that's been terrorizing the area.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hXzBt7wzVOGVyzqg9OMZWhHiCq3.jpg",
+          "title": "Why is the Sea So Salty Because You City Folk Pee Whenever You Go Swimming!"
+        },
+        {
+          "aired": "2006-08-15",
+          "plot": "The Shinsengumi has been haunted by a mysterious being.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/29fm5rspxprT6bXUZQlwMxNGtvO.jpg",
+          "title": "Watch Out For Conveyor Belts!"
+        },
+        {
+          "aired": "2006-08-22",
+          "plot": "The group helps an amanto to protect his pond from developers and Gintoki goes all over town trying to find an electric fan replacement during a heatwave.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/idhDImASTtu3i7yHrSe7crdvhLw.jpg",
+          "title": "If You're a Man, Try the Swordfish - If You Go to Sleep With the Fan On, You'll Get a Stomachache, So Be Careful"
+        },
+        {
+          "aired": "2006-09-05",
+          "plot": "A female ninja stays over at the Yorozuya.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3tMUJ1FEWLpeklRtSPLrytIZDVw.jpg",
+          "title": "Marriage is Prolonging an Illusion for Your Whole Life"
+        },
+        {
+          "aired": "2006-09-12",
+          "plot": "Gintoki, Shinpachi and Kagura go on a space trip in which Kagura had won tickets for.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eEhqNewft0NTL07saaH2N2Al7xh.jpg",
+          "title": "When You're In a Fix, Keep On Laughing, Laughing..."
+        },
+        {
+          "aired": "2006-09-19",
+          "plot": "Gintoki and Katsura get dragged into being cross-dressers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bSQSu6XFb5y47NIt5UMHwXrvc3o.jpg",
+          "title": "Cute Faces Are Always Hiding Something"
+        },
+        {
+          "aired": "2006-10-05",
+          "plot": "The series is entering into its third season! But the Yorozuya have other concerns: a battle of wits and deception to take reign of the sukiyaki pot!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fPcZH7smTsARnHJZqj9eD0iJ59U.jpg",
+          "title": "A Shared Soup Pot is a Microcosm of Life"
+        },
+        {
+          "aired": "2006-10-12",
+          "plot": "The group goes to get Shinpachi's childhood friend out of a gang.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/k37CMb9anrRWWrbDdvsiQwGLVtA.jpg",
+          "title": "Don't Be Shy - Just Raise Your Hand and Say It"
+        },
+        {
+          "aired": "2006-10-19",
+          "plot": "After Okita showed them an underground death match arena (Rengokukan), the group proceeds to track down the reigning champion of those death matches.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sVH5bdY8j1vtvKNdsMLinUosKlq.jpg",
+          "title": "Some Things Can't Be Cut with a Sword"
+        },
+        {
+          "aired": "2006-10-25",
+          "plot": "A police department head official brings Kondo to a meeting to discuss the incident happened at the Rengokukan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6ZlaOXhVTJjpeJAOSqxxZUSQDOf.jpg",
+          "title": "Good Things Never Come in Twos (but Bad Things Do)"
+        },
+        {
+          "aired": "2006-11-02",
+          "plot": "An amanto goes around town to steal swords of value. Meanwhile Kagura steals Gintoki's wooden sword and tries to sell it and Space cockroaches terrorize the town.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vorMzwN83xSXx27g6y1M2ZUiETZ.jpg",
+          "title": "Don't Panic - There's a Return Policy! - I Told You to Pay Attention to the News!"
+        },
+        {
+          "aired": "2006-11-09",
+          "plot": "Otsu receives a threat letter.  The trio goes to investigate.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tM5q14V7x2BM8kvRPyoqCtj9F4g.jpg",
+          "title": "Even Teen Idols Act Like You Guys"
+        },
+        {
+          "aired": "2006-11-16",
+          "plot": "Gintoki has amnesia after a car accident.  His friends try to get his memory back.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/c9hi9OdbvsbZ6YcEGDDOnbYCON3.jpg",
+          "title": "You Always Remember the Things that Matter the Least"
+        },
+        {
+          "aired": "2006-11-23",
+          "plot": "Gintoki who still does not have his memory back, works at a factory which produces a mysterious items.  Meanwhile, Shinpachi and Kagura goes to retrieve Gintoki.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lD5ktm01yXCRmXN5Hmkav7ajzD3.jpg",
+          "title": "Life Moves on Like a Conveyor Belt"
+        },
+        {
+          "aired": "2006-11-30",
+          "plot": "Sakamoto sends two amanto craftsmen to help rebuild the Yorozuya as repayment for him crashing his spaceship into the place.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fdkMBZWFOiDfSbnbWF78u4WdTCi.jpg",
+          "title": "Mistaking Someone's Name is Rude!"
+        },
+        {
+          "aired": "2006-12-07",
+          "plot": "Shinpachi saves a girl with cat ears while on a train ride.  Later in a letter she sends him, the girl proceeds to ask him out.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ecXCq0Wl5SLpmAg6bJGAV6OzyCZ.jpg",
+          "title": "Love Doesn't Require a Manual (1)"
+        },
+        {
+          "aired": "2006-12-14",
+          "plot": "Shinpachi deals with the kitty-dressed thief and Kondou's uncle gets him, Hijikata and Okita to help get her daughter to dump her boyfriend in which he is not approved of.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/px6hychL5ma6BoJP8jKrq8p9FB4.jpg",
+          "title": "Love Doesn't Require a Manual (2) - You Can't Judge a Person by His Appearance, Either"
+        },
+        {
+          "aired": "2006-12-21",
+          "plot": "A colleague of Otae has been scammed of her money by a cult.  The Yorozuya and Otae goes to uncover the secret of the cult.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fcp1gIFUL6VKz0gZw0xP27EYXm5.jpg",
+          "title": "People with Dark Pasts Can't Shut Up"
+        },
+        {
+          "aired": "2006-12-28",
+          "plot": "Gintoki meets Santa and has to help him deliver gifts and Gintoki and Hattori fight over a year end double-issue of Jump (magazine).",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gPKRwFp46uPa2dqAXLVIwkrJe7N.jpg",
+          "title": "People Who Say that Santa Doesn't Really Exist Actually Want to Believe in Him - Prayer Won't Make Your Worldly Desires Go Away! Control Yourself"
+        },
+        {
+          "aired": "2007-01-11",
+          "plot": "Everyone's participating in the neighborhood snow building contest-- with disastrous results and an old man tries to get his wife to look at his fireworks & enjoy it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rEKzMCPIfyQ9ZETokmUpE1VilzO.jpg",
+          "title": "Only Children Play in the Snow - Eating Ice Cream In Winter Is Awesome"
+        },
+        {
+          "aired": "2007-01-18",
+          "plot": "Katsura's injures his leg while escaping from the Shinsengumi and uses a ramen shop as a temporary hideout.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dEsrwCT7HEkm9yXGTvsh89xLv7J.jpg",
+          "title": "Ramen Shops with Long Menus Never Do Well"
+        },
+        {
+          "aired": "2007-01-25",
+          "plot": "A mysterious and famous hunter, Umibouzu, pays a visit when an alien appears in Edo.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4IWbpZXfx5Nrsj920TVq7xRoZ7V.jpg",
+          "title": "Give a Thought to Planned Pregnancy"
+        },
+        {
+          "aired": "2007-02-01",
+          "plot": "Dissatisfies with Gintoki's reaction to Kagura's departure, Shinpachi quits and goes after Kagura.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lTvG6DMyZ3XdHf15Cxr5ijBWC6N.jpg",
+          "title": "You Can't Judge a Movie by Its Title"
+        },
+        {
+          "aired": "2007-02-08",
+          "plot": "Gintoki, along with Umibouzu, goes to combat the alien; while at the same time avoiding the Shogunate's side of attack (on the alien).",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6wEsIgt0ku8gr3bRI0IJ2btsS3k.jpg",
+          "title": "You Know What Happens if You Pee on a Worm"
+        },
+        {
+          "aired": "2007-02-15",
+          "plot": "Otae, Sa-chan, and Catherine all try to go for the series' heroine position and Katsura enlists the Yorozuya to help him save Elizabeth-- but they need some ninja finesse to do it first.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2uvNpInpSRvGUJMdTlKXidO5OhJ.jpg",
+          "title": "Make Characters So Anybody Can Tell Who They Are by Just Their Silhouettes"
+        },
+        {
+          "aired": "2007-02-22",
+          "plot": "Katsura, along with the Yorozuya, goes to find Sarutobi Ayame to train them on ninja skills; in preparation for their Elizabeth rescue.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lPM7XEAzDMdDPnStfSlABy6pNl.jpg",
+          "title": "Mom's Busy, Too, So Quit Complaining About What's for Dinner"
+        },
+        {
+          "aired": "2007-03-01",
+          "plot": "Sadaharu becomes a demon that the Yorozuya tries to rescue with the help of former priestess sisters.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/orHKiECthM0h24mgSmvAlXgd9I8.jpg",
+          "title": "Walk Your Dog at an Appropriate Speed"
+        },
+        {
+          "aired": "2007-03-08",
+          "plot": "Otae and Ane square off to keep their jobs by trying to out-earn each other.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cVprzS1MiKwlU8Ddo0miwaMP39K.jpg",
+          "title": "Adults Only. We Wouldn't Want Anyone Immature in Here"
+        },
+        {
+          "aired": "2007-03-15",
+          "plot": "The Yorozuya get a new neighbor, a frightening looking Amanto named Hedoro, and assume he's up to something.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rJd2DjTMChCQveVU3VzFqPQRtBt.jpg",
+          "title": "Do Cherries Come from Cherry Trees"
+        },
+        {
+          "aired": "2007-03-22",
+          "plot": "A group of assassins want to take Hijikata out. The problem: none of them really didn't expect what would happen when he encountered Gintoki who, with Shinpachi and Kagura encounters an old man and was \"forced\" to play games with him; meanwhile, Sa-chan's master passed away and she went to attend his funeral.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kZF9YqWE3uMZx3bjQ5MsQyIWMvp.jpg",
+          "title": "The More You're Alike, the More You Fight - Whatever You Play, Play to Win"
+        },
+        {
+          "aired": "2007-03-29",
+          "plot": "Gintoki and Hasegawa run into some gambling problems.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xlA5VYmlKQbIOqJJop2iVHXXnj2.jpg",
+          "title": "A Life Without Gambling is Like Sushi Without Wasabi"
+        }
+      ]
+    },
+    "2": {
+      "episodes": [
+        null,
+        {
+          "aired": "2007-04-05",
+          "plot": "Gintoki gives his suggestions to the editor and author of \"Gintaman\" on what should the series improve on.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8SORP8cOnEFbOC37zC9BvIA5kDh.jpg",
+          "title": "Pending Means Pending, It's Not Final"
+        },
+        {
+          "aired": "2007-04-12",
+          "plot": "A baby's dropped off in front of the Yorozuya; claming it's Gintoki's son.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mQ8eMqXSfdAizm1ke3TKdhpmuko.jpg",
+          "title": "Milk Should Be Served at Body Temperature"
+        },
+        {
+          "aired": "2007-04-19",
+          "plot": "Itou Kamotarou (appeared on the previous episode) proceeds with his agenda. Hijikata seeks help from the Yorozuya to save the Shinsengumi from destruction.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yLrm6zDsrK4xBgBa91ZqKjKJQOz.jpg",
+          "title": "If You Want to See Someone, Make an Appo First"
+        },
+        {
+          "aired": "2007-04-26",
+          "plot": "While trying to burn old JUMP issues, Gintoki is captured by a female fire fighter in search of a local arsonist.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eiPg9bFUF6gUzhGrNVn276a4O6M.jpg",
+          "title": "Stress Makes You Bald, but It's Stressful to Avoid Stress, So You End Up Stressed Out Anyway, So in the End There's Nothing You Can Do"
+        },
+        {
+          "aired": "2007-05-03",
+          "plot": "A mother looking for her son in Edo enlists the help of Yorozuya.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gIvTSBOFPxnEKrKTgoXjyovxs5I.jpg",
+          "title": "Mothers Everywhere Are All the Same"
+        },
+        {
+          "aired": "2007-05-10",
+          "plot": "Continuing from the last episode, it is discovered that the son turned out to be the No.1 \"Pimp\" in Kabuki District.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bUeyrbvI11HnKYZqvndY8P69Y1c.jpg",
+          "title": "Don't Make Munching Noises When You Eat"
+        },
+        {
+          "aired": "2007-05-17",
+          "plot": "Terakado Tsu (Otsu) goes to be one day chief of the Shinsengumi to improve its image.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yduR4DGnwX86IsQjmffhoNDh2f.jpg",
+          "title": "Keep an Eye on the Chief for the Day"
+        },
+        {
+          "aired": "2007-05-24",
+          "plot": "Mutsu requests the Yorozuya recover some stolen cargo.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oHGzfXM8xVIb5mzYIVDz0nJWfXt.jpg",
+          "title": "When Looking For Things You've Lost, Remember What You Were Doing On The Day You Lost It"
+        },
+        {
+          "aired": "2007-05-31",
+          "plot": "A serial killer has been going around town-- and one of the crew meets him head on! In the meantime, Gintoki is requested to locate \"Benizakura\", an unlucky sword stolen from its owner.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rdIHKJOkjpiwMymjOm2CqNaNtEw.jpg",
+          "title": "Croquette Sandwiches Are Always the Most Popular Food Sold at the Stalls"
+        },
+        {
+          "aired": "2007-06-07",
+          "plot": "Kagura gets captured. Tetsuko goes to visit the injured Gintoki and tells him the truth about the benisakura sword.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AlytgTeNfMyxIHtK6uUFldPoS1f.jpg",
+          "title": "Be Careful Not to Leave Your Umbrella Somewhere"
+        },
+        {
+          "aired": "2007-06-14",
+          "plot": "Shinpachi and Elizabeth go on the ship to attack Okada.  A battle rages on the ship, at which Kagura manages to escape from captivity.  On the other hand, Gintoki and Tetsuko (benisakura forger Tetsuya's sister) head towards Takasugi.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gUjeGpOAd0PvRmySPUq8J5iwFRY.jpg",
+          "title": "The Sun Will Rise Again"
+        },
+        {
+          "aired": "2007-06-21",
+          "plot": "The battle comes to a conclusion, with benisakura finally taken over Okada's body, and Gintoki will have to use the sword Tetsuko gave him to stop this.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pisJUvVz28FEaRPqD6SQMSoZYZD.jpg",
+          "title": "On a Moonless Night, Insects Are Drawn to the Light"
+        },
+        {
+          "aired": "2007-06-28",
+          "plot": "Yamasaki is sent by Hijikata to investigate what has happened with that fight between Katsura and Takasugi groups.  He goes around asking different people, though fails to get any real answers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zDv7CBBNdVTfZmoHYSmekyXfddL.jpg",
+          "title": "Even Mummy Hunters Sometimes Turn into Mummys"
+        },
+        {
+          "aired": "2007-07-05",
+          "plot": "Hattori Zenzo has been hired to kidnap a girl who is able to foresee the future.  Meanwhile, the Yorozuya has been hired to protect the very same girl.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zjl22qYkEyqPnHPkaLKpVdknhJr.jpg",
+          "title": "The Preview Section in JUMP is Always Unreliable"
+        },
+        {
+          "aired": "2007-07-12",
+          "plot": "A set of TV crews follow Katsura around for a day to do a television program special interview.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/snjbI8UgzYvwFnDYYfo4g1j6Rtu.jpg",
+          "title": "Eating Nmaibo Can Make You Full in No Time!"
+        },
+        {
+          "aired": "2007-07-19",
+          "plot": "Kagura's beetle was killed during a beetle fighting match.  She tries to drag Gintoki and Shinpachi to go beetle hunting with her.  That only succeeds when they know there is a high demand for the beetles - meaning they can make money of it.  The trio encounters the Shinsengumi who also happens to be capturing beetles for reason unknown.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fycEwTHvQb6Ciiuh5a5RyEsJOw7.jpg",
+          "title": "Rhinoceros Beetles Teach Boys that Life is Precious"
+        },
+        {
+          "aired": "2007-07-26",
+          "plot": "An old dango shop owner accepts a challenge from the owner of a popular new dessert shop.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j4uZzHM9BXS9qaLXQI2CJIl22Mv.jpg",
+          "title": "Dango Over Flowers"
+        },
+        {
+          "aired": "2007-08-02",
+          "plot": "Gintoki gets into an accident with a delivery girl who has the \"Need for Speed\". / As Gintoki recovers from the delivery incident, Sa-chan is forced to weigh both her feminine needs and her assassin duties when working a mission at the same hospital.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/luChhavhQ9WVHPPwuqzRYK9kpv1.jpg",
+          "title": "For the Wind Is the Life - The Ideal Girlfriend Is Always Minami"
+        },
+        {
+          "aired": "2007-08-09",
+          "plot": "Every year during the Matsuri festival, a \"Courage Test\" event is held. This year Gintoki, Shinpachi and Kagura helps out in the event.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vMSTp2sbVjy3A2Z992il1iHtLhY.jpg",
+          "title": "Like a Haunted House, Life is Filled with Horrors"
+        },
+        {
+          "aired": "2007-08-16",
+          "plot": "Kamenashi (the turtle) tells the group about Otohime, the owner of the Dragon Palace, that they are the only ones who are capable of stopping her plan.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rjH8KiYnrBbja0RjHnfjMn5PKAS.jpg",
+          "title": "Please Help by Separating Your Trash"
+        },
+        {
+          "aired": "2007-08-23",
+          "plot": "The group goes to save Tae. On their way, Shinpachi, Gintoki and Katsura stumble upon a room where they learn about Otohime's past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kX2NAxvj3JG4EnsrKs71hMGdcnF.jpg",
+          "title": "Too Many Cuties Can Make You Sick"
+        },
+        {
+          "aired": "2007-08-30",
+          "plot": "Otohime's past lover's will gives the antidote (to the aging virus) to Shinpachi. However, their time is limited as a missile carrying another batch of the aging virus, aimed at Edo, is about to be sent off.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a89vUG6Y7RTSfS1M5SUwoaim3M3.jpg",
+          "title": "Some Data Cannot Be Erased"
+        },
+        {
+          "aired": "2007-09-06",
+          "plot": "Sadaharu is in \"heat\" and Yorozuya tries to find him a mate. / Katsura attempts to take a driving lesson-- a \"Might Happen\" driving lesson, that is.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q9I3qPU9MtdBJzYU9oEBUCOt4Dl.jpg",
+          "title": "A Dog's Paws Smell Fragrant - Drive With a 'Might' Attitude"
+        },
+        {
+          "aired": "2007-09-13",
+          "plot": "Katsura goes undercover at an Amanto-only Japanese restaurant to stop a radical branch of the Joi Faction's plan of causing havoc. Meanwhile, Hasegawa takes over a sushi bar while the owner's at hospital. The Yorozuya ends up helping after the sushi machine went out of order.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gtTV5pAksRFPZlJ5R8woXuZxsdS.jpg",
+          "title": "Think for a Minute Now, Do Matsutake Mushrooms Really Taste All that Good"
+        },
+        {
+          "aired": "2007-09-20",
+          "plot": "Edo's under attack by M-unibrow zombies!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lnR2Tw0TGvL6jM8GwGyw47vuh8Z.jpg",
+          "title": "The Manga Writer Becomes a Pro, After Doing a Stock of Manuscripts"
+        },
+        {
+          "aired": "2007-09-27",
+          "plot": "Gintoki, Shinpachi and Kagura recaps what has happened to date on their 2nd Year Anniversary special.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ahAHVzSEeJDFDODhd5RVfepztME.jpg",
+          "title": "Don't Complain About Your Job at Home, Do It Somewhere Else"
+        },
+        {
+          "aired": "2007-10-04",
+          "plot": "Otae's childhood friend, Kyubei Yagyu appears and takes Otae back to fufil her childhood promise.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yQMVN3Hi7gBuwp8M2iXdCZCl7Ak.jpg",
+          "title": "In Those Situations, Keep Quiet and Cook Red Rice With Beans"
+        },
+        {
+          "aired": "2007-10-11",
+          "plot": "Gintoki, Shinpachi, Kagura, Kondo, Hijikata and Sogo goes to the Yagyu family premises and attempts to get Otae back.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kVIEhIFVjlQbfwGx7nRKH3NACci.jpg",
+          "title": "Yesterday's Enemy, After All Is Said and Done, Is Still the Enemy"
+        },
+        {
+          "aired": "2007-10-18",
+          "plot": "The battle at the Yagyu family premises continues.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i5BwRspLK2QGWGOmgWbV6FD06FP.jpg",
+          "title": "People Who Are Picky About Food Are Also Picky About People, Too"
+        },
+        {
+          "aired": "2007-10-25",
+          "plot": "Gintoki, Isao, Toujou, and Binbokusai are in the toilet, all looking for something to wipe....",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tCjE7nPFQSKyFUHIUXXk9X29IN.jpg",
+          "title": "Four Heads are Better than One"
+        },
+        {
+          "aired": "2007-11-08",
+          "plot": "The battle between Gintoki and Binbokusai begins; meanwhile, Shinpachi discovered that Kyubei was girl.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cxdNCSHweWOcxlRcyP7wVhyaaKQ.jpg",
+          "title": "When Someone Who Wears Glasses Takes Them Off, It Looks Like Something's Missing"
+        },
+        {
+          "aired": "2007-11-15",
+          "plot": "The final episode in the Yagyu story arc.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yvREuFRpaVow7jkkxRm6CVvk20o.jpg",
+          "title": "A Woman's Best Make-up Is Her Smile"
+        },
+        {
+          "aired": "2007-11-22",
+          "plot": "The Yorozuya attempt to rid a town of monsters for some quick cash / The piggish Amanto female saved by the Yorozuya from the drug pirates enlists them to save her boyfriend from his former gang.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2VjWbbuXUh2G3r6IQoiR7IENmeW.jpg",
+          "title": "You Say Kawaii so Often, You Must Really Think You're Cute Stuff"
+        },
+        {
+          "aired": "2007-11-29",
+          "plot": "The cold/flu season hits hard; Yorozuya is enlisted to help out at Otae's workplace.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cBoqUSg3rd9Lsw4pmsB3Od4EiR5.jpg",
+          "title": "Rank has nothing to do with luck"
+        },
+        {
+          "aired": "2007-12-06",
+          "plot": "A washed out detective tells his tale about his life-long quest of pursuing of a thief who turned from righteous to evil.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A4kbJnQ5iULFLEpX9HlHVFNL9hb.jpg",
+          "title": "Hard-boiled Egg on a Man's Heart"
+        },
+        {
+          "aired": "2007-12-13",
+          "plot": "The detective, Gintoki, Shinpachi and Kagura crashed into a mansion in an attempt to capture the thief.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cih1iqc4YnpecYcrQjHwnIhJfKC.jpg",
+          "title": "Hard-Boiled Eggs Don't Crack"
+        },
+        {
+          "aired": "2007-12-20",
+          "plot": "Sougo's older sister, Mitsuba, arrived in Edo for a visit. Hijikata and Mitsuba's relationship is revealed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/od4k6xrBuAyIQC3zKA9YcmYAczd.jpg",
+          "title": "It's Often Difficult to Sleep When You're Engrossed With Counting Sheep"
+        },
+        {
+          "aired": "2007-12-27",
+          "plot": "Mitsuba is in bad condition due to her sickness; Sougo decides to go help Hijikata.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sbaHqDfvu1AImngpwK1K9QGHi7.jpg",
+          "title": "Perform a German Suplex on a Woman Who Asks If She or the Job Is More Important"
+        },
+        {
+          "aired": "2008-01-10",
+          "plot": "Tojo Ayumu enlisted the help of Yorozuya to help make a \"woman\" out of the tomboyish Kyubei. Gintoki's solution: a Gokon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kclDsKkuAjpWDRmFJmLBNuRDBWl.jpg",
+          "title": "The Most Exciting Part of a Group Date is Before it Starts"
+        },
+        {
+          "aired": "2008-01-17",
+          "plot": "The spirit of the sword that Gintoki carries appears to teach Gintoki, Shinpachi and Kagura an ultimate technique.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tWEB6l3xGateBfLMGMDlZIvVrlZ.jpg",
+          "title": "What Happens Twice, Happens Thrice"
+        },
+        {
+          "aired": "2008-01-24",
+          "plot": "Gintoki, Shinpachi Kagura and Hasegawa are hospitalised (The Yorozuya gang for food poisoning from eating unfresh crabs; Hasegawa got knocked down by a car). They get themeslves involved when a young nurse falls in love with one of her patients.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oVq2kmg45k8ej9sGtu5SGjSqR17.jpg",
+          "title": "The More Delicious the Food, the Nastier It Is When It Goes Bad"
+        },
+        {
+          "aired": "2008-01-31",
+          "plot": "Our female characters joined a \"slimming\" camp to shed off their extra weights.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4HacLol6THDDv2Zbhs0WY5qtBe2.jpg",
+          "title": "If You Want To Lose Weight, Then Stop Eating and Start Moving"
+        },
+        {
+          "aired": "2008-02-07",
+          "plot": "An assassin has been hired to kill Matsudaira; but encounters unexpected scenerios while carrying out the task.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qrB10pdBwDf4B7wf6UCdqrpH0Q4.jpg",
+          "title": "Be a Person Who Can See People's Strong Points and Not Their Weak Points"
+        },
+        {
+          "aired": "2008-02-14",
+          "plot": "It's Valentine's Day, and a space heroine comes to Edo to confess her intention to...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/liBOWYA3e7GpQPZ4mCOmU6PVqdd.jpg",
+          "title": "Even a hero has issues"
+        },
+        {
+          "aired": "2008-02-21",
+          "plot": "Hasegawa gets a job. While commuting on his first day, an accident lands him in jail with harassment charges.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5yJ9Jtb3SswquJYw2iO1w2GhLjK.jpg",
+          "title": "When Riding A Train, Make Sure You Grab the Straps With Both Hands"
+        },
+        {
+          "aired": "2008-02-28",
+          "plot": "The trial of Hasegawa's harassment charge comes to a conclusion.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8UUqdKpdPQoth1T2g7JLH6MnUsn.jpg",
+          "title": "Men, Be a Madao"
+        },
+        {
+          "aired": "2008-03-06",
+          "plot": "A planet's attacked by mysterious beings. It is up to Umi Bouzu to settle things and to out an end to the attacks. How will the end turn out?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vROW8aRho3oNAAgIuIev8ZwJZAI.jpg",
+          "title": "If You're a Man, Don't Give Up"
+        },
+        {
+          "aired": "2008-03-13",
+          "plot": "Old gangmates of Catherine try to convince her to join them on a heist.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/41FhjyKYQsLsNN1ybOhf1D3Iq4Q.jpg",
+          "title": "Exaggerate the Tales of Your Exploits by a Third, So Everyone Has a Good Time - Men Have a Weakness for Girls Who Sell Flowers and Work in Pastry Shops"
+        },
+        {
+          "aired": "2008-03-20",
+          "plot": "The popular game console \"Owee\" is finally on sale. The otaku, as well as the Yorozuya and the Shinsengumi are at the store trying to get their hands on the consoles.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zWC1LFc6yGkEipaQBBwdsmip8mX.jpg",
+          "title": "Play Video Games for Only an Hour a Day"
+        },
+        {
+          "aired": "2008-03-27",
+          "plot": "Yorozuya and Shinsengumi are divided into two teams to play against each other in a video-gaming contest (for their chance to win free \"Owee\").",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2AT2lTbI3u5ZJjpx7pcf48nMlpb.jpg",
+          "title": "Life and Video Games are Full of Bugs"
+        }
+      ]
+    },
+    "3": {
+      "episodes": [
+        null,
+        {
+          "aired": "2008-04-03",
+          "plot": "Gintoki gives his suggestions to the editor and author of \"Gintaman\" on what should the series improve on.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6zbgE8OA0jBJFhzlVtGSr1ku4LV.jpg",
+          "title": "The More Something Is Disliked, the More Lovely It Is"
+        },
+        {
+          "aired": "2008-04-10",
+          "plot": "Some Shinsengumi member shows up, and it is soon revealed to be a rival of Hijikata.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rc5HLvSfsend2E4pFzh99b6kfg9.jpg",
+          "title": "Rules Are Made to be Broken"
+        },
+        {
+          "aired": "2008-04-17",
+          "plot": "Itou Kamotarou (appeared on the previous episode) proceeds with his agenda. Hijikata seeks help from the Yorozuya to save the Shinsengumi from destruction.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/57FnaLOQNuPyK9R9gXW5NUPkUov.jpg",
+          "title": "Otaku Are Talkative"
+        },
+        {
+          "aired": "2008-04-24",
+          "plot": "Okita appears to save Kondou from the rebel Shinsengumi led by Itou. The Yorozuya along with Hijikata are also on their way to the scene.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pnykgswJl19qwvYsFIrXr2Laex3.jpg",
+          "title": "There's a Thin Line Between Strengths and Weaknesses"
+        },
+        {
+          "aired": "2008-05-01",
+          "plot": "Now fully free from the curse, Hijikata battles against Itou. Meanwhile, Gintoki is forced into a confrontation with none other than Bansai, right hand man to Takasugi.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4t8T0DRIWzapjSDiIglnuhev8X1.jpg",
+          "title": "Important Things Are Hard To See"
+        },
+        {
+          "aired": "2008-05-08",
+          "plot": "The concluding finale to the (Itou) Shinsengumi Discord Arc.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tySNaEnaCVx58UbJTLdI7DtiNSg.jpg",
+          "title": "It's All About the Beat and Timing"
+        },
+        {
+          "aired": "2008-05-15",
+          "plot": "Kagura accidentally knocks out an international soccer team when their capitan was out by giving them water from a janitors bucket and now The Yorozuya and others have to fill the teams spots.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/whQPrZu86pIUHXcoMjRLh1XAEju.jpg",
+          "title": "Love Is Often Played Out In Sudden Death"
+        },
+        {
+          "aired": "2008-05-22",
+          "plot": "The Yorozuya are requested to help a Yakuza boss's son who has become a hikikomori, but little do they know how dangerous this job could turn out to be...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wgiABheis5dxTtHlRiT88O4XPGh.jpg",
+          "title": "Kids Don't Understand How Their Parents Feel"
+        },
+        {
+          "aired": "2008-05-29",
+          "plot": "The Yorozuya's Yakuza client has died, and the group's young new leader carries a dark secret about the boss's son.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yC8ZaHjxnZ3BPeTi7uV0q59V1gM.jpg",
+          "title": "Some Things Are Better Left Unsaid"
+        },
+        {
+          "aired": "2008-06-05",
+          "plot": "Yamazaki, with the intent of spying on the Joui faction, undergoes the necessary testing and training as one of its new recruits.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4u03P9cyxWzuHasefypxkazsa27.jpg",
+          "title": "Life is a test"
+        },
+        {
+          "aired": "2008-06-12",
+          "plot": "Katsura is inprisoned, and fellow inmate Suekichi tries to find a way to make Katsura fall asleep so that he can make a his escape.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8Fq9QpnpsbUSzwB7nH8IUbsHyEb.jpg",
+          "title": "People Are All Escapees of Their Own Inner Prisons"
+        },
+        {
+          "aired": "2008-06-19",
+          "plot": "Yorozuya's asked by a crossdresser hostess to help with the courting of a host. \n\nA story about Kagura and an umbrella during the rainy season.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wf0wTlcR51g9m2xRzDadWPNyW4C.jpg",
+          "title": "Definitely Do Not Let Your Girlfriend See the Things You Use for Cross-Dressing - There's Almost a 100% Chance You'll Forget Your Umbrella and Hate Yourself For It"
+        },
+        {
+          "aired": "2008-06-26",
+          "plot": "Katsura briefly takes over the series in an attempt to promote his birthday; in the main story, Gintoki attempts to help Tama find a way to enjoy herself.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/whiCjIJcY6cEdr7zFW7pL34fohO.jpg",
+          "title": "A Birthday in Your Twenties Has No Deep Meaning - Lucky Is a Man Who Gets Up and Goes to Work"
+        },
+        {
+          "aired": "2008-07-03",
+          "plot": "A member of the Shinsengumi suggests a \"washroom revolution\". Eventually it evolves into a battle of Shinsengumi vs. washroom germs.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mWErlAbjNuMYLUr3F3tES9WU5v0.jpg",
+          "title": "Cleaning the Toilet Cleanses the Soul"
+        },
+        {
+          "aired": "2008-07-10",
+          "plot": "Hijikata tells Matsudaira that he would fend off the store clerks who are coming-on to Matsudaira's daughter, Kuriko, just so he'd spare their lives. Kuriko mistakens Hijikata as some other person and starts to have feelings for him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lzVunbmhSgYI3zXkouWxpCy6cHD.jpg",
+          "title": "They Say Soy Sauce On Pudding Tastes Like Sea Urchin, But Soy Sauce On Pudding Only Tastes Like Pudding and Soy Sauce"
+        },
+        {
+          "aired": "2008-07-17",
+          "plot": "While Gintoki, Shinpachi, Kagura, Hasegawa, Tae, Kyuubei and Katsura are on their way to the legendary Dragon Palace, a quarrel between them ends up bringing them onto an isolated island.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o5XFwHZz08U4xF7dtsGNXt8D2Xr.jpg",
+          "title": "Summer Vacation is the Most Fun Right Before It Begins"
+        },
+        {
+          "aired": "2008-07-24",
+          "plot": "The time to settle the battle for the official fan club title is finally here. The match between Shinpachi and Hijikata is a card battle using Otsu chip playing cards. Never knowing such a thing existed, Shinpachi rushes to the vendor for some cards. Hijikata on the other hand is fully prepared and delivers the ultra powerful card “Melancholy 5-minutes before start”! Hijikata’s range of powerful attacks forces Shinpachi to stay on the defensive. Can he possibly find a way to make a counterattack?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ewppMHT3EPQOH4hhgDabjewARdI.jpg",
+          "title": "The older, the wiser"
+        },
+        {
+          "aired": "2008-07-31",
+          "plot": "The group goes to save Tae. On their way, Shinpachi, Gintoki and Katsura stumble upon a room where they learn about Otohime's past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i8o4DP11AmaVMNGOJvE3hcWqKXz.jpg",
+          "title": "Beauty is like a summer fruit"
+        },
+        {
+          "aired": "2008-08-07",
+          "plot": "Otohime's past lover's will gives the antidote (to the aging virus) to Shinpachi. However, their time is limited as a missile carrying another batch of the aging virus, aimed at Edo, is about to be sent off.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2xZsynqQfsvh4clO87zZmQ6MlWa.jpg",
+          "title": "Even if Your Back is Bent, Go Straight Forward"
+        },
+        {
+          "aired": "2008-08-14",
+          "plot": "Smoking ban comes to Edo. Heavy smoker Hijikata is desperate to find cigarettes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rW17UrIpmw58U13SPiaqVM8UvPf.jpg",
+          "title": "Within Each Box of Cigarettes, Are One or Two Cigarettes That Smell Like Horse Dung"
+        },
+        {
+          "aired": "2008-08-21",
+          "plot": "Part A: \"The quality of overseas Japanese restaurants are around that of school cafeterias.\" Katsura goes undercover at an Amanto-only Japanese restaurant to stop a radical branch of the Joi Faction's plan of causing havoc.  Part B: \"Plates won't be returned once they're taken.\"Hasegawa takes over a sushi bar while the owner's at hospital. The Yorozuya ends up helping after the sushi machine went out of order.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vYpshUYoSmtUn66vH11PDEZiMMr.jpg",
+          "title": "Japanese Restaurants Abroad Taste Pretty Much Like School Cafeteria Lunches - Once You've Taken a Dish, You Can't Put It Back"
+        },
+        {
+          "aired": "2008-08-28",
+          "plot": "The Yorozuya goes into the world of online role playing game (RPG) to search for the Amantos who are responsible for turning part of their bodies into screwdriver heads.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/irWKGTV2iIvzcI932qwGLMPSxDS.jpg",
+          "title": "Novices Only Need a Flathead and a Phillips"
+        },
+        {
+          "aired": "2008-09-04",
+          "plot": "Gintoki, Shinpachi, and Kagura go around in the online role playing game to find powerful players to be their companions on their search for the Amanto. Their new found companions however, are not what they seem to be.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9eqgiWxAgsFvUH6f9VIjwBecNIz.jpg",
+          "title": "Imagination Is Nurtured In the 8th Grade"
+        },
+        {
+          "aired": "2008-09-11",
+          "plot": "Gintoki and the gang arrive at Tama’s main system. The group tries to devise a battle strategy for fighting the Great Archfiend Tapir’s black body suit minions. But they can’t come to an agreement. Deciding it’s a waste of time, Kagura charges alone into the swarm of black body suits. Using this as a diversion, the group storms the enemy base, only to be surrounded after Gintoki and the Leukocyte King get into an argument. But during their rumble to decide who’s the strongest, the two wind up destroying the black body suit minions. And finally, the Great Archfiend Tapir appears!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9bZo8AQbX3KT60lqHQEiIhLz48w.jpg",
+          "title": "Always Keep a Screwdriver In Your Heart"
+        },
+        {
+          "aired": "2008-09-18",
+          "plot": "Otsu has overcome her past scandals and become Edo's top idol. And the release date of her new single has finally been announced! Shinpachi and her other fans are overjoyed at the news. But there trouble arises right before the release. Otsu's music producer, Tsunpo, is late with the creation of her song and says the release will be postponed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oqVK8C2OWdq6js6FaLp28OPw9u1.jpg",
+          "title": "When Nagging Goes Too Far It Becomes Intimidating"
+        },
+        {
+          "aired": "2008-09-25",
+          "plot": "Part A On top of the Odd Jobs building, two awfully familiar men seem to be scheming. They manage to hide themselves from several visitors, but they are spotted by the man who’ll cause the biggest mess of all: Katsura! \n\nPart B Gintoki’s alarm goes off, and he decides to takes a shower to sober up. While in the shower, something happens to Gintoki! Seems Kagura and Shinpachi are also caught up in the mess, and they wonder how this could have happened to them... The three heroes face a crisis like none other!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rcfYFwiMQE6U37QLYtkmIFQqeV9.jpg",
+          "title": "Entering the Final Chapter!"
+        },
+        {
+          "aired": "2008-10-02",
+          "plot": "The fan club members for Edo's top idol, Tsu Terakado, are at the beach practicing their choreography for an upcoming concert. But Takachin notices his fellow members’ enthusiasm getting sloppy. One of the fan club officers has started exchanging e-mails with a girl he met through a blog. Shinpachi is furious the officer has broken their club rule of “Secret communication with women is forbidden.” As their captain, he puts some spirit into them, but…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xPHF425fV8KVOP6nk4Wdfj9nI7r.jpg",
+          "title": "Some Things Can Only Be Conveyed Through the Written Word"
+        },
+        {
+          "aired": "2008-10-09",
+          "plot": "Even though it’s believed the letters are coming from Okita, Shinpachi's response letter turn out to be a big hit. Urara is happy her older sister has received a response to her letters. But her older sister confesses that she sent Urara's picture with the letter. And it looks like both Shinpachi and Urara sent someone else's pictures with their letters!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qmK9dxklqiKljsm25UVIVplL1bH.jpg",
+          "title": "Sometimes You Must Meet to Understand"
+        },
+        {
+          "aired": "2008-10-16",
+          "plot": "Urara's older sister learns that Shinpachi sent Okita's picture with his letters. Shinpachi desperately tries to apologize, but Urara's older sister tells him that she wants to help him get Urara to like him. Afterwards, Gintoki and the others meet up with Urara and Okita. They try to get Urara's attention, but she is only interested in Okita. Urara's older sister can’t do anything about it and runs away in regret. Shinpachi is worried and goes after her, but…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gWuPsapO2Vh4VtfisO8HsSrMh1o.jpg",
+          "title": "Sometimes You Can't Tell Just By Meeting Someone"
+        },
+        {
+          "aired": "2008-10-23",
+          "plot": "Worried about her pet’s sudden drop in appetite, Kagura takes Sadaharu to the veterinary hospital. Katsura happens to be there as well, explaining how Elizabeth is in bad health and has been hospitalized to undergo surgery. Fortunately Sadaharu’s condition is nothing serious, but he’s kept overnight just to be safe. Around the same time, an old dog that has also been hospitalized is about to take its last breath. It seems the owner is in critical condition as well, and with only death awaiting them both, Kagura decides to take the old dog to its owner.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bGmEFuUlJML8scFHORcPAPhMyKc.jpg",
+          "title": "Beware of Food You Pick Up Off the Ground"
+        },
+        {
+          "aired": "2008-10-30",
+          "plot": "To let the dying dog Kintaro see its owner for one last time, Kagura and Katsura sneak it out of the hospital…only to find themselves caught in the war between the “Planet Eaters” (dogs) and “Planet Pukers” (cats), while Earth’s fate hangs in the balance. Escaping from the Planet Pukers, who are after Kintaro, the two head to the hospital where the old man is hospitalized. Meanwhile, the old man, who is supposedly in critical condition, goes missing. The old man’s children request Gintoki’s services, but when he arrives at the hospital…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zqDvOl4o44S2Fii31tEtiBSdpq6.jpg",
+          "title": "Cat Lovers and Dog Lovers Are Mutually Exclusive"
+        },
+        {
+          "aired": "2008-11-06",
+          "plot": "Otose arranges for Gintoki and the gang to spend their winter break at a hot spring inn located deep in the mountains. Anticipating a secluded hot spring bath, the group hikes their way up the mountain trail, only to arrive at a completely deserted and run-down inn. With no available bus to return to Edo, the gang has no choice but to stay at the inn. The inn’s Okami Oiwa welcomes the group, but Gintoki and Shinpachi notice a transparent being standing behind her back!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qyF4IdsgIvvTXcRTok4cafnJQa2.jpg",
+          "title": "Fights Often Ensue During Trips"
+        },
+        {
+          "aired": "2008-11-13",
+          "plot": "The inn Gintoki and the gang are staying at turns out to be a ghost inn where all the stands (ghosts) gather, unable to enter heaven due to their attachment to the living world! Gintoki finds himself left all alone after Shinpachi, Kagura, and Otae are all possessed by stands. The Okami Oiwa explains she was looking for someone tough enough to help run the inn. Forced into working as an employee trainee, Gintoki must now join his co-worker Rei to greet the visiting stand customers…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3QP6UpX8S9pmOWERRQmdr0cLvHY.jpg",
+          "title": "Briefs Will Unavoidably Get Skidmarks"
+        },
+        {
+          "aired": "2008-11-20",
+          "plot": "Sick and tired of Oiwa’s tyranny, Gintoki decides to shut down the inn by teaming up with Rei. He plans to use Nobunaga, Hideyoshi, and Mitsuhide (their stands, that is) to bring down the inn’s reputation but is stopped by Okami Otose. Though overwhelmed at first by Okami’s most powerful stand Tagosaku, Gintoki nonetheless manages to exorcize the inn’s customers with the help of Shinpachi and the gang, who are now themselves living stands. With the fate of the inn and himself at stake, Gintoki finally enters a one-on-one battle with Oiwa.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rwYZy1vM9p72ajIDhr5toXFXXqT.jpg",
+          "title": "Gin and His Excellency's Good-for-Nothings"
+        },
+        {
+          "aired": "2008-11-27",
+          "plot": "Gintoki strikes down Jiraia and frees Tsukuyo from his twisted web. Chiding Tsukuyo for trying to shoulder every burden herself, Gintoki goes on to say that rather than throw away your life to die beautifully, it’s far better to live and be yourself – even if your life is not a pretty one. And finally, Gintoki expresses his anger toward Jiraia for betraying his own student, despite calling himself a master.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iby2SlHi17cIaWhT4QA84UmsFHr.jpg",
+          "title": "Be Very Careful When Using Ghost Stories"
+        },
+        {
+          "aired": "2008-12-04",
+          "plot": "Once, the manga Gintaman gained immense popularity in Jump magazine, and was even made into an animated series thanks to Gintoki’s random advice. Ofuji has since taken over from Konishi as editor of Gintaman… But now the manga’s popularity is on a steady decline! Under these desperate circumstances, Gintoki is once again called forth to help fix the problem! Strong criticism and heated debate ensue between Ofuji, Konishi, and Amachi Sensei, along with their special guest. In the end, what sort of breakthrough solution have they come up with?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sMJkpme6fwKqzrInRfG16SfkM1w.jpg",
+          "title": "Before Thinking About the Earth, Think About the More Endangered Gintaman's Future!"
+        },
+        {
+          "aired": "2008-12-11",
+          "plot": "As always, Hasegawa, aka MADAO idles away his life. While talking on the phone with his estranged wife Hatsu, Hasegawa ends up inviting her over to his house. But thanks to a string of misfortunes, his home is now a cardboard box in the park! Having told Hatsu that he lives in a pretty nice place, Hasegawa asks Gintoki to help him look for a descent housing…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cSOcAQ8ylkIO2xqnEORByaC86dy.jpg",
+          "title": "It's your house, you build it"
+        },
+        {
+          "aired": "2008-12-18",
+          "plot": "Characters unhappy with the popularity poll results begin attacking high-ranking characters. Surrounded by the low-ranking characters, Shinpachi attempts to escape across the rooftops but loses his footing and falls. Just when Shinpachi thinks he’s done for, he is saved by an unknown hand and manages to flee from Catherine and the other low-ranking characters. When everybody is an enemy, which character would be willing to lend a helping hand?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/86qFPeZqTymhUjhJyb0SGR8ez7d.jpg",
+          "title": "99% Of Men Are Not Confident In Confessing Their Love"
+        },
+        {
+          "aired": "2008-12-25",
+          "plot": "Characters unhappy with the popularity poll results begin attacking high-ranking characters. Surrounded by the low-ranking characters, Shinpachi attempts to escape across the rooftops but loses his footing and falls. Just when Shinpachi thinks he’s done for, he is saved by an unknown hand and manages to flee from Catherine and the other low-ranking characters. When everybody is an enemy, which character would be willing to lend a helping hand?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8pp8RYlGl0ezomHkIgKqXZSIvy3.jpg",
+          "title": "Let's Talk About the Old Days Once in a While"
+        },
+        {
+          "aired": "2009-01-08",
+          "plot": "The Odd Jobs are requested to remove a hornets’ nest on the temple grounds. Fully armored in protective suits, what awaits the trio is a ginormous hive, like none they’ve ever seen before. Arguing that this wasn’t what they signed up for, Gintoki prepares to leave, but Kagura goes off and destroys the hive. The trio quickly plays dead to avoid getting attacked by the raging hornets, but are instead greeted by something quite unexpected...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qh6ABxNrGAIPux33cBXnr9pya0j.jpg",
+          "title": "Don't Put Your Wallet In Your Back Pocket"
+        },
+        {
+          "aired": "2009-01-15",
+          "plot": "Okita is going through a selection of sweets at the cake shop. As Okita leaves the store, a girl suddenly comes up and stabs him!! Calling Okita her father’s killer, the girl’s action seems to be fueled by a past case called the “Rokkaku Incident.” What is the connection between this incident and Okita, as well as the girl’s father? And more importantly, what’s the fate of Okita who’s been stabbed right at the start of this episode?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6JNNsXpywh2XENsgjshuzMA9hhM.jpg",
+          "title": "Beware of Those Who Use an Umbrella on a Sunny Day!"
+        },
+        {
+          "aired": "2009-01-22",
+          "plot": "Gintoki and Shinpachi start re-investigating the Rokkaku incident. Upon learning what really happened from Kamiyama, one of Okita’s subordinates, they leave to save Okita. Meanwhile, Okita is captured by Sotatsu Tendo after falling into his trap involving Kirie. Tendo babbles on about how he returned to seek revenge against Okita, who destroyed the Sokai Faction, and goes on to reveal the truth about Kirie’s father.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/phf6wesqyr5uNHBLLJFa4xf6z1g.jpg",
+          "title": "Butting Into a Fight is Dangerous"
+        },
+        {
+          "aired": "2009-01-29",
+          "plot": "As Gintoki and the gang head toward Hosen’s lair, they encounter Abuki, one of Kamui’s subordinates, and are overwhelmed by the incredible fighting power of the Yato Clan. On Shinpachi and Kagura’s urging, Gintoki heads out to face Hosen alone. The remaining two fight desperately against Abuki, only to be cornered by the overwhelming difference in power. In the midst of the fierce battle Kagura renews her feelings toward her older brother Kamui and her reason for fighting. But with Shinpachi’s life in danger, Kagura goes through a dramatic transformation…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9P15jvziHQXCxrOIXMsgkl9pINr.jpg",
+          "title": "Life is about making consecutive decisions"
+        },
+        {
+          "aired": "2009-02-05",
+          "plot": "Amidst the fierce battle, Kagura awakens to her Yato instincts and defeats Abuto. Thanks to Shinpachi’s desperate plea, Kagura is able to return to her senses and together they head after Hosen. Meanwhile Kamui has brought Seita before Hinowa, who is confined to her quarters. “Mom, let’s go home together!” Seita shouts out to his beloved mother. However, unexpected words leave Hinowa’s mouth…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2TkKiedMrEKvdfRAxNfk7Ac8TpJ.jpg",
+          "title": "Those Who Stand On Four Legs Are Beasts. Those Who Stand on Two Legs, Guts, and Glory, Are Men"
+        },
+        {
+          "aired": "2009-02-12",
+          "plot": "While on a job observing stray cats at a shrine feeding themselves,the Yorozuya waiting for the boss cat to show up with the name Hoichi. But as he finally shows up, and Kagura and Shinpachi jump out of the bushes to capture him, he escapes easily. So they ask Gintoki to help out, when they notice that he mysteriously disappeared.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fAsu05T6isrbvu6mrihinA0Lr9m.jpg",
+          "title": "Don't Trust Bedtime Stories"
+        },
+        {
+          "aired": "2009-02-19",
+          "plot": "The only way to defeat Hosen is to bring back the Sun to the Yoshiwara Shangri-La, the city trapped within eternal night. Seita runs for the control room to break open the iron-plated seal covering the city. Meanwhile, Gintoki and the Hyakka led by Tsukuyo are desperately holding off Hosen’s attack. But despite their best efforts, they cannot stop the King of The Night’s onslaught…King",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iydhmgpUZs9j32Rhn2zuBU4p8oC.jpg",
+          "title": "The Color for Each Person's Bond Comes in Various Colors"
+        },
+        {
+          "aired": "2009-02-26",
+          "plot": "While protecting Gintoki from the stray cats, Hoichi and the cats get caught. Soon Gintoki, Katsura and Kondo goes to save him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lwJbc0LkkcRKHRd1xGK3TJ8RRdg.jpg",
+          "title": "The taste of drinking under broad daylight is something special"
+        },
+        {
+          "aired": "2009-03-05",
+          "plot": "It is shortly after the fierce battle at Yoshiwara Shngri-la. Shinpachi and Kagura, having faced powerful foes in Hosen and Kamui unlike any they have encountered, are training hard after realizing their lack of strength. Both announce to Gintoki their determination to become stronger. But Gintoki declines to become involved, saying it’s a pain. Learning of the situation, Otae and Hasegawa share their training secrets, but…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dsky4ucnivljnVBd3pOFSPzGPfI.jpg",
+          "title": "All Adults are Instructors for All Children"
+        },
+        {
+          "aired": "2009-03-12",
+          "plot": "The episode begins with a short sequence about Kamui transferring into Yato High School and is told from Abuto's point of view. While the Shinsengumi are out on a mission, Hijikata notices snot coming out of Kondo's nose so he wonders how he could tell him without the others noticing Kondos problem. In the end the snot even takes control over Kondo's body and it comes out that Kondo's true identity is being an Amanto in snot form. As Hijikata destroys it, he realizes it has been all a dream.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hkt7anWP2ZxGE26ILvhGw3J9ivK.jpg",
+          "title": "Zip Up Your Fly Nice and Slowly"
+        },
+        {
+          "aired": "2009-03-19",
+          "plot": "As the bombing of the Shinsengumi headquarters nears, Hijikata and Okita are still unable to find any means for escape. Only one key exists to unlock the shackles chaining each other. But if the key is used, it will set off a bomb to kill the other. The rule of the devil begins to stir distrust between the two. Though he commends them for not betraying one another, Jigzaw pressures them to make the final decision by displaying a certain item.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pFKG07NUuKn8d0xZuho5A2vSSw2.jpg",
+          "title": "When breaking a Chuubert in half, the end with the knob should be better. It's also tasty to drink from there"
+        },
+        {
+          "aired": "2009-03-26",
+          "plot": "The Odd Jobs trio is going about their usual meaningless chatter when a man with an eye-patch suddenly shows up and begins “ordering” them around. The man’s “power” is so strong, the Odd Jobs find themselves unable to defy his orders…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7eEMUEi8VrgOVm6mSdpDpOAqRhH.jpg",
+          "title": "If You Can't Beat Them, Join Them"
+        }
+      ]
+    },
+    "4": {
+      "episodes": [
+        null,
+        {
+          "aired": "2009-04-02",
+          "plot": "Gintoki visits a barber shop to get his hair cut. After Kagura mentions that the seventh volume of the manga Abu is missing, the barber runs off to buy the volume and leaves the Yorozuya to look after the shop. After a while Katsura and Kondo enter the shop to get an image change. Then the Shogun enters suddenly the shop and wants a hair cut, too. The Yorozuya fall into despair because they don't even know how to cut hair properly.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aRSfxB4SNLVqYrJ1GUOupTEwl9j.jpg",
+          "title": "A Conversation With a Barber During a Haircut is The Most Pointless Thing in The World"
+        },
+        {
+          "aired": "2009-04-09",
+          "plot": "The Shogun wants Gintoki, Kagura and Shinpachi to redo his mage. After Kagura is trying to ask the Shogun how he wants his hair done, she vomits and a Naruto gets stuck on the Shogun's head. Then the three Yorozuya try removing it with a razor and accidentally cut off the Shogun's mage. To cover up their mistake they try to find a replace for it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jiSO9FqXN3dhE986WgZl5Q20iPK.jpg",
+          "title": "The Heavens Created Chonmage Above Man Instead of Another Man"
+        },
+        {
+          "aired": "2009-04-16",
+          "plot": "Kagura can't fall asleep , so she goes to Gintoki's room and troubles him about her problem. After few methods, she finally fells asleep while listening to a story from a radio show. Unfortunately Gintoki listened to this Horror story as well, and now he can't fall aleep.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fhL0LDNeDyFm9FKaWvIfQTWRWkQ.jpg",
+          "title": "Sleep Helps a Child Grow"
+        },
+        {
+          "aired": "2009-04-23",
+          "plot": "It's Christmas in Edo and Kagura writes her father a letter. She is sad that Santa Claus never visited her. Moved, her father Umi Bozu dresses himself up as Santa and hides watching Kagura, Otae, Shinpachi and Hasegawa celebrate Christmas. When he finally jumps out of the bushes to surprise her there is another Santa, a dressed up Gintoki. Both of them think that their counterpart is real. They start punching each other when another three Santas show up (Sachan, Kondo and Kyubei). Kagura decides on a contest to see who's the real Santa.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ijNoNFKeeuzFnmuneSh40fHc16f.jpg",
+          "title": "That person looks different from usual during a birthday party"
+        },
+        {
+          "aired": "2009-04-30",
+          "plot": "The contest has finally begun but instead of a real contest to decide who's the real Santa, Kagura, Otae and the five Santas together with Shinpachi and Hasegawa are shown in various scenes playing a role like a school girl and not fighting each other like in a real contest. In each scene they imagine, the Santa has to show his kind of version what he would do as Santa and this is judged by Kagura, Otae and Hasegawa. Although in the end none of the Santas has any desire to continue with this contest so they all quit. The episode ends with Kagura, all along figured out the identity of everyone, wishing everybody a Merry Christmas.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9e0Q9ZGjpawaawiorBqD2uFAUWY.jpg",
+          "title": "The other side of the other side of the other side would be the other side"
+        },
+        {
+          "aired": "2009-05-07",
+          "plot": "Yatai “Guchiri-Ya” (Whining Store) has three rules: One, a customer can come in alone and whine as much as they want. Two, if there’s a familiar face, pretend like you don’t know them. And three, do not share the stories you hear. Tonight’s customers are a drowsy-looking samurai with a sweet tooth, a Mayo samurai, and finally Mr. Gorilla (pseudonym). Though permitted to whine, the three customers cannot help feeling awkward about it. So the master speaks on their behalf and spills their usual complaints, causing panic amongst the group. Just then, a familiar-looking woman enters the Yatai and begins attacking the other customers with sharp words (and weapons)!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7AnnxyEv3ZTXiKtXHnLBpSRgWOQ.jpg",
+          "title": "It Takes a Bit of Courage to Enter a Street Vendor's Stand"
+        },
+        {
+          "aired": "2009-05-14",
+          "plot": "Today’s Tsu Terakado concert is another lively success. But fan club president Shinpachi is angered because only four of the Tsu Terakado fan club members have come to the concert. He is further enraged to learn that many of the club members have left without permission and have joined the new Tsusentai fan club instead. To Shinpachi’s surprise, the Tsusentai leader is Hijikata, who thanks to the demonic sword’s curse has now become a charismatic otaku! Can Shinpachi protect his only(?) distinctive trait from Tosshi’s onslaught?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cd9kfyCgB2dEcwxf77aduQ39xfA.jpg",
+          "title": "Any Place Can Become a Battlefield When Men Gather"
+        },
+        {
+          "aired": "2009-05-21",
+          "plot": "The fierce battle begins over the title of the Official Tsu Terakado fan club. Tosshi, Hijikata’s loser otaku personality created from a demonic sword, was once thought to have been defeated by Hijikata’s strong will, but in reality the personality still survives within him. By reigning as the king of otaku, Hijikata plans to put Tosshi’s soul to rest. Tosshi’s road to the king of otaku versus Shinpachi’s love for Otsu-chan. Who shall be victorious?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vfUOKizLiegZ9GFEjq6MSlDifhv.jpg",
+          "title": "If a Friend Gets Injured, Take Him to the Hospital, Stat!"
+        },
+        {
+          "aired": "2009-05-28",
+          "plot": "The preliminary round for the Official Tsu Terakado fan club title is a marathon race. With Takachin in critical condition and Kagura taking the wrong route, team Shinpachi’s chances of winning look slim. But thanks to Gintoki’s quick thinking, Takachin makes an instant (and improved?) recovery and emerges from the hospital to rejoin the race! As the race gradually turns into a battle of deception, Shinpachi runs furiously for the goal. Will he be able to beat the tactical general Tosshi?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mawSiHfjbJ3KzKxm6Vbx1LsLGxY.jpg",
+          "title": "If one orange in the box is rotten, the rest of them will become rotten before you realize it!"
+        },
+        {
+          "aired": "2009-06-04",
+          "plot": "Tosshi finishes the preliminary race in first place by rounding up all the contestants to block Shinpachi’s team from making the goal. Despite Toshi’s scheming, team Otsu-chan fan club makes a surprising comeback to finish in second place! Hijikata points out that the team cheated by changing their member lineup, but with his own member suspected of using a taxi, the objection is dropped. Kondo and Kagura also finish the race after taking the wrong route and being dropped off by the police. Meanwhile, what happened to Shinpachi who’s still in the race? That being said and done, the main event finally takes place!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u1mozVYMy8EqnTxgz2UK6EgmhGI.jpg",
+          "title": "From a foreigner's perspective, you're the foreigner. From an alien's perspective, you're the alien"
+        },
+        {
+          "aired": "2009-06-11",
+          "plot": "For the second round in the Official Tsu Terakado fan club championships, it is a battle of charms. Both teams must come up with a virtualized situation where the winner is decided by Otsu-chan saying “yes.” First up is the Tsusengumi’s story, taking place in a bar with a beautiful night view. But the romantic mood is ruined thanks to Okita the narrator and assistants Kondo and “Mohawk” Yamazaki going out of control. Hijikata begins to panic, but with Kondo and the others’ carefully crafted stage direction he succeeds in asking Otsu-chan out. Shinpachi’s team find themselves in a tight situation, but...?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yccJfB4cr8JTDPOoJeWF4rgzrz.jpg",
+          "title": "Laputa's still good after seeing it so many times"
+        },
+        {
+          "aired": "2009-06-18",
+          "plot": "The time to settle the battle for the official fan club title is finally here. The match between Shinpachi and Hijikata is a card battle using Otsu chip playing cards. Never knowing such a thing existed, Shinpachi rushes to the vendor for some cards. Hijikata on the other hand is fully prepared and delivers the ultra powerful card “Melancholy 5-minutes before start”! Hijikata’s range of powerful attacks forces Shinpachi to stay on the defensive. Can he possibly find a way to make a counterattack?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/11kgZijsusyMvdnQ1y98SE4utNS.jpg",
+          "title": "Love Is Unconditional"
+        },
+        {
+          "aired": "2009-06-25",
+          "plot": "After an intense battle, Shinpachi and Hijikata both fall to the ground with zero life points. Despite being exhausted and battered, the two men rise up to resume their battle. They fight as if their lives—no, their very souls—were on the line and Otsu begs them to stop. But nobody can stop them now. For their battle is no longer just for the title of official fan club...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pa8OtFDfBUrbRVmzsIQPzGjKGuY.jpg",
+          "title": "The Black Ships Even Make A Scene When They Sink"
+        },
+        {
+          "aired": "2009-07-02",
+          "plot": "PART A - Rumors of Yorozuya imposters gaining popularity within the city reach Gintoki’s ears. Upon investigating, the Odd Jobs Trio discover that someone is using their Yorozuya name for fishy business and making a fortune out of it. Gintoki and the gang seek out to uncover the imposters’ identities, only to discover...?! \n\nPART B - A man dressed in blue full-body spandex appears before Shinpachi. The “Blue Man” begins talking to a dumbfounded Shinpachi. He claims to have come from the future, but...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AhNH1NbyqKsRcAWfDUNA1M7p6Fo.jpg",
+          "title": "That Matsutake Soup Stuff Tastes Better than the Real Deal - If a Person Is Dead, They Can't Come Back to Life"
+        },
+        {
+          "aired": "2009-07-09",
+          "plot": "The city is hit by a bad flu one winter day. Even Otae is sick with the flu. Shinpachi gets some long-awaited time alone with his sister and is tending to her when he gets a visit from Gintoki and Kagura. Turns out the two have also caught the flu and want Shinpachi to look after them. Irritated by Gintoki and Kagura’s abrupt visit, not to mention their selfish demands, Shinpachi is surprised when even more sick guests arrive.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qQYxWkLMbJwJoTxX49zH8Et6mOC.jpg",
+          "title": "If It Works Once, It'll Work Over And Over Again"
+        },
+        {
+          "aired": "2009-07-16",
+          "plot": "Pirako has double crossed Gin! Her real plan is to help Jirocho, her father, take over the town. Can Gin stop a war?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wSocTrGjP2eUMZsUgtYD7G98kzS.jpg",
+          "title": "Two Is Better Than One. Two People Are Better Than One"
+        },
+        {
+          "aired": "2009-07-23",
+          "plot": "Tama works hard everyday starting early in the morning. Even when Otose tells her to take a break, Tama won’t and says she is happy just being with everyone. But Otose notices that Tama’s appearance has changed into that of an angular polygon from an old video game! While Otose and Gintoki discuss that it must have been brought on by overwork, Tama returns from shopping and has now regressed from polygons to pixels!! Why is she going through these changes? And will she be able to return to normal?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2T6hDJrqAOaI4bpZ9PalU1gnEva.jpg",
+          "title": "Smooth Polygons Smooth Men's Hearts Too"
+        },
+        {
+          "aired": "2009-07-30",
+          "plot": "Tama, Tatsumi, Tetsuko, Kozen, Madao, Kyoshiro. Everybody is out in full force to fight for the Kabuki District. Male escorts vs. trannies, Cabaret girls vs. Yakuza, robots blowing things up. It’s an all-out war!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xgmx8BgY47KqAUbzVSUlBimCOt2.jpg",
+          "title": "A Human Body Is Like a Little Universe"
+        },
+        {
+          "aired": "2009-08-06",
+          "plot": "Jirocho and Gin battle Kada's elite Harusame forces while the rest of the denizens of Kabuki-cho take on her main forces in the streets. Kada is utterly stunned when her elite forces are beat by just these two humans, and flees the scene. Gin then helps Jirocho resolve his issues regarding Tatsugoro; Otose and Jirocho reconcile at the hospital. Outside the hospital, Kada desperately launches one last feeble attempt at conquering Kabuki-cho, but is stopped in her tracks by Pirako and the Yorozuya - Kada settles for swearing that the Harusame will be back, and flees yet again. At the very end, Jirocho denounces all other names he has ever been called except for Father of Pirako, and goes with his daughter back to the country.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1PPswV4IsvtE5Q0PkhmEKxdFtlL.jpg",
+          "title": "The Chosen Idiots"
+        },
+        {
+          "aired": "2009-08-13",
+          "plot": "At last, Gintoki and his friends confront the Great Archfiend. While the Leukocyte King can’t lay a finger on the Great Archfiend who has taken Tama’s form, Gintoki attacks without giving a damn. Angered by his reckless impudence, the Leukocyte King turns on Gintoki. The Great Archfiend then takes the form of the Leukocyte King’s father. But this time Shinpachi and Kagura attack him, and they succeed in kicking him off the throne. The Odd Jobs trio takes this chance to finish the Great Archfiend off, but...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vyq01xRYLjzwaOqdumkK1NlvLTh.jpg",
+          "title": "And into the Legend..."
+        },
+        {
+          "aired": "2009-08-20",
+          "plot": "Part A On top of the Odd Jobs building, two awfully familiar men seem to be scheming. They manage to hide themselves from several visitors, but they are spotted by the man who’ll cause the biggest mess of all: Katsura! \n\nPart B Gintoki’s alarm goes off, and he decides to takes a shower to sober up. While in the shower, something happens to Gintoki! Seems Kagura and Shinpachi are also caught up in the mess, and they wonder how this could have happened to them... The three heroes face a crisis like none other!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tLvrO9QEQhXhsEdtXcyI8KpSAMR.jpg",
+          "title": "If You Keep Copying, They Will Retaliate - A Loss Opens Your Eyes to the Love You Have"
+        },
+        {
+          "aired": "2009-08-27",
+          "plot": "A man called Executioner Kohei is brought under strict guard to the Shinsengumi. He is the executive officer of the Radical Joi Faction, the Akatsuki Party, and is also a lethal murderer who has killed 35 bakufu officials. According to Kondo, Kohei not only endures torture, but laughs with joy during it. The Shinsengumi’s mission is to get Kohei to tell them details about the large-scale terrorist attack the Akatsuki Party is supposedly planning. First off is Yamazaki, who goes to the investigation room to take a stab at it! Will he be able to get Kohei to talk?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cEBTOqzqQIpipxmYSgfg1sO3n2F.jpg",
+          "title": "Using the Carrot and the Stick Method Depends on the Situation"
+        },
+        {
+          "aired": "2009-09-03",
+          "plot": "Part A “It's What's On The Inside That Counts\" While taking Sadaharu out for a walk, Gintoki runs into Katsura who is with some “thing” that hardly resembles Elizabeth. Shinpachi and Kagura also notice the change in Elizabeth, or more like being totally replaced, and decide to bring Katsura back to his senses. \n\nPart B “It's What's On The Inside That Counts, But Only To A Certain Extent” It is morning and Gintoki wakes up in his closet for some reason. Dumbfounded, he makes his way to his bedroom after going to the bathroom, only to find himself already sleeping in his bed. Realizing that something funny is happening to him yet again, he tries to resolve it through trial and error.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9RCap4HcfZwaaWkWGNCpYulUFtX.jpg",
+          "title": "It's What's On The Inside That Counts - It's What's On The Inside That Counts, But Only To A Certain Extent"
+        },
+        {
+          "aired": "2009-09-10",
+          "plot": "Kagura helps a iwamatsu, the last part have the yoruzuya and shinsengumi in the bathhouse just as neighbor Hedero arrives with family members visiting Edo.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fter7PK0mWaTEeDj3LIjusvhGCq.jpg",
+          "title": "Are There Still People Who Go to the Ocean and Yell 'Bakayaro!' - When a Person Is Trapped, Their Inner Door Opens"
+        },
+        {
+          "aired": "2009-09-17",
+          "plot": "Gintoki’s mouth is swollen like crazy, forcing him to go to the dentist for treatment. Unable to cope with the stress and pressure of waiting, a crazed Gintoki screams for someone to just kill him and be done with it. After getting scolded by the staff, Gintoki waits for his turn when another man with a swollen mouth comes in, making things even more complicated!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6fCENmbbsql3YMP9jWHknc5zblZ.jpg",
+          "title": "No Matter How Old You Get, You Still Hate the Dentist"
+        },
+        {
+          "aired": "2009-09-24",
+          "plot": "A look back at Gintama's best moments.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aUfNyyOwkEY1FLtQ86oisgUplUm.jpg",
+          "title": "Countdown Begins"
+        },
+        {
+          "aired": "2009-10-01",
+          "plot": "Gintoki and the gang return to Yoshiwara at Hinowa’s request for the first time in a while. Although Hosen’s death has brought freedom to Yoshiwara, it’s also drawn the renewed interest of those who previously avoided Yoshiwara in fear of Hosen’s power. Yoshiwara is now troubled with an increased crime rate, especially illegal drug dealing. Odd Jobs are asked to capture the man responsible. The man in question is said to go by various names, titles, and even faces. The only clue available is the tattooed spider on his neck.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ebtDbtIXOsUi1W9p1KAf2MYaQtn.jpg",
+          "title": "It's Bad Luck to See a Spider at Night"
+        },
+        {
+          "aired": "2009-10-08",
+          "plot": "Gintoki and Tsukuyo infiltrate the Benigumoto, the Red Spiders, to get a lead on the man with the tattooed spider on his neck, but are discovered and quickly surrounded. The two manage to fend for themselves, when the man with the tattooed spider makes a sudden appearance and attacks Gintoki! The man then speaks as if he knows Tsukuyo. Who is this man?!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2vrwnaCYWQ0brSOEKOxabaPdNCF.jpg",
+          "title": "Once You're Entangled in a Spiderweb, It's Hard to Get It Off"
+        },
+        {
+          "aired": "2009-10-15",
+          "plot": "Tsukuyo falls into the hands of Jiraia, her former master, and is held captive. Meanwhile Gintoki manages to survive the attack thanks to Zenzo, and he learns about Jiraia’s past. During the Amanto attack twenty years ago, Jiraia is said to have killed his own people within the Oniwabanshu, all for the sake of his devotion to the previous shogun. In the end Jiraia himself was the one to be terminated, but he managed to escape. Now his devotion is directed toward his own creation, Tsukuyo. Jiraia’s motive is to eliminate the bond that she has come to rely upon. And he intends to achieve that goal by setting fire to Yoshiwara and burning down everything!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2KDadpUaDcRBrhh6pwTAfZTf1ZB.jpg",
+          "title": "It's the Irresponsible One Who's Scary When Pissed"
+        },
+        {
+          "aired": "2009-10-22",
+          "plot": "Gintoki strikes down Jiraia and frees Tsukuyo from his twisted web. Chiding Tsukuyo for trying to shoulder every burden herself, Gintoki goes on to say that rather than throw away your life to die beautifully, it’s far better to live and be yourself – even if your life is not a pretty one. And finally, Gintoki expresses his anger toward Jiraia for betraying his own student, despite calling himself a master.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3tGgcc5vOWiEh1KMrG33DtNHf0W.jpg",
+          "title": "The More Precious the Burden, The Heavier and More Difficult it is to Shoulder"
+        },
+        {
+          "aired": "2009-10-29",
+          "plot": "Gintoki continues creating havoc in the prison.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ofejvM4ULvhmEu9eFBT4hyqvGCu.jpg",
+          "title": "Watch Out For A Set of Women and A Drink"
+        },
+        {
+          "aired": "2009-11-05",
+          "plot": "Character popularity results are announced to celebrate Gintama’s 182nd episode! Shinpachi is alone at the café, feeling depressed after learning that he’s still in 8th place in popularity, unchanged from the previous ranking. Yamazaki, who is in 9th place, drops by to say that boring characters such as they should aim to become the No. 1 steppingstone for others. For Shinpachi and Yamazaki, 8th and 9th place should hold the same meaning as 1st. But in reality Yamazaki can’t give up the hope of ranking higher, and runs off in tears. Shinpachi can do nothing but watch, when suddenly Yamazaki’s scream is heard in the distance!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7cTE5H8jEgyAmyGU8w5zTr4OlUn.jpg",
+          "title": "Screw Popularity Votes"
+        },
+        {
+          "aired": "2009-11-12",
+          "plot": "Shinpachi introduces his new girlfriend to Otae...but she turns out to be Momo-san, a character from the popular Love Choris game. There are more and more boys in Edo who can no longer distinguish game from reality like Shinpachi. Otae asks Gintoki to bring Shinpachi back to the real world. The only way is by entering the world of Love Choris and talking some sense into him. Gintoki ends up choosing a very unique heroine to be his girlfriend...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qYoqwY78HZ5Oegtl4F31vbfmCVV.jpg",
+          "title": "Popularity Polls Can Burn in Hell"
+        },
+        {
+          "aired": "2009-11-19",
+          "plot": "Gintoki challenges Shinpachi in the ultimate Love Chorus tournament in order to break his illusion of his virtual girlfriend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9GjNOjLIwgCSXwYJzUQ9pKqjBB.jpg",
+          "title": "Popularity Polls Can..."
+        },
+        {
+          "aired": "2009-11-26",
+          "plot": "The Odd Jobs are requested to remove a hornets’ nest on the temple grounds. Fully armored in protective suits, what awaits the trio is a ginormous hive, like none they’ve ever seen before. Arguing that this wasn’t what they signed up for, Gintoki prepares to leave, but Kagura goes off and destroys the hive. The trio quickly plays dead to avoid getting attacked by the raging hornets, but are instead greeted by something quite unexpected...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jAtrLwtVnSy8EoeI0xW9tuj1sEy.jpg",
+          "title": "Hometowns and Boobs Are Best Thought of from Afar - The Whole Peeing on a Bee Sting Is a Myth. You'll Get Germs, So Don't Do It!!"
+        },
+        {
+          "aired": "2009-12-03",
+          "plot": "The Shinsengumi and the Yorozuya attend the funeral of a close udon shop owner. Instead of moving on, however, the soul of the old man is overseeing the ceremony.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6IQAtvDdjbhqdnKCRJ4uERlkniQ.jpg",
+          "title": "Beware of Foreshadows"
+        },
+        {
+          "aired": "2009-12-10",
+          "plot": "Gintoki and Shinpachi start re-investigating the Rokkaku incident. Upon learning what really happened from Kamiyama, one of Okita’s subordinates, they leave to save Okita. Meanwhile, Okita is captured by Sotatsu Tendo after falling into his trap involving Kirie. Tendo babbles on about how he returned to seek revenge against Okita, who destroyed the Sokai Faction, and goes on to reveal the truth about Kirie’s father.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uzNt3T93PxhJaCJT66FHB65O4li.jpg",
+          "title": "It's Goodbye Once a Flag Is Set"
+        },
+        {
+          "aired": "2009-12-17",
+          "plot": "Students at a temple school share their independent research projects completed during the past summer vacation. After one of the students finishes reading a well-written journal, the last one to present is a kid named Daigoro. Sleeping in on the first day of summer vacation, Daigoro arrived late at the radio exercises and met Madao, and decided to keep an observation journal about him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8iETPkBxy5XJDAXtSxLRCbsAJC2.jpg",
+          "title": "An Observation Journal Should Be Seen Through To The Very End"
+        },
+        {
+          "aired": "2009-12-24",
+          "plot": "Part 1 -  While researching the Anti-Foreigner War, a reporter interviews Nagai, a former reporter from the war called Nagai in order to know about the White Demon's (Gintoki's alter-ego) activities in such time. He chronicles the events from war, explaining how the samurais decided to fight against the aliens. As Nagai is about to talk about the White Demon, he replaces him with the fictional robot Gundam to celebrate the 30th anniversary of the franchise with the same name.\n\nPart 2 - Kagura starts going to Kabuki-cho's physical fitness lessons where she meets a kid named Hongou Hiashi, whom she befriends. Suffering from a dangerous disease that weakens his body, Hiashi is absent from various lessons even though he promised Kagura to go to every lesson. During a rainy day, Kagura is the only person to come to the lesson, but Gintoki and her friends decide to join her. Next day, Hiashi returns to another lesson and sees Kagura once again.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1OHjoCOdsEg6gZka2OLAAgVVBwO.jpg",
+          "title": "We Know It's Best to Finish Yearly Tasks Before the End of the Year, But then You Put It Off Till Next Year for a Fresh Start. That's How the End of the Year Goes - Radio Exercises are Socials for Boys and Girls"
+        },
+        {
+          "aired": "2010-01-07",
+          "plot": "Elizabeth and Dark Vader battle to the death and just when things are not looking so good for Elizabeth, Katsura shows up to save his friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7wk1yJCvGQor3Cx4A3zynJxEw9h.jpg",
+          "title": "When Looking For Something, Try Using its Perspective"
+        },
+        {
+          "aired": "2010-01-14",
+          "plot": "Having turned into cats, Gintoki,Katsura and Kondo (who turned into a gorilla) are brought by Hoichi to Otose to get food. While eating, Otose tells them that if caught, they can never return to this town.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a2OdcARk6DrFgKlHeUiiYFKPZ5.jpg",
+          "title": "Freedom Means to Live True to Yourself, not Without Law!"
+        },
+        {
+          "aired": "2010-01-21",
+          "plot": "While protecting Gintoki from the stray cats, Hoichi and the cats get caught. Soon Gintoki, Katsura and Kondo goes to save him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2R168kcob43xESo1t53aKpf5G5a.jpg",
+          "title": "Kabukicho Stray Cat Blues"
+        },
+        {
+          "aired": "2010-01-28",
+          "plot": "Everybody's stranded in the middle of the mountains. To make things worse, the Shogun goes missing.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vmhl1wIw09OwJDhVXADlq4sN4Ps.jpg",
+          "title": "Cooking is About Guts"
+        },
+        {
+          "aired": "2010-02-04",
+          "plot": "The episode begins with a short sequence about Kamui transferring into Yato High School and is told from Abuto's point of view. While the Shinsengumi are out on a mission, Hijikata notices snot coming out of Kondo's nose so he wonders how he could tell him without the others noticing Kondos problem. In the end the snot even takes control over Kondo's body and it comes out that Kondo's true identity is being an Amanto in snot form. As Hijikata destroys it, he realizes it has been all a dream.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1hOFAUidtTN11v2K6wIgPlCB3iX.jpg",
+          "title": "Whenever I Hear Leviathan, I Think of Sazae-san. Stupid Me!!"
+        },
+        {
+          "aired": "2010-02-11",
+          "plot": "Lately the weather forecasts Ketsuno Ana is predicting are always wrong. When Gintoki meets her on the streets he takes her to the Yorozuya's place to help her.But after a monster attacks the house,it is revealed that Ketsuno Anna is an onmyouji and some other onmyouji is targeting her. After that Gintoki and the others are on the way to the Ketsuno residence,where they fight some odd creatures.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/psXp9z0hEk5qm6zUVoQmX4jA5FK.jpg",
+          "title": "Not Losing to the Rain"
+        },
+        {
+          "aired": "2010-02-18",
+          "plot": "The number one host in the Kabuki district, Kyoshiro, summons the Odd Jobs members to his club, Takamagahara, and tells them that he intends to quit because of a lady named Madame Yagami who controls the night world. It seems that she declared she would be making a second visit to Takamagahara, which is essentially a death sentence. The hosts at Kyoshiro's have quit out of fear, so Gintoki and co must find hosts to handle the Madame...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eybROE6fGsqOcPZoh53KGPUibV7.jpg",
+          "title": "Not Losing to the Wind"
+        },
+        {
+          "aired": "2010-02-25",
+          "plot": "The Madame's arrival is imminent. Kyoshiro, Gintoki, and friends attempt to scout some help, but they end up with a bunch of oddballs. And it turns out that Otae has invited guests from all over town who go wild and leave the bar and Kyoshiro broken! There's no time to worry about taking care of customers. But at the worst possible time, Madame Yagami arrives!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3VVrrdTxTvw8plxyag9rZC265c4.jpg",
+          "title": "Not Losing to the Storm"
+        },
+        {
+          "aired": "2010-03-04",
+          "plot": "Jellybeans Vanguard Honda is on his fifth year as a Jump editor. However, he's been assigned to the manga Gintaman, which has driven multiple editors insane. In order to save himself, Honda must find a new talented artist so he can be reassigned. One day, he is visited by an aspiring manga artist by the name of N3016. Is this artist as juvenile as his name suggests?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2YSl1wmBqcVfvoAZ8tR5412PKKg.jpg",
+          "title": "Never Losing that Smile"
+        },
+        {
+          "aired": "2010-03-11",
+          "plot": "The Sasaki family is as elite as it gets, and one of its members, Tetsunosuke, has joined the Shinsengumi. He would have joined the Mimawarigumi, a police force with pedigree, but he is considered a troublemaker, which is why he was sent to the Shinsengumi. Kondo assigns Tetsu to Hijikata as an assistant, so Hijikata is forced to endure the new recruit...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5des408bvvZ77Za2st6CqczdXOD.jpg",
+          "title": "That's How I Wish to Be, Beautiful and Strong"
+        },
+        {
+          "aired": "2010-03-18",
+          "plot": "It's Christmas in Edo and Kagura writes her father a letter. She is sad that Santa Claus never visited her. Moved, her father Umi Bozu dresses himself up as Santa and hides watching Kagura, Otae, Shinpachi and Hasegawa celebrate Christmas. When he finally jumps out of the bushes to surprise her there is another Santa, a dressed up Gintoki. Both of them think that their counterpart is real. They start punching each other when another three Santas show up (Sachan, Kondo and Kyubei). Kagura decides on a contest to see who's the real Santa.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uwJc1uOf32RKeFMJrompA2HebTz.jpg",
+          "title": "Santa Claus Red Is Blood Red"
+        },
+        {
+          "aired": "2010-03-25",
+          "plot": "Tetsunosuke has been ordered to deliver a letter for Hijikata. However, he's captured by the radical Joi Check It Out gang in the process. Tetsunosuke had concealed his identity to join the gang, but now they know that he has connections to the police. He's taken hostage as leverage over the Shinsengumi and Mimawarigumi. However, the Mimawarigumi shows no concern for the hostage and plots to place the blame squarely on the Shinsengumi. Hijikata and the other members are enraged after learning Isaburo's plans. The Shinsengumi and Mimawarigumi are now in an all-out fight.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jocDe8tBLxLua1AjPVkanGwnJxi.jpg",
+          "title": "Everybody's a Santa!"
+        }
+      ]
+    },
+    "5": {
+      "episodes": [
+        null,
+        {
+          "aired": "2011-04-04",
+          "plot": "Shinpachi Shimura returns to the Yorozuya and discovers his friends drastically changed during the break. Feeling left behind, he returns home and discovers his sister, Tae Shimura, engaged to Isao Kondo. Tae and Kando enlists Shinpachi into the Shinsengumi and reveals that Tae is pregnant. Shinpachi runs to the ocean and laments the sudden change of those around him. There, he learns about Kyubei Yagyu's sex change to modify her life. They are interrupted by and Kotaro Katsura who also changed his genre due to his Kyubei's characters similarities.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d8oGrvFPjzzoM8PO8arQ3jSC7FP.jpg",
+          "title": "Everyone Looks a Little Grown Up After Spring Break"
+        },
+        {
+          "aired": "2011-04-11",
+          "plot": "As Katsura and Kyubei fight for the title of the best transgendered, Shinpachi leaves to find that the Shinsengumi members also suffered a sudden change in their selves; Sogo Okita is the leader from the group and orders him and Toshiro Hijikata, Sagaru Yamazaki to attack the Yorozuya. As the three leave, Hijikata knocks out Yamazaki, as he was faking his change. He and Shinpachi learn that an invasion of parasite aliens is responsible for change to their friends and proceed to destroy them. However, they find problems in the outcome, and both Hijikata and and Shinpachi are knocked out in the process, with Gintoki being actually only person without a parasite.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4u2GWrpbtCZ8cmgukhEYjxkaLYV.jpg",
+          "title": "Everyone Looks Pretty Grown Up After Summer Break"
+        },
+        {
+          "aired": "2011-04-18",
+          "plot": "As Gintoki complains of writing News Years cards, Yorozuya learn of what his friends have done over the holidays. He also receives cards saying his friends have gotten married, while they have lied and just Photoshopped the photos. The episode ends with Kondo, Sachan and Hasegawa telling their story of how they wrote a News Years card. The second part starts with the same opening, but Gin complains of the lack of chocolate. Kagura has a chocolate for Gintoki and Shinpachi, but is too embarrassed to give to them. She enlists the help of Tsukuyo, and Sachan to help, but they are each too embarrassed to help her and make her give their chocolates to Gintoki. She indifferently give Gintoki and Shipachi the chocolate saying they were on the door step, as the happily run for the chocolate, they find all the chocolates were said to be from Kagura.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pYemNfTQNbFiJEFyZ22JldbMq4T.jpg",
+          "title": "Use a Calligraphy Pen for New Year Cards - The Heart Comes Before Chocolate"
+        },
+        {
+          "aired": "2011-04-25",
+          "plot": "Yamazaki has a mental breakdown cause of Anpans and Kondo finally gets a date (Or does he!)",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2j4GExIOkR0COBLHCLh8tgCv6Ao.jpg",
+          "title": "Meals Should Be Balanced - We Are All Warriors in the Battle Against Fate"
+        },
+        {
+          "aired": "2011-05-02",
+          "plot": "Catherine appears to have a boyfriend and has drastically improved her appearance. Her boyfriend is a regular at Snack Otose, an entrepreneur by the name of Suejiro. Catherine decides to leave the Kabuki district to start a new bar with him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dfDb0puzWO66lhVGlSIHR85meSM.jpg",
+          "title": "It's Too Confusing When Talking About the Poster Girl for a Poster Store, So Call Her a Sandwich Board"
+        },
+        {
+          "aired": "2011-05-09",
+          "plot": "The Odd Jobs' TV breaks out with Sachan inside. Gintoki tells Sadaharu to throw her away with the TV, but Sachan's precious glasses are broken in the process. Gintoki reluctantly buys Sa-chan a new pair of glasses, but they are bottle bottom glasses that are clearly the wrong prescription. Sa-chan is overjoyed that Gintoki has given her a present, but the new glasses are responsible for a chain of failures on her assassination job. Her superiors now question her commitment.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q9qbveltcdCTWfXg26tLWfNlP9x.jpg",
+          "title": "Glasses Are Part of the Soul"
+        },
+        {
+          "aired": "2011-05-16",
+          "plot": "Gintoki and crew continue to defend Sarutobi against the Lethal Punishers. But against such assassins as the Pillow Masa, T-shirt Tatsu, and the Chuubert Chu Brothers, will they win?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eW3CX6OFbAqkkKyqKvyMykaZcun.jpg",
+          "title": "Glasses Prevent You From Seeing Certain Things"
+        },
+        {
+          "aired": "2011-05-23",
+          "plot": "Due to a lack of budget, the Yorozuya try to use old footage to make a filler episodes. While Hasegawa first plays a theme song, the characters then watch a fake trailer a supposed second film based on the series. The episode ends with a chapter of \"Teach us Ginpachi-sensei\", a story in which Gintoki is the teacher from high school class composed of anime's characters.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wc0BQcGgsKleJGZKzUYle8vTTb9.jpg",
+          "title": "Nothing Lasts Forever, Including Parents, Money, Youth, Your Room, Dress Shirts, Me, You and the Gintama Anime"
+        },
+        {
+          "aired": "2011-05-30",
+          "plot": "Pirako Chin is looking for the strongest man in the Kabuki District. Now Gintoki has an underling who wants to turn Kabuki District into a garden of bright red flowers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/n2GRjeKgWQ4XsiUcRdNfm8TPlCc.jpg",
+          "title": "A Lawless Town Tend To Attract a Bunch of Whoohooey Folk"
+        },
+        {
+          "aired": "2011-06-06",
+          "plot": "Pirako has double crossed Gin! Her real plan is to help Jirocho, her father, take over the town. Can Gin stop a war?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qEa803qTgoo81YaNWr96QVHYGRw.jpg",
+          "title": "Ghosts Aren't The Only Ones Who Run Wild Around Graveyards"
+        },
+        {
+          "aired": "2011-06-13",
+          "plot": "Pirako is pleased to hear that Otose, the reason for Jirocho's attachment to the Kabuki district, has been eliminated. With Otose gone, the balance of power among the Four Devas has crumbled and a war is in the works in the Kabuki district. Meanwhile, the Odd Jobs crew is watching over Otose when Saigo appears and informs them that the bar will be destroyed by the Four Devas. He urges them to leave this town, now that they've lost their home...Finally, the day comes for them to leave Snack Otose.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/toPPHdTvbgPTCBPhf1tMGtOQy9D.jpg",
+          "title": "Chains Of a Warrior"
+        },
+        {
+          "aired": "2011-06-20",
+          "plot": "Tama, Tatsumi, Tetsuko, Kozen, Madao, Kyoshiro. Everybody is out in full force to fight for the Kabuki District. Male escorts vs. trannies, Cabaret girls vs. Yakuza, robots blowing things up. It’s an all-out war!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wcMNhYAEhfMs3I0VlprMzYqA1zh.jpg",
+          "title": "Iron Town"
+        },
+        {
+          "aired": "2011-06-27",
+          "plot": "Jirocho and Gin battle Kada's elite Harusame forces while the rest of the denizens of Kabuki-cho take on her main forces in the streets. Kada is utterly stunned when her elite forces are beat by just these two humans, and flees the scene. Gin then helps Jirocho resolve his issues regarding Tatsugoro; Otose and Jirocho reconcile at the hospital. Outside the hospital, Kada desperately launches one last feeble attempt at conquering Kabuki-cho, but is stopped in her tracks by Pirako and the Yorozuya - Kada settles for swearing that the Harusame will be back, and flees yet again. At the very end, Jirocho denounces all other names he has ever been called except for Father of Pirako, and goes with his daughter back to the country.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4DLYCzy79dGRGQMfXBuuH3nmysm.jpg",
+          "title": "'Tis An Honor!"
+        },
+        {
+          "aired": "2011-07-04",
+          "plot": "Kagura's older brother, Kamui, visits Kada's cell where she is being kept after having been captured by the Kiheitai and loses at a game of odds or evens. He is approached by one of the 12 captains who tells him he has the 12 captains support if he chooses to overthrow Admiral Abo. Kamui orders his second to kill the members of the Kiheitai, isolating Takasugi so Kamui can duel him. As the Kiheitai's ship is about to be attacked the Admiral double crosses Kamui and imprisons him out of fear. Takasugi visits Kada's cell and loses at a game of odds or evens. After a brief conversation Takasugi rescues Kamui at his execution, overthrowing Admiral Abo. Kamui becomes Admiral and the episode ends with Takasugi visiting Kada's cell one last time to lose at a game of odds or evens.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/muJymneUbC4fcwCs9D0TzYKtpLv.jpg",
+          "title": "Odds or Even"
+        },
+        {
+          "aired": "2011-07-11",
+          "plot": "Kagura invites a bunch of kids to the Yorozuya. They, along with other characters get shunned by them and invites them into a \"factory tour\".",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3G3ZgXDLbFTs76OF2lPF2t5ZidT.jpg",
+          "title": "I Can't Remember a Damn Thing About the Factory Tour"
+        },
+        {
+          "aired": "2011-07-18",
+          "plot": "Gintoki and Hasegawa have to help the shogun when he is at the pool",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4EyVBiAPbHcI2O1IXFxV1RXNrMQ.jpg",
+          "title": "What Happen Twice Can Happen Thrice"
+        },
+        {
+          "aired": "2011-07-25",
+          "plot": "Otose sent a box of crab to the Yoruzuya. Before they can divide the crab's legs to themselves, suddenly, there came a blackout after the electricity came back one leg is missing and Gintoki ate it. Another blackout came and another leg was missing and Kagura ate it, saying she was attacked by a gorilla. Shinpachi then put up a candle. Then Gintoki and Kagura ate all of the legs. When Shinpachi claims the crab's whole body they found themselves fighting for a crab congee and ended up eating crab-flavored cheap food.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lvyCq1u7UAZcst6zgZ1mdMMU7oC.jpg",
+          "title": "The Pincers of Crab Can Snip Through a Friendship"
+        },
+        {
+          "aired": "2011-08-01",
+          "plot": "Kagura helps a iwamatsu, the last part have the yoruzuya and shinsengumi in the bathhouse just as neighbor Hedero arrives with family members visiting Edo.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fDvImyCl1HvhBmJiH6TCzEWSEDu.jpg",
+          "title": "People Forget to Return Stuff All The Time Without Even Realizing It."
+        },
+        {
+          "aired": "2011-08-08",
+          "plot": "Gin, Kondo, Hijkata, and Shin are stuck in the public bath with the demons. Every lie they tell digs their grave deeper. Can they really get away with kicking heads in, ripping off horns, and setting demons on fire with lotion?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gh2eIZhzpAIuN1Gxf0468mi6TA4.jpg",
+          "title": "The Bathhouse , Where You're Naked In Body And Soul"
+        },
+        {
+          "aired": "2011-08-15",
+          "plot": "The monkey, aka \"Jugem Jugem... (abbreviated) Runny Diarrhea,\" has grown close to Kyubei. However, their time together did not last. The Shogun family ordered that the Yagyu return Runny Diarrhea. The monkey escapes from the Shogun family to see Kyubei again. Kyubei and the other Yagyu members are forced to continue a desperate and fruitless search for Runny Diarrhea.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cFvJNo5MKA2eCXyNZJLSmPkC0LO.jpg",
+          "title": "Jugem"
+        },
+        {
+          "aired": "2011-08-22",
+          "plot": "The monkey, aka \"Jugem Jugem... (abbreviated) Runny Diarrhea,\" has grown close to Kyubei. However, their time together did not last. The Shogun family ordered that the Yagyu return Runny Diarrhea. The monkey escapes from the Shogun family to see Kyubei again. Kyubei and the other Yagyu members are forced to continue a desperate and fruitless search for Runny Diarrhea.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tCj729HMC3HM6GBCyielWjcHEml.jpg",
+          "title": "The Name Reveals the Person"
+        },
+        {
+          "aired": "2011-08-29",
+          "plot": "Katsura infiltrates Matsudaira's household and ends up pondering family values.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w8zJ9WFGHDobYHDmjdp7C4wDUfd.jpg",
+          "title": "The Man's Household Situation Is Hard , His Heart Is Soft"
+        },
+        {
+          "aired": "2011-09-05",
+          "plot": "The Yorozuya run into a mysterious Blu-ray DVD with a depressed female ghost in it. The ghost moves into their TV, making all the programs gloomy as well. Gintoki then attempts to find use for the ghost as a navigator.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fj5JsBy8OM29AtB6HBtZEwg423C.jpg",
+          "title": "Blue And Red Ecstasy"
+        },
+        {
+          "aired": "2011-09-12",
+          "plot": "Gintoki gets thrown in prison after being framed, and while he's made an enemy of the warden, he's managed to become the boss of the prisoners. With his underling Shachi in tow, Gintoki skips his menial labor duties to search the warden's room for anything incriminating. Understanding that the punishment will be fatal if they are caught, Gintoki disguises himself by putting on pajamas...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2bFRINIuUf0FYN4OG4Kvuh2NN10.jpg",
+          "title": "So In The Second Season Of Prison Break , They Already Broke Out Of Prison , But The Name Works When You Realize That Society Is A Prison"
+        },
+        {
+          "aired": "2011-09-19",
+          "plot": "Gintoki continues creating havoc in the prison.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nGkP06lh3ZvnwRsOf5FGx9Kjdgh.jpg",
+          "title": "Everybody Loves Pajamas"
+        },
+        {
+          "aired": "2011-09-26",
+          "plot": "Gintama meets Sket Dance! But not without trouble...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9TdTHxX71nHzNuvqR5Rjv09ewIA.jpg",
+          "title": "Speaking Of Crossovers , Don't Forget About Alien Vs Predator"
+        },
+        {
+          "aired": "2011-10-03",
+          "plot": "Shinpachi introduces his new girlfriend to Otae...but she turns out to be Momo-san, a character from the popular Love Choris game. There are more and more boys in Edo who can no longer distinguish game from reality like Shinpachi. Otae asks Gintoki to bring Shinpachi back to the real world. The only way is by entering the world of Love Choris and talking some sense into him. Gintoki ends up choosing a very unique heroine to be his girlfriend...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rCFHkWsPoDqVpg2olKpVAh7YLbF.jpg",
+          "title": "Love is Neither Plus No Minus"
+        },
+        {
+          "aired": "2011-10-10",
+          "plot": "Gintoki challenges Shinpachi in the ultimate Love Chorus tournament in order to break his illusion of his virtual girlfriend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8cPl76yfxpKVXpV92JFBLXxhH9E.jpg",
+          "title": "Making It Through Love"
+        },
+        {
+          "aired": "2011-10-17",
+          "plot": "Kagura wants a mobile phone of her own in order to be able to text with her friends. Her wish is granted, and she starts harassing Gintoki and Shinpachi through text messaging.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fCi4MdDpWS4pWWau9kdLsPdlUG9.jpg",
+          "title": "It Would Take Too Much Effort to Make This Title Sound Like a Text Message Subject"
+        },
+        {
+          "aired": "2011-10-24",
+          "plot": "The Shinsengumi and the Yorozuya attend the funeral of a close udon shop owner. Instead of moving on, however, the soul of the old man is overseeing the ceremony.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fVksqMaq1sUlJdaJkXaoPWbqvLS.jpg",
+          "title": "When You Go to a Funeral for the First Time, You're Surprised By How Happy the People Are"
+        },
+        {
+          "aired": "2011-10-31",
+          "plot": "Katsura visit Yorozuya with a Elizabeth's placard to solve the mystery of Elizabeth's disappearance. But the investigation only reveals a shocking truth.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2j5BGWDLlTkpNBSXSYK5GsKh3rc.jpg",
+          "title": "The People You Tend to Forget Tend to Show Up After You Forget Them"
+        },
+        {
+          "aired": "2011-11-07",
+          "plot": "The Yorozuya and Katsura follow Elizabeth to stop the Renho from taking over the earth.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5HI1lm98I9x6cftFI8oGUV7yLfQ.jpg",
+          "title": "The Legendary Mercenary Tribe, Renho.  Elizabeth Was in Fact, One of Those White Demons"
+        },
+        {
+          "aired": "2011-11-14",
+          "plot": "The Yorozuya, Katsura, and Sakamoto disguise themselves as Renho and infiltrate their base.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lL24FNxg4sKNhkaVdvAxq9OUGqo.jpg",
+          "title": "Piggy Banks and Trash Cans"
+        },
+        {
+          "aired": "2011-11-21",
+          "plot": "Elizabeth and Dark Vader battle to the death and just when things are not looking so good for Elizabeth, Katsura shows up to save his friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dA00nzj78LiTKpxRPMN5Mum5MU3.jpg",
+          "title": "Empty Planet"
+        },
+        {
+          "aired": "2011-11-28",
+          "plot": "The Renho join forces with Sakamoto and the Yorozuya against Dark Vader and their home planet in order to bring peace to the universe.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/TgT1RylNymNnxiQuJMIw1YX3sl.jpg",
+          "title": "Goodbye Lionel, Why Don't You Say Something!"
+        },
+        {
+          "aired": "2011-12-05",
+          "plot": "The Shinsengumi are forced to guard the Shogun on his first snowboarding trip, but they run into the Yorozuya and mayhem ensues.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w384NtIE5KnKnDwFU38JQHJE6yS.jpg",
+          "title": "Please Take Me Skiing"
+        },
+        {
+          "aired": "2011-12-12",
+          "plot": "Everybody's stranded in the middle of the mountains. To make things worse, the Shogun goes missing.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/euE0zyPteDFrzIGxhYsKV9MsFml.jpg",
+          "title": "A Vacation in Disorientation"
+        },
+        {
+          "aired": "2011-12-19",
+          "plot": "It's a year-end party at Odd Jobs! The Gintama anime has been through a lot, but Gintoki tells Kagura and Shinpachi to keep it cool. And then the usual members join in for some real partying... The next morning, Gintoki wakes up to discover that he's made some very bad mistakes.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uYznCs53o5Je1jf03rE3B48qjCu.jpg",
+          "title": "There are Some Things You Should Not Forget When Drinking away the Past Year at Year-end Parties"
+        },
+        {
+          "aired": "2011-12-26",
+          "plot": "After getting drunk at the year-end party, Gintoki managed to become a six-timer in one night. In order to prevent the show from being pulled off the air, Gintoki is forced into engaging in a relationship with all of them. And now he has to go on dates with all of them at the same time...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jwTgv3uISUW2xxoh23mOEdrRmiV.jpg",
+          "title": "People Can Only Live By Forgetting the Bad"
+        },
+        {
+          "aired": "2012-01-09",
+          "plot": "The number one host in the Kabuki district, Kyoshiro, summons the Odd Jobs members to his club, Takamagahara, and tells them that he intends to quit because of a lady named Madame Yagami who controls the night world. It seems that she declared she would be making a second visit to Takamagahara, which is essentially a death sentence. The hosts at Kyoshiro's have quit out of fear, so Gintoki and co must find hosts to handle the Madame...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t6OsYCa65ztvgdgf6jsBfyPmziI.jpg",
+          "title": "We Are All Hosts, In Capital Letters"
+        },
+        {
+          "aired": "2012-01-16",
+          "plot": "The Madame's arrival is imminent. Kyoshiro, Gintoki, and friends attempt to scout some help, but they end up with a bunch of oddballs. And it turns out that Otae has invited guests from all over town who go wild and leave the bar and Kyoshiro broken! There's no time to worry about taking care of customers.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/l1OirbcpLubIM3rO9MNeRSsp3oV.jpg",
+          "title": "Girls like Vegeta, Guys like Piccolo"
+        },
+        {
+          "aired": "2012-01-23",
+          "plot": "Jellybeans Vanguard Honda is on his fifth year as a Jump editor. However, he's been assigned to the manga Gintaman, which has driven multiple editors insane. In order to save himself, Honda must find a new talented artist so he can be reassigned. One day, he is visited by an aspiring manga artist by the name of N3016.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8aiKnx8fsHKKrRwfZ5546HHYxND.jpg",
+          "title": "Draw Your Life on the Canvas We Call Manga"
+        },
+        {
+          "aired": "2012-01-30",
+          "plot": "The Sasaki family is as elite as it gets, and one of its members, Tetsunosuke, has joined the Shinsengumi. He would have joined the Mimawarigumi, a police force with pedigree, but he is considered a troublemaker, which is why he was sent to the Shinsengumi. Kondo assigns Tetsu to Hijikata as an assistant, so Hijikata is forced to endure the new recruit...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fCnaqqXBECOuILjpxmX8tQiI7G4.jpg",
+          "title": "Check It Out!"
+        },
+        {
+          "aired": "2012-02-06",
+          "plot": "Tetsunosuke has completely changed as he sincerely tries to perform his new job. Isaburo despises Tetsunosuke and tells Hijikata that he should dispose of him, but Hijikata, who came from a similar background, sympathizes with Tetsunosuke and looks after him. Meanwhile, Gintoki, who was arrested by the Mimawarigumi, has been assigned a mission by Isaburo...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x4dauQx0TuJalL8mIX8IOGXIS1o.jpg",
+          "title": "Thorny and Rosy"
+        },
+        {
+          "aired": "2012-02-13",
+          "plot": "Tetsunosuke has been ordered to deliver a letter for Hijikata. However, he's captured by the radical Joi Check It Out gang in the process. Tetsunosuke had concealed his identity to join the gang, but now they know that he has connections to the police. He's taken hostage as leverage over the Shinsengumi and Mimawarigumi. However, the Mimawarigumi shows no concern for the hostage and plots to place the blame squarely on the Shinsengumi. Hijikata and the other members are enraged after learning Isaburo's plans. The Shinsengumi and Mimawarigumi are now in an all-out fight.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vq5uMzVTL4aKXaJ4sRagHXD1IJG.jpg",
+          "title": "Festival of Thornies"
+        },
+        {
+          "aired": "2012-02-20",
+          "plot": "The Shinsengumi attempt to save Tetsunosuke from the Check It Out gang, but the Mimawarigumi stands in the way. Neither side is willing to back down, but Gintoki, who had infiltrated the gang as a Mimawarigumi spy, manages to save Tetsunosuke! Kondo orders the Shinsengumi to begin fighting back!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fy8ZyyrJ4SaPwc7XtMM2bYHXOOl.jpg",
+          "title": "Letter From Thorny"
+        },
+        {
+          "aired": "2012-02-27",
+          "plot": "The middle-aged dumb-ass oldie, or Madao, Taizo Hasegawa finds himself on a game show with a chance to win ten million yen. Will he be able to endure the pressure and become a Madaonaire!? And what is Madao's motivation for participating in the game show...?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9pmpui1reqfQYlCmvb4GJ86lMBW.jpg",
+          "title": "Madaodog Madaonaire"
+        },
+        {
+          "aired": "2012-03-05",
+          "plot": "A character from 2 years ago is back with a request for Gin. This favor will take the Odd-Job Trio right in the middle of Satan Festival in this very special Christmas episode.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6cHZCHYfNhkpbVEggbnQW4LEwzA.jpg",
+          "title": "Presents Are Meant To Be Given Early"
+        },
+        {
+          "aired": "2012-03-12",
+          "plot": "Gin is trying to hand out New Year Envelopes but the lack of children characters make it hard. To make matters worse, everyone seems to have their mind wrapped around long cylindrical objects and small spherical objects.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qA08qiiaJLfsJB6OD4s6dP3pOfQ.jpg",
+          "title": "New Year's Envelopes Are Perfect for Dirty Jokes"
+        },
+        {
+          "aired": "2012-03-19",
+          "plot": "Nobody cares anymore, the animators, producers, not even Hideaki Sorachi. Aww, it’s such a drag even the characters are airing their grievances. Where do we go from here?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e8peGtdiMSX96zPFbaF1y7VvQLu.jpg",
+          "title": "When Sleeping Under a Kotatsu, Make Sure You Don't Burn Your Balls"
+        },
+        {
+          "aired": "2012-03-26",
+          "plot": "Its last episode and Gintama' is going out with a bang. A Gintama clip show!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4GL273C0iVQkW1qn7ah5vV2YTiz.jpg",
+          "title": "We're Sorry"
+        }
+      ]
+    },
+    "6": {
+      "episodes": [
+        null,
+        {
+          "aired": "2012-10-04",
+          "plot": "Gintoki returns from a six-month vacation to find he has been replaced by a gold-haired imposter.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hXLyzjleaUY6er9bxQmCgCN383D.jpg",
+          "title": "Nobody with Natural Straight Hair Can Be That Bad"
+        },
+        {
+          "aired": "2012-10-11",
+          "plot": "Tama reveals Kintoki's origins and hatches a plan with Gintoki and Sadaharu to make the town remember the real Odd Jobs leader.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nV7wgl9ANzVBm0Y03j6PmKehD38.jpg",
+          "title": "Kintoki and Gintoki"
+        },
+        {
+          "aired": "2012-10-18",
+          "plot": "After Gintoki saves Tama from Kintoki, he finds the whole town turned against him after Kintoki frames him for the attack! Now Gintoki must face not only Kintoki, but all his former friends too! However, some of them are beginning to have doubts.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w2LCS8Apop2oVG6uDHEduuNxgwx.jpg",
+          "title": "Kin-san's Kintama"
+        },
+        {
+          "aired": "2012-10-25",
+          "plot": "It's time for the final showdown. Gintoki's friends rally around him once more, but Kintoki still has one more trick up his sleeve that could spell the end of Gintama forever!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xGNwWny132BVn4PVeP5ZDgq1JeC.jpg",
+          "title": "The Meaning of a Main Character"
+        },
+        {
+          "aired": "2012-01-10",
+          "plot": "Many years ago, the famous courtesan Suzuran made a promise with one of her clients. She has waiting in Yoshiwara ever since, hoping meet this man again. Many years have passed and Suzuran is now old and on her deathbed. Gintoki and Tsukuyo decide to track down this man, but are shocked when they find out just who he is.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uygBVD3q7RaQX4xXU7Lr5ACehDE.jpg",
+          "title": "Courtesan Turns the Tables"
+        },
+        {
+          "aired": "2012-01-17",
+          "plot": "Whilst trying to hide the unconscious Shogun, Gintoki and the gang encounter his uncle, the former Shogun, the man who allegedly made the promise with Suzuran. However, when Tsukuyo asks about her, they discover something that could spell danger for them all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vVnDn0Z2eGRRxOx1Q990vby5woz.jpg",
+          "title": "Inside the Palace!!"
+        },
+        {
+          "aired": "2013-01-24",
+          "plot": "Gintoki and the gang storm the palace looking for Maizo and Sadasada, the former Shogun. They find and confront Sadasada, but he still has a few tricks up his sleeve...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/grAsbnPxOY9sBi8Cm6w4IZrEgQ6.jpg",
+          "title": "Five Pinkies"
+        },
+        {
+          "aired": "2013-01-31",
+          "plot": "Just when it looks like all is lost, the Shinsengumi and Mimawarigumi arrive to lend their aid to our heroes. Sadasada attempts to escape but Gintoki is hot in pursuit.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ipX4hB2uZzZcp3e67i65M1r9ziG.jpg",
+          "title": "Pinky Swear"
+        },
+        {
+          "aired": "2013-02-07",
+          "plot": "As the Tendoshu arrive to take control of the situation, Shigeshige makes an unexpected announcement.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qK9887leg7Zd31Dm5zoKlbBJjp6.jpg",
+          "title": "Unsetting Moon"
+        },
+        {
+          "aired": "2013-03-07",
+          "plot": "Otae has decided that it's finally time to re-open the dojo to new students. Shortly after deciding this, she and Shinpachi meet with an unexpected acquaintance from the past. His name is Hajime, a former student of the dojo who was missing, assumed dead after being caught in an explosion in the terminal. Now that he has returned, he will help them revive the dojo, however there is something different about him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2tqOpMDLoCF0I21pftWVhBAc3vD.jpg",
+          "title": "The Sound of a Beam Can Pierce Every Heart"
+        },
+        {
+          "aired": "2013-03-14",
+          "plot": "Hajime's secret is revealed and the fate of the world hangs in the balance. Gintoki, seemingly ignoring Otae's pleas, decides to settle the score with Hajime himself.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rUl94sY1CTJFCpugj1niEwVGhzk.jpg",
+          "title": "Two Brothers"
+        },
+        {
+          "aired": "2013-03-21",
+          "plot": "Shinpachi arrives and saves Gintoki at the last moment. Although Gintoki was trying to save Hajime, Shinpachi and Otae have now resolved to put an end to this no matter what.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wo1W0zGscezmzaFsL2K7138ZXn4.jpg",
+          "title": "Liquor and Gasoline, Smiles and Tears"
+        },
+        {
+          "aired": "2013-03-28",
+          "plot": "Sadaharu, fed up with the lack of food at Odd Jobs, decides to leave to fend for himself. On the way he meets a starving puppy that he can't ignore.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mzxY8br0fLrSK5704KjCa474SVy.jpg",
+          "title": "Dog Food Doesn't Taste Like You Think"
+        }
+      ]
+    },
+    "7": {
+      "episodes": [
+        null,
+        {
+          "aired": "2015-04-08",
+          "plot": "Gin finds a strange clock and accidentally breaks it, causing all time in the universe to come to a stop.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/apO3905dT9eyWnrDtT3BGASziP0.jpg",
+          "title": "You Can Never Pause at the Perfect Time"
+        },
+        {
+          "aired": "2015-04-15",
+          "plot": "Odd Jobs continue to try and fix the Universal Clock, with little success.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/naPOFZDsGb44hMi8mEgsnI69aWu.jpg",
+          "title": "Even a Matsui Stick Can't Handle Some Kinds of Dirt"
+        },
+        {
+          "aired": "2015-04-22",
+          "plot": "Yamazaki is on the verge of breaking down after staking out Odd Jobs' place for days on end. Tama offers some words of encouragement at just the right moment. Unfortunately, Yamazaki's new found affection for Tama soon turns into full-blown stalking. Concerned, the Shinsengumi send Okita to help fix things...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6F7TZPqpQdQOHwINVSAu5qGWTju.jpg",
+          "title": "An Inspector's Love Begins With an Inspection"
+        },
+        {
+          "aired": "2015-04-29",
+          "plot": "Part 1 - Tsukuyo attempts to give Seita history lessons, but he refuses to take it seriously. Gintoki attempts to help, but his version of events may not be very accurate.\n\nPart 2 - Shinpachi runs into Gintoki whilst attempting to smuggle \"Ho Love-ru\" manga. The pair discuss how best to hide them from his sister.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/t0VthV8ltCK00XEpZpKILbXjTsJ.jpg",
+          "title": "Forget Dates, Remember People - You Can Hide Your Porn Mags, But You Can't Hide Your "
+        },
+        {
+          "aired": "2015-05-06",
+          "plot": "Part 1 - Sacchan finds a new stalking spot in Odd Job's building, but witnesses some unexpected things as the gang go about their morning rituals!\n\nPart 2 - Yamazaki is fed up with being labelled as boring at work and tries to get a ninja license.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mMwHJDi47pIach4bftJUTGJXFNq.jpg",
+          "title": "A Mirror Provides a Frozen Reflection of Both Your Beautiful and Ugly Sides - Nobody Likes the Photo on Their License"
+        },
+        {
+          "aired": "2015-05-13",
+          "plot": "Gin is tricked into turning up to a reunion party with Katsura and Sakamoto. The two are unhappy with their lack of screen time and are determined to start a flashback arc, but they then get sidetracked trying to figure out the identity of a supposed fifth hero who supported them from the sidelines.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lIswIxMTER1ly6e29HN9gJcBOCC.jpg",
+          "title": "Arriving Late to a Reunion Makes it Hard to Enter"
+        },
+        {
+          "aired": "2015-05-20",
+          "plot": "Gin and co finally remember the phantom fifth member, Kurokono Tasuke. They also remember blowing him up by accident! Could it be that this reunion was arranged by Kurokono's vengeful spirit?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/pXYGZS5VJgIWkPqCvGhHfHctdtn.jpg",
+          "title": "A Reunion Also Brings to the Surface Things You Don't Want to Remember"
+        },
+        {
+          "aired": "2015-05-27",
+          "plot": "Whilst buying his cigarettes, Hijikata is persuaded to take a lottery ticket someone left behind. Against all the odds, it's the jackpot winner! Hijikata becomes paranoid that somebody knows he has the ticket and then bumps into the last person he wants to see!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qJpcbBvrmTAER2DeLJKoFUKeTav.jpg",
+          "title": "When Compared to Time in the Heavens, Fifty Years of Human Life Resembles Naught but Dreams and Lottery Tickets"
+        },
+        {
+          "aired": "2015-06-03",
+          "plot": "Part 1 - Odd Jobs discuss ways to advertise themselves to attract new customers.\n\nPart 2 - Now that the previous four Devas have retired, the new leaders try to think of ways to make the Kabuki District less intimidating after being ranked the \"least desirable place to live\".",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ngbSqB6GTTeLQtVj9hXOucnDpX0.jpg",
+          "title": "Guys With Big Nostrils Also Have Big Imaginations - You Never Accept a New Sentai Series at the Start, But By the Final Episode, You Don't Want It to End"
+        },
+        {
+          "aired": "2015-06-10",
+          "plot": "Chaos ensues in the Kabuki district after a fanatical cult swaps everyone's genders around.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9TKly7mQNrvpMdR8QA5v03mjRBq.jpg",
+          "title": "9 + 1 = Yagyu Jyubei"
+        },
+        {
+          "aired": "2015-06-17",
+          "plot": "Odd Jobs and the Shinsengumi (F) team up to overthrow the cult, but Kyubei starts to question whether he/she wants to turn back into a woman.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8KuxJOY3rj6L93d6zbkkNQY9BaU.jpg",
+          "title": "Calories Come Back to Bite You Just When You've Forgotten About Them"
+        },
+        {
+          "aired": "2015-06-24",
+          "plot": "The gang break into the cult's headquarters but the leaders have already escaped. Faced with the possibility of never changing back, everyone must now adjust to their new genders.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A9kvaABSuMQLsQ0vNlNQ6FJxubn.jpg",
+          "title": "10 - 1 ="
+        },
+        {
+          "aired": "2015-07-01",
+          "plot": "Concerned that Seita doesn't seem to be making friends at temple school, Hinowa and Tsukuyo, believing the problem to lie with his lunch box, attempt to fix the problem but only seem to make it worse.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iSKxKx2MFoFalDcQXtlOxLAo8xs.jpg",
+          "title": "All Mothers Pack Too Much Food Into a Lunch Box and Ruin the Shape"
+        },
+        {
+          "aired": "2015-07-08",
+          "plot": "Recently, there has been a bizarre string of murders around town. The victims have all been killed the same way, with their heads virtually severed, bar a small strand of flesh. Gintoki, whilst stumbling home drunk, encounters what appears to be a reaper who asks him to help with their ritual suicide. He will soon discover just how the two are related.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1yxqQ5ARnWFkZdiVx3ujUurMazd.jpg",
+          "title": "The Reaper by Day and the Reaper by Night"
+        },
+        {
+          "aired": "2015-07-15",
+          "plot": "After revealing that his name was among the criminals sentenced to be executed, Yaemon blackmails Gin into smuggling Asaemon to safety. Meanwhile, Hijikata and Okita follow up their own leads on the reaper, uncovering a greater conspiracy in the process.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2ivySEVTpLTbWMo9nW0r5eikwfO.jpg",
+          "title": "Human or Demon"
+        },
+        {
+          "aired": "2015-07-22",
+          "plot": "Asaemon confronts Yaemon, but after he reveals that it was Gintoki who was the reason for her father's death, her resolve waivers. Will her blade strike Yaemon or Gintoki?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8Zz7RUPCpZzL9MpOMssiFrJ5KnU.jpg",
+          "title": "Farewell, Reaper"
+        },
+        {
+          "aired": "2015-07-29",
+          "plot": "Hasegawa come to Odd Jobs looking for new ghost stories to scare kids in the park. Unfortunately, the scariest thing about these stories might be the copyright laws they're breaking!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iJYLimsUGmDY2HeFooTcNUQ4rPX.jpg",
+          "title": "A Phoenix Rises from the Ashes  Over and Over"
+        },
+        {
+          "aired": "2015-08-05",
+          "plot": "Gintoki notices that many drunken patrons of Otose's bar are confessing their sins to Tama and decides to take advantage of that by opening a confessional and taking a cut of the fees. Many of the confessions seem to mention a certain worthless boss who sounds very familiar!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jfvg6HolHE44YMJSmkeU3K63BBk.jpg",
+          "title": "Amen"
+        },
+        {
+          "aired": "2015-08-12",
+          "plot": "After the previous episode's escapades, Katsura finds the unconscious Shigeshige and takes him back to the Joi Rebels hideout. Shigeshige has lost his memories of being the Shogun, but everyone but Katsura recognizes him straight away! Katsura, seeing potential in Shigeshige as a natural-born leader, attempts to teach him the qualities of leadership, but ends up being one-upped by him!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eAyxSzgTV40qDm9wP3vV9aOPrW3.jpg",
+          "title": "Being a Leader is Tough"
+        },
+        {
+          "aired": "2015-08-19",
+          "plot": "After inviting Otae to the festival and being rejected, Kondo rampages around, taking his frustrations out on happy couples there. In an effort to hide the fact that the one making the scene is the Shinsengumi chief, Sougo and Hijikata convince him to wear a disguise. A short while later, Kondo runs into Otae, who doesn't seem to recognize him in his cockroach mask.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/k2ZmYVctGstAdB7EteRrtinjckN.jpg",
+          "title": "Love is a Roach Motel"
+        },
+        {
+          "aired": "2015-08-26",
+          "plot": "Part 1 - After being told by Gin and Shinpachi that part of the joy of eating watermelons is the \"drama\" that comes with them, Kagura and Princess Soyo decide to raise the stakes.\n\nPart 2 - Summer break is almost over and Seita has not done his homework! He goes to Odd Jobs for help but as usual gets more than he bargained for!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lRih339wRq8iaHtHNWwY9kE1JCt.jpg",
+          "title": "A Sizzle Summer - A Nothing Summer 2015"
+        },
+        {
+          "aired": "2015-09-02",
+          "plot": "After getting hit by a truck, Gin and Hijikata mysteriously switch bodies. Now they must adapt to living each other's lives while trying to find a way to switch back.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wOhIqiWT6d4wC1rIJTZHrgqCoYd.jpg",
+          "title": "He's the Sweet Tooth, and I'm the Mayo Guy"
+        },
+        {
+          "aired": "2015-09-09",
+          "plot": "Gin and Hijikata find Gengai, who's newest invention is responsible for their body swapping. He tries to reverse the process but it doesn't work as something is missing. Gin remembers that part of his soul ended up in a dead cat which they must now find. Unfortunately, the Shinsengumi, with their new found freedom, and Odd Jobs, with their new strict codes, seem intent on getting in their way.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wxjXiHbeWRx7eYbMOE1kL1hxq9E.jpg",
+          "title": "I'm a Failure as a Leader, and He's Also a Failure as a Leader"
+        },
+        {
+          "aired": "2015-09-16",
+          "plot": "Gin and Hijikata manage to track down the cat with part of Gin's soul in it, which is being looked after by Otae. Attempts to capture it are complicated when the rest of the gang turn up and have also swapped bodies!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/v8kkDr9qKtz130kdIDsOl1qkwS7.jpg",
+          "title": "I'm Odd Jobs, and He's Shinsengumi"
+        },
+        {
+          "aired": "2015-09-23",
+          "plot": "Mutsu recalls to Gin how she and Sakamoto first became acquainted.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/h80Vaog1K7YRNXNPkWxH7Nebqu5.jpg",
+          "title": "Always Leave Enough Room for Fifty Million in Your Bag"
+        },
+        {
+          "aired": "2015-09-30",
+          "plot": "Sakamoto has been kidnapped by the pirates they double-crossed in the past! Now, it's up to Mutsu and Gin to rescue him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jHOqywsLe8TYVGjmscEiujJrMFs.jpg",
+          "title": "Always Leave Enough Room for Pebbles in Your Bag"
+        },
+        {
+          "aired": "2015-10-07",
+          "plot": "Part 1 - The Odd Jobs trio try out different outfits and styles, with disastrous consequences. \n\nPart 2 - Facing a disinterested group of old bums at their Dojo, Shinpachi asks the others for help in motivating them. They discover a scroll left behind by his dad containing a secret ultimate move.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/v4jooT1DNX22S5TVWG1g9KTb0xq.jpg",
+          "title": "Style Goes Out of Fashion the Moment It's Put Into Words - There Are Two Types of People In This World- Those Who Yell Out Their Attack Names, and Those Who Don't"
+        },
+        {
+          "aired": "2015-10-14",
+          "plot": "Whilst out \"patrolling\" Tae's house, Kondo encounters a notorious thief known as Ape Boy. Sensing his Gorilla-like strength and agility, Ape Boy asks Kondo to become his disciple.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4phHyQyuXwWtGMzPmSCuGXICDZK.jpg",
+          "title": "The Two Apes"
+        },
+        {
+          "aired": "2015-10-21",
+          "plot": "Katsura attempts to infiltrate the Shinsengumi wearing an afro as a disguise. He gets more than he bargained for when he is assigned to the squad of another Afro-wearer with some serious social issues!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/imh6rpXQm6DAhFq6PGVjvzU07Vm.jpg",
+          "title": "Afros of Life and Death"
+        },
+        {
+          "aired": "2015-10-28",
+          "plot": "Zura, having successfully infiltrated the Shinsengumi, now attempts to get rid of Wolfro, deeming him a threat.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/j9GNhV5jWR0IluNuAkWb9YOEqRD.jpg",
+          "title": "Afuro and Wolfro"
+        },
+        {
+          "aired": "2015-11-04",
+          "plot": "Whilst on a job tailing someone in the blistering summer heat, Gin steals Kagura's parasol, forgetting that the Yato are weak against sunlight. Kagura falls ill and is taken to the hospital.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oqWeVPhNMrMgnLKgb3t66LOmD2q.jpg",
+          "title": "Take the Initial Premise Lightly, and It'll Cost You"
+        },
+        {
+          "aired": "2015-11-11",
+          "plot": "Kagura's ruse has gone too far! After faking her illness things take a turn for the worse as everyone assumes she is dying. Even Soyo turns up and ends up planning a state funeral for her. It looks like it's too late for Kagura to correct the misunderstanding now!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/q9W453lNOAw1VqwYhExNUjc6Dug.jpg",
+          "title": "Keep Your Farewells Short"
+        },
+        {
+          "aired": "2015-11-18",
+          "plot": "Part 1 - After faking a stomachache to work on his Manga in peace in the infirmary, Shachi's work is discovered by the nurse there, who likes it a lot! Shachi wants to try asking her out but doesn't know how to. Gin suggests he do it through his Manga.\n\nPart 2 - Gin and Shachi finally get a chance to debut in Jump, however they only have one night to finish their manuscript! Gin finds some assistants to help. Will they finish in time?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aRibCB0LiUAfFbX9P34hogc29Wx.jpg",
+          "title": "One Editor Is Enough - The G-Pen Is Capricious and the Maru Pen Is Stubborn"
+        },
+        {
+          "aired": "2015-11-25",
+          "plot": "Part 1 - Tetsuko leaves Odd Jobs in charge of her store while she looks for rare materials. It doesn't take long before some strange characters appear asking for various legendary swords to be fixed.\n\nPart 2 - Tama befriends an cigarette vending machine that has become unreliable due to its age. Over time, the two become closer, but their happy days may be numbered.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fTYk9kwS9TND4F1CKAlFswLK7Sq.jpg",
+          "title": "Strike When the Sword and Overlord are Hot - Oil Rain"
+        },
+        {
+          "aired": "2015-12-02",
+          "plot": "After the Shogun nearly falls victim to an assassination attempt by unknown forces, a plan is put into motion to help him escape Edo. Several diversions, each with body doubles set off in different directions, guarded by those loyal to Shigeshige. However the loyalty of some remains uncertain...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/41ABcy2USqEtyWa7QjavchUr4jt.jpg",
+          "title": "Shoguns of Light and Shadow"
+        },
+        {
+          "aired": "2015-12-09",
+          "plot": "Zenzou and the Iga clan have betrayed the Shogun! Their forces are ambushed from all sides as forces loyal to the shogun desperately fight back.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/jc4DY2gOrnUSvAa8hj6eo0RX8eO.jpg",
+          "title": "Ninja Village"
+        },
+        {
+          "aired": "2015-12-16",
+          "plot": "After it becomes clear that the Iga clan didn't actually betray the Shogun, Gin and co are taken to their village and learn the truth about the Shogun's deep involvement with the clan in the past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wgfw9YzA6Z7DhSKJRQT388z6Wlj.jpg",
+          "title": "Ninja Soul"
+        },
+        {
+          "aired": "2015-12-23",
+          "plot": "As Sarutobi attempts to rescue the critically wounded Zenzou, Odd Jobs, Hijikata and Kondou desparately fight back against the ruthless Yato clan, trying to get the Shogun to safety. Meanwhile, Takasugi seeks out Gintoki to end things once and for all.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sY5mXFdntuDcqthpeTaHPIINRp7.jpg",
+          "title": "And Then There Were Five"
+        },
+        {
+          "aired": "2016-01-06",
+          "plot": "Past histories are finally confronted for Gintoki and Kagura as they face off against Takasugi and Kamui.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/koC1xJZUvhW1A9QNDnTMuXk3ic6.jpg",
+          "title": "Those Who Protect Against All Odds"
+        },
+        {
+          "aired": "2016-01-13",
+          "plot": "As Gintoki and Takasugi continue their frenzied fight, the past they shared together with Katsura is revealed, as well as the fate of their teacher, Shouyou.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/awCI7LCFaeivU6PAMvzTBKH4xbM.jpg",
+          "title": "Sworn Enemy"
+        },
+        {
+          "aired": "2016-01-20",
+          "plot": "As various conflicts draw to their conclusions, the Tendoshu swoop in to finish off the survivors.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/k61gNez6Jxjqd5vsrnZTRJbm7hi.jpg",
+          "title": "The Crows Caw After the Battle Ends"
+        },
+        {
+          "aired": "2016-01-27",
+          "plot": "With the battle over, the survivors each go their separate ways. With Nobunobu appointed the new Shogun, Shigeshige and his retainers retreat to Kyo to regroup. For those left in Edo, there may be dark times ahead.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2tXCRv7PAPQYH9LR6jCmZjXQCSS.jpg",
+          "title": "Farewell, Buddy"
+        },
+        {
+          "aired": "2016-02-03",
+          "plot": "Following Shigeshige's assassination, the new Shogun, Nobunobu begins a purge of the old guard. Matsudaira and Kondo are blamed for failing to prevent the assassination and sentenced to be beheaded and the Shingengumi are disbanded. Lost and without a leader, they must now decide what to do next.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aWsQYI9Rr5AC2D4agHrU4PtdumD.jpg",
+          "title": "The Day the Demon Cried"
+        },
+        {
+          "aired": "2016-02-10",
+          "plot": "Gin and Hijikata are drinking away their sorrows when Nobunobu and the Mimawarigumi storm the place. Nobunobu, not satisfied with having crushed Shigeshige and thei Shinsengumi attempts to antagonize Hijikata. Suddenly, an unexpected ally arrives.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6svU2UuYW9KIdED6I5fhW3N00cb.jpg",
+          "title": "Heroes Always Arrive Fashionably Late"
+        },
+        {
+          "aired": "2016-02-17",
+          "plot": "Whilst Kondo And Katsura attempt to break out of prison, Hijikata must decide which path to walk.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/BNyAaSnff0LV1JQvTjSEwo7sQT.jpg",
+          "title": "Lost and Found"
+        },
+        {
+          "aired": "2016-02-24",
+          "plot": "The Shinsengumi and Joi Rebels team up to rescue Kondo and Katsura from the prison island known as Kokujo, but things do not go to plan and they are soon ambushed by a familiar enemy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/4r4AXWbL3gjkbwL7q5ZWucFEgo1.jpg",
+          "title": "Prison Break"
+        },
+        {
+          "aired": "2016-03-02",
+          "plot": "Odd Jobs and the Shinsengumi make land on the prison island, but to reach Kondo and Katsura they must content with the Tendoshu and the Mimawarigumi first.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/f5eKEbJ9rrGeLYXJAHQdG9gM86m.jpg",
+          "title": "Stray Dogs"
+        },
+        {
+          "aired": "2016-03-09",
+          "plot": "Sasaki Isaburo's past with the Shinsengumi, Matsudaira, and Imai Nobume is finally revealed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mYcNJgecGWuYzJsdgLyBK3P7q1r.jpg",
+          "title": "Undelivered Mail"
+        },
+        {
+          "aired": "2016-03-16",
+          "plot": "Things come to a head on Kokujo Island, as death itself descends upon the battlefield.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8XnMoemYq5HJMpUCb9vK4DLpH5E.jpg",
+          "title": "Karma"
+        },
+        {
+          "aired": "2016-03-23",
+          "plot": "With everyone fighting to regroup and escape, Sasaki makes the same mistake one more time.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/2vY7noNSVUsNt41Eycj6wtnKkwZ.jpg",
+          "title": "Nobume"
+        },
+        {
+          "aired": "2016-03-30",
+          "plot": "The complete fallout of the events at Kokujo Island come to light and brings about farewells nobody thought they'd ever see.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1zE1qpfqyFDvswDFvBkSX5mU0EQ.jpg",
+          "title": "Farewell Shinsengumi"
+        }
+      ]
+    },
+    "8": {
+      "episodes": [
+        null,
+        {
+          "aired": "2017-01-09",
+          "plot": "Katsura, his faction and the Yorozuya are in Akiba hiding from the bakufu before encountering Nobume, Matoko and Takechi.Thus weaves a tale of the Kiheitai's fall, the Tendoushuu's birth and a surprising secret of Shouyou.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6EbGhKgZkYbnTmaBk2u2dt1WmB6.jpg",
+          "title": "The Monster and the Monster's Child"
+        },
+        {
+          "aired": "2017-01-16",
+          "plot": "As the Yorozuya struggle with the recent revelations, the Kiheitai find themselves with unexpected allies. Now all will go on a journey to the planet Rakuyou, once the birthplace of two certain redhead Yato.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u9BSsfZDQIy6Ca4ZYkHpwtyZtET.jpg",
+          "title": "Leave Letter"
+        },
+        {
+          "aired": "2017-01-23",
+          "plot": "Enemies and allies have gathered on Rakuyou. So now the battles begin!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gQUzRrWAXvufApFBcpnnvEPD1qZ.jpg",
+          "title": "The Song of a Samurai"
+        },
+        {
+          "aired": "2017-01-30",
+          "plot": "Katsura, Sakamoto, and Gintoki must face off against the most dangerous members of the Harusame, the 3 Mad Stars. First up, it is Katsura vs Shoukaku, along with the reveal of Katsura's past.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wDGjUSFJeNC4pIAwuW2I1GcZr24.jpg",
+          "title": "Zura"
+        },
+        {
+          "aired": "2017-02-06",
+          "plot": "One Star down, two to go; next up, it is Sakamoto vs Hankai. As he struggles to save ship and crew from the android's machinations, a certain character gains development.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vlvdPGmnJMVdvGykDwME7brDGQF.jpg",
+          "title": "The Two Fools"
+        },
+        {
+          "aired": "2017-02-13",
+          "plot": "Two down, one to go; last up, Gintoki vs. Batou with mistaken identities and illusions galore. And in the end, a certain character awakens and a certain quartet reunite.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fxUnj8mKdHhPRHLuOKkMw6ZKGF1.jpg",
+          "title": "Ten Years"
+        },
+        {
+          "aired": "2017-02-20",
+          "plot": "The Heavenly Kings are reunited to fight against the Harusame and Utsuro. Meanwhile, a certain father and son also reunite to kill the other; but not if Kagura have anything to say about it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oG3q15n6I0m0o0lGQqKsuaXKIjo.jpg",
+          "title": "Path"
+        },
+        {
+          "aired": "2017-02-27",
+          "plot": "Umibouzu vs. Utsuro and Kagura vs. Kamui. Though along the way, the father and son reveal the figure who has a connection to all four of them, the deceased wife and mother of three of them, Kouka.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/754gn6jLRs1baCqg6DCCoTkNHCh.jpg",
+          "title": "Master of Kouan"
+        },
+        {
+          "aired": "2017-03-06",
+          "plot": "Through confusion and suffering, everything falls apart when Kouka grows ill and the ramifications of her constitution becomes apparent. In the present, Utsuro and Umibouzu's plus the siblings' fights end.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nWZbnDp2sHZNtR13cYOCxBzroU6.jpg",
+          "title": "The Lost Rabbit"
+        },
+        {
+          "aired": "2017-03-13",
+          "plot": "It is the Yorozuya and Abuto vs Kamui to save him from the brink.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tIYTwjIQ5TYPKEnQkLUUUAZdM25.jpg",
+          "title": "Siblings"
+        },
+        {
+          "aired": "2017-03-20",
+          "plot": "The arc comes to a close. Takasugi vs Oboro and Oboro's past is revealed.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/csUzGiuAHTlgABwOjnG0oDeiOlz.jpg",
+          "title": "First Student"
+        },
+        {
+          "aired": "2017-03-27",
+          "plot": "Utsuro's past is revealed as well as his ultimate plan, plus revelations are made. The Rakuyou Arc finale.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7hYcp8eagYFwSavWjExEHI9qi8b.jpg",
+          "title": "Hope"
+        }
+      ]
+    },
+    "9": {
+      "episodes": [
+        null,
+        {
+          "aired": "2017-10-02",
+          "plot": "Kagura has a boyfriend!! What unspeakable things will happen to him who appears before the obsessively nosey, restlessly agitated Umibozu and Gintoki!?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kJHTRcI76In1UBpL74oR2042WDu.jpg",
+          "title": "The Stairs to Adulthood May Not Always Lead Up"
+        },
+        {
+          "aired": "2017-10-09",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aJ3cAAym2CIu8LIXzZJBw46QoGn.jpg",
+          "title": "My Bald Dad, My Light-Haired Dad, and My Dad's Glasses"
+        },
+        {
+          "aired": "2017-10-16",
+          "plot": "Katsura, upon hearing Ikumatsu's story about an old man who used to visit her restaurant every New Year's Eve, enlists the Odd Jobs' help to look for him.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hLICHJSQoRg4fjiqR3uykAuaysw.jpg",
+          "title": "A Bowl of Ramen"
+        },
+        {
+          "aired": "2017-10-23",
+          "plot": "The gang discover the truth behind the old man and look to reunite him with Ikumatsu and her ramen.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wHet2gS9tMkM8lEQ3xjiiP7Y7c4.jpg",
+          "title": "A Family"
+        },
+        {
+          "aired": "2017-10-30",
+          "plot": "Hasegawa has a life-or-death encounter with assassins, and the Shinsengumi and Mimawarigumi compete over solving a fictional case.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sR8GM3folCEXqLYFpo0LRwhnAkf.jpg",
+          "title": "Life, Death, and Shades - All the Answers Can Be Found in the Field"
+        },
+        {
+          "aired": "2017-11-06",
+          "plot": "The Odd Jobs encounter a strange sword at Tetsuko's smithy, and it grows attached (quite literally) to Gintoki's behind!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yM6HmXw1RMVo7S1VZYAaWJ19SJk.jpg",
+          "title": "3000 Leagues in Search of a Scabbard"
+        },
+        {
+          "aired": "2017-11-13",
+          "plot": "Kusanagi reveals the details of an old wound he received at the hands of the cursed sword, Maganagi, as Gintoki and Okita get ready for their duel. Meanwhile, Hijikata investigates Senbe the Manslayer.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oqSsd61j5Wf8RnxoVXraCnBqPzh.jpg",
+          "title": "The Super Sadist and the Super Sadist"
+        },
+        {
+          "aired": "2017-11-20",
+          "plot": "The Excaliburling story reaches its climax as Maganagi takes over Okita's body and reveals the truth to Kusanagi. How will Gintoki respond?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9owgICsvs6raojRqiqhr5Gjq04D.jpg",
+          "title": "The Strongest Sword, and the Dullest Ass"
+        },
+        {
+          "aired": "2017-11-27",
+          "plot": "As group units take over the idol industry, Terakado Tsu must adapt or fall behind the times. But the idol she forms a combo unit with is... Kagura?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nsebN0RzcCnZ1s7eXouu4lTy7WN.jpg",
+          "title": "Wash Your Hands Before a Handshake"
+        },
+        {
+          "aired": "2017-12-04",
+          "plot": "Boogie Diamonds 48 has to deal with the sudden arrival of Galaxy Kingdom Bitches 48, who challenge them for the spot of Edo's top idol!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xjzskJWKJ6kagbU1NIs0iSNJD18.jpg",
+          "title": "Diamonds are Unscratchable"
+        },
+        {
+          "aired": "2017-12-11",
+          "plot": "The battle at the Oedo Dome heats up as the fans waver between the two groups, but Otsu is still holed up indoors. Will she fade away, or will Shinpachi and gang rekindle her passion?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ozA8xyN8OaFBg0y9zVfOUwDp5q1.jpg",
+          "title": "An Idol's Badge of Honor"
+        },
+        {
+          "aired": "2017-12-18",
+          "plot": "In the first half, Gintoki decides that as protagonist, he can't sit and do nothing as a Gintama game is released. He takes matters into his own hands as Odd Jobs looks to produce a super hit. In the second, Shinpachi buys a new pair of glasses that get him rather high spirits...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yOET0PymBDBLdNo140rRHin7EGS.jpg",
+          "title": "The Line Between Godlike Games and Shitty Games is Paper-Thin"
+        },
+        {
+          "aired": "2017-12-25",
+          "plot": "The Kabuki District Sports Meet begins, and Shinpachi bears witness to the influence guardian spirits have on such events. Will he be able to fight through it and help Odd Jobs win the cash prize?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/LHSRtbT86LRnQEsqk9Mp0OgxFr.jpg",
+          "title": "Guardian Spirits Are Also a Part of the Soul"
+        }
+      ]
+    },
+    "10": {
+      "episodes": [
+        null,
+        {
+          "aired": "2018-01-08",
+          "plot": "Utsuro's master plan is in full effect as Earth is taken over by the Altana Liberation Army. With Odd Jobs still not back from Rakuyo, the residents of Kabuki District have a hard time adjusting to life as a colony.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wT6S3EOk9qvCQbNgoELesd7yu55.jpg",
+          "title": "Try As You Might to Make a Natural Perm Go Away, It Will Always Return"
+        },
+        {
+          "aired": "2018-01-15",
+          "plot": "Katsura, Sakamoto, and Nobunobu arrive at the S.S. Heavenly Bird and try to bring the Liberation Army to the negotiating table. Meanwhile, the various factions in Edo begin to make their move.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kUOcYRuu2ZyZOUXohgNmcZSJeBi.jpg",
+          "title": "Flavoring is Best in Small Quantities"
+        },
+        {
+          "aired": "2018-01-22",
+          "plot": "With the Odd Jobs looking for the Tendoshu, things heat up on the Liberation Army's main ship. Shijaku has promised his cooperation to Nobunobu, but now he must convince his comrades.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ew2XCrMKf55zmX3oJfFOp6r2jTd.jpg",
+          "title": "A Delinquent's Kid Has Long Neck Hair"
+        },
+        {
+          "aired": "2018-01-29",
+          "plot": "The encounter with Utsuro leaves Gintoki feeling more helpless than ever before. That's when he receives a very powerful reminder.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/z2j70phCWg20QwGhWapDm5h19gG.jpg",
+          "title": "The Line Between Tenacious and Annoying Is Paper-Thin"
+        },
+        {
+          "aired": "2018-02-05",
+          "plot": "The return of some familiar faces breathes new life into Earth's resistance, but they're as troublesome as they've always been! And when the Liberation Army brings out its big guns, it's up to Gengai to respond.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9k72vB2rZxSZhjvm7l8qqRvC39w.jpg",
+          "title": "Geezers Carve the Things They Shouldn't Forget into Their Wrinkles"
+        },
+        {
+          "aired": "2018-02-12",
+          "plot": "The machines have done their part and left Earth's future in the hands of humanity. But Gengai's cannon has also painted a huge target on the Kabuki Distruct, and the Liberation Army immediately marches toward it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oM2bm575zIxOwnVHsoVm0hmJnMA.jpg",
+          "title": "Machines That Pick Up Useless Habits Are Called People"
+        },
+        {
+          "aired": "2018-02-19",
+          "plot": "Prince Hata's past is revealed along with the history of Planet Okoku. Can Katsura and Hasegawa really get them on Earth's side?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7vaMVUhWsLVPSBpUvI3WnerWyMo.jpg",
+          "title": "Men Must Live Not Long or Thick, but Hard"
+        },
+        {
+          "aired": "2018-02-26",
+          "plot": "The Kabuki District is under siege, and the fearsome Dakini race arrive on the scene. How can the District and its residents cope with this onslaught?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/94bHjFxSjwhUVi3EvsBH3QEhmcD.jpg",
+          "title": "Ogres Are Weak Against Tiny Heroes Like the Inch-High Samurai"
+        },
+        {
+          "aired": "2018-03-05",
+          "plot": "The Shinra finally make their move and look to capture the creator of the virus cannon with their underhand tactics. But right as things get desperate, the \"boss\" of the Kabuki District intervenes",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/p3XqKsom7YM9RZdbc2OL3lBX4gy.jpg",
+          "title": "Bragging About Your Own Heroic Deeds Will Make People Hate You, So Make Others Do It For You"
+        },
+        {
+          "aired": "2018-03-12",
+          "plot": "Under the leadership of the Kabuki District's Four Devas, the residents are beginning to drive out the enemies inside the town. However, they still have to deal with Ougai, the leader of the Dakini force.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/eNrqKv3E6nEjFxt6ePa2wnx064G.jpg",
+          "title": "Jump and Power Creep Go Hand-in-Hand"
+        },
+        {
+          "aired": "2018-03-19",
+          "plot": "After successfully driving the Liberation Army out of the Kabuki District, its residents enjoy a well-earned break. However, they know that the peace won't last for long.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gdouJfviAAiwCGl6LemcdaMLzN4.jpg",
+          "title": "Peace and Destruction Are Two Sides of the Same Coin"
+        },
+        {
+          "aired": "2018-03-26",
+          "plot": "Gengai has gone missing, and Ensho has brought out his trump card. How can the Odd Jobs, the Shinsengumi, Katsura, Sakamoto, and Nobunobu get out of this desperate situation?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/8EnBD7R6bhEfmAgTvG8HCmnFrxt.jpg",
+          "title": "Bushido Is Found One Second Before Death"
+        }
+      ]
+    },
+    "11": {
+      "episodes": [
+        null,
+        {
+          "aired": "2018-07-09",
+          "plot": "The other half of silver soul arc starts.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u9ZXPr8RNN2xLQBPbXzbfv49Rsn.jpg",
+          "title": "The Evildoers Who Do Good"
+        },
+        {
+          "aired": "2018-07-15",
+          "plot": "Kagura senses Yato presence and runs off to stop them, and she has some unexpected backup!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/gD52EUuvv2F87qNtgcARs1NJQ66.jpg",
+          "title": "Rabbits Jump High on Moonlit Nights"
+        },
+        {
+          "aired": "2018-07-22",
+          "plot": "With the Earth's Altana reserves going berserk, and the Flame of Kagutsuchi nearly ready to fire, the Kiheitai are left with hard choices to make in order to prevent the destruction of Earth and the entire galaxy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aV7VNBlZvytNBkT2EzmJVRFlLPg.jpg",
+          "title": "Making a Dull World Interesting"
+        },
+        {
+          "aired": "2018-07-29",
+          "plot": "Ensho's past is revealed, and Takasugi revolves to make a final stand to take him down.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bGwrZzPUbD7SFVeO30XMIsFVROb.jpg",
+          "title": "Do something uncharacteristic, and something uncharacteristic will happen"
+        },
+        {
+          "aired": "2018-08-05",
+          "plot": "The story shifts back to Earth, where Utsuro has made the Altana ley lines go berserk. Some old, familiar faces rise up to combat it.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/d4B3FVgiS2lJj5gwBGB5repAeB3.jpg",
+          "title": "Countless Kings"
+        },
+        {
+          "aired": "2018-08-12",
+          "plot": "Shijaku presents his brother, Prince Hata, with an impossible choice. As he finally makes his decision, Hasegawa suggests a different solution.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/Arza6K7SgFdm80L3qQNPAUkblz2.jpg",
+          "title": "The Unemployed Cannot Be Stained By Anything"
+        },
+        {
+          "aired": "2018-08-19",
+          "plot": "As Sadaharu fights to quell the rampaging ley lines, the gang puts it all on the line to take down Utsuro.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9QCL2uMu0Ve7CCphsD2OG6yjzIF.jpg",
+          "title": "Always Hold On to Your Trump Cards"
+        },
+        {
+          "aired": "2018-08-26",
+          "plot": "The Odd Jobs are joined by old friends in their battle to save the Earth. Utsuro is surprised by a side of humanity he had never seen before.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/h8FZmDbfDJAeSLNEqlg2I4AFWIO.jpg",
+          "title": "The Creatures Known as Humanity"
+        },
+        {
+          "aired": "2018-09-02",
+          "plot": "Two years have passed, and Gintoki has shut down the Odd Jobs business and gone off to do something only he can do. Shinpachi has other ideas, though.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/aYBygXyUnOpvOiQLbCzyV8AMDQA.jpg",
+          "title": "Sign"
+        },
+        {
+          "aired": "2018-09-09",
+          "plot": "Shinpachi is forced into a plot to assassinate the inaugural prime minister of Japan, Donald Zuramp!",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/dZF9cOBq96YnB81qCaUkwbxKFIS.jpg",
+          "title": "Specter"
+        },
+        {
+          "aired": "2018-09-17",
+          "plot": "Okita and Kagura's daughter (?) rekindle their rivalry, and Okita senses something is off. Meanwhile, Gintoki runs into an old friend.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/vrumEpyWwQ2tDaP34VTaPRwsnR5.jpg",
+          "title": "Two in Girl Years Is Equal to Ten in Man Years"
+        },
+        {
+          "aired": "2018-09-24",
+          "plot": "Gintoki and Takasugi reveal to each other what they've been doing over the past two years, and decide to go save the one thing they never managed to save in the past: their teacher.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6QjfywzUlxdNiMjrKo3xQHWyZL1.jpg",
+          "title": "Salvation"
+        },
+        {
+          "aired": "2018-10-01",
+          "plot": "Now back in Edo, Gintoki doesn't know how to face his old friends, and so he decides to try and avoid running into any of them. However, that won't be easy.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lWdjO1uYiBTogxbC56qtNyXvkBq.jpg",
+          "title": "Dun Dun"
+        },
+        {
+          "aired": "2018-10-08",
+          "plot": "Having caught Takasugi Shinsfake, the ladies' gang decides to teach him a lesson and try and get him to spill the beans on where Gintoki is. How will Shinsfake survive this?",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/of5clnJdJLkESRY7TUjmOIkwvpO.jpg",
+          "title": "There Are Lines Even Villains Can't Cross"
+        }
+      ]
+    }
+  }
+}

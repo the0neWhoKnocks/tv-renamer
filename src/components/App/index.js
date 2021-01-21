@@ -33,7 +33,7 @@ import styles, {
   ROOT_CLASS,
 } from './styles';
 
-const SERIES_PATTERN = "(?:\\[.*\\] )?([a-z1-9,;'.!\\-&\\s]+\\b(?:\\d{1,4})?)(?:\\.|\\s)?(?:\\((\\d{4})\\))?";
+const SERIES_PATTERN = "(?:\\[.*\\] )?([a-z0-9,;'.!\\-&\\s]+\\b(?:\\d{1,4})?)(?:\\.|\\s)?(?:\\((\\d{4})\\))?";
 const SERIES_NAME_REGEX = new RegExp(`^${ SERIES_PATTERN }`, 'i');
 export const NAME_REGEX = new RegExp(`^${ SERIES_PATTERN }(?:\\.|\\s)?(?:\\s-\\s)?s(\\d{2})e(\\d{2,3})`, 'i');
 // name.s01e01-s01e02.ext

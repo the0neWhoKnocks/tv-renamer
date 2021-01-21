@@ -1,0 +1,577 @@
+{
+  "schema": 4,
+  "genres": [
+    "Crime",
+    "Mystery",
+    "Drama"
+  ],
+  "id": 89844,
+  "mpaa": "TV-MA",
+  "name": "30 Coins",
+  "plot": "Father Vergara—an exorcist, boxer and ex-convict—lives in a remote village in Spain. Hoping to be lost and forgotten, Vergara’s demons catch up to him.",
+  "premiered": "2020-11-29",
+  "status": "Returning Series",
+  "studios": [
+    "HBO España"
+  ],
+  "actors": [
+    {
+      "name": "Eduard Fernández",
+      "order": 0,
+      "role": "Padre Vergara",
+      "thumb": "/gUfWXKnEEIn6S6UG2r97VL3UKEe.jpg"
+    },
+    {
+      "name": "Megan Montaner",
+      "order": 1,
+      "role": "Elena",
+      "thumb": "/yVp0uwG73WwkPEXtXd04NzQ6KzG.jpg"
+    },
+    {
+      "name": "Pepón Nieto",
+      "order": 2,
+      "role": "Sargento Lagunas",
+      "thumb": "/mjyEXTCJEIZNROdSUpvAg6HG01e.jpg"
+    },
+    {
+      "name": "Miguel Ángel Silvestre",
+      "order": 3,
+      "role": "Paco",
+      "thumb": "/zZSqg6OCHXz74egO78RFHIDlSiT.jpg"
+    },
+    {
+      "name": "Macarena Gómez",
+      "order": 4,
+      "role": "Merche",
+      "thumb": "/bv47XMjZUhptKGFKIEoVA8pVsMT.jpg"
+    },
+    {
+      "name": "Manolo Solo",
+      "order": 5,
+      "role": "Cardenal Petruccelli",
+      "thumb": "/qiUCKEbGarxLH5yQSkawaOJKNwP.jpg"
+    },
+    {
+      "name": "Cosimo Fusco",
+      "order": 6,
+      "role": "Angelo",
+      "thumb": "/tzlLC0hxVspwBTMVB7x6mAuhnXV.jpg"
+    },
+    {
+      "name": "Manuel Tallafé",
+      "order": 7,
+      "role": "Enrique",
+      "thumb": "/3K3OQVM7LcF0TKz0NP6AKinLMX3.jpg"
+    },
+    {
+      "name": "Mariano Venancio",
+      "order": 74,
+      "role": "Marcelo",
+      "thumb": "/aZT4jP35s7hwOspb4nW1wqKZpmE.jpg"
+    },
+    {
+      "name": "Javier Bódalo",
+      "order": 74,
+      "role": "Antonio",
+      "thumb": "/42EE8bQUOtq2vnrhTCCZZgwZs6V.jpg"
+    },
+    {
+      "name": "Álvaro Manso",
+      "order": 74,
+      "role": "Román",
+      "thumb": "/hMe2vmcRgwtkzedZyqGKJSFwVAC.jpg"
+    },
+    {
+      "name": "Beatriz Olivares",
+      "order": 74,
+      "role": "Isabel",
+      "thumb": "/pUhRZFo1Bci3PucMFF2XiDJePVQ.jpg"
+    },
+    {
+      "name": "Nacho Braun",
+      "order": 74,
+      "role": "Juan Carlos",
+      "thumb": "/5qIFVIhYHjstKYsKedSKzu0l9x9.jpg"
+    },
+    {
+      "name": "Pat Aguiló",
+      "order": 74,
+      "role": "Remedios",
+      "thumb": null
+    },
+    {
+      "name": "José Alias",
+      "order": 74,
+      "role": "Curro",
+      "thumb": null
+    },
+    {
+      "name": "Juan Viadas",
+      "order": 74,
+      "role": "Rogelio",
+      "thumb": "/nDzhnL6lJsHidVzt33I51v2vudC.jpg"
+    },
+    {
+      "name": "Alberto Bang",
+      "order": 74,
+      "role": "Ricardo",
+      "thumb": "/1bPziV1KmbMKaROxGPwYC19DELF.jpg"
+    },
+    {
+      "name": "Lola Rojo",
+      "order": 74,
+      "role": "Consuelo",
+      "thumb": null
+    },
+    {
+      "name": "Paula Soldevila",
+      "order": 74,
+      "role": "María José",
+      "thumb": "/6gJRS8toQA7dLKW5n1XG3kcPqlY.jpg"
+    },
+    {
+      "name": "Elisa Matilla",
+      "order": 74,
+      "role": "Felisa",
+      "thumb": "/y5x7i1jLtB5ImXbzmUQMP275vRl.jpg"
+    },
+    {
+      "name": "Antonio Velázquez",
+      "order": 63,
+      "role": "Roque",
+      "thumb": "/2PnsWKrIteEws60cuujJ10o7xQK.jpg"
+    },
+    {
+      "name": "Paco Tous",
+      "order": 63,
+      "role": "Jesús",
+      "thumb": "/fl3tEdiIod0NpMMJv9uL7bQTokd.jpg"
+    },
+    {
+      "name": "Aten Soria",
+      "order": 73,
+      "role": "Rosario",
+      "thumb": "/nc4rdXA5SSzIcoTNEhY8YWQE6F7.jpg"
+    },
+    {
+      "name": "Julián Valcárcel",
+      "order": 74,
+      "role": "Ernesto",
+      "thumb": "/rGmLeXISp1IXABXQ8aLbGIAPk4G.jpg"
+    },
+    {
+      "name": "Nourdin Batán",
+      "order": 74,
+      "role": "Jaime",
+      "thumb": "/59m5TkWdKKSUOmirj0GNnrVku3F.jpg"
+    },
+    {
+      "name": "Riccardo Frascari",
+      "order": 74,
+      "role": "Giacomo",
+      "thumb": "/kMCefD9nOEb6v6PhHOXiW11JJzU.jpg"
+    },
+    {
+      "name": "María Jesús Hoyos",
+      "order": 74,
+      "role": "Anciana milenaria",
+      "thumb": "/v9EatFTV6uT2Gkz9GCEpiGuVzLQ.jpg"
+    },
+    {
+      "name": "Jaime Ordóñez",
+      "order": 74,
+      "role": "Tomás",
+      "thumb": "/x46hVHDEGrX6148QT9fdQYK5pdu.jpg"
+    },
+    {
+      "name": "Secun de la Rosa",
+      "order": 74,
+      "role": "Martín",
+      "thumb": "/mLuBhTcgVcgiTzsiATgry40vhMa.jpg"
+    },
+    {
+      "name": "Francisco Reyes",
+      "order": 74,
+      "role": "Lagrange",
+      "thumb": "/39vxTjzjqCgvA0Tf7NGGKiRsYKC.jpg"
+    },
+    {
+      "name": "Alba de la Fuente",
+      "order": 74,
+      "role": "Trini",
+      "thumb": "/8x482hNtr0AZVhBExvfkKavyUKD.jpg"
+    },
+    {
+      "name": "Óscar Ortuño",
+      "order": 42,
+      "role": "Nacho",
+      "thumb": "/8tlvae8kVWkWWEMd2JE0HB1BwRl.jpg"
+    },
+    {
+      "name": "Elena González",
+      "order": 74,
+      "role": "Concha",
+      "thumb": null
+    },
+    {
+      "name": "Enrique Martínez",
+      "order": 74,
+      "role": "Ramiro",
+      "thumb": "/fBjfyBx7VQ5no3DTIVeCnrH0vYx.jpg"
+    },
+    {
+      "name": "Isabel Bernal",
+      "order": 74,
+      "role": "Susana",
+      "thumb": null
+    },
+    {
+      "name": "Greta Fernández",
+      "order": 74,
+      "role": "Cristina Miralles",
+      "thumb": "/4s2yHmUi1GWFPzuBnd6VIpMgINg.jpg"
+    },
+    {
+      "name": "Nuria González",
+      "order": 74,
+      "role": "María Salcedo",
+      "thumb": "/j5XfJhs2gbdKo1VrAEjAi2apP1t.jpg"
+    },
+    {
+      "name": "Mafalda Carbonell",
+      "order": 74,
+      "role": "Lourdes",
+      "thumb": "/4qGNf5157K7rUorutESDyJp74pc.jpg"
+    },
+    {
+      "name": "Alicia San Lorenzo",
+      "order": 74,
+      "role": "Fina",
+      "thumb": "/iBWp0I9qJaFcAB5INfRyqIP7gAo.jpg"
+    },
+    {
+      "name": "Abril Montilla",
+      "order": 42,
+      "role": "Elvira",
+      "thumb": null
+    },
+    {
+      "name": "Leonardo Nigro",
+      "order": 57,
+      "role": "Sandro",
+      "thumb": "/gnuUdxZdZzxowKSQAgfoMNGfdVt.jpg"
+    },
+    {
+      "name": "Víctor Clavijo",
+      "order": 57,
+      "role": "Mario",
+      "thumb": "/f7aluwKTHUC8OLpOMxndFCrYwI3.jpg"
+    },
+    {
+      "name": "Carla Tous",
+      "order": 63,
+      "role": "Sole",
+      "thumb": null
+    },
+    {
+      "name": "Luigi Diberti",
+      "order": 63,
+      "role": "Lombardi",
+      "thumb": "/lNLDMKKAyGIGCEmHln82jB5Sdd0.jpg"
+    },
+    {
+      "name": "Noureddine El Attab",
+      "order": 70,
+      "role": "Ahmed",
+      "thumb": null
+    },
+    {
+      "name": "Bruno Pablo Zito",
+      "order": 74,
+      "role": "Sacerdote Bruno",
+      "thumb": null
+    },
+    {
+      "name": "Vicente León",
+      "order": 1,
+      "role": "Anciano Ginebra",
+      "thumb": null
+    },
+    {
+      "name": "Carmen Machi",
+      "order": 6,
+      "role": "Carmen",
+      "thumb": "/amwehlT2TbwZp3Z731C7tIcSwp3.jpg"
+    },
+    {
+      "name": "Antonio Durán",
+      "order": 11,
+      "role": "Alonso",
+      "thumb": null
+    },
+    {
+      "name": "Aitana Granados",
+      "order": 12,
+      "role": "Bebé",
+      "thumb": null
+    },
+    {
+      "name": "Manuel Prieto",
+      "order": 21,
+      "role": "Niño araña",
+      "thumb": null
+    },
+    {
+      "name": "Carla Campra",
+      "order": 24,
+      "role": "Vane",
+      "thumb": "/lrHpwXakCU6VMAY9zufmS08NUev.jpg"
+    },
+    {
+      "name": "Pilar Pintre",
+      "order": 29,
+      "role": "Mari Carmen",
+      "thumb": "/inPw7y74KDNLXTPgjyVz9HpHHg5.jpg"
+    },
+    {
+      "name": "Ricardo Lacámara",
+      "order": 30,
+      "role": "Hombre mayor",
+      "thumb": null
+    },
+    {
+      "name": "Antonio Vico",
+      "order": 32,
+      "role": "Hombre de las flores",
+      "thumb": "/dJftZO70ZVkDxSJJrRTY06xYc2u.jpg"
+    },
+    {
+      "name": "Aser García Rada",
+      "order": 33,
+      "role": "Cirujano (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Javi 'Romel' Isaac",
+      "order": 34,
+      "role": "Guardia Civil ambulancia (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Johnny Melville",
+      "order": 35,
+      "role": "Anciano NY",
+      "thumb": "/6G4ZDTDByPS2bF711ZLe8StiodR.jpg"
+    },
+    {
+      "name": "Zoe Berriatúa",
+      "order": 43,
+      "role": "Cainita (uncredited)",
+      "thumb": "/nodAIcdtEnCbAysDeiZvBenvL4H.jpg"
+    },
+    {
+      "name": "Massimo Ferroni",
+      "order": 45,
+      "role": "Papa",
+      "thumb": null
+    },
+    {
+      "name": "Fabrizio Meschini",
+      "order": 47,
+      "role": "Funcionario de prisiones",
+      "thumb": null
+    },
+    {
+      "name": "Giuseppe Romano",
+      "order": 48,
+      "role": "Recluso",
+      "thumb": null
+    },
+    {
+      "name": "Jorge Andreu",
+      "order": 52,
+      "role": "Manuel Vergara niño",
+      "thumb": "/dnkd5UjIOF0fPmIVZ0bm2BCrF2T.jpg"
+    },
+    {
+      "name": "Marcial Álvarez",
+      "order": 53,
+      "role": "Padre de Vergara",
+      "thumb": "/2V1GVVrK2AJP84caPNcY06HzNMH.jpg"
+    },
+    {
+      "name": "Fátima Baeza",
+      "order": 54,
+      "role": "Madre de Vergara",
+      "thumb": "/3yElJ4z77uovoWjqaiz4pbGlAQP.jpg"
+    },
+    {
+      "name": "Santiago Nogués",
+      "order": 55,
+      "role": "Profesor años 70",
+      "thumb": null
+    },
+    {
+      "name": "Daniel Ruiz",
+      "order": 56,
+      "role": "Amigo de Vergara",
+      "thumb": null
+    },
+    {
+      "name": "Óscar Martín",
+      "order": 57,
+      "role": "Guía",
+      "thumb": null
+    },
+    {
+      "name": "Tony Lam",
+      "order": 58,
+      "role": "Chef",
+      "thumb": null
+    },
+    {
+      "name": "Chelo Vivares",
+      "order": 59,
+      "role": "Piedad",
+      "thumb": null
+    },
+    {
+      "name": "Said Taibi",
+      "order": 64,
+      "role": "Soldado Mayor Rango",
+      "thumb": null
+    },
+    {
+      "name": "Mario Pardo",
+      "order": 65,
+      "role": "Anciano París",
+      "thumb": "/9mbuq86mWZm4fMSzDvaaPN4F290.jpg"
+    },
+    {
+      "name": "Vincent Furic",
+      "order": 66,
+      "role": "Doorman",
+      "thumb": null
+    },
+    {
+      "name": "Christophe Miraval",
+      "order": 67,
+      "role": "Maître Francés",
+      "thumb": "/qWvVoKQuXZDoSz5gqkEzTw7MS3I.jpg"
+    },
+    {
+      "name": "Bianca Kovacs",
+      "order": 68,
+      "role": "Susanne",
+      "thumb": "/2djOkxq8jwgfxSkcrxOzzSg0k0d.jpg"
+    },
+    {
+      "name": "Jöns Pappila",
+      "order": 69,
+      "role": "Sven",
+      "thumb": null
+    },
+    {
+      "name": "Moussa Echarif",
+      "order": 70,
+      "role": "Soldado Control Árabe",
+      "thumb": "/2suzpBLdIUoOYJC79Cx1MpBj7h4.jpg"
+    },
+    {
+      "name": "Eva Cañadas",
+      "order": 71,
+      "role": "María",
+      "thumb": null
+    },
+    {
+      "name": "Carlos Deluna",
+      "order": 72,
+      "role": "García",
+      "thumb": null
+    },
+    {
+      "name": "Alfredo Zamora",
+      "order": 73,
+      "role": "Seguridad Matadero",
+      "thumb": null
+    }
+  ],
+  "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/369414/showbackground/-5fc4031b559e3.jpg",
+        "https://assets.fanart.tv/fanart/tv/369414/showbackground/-5d7e6e90d89fb.jpg"
+      ],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/uSvncE20Mh3seJLIHLEQnt0OcBv.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/b2i9aaV6ncULl9jYXEoPi7VFJg8.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/b2i9aaV6ncULl9jYXEoPi7VFJg8.jpg"
+      }
+    }
+  },
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        {
+          "aired": "2020-11-29",
+          "plot": "The quiet town of Pedraza is shaken by the birth of a mysterious child. Local vet Elena and Mayor Paco investigate the incident and begin to uncover the troubling past of their newly appointed priest, Father Vergara (Eduard Fernández) – and the significance of a curious coin he has in his possession.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/iRBEBuqBqwjEXvolAxk3k54xkUA.jpg",
+          "title": "Cobwebs"
+        },
+        {
+          "aired": "2020-12-06",
+          "plot": "Father Vergara flees from his past taking refuge from the very devil, who pursues him to recover a treasure, one of the 30 coins for which Judas betrayed Christ. It's time to face him again, and this time he's ready.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/A2Q3cjux6zVIPlpfbzx9feCLMIQ.jpg",
+          "title": "Ouija"
+        },
+        {
+          "aired": "2020-12-13",
+          "plot": "Elena and Paco discover that a local mirror is haunted. When Father Vergara spends the night investigating the mirror’s trickery, he risks getting swept into its deathly portal.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/28rszBtWSfIbMO6n9amGb6RfLvi.jpg",
+          "title": "The Mirror"
+        },
+        {
+          "aired": "2020-12-20",
+          "plot": "Father Vergara leaves for Rome to face his painful past. He requests a meeting with the Pope, but he discovers that Santoro is waiting for him too. Meanwhile in Pedraza, someone is about to return from the dead.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lkEe2PcU9IUHg9Q7gG7FtPG7Rhk.jpg",
+          "title": "Memories"
+        },
+        {
+          "aired": "2020-12-27",
+          "plot": "After mysteriously disappearing two years ago, Elena’s husband miraculously returns. In Rome, Santoro tries to recruit Vergara, offering him unimaginable power…",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/x8YjESqUCop2D9mHomkLnnJ0YBs.jpg",
+          "title": "The Double"
+        },
+        {
+          "aired": "2021-01-03",
+          "plot": "Vergara flees from Santoro and hides among soldiers and war hospitals in Syria. Elena follows Roque to Paris, but is terrified when the coin finds its way back to her. In Pedraza, Paco is about to resign when a sinister new priest arrives.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/qA0KYTcfGqjXwyqjfWP2pfRzvEk.jpg",
+          "title": "Holy War"
+        },
+        {
+          "aired": "2021-01-10",
+          "plot": "When the sinister new priest prepares a great ritual, a magical fog descends over the village. Vergara and Elena, return with the coin while Paco attempts to resist the conspiracy. The epic confrontation of good versus evil has finally arrived.",
+          "thumbnail": "",
+          "title": "The Glass Box"
+        },
+        {
+          "aired": "2021-01-17",
+          "plot": "Vergara, Paco and Elena confront biblical demons while the Cainites seize the village. If they get hold of the 30 coins, an unprecedented power shall emerge, and with it, a Pope for the new world order under Satan’s rule.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/mFZ25SnGfhKsp0BMY6ZxjePP9Ho.jpg",
+          "title": "Sacrifice"
+        }
+      ]
+    }
+  }
+}

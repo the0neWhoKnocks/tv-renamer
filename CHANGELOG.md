@@ -1,6 +1,18 @@
 # Changelog
 ---
 
+## v5.3.0
+
+**Bugfixes**
+- [374f33f](https://github.com/the0neWhoKnocks/tv-renamer/commit/374f33f):  Can't replace file name when it contains bad characters
+- [db4b604](https://github.com/the0neWhoKnocks/tv-renamer/commit/db4b604):  Series lookup doesn't occur if parenthesis in name
+- [134c23a](https://github.com/the0neWhoKnocks/tv-renamer/commit/134c23a):  Series name not found if it contains a zero
+
+**Dev-Ops**
+- [b082ad7](https://github.com/the0neWhoKnocks/tv-renamer/commit/b082ad7):  Updated tests
+
+---
+
 ## v5.2.1
 
 **Bugfixes**

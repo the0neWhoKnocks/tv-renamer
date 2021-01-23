@@ -40,6 +40,7 @@ export default css`
       width: 5em;
       font-size: 1em;
       text-align: center;
+      opacity: 0.5;
     }
     
     &__search-link {

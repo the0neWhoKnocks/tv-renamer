@@ -11,6 +11,11 @@ export default async function assignId({ reqData, res }) {
   const { data: idsCache } = await loadIDsCacheMap();
   const { data: ids } = await loadSeriesIds();
   const { assignedName, id, name } = reqData;
+  
+  if(!assignedName){
+    return handleError({ res }, 500, `No assigned name was provided, and one couldn't be determined from \ntmdbID: "${ id }"\nfile name: "${ name }"`);
+  }
+  
   const cacheKey = genCacheName(assignedName);
   
   // iterate existing ids and delete a duplicate if it exists

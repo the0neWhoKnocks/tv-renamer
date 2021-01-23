@@ -1,4 +1,5 @@
 context('Renamer', () => {
+  const SERIES_ID__BLADE_OF_THE_IMMORTAL = 92090;
   const SERIES_ID__HUNTER_X = 46298;
   const DATA_SCRAPE_TIMEOUT = 2 * (60 * 1000); // 2 minutes
   const IMG_SCRAPE_TIMEOUT = 5 * (60 * 1000); // 5 minutes
@@ -17,14 +18,24 @@ context('Renamer', () => {
   function loadPage() {
     cy.exec('node /e2e/bin/genFiles.js');
     
-    cy.exec('rm -f /e2e/mnt/data/tmdb__cache/futurama.json');
-    cy.exec('rm -f /e2e/mnt/data/tmdb__cache/hunter_x_hunter_2011.json');
+    // NOTE
+    // - It's important that the *ids files are updated before a page
+    // has loaded, otherwise there could be a partial mis-match while triggering
+    // a Preview due to the ids being loaded on the Client, and random cache
+    // files will be created.
+    // - It's alright to delete cache files whenever, but I figured it just made
+    // more sense to keep all the file operations in once place.
+    cy.exec('rm -f "/e2e/mnt/data/tmdb__cache/futurama.json"');
+    cy.exec('rm -f "/e2e/mnt/data/tmdb__cache/hunter_x_hunter_(2011).json"');
+    cy.exec('rm -f "/e2e/mnt/data/tmdb__cache/blade_of_the_immortal_(2019).json"');
     cy.readFile('/e2e/mnt/data/tmdb__ids-cache-map.json', 'utf8').then((cacheMap) => {
       delete cacheMap[SERIES_ID__HUNTER_X];
+      delete cacheMap[SERIES_ID__BLADE_OF_THE_IMMORTAL];
       cy.writeFile('/e2e/mnt/data/tmdb__ids-cache-map.json', cacheMap, 'utf8');
     });
     cy.readFile('/e2e/mnt/data/tmdb__series-ids.json', 'utf8').then((ids) => {
       delete ids[SERIES_ID__HUNTER_X];
+      delete ids[SERIES_ID__BLADE_OF_THE_IMMORTAL];
       cy.writeFile('/e2e/mnt/data/tmdb__series-ids.json', ids, 'utf8');
     });
     
@@ -87,6 +98,7 @@ context('Renamer', () => {
     toggleItem('High.Maintenance');
     toggleItem('Hunter.X');
     toggleItem('The Legend of Korra');
+    toggleItem('Mugen no Juunin');
     toggleItem('Shameless');
     toggleItem('Sword.Art.Online.Alicization');
     toggleItem('Tell.Me.a.Story.US');
@@ -451,8 +463,10 @@ context('Renamer', () => {
     toggleItem('Hunter.X');
     
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
-    cy.get('.renamable__nav :contains(Assign)', { timeout: DATA_SCRAPE_TIMEOUT }).click();
-    cy.get('.assign-id__no-results').contains('No matches for "hunter x"');
+    cy.get('.renamable__new-name.has--warning .renamable__nav', { timeout: DATA_SCRAPE_TIMEOUT }).contains('Assign').click();
+    cy.get('.assign-id__match').should(($divs) => {
+      expect($divs.length > 2).to.equal(true);
+    });
     
     screenshot('.app', 'viewing assign modal');
     
@@ -497,6 +511,33 @@ context('Renamer', () => {
     cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT }).each(($el, ndx) => {
       expect($el.text()).to.equal(`${ appConfig.output }/${ epName }`);
     });
+    
+    screenshot('.app', 'file renamed');
+    
+    cy.get('.app__logs-nav .toggle__btn').click();
+  });
+  
+  it('should display assignable results even when the series name does not match', () => {
+    toggleItem('Mugen no Juunin');
+    
+    cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+    cy.get('.renamable__nav :contains(Assign)', { timeout: DATA_SCRAPE_TIMEOUT }).click();
+    cy.get('.assign-id__match[data-name="Blade of the Immortal (2019)"]').click();
+    cy.get('.assign-id__id-input').should('have.value', SERIES_ID__BLADE_OF_THE_IMMORTAL);
+    
+    screenshot('.app', 'series id picked');
+    
+    cy.get('.assign-id__assign-btn:not(:disabled)').click();
+    cy.get('#modals').should('be.empty');
+    
+    const newName = 'Blade of the Immortal (2019) - 1x01 - Act One - Meeting.mkv';
+    cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').then(($el) => {
+      expect($el.text()).to.equal(newName);
+    });
+    
+    screenshot('.app', 'previewing Anime name with extra ep. data');
+    
+    cy.get('@ITEMS_NAV__RENAME_BTN').click();
     
     screenshot('.app', 'file renamed');
     

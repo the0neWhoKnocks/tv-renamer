@@ -1,0 +1,300 @@
+{
+  "schema": 4,
+  "genres": [
+    "Animation",
+    "Drama",
+    "Action & Adventure"
+  ],
+  "id": 92090,
+  "mpaa": "TV-MA",
+  "name": "Blade of the Immortal (2019)",
+  "plot": "",
+  "premiered": "2019-10-10",
+  "status": "Ended",
+  "studios": [
+    "MBS",
+    "Tokyo MX",
+    "Amazon"
+  ],
+  "actors": [
+    {
+      "name": "Houko Kawashima",
+      "order": 14,
+      "role": "Makie Otono-Tachibana (voice)",
+      "thumb": "/kVDULPXKRVv8JisgDjgKWVQk9K3.jpg"
+    },
+    {
+      "name": "Hiroshi Shirokuma",
+      "order": 500,
+      "role": "Giichi (voice)",
+      "thumb": "/bzSNLbRYd4vd7EZqkcjRH5Z1byP.jpg"
+    },
+    {
+      "name": "Ako Mayama",
+      "order": 500,
+      "role": "Yaobikuni (voice)",
+      "thumb": "/l6smQGOX2NKmSe8nV5R40CLCIjY.jpg"
+    },
+    {
+      "name": "Tooru Nara",
+      "order": 500,
+      "role": "Shira (voice)",
+      "thumb": "/jTCFke3BuJY5hFlFlJQDwEczJT1.jpg"
+    },
+    {
+      "name": "Tatsuhisa Suzuki",
+      "order": 500,
+      "role": "Taito Magatsu (voice)",
+      "thumb": "/m56WhzAdKIjQNCNyLPW1aSBRBxt.jpg"
+    },
+    {
+      "name": "Masato Obara",
+      "order": 500,
+      "role": "Araya Kawakami (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Shinya Fukumatsu",
+      "order": 500,
+      "role": "Sōsuke Abayama (voice)",
+      "thumb": "/baKHup5ce1TANnHjThQEY9Gnso3.jpg"
+    },
+    {
+      "name": "Nozomu Sasaki",
+      "order": 500,
+      "role": "Kagehisa Anotsu (voice)",
+      "thumb": "/7usoPlvc9Xa1rDA2vxmVi0OvLDb.jpg"
+    },
+    {
+      "name": "Kenjirou Tsuda",
+      "order": 500,
+      "role": "Manji (voice)",
+      "thumb": "/9KISTULuEd5uXU9iS5IJHVnss2L.jpg"
+    },
+    {
+      "name": "Jouji Nakata",
+      "order": 500,
+      "role": "Kagimura Habaki (voice)",
+      "thumb": "/aFx0ForDkSc119U3nTC7NymStkn.jpg"
+    },
+    {
+      "name": "Shunsuke Sakuya",
+      "order": 500,
+      "role": "Eiku Shizuma (voice)",
+      "thumb": "/wkzrpav8RZ5HQBsVVyrteIHxTGF.jpg"
+    },
+    {
+      "name": "Ayane Sakura",
+      "order": 500,
+      "role": "Rin Asano (voice)",
+      "thumb": "/3DEUD9sdtJQXd3QpkdNtcz9NuBy.jpg"
+    },
+    {
+      "name": "Eiji Hanawa",
+      "order": 500,
+      "role": "Sabato Kuroi (voice)",
+      "thumb": "/bLwoSFqpe1BYyEckvUpwITM8hMM.jpg"
+    },
+    {
+      "name": "Yōsuke Akimoto",
+      "order": 500,
+      "role": "Saburō Anotsu (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Marika Hayashi",
+      "order": 500,
+      "role": "Kyakurin (voice)",
+      "thumb": "/6DIXjGwLJv023PNMNUESjKTexGT.jpg"
+    },
+    {
+      "name": "Chikahiro Kobayashi",
+      "order": 500,
+      "role": "Shinriji (voice)",
+      "thumb": "/nL1KymFBoJgixPLkMU3gfNzXnuC.jpg"
+    },
+    {
+      "name": "Tomokazu Seki",
+      "order": 500,
+      "role": "Sōri (voice)",
+      "thumb": "/4N6i4cgtbeUj5AJd8kiBZ2BxxEJ.jpg"
+    },
+    {
+      "name": "Chiaki Kanou",
+      "order": 2,
+      "role": "Toki Asano (voice)",
+      "thumb": "/VLmgvQGAzvwxUJJQZTG9bBrZ1C.jpg"
+    }
+  ],
+  "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/h5efL2VLo93liPv1l4GqjL4n73Q.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/QgzPVGxED2TLdMBQzzbXwu12D.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/2u58CWgvmrurXrb7oYdcwUnpp8v.jpg"
+      }
+    }
+  },
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        {
+          "aired": "2019-10-10",
+          "plot": "The Edo period. Daughter of a martial arts dojo, Rin embarks on a journey to take revenge for her slain parents. For her bodyguard on the journey, she has chosen the immortal man Manji, nicknamed the Slayer of Hundreds. Her target is the head of the Ittou-ryu, Kagehisa Anotsu, the man she hates. The adventure of the man who never dies and the girl who's sworn to live for revenge unfolds.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xpXSTZGGpd45TaJ5AsltW8za5dz.jpg",
+          "title": "Act One - Meeting"
+        },
+        {
+          "aired": "2019-10-10",
+          "plot": "Rin announced that she will go meet with her father's friend Souri, the painter, in her journey for revenge. Souri cannot lend her a hand, but instead gives her funds. Rin, now with a full wallet and no leads, finds her father's sword at the blacksmith from which it was supposedly stolen. However, its wielder is a swordsman of the Ittou-ryu, 'Taito Magatsu.'",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6bkqj6IZDidm4ljLEprXKw3z1Gl.jpg",
+          "title": "Act Two - Founding"
+        },
+        {
+          "aired": "2019-10-17",
+          "plot": "A prostitute approaches Manji as he waits for Rin. Though Manji sees through the prostitutes ruse, he accepts her invitiation. But this woman, 'Makie Otonotachibana', seem to weak to be a warrior of the Ittou-ryu as she claims. After sparing Makie's life, she appears before Manji again with different eyes and hair.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/xgCrPKDPQpiiGyrHMANFoPh2IA9.jpg",
+          "title": "Act Three - Dream Pangs"
+        },
+        {
+          "aired": "2019-10-24",
+          "plot": "Wanting to become stronger herself, Rin received training from Manji, but is still a long way off from matching him in ability, much less the Ittou-ryu. Rin, in her melancholy, is drawn in by a sound, and finds a man training on his own. 'Some day I'll be like him', Rin tells herself, then is astonished upon seeing the man's face. It's her arch-nemesis, the head of the Ittou-ryu, Kagehisa Anotsu.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7ZzAh6VlRFJlPoaahqRUI1QFAyI.jpg",
+          "title": "Act Four - Rin at Odds"
+        },
+        {
+          "aired": "2019-10-31",
+          "plot": "After seeing Kagehisa, Rin becomes weak at the knees. Lost in thought over her circumstances, Rin and her guard Manji are approached by a Buddhist monk. The monk is 'Eiku Shizuma' of the Ittou-ryu. He fights with Manji but is swiftly cut down. However, despite the lethal blow, Shizuma stands back up, his wound mending itself completely. Shizuma possesses an 'immortal' body, just like Manji.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kdniOthyDlcS8rMnEXzyYQvXPnJ.jpg",
+          "title": "Act Five - Song of the Bugs"
+        },
+        {
+          "aired": "2019-11-07",
+          "plot": "Rin, who has come to see the festival, meets a cheeky little kid, Renzou. At the mask shop, things get dangerous between Manji and Araya, until Araya's son Renzou shows up and the hostility dissolves. Araya and Renzou then leave. Having watched Manji from behind, for some reason Rin continues glaring at Araya with eyes full of shock and hatred.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kC7nRWKAWg7jklru3E7lbh0vRHv.jpg",
+          "title": "Act Six - Wing Roots"
+        },
+        {
+          "aired": "2019-11-13",
+          "plot": "Discussions of the task of naming the instructor at the Ittou-ryu school, allotted them by the shogunate, have begun. They will make the Ittou-ryu's sword known to the world. Taito Magatsu vows to make that a reality, but decides to leave from Kagehisa Anotsu's side. At the same time, Ittou-ryu leaders start to be targeted. The tip of that blade is also pointed at Magatsu.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a9l9H3bN3xswlhG8C8UBrMEC5yC.jpg",
+          "title": "Act Seven - Evil's Shadow"
+        },
+        {
+          "aired": "2019-11-21",
+          "plot": "Manji and Rin involve the four known as Mugai-ryu, who hold information on Kagehisa, in order to assassinate him. Lying in wait on the road that leads out of Edo, based on information only known to Rin, she and Shira close in on Kagehisa as he tries to flee from the others.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5MzgOnwmRLKROz6jJmGDn0SCMUx.jpg",
+          "title": "Act Eight - Mugai-ryu"
+        },
+        {
+          "aired": "2019-11-28",
+          "plot": "Rin was told of Kagehisa's whereabouts by Giichi, and now her and Manji are suspected of indiscriminate murder. Suspected criminals cannot pass the checkpoint. But thanks to a maid who was acquaintance of Rin's, she has a countermeasure. She heads alone to a village that can help her slip through the checkpoint.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ajCbCqqIL4Kq8vlHglDU0y5gzxX.jpg",
+          "title": "Act Nine - Gathering"
+        },
+        {
+          "aired": "2019-12-05",
+          "plot": "Manji wants to go after Rin, but he has no pass. That's when Souri and Magatsu appear before him. Souri tells Manji that he can acquire as many passes as Manji likes, but there's a condition. Meanwhile, a gray-haired, one-armed Shira appears before Hyakurin and Shinriji as they re-work their plan for assassinating Kagehisa.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/cb2CQH1DS3FLp19jgjbccTMF4ym.jpg",
+          "title": "Act Ten - Animal"
+        },
+        {
+          "aired": "2019-12-12",
+          "plot": "Having become traveling partners for the sake of their goals, Manji and Magatsu are assaulted by a group of bald men. Manji, groaning in pain, is approached from behind by Shira, who then lops off Manji's arm. Shira had reconstructed his body, and desired a rematch with Manji. But now Magatsu, whose important woman was killed by Shira, stands in his path.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tofceUnXEbNAsGeDqahYyVNothd.jpg",
+          "title": "Act Eleven - Fall Frost"
+        },
+        {
+          "aired": "2019-12-19",
+          "plot": "Having left for Kaga in pursuit of Kagehisa, a collapsed Rin is rescued by the very same Kagehisa. Then, having to cooperate with Kagehisa who is pursued by the Shingoto-ryu, Rin starts to see Kagehisa, her enemy, as a human being.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a7PQYm0FJ9OlftcmVc24xPv02RD.jpg",
+          "title": "Act Twelve - Blood of Finality"
+        },
+        {
+          "aired": "2019-12-26",
+          "plot": "The Ittou-ryu had its members slaughtered by the shogunate. Kagehisa gathers the remaining members of Ittou-ryu in secrecy, and plots revenge against the shogunate. Manji is invited to the Mugai-ryu by Giichi, but he refuses, and they clash swords. Giichi's weapon breaks, so a truce is called. Manji decides to go meet the head of the Mugai-ryu, Habaki.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sfvOVggKg7laWm65e9LcCg1UYRx.jpg",
+          "title": "Act Thirteen - Twilight"
+        },
+        {
+          "aired": "2020-01-02",
+          "plot": "Habaki's scheme gets Manji trapped in a dungeon. Habaki uses a doctor, Burando Ayame, to try and solve the mystery of the immortality. For the sake of the advancement of medicine, Burando sinks a scalpel into Manji's body. Meanwhile, while waiting for Manji's return, Rin is caught up in a strange cohabitation with Doua and Isaku, who had been searching for a place to stay.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/yi4wTN2qqZdSaKtXnRgJyMjqlpc.jpg",
+          "title": "Act Fourteen - Ammendments"
+        },
+        {
+          "aired": "2020-01-15",
+          "plot": "Burando succeeds in transplanting Manji's left arm onto the test body of Dewanosuke. From that starting point, more tests succeed. But Habaki puts pressure on Burando, and demands results. Habaki's blade closes in on the imperfectly immortalized Dewanosuke. Rin meets with Doua and Isaku in the street as she searches for Manji. That's when the official that Doua knocked over appreaches them.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/i5TI8IBOsmi4mLDv1QyIj2QP7Do.jpg",
+          "title": "Act Fifteen - Acquisition of Guts"
+        },
+        {
+          "aired": "2020-01-23",
+          "plot": "Ever since the Dewanosuke incident, Burando kept making blunders. He is finally thrown in solitary confinement by Habaki, and goes insane. But as a result of his madness, Burando grasps something important about the immortality experiments: That humans are essentially otters. Meanwhile, Rin and Doua resolve to infiltrate Edo Castle to rescue the surrounded Manji and Isaku.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/osfHVy1NUBMYWQbChO8tHlqe7CI.jpg",
+          "title": "Act Sixteen - Altered Limb"
+        },
+        {
+          "aired": "2020-01-30",
+          "plot": "Manji and Rin finally reunite. But the formidable foe they made in Habaki in the dungeon blocks their escape. Then Doua and the presumed dead Isaku arrive as backup. The dungeon begins to cave in. As their escape nears, an unexpected person appears before Rin and Manji. Then, the answer that Burando arrived at from the results of his experiments...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/ntYiKcHsCq8RZzlkN8Q3LKMQg2q.jpg",
+          "title": "Act Seventeen - Ceremonial Bond"
+        },
+        {
+          "aired": "2020-02-06",
+          "plot": "After his failure at Edo Castle, Habaki is dismissed as head clerk. But still, in order to annihilate the Ittou-ryu, he heads up the Rokki-dan in hopes of subjugation. However, the new head clerk, Ugen, decides that Ittou-ryu, having left Edo, is now in the clear. Furthermore, to ensure he abides by the agreement, Habaki's wife and children are taken hostage.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/u9rOxVG7QS6GXIkNjipZp4EBKOX.jpg",
+          "title": "Act Eighteen - Banshee's Cries"
+        },
+        {
+          "aired": "2020-02-13",
+          "plot": "The Ittour-ryu are pursued by the Rokki-dan, lead by Habaki. Upon hearing this, Run and Manji decide to pursue as well. Even with all these people leaving Edo to chase the Ittou-ryu, the four leasers appointed by Kagehisa Anotsu are nowhere to be found. Then, in the wee hours of the morning, Kagehisa and the other three stand at the Ootemon in front of Edo Castle.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/oEW76heLx4CLHbSgpcn8ehhYgIf.jpg",
+          "title": "Act Nineteen - Massacre"
+        },
+        {
+          "aired": "2020-02-27",
+          "plot": "Rin and Manji chase after Kagehisa, but Shira attacks them and Rin is taken away. Manji goes to rescue her, and meets not only Shinra, but Renzou as well. Manji fights Shinra in order to rescue Rin. But astoundingly, what slashes at Manji is Shira's left arm, which should have been lost.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9YNxDU0vuBFFynBJ6O3Ruixfea3.jpg",
+          "title": "Act Twenty - Unending"
+        },
+        {
+          "aired": "2020-03-05",
+          "plot": "Manji is wounded from his duel with Shinra. Renzou picks up a sword and tries to kill Manji, but Rin and the others talk him down. Meanwhile, Habaki is livid upon learning of the attack on Edo Castle. Habaki wants to pursue Ittou-ryu, even in absence of its leader. As a result, one of the Ittou-ryu enters a mountain village. Habaki's daughter, Ryou, tries to subdue him to be of use to her father.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/a3HSRUR9N2TnkleiPZt5akDh4uC.jpg",
+          "title": "Act Twenty One - Trap"
+        },
+        {
+          "aired": "2020-03-12",
+          "plot": "Arashino, Hasshuu, and Murasaki of the Rokki-dan act as the vanguard in the clash with the Ittou-ryu. The crucial Abayama manages to escape with the help of his followers. But then he hast to confront Giichi and Hyakurin, who pursued Abayama to assist Habaki.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sREqViUjOxzY9akiD4B9p6LqV95.jpg",
+          "title": "Act Twenty Two - Ten Final Pushes"
+        },
+        {
+          "aired": "2020-03-19",
+          "plot": "The Ittou-ryu, Rokki-dan, and Manji and Rin all gather in Nakaminato, as if guided there. They all bear their motives on their swords in the moment they begin their final deathmatch. Deceive, subdue, and dance in chaos. Sparks will fly in the decisive batte between the strongest. The last laugh belongs to...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kO1AcYdlROLQKu12gwrOPkYHy3a.jpg",
+          "title": "Act Twenty Three - 100 Spectacular Dances"
+        },
+        {
+          "aired": "2020-03-26",
+          "plot": "The lives of those gathered fizzle out one after another. Those remaining are battered and bruised. Yet still they take up their swords, and slam their convictions against one another. The last one standing... And the revenge that was fulfilled... The curtain now closes on the tale of the man with an eternal life, and of those people whose finite lives were a blaze of passion.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/myvhz36mYkqftjWzTVv5rVmNqKQ.jpg",
+          "title": "Final Act - Blade of the Immortal"
+        }
+      ]
+    }
+  }
+}

@@ -8,13 +8,13 @@ const log = logger('api:getSeriesMatches');
 
 export default async function getSeriesMatches({ reqData, res }) {
   const { data: { tmdbAPIKey: apiKey } } = await loadConfig();
-  const { seriesName: _name } = reqData;
+  const { forAssign, seriesName: _name } = reqData;
   const name = decodeURIComponent(_name);
   
   log(`Get series matches for "${ name }"`);
   
   try {
-    const matches = await getSeriesByName({ apiKey, name });
+    const matches = await getSeriesByName({ apiKey, forAssign, name });
     
     if(matches.length) log(`Found matches for "${ name }": ${ matches }`);
     else log(`No matches for "${ name }"`);

@@ -62,7 +62,7 @@ class AssignId extends Component {
     }
     else{
       this.setState({ searching: true }, () => {
-        fetch(API__SERIES_MATCHES, { params: { seriesName } })
+        fetch(API__SERIES_MATCHES, { params: { forAssign: true, seriesName } })
           .then((matches) => {
             matchCache[seriesName] = matches;
             this.setState({ matches, searching: false });
@@ -98,6 +98,7 @@ class AssignId extends Component {
           });
         })
         .catch((err) => {
+          this.setState({ proccessing: false });
           alert(err);
         });
     });
@@ -170,6 +171,7 @@ class AssignId extends Component {
             onChange={this.handleIdChange} 
             onFocus={this.handleIdFocus}
             disabled={proccessing}
+            readOnly
           />
         </div>
         <div className={`${ ROOT_CLASS }__search`}>

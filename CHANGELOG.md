@@ -1,6 +1,16 @@
 # Changelog
 ---
 
+## v5.4.0
+
+**Dev-Ops**
+- [5128e7d](https://github.com/the0neWhoKnocks/tv-renamer/commit/5128e7d):  Refactored tests
+
+**Features**
+- [0ba699d](https://github.com/the0neWhoKnocks/tv-renamer/commit/0ba699d):  Fuzzy search
+
+---
+
 ## v5.3.0
 
 **Bugfixes**

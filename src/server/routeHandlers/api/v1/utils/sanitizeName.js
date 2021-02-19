@@ -10,6 +10,6 @@ export default (name, forFolder=false) => {
     .replace(/[:|–]/g, '-')
     .replace(/[<]/g, '(less-than)')
     .replace(/[>]/g, '(greater-than)')
-    .replace(/[’"“”]/g, '\'')
+    .replace(/[`’"“”]/g, '\'')
     .replace(/[\\?*]/g, '');
 };

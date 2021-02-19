@@ -255,13 +255,22 @@ class Replace extends Component {
                   
                   if(groups){
                     const { index: matchNdx } = matches;
+                    const groupParts = [];
                     const startChunk = currentName.substr(0, matchNdx);
-                    let endChunk = currentName.substr(matchNdx, currentName.length);
+                    let endChunk = currentName
+                      .substr(matchNdx, currentName.length)
+                      .replace(match, `<mark>${ match.trim() }</mark>`);
+                    let currEndChunk = endChunk;
                     
-                    endChunk = endChunk.replace(match, `<mark>${ match.trim() }</mark>`);
                     groups.forEach((g, ndx) => {
-                      if(g) endChunk = endChunk.replace(g, `<mark data-ndx="${ ndx }">${ g.trim() }</mark>`);
+                      if(g){
+                        const replacement = `<mark data-ndx="${ ndx }">${ g.trim() }</mark>`;
+                        const startNdx = currEndChunk.indexOf(g);
+                        groupParts.push(currEndChunk.substr(0, startNdx) + replacement);
+                        currEndChunk = currEndChunk.substr(startNdx + g.length, currEndChunk.length);
+                      }
                     });
+                    if(groupParts.length) endChunk = `${ groupParts.join('') }${ currEndChunk }`;
                     
                     currentName = `${ startChunk }${ endChunk }`;
                   }

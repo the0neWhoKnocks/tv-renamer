@@ -65,20 +65,34 @@ export default css`
       &:nth-of-type(2) {
         
         .${ ROOT_CLASS } {
-          &__helper-btn:nth-of-type(1) {
+          &__helper-btn:nth-of-type(1):not([data-for="ndx"]) {
             background: ${ groupColors[0] };
           }
-          &__helper-btn:nth-of-type(2) {
+          &__helper-btn:nth-of-type(2):not([data-for="ndx"]) {
             background: ${ groupColors[1] };
           }
-          &__helper-btn:nth-of-type(3) {
+          &__helper-btn:nth-of-type(3):not([data-for="ndx"]) {
             background: ${ groupColors[2] };
           }
-          &__helper-btn:nth-of-type(4) {
+          &__helper-btn:nth-of-type(4):not([data-for="ndx"]) {
             background: ${ groupColors[3] };
           }
         }
       }
+    }
+    
+    &__help-section {
+      color: #888;
+      line-height: 1.25em;
+      padding: 0.5em;
+      border: solid 1px;
+      border-radius: 0.25em;
+    }
+    &__help-section code {
+      padding: 1px 2px 3px;
+      border: solid 1px;
+      background: transparent;
+      display: inline;
     }
     
     &__table {

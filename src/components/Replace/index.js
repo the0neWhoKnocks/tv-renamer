@@ -10,6 +10,9 @@ import styles, {
   ROOT_CLASS,
 } from './styles'; 
 
+const NDX_TOKEN = '#';
+const NDX_TOKEN_REGEX = new RegExp(`\\[${ NDX_TOKEN }([-+]\\d+)?\\]`, 'g');
+
 class Replace extends Component {
   static LabeledInput({ buttons = [], inputRef, label, onChange, onClearClick, onInput, value }) {
     const clearBtnVisible = !!(onClearClick && value);
@@ -83,28 +86,31 @@ class Replace extends Component {
     this.matchInputChangeHandler = this.handleInputChange('matchInputValue');
     this.replaceInputChangeHandler = this.handleInputChange('replaceInputValue');
     
-    this.matchBtns = [
-      {
-        label: '(\\d)',
-        onClick: () => {
-          const input = this.matchInput.current;
-          const startText = input.value.substr(0, input.selectionStart);
-          const endText = input.value.substr(input.selectionEnd, input.value.length);
-          const newValStart = `${ startText }(\\d{2})`;
-          const matchInputValue = `${ newValStart }${ endText }`;
-          const newCursorPos = newValStart.length;
-          
-          this.setState({
-            matchInputValue,
-            matchPattern: new RegExp(matchInputValue),
-          }, () => {
-            input.focus();
-            input.selectionStart = newCursorPos;
-            input.selectionEnd = newCursorPos;
-          });
-        },
+    this.matchBtns = [{
+      label: '(\\d)',
+      onClick: () => {
+        const input = this.matchInput.current;
+        const startText = input.value.substr(0, input.selectionStart);
+        const endText = input.value.substr(input.selectionEnd, input.value.length);
+        const newValStart = `${ startText }(\\d{2})`;
+        const matchInputValue = `${ newValStart }${ endText }`;
+        const newCursorPos = newValStart.length;
+        
+        this.setState({
+          matchInputValue,
+          matchPattern: new RegExp(matchInputValue),
+        }, () => {
+          input.focus();
+          input.selectionStart = newCursorPos;
+          input.selectionEnd = newCursorPos;
+        });
       },
-    ];
+    }];
+    this.replaceBtns = [{
+      data: { for: 'ndx', token: `[${ NDX_TOKEN }+1]` },
+      label: `[${ NDX_TOKEN }]`,
+      onClick: this.handleReplaceInputTextUpdate,
+    }];
   }
   
   componentDidUpdate(prevProps, prevState) {
@@ -125,7 +131,7 @@ class Replace extends Component {
       this.setState({ [stateProp]: ev.target.value });
     };
   }
-  
+    
   handleMatchInput(ev) {
     const val = ev.currentTarget.value;
     
@@ -173,7 +179,7 @@ class Replace extends Component {
     const input = this.replaceInput.current;
     const startText = input.value.substr(0, input.selectionStart);
     const endText = input.value.substr(input.selectionEnd, input.value.length);
-    const newValStart = `${ startText }$${ ev.currentTarget.dataset.num }`;
+    const newValStart = `${ startText }${ ev.currentTarget.dataset.token }`;
     const replaceInputValue = `${ newValStart }${ endText }`;
     const newCursorPos = newValStart.length;
     
@@ -197,19 +203,22 @@ class Replace extends Component {
     } = this.state;
     const matchRegEx = (matchPattern && matchPattern instanceof(RegExp))
       ? matchPattern : '';
-    let replaceBtns = [];
     
+    let extraReplaceBtns = [];
     if(matchRegEx){
       const groups = matchRegEx.source.match(/((?<!\\)\([^)]+\))/g);
-      if(groups) replaceBtns = groups.map((_, ndx) => {
-        const num = ndx + 1;
-        return {
-          data: { num },
-          label: `$${ num }`,
-          onClick: this.handleReplaceInputTextUpdate,
-        };
-      });
+      if(groups){
+        extraReplaceBtns = groups.map((_, ndx) => {
+          const num = ndx + 1;
+          return {
+            data: { token: `$${ num }` },
+            label: `$${ num }`,
+            onClick: this.handleReplaceInputTextUpdate,
+          };
+        });
+      }
     }
+    const replaceBtns = [...extraReplaceBtns, ...this.replaceBtns];
     
     return (
       <div className={`${ ROOT_CLASS } ${ styles }`}>
@@ -231,6 +240,12 @@ class Replace extends Component {
           onInput={this.handleReplaceInput}
           value={replaceInputValue}
         />
+        <div className={`${ ROOT_CLASS }__help-section`}>
+          The [{NDX_TOKEN}] button allows for adding a dynamic value based on
+          the current file&apos;s index. If you just want the index, add <code>[{NDX_TOKEN}]</code>.
+          If you need the index plus or minus five for example, add <code>[{NDX_TOKEN}+5]</code>,
+          or <code>[{NDX_TOKEN}-5]</code>.
+        </div>
         <div className={`${ ROOT_CLASS }__table`}>
           <div className={`${ ROOT_CLASS }__table-head`}>
             <div className={`${ ROOT_CLASS }__table-row`}>
@@ -276,7 +291,16 @@ class Replace extends Component {
                   }
                   
                   if(groups){
-                    newName = newName.replace(match, replacePattern);
+                    let pattern = replacePattern;
+                    if(NDX_TOKEN_REGEX.test(pattern)){
+                      (pattern.match(NDX_TOKEN_REGEX) || []).forEach((m) => {
+                        let [, num] = m.match(NDX_TOKEN_REGEX.source) || [];
+                        num = num ? +num : 0;
+                        pattern = pattern.replace(m, fileNdx + 1 + num);
+                      });
+                    }
+                    
+                    newName = newName.replace(match, pattern);
                     
                     groups.forEach((group, groupNdx) => {
                       newName = newName.replace(new RegExp(`\\$${ groupNdx+1 }`, 'g'), group);

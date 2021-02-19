@@ -30,10 +30,10 @@
       "thumb": "/bzSNLbRYd4vd7EZqkcjRH5Z1byP.jpg"
     },
     {
-      "name": "Ako Mayama",
+      "name": "Yōsuke Akimoto",
       "order": 500,
-      "role": "Yaobikuni (voice)",
-      "thumb": "/l6smQGOX2NKmSe8nV5R40CLCIjY.jpg"
+      "role": "Saburō Anotsu (voice)",
+      "thumb": null
     },
     {
       "name": "Tooru Nara",
@@ -42,64 +42,10 @@
       "thumb": "/jTCFke3BuJY5hFlFlJQDwEczJT1.jpg"
     },
     {
-      "name": "Tatsuhisa Suzuki",
-      "order": 500,
-      "role": "Taito Magatsu (voice)",
-      "thumb": "/m56WhzAdKIjQNCNyLPW1aSBRBxt.jpg"
-    },
-    {
-      "name": "Masato Obara",
-      "order": 500,
-      "role": "Araya Kawakami (voice)",
-      "thumb": null
-    },
-    {
-      "name": "Shinya Fukumatsu",
-      "order": 500,
-      "role": "Sōsuke Abayama (voice)",
-      "thumb": "/baKHup5ce1TANnHjThQEY9Gnso3.jpg"
-    },
-    {
-      "name": "Nozomu Sasaki",
-      "order": 500,
-      "role": "Kagehisa Anotsu (voice)",
-      "thumb": "/7usoPlvc9Xa1rDA2vxmVi0OvLDb.jpg"
-    },
-    {
-      "name": "Kenjirou Tsuda",
-      "order": 500,
-      "role": "Manji (voice)",
-      "thumb": "/9KISTULuEd5uXU9iS5IJHVnss2L.jpg"
-    },
-    {
-      "name": "Jouji Nakata",
-      "order": 500,
-      "role": "Kagimura Habaki (voice)",
-      "thumb": "/aFx0ForDkSc119U3nTC7NymStkn.jpg"
-    },
-    {
-      "name": "Shunsuke Sakuya",
-      "order": 500,
-      "role": "Eiku Shizuma (voice)",
-      "thumb": "/wkzrpav8RZ5HQBsVVyrteIHxTGF.jpg"
-    },
-    {
-      "name": "Ayane Sakura",
-      "order": 500,
-      "role": "Rin Asano (voice)",
-      "thumb": "/3DEUD9sdtJQXd3QpkdNtcz9NuBy.jpg"
-    },
-    {
       "name": "Eiji Hanawa",
       "order": 500,
       "role": "Sabato Kuroi (voice)",
       "thumb": "/bLwoSFqpe1BYyEckvUpwITM8hMM.jpg"
-    },
-    {
-      "name": "Yōsuke Akimoto",
-      "order": 500,
-      "role": "Saburō Anotsu (voice)",
-      "thumb": null
     },
     {
       "name": "Marika Hayashi",
@@ -118,6 +64,60 @@
       "order": 500,
       "role": "Sōri (voice)",
       "thumb": "/4N6i4cgtbeUj5AJd8kiBZ2BxxEJ.jpg"
+    },
+    {
+      "name": "Nozomu Sasaki",
+      "order": 500,
+      "role": "Kagehisa Anotsu (voice)",
+      "thumb": "/7usoPlvc9Xa1rDA2vxmVi0OvLDb.jpg"
+    },
+    {
+      "name": "Ayane Sakura",
+      "order": 500,
+      "role": "Rin Asano (voice)",
+      "thumb": "/3DEUD9sdtJQXd3QpkdNtcz9NuBy.jpg"
+    },
+    {
+      "name": "Masato Obara",
+      "order": 500,
+      "role": "Araya Kawakami (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Shinya Fukumatsu",
+      "order": 500,
+      "role": "Sōsuke Abayama (voice)",
+      "thumb": "/baKHup5ce1TANnHjThQEY9Gnso3.jpg"
+    },
+    {
+      "name": "Shunsuke Sakuya",
+      "order": 500,
+      "role": "Eiku Shizuma (voice)",
+      "thumb": "/wkzrpav8RZ5HQBsVVyrteIHxTGF.jpg"
+    },
+    {
+      "name": "Jouji Nakata",
+      "order": 500,
+      "role": "Kagimura Habaki (voice)",
+      "thumb": "/aFx0ForDkSc119U3nTC7NymStkn.jpg"
+    },
+    {
+      "name": "Kenjirou Tsuda",
+      "order": 500,
+      "role": "Manji (voice)",
+      "thumb": "/9KISTULuEd5uXU9iS5IJHVnss2L.jpg"
+    },
+    {
+      "name": "Ako Mayama",
+      "order": 500,
+      "role": "Yaobikuni (voice)",
+      "thumb": "/l6smQGOX2NKmSe8nV5R40CLCIjY.jpg"
+    },
+    {
+      "name": "Tatsuhisa Suzuki",
+      "order": 500,
+      "role": "Taito Magatsu (voice)",
+      "thumb": "/m56WhzAdKIjQNCNyLPW1aSBRBxt.jpg"
     },
     {
       "name": "Chiaki Kanou",

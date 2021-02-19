@@ -1,9 +1,9 @@
 {
   "schema": 4,
   "genres": [
-    "Animation",
     "Comedy",
-    "Sci-Fi & Fantasy"
+    "Sci-Fi & Fantasy",
+    "Animation"
   ],
   "id": 615,
   "mpaa": "TV-14",
@@ -83,16 +83,16 @@
       "thumb": "/o6sC2IsjL7KncT4pZBOx4T0WKhM.jpg"
     },
     {
-      "name": "Lucy Liu",
-      "order": 0,
-      "role": "",
-      "thumb": "/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg"
-    },
-    {
       "name": "Phil Hendrie",
       "order": 0,
       "role": "",
       "thumb": "/yVEa7Z3AXlTY4Aob2nsDH7I1u4r.jpg"
+    },
+    {
+      "name": "Lucy Liu",
+      "order": 0,
+      "role": "",
+      "thumb": "/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg"
     },
     {
       "name": "Leonard Nimoy",
@@ -113,16 +113,10 @@
       "thumb": "/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg"
     },
     {
-      "name": "Nora Dunn",
+      "name": "Walter Koenig",
       "order": 0,
       "role": "",
-      "thumb": "/x9NAUBciKKxDaYRcntc4vKjqilG.jpg"
-    },
-    {
-      "name": "Rich Little",
-      "order": 0,
-      "role": "",
-      "thumb": "/eFqZRAM1Woim3BL4fAMPubZNmN8.jpg"
+      "thumb": "/imp7p7LTHRWMgpWFgVap9cuGFnp.jpg"
     },
     {
       "name": "Conan O'Brien",
@@ -131,22 +125,28 @@
       "thumb": "/deRbViPut0t80miscBpP2DhBJU5.jpg"
     },
     {
+      "name": "Donovan",
+      "order": 0,
+      "role": "",
+      "thumb": "/oYmSnTWSYQtTmVYRZ8zpwwCHfCW.jpg"
+    },
+    {
       "name": "Bea Arthur",
       "order": 0,
       "role": "",
       "thumb": "/fav7Uk4ZYrutBQjlayTQmI57t.jpg"
     },
     {
-      "name": "Walter Koenig",
+      "name": "Dick Clark",
       "order": 0,
       "role": "",
-      "thumb": "/imp7p7LTHRWMgpWFgVap9cuGFnp.jpg"
+      "thumb": "/mq728GMaH4QPx8LZa6Aimssa5IP.jpg"
     },
     {
-      "name": "Donovan",
+      "name": "Bob Barker",
       "order": 0,
       "role": "",
-      "thumb": "/oYmSnTWSYQtTmVYRZ8zpwwCHfCW.jpg"
+      "thumb": "/sGOsKHyYMUGStirI8ZwvA3IvoFP.jpg"
     },
     {
       "name": "Adam Horovitz",
@@ -155,10 +155,10 @@
       "thumb": "/e4hdWIff9CSe2ftxsq7zSH182Ql.jpg"
     },
     {
-      "name": "Dick Clark",
+      "name": "Hank Azaria",
       "order": 0,
       "role": "",
-      "thumb": "/mq728GMaH4QPx8LZa6Aimssa5IP.jpg"
+      "thumb": "/khTCh9TUT5YgMNvteLAh0D9H4Ck.jpg"
     },
     {
       "name": "Claudia Schiffer",
@@ -173,28 +173,22 @@
       "thumb": null
     },
     {
-      "name": "Bob Barker",
-      "order": 0,
-      "role": "",
-      "thumb": "/sGOsKHyYMUGStirI8ZwvA3IvoFP.jpg"
-    },
-    {
-      "name": "Hank Azaria",
-      "order": 0,
-      "role": "",
-      "thumb": "/uON3TWSySIy8wbDhkSzmFTDM6XO.jpg"
-    },
-    {
       "name": "Jan Hooks",
       "order": 0,
       "role": "",
       "thumb": "/7wBfnEwb8U4cR6oowk136ub9WiP.jpg"
     },
     {
-      "name": "John Goodman",
-      "order": 1,
+      "name": "Rich Little",
+      "order": 0,
       "role": "",
-      "thumb": "/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg"
+      "thumb": "/eFqZRAM1Woim3BL4fAMPubZNmN8.jpg"
+    },
+    {
+      "name": "Nora Dunn",
+      "order": 0,
+      "role": "",
+      "thumb": "/x9NAUBciKKxDaYRcntc4vKjqilG.jpg"
     },
     {
       "name": "Parker Posey",
@@ -203,16 +197,16 @@
       "thumb": "/hvD6VB7l8uC4CeUEVQsBWtnDCT6.jpg"
     },
     {
-      "name": "Suzie Plakson",
-      "order": 1,
-      "role": "",
-      "thumb": "/wnXsZ7h2ZGCSmVZaEI8QIqXzU2k.jpg"
-    },
-    {
       "name": "Sigourney Weaver",
       "order": 1,
       "role": "",
       "thumb": "/sHWCLx54yLtaFtppp5ADjAsrWIc.jpg"
+    },
+    {
+      "name": "Suzie Plakson",
+      "order": 1,
+      "role": "",
+      "thumb": "/wnXsZ7h2ZGCSmVZaEI8QIqXzU2k.jpg"
     },
     {
       "name": "Nancy Cartwright",
@@ -221,16 +215,22 @@
       "thumb": "/40qNhyYJhSE2Yiy4pnXSZhdufO6.jpg"
     },
     {
-      "name": "Michael Diamond",
-      "order": 2,
+      "name": "John Goodman",
+      "order": 1,
       "role": "",
-      "thumb": "/cS58kQvmSenJ3U9o5fVV9oecyhP.jpg"
+      "thumb": "/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg"
     },
     {
       "name": "Kath Soucie",
       "order": 2,
       "role": "",
       "thumb": "/62hvT4USvGa9OAsMP9guIBtJqkf.jpg"
+    },
+    {
+      "name": "Michael Diamond",
+      "order": 2,
+      "role": "",
+      "thumb": "/cS58kQvmSenJ3U9o5fVV9oecyhP.jpg"
     },
     {
       "name": "William Shatner",
@@ -263,16 +263,16 @@
       "thumb": null
     },
     {
-      "name": "Al Gore",
-      "order": 50,
-      "role": "",
-      "thumb": "/oV97Y0eVDFrmY5DJErzGCLreewK.jpg"
-    },
-    {
       "name": "Coolio",
       "order": 50,
       "role": "",
       "thumb": "/cjKJlJLgKUIqLhipvA7zxAM81ev.jpg"
+    },
+    {
+      "name": "Al Gore",
+      "order": 50,
+      "role": "",
+      "thumb": "/oV97Y0eVDFrmY5DJErzGCLreewK.jpg"
     },
     {
       "name": "Stephen Hawking",
@@ -335,16 +335,16 @@
       "thumb": "/fKGRayLrEheAfnkCV0M3oYgrSRK.jpg"
     },
     {
-      "name": "Chris Elliott",
-      "order": 46,
-      "role": "",
-      "thumb": "/oQ4ZuOGoZ5dPDiLxri6ZPQLewAU.jpg"
-    },
-    {
       "name": "Katee Sackhoff",
       "order": 46,
       "role": "",
       "thumb": "/p8jMvubKMUE8thuRMZK5T6w1KbP.jpg"
+    },
+    {
+      "name": "Chris Elliott",
+      "order": 46,
+      "role": "",
+      "thumb": "/oQ4ZuOGoZ5dPDiLxri6ZPQLewAU.jpg"
     },
     {
       "name": "Matt Groening",
@@ -1311,37 +1311,45 @@
         "1": [
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b34a62ff.jpg",
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (1).jpg",
-          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e71723bc83f8.jpg"
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e71723bc83f8.jpg",
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220a1b180c5.jpg"
         ],
         "2": [
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b4b728d0.jpg",
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (2).jpg",
-          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e7179eea9d02.jpg"
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e7179eea9d02.jpg",
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220a305646f.jpg"
         ],
         "3": [
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b6075ed9.jpg",
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (3).jpg",
-          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a00d05ac.jpg"
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a00d05ac.jpg",
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220a461eb85.jpg"
         ],
         "4": [
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b71eab7a.jpg",
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (4).jpg",
-          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a1fec0f9.jpg"
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a1fec0f9.jpg",
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220a696d563.jpg"
         ],
         "5": [
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114b994bc9a.jpg",
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/Futurama (5).jpg",
-          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a3c6fa32.jpg"
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a3c6fa32.jpg",
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220bbad99b2.jpg"
         ],
         "6": [
           "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114bb2cce1a.jpg",
-          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a4dbf6e0.jpg"
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-4e717a4dbf6e0.jpg",
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220bce50851.jpg"
         ],
         "7": [
-          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114bc7bad17.jpg"
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114bc7bad17.jpg",
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220bf239789.jpg"
         ],
         "8": [
-          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114bde3eb95.jpg"
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-56114bde3eb95.jpg",
+          "https://assets.fanart.tv/fanart/tv/73871/seasonthumb/futurama-60220c0892843.jpg"
         ]
       },
       "seriesBackground": [
@@ -1360,11 +1368,13 @@
         "https://assets.fanart.tv/fanart/tv/73871/showbackground/futurama-506202c5ecd44.jpg"
       ],
       "seriesBanner": [
-        "https://assets.fanart.tv/fanart/tv/73871/tvbanner/futurama-55e8891f0d49c.jpg"
+        "https://assets.fanart.tv/fanart/tv/73871/tvbanner/futurama-55e8891f0d49c.jpg",
+        "https://assets.fanart.tv/fanart/tv/73871/tvbanner/futurama-6024758604f68.jpg"
       ],
       "seriesPoster": [
         "https://assets.fanart.tv/fanart/tv/73871/tvposter/futurama-5f6e8b198b8ab.jpg",
-        "https://assets.fanart.tv/fanart/tv/73871/tvposter/futurama-535ea4cf5195d.jpg"
+        "https://assets.fanart.tv/fanart/tv/73871/tvposter/futurama-535ea4cf5195d.jpg",
+        "https://assets.fanart.tv/fanart/tv/73871/tvposter/futurama-6024679ca60ee.jpg"
       ],
       "seriesThumb": [
         "https://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-4fe54ded27e1f.jpg",
@@ -1372,7 +1382,8 @@
         "https://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-5090e7ea82ab3.jpg",
         "https://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-5c7276f3d1b7e.jpg",
         "https://assets.fanart.tv/fanart/tv/73871/tvthumb/F_73871.jpg",
-        "https://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-5c7276f3c2f37.jpg"
+        "https://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-5c7276f3c2f37.jpg",
+        "https://assets.fanart.tv/fanart/tv/73871/tvthumb/futurama-602467c98cd7a.jpg"
       ]
     },
     "tmdb": {

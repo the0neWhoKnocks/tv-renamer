@@ -521,7 +521,8 @@ context('Renamer', () => {
     toggleItem('Mugen no Juunin');
     
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
-    cy.get('.renamable__nav :contains(Assign)', { timeout: DATA_SCRAPE_TIMEOUT }).click();
+    cy.get('.renamable__new-name.has--warning .renamable__nav', { timeout: DATA_SCRAPE_TIMEOUT }).contains('Assign').click();
+    
     cy.get('.assign-id__match[data-name="Blade of the Immortal (2019)"]').click();
     cy.get('.assign-id__id-input').should('have.value', SERIES_ID__BLADE_OF_THE_IMMORTAL);
     
@@ -578,8 +579,8 @@ context('Renamer', () => {
     cy.get('@PATTERN_BTN').click();
     
     cy.get('.replace__labeled-input:nth-of-type(2) input').as('REPLACE_INPUT');
-    cy.get('.replace__labeled-input:nth-of-type(2) button[data-num="2"]').as('GROUP2_BTN');
-    cy.get('.replace__labeled-input:nth-of-type(2) button[data-num="3"]').as('GROUP3_BTN');
+    cy.get('.replace__labeled-input:nth-of-type(2) button[data-token="$2"]').as('GROUP2_BTN');
+    cy.get('.replace__labeled-input:nth-of-type(2) button[data-token="$3"]').as('GROUP3_BTN');
     cy.get('@REPLACE_INPUT').type('My.Name.is.Earl.s0');
     cy.get('@GROUP2_BTN').click();
     cy.get('@REPLACE_INPUT').type('e');
@@ -647,8 +648,8 @@ context('Renamer', () => {
     cy.get('@PATTERN_BTN').click();
     
     cy.get('.replace__labeled-input:nth-of-type(2) input').as('REPLACE_INPUT');
-    cy.get('.replace__labeled-input:nth-of-type(2) button[data-num="1"]').as('GROUP1_BTN');
-    cy.get('.replace__labeled-input:nth-of-type(2) button[data-num="2"]').as('GROUP2_BTN');
+    cy.get('.replace__labeled-input:nth-of-type(2) button[data-token="$1"]').as('GROUP1_BTN');
+    cy.get('.replace__labeled-input:nth-of-type(2) button[data-token="$2"]').as('GROUP2_BTN');
     cy.get('@REPLACE_INPUT').type('s0');
     cy.get('@GROUP1_BTN').click();
     cy.get('@REPLACE_INPUT').type('e');

@@ -1,6 +1,20 @@
 # Changelog
 ---
 
+## v5.5.0
+
+**Bugfixes**
+- [63a7ff1](https://github.com/the0neWhoKnocks/tv-renamer/commit/63a7ff1):  Replace groups not highlighted correctly
+
+**Dev-Ops**
+- [5317280](https://github.com/the0neWhoKnocks/tv-renamer/commit/5317280):  Updated tests
+
+**Features**
+- [10e179e](https://github.com/the0neWhoKnocks/tv-renamer/commit/10e179e):  Ability to iterate number in Replace
+- [2a4fbd2](https://github.com/the0neWhoKnocks/tv-renamer/commit/2a4fbd2):  Sanitize backticks in episode names
+
+---
+
 ## v5.4.0
 
 **Dev-Ops**

@@ -244,7 +244,8 @@ class Replace extends Component {
           The [{NDX_TOKEN}] button allows for adding a dynamic value based on
           the current file&apos;s index. If you just want the index, add <code>[{NDX_TOKEN}]</code>.
           If you need the index plus or minus five for example, add <code>[{NDX_TOKEN}+5]</code>,
-          or <code>[{NDX_TOKEN}-5]</code>.
+          or <code>[{NDX_TOKEN}-5]</code>. You can also pad a number with something
+          like <code>[{NDX_TOKEN}+00]</code> or <code>[{NDX_TOKEN}+05]</code>.
         </div>
         <div className={`${ ROOT_CLASS }__table`}>
           <div className={`${ ROOT_CLASS }__table-head`}>
@@ -294,9 +295,12 @@ class Replace extends Component {
                     let pattern = replacePattern;
                     if(NDX_TOKEN_REGEX.test(pattern)){
                       (pattern.match(NDX_TOKEN_REGEX) || []).forEach((m) => {
-                        let [, num] = m.match(NDX_TOKEN_REGEX.source) || [];
-                        num = num ? +num : 0;
-                        pattern = pattern.replace(m, fileNdx + 1 + num);
+                        const [, strNum = '0'] = m.match(NDX_TOKEN_REGEX.source) || [];
+                        const num = +strNum;
+                        const normalizedStrNum = strNum.replace(/^[-+]/, '');
+                        const paddedNum = String(fileNdx + 1 + num).padStart(normalizedStrNum.length, normalizedStrNum);
+                        
+                        pattern = pattern.replace(m, paddedNum);
                       });
                     }
                     

@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v5.6.0
+
+**Features**
+- [4836475](https://github.com/the0neWhoKnocks/tv-renamer/commit/4836475):  Ability to pad numbers in Replace
+
+---
+
 ## v5.5.0
 
 **Bugfixes**

@@ -491,7 +491,7 @@ export default async function renameFiles({ req, reqData, res }) {
               const queryName = encodeURIComponent(name);
               const queryNameNoYear = encodeURIComponent(nameWithNoYear);
               
-              warnings.push(`https://thetvdb.com/search?menu%5Btype%5D=TV&query=${ queryName }`);
+              warnings.push(encodeURI(`https://thetvdb.com/search?menu[type]=series&query=${ name }`));
               warnings.push(`https://www.themoviedb.org/search/tv?query=${ queryNameNoYear }`);
               warnings.push(`https://fanart.tv/?s=${ queryName }&sect=1`);
             }

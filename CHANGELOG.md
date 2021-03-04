@@ -1,6 +1,14 @@
 # Changelog
 ---
 
+## v5.7.0
+
+**Features**
+- [668e955](https://github.com/the0neWhoKnocks/tv-renamer/commit/668e955):  Prevent accidental Replace
+- [cdbfe33](https://github.com/the0neWhoKnocks/tv-renamer/commit/cdbfe33):  Updated the TVDB search URL
+
+---
+
 ## v5.6.0
 
 **Features**

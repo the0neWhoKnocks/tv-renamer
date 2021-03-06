@@ -1,17 +1,17 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015203298,
   "genres": [
     "Animation",
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Action & Adventure"
+    "Action & Adventure",
+    "Sci-Fi & Fantasy"
   ],
   "id": 85937,
   "mpaa": "TV-MA",
   "name": "Demon Slayer: Kimetsu no Yaiba",
   "plot": "It is the Taishō period in Japan. Tanjirō, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjirō resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.",
   "premiered": "2019-04-06",
-  "status": "Ended",
+  "status": "Returning Series",
   "studios": [
     "Tokyo MX"
   ],
@@ -21,12 +21,6 @@
       "order": 0,
       "role": "Tanjirō Kamado (voice)",
       "thumb": "/A1lGrpBEdAUxZA7RoAw4Zr4ved3.jpg"
-    },
-    {
-      "name": "Akari Kitō",
-      "order": 1,
-      "role": "Nezuko Kamado (voice)",
-      "thumb": "/43SgANYtj7vpsHmz68hgPDlxC15.jpg"
     },
     {
       "name": "Hiro Shimono",
@@ -41,27 +35,33 @@
       "thumb": "/imT0u1zSM0RbMxBBbQ6kGDRNoCV.jpg"
     },
     {
-      "name": "Saori Hayami",
-      "order": 72,
-      "role": "Shinobu Kochō (voice)",
-      "thumb": "/qBtiwuh6bzNqzdwPOAYRaeFrmIu.jpg"
+      "name": "Akari Kitō",
+      "order": 1,
+      "role": "Nezuko Kamado (voice)",
+      "thumb": "/43SgANYtj7vpsHmz68hgPDlxC15.jpg"
     },
     {
       "name": "Takahiro Sakurai",
-      "order": 72,
+      "order": 105,
       "role": "Giyū Tomioka (voice)",
       "thumb": "/cXVu8xUA3CFHB0RJLyTcrUP38j3.jpg"
+    },
+    {
+      "name": "Saori Hayami",
+      "order": 72,
+      "role": "Shinobu Kochō (voice)",
+      "thumb": "/idFQBETcsRV7Uy7InV2x9e2iFWq.jpg"
     },
     {
       "name": "Takumi Yamazaki",
       "order": 72,
       "role": "Kasugai crow (voice)",
-      "thumb": "/ePrQK9RflpUx9qHX6Vq1yHPvHBA.jpg"
+      "thumb": "/rO2itiduebswlKzcUTPPuE1Qjyv.jpg"
     },
     {
       "name": "Shinya Takahashi",
       "order": 93,
-      "role": "Man (voice)",
+      "role": "(voice)",
       "thumb": "/qDQEfE7RfeycYLlvvZ5YUAdGOeW.jpg"
     },
     {
@@ -77,22 +77,28 @@
       "thumb": "/zJgSy0mSBVvRbR44Bub8NPUlNeS.jpg"
     },
     {
-      "name": "Yoshiaki Hasegawa",
-      "order": 101,
-      "role": "(voice)",
-      "thumb": "/keP18EZCxYwtXguoMdZyjhI7S2f.jpg"
-    },
-    {
       "name": "Yūsuke Tonozaki",
       "order": 101,
       "role": "(voice)",
       "thumb": null
     },
     {
+      "name": "Yoshiaki Hasegawa",
+      "order": 101,
+      "role": "(voice)",
+      "thumb": "/keP18EZCxYwtXguoMdZyjhI7S2f.jpg"
+    },
+    {
       "name": "Koki Uchiyama",
       "order": 103,
       "role": "Rui (voice)",
       "thumb": "/hpFCRKaOEQUFBGk1C5P4UlfFKp2.jpg"
+    },
+    {
+      "name": "Satoshi Hino",
+      "order": 105,
+      "role": "Kyōjurō Rengoku (voice)",
+      "thumb": "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
     },
     {
       "name": "Toshiyuki Morikawa",
@@ -103,7 +109,7 @@
     {
       "name": "Riho Sugiyama",
       "order": 89,
-      "role": "Woman with child (voice)",
+      "role": "(voice)",
       "thumb": "/vCGq0zc7w7jQDCgJt0ioTN7I8sy.jpg"
     },
     {
@@ -128,7 +134,7 @@
       "name": "Mitsuhiro Ichiki",
       "order": 38,
       "role": "Shōichi (voice)",
-      "thumb": "/b9NIDag7vDZlFt8jg984bYNm19N.jpg"
+      "thumb": "/2bmunMO1NTiZHymLQKZog2qxLfx.jpg"
     },
     {
       "name": "Ami Koshimizu",
@@ -146,25 +152,31 @@
       "name": "Kōki Miyata",
       "order": 66,
       "role": "Murata (voice)",
-      "thumb": "/uKFkqpxIkEvShw5EI7Bl2sBYbuE.jpg"
+      "thumb": "/cXPP0lVnfztFekBMxuY53URMHWn.jpg"
     },
     {
       "name": "Makoto Furukawa",
       "order": 102,
-      "role": "Gotō (voice)",
+      "role": "Kakushi (voice)",
       "thumb": "/ayE3vqqNYt4wBQIvoEVka4oFDw6.jpg"
+    },
+    {
+      "name": "Tomokazu Seki",
+      "order": 104,
+      "role": "Sanemi Shinazugawa (voice)",
+      "thumb": "/4N6i4cgtbeUj5AJd8kiBZ2BxxEJ.jpg"
+    },
+    {
+      "name": "Katsuyuki Konishi",
+      "order": 105,
+      "role": "Tengen Uzui (voice)",
+      "thumb": "/lxSKVgpbKGhCfxFDXplM8eb4YLk.jpg"
     },
     {
       "name": "Daiki Yamashita",
       "order": 33,
       "role": "Yushirō (voice)",
       "thumb": "/rQNdJdZewk7VGP16ZNbpfJ9ZeMd.jpg"
-    },
-    {
-      "name": "Mikako Komatsu",
-      "order": 33,
-      "role": "Susamaru (voice)",
-      "thumb": "/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg"
     },
     {
       "name": "Maaya Sakamoto",
@@ -179,10 +191,10 @@
       "thumb": "/aadtVXCUS1oPqWraYW3ErO1Ajcg.jpg"
     },
     {
-      "name": "Shunichi Toki",
-      "order": 38,
-      "role": "Kiyoshi (voice)",
-      "thumb": "/2PTQRvQ95X3lwVHH2Zc4EMaCOor.jpg"
+      "name": "Mikako Komatsu",
+      "order": 33,
+      "role": "Susamaru (voice)",
+      "thumb": "/13tQEZ1tLdOmi7oGoRJ4xep1ODQ.jpg"
     },
     {
       "name": "Junichi Suwabe",
@@ -191,16 +203,16 @@
       "thumb": "/zEESFmAPlxRzYCjmROGLiHqoku5.jpg"
     },
     {
+      "name": "Shunichi Toki",
+      "order": 38,
+      "role": "Kiyoshi (voice)",
+      "thumb": "/2PTQRvQ95X3lwVHH2Zc4EMaCOor.jpg"
+    },
+    {
       "name": "Ikuko Tani",
       "order": 48,
       "role": "Hisa (voice)",
       "thumb": "/pf5EMr0fXXGJqG1zkc60ZzyrlZd.jpg"
-    },
-    {
-      "name": "Satoshi Hino",
-      "order": 66,
-      "role": "Kyōjurō Rengoku (voice)",
-      "thumb": "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
     },
     {
       "name": "Daisuke Namikawa",
@@ -221,6 +233,12 @@
       "thumb": "/rb9Wi0CdZdhWOjaSgqxaj4D4yqf.jpg"
     },
     {
+      "name": "Yuri Ehara",
+      "order": 72,
+      "role": "Aoi Kanzaki (voice)",
+      "thumb": "/9EswrerXSdxjKtYmZ3oXfFmQp0P.jpg"
+    },
+    {
       "name": "Reina Ueda",
       "order": 72,
       "role": "Kanao Tsuyuri (voice)",
@@ -233,10 +251,16 @@
       "thumb": "/6L81LPf3cWjMSAzjysiJE57lJio.jpg"
     },
     {
-      "name": "Yuri Ehara",
-      "order": 72,
-      "role": "Aoi Kanzaki (voice)",
-      "thumb": "/9EswrerXSdxjKtYmZ3oXfFmQp0P.jpg"
+      "name": "Tomokazu Sugita",
+      "order": 105,
+      "role": "Gyōmei Himejima (voice)",
+      "thumb": "/tW9VGnxmdhy3XTWfssk8ySrDu7K.jpg"
+    },
+    {
+      "name": "Ai Kakuma",
+      "order": 12,
+      "role": "Makomo (voice)",
+      "thumb": "/bu03S2xA7cbKtcvaJWAuMKSZifh.jpg"
     },
     {
       "name": "Yūki Kaji",
@@ -245,10 +269,10 @@
       "thumb": "/8wKdPV11IwowfwoqGqMMNt9hmp6.jpg"
     },
     {
-      "name": "Ai Kakuma",
-      "order": 12,
-      "role": "Makomo (voice)",
-      "thumb": "/g7vys7fqqdn40ePXQgx3XWinxtw.jpg"
+      "name": "Shiori Izawa",
+      "order": 20,
+      "role": "Kanata Ubuyashiki (voice)",
+      "thumb": "/eHptDnhb7y2ODEJJczftCFG2uHF.jpg"
     },
     {
       "name": "Takehito Koyasu",
@@ -260,13 +284,7 @@
       "name": "Aoi Yuki",
       "order": 20,
       "role": "Kiriya Ubuyashiki (voice)",
-      "thumb": "/qaOsU5bdcB7YGzXPlvunv8kTr3f.jpg"
-    },
-    {
-      "name": "Shiori Izawa",
-      "order": 20,
-      "role": "Kanata Ubuyashiki (voice)",
-      "thumb": "/eHptDnhb7y2ODEJJczftCFG2uHF.jpg"
+      "thumb": "/cIFTJFbPhN55T9WW2P064Wh8qty.jpg"
     },
     {
       "name": "Koudai Sakai",
@@ -281,12 +299,6 @@
       "thumb": "/ghw7P67LKTNIsc6g6hAixsRSIWR.jpg"
     },
     {
-      "name": "Yūko Minaguchi",
-      "order": 31,
-      "role": "Rei Kibutsuji (voice)",
-      "thumb": "/38Yf1kfxg7plWKl5dsPGjoJWccH.jpg"
-    },
-    {
       "name": "Haruka Shiraishi",
       "order": 31,
       "role": "Muzan's daughter (voice)",
@@ -297,6 +309,12 @@
       "order": 31,
       "role": "Toyo (voice)",
       "thumb": "/xCAsuzc5OBQZWhG5WSZIyhBZ7xj.jpg"
+    },
+    {
+      "name": "Yūko Minaguchi",
+      "order": 31,
+      "role": "Rei Kibutsuji (voice)",
+      "thumb": "/38Yf1kfxg7plWKl5dsPGjoJWccH.jpg"
     },
     {
       "name": "Showtaro Morikubo",
@@ -323,10 +341,10 @@
       "thumb": "/5CEae7kCZ2GNZtrosTxOQYwT4fR.jpg"
     },
     {
-      "name": "Yumiri Hanamori",
+      "name": "Kengo Kawanishi",
       "order": 66,
-      "role": "Hinaki Ubuyashiki (voice)",
-      "thumb": "/AnrnfnxLllwqCYfkI9mEPBlkjG1.jpg"
+      "role": "Muichirō Tokitō (voice)",
+      "thumb": "/fBzVAY4gcUvs5EfRWQMViYgp9xV.jpg"
     },
     {
       "name": "Kana Hanazawa",
@@ -335,10 +353,10 @@
       "thumb": "/5bK9ttcRydQBWmyZp7gXDmJYOPF.jpg"
     },
     {
-      "name": "Katsuyuki Konishi",
+      "name": "Yumiri Hanamori",
       "order": 66,
-      "role": "Tengen Uzui (voice)",
-      "thumb": "/lxSKVgpbKGhCfxFDXplM8eb4YLk.jpg"
+      "role": "Hinaki Ubuyashiki (voice)",
+      "thumb": "/AnrnfnxLllwqCYfkI9mEPBlkjG1.jpg"
     },
     {
       "name": "Kenichi Suzumura",
@@ -353,28 +371,10 @@
       "thumb": "/11BcHnuJYrOZhIftgUiQqfm7TK6.jpg"
     },
     {
-      "name": "Kengo Kawanishi",
-      "order": 66,
-      "role": "Muichirō Tokitō (voice)",
-      "thumb": "/fBzVAY4gcUvs5EfRWQMViYgp9xV.jpg"
-    },
-    {
-      "name": "Tomokazu Seki",
-      "order": 66,
-      "role": "Sanemi Shinazugawa (voice)",
-      "thumb": "/4N6i4cgtbeUj5AJd8kiBZ2BxxEJ.jpg"
-    },
-    {
-      "name": "Tomokazu Sugita",
-      "order": 66,
-      "role": "Gyōmei Himejima (voice)",
-      "thumb": "/tW9VGnxmdhy3XTWfssk8ySrDu7K.jpg"
-    },
-    {
       "name": "Yuuki Takada",
       "order": 82,
       "role": "Distressed woman (voice)",
-      "thumb": "/9FHiJOXDAXugkVAEiE0rfqPZmJZ.jpg"
+      "thumb": "/sbe8XOF0JHg6KB96fuqHuXGUQtK.jpg"
     },
     {
       "name": "Tarusuke Shingaki",
@@ -385,8 +385,14 @@
     {
       "name": "Yoshihisa Kawahara",
       "order": 87,
-      "role": "Horned demon (voice)",
+      "role": "(voice)",
       "thumb": "/62FvRNnULaznWZ84nn2rIcFHo4o.jpg"
+    },
+    {
+      "name": "Ai Kayano",
+      "order": 104,
+      "role": "Kanae Kochō (voice)",
+      "thumb": "/l8ywp387rfdAS7mOExe3cEZnsk0.jpg"
     },
     {
       "name": "Shin-ichiro Miki",
@@ -434,7 +440,7 @@
       "name": "Makoto Koichi",
       "order": 21,
       "role": "Hand demon's brother (voice)",
-      "thumb": "/6YOLk8hP7WzoFVY8Mg8mqD2EN8S.jpg"
+      "thumb": "/2HhTnfV6x5nStC7zBnBqgh7r3HY.jpg"
     },
     {
       "name": "Misako Tomioka",
@@ -491,12 +497,6 @@
       "thumb": "/ytTlvXFgoFQkrjDLPf1XvM6q088.jpg"
     },
     {
-      "name": "Ai Kayano",
-      "order": 70,
-      "role": "Kanae Kochō (voice)",
-      "thumb": "/l8ywp387rfdAS7mOExe3cEZnsk0.jpg"
-    },
-    {
       "name": "Eiji Takemoto",
       "order": 71,
       "role": "Kōzō Kanamori (voice)",
@@ -509,7 +509,7 @@
       "thumb": "/b7FddQn3GktZ1CkA1HOpwWRjEew.jpg"
     },
     {
-      "name": "Kenn",
+      "name": "KENN",
       "order": 73,
       "role": "Kamanue (voice)",
       "thumb": "/y7Gtn1PchXJ1MxmUxU9jtt138EO.jpg"
@@ -614,7 +614,7 @@
       "name": "Chado Horii",
       "order": 102,
       "role": "(voice)",
-      "thumb": "/q5anvbQX0njjWIP4gi4IeeLZC4l.jpg"
+      "thumb": "/yogIsJV5LK5XPzxF07uS9t7G6T4.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -625,13 +625,13 @@
       "seasonPoster": {},
       "seasonThumb": {},
       "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5fc79e30ef538.jpg",
         "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5fee3da0d0cff.jpg",
         "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5fee3d5e89473.jpg",
         "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5fee3d72d4391.jpg",
         "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5fee3d8a061a5.jpg",
         "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5d039ca9a2450.jpg",
-        "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5f88b93734c25.jpg",
-        "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5fc79e30ef538.jpg"
+        "https://assets.fanart.tv/fanart/tv/348545/showbackground/demon-slayer-kimetsu-no-yaiba-5f88b93734c25.jpg"
       ],
       "seriesBanner": [
         "https://assets.fanart.tv/fanart/tv/348545/tvbanner/demon-slayer-kimetsu-no-yaiba-5fee3d45a60af.jpg"
@@ -650,7 +650,8 @@
       "poster": "https://image.tmdb.org/t/p/w780/wrCVHdkBlBWdJUZPvnJWcBRuhSY.jpg",
       "seasonPosters": {
         "0": "https://image.tmdb.org/t/p/w780/hQIdXOUMMzfe3Utpa9v83uV3pdq.jpg",
-        "1": "https://image.tmdb.org/t/p/w780/tH3VOgckHamhseoHGoP7LwG68bd.jpg"
+        "1": "https://image.tmdb.org/t/p/w780/tH3VOgckHamhseoHGoP7LwG68bd.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/mwUqY9uWkYkKq0zWpVXDNdY3ti3.jpg"
       }
     }
   },
@@ -659,28 +660,34 @@
       "episodes": [
         null,
         {
-          "aired": "2019-03-29",
-          "plot": "The first 5 episodes of TV series Kimetsu no Yaiba were released as a film. A special screening was held on 19.03.2019 in Shinjuku Wald 9, Tokyo.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/m7RZoaAJ3lhB0BBPm74drV5Cm5T.jpg",
-          "title": "Movie- Bonds of Siblings"
-        },
-        {
-          "aired": "2020-10-16",
-          "plot": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, board the Infinity Train on a new mission with the Fire Pillar, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/8XC3fUPVo07rcLWvNPAVRGYLIOc.jpg",
-          "title": "Movie- Infinity Train"
-        },
-        {
-          "aired": "2019-08-28",
-          "plot": "",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/5EnSPWGcLpFUl4d3BXDCbKZb5dC.jpg",
-          "title": "Episode 3"
-        },
-        {
           "aired": "2020-12-20",
           "plot": "",
           "thumbnail": "",
-          "title": "Pillar Meeting - Butterfly House"
+          "title": "Kimetsu no Yaiba After Talk"
+        },
+        {
+          "aired": "2021-02-14",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7hZjSWYrmfYiJ29dJTL2Vo9Uc4r.jpg",
+          "title": "Valentine Chapter Episode 1"
+        },
+        {
+          "aired": "2021-02-14",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7bfb3uZxGmut1x4ofs7ItNlFwTI.jpg",
+          "title": "Valentine Chapter Episode 2"
+        },
+        {
+          "aired": "2021-02-14",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/o2pXOA6FO83SyqEILK5gY9HVjHr.jpg",
+          "title": "Valentine Chapter Episode 3"
+        },
+        {
+          "aired": "2021-02-14",
+          "plot": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bmPUcLgt65XnxmJV7ZuD2QGzszM.jpg",
+          "title": "Valentine Chapter Episode 4"
         }
       ]
     },

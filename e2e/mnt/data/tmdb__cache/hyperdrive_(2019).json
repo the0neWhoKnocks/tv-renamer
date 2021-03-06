@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015200352,
   "genres": [
     "Reality"
   ],
@@ -20,6 +21,12 @@
       "thumb": "/2Hnf7p5UfpVmKPcSZ8Mipnw6uPv.jpg"
     },
     {
+      "name": "Mike Hill",
+      "order": 500,
+      "role": "Himself - Host",
+      "thumb": null
+    },
+    {
       "name": "Rutledge Wood",
       "order": 500,
       "role": "Himself - Host",
@@ -30,12 +37,6 @@
       "order": 500,
       "role": "Himself - Host",
       "thumb": "/xF6wdVG9pYbYRhS0ncaweWPpb7Y.jpg"
-    },
-    {
-      "name": "Mike Hill",
-      "order": 500,
-      "role": "Himself - Host",
-      "thumb": null
     }
   ],
   "dvdSeasons": {},

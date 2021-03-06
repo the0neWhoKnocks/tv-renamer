@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015195518,
   "genres": [
     "Reality"
   ],
@@ -65,18 +66,36 @@
       "background": "https://image.tmdb.org/t/p/w1280/2JeaDiavRcMBYce00s06xARb78Y.jpg",
       "poster": "https://image.tmdb.org/t/p/w780/yaJ6uXDgGlQKNS8hFXQLPk7pwKX.jpg",
       "seasonPosters": {
-        "1": "",
-        "2": "",
-        "3": "",
+        "0": "https://image.tmdb.org/t/p/w780/2khskSRL37SV7N2BWHiDu1TJRVv.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/tat3UMJe6CehQ712Z6aSP128FkK.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/uSDt1WPx7d4mdPlRUuHQJOfVlTO.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/fA551TIbtyJvqhbR4kajpfprmP2.jpg",
         "4": "https://image.tmdb.org/t/p/w780/bebZJCRZ3RJizINuc0Jd981fE73.jpg",
-        "5": "",
-        "6": "",
-        "7": "",
-        "8": ""
+        "5": "https://image.tmdb.org/t/p/w780/u9f7jIXjp4aYQkNk1g2SeKAoxxb.jpg",
+        "6": "https://image.tmdb.org/t/p/w780/lSdBFpQVS8VWRaOOecsgh7kj5aw.jpg",
+        "7": "https://image.tmdb.org/t/p/w780/sJ5lRqrDKju4lC2Sl8cWnCbklGP.jpg",
+        "8": "https://image.tmdb.org/t/p/w780/zKSBPIL9vy0XzPx7FV3cnqXn0Mb.jpg"
       }
     }
   },
   "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        {
+          "aired": "2017-11-23",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Bladesgiving Special"
+        },
+        {
+          "aired": "2020-03-12",
+          "plot": "Four former winners return to the forge for the biggest twist in the show's history.",
+          "thumbnail": "",
+          "title": "Super Champion Elite"
+        }
+      ]
+    },
     "1": {
       "episodes": [
         null,
@@ -176,7 +195,7 @@
           "title": "The Shotel"
         },
         {
-          "aired": "2016-04-05",
+          "aired": "2016-04-06",
           "plot": "The bladesmiths have to convert some failed blades from last season into fully-functional weapons.",
           "thumbnail": "",
           "title": "The Cutlass"
@@ -202,13 +221,13 @@
           "aired": "2016-08-23",
           "plot": "Season 3 begins with the return of four champions who are charged with making a high-carbon-steel inlay. Then, two finalists are challenged to forge a Scottish Claymore, which has stumped previous contestants.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/uDYyUmrjFoKMRiQHUKnOp31XnnL.jpg",
-          "title": "Champion Edition"
+          "title": "Champion Edition - Scottish Claymore"
         },
         {
-          "aired": "2016-08-28",
+          "aired": "2016-08-30",
           "plot": "Four former contestants, back in the Forge by popular demand, return for a second shot at victory and redemption in an all new challenge full of unexpected twists. Competition gets heated right away when they are forced to make their signature style blades with materials from a surprising source. After two rounds of grueling competition, only two smiths are left to take on the final challenge of recreating a weapon they've never seen before: The Hook Sword. This complex weapon gives both fan favorites a run for their money, but only one will hook the crown and take home $10,000.",
           "thumbnail": "",
-          "title": "Fan Favorites"
+          "title": "Fan Favorites - Hook Sword"
         },
         {
           "aired": "2016-09-06",
@@ -262,7 +281,7 @@
           "aired": "2017-01-10",
           "plot": "Over the course of three seasons, 26 bladesmiths have been crowned Forged in Fire champion. Tonight, prior winners return to prove who among them is the best of the best by forging a blade using canoe damascus. After two high octane rounds of competition, the two remaining champions will move to the final round where they must create a weapon known for its unique mechanics and deadly double-edged blade--the Pata. With $10,000 and their reputation on the line, which smith will survive the judges' brutal testing to once again be crowned Forged in Fire champion?",
           "thumbnail": "",
-          "title": "The Pata"
+          "title": "Champions Edition - The Pata"
         },
         {
           "aired": "2017-01-17",
@@ -292,7 +311,7 @@
           "aired": "2017-02-14",
           "plot": "Four previously eliminated bladesmiths return to the forge for a shot at redemption, but they face a challenge that will make their climb to the top more difficult than they imagined. After two rounds of competition with shocking eliminations, the two remaining smiths face off to recreate a sword known for its devastating strength--the Viking sword. With $10,000 on the line, which smith will survive a grueling round of testing and finally be crowned Forged in Fire champion?",
           "thumbnail": "",
-          "title": "Redemption"
+          "title": "Redemption - Viking Sword"
         }
       ]
     },
@@ -411,7 +430,7 @@
           "aired": "2017-10-03",
           "plot": "Four of the top smiths from around the world compete in an international championship; two smiths return home empty handed, while two go on to recreate the Spadroon, a weapon that transcends borders, in their efforts to bring home the title.",
           "thumbnail": "",
-          "title": "International Championship"
+          "title": "International Championship - The Spadroon"
         },
         {
           "aired": "2017-10-10",
@@ -446,241 +465,241 @@
           "aired": "2018-03-07",
           "plot": "The bladesmiths are forced to achieve one of six Damascus patterns for their first round blade, and they must choose wisely. The ladder to victory is full of twists as the smiths stack, weld and repeat trying to forge beautifully crafted and durable blades under their specified parameters. When time runs out, only two competitors enter the final challenge to recreate the fearsome Rhomphaia sword. Which smith will demonstrate true mastery to dominate the competition and be named the next Forged In Fire Champion?",
           "thumbnail": "",
-          "title": "(0) The Rhomphaia"
+          "title": "The Rhomphaia"
         },
         {
           "aired": "2018-03-13",
           "plot": "Five novice smiths must earn their way into the competition because one smith will be sent home before the forge lights up; the two left standing must re-create a 16th-century weapon known as the War Golok.",
           "thumbnail": "",
-          "title": "(1) Rookie Edition"
+          "title": "Rookies Edition (The War Golok)"
         },
         {
           "aired": "2018-03-20",
           "plot": "The bladesmiths begin on a farm where they must harvest steel from farming tools, then use coal forges to make their signature blades with a hidden lanyard hole; the two remaining smiths must recreate the Schiavona.",
           "thumbnail": "",
-          "title": "(2) The Schiavona"
+          "title": "The Schiavona"
         },
         {
           "aired": "2018-03-27",
           "plot": "The smiths must forge a signature blade out of a 50-caliber flintlock pistol; despite giving it their best shot, it becomes a struggle to turn a gun into a blade and after two grueling rounds, two smiths get sent barreling towards elimination.",
           "thumbnail": "",
-          "title": "(3) Sica Sword"
+          "title": "The Sica"
         },
         {
           "aired": "2018-04-03",
           "plot": "Smiths must forge functional friction folders and find the critical junction where skill meets resiliency; two finalists must recreate a Japanese trident called the Jumonji Yari, a weapon of unparalleled strength.",
           "thumbnail": "",
-          "title": "(4) Jumonji Yari"
+          "title": "The Jumonji Yari"
         },
         {
           "aired": "2018-04-10",
           "plot": "Parts from a salvaged cannon are used to make signature blades, and in the end, two smiths re-create the North African Kabyle flyssa in a final round, which will determine whose blade launches them to becoming the next champion",
           "thumbnail": "",
-          "title": "(5) The Kabyle Flyssa"
+          "title": "The Kabyle Flyssa"
         },
         {
           "aired": "2018-04-17",
           "plot": "Four master smiths compete alongside their apprentices to forge an iconic weapon of warfare: the trench knife; each team must work together, tagging in and out every half hour, with only one smith allowed to touch the knife at a time.",
           "thumbnail": "",
-          "title": "(6) Ultimate Team Challenge"
+          "title": "Ultimate Team Challenge (The Chinese Dao)"
         },
         {
           "aired": "2018-04-24",
           "plot": "Four bladesmiths must kick their skills into gear when they’re tasked with forging blades out of steel from a chain and a sprocket, but only two will secure a spot in the final round, where they have five days to forge the iconic karabela saber.",
           "thumbnail": "",
-          "title": "(7) Karabela"
+          "title": "The Karabela"
         },
         {
           "aired": "2018-05-01",
           "plot": "Four blade smiths find the devil is in the details when they must combine two or more steels to forge J. Nielson's favorite blade, a Damascus European dagger. In a challenge where symmetry and precision can make or break a blade, two smiths produce knives that survive J.'s merciless tests. In the final round, they have five days to forge a fearsome pole weapon–the Zande Spear.",
           "thumbnail": "",
-          "title": "(8) The Zande Spear"
+          "title": "The Zande Spear"
         },
         {
           "aired": "2018-05-08",
           "plot": "Four bladesmiths test their mettle in a rock quarry, where they're tasked with making blades using only harvested steel and coal forges. Over the course of two intense rounds, the smiths show their true grit constructing a blade while fighting the elements. After brutal tests designed to chip away at the competitors' resolve, only two smiths advance to the final round. Back at their home forges, they must recreate one of the most dangerous folding weapons in history — the Spanish Navaja.",
           "thumbnail": "",
-          "title": "(9) The Navaja"
+          "title": "The Navaja"
         },
         {
           "aired": "2018-05-15",
           "plot": "The pressure is on as the Smiths are tasked with forging Dave Baker’s favorite blade, the Scottish Dirk. Can they master the difficult design of this weapon, and live up to the high expectations of their expert judge? With a sharp edge over the competition, two smiths head home for the final round to recreate the German Halberd, a medieval era triple threat. Which smith will stake their claim as Forged In Fire Champion and hook in the $10,000 prize?",
           "thumbnail": "",
-          "title": "(10) The German Halberd"
+          "title": "The German Halberd"
         },
         {
           "aired": "2018-05-22",
           "plot": "The smiths are forced to harvest steel from motorcycles to forge blades in their signature style, but things don't go according to plan; and after an intense race to the finish, the final two competitors have only five days to recreate a giant Indian two-handed sword.",
           "thumbnail": "",
-          "title": "(11) The Two Handed Sword"
+          "title": "The Two Handed Sword"
         },
         {
           "aired": "2018-05-28",
           "plot": "In a special military themed episode, four bladesmiths, all veterans of the U.S. Armed Forces, dive into the fray when they are tasked with forging a combat knife from an anti-tank hedgehog. After two grueling rounds of competition filled with frustration and a medical emergency, the final two smiths advance and head back to their home forges to recreate another military favorite, the M1917 Naval Cutlass. Which veteran has the mettle to drive to glory and earn the rank of Forged in Fire Champion?",
           "thumbnail": "",
-          "title": "(12) The Naval Cutlass"
+          "title": "Military History Tribute (Naval Cutlass)"
         },
         {
           "aired": "2018-05-29",
           "plot": "Four bladesmiths are pushed to their limits when they each must forge a signature blade from small springs of steel. Wonky welds and broken billets cause major setbacks that must be corrected before the time runs out. Ultimately, two smiths manage to turn their setbacks into comebacks to secure a spot in the final round where they must recreate the deadly Horseman's Axe. Which smith will join the ranks of Forged In Fire champions and return home with the $10,000 prize?",
           "thumbnail": "",
-          "title": "(13) The Horseman's Axe"
+          "title": "Horseman's Axe"
         },
         {
           "aired": "2018-06-05",
           "plot": "Four bladesmiths must figure out how to hack it when they are tasked with crafting a hatchet from pieces of odd shaped steel. After several forging failures, parameter mishaps, and intense conditions -- only two smiths head back to their home forges where they must recreate the deadly Maasai Lion Spear. Who will come out roaring and leave with $10,000 and the pride of becoming a Forged in Fire Champion?",
           "thumbnail": "",
-          "title": "(14) The Lion Spear"
+          "title": "Lion Spear"
         },
         {
           "aired": "2018-06-12",
           "plot": "The bladesmiths must make their signature blades out of only drill bits and a chunk of mild steel, but untwisting the bits and combining the two steels proves almost impossible. After two rounds, only two smiths survive the chopping block and are sent back to their home forges to recreate a beautiful, but deadly Indonesian sword — the Kelewang. A final round of testing proves that victory lies at the junction between form and function.",
           "thumbnail": "",
-          "title": "(15) The Kelewang"
+          "title": "Kelewang"
         },
         {
           "aired": "2018-06-19",
           "plot": "The bladesmiths are forced to make canister Damascus using nuts and bolts, and the twists and turns of the challenge may be more than they can handle. Ultimately, two smiths avoid getting canned and move on to the final round where they must recreate a pair of deadly Indian Bagh Nakh weapons.",
           "thumbnail": "",
-          "title": "(16) Bagh Nakh Blades"
+          "title": "Bagh Nakh"
         },
         {
           "aired": "2018-06-26",
           "plot": "Four blade smiths must forge a Marine K-Bar all-purpose knife from multiple small blocks of steel. Ultimately, two smiths manage to reach the final round where they must recreate the iconic Glaive Guisarme polearm.",
           "thumbnail": "",
-          "title": "(17) The Glaive Guisarme"
+          "title": "Glaive Guisarme"
         },
         {
           "aired": "2018-07-03",
           "plot": "Four smiths must forge a multipurpose weapon from old rescue tools; after narrowly escaping elimination, two smiths head back to their home forges to recreate a unique utilitarian tool, the Russian Pioneer Sword.",
           "thumbnail": "",
-          "title": "(18) Pioneer Sword"
+          "title": "Pioneer Sword"
         },
         {
           "aired": "2018-07-17",
           "plot": "Four bladesmiths are tasked with forging a signature blade from a bicycle. After major setbacks and time-consuming failures, each smith is pushed to their limit as they race to the finish before the clock hits zero. Ultimately, two smiths advance and are shocked to learn that they must recreate an ancient weapon, the Wind and Fire Wheels.",
           "thumbnail": "",
-          "title": "(19) Wind and Fire Wheels"
+          "title": "Wind and Fire Wheels"
         },
         {
           "aired": "2018-07-24",
           "plot": "Four bladesmiths are tasked with forging friction folders from a huge steel coil; in the final round, the two remaining smiths head back to their home forges to create a blade that requires both precision and detail: the French smallsword.",
           "thumbnail": "",
-          "title": "(20) The Smallsword"
+          "title": "Smallsword"
         },
         {
           "aired": "2018-07-31",
           "plot": "The bladesmiths must forge a signature blade from W2 and a giant industrial-sized nut. Then, they face two unforgiving strength tests. Ultimately, only two smiths advance and head back to their home forges to recreate the Celtic Anthropomorphic Sword, an iconic ancient iron weapon.",
           "thumbnail": "",
-          "title": "(21) The Anthropomorphic Sword"
+          "title": "Celtic Anthropomorphic Sword"
         },
         {
           "aired": "2018-08-07",
           "plot": "The bladesmiths are tasked with creating their signature blade out of a massive ball bearing. Ultimately, two smiths return to their home forges to recreate the kilij, a lethal saber from the Ottoman Empire.",
           "thumbnail": "",
-          "title": "(22) The Kilij"
+          "title": "The Kilij"
         },
         {
           "aired": "2018-08-14",
           "plot": "Four bladesmiths are taken out of the forge and transported to the great outdoors, where they struggle to forge a blade in the noonday sun. They must forage for outdoor materials and crank a coal forge, which leaves some scrambling to the end. After a second smith falters during testing, the two remaining smiths return to their home forges to create the ultimate wilderness weapon: the German sawback hunting sword",
           "thumbnail": "",
-          "title": "(23) The Sawback Hunting Sword"
+          "title": "The Sawback Hunting Sword"
         },
         {
           "aired": "2018-08-21",
           "plot": "",
           "thumbnail": "",
-          "title": "(24) The Arming Sword"
+          "title": "The Arming Sword"
         },
         {
           "aired": "2018-08-28",
           "plot": "Four bladesmiths must forge a fully functional serrated knife using steel from hand scissors; the remaining two competitors return to their home forges to create a unique and challenging weapon from history: the Sengese.",
           "thumbnail": "",
-          "title": "(25) The Sengese"
+          "title": "The Sengese"
         },
         {
           "aired": "2018-09-04",
           "plot": "Four bladesmiths take a shot at forging a signature blade from the steel rings of a whiskey barrel. They must quickly adapt when they realize there may not be enough hardenable steel to go around. After an intense round of testing, the final two smiths head home to forge an instrument of Chinese warfare: the qinglong ji.",
           "thumbnail": "",
-          "title": "(26) The Qinglong Ji"
+          "title": "The Qinglong Ji"
         },
         {
           "aired": "2018-09-12",
           "plot": "Four bladesmiths pay homage to Hollywood; a survival knife; the final two smiths return home to re-create one of the most famous swords in cinematic history: Hattori Hanzo's 1,000-layer katana from Quentin Tarantino's \"Kill Bill.\"",
           "thumbnail": "",
-          "title": "(27) Hollywood Edition"
+          "title": "Hollywood Edition (Hattori Hanzō Katana)"
         },
         {
           "aired": "2018-09-19",
           "plot": "The bladesmiths are tasked with creating a signature Damascus blade out of three different steels of different thicknesses; the two final competitors re-create one of the most intricate weapons in show history: the steel crossbow.",
           "thumbnail": "",
-          "title": "(28) The Steel Crossbow"
+          "title": "The Steel Crossbow"
         },
         {
           "aired": "2018-09-26",
           "plot": "Four bladesmiths must craft a signature blade from a massive piece of elevator cable; the final two competitors return home to re-create a sword wielded by some of history's fiercest soldiers: the Two-Handed Landsknecht Sword.",
           "thumbnail": "",
-          "title": "(29) The Landsknecht Sword"
+          "title": "The Landsknecht Sword"
         },
         {
           "aired": "2018-10-03",
           "plot": "Four bladesmiths are tasked with creating a San Mai blade from horseshoes and hoof rasps; the remaining two bladesmiths return to their home forges to create a famed weapon of the English Civil War: the Mortuary Sword.",
           "thumbnail": "",
-          "title": "(30) Tournament- Round 1"
+          "title": "Tournament Round 1 (Farriers) - The Mortuary Sword"
         },
         {
           "aired": "2018-10-10",
           "plot": "Four bladesmiths must forge a Damascus blade out of something familiar: plate armor; the remaining two bladesmiths head back to their home forges to craft an exotic hybrid of pain and protection: the Hooded Katar.",
           "thumbnail": "",
-          "title": "(31) Tournament- Round 2"
+          "title": "Tournament Round 2 (Armorers) - The Hooded Katar"
         },
         {
           "aired": "2018-10-17",
           "plot": "Four bladesmiths must forge a signature Damascus blade using steel from tools; the smiths that survive two brutal rounds of testing return to their home forges to recreate a multipurpose Medieval weapon of war: the Knightly Poleaxe.",
           "thumbnail": "",
-          "title": "(32) Tournament- Round 3"
+          "title": "Tournament Round 3 (Blacksmiths) - The Knightly Pole Axe"
         },
         {
           "aired": "2018-10-24",
           "plot": "Four bladesmiths must harvest materials from a metal sculpture to forge a needle point Damascus blade; the remaining smiths return to their own home forges to recreate a sword from the elite classes of Renaissance Europe: the Flamberge Rapier.",
           "thumbnail": "",
-          "title": "(33) Tournament- Round 4"
+          "title": "Tournament Round 4 (Modern Metalworkers) - The Flamberge Rapier"
         },
         {
           "aired": "2018-10-31",
           "plot": "In the final round of the Invitational Tournament, the winning farrier, armorer, blacksmith and modern metal worker face off to forge a wakizashi; the two finalists must then re-create the nodachi, one of the largest Japanese swords.",
           "thumbnail": "",
-          "title": "(34) Tournament Finals"
+          "title": "Tournament Championship (Nodachi)"
         },
         {
           "aired": "2018-11-07",
           "plot": "Four bladesmiths must create signature slasher blades, each using a different type of metal; the two finalists return to their home forges to recreate the Grim Reaper's scythe.",
           "thumbnail": "",
-          "title": "(35) The Grim Reaper's Scythe"
+          "title": "Slasher Edition (Grim Reaper's Scythe)"
         },
         {
           "aired": "2018-11-14",
           "plot": "Four bladesmiths are tasked with forging a Crusader's dagger from a thick rod of W1 steel; the final two smiths must create Robin Hood's steel takedown bow.",
           "thumbnail": "",
-          "title": "(36) The Steel Takedown Bow"
+          "title": "Steel Takedown Bow"
         },
         {
           "aired": "2018-11-21",
           "plot": "Four bladesmiths must build coal forges using materials scavenged from a storage unit and forge signature blades without any power tools; the remaining two smiths return home to recreate a bardiche, a brutal European pole axe.",
           "thumbnail": "",
-          "title": "(37) The Bardiche"
+          "title": "Bardiche"
         },
         {
           "aired": "2018-12-12",
           "plot": "Four bladesmiths are challenged with forging a canister Damascus knife using only steel wool and 1095 powder; the final two head home to re-create an important weapon from North American history - the pipe tomahawk.",
           "thumbnail": "",
-          "title": "(38) The Pipe Tomahawks"
+          "title": "The Pipe Tomahawks"
         },
         {
           "aired": "2018-12-19",
           "plot": "Four bladesmiths must each forge judge Ben Abbott's favorite blade, the Celtic ring knife, using the San Mai technique; the final two competitors return to their home forges to re-create Irish ring hilted swords.",
           "thumbnail": "",
-          "title": "(39) Ring Hilted Sword"
+          "title": "The Ring Hilted Sword"
         }
       ]
     },
@@ -695,9 +714,9 @@
         },
         {
           "aired": "2019-02-13",
-          "plot": "In the second half of the Road to Redemption competition four former smiths remain, each competing for a second chance to become a Forged in Fire Champion. There’s no slowing down for these bladesmiths as they’re tasked with crafting a Jambiya, an elegant and deadly Yemeni dagger. The intricacies of the dagger prove too much for one smith, and an intense round of testing eliminates a second. For the first time ever, the two finalists must choose their weapon which they will create at their home forges. Which smith has the knowledge, skills, and craftsmanship to outlast the others, win $20,000, and earn the most elusive prize of all: redemption?",
+          "plot": "In the second half of the Road to Redemption competition four former smiths remain, each competing for a second chance to become a Forged in Fire Champion. For the first time ever, the two finalists must choose their weapon which they will create at their home forges. Which smith has the knowledge, skills, and craftsmanship to outlast the others, win $20,000, and earn the most elusive prize of all: redemption?",
           "thumbnail": "https://image.tmdb.org/t/p/w400/gnwURMujpsdQRLX3VXNyOwuiD6J.jpg",
-          "title": "Road to Redemption Part 2"
+          "title": "Long Road to Redemption Part 2"
         },
         {
           "aired": "2019-02-20",
@@ -866,12 +885,6 @@
           "plot": "Four smiths are tasked with forging signature blades by salvaging materials from a go-cart; the two remaining competitors have just four days to recreate the series favored by Genghis Khan.",
           "thumbnail": "",
           "title": "Genghis Khan's Sword"
-        },
-        {
-          "aired": "2019-10-09",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Sword of Perseus"
         }
       ]
     },
@@ -945,7 +958,7 @@
           "title": "The Barbarian Spatha"
         },
         {
-          "aired": "2019-11-28",
+          "aired": "2019-11-27",
           "plot": "Two families go head-to-head in an all-out battle not only against another household, but also each other.  Loyalties will be put aside as the smiths fight forge welds, the heat, and the clock to make a canister Damascus blade from odd pieces of high carbon steel.  After a fierce round of tests, the two remaining competitors return home to recreate the rapier inspired by Inigo Montoya from The Princess Bride.  Which smith will be there breadwinner and bring honor to their name with the title of Forged in Fire Champion along with the $10,000 prize?",
           "thumbnail": "",
           "title": "Family Edition"
@@ -1155,9 +1168,33 @@
         },
         {
           "aired": "2021-01-13",
-          "plot": "",
+          "plot": "Four bladesmiths get revved up when they are tasked with forging signature blades from a burnt up car. With no usable leaf spring, the smiths race to salvage the best steel to make their blades. After a couple rounds of burning rubber, two are sent home to recreate the Serrated Tegha Sword. Which smith will produce a show-stopping weapon worthy of the title of Forged in Fire champion and a check for $10,000?",
           "thumbnail": "",
           "title": "Teeth of the Tegha"
+        },
+        {
+          "aired": "2021-02-17",
+          "plot": "Four smiths get to choose their forging method and materials. But there's a catch. Each technique comes with its own clock for the round. Will the smiths opt for the most difficult cannister damascus and the four hour clock? Or the easiest ball bearing with only one hour? After a brutal round of testing, the two surviving smiths are tasked with creating the Headhunter Axe in only 3 days. Which smith will stand the test of time to become Forged in Fire Champion and win the $10,000 prize?",
+          "thumbnail": "",
+          "title": "Headhunters Revenge"
+        },
+        {
+          "aired": "2021-02-24",
+          "plot": "Four bladesmiths are in for a hands-on challenge when they are tasked with forging pry bar knives. Given a variety of tools to make their blades, will the smiths be able to figure out the right tool for the job? Then after grueling round of testing two Smith's return home to forge a pair of Spetsnaz shovels famously wielded by Russian Special Forces. Which smith will dig deep to forge a pair of weapons worthy of the Forged in Fire title and a check for $10,000?",
+          "thumbnail": "",
+          "title": "Russian Special Forces Spetsnaz"
+        },
+        {
+          "aired": "2021-03-03",
+          "plot": "For the first time the judges flip the script, giving the competitors the opportunity to choose their own challenge. However, the bladesmiths must work together to agree on the parameters before starting the round. After an intense bout of testing, two return home to recreate the fearsome Dahomey Machete, famously wielded by an all-female army. Which smith will produce a weapon worthy of the fierce female warriors and be crowned Forged in Fire champion?",
+          "thumbnail": "",
+          "title": "Machete of the Amazons"
+        },
+        {
+          "aired": "2021-03-10",
+          "plot": "Four smiths are blindsided when they must choose from a selection of mystery steel to create san mai blades.  However, that isn't the only unknown.  The clock will be off, leaving the smiths to rely solely on time calls for guidance.  After a surprising rounds of tests, the last smiths standing will select between two weapons to forge at home.  Which smith will uncover the secret to forging a weapon worthy of $10,000 and be crowned Forged in Fire Champion?",
+          "thumbnail": "",
+          "title": "San Mai Mystery"
         }
       ]
     }

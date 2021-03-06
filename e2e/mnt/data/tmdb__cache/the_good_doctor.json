@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015226786,
   "genres": [
     "Drama"
   ],
@@ -41,7 +42,7 @@
       "name": "Nicholas Gonzalez",
       "order": 467,
       "role": "Neil Melendez",
-      "thumb": "/4QBRarzz68vQCiXteI1TMopj3zn.jpg"
+      "thumb": "/qS42BcrFb6MqfdWxq2QgrwDuwP.jpg"
     },
     {
       "name": "Christina Chang",
@@ -116,15 +117,39 @@
       "thumb": "/5e8YyNQjWre2UbExYBlJ7zva934.jpg"
     },
     {
+      "name": "Bria Samoné Henderson",
+      "order": 498,
+      "role": "Jordan Allen",
+      "thumb": "/b2Zi6Hb6SLLunl3Ndr9OLz8bTld.jpg"
+    },
+    {
+      "name": "Noah Galvin",
+      "order": 508,
+      "role": "Asher Wolke",
+      "thumb": "/nS2ecM1f5nCg77AsJRn7sklbjXz.jpg"
+    },
+    {
       "name": "Juliana Wimbles",
       "order": 229,
-      "role": "EMT #2",
+      "role": "EMT",
       "thumb": null
+    },
+    {
+      "name": "Summer Brown",
+      "order": 508,
+      "role": "Olivia Jackson",
+      "thumb": "/8lnF7M5kBXmecwtdFTUUDz4uQ8w.jpg"
+    },
+    {
+      "name": "Brian Marc",
+      "order": 508,
+      "role": "Enrique Guerin",
+      "thumb": "/igzf545R0wza60SLCPMWDgrkfVh.jpg"
     },
     {
       "name": "Adil Zaidi",
       "order": 338,
-      "role": "Mag Dhanoa",
+      "role": "Jag Dhanoa",
       "thumb": "/ky0qSPdZzYdaThKgC8gE9YlINa5.jpg"
     },
     {
@@ -166,7 +191,7 @@
     {
       "name": "Carly Bentall",
       "order": 175,
-      "role": "Executive Assistant",
+      "role": "Andrews' Assistant",
       "thumb": null
     },
     {
@@ -190,43 +215,25 @@
     {
       "name": "Zahf Paroo",
       "order": 310,
-      "role": "Dr. Ashique Selim",
+      "role": "Anesthesiologist",
       "thumb": "/ejjvDERgLhZnKhP0QRBtBZiAyeS.jpg"
     },
     {
-      "name": "Noah Galvin",
-      "order": 487,
-      "role": "Asher Wolke",
-      "thumb": "/nS2ecM1f5nCg77AsJRn7sklbjXz.jpg"
-    },
-    {
-      "name": "Bria Samoné Henderson",
-      "order": 487,
-      "role": "Jordan Allen",
-      "thumb": "/b2Zi6Hb6SLLunl3Ndr9OLz8bTld.jpg"
-    },
-    {
-      "name": "Brian Marc",
-      "order": 487,
-      "role": "Enrique 'Ricky' Guerin",
-      "thumb": "/e56pOIH6Qx9ES5kk1rFmyitwGOw.jpg"
-    },
-    {
-      "name": "Summer Brown",
-      "order": 487,
-      "role": "Olivia Jackson",
-      "thumb": "/8lnF7M5kBXmecwtdFTUUDz4uQ8w.jpg"
+      "name": "April Cameron",
+      "order": 511,
+      "role": "Nurse Hawks",
+      "thumb": "/vijBJMDS1Rsb6XNcyAuAnzQPGB.jpg"
     },
     {
       "name": "Doron Bell",
       "order": 216,
-      "role": "EMT #2",
+      "role": "EMT",
       "thumb": "/7KEWS9XUIJTjoiB53fAAixQ6bN8.jpg"
     },
     {
       "name": "Sunita Prasad",
       "order": 241,
-      "role": "Nurse",
+      "role": "O.R. Nurse",
       "thumb": "/5D3vNDlHOeixwRg1Bk45YlJUtsl.jpg"
     },
     {
@@ -260,12 +267,6 @@
       "thumb": "/3XFIqSRlPSQpFfmeHfA41HMFT2o.jpg"
     },
     {
-      "name": "April Cameron",
-      "order": 457,
-      "role": "Nurse Hawks",
-      "thumb": "/vijBJMDS1Rsb6XNcyAuAnzQPGB.jpg"
-    },
-    {
       "name": "Rebecca Wass",
       "order": 468,
       "role": "Nurse",
@@ -281,13 +282,7 @@
       "name": "Peter Ciuffa",
       "order": 83,
       "role": "Toby Roberts",
-      "thumb": null
-    },
-    {
-      "name": "Rell Battle",
-      "order": 87,
-      "role": "Pete",
-      "thumb": "/1GVI2HpZEPJPDqOQcXYBxqFl1J5.jpg"
+      "thumb": "/rfGU59PgYlCGlIIJYCChyofJfqe.jpg"
     },
     {
       "name": "Camille Guaty",
@@ -302,22 +297,28 @@
       "thumb": null
     },
     {
-      "name": "Patti Allan",
-      "order": 87,
-      "role": "Esther",
-      "thumb": "/ntFqFRTtOSYHfnNsSBUCubuop9U.jpg"
-    },
-    {
       "name": "Alex Weed",
       "order": 87,
       "role": "Chris Santos",
       "thumb": "/9BmAzLOoqlo1qxahf76OqJEfoKT.jpg"
     },
     {
-      "name": "Colin Lawrence",
+      "name": "Patti Allan",
+      "order": 87,
+      "role": "Esther",
+      "thumb": "/ntFqFRTtOSYHfnNsSBUCubuop9U.jpg"
+    },
+    {
+      "name": "Rell Battle",
+      "order": 87,
+      "role": "Pete",
+      "thumb": "/1GVI2HpZEPJPDqOQcXYBxqFl1J5.jpg"
+    },
+    {
+      "name": "Andrea Ware",
       "order": 88,
-      "role": "Clifton",
-      "thumb": "/aFAfFIKB10Kem86i5KbAfdUByLK.jpg"
+      "role": "Security Guard #1",
+      "thumb": "/phtGH4BkVv3hGNJYVlPXlyjYY4Y.jpg"
     },
     {
       "name": "Emerson Murray",
@@ -326,10 +327,10 @@
       "thumb": null
     },
     {
-      "name": "Andrea Ware",
+      "name": "Colin Lawrence",
       "order": 88,
-      "role": "Security Guard #1",
-      "thumb": "/phtGH4BkVv3hGNJYVlPXlyjYY4Y.jpg"
+      "role": "Clifton",
+      "thumb": "/aFAfFIKB10Kem86i5KbAfdUByLK.jpg"
     },
     {
       "name": "Andres Joseph",
@@ -362,10 +363,10 @@
       "thumb": "/kepIOIAtrCZBvw7TuFufyGqQoo5.jpg"
     },
     {
-      "name": "Emily Hinkler",
+      "name": "Kerry Sandomirsky",
       "order": 248,
-      "role": "Jenny Kunkler",
-      "thumb": "/41gf7g5vb3m77w82CGEh7Ne9CVb.jpg"
+      "role": "Mrs. Kunkler",
+      "thumb": "/cNY4g3uLMD9pvd9ttI8ghuI1X3a.jpg"
     },
     {
       "name": "Elizabeth Hinkler",
@@ -374,10 +375,10 @@
       "thumb": "/lfLeLIhxPAaO4V6hG9FJ3exYRkJ.jpg"
     },
     {
-      "name": "Kerry Sandomirsky",
+      "name": "Emily Hinkler",
       "order": 248,
-      "role": "Mrs. Kunkler",
-      "thumb": "/cNY4g3uLMD9pvd9ttI8ghuI1X3a.jpg"
+      "role": "Jenny Kunkler",
+      "thumb": "/41gf7g5vb3m77w82CGEh7Ne9CVb.jpg"
     },
     {
       "name": "Eric Winter",
@@ -424,7 +425,7 @@
     {
       "name": "Angela Moore",
       "order": 306,
-      "role": "Nurse #2",
+      "role": "Nurse Jones",
       "thumb": "/wXyZl8eARGgCPnJcXiJQiLJ5sgZ.jpg"
     },
     {
@@ -464,10 +465,10 @@
       "thumb": "/uXASYYMczrmktpe3sVlHeDT6Qdd.jpg"
     },
     {
-      "name": "Christina Lewall",
+      "name": "Avery Konrad",
       "order": 457,
-      "role": "Kelly Smith",
-      "thumb": "/enZvHNAjCA6jO5XgnUUoF3neK6I.jpg"
+      "role": "Tamara Krantz",
+      "thumb": "/jHtzfSFVjxdSSyfrBin7VysinoS.jpg"
     },
     {
       "name": "Bentley Green",
@@ -476,16 +477,10 @@
       "thumb": "/tm8X157E5FAk3WvM048h3kFuo0O.jpg"
     },
     {
-      "name": "Jeremiah Oh",
+      "name": "Christina Lewall",
       "order": 457,
-      "role": "Dan Jackson",
-      "thumb": "/5hYeG9j3QL0qIj0OK4oEm99Exkg.jpg"
-    },
-    {
-      "name": "Avery Konrad",
-      "order": 457,
-      "role": "Tamara Krantz",
-      "thumb": "/jHtzfSFVjxdSSyfrBin7VysinoS.jpg"
+      "role": "Kelly Smith",
+      "thumb": "/enZvHNAjCA6jO5XgnUUoF3neK6I.jpg"
     },
     {
       "name": "Marin Ireland",
@@ -494,22 +489,22 @@
       "thumb": "/jAIOQNraHjvIAdqk81QDV5Phupp.jpg"
     },
     {
+      "name": "Jeremiah Oh",
+      "order": 457,
+      "role": "Dan Jackson",
+      "thumb": "/5hYeG9j3QL0qIj0OK4oEm99Exkg.jpg"
+    },
+    {
       "name": "Abbie Jenkins",
       "order": 464,
-      "role": "Nurse Lucy",
+      "role": "Lucy Wagner",
       "thumb": "/3AYSnkr3H8fFMFk6y6xSvXNMraw.jpg"
     },
     {
-      "name": "Carly Pope",
+      "name": "Arlen Aguayo-Stewart",
       "order": 467,
-      "role": "Lily Cross",
-      "thumb": "/i2yFxKvqmeJElTRTaOWw6b4HRRc.jpg"
-    },
-    {
-      "name": "Lochlyn Munro",
-      "order": 467,
-      "role": "Martin Cross",
-      "thumb": "/bOJ03k0oe2R6snRgzV8M4Qtoo4O.jpg"
+      "role": "Ambar Estrada",
+      "thumb": "/2oockOLP6BVShcdJFkSiqygQY3h.jpg"
     },
     {
       "name": "Bethany Brown",
@@ -518,10 +513,16 @@
       "thumb": "/wYcP5INh8muLO13QYMoEhgw5Dp5.jpg"
     },
     {
-      "name": "Arlen Aguayo-Stewart",
+      "name": "Lochlyn Munro",
       "order": 467,
-      "role": "Ambar Estrada",
-      "thumb": "/2oockOLP6BVShcdJFkSiqygQY3h.jpg"
+      "role": "Martin Cross",
+      "thumb": "/bOJ03k0oe2R6snRgzV8M4Qtoo4O.jpg"
+    },
+    {
+      "name": "Carly Pope",
+      "order": 467,
+      "role": "Lily Cross",
+      "thumb": "/i2yFxKvqmeJElTRTaOWw6b4HRRc.jpg"
     },
     {
       "name": "Tracey Roath",
@@ -533,7 +534,7 @@
       "name": "Zachary Gordon",
       "order": 3,
       "role": "Brandon",
-      "thumb": "/faiQPS0APY9Fb3xqW1a43mJyM4W.jpg"
+      "thumb": "/q7HWs7XsPrXbzRqpp087gHaI6cI.jpg"
     },
     {
       "name": "Hayley Sales",
@@ -797,7 +798,7 @@
       "name": "Cheryl White",
       "order": 88,
       "role": "Carmen Dunn",
-      "thumb": null
+      "thumb": "/wGcOG8TKjc4EA0PgnVpbzu2I1o6.jpg"
     },
     {
       "name": "Vered Blonstein",
@@ -839,7 +840,7 @@
       "name": "Chloe Csengery",
       "order": 96,
       "role": "Molly / Karin Tindle",
-      "thumb": null
+      "thumb": "/jEXZlunoXQv1SVXVmCnRwZj4auv.jpg"
     },
     {
       "name": "Lilli Birdsell",
@@ -938,16 +939,16 @@
       "thumb": "/3v1DonhU8drd1zvfb4RO6R4YsAj.jpg"
     },
     {
-      "name": "Diana Pavlovská",
-      "order": 115,
-      "role": "Pastor Clarence's Wife",
-      "thumb": null
-    },
-    {
       "name": "Natasha Calis",
       "order": 115,
       "role": "Jess Barnes",
       "thumb": "/6pnuZuVyTWq0GFHSpdvDGL1urhs.jpg"
+    },
+    {
+      "name": "Diana Pavlovská",
+      "order": 115,
+      "role": "Pastor Clarence's Wife",
+      "thumb": null
     },
     {
       "name": "James Immekus",
@@ -1013,7 +1014,7 @@
       "name": "June Squibb",
       "order": 128,
       "role": "Ida Guelph",
-      "thumb": "/jF7A6NMWZQyIgTdyoZbayIqal60.jpg"
+      "thumb": "/iohsuSDPcVAFr0NKQifM7qEJDFt.jpg"
     },
     {
       "name": "Paul Belsito",
@@ -1157,7 +1158,7 @@
       "name": "Jennifer Aspen",
       "order": 154,
       "role": "Iris Bautista",
-      "thumb": null
+      "thumb": "/ixbCE5L3orS0YEFAa74ez7f2Top.jpg"
     },
     {
       "name": "Demord Dann",
@@ -1205,7 +1206,7 @@
       "name": "Aren Buchholz",
       "order": 164,
       "role": "Groom",
-      "thumb": "/iNNLuPDhSFEQw4knsDdhyOLE5c5.jpg"
+      "thumb": "/tZAchmX2GvsIaCO0IqBL8H3COJZ.jpg"
     },
     {
       "name": "Soppo Gomez",
@@ -1397,7 +1398,7 @@
       "name": "Tim Perez",
       "order": 205,
       "role": "Luis Garcia",
-      "thumb": "/8tvhjyGnPJMSgofcQszg0NL5OKp.jpg"
+      "thumb": "/urkaUPRd12wuEDXsG9QxjdIpwTE.jpg"
     },
     {
       "name": "Pasha Ebrahimi",
@@ -1577,7 +1578,7 @@
       "name": "Robert Sean Leonard",
       "order": 237,
       "role": "Shamus O'Malley",
-      "thumb": "/jXehZM0AWLJ2OIz4o0jFtHEzcMI.jpg"
+      "thumb": "/9h3Gvs96UemTK4tnBUhBry0B7C0.jpg"
     },
     {
       "name": "Tracie Thoms",
@@ -1595,7 +1596,7 @@
       "name": "Iris Quinn",
       "order": 240,
       "role": "Dr. Donovan",
-      "thumb": null
+      "thumb": "/rajESK5oqBRX5F0YA8T78Ticg95.jpg"
     },
     {
       "name": "Robert Moloney",
@@ -1709,7 +1710,7 @@
       "name": "Jesse James",
       "order": 266,
       "role": "Nash Dixon",
-      "thumb": "/icZHNGVvuSCthiql6sB0jC6ppZc.jpg"
+      "thumb": "/o8YSLAAQfW5QmOGyzeZEdOEUhTt.jpg"
     },
     {
       "name": "Kacey Rohl",
@@ -1805,7 +1806,7 @@
       "name": "Ruben Garfias",
       "order": 289,
       "role": "Ricardo Magallanes",
-      "thumb": null
+      "thumb": "/9CqnlJoYtLnbffN2f1vFtlTF4LX.jpg"
     },
     {
       "name": "Norma Maldonado",
@@ -1865,7 +1866,7 @@
       "name": "Michael Muhney",
       "order": 308,
       "role": "Mr. Gallico",
-      "thumb": null
+      "thumb": "/1xTcbqxQptls7RwGUKtPuY1hhvf.jpg"
     },
     {
       "name": "Crystal Balint",
@@ -1877,7 +1878,7 @@
       "name": "Niall Matter",
       "order": 311,
       "role": "Mark Allen",
-      "thumb": "/7R1WIMnoARJV43guzZ8n9E7jWjx.jpg"
+      "thumb": "/69sJDoeEpTedmi3jNauks29tm1e.jpg"
     },
     {
       "name": "Darcy Laurie",
@@ -2093,7 +2094,7 @@
       "name": "Robert Corness",
       "order": 352,
       "role": "Old Man",
-      "thumb": null
+      "thumb": "/o1VblcnA1YQe7M8WweMHhUgT6xf.jpg"
     },
     {
       "name": "Irene Keng",
@@ -2486,7 +2487,7 @@
       "thumb": "/x3vjRKxnQqAKFaxpdyVs18tQjrx.jpg"
     },
     {
-      "name": "Milauna Jemai Jackson",
+      "name": "Milauna Jackson",
       "order": 424,
       "role": "Kerry Gaston",
       "thumb": "/bYLTZhtrL2FLEmohXYueYvjW7hv.jpg"
@@ -2597,7 +2598,7 @@
       "name": "Cameron Gellman",
       "order": 442,
       "role": "Aiden Porter",
-      "thumb": "/czeicsWwYVJDTqiZLgx9sDl98O8.jpg"
+      "thumb": "/9L36KWKAHAXFiRXziYamLLfZNci.jpg"
     },
     {
       "name": "Ariah Lee",
@@ -2708,16 +2709,16 @@
       "thumb": "/hEiV9H8LIHe8VDqeTT8lqNs8awV.jpg"
     },
     {
-      "name": "Eric Yue",
-      "order": 464,
-      "role": "Carl Dell",
-      "thumb": "/6JtVzLtX1a6MXfqX89UjrKnGM3D.jpg"
-    },
-    {
       "name": "Jerry Wasserman",
       "order": 464,
       "role": "Walter Flemming",
       "thumb": "/tMnEqFTWzPY5uqqax5UhqL9ePOj.jpg"
+    },
+    {
+      "name": "Eric Yue",
+      "order": 464,
+      "role": "Carl Dell",
+      "thumb": "/6JtVzLtX1a6MXfqX89UjrKnGM3D.jpg"
     },
     {
       "name": "James Kot",
@@ -2814,6 +2815,168 @@
       "order": 486,
       "role": "Ella Davis",
       "thumb": "/5zSFLbqMtBLBEBp8E4OuomZJLK7.jpg"
+    },
+    {
+      "name": "Sheila McCarthy",
+      "order": 487,
+      "role": "Rose Babcock",
+      "thumb": "/dc68JQ2D9mIOxHAgJxjLGv0nJbq.jpg"
+    },
+    {
+      "name": "David Del Rio",
+      "order": 489,
+      "role": "Ben",
+      "thumb": "/2kXqKhBlk2xXkjnuGV6Hf06qYmI.jpg"
+    },
+    {
+      "name": "Kim Shaw",
+      "order": 490,
+      "role": "Zoe",
+      "thumb": "/6btY7SQuDKD2xXSBZRJolPErdeL.jpg"
+    },
+    {
+      "name": "Parmiss Sehat",
+      "order": 491,
+      "role": "Valerie Myers",
+      "thumb": "/xUHPF4kA2Osr6eNYMmHu690VEL1.jpg"
+    },
+    {
+      "name": "Daylin Willis",
+      "order": 492,
+      "role": "Driver",
+      "thumb": "/5qTB0M4lNS9Qu36eSncP2DFVIEe.jpg"
+    },
+    {
+      "name": "Benjamin Ayres",
+      "order": 493,
+      "role": "Wyatt Moore",
+      "thumb": "/yB9nK2A6nLV6fxrbugaCy3myZxf.jpg"
+    },
+    {
+      "name": "Ashley Williams",
+      "order": 494,
+      "role": "Hannah Palmer",
+      "thumb": "/kaZQMxVAX2Z0M0BKphkg7rT54pi.jpg"
+    },
+    {
+      "name": "Matthew MacCaull",
+      "order": 495,
+      "role": "Alan Palmer",
+      "thumb": "/aewHo2WLk00xLx6yPuS8BEFstbn.jpg"
+    },
+    {
+      "name": "Jess Salgueiro",
+      "order": 496,
+      "role": "Sophie",
+      "thumb": "/q86IE3bvaEqBcUTWmIoYMZTCypS.jpg"
+    },
+    {
+      "name": "Joanne Wilkinson",
+      "order": 497,
+      "role": "Anesthesiologist",
+      "thumb": null
+    },
+    {
+      "name": "Chelsea Brady",
+      "order": 498,
+      "role": "Patient",
+      "thumb": null
+    },
+    {
+      "name": "Kristoffer Polaha",
+      "order": 499,
+      "role": "Anton Denys",
+      "thumb": "/m4bwq7WE2lESK16QskibtrHnpQW.jpg"
+    },
+    {
+      "name": "Eden Summer Gilmore",
+      "order": 500,
+      "role": "Darya Denys",
+      "thumb": null
+    },
+    {
+      "name": "Julie Warner",
+      "order": 501,
+      "role": "Pam Dilallo",
+      "thumb": "/zsuQf2FhJB4vER6xcNJVXemn4i4.jpg"
+    },
+    {
+      "name": "Barclay Hope",
+      "order": 502,
+      "role": "Mike Dilallo",
+      "thumb": "/64DyRr2dUcrd0gPjgEBHIcDMSDo.jpg"
+    },
+    {
+      "name": "X Mayo",
+      "order": 503,
+      "role": "Zara Norton",
+      "thumb": null
+    },
+    {
+      "name": "Emmett Preciado",
+      "order": 504,
+      "role": "Rio Gutierrez",
+      "thumb": "/syxgUcKu8kEJCHgIp5Odgbq5IZL.jpg"
+    },
+    {
+      "name": "Priscilla Faia",
+      "order": 505,
+      "role": "Cintia D'Souza",
+      "thumb": "/pz3lP663DGC5feFTVqYS72hnlsC.jpg"
+    },
+    {
+      "name": "Nicholas D'Agosto",
+      "order": 507,
+      "role": "Insurance Rep",
+      "thumb": "/pKLIlotHTzciDyaDxAMUACjxNLS.jpg"
+    },
+    {
+      "name": "Johnathan Sousa",
+      "order": 507,
+      "role": "Eliz Simpson",
+      "thumb": "/egP0euC86ZAsO83SrKhfGUhucQE.jpg"
+    },
+    {
+      "name": "Caley Versfelt",
+      "order": 508,
+      "role": "Jamie",
+      "thumb": null
+    },
+    {
+      "name": "Kurt Yaeger",
+      "order": 509,
+      "role": "Cort Graham",
+      "thumb": null
+    },
+    {
+      "name": "Agnes Tong",
+      "order": 510,
+      "role": "Rachel Trainor",
+      "thumb": null
+    },
+    {
+      "name": "Andrew Gillingham",
+      "order": 511,
+      "role": "EMT",
+      "thumb": null
+    },
+    {
+      "name": "Lossen Chambers",
+      "order": 512,
+      "role": "Oncology nurse",
+      "thumb": "/fA35DKbSrLr2KZmWuYK3yoqiWyZ.jpg"
+    },
+    {
+      "name": "Marina Neale",
+      "order": 513,
+      "role": "Tara",
+      "thumb": null
+    },
+    {
+      "name": "Stuart Murray",
+      "order": 514,
+      "role": "Chris",
+      "thumb": null
     }
   ],
   "dvdSeasons": {},
@@ -2863,7 +3026,7 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/w1280/hAxZgHqhQl2aWxsrOtVVDlMuD5m.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/mZjZgY6ObiKtVuKVDrnS9VnuNlE.jpg",
       "poster": "https://image.tmdb.org/t/p/w780/6tfT03sGp9k4c0J3dypjrI8TSAI.jpg",
       "seasonPosters": {
         "1": "https://image.tmdb.org/t/p/w780/hiNyjUSTFrbMv3Sc0CxNW2o39az.jpg",
@@ -3272,21 +3435,39 @@
         },
         {
           "aired": "2021-01-25",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Episode 8"
+          "plot": "The team treats a teenage gymnast who experiences complications from her intensive training. Meanwhile, Shaun meets Lea's parents for the first time.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zR7TIsjaL9YrcLUMbVWC1OB2Cd5.jpg",
+          "title": "Parenting"
         },
         {
-          "aired": "2021-02-01",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Episode 9"
+          "aired": "2021-02-15",
+          "plot": "Lim is challenged by the unique circumstances surrounding a pregnant patient with an aggressive tumor. Elsewhere, after misdiagnosing a patient, Claire makes a disconcerting discovery about certain practices at the hospital.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7LYwnOyvP0KC61DVuNEqMNiQdoK.jpg",
+          "title": "Irresponsible Salad Bar Practices"
         },
         {
-          "aired": "2021-02-08",
+          "aired": "2021-02-22",
+          "plot": "When the hospital is hit with a cyberattack threatening to shut down life-saving machines, Lea rises to the challenge and looks to outsmart the hackers to prove herself. Meanwhile, the team treats an inspirational cancer survivor-turned-successful-philanthropist who harbors a dark secret.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hbZAeZGKsUiobMMbQuE2cN0ICOR.jpg",
+          "title": "Decrypt"
+        },
+        {
+          "aired": "2021-03-08",
+          "plot": "After bringing in an incredibly unique and complicated spinal surgery, Dr. Aaron Glassman challenges the residents for an opportunity to join him in the operating room. Meanwhile, Shaun and Morgan disagree on how to treat a comatose patient with a cancerous tumor.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AcHpAhbCBfTPKzs19cVyEizz1M2.jpg",
+          "title": "We're All Crazy Sometimes"
+        },
+        {
+          "aired": "",
           "plot": "",
           "thumbnail": "",
-          "title": "Episode 10"
+          "title": "Episode 12"
+        },
+        {
+          "aired": "",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 13"
         }
       ]
     }

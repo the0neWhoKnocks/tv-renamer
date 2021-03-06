@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015237487,
   "genres": [
     "Drama",
     "Action & Adventure",
@@ -132,7 +133,7 @@
       "background": "https://image.tmdb.org/t/p/w1280/8R3yTaFVhITGm0YfwXRixuUkjD9.jpg",
       "poster": "https://image.tmdb.org/t/p/w780/z8E1ZKTDhz477wjkT9ttIRmiVOc.jpg",
       "seasonPosters": {
-        "1": "https://image.tmdb.org/t/p/w780/z8E1ZKTDhz477wjkT9ttIRmiVOc.jpg"
+        "1": "https://image.tmdb.org/t/p/w780/5YaUTgOP5x6uHCXpxTDEuP4tlt3.jpg"
       }
     }
   },

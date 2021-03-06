@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015231883,
   "genres": [
     "Crime",
     "Drama"
@@ -24,7 +25,7 @@
       "name": "Melissa O'Neil",
       "order": 1,
       "role": "Lucy Chen",
-      "thumb": "/iduOumHPMsjYOh5SowQkoayYtKc.jpg"
+      "thumb": "/wvhTunk3QuTKWbp5yKulwlXpBMJ.jpg"
     },
     {
       "name": "Titus Makin Jr.",
@@ -81,16 +82,16 @@
       "thumb": "/e1LF7oh0C5jg30hdNS27a1pXPxU.jpg"
     },
     {
+      "name": "Brent Huff",
+      "order": 360,
+      "role": "Officer Smitty",
+      "thumb": "/cewS9esLejNSq24g5GqgSZFCjli.jpg"
+    },
+    {
       "name": "Harold Perrineau",
       "order": 353,
       "role": "Nick Armstrong",
       "thumb": "/8x1aoTRnUpx4AHc1fQSzGWGJhGs.jpg"
-    },
-    {
-      "name": "Brent Huff",
-      "order": 356,
-      "role": "Officer Smitty",
-      "thumb": "/cewS9esLejNSq24g5GqgSZFCjli.jpg"
     },
     {
       "name": "Sarah Shahi",
@@ -144,7 +145,13 @@
       "name": "Annie Wersching",
       "order": 353,
       "role": "Rosalind Dyer",
-      "thumb": "/d1FCZinx9jTWAglC70bYsw2ryuY.jpg"
+      "thumb": "/xOTYKQp0pn7Q1XBgtbzo2yj6uWd.jpg"
+    },
+    {
+      "name": "Brandon Routh",
+      "order": 361,
+      "role": "Doug Stanton",
+      "thumb": "/iPonANuyk3eOHjADqd4h9sBwvX1.jpg"
     },
     {
       "name": "David DeSantos",
@@ -159,16 +166,16 @@
       "thumb": "/dJbhKpatqcleB1lssaAogo8KxGv.jpg"
     },
     {
-      "name": "Carsyn Rose",
-      "order": 334,
-      "role": "Lila Town",
-      "thumb": "/5l5DStGOjijpWx6WpydEAmojtl7.jpg"
-    },
-    {
       "name": "Enver Gjokaj",
       "order": 334,
       "role": "Donovan",
       "thumb": "/1M3ISdFIaf4p1N3ZZTK7KnZwj9p.jpg"
+    },
+    {
+      "name": "Carsyn Rose",
+      "order": 334,
+      "role": "Lila Town",
+      "thumb": "/5l5DStGOjijpWx6WpydEAmojtl7.jpg"
     },
     {
       "name": "Matthew Glave",
@@ -183,12 +190,6 @@
       "thumb": null
     },
     {
-      "name": "Angel Parker",
-      "order": 356,
-      "role": "Luna Grey",
-      "thumb": "/bbdo6p0rPHQQOp867Uel3Gwfrin.jpg"
-    },
-    {
       "name": "Hrach Titizian",
       "order": 356,
       "role": "Ruben Derian",
@@ -201,16 +202,16 @@
       "thumb": "/nQLRhZ2x9KQONnyKeaQKaTIYhb3.jpg"
     },
     {
-      "name": "Brandon Routh",
-      "order": 356,
-      "role": "Doug Stanton",
-      "thumb": "/iPonANuyk3eOHjADqd4h9sBwvX1.jpg"
+      "name": "Dylan Conrique",
+      "order": 357,
+      "role": "Tamara Collins",
+      "thumb": "/zGWupjrqlKhKZYf9F5aAp3EMe5d.jpg"
     },
     {
-      "name": "Jane Daly",
-      "order": 109,
-      "role": "Mrs. Evers",
-      "thumb": "/2CIjLiZD5cb4q3iBIcCDzmWb9SS.jpg"
+      "name": "Angel Parker",
+      "order": 361,
+      "role": "Luna Grey",
+      "thumb": "/bbdo6p0rPHQQOp867Uel3Gwfrin.jpg"
     },
     {
       "name": "Sam Duffy",
@@ -225,12 +226,6 @@
       "thumb": null
     },
     {
-      "name": "Natalia del Riego",
-      "order": 153,
-      "role": "Nora Valdez",
-      "thumb": "/1WCsXqqOwILcW1TVtNoHGUH691z.jpg"
-    },
-    {
       "name": "Julian Acosta",
       "order": 153,
       "role": "Sgt. Antonio Hernandez",
@@ -241,6 +236,12 @@
       "order": 153,
       "role": "Caleb Wright",
       "thumb": "/fZCDSWnHabiv2eP05cvpahYejCb.jpg"
+    },
+    {
+      "name": "Natalia del Riego",
+      "order": 153,
+      "role": "Nora Valdez",
+      "thumb": "/1WCsXqqOwILcW1TVtNoHGUH691z.jpg"
     },
     {
       "name": "Madeleine Coghlan",
@@ -269,7 +270,7 @@
     {
       "name": "Karen David",
       "order": 224,
-      "role": "Detective Emma Calderon",
+      "role": "Det. Rita Calderon",
       "thumb": "/mVEkM2LFiB2cmMHDYFFTE7wkHtY.jpg"
     },
     {
@@ -327,10 +328,10 @@
       "thumb": "/wKGDLd1ylioWhpNLkunHQ2sfYSa.jpg"
     },
     {
-      "name": "Dylan Conrique",
-      "order": 355,
-      "role": "Tamara Collins",
-      "thumb": "/zGWupjrqlKhKZYf9F5aAp3EMe5d.jpg"
+      "name": "Jane Daly",
+      "order": 360,
+      "role": "Patrice Evers",
+      "thumb": "/2CIjLiZD5cb4q3iBIcCDzmWb9SS.jpg"
     },
     {
       "name": "Paxton Singleton",
@@ -366,7 +367,7 @@
       "name": "Jay Ali",
       "order": 12,
       "role": "Detective Singh",
-      "thumb": null
+      "thumb": "/1g4OYoBZxIsIYBvZQ1W2wn21LJJ.jpg"
     },
     {
       "name": "Scott Dreier",
@@ -420,7 +421,7 @@
       "name": "Kurt Caceres",
       "order": 25,
       "role": "Russell",
-      "thumb": null
+      "thumb": "/aBHeF6UZhXimEdvY8kLxZ5QbJXi.jpg"
     },
     {
       "name": "Mario López",
@@ -591,16 +592,16 @@
       "thumb": "/2VnYWsBXx19tNvBX1diwfjdLkjU.jpg"
     },
     {
-      "name": "Selena Anduze",
-      "order": 65,
-      "role": "Michelle",
-      "thumb": "/15m6yIUm9NxFIwkVLR92Thri7nf.jpg"
-    },
-    {
       "name": "Cara Mitsuko",
       "order": 65,
       "role": "Park",
       "thumb": "/b2gWwNWxWL4VU2vQVr4PLblzcqu.jpg"
+    },
+    {
+      "name": "Selena Anduze",
+      "order": 65,
+      "role": "Michelle",
+      "thumb": "/15m6yIUm9NxFIwkVLR92Thri7nf.jpg"
     },
     {
       "name": "Niko Pepaj",
@@ -753,28 +754,28 @@
       "thumb": "/AczLnt4baxBT4gqSroSjCqD7S9D.jpg"
     },
     {
-      "name": "Dayo Ade",
-      "order": 98,
-      "role": "Jonathan Ryland",
-      "thumb": "/afDPNXU9GysGS1sWdJV8sQmkj7R.jpg"
-    },
-    {
       "name": "Adam Busch",
       "order": 98,
       "role": "Mike Garvey",
       "thumb": "/azasTTHyZtfbZzuImCXrvc2z5y8.jpg"
     },
     {
-      "name": "Bobby Hosea",
-      "order": 99,
-      "role": "Walter",
-      "thumb": "/xtyJ21tU9tcRkEQQfnXKKebI3Ak.jpg"
+      "name": "Dayo Ade",
+      "order": 98,
+      "role": "Jonathan Ryland",
+      "thumb": "/afDPNXU9GysGS1sWdJV8sQmkj7R.jpg"
     },
     {
       "name": "Rico E. Anderson",
       "order": 99,
       "role": "Amari",
       "thumb": "/loTXJE4J4r1QPLn30MdhZwgsjKL.jpg"
+    },
+    {
+      "name": "Bobby Hosea",
+      "order": 99,
+      "role": "Walter",
+      "thumb": "/xtyJ21tU9tcRkEQQfnXKKebI3Ak.jpg"
     },
     {
       "name": "Jim Ortlieb",
@@ -786,7 +787,7 @@
       "name": "Alan Tudyk",
       "order": 100,
       "role": "Ellroy Basso",
-      "thumb": "/w56mp2ky1t7ORDsoGQP00OHlyic.jpg"
+      "thumb": "/91LuROVPKcEJvT0FwSOZZj62bZ8.jpg"
     },
     {
       "name": "Lizze Broadway",
@@ -1110,7 +1111,7 @@
       "name": "Gregg Henry",
       "order": 170,
       "role": "Judge",
-      "thumb": "/e7hJgLDoNk6I2Xb4OQzJ4ohnI5e.jpg"
+      "thumb": "/j17nuAFulrbYP34g4Qw8SZRDNUo.jpg"
     },
     {
       "name": "Joseph C. Phillips",
@@ -1176,7 +1177,7 @@
       "name": "Wesley Jonathan",
       "order": 182,
       "role": "Prius Owner",
-      "thumb": "/tUYWFvYJdv5hXWdJ1WakHw13RIC.jpg"
+      "thumb": "/aUWV6HxLh9isqlcKeGwm3xYcLEg.jpg"
     },
     {
       "name": "Myra Cris Ocenar",
@@ -1203,7 +1204,7 @@
       "thumb": "/j7ViK3mrkh8B1OsfmqKJ3LHuSwo.jpg"
     },
     {
-      "name": "Kiff Vanden Heuvel",
+      "name": "Kiff VandenHeuvel",
       "order": 187,
       "role": "Kurt Rubenovic",
       "thumb": "/5vf1cIWjqH3xgbHWPhyIIEKDgdN.jpg"
@@ -1218,7 +1219,7 @@
       "name": "Dennis Keiffer",
       "order": 189,
       "role": "Brenner Plank",
-      "thumb": "/bmLkNcO8emp17vTMKaRUBHYE15j.jpg"
+      "thumb": "/doIzWmzTC3dWlij9YBFNeJHZjBG.jpg"
     },
     {
       "name": "Miguel-Andres Garcia",
@@ -1236,7 +1237,7 @@
       "name": "Jee Young Han",
       "order": 192,
       "role": "Nancy Wu",
-      "thumb": null
+      "thumb": "/kwof2T70sO7ox4Fvepr5AOUEdmP.jpg"
     },
     {
       "name": "Roxy Wood",
@@ -1272,7 +1273,7 @@
       "name": "André B. Walker",
       "order": 198,
       "role": "Sgt. Laubacher",
-      "thumb": null
+      "thumb": "/hJzeGTZCgT5LjxL2C4Z9jonmmN0.jpg"
     },
     {
       "name": "Lissa Pallo",
@@ -1386,7 +1387,7 @@
       "name": "Ken Weiler",
       "order": 218,
       "role": "DUI Driver",
-      "thumb": null
+      "thumb": "/sfsEiYHJ8cOmkDzjcje37IblRZr.jpg"
     },
     {
       "name": "Lucas Armendariz",
@@ -1422,7 +1423,7 @@
       "name": "Sasha Golberg",
       "order": 224,
       "role": "Gennadi",
-      "thumb": null
+      "thumb": "/9hzNchrm9fQEMkc7rCc08bmxIIG.jpg"
     },
     {
       "name": "Aaron D. Spears",
@@ -1488,7 +1489,7 @@
       "name": "Christopher Meyer",
       "order": 235,
       "role": "Malcolm",
-      "thumb": null
+      "thumb": "/qR0UBcL3jfLQTNq5jjOhl8BZsCq.jpg"
     },
     {
       "name": "Sandra Thigpen",
@@ -1542,7 +1543,7 @@
       "name": "Nicole Bilderback",
       "order": 246,
       "role": "Emily Barrett",
-      "thumb": null
+      "thumb": "/blQvDweNb5oe2Ly0fjBAxLaMKbe.jpg"
     },
     {
       "name": "Andrew Friedman",
@@ -1608,7 +1609,7 @@
       "name": "Randy J. Goodwin",
       "order": 258,
       "role": "Jeff Turner",
-      "thumb": null
+      "thumb": "/858VudL0rYgqhDPskCn1mC6EG2O.jpg"
     },
     {
       "name": "Dana L. Wilson",
@@ -1962,7 +1963,7 @@
       "name": "Katy Perry",
       "order": 321,
       "role": "Katy Perry",
-      "thumb": "/mOz6ZSj6QeUQfsT0y2offrKVCKR.jpg"
+      "thumb": "/e52o6zh7mwFQsV9nUHGIcyQk14P.jpg"
     },
     {
       "name": "Luke Bryan",
@@ -2028,7 +2029,7 @@
       "name": "Katie McCabe",
       "order": 335,
       "role": "April Cook",
-      "thumb": "/fEOQa6uR8dORlgPaBqAnOTjnSFu.jpg"
+      "thumb": null
     },
     {
       "name": "Lou Ferrigno Jr.",
@@ -2064,7 +2065,7 @@
       "name": "David O'Donnell",
       "order": 341,
       "role": "Simon Sawyer",
-      "thumb": null
+      "thumb": "/3sHDghttGGBdJdTVE7z4EBSmz8S.jpg"
     },
     {
       "name": "Josh Wingate",
@@ -2079,7 +2080,7 @@
       "thumb": "/owK4lFLsBrp5TFU8YcjoiuGVoVa.jpg"
     },
     {
-      "name": "Christopher O'Shea",
+      "name": "Chris O'Shea",
       "order": 346,
       "role": "Chris Rios",
       "thumb": "/hpLSwzoCkwnls5hD6He0ssffCNl.jpg"
@@ -2091,16 +2092,22 @@
       "thumb": "/pNSUC8O3UJqs8tGj3zcSFvOi9N0.jpg"
     },
     {
+      "name": "Max Adler",
+      "order": 349,
+      "role": "Cisco Fayne",
+      "thumb": "/tOW5l3r73G6odIZsAKNgRUhFkMI.jpg"
+    },
+    {
       "name": "Shi Ne Nielson",
       "order": 349,
       "role": "Susan Banker",
       "thumb": "/n5ogJWMPII0KUyvQVwdDBJ7Onk6.jpg"
     },
     {
-      "name": "Max Adler",
-      "order": 349,
-      "role": "Cisco Fayne",
-      "thumb": "/tOW5l3r73G6odIZsAKNgRUhFkMI.jpg"
+      "name": "Themo Melikidze",
+      "order": 350,
+      "role": "Serj Derian",
+      "thumb": null
     },
     {
       "name": "Victoria Garcia-Kelleher",
@@ -2109,10 +2116,10 @@
       "thumb": "/5sAbw0szNDqIzQQJQXnDCsXK43j.jpg"
     },
     {
-      "name": "Themo Melikidze",
-      "order": 350,
-      "role": "Serj Derian",
-      "thumb": null
+      "name": "Jai Rodriguez",
+      "order": 351,
+      "role": "Griffin",
+      "thumb": "/xwLm4PUXjrcxGW9fUT6T77YVyTk.jpg"
     },
     {
       "name": "Mike Gray",
@@ -2125,12 +2132,6 @@
       "order": 351,
       "role": "Paige Thomas",
       "thumb": "/y6XV40uA6e45ebI2ffXaGZkWCAk.jpg"
-    },
-    {
-      "name": "Jai Rodriguez",
-      "order": 351,
-      "role": "Griffin",
-      "thumb": "/xwLm4PUXjrcxGW9fUT6T77YVyTk.jpg"
     },
     {
       "name": "Mike Gray",
@@ -2157,9 +2158,69 @@
       "thumb": "/ntubNSuRnJ7icAEGj6JYEeguzTn.jpg"
     },
     {
+      "name": "River Drosche",
+      "order": 357,
+      "role": "Cody Ransom",
+      "thumb": "/xOHUiKr3jphS5cvgvWEF4UDjH0K.jpg"
+    },
+    {
+      "name": "Camille Guaty",
+      "order": 358,
+      "role": "Sandra de La Cruz",
+      "thumb": "/i0pnKX7zLVCOSlrRnFQACnBxfJE.jpg"
+    },
+    {
+      "name": "Dana Davis",
+      "order": 359,
+      "role": "Monica",
+      "thumb": "/jsMOVi4z2E2kvLS0j3Paxd0NJsk.jpg"
+    },
+    {
+      "name": "Markus Flanagan",
+      "order": 360,
+      "role": "Danny Hill",
+      "thumb": "/gy6szwXFFhI1V4c21PG0EMOOtmB.jpg"
+    },
+    {
+      "name": "Arjay Smith",
+      "order": 361,
+      "role": "James Murray",
+      "thumb": "/gxgUd3LSLlrskWOQoCGSfflyv1A.jpg"
+    },
+    {
       "name": "Kamar de los Reyes",
-      "order": 356,
+      "order": 361,
       "role": "Ryan Caradine",
+      "thumb": "/jkJQXn2JGvJ0XN0HLULAMPE4YYL.jpg"
+    },
+    {
+      "name": "Toks Olagundoye",
+      "order": 362,
+      "role": "Professor Fiona Ryan",
+      "thumb": "/nfif5iOCFuDy5PJIhsVvsumI9Sw.jpg"
+    },
+    {
+      "name": "Kara Wang",
+      "order": 363,
+      "role": "June Zhang",
+      "thumb": "/l2Jwh8UJR9O0DEhN684dnMsnJz8.jpg"
+    },
+    {
+      "name": "Josh Stewart",
+      "order": 364,
+      "role": "Graham Porter",
+      "thumb": "/gdA3hddSlk6caULKjlFsrZ1ZbQp.jpg"
+    },
+    {
+      "name": "Carmela Zumbado",
+      "order": 365,
+      "role": "'Freegan' Frida",
+      "thumb": "/fGH4gA2wssENiYfKbXLrTgaVXMD.jpg"
+    },
+    {
+      "name": "Ashley Jones",
+      "order": 366,
+      "role": "Kelsey Adams",
       "thumb": null
     }
   ],
@@ -2171,8 +2232,8 @@
       "seasonPoster": {
         "1": [
           "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d8b996253d48.jpg",
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5cc1a59ba2e44.jpg",
-          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92191c94add.jpg"
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92191c94add.jpg",
+          "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5cc1a59ba2e44.jpg"
         ],
         "2": [
           "https://assets.fanart.tv/fanart/tv/350665/seasonposter/the-rookie-5d92192c22ab6.jpg"
@@ -2190,7 +2251,6 @@
         ]
       },
       "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d5543285a.jpg",
         "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d6749c010.jpg",
         "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5b0279ff7791b.jpg",
         "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d674a0a61.jpg",
@@ -2198,6 +2258,7 @@
         "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39c81bc5a.jpg",
         "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39c838663.jpg",
         "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39efcb7d2.jpg",
+        "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5bc6d5543285a.jpg",
         "https://assets.fanart.tv/fanart/tv/350665/showbackground/the-rookie-5d8f39efa5e9f.jpg"
       ],
       "seriesBanner": [
@@ -2494,14 +2555,32 @@
         {
           "aired": "2021-01-17",
           "plot": "Officer John Nolan's mom makes an unannounced visit that complicates his life, and Sergeant Grey considers retiring.",
-          "thumbnail": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/zoLvW5thL7MlUR5gDZmHH45sdRf.jpg",
           "title": "La Fiera"
         },
         {
           "aired": "2021-01-24",
           "plot": "Officer Jackson West’s relationship with his new training officer, Stanton, has escalated and he begins to work with Sergeant Grey to find a solution.",
-          "thumbnail": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/tWHHB2ZeBkWcE4VpcHgWcRs6aMc.jpg",
           "title": "Sabotage"
+        },
+        {
+          "aired": "2021-02-14",
+          "plot": "Officer Nolan is taken hostage by a man with nothing to lose while the station goes on lockdown and races to identify the suspect before time runs out. Meanwhile, Officer Jackson and his training officer, Officer Doug Stanton, reach a tipping point in their relationship that could end Jackson’s career.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lRSd8R8lRAvfsMZcW1jiZGHmvmQ.jpg",
+          "title": "Lockdown"
+        },
+        {
+          "aired": "2021-02-21",
+          "plot": "Officer Nolan’s decision to return to school in order to become a training officer is proving to be much harder than he expected. Meanwhile, Officer Chen considers going into undercover work after getting a taste of the job when Harper’s former colleague needs help.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9iDlIwZtHny7Di11SFcdbt7xIw.jpg",
+          "title": "Revelations"
+        },
+        {
+          "aired": "2021-02-28",
+          "plot": "The team gets the true crime docuseries treatment when they analyze a recent case featuring a former child actor whose adult life has garnered him a cult following.",
+          "thumbnail": "",
+          "title": "True Crime"
         }
       ]
     }

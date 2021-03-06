@@ -1,9 +1,9 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015230093,
   "genres": [
     "Drama",
-    "Fantasy",
-    "Horror"
+    "Sci-Fi & Fantasy"
   ],
   "id": 64432,
   "mpaa": "TV-14",
@@ -84,7 +84,7 @@
     {
       "name": "Mageina Tovah",
       "order": 211,
-      "role": "Zelda, The Librarian",
+      "role": "The Librarian",
       "thumb": "/lB0J8ZIqvLmvVecIiWCUXTLDoQO.jpg"
     },
     {
@@ -115,7 +115,7 @@
       "name": "Keegan Connor Tracy",
       "order": 192,
       "role": "Professor Lipson",
-      "thumb": "/i1FYzgF6nGXtZnH9AhiMbzDr64g.jpg"
+      "thumb": "/lP5rlqK8YIqobtFghURPbNdN5zw.jpg"
     },
     {
       "name": "Adam DiMarco",
@@ -199,7 +199,7 @@
       "name": "Anne Dudek",
       "order": 16,
       "role": "Prof. Pearl Sunderland",
-      "thumb": "/ea7ib0LrrJMtqS8FGpNiStFCoDq.jpg"
+      "thumb": "/9uZwihiBCJmPKhT7nfzcuaFTkQR.jpg"
     },
     {
       "name": "Bobbi Charlton",
@@ -259,7 +259,7 @@
       "name": "Everrett Shea",
       "order": 101,
       "role": "Ilario",
-      "thumb": null
+      "thumb": "/6v4ho1BGYUszOltrbPykTYvP3p5.jpg"
     },
     {
       "name": "Nikolai Witschl",
@@ -343,7 +343,7 @@
       "name": "Christopher Gorham",
       "order": 118,
       "role": "Senator John Gaines",
-      "thumb": "/dKFXHJ3KBJaeQ50udMdBEC0VFvI.jpg"
+      "thumb": "/u3D21bfXweqiGWalFxMq2jONcYi.jpg"
     },
     {
       "name": "Imogen Tear",
@@ -370,16 +370,16 @@
       "thumb": "/kQCF2rYGo3wxaCjv5wOBXHiWm6C.jpg"
     },
     {
-      "name": "Ryan McDonald",
-      "order": 198,
-      "role": "Bacchus",
-      "thumb": "/vqqU8iLd5xWVokCGhixyCkAlACG.jpg"
-    },
-    {
       "name": "Tom Wright",
       "order": 198,
       "role": "Santa",
       "thumb": "/3Jmwf493R4e9cis5689Nn0DLgqt.jpg"
+    },
+    {
+      "name": "Ryan McDonald",
+      "order": 198,
+      "role": "Bacchus",
+      "thumb": "/vqqU8iLd5xWVokCGhixyCkAlACG.jpg"
     },
     {
       "name": "Jolene Purdy",
@@ -469,7 +469,7 @@
       "name": "Rhys Ward",
       "order": 96,
       "role": "Bayler",
-      "thumb": "/vWE6aJTlhuIz3RKwJ7BnzeQZNXS.jpg"
+      "thumb": "/4MpZQZzjtvzWPVK73WkVyVAFHWE.jpg"
     },
     {
       "name": "Jason Burkart",
@@ -516,14 +516,8 @@
     {
       "name": "Christopher Britton",
       "order": 168,
-      "role": "Demon Todd",
+      "role": "Demon",
       "thumb": null
-    },
-    {
-      "name": "Dustin Ingram",
-      "order": 179,
-      "role": "Hyman Cooper",
-      "thumb": "/4jH3kSG3JCcjWtbIQYkGmU1Cugc.jpg"
     },
     {
       "name": "Nicholas Coombe",
@@ -532,16 +526,16 @@
       "thumb": "/exoZHzswspFOZpo41GjgpDcOnIU.jpg"
     },
     {
+      "name": "Dustin Ingram",
+      "order": 179,
+      "role": "Hyman Cooper",
+      "thumb": "/4jH3kSG3JCcjWtbIQYkGmU1Cugc.jpg"
+    },
+    {
       "name": "Anja Savcic",
       "order": 183,
       "role": "Skye",
       "thumb": "/6xJzn2ckq3kxBNWOF9uuIeelN6L.jpg"
-    },
-    {
-      "name": "Tarun Keram",
-      "order": 198,
-      "role": "Hansel",
-      "thumb": "/6u102CBNiRMagE0YaI1KbcpFEYx.jpg"
     },
     {
       "name": "Emily Althaus",
@@ -552,8 +546,14 @@
     {
       "name": "Spencer Daniels",
       "order": 198,
-      "role": "Charlton",
+      "role": "Nameless",
       "thumb": "/yFePed7zzGyvdoU1c3XdilsHw1r.jpg"
+    },
+    {
+      "name": "Leanne Lapp",
+      "order": 198,
+      "role": "Sam Cunningham",
+      "thumb": "/zp2vgmRtiCNOs7k1uhBeKqj7qn0.jpg"
     },
     {
       "name": "Agam Darshi",
@@ -562,10 +562,10 @@
       "thumb": "/rJoqe224bDWl03fnSqrUPt9QfLn.jpg"
     },
     {
-      "name": "Leanne Lapp",
+      "name": "Tarun Keram",
       "order": 198,
-      "role": "Sam Cunningham",
-      "thumb": "/zp2vgmRtiCNOs7k1uhBeKqj7qn0.jpg"
+      "role": "Hansel",
+      "thumb": "/6u102CBNiRMagE0YaI1KbcpFEYx.jpg"
     },
     {
       "name": "Madisen Beaty",
@@ -685,7 +685,7 @@
       "name": "Nesta Cooper",
       "order": 48,
       "role": "Gretchen",
-      "thumb": "/2RH4RUWl6tAAjw9SnBvs53Ou3aI.jpg"
+      "thumb": "/1k2O6bGmdr7E5mQ0zXok25Assla.jpg"
     },
     {
       "name": "Rebecca Tilney",
@@ -721,7 +721,7 @@
       "name": "Marco Grazzini",
       "order": 60,
       "role": "Margo's Ex-Boyfriend",
-      "thumb": "/jDZTxRiX72okQGbIK1BsJbOkYtX.jpg"
+      "thumb": "/i6QSn9wssoabEmDLsEIH6e7xaSs.jpg"
     },
     {
       "name": "Cardi Wong",
@@ -838,16 +838,16 @@
       "thumb": "/5D3vNDlHOeixwRg1Bk45YlJUtsl.jpg"
     },
     {
-      "name": "Michelle Harrison",
-      "order": 97,
-      "role": "Dr. Higgins",
-      "thumb": "/4NNuBCS6I4USJT45xSN9R7vwXFI.jpg"
-    },
-    {
       "name": "Dustin Schwartz",
       "order": 97,
       "role": "Ardian",
       "thumb": null
+    },
+    {
+      "name": "Michelle Harrison",
+      "order": 97,
+      "role": "Dr. Higgins",
+      "thumb": "/4NNuBCS6I4USJT45xSN9R7vwXFI.jpg"
     },
     {
       "name": "Lee Garlington",
@@ -871,7 +871,7 @@
       "name": "Alexandra Bokyun Chun",
       "order": 105,
       "role": "The Mudang",
-      "thumb": null
+      "thumb": "/kON8NRp52VaVB8hA1sufMpRbgVl.jpg"
     },
     {
       "name": "Tora Kim",
@@ -1015,7 +1015,7 @@
       "name": "Robert Corness",
       "order": 145,
       "role": "Puzzler",
-      "thumb": null
+      "thumb": "/o1VblcnA1YQe7M8WweMHhUgT6xf.jpg"
     },
     {
       "name": "Stephanie Nogueras",
@@ -1033,7 +1033,7 @@
       "name": "Sean O. Roberts",
       "order": 152,
       "role": "Brooklyn Vampire",
-      "thumb": null
+      "thumb": "/4gCLPFoOINfCE3l8WXpWKClXZ7R.jpg"
     },
     {
       "name": "Aaron Paul Stewart",
@@ -1285,7 +1285,7 @@
       "name": "Olivia Norman",
       "order": 212,
       "role": "Baba Yaga/Bailey",
-      "thumb": null
+      "thumb": "/d5D27qaYY2L5QSAcSmNrbjj1Tn5.jpg"
     },
     {
       "name": "Gabrielle Miller",
@@ -1306,6 +1306,12 @@
       "thumb": "/1xnSniYd3y84qt6lqLvDIzGT4x0.jpg"
     },
     {
+      "name": "Yaani King Mondschein",
+      "order": 217,
+      "role": "Kira",
+      "thumb": "/jpdu5ko9yVcVdXyzJc2hmis0IIo.jpg"
+    },
+    {
       "name": "Elyse Maloway",
       "order": 217,
       "role": "Berry",
@@ -1315,13 +1321,7 @@
       "name": "Luca Padovan",
       "order": 217,
       "role": "Young Quentin (Golem)",
-      "thumb": "/k7TO7YgOkoAZSfAYjiu0DSQKvd0.jpg"
-    },
-    {
-      "name": "Yaani King Mondschein",
-      "order": 217,
-      "role": "Kira",
-      "thumb": "/jpdu5ko9yVcVdXyzJc2hmis0IIo.jpg"
+      "thumb": "/bKbhYhJUlEfaJfs0ghPKAuDfYZ3.jpg"
     },
     {
       "name": "Cassandra Naud",
@@ -1625,7 +1625,7 @@
           "aired": "2018-01-10",
           "plot": "Quentin and Julia attempt to bring magic back. Julia explores her small, but significant gift. Eliot and Margo chafe under the fairy occupation. Kady searches for a way to heal Penny.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/2FX70XLb2Y7Fu3jFRMHOlt9hxav.jpg",
-          "title": "The Tale of the Seven Keys"
+          "title": "The Tales of the Seven Keys"
         },
         {
           "aired": "2018-01-17",

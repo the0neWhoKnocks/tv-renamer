@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015337828,
   "genres": [
     "Action & Adventure",
     "Animation",
@@ -42,7 +43,7 @@
     {
       "name": "Yoshitsugu Matsuoka",
       "order": 37,
-      "role": "Tokugawa (voice)",
+      "role": "Teruki \"Teru\" Hanazawa (voice)",
       "thumb": "/imT0u1zSM0RbMxBBbQ6kGDRNoCV.jpg"
     },
     {
@@ -54,7 +55,7 @@
     {
       "name": "Ryuunosuke Watanuki",
       "order": 33,
-      "role": "Matsuo (voice)",
+      "role": "Akagi (voice)",
       "thumb": "/iViXUrsy5tJXPnBG5XWLrPk9C7X.jpg"
     },
     {
@@ -66,7 +67,7 @@
     {
       "name": "Seiichirou Yamashita",
       "order": 25,
-      "role": "Jun Sagawa (voice)",
+      "role": "Bandai (voice)",
       "thumb": "/oSYMF6kCPArwNf64bqf9fep3h8w.jpg"
     },
     {
@@ -241,7 +242,7 @@
       "name": "Wataru Hatano",
       "order": 2,
       "role": "Tarou (voice)",
-      "thumb": "/aIdlCpoeL8lq6KCrGbF71n0zgDp.jpg"
+      "thumb": "/i1meHlOXLP2ubJZkmyGJONrxikQ.jpg"
     },
     {
       "name": "Keiji Fujiwara",
@@ -304,7 +305,7 @@
       "thumb": "/gWHhudGHTGuROF0pUE5mqbcVq9r.jpg"
     },
     {
-      "name": "Rina Satou",
+      "name": "Rina Sato",
       "order": 41,
       "role": "Female Store Clerk (voice)",
       "thumb": "/q1VWJEI3b386hEcYzzbiN4KmoPn.jpg"
@@ -406,43 +407,6 @@
           "plot": "Mob, Reigen, Dimple, and the newest member of the Spirits and Such Consultation Office staff, Serizawa, take a trip up to a secluded hot spring called Ibogami Hot Springs in Zebra Prefecture. Reigen happened to get a request from the matron there to discover the truth behind the strange rumors going around there and save the inn. Ritsu and Teru also join in on this trip and the six of them head out on this super relaxing trip to the hot spring. But on their way there, Reigen and Serizawa start nodding off on the train and somehow get sucked into an eerie parallel world.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/wjt7VXD7lFDzQDQ9p9flo8oJtPE.jpg",
           "title": "Mob Psycho 100 II- The First Spirits and Such Company Trip - A Journey that Mends the Heart and Heals the Soul"
-        },
-        null,
-        {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "(11) Episode 11"
-        },
-        {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "(12) Episode 12"
-        },
-        {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "(13) Episode 13"
-        },
-        {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "(14) Episode 14"
-        },
-        {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "(15) Episode 15"
-        },
-        {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "(16) Episode 16"
         }
       ]
     },
@@ -581,13 +545,13 @@
           "title": "Show Me What You've Got ~Band Together~"
         },
         {
-          "aired": "2019-03-10",
+          "aired": "2019-03-11",
           "plot": "The boss of the Claw, Suzuki Toichiro barricades himself into Seasoning City Culture Tower after declaring war on the world. After instantly getting rid of the police barriers, they make their next move. Meanwhile, back at the hideout, Reigen and the others were making their move, as well. The former members of the 7th Division and the Awakening Lab head to the tower under Reigen's instruction. Sho and Ritsu also make their move to stop Suzuki's plans.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/lg2cGwfeeVfrhz0koWoBWwV53Q2.jpg",
           "title": "Collision ~Power Type~"
         },
         {
-          "aired": "2019-03-17",
+          "aired": "2019-03-18",
           "plot": "Sho finally arrived at Seasoning Cultural Tower and was greeted by Shimazaki, one of the Ultimate 5. Ritsu faces off with Shimazaki and urges Sho to go ahead. However, Shimazaki is able to teleport and he gets ahead of him. Meanwhile, Mob has woken up and is heading to the tower and is also approached by one of the Ultimate 5, Minegishi. Mob has a difficult time dealing with Minegishi, who controls plants, but then someone rather unexpected comes to his aid.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/sYyxnqWgwaM6xgFDxcGY9Dkvmqo.jpg",
           "title": "Guidance ~Psychic Sensor~"

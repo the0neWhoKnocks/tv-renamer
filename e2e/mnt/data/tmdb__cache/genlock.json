@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015199611,
   "genres": [
     "Animation",
     "Action & Adventure",
@@ -12,22 +13,33 @@
   "premiered": "2019-01-26",
   "status": "Returning Series",
   "studios": [
-    "YouTube",
     "Rooster Teeth",
-    "VRV"
+    "HBO Max"
   ],
   "actors": [
     {
-      "name": "Gray Haddock",
+      "name": "David Tennant",
       "order": 500,
-      "role": "Leon (voice)",
-      "thumb": "/8lvigcDDRnrptQFrxACp7O2jbxj.jpg"
+      "role": "Dr. Weller (voice)",
+      "thumb": "/9PJteC0a8POnPhqgxvdtWNKHPsD.jpg"
     },
     {
-      "name": "Dakota Fanning",
+      "name": "Lindsay Jones",
       "order": 500,
-      "role": "Miranda Worth (voice)",
-      "thumb": "/6bNiiHnZZfA7YYIxO5FszvNFBlI.jpg"
+      "role": "Razzle (voice)",
+      "thumb": "/yZ1IZIHrgSNKEtDVAAynwYW5aTh.jpg"
+    },
+    {
+      "name": "Blaine Gibson",
+      "order": 500,
+      "role": "Sinclair (voice)",
+      "thumb": "/vs0CWdfOevGvhgZ6KFPQPWfEkCA.jpg"
+    },
+    {
+      "name": "Chad James",
+      "order": 500,
+      "role": "Jodie (voice)",
+      "thumb": "/waEPmcydIrlVd0wBUgS0CMSsoZJ.jpg"
     },
     {
       "name": "Maisie Williams",
@@ -42,16 +54,16 @@
       "thumb": "/hhEyY7pc5JTjtMy1wj7PXFrSOEA.jpg"
     },
     {
-      "name": "Lindsay Jones",
+      "name": "Michael B. Jordan",
       "order": 500,
-      "role": "Razzle (voice)",
-      "thumb": "/yZ1IZIHrgSNKEtDVAAynwYW5aTh.jpg"
+      "role": "Julian Chase (voice)",
+      "thumb": "/kfcn0yyEdN2aJfVaxW0NIoKVF4J.jpg"
     },
     {
-      "name": "Chad James",
+      "name": "Gray Haddock",
       "order": 500,
-      "role": "Jodie (voice)",
-      "thumb": "/waEPmcydIrlVd0wBUgS0CMSsoZJ.jpg"
+      "role": "Leon (voice)",
+      "thumb": "/8lvigcDDRnrptQFrxACp7O2jbxj.jpg"
     },
     {
       "name": "Miles Luna",
@@ -60,22 +72,10 @@
       "thumb": "/aegax5n5tncm9koFAeh2xC7ptVb.jpg"
     },
     {
-      "name": "Blaine Gibson",
+      "name": "Dakota Fanning",
       "order": 500,
-      "role": "Sinclair (voice)",
-      "thumb": "/vxyFzWKsbh8rGfKtDJjxr2OKkxD.jpg"
-    },
-    {
-      "name": "David Tennant",
-      "order": 500,
-      "role": "Dr. Weller (voice)",
-      "thumb": "/9PJteC0a8POnPhqgxvdtWNKHPsD.jpg"
-    },
-    {
-      "name": "Michael B. Jordan",
-      "order": 500,
-      "role": "Julian Chase (voice)",
-      "thumb": "/4vXkRCbrquoP5Lrb4px7tubDLMC.jpg"
+      "role": "Miranda Worth (voice)",
+      "thumb": "/6bNiiHnZZfA7YYIxO5FszvNFBlI.jpg"
     },
     {
       "name": "Anisha Nagarajan",

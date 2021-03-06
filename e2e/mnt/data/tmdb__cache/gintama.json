@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615016356495,
   "genres": [
     "Action & Adventure",
     "Animation",
@@ -11,70 +12,82 @@
   "name": "Gintama",
   "plot": "In an era where aliens have invaded and taken over feudal Tokyo, an unemployed samurai finds work however he can.",
   "premiered": "2006-04-04",
-  "status": "Returning Series",
+  "status": "Ended",
   "studios": [
     "TV Tokyo"
   ],
   "actors": [
     {
-      "name": "Yuko Kaida",
-      "order": 6,
-      "role": "Tsukuyo (voice)",
-      "thumb": "/yqnIlAd6nYYSTFnIX6Kx10ewEdI.jpg"
-    },
-    {
-      "name": "Rie Kugimiya",
-      "order": 500,
-      "role": "Kagura (voice)",
-      "thumb": "/5uxG4tsx8vCfxI8yr1RoeDkrsDg.jpg"
-    },
-    {
-      "name": "Kazuya Nakai",
-      "order": 500,
-      "role": "Toushirou Hijikata (voice)",
-      "thumb": "/78PKViY7brjF3AJI8h3tXyUyYT7.jpg"
-    },
-    {
-      "name": "Akira Ishida",
-      "order": 500,
-      "role": "Kotarou Katsura (voice)",
-      "thumb": "/jnW2Gn2NlR2uwOCeyOuzypnTmkH.jpg"
-    },
-    {
-      "name": "Takehito Koyasu",
-      "order": 500,
-      "role": "Shinsuke Takasugi (voice)",
-      "thumb": "/sINa9EAHOENr93OX5gF6w60AJgm.jpg"
-    },
-    {
-      "name": "Tomokazu Sugita",
-      "order": 500,
-      "role": "Gintoki Sakata (voice)",
-      "thumb": "/tW9VGnxmdhy3XTWfssk8ySrDu7K.jpg"
-    },
-    {
-      "name": "Satoshi Hino",
-      "order": 500,
-      "role": "Kamui (voice)",
-      "thumb": "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
-    },
-    {
-      "name": "Fumihiko Tachiki",
-      "order": 500,
-      "role": "Taizou Hasegawa (voice)",
-      "thumb": "/khEt9uae6dLIrvtkAKkFR1IJPJ5.jpg"
-    },
-    {
       "name": "Daisuke Sakaguchi",
-      "order": 500,
+      "order": 2,
       "role": "Shimura Shinpachi (voice)",
       "thumb": "/7aHA3ELUwyrzPRm6UCZJe87x1mL.jpg"
     },
     {
+      "name": "Akira Ishida",
+      "order": 3,
+      "role": "Kotarou Katsura (voice)",
+      "thumb": "/jnW2Gn2NlR2uwOCeyOuzypnTmkH.jpg"
+    },
+    {
+      "name": "Fumihiko Tachiki",
+      "order": 4,
+      "role": "Taizou Hasegawa (voice)",
+      "thumb": "/khEt9uae6dLIrvtkAKkFR1IJPJ5.jpg"
+    },
+    {
+      "name": "Kazuya Nakai",
+      "order": 5,
+      "role": "Toushirou Hijikata (voice)",
+      "thumb": "/78PKViY7brjF3AJI8h3tXyUyYT7.jpg"
+    },
+    {
       "name": "Kenichi Suzumura",
-      "order": 500,
+      "order": 6,
       "role": "Sougo Okita (voice)",
       "thumb": "/fUM4vIHabt840p55zvwFwrFq9r6.jpg"
+    },
+    {
+      "name": "Takehito Koyasu",
+      "order": 7,
+      "role": "Shinsuke Takasugi (voice)",
+      "thumb": "/sINa9EAHOENr93OX5gF6w60AJgm.jpg"
+    },
+    {
+      "name": "Yuko Kaida",
+      "order": 8,
+      "role": "Tsukuyo (voice)",
+      "thumb": "/yqnIlAd6nYYSTFnIX6Kx10ewEdI.jpg"
+    },
+    {
+      "name": "Satoshi Hino",
+      "order": 9,
+      "role": "Kamui (voice)",
+      "thumb": "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
+    },
+    {
+      "name": "Rie Kugimiya",
+      "order": 17,
+      "role": "Kagura (voice)",
+      "thumb": "/5uxG4tsx8vCfxI8yr1RoeDkrsDg.jpg"
+    },
+    {
+      "name": "Tomokazu Sugita",
+      "order": 22,
+      "role": "Gintoki Sakata (voice)",
+      "thumb": "/tW9VGnxmdhy3XTWfssk8ySrDu7K.jpg"
+    },
+    {
+      "name": "Iku Minase",
+      "order": 13,
+      "role": "Ichiro (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Yasuhiko Kawazu",
+      "order": 0,
+      "role": "",
+      "thumb": "/zHAZRK18YjtcchtKKV08QDliAC3.jpg"
     },
     {
       "name": "Kōichi Sakaguchi",
@@ -83,10 +96,46 @@
       "thumb": "/y9wSuWcrKNiQb6w7AhAWxMIrlbj.jpg"
     },
     {
-      "name": "Yasuhiko Kawazu",
-      "order": 0,
-      "role": "",
-      "thumb": "/zHAZRK18YjtcchtKKV08QDliAC3.jpg"
+      "name": "Akeno Watanabe",
+      "order": 13,
+      "role": "Mutsu (voice)",
+      "thumb": "/nlsLKDTjiPPNrmm4XzJBk3gqN2U.jpg"
+    },
+    {
+      "name": "Shin-ichiro Miki",
+      "order": 14,
+      "role": "Tatsuma Sakamoto (voice)",
+      "thumb": "/yL9Tx2HZgK7t5AssYl6oGE9bjdj.jpg"
+    },
+    {
+      "name": "Shinji Kawada",
+      "order": 18,
+      "role": "Chidori 2nd Division Leader (voice)",
+      "thumb": "/ofpHK6Hepv1FD0Y3p9euNc0lThD.jpg"
+    },
+    {
+      "name": "Yuko Ueda",
+      "order": 19,
+      "role": "Grandma (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Yuuichi Karasuma",
+      "order": 20,
+      "role": "Slave Ship Leader (voice)",
+      "thumb": "/qXrvzesh9TOD1tqQ0ICDgFCYw39.jpg"
+    },
+    {
+      "name": "Rei Yamahata",
+      "order": 21,
+      "role": "Pirate A (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Yoshihito Sasaki",
+      "order": 22,
+      "role": "Pirate B (voice)",
+      "thumb": "/s3dCKhdu453qD4piXkz43UpBKdI.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -108,12 +157,12 @@
       "poster": "https://image.tmdb.org/t/p/w780/mWX2XnjYD8WxglIyTWM7z9FurXt.jpg",
       "seasonPosters": {
         "0": "https://image.tmdb.org/t/p/w780/qbpSTnevU6PNVA1UnPqvLaZI7A7.jpg",
-        "1": "https://image.tmdb.org/t/p/w780/pKPMbL4LxqXTBYpqZd4az5Y95Mr.jpg",
-        "2": "https://image.tmdb.org/t/p/w780/wz17KKPIGWyRnfRnqssAsaWKo0N.jpg",
-        "3": "https://image.tmdb.org/t/p/w780/7fmFSKjiE1nqhsi7XccuSM8UzmD.jpg",
-        "4": "https://image.tmdb.org/t/p/w780/yB3OhOKMJyBI5fPomVorOvMvtBO.jpg",
-        "5": "https://image.tmdb.org/t/p/w780/fAkigdizR6WFWhOmt58BDEw0zrn.jpg",
-        "6": "https://image.tmdb.org/t/p/w780/q57jzXlXTtw16LkgPkRnsZsNpLp.jpg",
+        "1": "https://image.tmdb.org/t/p/w780/vgJtWittouxDVU2KnYa2U4IAAns.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/rIlqQZ9cNYKZrTKcefOWWq7oOgz.jpg",
+        "3": "https://image.tmdb.org/t/p/w780/zEQddGr3e0MqtZNyEPleNrYuagT.jpg",
+        "4": "https://image.tmdb.org/t/p/w780/fhdgETMIOR9cqvHfvUBjrVi4gzG.jpg",
+        "5": "https://image.tmdb.org/t/p/w780/aMbvgkCFYzrIE3iWq2dKF78obJQ.jpg",
+        "6": "https://image.tmdb.org/t/p/w780/7lsXevLfqWPoxay0lE6RyuRotKV.jpg",
         "7": "https://image.tmdb.org/t/p/w780/5AX6ObPYZN0RP3L0Eu7s0RCLxeX.jpg",
         "8": "https://image.tmdb.org/t/p/w780/qVyqN7N9zzHxpmR5h4CcXeP71YA.jpg",
         "9": "https://image.tmdb.org/t/p/w780/zRbCuK4LzJiYvmZ9DNVbt425dAE.jpg",
@@ -127,28 +176,10 @@
       "episodes": [
         null,
         {
-          "aired": "2004-12-18",
-          "plot": "Gintoki Sakata is a lazy samurai living in an alien-ridden Japan where samurai are no longer needed. This OVA is a set of short comedy stories involving Gintoki and his equally-broke sidekicks Shinpachi and Kagura. One day, Gintoki and his comrades are out viewing the spring flowers when suddenly the Shinsengumi appear, arguing that Gintoki has taken their flower-viewing spot. Gintoki's team and the Shinsengumi must then battle for the right to sit in that spot by using a violent version of rock paper scissors.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/gxJuRMolUavl2S8yOu2VRrmnCak.jpg",
-          "title": "Jump Festa 2005 Special"
-        },
-        {
           "aired": "2009-09-30",
           "plot": "This episode shows various scenes from the war between samurais and the Amanto, focusing on Gintoki's fights alongside Kotaro Katsura, Shinsuke Takasugi and others. In the end, the episode is revealed to be a trailer from a film, which was in fact fake.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/sFFvKlEr4EY0HyGhvFBrTXltJAL.jpg",
           "title": "Jump Anime Tour 2008- Birth of White Demon"
-        },
-        {
-          "aired": "2010-03-25",
-          "plot": "A live event held prior to the release of the first Gintama movie. During the event, some of the characters get together and talk about \"regrets\" they have after 4 years of anime Gintama. Soon they fight over who gets more screen time. Also features music from Otsu-chan and the band DOES.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/bhvYADVcWYXX2r5hxyo6lCMhL0W.jpg",
-          "title": "Spring Festival 2010"
-        },
-        {
-          "aired": "2010-04-24",
-          "plot": "Gintama: The Movie, known in Japan as Gintama: Shinyaku Benizakura-Hen, is a Japanese animated film produced by Sunrise. The film's plot is a retelling of the story arc from Gin Tama in which Kotaro Katsura is attacked by a member of the army Kiheitai, and the freelancer trio Odd Jobs Gin start searching for him.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/yE1Wwn2aahjIspQFrrsWqVTM5Uj.jpg",
-          "title": "Gintama- The Movie"
         },
         {
           "aired": "2010-12-15",
@@ -157,40 +188,10 @@
           "title": "Benizakura Arc Special"
         },
         {
-          "aired": "2012-08-22",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Sakura Festival 2011"
-        },
-        {
-          "aired": "2013-07-06",
-          "plot": "What would have happened if the Shiroyasha never existed? Edo is thrown to chaos by a mysterious cause. Sakata Gintoki, now lives in a world where the future has changed, without him. What has happened to the Yorozuya? Gintoki, who is now a ghost of the past, must once again carry the burden in order to save his friends. He must finish the biggest job ever, which may be the final job of Yorozuya.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/1lHeCnNuvpXSiUtCxGnz4kUK9jM.jpg",
-          "title": "Gintama- The Movie- The Final Chapter- Odd Jobs Forever"
-        },
-        {
-          "aired": "2013-10-23",
-          "plot": "",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/cLT9Q5JnuagQ8BX86zFRvZNvY3o.jpg",
-          "title": "Zenya Festival 2013"
-        },
-        {
           "aired": "2015-04-03",
           "plot": "Odd jobs wake up to find a (not so) familiar spirit, who tries to explain the importance of having special moves.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/kIkQkolBKDWTULaXxbbWV1olAPf.jpg",
           "title": "Jump Festa 2014 Special"
-        },
-        {
-          "aired": "2012-08-26",
-          "plot": "A movie version of the Shinsengumi Crisis arc, which covered episodes 101-105.",
-          "thumbnail": "",
-          "title": "The Best of Gintama on Theater 2D- Shinsengumi Crisis Arc"
-        },
-        {
-          "aired": "2012-08-26",
-          "plot": "A movie version of the Four Devas arc, which covered episodes 210-214.",
-          "thumbnail": "",
-          "title": "The Best of Gintama on Theater 2D- Four Devas Arc"
         },
         {
           "aired": "2015-11-20",
@@ -209,24 +210,6 @@
           "plot": "",
           "thumbnail": "https://image.tmdb.org/t/p/w400/BTr9S6IV8IiiWs9N4TMtCA597p.jpg",
           "title": "An Everlasting Flower"
-        },
-        {
-          "aired": "2019-08-29",
-          "plot": "Collaboration anime between Gintama and Monster Strike.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/445T6PJTxfAN78lOK7nNfNakott.jpg",
-          "title": "Gintama- Monster Strike-hen ONA 1"
-        },
-        {
-          "aired": "2019-09-04",
-          "plot": "Collaboration anime between Gintama and Monster Strike.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/445T6PJTxfAN78lOK7nNfNakott.jpg",
-          "title": "Gintama- Monster Strike-hen ONA 2"
-        },
-        {
-          "aired": "2021-01-15",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Episode 17"
         }
       ]
     },

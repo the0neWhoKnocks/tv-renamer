@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015194508,
   "genres": [
     "Sci-Fi & Fantasy",
     "Action & Adventure",
@@ -20,7 +21,7 @@
       "name": "Diane Guerrero",
       "order": 0,
       "role": "Crazy Jane",
-      "thumb": "/c6RNRB1GT2bAZVoGY3WsMbwOPnR.jpg"
+      "thumb": "/5LXvRYdxKLWROAD2KDSXzRNNSdE.jpg"
     },
     {
       "name": "April Bowlby",
@@ -38,7 +39,7 @@
       "name": "Matt Bomer",
       "order": 3,
       "role": "Larry Trainor / Negative Man (voice)",
-      "thumb": "/jvYzsP08M9H76eHu0k1ALdmNnoM.jpg"
+      "thumb": "/oxL27Z3XtjoABaOynKazZeg7qKM.jpg"
     },
     {
       "name": "Brendan Fraser",
@@ -68,12 +69,12 @@
       "name": "Alan Tudyk",
       "order": 6,
       "role": "Mr. Nobody",
-      "thumb": "/w56mp2ky1t7ORDsoGQP00OHlyic.jpg"
+      "thumb": "/91LuROVPKcEJvT0FwSOZZj62bZ8.jpg"
     },
     {
       "name": "Phil Morris",
       "order": 226,
-      "role": "Doctor Cowboy",
+      "role": "Silas Stone",
       "thumb": "/iZADKc1QdCFpTvu0KnU3BZBwtrE.jpg"
     },
     {
@@ -101,16 +102,16 @@
       "thumb": "/yRGMT0AW7ukUDjj5U6ldVdIlPyZ.jpg"
     },
     {
-      "name": "Lex Lang",
-      "order": 226,
-      "role": "Candlemaker (voice)",
-      "thumb": "/hrgjiwtrnI6meAg2Q1eTGpyTrDX.jpg"
-    },
-    {
       "name": "Skye Roberts",
       "order": 226,
       "role": "Kay Challis",
       "thumb": "/7sSiLdxA4berqw9n8RxthlqAGwA.jpg"
+    },
+    {
+      "name": "Lex Lang",
+      "order": 226,
+      "role": "Candlemaker (voice)",
+      "thumb": "/hrgjiwtrnI6meAg2Q1eTGpyTrDX.jpg"
     },
     {
       "name": "Julie McNiven",
@@ -163,7 +164,7 @@
     {
       "name": "Ethan McDowell",
       "order": 122,
-      "role": "Forsythe",
+      "role": "Man in Black Suit",
       "thumb": "/oSl1Ek1T8Xr8PJIryDf2YGDcvFD.jpg"
     },
     {
@@ -200,7 +201,7 @@
       "name": "Alan Heckner",
       "order": 90,
       "role": "Bump Weathers",
-      "thumb": null
+      "thumb": "/qCJrv2gRqXZZmTVfztZXeinxKK8.jpg"
     },
     {
       "name": "Alec Mapa",
@@ -211,7 +212,7 @@
     {
       "name": "Greyson Chadwick",
       "order": 146,
-      "role": "Addie",
+      "role": "Rita's Mom",
       "thumb": "/mnNEcX4Ijm0XfWeO5F6zA8q4Kjx.jpg"
     },
     {
@@ -269,16 +270,16 @@
       "thumb": null
     },
     {
-      "name": "Ted Sutherland",
-      "order": 68,
-      "role": "Elliot Patterson",
-      "thumb": "/qZf9pxIFC60S2b8IGAHCRtTA4ZO.jpg"
-    },
-    {
       "name": "Lilli Birdsell",
       "order": 68,
       "role": "Mother Archon",
       "thumb": "/u9c5Xq8uKVRmuIJ2eWsnC2B08Uu.jpg"
+    },
+    {
+      "name": "Ted Sutherland",
+      "order": 68,
+      "role": "Elliot Patterson",
+      "thumb": "/qZf9pxIFC60S2b8IGAHCRtTA4ZO.jpg"
     },
     {
       "name": "Orelon Sidney",
@@ -302,7 +303,7 @@
       "name": "Melissa Kennemore",
       "order": 104,
       "role": "Punk Rock Chic (uncredited)",
-      "thumb": "/vrbuLZNVLKxnGYRZd02y6OvGMbA.jpg"
+      "thumb": "/drwfyFlgT52jFy0zcG19NVBjFw6.jpg"
     },
     {
       "name": "Gary Peebles",
@@ -353,16 +354,16 @@
       "thumb": "/uaUNKMxbDh5U6HBb8QWF7QNLbDZ.jpg"
     },
     {
-      "name": "Alimi Ballard",
-      "order": 155,
-      "role": "Joshua Clay",
-      "thumb": "/njuPTyVWPTevFnPeQ8Oaf55erYQ.jpg"
-    },
-    {
       "name": "Anna Lore",
       "order": 155,
       "role": "Penny Farthing",
       "thumb": null
+    },
+    {
+      "name": "Alimi Ballard",
+      "order": 155,
+      "role": "Joshua Clay",
+      "thumb": "/njuPTyVWPTevFnPeQ8Oaf55erYQ.jpg"
     },
     {
       "name": "Mark Ashworth",
@@ -395,22 +396,22 @@
       "thumb": null
     },
     {
-      "name": "Mike Kaye",
-      "order": 180,
-      "role": "Heckler #1",
-      "thumb": null
-    },
-    {
       "name": "Tomi Lavinder",
       "order": 180,
       "role": "Heckler #2",
       "thumb": "/iq6O3JT5Bmsqyyu2LLx1KqAE9qM.jpg"
     },
     {
-      "name": "Kathryn Cressida",
+      "name": "Mike Kaye",
+      "order": 180,
+      "role": "Heckler #1",
+      "thumb": null
+    },
+    {
+      "name": "Adam James Breazeale",
       "order": 182,
-      "role": "Darling Come Home (voice)",
-      "thumb": "/mjDMZHcql1s2fnh6JLh3gfYh3cZ.jpg"
+      "role": "Teenager #1",
+      "thumb": null
     },
     {
       "name": "David Shae",
@@ -419,10 +420,10 @@
       "thumb": "/tBfDhXA1KlmdgVtuAgKX6C8QJWz.jpg"
     },
     {
-      "name": "Adam James Breazeale",
+      "name": "Kathryn Cressida",
       "order": 182,
-      "role": "Teenager #1",
-      "thumb": null
+      "role": "Darling Come Home (voice)",
+      "thumb": "/mjDMZHcql1s2fnh6JLh3gfYh3cZ.jpg"
     },
     {
       "name": "Alan Mingo Jr.",
@@ -605,15 +606,15 @@
       "thumb": null
     },
     {
-      "name": "Beau Hart",
-      "order": 50,
-      "role": "Elliot Patterson (7 years old)",
-      "thumb": null
-    },
-    {
       "name": "Thom Williams",
       "order": 50,
       "role": "Angry Townie (uncredited)",
+      "thumb": null
+    },
+    {
+      "name": "Beau Hart",
+      "order": 50,
+      "role": "Elliot Patterson (7 years old)",
       "thumb": null
     },
     {
@@ -674,7 +675,7 @@
       "name": "Jeanette O'Connor",
       "order": 68,
       "role": "Older Marilyn",
-      "thumb": "/1pOfw4NbSM8EgN5MF4Wydnb6GiB.jpg"
+      "thumb": null
     },
     {
       "name": "Alex Nedvidek",
@@ -683,16 +684,16 @@
       "thumb": null
     },
     {
-      "name": "Gleb Kaminer",
-      "order": 69,
-      "role": "Fuchtopian Bellows Operator",
-      "thumb": null
-    },
-    {
       "name": "Ezra Buzzington",
       "order": 69,
       "role": "Dr. Bertrand",
       "thumb": "/j3kJRKgQdHAMXvJUtPHXJsGGW5X.jpg"
+    },
+    {
+      "name": "Gleb Kaminer",
+      "order": 69,
+      "role": "Fuchtopian Bellows Operator",
+      "thumb": null
     },
     {
       "name": "Cate Jones",
@@ -821,7 +822,7 @@
       "thumb": "/s56oKnVQ7ssrAof1SfVqBIrXM6r.jpg"
     },
     {
-      "name": "Matthew Blumm",
+      "name": "Matthew Sean Blumm",
       "order": 99,
       "role": "Cliff's Dad",
       "thumb": "/bfhzOs0pDxTZrI5rdMOnFFkeb6D.jpg"
@@ -830,7 +831,7 @@
       "name": "Brent Bailey",
       "order": 101,
       "role": "Doug",
-      "thumb": "/d73byeAoZC6EEjLuyv87KLhJZcB.jpg"
+      "thumb": "/vDH8EcmJ5ypqwBCpPX5AiSJMKzH.jpg"
     },
     {
       "name": "Nasim Bowlus",
@@ -872,7 +873,7 @@
       "name": "Talbott Lin",
       "order": 110,
       "role": "Cocktail Waitress",
-      "thumb": "/8X3EOpdaFxIsUNPoEClCs7Np5X8.jpg"
+      "thumb": null
     },
     {
       "name": "Choppy Guillotte",
@@ -1133,22 +1134,16 @@
       "thumb": null
     },
     {
-      "name": "Michael Tourek",
-      "order": 184,
-      "role": "Kiss",
-      "thumb": null
-    },
-    {
       "name": "Faith Dillon",
       "order": 184,
       "role": "Cop #1",
       "thumb": "/ycEPh2zF9j3jbX66YTQW6Fj10Tk.jpg"
     },
     {
-      "name": "Anna Borchert",
-      "order": 185,
-      "role": "Bloody Woman",
-      "thumb": "/zcfdMTdkAOaOgXLwPbxqrEPSQAK.jpg"
+      "name": "Michael Tourek",
+      "order": 184,
+      "role": "Kiss",
+      "thumb": "/iUGIH6gdNdKfmkDHd9mEuRaiw6t.jpg"
     },
     {
       "name": "Michael Shenefelt",
@@ -1157,15 +1152,21 @@
       "thumb": "/j5NeuQG1yOq7I4IR4li2NZTDvNk.jpg"
     },
     {
-      "name": "Matt Philliben",
-      "order": 186,
-      "role": "Palace Servant",
-      "thumb": null
+      "name": "Anna Borchert",
+      "order": 185,
+      "role": "Bloody Woman",
+      "thumb": "/zcfdMTdkAOaOgXLwPbxqrEPSQAK.jpg"
     },
     {
       "name": "Tracey Bonner",
       "order": 186,
       "role": "Torture",
+      "thumb": null
+    },
+    {
+      "name": "Matt Philliben",
+      "order": 186,
+      "role": "Palace Servant",
       "thumb": null
     },
     {
@@ -1331,16 +1332,16 @@
       "thumb": null
     },
     {
-      "name": "Troy Hogan",
-      "order": 223,
-      "role": "Carney",
-      "thumb": "/9ixPlEa6RzuMi1SdKVXWchvGVVB.jpg"
-    },
-    {
       "name": "Carter Jenkins",
       "order": 223,
       "role": "John",
       "thumb": "/fGVndWC3hgwK1uVrhiyzTUyIaxW.jpg"
+    },
+    {
+      "name": "Troy Hogan",
+      "order": 223,
+      "role": "Carney",
+      "thumb": "/9ixPlEa6RzuMi1SdKVXWchvGVVB.jpg"
     },
     {
       "name": "Todd Truley",
@@ -1442,10 +1443,10 @@
         "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5ef0faca02504.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c62a7c42fe3f.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed34098.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed2752f.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed3df33.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7de238cb009.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1dedc532.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed2752f.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5c7286ed3df33.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1df04db1.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/showbackground/doom-patrol-5d89d1deb75db.jpg"
       ],
@@ -1462,12 +1463,12 @@
       "seriesPoster": [
         "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5ef104a83c4c2.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5ef0f8e235b8b.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72a055386b8.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5d2f935805403.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72a055386b8.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72d921f1b3f.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c623d01b7700.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c71000ae8298.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c72d45ee217c.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c71000ae8298.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c623d01b7700.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/tvposter/doom-patrol-5c7090b31ea0d.jpg"
       ],
       "seriesThumb": [
@@ -1475,12 +1476,12 @@
         "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a23ea7.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c624212e652c.jpg",
         "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5ef0fdb9d4776.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a1023e.jpg",
-        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5ebd1a9396cdb.jpg"
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5ebd1a9396cdb.jpg",
+        "https://assets.fanart.tv/fanart/tv/355622/tvthumb/doom-patrol-5c72869a1023e.jpg"
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/w1280/rqHL4HsLCix9H6vhCwAuSOge0NS.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sAzw6I1G9JUxm86KokIDdQeWtaq.jpg",
       "poster": "https://image.tmdb.org/t/p/w780/drlfSCIlMKrEeMPhi8pqY4xGxj.jpg",
       "seasonPosters": {
         "1": "https://image.tmdb.org/t/p/w780/nVN7Dt0Xr78gnJepRsRLaLYklbY.jpg",

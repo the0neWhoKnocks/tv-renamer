@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615016317336,
   "genres": [
     "Comedy"
   ],
@@ -8,7 +9,7 @@
   "name": "High Maintenance (2016)",
   "plot": "Jump into the daily routines of a diverse group of New Yorkers and how they light things up. “The Guy” is a nameless pot deliveryman whose client base includes an eccentric group of characters with neuroses as diverse as the city.",
   "premiered": "2016-09-16",
-  "status": "Returning Series",
+  "status": "Ended",
   "studios": [
     "HBO"
   ],
@@ -20,16 +21,16 @@
       "thumb": "/h5TSpNlyBIFWMii6RZHgBr0MNtn.jpg"
     },
     {
-      "name": "Juan Carlos Díaz",
-      "order": 500,
-      "role": "Aldo",
-      "thumb": "/kHYXO5rhXiaYDZe9V2VQe7obSPr.jpg"
-    },
-    {
       "name": "Edwin Lugo",
       "order": 500,
       "role": "Ricardo",
       "thumb": "/78ZyE6LsW6hPGFmw6q9G1xHqLz5.jpg"
+    },
+    {
+      "name": "Juan Carlos Díaz",
+      "order": 500,
+      "role": "Aldo",
+      "thumb": "/kHYXO5rhXiaYDZe9V2VQe7obSPr.jpg"
     },
     {
       "name": "Jack Ferver",
@@ -149,7 +150,7 @@
       "name": "K. Todd Freeman",
       "order": 20,
       "role": "Bill",
-      "thumb": null
+      "thumb": "/4SrNyXqLy1Kd1II21exV4LsZx2o.jpg"
     },
     {
       "name": "Crystal Monee Hall",
@@ -260,16 +261,22 @@
       "thumb": "/ggCL6TOjEAI82C0qxJNbWAJqxrn.jpg"
     },
     {
+      "name": "Pat Regan",
+      "order": 40,
+      "role": "Marc",
+      "thumb": "/9mCx7YW2G3veNe78gu9vw8lyu2x.jpg"
+    },
+    {
       "name": "Eric Tabach",
       "order": 40,
       "role": "",
       "thumb": "/npZV1MoQGHtcZZJQbmHYavrt3CL.jpg"
     },
     {
-      "name": "Pat Regan",
-      "order": 40,
-      "role": "Marc",
-      "thumb": "/9mCx7YW2G3veNe78gu9vw8lyu2x.jpg"
+      "name": "Evan Hoyt Thompson",
+      "order": 41,
+      "role": "Raoul",
+      "thumb": "/sRr6H4NZ9TzJl0XtS7lKYJrBGwH.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -295,7 +302,11 @@
         ]
       },
       "seasonThumb": {},
-      "seriesBackground": [],
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/314324/showbackground/high-maintenance-2016-600bfd432496b.jpg",
+        "https://assets.fanart.tv/fanart/tv/314324/showbackground/high-maintenance-2016-600bfd5522601.jpg",
+        "https://assets.fanart.tv/fanart/tv/314324/showbackground/high-maintenance-2016-600bfd7d2a1ec.jpg"
+      ],
       "seriesBanner": [
         "https://assets.fanart.tv/fanart/tv/314324/tvbanner/high-maintenance-2016-5a97f00739d4f.jpg"
       ],

@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015182479,
   "genres": [
     "Comedy",
     "Action & Adventure"
@@ -18,19 +19,19 @@
       "name": "Bill Hader",
       "order": 0,
       "role": "Barry Berkman",
-      "thumb": "/gZRHxDqb3dLQKG4wTAer6xiI88E.jpg"
+      "thumb": "/8LiP5wHNq3QpwoARquhkGcPSgjM.jpg"
     },
     {
       "name": "Stephen Root",
       "order": 1,
       "role": "Monroe Fuches",
-      "thumb": "/3odRHGTElNONSifyvjDohYWyAl3.jpg"
+      "thumb": "/2Zwi6AydqQQ9InVdhjYcfJXNzkp.jpg"
     },
     {
       "name": "Henry Winkler",
       "order": 2,
       "role": "Gene Cousineau",
-      "thumb": "/7YyLHBtoJLSexYJEtrB9DApFTG8.jpg"
+      "thumb": "/8OmkbGkeN7yZj3iIJNo485BBGTC.jpg"
     },
     {
       "name": "Sarah Goldberg",
@@ -42,13 +43,13 @@
       "name": "Anthony Carrigan",
       "order": 5,
       "role": "NoHo Hank",
-      "thumb": "/6YtczDvE4eI8lkU6KXE6pkXaTIi.jpg"
+      "thumb": "/8PFKhUVTppUqvMJEFc4EsHiSrvV.jpg"
     },
     {
       "name": "D'Arcy Carden",
       "order": 8,
       "role": "Natalie Greer",
-      "thumb": "/bDsVpVIp7hqT1qYisS6ZGw44AWQ.jpg"
+      "thumb": "/guqKvyKdrAB7bjrJQrdmlNnPuuY.jpg"
     },
     {
       "name": "Glenn Fleshler",
@@ -84,7 +85,7 @@
       "name": "Dale Pavinski",
       "order": 14,
       "role": "Taylor Garrett",
-      "thumb": "/wgwVe9ymocZAFDbUZcMjxc7Trh9.jpg"
+      "thumb": "/5AmqJl4bsUzgFRJbWmOTi81iRKi.jpg"
     },
     {
       "name": "Lee Coc",

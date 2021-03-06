@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015234177,
   "genres": [
     "Drama"
   ],
@@ -14,16 +15,16 @@
   ],
   "actors": [
     {
-      "name": "Colin Farrell",
-      "order": 0,
-      "role": "Ray Velcoro",
-      "thumb": "/lZ3dU4uFEV4BccAEvjJUBIY2OaB.jpg"
-    },
-    {
       "name": "Mahershala Ali",
       "order": 0,
       "role": "Wayne Hays",
       "thumb": "/9ZmSejm5lnUVY5IJ1iNx2QEjnHb.jpg"
+    },
+    {
+      "name": "Colin Farrell",
+      "order": 0,
+      "role": "Ray Velcoro",
+      "thumb": "/taTdWAWiQ7Ab6HN1BbJPSCQvjeO.jpg"
     },
     {
       "name": "Woody Harrelson",
@@ -35,13 +36,7 @@
       "name": "Matthew McConaughey",
       "order": 1,
       "role": "Rust Cohle",
-      "thumb": "/wJiGedOCZhwMx9DezY8uwbNxmAY.jpg"
-    },
-    {
-      "name": "Carmen Ejogo",
-      "order": 1,
-      "role": "Amelia Reardon",
-      "thumb": "/pJkBfxuifYtuigcjM8qnvNklZNX.jpg"
+      "thumb": "/xL9A8n38Mk10tkh2KBs21d40civ.jpg"
     },
     {
       "name": "Vince Vaughn",
@@ -50,22 +45,28 @@
       "thumb": "/A9fJ88dfXZGpgFTnQIK0bOtjMrj.jpg"
     },
     {
-      "name": "Taylor Kitsch",
-      "order": 2,
-      "role": "Paul Woodrugh",
-      "thumb": "/m39IoFjaJWiCoFYv0DfYCklOeOS.jpg"
+      "name": "Carmen Ejogo",
+      "order": 1,
+      "role": "Amelia Reardon",
+      "thumb": "/pJkBfxuifYtuigcjM8qnvNklZNX.jpg"
     },
     {
       "name": "Stephen Dorff",
       "order": 2,
       "role": "Roland West",
-      "thumb": "/tTB6Do7tSZ5Sl7yXn4BC2FbODU3.jpg"
+      "thumb": "/bhlM1xNzBvc8jTw42YloUKlGTCL.jpg"
     },
     {
       "name": "Michelle Monaghan",
       "order": 2,
       "role": "Maggie Hart",
       "thumb": "/qpSBIBtM0nlekgtbkYL6MRpwspX.jpg"
+    },
+    {
+      "name": "Taylor Kitsch",
+      "order": 2,
+      "role": "Paul Woodrugh",
+      "thumb": "/m39IoFjaJWiCoFYv0DfYCklOeOS.jpg"
     },
     {
       "name": "Michael Potts",
@@ -95,7 +96,7 @@
       "name": "Rachel McAdams",
       "order": 9,
       "role": "Ani Bezzerides",
-      "thumb": "/2zyOjda95OfAAsJvuwTV0UaznPZ.jpg"
+      "thumb": "/1PoAxIDpFnc91QNumrtTUZF8LCE.jpg"
     },
     {
       "name": "Kelly Reilly",
@@ -209,7 +210,7 @@
       "name": "Kevin Dunn",
       "order": 2,
       "role": "Major Ken Quesada",
-      "thumb": "/enBfVbnotr1d9vJfMjLCsLzvO6u.jpg"
+      "thumb": "/5V5WZRoeCLMTTppfhsng1XFI9iR.jpg"
     },
     {
       "name": "Joe Chrest",
@@ -293,7 +294,7 @@
       "name": "Matt Battaglia",
       "order": 81,
       "role": "Commander Floyd Heschmeyer",
-      "thumb": null
+      "thumb": "/1rQfMA7iggSFjfPRvFFvSRPG5mj.jpg"
     },
     {
       "name": "Solomon Shiv",
@@ -304,7 +305,7 @@
     {
       "name": "Rhys Wakefield",
       "order": 183,
-      "role": "Freddy Burns",
+      "role": "Freddie Burns",
       "thumb": "/wqg6qaNkYUMviXz7irNWJGDdeZB.jpg"
     },
     {
@@ -458,12 +459,6 @@
       "thumb": "/gPcG3xAnuUP9pMxGWkhb5nQqOPQ.jpg"
     },
     {
-      "name": "Brandon Flynn",
-      "order": 169,
-      "role": "Ryan Peters",
-      "thumb": "/iqDIFoLKrRl6yzKTnyqVA4aa00L.jpg"
-    },
-    {
       "name": "Emily Nelson",
       "order": 169,
       "role": "Margaret",
@@ -474,6 +469,12 @@
       "order": 169,
       "role": "Frankie Boyle",
       "thumb": null
+    },
+    {
+      "name": "Brandon Flynn",
+      "order": 169,
+      "role": "Ryan Peters",
+      "thumb": "/iqDIFoLKrRl6yzKTnyqVA4aa00L.jpg"
     },
     {
       "name": "Corbin B. Pitts",
@@ -551,7 +552,7 @@
       "name": "Pedro Miguel Arce",
       "order": 99,
       "role": "Danny Santos",
-      "thumb": "/zNluiNjyxoEAlGUYnQuJDiCw6zq.jpg"
+      "thumb": "/rcFX6qJiODEgMUzwuEVWMcdskg4.jpg"
     },
     {
       "name": "Fred Ward",
@@ -680,10 +681,10 @@
       "thumb": null
     },
     {
-      "name": "BoJesse Christopher",
+      "name": "Phoenix Elkin",
       "order": 186,
-      "role": "Detective Richard Kitting",
-      "thumb": "/z6OQYBH4nl6JSabTX21tkg6gyZ8.jpg"
+      "role": "Will Purcell",
+      "thumb": null
     },
     {
       "name": "Lena McCarthy",
@@ -692,10 +693,10 @@
       "thumb": null
     },
     {
-      "name": "Phoenix Elkin",
+      "name": "BoJesse Christopher",
       "order": 186,
-      "role": "Will Purcell",
-      "thumb": null
+      "role": "Detective Richard Kitting",
+      "thumb": "/z6OQYBH4nl6JSabTX21tkg6gyZ8.jpg"
     },
     {
       "name": "Sola Bamis",
@@ -706,7 +707,7 @@
     {
       "name": "Bea Santos",
       "order": 194,
-      "role": "21 Year Old Lucy Purcell",
+      "role": "21 year old Julie Purcell",
       "thumb": "/xQucP9echnVIjaGR36iajASZJXD.jpg"
     },
     {
@@ -1247,7 +1248,7 @@
       "name": "Dennis Keiffer",
       "order": 197,
       "role": "Biker",
-      "thumb": "/bmLkNcO8emp17vTMKaRUBHYE15j.jpg"
+      "thumb": "/doIzWmzTC3dWlij9YBFNeJHZjBG.jpg"
     },
     {
       "name": "Eric Parkinson",
@@ -1271,13 +1272,13 @@
       "name": "Jodi Balfour",
       "order": 200,
       "role": "Lori",
-      "thumb": null
+      "thumb": "/pDy0YUycyiTaoIyH0pYLUW6JwKH.jpg"
     },
     {
       "name": "Seth Barrish",
       "order": 201,
       "role": "Priest",
-      "thumb": null
+      "thumb": "/Tr9Sv3seUxfm156VvOfzs2durT.jpg"
     },
     {
       "name": "Candyce Hinkle",
@@ -1395,6 +1396,7 @@
       "background": "https://image.tmdb.org/t/p/w1280/2Ahm0YjLNQKuzSf9LOkHrXk8qIE.jpg",
       "poster": "https://image.tmdb.org/t/p/w780/aowr4xpLP5sRCL50TkuADomJ98T.jpg",
       "seasonPosters": {
+        "0": "",
         "1": "https://image.tmdb.org/t/p/w780/bppxcPh60DftSkKkj5wdmSua5sd.jpg",
         "2": "https://image.tmdb.org/t/p/w780/owTL3WTY4Yax2qClnwbaDsOO72r.jpg",
         "3": "https://image.tmdb.org/t/p/w780/uOd2yMAxhfvwNd0pkVapHgRk1c1.jpg"
@@ -1402,6 +1404,29 @@
     }
   },
   "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        {
+          "aired": "2014-01-07",
+          "plot": "HBO's making of True Detective, a crime drama centered around two Louisiana State PD detectives, and their 17-year hunt for a ritual killer, starring Matthew McConaughey and Woody Harrelson.",
+          "thumbnail": "",
+          "title": "Making True Detective"
+        },
+        {
+          "aired": "2015-06-16",
+          "plot": "Interviews with Colin Farrell, Vince Vaughn, Rachel McAdams, Taylor Kitsch and Executive Producer Scott Stephens as they discuss making the new season of \"True Detective\".",
+          "thumbnail": "",
+          "title": "A Look Inside True Detective"
+        },
+        {
+          "aired": "2015-11-02",
+          "plot": "An exclusive and detailed 30-minute look at the production for the pivotal scene of Episode 4.",
+          "thumbnail": "",
+          "title": "Making the Vinci Massacre"
+        }
+      ]
+    },
     "1": {
       "episodes": [
         null,
@@ -1514,13 +1539,13 @@
         {
           "aired": "2019-01-13",
           "plot": "The disappearance of a young Arkansas boy and his sister in 1980 triggers vivid memories and enduring questions for retired detective Wayne Hays, who worked the case 35 years before with partner Roland West. What started as a routine case becomes a long journey to dissect and make sense of the crime.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/pJSjYUN0om8ch5dBj9G0rZ1dGiu.jpg",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/69kaprzlFWYW3Mucs3iVVgkWVV9.jpg",
           "title": "The Great War and Modern Memory"
         },
         {
           "aired": "2019-01-13",
           "plot": "Hays looks back at the aftermath of the 1980 Purcell case in West Finger, Arkansas, including possible evidence left behind at the Devil's Den. As attention focuses on two conspicuous suspects--Brett Woodard, a solitary vet and trash collector, and Ted LaGrange, an ex-con with a penchant for children--the parents of the missing kids, Tom and Lucy Purcell, receive a cryptic note.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/cyE86pfKRVlAlHZgDscbmaBOr89.jpg",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y288eNTTYo21xRxwMe5hjYD0Za5.jpg",
           "title": "Kiss Tomorrow Goodbye"
         },
         {
@@ -1532,13 +1557,13 @@
         {
           "aired": "2019-01-27",
           "plot": "Hays and West see a possible connection between the local church and the Purcell crimes. As the detectives search for one suspect and round up another for interrogation, Woodard is targeted by a vigilante group.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/mnmcJMx7oIPKiZcZwi0r7WNFlfA.jpg",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rqTEBDu8bOhq0mBlaD5abOUwuPy.jpg",
           "title": "The Hour and the Day"
         },
         {
           "aired": "2019-02-03",
           "plot": "Wayne finds himself in a no-win situation as new clues emerge in the Purcell case. Roland wrestles with how to keep evidence secure as lawyers demand a new investigation. Amelia finds her relationship with Wayne imperiled by her writing aspirations and his jealousy.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/eFtEt0gfhPzoFp5iezZhjx6H0Qx.jpg",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/5vAXu7Fgly2O7KEXQ3AOXtaQ6VX.jpg",
           "title": "If You Have Ghosts"
         },
         {

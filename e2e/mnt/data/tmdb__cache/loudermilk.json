@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015205359,
   "genres": [
     "Comedy",
     "Drama"
@@ -49,7 +50,7 @@
       "name": "Timothy Webber",
       "order": 6,
       "role": "Ed",
-      "thumb": "/mM49QpT5fwGCMPenjOIrUo1nqV8.jpg"
+      "thumb": "/Av0mtgZ9DeopXP9NQjzd8q9ZPd6.jpg"
     },
     {
       "name": "Tyler Layton-Olson",

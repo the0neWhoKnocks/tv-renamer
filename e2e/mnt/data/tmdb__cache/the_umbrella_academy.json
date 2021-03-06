@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015232943,
   "genres": [
     "Action & Adventure",
     "Sci-Fi & Fantasy",
@@ -70,22 +71,16 @@
       "thumb": "/ephzwqElc1LzIDfm9fiVf38ppkK.jpg"
     },
     {
-      "name": "Cameron Britton",
-      "order": 7,
-      "role": "Hazel",
-      "thumb": "/Aobxj7I3aPOkHlQiiQSE64aHCud.jpg"
-    },
-    {
       "name": "Marin Ireland",
       "order": 7,
       "role": "Sissy",
       "thumb": "/jAIOQNraHjvIAdqk81QDV5Phupp.jpg"
     },
     {
-      "name": "Mary J. Blige",
-      "order": 8,
-      "role": "Cha-Cha",
-      "thumb": "/riQBsxzhbp8E7T9noJEZrEoLZWO.jpg"
+      "name": "Cameron Britton",
+      "order": 7,
+      "role": "Hazel",
+      "thumb": "/Aobxj7I3aPOkHlQiiQSE64aHCud.jpg"
     },
     {
       "name": "Ritu Arya",
@@ -94,16 +89,22 @@
       "thumb": "/9ojwd1UhOJx6Jx8s6hLwNP2HwGb.jpg"
     },
     {
-      "name": "Yusuf Gatewood",
-      "order": 9,
-      "role": "Raymond Chestnut",
-      "thumb": "/2MXPjXtx7JkdeXLWG9a1DsGfGSJ.jpg"
+      "name": "Mary J. Blige",
+      "order": 8,
+      "role": "Cha-Cha",
+      "thumb": "/riQBsxzhbp8E7T9noJEZrEoLZWO.jpg"
     },
     {
       "name": "Adam Godley",
       "order": 9,
       "role": "Pogo",
       "thumb": "/xOM0zOb2KZ2q8M6lRrDo9bEBeJE.jpg"
+    },
+    {
+      "name": "Yusuf Gatewood",
+      "order": 9,
+      "role": "Raymond Chestnut",
+      "thumb": "/2MXPjXtx7JkdeXLWG9a1DsGfGSJ.jpg"
     },
     {
       "name": "Jordan Claire Robbins",
@@ -163,7 +164,7 @@
       "name": "Paskal Vaklev",
       "order": 11,
       "role": "Teenage Boy",
-      "thumb": null
+      "thumb": "/6szmSRFgFlf9yf9TgEZVSbmSv0x.jpg"
     },
     {
       "name": "Anna Nadtotchii",
@@ -175,13 +176,13 @@
       "name": "Janet Monid",
       "order": 13,
       "role": "Instructor",
-      "thumb": null
+      "thumb": "/sPI45T9e3ZITULf85MjujwMU2So.jpg"
     },
     {
       "name": "Adam Growe",
       "order": 14,
       "role": "Jim Hellerman",
-      "thumb": null
+      "thumb": "/sMLFebZi5iaycwS7F5hFFMTx0aO.jpg"
     },
     {
       "name": "Lee Rumohr",
@@ -205,85 +206,25 @@
       "name": "Michael Mast",
       "order": 18,
       "role": "Paparazzi #1",
-      "thumb": null
+      "thumb": "/lybv7gBodaPCG8j8KA7htdH1B73.jpg"
     },
     {
       "name": "Phil Borg",
       "order": 19,
       "role": "Paparazzi #2",
-      "thumb": null
+      "thumb": "/22U1W0DW45zUclBtjXg9YjuHWMd.jpg"
     },
     {
       "name": "Cherie D'Elia",
       "order": 20,
       "role": "Paparazzi #3",
-      "thumb": null
+      "thumb": "/sNCV1Z7HsnqWR0orrdvkS1zLbin.jpg"
     },
     {
       "name": "Peter Outerbridge",
       "order": 20,
       "role": "The Conductor",
       "thumb": "/kK4OUFJCk2eVmluzpS28uqjKHpk.jpg"
-    },
-    {
-      "name": "Kjartan Hewitt",
-      "order": 40,
-      "role": "Hal",
-      "thumb": "/PQrGGYNsZsTSjurAEMII3mxXBz.jpg"
-    },
-    {
-      "name": "Stephen Bogaert",
-      "order": 40,
-      "role": "Carl Cooper",
-      "thumb": "/snk4elJGQwdV3RN017rFS074XSv.jpg"
-    },
-    {
-      "name": "Dov Tiefenbach",
-      "order": 40,
-      "role": "Keechie",
-      "thumb": "/m5zltcenHoksNzbNlM1V4S5m5A1.jpg"
-    },
-    {
-      "name": "Jason Bryden",
-      "order": 40,
-      "role": "Otto",
-      "thumb": "/julZmecbULIhu1Ha9pkUDIeEgVA.jpg"
-    },
-    {
-      "name": "Tom Sinclair",
-      "order": 40,
-      "role": "Oscar",
-      "thumb": null
-    },
-    {
-      "name": "George Wyner",
-      "order": 40,
-      "role": "Dan Frankel",
-      "thumb": "/pWd7EqBz83MWu6FfLG0Eco7yY5d.jpg"
-    },
-    {
-      "name": "Justin Paul Kelly",
-      "order": 40,
-      "role": "Harlan",
-      "thumb": "/qmi6cqd7AIoMJGHhPTcAQscxKhe.jpg"
-    },
-    {
-      "name": "Patrice Goodman",
-      "order": 40,
-      "role": "Dot",
-      "thumb": "/vUo2byD6R6AVAW7StnE4to63mnU.jpg"
-    },
-    {
-      "name": "Ken Hall",
-      "order": 40,
-      "role": "Herb",
-      "thumb": null
-    },
-    {
-      "name": "JD Smith",
-      "order": 40,
-      "role": "Officer #1",
-      "thumb": "/cufFNRTKd3QzkqVSwa1lISm6E14.jpg"
     },
     {
       "name": "Mindy Sterling",
@@ -298,40 +239,10 @@
       "thumb": "/joMhJB4dk4AtJ0KtAmIGs3y2IdC.jpg"
     },
     {
-      "name": "William Poulin",
-      "order": 40,
-      "role": "Norm",
-      "thumb": null
-    },
-    {
-      "name": "Kristen Holden-Ried",
-      "order": 40,
-      "role": "Axel",
-      "thumb": "/lphlznej10kVTFkPcSFYCigaZV9.jpg"
-    },
-    {
-      "name": "John Kapelos",
-      "order": 40,
-      "role": "Jack Ruby",
-      "thumb": "/9buu5iq8FxJXMqMjmqEjm1zl2A6.jpg"
-    },
-    {
-      "name": "Kevin Rankin",
-      "order": 40,
-      "role": "Elliott",
-      "thumb": "/fOW5R6BSgRvMrt2R7KAxSk7L4H2.jpg"
-    },
-    {
       "name": "Robert Skanes",
       "order": 40,
       "role": "Arresting Officer",
-      "thumb": null
-    },
-    {
-      "name": "Colleen Reynolds",
-      "order": 40,
-      "role": "Landlord",
-      "thumb": null
+      "thumb": "/7QOr926Ip06PmFuLYvjFzOQUbMs.jpg"
     },
     {
       "name": "Bo Martyn",
@@ -340,10 +251,100 @@
       "thumb": "/9yl9hXW9xdWHHPDd9vKtJLxDv7u.jpg"
     },
     {
+      "name": "George Wyner",
+      "order": 40,
+      "role": "Dan Frankel",
+      "thumb": "/pWd7EqBz83MWu6FfLG0Eco7yY5d.jpg"
+    },
+    {
+      "name": "Colleen Reynolds",
+      "order": 40,
+      "role": "Landlord",
+      "thumb": "/kTqWkW723pMLV6hyNl5npsgqoz8.jpg"
+    },
+    {
+      "name": "Kjartan Hewitt",
+      "order": 40,
+      "role": "Hal",
+      "thumb": "/PQrGGYNsZsTSjurAEMII3mxXBz.jpg"
+    },
+    {
+      "name": "Jason Bryden",
+      "order": 40,
+      "role": "Otto",
+      "thumb": "/julZmecbULIhu1Ha9pkUDIeEgVA.jpg"
+    },
+    {
+      "name": "Tom Sinclair",
+      "order": 40,
+      "role": "Oscar",
+      "thumb": "/i1zJcPyl7TdZSL44oWM0FPHkFv0.jpg"
+    },
+    {
+      "name": "Stephen Bogaert",
+      "order": 40,
+      "role": "Carl Cooper",
+      "thumb": "/snk4elJGQwdV3RN017rFS074XSv.jpg"
+    },
+    {
+      "name": "John Kapelos",
+      "order": 40,
+      "role": "Jack Ruby",
+      "thumb": "/9buu5iq8FxJXMqMjmqEjm1zl2A6.jpg"
+    },
+    {
+      "name": "Kristen Holden-Ried",
+      "order": 40,
+      "role": "Axel",
+      "thumb": "/lphlznej10kVTFkPcSFYCigaZV9.jpg"
+    },
+    {
+      "name": "Patrice Goodman",
+      "order": 40,
+      "role": "Dot",
+      "thumb": "/vUo2byD6R6AVAW7StnE4to63mnU.jpg"
+    },
+    {
+      "name": "Kevin Rankin",
+      "order": 40,
+      "role": "Elliott",
+      "thumb": "/fOW5R6BSgRvMrt2R7KAxSk7L4H2.jpg"
+    },
+    {
+      "name": "JD Smith",
+      "order": 40,
+      "role": "Officer #1",
+      "thumb": "/cufFNRTKd3QzkqVSwa1lISm6E14.jpg"
+    },
+    {
+      "name": "Ken Hall",
+      "order": 40,
+      "role": "Herb",
+      "thumb": "/yw3rdrwWG7YpASpATfM599lQyuE.jpg"
+    },
+    {
+      "name": "Dov Tiefenbach",
+      "order": 40,
+      "role": "Keechie",
+      "thumb": "/m5zltcenHoksNzbNlM1V4S5m5A1.jpg"
+    },
+    {
+      "name": "Justin Paul Kelly",
+      "order": 40,
+      "role": "Harlan",
+      "thumb": "/qmi6cqd7AIoMJGHhPTcAQscxKhe.jpg"
+    },
+    {
+      "name": "William Poulin",
+      "order": 40,
+      "role": "Norm",
+      "thumb": "/5LSRBJkeAPleZJEDhfbW1YokSuf.jpg"
+    },
+    {
       "name": "Jesse Noah Gruman",
       "order": 61,
       "role": "Young Harold",
-      "thumb": null
+      "thumb": "/e011WymyvXO90SrFKtHybK070Yo.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -390,9 +391,9 @@
       ],
       "seriesBanner": [
         "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5f10848af2dbb.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5f583d5a2169e.jpg",
         "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5c66b6c35ba17.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5c66b6c363e61.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5f583d5a2169e.jpg"
+        "https://assets.fanart.tv/fanart/tv/353764/tvbanner/the-umbrella-academy-5c66b6c363e61.jpg"
       ],
       "seriesPoster": [
         "https://assets.fanart.tv/fanart/tv/353764/tvposter/the-umbrella-academy-5f036e2c78b3e.jpg",
@@ -405,14 +406,14 @@
       ],
       "seriesThumb": [
         "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f1083dcb2c1b.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b193ba7f6.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b6d34df9c.jpg",
         "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f583ca39a005.jpg",
-        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f583ca4e5e28.jpg"
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5f583ca4e5e28.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b193ba7f6.jpg",
+        "https://assets.fanart.tv/fanart/tv/353764/tvthumb/the-umbrella-academy-5c66b6d34df9c.jpg"
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/w1280/mE3zzMkpP8yqlkzdjPsQmJHceoe.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/qJxzjUjCpTPvDHldNnlbRC4OqEh.jpg",
       "poster": "https://image.tmdb.org/t/p/w780/scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg",
       "seasonPosters": {
         "0": "",

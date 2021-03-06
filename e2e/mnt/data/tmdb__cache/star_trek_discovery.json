@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015217152,
   "genres": [
     "Sci-Fi & Fantasy",
     "Action & Adventure"
@@ -24,7 +25,7 @@
       "name": "Doug Jones",
       "order": 1,
       "role": "Saru",
-      "thumb": "/tKjCnbbXb3o7upPxh4XLSdTcYDB.jpg"
+      "thumb": "/rpvvWATYWHGjedJea0G97XufOwU.jpg"
     },
     {
       "name": "Mary Wiseman",
@@ -42,7 +43,25 @@
       "name": "Michelle Yeoh",
       "order": 130,
       "role": "Captain Philippa Georgiou",
-      "thumb": "/wPI2wn6WJEtJr1oAMTLBLh92Ryc.jpg"
+      "thumb": "/gPtGtHPfImNhXJSOIjl9g6W7N6X.jpg"
+    },
+    {
+      "name": "Patrick Kwok-Choon",
+      "order": 153,
+      "role": "Lt. Gen Rhys",
+      "thumb": "/9q410Pu0a3s4oJWQjKylTkXoVpv.jpg"
+    },
+    {
+      "name": "Oyin Oladejo",
+      "order": 176,
+      "role": "Lt. Joann Owosekun",
+      "thumb": "/98nKSc2N8EGUK43JKdVLEpxleTu.jpg"
+    },
+    {
+      "name": "Wilson Cruz",
+      "order": 199,
+      "role": "Dr. Hugh Culber",
+      "thumb": "/lVvWWl3C01L8p7DimH4BERiTiN5.jpg"
     },
     {
       "name": "Shazad Latif",
@@ -51,33 +70,15 @@
       "thumb": "/nwOYOs5yIBrM1zVN1nyUxbjcrEY.jpg"
     },
     {
-      "name": "Patrick Kwok-Choon",
-      "order": 146,
-      "role": "Rhys",
-      "thumb": "/9q410Pu0a3s4oJWQjKylTkXoVpv.jpg"
-    },
-    {
-      "name": "Oyin Oladejo",
-      "order": 166,
-      "role": "Joann Owosekun",
-      "thumb": "/98nKSc2N8EGUK43JKdVLEpxleTu.jpg"
-    },
-    {
-      "name": "Wilson Cruz",
-      "order": 185,
-      "role": "Dr. Hugh Culber",
-      "thumb": "/lVvWWl3C01L8p7DimH4BERiTiN5.jpg"
-    },
-    {
       "name": "Sara Mitich",
-      "order": 158,
-      "role": "Lt. Nilsson",
+      "order": 168,
+      "role": "Airiam",
       "thumb": "/kwFIjhQYGTh9iqmCe0vhPhxlbOe.jpg"
     },
     {
       "name": "Ronnie Rowe",
-      "order": 126,
-      "role": "Shuttle Pilot",
+      "order": 132,
+      "role": "Lt. R.A. Bryce",
       "thumb": "/hejNuC2QGsGwQNzhSE7Sb2PKBSF.jpg"
     },
     {
@@ -100,9 +101,15 @@
     },
     {
       "name": "Julianne Grossman",
-      "order": 163,
-      "role": "Discovery Computer (voice)",
+      "order": 178,
+      "role": "Sanctuary Voice (voice)",
       "thumb": "/cPnaCpQEoUkJVlIyFYzibsGjtb7.jpg"
+    },
+    {
+      "name": "Emily Coutts",
+      "order": 201,
+      "role": "Lt. Keyla Detmer",
+      "thumb": "/hxZf2ZzEFToeUDlfe4rxu9yEc42.jpg"
     },
     {
       "name": "David Ajala",
@@ -117,16 +124,22 @@
       "thumb": "/wb0qGQoXwraTTnnsi1Lv4TcYFrT.jpg"
     },
     {
-      "name": "Emily Coutts",
-      "order": 186,
-      "role": "Lt. Keyla Detmer",
-      "thumb": "/hxZf2ZzEFToeUDlfe4rxu9yEc42.jpg"
-    },
-    {
       "name": "Rachael Ancheril",
       "order": 160,
       "role": "Cmdr. Nhan",
       "thumb": "/vO9eXQ218Dt9Dk3eKr0U3fXv6AU.jpg"
+    },
+    {
+      "name": "Tig Notaro",
+      "order": 165,
+      "role": "Jett Reno",
+      "thumb": "/tdZ6XLzIaK0HWWPSM2B5OrOqUC0.jpg"
+    },
+    {
+      "name": "Kenneth Mitchell",
+      "order": 110,
+      "role": "Time Keeper Tenavik",
+      "thumb": "/8p9WeJZk3acU6QEBgJHgMKrr5kQ.jpg"
     },
     {
       "name": "Ethan Peck",
@@ -135,16 +148,16 @@
       "thumb": "/9KaxSgpbx9Zj827xXLML3bWknNV.jpg"
     },
     {
-      "name": "Tig Notaro",
-      "order": 160,
-      "role": "Cmdr. Jett Reno",
-      "thumb": "/tdZ6XLzIaK0HWWPSM2B5OrOqUC0.jpg"
+      "name": "David Benjamin Tomlinson",
+      "order": 154,
+      "role": "Linus the Saurian",
+      "thumb": "/lFVOI5UoOBuYwuwIv8Wy1gye5uw.jpg"
     },
     {
-      "name": "Kenneth Mitchell",
-      "order": 80,
-      "role": "Kol",
-      "thumb": "/8p9WeJZk3acU6QEBgJHgMKrr5kQ.jpg"
+      "name": "Blu del Barrio",
+      "order": 180,
+      "role": "Adira Tal",
+      "thumb": "/g1EYG2rUSqeg2Z6VeUIlc2dRsyI.jpg"
     },
     {
       "name": "Mia Kirshner",
@@ -156,36 +169,24 @@
       "name": "Alan van Sprang",
       "order": 126,
       "role": "Leland",
-      "thumb": "/i8w2PSCPHVOLmaT0MQyEFqwAHis.jpg"
-    },
-    {
-      "name": "David Benjamin Tomlinson",
-      "order": 142,
-      "role": "Cosmo Traitt",
-      "thumb": "/lFVOI5UoOBuYwuwIv8Wy1gye5uw.jpg"
-    },
-    {
-      "name": "Blu del Barrio",
-      "order": 173,
-      "role": "Adira Tal",
-      "thumb": "/g1EYG2rUSqeg2Z6VeUIlc2dRsyI.jpg"
+      "thumb": "/pRoYSbQTkOwGGIChDPQXmZ22nV2.jpg"
     },
     {
       "name": "Oded Fehr",
-      "order": 185,
+      "order": 199,
       "role": "Admiral Charles Vance",
       "thumb": "/gcYVN3vx8tHedEz2RbVNSKs44Wm.jpg"
     },
     {
       "name": "Raven Dauda",
-      "order": 187,
+      "order": 202,
       "role": "Dr. Tracy Pollard",
       "thumb": "/g7pj8LHrUTpmGMm3wCrUNqAE5fq.jpg"
     },
     {
       "name": "Nicole Dickinson",
       "order": 108,
-      "role": "Hadley",
+      "role": "Yeoman Colt",
       "thumb": "/A90UYZONOlxZnnuq0GD8z9SkcFo.jpg"
     },
     {
@@ -199,6 +200,12 @@
       "order": 126,
       "role": "Number One",
       "thumb": "/7rJD4rOU1akOLPUxPH9DxGHDSqJ.jpg"
+    },
+    {
+      "name": "Avaah Blackwell",
+      "order": 185,
+      "role": "Osnullus Trader",
+      "thumb": null
     },
     {
       "name": "Rekha Sharma",
@@ -227,8 +234,14 @@
     {
       "name": "Riley Gilchrist",
       "order": 107,
-      "role": "Andorian Regulator",
+      "role": "Shukar",
       "thumb": "/Ap5C4QWs1Ti5QnszpwIrODWLorO.jpg"
+    },
+    {
+      "name": "Hannah Spear",
+      "order": 163,
+      "role": "Dr. Issa",
+      "thumb": "/xBsaXZXGLs2UoSONNvVm7VrVNtQ.jpg"
     },
     {
       "name": "Sonja Sohn",
@@ -237,10 +250,16 @@
       "thumb": "/d0ZWYNTGscHKFbjkA5Lrg4AOjnX.jpg"
     },
     {
-      "name": "Avaah Blackwell",
-      "order": 184,
-      "role": "Captain Rahma",
-      "thumb": null
+      "name": "Ian Alexander",
+      "order": 192,
+      "role": "Gray Tal",
+      "thumb": "/k1EaK6ZuTwhGfNzP8OiU3Nyt3HV.jpg"
+    },
+    {
+      "name": "Vanessa Jackson",
+      "order": 203,
+      "role": "Lt. Audrey Willa",
+      "thumb": "/gnUc3PNKTJe5sgB2kxfekpz605b.jpg"
     },
     {
       "name": "Christopher Russell",
@@ -255,16 +274,16 @@
       "thumb": "/lmy5NQsrTlbsyTrQw30gsKCZbWm.jpg"
     },
     {
-      "name": "Clare McConnell",
-      "order": 92,
-      "role": "Dennas",
-      "thumb": "/h46ZPO59QudLsKmdjRe4sZwsof0.jpg"
-    },
-    {
       "name": "Damon Runyan",
       "order": 92,
       "role": "Ujilli",
       "thumb": "/74HBlulH9QcYN0CFQrGPv7oS2Gm.jpg"
+    },
+    {
+      "name": "Clare McConnell",
+      "order": 92,
+      "role": "Dennas",
+      "thumb": "/h46ZPO59QudLsKmdjRe4sZwsof0.jpg"
     },
     {
       "name": "Sam Vartholomeos",
@@ -281,14 +300,8 @@
     {
       "name": "Michael Ayres",
       "order": 101,
-      "role": "Transporter Technician",
+      "role": "Transporter Officer",
       "thumb": "/5DgTTGxfrRpoS7DxhzDjEZUeZzR.jpg"
-    },
-    {
-      "name": "Yadira Guevara-Prip",
-      "order": 126,
-      "role": "Me Hani Ika Hali Ka Po",
-      "thumb": "/z7LMdFKpUELprcCvxA8TKpLM4hm.jpg"
     },
     {
       "name": "Samora Smallwood",
@@ -297,10 +310,10 @@
       "thumb": "/zuHF6M9w80PLl3gitJACvsbKRg4.jpg"
     },
     {
-      "name": "Hannah Spear",
-      "order": 152,
-      "role": "Siranna",
-      "thumb": "/xBsaXZXGLs2UoSONNvVm7VrVNtQ.jpg"
+      "name": "Yadira Guevara-Prip",
+      "order": 126,
+      "role": "Me Hani Ika Hali Ka Po",
+      "thumb": "/z7LMdFKpUELprcCvxA8TKpLM4hm.jpg"
     },
     {
       "name": "Hannah Cheesman",
@@ -309,16 +322,28 @@
       "thumb": "/s8S3hcNXhxL0e6GyStRpewy8QPm.jpg"
     },
     {
-      "name": "Ian Alexander",
-      "order": 185,
-      "role": "Gray",
-      "thumb": "/k1EaK6ZuTwhGfNzP8OiU3Nyt3HV.jpg"
+      "name": "Adil Hussain",
+      "order": 200,
+      "role": "Aditya Sahil",
+      "thumb": "/eCWVa1pH7mmz0i9Q0l4VEKs7g6m.jpg"
     },
     {
-      "name": "Vanessa Jackson",
-      "order": 197,
-      "role": "Lt. Audrey Willa",
-      "thumb": "/gnUc3PNKTJe5sgB2kxfekpz605b.jpg"
+      "name": "David Cronenberg",
+      "order": 200,
+      "role": "Kovich",
+      "thumb": "/kLHnBnUomcH96PdLRBnuZUzRoY1.jpg"
+    },
+    {
+      "name": "Janet Kidder",
+      "order": 200,
+      "role": "Osyraa",
+      "thumb": "/vQaIlXJkAa2H5TOL3MZtAqD6Yks.jpg"
+    },
+    {
+      "name": "Annabelle Wallis",
+      "order": 201,
+      "role": "Zora (voice)",
+      "thumb": "/a06MeZ81XsMoBBEos1amv9SXar4.jpg"
     },
     {
       "name": "Jimmy Chimarios",
@@ -333,27 +358,27 @@
       "thumb": "/yY0XNzjm9ymWDmdzTQXAOUDFRwd.jpg"
     },
     {
-      "name": "Terry Serpico",
-      "order": 56,
-      "role": "Brett Anderson",
-      "thumb": "/nxku2blYCPYtEmAkKlUFJ4YUWsa.jpg"
-    },
-    {
       "name": "Christopher Obi",
       "order": 56,
       "role": "T'Kuvma",
       "thumb": "/6YwSgr2INMxegP5Y78lNDFIZO4y.jpg"
     },
     {
+      "name": "Terry Serpico",
+      "order": 56,
+      "role": "Brett Anderson",
+      "thumb": "/nxku2blYCPYtEmAkKlUFJ4YUWsa.jpg"
+    },
+    {
       "name": "Devon MacDonald",
       "order": 84,
-      "role": "Service Engineer",
+      "role": "Engineering Officer",
       "thumb": "/1iRs7HE4ZZZ2rcOo0pEA5lsp4Ir.jpg"
     },
     {
       "name": "Anthony Grant",
       "order": 87,
-      "role": "Er' Toom",
+      "role": "Klingon Communications Officer",
       "thumb": "/nxIlWp6b8bBow0OzAx57FRN1Bhg.jpg"
     },
     {
@@ -363,16 +388,16 @@
       "thumb": "/9lYFC3D84nLvBMiFChGQizkjpgh.jpg"
     },
     {
-      "name": "Dwain Murphy",
-      "order": 104,
-      "role": "Captain Maddox",
-      "thumb": "/8tQI3AXInj4EP5kqZ4GOvEb4V8j.jpg"
-    },
-    {
       "name": "Jeremy Crittenden",
       "order": 104,
       "role": "Lord Eling",
       "thumb": "/orsR2zGjur7ognYqVPS8QDCR7Dk.jpg"
+    },
+    {
+      "name": "Dwain Murphy",
+      "order": 104,
+      "role": "Captain Maddox",
+      "thumb": "/8tQI3AXInj4EP5kqZ4GOvEb4V8j.jpg"
     },
     {
       "name": "Hanneke Talbot",
@@ -387,18 +412,6 @@
       "thumb": "/sjaK9AgywMhSgSW5bfVG93NOAUH.jpg"
     },
     {
-      "name": "Adil Hussain",
-      "order": 135,
-      "role": "Aditya Sahil",
-      "thumb": "/eCWVa1pH7mmz0i9Q0l4VEKs7g6m.jpg"
-    },
-    {
-      "name": "Annabelle Wallis",
-      "order": 144,
-      "role": "Zora (voice)",
-      "thumb": "/JNxO1Dl1ofiAa95EygRHi479TL.jpg"
-    },
-    {
       "name": "Kenneth Welsh",
       "order": 144,
       "role": "Senna Tal",
@@ -407,8 +420,14 @@
     {
       "name": "Ian Lake",
       "order": 168,
-      "role": "Talor",
+      "role": "Tolor",
       "thumb": "/f8FK8fiDSq7qUtITo2wdMjbB8c5.jpg"
+    },
+    {
+      "name": "Karen Robinson",
+      "order": 172,
+      "role": "Leader Pav",
+      "thumb": "/995Jzga6OLGjijMd1znZpOdPkWx.jpg"
     },
     {
       "name": "Noah Averbach-Katz",
@@ -417,28 +436,52 @@
       "thumb": "/2otSY3KRiHSUtmy3S67JKghk4Ap.jpg"
     },
     {
-      "name": "David Cronenberg",
-      "order": 180,
-      "role": "Kovich",
-      "thumb": "/kLHnBnUomcH96PdLRBnuZUzRoY1.jpg"
-    },
-    {
       "name": "Paul Guilfoyle",
       "order": 183,
       "role": "Carl",
-      "thumb": "/oQsmHIRAqNvnjW80c7nYbVWvgb0.jpg"
+      "thumb": "/c7unxeM13lF9pMhZhYwlNsSFjFe.jpg"
     },
     {
-      "name": "Janet Kidder",
-      "order": 186,
-      "role": "Osyraa",
-      "thumb": "/vQaIlXJkAa2H5TOL3MZtAqD6Yks.jpg"
+      "name": "Roy Samuelson",
+      "order": 199,
+      "role": "Emerald Chain Computer (voice)",
+      "thumb": null
     },
     {
       "name": "Brendan Beiser",
       "order": 199,
       "role": "Eli the E.M.H.",
       "thumb": "/ynb8oRYud4N15KQXxXTe3sOxwgK.jpg"
+    },
+    {
+      "name": "Bill Irwin",
+      "order": 200,
+      "role": "Su'Kal",
+      "thumb": "/7FBGPliqZwpTrnjwA5wJiXXaUpu.jpg"
+    },
+    {
+      "name": "Jake Weber",
+      "order": 201,
+      "role": "Zareh",
+      "thumb": "/aCmqALe3eZ4kr0TVihIrwf6yJXE.jpg"
+    },
+    {
+      "name": "Dorren Lee",
+      "order": 203,
+      "role": "Lt. Teemo",
+      "thumb": "/ge9mgrsnqAahwbsHJMX5lTuKtOU.jpg"
+    },
+    {
+      "name": "Jinny Jacinto",
+      "order": 203,
+      "role": "The Monster",
+      "thumb": null
+    },
+    {
+      "name": "Tara Rosling",
+      "order": 204,
+      "role": "President T'Rina",
+      "thumb": null
     },
     {
       "name": "Clint Howard",
@@ -486,7 +529,7 @@
       "name": "Melissa George",
       "order": 46,
       "role": "Vina",
-      "thumb": "/eHO99JSB9I5vuqYm5LpduNQuWQY.jpg"
+      "thumb": "/wGdQgdCblHxzZH4b2ftl1P09CRf.jpg"
     },
     {
       "name": "Chris Violette",
@@ -681,12 +724,6 @@
       "thumb": "/nNS3Cuqqd9lPiKp9I3XPe3gX1i4.jpg"
     },
     {
-      "name": "Jake Weber",
-      "order": 128,
-      "role": "Zareh",
-      "thumb": "/aCmqALe3eZ4kr0TVihIrwf6yJXE.jpg"
-    },
-    {
       "name": "Wole Daramola",
       "order": 129,
       "role": "Red Eyes (Heavy)",
@@ -753,16 +790,10 @@
       "thumb": "/yK6qWJ9KgEeJsGGK3Fu6ldR3HkD.jpg"
     },
     {
-      "name": "Karen Robinson",
-      "order": 142,
-      "role": "Leader Pav",
-      "thumb": "/995Jzga6OLGjijMd1znZpOdPkWx.jpg"
-    },
-    {
       "name": "Andrew Shaver",
       "order": 143,
       "role": "Commissioner Vos",
-      "thumb": "/4ZIutStCbx69eEXwQmf5T1CF0jn.jpg"
+      "thumb": "/6W89t1kbnI9dWUVUT0fwTotufsd.jpg"
     },
     {
       "name": "Elana Dunkelman",
@@ -891,16 +922,10 @@
       "thumb": "/6zxYdbUr0nu2ibA3C0iGabNoEBP.jpg"
     },
     {
-      "name": "Tara Rosling",
-      "order": 171,
-      "role": "President T'Rina",
-      "thumb": null
-    },
-    {
       "name": "Ache Hernandez",
       "order": 174,
       "role": "Kyheem",
-      "thumb": null
+      "thumb": "/h6zHAQP8MXpzaA3CE7jTgSirQqS.jpg"
     },
     {
       "name": "Ross Carter",
@@ -927,12 +952,6 @@
       "thumb": "/v8xa3aFbdk0t7RXpXiLlXI7QepH.jpg"
     },
     {
-      "name": "Bill Irwin",
-      "order": 185,
-      "role": "Su'Kal",
-      "thumb": "/7FBGPliqZwpTrnjwA5wJiXXaUpu.jpg"
-    },
-    {
       "name": "Nelu Handa",
       "order": 187,
       "role": "Smiling Starfleet Lieutenant Holo",
@@ -943,12 +962,6 @@
       "order": 188,
       "role": "Regulator",
       "thumb": "/hEM4yD4hPSSvBDBbp3HT3vEwtuO.jpg"
-    },
-    {
-      "name": "Jinny Jacinto",
-      "order": 189,
-      "role": "The Monster",
-      "thumb": null
     },
     {
       "name": "Robert Verlaque",
@@ -963,22 +976,10 @@
       "thumb": "/iUaBx40fLwb2jADrTRDc7a7zTft.jpg"
     },
     {
-      "name": "Roy Samuelson",
-      "order": 193,
-      "role": "Emerald Chain Computer",
-      "thumb": null
-    },
-    {
       "name": "Alexander Mandra",
       "order": 194,
       "role": "Avryz",
       "thumb": "/5UWspbUiLC9ZeeDBDsxZhGnl7OL.jpg"
-    },
-    {
-      "name": "Dorren Lee",
-      "order": 195,
-      "role": "Lt. Teemo",
-      "thumb": "/ge9mgrsnqAahwbsHJMX5lTuKtOU.jpg"
     },
     {
       "name": "Lamont James",
@@ -991,6 +992,18 @@
       "order": 198,
       "role": "Kanak",
       "thumb": "/tTvV9ZWKieJtWX8JK1kIzIUFWJR.jpg"
+    },
+    {
+      "name": "Alain Chanoine",
+      "order": 201,
+      "role": "Regulator Escort #1",
+      "thumb": "/n6ENrx6We9FvE6hfA0yOWSCaeBU.jpg"
+    },
+    {
+      "name": "Farhang Ghajar",
+      "order": 202,
+      "role": "Bridge Regulator",
+      "thumb": "/cD30jbhwFPetyaeOAgNVmRE4S9H.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -1000,17 +1013,19 @@
       "clearLogo": [],
       "seasonPoster": {
         "1": [
-          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5bb3a11bdc8b4.jpg"
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5bb3a11bdc8b4.jpg",
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-6019a337f0dd2.jpg"
         ],
         "2": [
           "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5bb3a12a54b39.jpg",
-          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c14c5f93660e.jpg",
-          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c41b18c162fa.jpg"
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c41b18c162fa.jpg",
+          "https://assets.fanart.tv/fanart/tv/328711/seasonposter/star-trek-discovery-5c14c5f93660e.jpg"
         ]
       },
       "seasonThumb": {
         "1": [
-          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5bf6120c9063f.jpg"
+          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5bf6120c9063f.jpg",
+          "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-60126988b4932.jpg"
         ],
         "2": [
           "https://assets.fanart.tv/fanart/tv/328711/seasonthumb/star-trek-discovery-5bf61220e1988.jpg"
@@ -1021,9 +1036,9 @@
       },
       "seriesBackground": [
         "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5f8603c33642e.jpg",
-        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5cb302cfa8280.jpg",
         "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5979864dc4ede.jpg",
         "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-59d0eafd74fc9.jpg",
+        "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-5cb302cfa8280.jpg",
         "https://assets.fanart.tv/fanart/tv/328711/showbackground/star-trek-discovery-59541ee615599.jpg"
       ],
       "seriesBanner": [

@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615016335022,
   "genres": [
     "Action & Adventure",
     "Animation",
@@ -67,7 +68,7 @@
       "name": "Mamoru Miyano",
       "order": 500,
       "role": "Chrollo Lucilfer (voice)",
-      "thumb": "/5bw3P0A3iCeXaBGWtuWwkmxnAh1.jpg"
+      "thumb": "/i8n9U3JlujjyPmiZPHGkpwxkh7X.jpg"
     },
     {
       "name": "Rikiya Koyama",

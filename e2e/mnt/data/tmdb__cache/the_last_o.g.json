@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015229034,
   "genres": [
     "Comedy"
   ],
@@ -23,7 +24,7 @@
       "name": "Tiffany Haddish",
       "order": 1,
       "role": "Shay",
-      "thumb": "/ivLhcXp38OlPybsFe8gSCklcYxP.jpg"
+      "thumb": "/pvAYqQD4LXavzDkBqCrC4IgVBur.jpg"
     },
     {
       "name": "Ryan Gaul",

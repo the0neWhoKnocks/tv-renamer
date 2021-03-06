@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015225640,
   "genres": [
     "Action & Adventure",
     "Sci-Fi & Fantasy",
@@ -17,10 +18,10 @@
   ],
   "actors": [
     {
-      "name": "Jack DeSena",
+      "name": "Jack De Sena",
       "order": 0,
       "role": "Callum (voice)",
-      "thumb": "/4TXVF9XHtqJ69AzyzUMZTFK7xyi.jpg"
+      "thumb": null
     },
     {
       "name": "Paula Burrows",
@@ -41,16 +42,10 @@
       "thumb": "/bCBsQZBcfBUcne3u7J5iFER8Qug.jpg"
     },
     {
-      "name": "Jonathan Holmes",
+      "name": "Omari Newton",
       "order": 500,
-      "role": "Runaan (voice)",
-      "thumb": "/jlJax3JfsMfRgolrqhRxLOZurRz.jpg"
-    },
-    {
-      "name": "Adrian Petriw",
-      "order": 500,
-      "role": "Gren (voice)",
-      "thumb": "/3jbR14GEKoUCbrs3NVmQw8eWRvu.jpg"
+      "role": "Corvus (voice)",
+      "thumb": "/sm5maXokSm3X3ctZzb7htowLXNU.jpg"
     },
     {
       "name": "Jason Simpson",
@@ -59,22 +54,28 @@
       "thumb": "/nicxmXmjjQUMiiuwrnGwkBYobcZ.jpg"
     },
     {
+      "name": "Racquel Belmonte",
+      "order": 500,
+      "role": "Claudia (voice)",
+      "thumb": "/tc3nFIRbtn6fcSHMHq9xTfrOKwD.jpg"
+    },
+    {
       "name": "Ellie King",
       "order": 500,
       "role": "Lujanne (voice)",
       "thumb": null
     },
     {
-      "name": "Omari Newton",
+      "name": "Luc Roderique",
       "order": 500,
-      "role": "Corvus (voice)",
-      "thumb": "/sm5maXokSm3X3ctZzb7htowLXNU.jpg"
+      "role": "Harrow (voice)",
+      "thumb": "/jeAxcgvhKGTsiGyNnNTfG2qpK1S.jpg"
     },
     {
-      "name": "Racquel Belmonte",
+      "name": "Jonathan Holmes",
       "order": 500,
-      "role": "Claudia (voice)",
-      "thumb": "/tc3nFIRbtn6fcSHMHq9xTfrOKwD.jpg"
+      "role": "Runaan (voice)",
+      "thumb": "/jlJax3JfsMfRgolrqhRxLOZurRz.jpg"
     },
     {
       "name": "Jesse Inocalla",
@@ -83,16 +84,16 @@
       "thumb": "/fr5iWfU1qjgUt83UtY3F0wEC4fq.jpg"
     },
     {
+      "name": "Adrian Petriw",
+      "order": 500,
+      "role": "Gren (voice)",
+      "thumb": "/3jbR14GEKoUCbrs3NVmQw8eWRvu.jpg"
+    },
+    {
       "name": "Nahanni Mitchell",
       "order": 500,
       "role": "Ellis (voice)",
       "thumb": null
-    },
-    {
-      "name": "Luc Roderique",
-      "order": 500,
-      "role": "Harrow (voice)",
-      "thumb": "/jeAxcgvhKGTsiGyNnNTfG2qpK1S.jpg"
     },
     {
       "name": "Rhona Rees",
@@ -132,8 +133,8 @@
         "https://assets.fanart.tv/fanart/tv/350123/tvposter/the-dragon-prince-5c57ede9d280b.jpg"
       ],
       "seriesThumb": [
-        "https://assets.fanart.tv/fanart/tv/350123/tvthumb/the-dragon-prince-5c57edf7459c1.jpg",
         "https://assets.fanart.tv/fanart/tv/350123/tvthumb/the-dragon-prince-5c57edf74eccf.jpg",
+        "https://assets.fanart.tv/fanart/tv/350123/tvthumb/the-dragon-prince-5c57edf7459c1.jpg",
         "https://assets.fanart.tv/fanart/tv/350123/tvthumb/the-dragon-prince-5c669e2702b3b.jpg"
       ]
     },

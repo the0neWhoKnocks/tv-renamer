@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015236562,
   "genres": [
     "Action & Adventure",
     "Drama"
@@ -35,13 +36,13 @@
     },
     {
       "name": "Gustaf Skarsgård",
-      "order": 10,
+      "order": 139,
       "role": "Floki",
       "thumb": "/oH2XSFil6ZHNg9HWur1ymwTLRX3.jpg"
     },
     {
       "name": "Jasper Pääkkönen",
-      "order": 7,
+      "order": 130,
       "role": "Halfdan the Black",
       "thumb": "/aZZy9NQEZdhlXWS2i8N00gxW6LU.jpg"
     },
@@ -58,16 +59,16 @@
       "thumb": "/wqtvSvC80cSbFCExptqC2s1DZO5.jpg"
     },
     {
+      "name": "Georgia Hirst",
+      "order": 139,
+      "role": "Torvi",
+      "thumb": "/lnUhfcYBq1iCC5g8M6YmH4fhhTl.jpg"
+    },
+    {
       "name": "Marco Ilsø",
       "order": 3,
       "role": "Hvitserk Lothbrok",
       "thumb": "/4p6Mz91vuUugQHNw4Zv2bmw5liJ.jpg"
-    },
-    {
-      "name": "Georgia Hirst",
-      "order": 9,
-      "role": "Torvi",
-      "thumb": "/lnUhfcYBq1iCC5g8M6YmH4fhhTl.jpg"
     },
     {
       "name": "Travis Fimmel",
@@ -100,12 +101,6 @@
       "thumb": "/bGPLRUkjCHm2j8VspCOgL6mti4b.jpg"
     },
     {
-      "name": "John Kavanagh",
-      "order": 25,
-      "role": "The Seer",
-      "thumb": "/wG5dUlNS4b7eUof6m32MaVFWdla.jpg"
-    },
-    {
       "name": "George Blagden",
       "order": 26,
       "role": "Athelstan",
@@ -136,10 +131,28 @@
       "thumb": "/aayIvRClxGA1v4lcBcZ4jiI1fZl.jpg"
     },
     {
+      "name": "Lucy Martin",
+      "order": 139,
+      "role": "Ingrid",
+      "thumb": "/5mYsGxI46oVUCVjU66jAltQZNJu.jpg"
+    },
+    {
+      "name": "Ragga Ragnars",
+      "order": 103,
+      "role": "Gunnhild",
+      "thumb": "/thDqwXUOQXSEIjfaDLQMeAV071.jpg"
+    },
+    {
       "name": "Huw Parmenter",
       "order": 57,
       "role": "Roland",
       "thumb": "/gSMP82sQYAn5okwDQseDa8rOd78.jpg"
+    },
+    {
+      "name": "John Kavanagh",
+      "order": 119,
+      "role": "The Seer",
+      "thumb": "/wG5dUlNS4b7eUof6m32MaVFWdla.jpg"
     },
     {
       "name": "Amy Bailey",
@@ -148,28 +161,52 @@
       "thumb": "/mPUBxceWoU4DPVzz4kF97nwUbkm.jpg"
     },
     {
+      "name": "Alicia Agneson",
+      "order": 83,
+      "role": "Freydis",
+      "thumb": "/a3IrkRmyqbm7NltqvN7ilWZZkx0.jpg"
+    },
+    {
+      "name": "Adam Copeland",
+      "order": 103,
+      "role": "Kjetill Flatnose",
+      "thumb": "/xawkWKkgbOx5atAMeFDh9rjHGWt.jpg"
+    },
+    {
       "name": "Jack McEvoy",
       "order": 58,
       "role": "Helgi the Lean",
       "thumb": "/dGvuRjET6DswkTZIepuI3vgVyLH.jpg"
     },
     {
+      "name": "Steven Berkoff",
+      "order": 73,
+      "role": "King Olaf the Stout",
+      "thumb": "/v15QPmGSTM5PGGZIhZd1KweFK5E.jpg"
+    },
+    {
+      "name": "Oran Glynn O'Donovan",
+      "order": 103,
+      "role": "Eastern Rus Noble",
+      "thumb": "/ngeSk1aBdYWvRzbqtFtqBPK2oyB.jpg"
+    },
+    {
+      "name": "Roisin Murphy",
+      "order": 139,
+      "role": "Elsewith",
+      "thumb": "/29BykMWPEOed3Hzmfaxie5hwTxW.jpg"
+    },
+    {
+      "name": "Ray Stevenson",
+      "order": 139,
+      "role": "Othere",
+      "thumb": "/fH1cLfWFslsQc4AvWL5SNoF0nvM.jpg"
+    },
+    {
       "name": "Donal Logue",
       "order": 6,
       "role": "King Horik",
       "thumb": "/dyY8Q2jCXQWWG9NtSsXRriKxpgf.jpg"
-    },
-    {
-      "name": "Ragga Ragnars",
-      "order": 63,
-      "role": "Gunnhild",
-      "thumb": "/thDqwXUOQXSEIjfaDLQMeAV071.jpg"
-    },
-    {
-      "name": "Steven Berkoff",
-      "order": 65,
-      "role": "King Olaf the Stout",
-      "thumb": "/pNVdTLSFxPY9Jq2MkYRhkLgAATp.jpg"
     },
     {
       "name": "Gaia Weiss",
@@ -202,28 +239,28 @@
       "thumb": "/39QSUNG3CEJldnGkPigmbMjMTXx.jpg"
     },
     {
-      "name": "Alicia Agneson",
-      "order": 62,
-      "role": "Katia",
-      "thumb": "/a3IrkRmyqbm7NltqvN7ilWZZkx0.jpg"
+      "name": "Eric Johnson",
+      "order": 130,
+      "role": "Erik",
+      "thumb": "/oSwKvCo9duqcOfUAYPLdNHyXnna.jpg"
     },
     {
-      "name": "Adam Copeland",
-      "order": 61,
-      "role": "Kjetill Flatnose",
-      "thumb": "/1bPbuSNzrAE0xP1ppBok4Bvh3by.jpg"
+      "name": "Kelly Campbell",
+      "order": 103,
+      "role": "Ingvild",
+      "thumb": "/7i2irpjuZVTzZccUDc0DTVwcgqn.jpg"
     },
     {
-      "name": "Lucy Martin",
-      "order": 61,
-      "role": "Ingrid",
-      "thumb": "/5mYsGxI46oVUCVjU66jAltQZNJu.jpg"
+      "name": "Lenn Kudrjawizki",
+      "order": 103,
+      "role": "Prince Dir",
+      "thumb": "/hH26APWthsuBSlX9VeOMcM2olel.jpg"
     },
     {
-      "name": "Roisin Murphy",
-      "order": 18,
-      "role": "Elsewith",
-      "thumb": "/29BykMWPEOed3Hzmfaxie5hwTxW.jpg"
+      "name": "Noella Brennan",
+      "order": 139,
+      "role": "Gudrid",
+      "thumb": "/ivd8kgJYFA3CpNVvL2Httk0Ilb4.jpg"
     },
     {
       "name": "Ryan Henson",
@@ -232,16 +269,22 @@
       "thumb": null
     },
     {
+      "name": "Kristy Dawn Dinsmore",
+      "order": 73,
+      "role": "Amma",
+      "thumb": "/kDcAPgQIQXxhwI7we2DyGrwA4RY.jpg"
+    },
+    {
+      "name": "Elodie Curry",
+      "order": 87,
+      "role": "Asa",
+      "thumb": "/4n4ohWEAswZhhYYfMvAJpMaTkn5.jpg"
+    },
+    {
       "name": "Kieran O'Reilly",
       "order": 64,
       "role": "White Hair",
       "thumb": "/bliXgZTXDTg7cnuFwT6bLjojYJQ.jpg"
-    },
-    {
-      "name": "Kristy Dawn Dinsmore",
-      "order": 65,
-      "role": "Amma",
-      "thumb": "/kDcAPgQIQXxhwI7we2DyGrwA4RY.jpg"
     },
     {
       "name": "James Craze",
@@ -250,34 +293,34 @@
       "thumb": null
     },
     {
-      "name": "Aaron Lee Reed",
-      "order": 8,
-      "role": "Viking (uncredited)",
-      "thumb": "/7ap5YTCNolesyOo7frukahIHjiM.jpg"
-    },
-    {
-      "name": "Elodie Curry",
-      "order": 48,
-      "role": "Asa",
-      "thumb": "/4n4ohWEAswZhhYYfMvAJpMaTkn5.jpg"
-    },
-    {
-      "name": "Lenn Kudrjawizki",
-      "order": 58,
-      "role": "Prince Dir",
-      "thumb": "/hH26APWthsuBSlX9VeOMcM2olel.jpg"
-    },
-    {
       "name": "Andrei Claude",
-      "order": 63,
+      "order": 73,
       "role": "Ganbaatar",
       "thumb": "/nMNPUFGq8qyrLMMMMli1biPGqlP.jpg"
     },
     {
-      "name": "Oran Glynn O'Donovan",
-      "order": 63,
-      "role": "Igor",
-      "thumb": null
+      "name": "Scott Graham",
+      "order": 103,
+      "role": "Frodi",
+      "thumb": "/jTPtkpGwLALoLfqfZWqVS7sbaIX.jpg"
+    },
+    {
+      "name": "Ferdia Walsh-Peelo",
+      "order": 105,
+      "role": "Alfred The Great",
+      "thumb": "/l06B8SizX7bjom7GDKbpSxGxZDS.jpg"
+    },
+    {
+      "name": "Ian Lloyd Anderson",
+      "order": 139,
+      "role": "Naad",
+      "thumb": "/nQ8ThcyPkSVHrgNlLfonSDBzHyj.jpg"
+    },
+    {
+      "name": "Aaron Lee Reed",
+      "order": 8,
+      "role": "Viking (uncredited)",
+      "thumb": "/7ap5YTCNolesyOo7frukahIHjiM.jpg"
     },
     {
       "name": "Danny O'Connor",
@@ -286,10 +329,46 @@
       "thumb": "/1ZsMKDDXflblPQAj0bIJJt71VD7.jpg"
     },
     {
-      "name": "Kelly Campbell",
-      "order": 61,
-      "role": "Ingvild",
-      "thumb": "/7i2irpjuZVTzZccUDc0DTVwcgqn.jpg"
+      "name": "Guy Carleton",
+      "order": 107,
+      "role": "Patriarch / Russian Priest",
+      "thumb": null
+    },
+    {
+      "name": "Finn Gillespie",
+      "order": 108,
+      "role": "Young Viking",
+      "thumb": null
+    },
+    {
+      "name": "Wesley French",
+      "order": 139,
+      "role": "Peminuit",
+      "thumb": "/5Tzknfoc2HPwMcnWCWnJ6XnKbq7.jpg"
+    },
+    {
+      "name": "Phillip Lewitski",
+      "order": 139,
+      "role": "We'jitu",
+      "thumb": "/d4zHnZ4wsF9RodXzb54TU7tfbwS.jpg"
+    },
+    {
+      "name": "Dafhyd Flynn",
+      "order": 139,
+      "role": "Adam",
+      "thumb": null
+    },
+    {
+      "name": "Peter Michael Dillon",
+      "order": 139,
+      "role": "Alfred's Mounted Bodyguard",
+      "thumb": "/NJ6E3rYRmQDGbvRc3SbzfSExLg.jpg"
+    },
+    {
+      "name": "Brendan McCormack",
+      "order": 139,
+      "role": "Leof",
+      "thumb": "/gR18s3mO4v8yi82DjjUyFkyGbuB.jpg"
     },
     {
       "name": "Sophie Vavasseur",
@@ -304,12 +383,6 @@
       "thumb": "/qzNUbOgKQl22GNF3UG6THMEeIrj.jpg"
     },
     {
-      "name": "Serena Kennedy",
-      "order": 45,
-      "role": "Anna",
-      "thumb": "/9oqsvyQFeovD3fjyqGJNNm2Jhhz.jpg"
-    },
-    {
       "name": "Michael Johnston",
       "order": 45,
       "role": "Messenger 2",
@@ -320,6 +393,12 @@
       "order": 45,
       "role": "Torturer",
       "thumb": "/4WmZVY3aAQ6aGkH0WiA4juuVL2m.jpg"
+    },
+    {
+      "name": "Serena Kennedy",
+      "order": 45,
+      "role": "Anna",
+      "thumb": "/9oqsvyQFeovD3fjyqGJNNm2Jhhz.jpg"
     },
     {
       "name": "Conn Rogers",
@@ -337,6 +416,108 @@
       "name": "Paul Reid",
       "order": 76,
       "role": "Mannel",
+      "thumb": null
+    },
+    {
+      "name": "Elshka Lane",
+      "order": 84,
+      "role": "Katia's Servant",
+      "thumb": null
+    },
+    {
+      "name": "Tristan McConnell",
+      "order": 89,
+      "role": "Grey Viking",
+      "thumb": "/7w4KX6aatZtJ2DtALVNYYWLSQe0.jpg"
+    },
+    {
+      "name": "Ciaran O'Grady",
+      "order": 90,
+      "role": "Kattegat Defender",
+      "thumb": "/ejybFw6PNHOJZnNArQnw3IvE4tB.jpg"
+    },
+    {
+      "name": "Brent Burns",
+      "order": 91,
+      "role": "Skane",
+      "thumb": null
+    },
+    {
+      "name": "Ivo Alexandre",
+      "order": 91,
+      "role": "Bishop Leon",
+      "thumb": "/aPFiPAAX8TsK0CTYQKuU4gAJscI.jpg"
+    },
+    {
+      "name": "Niall Ó Sioradáin",
+      "order": 107,
+      "role": "Chief Priest",
+      "thumb": null
+    },
+    {
+      "name": "Russell Balogh",
+      "order": 134,
+      "role": "Bishop Aldulf",
+      "thumb": "/fMQ4y0ebqBfrOuKj3Y0RKEjEi63.jpg"
+    },
+    {
+      "name": "Breffni Holahan",
+      "order": 134,
+      "role": "Sister Annis",
+      "thumb": null
+    },
+    {
+      "name": "Dave Boyle",
+      "order": 135,
+      "role": "Saxon Warrior Scout #1",
+      "thumb": null
+    },
+    {
+      "name": "Tim Creed",
+      "order": 135,
+      "role": "Orlyg",
+      "thumb": null
+    },
+    {
+      "name": "Acahkos Johnson",
+      "order": 139,
+      "role": "Ne'pa'tes",
+      "thumb": null
+    },
+    {
+      "name": "Victoire Dauxerre",
+      "order": 139,
+      "role": "Nissa",
+      "thumb": "/kPGMwMXJXweTrs33s0gMTLgxoKg.jpg"
+    },
+    {
+      "name": "Seán McGillicuddy",
+      "order": 139,
+      "role": "Osric",
+      "thumb": null
+    },
+    {
+      "name": "Steve Cash",
+      "order": 139,
+      "role": "Saxon Commander",
+      "thumb": null
+    },
+    {
+      "name": "Ellyn Jade",
+      "order": 139,
+      "role": "Nikani",
+      "thumb": null
+    },
+    {
+      "name": "Carmen Moore",
+      "order": 139,
+      "role": "Pekitaulet",
+      "thumb": "/cPUNFyRPEbgNpBfEVYKWNZtoGML.jpg"
+    },
+    {
+      "name": "Ian Brooker",
+      "order": 140,
+      "role": "Bishop",
       "thumb": null
     },
     {
@@ -421,7 +602,7 @@
       "name": "Kathy Monahan",
       "order": 49,
       "role": "Eira",
-      "thumb": null
+      "thumb": "/mqDcXKxFDyp7WeAJv8l56N7t4QQ.jpg"
     },
     {
       "name": "Oisin Murray",
@@ -466,18 +647,6 @@
       "thumb": "/4WnGd3F2MJQF93Nvg9F3gN9WHZ3.jpg"
     },
     {
-      "name": "Ray Stevenson",
-      "order": 60,
-      "role": "Othere",
-      "thumb": "/fH1cLfWFslsQc4AvWL5SNoF0nvM.jpg"
-    },
-    {
-      "name": "Elshka Lane",
-      "order": 61,
-      "role": "Katia's Servant",
-      "thumb": null
-    },
-    {
       "name": "Fredrik Hiller",
       "order": 62,
       "role": "Thorkell",
@@ -487,7 +656,7 @@
       "name": "Dean Ridge",
       "order": 63,
       "role": "Magnus",
-      "thumb": null
+      "thumb": "/syRmrq7TAVHCbWkz22MPUJHpyU3.jpg"
     },
     {
       "name": "Svea Killoran",
@@ -508,12 +677,6 @@
       "thumb": "/kmT9Wpzy0Y1m1jmUgCy7VqMzgSS.jpg"
     },
     {
-      "name": "Ferdia Walsh-Peelo",
-      "order": 71,
-      "role": "Alfred The Great",
-      "thumb": "/l06B8SizX7bjom7GDKbpSxGxZDS.jpg"
-    },
-    {
       "name": "Jonathan Delaney Tynan",
       "order": 72,
       "role": "Lord Cuthred",
@@ -524,6 +687,216 @@
       "order": 73,
       "role": "Lord Denewulf",
       "thumb": null
+    },
+    {
+      "name": "Mishaël Lopes Cardozo",
+      "order": 74,
+      "role": "King Hakon",
+      "thumb": "/lJzeo58wsC9jurEO6vusPiy1cpp.jpg"
+    },
+    {
+      "name": "Stephen Cromwell",
+      "order": 75,
+      "role": "Kattegonian",
+      "thumb": null
+    },
+    {
+      "name": "Gary Kane",
+      "order": 76,
+      "role": "Rus Sentry 1",
+      "thumb": null
+    },
+    {
+      "name": "Luke McQuillan",
+      "order": 77,
+      "role": "Rus Sentry 2",
+      "thumb": null
+    },
+    {
+      "name": "Amy De Bhrún",
+      "order": 78,
+      "role": "Jarl Hrolf",
+      "thumb": "/cN5ep9TcNHmJcK6uO0wMUtvgIOx.jpg"
+    },
+    {
+      "name": "Tim Fellingham",
+      "order": 79,
+      "role": "Viking Messenger",
+      "thumb": "/nUOe69E3kYrGseYLQlV4ukP1oiJ.jpg"
+    },
+    {
+      "name": "Ciara Ivie",
+      "order": 80,
+      "role": "Young Iceland Woman",
+      "thumb": null
+    },
+    {
+      "name": "Daniel Paton",
+      "order": 81,
+      "role": "Rus Officer #1",
+      "thumb": null
+    },
+    {
+      "name": "Steven Blades",
+      "order": 82,
+      "role": "Rus Officer #2",
+      "thumb": null
+    },
+    {
+      "name": "Katherine Devlin",
+      "order": 83,
+      "role": "Natasha",
+      "thumb": null
+    },
+    {
+      "name": "Ciaran McMahon",
+      "order": 86,
+      "role": "Rus Official",
+      "thumb": null
+    },
+    {
+      "name": "Renars Latkovskis",
+      "order": 89,
+      "role": "Rus Guard",
+      "thumb": "/2pNeLg1VIXFtr9b2lwwBIPvkHAp.jpg"
+    },
+    {
+      "name": "Moah Madsen",
+      "order": 95,
+      "role": "Gunnhild's Servant",
+      "thumb": null
+    },
+    {
+      "name": "Isabelle Connolly",
+      "order": 96,
+      "role": "Anna",
+      "thumb": "/6GX94KZ5aNJrznIS7mvsPOCaPBp.jpg"
+    },
+    {
+      "name": "Lee Bennett",
+      "order": 97,
+      "role": "Eastern Rus Noble",
+      "thumb": null
+    },
+    {
+      "name": "Aisling Reid",
+      "order": 98,
+      "role": "Harold's Servant",
+      "thumb": null
+    },
+    {
+      "name": "Emily Baldoni",
+      "order": 99,
+      "role": "Harold's Servant",
+      "thumb": "/sD9hNQyHictfBhUncmsu8m1Qqov.jpg"
+    },
+    {
+      "name": "Katie McCann",
+      "order": 100,
+      "role": "Harold's Servant",
+      "thumb": null
+    },
+    {
+      "name": "Muireann Bird",
+      "order": 101,
+      "role": "Harold's Servant",
+      "thumb": null
+    },
+    {
+      "name": "Gabriel Constantin",
+      "order": 105,
+      "role": "Commanding Officer",
+      "thumb": "/zwTHzcYGoho4gbVdYVfMqF5Wxq3.jpg"
+    },
+    {
+      "name": "Maria Guiver",
+      "order": 106,
+      "role": "Oleg's First Wife",
+      "thumb": null
+    },
+    {
+      "name": "Noah Syndergaard",
+      "order": 107,
+      "role": "Thorbjorn",
+      "thumb": null
+    },
+    {
+      "name": "Alexander Campbell",
+      "order": 109,
+      "role": "Second Warrior",
+      "thumb": "/wraUawvrSRxmXlwvDoimc9yfnW9.jpg"
+    },
+    {
+      "name": "James Oliver Wheatley",
+      "order": 110,
+      "role": "First Warrior",
+      "thumb": "/aeniPx13TRkmVk8s1rt5TeuFhI1.jpg"
+    },
+    {
+      "name": "Jerry-Jane Pears",
+      "order": 111,
+      "role": "Idun",
+      "thumb": "/67GKxFtX8zHTPeVOeuoG3PfsPSh.jpg"
+    },
+    {
+      "name": "Shane Robinson",
+      "order": 112,
+      "role": "Kattegonian Man",
+      "thumb": null
+    },
+    {
+      "name": "Gail Brady",
+      "order": 113,
+      "role": "Wife of Drunk",
+      "thumb": null
+    },
+    {
+      "name": "Shane Lynch",
+      "order": 114,
+      "role": "Moneylender",
+      "thumb": "/cc36zbgj1W95VDx3o2i1YVhfKzv.jpg"
+    },
+    {
+      "name": "Desmond Eastwood",
+      "order": 117,
+      "role": "Messenger",
+      "thumb": "/6C4AewNqq7gR7u1Odd4j7VKBtSI.jpg"
+    },
+    {
+      "name": "Bryan Larkin",
+      "order": 118,
+      "role": "Wiglaf",
+      "thumb": "/ekPuagIM5sthpEFqpU3YmXfms1I.jpg"
+    },
+    {
+      "name": "Sean Condren",
+      "order": 127,
+      "role": "Saxon Warrior Scout #2",
+      "thumb": null
+    },
+    {
+      "name": "Neil Watkins",
+      "order": 128,
+      "role": "Viking Council Noble",
+      "thumb": null
+    },
+    {
+      "name": "Sean Condren",
+      "order": 135,
+      "role": "Saxon Warrior Scout #2",
+      "thumb": null
+    },
+    {
+      "name": "James Cosgrave",
+      "order": 137,
+      "role": "Birthmark Viking",
+      "thumb": null
+    },
+    {
+      "name": "Fiach Kunz",
+      "order": 139,
+      "role": "Viking Messenger",
+      "thumb": "/9dWDjAKTa64hubWIkWfuUf4KZut.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -615,6 +988,7 @@
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-51434af4d54ef.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55c204daadfdb.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-5a0eaa9056354.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-6007345d27ada.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-56aa8b03728f5.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a234b1ee8e4.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55a234cc42a13.jpg",
@@ -636,12 +1010,12 @@
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-581f55b855039.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55c204daab0c3.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-55c204daad10d.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-5c00b699cfb5b.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-54df70495d75b.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-54c612427fbf1.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-57c34ebb444cf.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-532af34539c3a.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-53105d4dd362e.jpg",
-        "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-5c00b699cfb5b.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-583623d713c00.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/showbackground/vikings-53d9283659f5f.jpg"
       ],
@@ -670,6 +1044,7 @@
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5e618d05109a7.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5e618d184dc2b.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5537e3efb3b20.jpg",
+        "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-60070d242c583.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-553a642633dc4.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5807bbd76bc90.jpg",
         "https://assets.fanart.tv/fanart/tv/260449/tvposter/vikings-5a22529848be0.jpg",
@@ -830,7 +1205,7 @@
         {
           "aired": "2014-02-27",
           "plot": "The battle begins between Ragnar and King Horik's forces against Jarl Borg; Princess Aslaug makes her way to Kattegat.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/sMPUeOSbb1OH4PtSjUvmD79hvTE.jpg",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/new6dK6yNOcXysMvm8KDp7pKqod.jpg",
           "title": "Brother's War"
         },
         {
@@ -872,7 +1247,7 @@
         {
           "aired": "2014-04-17",
           "plot": "Princess Aslaug's latest prophecy comes to fruition as she readies to give birth once more; Ragnar and Horik have very different ideas about the true purpose of their trip to Wessex.",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/5PpzqoelWJvKiPaSDVLM9u43Rf7.jpg",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/b7yBD85DDvs7kdq1UxGSls8sy6E.jpg",
           "title": "Boneless"
         },
         {

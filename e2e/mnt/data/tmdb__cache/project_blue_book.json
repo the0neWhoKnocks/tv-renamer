@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015208460,
   "genres": [
     "Sci-Fi & Fantasy",
     "Mystery"
@@ -54,7 +55,13 @@
       "name": "Robert John Burke",
       "order": 6,
       "role": "William Fairchild",
-      "thumb": "/9z4goY4Qlzmtkt7sG1JwIQ4XwrN.jpg"
+      "thumb": "/wI16GGKylYjtwVeYs3ui42Ep2Li.jpg"
+    },
+    {
+      "name": "Currie Graham",
+      "order": 13,
+      "role": "Cal Miller",
+      "thumb": "/nAfWp90FpQUvZX62CRwmgN1NB1t.jpg"
     },
     {
       "name": "Hayley McLaughlin",
@@ -115,6 +122,12 @@
       "order": 9,
       "role": "Eric",
       "thumb": "/4AsdwbGPrnLEoegI3MjthZ32jEc.jpg"
+    },
+    {
+      "name": "Curtis Caravaggio",
+      "order": 11,
+      "role": "Thomas",
+      "thumb": "/nKDmSVksx3dmTCuucvPClGrL6g5.jpg"
     }
   ],
   "dvdSeasons": {},

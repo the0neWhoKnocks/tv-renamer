@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015334909,
   "genres": [
     "Comedy",
     "Talk"
@@ -9,7 +10,7 @@
   "name": "The Big Fat Quiz of Everything",
   "plot": "The Big Fat Quiz of Everything is a spin-off series to the annual The Big Fat Quiz of the Year. These quizzes ask questions based on various subjects including history, geography, films, television, music, science, technology, art, literature, sports and games. Essentially, the show is a comedy panel game in the style of a pub quiz. Three teams, of two celebrities each, are asked questions relating to the events of the year just gone by, which they write answers to on an electronic board in front of them. At the end of each round, they then display their answers, scoring a point for each correct one.",
   "premiered": "2016-08-15",
-  "status": "Returning Series",
+  "status": "Ended",
   "studios": [
     "Channel 4"
   ],

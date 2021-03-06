@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015219864,
   "genres": [
     "Sci-Fi & Fantasy",
     "Animation"
@@ -17,14 +18,14 @@
     {
       "name": "Yukari Tamura",
       "order": 5,
-      "role": "Suzuha Amane",
+      "role": "Amane Yuki",
       "thumb": "/1VquTCcon9zDRbFZDSnbY7Pc425.jpg"
     },
     {
       "name": "Mamoru Miyano",
       "order": 0,
       "role": "Rintarou Okabe",
-      "thumb": "/5bw3P0A3iCeXaBGWtuWwkmxnAh1.jpg"
+      "thumb": "/i8n9U3JlujjyPmiZPHGkpwxkh7X.jpg"
     },
     {
       "name": "Asami Imai",
@@ -48,7 +49,7 @@
       "name": "Sayuri Yahagi",
       "order": 5,
       "role": "Hiyajou Maho",
-      "thumb": "/z39U1UUNdSnPKVsbinxFObOy3vP.jpg"
+      "thumb": "/sM2yxc7ph78w5lYpCek0TW6v5NV.jpg"
     },
     {
       "name": "Haruko Momoi",
@@ -57,7 +58,7 @@
       "thumb": "/9sQMb6Xmazkv4sdxAJpMGnXGJQb.jpg"
     },
     {
-      "name": "Yū Kobayashi",
+      "name": "Yu Kobayashi",
       "order": 8,
       "role": "Urushibara Ruka",
       "thumb": "/q98lvBNhHvxGYfIvfB3YRczsTeE.jpg"
@@ -121,7 +122,7 @@
     },
     "tmdb": {
       "background": "https://image.tmdb.org/t/p/w1280/7B4PGxWt9NrcFCEAegLSEuSyAeS.jpg",
-      "poster": "https://image.tmdb.org/t/p/w780/qOo0mPA228UIvEM4aoeLGp42tYp.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/75w7GE9K7T5wvy3OGN9gauSoBOZ.jpg",
       "seasonPosters": {
         "0": "https://image.tmdb.org/t/p/w780/bkTHb2thZC7qnx0o8BW7KFCWHmV.jpg",
         "1": "https://image.tmdb.org/t/p/w780/ojxbYwUIO3k71NP8yb6OV3ZRBP3.jpg"

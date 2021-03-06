@@ -1,9 +1,11 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015178787,
   "genres": [
-    "Animation",
+    "Sci-Fi & Fantasy",
     "Action & Adventure",
-    "Comedy"
+    "Comedy",
+    "Animation"
   ],
   "id": 65930,
   "mpaa": "TV-14",
@@ -56,7 +58,7 @@
       "name": "Aoi Yuki",
       "order": 6,
       "role": "Tsuyu Asui (voice)",
-      "thumb": "/qaOsU5bdcB7YGzXPlvunv8kTr3f.jpg"
+      "thumb": "/cIFTJFbPhN55T9WW2P064Wh8qty.jpg"
     },
     {
       "name": "Junichi Suwabe",
@@ -83,10 +85,10 @@
       "thumb": "/ahFxImLFUCM6942Jx5EtxljXYHj.jpg"
     },
     {
-      "name": "Kenjirou Tsuda",
+      "name": "Kenjiro Tsuda",
       "order": 10,
       "role": "Overhaul (voice)",
-      "thumb": "/9KISTULuEd5uXU9iS5IJHVnss2L.jpg"
+      "thumb": "/yFpSPNHqYN4rdRiVpVaYmqXMkmi.jpg"
     },
     {
       "name": "Shin-ichiro Miki",
@@ -101,16 +103,16 @@
       "thumb": "/3acQzrttQPSKoAQHbQraerJtDxG.jpg"
     },
     {
-      "name": "Hiro Shimono",
-      "order": 5,
-      "role": "Dabi (voice)",
-      "thumb": "/i5CaaqKmHH0vKCloqZyrCwn5mWy.jpg"
-    },
-    {
       "name": "Misato Fukuen",
       "order": 5,
       "role": "Himiko Toga (voice)",
       "thumb": "/g3gSXEerPZT32D7agLjzlPvWA15.jpg"
+    },
+    {
+      "name": "Hiro Shimono",
+      "order": 5,
+      "role": "Dabi (voice)",
+      "thumb": "/i5CaaqKmHH0vKCloqZyrCwn5mWy.jpg"
     },
     {
       "name": "Ryōta Takeuchi",
@@ -141,6 +143,18 @@
       "order": 10,
       "role": "Selkie (voice)",
       "thumb": "/4N6i4cgtbeUj5AJd8kiBZ2BxxEJ.jpg"
+    },
+    {
+      "name": "Haruto Kuroki",
+      "order": 11,
+      "role": "Aiba's male classmate (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Tsuguo Mogami",
+      "order": 12,
+      "role": "High-End (voice)",
+      "thumb": "/gy1ovkyhWBN9RdIEP7pB5rSNDpD.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -181,7 +195,7 @@
     },
     "tmdb": {
       "background": "https://image.tmdb.org/t/p/w1280/3ILMlmC30QUnYkY3XEBOyJ82Dqu.jpg",
-      "poster": "https://image.tmdb.org/t/p/w780/he1aoyFEPYAMsjGOVGfObbEIzid.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
       "seasonPosters": {
         "0": "https://image.tmdb.org/t/p/w780/jEoUOaOzdf00lsTV7EW2ARcB9Pb.jpg",
         "1": "https://image.tmdb.org/t/p/w780/3uNxN13UY3pMZaj0sNnqPCH6OhF.jpg",
@@ -197,16 +211,16 @@
       "episodes": [
         null,
         {
+          "aired": "2016-11-27",
+          "plot": "Four weeks after the League of Villains' attempt to assassinate All Might, the students of Class 1-A return to USJ to complete their disaster training. However, unbeknownst to the heroes-in-training, an unexpected foe is lurking within the facility's walls and waiting to strike...",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/6ScabTykKIeUf2oWh6bgkPHzYU2.jpg",
+          "title": "Save! Rescue Training!"
+        },
+        {
           "aired": "2017-03-25",
           "plot": "Recap of Boku no Hero Academia's first season, aired a week before the second season.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/wFfRvB30aPQYAu6q8fV4j6m9nCo.jpg",
           "title": "Hero Notebook"
-        },
-        {
-          "aired": "2017-04-04",
-          "plot": "Four weeks after the League of Villains' attempt to assassinate All Might, the students of Class 1-A return to USJ to complete their disaster training. However, unbeknownst to the heroes-in-training, an unexpected foe is lurking within the facility's walls and waiting to strike...",
-          "thumbnail": "https://image.tmdb.org/t/p/w400/6ScabTykKIeUf2oWh6bgkPHzYU2.jpg",
-          "title": "Save! Rescue Training"
         },
         {
           "aired": "2017-06-02",
@@ -218,7 +232,7 @@
           "aired": "2019-02-13",
           "plot": "Young All Might sees his mentor, Nana Shimura, be defeated by One For All.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/wHQHJq4zGERaeHUWAFeB2lQcoTH.jpg",
-          "title": "All Might- Rising - The Animation"
+          "title": "All Might- Rising"
         },
         {
           "aired": "2019-02-13",

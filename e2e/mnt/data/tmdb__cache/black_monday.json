@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015183815,
   "genres": [
     "Comedy",
     "Crime"
@@ -42,7 +43,7 @@
       "name": "Yassir Lester",
       "order": 122,
       "role": "Yassir X",
-      "thumb": null
+      "thumb": "/cxQk4vTeBnFPgTvmVpYtkmTKVTf.jpg"
     },
     {
       "name": "Casey Wilson",
@@ -59,7 +60,7 @@
     {
       "name": "Ken Marino",
       "order": 120,
-      "role": "Lenny Leighman",
+      "role": "Larry Leighman / Lenny Leighman",
       "thumb": "/7MeXvFGhzBwDm6c7lvdalA3GJYM.jpg"
     },
     {
@@ -93,16 +94,16 @@
       "thumb": "/t2SnmEYrHloRBcuCTJ9fsqN447Z.jpg"
     },
     {
-      "name": "Julie Hagerty",
-      "order": 80,
-      "role": "Jackie Georgina",
-      "thumb": "/bQZ0bcFNyE4a3GDNfYMmfO7eWMl.jpg"
-    },
-    {
       "name": "Phil Reeves",
       "order": 80,
       "role": "Henri Georgina",
       "thumb": "/uyMQCLuxS3LbTfEVNJG7FIqpgM.jpg"
+    },
+    {
+      "name": "Julie Hagerty",
+      "order": 80,
+      "role": "Jackie Georgina",
+      "thumb": "/bQZ0bcFNyE4a3GDNfYMmfO7eWMl.jpg"
     },
     {
       "name": "Dulé Hill",
@@ -147,16 +148,16 @@
       "thumb": "/5l0bFRt6d7JQ2d3iNZmJvXNAji3.jpg"
     },
     {
-      "name": "Melissa Stephens",
-      "order": 64,
-      "role": "Tosh B'Gosh",
-      "thumb": null
-    },
-    {
       "name": "Jen Zaborowski",
       "order": 64,
       "role": "Bunny Bartles",
       "thumb": "/bnEp1DcGb27zYTatZrC8JRUBJ6k.jpg"
+    },
+    {
+      "name": "Melissa Stephens",
+      "order": 64,
+      "role": "Tosh B'Gosh",
+      "thumb": null
     },
     {
       "name": "Kim Cooper",
@@ -173,7 +174,7 @@
     {
       "name": "Mel Fair",
       "order": 91,
-      "role": "TV Anchor",
+      "role": "Newscaster",
       "thumb": "/9Q9sIiikHS5HvDO89KscfnruZrb.jpg"
     },
     {
@@ -227,7 +228,7 @@
     {
       "name": "Bob Rumnock",
       "order": 70,
-      "role": "Reenactment Jammer",
+      "role": "Rod \"The Jammer\" Jaminski Double",
       "thumb": "/vrl0PJupGydqJuoq4gEGk3trsgr.jpg"
     },
     {
@@ -288,13 +289,13 @@
       "name": "Jason Andre Smith",
       "order": 12,
       "role": "Obnoxious Guy #2",
-      "thumb": null
+      "thumb": "/uGpZ7S7fNhXzEoPTEvhLqA7LpKB.jpg"
     },
     {
       "name": "Dan Warner",
       "order": 13,
       "role": "Sobbing Stock Broker",
-      "thumb": null
+      "thumb": "/jRvLKxn8a9D7ZDtOVMa3y2ydOCz.jpg"
     },
     {
       "name": "Dennis Delsing",
@@ -342,7 +343,7 @@
       "name": "Teresa Ganzel",
       "order": 24,
       "role": "Trisha",
-      "thumb": "/6zQnzghZNTuaPFF3zTjfuzhmRfL.jpg"
+      "thumb": "/8ZFhsWrzxBrewduX8X6rRNQWpLw.jpg"
     },
     {
       "name": "Christine Sclafani",
@@ -360,7 +361,7 @@
       "name": "Johnny Williams",
       "order": 31,
       "role": "Chip",
-      "thumb": "/qMCDaAo82ju7S18TxdBH5LpkxXV.jpg"
+      "thumb": "/mQNhYK7SCzj6TY6m764ROposuRY.jpg"
     },
     {
       "name": "T.J. Hoban",
@@ -408,7 +409,7 @@
       "name": "Fay DeWitt",
       "order": 46,
       "role": "Rosemarie",
-      "thumb": null
+      "thumb": "/8PC4TQdOlQ3cOcH6ORX9V4Chte5.jpg"
     },
     {
       "name": "Chip Sickler",
@@ -438,7 +439,7 @@
       "name": "Adam Zastrow",
       "order": 55,
       "role": "Thug #1",
-      "thumb": null
+      "thumb": "/s4XMnSZ8mSPZOmWXR2e7ldsdNwl.jpg"
     },
     {
       "name": "Michael Delgado",
@@ -636,7 +637,7 @@
       "name": "Jimmy Smagula",
       "order": 106,
       "role": "C.O. Dandleton",
-      "thumb": null
+      "thumb": "/eJCPG4KqGQezTNdN4LLzFjHPHOz.jpg"
     },
     {
       "name": "Bridger Winegar",
@@ -648,7 +649,7 @@
       "name": "Michael James Bell",
       "order": 108,
       "role": "Tailor",
-      "thumb": null
+      "thumb": "/7A6RjNhuDwDcMpzdxlCfhWYP5Gl.jpg"
     },
     {
       "name": "Jay Jackson",
@@ -720,7 +721,7 @@
       "name": "Todd Sherry",
       "order": 123,
       "role": "Dr. Gabe Egon",
-      "thumb": "/2e1GEOVdqVyZClcPjXrkgavK3UO.jpg"
+      "thumb": "/m0BHMQ8OUAEgpFdaOidTVunOCWm.jpg"
     },
     {
       "name": "George Ketsios",
@@ -750,7 +751,7 @@
       "name": "Kirk Fox",
       "order": 128,
       "role": "Blair's Dad",
-      "thumb": null
+      "thumb": "/A3aEZwSGh1cCVMUTJefaewqZOjd.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -776,10 +777,13 @@
         ]
       },
       "seriesBackground": [
-        "https://assets.fanart.tv/fanart/tv/349338/showbackground/black-monday-5efc57c958af9.jpg"
+        "https://assets.fanart.tv/fanart/tv/349338/showbackground/black-monday-5efc57c958af9.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/showbackground/black-monday-6025123496731.jpg"
       ],
       "seriesBanner": [
         "https://assets.fanart.tv/fanart/tv/349338/tvbanner/black-monday-5efc5736e752e.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvbanner/black-monday-602512ae4d603.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvbanner/black-monday-602512afa25fa.jpg",
         "https://assets.fanart.tv/fanart/tv/349338/tvbanner/black-monday-5fedd3aae386b.jpg"
       ],
       "seriesPoster": [
@@ -789,7 +793,8 @@
       ],
       "seriesThumb": [
         "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-5f1316ba402da.jpg",
-        "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-5efc57eec27d8.jpg"
+        "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-5efc57eec27d8.jpg",
+        "https://assets.fanart.tv/fanart/tv/349338/tvthumb/black-monday-6028e773b1c96.jpg"
       ]
     },
     "tmdb": {

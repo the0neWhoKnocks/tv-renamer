@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015179742,
   "genres": [
     "Animation",
     "Mystery",
@@ -41,6 +42,78 @@
       "thumb": "/A1lGrpBEdAUxZA7RoAw4Zr4ved3.jpg"
     },
     {
+      "name": "Yumiri Hanamori",
+      "order": 33,
+      "role": "Kon (voice)",
+      "thumb": "/AnrnfnxLllwqCYfkI9mEPBlkjG1.jpg"
+    },
+    {
+      "name": "Hiroyuki Endō",
+      "order": 19,
+      "role": "Police officer (voice)",
+      "thumb": "/mlWYeCbgTbh0yo3pVqc5dEdOnxn.jpg"
+    },
+    {
+      "name": "Kenta Zaima",
+      "order": 21,
+      "role": "Police officer (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Daisuke Hatooka",
+      "order": 14,
+      "role": "Rescue team member (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Kana Hanazawa",
+      "order": 14,
+      "role": "Inari (voice)",
+      "thumb": "/5bK9ttcRydQBWmyZp7gXDmJYOPF.jpg"
+    },
+    {
+      "name": "Anna Mugiho",
+      "order": 16,
+      "role": "Frog (voice)",
+      "thumb": null
+    },
+    {
+      "name": "Hironori Kondō",
+      "order": 21,
+      "role": "Worker (voice)",
+      "thumb": "/yBgzEpjr4C3k2DsgaaHgt8Y9HXV.jpg"
+    },
+    {
+      "name": "Daisuke Kishio",
+      "order": 23,
+      "role": "Yoruno (voice)",
+      "thumb": "/uXBSUBXWO87Kp3Dp4ILr2dp0nlU.jpg"
+    },
+    {
+      "name": "Daisuke Ono",
+      "order": 33,
+      "role": "Mihai (voice)",
+      "thumb": "/rCo5Q3xMnOFMavs6YJAbP2ZRsqt.jpg"
+    },
+    {
+      "name": "Yoshino Nanjo",
+      "order": 34,
+      "role": "Kanonba Reika (voice)",
+      "thumb": "/zxPygK9HUgK4uF0VgxvT8UbfTvH.jpg"
+    },
+    {
+      "name": "Tomori Kusunoki",
+      "order": 34,
+      "role": "Kanonba Momoka (voice)",
+      "thumb": "/aeqDbiL3I9A3ijl5YHEVZuq9hQ7.jpg"
+    },
+    {
+      "name": "Arisa Komiya",
+      "order": 34,
+      "role": "Kanonba Erika (voice)",
+      "thumb": "/kxBwOaRSZJDGAAND0oxj10JSqxL.jpg"
+    },
+    {
       "name": "Hisako Kanemoto",
       "order": 1,
       "role": "Yatarō (voice)",
@@ -71,18 +144,6 @@
       "thumb": "/tMeX38JDhHl0XTeXYsZdhcgo2rp.jpg"
     },
     {
-      "name": "Anna Mugiho",
-      "order": 6,
-      "role": "Ghoul deer (voice)",
-      "thumb": null
-    },
-    {
-      "name": "Kana Hanazawa",
-      "order": 7,
-      "role": "Inari (voice)",
-      "thumb": "/5bK9ttcRydQBWmyZp7gXDmJYOPF.jpg"
-    },
-    {
       "name": "Mutsumi Tamura",
       "order": 8,
       "role": "Eldest son (voice)",
@@ -95,28 +156,52 @@
       "thumb": "/2Z1XdYZ3SMHyXC3j1exRxzzKWVj.jpg"
     },
     {
-      "name": "Hiroyuki Endō",
-      "order": 10,
-      "role": "Rescue team member (voice)",
-      "thumb": "/mlWYeCbgTbh0yo3pVqc5dEdOnxn.jpg"
+      "name": "Hitoshi Bifu",
+      "order": 17,
+      "role": "Police chief (voice)",
+      "thumb": "/wfWuao9CysjqbXf8F2cYESzqntt.jpg"
     },
     {
-      "name": "Hironori Kondō",
-      "order": 11,
-      "role": "Rescue team member (voice)",
-      "thumb": "/yBgzEpjr4C3k2DsgaaHgt8Y9HXV.jpg"
-    },
-    {
-      "name": "Kenta Zaima",
-      "order": 12,
-      "role": "Rescue team member (voice)",
+      "name": "Sō Takeuchi",
+      "order": 20,
+      "role": "Police officer (voice)",
       "thumb": null
     },
     {
-      "name": "Daisuke Hatooka",
-      "order": 13,
-      "role": "Rescue team member (voice)",
+      "name": "Rika Kinugawa",
+      "order": 21,
+      "role": "Office lady (voice)",
+      "thumb": "/sm99XGd4upB4iujtg7OThvKcjpH.jpg"
+    },
+    {
+      "name": "Yukine Yaehata",
+      "order": 22,
+      "role": "Office lady (voice)",
       "thumb": null
+    },
+    {
+      "name": "Mariya Ise",
+      "order": 23,
+      "role": "Mao (voice)",
+      "thumb": "/tQWlgrlQ70biWdg7x9E75CtwsuD.jpg"
+    },
+    {
+      "name": "Kaito Ishikawa",
+      "order": 24,
+      "role": "Yui (voice)",
+      "thumb": "/kLVhJYH73ust9ComUxGR63DOvxu.jpg"
+    },
+    {
+      "name": "Hiroshi Yanaka",
+      "order": 25,
+      "role": "Elder (voice)",
+      "thumb": "/mI2sLXbpBYYG76aWag89XBNgAHO.jpg"
+    },
+    {
+      "name": "Hiro Shimono",
+      "order": 33,
+      "role": "Nobimaru (voice)",
+      "thumb": "/i5CaaqKmHH0vKCloqZyrCwn5mWy.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -145,7 +230,7 @@
         null,
         {
           "aired": "2021-01-10",
-          "plot": "Kohachi Inugami, a detective specializing in supernatural matters, is hired to investigate some animal mutilations in a rural village. His investigation leads to an unusual boy, nicknamed \"Dorotabō,\" who is ostracized by the other villagers.",
+          "plot": "Kohachi Inugami, a detective specializing in supernatural matters, is hired to investigate some animal mutilations in a rural village. His investigation leads to an unusual boy, nicknamed “Dorotabō,” who is ostracized by the other villagers.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/96PGx7mw4jgG3eQP6nLcM2c2z6i.jpg",
           "title": "Kabane"
         },
@@ -157,57 +242,63 @@
         },
         {
           "aired": "2021-01-24",
-          "plot": "",
-          "thumbnail": "",
+          "plot": "Superintendent Inari of the Shinjuku Police Station, a kitsune Kemono herself, asks Kabane to come to her station to introduce himself. But when Inari asks to see his lifestone, it becomes evident that she has an ulterior motive for the visit.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/845Dxshy1aTNZQjwzre8cdvcUTB.jpg",
           "title": "Foxes"
         },
         {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
+          "aired": "2021-01-31",
+          "plot": "The office members help a love-stricken client track down the object of his affection, and Kabane learns a lesson about love. Akira decides to pattern himself after Kabane, and the two are assigned to investigate a deadly case on the Shibuya River.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/AkigIe6vSCNyfrOrwihfjZFsSJT.jpg",
           "title": "Mission"
         },
         {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Infiltration"
+          "aired": "2021-02-07",
+          "plot": "A longtime acquaintance of Inugami, the vampire Mihai, has been staying at the office. Kabane and the others unexpectedly end up in an arm-wrestling competition with him, but are outclassed by the extraordinary vampiric power that he possesses.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/kTwEO6Zg41gtXdD89Gg9IFQnXn7.jpg",
+          "title": "Intrusion"
         },
         {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Episode 6"
+          "aired": "2021-02-14",
+          "plot": "Kabane, Shiki and Akira embark on a dangerous mission set up by Mihai, breaking into a company controlled by a trio of kanonba (mosquito Kemono) sisters to investigate it. When discovered, they must fight it out, but something comes over Shiki.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/3JPst9L5ipwW1oBsSuURevybSpD.jpg",
+          "title": "Awakening"
         },
         {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Episode 7"
+          "aired": "2021-02-21",
+          "plot": "In search of a lead on Shiki’s parents, Kabane and the others head to his hometown of Kinshigo, where they meet up with his uncle, Akio Tademaru. The others don’t know what to say to Shiki when he learns about his parents, but then Nobimaru turns up.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7SpAjo5KPLoBpZIiF0SvEs9S5Lg.jpg",
+          "title": "Home"
         },
         {
-          "aired": "",
-          "plot": "",
-          "thumbnail": "",
-          "title": "Episode 8"
+          "aired": "2021-02-28",
+          "plot": "Shiki corners the man who tormented his mother. However, at the last moment, he is attacked by a pack of Kemono and finds himself in a pinch. Separated from Inugami, Kabane and Shiki are surrounded, and must confront the pack of Kemono themselves.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/hBGRe6GxN6GWFp6SmzVux7wT3gd.jpg",
+          "title": "Truth"
         },
         {
-          "aired": "",
+          "aired": "2021-03-07",
           "plot": "",
           "thumbnail": "",
-          "title": "Episode 9"
+          "title": "Family"
         },
         {
-          "aired": "",
+          "aired": "2021-03-14",
           "plot": "",
           "thumbnail": "",
           "title": "Episode 10"
         },
         {
-          "aired": "",
+          "aired": "2021-03-21",
           "plot": "",
           "thumbnail": "",
           "title": "Episode 11"
+        },
+        {
+          "aired": "2021-03-28",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 12"
         }
       ]
     }

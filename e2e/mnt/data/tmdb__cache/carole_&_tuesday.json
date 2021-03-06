@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015189771,
   "genres": [
     "Animation",
     "Sci-Fi & Fantasy",
@@ -73,7 +74,7 @@
       "name": "Mamoru Miyano",
       "order": 9,
       "role": "Ertegun (voice)",
-      "thumb": "/5bw3P0A3iCeXaBGWtuWwkmxnAh1.jpg"
+      "thumb": "/i8n9U3JlujjyPmiZPHGkpwxkh7X.jpg"
     },
     {
       "name": "Ken'yuu Horiuchi",
@@ -196,6 +197,18 @@
           "plot": "",
           "thumbnail": "https://image.tmdb.org/t/p/w400/k6iiOYIQnpPF3zJO9YAx813S3Lj.jpg",
           "title": "Mini Series- Carole & Tuesday"
+        },
+        {
+          "aired": "2019-10-30",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 10"
+        },
+        {
+          "aired": "2020-01-22",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Episode 11"
         }
       ]
     },

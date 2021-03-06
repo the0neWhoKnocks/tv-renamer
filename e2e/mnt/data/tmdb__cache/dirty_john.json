@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015193474,
   "genres": [
     "Drama",
     "Crime"
@@ -16,28 +17,28 @@
   ],
   "actors": [
     {
-      "name": "Connie Britton",
-      "order": 0,
-      "role": "Debra Newell",
-      "thumb": "/tvmHBugmn6zKgWWcDFFOafBkS3K.jpg"
-    },
-    {
       "name": "Amanda Peet",
       "order": 0,
       "role": "Betty Broderick",
       "thumb": "/5TfyCj0X9ftKO11FN057P05s78C.jpg"
     },
     {
-      "name": "Christian Slater",
-      "order": 1,
-      "role": "Dan Broderick",
-      "thumb": "/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg"
+      "name": "Connie Britton",
+      "order": 0,
+      "role": "Debra Newell",
+      "thumb": "/lxfHf4tTx5NukbemcJjmgqqFAiV.jpg"
     },
     {
       "name": "Eric Bana",
       "order": 1,
       "role": "John Meehan",
       "thumb": "/j8tbvkg0kyCZihbwrUNRxwhqXXe.jpg"
+    },
+    {
+      "name": "Christian Slater",
+      "order": 1,
+      "role": "Dan Broderick",
+      "thumb": "/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg"
     },
     {
       "name": "Rachel Keller",
@@ -49,7 +50,7 @@
       "name": "Julia Garner",
       "order": 2,
       "role": "Terra Newell",
-      "thumb": "/3ssgMsIWiTafSrjHNYdxYYZcvuf.jpg"
+      "thumb": "/xOgG4rnq8ZQf1SkXZpYVoImnEjM.jpg"
     },
     {
       "name": "Juno Temple",
@@ -73,7 +74,7 @@
       "name": "Giorgia Whigham",
       "order": 2,
       "role": "Teenage Denise",
-      "thumb": "/oWcGJQ0vqDws24acdxQzPB41hGV.jpg"
+      "thumb": "/3Ktu2QVj0FTMF94DrmvYQPRjqRC.jpg"
     },
     {
       "name": "Joshua Wolf Coleman",

@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015201300,
   "genres": [
     "Comedy",
     "Sci-Fi & Fantasy"
@@ -59,7 +60,7 @@
     {
       "name": "Paterson Joseph",
       "order": 6,
-      "role": "",
+      "role": "Space Marshall Clarke",
       "thumb": "/n8kf0aowLTcPSt72k0eC4ZShe3s.jpg"
     },
     {
@@ -150,7 +151,7 @@
       "name": "Richard Katz",
       "order": 10,
       "role": "Male Glish",
-      "thumb": null
+      "thumb": "/fvmRF8V0px0uONLxtV56C9MX5mE.jpg"
     },
     {
       "name": "Katherine Jakeways",

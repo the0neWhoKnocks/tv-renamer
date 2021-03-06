@@ -149,7 +149,7 @@ context('Renamer', () => {
       'Dirty John - 1x01 - Approachable Dreams.mkv',
       'Dirty John - 1x02 - Red Flags and Parades.mkv',
       'Doom Patrol - 1x01 - Pilot.mkv',
-      'Forged in Fire - 6x01x02 - Long Road to Redemption & Road to Redemption.mkv',
+      'Forged in Fire - 6x01x02 - Long Road to Redemption.mkv',
       'Future Man - 2x05 - J1- Judgment Day.mkv',
       'Game of Thrones - 0x55 - The Last Watch.mkv',
       'gen-LOCK - 1x01 - The Pilot.mkv',
@@ -283,7 +283,7 @@ context('Renamer', () => {
     cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
     
     const newNames = [
-      'The Big Fat Quiz of the Year - 1x15 - The Big Fat Quiz of the Year 2018.mkv',
+      'Big Fat Quiz - 1x15 - The Big Fat Quiz of the Year 2018.mkv',
       'The Big Fat Quiz of Everything - 0x03 - 2018 Special.mp4',
       'Doctor Who (2005) - 0x156 - Resolution.mkv',
       'Mob Psycho 100 - 2x07 - Cornered ~True Identity~.mkv',

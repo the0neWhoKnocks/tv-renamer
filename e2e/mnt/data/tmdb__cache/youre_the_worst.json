@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015238394,
   "genres": [
     "Comedy",
     "Drama"
@@ -115,7 +116,7 @@
       "name": "Colin Campbell",
       "order": 33,
       "role": "Barfly",
-      "thumb": null
+      "thumb": "/j9kFSHumvbTHCO9BTemkovksQYb.jpg"
     },
     {
       "name": "Jessica Stroup",
@@ -277,7 +278,7 @@
       "name": "Marc Evan Jackson",
       "order": 36,
       "role": "Therapist",
-      "thumb": "/zfuxICJp5pKV29TVnmU0ixw5CW1.jpg"
+      "thumb": "/4TWP0nlhkxkZ5XzzZuz3RCoZjFX.jpg"
     },
     {
       "name": "Tommy Mountain",
@@ -313,7 +314,7 @@
       "name": "Adam Zastrow",
       "order": 42,
       "role": "Homeless Man",
-      "thumb": null
+      "thumb": "/s4XMnSZ8mSPZOmWXR2e7ldsdNwl.jpg"
     },
     {
       "name": "George Basil",
@@ -325,7 +326,7 @@
       "name": "Charmel Catrell",
       "order": 44,
       "role": "Waitress",
-      "thumb": null
+      "thumb": "/6WJbOkHyIHLTRoyBDn2FjNnzHwg.jpg"
     },
     {
       "name": "Celia Finkelstein",
@@ -447,7 +448,7 @@
       "poster": "https://image.tmdb.org/t/p/w780/cc712GZjnMS8lusS9W3hhGoMgph.jpg",
       "seasonPosters": {
         "1": "https://image.tmdb.org/t/p/w780/utIaoljCNY1ToRqjQ6wqVCYgoew.jpg",
-        "2": "https://image.tmdb.org/t/p/w780/c7Ge8WbZKdOXQ50DA0c3A83sDet.jpg",
+        "2": "https://image.tmdb.org/t/p/w780/wJs3g0qZpshsctdvP3svNmWAoay.jpg",
         "3": "https://image.tmdb.org/t/p/w780/XepGtiiULk6rfpLK6U0yHdbYqD.jpg",
         "4": "https://image.tmdb.org/t/p/w780/5s6tl3gR3tEOD2m324KkUwg5Duf.jpg",
         "5": "https://image.tmdb.org/t/p/w780/3YpxoeQ2Jdwh9zrMctDQ6jAfEPR.jpg"

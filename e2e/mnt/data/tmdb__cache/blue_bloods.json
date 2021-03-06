@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015185215,
   "genres": [
     "Crime",
     "Drama"
@@ -131,7 +132,7 @@
     {
       "name": "Ashley North",
       "order": 927,
-      "role": "Pedestrian (uncredited)",
+      "role": "Criminal",
       "thumb": "/zzCi9CmJKbAg9dcA4A6ZqWVfhUU.jpg"
     },
     {
@@ -155,7 +156,7 @@
     {
       "name": "Victor Slezak",
       "order": 345,
-      "role": "Chief of Intel",
+      "role": "Inter Chief",
       "thumb": "/ePiUGZJP5sVpk0I7oEEy9OuLgMD.jpg"
     },
     {
@@ -203,8 +204,8 @@
     {
       "name": "Anthony Mangano",
       "order": 427,
-      "role": "Cop",
-      "thumb": null
+      "role": "Detective",
+      "thumb": "/mfCIhsVXY5M0j5ZUHV93tgulqQX.jpg"
     },
     {
       "name": "Mike Houston",
@@ -221,13 +222,13 @@
     {
       "name": "James Nuciforo",
       "order": 530,
-      "role": "Himself",
+      "role": "Jim",
       "thumb": null
     },
     {
       "name": "Ato Essandoh",
       "order": 539,
-      "role": "Reverend Darnell Potter",
+      "role": "Reverend Potter",
       "thumb": "/kkQFtsIxVUMuYDrVGeRfX2IG2F8.jpg"
     },
     {
@@ -264,7 +265,7 @@
       "name": "Robert John Burke",
       "order": 187,
       "role": "Jyle Hogan",
-      "thumb": "/9z4goY4Qlzmtkt7sG1JwIQ4XwrN.jpg"
+      "thumb": "/wI16GGKylYjtwVeYs3ui42Ep2Li.jpg"
     },
     {
       "name": "Nick Sandow",
@@ -306,7 +307,7 @@
       "name": "Matthew Rauch",
       "order": 467,
       "role": "Lawrence Skolnick",
-      "thumb": null
+      "thumb": "/zbwyjV7ojfO1HPXDHIRJE4U7BE.jpg"
     },
     {
       "name": "Frederick Weller",
@@ -342,7 +343,7 @@
       "name": "Kamar de los Reyes",
       "order": 38,
       "role": "Santana",
-      "thumb": null
+      "thumb": "/jkJQXn2JGvJ0XN0HLULAMPE4YYL.jpg"
     },
     {
       "name": "Joanna Gleason",
@@ -431,7 +432,7 @@
     {
       "name": "Alexis Suarez",
       "order": 309,
-      "role": "Cop #3",
+      "role": "Uniformed Cop",
       "thumb": "/2jRyo3M8rXidBnRYj7fT1SSJjxg.jpg"
     },
     {
@@ -449,7 +450,7 @@
     {
       "name": "Michael Rispoli",
       "order": 320,
-      "role": "Jack Condo",
+      "role": "Vitale",
       "thumb": "/4rtCKJTtPq9cSHFQqZSbyCLLWCO.jpg"
     },
     {
@@ -491,13 +492,13 @@
     {
       "name": "Rikki Klieman",
       "order": 434,
-      "role": "Katrina McCarthy",
+      "role": "Judge Fowler",
       "thumb": "/qXJOnS8H2smIrLttNDLc37u2gvW.jpg"
     },
     {
       "name": "Todd Faulkner",
       "order": 446,
-      "role": "Taru Tech",
+      "role": "TARU Officer",
       "thumb": "/gONqDrzETujGtM9WSrHDvB2Ej3A.jpg"
     },
     {
@@ -513,16 +514,16 @@
       "thumb": "/rWTWUwOcNj5SsLb9FS3dbseosWv.jpg"
     },
     {
+      "name": "Brian Sgambati",
+      "order": 472,
+      "role": "Detective",
+      "thumb": null
+    },
+    {
       "name": "Blanchard Ryan",
       "order": 472,
       "role": "Female Reporter",
       "thumb": "/7dLq8Yo8ZuxaE34p9XZhQpPXtSJ.jpg"
-    },
-    {
-      "name": "Brian Sgambati",
-      "order": 472,
-      "role": "Detective Kelsey",
-      "thumb": null
     },
     {
       "name": "Marnie Schulenburg",
@@ -546,24 +547,24 @@
       "name": "Teddy Sears",
       "order": 496,
       "role": "Sam Croft",
-      "thumb": "/psU1XUNVtWHqNdxcr6NjPHEKTMh.jpg"
+      "thumb": "/4avhBjxs9KRYxQ39wn78QrkOJl5.jpg"
     },
     {
       "name": "Joe Forbrich",
       "order": 538,
       "role": "ESU Captain Dempsey",
-      "thumb": null
+      "thumb": "/zXwP9908bYBXougdcaFsP8awk2v.jpg"
     },
     {
       "name": "Nestor Serrano",
       "order": 546,
-      "role": "Derek Elwood",
+      "role": "Capt. Elwood",
       "thumb": "/fAIEmyGMenNij2cASG2Uj5bDAao.jpg"
     },
     {
       "name": "David Fonteno",
       "order": 623,
-      "role": "NYPD Chief of Intel",
+      "role": "ESU Captain",
       "thumb": "/97a6TX1BAa0lBecvXf0lrqMkSo3.jpg"
     },
     {
@@ -587,7 +588,7 @@
     {
       "name": "Jordan Baker",
       "order": 714,
-      "role": "Eveline",
+      "role": "Chelsey Parker",
       "thumb": "/PvDRVKrx6EPdqyLPnQV95z7Rak.jpg"
     },
     {
@@ -605,8 +606,8 @@
     {
       "name": "Lorraine Bracco",
       "order": 847,
-      "role": "Margaret Dutton",
-      "thumb": "/kz2YYb1rCujO49F2xYBoMz8zoZT.jpg"
+      "role": "Mayor Margaret Dutton",
+      "thumb": "/1lQiN8yggIJ8aGYLp4Nul3ALdXC.jpg"
     },
     {
       "name": "Quincy Tyler Bernstine",
@@ -798,7 +799,7 @@
       "name": "Seth Barrish",
       "order": 36,
       "role": "Alex Lawlor",
-      "thumb": null
+      "thumb": "/Tr9Sv3seUxfm156VvOfzs2durT.jpg"
     },
     {
       "name": "Grant Monohon",
@@ -846,7 +847,7 @@
       "name": "Adrian Alvarado",
       "order": 50,
       "role": "",
-      "thumb": "/kQUcTuGFmp9hXIlG3sOO0iXvBzD.jpg"
+      "thumb": null
     },
     {
       "name": "Malcolm Goodwin",
@@ -876,7 +877,7 @@
       "name": "Marc Blucas",
       "order": 58,
       "role": "Russell Berke",
-      "thumb": "/24gXjSJzM15GN197gruKah6HM3f.jpg"
+      "thumb": "/mk0YeUWkMsFKzJ8wFHsEXuGd2KK.jpg"
     },
     {
       "name": "Kevin Kilner",
@@ -954,13 +955,13 @@
       "name": "David Vadim",
       "order": 75,
       "role": "Vigor Kovacs",
-      "thumb": null
+      "thumb": "/y7JoVtexKudV5dUDal4Ko0xeIlF.jpg"
     },
     {
       "name": "Maury Ginsberg",
       "order": 76,
       "role": "Scott Holden",
-      "thumb": null
+      "thumb": "/mm1j00SK9DYl8yTP40lzMEQw9DA.jpg"
     },
     {
       "name": "Frank Wood",
@@ -1002,7 +1003,7 @@
       "name": "Luke Guldan",
       "order": 85,
       "role": "Ralphie Vitale",
-      "thumb": "/qi1ZZo83r64dmuB4KTLevQxNMjb.jpg"
+      "thumb": "/bBeYCSMNQoWakVVunQZvn72F1Ia.jpg"
     },
     {
       "name": "Jeff Lima",
@@ -1068,7 +1069,7 @@
       "name": "Christian Keiber",
       "order": 99,
       "role": "Arelli Lawrence",
-      "thumb": null
+      "thumb": "/x09IHDg92MPauINTkQMj1Rto8vi.jpg"
     },
     {
       "name": "C. Thomas Howell",
@@ -1146,7 +1147,7 @@
       "name": "Piter Marek",
       "order": 116,
       "role": "Baahir Zaki",
-      "thumb": null
+      "thumb": "/insHiHJROTzgCKJbtdIp1Dy3iZG.jpg"
     },
     {
       "name": "Samrat Chakrabarti",
@@ -1218,7 +1219,7 @@
       "name": "Erik Jensen",
       "order": 132,
       "role": "Jimmy",
-      "thumb": null
+      "thumb": "/zovg17gF5GGcEJJSysRymhtJhzP.jpg"
     },
     {
       "name": "Julia Goldani Telles",
@@ -1383,16 +1384,16 @@
       "thumb": "/uMVBTUEaCmkEpVR2tDKR1uSzsEG.jpg"
     },
     {
-      "name": "Daisy Tahan",
-      "order": 163,
-      "role": "Stacy Goldman",
-      "thumb": "/tbb8bs7apjXGaVtMwBsK9fZd1c9.jpg"
-    },
-    {
       "name": "Elle Fairbanks",
       "order": 163,
       "role": "Maria Romano",
       "thumb": null
+    },
+    {
+      "name": "Daisy Tahan",
+      "order": 163,
+      "role": "Stacy Goldman",
+      "thumb": "/tbb8bs7apjXGaVtMwBsK9fZd1c9.jpg"
     },
     {
       "name": "Malachi Weir",
@@ -1425,16 +1426,16 @@
       "thumb": "/fdXicvc1t7R5VA5rX3PipGNf2Ct.jpg"
     },
     {
-      "name": "Frankie Faison",
-      "order": 172,
-      "role": "Jeffords",
-      "thumb": "/3717JOXK2Z8qelfyvScDGimfFBf.jpg"
-    },
-    {
       "name": "Carlton Byrd",
       "order": 172,
       "role": "Handsome",
       "thumb": null
+    },
+    {
+      "name": "Frankie Faison",
+      "order": 172,
+      "role": "Jeffords",
+      "thumb": "/3717JOXK2Z8qelfyvScDGimfFBf.jpg"
     },
     {
       "name": "Aja Naomi King",
@@ -1524,7 +1525,7 @@
       "name": "David Lee Russek",
       "order": 190,
       "role": "Jimmy Costello",
-      "thumb": null
+      "thumb": "/itVuG4fr1t0da92No0hBLlpSQmM.jpg"
     },
     {
       "name": "Joel Garland",
@@ -1596,13 +1597,13 @@
       "name": "Shelley Hennig",
       "order": 203,
       "role": "Maya",
-      "thumb": "/zULFIDsJFPdCqnJmKBuPSL7LcV0.jpg"
+      "thumb": "/oebUgnvPMuW74zaYDKELt9yEajM.jpg"
     },
     {
       "name": "Annie Wersching",
       "order": 204,
       "role": "Joyce Carpenter",
-      "thumb": "/d1FCZinx9jTWAglC70bYsw2ryuY.jpg"
+      "thumb": "/xOTYKQp0pn7Q1XBgtbzo2yj6uWd.jpg"
     },
     {
       "name": "Liza Lapira",
@@ -1674,7 +1675,7 @@
       "name": "Scott Cohen",
       "order": 218,
       "role": "Dr. Warren Wakefield",
-      "thumb": "/7gSfZoWhwsTvCCvFXOfUFZwNXMo.jpg"
+      "thumb": "/xzm9EQQ4R62V2z2I2UagOuYGa9Y.jpg"
     },
     {
       "name": "Hoon Lee",
@@ -2010,7 +2011,7 @@
       "name": "Jimmy Palumbo",
       "order": 279,
       "role": "Chief Winston",
-      "thumb": null
+      "thumb": "/q6jxzlfYZIe77h7O1p4dWypeBaH.jpg"
     },
     {
       "name": "Ralph Byers",
@@ -2022,7 +2023,7 @@
       "name": "Josh Casaubon",
       "order": 281,
       "role": "Josh Saunders",
-      "thumb": null
+      "thumb": "/7i9sGrVLfOQGCHctGuT71rzQD7O.jpg"
     },
     {
       "name": "Dylan Chalfy",
@@ -2100,7 +2101,7 @@
       "name": "Ami Sheth",
       "order": 295,
       "role": "Farrah",
-      "thumb": null
+      "thumb": "/pwkNO8eTyyPddAgW4l5piOBYwtZ.jpg"
     },
     {
       "name": "Lohrasp Kansara",
@@ -2187,16 +2188,16 @@
       "thumb": null
     },
     {
+      "name": "Lucy Walters",
+      "order": 311,
+      "role": "Vanessa",
+      "thumb": "/A3ceo8zlMmDwe7OvHsPkO3N0vLG.jpg"
+    },
+    {
       "name": "Ali Ahn",
       "order": 311,
       "role": "Ella Ryu",
       "thumb": "/o3WRM7PfsDcgRKySk1V4PlOy7Bu.jpg"
-    },
-    {
-      "name": "Lucy Walters",
-      "order": 311,
-      "role": "Vanessa",
-      "thumb": "/bRJ6QIHLBv4yP1P0oA7w46gZd3o.jpg"
     },
     {
       "name": "John Bedford Lloyd",
@@ -2232,7 +2233,7 @@
       "name": "Nneoma Nkuku",
       "order": 320,
       "role": "Easter",
-      "thumb": null
+      "thumb": "/ghPtF6tcuwr8ShMwFDWERrShoEe.jpg"
     },
     {
       "name": "Victor Verhaeghe",
@@ -2394,7 +2395,7 @@
       "name": "Samuel Smith",
       "order": 351,
       "role": "Security Guy",
-      "thumb": null
+      "thumb": "/dB6ndkwdLkuWqpKGoQBUA8CXfSF.jpg"
     },
     {
       "name": "Raul Aranas",
@@ -2430,7 +2431,7 @@
       "name": "Amanda Setton",
       "order": 358,
       "role": "Sylvia",
-      "thumb": "/yDEe610GC9DXSlT7jAm8UO2M6j6.jpg"
+      "thumb": "/kxKqQjZ6CpUlvx0364wbjJGr4v1.jpg"
     },
     {
       "name": "Miles Grose",
@@ -2754,7 +2755,7 @@
       "name": "Cassidy Gifford",
       "order": 421,
       "role": "Mandy",
-      "thumb": null
+      "thumb": "/h0DAnus6YDp9YHhyneQ6UyYSN0V.jpg"
     },
     {
       "name": "Grant Rosenmeyer",
@@ -2976,7 +2977,7 @@
       "name": "Danny Johnson",
       "order": 470,
       "role": "ESU Captain",
-      "thumb": null
+      "thumb": "/cGjf0ScNRt7xoLGf3uhJu2cFNhK.jpg"
     },
     {
       "name": "Rob Morgan",
@@ -3018,7 +3019,7 @@
       "name": "Matthew Porretta",
       "order": 481,
       "role": "Congressman Albom",
-      "thumb": null
+      "thumb": "/5b6uhwD4HuURgq6kvHEdz9SGZnp.jpg"
     },
     {
       "name": "Asa Somers",
@@ -3165,16 +3166,16 @@
       "thumb": "/wPMax27qMb7gtx4pA7tAqP0GXwK.jpg"
     },
     {
-      "name": "Robert Funaro",
-      "order": 512,
-      "role": "Captain Browne",
-      "thumb": "/bfL66eK46g3QmiHUFKSoqinPEx9.jpg"
-    },
-    {
       "name": "TaiVon McKinney",
       "order": 512,
       "role": "Officer Smith",
       "thumb": null
+    },
+    {
+      "name": "Robert Funaro",
+      "order": 512,
+      "role": "Captain Browne",
+      "thumb": "/bfL66eK46g3QmiHUFKSoqinPEx9.jpg"
     },
     {
       "name": "Christopher Jon Gombos",
@@ -3210,7 +3211,7 @@
       "name": "Alfredo Narciso",
       "order": 519,
       "role": "Det. Montero",
-      "thumb": null
+      "thumb": "/i2XfTOaynYKHTsdwIzvOReKr2PN.jpg"
     },
     {
       "name": "Maureen Mueller",
@@ -3753,16 +3754,16 @@
       "thumb": null
     },
     {
-      "name": "Jeffrey Omura",
-      "order": 616,
-      "role": "Patrick Dunleavy",
-      "thumb": null
-    },
-    {
       "name": "Ken Arnold",
       "order": 616,
       "role": "Fat Cat",
       "thumb": "/yxQGYkRsx2MxKNEplZsGpWXckH1.jpg"
+    },
+    {
+      "name": "Jeffrey Omura",
+      "order": 616,
+      "role": "Patrick Dunleavy",
+      "thumb": null
     },
     {
       "name": "Richard Burgi",
@@ -3894,13 +3895,13 @@
       "name": "Judith Delgado",
       "order": 641,
       "role": "Maude",
-      "thumb": null
+      "thumb": "/1hLhQVibqtqzAxtetHYP3UP2HQe.jpg"
     },
     {
       "name": "Andre Ware",
       "order": 642,
       "role": "Sergeant",
-      "thumb": null
+      "thumb": "/ukimnb2sfaZFSax8XqskWyLgoCc.jpg"
     },
     {
       "name": "Tawny Cypress",
@@ -4014,7 +4015,7 @@
       "name": "Daryl Edwards",
       "order": 666,
       "role": "Russ Howard",
-      "thumb": null
+      "thumb": "/ALAfKDxi1ktrUTJmXrgAADC2kB.jpg"
     },
     {
       "name": "Margot White",
@@ -4062,7 +4063,7 @@
       "name": "McCaleb Burnett",
       "order": 677,
       "role": "Jimmy Deleo",
-      "thumb": null
+      "thumb": "/2azKqTfuWvCUezgo8JRQsciDZBd.jpg"
     },
     {
       "name": "Jason Kravits",
@@ -4110,7 +4111,7 @@
       "name": "Susan Misner",
       "order": 686,
       "role": "Karen Waters",
-      "thumb": "/bgSoEFPkeHle7y0YKEBRZSIgxBD.jpg"
+      "thumb": "/nJHIk7BWzFrktuPdNE1WlLSEOQt.jpg"
     },
     {
       "name": "Sarah Steele",
@@ -4200,7 +4201,7 @@
       "name": "Tony Campisi",
       "order": 701,
       "role": "Gerry O'Grady",
-      "thumb": null
+      "thumb": "/qwuSCouwr9PVW7wOHbRdqOUbcDG.jpg"
     },
     {
       "name": "Dana Cuomo",
@@ -4235,8 +4236,8 @@
     {
       "name": "Boomer Esiason",
       "order": 711,
-      "role": "HImself",
-      "thumb": null
+      "role": "Himself",
+      "thumb": "/cTFcabvOu0rMkGF5LCBpW6vfnEw.jpg"
     },
     {
       "name": "Michael Mulheren",
@@ -4266,13 +4267,13 @@
       "name": "Chelsea Lopez",
       "order": 717,
       "role": "Tina McDermott",
-      "thumb": null
+      "thumb": "/2AzTo333vBBz0yXV1k7RrbYgpEh.jpg"
     },
     {
       "name": "Hunter Emery",
       "order": 718,
       "role": "Little G",
-      "thumb": null
+      "thumb": "/rWkwXXBXdkpBbcLZcXMozKuY0e3.jpg"
     },
     {
       "name": "Bernie McInerney",
@@ -4311,16 +4312,16 @@
       "thumb": null
     },
     {
-      "name": "Robbie Sublett",
-      "order": 727,
-      "role": "Spencer Croft",
-      "thumb": "/ov3esoHRD0wSxg9SoPqJi4U1vva.jpg"
-    },
-    {
       "name": "Duane Murray",
       "order": 727,
       "role": "P.D. Adelman",
       "thumb": "/hT3xbEShfQ1KPmfwhlY5k0FfmbW.jpg"
+    },
+    {
+      "name": "Robbie Sublett",
+      "order": 727,
+      "role": "Spencer Croft",
+      "thumb": "/ov3esoHRD0wSxg9SoPqJi4U1vva.jpg"
     },
     {
       "name": "Gregg Edelman",
@@ -4329,15 +4330,15 @@
       "thumb": "/jvdye1mZkBb5x4xjjtmtuLRmXzy.jpg"
     },
     {
-      "name": "Chris McKinney",
-      "order": 729,
-      "role": "Bobby Flores",
-      "thumb": null
-    },
-    {
       "name": "Steve Arbuckle",
       "order": 729,
       "role": "Oliver Peele",
+      "thumb": null
+    },
+    {
+      "name": "Chris McKinney",
+      "order": 729,
+      "role": "Bobby Flores",
       "thumb": null
     },
     {
@@ -4428,7 +4429,7 @@
       "name": "Demosthenes Chrysan",
       "order": 746,
       "role": "Bartosz Mazurski",
-      "thumb": null
+      "thumb": "/SrpmF5XSjq30htQo4TmRbmRE55.jpg"
     },
     {
       "name": "Charles Borland",
@@ -4503,16 +4504,16 @@
       "thumb": "/ewFG0zGuogfSBxgFtHm73mt5n5N.jpg"
     },
     {
-      "name": "Heather Burns",
-      "order": 760,
-      "role": "Sister Mary",
-      "thumb": "/cJE6ZpWcRAggWkRVRBOLhZcFibt.jpg"
-    },
-    {
       "name": "Fredric Lehne",
       "order": 760,
       "role": "Lieutenant Trumball",
       "thumb": "/qjtfC2QWLukoNVnDjp8QZF6E6Xz.jpg"
+    },
+    {
+      "name": "Heather Burns",
+      "order": 760,
+      "role": "Sister Mary",
+      "thumb": "/h9FejPeZ5n8U5rYB5Yqd73l2ZID.jpg"
     },
     {
       "name": "Sofia Regan",
@@ -4689,16 +4690,16 @@
       "thumb": "/jZGtLljUh1Qd3rrj9k1YYDkFmsz.jpg"
     },
     {
-      "name": "Kevin Corrigan",
-      "order": 795,
-      "role": "Jimmy Pearson",
-      "thumb": "/qu2P3gjPneAOTZpSjH6m6hSOxrD.jpg"
-    },
-    {
       "name": "Jesse Ray Sheps",
       "order": 795,
       "role": "Malik Nejari",
       "thumb": "/4Cv8z3TCSgdauoQeLVfNaC1qxX.jpg"
+    },
+    {
+      "name": "Kevin Corrigan",
+      "order": 795,
+      "role": "Jimmy Pearson",
+      "thumb": "/qu2P3gjPneAOTZpSjH6m6hSOxrD.jpg"
     },
     {
       "name": "Alex Sgambati",
@@ -4734,7 +4735,7 @@
       "name": "Abbi Snee",
       "order": 800,
       "role": "Jennifer Crowley",
-      "thumb": "/4JbSALBp3xAjkIlas8gAfXHvF4Y.jpg"
+      "thumb": null
     },
     {
       "name": "Parisa Fitz-Henley",
@@ -4821,22 +4822,10 @@
       "thumb": null
     },
     {
-      "name": "Peter Appel",
-      "order": 821,
-      "role": "Joe Salducci",
-      "thumb": "/AvOZjWVwklfJHNHD2AwLmYRhSXw.jpg"
-    },
-    {
       "name": "Rudy Mungaray",
       "order": 821,
       "role": "Lupino",
       "thumb": "/j0MYl0c0ln7q3Wi0Un2w6NfHwd5.jpg"
-    },
-    {
-      "name": "Derek Chadwick",
-      "order": 821,
-      "role": "Sam",
-      "thumb": "/jBZjQ5N9wlD9phArHd1lqLofH0H.jpg"
     },
     {
       "name": "Harlin C. Kearsley",
@@ -4845,16 +4834,28 @@
       "thumb": null
     },
     {
-      "name": "Rosemary De Angelis",
-      "order": 822,
-      "role": "Mrs. Goldfarb",
-      "thumb": null
+      "name": "Derek Chadwick",
+      "order": 821,
+      "role": "Sam",
+      "thumb": "/jBZjQ5N9wlD9phArHd1lqLofH0H.jpg"
+    },
+    {
+      "name": "Peter Appel",
+      "order": 821,
+      "role": "Joe Salducci",
+      "thumb": "/AvOZjWVwklfJHNHD2AwLmYRhSXw.jpg"
     },
     {
       "name": "Sadie Sink",
       "order": 822,
       "role": "Daisy Carpenter",
       "thumb": "/qouCh22I7LZtEJ2THaDsSv0W0ma.jpg"
+    },
+    {
+      "name": "Rosemary De Angelis",
+      "order": 822,
+      "role": "Mrs. Goldfarb",
+      "thumb": null
     },
     {
       "name": "Kelcy Griffin",
@@ -4878,13 +4879,13 @@
       "name": "Tamara Tunie",
       "order": 829,
       "role": "Monica Graham",
-      "thumb": "/vrkKfmpPSW0MhV8SYkNgRBG9ElV.jpg"
+      "thumb": "/1QZ7J8vtd5uuDsbikJkhfYz2dVz.jpg"
     },
     {
       "name": "Ernie Hudson",
       "order": 832,
       "role": "Darryl Ward",
-      "thumb": "/zRUTN973PheMqe8kuBpchM5P1cC.jpg"
+      "thumb": "/kgAdQA2ItCDVvKXufeDHc6Omiso.jpg"
     },
     {
       "name": "Raphael Sbarge",
@@ -4962,7 +4963,7 @@
       "name": "Tia Carrere",
       "order": 847,
       "role": "Chow Lin",
-      "thumb": "/a3bJNCU0i1UttGKhnMGx6wwEd9D.jpg"
+      "thumb": "/jCN2ANuPGeztgoqbPjbeweUnkj.jpg"
     },
     {
       "name": "Natalie Carter",
@@ -4995,16 +4996,16 @@
       "thumb": "/tuSX5lmR95PeyvmUR38Zw4vC0GU.jpg"
     },
     {
-      "name": "Katie Maguire",
-      "order": 855,
-      "role": "Officer Flanagan",
-      "thumb": "/e2NArSgGrpFTVxG8OrvuSSPMGCZ.jpg"
-    },
-    {
       "name": "Karlin Biederman",
       "order": 855,
       "role": "Alex Collins",
       "thumb": null
+    },
+    {
+      "name": "Katie Maguire",
+      "order": 855,
+      "role": "Officer Flanagan",
+      "thumb": "/e2NArSgGrpFTVxG8OrvuSSPMGCZ.jpg"
     },
     {
       "name": "Leslie Hope",
@@ -5067,12 +5068,6 @@
       "thumb": "/ld3xLYTcZWjAc0bE33DONT7n9o8.jpg"
     },
     {
-      "name": "Tim Barker",
-      "order": 866,
-      "role": "Sgt. Mulhearn",
-      "thumb": "/t8CJqkohXl4AWnaG43FbAnN7YrH.jpg"
-    },
-    {
       "name": "Drew Beasley",
       "order": 866,
       "role": "Dylan Russo",
@@ -5083,6 +5078,12 @@
       "order": 866,
       "role": "Bobby Jones",
       "thumb": "/ejvUFCuuPlSi5vZg5J55dULeqlk.jpg"
+    },
+    {
+      "name": "Tim Barker",
+      "order": 866,
+      "role": "Sgt. Mulhearn",
+      "thumb": "/t8CJqkohXl4AWnaG43FbAnN7YrH.jpg"
     },
     {
       "name": "Regan Mizrahi",
@@ -5457,6 +5458,12 @@
       "thumb": "/qSNz7ZRKkHCdwyShapgm8aqibx.jpg"
     },
     {
+      "name": "Rosalyn Coleman",
+      "order": 939,
+      "role": "Lisa Kelly",
+      "thumb": "/iTgx5GEotqmxxGbklEXrocaFbvv.jpg"
+    },
+    {
       "name": "Dean Ciallella",
       "order": 939,
       "role": "Wedding Guest (uncredited)",
@@ -5467,12 +5474,6 @@
       "order": 939,
       "role": "Will Atwater",
       "thumb": "/mEYNRJBZEEQoQiArARoUm67FL34.jpg"
-    },
-    {
-      "name": "Rosalyn Coleman",
-      "order": 939,
-      "role": "Lisa Kelly",
-      "thumb": "/iTgx5GEotqmxxGbklEXrocaFbvv.jpg"
     },
     {
       "name": "Pamela Dunlap",
@@ -5517,16 +5518,16 @@
       "thumb": "/8vkFd1R1OWsEw0ih0qEfIxF6AvO.jpg"
     },
     {
-      "name": "Ben Davis",
-      "order": 948,
-      "role": "Lieutenant Jonathan Harvey",
-      "thumb": "/bIQNajKh6jCTFNG87ioD0jICucP.jpg"
-    },
-    {
       "name": "Shenyse LeAnna Harris",
       "order": 948,
       "role": "Anita Samson",
       "thumb": null
+    },
+    {
+      "name": "Ben Davis",
+      "order": 948,
+      "role": "Lieutenant Jonathan Harvey",
+      "thumb": "/bIQNajKh6jCTFNG87ioD0jICucP.jpg"
     },
     {
       "name": "Welker White",
@@ -5623,6 +5624,18 @@
       "order": 964,
       "role": "Fertility Patient",
       "thumb": "/6Xv7R0YR928hkqGJyTkFYw5gGDU.jpg"
+    },
+    {
+      "name": "Harry Bouvy",
+      "order": 965,
+      "role": "Alan Raby",
+      "thumb": "/idyDdggenrdEOcVRRSgtd9pLSES.jpg"
+    },
+    {
+      "name": "Joseph Kamal",
+      "order": 966,
+      "role": "Dr. Mehta",
+      "thumb": "/ivItYjDnzRuT8zg3WPFg2lOTlPZ.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -6159,7 +6172,7 @@
           "aired": "2013-10-11",
           "plot": "Danny becomes the lead hostage negotiator when a prime informant in a large drug case holds Erin at gunpoint inside the courtroom.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/oj3xUtXA2t4CDM8l9gOaM1jMuJc.jpg",
-          "title": "To Serve and Protect"
+          "title": "To Protect and Serve"
         },
         {
           "aired": "2013-10-18",
@@ -6189,7 +6202,7 @@
           "aired": "2013-11-15",
           "plot": "Frank is put in danger when his dinner companion, mob lawyer Angelo Gallo, is shot; Danny is a juror in a murder trial.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/oj2RfMLa6s7zeZv1sh90DGzzMo8.jpg",
-          "title": "Justice Is Served"
+          "title": "Justice Served"
         },
         {
           "aired": "2013-11-22",
@@ -6404,7 +6417,7 @@
           "aired": "2015-04-24",
           "plot": "When NYPD Deputy Chief Donald Kent, a commanding officer of the gang division, and his wife are gunned down in an apparent gang hit, Frank orders all hands on deck to catch his friend’s killer.  Working the case, Danny and Baez go see Mario Hunt, a well-known member of a deadly gang, in the first of a two-part season finale.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/xgaOSGWF2X7BQ4RyZWH6JjsYzzP.jpg",
-          "title": "New Rules (1)"
+          "title": "New Rules"
         },
         {
           "aired": "2015-05-01",
@@ -6889,7 +6902,7 @@
           "title": "Authority Figures"
         },
         {
-          "aired": "2019-01-05",
+          "aired": "2019-01-04",
           "plot": "Frank questions whether a run-in with community activists was an accident or a setup. Also, Jamie strives to rely less on Frank’s input to makes decisions, Erin helps Anthony protect his daughter and ex-wife from a dangerous psychiatric patient, and Danny and his neighbor size each other up when they learn their kids are dating.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/bk4fodfnRpvQvm2hiPRLl7x5XFg.jpg",
           "title": "Disrupted"
@@ -7050,7 +7063,7 @@
           "title": "Fog of War"
         },
         {
-          "aired": "2020-02-21",
+          "aired": "2020-03-06",
           "plot": "Jamie is under investigation after his police vest is found on a perp. Frank debates whether to aid and protect an old friend whose home was invaded. Danny and Baez investigate the suspicious circumstances surrounding the death of a hotel employee believed to be a suicide. Erin asks Anthony to make a deal with a man who knows secrets about the current D.A.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/o37aiATaJfDt6GZiHnzq0nUiTZb.jpg",
           "title": "Vested Interests"
@@ -7099,14 +7112,38 @@
         {
           "aired": "2020-12-18",
           "plot": "Frank struggles after Joe Hill's lineage as a Reagan is revealed; Erin and Anthony receive gift-wrapped evidence; Danny's opposition to authority clashes with Jamie's adherence to the rules, as both brothers work to solve a murder.",
-          "thumbnail": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/e0PGXopwJFLfa63BnFypGpEPIue.jpg",
           "title": "Atonement"
         },
         {
           "aired": "2021-01-08",
           "plot": "Erin is conflicted by the weight of her authority in the sentencing of a man who is guilty of vehicular homicide; Danny and Baez pursue a rideshare rapist; Jamie and Eddie team up to aid a fellow officer when his partner is shot on the job.",
-          "thumbnail": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/wWHFMmeEGZgFMamEQdx04kXEoRk.jpg",
           "title": "Redemption"
+        },
+        {
+          "aired": "2021-01-22",
+          "plot": "Eddie and her partner, Officer Rachel Witten (Lauren Patten), are heralded for their bravery for stopping an active shooter, until a civilian comes forward to accuse them of faking the incident as part of a government conspiracy.",
+          "thumbnail": "",
+          "title": "Spilling Secrets"
+        },
+        {
+          "aired": "2021-02-05",
+          "plot": "The Reagans confront hard choices on the job when Frank deals with a police captain who's losing his grip over his precinct, and Danny faces backlash from the Baez and Internal Affairs over a tough call he made in the field.",
+          "thumbnail": "",
+          "title": "The New Normal"
+        },
+        {
+          "aired": "2021-02-12",
+          "plot": "After Danny witnesses a drive-by shooting, he butts head with the detective assigned to the case; a childhood friend of Jamie's is convinced that she has single-handedly solved a cold case murder.",
+          "thumbnail": "",
+          "title": "In Too Deep"
+        },
+        {
+          "aired": "2021-02-19",
+          "plot": "Erin tries not to feel overpowered as her new boss shadows her at work just as she's trying to get a nervous eye-witness to reveal the identity of who shot her boyfriend. Also, the serial killer who previously held Danny and Baez hostage resurfaces, and when Jaime arrests an intrusive reporter who appears at a series of store lootings, it leads to a standoff between Frank and the Attorney General over the press' First Amendment rights.",
+          "thumbnail": "",
+          "title": "More Than Meets the Eye"
         }
       ]
     }

@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015342128,
   "genres": [
     "Action & Adventure",
     "Animation",
@@ -20,7 +21,7 @@
     {
       "name": "Dee Bradley Baker",
       "order": 14,
-      "role": "Naga (voice)",
+      "role": "Tarrlok (voice)",
       "thumb": "/fpGmSNSkwTaixEGAwC14A88JYAH.jpg"
     },
     {
@@ -86,13 +87,13 @@
     {
       "name": "Richard Epcar",
       "order": 4,
-      "role": "Saikhan (voice)",
+      "role": "Two Toed Ping (voice)",
       "thumb": "/m24OJXHsHNz3577uBrNURbyn7Fa.jpg"
     },
     {
       "name": "Tom Kenny",
       "order": 10,
-      "role": "Referee / Additional Voices (voice)",
+      "role": "Referee (voice)",
       "thumb": "/o6sC2IsjL7KncT4pZBOx4T0WKhM.jpg"
     },
     {
@@ -123,7 +124,7 @@
       "name": "Rami Malek",
       "order": 2,
       "role": "Tahno (voice)",
-      "thumb": "/zvBCjFmedqXRqa45jlLf6vBd9Nt.jpg"
+      "thumb": "/2OuFzCbMibXGouG79tG1U4BLPbe.jpg"
     },
     {
       "name": "Aubrey Plaza",
@@ -134,7 +135,7 @@
     {
       "name": "D. B. Sweeney",
       "order": 0,
-      "role": "",
+      "role": "Aang (voice)",
       "thumb": "/enY28APVRWfyHjGAkh6VCkYCWOA.jpg"
     },
     {
@@ -238,13 +239,13 @@
         "https://assets.fanart.tv/fanart/tv/251085/tvbanner/the-legend-of-korra-55d264c75a8da.jpg"
       ],
       "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-53d2d6774a9e6.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-5c35c94b572a4.jpg"
+        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-5c35c94b572a4.jpg",
+        "https://assets.fanart.tv/fanart/tv/251085/tvposter/the-legend-of-korra-53d2d6774a9e6.jpg"
       ],
       "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0a827.jpg",
         "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325b66a0b7.jpg",
         "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0a19a.jpg",
-        "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0a827.jpg",
         "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-588325ec0ad12.jpg",
         "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa189c26df85.jpg",
         "https://assets.fanart.tv/fanart/tv/251085/tvthumb/the-legend-of-korra-4fa03abe2ef9b.jpg",
@@ -254,7 +255,7 @@
     },
     "tmdb": {
       "background": "https://image.tmdb.org/t/p/w1280/hmrNfrUl3FFaymDj6Iw5oKQjIs2.jpg",
-      "poster": "https://image.tmdb.org/t/p/w780/5ppmZN3AbBsWKesTBGSStYJR4R1.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/nhP0VGO2GSZbL4PUgmA6Vja48aM.jpg",
       "seasonPosters": {
         "0": "https://image.tmdb.org/t/p/w780/ialZU0LdazVc4hpR3owSjjFSi3L.jpg",
         "1": "https://image.tmdb.org/t/p/w780/MZviFVuu9UxGsSjc2UFMixMRMm.jpg",
@@ -287,10 +288,10 @@
           "title": "Republic City Hustle- Part 3"
         },
         {
-          "aired": "",
+          "aired": "2013-09-13",
           "plot": "Review of season 1.",
           "thumbnail": "",
-          "title": "The Re-Telling of Korras Journey"
+          "title": "The Re-Telling of Korra's Journey"
         },
         {
           "aired": "",
@@ -586,7 +587,7 @@
           "aired": "2014-11-07",
           "plot": "Korra returns to her role as the Avatar, but is she really ready for action? Bolin and Varrick break from Kuvira's army.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/vKlISfDACYJxHnNJnJ3xkwmzXfw.jpg",
-          "title": "Battle of Zaofu"
+          "title": "The Battle of Zaofu"
         },
         {
           "aired": "2014-11-14",

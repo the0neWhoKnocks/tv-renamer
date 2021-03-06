@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015177786,
   "genres": [
     "Animation",
     "Action & Adventure"
@@ -30,28 +31,10 @@
       "thumb": "/A1lGrpBEdAUxZA7RoAw4Zr4ved3.jpg"
     },
     {
-      "name": "Tomokazu Sugita",
-      "order": 500,
-      "role": "TJ (voice)",
-      "thumb": "/tW9VGnxmdhy3XTWfssk8ySrDu7K.jpg"
-    },
-    {
-      "name": "Daisuke Ono",
-      "order": 500,
-      "role": "Gil T. Shiga (voice)",
-      "thumb": "/rCo5Q3xMnOFMavs6YJAbP2ZRsqt.jpg"
-    },
-    {
-      "name": "Tetsu Inada",
-      "order": 500,
-      "role": "Chase the Bad (voice)",
-      "thumb": "/hTYTl43IBpV0UZY788EqHE7VxHZ.jpg"
-    },
-    {
       "name": "Aoi Yuki",
       "order": 500,
       "role": "Hototo (voice)",
-      "thumb": "/qaOsU5bdcB7YGzXPlvunv8kTr3f.jpg"
+      "thumb": "/cIFTJFbPhN55T9WW2P064Wh8qty.jpg"
     },
     {
       "name": "Seiichirou Yamashita",
@@ -66,25 +49,31 @@
       "thumb": "/cXVu8xUA3CFHB0RJLyTcrUP38j3.jpg"
     },
     {
-      "name": "Kenjirou Tsuda",
-      "order": 500,
-      "role": "Richard Riesman (voice)",
-      "thumb": "/9KISTULuEd5uXU9iS5IJHVnss2L.jpg"
-    },
-    {
       "name": "Kazuyuki Okitsu",
       "order": 500,
       "role": "Seth Rich Cutter (voice)",
       "thumb": "/yxtDLuC82tSUzr2FWkqWU1lowhI.jpg"
     },
     {
-      "name": "Fumiko Orikasa",
+      "name": "Tetsu Inada",
       "order": 500,
-      "role": "Sophia (voice)",
-      "thumb": "/nbphHwfqBIp6de1Fd38Dt1Z8KCR.jpg"
+      "role": "Chase the Bad (voice)",
+      "thumb": "/hTYTl43IBpV0UZY788EqHE7VxHZ.jpg"
     },
     {
-      "name": "Sōma Saitō",
+      "name": "Daisuke Ono",
+      "order": 500,
+      "role": "Gil T. Shiga (voice)",
+      "thumb": "/rCo5Q3xMnOFMavs6YJAbP2ZRsqt.jpg"
+    },
+    {
+      "name": "Kenjiro Tsuda",
+      "order": 500,
+      "role": "Richard Riesman (voice)",
+      "thumb": "/yFpSPNHqYN4rdRiVpVaYmqXMkmi.jpg"
+    },
+    {
+      "name": "Soma Saito",
       "order": 500,
       "role": "Al (voice)",
       "thumb": "/2DjLXKEr16MvC1tBvd7vkm5x4u8.jpg"
@@ -94,6 +83,18 @@
       "order": 500,
       "role": "Gin (voice)",
       "thumb": "/25o1W6AtzQqHJTu56wICengUOuj.jpg"
+    },
+    {
+      "name": "Fumiko Orikasa",
+      "order": 500,
+      "role": "Sophia (voice)",
+      "thumb": "/nbphHwfqBIp6de1Fd38Dt1Z8KCR.jpg"
+    },
+    {
+      "name": "Tomokazu Sugita",
+      "order": 500,
+      "role": "TJ (voice)",
+      "thumb": "/tW9VGnxmdhy3XTWfssk8ySrDu7K.jpg"
     }
   ],
   "dvdSeasons": {},

@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015212208,
   "genres": [
     "Comedy",
     "Drama"
@@ -57,16 +58,16 @@
       "thumb": "/blUbrcKm2ILZZZ1WlQUDZ5rKGF7.jpg"
     },
     {
-      "name": "Brendan Sexton III",
-      "order": 23,
-      "role": "Horse",
-      "thumb": "/36EvFVDqOKzUa91ixgGEAUPgnqA.jpg"
-    },
-    {
       "name": "Yoni Lotan",
       "order": 23,
       "role": "Ryan",
       "thumb": null
+    },
+    {
+      "name": "Brendan Sexton III",
+      "order": 23,
+      "role": "Horse",
+      "thumb": "/36EvFVDqOKzUa91ixgGEAUPgnqA.jpg"
     },
     {
       "name": "Ritesh Rajan",

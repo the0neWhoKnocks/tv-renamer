@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015240469,
   "genres": [
     "Comedy"
   ],
@@ -47,19 +48,31 @@
       "name": "Annie Potts",
       "order": 5,
       "role": "Connie Tucker",
-      "thumb": "/nugPVN28qOhOIoHawrDJ6fIfrxR.jpg"
+      "thumb": "/hWIzkAH7jkSkxBfwdudxbSPxeno.jpg"
     },
     {
       "name": "Jim Parsons",
-      "order": 6,
+      "order": 7,
       "role": "Sheldon Cooper (voice)",
       "thumb": "/sa05slVgacuXe94UFnQs4rfqZL4.jpg"
     },
     {
       "name": "Matt Hobby",
-      "order": 7,
+      "order": 6,
       "role": "Jeff Difford",
       "thumb": "/Acek1U1sb6WnfhEIVoZCaNkOgiF.jpg"
+    },
+    {
+      "name": "Wallace Shawn",
+      "order": 153,
+      "role": "John Sturgis",
+      "thumb": "/jviZU3Ae0vVKW6cYeEtjfxq2TWS.jpg"
+    },
+    {
+      "name": "Wyatt McClure",
+      "order": 156,
+      "role": "Billy Sparks",
+      "thumb": "/fqrpoM0mdvnv7H5906f8u0bBtim.jpg"
     },
     {
       "name": "Ryan Phuong",
@@ -68,20 +81,8 @@
       "thumb": "/atm3lYSz2d9u48ZfCgnJbENgcF7.jpg"
     },
     {
-      "name": "Wallace Shawn",
-      "order": 132,
-      "role": "John Sturgis",
-      "thumb": "/jviZU3Ae0vVKW6cYeEtjfxq2TWS.jpg"
-    },
-    {
-      "name": "Wyatt McClure",
-      "order": 143,
-      "role": "Billy Sparks",
-      "thumb": "/fqrpoM0mdvnv7H5906f8u0bBtim.jpg"
-    },
-    {
       "name": "Doc Farrow",
-      "order": 144,
+      "order": 153,
       "role": "Wayne Wilkins",
       "thumb": "/zSXXwFRhUNLWXFHSoIwHMt88Zcn.jpg"
     },
@@ -89,7 +90,7 @@
       "name": "Brian Stepanek",
       "order": 128,
       "role": "Hubert Givens",
-      "thumb": "/gYkYnm0RtMvo9oeqnWPfcYQCr7v.jpg"
+      "thumb": "/oxBgwkiEZtoHE4Uqi7GMwM3sK9x.jpg"
     },
     {
       "name": "Danielle Pinnock",
@@ -98,28 +99,28 @@
       "thumb": "/hFMGpNsziDjtFvrkQ6KCJSiRN4e.jpg"
     },
     {
+      "name": "Craig T. Nelson",
+      "order": 156,
+      "role": "Dale Ballard",
+      "thumb": "/gQOdZNaAqvYTY48iXwkKm1zbHyS.jpg"
+    },
+    {
       "name": "Valerie Mahaffey",
       "order": 128,
       "role": "Victoria MacElroy",
       "thumb": "/d4Oc12PuuhTevEGjKEhs95XrVIl.jpg"
     },
     {
-      "name": "Craig T. Nelson",
-      "order": 144,
-      "role": "Dale Ballard",
-      "thumb": "/gQOdZNaAqvYTY48iXwkKm1zbHyS.jpg"
+      "name": "Melissa Peterman",
+      "order": 153,
+      "role": "Brenda Sparks",
+      "thumb": "/7Li7vgIvO16BBVNkCAjmet59iDO.jpg"
     },
     {
       "name": "Rex Linn",
-      "order": 132,
+      "order": 153,
       "role": "Tom Petersen",
       "thumb": "/dY8x6OrmS0dBdogxeF2QALrCvpI.jpg"
-    },
-    {
-      "name": "Melissa Peterman",
-      "order": 135,
-      "role": "Brenda Sparks",
-      "thumb": "/7Li7vgIvO16BBVNkCAjmet59iDO.jpg"
     },
     {
       "name": "Nancy Linehan Charles",
@@ -140,16 +141,16 @@
       "thumb": "/9AT39NSHNQ44VebDrqupxplmyLK.jpg"
     },
     {
+      "name": "Ed Begley Jr.",
+      "order": 157,
+      "role": "Dr. Linkletter",
+      "thumb": "/tF0HU5QePY4ej9aPDZSyQ53ERKR.jpg"
+    },
+    {
       "name": "Ava Allan",
       "order": 144,
       "role": "Jana Boggs",
       "thumb": "/fz7oTsBGWChftLDfMnouXm3Csk3.jpg"
-    },
-    {
-      "name": "Ed Begley Jr.",
-      "order": 119,
-      "role": "Grant Linkletter",
-      "thumb": "/tF0HU5QePY4ej9aPDZSyQ53ERKR.jpg"
     },
     {
       "name": "Mckenna Grace",
@@ -172,7 +173,7 @@
     {
       "name": "Katherine Von Till",
       "order": 116,
-      "role": "Anchor",
+      "role": "Kimberly",
       "thumb": "/dqKoDqcUzYCXDipHsXMWkBc2DLK.jpg"
     },
     {
@@ -180,6 +181,12 @@
       "order": 122,
       "role": "Robin",
       "thumb": "/5UcNDkwX9MPZI61PiKbwsKcbr59.jpg"
+    },
+    {
+      "name": "Jason Alexander",
+      "order": 157,
+      "role": "Mr. Lundy",
+      "thumb": "/5a34uLhhHqmeYII984EfaVBh70p.jpg"
     },
     {
       "name": "John Hartman",
@@ -218,12 +225,6 @@
       "thumb": "/nV6MbjnX05QPceYdR0Yt0ziLYai.jpg"
     },
     {
-      "name": "Jason Alexander",
-      "order": 122,
-      "role": "Mr. Lundy",
-      "thumb": "/5a34uLhhHqmeYII984EfaVBh70p.jpg"
-    },
-    {
       "name": "Melissa Tang",
       "order": 47,
       "role": "Ms. Fenley",
@@ -256,8 +257,14 @@
     {
       "name": "Mac Jarman",
       "order": 108,
-      "role": "Evan",
+      "role": "Rick",
       "thumb": "/eZu1SQ2byq4M3vlM3jU45VKhjpj.jpg"
+    },
+    {
+      "name": "Bill Chott",
+      "order": 113,
+      "role": "Franklin",
+      "thumb": "/gYtlWWLUzd5qTr1BEC9pzsWSxTl.jpg"
     },
     {
       "name": "Ed Ackerman",
@@ -270,6 +277,24 @@
       "order": 123,
       "role": "Professor Proton",
       "thumb": "/kOyxzZMzbCcXMddD17F8S33I3ZU.jpg"
+    },
+    {
+      "name": "Taylor Spreitler",
+      "order": 147,
+      "role": "Sam",
+      "thumb": "/5sAmpcNJiNeRV77CXJ2SWPsStkP.jpg"
+    },
+    {
+      "name": "Melanie Lynskey",
+      "order": 153,
+      "role": "Professor Ericson",
+      "thumb": "/cwBglgH30cm9pjatpyzLCFbTINm.jpg"
+    },
+    {
+      "name": "Reba McEntire",
+      "order": 156,
+      "role": "June",
+      "thumb": "/fWF0qy3NJyNRQ4eo6suQiOHlac5.jpg"
     },
     {
       "name": "Karly Rothenberg",
@@ -293,7 +318,7 @@
       "name": "Anjelika Washington",
       "order": 6,
       "role": "Libby",
-      "thumb": "/wvRbqMQ436TrKfQSSdsA8gt2eCJ.jpg"
+      "thumb": "/94Es7NsV8V6hG8Jx0TJhp0IEkqi.jpg"
     },
     {
       "name": "Paul Yen",
@@ -380,16 +405,16 @@
       "thumb": "/bEytLgAt4gRXk0l8yxPJkbQbijk.jpg"
     },
     {
-      "name": "Murray Wyatt Rundus",
-      "order": 47,
-      "role": "Clint",
-      "thumb": "/a1UcC2mBQwYcdCrmqNPwTW7LVDg.jpg"
-    },
-    {
       "name": "Christian Alexander Garcia",
       "order": 47,
       "role": "Stinson",
       "thumb": "/3PkoxSlvZmLVF274rQDXi336T2g.jpg"
+    },
+    {
+      "name": "Murray Wyatt Rundus",
+      "order": 47,
+      "role": "Clint",
+      "thumb": "/a1UcC2mBQwYcdCrmqNPwTW7LVDg.jpg"
     },
     {
       "name": "Tate Berney",
@@ -413,7 +438,7 @@
       "name": "Ray Liotta",
       "order": 51,
       "role": "Vincent",
-      "thumb": "/iXKotiB0Xe9iJLCBbjAedHPLb7p.jpg"
+      "thumb": "/ve9sB0o1MYTaL2SXEisVW2RMkD5.jpg"
     },
     {
       "name": "Brielle Barbusca",
@@ -536,12 +561,6 @@
       "thumb": "/2Xwwd8qnXfslaDqbHDJFeoRiW2z.jpg"
     },
     {
-      "name": "Bill Chott",
-      "order": 78,
-      "role": "Franklin",
-      "thumb": "/gYtlWWLUzd5qTr1BEC9pzsWSxTl.jpg"
-    },
-    {
       "name": "Josh Latzer",
       "order": 79,
       "role": "Hank",
@@ -554,16 +573,16 @@
       "thumb": "/pjc9iFeNMAAHI3zOsiP1anZ0wis.jpg"
     },
     {
-      "name": "Jonney Ahmanson",
-      "order": 82,
-      "role": "Bruce",
-      "thumb": "/tms9QxzzmgaPRTN9k4c5N5BvRsD.jpg"
-    },
-    {
       "name": "Amy Farrington",
       "order": 82,
       "role": "Sandra Thorpe",
       "thumb": "/yyJQhPEnV1JjbyCiJmecSWTWgN.jpg"
+    },
+    {
+      "name": "Jonney Ahmanson",
+      "order": 82,
+      "role": "Bruce",
+      "thumb": "/tms9QxzzmgaPRTN9k4c5N5BvRsD.jpg"
     },
     {
       "name": "Cheyenne Nguyen",
@@ -575,7 +594,7 @@
       "name": "Sara Sanderson",
       "order": 84,
       "role": "Leslie",
-      "thumb": "/iEFbBfuasovdOsbcLCriGRmhJ9H.jpg"
+      "thumb": "/bdMsYAxpOhXqGkJ4AjZ0sGmaodM.jpg"
     },
     {
       "name": "Adam Kulbersh",
@@ -644,16 +663,16 @@
       "thumb": null
     },
     {
+      "name": "Christine Baranski",
+      "order": 97,
+      "role": "Beverly Hofstadter",
+      "thumb": "/x6jNFlGrzaM0LwK2GsxBNdCN41N.jpg"
+    },
+    {
       "name": "Winifred Freedman",
       "order": 97,
       "role": "Luann",
       "thumb": "/yUVNGD9Lqx9rFRkGN8aYCebAG9E.jpg"
-    },
-    {
-      "name": "Christine Baranski",
-      "order": 97,
-      "role": "Beverly Hofstadter",
-      "thumb": "/fqDRKSrJx7v337MWsY5gklvSFGB.jpg"
     },
     {
       "name": "Carol Ann Susi",
@@ -686,16 +705,16 @@
       "thumb": "/8yCC7RJc02xoyff3s0Jd4J9KqAR.jpg"
     },
     {
-      "name": "Diedrich Bader",
-      "order": 106,
-      "role": "Batman (voice)",
-      "thumb": "/j3ARZGysag7RZ96ISYBAu51GpnK.jpg"
-    },
-    {
       "name": "Alfred Adderly",
       "order": 106,
       "role": "Victor",
       "thumb": "/ottfzoPgH6oJEZ18h4jiO9QFuVm.jpg"
+    },
+    {
+      "name": "Diedrich Bader",
+      "order": 106,
+      "role": "Batman (voice)",
+      "thumb": "/j3ARZGysag7RZ96ISYBAu51GpnK.jpg"
     },
     {
       "name": "Kaley Cuoco",
@@ -720,18 +739,6 @@
       "order": 111,
       "role": "Kenneth",
       "thumb": "/c3Cqp1XAdcyeUZKkcrdQsPwb010.jpg"
-    },
-    {
-      "name": "Reba McEntire",
-      "order": 112,
-      "role": "June",
-      "thumb": "/fWF0qy3NJyNRQ4eo6suQiOHlac5.jpg"
-    },
-    {
-      "name": "Taylor Spreitler",
-      "order": 114,
-      "role": "Sam",
-      "thumb": "/ubhhLLy3BTqGV3pOxYORuRZH0Nm.jpg"
     },
     {
       "name": "Nolan Bateman",
@@ -833,13 +840,13 @@
       "name": "Luis Victor Jiminez",
       "order": 133,
       "role": "Waiter",
-      "thumb": null
+      "thumb": "/f5Xfn0EOGyG7ViQLA0d6b98xgsg.jpg"
     },
     {
       "name": "Mayim Bialik",
       "order": 134,
       "role": "Amy Fowler (voice)",
-      "thumb": "/g46253x1eNIj9F1fxRlmiRsA9fY.jpg"
+      "thumb": "/uobgnxE0I9EeQU1KvvTcs1Atl86.jpg"
     },
     {
       "name": "Sonya Eddy",
@@ -851,13 +858,13 @@
       "name": "Ramiz Monsef",
       "order": 136,
       "role": "Dr. Patel",
-      "thumb": null
+      "thumb": "/3cdeCmM1aAFROqVDn7YooSyVAZl.jpg"
     },
     {
       "name": "Larry Cedar",
       "order": 137,
       "role": "Lawrence",
-      "thumb": null
+      "thumb": "/mvfn1YoL9ACp4n51HZOD0TMs2Ah.jpg"
     },
     {
       "name": "Jill Johnson",
@@ -899,19 +906,85 @@
       "name": "Julia Pace Mitchell",
       "order": 144,
       "role": "Darlene",
-      "thumb": null
+      "thumb": "/6iavMrm8BhUJiGpZDSKmfGKgpK6.jpg"
     },
     {
       "name": "Eric Normington",
       "order": 145,
       "role": "Customer",
-      "thumb": null
+      "thumb": "/bPNZMPd7IwnSTHvYl32bACpmNIF.jpg"
     },
     {
       "name": "Elon Musk",
       "order": 146,
       "role": "Himself",
       "thumb": "/52SNpDJJCgBVfZtibLuXN1ZrliC.jpg"
+    },
+    {
+      "name": "Jaden Martin",
+      "order": 147,
+      "role": "Jason",
+      "thumb": "/eDcWKdy17TPYiK4qKTtYNfUJImN.jpg"
+    },
+    {
+      "name": "Lauri Hendler",
+      "order": 149,
+      "role": "Janet",
+      "thumb": "/eXRF1cJMINth2eDB8TTavzPMOcl.jpg"
+    },
+    {
+      "name": "Daniela Leon",
+      "order": 150,
+      "role": "Clarissa",
+      "thumb": "/ocaaahO2MeFPdlADUwxsI1NmiSt.jpg"
+    },
+    {
+      "name": "P.J. Ochlan",
+      "order": 152,
+      "role": "René Descartes",
+      "thumb": "/xLZZ0TRVaRAIvMPnBj98n5356gw.jpg"
+    },
+    {
+      "name": "Dave Foley",
+      "order": 153,
+      "role": "Gary O'Brien",
+      "thumb": "/yDmTBUOsyeahPebx32YKWyDi2Os.jpg"
+    },
+    {
+      "name": "Mike Hernandez",
+      "order": 154,
+      "role": "Maitre D'",
+      "thumb": null
+    },
+    {
+      "name": "Wendie Malick",
+      "order": 155,
+      "role": "President Hagemeyer",
+      "thumb": "/6ckOv7VqIDP89sjS0EPzrHhewS7.jpg"
+    },
+    {
+      "name": "Travis Schuldt",
+      "order": 156,
+      "role": "Justin",
+      "thumb": "/zMZBaVXOXg497rFpLkkdfAJbi0F.jpg"
+    },
+    {
+      "name": "David Hasselhoff",
+      "order": 157,
+      "role": "Himself",
+      "thumb": "/oLmqFoIED15ZQKeuaQ4WS03voR3.jpg"
+    },
+    {
+      "name": "Mariela Arteaga",
+      "order": 158,
+      "role": "Cowgirl",
+      "thumb": "/lbrfUZBbUYcwSyfsKRYr4r35gql.jpg"
+    },
+    {
+      "name": "Amanda Carr",
+      "order": 159,
+      "role": "Cowgirl",
+      "thumb": null
     }
   ],
   "dvdSeasons": {},
@@ -973,6 +1046,7 @@
       "background": "https://image.tmdb.org/t/p/w1280/nlDBlCtorM7nx130wYnfR5ZmyLX.jpg",
       "poster": "https://image.tmdb.org/t/p/w780/aESxB2HblKlDzma39xVefa20pbW.jpg",
       "seasonPosters": {
+        "0": "",
         "1": "https://image.tmdb.org/t/p/w780/grTqqLe63lMVx7SbQmRWf8RqvmO.jpg",
         "2": "https://image.tmdb.org/t/p/w780/aJ6b61JM66swZFSKu3wxZ3gxGQw.jpg",
         "3": "https://image.tmdb.org/t/p/w780/ucsA4hBfwcd2ol5KejgQ5dQC1e3.jpg",
@@ -981,6 +1055,17 @@
     }
   },
   "seasons": {
+    "0": {
+      "episodes": [
+        null,
+        {
+          "aired": "2020-08-25",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Season 3 Extra - The Coopers, East Texas and the 80's"
+        }
+      ]
+    },
     "1": {
       "episodes": [
         null,
@@ -1030,7 +1115,7 @@
           "aired": "2017-12-14",
           "plot": "While Mary, Memaw and Missy have their girls night at the salon, the three Cooper men plan their road trip to see the space launcher, but it doesn't go as well as they plan.",
           "thumbnail": "https://image.tmdb.org/t/p/w400/tZ8qGgDkOnI4YYfRAg9BJu8bmZh.jpg",
-          "title": "Cape Canaveral, Schrodinger's Cat and Cyndi Lauper's Hair"
+          "title": "Cape Canaveral, Schrödinger's Cat and Cyndi Lauper's Hair"
         },
         {
           "aired": "2017-12-21",
@@ -1422,8 +1507,38 @@
         {
           "aired": "2021-01-21",
           "plot": "College orientation does not go as Sheldon planned. Also, Mary is invited to a party when she's mistaken for a university student, and George Sr. helps Pastor Jeff set up a children's nursery.",
-          "thumbnail": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1nyUlX21gqSAnjRyXGIyeiVJDZq.jpg",
           "title": "Freshman Orientation And The Inventor Of The Zipper"
+        },
+        {
+          "aired": "2021-02-11",
+          "plot": "Sheldon's first day of college is derailed by his new philosophy teacher, Professor Ericson. Also, Mary and Brenda live vicariously through Missy's first day of middle school.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/v9RpMSvEjoxCkmTlI0XSQn26VAc.jpg",
+          "title": "A Philosophy Class and Worms That Can Chase You"
+        },
+        {
+          "aired": "2021-02-18",
+          "plot": "Meemaw takes matters into her own hands when Sheldon's philosophy teacher, Professor Ericson, sends him into a tailspin. Also, George Sr. learns Georgie has been cutting class.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/fUTsIInX006TJNoRDbai76vjg4a.jpg",
+          "title": "An Existential Crisis and a Bear That Makes Bubbles"
+        },
+        {
+          "aired": "2021-02-25",
+          "plot": "Sheldon and George Sr. dine with President Hagemeyer and a university benefactor. Also, Georgie gives Missy some brotherly advice when Mary won't let her go to the school dance, and Dale and June convince Meemaw to attend their son's wedding.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/1WlCmzkdqxKJrb3x6WOeCNnBSzv.jpg",
+          "title": "Crappy Frozen Ice Cream and an Organ Grinder's Monkey"
+        },
+        {
+          "aired": "2021-03-04",
+          "plot": "Sheldon campaigns to become Dr. Linkletter's lab assistant. Also, Georgie enlists the help of Mr. Lundy, the drama teacher, for a surprising business venture.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/12XmP3IROkBf9vMCRayhMfRxhDP.jpg",
+          "title": "Cowboy Aerobics and 473 Grease-Free Bolts"
+        },
+        {
+          "aired": "2021-03-11",
+          "plot": "Dr. Linkletter pushes Sheldon to make friends with his fellow students at college. Also, Georgie gets a pager.",
+          "thumbnail": "",
+          "title": "A Pager, a Club and a Cranky Bag of Wrinkles"
         }
       ]
     }

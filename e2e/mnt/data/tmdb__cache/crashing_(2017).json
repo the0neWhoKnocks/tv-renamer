@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015191591,
   "genres": [
     "Comedy"
   ],
@@ -46,19 +47,19 @@
     {
       "name": "Zach Cherry",
       "order": 11,
-      "role": "Kevin woods",
+      "role": "Chicken Wing Man",
       "thumb": "/tBT9Fqb3jUnZ6vcM8LjfoGoB4XY.jpg"
     },
     {
       "name": "Madeline Wise",
       "order": 26,
       "role": "Kat",
-      "thumb": null
+      "thumb": "/8au11zMSOm2dRPUi6akSf3FpSdz.jpg"
     },
     {
       "name": "Jamie Lee",
       "order": 21,
-      "role": "Ali Reissen",
+      "role": "Ali Reisse",
       "thumb": null
     },
     {

@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015180923,
   "genres": [
     "Animation",
     "Action & Adventure",
@@ -72,7 +73,7 @@
       "name": "Saori Hayami",
       "order": 8,
       "role": "Yunhua Lu (voice)",
-      "thumb": "/qBtiwuh6bzNqzdwPOAYRaeFrmIu.jpg"
+      "thumb": "/idFQBETcsRV7Uy7InV2x9e2iFWq.jpg"
     },
     {
       "name": "Shunsuke Takeuchi",
@@ -94,7 +95,7 @@
       "seriesThumb": []
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/w1280/1KdrqxptNeFjo80sOiZX67egmQF.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/dsxOsMb0RTNwPfVFHpBLZ11FkWi.jpg",
       "poster": "https://image.tmdb.org/t/p/w780/9IkspqaIiNMNL3mS1QmVekYWokv.jpg",
       "seasonPosters": {
         "1": "https://image.tmdb.org/t/p/w780/zJPcV3bdIFHkaKOcHMQ1YNrUcrV.jpg"

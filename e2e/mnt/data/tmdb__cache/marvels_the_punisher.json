@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015207493,
   "genres": [
     "Action & Adventure",
     "Crime",
@@ -55,7 +56,7 @@
       "name": "Josh Stewart",
       "order": 5,
       "role": "John Pilgrim",
-      "thumb": "/vZm8QSMhDq6GMZgdgV3uIxi44TR.jpg"
+      "thumb": "/gdA3hddSlk6caULKjlFsrZ1ZbQp.jpg"
     },
     {
       "name": "Floriana Lima",
@@ -91,7 +92,7 @@
       "name": "Giorgia Whigham",
       "order": 500,
       "role": "Amy Bendix",
-      "thumb": "/oWcGJQ0vqDws24acdxQzPB41hGV.jpg"
+      "thumb": "/3Ktu2QVj0FTMF94DrmvYQPRjqRC.jpg"
     },
     {
       "name": "Ripley Sobo",
@@ -174,7 +175,7 @@
     {
       "name": "Kevin Chapman",
       "order": 16,
-      "role": "",
+      "role": "Kusack",
       "thumb": "/veVWDCVlIeGrXY0meC1oXSJIgQ.jpg"
     },
     {
@@ -187,7 +188,7 @@
       "name": "Clancy Brown",
       "order": 4,
       "role": "Major Schoonover",
-      "thumb": "/xjg0ZIxP0tFcEQCTeRgKxNtLdpe.jpg"
+      "thumb": "/tiuVx3mDJwWieFqNadrtyOhhMBN.jpg"
     },
     {
       "name": "Andrew Polk",

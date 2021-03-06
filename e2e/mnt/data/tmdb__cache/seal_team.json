@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015213205,
   "genres": [
     "Action & Adventure",
     "Drama",
@@ -46,28 +47,28 @@
       "thumb": "/s2qfaRUh8oEt78HqkXTagbeVNE7.jpg"
     },
     {
-      "name": "Jessica Paré",
-      "order": 112,
-      "role": "Mandy Ellis",
-      "thumb": "/d6Xz1zmV8L0Zt04shYKDy4xOPV.jpg"
-    },
-    {
       "name": "Judd Lormand",
       "order": 75,
       "role": "Eric Blackburn",
       "thumb": "/jeZBWgcjiTaXZM6FwcHm9QW1F6w.jpg"
     },
     {
-      "name": "Parisa Fakhri",
-      "order": 114,
-      "role": "Naima Perry",
-      "thumb": "/e5r0goEK65gD85Tk7yTcslIJHlI.jpg"
+      "name": "Jessica Paré",
+      "order": 112,
+      "role": "Mandy Ellis",
+      "thumb": "/d6Xz1zmV8L0Zt04shYKDy4xOPV.jpg"
     },
     {
-      "name": "Emily Swallow",
-      "order": 115,
-      "role": "Natalie Pierce",
-      "thumb": "/2i7QwcWjsJwsPk3gkJhm1iIphzj.jpg"
+      "name": "Kerri Medders",
+      "order": 121,
+      "role": "Emma Hayes",
+      "thumb": "/7vu4gS1z2XzQMIEfU8SfMtRG8HJ.jpg"
+    },
+    {
+      "name": "Parisa Fakhri",
+      "order": 125,
+      "role": "Naima Perry",
+      "thumb": "/e5r0goEK65gD85Tk7yTcslIJHlI.jpg"
     },
     {
       "name": "Michaela McManus",
@@ -76,10 +77,10 @@
       "thumb": "/oi9ZdXQm0qpRLo3FrLtNfcVieXM.jpg"
     },
     {
-      "name": "Kerri Medders",
-      "order": 110,
-      "role": "Emma Hayes (voice)",
-      "thumb": "/7vu4gS1z2XzQMIEfU8SfMtRG8HJ.jpg"
+      "name": "Emily Swallow",
+      "order": 115,
+      "role": "Natalie Pierce",
+      "thumb": "/2i7QwcWjsJwsPk3gkJhm1iIphzj.jpg"
     },
     {
       "name": "Jamie McShane",
@@ -89,7 +90,7 @@
     },
     {
       "name": "Alona Tal",
-      "order": 114,
+      "order": 122,
       "role": "Stella",
       "thumb": "/kYRu965Jt11NWWbJ9XtSUOhTkUx.jpg"
     },
@@ -101,8 +102,8 @@
     },
     {
       "name": "Tim Chiou",
-      "order": 118,
-      "role": "Thirty Mike",
+      "order": 123,
+      "role": "Michael 'Thirty Mike' Chen",
       "thumb": "/whofc4pCEv3sb6n81Hge83qLqxO.jpg"
     },
     {
@@ -235,7 +236,7 @@
       "name": "Ahmed Lucan",
       "order": 10,
       "role": "Abu Khaled Al-Masri",
-      "thumb": null
+      "thumb": "/kKTco7xlaMtFwrUgh6PEwHYYAyM.jpg"
     },
     {
       "name": "Donald Paul",
@@ -301,7 +302,7 @@
       "name": "Mitch Eakins",
       "order": 33,
       "role": "Sean Nolan",
-      "thumb": null
+      "thumb": "/i26gl3mGyGQhEjNf24KdrjxBLPJ.jpg"
     },
     {
       "name": "Mark D. Espinoza",
@@ -343,7 +344,7 @@
       "name": "Ion Overman",
       "order": 41,
       "role": "Dr. Finley",
-      "thumb": null
+      "thumb": "/5biy566sSd2F7TD1GTZnmcw6IiE.jpg"
     },
     {
       "name": "Callan Farris",
@@ -364,16 +365,16 @@
       "thumb": "/iXwYkiU3IgxYfaPuU8nFzFYWyqI.jpg"
     },
     {
-      "name": "Linda Park",
-      "order": 47,
-      "role": "Dr. Koch",
-      "thumb": "/9yUfbbcea278H5j5KC0e54m1kLE.jpg"
-    },
-    {
       "name": "Michael Scott",
       "order": 47,
       "role": "CIA Tech Tim",
       "thumb": null
+    },
+    {
+      "name": "Linda Park",
+      "order": 47,
+      "role": "Dr. Koch",
+      "thumb": "/9yUfbbcea278H5j5KC0e54m1kLE.jpg"
     },
     {
       "name": "Reem Kadem",
@@ -397,18 +398,18 @@
       "name": "Cary Huff",
       "order": 49,
       "role": "Navy Seal Parent (uncredited)",
+      "thumb": "/78c1vbp73GGcGfWHAXx5RQHlvmA.jpg"
+    },
+    {
+      "name": "David Sampen",
+      "order": 50,
+      "role": "EOD (uncredited)",
       "thumb": null
     },
     {
       "name": "Cecilia Quinan",
       "order": 50,
       "role": "Naima's Mom (uncredited)",
-      "thumb": null
-    },
-    {
-      "name": "David Sampen",
-      "order": 50,
-      "role": "EOD (uncredited)",
       "thumb": null
     },
     {
@@ -457,7 +458,7 @@
       "name": "Jeff Bosley",
       "order": 58,
       "role": "Steve Porter (uncredited)",
-      "thumb": null
+      "thumb": "/yBSDCSmPwghPJe1vL9jDAvZAC47.jpg"
     },
     {
       "name": "Christina Childress",
@@ -577,13 +578,13 @@
       "name": "Paolo Cesar",
       "order": 87,
       "role": "Carlos Gonzalez",
-      "thumb": null
+      "thumb": "/lIM5bSUrUtCvZYiJ2eoWzRtzbjE.jpg"
     },
     {
       "name": "Julia Effertz",
       "order": 89,
       "role": "Bartender (uncredited)",
-      "thumb": null
+      "thumb": "/wsWf6NZTopIKZwr7QqAinSpwgwq.jpg"
     },
     {
       "name": "Anthony Molinari",
@@ -706,18 +707,6 @@
       "thumb": "/9j39UVIex7nIAOMaNqo0w9yJpSG.jpg"
     },
     {
-      "name": "Jonathan Medina",
-      "order": 115,
-      "role": "Cmdr. Tim Algren",
-      "thumb": "/tXTIqU4yXUBWnEmdcSdPNSeFfGS.jpg"
-    },
-    {
-      "name": "Ammar Daraiseh",
-      "order": 116,
-      "role": "Ansar Al-Masar Leader",
-      "thumb": null
-    },
-    {
       "name": "Saad Siddiqui",
       "order": 117,
       "role": "Jack Daniels",
@@ -746,6 +735,12 @@
       "order": 121,
       "role": "Taliban Lieutenan",
       "thumb": null
+    },
+    {
+      "name": "Beth Riesgraf",
+      "order": 122,
+      "role": "Cindy",
+      "thumb": "/hFCMloGRDOJng6F1L41PTO3CBuE.jpg"
     }
   ],
   "dvdSeasons": {},
@@ -792,7 +787,7 @@
       ]
     },
     "tmdb": {
-      "background": "https://image.tmdb.org/t/p/w1280/6lOtF3yx8iurvaBVz1ZVhwcRgmD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/iCBMJZFsdXALgpS121qu4CAe2Sa.jpg",
       "poster": "https://image.tmdb.org/t/p/w780/uTSLeQTeHevt4fplegmQ6bOnE0Z.jpg",
       "seasonPosters": {
         "1": "https://image.tmdb.org/t/p/w780/hxQH0F6MRUTRzbthlfKY8qg69zu.jpg",
@@ -1220,14 +1215,38 @@
         {
           "aired": "2020-12-16",
           "plot": "When Warrant Officer Ray Perry goes missing following an explosion in Tunisia, his former teammates wrestle with how to help their brother and his family while Bravo Team is sidelined.",
-          "thumbnail": "",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/7T9ETRkvlOAAM5NemTAi0rqSKQF.jpg",
           "title": "Shockwave"
         },
         {
           "aired": "2021-01-13",
-          "plot": "",
+          "plot": "With no leads on Ray’s whereabouts, Jason pushes Bravo team to extreme lengths and considers crossing a dangerous line to help locate their missing brother. Meanwhile, Ray tries to survive captivity.",
           "thumbnail": "",
-          "title": "Episode 5"
+          "title": "The Carrot or The Stick"
+        },
+        {
+          "aired": "2021-01-27",
+          "plot": "As Ensign Davis tracks Ray’s location to a shipping container in the Mediterranean Ocean, Bravo team becomes increasingly desperate to rescue their brother before it’s too late.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/lWpOckG7uOB9FAkCrzsnVz6v9BC.jpg",
+          "title": "Horror Has a Face"
+        },
+        {
+          "aired": "2021-02-17",
+          "plot": "As Bravo continues grappling with major changes, the team spins up on a mission in Ecuador. Also, Natalie presents a life-changing idea to Jason.",
+          "thumbnail": "",
+          "title": "All In"
+        },
+        {
+          "aired": "2021-03-03",
+          "plot": "When Jason returns to Bravo, tensions rise as Ray outranks him on a mission to recover military drones in Syria. Sonny receives surprising news from Texas.",
+          "thumbnail": "",
+          "title": "Cover for Action"
+        },
+        {
+          "aired": "2021-03-10",
+          "plot": "As Ray continues to lead the mission in Syria, the stakes grow higher when members of Bravo team learn the truth about their target.",
+          "thumbnail": "",
+          "title": "Reckoning"
         }
       ]
     }

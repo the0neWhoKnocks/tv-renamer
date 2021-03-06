@@ -1,5 +1,6 @@
 {
-  "schema": 4,
+  "schema": 5,
+  "scrapeDate": 1615015202209,
   "genres": [
     "Crime",
     "Drama",
@@ -19,7 +20,7 @@
       "name": "Chris Pine",
       "order": 0,
       "role": "Jay Singletary",
-      "thumb": "/vSe6sIsdtcoqBhuWRXynahFg8Vf.jpg"
+      "thumb": "/ipG3BMO8Ckv9xVeEY27lzq975Qm.jpg"
     },
     {
       "name": "India Eisley",
@@ -94,13 +95,19 @@
       "seriesBackground": [
         "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5c5a2e1e5b5f3.jpg",
         "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5e2c021b78bb7.jpg",
-        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5e2c0251a022f.jpg"
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-5e2c0251a022f.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-6003eb553491c.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-6003eb67cf92f.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-6003ee2e90c25.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/showbackground/i-am-the-night-6003efd429943.jpg"
       ],
       "seriesBanner": [
         "https://assets.fanart.tv/fanart/tv/349997/tvbanner/i-am-the-night-5e2c023c574ba.jpg"
       ],
       "seriesPoster": [
-        "https://assets.fanart.tv/fanart/tv/349997/tvposter/i-am-the-night-5c4ba952b76e6.jpg"
+        "https://assets.fanart.tv/fanart/tv/349997/tvposter/i-am-the-night-5c4ba952b76e6.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/tvposter/i-am-the-night-6003ea21a27c4.jpg",
+        "https://assets.fanart.tv/fanart/tv/349997/tvposter/i-am-the-night-6003ed7d419fa.jpg"
       ],
       "seriesThumb": [
         "https://assets.fanart.tv/fanart/tv/349997/tvthumb/i-am-the-night-5e2c01eb88598.jpg"

@@ -1,24 +1,3 @@
-# # Setup the environment
-# FROM node:10-alpine AS release
-# ENV NODE_ENV=production
-# ENV APP=/home/node/app
-# RUN mkdir -p $APP/node_modules && chown -R node:node /home/node/*
-# WORKDIR $APP
-# # Copy over package related files to install production modules
-# COPY --chown=node:node ./package*.json ./
-# # Install production dependencies
-# RUN npm i --only=production --quiet
-# # Copy locally compiled code to the image
-# COPY --chown=node:node ./dist ./
-# # List off contents of final image
-# RUN ls -la $APP
-# # Expose the default port from the server, on the container
-# EXPOSE 3001
-# # Start the app
-# CMD ["node", "cjs/server"]
-
-
-
 ## Base Node image with ffmpeg
 FROM jrottenberg/ffmpeg:4.1-alpine as ffmpeg
 FROM node:10-alpine as node-w-ffmpeg
@@ -61,11 +40,12 @@ ENV IN_DOCKER=true
 RUN mkdir -p $APP/node_modules && chown -R node:node /home/node/*
 
 # Set up a usable terminal experience for development
+COPY ./.docker/.vimrc /root/.vimrc
 COPY ./.docker/.zshrc /root/.zshrc
-RUN apk add --no-cache --update zsh \
-  && wget -O /root/zsh-autosuggestions.zsh https://raw.githubusercontent.com/zsh-users/zsh-autosuggestions/v0.6.4/zsh-autosuggestions.zsh \
+COPY ./.docker/zsh-autosuggestions.zsh /root/zsh-autosuggestions.zsh
+RUN apk add --no-cache --update vim zsh \
   && touch /root/.zsh_history \
-  && chmod +x /root/.zsh_history /root/.zshrc /root/zsh-autosuggestions.zsh
+  && chmod +x /root/.vimrc /root/.zsh_history /root/.zshrc /root/zsh-autosuggestions.zsh
 
 # - `rsync` for the `dist` setup
 RUN apk add --no-cache --update rsync

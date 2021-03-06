@@ -37,6 +37,7 @@ services:
       - "3000:3000"
     volumes:
       # Map shell files over, so they're maintained between sessions
+      - "${PWD}/.docker/.vimrc:/root/.vimrc"
       - "${PWD}/.docker/.zshrc:/root/.zshrc"
       - "${PWD}/.ignore/.zsh_history:/root/.zsh_history"
       # Map media sources

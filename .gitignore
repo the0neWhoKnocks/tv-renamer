@@ -11,6 +11,7 @@ e2e/mnt/mockFiles
 
 # files
 *.log
+*.patch
 .creds-docker
 yarn.lock
 e2e/mnt/data/config.json

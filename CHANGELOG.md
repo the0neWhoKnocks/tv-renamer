@@ -1,6 +1,17 @@
 # Changelog
 ---
 
+## v6.0.1
+
+**Bugfixes**
+- [43be4b3](https://github.com/the0neWhoKnocks/tv-renamer/commit/43be4b3):  Error when trying to auto-update
+
+**Dev-Ops**
+- [de64314](https://github.com/the0neWhoKnocks/tv-renamer/commit/de64314):  ignore patch files
+- [16d58e7](https://github.com/the0neWhoKnocks/tv-renamer/commit/16d58e7):  Added vim
+
+---
+
 ## v6.0.0
 
 **Dev-Ops**

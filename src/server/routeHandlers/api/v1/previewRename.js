@@ -169,6 +169,7 @@ async function scrapeAndCacheSeries({
     const cacheKey = genCacheName(seriesData.name);
     cache = {
       schema: VERSION__CACHE_SCHEMA,
+      scrapeDate: Date.now(),
       genres: seriesData.genres,
       id: seriesData.id, // maps to `uniqueid`
       mpaa: seriesData.mpaa,
@@ -295,7 +296,7 @@ async function startPreview({
     catch(err) { idCacheMapError = err.stack; }
   }
   
-  let schemaUpdateError;
+  let staleDataUpdateError;
   // If a cache map update tried to happen but failed, there's no reason to
   // continue with the Preview
   if(idCacheMapError) handleError({ res }, 500, idCacheMapError);
@@ -315,6 +316,17 @@ async function startPreview({
     catch(err) { handleError({ res }, 500, err); }
     
     if(loadedCacheFiles){
+      // Compile a list of currently airing series' and any data that requries
+      // an update for a successful scrape.
+      const pendingSeriesData = validItems.reduce((obj, { episodes, nameWithYear, season, useDVDOrder }) => {
+        const cacheKey = genCacheName(nameWithYear);
+        if(!obj[cacheKey]) obj[cacheKey] = { seasons: { useDVDOrder } };
+        if(!obj[cacheKey].seasons[season]) obj[cacheKey].seasons[season] = { episodes: [] };
+        obj[cacheKey].seasons[season].episodes.push(...episodes);
+        return obj;
+      }, {});
+      const currDate = new Date();
+      
       for(let i=0; i<loadedCacheFiles.length; i++){
         let { data: _cache, error } = loadedCacheFiles[i];
         
@@ -323,11 +335,64 @@ async function startPreview({
         // during the series lookup, so it wasn't pre-populated in the cache.
         // But the cache was able to load based on the `cacheKey`.
         if(!error){
-          const { id, name, schema } = _cache;
+          const { id, name, schema, scrapeDate } = _cache;
           const cacheKey = genCacheName(name);
+          const schemaUpdateRequired = !schema || schema < VERSION__CACHE_SCHEMA;
+          let staleDataUpdateRequired = false;
+          let updateMsg;
           
-          if(!schema || schema < VERSION__CACHE_SCHEMA){
-            log(`Old schema detected (old: "${ schema }" | new: "${ VERSION__CACHE_SCHEMA }"), forcing an update for: "${ cacheKey }"`);
+          if(schemaUpdateRequired){
+            updateMsg = `Old schema detected (old: "${ schema }" | new: "${ VERSION__CACHE_SCHEMA }"), forcing an update for: "${ cacheKey }"`;
+          }
+          else{
+            const { seasons, useDVDOrder } = pendingSeriesData[cacheKey];
+            const sD = new Date(scrapeDate);
+            const ended = _cache.status === 'Ended';
+            const sameDay = (
+              sD.getDate() === currDate.getDate() 
+              && sD.getMonth() === currDate.getMonth()
+              && sD.getFullYear() === currDate.getFullYear()
+            );
+            let reason;
+            
+            if(
+              // If the series is over, it's most likely not getting any new updates
+              // so what data is currently cached is probably all there's gonna be.
+              !ended
+              // If an update's already occurred today, no need to proceed since
+              // new data is added after episodes have aired (most likely the next day).
+              && !sameDay
+            ){
+              staleDataUpdateRequired = Object.keys(seasons).some(season => {
+                const { episodes } = seasons[season];
+                const { episodes: cachedEps } = (useDVDOrder ? _cache.dvdSeasons : _cache.seasons)[season] || {};
+                
+                // if there's no season data (probably a new season just started)
+                if(!cachedEps){
+                  reason = 'Missing season data';
+                  return true;
+                }
+                
+                // if there's missing episode data
+                // - entire episode data (season break, just started airing again)
+                // - thumbnail (since they usually get added after the episode's aired for current series')
+                const missingEpData = episodes.some(ep => !cachedEps[ep] || !cachedEps[ep].thumbnail);
+                if(missingEpData){
+                  reason = 'Missing episode data';
+                  return true;
+                }
+                
+                return false;
+              });
+            }
+            
+            if(staleDataUpdateRequired){
+              updateMsg = `Stale data detected: "${ reason }". Forcing an update for: "${ cacheKey }"`;
+            }
+          }
+          
+          if(schemaUpdateRequired || staleDataUpdateRequired){
+            log(updateMsg);
             
             const { cache, error } = await scrapeAndCacheSeries({
               caches,
@@ -340,10 +405,10 @@ async function startPreview({
             });
             
             if(error){
-              schemaUpdateError = error;
+              staleDataUpdateError = error;
               break;
             }
-            else _cache = cache;
+            else _cache = cache; // eslint-disable-line require-atomic-updates
           }
           
           caches[cacheKey] = _cache;
@@ -352,7 +417,7 @@ async function startPreview({
     }
   }
   
-  if(schemaUpdateError) return handleError({ res }, 500, schemaUpdateError);
+  if(staleDataUpdateError) return handleError({ res }, 500, staleDataUpdateError);
   
   jsonResp(
     res,

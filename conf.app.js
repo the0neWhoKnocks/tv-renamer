@@ -116,7 +116,7 @@ module.exports = {
   TMDB__URL__EPISODE_STILLS: `${ TMDB__URL__IMG_BASE }/w400`, // custom size not listed in API, but still works
   TMDB__URL__POSTER: `${ TMDB__URL__IMG_BASE }/w780`,
   TMDB__URL__THUMBNAILS: `${ TMDB__URL__IMG_BASE }/w154`,
-  VERSION__CACHE_SCHEMA: 4,
+  VERSION__CACHE_SCHEMA: 5,
   WP__ENTRY: `${ SRC }/app.js`,
   WP__OUTPUT: DIST_JS,
   WS__MSG_TYPE__RENAME_STATUS: 'rename status',

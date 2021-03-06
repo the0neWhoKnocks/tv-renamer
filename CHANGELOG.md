@@ -1,6 +1,16 @@
 # Changelog
 ---
 
+## v6.0.0
+
+**Dev-Ops**
+- [e659bf5](https://github.com/the0neWhoKnocks/tv-renamer/commit/e659bf5):  Updated tests and caches due to schema update
+
+**Features**
+- [4c8dd06](https://github.com/the0neWhoKnocks/tv-renamer/commit/4c8dd06):  Auto-update cache when missing data detected
+
+---
+
 ## v5.7.0
 
 **Features**

@@ -320,7 +320,7 @@ async function startPreview({
       // an update for a successful scrape.
       const pendingSeriesData = validItems.reduce((obj, { episodes, nameWithYear, season, useDVDOrder }) => {
         const cacheKey = genCacheName(nameWithYear);
-        if(!obj[cacheKey]) obj[cacheKey] = { seasons: { useDVDOrder } };
+        if(!obj[cacheKey]) obj[cacheKey] = { seasons: {}, useDVDOrder };
         if(!obj[cacheKey].seasons[season]) obj[cacheKey].seasons[season] = { episodes: [] };
         obj[cacheKey].seasons[season].episodes.push(...episodes);
         return obj;

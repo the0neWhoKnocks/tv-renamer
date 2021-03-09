@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v6.1.0
+
+**Features**
+- [801d233](https://github.com/the0neWhoKnocks/tv-renamer/commit/801d233):  Thumbnail in Preview
+
+---
+
 ## v6.0.1
 
 **Bugfixes**

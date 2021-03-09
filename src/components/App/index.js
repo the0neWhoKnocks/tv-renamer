@@ -144,6 +144,7 @@ class App extends Component {
       if(previewItem){
         data.cacheKey = previewItem.cacheKey;
         data.episodeNdxs = previewItem.episodeNdxs;
+        data.epThumb = previewItem.epThumb;
         data.error = previewItem.error;
         data.id = previewItem.id;
         data.newName = previewItem.name;

@@ -98,6 +98,17 @@ export default css`
       padding: 0.5em 0.75em;
       background: #b5efcf;
       
+      &-thumbnail {
+        fill: #12afd4;
+        width: 1.25em;
+        height: 1em;
+        padding: 1px;
+        margin-right: 0.25em;
+        background: white;
+        display: inline-block;
+        vertical-align: top;
+      }
+      
       &-text {
         white-space: pre-wrap;
       }

@@ -4,6 +4,7 @@ import SVG, {
   ICON__DELETE,
   ICON__FOLDER,
   ICON__REFRESH,
+  ICON__THUMBNAIL,
   ICON__TMDB,
 } from 'COMPONENTS/SVG';
 import Toggle from 'COMPONENTS/Toggle';
@@ -172,6 +173,7 @@ class Renamable extends Component {
     const {
       cacheKey,
       episodeNdxs,
+      epThumb,
       error,
       ext,
       id,
@@ -325,6 +327,11 @@ class Renamable extends Component {
                 data-season-order={seasonOrder}
               >
                 <div className={`${ ROOT_CLASS }__new-name-text ${ newNameModifier }`}>
+                  {!!epThumb && (
+                    <a href={epThumb} target="_blank" rel="noopener noreferrer">
+                      <SVG className={`${ ROOT_CLASS }__new-name-thumbnail`} icon={ICON__THUMBNAIL} />
+                    </a>
+                  )}
                   {_newName}
                 </div>
                 <RenamableNav />
@@ -340,6 +347,7 @@ class Renamable extends Component {
 Renamable.propTypes = {
   cacheKey: string,
   episodeNdxs: string,
+  epThumb: string,
   error: string,
   ext: string,
   folderSelected: bool,

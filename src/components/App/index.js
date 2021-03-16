@@ -63,7 +63,7 @@ class App extends Component {
       .replace(/\./g, ' ')
       .replace(/ -/g, '')
       .trim();
-    const seriesYear = (year && +year) ? ` ${ year }` : '';
+    const seriesYear = (year && +year) ? ` (${ year })` : '';
     
     return {
       name: parsedName,

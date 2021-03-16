@@ -2,7 +2,7 @@ const { resolve } = require('path');
 
 const API__PREFIX = '/api/v1';
 const ROOT = resolve(__dirname, './');
-const ABS_DATA_PATH = (process.env.DATA_PATH.startsWith('.'))
+const ABS_DATA_PATH = (process.env.DATA_PATH && process.env.DATA_PATH.startsWith('.'))
   ? resolve(ROOT, process.env.DATA_PATH)
   : process.env.DATA_PATH;
 const SRC = `${ ROOT }/src`;

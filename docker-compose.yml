@@ -13,15 +13,17 @@ services:
       CYPRESS_baseUrl: http://host.docker.internal:3000
       # ELECTRON_ENABLE_LOGGING: 1 # view console logs from Browser (headless)
       # DEBUG: cypress:server:browsers:electron # view Electron internal logging
-      DIST_FILES_PATH: /dist
-      MOCK_FILES_PATH: /e2e/mnt/mockFiles
+      DIST_FILES_PATH: /repo/dist
+      MOCK_FILES_PATH: /repo/e2e/mnt/mockFiles
     ipc: host # https://github.com/cypress-io/cypress/issues/350#issuecomment-267704772
     ports:
       - "9001:3000"
-    working_dir: /e2e
+    working_dir: /repo/e2e
     volumes:
-      - "${PWD}/e2e:/e2e"
-      - "${PWD}/dist:/dist"
+      - "${PWD}/.git:/repo/.git"
+      - "${PWD}/e2e:/repo/e2e"
+      - "${PWD}/dist:/repo/dist"
+      - "${PWD}/conf.app.js:/tmp/conf.app.js"
   
   tv-renamer:
     build:
@@ -53,6 +55,11 @@ services:
       # NOTE - To ensure data doesn't get wiped during a `purge`, using a
       # bind-mount.
       - "${PWD}/e2e/mnt/data:/home/node/app/data"
+      # NOTE - Uncomment the below to debug more quickly. Make sure you've run
+      # `build:appForDocker` within `starttvrenamer` first though.
+      # - "${PWD}/dist/cjs:/home/node/app/cjs"
+      # - "${PWD}/dist/public:/home/node/app/public"
+      # - "${PWD}/dist/conf.app.js:/home/node/app/conf.app.js"
   
   tvrenamer_dev:
     command: tail -F /dev/null # starts the container, and keeps it running

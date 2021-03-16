@@ -248,17 +248,17 @@ class App extends Component {
   }
   
   componentDidMount() {
-    this.checkCredentials();
-    
     this.createModalCloseHandler('showAssignId');
     this.createModalCloseHandler('showConfig');
     this.createModalCloseHandler('showDeleteConfirmation');
     this.createModalCloseHandler('showVersion');
     this.createModalCloseHandler('showReplace');
     
-    setTimeout(() => {
-      this.setState({ visible: true });
-    }, 300);
+    this.checkCredentials()
+      .then(() => {
+        this.setState({ visible: true });
+      })
+      .catch((err) => { console.log(err); });
     
     // TODO - maybe re-enable this. For now, just displaying the logs from the
     // current renaming operation.
@@ -398,8 +398,8 @@ class App extends Component {
   checkCredentials() {
     const state = { loaded: true };
     
-    fetch(API__CONFIG)
-      .then((config) => {
+    return fetch(API__CONFIG)
+      .then((config) => new Promise((resolve) => {
         if(Object.keys(config).length){
           state.config = config;
         }
@@ -409,11 +409,17 @@ class App extends Component {
         
         this.setState(state, () => {
           if(!state.showConfig){
-            this.getIDs(); 
-            this.getFilesList();
+            Promise.all([
+              this.getIDs(), 
+              this.getFilesList(),
+            ])
+              .then(() => {
+                resolve();
+              });
           }
+          else resolve();
         });
-      })
+      }))
       .catch((err) => {
         console.error(err);
         alert(err);

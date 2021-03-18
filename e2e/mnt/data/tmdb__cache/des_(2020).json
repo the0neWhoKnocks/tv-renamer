@@ -1,0 +1,246 @@
+{
+  "schema": 5,
+  "scrapeDate": 1616091182390,
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "id": 96628,
+  "mpaa": "",
+  "name": "Des (2020)",
+  "plot": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+  "premiered": "2020-09-14",
+  "status": "Ended",
+  "studios": [
+    "ITV"
+  ],
+  "actors": [
+    {
+      "name": "David Tennant",
+      "order": 0,
+      "role": "Dennis Nilsen",
+      "thumb": "/9PJteC0a8POnPhqgxvdtWNKHPsD.jpg"
+    },
+    {
+      "name": "Daniel Mays",
+      "order": 1,
+      "role": "DCI Peter Jay",
+      "thumb": "/2qmA5mXnhA7Nelu2BTbJTvzq35u.jpg"
+    },
+    {
+      "name": "Jason Watkins",
+      "order": 2,
+      "role": "Brian Masters",
+      "thumb": "/jGQOdzZ1sCz7WKtYSROMWv4menu.jpg"
+    },
+    {
+      "name": "Ron Cook",
+      "order": 3,
+      "role": "DSI Chambers",
+      "thumb": "/bYJ2x9FfQobon2Iai5CvoLgv1U5.jpg"
+    },
+    {
+      "name": "Barry Ward",
+      "order": 4,
+      "role": "DI Steve McCusker",
+      "thumb": "/5eWTisDvkZiUViehi8yNFnvpLhh.jpg"
+    },
+    {
+      "name": "Ben Bailey-Smith",
+      "order": 5,
+      "role": "DC Brian Lodge",
+      "thumb": "/7fZMM4HAVyYscZ2boJXzvLwl45w.jpg"
+    },
+    {
+      "name": "Alex Bhat",
+      "order": 6,
+      "role": "DS Jones",
+      "thumb": null
+    },
+    {
+      "name": "Jay Simpson",
+      "order": 7,
+      "role": "DS Chris Healey",
+      "thumb": "/4UDQaaRqvMqPwJbUxJVZ7u6P7Wt.jpg"
+    },
+    {
+      "name": "Bronagh Waugh",
+      "order": 8,
+      "role": "Charlotte Proctor",
+      "thumb": "/oMpBW59gmv1VFEOr3fzkadJ0SWo.jpg"
+    },
+    {
+      "name": "Joel Morris",
+      "order": 9,
+      "role": "Tim Wells",
+      "thumb": "/m6QAeVWqkDqBIDqOtVoTOygAr4T.jpg"
+    },
+    {
+      "name": "Faye McKeever",
+      "order": 500,
+      "role": "Linda Jay",
+      "thumb": "/1kuje0QUP3LGlhmwCVINSE0Riju.jpg"
+    },
+    {
+      "name": "Oscar Garland",
+      "order": 15,
+      "role": "Juan",
+      "thumb": "/bd7kRaNJl2cyrAD20HKYr4k1APW.jpg"
+    },
+    {
+      "name": "Cal Macaninch",
+      "order": 15,
+      "role": "Neil Sinclair",
+      "thumb": "/1kdmHGHocP4bZvzh11FODZlieob.jpg"
+    },
+    {
+      "name": "Jonathan Coy",
+      "order": 19,
+      "role": "Professor David Bowen",
+      "thumb": "/4uUXlmQ7p8a8RpXowVI90j0reEj.jpg"
+    },
+    {
+      "name": "Neil Edmond",
+      "order": 21,
+      "role": "Clerk of the Court",
+      "thumb": "/vhalEsYFz40hEwlIy6h4MH6jmZQ.jpg"
+    },
+    {
+      "name": "Ross Anderson",
+      "order": 3,
+      "role": "Douglas Stewart",
+      "thumb": null
+    },
+    {
+      "name": "Laura Elphinstone",
+      "order": 5,
+      "role": "Tilly",
+      "thumb": "/yPsWPEF7NXbmUyO5O2PGB7JqGuB.jpg"
+    },
+    {
+      "name": "Tony Way",
+      "order": 6,
+      "role": "Mike Cattran",
+      "thumb": "/u48ePSGsP1ww2VmPgNXgog3IM83.jpg"
+    },
+    {
+      "name": "Stuart McQuarrie",
+      "order": 7,
+      "role": "Ronald Moss",
+      "thumb": "/hdPU6SArZagRTCpw9wTYIePLF2S.jpg"
+    },
+    {
+      "name": "Andy Jay",
+      "order": 9,
+      "role": "News Correspondent",
+      "thumb": null
+    },
+    {
+      "name": "Pauline Turner",
+      "order": 10,
+      "role": "Elizabeth Sinclair",
+      "thumb": "/dvB8TmqxYVAQmlr5l1rjCKw3kpT.jpg"
+    },
+    {
+      "name": "Beth Goddard",
+      "order": 11,
+      "role": "Frances",
+      "thumb": "/6cw1r4qNSBg1LLeP5UeynvZ4Zh.jpg"
+    },
+    {
+      "name": "Tor Clark",
+      "order": 12,
+      "role": "Foreman of the Jury",
+      "thumb": "/ipCSB4imzb2QeUjIq8aqFd4yzx0.jpg"
+    },
+    {
+      "name": "Ross Anderson",
+      "order": 14,
+      "role": "Douglas Stewart",
+      "thumb": "/918MEQzDshopEdGBvotRNmp39c2.jpg"
+    },
+    {
+      "name": "Andrew Woodall",
+      "order": 15,
+      "role": "Dr Hardy",
+      "thumb": "/8WvS7o3oNp0KdXnmhuHmIa9VC6D.jpg"
+    },
+    {
+      "name": "Ken Bones",
+      "order": 16,
+      "role": "Judge Croom-Johnson",
+      "thumb": "/oLU01PTWkWkR2EAkR7J7uG3nGP0.jpg"
+    },
+    {
+      "name": "Silas Carson",
+      "order": 18,
+      "role": "Russell Cavendish",
+      "thumb": "/kCAq5Ma1usCYLtJAFd2iwx6eQn1.jpg"
+    },
+    {
+      "name": "Pip Torrens",
+      "order": 18,
+      "role": "Ivan Lawrence QC",
+      "thumb": "/2CMGIZ0hXTB4FcCXGlfVGaHGBBm.jpg"
+    },
+    {
+      "name": "Gerard Horan",
+      "order": 19,
+      "role": "Commander Gerald Lookwood",
+      "thumb": "/fsF6Ruuf9DrTllqMaDx5aJpFiaX.jpg"
+    }
+  ],
+  "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [
+        "https://assets.fanart.tv/fanart/tv/375879/showbackground/des-5f950f075d195.jpg",
+        "https://assets.fanart.tv/fanart/tv/375879/showbackground/des-5f950f0f03285.jpg"
+      ],
+      "seriesBanner": [
+        "https://assets.fanart.tv/fanart/tv/375879/tvbanner/des-5f95470bb4728.jpg"
+      ],
+      "seriesPoster": [],
+      "seriesThumb": [
+        "https://assets.fanart.tv/fanart/tv/375879/tvthumb/des-5f950cd641e47.jpg",
+        "https://assets.fanart.tv/fanart/tv/375879/tvthumb/des-5f950cdb952ce.jpg"
+      ]
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/iukF5UtJLxF0jx9Fs4FwRC3OaKS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/eHYWSM5bsUmu7T5r2DnLxLwywOH.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/eHYWSM5bsUmu7T5r2DnLxLwywOH.jpg"
+      }
+    }
+  },
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        {
+          "aired": "2020-09-14",
+          "plot": "On 9 February 1983, Detective Chief Inspector Peter Jay discovers a drain clogged with rotting flesh and bones. The culprit, Dennis Nilsen, freely admits to the police that it's not just one or two bodies, but \"15 or 16, I think\".",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/uSuFzoeGnwmOi55MLOagLt4DDlR.jpg",
+          "title": "Episode 1"
+        },
+        {
+          "aired": "2020-09-15",
+          "plot": "With limited resources, Jay and the police continue to dig into Nilsen's memories in an effort to convict him for the murder of every one of his victims. But when Des withdraws his cooperation and stops talking, Jay fears justice will be lost.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/33lD1MKwhcMEQ1dGZTIa525Rcjv.jpg",
+          "title": "Episode 2"
+        },
+        {
+          "aired": "2020-09-16",
+          "plot": "Reeling from Des' change in plea, Jay and the police throw themselves into proving premeditation. If they can show the court that Des was undoubtedly of sound mind when he committed his crimes, he will go down and never be released.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/44ne0vYJZiCovzbvD5qjq9B0VXi.jpg",
+          "title": "Episode 3"
+        }
+      ]
+    }
+  }
+}

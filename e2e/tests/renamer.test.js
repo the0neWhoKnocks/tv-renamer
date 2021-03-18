@@ -1,4 +1,9 @@
 context('Renamer', () => {
+  const { VERSION__CACHE_SCHEMA } = require('/tmp/conf.app');
+  const SELECTOR__PREVIEW_ITEM = '.renamable.is--previewing';
+  const SELECTOR__SELECTED_PREVIEW_ITEM = `${ SELECTOR__PREVIEW_ITEM }.is--selected`;
+  const SELECTOR__WARNING_PREVIEW_ITEM = `${ SELECTOR__PREVIEW_ITEM } .has--warning`;
+  const SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME = `.app.enable--rename ${ SELECTOR__SELECTED_PREVIEW_ITEM } .renamable__new-name-text`;
   const SERIES_ID__BLADE_OF_THE_IMMORTAL = 92090;
   const SERIES_ID__FUTURAMA = 615;
   const SERIES_ID__HIGH_MAINTENANCE = 106014;
@@ -104,8 +109,6 @@ context('Renamer', () => {
   }
   
   function resetData(stage) {
-    const { VERSION__CACHE_SCHEMA } = require('/tmp/conf.app');
-    
     if(stage === 'before'){
       cy.exec(`rm -f ${ E2E_FOLDER }/cypress/screenshots/renamer.test.js/*`, { log: true }).then(() => {
         console.log('[DELETED] screenshots');
@@ -384,7 +387,7 @@ context('Renamer', () => {
         'Young Justice - 3x02 - Royal We.mkv',
         'Young Sheldon - 2x12 - A Tummy Ache and a Whale of a Metaphor.mkv',
       ];
-      cy.get('.app.enable--rename .renamable.is--previewing.is--selected', { timeout: DATA_SCRAPE_TIMEOUT }).each(($previewEl, ndx) => {
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM, { timeout: DATA_SCRAPE_TIMEOUT }).each(($previewEl, ndx) => {
         const text = $previewEl.find('.renamable__new-name-text').text();
         expect(text).to.equal(newNames[ndx]);
         
@@ -489,7 +492,7 @@ context('Renamer', () => {
         'Tell Me a Story - 1x10 - Chapter 10- Forgiveness.mkv',
         'The Legend of Korra - 1x01 - Welcome to Republic City.mkv',
       ];
-      cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text', { timeout: DATA_SCRAPE_TIMEOUT }).each(($el, ndx) => {
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME, { timeout: DATA_SCRAPE_TIMEOUT }).each(($el, ndx) => {
         expect($el.text()).to.equal(newNames[ndx]);
       });
       
@@ -543,7 +546,7 @@ context('Renamer', () => {
       
       // wait for preview to appear, verify preview text
       const newName = 'Futurama - 1x01 - Space Pilot 3000.mkv';
-      cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text', { timeout: DATA_SCRAPE_TIMEOUT }).each(($el) => {
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME, { timeout: DATA_SCRAPE_TIMEOUT }).each(($el) => {
         expect($el.text()).to.equal(newName);
       });
       
@@ -565,7 +568,7 @@ context('Renamer', () => {
       cy.get('.is--refresh').contains('Cache').click();
       
       // wait for preview to appear
-      cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el) => {
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME).each(($el) => {
         expect($el.text()).to.equal(newName);
       });
       
@@ -588,8 +591,7 @@ context('Renamer', () => {
       cy.get('.app__items-nav').contains(/^DVD Preview$/).click();
       
       const newName = 'Futurama - 1x12 - When Aliens Attack.mkv';
-      cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text')
-        .contains(newName);
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME).contains(newName);
       
       screenshot('.app', 'previewing names by DVD order');
       
@@ -624,7 +626,7 @@ context('Renamer', () => {
         ['High Maintenance/Season 01', 'High Maintenance - 1x09 - Elijah.mkv'],
       ];
       cy.get('#modals').should('be.empty');
-      cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').each(($el, ndx) => {
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME).each(($el, ndx) => {
         expect($el.text()).to.equal(newNames[ndx][1]);
       });
       
@@ -683,7 +685,7 @@ context('Renamer', () => {
       cy.get('#modals').should('be.empty');
       
       const newName = 'Hunter x Hunter (2011) - 2x02 - (64) Strengthen x And x Threaten.mkv';
-      cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').then(($el) => {
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME).then(($el) => {
         expect($el.text()).to.equal(newName);
       });
       
@@ -702,7 +704,7 @@ context('Renamer', () => {
       
       cy.get('.is--refresh').contains('Cache').click();
       const epName = 'Hunter x Hunter (2011) - 2x02 - (64) Strengthen x And x Threaten.mkv';
-      cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').then(($el) => {
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME).then(($el) => {
         expect($el.text()).to.equal(epName);
       });
       screenshot('.app', 'series year remains');
@@ -737,7 +739,7 @@ context('Renamer', () => {
       cy.get('#modals').should('be.empty');
       
       const newName = 'Blade of the Immortal (2019) - 1x01 - Act One - Meeting.mkv';
-      cy.get('.app.enable--rename .renamable.is--previewing.is--selected .renamable__new-name-text').then(($el) => {
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME).then(($el) => {
         expect($el.text()).to.equal(newName);
       });
       
@@ -887,6 +889,122 @@ context('Renamer', () => {
       cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT });
       
       screenshot('.app', 'files renamed');
+    });
+  });
+  
+  describe('auto-update', () => {
+    const CACHE_FILE = `${ E2E_FOLDER }/mnt/data/tmdb__cache/des_(2020).json`;
+    const today = Date.now();
+    const yesterday = Date.now() - (24 * 60 * 60 * 1000);
+    let origCache;
+    
+    function readCache() {
+      return cy.readFile(CACHE_FILE, 'utf8');
+    }
+    
+    function writeCache(newData = {}, reset = false) {
+      const testDefaults = !reset ? { scrapeDate: today } : {};
+      const formattedData = JSON.stringify({ ...origCache, ...testDefaults, ...newData }, null, 2);
+      return cy.writeFile(CACHE_FILE, formattedData, 'utf8');
+    }
+    
+    function cloneCache() {
+      return JSON.parse(JSON.stringify(origCache));
+    }
+    
+    before(() => {
+      readCache().then(file => { origCache = file; });
+      // NOTE - Using "des" because it's Ended, and there are only 3 episodes.
+      loadPageWithItems('"des.(2020)"');
+    });
+    
+    beforeEach(() => {
+      setUpAliases();
+    });
+    
+    afterEach(() => {
+      // TODO - not sure if this will be needed once the cache is checked in.
+      writeCache(undefined, true);
+    });
+    
+    it('should update if the schema is out of date', () => {
+      writeCache({ schema: VERSION__CACHE_SCHEMA - 1 });
+      readCache().then(file => { expect(file.schema).to.equal(VERSION__CACHE_SCHEMA - 1); });
+      
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM, { timeout: DATA_SCRAPE_TIMEOUT });
+      
+      readCache().then(file => { expect(file.schema).to.equal(VERSION__CACHE_SCHEMA); });
+    });
+    
+    it("should update ONLY when the series hasn't ended, and there's missing data", () => {
+      let seasons = cloneCache().seasons;
+      delete seasons['1'];
+      writeCache({ seasons });
+      readCache().then(file => { expect(file.seasons['1']).to.equal(undefined); });
+      
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      cy.get(SELECTOR__WARNING_PREVIEW_ITEM, { timeout: DATA_SCRAPE_TIMEOUT }).eq(0).then(($el) => {
+        const text = $el.find('.renamable__new-name-text.has--warning').text();
+        expect(text).to.equal('No Exact Match Found - Missing season "1" data in cache.');
+      });
+      
+      seasons = cloneCache().seasons;
+      seasons['1'].episodes[1] = null;
+      writeCache({ seasons });
+      readCache().then(file => { expect(file.seasons['1'].episodes[1]).to.equal(null); });
+      
+      toggleItem('Des');
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      cy.get(SELECTOR__WARNING_PREVIEW_ITEM, { timeout: DATA_SCRAPE_TIMEOUT }).eq(0).then(($el) => {
+        const text = $el.find('.renamable__new-name-text.has--warning').text();
+        expect(text).to.equal('No Exact Match Found - Missing episode "1" data in cache.');
+      });
+      
+      writeCache({ seasons, status: 'Continuing' });
+      readCache().then(file => { expect(file.status).to.equal('Continuing'); });
+      
+      toggleItem('Des');
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      cy.get(SELECTOR__WARNING_PREVIEW_ITEM, { timeout: DATA_SCRAPE_TIMEOUT }).eq(0).then(($el) => {
+        const text = $el.find('.renamable__new-name-text.has--warning').text();
+        expect(text).to.equal('No Exact Match Found - Missing episode "1" data in cache.');
+      });
+      
+      writeCache({ scrapeDate: yesterday, seasons, status: 'Continuing' });
+      readCache().then(file => { expect(file.status).to.equal('Continuing'); });
+      
+      toggleItem('Des');
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME, { timeout: DATA_SCRAPE_TIMEOUT }).eq(0).then(($el) => {
+        expect($el.text()).to.equal('Des (2020) - 1x01 - Episode 1.mkv');
+      });
+      
+      readCache().then(({ scrapeDate }) => {
+        expect(scrapeDate).not.to.equal(yesterday);
+        expect(scrapeDate).not.to.equal(today);
+      });
+    });
+    
+    it('should update if an episode thumbnail is missing', () => {
+      const { seasons } = cloneCache();
+      seasons['1'].episodes[1].thumbnail = '';
+      
+      writeCache({ seasons });
+      readCache().then(file => { expect(file.scrapeDate).to.equal(today); });
+      
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM, { timeout: DATA_SCRAPE_TIMEOUT }).eq(0).then(($el) => {
+        expect($el.find('.renamable__new-name-thumbnail').length).to.equal(0);
+      });
+      
+      writeCache({ scrapeDate: yesterday });
+      readCache().then(file => { expect(file.scrapeDate).to.equal(yesterday); });
+      
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM, { timeout: DATA_SCRAPE_TIMEOUT }).eq(0).then(($el) => {
+        expect($el.find('.renamable__new-name-thumbnail').length).to.equal(1);
+      });
     });
   });
 });

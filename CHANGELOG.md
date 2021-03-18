@@ -1,6 +1,18 @@
 # Changelog
 ---
 
+## v6.1.1
+
+**Bugfixes**
+- [3416923](https://github.com/the0neWhoKnocks/tv-renamer/commit/3416923):  App-ready race condition
+- [ada1c03](https://github.com/the0neWhoKnocks/tv-renamer/commit/ada1c03):  cache lookups sometimes fail
+
+**Dev-Ops**
+- [e521807](https://github.com/the0neWhoKnocks/tv-renamer/commit/e521807):  Added tests
+- [b1590a4](https://github.com/the0neWhoKnocks/tv-renamer/commit/b1590a4):  Separated tests
+
+---
+
 ## v6.1.0
 
 **Features**

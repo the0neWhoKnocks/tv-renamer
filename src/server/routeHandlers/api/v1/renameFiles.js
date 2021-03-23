@@ -431,10 +431,14 @@ export default async function renameFiles({ req, reqData, res }) {
             }
             
             const combinedTitles = buildEpTitle(seasons, seasonNumber, episodeNdxs);
-            const combinedPlots = episodeNdxs.map((eNdx) => {
+            let combinedPlots = episodeNdxs.map((eNdx) => {
               const { plot } = seasons[seasonNumber].episodes[eNdx];
-              return (plot) ? `${ eNdx } - ${ plot }` : '';
-            }).join('\n\n');
+              const prefix = episodeNdxs.length > 1 ? `${ eNdx } - ` : '';
+              return plot ? `${ prefix }${ plot }` : '';
+            });
+            
+            if(combinedPlots.length > 1) combinedPlots = combinedPlots.join('\n\n');
+            else combinedPlots = combinedPlots.join('');
             
             try {
               await writeXML({

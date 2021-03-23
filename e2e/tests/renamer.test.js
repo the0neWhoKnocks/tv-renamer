@@ -1,4 +1,5 @@
 context('Renamer', () => {
+  const { convert: convertXML } = require('xmlbuilder2');
   const { VERSION__CACHE_SCHEMA } = require('/tmp/conf.app');
   const SELECTOR__PREVIEW_ITEM = '.renamable.is--previewing';
   const SELECTOR__SELECTED_PREVIEW_ITEM = `${ SELECTOR__PREVIEW_ITEM }.is--selected`;
@@ -290,9 +291,7 @@ context('Renamer', () => {
       'seal.team',
       'sex.education',
       'smilf',
-      'speechless',
       'star.trek.discovery',
-      'stargate.sg-1',
       '"steins;gate.0"',
       'suits',
       'supernatural',
@@ -361,9 +360,7 @@ context('Renamer', () => {
         'SEAL Team - 3x11x12 - Siege Protocol & Fog of War.mkv',
         'Sex Education - 1x02 - House Party.mkv',
         "SMILF - 2x02 - Sorry Mary, I'm Losing Faith.mkv",
-        "Speechless - 3x09 - J-A- JAVIER'S P-A- PANTS.mkv",
         'Star Trek- Discovery - 2x01 - Brother.mkv',
-        'Stargate SG-1 - 1x01x02 - Children of the Gods.mkv',
         'Steins;Gate 0 - 1x02 - Epigraph of the Closed Curve -Closed Epigraph-.mkv',
         'Suits - 8x12 - Whale Hunt.mkv',
         'Supernatural (2005) - 14x10 - Nihilism.mkv',
@@ -1004,6 +1001,38 @@ context('Renamer', () => {
       cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
       cy.get(SELECTOR__SELECTED_PREVIEW_ITEM, { timeout: DATA_SCRAPE_TIMEOUT }).eq(0).then(($el) => {
         expect($el.find('.renamable__new-name-thumbnail').length).to.equal(1);
+      });
+    });
+  });
+  
+  it('should handle multi-episode names and data', () => {
+    loadPageWithItems([
+      'speechless',
+      'stargate',
+    ]).then(() => {
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      
+      const newNames = [
+        "Speechless - 3x09 - J-A- JAVIER'S P-A- PANTS.mkv",
+        'Stargate SG-1 - 1x01x02 - Children of the Gods.mkv',
+      ];
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM, { timeout: DATA_SCRAPE_TIMEOUT }).each(($previewEl, ndx) => {
+        const text = $previewEl.find('.renamable__new-name-text').text();
+        expect(text).to.equal(newNames[ndx]);
+      });
+      
+      cy.get('@ITEMS_NAV__FOLDERS_BTN').click();
+      cy.get('@ITEMS_NAV__RENAME_BTN').click();
+      
+      cy.readFile(`${ E2E_FOLDER }/mnt/mockFiles/output/Speechless - 3x09 - J-A- JAVIER'S P-A- PANTS.nfo`, 'utf8').then((xml) => {
+        const { episodedetails: { plot } } = convertXML(xml, { format: 'object' });
+        expect(plot.startsWith('Maya lends a helping')).to.equal(true);
+      });
+      cy.readFile(`${ E2E_FOLDER }/mnt/mockFiles/output/Stargate SG-1 - 1x01x02 - Children of the Gods.nfo`, 'utf8').then((xml) => {
+        const { episodedetails: { plot } } = convertXML(xml, { format: 'object' });
+        const lines = plot.split('\n');
+        expect(lines[0].startsWith('1 - When powerful aliens')).to.equal(true);
+        expect(lines[2].startsWith("2 - Colonel O'Neill, leading")).to.equal(true);
       });
     });
   });

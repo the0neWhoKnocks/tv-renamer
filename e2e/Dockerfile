@@ -5,6 +5,8 @@ RUN \
   npm i -g \
   # for `genFiles`
   mkdirp rimraf \
+  # for tests
+  xmlbuilder2 \
   # # for tests
   # cypress-log-to-output \
   # fbjs react@16.3.2 react-dom@16.3.2 object-assign prop-types \

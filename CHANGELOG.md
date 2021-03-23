@@ -1,6 +1,16 @@
 # Changelog
 ---
 
+## v6.1.2
+
+**Bugfixes**
+- [d99f502](https://github.com/the0neWhoKnocks/tv-renamer/commit/d99f502):  Plots prefixed with numbers
+
+**Dev-Ops**
+- [bb64546](https://github.com/the0neWhoKnocks/tv-renamer/commit/bb64546):  Added tests for multi-episodes
+
+---
+
 ## v6.1.1
 
 **Bugfixes**

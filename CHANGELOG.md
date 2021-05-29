@@ -1,6 +1,18 @@
 # Changelog
 ---
 
+## v6.1.3
+
+**Bugfixes**
+- [81dc923](https://github.com/the0neWhoKnocks/tv-renamer/commit/81dc923):  Old files not being overwritten
+- [66369b8](https://github.com/the0neWhoKnocks/tv-renamer/commit/66369b8):  Rename error not being sent.
+
+**Dev-Ops**
+- [05aeebc](https://github.com/the0neWhoKnocks/tv-renamer/commit/05aeebc):  Fixed WSL2 file watching
+- [50c7094](https://github.com/the0neWhoKnocks/tv-renamer/commit/50c7094):  Normalized spacing
+
+---
+
 ## v6.1.2
 
 **Bugfixes**

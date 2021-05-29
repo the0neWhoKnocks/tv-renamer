@@ -1,10 +1,13 @@
 import { existsSync, rename } from 'fs';
 import handleError from 'SERVER/routeHandlers/error';
 
-export default ({ cb, data, newPath, oldPath, res }) => {
+export default ({ cb, data, initiatedBy, newPath, oldPath, res }) => {
   const args = [data];
   
-  if (existsSync(newPath)) {
+  if (
+    initiatedBy === 'Replace'
+    && existsSync(newPath)
+  ) {
     args.push(new Error(`Did not rename:\n  "${ oldPath }"\n  because a file already exists:\n  "${ newPath }"\n`));
     cb(...args);
   }

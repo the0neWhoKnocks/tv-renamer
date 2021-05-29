@@ -5,7 +5,7 @@ export default ({ cb, data, newPath, oldPath, res }) => {
   const args = [data];
   
   if (existsSync(newPath)) {
-    args.push(`Did not rename:\n  "${ oldPath }"\n  because a file already exists:\n  "${ newPath }"\n`);
+    args.push(new Error(`Did not rename:\n  "${ oldPath }"\n  because a file already exists:\n  "${ newPath }"\n`));
     cb(...args);
   }
   else {

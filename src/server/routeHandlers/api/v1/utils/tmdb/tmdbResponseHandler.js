@@ -10,10 +10,10 @@ export default (
 ) => (err, resp, data) => {
   const hasError = err || resp.statusCode > 399 || data.success === false;
   
-  if(hasError){
+  if (hasError) {
     const timedOut = timeoutCodeCheck(err);
     
-    if(timedOut){
+    if (timedOut) {
       log(`  [TIMEOUT] For "${ reqURL }" with opts:\n    ${ JSON.stringify(reqOpts, null, 2) }`);
     }
     

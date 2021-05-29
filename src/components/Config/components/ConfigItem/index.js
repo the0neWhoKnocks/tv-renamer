@@ -18,12 +18,12 @@ class ConfigItem extends Component {
   componentDidUpdate(prevProps, prevState) {
     const { onUpdate, value } = this.props;    
     
-    if(prevProps.value !== value) {
+    if (prevProps.value !== value) {
       this.setState({ value }, () => {
-        if(onUpdate) onUpdate(value);
+        if (onUpdate) onUpdate(value);
       });
     }
-    if(prevState.value !== this.state.value) this.setState({
+    if (prevState.value !== this.state.value) this.setState({
       value: this.state.value,
     });
   }
@@ -33,7 +33,7 @@ class ConfigItem extends Component {
     const value = ev.currentTarget.value;
     
     this.setState({ value }, () => {
-      if(onChange) onChange(value);
+      if (onChange) onChange(value);
     });
   }
   
@@ -57,20 +57,20 @@ class ConfigItem extends Component {
     };
     let rootModifier = (readOnly) ? MODIFIER__READ_ONLY : '';
     
-    if(readOnly){
+    if (readOnly) {
       inputProps.defaultValue = value;
     }
-    else{
+    else {
       inputProps.onChange = this.handleChange;
       inputProps.value = value;
     }
     
-    if(required) {
+    if (required) {
       rootModifier += ` ${ MODIFIER__REQUIRED }`;
       inputProps.pattern = '.*\\S+.*';
     }
     
-    if(data){
+    if (data) {
       Object.keys(data).forEach((key) => {
         dataAttrs[`data-${ key }`] = data[key];
       });

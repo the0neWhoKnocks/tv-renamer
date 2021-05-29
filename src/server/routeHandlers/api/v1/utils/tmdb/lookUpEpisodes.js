@@ -19,7 +19,7 @@ export default async function lookUpEpisodes({
   try {
     const { groups, seasons: _seasons } = await getSeriesEpisodes({ apiKey, episodeGroups, seasonNumbers, seriesID });
     
-    for(let s=0; s<_seasons.length; s++){
+    for (let s=0; s<_seasons.length; s++) {
       const episodes = _seasons[s];
       
       // Sometimes a season will have missing data for an episode (GoT 
@@ -28,23 +28,23 @@ export default async function lookUpEpisodes({
       // comes to determining the extra numbering for Anime, it becomes 
       // problematic. So, do an initial pass on the episode numbers, and
       // see if anything's missing, if there is, fill it in with a `null` value.
-      for(let i=0; i<episodes.length; i++){
+      for (let i=0; i<episodes.length; i++) {
         const { episode_number: curr } = episodes[i] || {};
         const { episode_number: next } = episodes[i+1] || {};
         
-        if(
+        if (
           (curr && next)
           && curr + 1 !== next
           && i+1 !== episodes.length
-        ){
+        ) {
           episodes.splice(i+1, 0, null);
         }
       }
       
-      for(let i=0; i<episodes.length; i++){
+      for (let i=0; i<episodes.length; i++) {
         const currEp = episodes[i];
         
-        if(currEp){ // can be `null` sometimes
+        if (currEp) { // can be `null` sometimes
           const {
             air_date: aired,
             episode_number: listedEpisodeNumber,
@@ -55,7 +55,7 @@ export default async function lookUpEpisodes({
           } = currEp;
           const airedEpisodeNumber = i + 1;
           
-          if(!seasons[airedSeason]) seasons[airedSeason] = { episodes: [] };
+          if (!seasons[airedSeason]) seasons[airedSeason] = { episodes: [] };
           
           const currSeasonEps = seasons[airedSeason].episodes;
           // Some series (like Anime), list episode numbers by the total episodes
@@ -81,12 +81,12 @@ export default async function lookUpEpisodes({
       }
     }
     
-    if(groups && groups[TMDB__EPISODE_GROUP_TYPE__DVD]){
-      for(let i=0; i<groups[TMDB__EPISODE_GROUP_TYPE__DVD].length; i++){
+    if (groups && groups[TMDB__EPISODE_GROUP_TYPE__DVD]) {
+      for (let i=0; i<groups[TMDB__EPISODE_GROUP_TYPE__DVD].length; i++) {
         const { episodes: dvdEps } = groups[TMDB__EPISODE_GROUP_TYPE__DVD][i];
         const dvdSeason = i + 1;
         
-        for(let j=0; j<dvdEps.length; j++){
+        for (let j=0; j<dvdEps.length; j++) {
           const {
             air_date: aired,
             name: episodeName,
@@ -96,10 +96,9 @@ export default async function lookUpEpisodes({
           } = dvdEps[j];
           const dvdEpisodeNumber = order + 1;
           
-          if(dvdSeason !== null && !dvdSeasons[dvdSeason])
-            dvdSeasons[dvdSeason] = { episodes: [] };
+          if (dvdSeason !== null && !dvdSeasons[dvdSeason]) dvdSeasons[dvdSeason] = { episodes: [] };
           
-          if(dvdSeason !== null){
+          if (dvdSeason !== null) {
             const currDvdSeasonEps = dvdSeasons[dvdSeason].episodes;
             currDvdSeasonEps[dvdEpisodeNumber] = {
               aired,
@@ -114,11 +113,11 @@ export default async function lookUpEpisodes({
     
     return { dvdSeasons, seasons };
   }
-  catch(_err) {
+  catch (_err) {
     let error;
     
-    if(_err instanceof Error) error = _err.stack;
-    else{
+    if (_err instanceof Error) error = _err.stack;
+    else {
       const { err, resp = {} } = _err;
       error = timeoutCodeCheck(err)
         ? `Episodes look-up timed out for: "${ seriesName }"`

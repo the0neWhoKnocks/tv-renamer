@@ -58,7 +58,7 @@ function downloadSeriesImages({
   const pendingKeys = Object.keys(pendingImgItems);
   let pendingImgs;
   
-  if(pendingKeys.length) {
+  if (pendingKeys.length) {
     clientSocket.send(JSON.stringify({
       data: { log: socketMsg },
       type: WS__MSG_TYPE__RENAME_STATUS,
@@ -67,7 +67,7 @@ function downloadSeriesImages({
     pendingImgs = pendingKeys.reduce((arr, key) => {
       const { from, name, url } = pendingImgItems[key];
       
-      if(url){
+      if (url) {
         const imgPromise = downloadFile(url, `${ outputFolder }/${ name }`);
         
         imgPromise.catch((err) => {
@@ -76,7 +76,7 @@ function downloadSeriesImages({
         
         arr.push(imgPromise);
       }
-      else{
+      else {
         warningsArr.push(`Missing "${ name }" from ${ from }`);
       }
       
@@ -104,8 +104,8 @@ export default async function renameFiles({ req, reqData, res }) {
     let cache;
     
     // load, or use already loaded cache
-    if(loadedCache[cacheKey]) cache = loadedCache[cacheKey];
-    else{
+    if (loadedCache[cacheKey]) cache = loadedCache[cacheKey];
+    else {
       const { data } = await loadCacheItem(cacheKey);
       cache = data;
       loadedCache[cacheKey] = cache; // eslint-disable-line require-atomic-updates
@@ -114,7 +114,7 @@ export default async function renameFiles({ req, reqData, res }) {
     return cache;
   }
   
-  for(let i=0; i<names.length; i++){
+  for (let i=0; i<names.length; i++) {
     const { cacheKey, episodeNdxs, index, moveToFolder, newName, oldPath, seasonNumber, seasonOrder } = names[i];
     const imgWarnings = [];
     let _outputFolder = outputFolder;
@@ -124,47 +124,47 @@ export default async function renameFiles({ req, reqData, res }) {
     pendingNames.push(oldPath);
     
     // Create folder structure
-    if(moveToFolder){
+    if (moveToFolder) {
       const SERIES_FOLDER = `${ outputFolder }/${ sanitizeName(moveToFolder, true) }`;
       const NFO_PATH = `${ SERIES_FOLDER }/tvshow.nfo`;
       
-      if(seasonNumber){
+      if (seasonNumber) {
         const folderName = (seasonNumber > 0) ? `Season ${ pad(seasonNumber) }` : 'Specials';
         _outputFolder = `${ SERIES_FOLDER }/${ folderName }`;
         
         // only try to create folders if they haven't already been created
         // during this run
-        if(!createdFolders.includes(_outputFolder)){
+        if (!createdFolders.includes(_outputFolder)) {
           // if folder exists don't do anything
           try { lstatSync(_outputFolder); }
-          catch(err) { // if folder doesn't exist, there'll be an error
+          catch (err) { // if folder doesn't exist, there'll be an error
             try {
               mkdirp.sync(_outputFolder);
               createdFolders.push(_outputFolder);
               log(`Created "${ _outputFolder }"`);
             }
-            catch(err){
+            catch (err) {
               const error = `Error creating "${ _outputFolder }" | ${ err }`;
               log(`[ERROR] ${ error }`);
               folderErr = error;
             }
             
             try { execSync(`chmod 0777 "${ _outputFolder }"`); }
-            catch(err){
+            catch (err) {
               const error = `Error chmod'ing "${ _outputFolder }" | ${ err }`;
               log(`[ERROR] ${ error }`);
               folderErr = error;
             }
             
             const { images, name } = await getCache(cacheKey);
-            if(images){
+            if (images) {
               const { fanarttv, tmdb } = images;
               const prefix = (seasonNumber > 0) ? `season${ pad(seasonNumber) }` : 'season-specials';
               
               try {
                 const pendingImgItems = {};
                 
-                if(fanarttv){
+                if (fanarttv) {
                   [
                     { prop: 'seasonPoster', name: `${ prefix }-poster.jpg` },
                     { prop: 'seasonThumb', name: `${ prefix }-thumb.jpg` },
@@ -172,7 +172,7 @@ export default async function renameFiles({ req, reqData, res }) {
                     const { name, prop } = obj;
                     obj.from = 'fanart.tv';
                     
-                    if(
+                    if (
                       fanarttv[prop]
                       && fanarttv[prop][seasonNumber]
                       && fanarttv[prop][seasonNumber][0]
@@ -184,18 +184,18 @@ export default async function renameFiles({ req, reqData, res }) {
                   });
                 }
                 
-                if(tmdb){
+                if (tmdb) {
                   [
                     { prop: 'seasonPosters', name: `${ prefix }-poster.jpg` },
                   ].forEach((obj) => {
                     const { name, prop } = obj;
                     obj.from = 'theMDB';
                     
-                    if(tmdb[prop] && tmdb[prop][seasonNumber]) {
+                    if (tmdb[prop] && tmdb[prop][seasonNumber]) {
                       obj.url = tmdb[prop][seasonNumber];
                     }
                     
-                    if(
+                    if (
                       // no item set via fanart.tv
                       !pendingImgItems[name]
                       // OR an item was set, but there's nothing to download
@@ -217,14 +217,14 @@ export default async function renameFiles({ req, reqData, res }) {
                   warningsArr: imgWarnings,
                 });
               }
-              catch(err) {
+              catch (err) {
                 log(`[ERROR] Downloading season image: "${ err.stack }"`);
               }
             }
           }
         }
       }
-      else{
+      else {
         const err = `Could not determine folder name from "${ newName }"`;
         log(`[ERROR] ${ err }`);
         folderErr = err;
@@ -233,7 +233,7 @@ export default async function renameFiles({ req, reqData, res }) {
       // Create nfo only if it doesn't already exist. Saves on cache loads
       // and XML creation.
       try { lstatSync(NFO_PATH); }
-      catch(err) {
+      catch (err) {
         const cache = await getCache(cacheKey);
         const data = {
           tvshow: {
@@ -249,16 +249,16 @@ export default async function renameFiles({ req, reqData, res }) {
           },
         };
         try { await writeXML(data, NFO_PATH); }
-        catch(err) { tvshowNfoErr = err; }
+        catch (err) { tvshowNfoErr = err; }
         
-        if(cache.images){
+        if (cache.images) {
           const { fanarttv, tmdb } = cache.images;
           
           try {
             const pendingImgItems = {};
             
             // try to get images from fanart.tv first
-            if(fanarttv){
+            if (fanarttv) {
               [
                 { prop: 'clearArt', name: 'clearart.png' },
                 { prop: 'clearLogo', name: 'clearlogo.png' },
@@ -270,14 +270,14 @@ export default async function renameFiles({ req, reqData, res }) {
                 const { name, prop } = obj;
                 
                 obj.from = 'fanart.tv';
-                if(fanarttv[prop] && fanarttv[prop][0]) obj.url = fanarttv[prop][0];
+                if (fanarttv[prop] && fanarttv[prop][0]) obj.url = fanarttv[prop][0];
                 
                 pendingImgItems[name] = obj;
               });
             }
             
             // fill in any missing images from fanart.tv with available images from theMDB
-            if(tmdb){
+            if (tmdb) {
               [
                 { prop: 'background', name: 'fanart.jpg' },
                 { prop: 'poster', name: 'poster.jpg' },
@@ -285,9 +285,9 @@ export default async function renameFiles({ req, reqData, res }) {
                 const { name, prop } = obj;
                 
                 obj.from = 'theMDB';
-                if(tmdb[prop]) obj.url = tmdb[prop];
+                if (tmdb[prop]) obj.url = tmdb[prop];
                 
-                if(
+                if (
                   // no item set via fanart.tv
                   !pendingImgItems[name]
                   // OR an item was set, but there's nothing to download
@@ -309,7 +309,7 @@ export default async function renameFiles({ req, reqData, res }) {
               warningsArr: imgWarnings,
             });
           }
-          catch(err) {
+          catch (err) {
             log(`[ERROR] Downloading series images: "${ err.stack }"`);
           }
         }
@@ -317,8 +317,8 @@ export default async function renameFiles({ req, reqData, res }) {
     }
     
     pendingMoves.push(new Promise((resolve, reject) => {
-      if(folderErr) reject(folderErr);
-      else{
+      if (folderErr) reject(folderErr);
+      else {
         const data = {
           from: oldPath,
           to: `${ _outputFolder }/${ newName }`,
@@ -329,16 +329,16 @@ export default async function renameFiles({ req, reqData, res }) {
           const rootDir = parse(oldPath).dir;
           const log = createLog(d);
           
-          if(!moveErr) pendingNames.splice(pendingNames.indexOf(d.from), 1);
+          if (!moveErr) pendingNames.splice(pendingNames.indexOf(d.from), 1);
           
-          if(rootDir !== sourceFolder){
+          if (rootDir !== sourceFolder) {
             // in case files are nested within multiple folders, find the top-most folder in source
             const nestedRoot = `${ sourceFolder }/${ rootDir.replace(sourceFolder, '').split('/')[1] }`;
-            if(!nestedRoots.has(nestedRoot)) nestedRoots.set(nestedRoot, { path: nestedRoot });
+            if (!nestedRoots.has(nestedRoot)) nestedRoots.set(nestedRoot, { path: nestedRoot });
           }
           
-          if(moveErr) log.error = moveErr.message;
-          else{
+          if (moveErr) log.error = moveErr.message;
+          else {
             const cache = await getCache(cacheKey);
             const seasons = seasonOrder === 'dvd' ? cache.dvdSeasons : cache.seasons;
             const firstEpNdx = episodeNdxs[0];
@@ -347,7 +347,7 @@ export default async function renameFiles({ req, reqData, res }) {
             const streamDetails = {};
             let runtime = '';
             
-            if(tvshowNfoErr){
+            if (tvshowNfoErr) {
               warnings.push(`Error creating tvshow.nfo: "${ tvshowNfoErr.message }"`);
             }
             
@@ -358,15 +358,15 @@ export default async function renameFiles({ req, reqData, res }) {
               }));
               
               const { streams: rawStreams } = JSON.parse(await cmd(`ffprobe -v quiet -print_format json -show_streams "${ data.to }"`));
-              if(rawStreams.length) {
+              if (rawStreams.length) {
                 // map audio and video streams to grouped Arrays
                 const { audio, video } = rawStreams.reduce((obj, { codec_type, ...stream }) => {
-                  if(!obj[codec_type]) obj[codec_type] = [];
+                  if (!obj[codec_type]) obj[codec_type] = [];
                   obj[codec_type].push(stream);
                   return obj;
                 }, {});
                 
-                if(video){
+                if (video) {
                   video.forEach(({
                     coded_height,
                     codec_name,
@@ -378,7 +378,7 @@ export default async function renameFiles({ req, reqData, res }) {
                     tags,
                   }) => {
                     // Only add actual video streams, not cover/poster attachments
-                    if(
+                    if (
                       (
                         display_aspect_ratio
                         || (coded_width && coded_height)
@@ -397,11 +397,11 @@ export default async function renameFiles({ req, reqData, res }) {
                       
                       // only add it if it's equal to or over a minute
                       let _runtime = 0;
-                      if(duration) _runtime = +duration/60;
-                      else if(tags){
+                      if (duration) _runtime = +duration/60;
+                      else if (tags) {
                         const durTag = Object.keys(tags).find(t => t.toLowerCase().startsWith('duration'));
                         
-                        if(durTag){
+                        if (durTag) {
                           let [hours, minutes] = tags[durTag].split('.')[0].split(':');
                           hours = +hours;
                           minutes = +minutes;
@@ -409,12 +409,12 @@ export default async function renameFiles({ req, reqData, res }) {
                         }
                       }
                       
-                      if(_runtime && _runtime >= 1) runtime = `${ _runtime } min`;
+                      if (_runtime && _runtime >= 1) runtime = `${ _runtime } min`;
                     }
                   });
                 }
                 
-                if(audio){
+                if (audio) {
                   streamDetails.audio = [];
                   
                   audio.forEach(({ channels, codec_name }) => {
@@ -426,7 +426,7 @@ export default async function renameFiles({ req, reqData, res }) {
                 }
               }
             }
-            catch(err) {
+            catch (err) {
               warnings.push(`Error reading metadata: "${ err.message }"`);
             }
             
@@ -437,7 +437,7 @@ export default async function renameFiles({ req, reqData, res }) {
               return plot ? `${ prefix }${ plot }` : '';
             });
             
-            if(combinedPlots.length > 1) combinedPlots = combinedPlots.join('\n\n');
+            if (combinedPlots.length > 1) combinedPlots = combinedPlots.join('\n\n');
             else combinedPlots = combinedPlots.join('');
             
             try {
@@ -456,7 +456,7 @@ export default async function renameFiles({ req, reqData, res }) {
                 },
               }, `${ EP_FILENAME_NO_EXT }.nfo`);
               
-              if(thumbnail){
+              if (thumbnail) {
                 const thumbPath = `${ EP_FILENAME_NO_EXT }-thumb.jpg`;
                 
                 try {
@@ -473,23 +473,23 @@ export default async function renameFiles({ req, reqData, res }) {
                     },
                   });
                 }
-                catch(err) {
+                catch (err) {
                   warnings.push(`Error downloading episode still for:\n  Name: "${ basename(thumbPath) }"\n  Error: "${ err.message }"`);
                   hasImgWarnings = true;
                 }
               }
-              else{
+              else {
                 warnings.push('Missing "[episode]-thumb.jpg" from theMDB');
                 hasImgWarnings = true;
               }
             }
-            catch(err) {
+            catch (err) {
               warnings.push(`Error creating episode nfo: "${ err.message }"`);
             }
           }
           
-          if(warnings.length){
-            if(hasImgWarnings){
+          if (warnings.length) {
+            if (hasImgWarnings) {
               const { name } = await getCache(cacheKey);
               const nameWithNoYear = name.replace(/ \(\d{4}\)$/, '');
               const queryName = encodeURIComponent(name);
@@ -519,29 +519,29 @@ export default async function renameFiles({ req, reqData, res }) {
   }
   
   try { await Promise.all(pendingMoves); }
-  catch(err) {
+  catch (err) {
     return handleError({ res }, 500, `Error processing file(s) | ${ err.stack }`);
   }
   
   const deletedFolders = [];
   
-  for(const [, val] of nestedRoots){
+  for (const [, val] of nestedRoots) {
     const { path } = val;
     const files = await getFiles(path, filesFilter);
     
     // only delete the parent folder IF there are no remaining files (which may
     // happen if a User chose to only rename one file in folder)
-    if(!files.length) {
+    if (!files.length) {
       try {
         lstatSync(path);
         rimraf.sync(path, { glob: false });
         deletedFolders.push(path);
       }
-      catch(err) { /* no folder, don't care about the error */ }
+      catch (err) { /* no folder, don't care about the error */ }
     }
   }
   
-  if(deletedFolders.length){
+  if (deletedFolders.length) {
     const lastLog = createLog({ deleted: deletedFolders.sort() });
     const lastNdx = Object.keys(mappedLogs).reduce((prevNum, currNum) => (+currNum > prevNum) ? +currNum : prevNum, 0) + 1;
     newLogs.push(lastLog);
@@ -556,7 +556,7 @@ export default async function renameFiles({ req, reqData, res }) {
     await saveFile(PUBLIC_RENAME_LOG, combinedLogs);
     jsonResp(res, mappedLogs);
   }
-  catch(err) {
+  catch (err) {
     handleError({ res }, 500, err);
   }
 }

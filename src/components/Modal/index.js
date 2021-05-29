@@ -30,23 +30,21 @@ export default class Modal extends Component {
     let state = {};
   
     // `visible` state changed from parent
-    if(
+    if (
       prevProps.visible !== this.props.visible
       && this.props.visible !== this.state.visible
     ) state.visible = this.props.visible;
   
-    if(
+    if (
       !this.props.noMask
       && (prevState.visible && !this.state.visible)
-    ){
+    ) {
       state.closing = true;
     }
   
-    if(Object.keys(state).length) {
+    if (Object.keys(state).length) {
       this.setState(state, () => {
-        if(state.closing){
-          this.waitForCloseAnimation();
-        }
+        if (state.closing) this.waitForCloseAnimation();
       });
     }
   }
@@ -55,7 +53,7 @@ export default class Modal extends Component {
     const { onMaskClick } = this.props;
     
     this.setState({ visible: false, closing: true }, () => {
-      if(onMaskClick) onMaskClick();
+      if (onMaskClick) onMaskClick();
       this.waitForCloseAnimation();
     });
   }
@@ -76,11 +74,11 @@ export default class Modal extends Component {
     const _styles = stylesOverride || styles;
     let modifiers = '';
     
-    if(!visible && !closing) return null;
+    if (!visible && !closing) return null;
     
     const maskModifier = (onMaskClick) ? MODIFIER__CLICKABLE : '';
     
-    if(closing) modifiers += MODIFIER__CLOSING;
+    if (closing) modifiers += MODIFIER__CLOSING;
     
     return createPortal(
       (

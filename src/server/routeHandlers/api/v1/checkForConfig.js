@@ -8,8 +8,8 @@ import loadConfig from './utils/loadConfig';
 export default async function checkForConfig({ res }) {
   const { data: config, error } = await loadConfig();
   
-  if(error && error.type === ERROR_TYPE__PARSE_FAILURE)
+  if (error && error.type === ERROR_TYPE__PARSE_FAILURE) {
     handleError({ res }, 500, `Couldn't parse config '${ error.message }'`);
-  else
-    jsonResp(res, config);
+  }
+  else jsonResp(res, config);
 }

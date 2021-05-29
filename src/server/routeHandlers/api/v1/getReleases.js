@@ -5,8 +5,8 @@ import {
 import handleError from 'SERVER/routeHandlers/error';
 import jsonResp from 'SERVER/utils/jsonResp';
 
-function formatBytes(a, b){
-  if(a === 0) return '0 Bytes';
+function formatBytes(a, b) {
+  if (a === 0) return '0 Bytes';
   
   const c = 1024;
   const d = b || 2;
@@ -18,8 +18,8 @@ function formatBytes(a, b){
 
 export default ({ res }) => {
   request({ uri: DOCKER_API__RELEASES }, (err, resp, data) => {
-    if(err) handleError({ res }, resp.statusCode, err);
-    else{
+    if (err) handleError({ res }, resp.statusCode, err);
+    else {
       const releases = data.results.map(({ full_size, last_updated, name }) => {
         const date = new Date(last_updated);
         const dateOpts = ['en-US', {

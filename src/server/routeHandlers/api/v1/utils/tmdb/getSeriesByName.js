@@ -38,18 +38,18 @@ const filterSeriesByExactMatch = (name, pages, forAssign) => {
       const [exactMatches, fuzzyMatches] = arr;
       const normalizedName = normalizeName(name);
       
-      for(let i=0; i<results.length; i++){
+      for (let i=0; i<results.length; i++) {
         const result = results[i];
         
-        if(normalizeName(result.name) === normalizedName) exactMatches.push(result);
-        else if(forAssign) fuzzyMatches.push(result);
+        if (normalizeName(result.name) === normalizedName) exactMatches.push(result);
+        else if (forAssign) fuzzyMatches.push(result);
       }
       
       return arr;
     }, [[], []])
     // if there are exact matches, return those, otherwise return fuzzy results
     .reduce((arr, _matches) => {
-      if(!arr.length && _matches.length) arr = _matches;
+      if (!arr.length && _matches.length) arr = _matches;
       return arr;
     }, [])
     // normalize results data
@@ -68,7 +68,7 @@ const filterSeriesByExactMatch = (name, pages, forAssign) => {
     .map((data, ndx, arr) => {
       // TODO - this could be an issue for fuzzy results, will have to keep an
       // eye on this.
-      if(ndx < arr.length - 1) data.name = `${ data.name } (${ data.year })`;
+      if (ndx < arr.length - 1) data.name = `${ data.name } (${ data.year })`;
       delete data.year;
       return data;
     });
@@ -81,10 +81,10 @@ export default ({ apiKey, forAssign, name, year = '' } = {}) => new Promise((res
     .then((firstPage) => {
       const { total_pages: pageCount } = firstPage;
       
-      if(pageCount > 1){
+      if (pageCount > 1) {
         const pending = [];
         
-        for(let page=2; page<(pageCount+1); page++){
+        for (let page=2; page<(pageCount+1); page++) {
           pending.push(reqPageOfMatches({ apiKey, name, page, year }));
         }
         
@@ -94,7 +94,7 @@ export default ({ apiKey, forAssign, name, year = '' } = {}) => new Promise((res
           })
           .catch((err) => reject(err));
       }
-      else{
+      else {
         resolve(filterSeriesByExactMatch(name, [firstPage], forAssign));
       }
     })

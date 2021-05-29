@@ -2,7 +2,7 @@ module.exports = function formatURL(url, { qs }) {
   const [ urlPath, params ] = url.split('?');
   let _params = { ...qs };
   
-  if( params ){
+  if ( params ) {
     const extraParams = params.split('&').reduce((obj, p) => {
       const [key, value] = p.split('=');
       obj[key] = value;

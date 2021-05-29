@@ -15,10 +15,10 @@ export default ({ res }) => {
   readFile(PUBLIC_MANIFEST, 'utf8', (err, manifest) => {
     let bundleScripts;
     
-    if(err || !manifest){
+    if (err || !manifest) {
       return handleError({ res }, 404, err || `Manifest contents are: "${ manifest }"`);
     }
-    else{
+    else {
       bundleScripts = JSON.parse(manifest);
     }
     

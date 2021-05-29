@@ -10,7 +10,7 @@ export default ({ reqData, res }) => {
   files.forEach(({ ext, filePath, newName, oldName }) => {
     pendingMoves.push(new Promise((resolve, reject) => {
       const cb = (d, moveErr) => {
-        if(moveErr) reject(moveErr);
+        if (moveErr) reject(moveErr);
         else resolve();
       };
       

@@ -81,12 +81,12 @@ class App extends Component {
     
     Object.keys(idMappings).forEach((id) => {
       idMappings[id].forEach((name) => {
-        if(map[name]) warnings.push(name);
+        if (map[name]) warnings.push(name);
         map[name] = id;
       });
     });
     
-    if(warnings.length) alert(`Warning: Duplicate ID mappings found for: ${ warnings.join('\n') }`);
+    if (warnings.length) alert(`Warning: Duplicate ID mappings found for: ${ warnings.join('\n') }`);
     
     return map;
   }
@@ -95,11 +95,11 @@ class App extends Component {
     const data = {};
     const nameMatch = name.match(NAME_REGEX) || [];
     
-    if(nameMatch[1]){
+    if (nameMatch[1]) {
       const lookupNames = App.parseLookupName(nameMatch[1], nameMatch[2]);
       data.lookupName = lookupNames.nameWithYear;
       
-      if(idMappings[data.lookupName]){
+      if (idMappings[data.lookupName]) {
         data.idOverride = +idMappings[data.lookupName];
       }
     }
@@ -129,7 +129,7 @@ class App extends Component {
       // before a Preview, and base that info on the original file name, not the
       // updated one. This ensures that if a lookup name was generated due to
       // User input, and no data was generated just now, use the fallback.
-      if(!lookupNameData.lookupName && lookupName) {
+      if (!lookupNameData.lookupName && lookupName) {
         lookupNameData.lookupName = lookupName;
       }
       
@@ -141,7 +141,7 @@ class App extends Component {
       };
       const previewItem = App.getPreviewItem(ndx, previewItems);
       
-      if(previewItem){
+      if (previewItem) {
         data.cacheKey = previewItem.cacheKey;
         data.episodeNdxs = previewItem.episodeNdxs;
         data.epThumb = previewItem.epThumb;
@@ -152,10 +152,10 @@ class App extends Component {
         data.seasonOrder = previewItem.seasonOrder;
         data.seriesURL = previewItem.seriesURL;
         
-        if(!useGlobalToggle && !data.error) data.selected = true;
+        if (!useGlobalToggle && !data.error) data.selected = true;
       }
       
-      if(
+      if (
         previewing && (
           // IF an item is in error state, deselect it
           data.error
@@ -167,21 +167,21 @@ class App extends Component {
         // but only after a preview has come through, otherwise
         // allow for the global toggle to control it
         && !useGlobalToggle
-      ){
+      ) {
         data.selected = false;
         transformed.allSelected = false;
         
         // if there's no previewItem and no error, the user most likely skipped
         // an item before any previews have occurred (since there's no previously
         // saved error state for the item).
-        if(!data.error){
+        if (!data.error) {
           data.skipped = true;
         }
       }
       
-      if(data.selected) transformed.selectionCount++;
+      if (data.selected) transformed.selectionCount++;
       
-      if(folderSelected === undefined) data.folderSelected = true;
+      if (folderSelected === undefined) data.folderSelected = true;
       
       transformed.files.push(data);
     });
@@ -279,15 +279,15 @@ class App extends Component {
         },
         listeners: {},
         off(type, cb) {
-          for(let i = socketAPI.listeners[type].length - 1; i >= 0; i--) {
+          for (let i = socketAPI.listeners[type].length - 1; i >= 0; i--) {
             const handler = socketAPI.listeners[type][i];
-            if(handler === cb) {
+            if (handler === cb) {
               socketAPI.listeners[type].splice(i, 1);
             }
           }
         },
         on(type, cb) {
-          if(!socketAPI.listeners[type]) socketAPI.listeners[type] = [];
+          if (!socketAPI.listeners[type]) socketAPI.listeners[type] = [];
           socketAPI.listeners[type].push(cb);
         },
       };
@@ -298,7 +298,7 @@ class App extends Component {
           
           // console.log(`Message from Server: "${ type }"`, data);
           
-          if(socketAPI.listeners[type]) {
+          if (socketAPI.listeners[type]) {
             socketAPI.listeners[type].forEach(cb => { cb(data); });
           }
         };
@@ -312,7 +312,7 @@ class App extends Component {
       socket.onerror = function onWSError(ev) {
         let err = 'An unknown error has occurred with your WebSocket';
 
-        if(
+        if (
           !socketAPI.connected
           && ev.currentTarget.readyState === WebSocket.CLOSED
         ) err = `WebSocket error, could not connect to ${ WS_URL }`;
@@ -323,29 +323,27 @@ class App extends Component {
   }
   
   componentDidUpdate(prevProps, prevState) {
-    if(this.state.config){
+    if (this.state.config) {
       // user just configured settings, so make initial files list call
-      if(
+      if (
         prevState.config
         && !prevState.config.tmdbAPIKey
         && this.state.config
         && this.state.config.tmdbAPIKey
-      ){
+      ) {
         this.getFilesList();
       }
     }
     
-    if(this.logEndRef.current && prevState.logs.length !== this.state.logs.length){
+    if (this.logEndRef.current && prevState.logs.length !== this.state.logs.length) {
       const el = this.logEndRef.current;
       const elParent = el.parentNode;
       // If scroll is zero (first load), set to end of pane. else, scroll smoothly
-      if(elParent.scrollTop === 0) {
+      if (elParent.scrollTop === 0) {
         // TODO - maybe have it scroll to the first error (if there is one)
         elParent.scrollTo(0, elParent.scrollHeight);
       }
-      else{
-        el.scrollIntoView({ behavior: 'smooth' });
-      }
+      else el.scrollIntoView({ behavior: 'smooth' });
     }
   }
   
@@ -368,13 +366,13 @@ class App extends Component {
     
     epMatches.forEach((ep) => {
       const _ep = ep.match(new RegExp(MULTI_EPS_REGEX.source, 'i'));
-      if(_ep) episodes.push(+_ep[1]);
+      if (_ep) episodes.push(+_ep[1]);
     });
     
-    if(isNaN(nameData.id)) delete nameData.id;
+    if (isNaN(nameData.id)) delete nameData.id;
     
-    if(matches){
-      if(nameOverride){
+    if (matches) {
+      if (nameOverride) {
         const overrideMatches = nameOverride.match(SERIES_NAME_REGEX);
         matches[1] = overrideMatches[1] || matches[1];
         matches[2] = overrideMatches[2] || matches[2];
@@ -400,15 +398,11 @@ class App extends Component {
     
     return fetch(API__CONFIG)
       .then((config) => new Promise((resolve) => {
-        if(Object.keys(config).length){
-          state.config = config;
-        }
-        else{
-          state.showConfig = true;
-        }
+        if (Object.keys(config).length) state.config = config;
+        else state.showConfig = true;
         
         this.setState(state, () => {
-          if(!state.showConfig){
+          if (!state.showConfig) {
             Promise.all([
               this.getIDs(), 
               this.getFilesList(),
@@ -487,8 +481,8 @@ class App extends Component {
     const { files: _files } = this.state;
     let allFoldersSelected = true;
     
-    for(let i=0; i<_files.length; i++){
-      if(!_files[i].folderSelected){
+    for (let i=0; i<_files.length; i++) {
+      if (!_files[i].folderSelected) {
         allFoldersSelected = false;
         break;
       }
@@ -505,7 +499,7 @@ class App extends Component {
     const { lookupName } = this.state.files[index];
     const newlyAssigned = this.state.files
       .reduce((arr, { id: _id, lookupName: _lookupName }, ndx) => {
-        if(
+        if (
           _lookupName === lookupName
           && (
             (
@@ -525,7 +519,7 @@ class App extends Component {
           const el = document.querySelector(`.${ RENAMABLE_ROOT_CLASS }__name .${ RENAMABLE_ROOT_CLASS }__ce-fix[data-index="${ ndx }"]`);
           const overrides = {};
           
-          if(assignedName){
+          if (assignedName) {
             overrides.nameOverride = assignedName;
           }
           
@@ -601,9 +595,9 @@ class App extends Component {
     const updatedPreviewItems = [];
     
     _files.splice(index, 1);
-    if(_previewItems.length) _previewItems.splice(index, 1);
+    if (_previewItems.length) _previewItems.splice(index, 1);
     
-    for(let i=0; i<_files.length; i++){
+    for (let i=0; i<_files.length; i++) {
       const currFile = _files[i];
       
       updatedFiles.push({
@@ -611,7 +605,7 @@ class App extends Component {
         index: updatedFiles.length,
       });
       
-      if(_previewItems.length){
+      if (_previewItems.length) {
         updatedPreviewItems.push({
           ..._previewItems[i],
           index: updatedPreviewItems.length,
@@ -630,7 +624,7 @@ class App extends Component {
   handleFileFolderToggle({ folderSelected, index }) {
     const files = this.state.files.map((file, ndx) => {
       let _file = file;
-      if(ndx === index) _file = { ...file, folderSelected };
+      if (ndx === index) _file = { ...file, folderSelected };
       return _file;
     });
     
@@ -643,8 +637,8 @@ class App extends Component {
     const files = this.state.files.map((file, ndx) => {
       let _file = file;
       
-      if(ndx === index) _file = { ...file, selected };
-      if(!_file.selected) allSelected = false;
+      if (ndx === index) _file = { ...file, selected };
+      if (!_file.selected) allSelected = false;
       else selectionCount++;
       
       return _file;
@@ -684,7 +678,7 @@ class App extends Component {
   }
   
   createModalCloseHandler(stateProp) {
-    if(!this.modalCloseFuncs[stateProp]) this.modalCloseFuncs[stateProp] = () => {
+    if (!this.modalCloseFuncs[stateProp]) this.modalCloseFuncs[stateProp] = () => {
       this.setState({ [stateProp]: false });
     };
   }
@@ -694,7 +688,7 @@ class App extends Component {
     const names = [...items].map(this.buildPreviewData);
     const useDVDOrder = ev.currentTarget.getAttribute('for').includes('dvd');
     
-    if(useDVDOrder){
+    if (useDVDOrder) {
       names.forEach((data, ndx) => {
         names[ndx].useDVDOrder = true;
       });
@@ -740,14 +734,14 @@ class App extends Component {
         logNdx++;
       });
     }
-    catch(err) { console.log(err); }
+    catch (err) { console.log(err); }
     
     fetch(API__RENAME, {
       method: 'POST',
       body: JSON.stringify({ names }),
     })
       .then((logs) => {  
-        if(socketAPI) socketAPI.disconnect();
+        if (socketAPI) socketAPI.disconnect();
         
         // remove renamed items from lists
         const updatedFiles = [];
@@ -757,10 +751,10 @@ class App extends Component {
         let allSelected = true;
         let selectionCount = 0;
         
-        for(let i=0; i<files.length; i++){
+        for (let i=0; i<files.length; i++) {
           const log = logs[i];
         
-          if(!log || log && log.error){
+          if (!log || log && log.error) {
             const currFile = files[i];
             
             updatedFiles.push({
@@ -772,15 +766,15 @@ class App extends Component {
               index: updatedPreviewItems.length,
             });
             
-            if(currFile.selected) selectionCount++;
-            if(!currFile.selected) allSelected = false;
+            if (currFile.selected) selectionCount++;
+            if (!currFile.selected) allSelected = false;
             
-            if(log && log.error){
+            if (log && log.error) {
               console.error(log.error);
               errors++;
             }  
           }
-          else{ successful++; }
+          else successful++;
         }
         
         this.setState({
@@ -813,8 +807,8 @@ class App extends Component {
       showReplace: true,
     };
     
-    if(this.comps.Replace) this.setState(newState);
-    else{
+    if (this.comps.Replace) this.setState(newState);
+    else {
       import(
         /* webpackChunkName: "Replace" */
         'COMPONENTS/Replace'
@@ -835,11 +829,11 @@ class App extends Component {
     window.clearTimeout(this.previewRequestTimer);
     const newState = {};
     
-    if(this.state.dvdPreviewRequested) newState.dvdPreviewRequested = false;
-    else if(this.state.previewRequested) newState.previewRequested = false;
-    else if(this.state.renameRequested) newState.renameRequested = false;
+    if (this.state.dvdPreviewRequested) newState.dvdPreviewRequested = false;
+    else if (this.state.previewRequested) newState.previewRequested = false;
+    else if (this.state.renameRequested) newState.renameRequested = false;
     
-    if(Object.keys(newState).length) this.setState(newState);
+    if (Object.keys(newState).length) this.setState(newState);
   }
   
   previewRename(names, cb, useDVDOrder) {
@@ -875,10 +869,10 @@ class App extends Component {
           _previewItems[+item.index] = item;
         });
         
-        if(previousItems){
+        if (previousItems) {
           previousItems.forEach((item) => {
             const ndx = +item.index;
-            if(!_previewItems[ndx]) _previewItems[ndx] = item;
+            if (!_previewItems[ndx]) _previewItems[ndx] = item;
           });
         }
         
@@ -902,7 +896,7 @@ class App extends Component {
           selectionCount: transformedItems.selectionCount,
           useGlobalToggle,
         }, () => {
-          if(cb) cb(_previewItems);
+          if (cb) cb(_previewItems);
         });
       })
       .catch((err) => {
@@ -968,30 +962,28 @@ class App extends Component {
     };
     let rootModifier = '';
     
-    if(!loaded) return null;
+    if (!loaded) return null;
     
-    if(config) configProps = { ...configProps, ...config };
-    else if(showConfig) {
+    if (config) configProps = { ...configProps, ...config };
+    else if (showConfig) {
       configProps.hideCloseBtn = true;
       delete configProps.onClose;
     }
     
-    if(
+    if (
       // previewing at least one item that is selected
       previewing && selectionCount
       // and none of the selected items have errors or were skipped
       && !files.filter(App.renamableFilter).length
     ) rootModifier += ` ${ MODIFIER__RENAME }`;
     
-    if(logs.length){
+    if (logs.length) {
       rootModifier += ` ${ MODIFIER__LOGS }`;
       
-      if(logsOpen) rootModifier += ` ${ MODIFIER__LOGS_OPEN }`;
+      if (logsOpen) rootModifier += ` ${ MODIFIER__LOGS_OPEN }`;
     }
     
-    if(visible){
-      rootModifier += ` ${ MODIFIER__VISIBLE }`;
-    }
+    if (visible) rootModifier += ` ${ MODIFIER__VISIBLE }`;
     
     return (
       <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>

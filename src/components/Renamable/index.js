@@ -48,16 +48,16 @@ class Renamable extends Component {
     const { folderSelected, selected } = this.props;
     
     // ensure `selected` passed from parent takes priority
-    if(
+    if (
       selected !== prevProps.selected
       && this.state.selected !== selected
-    ){
+    ) {
       this.setState({ selected });
     }
-    if(
+    if (
       folderSelected !== prevProps.folderSelected
       && this.state.folderSelected !== folderSelected
-    ){
+    ) {
       this.setState({ folderSelected });
     }
   }
@@ -84,11 +84,11 @@ class Renamable extends Component {
     // Trigger an item selection, if unselected, and a user clicked in the
     // editable area. Theoretically they're updating the name to do another
     // search, so this should save a click.
-    if(!this.state.selected){
+    if (!this.state.selected) {
       this.handleToggle();
       
       this.waitTimer = window.setInterval(() => {
-        if(this.state.selected){
+        if (this.state.selected) {
           clearInterval(this.waitTimer);
           this.handleNameFocus();
           this.editableRef.focus();
@@ -112,7 +112,7 @@ class Renamable extends Component {
   }
   
   handleKeyDown(ev) {
-    switch(ev.which){
+    switch (ev.which) {
       case 13: // ENTER
         ev.preventDefault();
         window.getSelection().removeAllRanges();
@@ -199,11 +199,11 @@ class Renamable extends Component {
     let newNameModifier = '';
     let _newName = `${ newName }${ ext }`;
     
-    if(editingName) rootModifier = MODIFIER__EDITING_NAME;
-    if(previewing) rootModifier += ` ${ MODIFIER__PREVIEWING }`;
-    if(selected) rootModifier += ` ${ MODIFIER__SELECTED }`;
+    if (editingName) rootModifier = MODIFIER__EDITING_NAME;
+    if (previewing) rootModifier += ` ${ MODIFIER__PREVIEWING }`;
+    if (selected) rootModifier += ` ${ MODIFIER__SELECTED }`;
     
-    if(error){
+    if (error) {
       _newName = (
         <Fragment>
           <span>No Exact Match Found</span>
@@ -214,7 +214,7 @@ class Renamable extends Component {
       newNameModifier = MODIFIER__WARNING;
     }
     
-    if(skipped){
+    if (skipped) {
       _newName = <span>Skipped</span>;
       newNameModifier = MODIFIER__SKIPPED;
     }
@@ -223,7 +223,7 @@ class Renamable extends Component {
       const seriesID = id || '';
       const idBtnLabel = seriesID || 'Assign';
       
-      if(!lookupName) return null;
+      if (!lookupName) return null;
       
       return (
         <nav className={`${ ROOT_CLASS }__nav`}>

@@ -16,7 +16,7 @@ export default async function getFilesList({ res }) {
     
     jsonResp(res, files);
   }
-  catch(err) {
+  catch (err) {
     handleError({ res }, 500, `Couldn't get files list | "${ err.stack }"`);
   }
 }

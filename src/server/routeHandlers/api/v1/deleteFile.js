@@ -18,7 +18,7 @@ export default async function deleteFile({ reqData, res }) {
   let message = `Deleted file '${ file }'`;
   
   try { await stat(filePath); }
-  catch(err) {
+  catch (err) {
     return handleError({ res }, 500, `Couldn't find "${ filePath }" | ${ err.stack }`);
   }
   
@@ -32,13 +32,13 @@ export default async function deleteFile({ reqData, res }) {
       await unlink(filePath);
       allDone();
     }
-    catch(err) {
+    catch (err) {
       handleError({ res }, 500, `Couldn't delete file '${ err }'`);
     }
   };
   
   // delete folder and any child items
-  if(file.includes(sep)){
+  if (file.includes(sep)) {
     const rootDirInSource = parse(filePath.replace(sourceFolder, '')).dir.split(sep)[1];
     const rootDir = `${ sourceFolder }/${ rootDirInSource }`;
     
@@ -46,20 +46,20 @@ export default async function deleteFile({ reqData, res }) {
       const files = await getFiles(rootDir, filesFilter);
       
       // only delete folder if there aren't other files that can be renamed
-      if(files.length === 1){
+      if (files.length === 1) {
         // kill folder and contents
         rimraf(rootDir, { glob: false }, () => {
           message += ' and parent folder';
           allDone();
         });
       }
-      else{
+      else {
         // just delete file
         message += ' but not parent folder due to remaining files.';
         _deleteFile(filePath);
       }
     }
-    catch(err) {
+    catch (err) {
       handleError({ res }, 500, `Couldn't delete file "${ file }" | "${ err.stack }"`);
     }
   }

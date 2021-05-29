@@ -40,28 +40,28 @@ const getEpNamesFromCache = ({ cacheData, idMap, invalidItems, validItems }) => 
       let cache;
       let cacheKey;
       
-      if(nameWithYear){
+      if (nameWithYear) {
         const _cacheKey = genCacheName(nameWithYear);
         cache = cacheData[_cacheKey];
         cacheKey = _cacheKey;
       }
       
-      if(cache){
+      if (cache) {
         const cachedSeasons = useDVDOrder ? cache.dvdSeasons : cache.seasons;
         
         let seriesURL;
-        if(cache.id){
+        if (cache.id) {
           seriesURL = TMDB__URL__SERIES.replace(TMDB__TOKEN__SERIES_ID, cache.id);
         }
     
-        if(
+        if (
           name
           && (season || season === 0)
           && episode
           && cachedSeasons
           && cachedSeasons[season]
           && cachedSeasons[season].episodes[episode]
-        ){
+        ) {
           const newName = `${ cache.name } - ${ season }${ buildEpNums(episodes) } - ${ buildEpTitle(cachedSeasons, season, episodes) }`;
           const epThumb = cachedSeasons[season].episodes[episode].thumbnail;
           
@@ -79,17 +79,17 @@ const getEpNamesFromCache = ({ cacheData, idMap, invalidItems, validItems }) => 
           });
         }
         // could be a possible series mis-match or missing cache data
-        else if(
+        else if (
           (season || season === 0)
           && episode
-        ){
+        ) {
           let errMsg = 'Possible series mis-match';
     
-          if(cachedSeasons){
-            if(!cachedSeasons[season]){
+          if (cachedSeasons) {
+            if (!cachedSeasons[season]) {
               errMsg = `Missing season "${ season }" data in cache`;
             }
-            else if(!cachedSeasons[season].episodes[episode]){
+            else if (!cachedSeasons[season].episodes[episode]) {
               errMsg = `Missing episode "${ episode }" data in cache`;
             }
           }
@@ -103,11 +103,11 @@ const getEpNamesFromCache = ({ cacheData, idMap, invalidItems, validItems }) => 
           });
         }
         // could be a possible series mis-match
-        else{
+        else {
           let msg = '';
     
-          if(!season) msg += 'season';
-          if(!episode) msg += (msg.length) ? ' & episode' : 'episode';
+          if (!season) msg += 'season';
+          if (!episode) msg += (msg.length) ? ' & episode' : 'episode';
     
           renamed.push({
             error: `Missing ${ msg }`,
@@ -119,7 +119,7 @@ const getEpNamesFromCache = ({ cacheData, idMap, invalidItems, validItems }) => 
         } 
       }
       // missing data from Client
-      else{
+      else {
         renamed.push({
           error: 'Not enough data for a search',
           index,
@@ -158,15 +158,15 @@ async function scrapeAndCacheSeries({
       tmdbAPIKey,
     });
     
-    if(!payload.error) seriesData = payload;
+    if (!payload.error) seriesData = payload;
   }
-  catch(err) {
+  catch (err) {
     const msg = `[ERROR] Downloading series data | ${ err.stack }`;
     log(msg);
     error = msg;
   }
   
-  if(seriesData){
+  if (seriesData) {
     // https://kodi.wiki/view/NFO_files/TV_shows#nfo_Tags
     const cacheKey = genCacheName(seriesData.name);
     cache = {
@@ -193,7 +193,7 @@ async function scrapeAndCacheSeries({
       idMap[cache.id] = cacheKey; // eslint-disable-line require-atomic-updates
       caches[cacheKey] = cache;
     }
-    catch(err) {
+    catch (err) {
       const msg = `[ERROR] Saving cache for "${ cache.name }" | ${ err.stack }`;
       log(msg);
       error = msg;
@@ -216,7 +216,7 @@ async function startPreview({
   const validItems = names.reduce((arr, n) => {
     const { episode, season } = n;
     // season can be zero (for specials)
-    if(season !== undefined && episode) arr.push(n);
+    if (season !== undefined && episode) arr.push(n);
     else invalidItems.push(n);
     return arr;
   }, []);
@@ -230,12 +230,12 @@ async function startPreview({
     // Since numerous things can go wrong with assigned IDs and series with
     // specific years assigned, re-map `nameWithYear` at the very beginning if
     // an `id` is present, to ensure no mixups happen later.
-    if(id && idMap[id]){
+    if (id && idMap[id]) {
       _nameWithYear = idMap[id].replace(/_/g, ' ');
       item.nameWithYear = _nameWithYear;
     }
     
-    if(nameWithYear && !uniqueSeriesNames.includes(_nameWithYear)) {
+    if (nameWithYear && !uniqueSeriesNames.includes(_nameWithYear)) {
       uniqueSeriesNames.push(_nameWithYear);
       arr.push(item);
     }
@@ -254,7 +254,7 @@ async function startPreview({
     return obj;
   }, {});
   let scrapeError;
-  for(let i=0; i<seriesItems.length; i++){
+  for (let i=0; i<seriesItems.length; i++) {
     const { id, nameWithYear, updateCache } = seriesItems[i];
     const cacheKey = genCacheName(nameWithYear);
     // `seriesID` will only be defined if the User had to assign an id manually
@@ -262,13 +262,13 @@ async function startPreview({
     let cacheFileExists = false;
     
     try { cacheFileExists = await stat(`${ PUBLIC_CACHE }/${ cacheKey }.json`); }
-    catch(err) { /**/ }
+    catch (err) { /**/ }
     
-    if(
+    if (
       (seriesID && updateCache)
       || (seriesID && !cacheFileExists)
       || !seriesID
-    ){
+    ) {
       const { error } = await scrapeAndCacheSeries({
         caches,
         fanarttvAPIKey,
@@ -279,74 +279,74 @@ async function startPreview({
         tmdbAPIKey,
       });
       
-      if(error){
+      if (error) {
         scrapeError = error;
         break;
       }
     }
   }
   
-  if(scrapeError) return handleError({ res }, 500, scrapeError);
+  if (scrapeError) return handleError({ res }, 500, scrapeError);
   
   const currentIDsCount = Object.keys(idMap).length;
   let idCacheMapError;
-  if(currentIDsCount > idsCountBeforeSeriesLookup){
+  if (currentIDsCount > idsCountBeforeSeriesLookup) {
     try {
       log('New IDs detected');
       await saveIDsCacheMap(idMap);
     }
-    catch(err) { idCacheMapError = err.stack; }
+    catch (err) { idCacheMapError = err.stack; }
   }
   
   let staleDataUpdateError;
   // If a cache map update tried to happen but failed, there's no reason to
   // continue with the Preview
-  if(idCacheMapError) handleError({ res }, 500, idCacheMapError);
-  else{
+  if (idCacheMapError) handleError({ res }, 500, idCacheMapError);
+  else {
     const pendingCacheLookups = [];
     
-    for(let i=0; i<uniqueSeriesNames.length; i++){
+    for (let i=0; i<uniqueSeriesNames.length; i++) {
       const name = uniqueSeriesNames[i];
       const cacheKey = genCacheName(name);
       
-      if(caches[cacheKey]) log(`Cache for "${ cacheKey }" already loaded`);
+      if (caches[cacheKey]) log(`Cache for "${ cacheKey }" already loaded`);
       else pendingCacheLookups.push(loadCacheItem(cacheKey));
     }
     
     let loadedCacheFiles;
     try { loadedCacheFiles = await Promise.all(pendingCacheLookups); }
-    catch(err) { handleError({ res }, 500, err); }
+    catch (err) { handleError({ res }, 500, err); }
     
-    if(loadedCacheFiles){
+    if (loadedCacheFiles) {
       // Compile a list of currently airing series' and any data that requries
       // an update for a successful scrape.
       const pendingSeriesData = validItems.reduce((obj, { episodes, nameWithYear, season, useDVDOrder }) => {
         const cacheKey = genCacheName(nameWithYear);
-        if(!obj[cacheKey]) obj[cacheKey] = { seasons: {}, useDVDOrder };
-        if(!obj[cacheKey].seasons[season]) obj[cacheKey].seasons[season] = { episodes: [] };
+        if (!obj[cacheKey]) obj[cacheKey] = { seasons: {}, useDVDOrder };
+        if (!obj[cacheKey].seasons[season]) obj[cacheKey].seasons[season] = { episodes: [] };
         obj[cacheKey].seasons[season].episodes.push(...episodes);
         return obj;
       }, {});
       const currDate = new Date();
       
-      for(let i=0; i<loadedCacheFiles.length; i++){
+      for (let i=0; i<loadedCacheFiles.length; i++) {
         let { data: _cache, error } = loadedCacheFiles[i];
         
         // This error occurs when all the required data is provided for a
         // series lookup, but no ID was provided, and the series wasn't found
         // during the series lookup, so it wasn't pre-populated in the cache.
         // But the cache was able to load based on the `cacheKey`.
-        if(!error){
+        if (!error) {
           const { id, name, schema, scrapeDate } = _cache;
           const cacheKey = genCacheName(name);
           const schemaUpdateRequired = !schema || schema < VERSION__CACHE_SCHEMA;
           let staleDataUpdateRequired = false;
           let updateMsg;
           
-          if(schemaUpdateRequired){
+          if (schemaUpdateRequired) {
             updateMsg = `Old schema detected (old: "${ schema }" | new: "${ VERSION__CACHE_SCHEMA }"), forcing an update for: "${ cacheKey }"`;
           }
-          else{
+          else {
             const { seasons, useDVDOrder } = pendingSeriesData[cacheKey];
             const sD = new Date(scrapeDate);
             const ended = _cache.status === 'Ended';
@@ -357,20 +357,20 @@ async function startPreview({
             );
             let reason;
             
-            if(
+            if (
               // If the series is over, it's most likely not getting any new updates
               // so what data is currently cached is probably all there's gonna be.
               !ended
               // If an update's already occurred today, no need to proceed since
               // new data is added after episodes have aired (most likely the next day).
               && !sameDay
-            ){
+            ) {
               staleDataUpdateRequired = Object.keys(seasons).some(season => {
                 const { episodes } = seasons[season];
                 const { episodes: cachedEps } = (useDVDOrder ? _cache.dvdSeasons : _cache.seasons)[season] || {};
                 
                 // if there's no season data (probably a new season just started)
-                if(!cachedEps){
+                if (!cachedEps) {
                   reason = 'Missing season data';
                   return true;
                 }
@@ -379,7 +379,7 @@ async function startPreview({
                 // - entire episode data (season break, just started airing again)
                 // - thumbnail (since they usually get added after the episode's aired for current series')
                 const missingEpData = episodes.some(ep => !cachedEps[ep] || !cachedEps[ep].thumbnail);
-                if(missingEpData){
+                if (missingEpData) {
                   reason = 'Missing episode data';
                   return true;
                 }
@@ -388,12 +388,12 @@ async function startPreview({
               });
             }
             
-            if(staleDataUpdateRequired){
+            if (staleDataUpdateRequired) {
               updateMsg = `Stale data detected: "${ reason }". Forcing an update for: "${ cacheKey }"`;
             }
           }
           
-          if(schemaUpdateRequired || staleDataUpdateRequired){
+          if (schemaUpdateRequired || staleDataUpdateRequired) {
             log(updateMsg);
             
             const { cache, error } = await scrapeAndCacheSeries({
@@ -406,7 +406,7 @@ async function startPreview({
               tmdbAPIKey,
             });
             
-            if(error){
+            if (error) {
               staleDataUpdateError = error;
               break;
             }
@@ -419,7 +419,7 @@ async function startPreview({
     }
   }
   
-  if(staleDataUpdateError) return handleError({ res }, 500, staleDataUpdateError);
+  if (staleDataUpdateError) return handleError({ res }, 500, staleDataUpdateError);
   
   jsonResp(
     res,
@@ -431,20 +431,20 @@ export default async function previewRename({ reqData, res }) {
   const names = reqData.names;
   const { data: config, error: configError } = await loadConfig();
   
-  if(configError) handleError({ res }, 500, `Error loading config | ${ configError }`);
-  else{
+  if (configError) handleError({ res }, 500, `Error loading config | ${ configError }`);
+  else {
     const { fanarttvAPIKey, tmdbAPIKey } = config;
     
-    if(!tmdbAPIKey){
+    if (!tmdbAPIKey) {
       handleError({ res }, 500, 'API key missing for theMovieDB. \nGo to the Config menu and verify the required credentials are present.');
     }
-    else if(!fanarttvAPIKey){
+    else if (!fanarttvAPIKey) {
       handleError({ res }, 500, 'API key missing for fanart.tv. \nGo to the Config menu and verify the required credentials are present.');
     }
-    else{
+    else {
       const { data: idMap, error } = await loadIDsCacheMap();
       
-      if(error) handleError({ res }, 500, `Error loading ID cache map | ${ error }`);
+      if (error) handleError({ res }, 500, `Error loading ID cache map | ${ error }`);
       else startPreview({ fanarttvAPIKey, idMap, names, res, tmdbAPIKey });
     }
   }

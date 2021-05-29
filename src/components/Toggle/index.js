@@ -22,10 +22,10 @@ const Toggle = ({
   };
   let rootModifier = '';
   
-  if(!onToggle) dynamicProps.defaultChecked = toggled;
+  if (!onToggle) dynamicProps.defaultChecked = toggled;
   else dynamicProps.checked = toggled;
   
-  if(disabled) rootModifier += MODIFIER__DISABLED;
+  if (disabled) rootModifier += MODIFIER__DISABLED;
 
   return (
     <div className={`${ ROOT_CLASS } ${ styles } ${ className } ${ rootModifier }`} style={style}>

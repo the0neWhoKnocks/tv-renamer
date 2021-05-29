@@ -63,8 +63,8 @@ class Version extends Component {
     let updateBtnHandler = this.handleUpdateCheckClick;
     let rootModifier = '';
     
-    if(showList) rootModifier += MODIFIER__LIST;
-    if(releases.length) rootModifier += ` ${ MODIFIER__SCROLL_LIST }`;
+    if (showList) rootModifier += MODIFIER__LIST;
+    if (releases.length) rootModifier += ` ${ MODIFIER__SCROLL_LIST }`;
     
     return (
       <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>

@@ -22,12 +22,12 @@ module.exports = (on, config) => {
     // NOTE - Cypress doesn't overwrite files, so check if it appended a number
     // to a new screenshot, and handle it manually.
     const numberSuffixRegEx = /\s\(\d\)\.png$/;
-    if(numberSuffixRegEx.test(path)){
+    if (numberSuffixRegEx.test(path)) {
       const newPath = path.replace(numberSuffixRegEx, '.png');
 
       return new Promise((resolve, reject) => {
         rename(path, newPath, (err) => {
-          if(err) return reject(err);
+          if (err) return reject(err);
           resolve({ path: newPath });
         });
       });

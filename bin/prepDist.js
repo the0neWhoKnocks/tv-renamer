@@ -15,7 +15,7 @@ const {
   SRC_STATIC,
 } = require('../conf.app');
 
-if( existsSync(DIST) ) {
+if ( existsSync(DIST) ) {
   // clean existing files (in the case when the directory already existed)
   rimraf.sync(`${ DIST }/{cjs,public}/**/*`);
   console.log(`\nRemoved pre-existing items in "${ DIST }"`);
@@ -30,7 +30,8 @@ console.log(`Copied conf to ➜ "${ DIST }"`);
 try {
   copySync(`${ SRC_STATIC }/imgs`, `${ DIST_PUBLIC }/imgs`);
   console.log(`Copied static images to "${ DIST_PUBLIC }/imgs"`);
-}catch(err){
+}
+catch (err) {
   console.error(`[ERROR] Static copy | ${ err }`);
 }
 [

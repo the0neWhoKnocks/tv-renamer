@@ -1,7 +1,7 @@
 export default (name, forFolder=false) => {
   let newName = name;
   
-  if(forFolder) newName = newName.replace(/\.$/, ''); // folders can't end in a dot
+  if (forFolder) newName = newName.replace(/\.$/, ''); // folders can't end in a dot
   
   return newName
     // Linux

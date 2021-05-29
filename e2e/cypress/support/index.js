@@ -21,10 +21,10 @@ import './commands';
 
 
 function abortEarly() {
-  if(
+  if (
     this.currentTest.state === 'failed'
     && this.currentTest.currentRetry() === this.currentTest.retries()
-  ){
+  ) {
     Cypress.runner.stop();
   }
 }

@@ -42,7 +42,7 @@ process.on('unhandledRejection', (err) => {
 });
 
 const inspectMiddleware = [];
-if( process.env.DEBUG ){
+if ( process.env.DEBUG ) {
   // https://nodejs.org/api/inspector.html
   const inspector = require('inspector');
   inspector.open();
@@ -86,7 +86,7 @@ const server = http
     ['*', handleError, [404, 'Page Not Found']],
   ]))
   .listen(port, (err) => {
-    if(err) throw err;
+    if (err) throw err;
     console.log(`Server running at http://localhost:${ port }/`);
   });
 

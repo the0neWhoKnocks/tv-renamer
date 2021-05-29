@@ -14,11 +14,11 @@ function writeXML(data, outputPath) {
     const xml = doc.end({ prettyPrint: true });
     
     writeFile(outputPath, xml, 'utf8', (err) => {
-      if(err){
+      if (err) {
         log(`[ERROR] Writing path "${ outputPath }"\n${ err.stack }`);
         reject(err);
       }
-      else{
+      else {
         // log(`Wrote "${ outputPath }"\n${ xml }`);
         log(`Wrote "${ outputPath }"`);
         resolve();

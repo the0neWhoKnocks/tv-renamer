@@ -17,7 +17,7 @@ const MOCK_FILES = (process.env.MOCK_FILES_PATH)
 const OUTPUT = `${ MOCK_FILES }/output`;
 const SRC = `${ MOCK_FILES }/src`;
 
-if( existsSync(MOCK_FILES) ) {
+if ( existsSync(MOCK_FILES) ) {
   // clean existing files (in the case where the directory already existed)
   rimraf.sync(`${ MOCK_FILES }/output/*`);
   rimraf.sync(`${ MOCK_FILES }/src/*`);
@@ -34,31 +34,31 @@ const args = process.argv.slice(2, process.argv.length);
 
 // create test files
 readFile(resolve(__dirname, './files.txt'), 'utf8', async (err, content) => {
-  if(err) throw err;
+  if (err) throw err;
   
   const MOCK_VID = `${ MOCK_FILES }/mock.mp4`;
   const lines = content.split('\n').filter(l => !!l);
   let mockFileExists = false;
   
-  for(let i=0; i<lines.length; i++) {
+  for (let i=0; i<lines.length; i++) {
     const fileName = lines[i];
     const file = parse(fileName);
     let filePath = SRC;
     let generate = true;
     
-    if(args && args.length){
+    if (args && args.length) {
       generate = false;
       
-      for(let i=0; i<args.length; i++){
-        if(fileName.toLowerCase().includes(args[i].toLowerCase())){
+      for (let i=0; i<args.length; i++) {
+        if (fileName.toLowerCase().includes(args[i].toLowerCase())) {
           generate = true;
           break;
         }
       }
     }
     
-    if(generate){
-      if(file.dir){
+    if (generate) {
+      if (file.dir) {
         const folder = `${ SRC }/${ file.dir }`;
         mkdirp.sync(folder);
         console.log(`Created file directory ➜ "${ folder }"`);
@@ -66,12 +66,12 @@ readFile(resolve(__dirname, './files.txt'), 'utf8', async (err, content) => {
         filePath = folder;
       }
       
-      if(!mockFileExists){
+      if (!mockFileExists) {
         try {
           lstatSync(MOCK_VID);
           mockFileExists = true;
         }
-        catch(err) {
+        catch (err) {
           const video = {
             bitDepth: 'yuv420p',
             encoder: 'x264',
@@ -98,7 +98,7 @@ readFile(resolve(__dirname, './files.txt'), 'utf8', async (err, content) => {
       
       filePath += `/${ file.base }`;
       copyFileSync(MOCK_VID, filePath, (err) => {
-        if(err) throw err;
+        if (err) throw err;
         console.log(`Created file ➜ "${ filePath }"`);
       });
     }

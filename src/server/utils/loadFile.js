@@ -18,7 +18,7 @@ export default async function loadFile(file) {
     const fileContents = await readFile(file, 'utf8');
     
     try { data = JSON.parse(fileContents); }
-    catch(err){
+    catch (err) {
       log(`  [PARSE] failed, file contents are "${ fileContents }"`);
       data = _default;
       error = {
@@ -27,7 +27,7 @@ export default async function loadFile(file) {
       };
     }
   }
-  catch(err) {
+  catch (err) {
     log(`  [FAILED] to load file: "${ err.message }"`);
     data = _default;
     error = {

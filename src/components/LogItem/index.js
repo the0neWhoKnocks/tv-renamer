@@ -26,16 +26,16 @@ const LogItem = ({
           let _warning = warning;
           let warningHasHTML = false;
           
-          if(_warning.startsWith('http')){
+          if (_warning.startsWith('http')) {
             isLink = true;
             _warning = <a href={warning} target="_blank" rel="noopener noreferrer">{warning}</a>;
           }
-          else if(_warning.includes('"http')){
+          else if (_warning.includes('"http')) {
             const urls = (_warning.match(/"(http[^"]+)"/g) || []);
             
             urls
               .reduce((arr, url) => {
-                if(!arr.includes(url)) arr.push(url);
+                if (!arr.includes(url)) arr.push(url);
                 return arr;
               }, [])
               .forEach(url => {

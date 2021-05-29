@@ -14,7 +14,7 @@ export default (files) => new Promise((checkResolve, checkReject) => {
       const remainingFiles = [];
       const folders = files.filter((file, ndx) => {
         const isFolder = stats[ndx];
-        if( !isFolder ) remainingFiles.push(files[ndx]);
+        if ( !isFolder ) remainingFiles.push(files[ndx]);
         return isFolder;
       });
       

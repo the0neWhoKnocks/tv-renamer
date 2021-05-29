@@ -1,7 +1,7 @@
 import { parse } from 'url';
 
 const transformAPIURL = (url, tokens) => {
-  if(!url) throw Error("Missing `url`, can't transform for API");
+  if (!url) throw Error("Missing `url`, can't transform for API");
   
   let _url = url;
   

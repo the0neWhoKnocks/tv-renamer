@@ -69,14 +69,14 @@ class Config extends Component {
     
     // Check all editiable items to see if their values are different than
     // what was passed in.
-    for(let i=0; i<inputs.length; i++){
+    for (let i=0; i<inputs.length; i++) {
       const { name, required, value } = inputs[i];
       const inputProp = this.props[name];
       const parsedValue = value.trim();
       
       // missing required items
-      if( required && parsedValue === '' ) missingRequired = true;
-      if(
+      if ( required && parsedValue === '' ) missingRequired = true;
+      if (
         // the previously set value has changed
         ( inputProp && inputProp !== parsedValue )
         // OR - there was no initial value on load, but the user has entered one
@@ -85,19 +85,19 @@ class Config extends Component {
     }
     
     // disable Save if required items are missing
-    if( missingRequired ) enableSave = false;
+    if ( missingRequired ) enableSave = false;
     
     // turn Save on
-    if( saveDisabled && enableSave ) state.saveDisabled = false;
+    if ( saveDisabled && enableSave ) state.saveDisabled = false;
     // turn Save off
-    else if( !saveDisabled && !enableSave ) state.saveDisabled = true;
+    else if ( !saveDisabled && !enableSave ) state.saveDisabled = true;
     
     // turn Close off
-    if( !closeDisabled && missingRequired ) state.closeDisabled = true;
+    if ( !closeDisabled && missingRequired ) state.closeDisabled = true;
     // turn Close on
-    else if( closeDisabled && !missingRequired ) state.closeDisabled = false;
+    else if ( closeDisabled && !missingRequired ) state.closeDisabled = false;
     
-    if( Object.keys(state).length ) this.setState(state);
+    if ( Object.keys(state).length ) this.setState(state);
   }
   
   render() {

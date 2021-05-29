@@ -45,14 +45,14 @@ export default async function _static(opts, cleanPath) {
     
     // No need for file look-ups if the file's been cached, and the Browser
     // already has the file.
-    if(cache[file] && cache[file] === reqEtag){
+    if (cache[file] && cache[file] === reqEtag) {
       pendingRequest = '';
       res.statusCode = 304;
       res.end();
     }
-    else{
+    else {
       try { await stat(file); }
-      catch(err) {
+      catch (err) {
         pendingRequest = '';
         return handleError(opts, 404, `File "${ file }" not found! | ${ err.stack }`);
       }
@@ -72,7 +72,7 @@ export default async function _static(opts, cleanPath) {
         // ensure the cached file is recorded for faster future look-ups
         cache[file] = eTag; // eslint-disable-line require-atomic-updates
       }
-      catch(err) {
+      catch (err) {
         pendingRequest = '';
         return handleError(opts, 500, `Error reading file: ${ err }.`);
       }
@@ -82,7 +82,7 @@ export default async function _static(opts, cleanPath) {
         pendingRequest = '';
         res.end(data);
       }
-      catch(err) {
+      catch (err) {
         pendingRequest = '';
         return handleError(opts, 500, `Error reading file: ${ err }.`);
       }
@@ -93,13 +93,13 @@ export default async function _static(opts, cleanPath) {
   // request queue to ensure that the most current version of the cache is
   // loaded for every request.
   const checkQueue = async () => {
-    if(!pendingRequest){
+    if (!pendingRequest) {
       pendingRequest = file;
       
       const { data } = await loadFile(PUBLIC_FILE_CACHE);
       onCacheLoad(data);
     }
-    else{
+    else {
       setTimeout(() => {
         checkQueue();
       }, 10);

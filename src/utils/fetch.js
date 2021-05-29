@@ -1,8 +1,8 @@
 export default (...args) => {
-  if(args[1] && !args[1].method && args[1].params){
+  if (args[1] && !args[1].method && args[1].params) {
     let url = args[0];
     
-    if(args[0].startsWith('/')){
+    if (args[0].startsWith('/')) {
       url = `${ window.location.origin }${ args[0] }`;
     }
     
@@ -23,7 +23,7 @@ export default (...args) => {
         
       return new Promise((resolve, reject) => {
         parsed.then((data) => {
-          if(resp.status < 400) resolve(data);
+          if (resp.status < 400) resolve(data);
           else reject(data);
         });
       });

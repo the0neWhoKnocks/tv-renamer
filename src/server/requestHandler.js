@@ -14,7 +14,7 @@ export default (routes) => async (req, res) => {
   let path, handler, args, reqData, dataPromise;
   
   dataPromise = new Promise((resolve, reject) => {
-    switch(req.method) {
+    switch (req.method) {
       case 'GET':
         reqData = parsedReq.query || {};
         resolve();
@@ -38,7 +38,7 @@ export default (routes) => async (req, res) => {
   dataPromise.then(() => {
     let emitLog;
     
-    for(let i=0; i<routes.length; i++){
+    for (let i=0; i<routes.length; i++) {
       const route = routes[i];
       path = route[0];
       handler = route[1];
@@ -52,15 +52,15 @@ export default (routes) => async (req, res) => {
         reqData,
       }];
       // some handlers pass custom args
-      if(routeArgs) args = [...args, ...routeArgs];
+      if (routeArgs) args = [...args, ...routeArgs];
       // tack on any useful data to the end of all calls
       args.push(cleanPath);
       
-      if( path instanceof RegExp && path.test(cleanPath) ) break;
-      else if( cleanPath === path ) break;
+      if ( path instanceof RegExp && path.test(cleanPath) ) break;
+      else if ( cleanPath === path ) break;
     }
     
-    if(emitLog) log(`Route matched (${ req.method }) "${ path }" for ${ cleanPath }`);
+    if (emitLog) log(`Route matched (${ req.method }) "${ path }" for ${ cleanPath }`);
     handler(...args);
   });
 };

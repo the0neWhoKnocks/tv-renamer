@@ -7,7 +7,7 @@ export default async function updateConfig({ reqData: config, res }) {
     await saveConfig(config);
     jsonResp(res, config);
   }
-  catch(err) {
+  catch (err) {
     handleError({ res }, 500, `Problem updating the config | ${ err.stack }`);
   }
 }

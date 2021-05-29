@@ -36,7 +36,7 @@ class Replace extends Component {
         </div>
         {buttons.map(({ data, label, onClick }) => {
           const dataAtts = {};
-          if(data) Object.keys(data).forEach((key) => {
+          if (data) Object.keys(data).forEach((key) => {
             dataAtts[`data-${ key.toLowerCase() }`] = data[key];
           });
           return (
@@ -114,12 +114,12 @@ class Replace extends Component {
   }
   
   componentDidUpdate(prevProps, prevState) {
-    if(prevState.matchInputValue !== this.state.matchInputValue){
+    if (prevState.matchInputValue !== this.state.matchInputValue) {
       Replace.setStorage({
         matchInputValue: this.state.matchInputValue,
       });
     }
-    else if(prevState.replaceInputValue !== this.state.replaceInputValue){
+    else if (prevState.replaceInputValue !== this.state.replaceInputValue) {
       Replace.setStorage({
         replaceInputValue: this.state.replaceInputValue,
       });
@@ -139,7 +139,7 @@ class Replace extends Component {
       const pattern = val ? new RegExp(val) : '';
       this.setState({ matchPattern: pattern });
     }
-    catch(err){
+    catch (err) {
       // something wrong with the RegEx, so just use the text
       this.setState({ matchPattern: val });
     }
@@ -161,7 +161,7 @@ class Replace extends Component {
   handleRenameClick() {
     const files = [];
     this.replacedNames.forEach((newName, ndx) => {
-      if(newName){
+      if (newName) {
         const { dir, ext, name } = this.props.files[ndx];
         files.push({ ext, filePath: dir, newName, oldName: name });
       }
@@ -205,9 +205,9 @@ class Replace extends Component {
       ? matchPattern : '';
     
     let extraReplaceBtns = [];
-    if(matchRegEx){
+    if (matchRegEx) {
       const groups = matchRegEx.source.match(/((?<!\\)\([^)]+\))/g);
-      if(groups){
+      if (groups) {
         extraReplaceBtns = groups.map((_, ndx) => {
           const num = ndx + 1;
           return {
@@ -260,16 +260,16 @@ class Replace extends Component {
               let currentName = origFilename;
               let newName = name;
               
-              if(matchRegEx){
+              if (matchRegEx) {
                 const matches = currentName.match(matchRegEx);
                 
-                if(matches){
+                if (matches) {
                   // NOTE - `groups` is a prototype prop on a RegEx match, but
                   // spreading to `groups` actually just gives me the indexed
                   // capture group values.
                   const [match, ...groups] = matches;
                   
-                  if(groups){
+                  if (groups) {
                     const { index: matchNdx } = matches;
                     const groupParts = [];
                     const startChunk = currentName.substr(0, matchNdx);
@@ -279,21 +279,21 @@ class Replace extends Component {
                     let currEndChunk = endChunk;
                     
                     groups.forEach((g, ndx) => {
-                      if(g){
+                      if (g) {
                         const replacement = `<mark data-ndx="${ ndx }">${ g.trim() }</mark>`;
                         const startNdx = currEndChunk.indexOf(g);
                         groupParts.push(currEndChunk.substr(0, startNdx) + replacement);
                         currEndChunk = currEndChunk.substr(startNdx + g.length, currEndChunk.length);
                       }
                     });
-                    if(groupParts.length) endChunk = `${ groupParts.join('') }${ currEndChunk }`;
+                    if (groupParts.length) endChunk = `${ groupParts.join('') }${ currEndChunk }`;
                     
                     currentName = `${ startChunk }${ endChunk }`;
                   }
                   
-                  if(groups){
+                  if (groups) {
                     let pattern = replacePattern;
-                    if(NDX_TOKEN_REGEX.test(pattern)){
+                    if (NDX_TOKEN_REGEX.test(pattern)) {
                       (pattern.match(NDX_TOKEN_REGEX) || []).forEach((m) => {
                         const [, strNum = '0'] = m.match(NDX_TOKEN_REGEX.source) || [];
                         const num = +strNum;

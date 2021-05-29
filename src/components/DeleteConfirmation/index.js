@@ -46,7 +46,7 @@ class DeleteConfirmation extends Component {
     const { proccessing } = this.state;
     let rootModifier = '';
     
-    if(proccessing) rootModifier = MODIFIER__PROCCESSING;
+    if (proccessing) rootModifier = MODIFIER__PROCCESSING;
     
     return (
       <div className={`${ ROOT_CLASS } ${ styles } ${ rootModifier }`}>

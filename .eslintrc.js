@@ -22,9 +22,11 @@ module.exports = {
       imports: 'always-multiline',
       objects: 'always-multiline',
     }],
+    'keyword-spacing': ['error', { after: true, before: true }],
     'object-property-newline': 'off',
-    'react/no-unused-prop-types': 1,
+    'react/no-unused-prop-types': 'error',
     'require-jsdoc': 'off',
+    'space-before-blocks': ['error', 'always'],
 	},
   settings: {
     react: {

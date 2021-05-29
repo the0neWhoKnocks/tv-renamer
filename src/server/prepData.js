@@ -20,7 +20,7 @@ export default () => {
   [
     { name: 'cache', path: PUBLIC_CACHE },
   ].forEach(({ name, path }) => {
-    if(!existsSync(path)) {
+    if (!existsSync(path)) {
       mkdirp.sync(path);
       console.log(`Created "${ name }" directory ➜ "${ path }"`);
     }
@@ -35,6 +35,7 @@ export default () => {
     try {
       writeFileSync(path, _default, { encoding: 'utf8', flag: 'wx' });
       console.log(`Created "${ name }" file ➜ "${ path }"`);
-    }catch(err){ /* errors mean the file already exists, which doesn't matter */ }
+    }
+    catch (err) { /* errors mean the file already exists, which doesn't matter */ }
   });
 };

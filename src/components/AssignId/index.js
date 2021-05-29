@@ -57,10 +57,10 @@ class AssignId extends Component {
   getMatchingSeries() {
     const { query: seriesName = '' } = this.state;
     
-    if(matchCache[seriesName]){
+    if (matchCache[seriesName]) {
       this.setState({ matches: matchCache[seriesName] });
     }
-    else{
+    else {
       this.setState({ searching: true }, () => {
         fetch(API__SERIES_MATCHES, { params: { forAssign: true, seriesName } })
           .then((matches) => {
@@ -109,10 +109,10 @@ class AssignId extends Component {
     const idChanged = _id !== AssignId.normalizeId(this.props.id);
     const state = {};
     
-    if(_id !== this.state.id) state.id = _id;
-    if(idChanged !== this.state.idChanged) state.idChanged = idChanged;
+    if (_id !== this.state.id) state.id = _id;
+    if (idChanged !== this.state.idChanged) state.idChanged = idChanged;
     
-    if(Object.keys(state).length) this.setState(state);
+    if (Object.keys(state).length) this.setState(state);
   }
   
   handleIdChange(ev) {
@@ -134,7 +134,7 @@ class AssignId extends Component {
     
     const newQuery = this.searchInputRef.current.value;
     
-    if(newQuery && newQuery !== this.state.query){
+    if (newQuery && newQuery !== this.state.query) {
       this.setState({ query: newQuery }, this.getMatchingSeries);
     }
   }
@@ -153,7 +153,7 @@ class AssignId extends Component {
     let rootModifier = '';
     let assignDisabled = !idChanged;
     
-    if(proccessing){
+    if (proccessing) {
       rootModifier = MODIFIER__PROCCESSING;
       assignDisabled = true;
     }

@@ -50,20 +50,20 @@ const requestEpisodesByGroup = ({ apiKey, groupID }) => new Promise((resolve, re
 export default ({ apiKey, episodeGroups, seasonNumbers, seriesID }) => new Promise((resolve, reject) => {
   const promises = seasonNumbers.map((seasonNum) => requestEpisodesBySeason({ apiKey, seasonNum, seriesID }));
   
-  if(episodeGroups && episodeGroups[TMDB__EPISODE_GROUP_TYPE__DVD]){
+  if (episodeGroups && episodeGroups[TMDB__EPISODE_GROUP_TYPE__DVD]) {
     promises.push(requestEpisodesByGroup({ apiKey, groupID: episodeGroups[TMDB__EPISODE_GROUP_TYPE__DVD] }));
   }
   
   Promise.all(promises)
     .then(resolvedPromises => {
       resolve(resolvedPromises.reduce((obj, { episodes, groups, type }) => {
-        if(episodes){
-          if(!obj.seasons) obj.seasons = [];
+        if (episodes) {
+          if (!obj.seasons) obj.seasons = [];
           obj.seasons.push(episodes);
         }
         
-        if(groups){
-          if(!obj.groups) obj.groups = {};
+        if (groups) {
+          if (!obj.groups) obj.groups = {};
           obj.groups[TMDB__EPISODE_GROUPS.get(type)] = groups;
         }
         

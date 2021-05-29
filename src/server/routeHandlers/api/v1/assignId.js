@@ -12,7 +12,7 @@ export default async function assignId({ reqData, res }) {
   const { data: ids } = await loadSeriesIds();
   const { assignedName, id, name } = reqData;
   
-  if(!assignedName){
+  if (!assignedName) {
     return handleError({ res }, 500, `No assigned name was provided, and one couldn't be determined from \ntmdbID: "${ id }"\nfile name: "${ name }"`);
   }
   
@@ -22,20 +22,20 @@ export default async function assignId({ reqData, res }) {
   const parsedIds = Object.keys(ids).reduce((_ids, id) => {
     const names = ids[id].filter(n => n !== name);
     // only add the id if the parsed value still has names
-    if(names.length) _ids[id] = names;
+    if (names.length) _ids[id] = names;
     return _ids;
   }, {});
   
   // IF the id already exists, add to Array
-  if(parsedIds[id] && parsedIds[id].indexOf(name) < 0) parsedIds[id].push(name);
+  if (parsedIds[id] && parsedIds[id].indexOf(name) < 0) parsedIds[id].push(name);
   // ELSE create new item
-  else if(!parsedIds[id]) parsedIds[id] = [name];
+  else if (!parsedIds[id]) parsedIds[id] = [name];
   
   try {
     idsCache[id] = cacheKey;
     await saveIDsCacheMap(idsCache);
   }
-  catch(err) {
+  catch (err) {
     return handleError({ res }, 500, `Error saving the IDs Cache | '${ err.stack }'`);
   }
   
@@ -43,7 +43,7 @@ export default async function assignId({ reqData, res }) {
     await saveFile(PUBLIC_SERIES_ID_MAP, parsedIds);
     jsonResp(res, parsedIds);
   }
-  catch(err) {
+  catch (err) {
     handleError({ res }, 500, `Error saving the mapped Series ID | '${ err.stack }'`);
   }
 }

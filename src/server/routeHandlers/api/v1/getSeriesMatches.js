@@ -16,12 +16,12 @@ export default async function getSeriesMatches({ reqData, res }) {
   try {
     const matches = await getSeriesByName({ apiKey, forAssign, name });
     
-    if(matches.length) log(`Found matches for "${ name }": ${ matches }`);
+    if (matches.length) log(`Found matches for "${ name }": ${ matches }`);
     else log(`No matches for "${ name }"`);
     
     jsonResp(res, matches);
   }
-  catch(err) {
+  catch (err) {
     handleError({ res }, 500, `Could not get series matches for "${ name }":\n${ err }`);
   }
 }

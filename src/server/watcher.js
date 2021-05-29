@@ -23,13 +23,11 @@ const checkServer = () => new Promise((rootResolve, rootReject) => {
     }, 1000);
   });
   const handleError = () => {
-    if(count < 3){
+    if (count < 3) {
       ping();
       count++;
     }
-    else{
-      rootReject();
-    }
+    else rootReject();
   };
   const handleSuccess = () => { rootResolve(); };
   const ping = () => {

@@ -10,8 +10,9 @@ const {
   WP__OUTPUT,
 } = require('./conf.app');
 
-const MODE = process.env.MODE;
 const HASH_LENGTH = 5;
+const mode = process.env.MODE;
+const dev = mode === 'development';
 const stats = {
   chunks: false,
   colors: true,
@@ -28,7 +29,7 @@ const conf = {
     'react': 'React',
     'react-dom': 'ReactDOM',
   },
-  mode: MODE,
+  mode,
   module: {
     rules: [
       {
@@ -99,5 +100,13 @@ const conf = {
   },
   stats: stats,
 };
+
+// related to WSL2: https://github.com/microsoft/WSL/issues/4739
+if (dev && !!process.env.WSL_INTEROP) {
+  conf.watchOptions = {
+    aggregateTimeout: 200,
+    poll: 1000,
+  };
+}
 
 module.exports = conf;

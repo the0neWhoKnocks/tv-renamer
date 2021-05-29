@@ -7,9 +7,14 @@ import {
   DIST_SERVER,
 } from 'ROOT/conf.app';
 
+const LOG_PREFIX = '[WATCHER]';
 const browserSync = create();
 const port = +process.env.PORT || 8080;
-const LOG_PREFIX = '[WATCHER]';
+const pollForFileChanges = !!process.env.WSL_INTEROP; // related to WSL2: https://github.com/microsoft/WSL/issues/4739
+const chokidarOpts = {
+  ignoreInitial: true,
+  usePolling: pollForFileChanges,
+};
 
 const checkServer = () => new Promise((rootResolve, rootReject) => {
   let count = 0;
@@ -23,7 +28,7 @@ const checkServer = () => new Promise((rootResolve, rootReject) => {
     }, 1000);
   });
   const handleError = () => {
-    if (count < 3) {
+    if (count < 30) {
       ping();
       count++;
     }
@@ -43,7 +48,9 @@ nodemon({
   delay: 500,
   exec: 'node --inspect=0.0.0.0',
   ext: 'js json',
+  legacyWatch: pollForFileChanges,
   script: `${ DIST_SERVER }/index.js`,
+  verbose: true,
   watch: [
     // WP bundled new code
     `${ DIST_JS }/manifest.json`,
@@ -84,6 +91,7 @@ browserSync.init({
   ui: {
     port: port + 2,
   },
+  watchOptions: chokidarOpts,
 });
 
 function killWatcher(evType) {

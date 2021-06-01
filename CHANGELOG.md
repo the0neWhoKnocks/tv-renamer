@@ -1,6 +1,17 @@
 # Changelog
 ---
 
+## v6.1.4
+
+**Bugfixes**
+- [11dd2b5](https://github.com/the0neWhoKnocks/tv-renamer/commit/11dd2b5):  Not all bracketed items ignored
+
+**Dev-Ops**
+- [c29e851](https://github.com/the0neWhoKnocks/tv-renamer/commit/c29e851):  Give the container more time to start before entering it
+- [84ffd0e](https://github.com/the0neWhoKnocks/tv-renamer/commit/84ffd0e):  Prevent the "history can't be written" message from popping up all the time
+
+---
+
 ## v6.1.3
 
 **Bugfixes**

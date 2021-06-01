@@ -1,6 +1,6 @@
 HISTFILE="$HOME/.zsh_history"
-HISTSIZE=200
-SAVEHIST=200
+HISTSIZE=2000
+SAVEHIST=$HISTSIZE
 
 setopt BANG_HIST              # Treat the '!' character specially during expansion.
 setopt EXTENDED_HISTORY       # Write the history file in the ":start:elapsed;command" format.

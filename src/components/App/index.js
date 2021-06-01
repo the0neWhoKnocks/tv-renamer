@@ -353,7 +353,7 @@ class App extends Component {
     const matches = name.match(NAME_REGEX);
     const epMatches = name
       // remove any tokens within square brackets
-      .replace(/\[[\w\d]+\]/, '')
+      .replace(/\[[\w\d]+\]/g, '')
       // extract all episode data
       .match(MULTI_EPS_REGEX) || [];
     const episodes = [];

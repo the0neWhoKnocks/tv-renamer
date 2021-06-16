@@ -9,6 +9,7 @@ context('Renamer', () => {
   const SERIES_ID__FUTURAMA = 615;
   const SERIES_ID__HIGH_MAINTENANCE = 106014;
   const SERIES_ID__HUNTER_X = 46298;
+  const SERIES_ID__KEVIN_CAN_F_HIMSELF = 99652;
   const DATA_SCRAPE_TIMEOUT = 2 * (60 * 1000); // 2 minutes
   const IMG_SCRAPE_TIMEOUT = 5 * (60 * 1000); // 5 minutes
   const E2E_FOLDER = '/repo/e2e';
@@ -1034,6 +1035,37 @@ context('Renamer', () => {
         expect(lines[0].startsWith('1 - When powerful aliens')).to.equal(true);
         expect(lines[2].startsWith("2 - Colonel O'Neill, leading")).to.equal(true);
       });
+    });
+  });
+  
+  it('should allow for stars in a series name', () => {
+    const CACHE_NAME = 'kevin_can_f--k_himself.json';
+    
+    loadPageWithItems('kevin', {
+      name: CACHE_NAME,
+      mapID: SERIES_ID__KEVIN_CAN_F_HIMSELF,
+      seriesID: SERIES_ID__KEVIN_CAN_F_HIMSELF,
+    }).then(() => {
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      cy.get('.renamable__new-name.has--warning .renamable__nav').contains('Assign').click();
+      cy.get(`.assign-id__match[data-id="${ SERIES_ID__KEVIN_CAN_F_HIMSELF }"]`).click();
+      cy.get('.assign-id__assign-btn').click();
+      
+      cy.get('#modals').should('be.empty');
+      const SERIES_NAME = 'KEVIN CAN F--K HIMSELF';
+      const NEW_NAME = `${ SERIES_NAME } - 1x01 - Living the Dream.mkv`;
+      cy.get(SELECTOR__SELECTED_PREVIEW_ITEM__NEW_NAME).then(($el, ndx) => {
+        expect($el.text()).to.equal(NEW_NAME);
+      });
+      
+      screenshot('.app', 'previewing assigned series names');
+      
+      cy.get('@ITEMS_NAV__RENAME_BTN').click();
+      cy.get('.app__section:nth-child(2) .log-item__to', { timeout: IMG_SCRAPE_TIMEOUT }).each(($el, ndx) => {
+        expect($el.text()).to.equal(`${ appConfig.output }/${ SERIES_NAME }/Season 01/${ NEW_NAME }`);
+      });
+      
+      cy.readFile(`${ E2E_FOLDER }/mnt/data/tmdb__cache/${ CACHE_NAME }`, 'utf8');
     });
   });
 });

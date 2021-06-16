@@ -67,7 +67,7 @@ context('Renamer', () => {
         console.log('[GENERATED] files');
       });
       
-      if(cache){
+      if (cache) {
         // NOTE
         // - It's important that the *ids files are updated before a page
         // has loaded, otherwise there could be a partial mis-match while triggering
@@ -76,14 +76,14 @@ context('Renamer', () => {
         // - It's alright to delete cache files whenever, but I figured it just made
         // more sense to keep all the file operations in once place.
         
-        if(cache.name){
+        if (cache.name) {
           const cacheName = cache.name.endsWith('.json') ? cache.name : `${ cache.name }.json`;
           cy.exec(`rm -f "${ E2E_FOLDER }/mnt/data/tmdb__cache/${ cacheName }"`, { log: true }).then(() => {
             console.log(`[DELETED] "${ cacheName }"`);
           });
         }
         
-        if(cache.mapID) {
+        if (cache.mapID) {
           const idsCacheMapCopy = { ...idsCacheMap };
           delete idsCacheMapCopy[cache.mapID];
           cy.writeFile(`${ E2E_FOLDER }/mnt/data/tmdb__ids-cache-map.json`, idsCacheMapCopy, 'utf8').then(() => {
@@ -92,7 +92,7 @@ context('Renamer', () => {
           idsCacheMapUpdated = true;
         }
         
-        if(cache.seriesID) {
+        if (cache.seriesID) {
           const seriesIDsCopy = { ...seriesIDs };
           delete seriesIDsCopy[cache.seriesID];
           cy.writeFile(`${ E2E_FOLDER }/mnt/data/tmdb__series-ids.json`, seriesIDsCopy, 'utf8').then(() => {
@@ -110,7 +110,7 @@ context('Renamer', () => {
   }
   
   function resetData(stage) {
-    if(stage === 'before'){
+    if (stage === 'before') {
       cy.exec(`rm -f ${ E2E_FOLDER }/cypress/screenshots/renamer.test.js/*`, { log: true }).then(() => {
         console.log('[DELETED] screenshots');
       });
@@ -122,13 +122,13 @@ context('Renamer', () => {
         .reduce((obj, changedFilePath) => {
           const normalizedPath = changedFilePath.trim();
           // Only reset Deleted, or Modified items for now. New items may indicate an issue, or there may just be new data.
-          if(normalizedPath.startsWith('D')) obj.deleted.push(normalizedPath.replace('D ', ''));
-          else if(normalizedPath.startsWith('M')) obj.modified.push(normalizedPath.replace('M ', ''));
+          if (normalizedPath.startsWith('D')) obj.deleted.push(normalizedPath.replace('D ', ''));
+          else if (normalizedPath.startsWith('M')) obj.modified.push(normalizedPath.replace('M ', ''));
           return obj;
         }, { deleted: [], modified: [] });
       
       const modifiedFiles = [];
-      for(let i=0; i<files.modified.length; i++){
+      for (let i=0; i<files.modified.length; i++) {
         const rawPath = files.modified[i];
         cy.readFile(`/repo/${ files.modified[i] }`, 'utf8').then(file => modifiedFiles.push({
           file,
@@ -136,7 +136,7 @@ context('Renamer', () => {
         }));
       }
       
-      if(files.modified.length || files.modified.length){
+      if (files.modified.length || files.modified.length) {
         cy.then(() => {
           const filesToReset = modifiedFiles
             .filter(({ file: { schema }, path }) => schema === VERSION__CACHE_SCHEMA)
@@ -144,7 +144,7 @@ context('Renamer', () => {
             .concat(files.deleted)
             .map(path => `"${ path }"`);
           
-          if(filesToReset.length){
+          if (filesToReset.length) {
             console.log(`[RESET] changed cache files\n  ${ filesToReset.join('\n  ') }`);
             cy.exec(`(cd .. && git checkout HEAD -- ${ filesToReset.join(' ') })`, { log: true }).then(() => {
               console.log('[DONE] reseting changed files');
@@ -155,16 +155,16 @@ context('Renamer', () => {
       else console.log('[--] no cache files needed to be reset');
     });
     
-    if(stage === 'after'){
+    if (stage === 'after') {
       cy.then(() => {
-        if(idsCacheMapUpdated){
+        if (idsCacheMapUpdated) {
           cy.writeFile(`${ E2E_FOLDER }/mnt/data/tmdb__ids-cache-map.json`, idsCacheMap, 'utf8');
           idsCacheMapUpdated = false;
           console.log('[DONE] reseting ids-cache-map.json');
         }
         else console.log("[--] ids-cache-map.json didn't need to be reset");
         
-        if(seriesIDsUpdated){
+        if (seriesIDsUpdated) {
           cy.writeFile(`${ E2E_FOLDER }/mnt/data/tmdb__series-ids.json`, seriesIDs, 'utf8');
           seriesIDsUpdated = false;
           console.log('[DONE] reseting series-ids.json');
@@ -468,9 +468,9 @@ context('Renamer', () => {
         ],
       ];
       cy.get('.renamable__ce-fix [spellcheck="false"]').each(($el, ndx) => {
-        for(let i=0; i<names.length; i++){
+        for (let i=0; i<names.length; i++) {
           const [oldName, newName] = names[i];
-          if(oldName === $el.text()){
+          if (oldName === $el.text()) {
             cy.wrap($el).click({ force: true }).type(`{selectall}${ newName }`);
             break;
           }

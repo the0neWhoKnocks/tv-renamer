@@ -1,6 +1,17 @@
 # Changelog
 ---
 
+## v6.2.0
+
+**Dev-Ops**
+- [b7947cc](https://github.com/the0neWhoKnocks/tv-renamer/commit/b7947cc):  Added test for series names containing stars
+- [265bc19](https://github.com/the0neWhoKnocks/tv-renamer/commit/265bc19):  Update test file with new lint rules
+
+**Features**
+- [14c8ec4](https://github.com/the0neWhoKnocks/tv-renamer/commit/14c8ec4):  Allow for stars in names
+
+---
+
 ## v6.1.4
 
 **Bugfixes**

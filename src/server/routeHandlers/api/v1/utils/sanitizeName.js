@@ -7,9 +7,9 @@ export default (name, forFolder=false) => {
     // Linux
     .replace(/\//g, '-')
     // Windows
-    .replace(/[:|–]/g, '-')
+    .replace(/[:|–*]/g, '-')
     .replace(/[<]/g, '(less-than)')
     .replace(/[>]/g, '(greater-than)')
     .replace(/[`’"“”]/g, '\'')
-    .replace(/[\\?*]/g, '');
+    .replace(/[\\?]/g, '');
 };

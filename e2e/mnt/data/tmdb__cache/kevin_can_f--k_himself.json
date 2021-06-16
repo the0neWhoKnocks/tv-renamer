@@ -1,0 +1,124 @@
+{
+  "schema": 5,
+  "scrapeDate": 1623872896466,
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "id": 99652,
+  "mpaa": "",
+  "name": "KEVIN CAN F**K HIMSELF",
+  "plot": "Explore the secret life of a woman we all grew up watching: the sitcom wife. The series looks to break television convention and ask what the world looks like through her eyes. Alternating between single-camera realism and multi-camera zaniness, the formats will inform one another as we imagine what happens when the sitcom wife escapes her confines, and takes the lead in her own life.",
+  "premiered": "2021-06-20",
+  "status": "Returning Series",
+  "studios": [
+    "AMC"
+  ],
+  "actors": [
+    {
+      "name": "Annie Murphy",
+      "order": 0,
+      "role": "Allison McRoberts",
+      "thumb": "/7RoTi2NRmNMFIR1ppIvZT0fQpT9.jpg"
+    },
+    {
+      "name": "Eric Petersen",
+      "order": 1,
+      "role": "Kevin McRoberts",
+      "thumb": "/dIJVKSpguIxp0ZcqHP8Gr94cJes.jpg"
+    },
+    {
+      "name": "Mary Hollis Inboden",
+      "order": 2,
+      "role": "Patty O'Connor",
+      "thumb": "/kASjJtV38sh40dOWiL3S5YzJZPv.jpg"
+    },
+    {
+      "name": "Alex Bonifer",
+      "order": 3,
+      "role": "Neil O'Connor",
+      "thumb": "/1VlKFAt5cPk5Mc6zcdsOMPtKbg8.jpg"
+    },
+    {
+      "name": "Brian Howe",
+      "order": 4,
+      "role": "Pete McRoberts",
+      "thumb": "/6JpzCLWbKG6Hp44r09ro0ZkJDSH.jpg"
+    },
+    {
+      "name": "Raymond Lee",
+      "order": 5,
+      "role": "Sam Park",
+      "thumb": "/1wRkhVFgVtEWoO9F61IHYB2FFvg.jpg"
+    }
+  ],
+  "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/wHyv89B7w7w8imbKtbzyS7pFWdU.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/wW8j4xiU27ZClUpkSP6si3x8BHA.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/wW8j4xiU27ZClUpkSP6si3x8BHA.jpg"
+      }
+    }
+  },
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        {
+          "aired": "2021-06-20",
+          "plot": "Kevin throws his annual \"Anniversa-rager\" party with help from Patty, Neil and Pete. After Patty reveals the truth about her bank accounts, Allison goes on a bender and makes a decision to take back control of her life.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rvIllwVvxEuUMWORYrdn9cBnyQH.jpg",
+          "title": "Living the Dream"
+        },
+        {
+          "aired": "2021-06-20",
+          "plot": "Allison witnesses an overdose and has an idea. It's Belichick hoodie day and Kevin feuds with the neighbors over a stolen package. Following a mysterious business card, Allison is led to Patty's Salon in town.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/9KhAa3XpeMQFJi0Clp9sZqO0wt4.jpg",
+          "title": "New Tricks"
+        },
+        {
+          "aired": "2021-06-27",
+          "plot": "Allison discovers the truth about Patty's Salon. Kevin and Neil compete in a chili cook-off.",
+          "thumbnail": "",
+          "title": "We're Selling Washing Machines"
+        },
+        {
+          "aired": "2021-06-27",
+          "plot": "A detective questions Patty about the pharmacy bust. Allison and Patty go on a road trip while Kevin comes up with a new moneymaking scheme in the basement. After multiple setbacks, Allison admits the truth about her plan to Patty.",
+          "thumbnail": "",
+          "title": "Live Free or Die"
+        },
+        {
+          "aired": "2021-07-04",
+          "plot": "Allison pushes the limits to see what she is capable of. Kevin, Neil and Pete attempt to replace Patty after kicking her out of the group. An ominous Nick shows up at Patty's salon, and a new job opportunity opens up for Allison at Bev's Diner.",
+          "thumbnail": "",
+          "title": "New Patty"
+        },
+        {
+          "aired": "2021-07-11",
+          "plot": "Allison and Patty make a deal with Nick. Kevin celebrates his birthday with two dinners. To Patty's surprise, she goes on a date with Tammy at the Vic House. Allison confronts Nick about going through with the plan her way.",
+          "thumbnail": "",
+          "title": "The Grand Victorian"
+        },
+        {
+          "aired": "2021-07-18",
+          "plot": "",
+          "thumbnail": "",
+          "title": "Broken"
+        }
+      ]
+    }
+  }
+}

@@ -9,6 +9,9 @@ export default (name) => {
   
   if (_name) {
     const { year } = ((_name.match(/\((?<year>\d{4})\)$/) || {}).groups || {});
+    
+    _name = _name.replace(/[*]/g, '-');
+    
     _name = sanitizeFilename(_name)
       .toLowerCase()
       .replace(/\s/g, '_')

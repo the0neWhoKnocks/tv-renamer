@@ -1,6 +1,16 @@
 # Changelog
 ---
 
+## v6.2.1
+
+**Bugfixes**
+- [aadd114](https://github.com/the0neWhoKnocks/tv-renamer/commit/aadd114):  Trailing comma in multi-episode names
+
+**Dev-Ops**
+- [237b207](https://github.com/the0neWhoKnocks/tv-renamer/commit/237b207):  Renamed e2e command to test
+
+---
+
 ## v6.2.0
 
 **Dev-Ops**

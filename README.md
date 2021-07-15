@@ -133,9 +133,9 @@ To get the GUI to work, follow the instructions for your OS.
 
 **Once an XServer is set up on your OS**, run:
 ```sh
-npm run e2e:watch
+npm run test:watch
 # if you already have the Containers and App built
-npm run e2e:watch -- --skip-build
+npm run test:watch -- --skip-build
 ```
 
 ---

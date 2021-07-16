@@ -1068,4 +1068,20 @@ context('Renamer', () => {
       cy.readFile(`${ E2E_FOLDER }/mnt/data/tmdb__cache/${ CACHE_NAME }`, 'utf8');
     });
   });
+  
+  it('should sanitize masked out curse words', () => {
+    const CACHE_NAME = 'dr._death.json';
+    const CACHE_FILE = `${ E2E_FOLDER }/mnt/data/tmdb__cache/${ CACHE_NAME }`;
+    
+    cy.readFile(CACHE_FILE, 'utf8').then(cache => {
+      cache.seasons['1'].episodes[5] = null;
+      cy.writeFile(CACHE_FILE, JSON.stringify(cache, null, 2), 'utf8');
+    });
+    
+    loadPageWithItems('dr. death').then(() => {
+      cy.get('@ITEMS_NAV__PREVIEW_BTN').click();
+      cy.get('.is--refresh').contains('Cache').click();
+      cy.get('.renamable__new-name-text').contains('Dr. Death - 1x05 - The ---- in the Bed');
+    });
+  });
 });

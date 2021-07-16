@@ -1,0 +1,136 @@
+{
+  "schema": 5,
+  "scrapeDate": 1626391270569,
+  "genres": [
+    "Drama",
+    "Crime"
+  ],
+  "id": 93749,
+  "mpaa": "TV-MA",
+  "name": "Dr. Death",
+  "plot": "The terrifying true story of Dr. Christopher Duntsch, a flourishing Dallas neurosurgeon whose patients suddenly begin becoming permanently maimed or dead. As victims piled up, two fellow physicians set out to stop him.",
+  "premiered": "2021-07-15",
+  "status": "Returning Series",
+  "studios": [
+    "Peacock"
+  ],
+  "actors": [
+    {
+      "name": "Joshua Jackson",
+      "order": 0,
+      "role": "Dr. Christopher Duntsch",
+      "thumb": "/fYfm2tlZwosEQ1NhE5RhZme9CMS.jpg"
+    },
+    {
+      "name": "Alec Baldwin",
+      "order": 1,
+      "role": "Dr. Robert Henderson",
+      "thumb": "/hzKy7x574eeUS3wt1R3yvWBRpeR.jpg"
+    },
+    {
+      "name": "Christian Slater",
+      "order": 2,
+      "role": "Dr. Randall Kirby",
+      "thumb": "/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg"
+    },
+    {
+      "name": "Grace Gummer",
+      "order": 3,
+      "role": "Kim Morgan",
+      "thumb": "/zjkPOqC81TXDfcag90y6miEOF7M.jpg"
+    },
+    {
+      "name": "AnnaSophia Robb",
+      "order": 4,
+      "role": "Michelle Shughart",
+      "thumb": "/tWlnAuyQeFidHcAo2zUVxNv0G0T.jpg"
+    },
+    {
+      "name": "Molly Griggs",
+      "order": 5,
+      "role": "Wendy Young",
+      "thumb": "/a2Eze5oRLlfyTIpWSxvMbbVTjVm.jpg"
+    },
+    {
+      "name": "Carrie Preston",
+      "order": 6,
+      "role": "Robbie McClung",
+      "thumb": "/cxqAk6PaZJ92mb9taka3XlcVlUU.jpg"
+    }
+  ],
+  "dvdSeasons": {},
+  "images": {
+    "fanarttv": {
+      "clearArt": [],
+      "clearLogo": [],
+      "seasonPoster": {},
+      "seasonThumb": {},
+      "seriesBackground": [],
+      "seriesBanner": [],
+      "seriesPoster": [],
+      "seriesThumb": []
+    },
+    "tmdb": {
+      "background": "https://image.tmdb.org/t/p/w1280/2VDmT4e5OSae8udIy5eXmIx4h9X.jpg",
+      "poster": "https://image.tmdb.org/t/p/w780/4xPIBtOWHzigSNTqbxftzAZS5uT.jpg",
+      "seasonPosters": {
+        "1": "https://image.tmdb.org/t/p/w780/4xPIBtOWHzigSNTqbxftzAZS5uT.jpg"
+      }
+    }
+  },
+  "seasons": {
+    "1": {
+      "episodes": [
+        null,
+        {
+          "aired": "2021-07-15",
+          "plot": "Two doctors investigate the maiming and death of patients at the hands of a Dallas neurosurgeon.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/rBi9d8BJdt6UdDyJ0MgnIYBoxTY.jpg",
+          "title": "Diplos"
+        },
+        {
+          "aired": "2021-07-15",
+          "plot": "Henderson and Kirby try to strip Duntsch of his medical license; Duntsch joins the football team.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/y0H5UtWqUtHbXiASmWEWoPQrmCa.jpg",
+          "title": "Ain't No Bum"
+        },
+        {
+          "aired": "2021-07-15",
+          "plot": "Duntsch meets his mentor; Henderson and Kirby explore the medical system.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/woCQD7xrMzbwT9JXOjPrnb0Ru9n.jpg",
+          "title": "Dock Ellis"
+        },
+        {
+          "aired": "2021-07-15",
+          "plot": "Henderson and Kirby crash a function in Duntsch's honor; Duntsch sets up his practice in Texas.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/nVomvwPJdaA7yCH9LEt117wn16r.jpg",
+          "title": "An Occurrence at Randall Kirby's Sink"
+        },
+        {
+          "aired": "2021-07-15",
+          "plot": "Duntsch begins operating in Dallas; Henderson and Kirby gain an ally in stopping Duntsch.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/10Ubvso4y1SPwCeeJvM55rNDBuE.jpg",
+          "title": "The ---- in the Bed"
+        },
+        {
+          "aired": "2021-07-15",
+          "plot": "Duntsch attempts to fix a disastrous surgery; Shughart builds her case against Duntsch.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/bzg4p7jvbJElXfxzoI575PNmy3J.jpg",
+          "title": "Occam's Razor"
+        },
+        {
+          "aired": "2021-07-15",
+          "plot": "Duntsch tries to mount a defense; Henderson, Kirby and Shughart seek answers to lingering questions.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/w8anFWPJbe8ZuYREhunAa2VfeJg.jpg",
+          "title": "Feet of Clay"
+        },
+        {
+          "aired": "2021-07-15",
+          "plot": "Duntsch's victims confront him as Henderson, Kirby and Shughart set out to put him behind bars.",
+          "thumbnail": "https://image.tmdb.org/t/p/w400/sBvrxXY4jvTznrixP57EbcLCXP3.jpg",
+          "title": "Hardwood Floors"
+        }
+      ]
+    }
+  }
+}

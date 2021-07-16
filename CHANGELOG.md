@@ -1,6 +1,13 @@
 # Changelog
 ---
 
+## v6.3.0
+
+**Features**
+- [792c660](https://github.com/the0neWhoKnocks/tv-renamer/commit/792c660):  Account for masked curse words
+
+---
+
 ## v6.2.1
 
 **Bugfixes**
